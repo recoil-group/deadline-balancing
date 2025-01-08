@@ -9,7 +9,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 6,,a3_angled_foregrip,A3 Angled,1,0.16,-1,-7,,,,,,,900
 7,,abom_cnc_works_picatinny_susat_adapter,Abom's CNC Works Picatinny SUSAT Adapter,0,0.06,,,,,,,,,300
 8,,trijicon_ac32062_mount,Trijicon AC32062 RMR Mount,-0.5,0.05,,,,,,,,,350
-9,,aeroknox_ax15_front_sight_base,Aeroknox AX15 Front Sight Base,0,0.02,,,,,,,,,400
+9,,aeroknox_ax15_front_sight_base,Aeroknox AX15 Front Sight Base,0,1,,,,,,,,,400
 10,,aeroknox_ax15_rear_sight_base,Aeroknox AX15 Rear Sight Base,0,0.02,,,,,,,,,400
 11,,aim_sports_low_profile_45_degree_sight_base,AIM Sports Low Profile 45 Degree Sight Base,0,0.02,,,,,,,,,400
 12,,aimpoint_30mm_low_ring,Aimpoint 30mm Low Ring,-0.5,0.03,,,,,,,,,200

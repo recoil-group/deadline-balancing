@@ -1,4 +1,4 @@
-﻿0.24.0,Thu Jan 09 12:59:35 2025,,,,,,,,,,,,,
+﻿0.24.0,Thu Jan 09 13:05:09 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -732,8 +732,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 372,,cmmg_mk9_lower_receiver,CMMG MK9,0,0.24,,,,,,,,,0
 ,mk9_dust_cover,,,,,,,,,,,,,
 373,,cmmg_mk9_dust_cover,CMMG MK9,1,0.03,0,0,,,,,,,0
-,mk9_bolt,,,,,,,,,,,,,
-374,,mk9_bolt,MK9 Bolt,0,0.07,,,,,,,,,0
+,ar9_bolt,,,,,,,,,,,,,
+374,,ar9_bolt,MK9 Bolt,0,0.07,,,,,,,,,0
 ,mk9_barrel,,,,,,,,,,,,,
 375,,kak_value_line_light_tapered_melonite_ar9_76mm_9x19_barrel,"KAK Value Line Light Tapered Melonite AR9 3"" 9x19",9,0.13,8,8,,0.3,-0.3,-300,,,750
 376,,cmmg_mk9_216mm_9x19_barrel,"CmmG Mk9 8.5"" 9x19",3,0.26,3,2,,0.12,-0.04,-90,,,900
@@ -1242,7 +1242,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,hexagon_dtkp_ak12_5.45x39_suppressor,Hexagon DTKP 5.45x39,-5,0.24,-12,-14,,-0.1,0.1,40,,,3000
 ,,hexagon_dtkp_ak74_shortened_5.45x39_suppressor,Hexagon Shortened DTKP 5.45x39,-4,0.18,-9,-13,,-0.05,0.05,20,,,3500
 ,,hexagon_dtkp_ak12_shortened_5.45x39_suppressor,Hexagon Shortened DTKP 5.45x39,-4,0.18,-9,-13,,-0.05,0.05,20,,,3500
-,,zenitco_dtk_1_muzzle_break,Zenitco Dtk-1,-2.5,0.12,-14,-12,,0.2,0.05,0,,,1000
+,,zenitco_dtk_1_muzzle_brake,Zenitco Dtk-1,-2.5,0.12,-14,-12,,0.2,0.05,0,,,1000
 ,ak_handguard_top_cover,,,,,,,,,,,,,
 682,,6p20_wooden_sb6_upper_piece,AK74 Wooden 6P20 Sb.6 Upper Piece,0,0.05,-1,-1,,,,,,,0
 683,,caf_wasr_10_63_wooden_upper_piece,Wooden CAF WASR 10-63 Upper Piece,0,0.05,-1,-1,,,,,,,200

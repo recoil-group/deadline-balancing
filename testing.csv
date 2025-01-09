@@ -1,4 +1,4 @@
-﻿0.24.0,Thu Jan 09 13:01:24 2025,,,,,,,,,,,,,
+﻿0.24.0,Thu Jan 09 13:05:09 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -12,7 +12,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 9,,aeroknox_ax15_front_sight_base,Aeroknox AX15 Front Sight Base,0,0.02,,,,,,,,,400
 10,,aeroknox_ax15_rear_sight_base,Aeroknox AX15 Rear Sight Base,0,0.02,,,,,,,,,400
 11,,aim_sports_low_profile_45_degree_sight_base,AIM Sports Low Profile 45 Degree Sight Base,0,0.02,,,,,,,,,400
-12,,aimpoint_30mm_low_ring,Aimpoint 30mm Low Ring,-0.5,0.03,,,,,,,,,200
+12,,aimpoint_30mm_low_ring_mount,Aimpoint 30mm Low Ring,-0.5,0.03,,,,,,,,,200
 13,,aimpoint_amm_dovetail_11mm_mount,Aimpoint AMM Dovetail Groove 11mm Mount,0,0.02,,,,,,,,,200
 14,,aimpoint_electronic_g2_red_dot,Aimpoint Electronic G2,-2,0.17,,,,,,,,,500
 15,,aimpoint_micro_lrp_qd_mount,Aimpoint Micro LRP QD Mount,0,0.03,,,,,,,,,300
@@ -102,7 +102,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 82,,pilad_p1x42,Pilad P1x42,-2.5,0.09,,,,,,,,,1000
 83,,priceli_narod_okp_7_picatinny,Priceli Narod OKP-7,-2,0.12,,,,,,,,,1000
 84,,pts_fortis_shift_tactical_grip,Pts Fortis Shift Tactical Grip,3,0.09,-5,-3,,,,,,,600
-85,,qrp_30mm_mount,QRP 30mm,-1,0.06,,,,,,,,,300
+85,,aimpoint_qrp1_30mm_mount,Aimpoint QRP 30mm,-0.5,0.07,,,,,,,,,300
+,,aimpoint_qrp1_30mm_mount_w_spacer,Aimpoint QRP 30mm w 39mm Spacer,-1,0.09,,,,,,,,,400
+,,wilcox_compm_30mm_mount,Wilcox COMP-M 30mm,-1,0.06,,,,,,,,,600
 86,,rk_b25_angled_mount,Rk B25 angled,-1,0.03,0,0,,,,,,,500
 87,,rk_foregrip_mount,Rk foregrip,-0.5,0.03,0,0,,,,,,,200
 88,,rk_short_foregrip_mount,Rk short foregrip,-0.5,0.02,0,0,,,,,,,200
@@ -463,7 +465,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,dual_ring_34mm_sight_mount,,,,,,,,,,,,,
 248,,nightforce_atacr7_35x56_f1,Nightforce ATACR 7-35x56 F1,-7,0.42,,-4,,,,,,,5000
 ,single_ring_30mm_sight_mount,,,,,,,,,,,,,
-249,,comp_m2,CompM2,-2,0.11,,,,,,,,,800
+249,,aimpoint_compm2_sight,Aimpoint CompM2,-2,0.11,,,,,,,,,800
 ,25mm_ring_mount,,,,,,,,,,,,,
 250,,armytek_predator_prov3_xhp35_hi,Armytek Predator Pro v3 XHP35 HI Flashlight,-2,0.16,,,,,,,,,750
 251,,ultrafire_wf501b_flashlight,Ultrafire WF-501B Flashlight,-1,0.12,,,,,,,,,500
@@ -730,8 +732,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 372,,cmmg_mk9_lower_receiver,CMMG MK9,0,0.24,,,,,,,,,0
 ,mk9_dust_cover,,,,,,,,,,,,,
 373,,cmmg_mk9_dust_cover,CMMG MK9,1,0.03,0,0,,,,,,,0
-,mk9_bolt,,,,,,,,,,,,,
-374,,mk9_bolt,MK9 Bolt,0,0.07,,,,,,,,,0
+,ar9_bolt,,,,,,,,,,,,,
+374,,ar9_bolt,MK9 Bolt,0,0.07,,,,,,,,,0
 ,mk9_barrel,,,,,,,,,,,,,
 375,,kak_value_line_light_tapered_melonite_ar9_76mm_9x19_barrel,"KAK Value Line Light Tapered Melonite AR9 3"" 9x19",9,0.13,8,8,,0.3,-0.3,-300,,,750
 376,,cmmg_mk9_216mm_9x19_barrel,"CmmG Mk9 8.5"" 9x19",3,0.26,3,2,,0.12,-0.04,-90,,,900
@@ -1240,7 +1242,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,hexagon_dtkp_ak12_5.45x39_suppressor,Hexagon DTKP 5.45x39,-5,0.24,-12,-14,,-0.1,0.1,40,,,3000
 ,,hexagon_dtkp_ak74_shortened_5.45x39_suppressor,Hexagon Shortened DTKP 5.45x39,-4,0.18,-9,-13,,-0.05,0.05,20,,,3500
 ,,hexagon_dtkp_ak12_shortened_5.45x39_suppressor,Hexagon Shortened DTKP 5.45x39,-4,0.18,-9,-13,,-0.05,0.05,20,,,3500
-,,zenitco_dtk_1_muzzle_break,Zenitco Dtk-1,-2.5,0.12,-14,-12,,0.2,0.05,0,,,1000
+,,zenitco_dtk_1_muzzle_brake,Zenitco Dtk-1,-2.5,0.12,-14,-12,,0.2,0.05,0,,,1000
 ,ak_handguard_top_cover,,,,,,,,,,,,,
 682,,6p20_wooden_sb6_upper_piece,AK74 Wooden 6P20 Sb.6 Upper Piece,0,0.05,-1,-1,,,,,,,0
 683,,caf_wasr_10_63_wooden_upper_piece,Wooden CAF WASR 10-63 Upper Piece,0,0.05,-1,-1,,,,,,,200

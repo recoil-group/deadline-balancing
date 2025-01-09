@@ -1,4 +1,4 @@
-﻿0.24.0,Sat Jan 04 11:46:41 2025,,,,,,,,,,,,,
+﻿0.24.0,Wed Jan 08 17:37:39 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -236,26 +236,26 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,daniel_defense_collapsible_milspec_buttstock,Daniel Defense Collapsible Milspec Stock,16,0.18,-8,-10,,,,,,,900
 ,,daniel_defense_concave_buttpad,Daniel Defense Concave Buttpad,1,0.02,-1,-1,,,,,,,0
 ,ak_fixed_stock,,,,,,,,,,,,,
-136,,fab_defense_uas_akn_p,FAB Defense UAS AKN P,10,0.14,-7,-16,,,,,,,500
-137,,izhmash_ak74_polymer_6p20_sb7,Polymer 6P20 Sb.7 Polymer,17,0.12,-7,-10,,,,,,,600
-138,,izhmash_ak74_wood_6p20_sb5,Wooden 6P20 Sb.5 Wooden,16,0.2,-8,-12,,,,,,,0
-139,,zenitco_akm_ak74_pt_lock,Zenitco AKM/AK74 PT Lock,-1,0.02,-1,-1,,,,,,,400
-140,,me_adapter,ME Adapter,-6,0.1,3,2,,,,,,,400
-141,,caa_akts_akm_ak74_buffer_tube,CAA AKTS AKM/AK74 Buffer Tube,2,0.09,-2,-2,,,,,,,750
-,,caa_cbs_ar15_stock,CAA CBS AR-15 Collapsible AR Stock,17,0.18,-9,-8,,,,,,,700
-142,,crh_customs_fixed_ak_triangle_stock,CRH Customs Fixed AK Triangle,19,0.1,-6,-5,,,,,,,750
-,,custom_3d_printed_fixed_acr_stock_adapter,Custom 3d Printed Fixed ACR Stock Adaptor,2,0.12,-3,-3,,,,,,,1400
-,,rifle_dynamics_ak_to_m4_gen2_stock_adapter,Rifle Dynamics AK-to-M4 Gen2 Stock Adaptor,-4,0.12,2,3,,,,,,,1200
+136,,fab_defense_uas_akn_p,FAB Defense UAS AKN P,16,0.3,-7,-14,,,,,,,700
+137,,izhmash_ak74_polymer_6p20_sb7,Polymer 6P20 Sb.7 Polymer,15,0.25,-7,-13,,,,,,,600
+138,,izhmash_ak74_wood_6p20_sb5,Wooden 6P20 Sb.5 Wooden,15,0.3,-8,-13,,,,,,,0
+139,,zenitco_akm_ak74_pt_lock,Zenitco AKM/AK74 PT Lock,0,0.04,0,0,,,,,,,700
+140,,me_adapter,ME Adapter,0,0.13,0,0,,,,,,,400
+141,,caa_akts_akm_ak74_buffer_tube,CAA AKTS AKM/AK74 Buffer Tube,-1,0.13,0,0,,,,,,,750
+,,caa_cbs_ar15_stock,CAA CBS AR-15 Collapsible AR Stock,18,0.18,-8,-10,,,,,,,700
+142,,crh_customs_fixed_ak_triangle_stock,CRH Customs Fixed AK Triangle,13,0.18,-10,-10,,,,,,,750
+,,custom_3d_printed_fixed_acr_stock_adapter,Custom 3d Printed Fixed ACR Stock Adaptor,5,0.16,1,1,,,,,,,1000
+,,rifle_dynamics_ak_to_m4_gen2_stock_adapter,Rifle Dynamics AK-to-M4 Gen2 Stock Adaptor,0,0.1,0,0,,,,,,,1200
 ,ak_stock_pad,,,,,,,,,,,,,
-,,utg_ak_rb_k7btp01_combat_rubber_stock_buttpad_ak74,UTG AK RB K7BTP01 Combat Rubber Buttpad AK74,3,0.12,,-1,,,,,,,600
-,,utg_ak_rb_k7btp01_combat_rubber_stock_buttpad_pp19,UTG AK RB K7BTP01 Combat Rubber Buttpad PP19,3,0.1,,-1,,,,,,,600
+,,utg_ak_rb_k7btp01_combat_rubber_stock_buttpad_ak74,UTG AK RB K7BTP01 Combat Rubber Buttpad AK74,2,0.12,-1,0,,,,,,,600
+,,utg_ak_rb_k7btp01_combat_rubber_stock_buttpad_pp19,UTG AK RB K7BTP01 Combat Rubber Buttpad PP19,2,0.12,-1,0,,,,,,,600
 ,ak_zhukov,,,,,,,,,,,,,
-,,magpul_zhukov_s_main_body,Magpul ZHUKOV-S Main Body,7,0.12,-6,-7,,,,,,,200
-,,magpul_zhukov_s_extendable_part,Magpul ZHUKOV-S Extendable Part,6,0.09,-6,-6,,,,,,,200
-,,magpul_zhukov_s_press_part,Magpul ZHUKOV-S Press Part,4,0.07,0,0,,,,,,,200
+,,magpul_zhukov_s_main_body,Magpul ZHUKOV-S Main Body,16,0.12,-11,-11,,,,,,,700
+,,magpul_zhukov_s_extendable_part,Magpul ZHUKOV-S Extendable Part,0,0.09,,,,,,,,,0
+,,magpul_zhukov_s_press_part,Magpul ZHUKOV-S Press Part,0,0.05,,,,,,,,,0
 ,ak_moe_stock,,,,,,,,,,,,,
-,,magpul_moe_a_frame_fixed_ak_stock,Magpul MOE A Frame Fixed AK Stock,11,0.12,-4,-5,,,,,,,1500
-,,magpul_moe_a_frame_stock_buttpad,Magpul MOE A Frame Stock Buttpad,10,0.07,-6,-6,,,,,,,0
+,,magpul_moe_a_frame_fixed_ak_stock,Magpul MOE A Frame Fixed AK Stock,17,0.24,-8,-8,,,,,,,1200
+,,magpul_moe_a_frame_stock_buttpad,Magpul MOE A Frame Stock Buttpad,1,0.05,-1,-1,,,,,,,0
 ,ak_hera_stock,,,,,,,,,,,,,
 ,,hera_arms_cqr_gen1_ak_stock,Hera Arms CQR Gen 1 AK Stock,10,0.35,-15,-20,,,,,,,2000
 ,,hera_arms_cqr_ak_buttpad,Hera Arms CQR AK Buttpad,2,0.05,-2,-2,,,,,,,0
@@ -1199,7 +1199,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 656,,zenitco_ak74m/ak100_pt_lock,Zenitco AK74M/AK100 PT Lock,-0.5,0.04,-1,-1,,,,,,,300
 657,,ak12_gen1_buffer_tube,Kalashnikov Concern AK-12 Gen 1,-1.5,0.14,-6,-6,,-0.1,,,,,500
 658,,caa_aksfsa_ak74m/ak100_buffer_tube,CAA AKSFSA AK74M/AK100 Buffer Tube,-1,0.15,-5,-5,,,,,,,1000
-,,magpul_zhukov_s_hinge_part,Magpul ZHUKOV-S Hinge Part,2,0.04,,,,,,,,,300
+,,magpul_zhukov_s_hinge_part,Magpul ZHUKOV-S Hinge Part,0,0.07,,,,,,,,,600
 ,ak_lower_receiver,,,,,,,,,,,,,
 659,,ak74n_lower_receiver,AK74N,8,0,,,,,,,,,0
 ,ak_sight_mount,,,,,,,,,,,,,
@@ -2223,7 +2223,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,swivel_mount,,,,,,,,,,,,,
 1194,,harris_hbr_base,Harris HBR Bipod Base,-1,0.03,,,,,,,,,500
 ,tailhook_brace,,,,,,,,,,,,,
-1195,,ghw_tailhook_mod1_brace_small,GHW Tailhook MOD 1,12,0.09,-5,-5,,,,,,,
+1195,,ghw_tailhook_mod1_brace_small,GHW Tailhook MOD 1,12,0.09,-5,-5,,,,,,,0
 1196,,ghw_tailhook_mod1_brace_big,GHW Tailhook MOD 1,11,0.09,-5,-5,,,,,,,400
 ,thunderbeast_ultra,,,,,,,,,,,,,
 1197,,tb_5,Thunder Beast Ultra 5,-1,0.09,-14,-12,,-0.05,0.04,50,,,1200
@@ -2261,17 +2261,17 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1215,,grip_pod_gps_02_legs_ext,GPS-02 Extended,-3,0.09,-6,-7,,,,,,,0
 1216,,grip_pod_gps_02_legs_col,GPS-02 Collapsed,-1,0.09,-4,-5,,,,,,,0
 ,zenitco_pt_lock,,,,,,,,,,,,,
-1217,,zenitco_pt_1_klassika_base_part,"Zenitco PT-1 ""Klassika"" Base Part",-4,0.12,-2,-5,,,,,,,400
-1218,,zenitco_pt_3_base_part,Zenitco PT-3 Adjustable,6,0.1,3,1,,,,,,,800
+1217,,zenitco_pt_1_klassika_base_part,"Zenitco PT-1 ""Klassika"" Base Part",0,0.09,,,,,,,,,0
+1218,,zenitco_pt_3_base_part,Zenitco PT-3 Adjustable,0,0.11,,,,,,,,,0
 ,zenitco_pt_buttpad,,,,,,,,,,,,,
-1219,,zenitco_pt_1_klassika_buttpad,"Zenitco PT-1 ""Klassika""",13,0.05,-7,-5,,,,,,,200
-1220,,zenitco_pt_3_buttpad,Zenitco PT-3 Buttpad,17,0.06,-5,-3,,,,,,,200
-1221,,isle_mfg_zenitco_pt_1_tailhook_adapter,Isle MFG Zenitco PT-1,-1,0.07,0,2,,,,,,,500
+1219,,zenitco_pt_1_klassika_buttpad,"Zenitco PT-1 ""Klassika""",13,0.07,-13,-14,,,,,,,800
+1220,,zenitco_pt_3_buttpad,Zenitco PT-3 Buttpad,22,0.15,-7,-8,,,,,,,700
+1221,,isle_mfg_zenitco_pt_1_tailhook_adapter,Isle MFG Zenitco PT-1,5,0.04,-2,-2,,,,,,,750
 ,zenitco_pt_cheekpad,,,,,,,,,,,,,
-1222,,zenitco_pt_1_klassika_cheekpad,"Zenitco PT-1 ""Klassika"" Cheekpad",3,0.04,-5,-4,,,,,,,0
-1223,,zenitco_pt_3_cheekpad,Zenitco PT-3 Cheekpad,3,0.04,-3,-4,,,,,,,0
+1222,,zenitco_pt_1_klassika_cheekpad,"Zenitco PT-1 ""Klassika"" Cheekpad",0,0.06,,,,,,,,,0
+1223,,zenitco_pt_3_cheekpad,Zenitco PT-3 Cheekpad,0,0.08,,,,,,,,,0
 ,zenitco_pt_adjust_part,,,,,,,,,,,,,
-1224,,zenitco_pt_1_klassika_adjust_part,"Zenitco PT-1 ""Klassika"" Adjustable",0,0.03,,,,,,,,,0
+1224,,zenitco_pt_1_klassika_adjust_part,"Zenitco PT-1 ""Klassika"" Adjustable",0,0.09,,,,,,,,,0
 ,zenitco_rk_grip_angled,,,,,,,,,,,,,
 1225,,zenit_rk6_angled,Zenitco Rk-6,5,0.04,-2,-3,,,,,,,500
 1226,,zenit_rk5_angled,Zenitco Rk-5,3,0.05,-4,-4,,,,,,,500

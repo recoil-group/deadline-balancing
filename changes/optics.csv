@@ -176,5 +176,6 @@ armasight_orion_3x_gen1_plus_nv_scope,Armasight Orion 3x Gen1+ Night Vision Scop
 ncstar_vism_gen2_carry_handle,NcStar VISM Gen2 Carry Handle,1,0.13,,,,,,,,,1000,,,12.1,0.1773,,
 ncstar_vism_micro_green_dot_red_laser_vdgrlb,NcStar VISM Micro Green Dot w/ Red Laser VDGRLB,-3,0.06,,,,,,,,,700,,,,0.02,,
 ,,,,,,,,,,,,,,,,0.02,,
-,,,,,,,,,,,,,,,,0.02,,
-,,,,,,,,,,,,,,,,0.02,,
+npz_pso_1_4x24_picatinny_scope,NPZ PSO-1 4x24 Picatinny Scope,-3,0.21,,-1,,,,,,,1200,,,,0.02,,
+npz_pso_rear_cup,NPZ PSO Rear Cup,2,0.02,,,,,,,,,0,,,,0.02,,
+npz_pso_front_cup,NPZ PSO Front Cup,1,0.02,,,,,,,,,0,,,,0.02,,

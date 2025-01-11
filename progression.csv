@@ -1,265 +1,265 @@
-﻿PROFILE_REWARDS,GENERIC
-name,value,comment
-points_per_kill,75,points per player killed with any method
-points_per_headshot,150,additional points if a player kills someone with 
-points_per_point_capture,1000,points given out when a player is standing on a point when it's captured
-points_per_second_of_point_hold,18,points given out every second a player spends inside a captured point
-cash_per_kill,60,cash per player killed with any method
-cash_per_headshot,150,additional cash if a player kills someone with a headshot
-cash_per_point_capture,800,cash given out when a player is standing on a point when it's captured
-cash_per_second_of_point_hold,18,cash given out every second a player spends inside a captured point
-suppression_multiplier,1,the general amount of suppression in the game
-points_per_mvp,1250,Points given for being #1 on the leaderboard when a match ends
-cash_per_mvp,1250,Cash given for whatever you get it
-points_per_first_match,750,points given out for the first match of the day
-cash_per_first_match,750,cash per first match of the day
-victory_multiplier,1.25,money multiplier for winning
-tdm_kill_multiplier,1.25,kill cash+exp multiplier for tdm
-plr_shove_limb_damage,35,
-plr_shove_torso_damage,55,
-plr_shove_headshot_damage,100,
-plr_shove_bayonet_limb_damage,49,
-plr_shove_bayonet_torso_damage,100,
-plr_shove_bayonet_headshot_damage,105,
-plr_shove_distance,3,
-plr_shove_bayonet_distance,4,
-,,
-,,
-,,
-,,
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-CHARACTER,LIST,
-experience,level,unlocks,difference in xp
-0,0,Cash:3000 Bonds:10 M4A1 Glock17 M67,
-1000,1,Cash:2000 AK74N Makarov,0
-3500,2,Cash:2500 Bonds:3,1000
-6000,3,Cash: 2500 Bonds:3 Smoke,2500
-9000,4,Cash:2500 Bonds:2,2500
-12500,5,Bonds:2 MP5,3000
-16500,6,Cash:3000 Bonds:3,3500
-21000,7,Cash:3000 Bonds:3,4000
-26000,8,Cash:1000 Bonds:3 TT33 Flashbang,4500
-31300,9,Cash:4500 Bonds:3,5000
-37000,10,Bonds:3 PP19 F1,5300
-43000,11,Cash:5000 Bonds:3,5700
-49500,12,Cash:1000 Bonds:3 MosinNagant,6000
-56500,13,Cash:1500 Bonds:3 Glock20,6500
-64000,14,Cash:6000 Bonds:3,7000
-72000,15,Bonds:3 AKMN,7500
-80500,16,Cash:6500 Bonds:3,8000
-89500,17,Bonds:4 UMP45,8500
-99000,18,Cash:7000 Bonds:4,9000
-109000,19,Bonds:4 SA58,9500
-119500,20,Cash:7500 Bonds:4,10000
-130500,21,Bonds:4 MK9,10500
-141700,22,Cash:8000 Bonds:4,11000
-153500,23,Bonds:4 MP133,11200
-165500,24,Cash:8000 Bonds:4,11800
-178000,25,Bonds:4 AK12,12000
-192000,26,Cash:8000 Bonds:4,12500
-207000,27,Bonds:5 Remington870,14000
-222300,28,Cash:8000 Bonds:4,15000
-238000,29,Bonds:5 QBZ95,15300
-255000,30,Cash:8000 Bonds:4,15700
-275000,31,Cash:8000 Bonds:4,17000
-298000,32,Bonds:5 HK416A5,20000
-323000,33,Cash:8000 Bonds:4,23000
-350000,34,Cash:8000 Bonds:4 G3,25000
-380000,35,Bonds:5 Remington700,27000
-420000,36,Cash:8000 Bonds:4,30000
-463000,37,Bonds:5 SCARL,40000
-510000,38,Cash:8000 Bonds:4,43000
-560000,39,Bonds:5 AUG_A3,47000
-612000,40,Cash:8000 Bonds:4,50000
-666000,41,Cash:2000 Bonds:5 SCARH,52000
-724000,42,Cash:8000 Bonds:4,54000
-784000,43,Cash:8000 Bonds:4,58000
-846000,44,Cash:1000 Bonds:5 EDC_X9,60000
-910000,45,Cash:8000 Bonds:4,62000
-976000,46,Cash:8000 Bonds:4,64000
-1044000,47,Cash:1000 Bonds:5 AK308,66000
-1114000,48,Cash:8000 Bonds:4,68000
-1184000,49,Cash:8000 Bonds:4,70000
-1254000,50,Cash:8000 Bonds:4,70000
-1324000,51,Cash:8000 Bonds:4,70000
-1404000,52,Cash:1000 Bonds:5 SCAR47,70000
-1485000,53,Cash:8000 Bonds:4,80000
-1567000,54,Cash:8000 Bonds:4,81000
-1650000,55,Cash:8000 Bonds:4,82000
-1734000,56,Cash:8000 Bonds:4,83000
-1819000,57,Cash:8000 Bonds:4,84000
-1905000,58,Cash:8000 Bonds:4,85000
-1995000,59,Cash:1000 Bonds:5 Vector,86000
-2086000,60,,90000
-2178000,61,,91000
-2271000,62,,92000
-2365000,63,,93000
-2460000,64,,94000
-2556000,65,,95000
-2656000,66,,96000
-2757000,67,,100000
-2859000,68,,101000
-2962000,69,,102000
-3066000,70,,103000
-3171000,71,,104000
-3277000,72,,105000
-3387000,73,,106000
-3498000,74,,110000
-3610000,75,,111000
-3723000,76,,112000
-3837000,77,,113000
-3952000,78,,114000
-4068000,79,,115000
-4188000,80,,116000
-4309000,81,,120000
-4431000,82,,121000
-4554000,83,,122000
-4678000,84,,123000
-4678000,85,,124000
-
-M4A1,LIST,,
-experience,level,unlocks,difference in xp
-0,0,colt_m4a1_std_upper_receiver colt_m4a1_std_lower_receiver colt_m4a1_carry_handle colt_m4a1_charging_handle colt_m4a1_5.56x45_368mm_govt_c_barrel colt_m4a1_front_side_sling_swivel m4a1_std_dust_cover jg_usgi_a2_birdcage_m4a1_flash_hider m4a1_556_bolt colt_m4a1_receiver_endplate colt_m4a1_castlenut colt_m4_std_carbine_plastic_handguard colt_m4a1_trigger_guard m4a1_std_bolt_catch colt_m4a1_std_trigger m4a1_std_fire_selector m4a1_std_mag_release 5.56x45_colt_ar15_stanag_30r stanag_30r_plate colt_m4fs_gasblock colt_rear_ironsight_200m colt_m4ss_stock colt_buffer_tube colt_a2_pistol_grip 5.56x45_federal_american_eagle_training_xm193blx_55gr_fmj colt_retro_a1_scope_carry_handle_mount colt_retro_a1_4x21_scope picatinny_section stanag_bottom_plate,
-250,1,fab_defense_upr_16_4_bottom fab_defense_upr_16_4_top tangodown_bgv_mk46k_grip colt_m16a2_carry_handle_upper_receiver,250
-600,2,kac_rear_sight_base kac_front_sight_base kac_front_sight_folded kac_front_sight kac_front_sight kac_rear_sight_folded kac_rear_sight windham_weaponry_railed_ar15_gasblock,350
-1100,3,utg_ms_qd_foregrip kac_2rib_railpanel kac_4rib_railpanel,500
-1700,4,pts_fortis_shift_tactical_grip kac_5rib_railpanel kac_6rib_railpanel,600
-2400,5,ultrafire_wf501b_flashlight 25mm_universal_mount,700
-3200,6,fn_scar_rear_sight fn_scar_rear_sight_600m_aperture fn_scar_rear_sight_200m_aperture fn_scar_rear_sight_folded fn_scar_rear_sight_base,800
-4100,7,sightmark_lopro_combo colt_ca2r,900
-5100,8,magpul_mbus_gen2_base magpul_mbus_gen2_rear_top_folded magpul_rearsight_post200m magpul_rearsight_post600m magpul_mbus_gen2_rear_top magpul_mbus_gen2_front_top magpul_mbus_gen2_frontsight_post magpul_mbus_gen2_front_top_folded ,1000
-6200,9,sb_tactical_vector_brace bt_st6012 timber_creek_enforcer_pistol_grip,1100
-7400,10,5.56x45_brwnls_stanag_ss_20r 5.56x45_brwnls_stanag_25r 5.56x45_cbcdefense_m196_55gr_red_tracer,1200
-8700,11,kac_ras_m4a1_handguard magpul_223_mag_assist_misc2 magpul_223_mag_assist_misc1 magpul_223_mag_assist_misc3 magpul_223_mag_assist_pmag magpul_223_mag_assist_straightstanag,1300
-10100,12,rtm_pillau_tactical_grip aimpoint_electronic_g2_red_dot,1400
-11600,13,colt_m4a1_5.56x45_368mm_socom_c_barrel nordic_corvette_556 pri_ar15_std_carry_handle_mount,1500
-13200,14,hensoldt_z24_fero_4x24 z24_covers arms_no5_mount kac_ras_free_float_5inch,1600
-14900,15,doublestar_ace_m4_socom_gen4_stock doublestar_ace_0.5_recoil_pad moe_sl_handguard,1700
-16700,16,juggernaut_tacticals_featureless_grip psa_custom_trigger timber_creek_enforcer_handstop burris_prism_ar332_carry_handle burris_prism_ar332,1800
-18600,17,leapers_utg_model_15_fixed_a2_ar15_stock usgi_m16a1_triangle_handguard utg_super_slim_vertical_foregrip,1900
-20600,18,trijicon_rx01/06_series_1x24_reflex_sight_ch trijicon_rx01/06_series_1x24_reflex_sight trijicon_rx14_mount,2000
-22700,19,burris_ar_prb_mount danieldefense_mk12_low_profile_gasblock ti_stock troy_m7a1,2100
-24900,20,kac_11rib_railpanel kac_9rib_railpanel ar_tr2_stock ar_tr2_pad trijicon_srs02 insight_technology_an_peq_2a_tpial,2200
-27200,21,armaspec_victory_charging_handle troy_claymore556 aim_sports_mt026_mount colt_a2_buffer hera_hrs_light_stock,2300
-29600,22,leupold_mark_4_carry_handle_mount trijicon_rx10_gooseneck_mount xtm_2_piece xtm_4_piece xtm_full_handstop,2400
-32100,23,jt_5.5inch_flashsuppressor colt_a2_std_rifle_plastic_handguard gral_s_pistol_grip thordsen_frs15_cover_stock thordsen_frs_15_stock t_frs15_pad brwnls_a1_m4a1_5.56x45_508mm_govt_r_barrel aeroknox_ax15_upper_receiver,2500
-34700,24,mdt_premier_avp_grip colt_m4a1_5.56x45_317mm_govt_c_barrel monster_10i_type_a_handguard sightmark_lopro_mini_combo tc_enforcer_small_charging_handle,2600
-37400,25,2a_armament_builder_series_gen1_10inch_handguard magpul_trigger_guard monstrum_prism_2x32_scope,2700
-40200,26,abom_cnc_works_picatinny_susat_adapter usi_l12a1_susat_combat_optic susat_backup_sights ss_combo_mount ss_lrs1_suppressor,2800
-43100,27,gemtech_gmt_halo mt012h_riser mt012l_riser mt012m_riser brwnls_xm177_car cf_rubber_buttpad,2900
-46100,28,colt_m4a1_5.56x45_267mm_govt_c_barrel 2a_armament_builder_series_gen1_7inch_handguard magpul_mlok_1.6_bottom magpul_mlok_1.6_side magpul_mlok_1.6_top railscales_rsb_vg,3000
-49200,29,si_viper_mod1_stock viper_rubber_pad annihilator_556 diemaco_c7_ambi_charging_handle las_tac_2 diemaco_tri_ad_i_mount,3100
-52400,30,magpul_mvg rm33_mount ac32062_mount trijicon_rmr_rm06_type2_adj_led_reflex,3200
-55700,31,armytek_predator_prov3_xhp35_hi insight_technology_an_peq_5_cvl magpul_afg_2_grip magpul_prs_gen2_stock,3300
-59100,32,fortis_la_stock generic_5_slot_mlok_rail_side generic_5_slot_mlok_rail_top generic_5_slot_mlok_rail_bottom generic_7_slot_mlok_rail_bottom generic_7_slot_mlok_rail_top generic_7_slot_mlok_rail_side generic_9_slot_mlok_rail_top generic_9_slot_mlok_rail_side generic_9_slot_mlok_rail_bottom kac_qdc_m4qd_5.56x56_flash_suppressor kac_qdss_nt4_5.56x45_suppressor,3400
-62600,33,lvoa_s_handguard kac_ras_free_float_12inch kac_mre_ras_free_float_12inch ncstar_marsv2_top ncstar_marsv2_bottom,3500
-66200,34,generic_11_slot_mlok_rail_bottom generic_11_slot_mlok_rail_side generic_11_slot_mlok_rail_top generic_13_slot_mlok_rail_bottom generic_13_slot_mlok_rail_side generic_13_slot_mlok_rail_top leupold_deltapoint_reflex_sight leupold_deltapoint_pro_cross_slot leupold_deltapoint_pro_ar deltapoint_attachment,3600
-69900,35,kac_micro_rear_sight_base kac_micro_front_sight_base kac_micro_front_sight_folded kac_micro_front_sight kac_micro_front_sight_sight kac_micro_rear_sight_folded kac_micro_rear_sight valday_1p87,3700
-73700,36,aimpoint_30mm_low_ring qrp_30mm_mount comp_m2 stark_se_5_express_forward_grip trijicon_sro,3800
-77600,37,hk_slim_stock a3_angled_foregrip zenitco_klesch_2p_lcu si_link_curved_mlok_fg pmm_scar_modified_grip_hogue ips_5.56x45_2inch_barrel_extension ips_5.56x45_1inch_barrel_extension,3900
-81600,38,5.56x45_magpul_pmag_m3_20r magpul_std_m3_bottom_plate 5.56x45_magpul_pmag_m3_10r fab_defense_tactical_lightweight_vertical_grip m16_m4_carryhandle_z_rail z_rail_side_mount2 z_rail_side_mount1,4000
-85700,39,leupold_deltapoint_pro_sight rk_foregrip_mount zenit_rk0 zenit_rk4 zenit_rk0_angled zenit_rk4_angled mrs_reflex dd_enhanced_mvg ncstar_mpr45_offset_mount,4100
-89900,40,monster_15i_type_a_handguard x_caliber_ar_15_.223wylde_457mm_spiral_6groove_m_barrel brwnls_m4a1_5.56x45_406mm_socom_c_barrel brwnls_m4a1_5.56x45_406mm_govt_m_barrel,4200
-94200,41,hk_battle_pistol_grip trijicon_rmr_ac32066_offset kac_vpg mk10_rl_handguard mk10_top_adapter_large mk10_top_adapter_small mk10_bottom_adapter_large mk10_bottom_adapter_small mk10_side_adapter_large mk10_side_adapter_small,4300
-98600,42,magpul_ranger_m3_bottom_plate 5.56x45_fn_scar_30r fn_scar_l_std_magplate td_skeletonized_pistol_grip vltor_emod_stock ncstar_blastar_vkarmw_magwell tc_enforcer_charging_handle emod_pad,4400
-103100,43,colt_m4a1_5.56x45_190mm_govt_p_barrel veriforce_tactical_ar15_4inch_ultralight_mlok_freefloat_hg leupold_deltapoint_pro_ar_dloc zenit_rk2 zenit_rk2_angled pilad_p1x42 magpul_rvg kac_m5_ras_upper_handguard kac_m5_ras_lower_handguard mission_first_folding_grip,4500
-107700,44,hk_ergo_psg_pistol_grip sig_sauer_romeo4_sight sig_sauer_romeo4_low sig_sauer_romeo4_mount kinect_development_group_qd_3slot_rail_side kinect_development_group_qd_3slot_rail_top kinect_development_group_qd_3slot_rail_bottom,4600
-112400,45,aim_sports_low_profile_45_degree_sight_base aim_sports_front_sight aim_sports_rear_sight_folded aim_sports_front_sight_folded aim_sports_rear_sight brwnls_m4a1_5.56x45_508mm_hbar_r_barrel,4700
-117200,46,zenit_rk1 zenit_rk1_angled zenit_rk6 zenit_rk6_angled 2a_armament_builder_series_gen1_12inch_handguard 2a_armament_builder_series_gen1_15inch_handguard kinect_development_group_qd_7slot_rail_bottom kinect_development_group_qd_7slot_rail_side kinect_development_group_qd_7slot_rail_top,4800
-122100,47,lvoa_c_handguard zenit_rk5 zenit_rk5_angled dd_mk18_fsp_ris_2_9.55_handguard dd_mk18_ris_2_9.55_handguard magpul_moe_ar15_pistol_grip cobra_ekp_8_18 lmt_sopmod lmt_pad,4900
-127100,48,holosun_hs401g5 5.56x45_magpul_pmag_m3_30r 5.56x45_winchester_m855_62gr_fmj_greentip_vm855 ti_enhanced_trigger_guard,5000
-132200,49,magpul_moe_k2_ar15_pistol_grip holosun_ls321g larue_qd_lt_101 jp_enterprises_5b_gasblock magpul_moe_carbine_stock magpul_moe_butt_pad magpul_str_butt_pad unity_fast_micro_mount,5100
-137400,50,stngr_lvnc_10i stngr_hwk_15i 5.56x45_magpul_pmag_m3_40r cmc_dropin_trigger ncstar_blue_lam_module,5200
-142900,51,5.56x45_hk_polymer_transparent_30r hk_mag_plate leupold_cq_deltapoint_pro_rear_ironsight bcm_mod3_mlok_fg bcm_mod3_mlok_fg_flipped zenit_belomo_pk06,5500
-148650,52,magpul_prs_gen3_stock prs_adjustable_piece prs_gen3_buttpad armaspec_rhino_r23_tactical_magwell elcan_c79a2 elcan_alt_view,5750
-154650,53,npz_1p78_1_2.8x_kashtan_scope npz_1p78_kashtan_p1_picatinny_adapter rk_short_foregrip_mount rk_b25_angled_mount si_ar_are_t7_buffer_tube,6000
-160900,54,5.56x45_x15m_drum_50r bravo_comp_gunfighter_charging_handle 5.56x45_novx_copper_pentagon_55gr_mchp_556n55cp eotech_eflx_mini_red_dot ips_5.56x45_4inch_barrel_extension,6250
-167400,55,viking_tactical_uvg_grip grip_pod_gps_02_legs_ext grip_pod_gps_02_legs_col grip_pod_gps_02_body,6500
-174150,56,priceli_narod_okp_7_picatinny firefield_mg_kemper_xl_reflex_sight magpul_xtm_enhanced_half_panel_1 magpul_xtm_enhanced_handstop_1 magpul_xtm_enhanced_panel_1 magpul_xtm_enhanced_short_handstop_1 magpul_xtm_enhanced_half_panel_2 magpul_xtm_enhanced_handstop_2 magpul_xtm_enhanced_panel_2 magpul_xtm_enhanced_short_handstop_2,6750
-181150,57,sig_sauer_romeo4t_sight sig_sauer_romeo4t_1/3_cowitness_mount romeo4t_lens_caps romeo4t_folded_lens_caps unity_fast_optics_riser tb_mount_223_mb tb_5,7000
-188400,58,matech_usgi_rear_buis_base matech_usgi_rear_buis_aperture_folded matech_usgi_rear_buis_aperture radianweapons_raptor_ambi_handle zenitco_perst_3_classic_gen4_green sai_10_qd_handguard syoss_jail_brake,7250
-195900,59,dd_m4a1_ris_2_12.25_handguard dd_m4a1_fsp_ris_2_12.25_handguard trijicon_ta01nsn_carry_handle trijicon_ta01nsn acog_fs acog_rs trijicon_ta51_flattop_mount rm35 magpul_str_carbine_stock,7500
-203650,60,swampfox_kingslayer_sight tb_7 timney_trigger sai_14.5_qd_handguard battle_arms_rack_charging_handle timber_creek_enforcer_foregrip ak12_gen1_std_stock,7750
-211650,61,cmmg_ar_15_5.56x45_610mm_fluted_r_barrel ncstar_mark_3_tactical_gen2_3_9x42 noveske_gen3_ar15_upper_receiver,8000
-219900,62,sig_sauer_romeo5_1x20_sight sig_sauer_romeo5_low_mount geissele_smr_mk16_mlok_urg_i_9.3inch,8250
-228400,63,5.56x45_magpul_pmag_m3_windowed_30r 5.56x45_cbcdefense_sat_ip_62gr_clf_aep_97,8500
-237150,64,hera_arms_cqr_gen1_foregrip hera_arms_cqr_gen1_pistol_grip_stock 15mm_cqr 30mm_cqr 45mm_cqr,8750
-246150,65,sig_sauer_bravo4_4x30 surefire_warcomp_5.56x45_flash_hider surefire_socom556_rc2_suppressor,9000
-255400,66,aimpoint_micro_t1_sight aimpoint_micro_spacer_low_30mm aimpoint_micro_spacer_high_39mm aimpoint_amm_dovetail_11mm_mount,9250
-264900,67,primary_arms_slx_1x_microprism_acss_g2_scope primary_arms_slx_1.1inch_mount primary_arms_slx_1.53inch_straight_spacer geissele_smr_mk16_mlok_urg_i_10.5inch,9500
-274650,68,l3harris_atpial_an_peq_15 lone_star_armory_tx15_regular_ar15_upper_receiver,9750
-284650,69,zenit_belomo_prc_red_dot kac_urx_4_mlok_8.5inch_handguard,10000
-294900,70,hera_arms_straight_pull_charging_handle geissele_smr_mk16_mlok_urg_i_13.5inch,10250
-305400,71,sig_sauer_romeo3_low_rise_mount sig_sauer_qd_1.41_cowitness_romeo3_riser sig_sauer_romeo3,10500
-316150,72,trijicon_acog_ta11d_bac trijicon_acog_ta11d_bac_carry_handle,10750
-327150,73,eotech_553 ddw_adapter ddw_qd,11000
-338400,74,elcan_specter_os4x_sfov4 kac_urx_4_mlok_10.75inch_handguard,11250
-349900,75,aimpoint_micro_lrp_qd_mount rise_blitz_trigger,11500
-361900,76,vortex_optics_razor_amg_uh1_gen1_sight lone_star_armory_tx15_light_ar15_upper_receiver,12000
-374400,77,zenit_belomo_picatinny_mount_pkas zenit_belomo_pk_as,12500
-387400,78,eotech_g33_3x_magnifier eotech_sts_pivot_mount eotech_magn_7mm_riser_1 eotech_magn_7mm_riser_2 eotech_sts_picatinny_mount,13000
-400900,79,insight_technology_wmx200_fixed_mount_tactical_illuminator,13500
-414900,80,elcan_specterdr_1_4x_dfov14_t1 magpul_ubr_gen2_buffer ubr_gen2_stock vltor_mur1s_ar15_upper_receiver,14000
-429400,81,aimpoint_micro_t2_sight aimpoint_micro_t2_lens_caps,14500
-444400,82,vortex_optics_sport_cantilever_cm_102_30mm_2inch_offset eotech_vudu_1_6x24,15000
-459900,83,trijicon_compact_acog_3x24_ta50c_red trijicon_compact_acog_ac12041_mount,15500
-475900,84,tb_9 burris_ar_pepr_30mm_mount bcm_gunfighter_kag,16000
-492400,85,eotech_exps3 hera_arms_ccs_stock 5.56x45_surefire_mag560_60r_mag,16500
-509400,86,l3harris_mipim_an_peq_16b geissele_smr_mk16_mlok_urg_i_15inch,17000
-526900,87,vortex_optics_sport_cantilever_cm_203_30mm_3inch_offset,17500
-544900,88,unity_fast_lpvo_30mm_mount 5.56x45_magpul_pmag_60r noveske_marked_vltor_mur1s_ar15_upper_receiver,18000
-563400,89,eotech_xps3_0 gemtech_adapter gemtech_1_762,18500
-582400,90,be_meyers_mawl_c1+ kac_urx_4_mlok_13inch_handguard,19000
-601900,91,trijicon_compact_acog_3x24_ta50c_green,19500
-621900,92,badger_ordnance_comm_30mm_mount_body badger_ordnance_comm_30mm_ring_half,20000
-642400,93,gbrs_group_aimpoint_hydra_mount_kit,20500
-663400,94,unity_fast_offset_optic_base unity_offset_optic_rmr_adapter_plate,21000
-684900,95,nightforce_atacr7_35x56_f1 khf_34mm_iea badger_ordnance_c1_30mm_12oclock_t1_optical_half_tube_plate badger_ordnance_c1_30mm_12oclock_rmr_mount_for_arc badger_ordnance_c1_30mm_accessory_arc_ring_cap badger_ordnance_comm_aimpoint_t1_sight_mount badger_ordnance_comm_j_arm_offset_mount,21500
-706900,96,amtac_cqb_suppressor amtac_cqbm_suppressor 5.56x45_surefire_mag5100_100r_mag,22000
-729400,97,badger_ordnance_comm_trijicon_rmr_sight_mount badger_ordnance_comm_34mm_mount_body badger_ordnance_comm_34mm_ring_half,22500
-752400,98,badger_ordnance_c1_34mm_accessory_arc_ring_cap badger_ordnance_c1_34mm_12oclock_t1_optical_half_tube_plate,23000
-775900,99,kac_urx_4_mlok_14.5inch_handguard,23500
-825900,100,maxwell_grip,50000
-
-Glock17,LIST,,
-experience,level,unlocks,difference in xp
-0,0,glock17_gen5_left_slide_release glock17_gen5_left_slide_release glock17_gen5_right_slide_release glock17_gen5_mag_release glock17_gen5_trigger glock17_gen5_trigger_safety glock17_gen5_early_slide glock17_slide_backplate glock17_gen5_receiver glock17_gen5_marksman_114mm_9x19_barrel picatinny_section glock17_gen5_spring glock17_gen5_front_sight glock17_gen5_sf_rear_sight glock17_gen5_9x19_17r_magazine glock17_gen5_ejector 9x19_remington_umc_115gr_fmj_l9mm3b glock17_17r_magazine_bottom_plate,
+﻿PROFILE_REWARDS,GENERIC,,,
+name,value,comment,,
+points_per_kill,75,points per player killed with any method,,
+points_per_headshot,150,additional points if a player kills someone with ,,
+points_per_point_capture,1000,points given out when a player is standing on a point when it's captured,,
+points_per_second_of_point_hold,18,points given out every second a player spends inside a captured point,,
+cash_per_kill,60,cash per player killed with any method,,
+cash_per_headshot,150,additional cash if a player kills someone with a headshot,,
+cash_per_point_capture,800,cash given out when a player is standing on a point when it's captured,,
+cash_per_second_of_point_hold,18,cash given out every second a player spends inside a captured point,,
+suppression_multiplier,1,the general amount of suppression in the game,,
+points_per_mvp,1250,Points given for being #1 on the leaderboard when a match ends,,
+cash_per_mvp,1250,Cash given for whatever you get it,,
+points_per_first_match,750,points given out for the first match of the day,,
+cash_per_first_match,750,cash per first match of the day,,
+victory_multiplier,1.25,money multiplier for winning,,
+tdm_kill_multiplier,1.25,kill cash+exp multiplier for tdm,,
+plr_shove_limb_damage,35,,,
+plr_shove_torso_damage,55,,,
+plr_shove_headshot_damage,100,,,
+plr_shove_bayonet_limb_damage,49,,,
+plr_shove_bayonet_torso_damage,100,,,
+plr_shove_bayonet_headshot_damage,105,,,
+plr_shove_distance,3,,,
+plr_shove_bayonet_distance,4,,,
+plr_shove_melee_limb_damage,60,,,
+plr_shove_melee_torso_damage,80,,,
+plr_shove_melee_headshot_damage,105,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+CHARACTER,LIST,,,
+experience,level,unlocks,difference in xp,
+0,0,Cash:3000 Bonds:10 M4A1 Glock17 M67,,
+1000,1,Cash:2000 AK74N Makarov,0,
+3500,2,Cash:2500 Bonds:3,1000,
+6000,3,Cash: 2500 Bonds:3 Smoke,2500,
+9000,4,Cash:2500 Bonds:2,2500,
+12500,5,Bonds:2 MP5,3000,
+16500,6,Cash:3000 Bonds:3,3500,
+21000,7,Cash:3000 Bonds:3,4000,
+26000,8,Cash:1000 Bonds:3 TT33 Flashbang,4500,
+31300,9,Cash:4500 Bonds:3,5000,
+37000,10,Bonds:3 PP19 F1,5300,
+43000,11,Cash:5000 Bonds:3,5700,
+49500,12,Cash:1000 Bonds:3 MosinNagant,6000,
+56500,13,Cash:1500 Bonds:3 Glock20,6500,
+64000,14,Cash:6000 Bonds:3,7000,
+72000,15,Bonds:3 AKMN,7500,
+80500,16,Cash:6500 Bonds:3,8000,
+89500,17,Bonds:4 UMP45,8500,
+99000,18,Cash:7000 Bonds:4,9000,
+109000,19,Bonds:4 SA58,9500,
+119500,20,Cash:7500 Bonds:4,10000,
+130500,21,Bonds:4 MK9,10500,
+141700,22,Cash:8000 Bonds:4,11000,
+153500,23,Bonds:4 MP133,11200,
+165500,24,Cash:8000 Bonds:4,11800,
+178000,25,Bonds:4 AK12,12000,
+192000,26,Cash:8000 Bonds:4,12500,
+207000,27,Bonds:5 Remington870,14000,
+222300,28,Cash:8000 Bonds:4,15000,
+238000,29,Bonds:5 QBZ95,15300,
+255000,30,Cash:8000 Bonds:4,15700,
+275000,31,Cash:8000 Bonds:4,17000,
+298000,32,Bonds:5 HK416A5,20000,
+323000,33,Cash:8000 Bonds:4,23000,
+350000,34,Cash:8000 Bonds:4 G3,25000,
+380000,35,Bonds:5 Remington700,27000,
+420000,36,Cash:8000 Bonds:4,30000,
+463000,37,Bonds:5 SCARL,40000,
+510000,38,Cash:8000 Bonds:4,43000,
+560000,39,Bonds:5 AUG_A3,47000,
+612000,40,Cash:8000 Bonds:4,50000,
+666000,41,Cash:2000 Bonds:5 SCARH,52000,
+724000,42,Cash:8000 Bonds:4,54000,
+784000,43,Cash:8000 Bonds:4,58000,
+846000,44,Cash:1000 Bonds:5 EDC_X9,60000,
+910000,45,Cash:8000 Bonds:4,62000,
+976000,46,Cash:8000 Bonds:4,64000,
+1044000,47,Cash:1000 Bonds:5 AK308,66000,
+1114000,48,Cash:8000 Bonds:4,68000,
+1184000,49,Cash:8000 Bonds:4,70000,
+1254000,50,Cash:8000 Bonds:4,70000,
+1324000,51,Cash:8000 Bonds:4,70000,
+1404000,52,Cash:1000 Bonds:5 SCAR47,70000,
+1485000,53,Cash:8000 Bonds:4,80000,
+1567000,54,Cash:8000 Bonds:4,81000,
+1650000,55,Cash:8000 Bonds:4,82000,
+1734000,56,Cash:8000 Bonds:4,83000,
+1819000,57,Cash:8000 Bonds:4,84000,
+1905000,58,Cash:8000 Bonds:4,85000,
+1995000,59,Cash:1000 Bonds:5 Vector,86000,
+2086000,60,,90000,
+2178000,61,,91000,
+2271000,62,,92000,
+2365000,63,,93000,
+2460000,64,,94000,
+2556000,65,,95000,
+2656000,66,,96000,
+2757000,67,,100000,
+2859000,68,,101000,
+2962000,69,,102000,
+3066000,70,,103000,
+3171000,71,,104000,
+3277000,72,,105000,
+3387000,73,,106000,
+3498000,74,,110000,
+3610000,75,,111000,
+3723000,76,,112000,
+3837000,77,,113000,
+3952000,78,,114000,
+4068000,79,,115000,
+4188000,80,,116000,
+4309000,81,,120000,
+4431000,82,,121000,
+4554000,83,,122000,
+4678000,84,,123000,
+4678000,85,,124000,
+,,,,
+M4A1,LIST,,,
+experience,level,unlocks,difference in xp,
+0,0,colt_m4a1_std_upper_receiver colt_m4a1_std_lower_receiver colt_m4a1_carry_handle colt_m4a1_charging_handle colt_m4a1_5.56x45_368mm_govt_c_barrel colt_m4a1_front_side_sling_swivel m4a1_std_dust_cover jg_usgi_a2_birdcage_m4a1_flash_hider m4a1_556_bolt colt_m4a1_receiver_endplate colt_m4a1_castlenut colt_m4_std_carbine_plastic_handguard colt_m4a1_trigger_guard m4a1_std_bolt_catch colt_m4a1_std_trigger m4a1_std_fire_selector m4a1_std_mag_release 5.56x45_colt_ar15_stanag_30r stanag_30r_plate colt_m4fs_gasblock colt_rear_ironsight_200m colt_m4ss_stock colt_buffer_tube colt_a2_pistol_grip 5.56x45_federal_american_eagle_training_xm193blx_55gr_fmj colt_retro_a1_scope_carry_handle_mount colt_retro_a1_4x21_scope picatinny_section stanag_bottom_plate,,
+250,1,fab_defense_upr_16_4_bottom fab_defense_upr_16_4_top tangodown_bgv_mk46k_grip colt_m16a2_carry_handle_upper_receiver,250,
+600,2,kac_rear_sight_base kac_front_sight_base kac_front_sight_folded kac_front_sight kac_front_sight kac_rear_sight_folded kac_rear_sight windham_weaponry_railed_ar15_gasblock,350,
+1100,3,utg_ms_qd_foregrip kac_2rib_railpanel kac_4rib_railpanel,500,
+1700,4,pts_fortis_shift_tactical_grip kac_5rib_railpanel kac_6rib_railpanel,600,
+2400,5,ultrafire_wf501b_flashlight 25mm_universal_mount,700,
+3200,6,fn_scar_rear_sight fn_scar_rear_sight_600m_aperture fn_scar_rear_sight_200m_aperture fn_scar_rear_sight_folded fn_scar_rear_sight_base,800,
+4100,7,sightmark_lopro_combo colt_ca2r,900,
+5100,8,magpul_mbus_gen2_base magpul_mbus_gen2_rear_top_folded magpul_rearsight_post200m magpul_rearsight_post600m magpul_mbus_gen2_rear_top magpul_mbus_gen2_front_top magpul_mbus_gen2_frontsight_post magpul_mbus_gen2_front_top_folded ,1000,
+6200,9,sb_tactical_vector_brace bt_st6012 timber_creek_enforcer_pistol_grip,1100,
+7400,10,5.56x45_brwnls_stanag_ss_20r 5.56x45_brwnls_stanag_25r 5.56x45_cbcdefense_m196_55gr_red_tracer,1200,
+8700,11,kac_ras_m4a1_handguard magpul_223_mag_assist_misc2 magpul_223_mag_assist_misc1 magpul_223_mag_assist_misc3 magpul_223_mag_assist_pmag magpul_223_mag_assist_straightstanag,1300,
+10100,12,rtm_pillau_tactical_grip aimpoint_electronic_g2_red_dot,1400,
+11600,13,colt_m4a1_5.56x45_368mm_socom_c_barrel nordic_corvette_556 pri_ar15_std_carry_handle_mount,1500,
+13200,14,hensoldt_z24_fero_4x24 z24_covers arms_no5_mount kac_ras_free_float_5inch,1600,
+14900,15,doublestar_ace_m4_socom_gen4_stock doublestar_ace_0.5_recoil_pad moe_sl_handguard,1700,
+16700,16,juggernaut_tacticals_featureless_grip psa_custom_trigger timber_creek_enforcer_handstop burris_prism_ar332_carry_handle burris_prism_ar332,1800,
+18600,17,leapers_utg_model_15_fixed_a2_ar15_stock usgi_m16a1_triangle_handguard utg_super_slim_vertical_foregrip,1900,
+20600,18,trijicon_rx01/06_series_1x24_reflex_sight_ch trijicon_rx01/06_series_1x24_reflex_sight trijicon_rx14_mount,2000,
+22700,19,burris_ar_prb_mount danieldefense_mk12_low_profile_gasblock ti_stock troy_m7a1,2100,
+24900,20,kac_11rib_railpanel kac_9rib_railpanel ar_tr2_stock ar_tr2_pad trijicon_srs02 insight_technology_an_peq_2a_tpial,2200,
+27200,21,armaspec_victory_charging_handle troy_claymore556 aim_sports_mt026_mount colt_a2_buffer hera_hrs_light_stock,2300,
+29600,22,leupold_mark_4_carry_handle_mount trijicon_rx10_gooseneck_mount xtm_2_piece xtm_4_piece xtm_full_handstop,2400,
+32100,23,jt_5.5inch_flashsuppressor colt_a2_std_rifle_plastic_handguard gral_s_pistol_grip thordsen_frs15_cover_stock thordsen_frs_15_stock t_frs15_pad brwnls_a1_m4a1_5.56x45_508mm_govt_r_barrel aeroknox_ax15_upper_receiver,2500,
+34700,24,mdt_premier_avp_grip colt_m4a1_5.56x45_317mm_govt_c_barrel monster_10i_type_a_handguard sightmark_lopro_mini_combo tc_enforcer_small_charging_handle,2600,
+37400,25,2a_armament_builder_series_gen1_10inch_handguard magpul_trigger_guard monstrum_prism_2x32_scope,2700,
+40200,26,abom_cnc_works_picatinny_susat_adapter usi_l12a1_susat_combat_optic susat_backup_sights ss_combo_mount ss_lrs1_suppressor,2800,
+43100,27,gemtech_gmt_halo mt012h_riser mt012l_riser mt012m_riser brwnls_xm177_car cf_rubber_buttpad,2900,
+46100,28,colt_m4a1_5.56x45_267mm_govt_c_barrel 2a_armament_builder_series_gen1_7inch_handguard magpul_mlok_1.6_bottom magpul_mlok_1.6_side magpul_mlok_1.6_top railscales_rsb_vg,3000,
+49200,29,si_viper_mod1_stock viper_rubber_pad annihilator_556 diemaco_c7_ambi_charging_handle las_tac_2 diemaco_tri_ad_i_mount,3100,
+52400,30,magpul_mvg rm33_mount ac32062_mount trijicon_rmr_rm06_type2_adj_led_reflex,3200,
+55700,31,armytek_predator_prov3_xhp35_hi insight_technology_an_peq_5_cvl magpul_afg_2_grip magpul_prs_gen2_stock,3300,
+59100,32,fortis_la_stock generic_5_slot_mlok_rail_side generic_5_slot_mlok_rail_top generic_5_slot_mlok_rail_bottom generic_7_slot_mlok_rail_bottom generic_7_slot_mlok_rail_top generic_7_slot_mlok_rail_side generic_9_slot_mlok_rail_top generic_9_slot_mlok_rail_side generic_9_slot_mlok_rail_bottom kac_qdc_m4qd_5.56x56_flash_suppressor kac_qdss_nt4_5.56x45_suppressor,3400,
+62600,33,lvoa_s_handguard kac_ras_free_float_12inch kac_mre_ras_free_float_12inch ncstar_marsv2_top ncstar_marsv2_bottom,3500,
+66200,34,generic_11_slot_mlok_rail_bottom generic_11_slot_mlok_rail_side generic_11_slot_mlok_rail_top generic_13_slot_mlok_rail_bottom generic_13_slot_mlok_rail_side generic_13_slot_mlok_rail_top leupold_deltapoint_reflex_sight leupold_deltapoint_pro_cross_slot leupold_deltapoint_pro_ar deltapoint_attachment,3600,
+69900,35,kac_micro_rear_sight_base kac_micro_front_sight_base kac_micro_front_sight_folded kac_micro_front_sight kac_micro_front_sight_sight kac_micro_rear_sight_folded kac_micro_rear_sight valday_1p87,3700,
+73700,36,aimpoint_30mm_low_ring qrp_30mm_mount comp_m2 stark_se_5_express_forward_grip trijicon_sro,3800,
+77600,37,hk_slim_stock a3_angled_foregrip zenitco_klesch_2p_lcu si_link_curved_mlok_fg pmm_scar_modified_grip_hogue ips_5.56x45_2inch_barrel_extension ips_5.56x45_1inch_barrel_extension,3900,
+81600,38,5.56x45_magpul_pmag_m3_20r magpul_std_m3_bottom_plate 5.56x45_magpul_pmag_m3_10r fab_defense_tactical_lightweight_vertical_grip m16_m4_carryhandle_z_rail z_rail_side_mount2 z_rail_side_mount1,4000,
+85700,39,leupold_deltapoint_pro_sight rk_foregrip_mount zenit_rk0 zenit_rk4 zenit_rk0_angled zenit_rk4_angled mrs_reflex dd_enhanced_mvg ncstar_mpr45_offset_mount,4100,
+89900,40,monster_15i_type_a_handguard x_caliber_ar_15_.223wylde_457mm_spiral_6groove_m_barrel brwnls_m4a1_5.56x45_406mm_socom_c_barrel brwnls_m4a1_5.56x45_406mm_govt_m_barrel,4200,
+94200,41,hk_battle_pistol_grip trijicon_rmr_ac32066_offset kac_vpg mk10_rl_handguard mk10_top_adapter_large mk10_top_adapter_small mk10_bottom_adapter_large mk10_bottom_adapter_small mk10_side_adapter_large mk10_side_adapter_small,4300,
+98600,42,magpul_ranger_m3_bottom_plate 5.56x45_fn_scar_30r fn_scar_l_std_magplate td_skeletonized_pistol_grip vltor_emod_stock ncstar_blastar_vkarmw_magwell tc_enforcer_charging_handle emod_pad,4400,
+103100,43,colt_m4a1_5.56x45_190mm_govt_p_barrel veriforce_tactical_ar15_4inch_ultralight_mlok_freefloat_hg leupold_deltapoint_pro_ar_dloc zenit_rk2 zenit_rk2_angled pilad_p1x42 magpul_rvg kac_m5_ras_upper_handguard kac_m5_ras_lower_handguard mission_first_folding_grip,4500,
+107700,44,hk_ergo_psg_pistol_grip sig_sauer_romeo4_sight sig_sauer_romeo4_low sig_sauer_romeo4_mount kinect_development_group_qd_3slot_rail_side kinect_development_group_qd_3slot_rail_top kinect_development_group_qd_3slot_rail_bottom,4600,
+112400,45,aim_sports_low_profile_45_degree_sight_base aim_sports_front_sight aim_sports_rear_sight_folded aim_sports_front_sight_folded aim_sports_rear_sight brwnls_m4a1_5.56x45_508mm_hbar_r_barrel,4700,
+117200,46,zenit_rk1 zenit_rk1_angled zenit_rk6 zenit_rk6_angled 2a_armament_builder_series_gen1_12inch_handguard 2a_armament_builder_series_gen1_15inch_handguard kinect_development_group_qd_7slot_rail_bottom kinect_development_group_qd_7slot_rail_side kinect_development_group_qd_7slot_rail_top,4800,
+122100,47,lvoa_c_handguard zenit_rk5 zenit_rk5_angled dd_mk18_fsp_ris_2_9.55_handguard dd_mk18_ris_2_9.55_handguard magpul_moe_ar15_pistol_grip cobra_ekp_8_18 lmt_sopmod lmt_pad,4900,
+127100,48,holosun_hs401g5 5.56x45_magpul_pmag_m3_30r 5.56x45_winchester_m855_62gr_fmj_greentip_vm855 ti_enhanced_trigger_guard,5000,
+132200,49,magpul_moe_k2_ar15_pistol_grip holosun_ls321g larue_qd_lt_101 jp_enterprises_5b_gasblock magpul_moe_carbine_stock magpul_moe_butt_pad magpul_str_butt_pad unity_fast_micro_mount,5100,
+137400,50,stngr_lvnc_10i stngr_hwk_15i 5.56x45_magpul_pmag_m3_40r cmc_dropin_trigger ncstar_blue_lam_module,5200,
+142900,51,5.56x45_hk_polymer_transparent_30r hk_mag_plate leupold_cq_deltapoint_pro_rear_ironsight bcm_mod3_mlok_fg bcm_mod3_mlok_fg_flipped zenit_belomo_pk06,5500,
+148650,52,magpul_prs_gen3_stock prs_adjustable_piece prs_gen3_buttpad armaspec_rhino_r23_tactical_magwell elcan_c79a2 elcan_alt_view,5750,
+154650,53,npz_1p78_1_2.8x_kashtan_scope npz_1p78_kashtan_p1_picatinny_adapter rk_short_foregrip_mount rk_b25_angled_mount si_ar_are_t7_buffer_tube,6000,
+160900,54,5.56x45_x15m_drum_50r bravo_comp_gunfighter_charging_handle 5.56x45_novx_copper_pentagon_55gr_mchp_556n55cp eotech_eflx_mini_red_dot ips_5.56x45_4inch_barrel_extension,6250,
+167400,55,viking_tactical_uvg_grip grip_pod_gps_02_legs_ext grip_pod_gps_02_legs_col grip_pod_gps_02_body,6500,
+174150,56,priceli_narod_okp_7_picatinny firefield_mg_kemper_xl_reflex_sight magpul_xtm_enhanced_half_panel_1 magpul_xtm_enhanced_handstop_1 magpul_xtm_enhanced_panel_1 magpul_xtm_enhanced_short_handstop_1 magpul_xtm_enhanced_half_panel_2 magpul_xtm_enhanced_handstop_2 magpul_xtm_enhanced_panel_2 magpul_xtm_enhanced_short_handstop_2,6750,
+181150,57,sig_sauer_romeo4t_sight sig_sauer_romeo4t_1/3_cowitness_mount romeo4t_lens_caps romeo4t_folded_lens_caps unity_fast_optics_riser tb_mount_223_mb tb_5,7000,
+188400,58,matech_usgi_rear_buis_base matech_usgi_rear_buis_aperture_folded matech_usgi_rear_buis_aperture radianweapons_raptor_ambi_handle zenitco_perst_3_classic_gen4_green sai_10_qd_handguard syoss_jail_brake,7250,
+195900,59,dd_m4a1_ris_2_12.25_handguard dd_m4a1_fsp_ris_2_12.25_handguard trijicon_ta01nsn_carry_handle trijicon_ta01nsn acog_fs acog_rs trijicon_ta51_flattop_mount rm35 magpul_str_carbine_stock,7500,
+203650,60,swampfox_kingslayer_sight tb_7 timney_trigger sai_14.5_qd_handguard battle_arms_rack_charging_handle timber_creek_enforcer_foregrip ak12_gen1_std_stock,7750,
+211650,61,cmmg_ar_15_5.56x45_610mm_fluted_r_barrel ncstar_mark_3_tactical_gen2_3_9x42 noveske_gen3_ar15_upper_receiver,8000,
+219900,62,sig_sauer_romeo5_1x20_sight sig_sauer_romeo5_low_mount geissele_smr_mk16_mlok_urg_i_9.3inch,8250,
+228400,63,5.56x45_magpul_pmag_m3_windowed_30r 5.56x45_cbcdefense_sat_ip_62gr_clf_aep_97,8500,
+237150,64,hera_arms_cqr_gen1_foregrip hera_arms_cqr_gen1_pistol_grip_stock 15mm_cqr 30mm_cqr 45mm_cqr,8750,
+246150,65,sig_sauer_bravo4_4x30 surefire_warcomp_5.56x45_flash_hider surefire_socom556_rc2_suppressor,9000,
+255400,66,aimpoint_micro_t1_sight aimpoint_micro_spacer_low_30mm aimpoint_micro_spacer_high_39mm aimpoint_amm_dovetail_11mm_mount,9250,
+264900,67,primary_arms_slx_1x_microprism_acss_g2_scope primary_arms_slx_1.1inch_mount primary_arms_slx_1.53inch_straight_spacer geissele_smr_mk16_mlok_urg_i_10.5inch,9500,
+274650,68,l3harris_atpial_an_peq_15 lone_star_armory_tx15_regular_ar15_upper_receiver,9750,
+284650,69,zenit_belomo_prc_red_dot kac_urx_4_mlok_8.5inch_handguard,10000,
+294900,70,hera_arms_straight_pull_charging_handle geissele_smr_mk16_mlok_urg_i_13.5inch,10250,
+305400,71,sig_sauer_romeo3_low_rise_mount sig_sauer_qd_1.41_cowitness_romeo3_riser sig_sauer_romeo3,10500,
+316150,72,trijicon_acog_ta11d_bac trijicon_acog_ta11d_bac_carry_handle,10750,
+327150,73,eotech_553 ddw_adapter ddw_qd,11000,
+338400,74,elcan_specter_os4x_sfov4 kac_urx_4_mlok_10.75inch_handguard,11250,
+349900,75,aimpoint_micro_lrp_qd_mount rise_blitz_trigger,11500,
+361900,76,vortex_optics_razor_amg_uh1_gen1_sight lone_star_armory_tx15_light_ar15_upper_receiver,12000,
+374400,77,zenit_belomo_picatinny_mount_pkas zenit_belomo_pk_as,12500,
+387400,78,eotech_g33_3x_magnifier eotech_sts_pivot_mount eotech_magn_7mm_riser_1 eotech_magn_7mm_riser_2 eotech_sts_picatinny_mount,13000,
+400900,79,insight_technology_wmx200_fixed_mount_tactical_illuminator,13500,
+414900,80,elcan_specterdr_1_4x_dfov14_t1 magpul_ubr_gen2_buffer ubr_gen2_stock vltor_mur1s_ar15_upper_receiver,14000,
+429400,81,aimpoint_micro_t2_sight aimpoint_micro_t2_lens_caps,14500,
+444400,82,vortex_optics_sport_cantilever_cm_102_30mm_2inch_offset eotech_vudu_1_6x24,15000,
+459900,83,trijicon_compact_acog_3x24_ta50c_red trijicon_compact_acog_ac12041_mount,15500,
+475900,84,tb_9 burris_ar_pepr_30mm_mount bcm_gunfighter_kag,16000,
+492400,85,eotech_exps3 hera_arms_ccs_stock 5.56x45_surefire_mag560_60r_mag,16500,
+509400,86,l3harris_mipim_an_peq_16b geissele_smr_mk16_mlok_urg_i_15inch,17000,
+526900,87,vortex_optics_sport_cantilever_cm_203_30mm_3inch_offset,17500,
+544900,88,unity_fast_lpvo_30mm_mount 5.56x45_magpul_pmag_60r noveske_marked_vltor_mur1s_ar15_upper_receiver,18000,
+563400,89,eotech_xps3_0 gemtech_adapter gemtech_1_762,18500,
+582400,90,be_meyers_mawl_c1+ kac_urx_4_mlok_13inch_handguard,19000,
+601900,91,trijicon_compact_acog_3x24_ta50c_green,19500,
+621900,92,badger_ordnance_comm_30mm_mount_body badger_ordnance_comm_30mm_ring_half,20000,
+642400,93,gbrs_group_aimpoint_hydra_mount_kit,20500,
+663400,94,unity_fast_offset_optic_base unity_offset_optic_rmr_adapter_plate,21000,
+684900,95,nightforce_atacr7_35x56_f1 khf_34mm_iea badger_ordnance_c1_30mm_12oclock_t1_optical_half_tube_plate badger_ordnance_c1_30mm_12oclock_rmr_mount_for_arc badger_ordnance_c1_30mm_accessory_arc_ring_cap badger_ordnance_comm_aimpoint_t1_sight_mount badger_ordnance_comm_j_arm_offset_mount,21500,
+706900,96,amtac_cqb_suppressor amtac_cqbm_suppressor 5.56x45_surefire_mag5100_100r_mag,22000,
+729400,97,badger_ordnance_comm_trijicon_rmr_sight_mount badger_ordnance_comm_34mm_mount_body badger_ordnance_comm_34mm_ring_half,22500,
+752400,98,badger_ordnance_c1_34mm_accessory_arc_ring_cap badger_ordnance_c1_34mm_12oclock_t1_optical_half_tube_plate,23000,
+775900,99,kac_urx_4_mlok_14.5inch_handguard,23500,
+825900,100,maxwell_grip,50000,
+,,,,
+Glock17,LIST,,,
+experience,level,unlocks,difference in xp,
+0,0,glock17_gen5_left_slide_release glock17_gen5_left_slide_release glock17_gen5_right_slide_release glock17_gen5_mag_release glock17_gen5_trigger glock17_gen5_trigger_safety glock17_gen5_early_slide glock17_slide_backplate glock17_gen5_receiver glock17_gen5_marksman_114mm_9x19_barrel picatinny_section glock17_gen5_spring glock17_gen5_front_sight glock17_gen5_sf_rear_sight glock17_gen5_9x19_17r_magazine glock17_gen5_ejector 9x19_remington_umc_115gr_fmj_l9mm3b glock17_17r_magazine_bottom_plate,,
 325,1,glock17_gen4_sf_rear_sight glock17l_front_sight,325,250
 780,2,glock17_gen4_slide glock17_gen4_receiver,455,350
 1430,3,truglo_glock_tfx_fs truglo_glock_tfx_rs,650,500
@@ -360,7 +360,7 @@ experience,level,unlocks,difference in xp
 978120,98,,29900,23000
 1008670,99,,30550,23500
 1073670,100,maxwell_grip,65000,50000
-
+,,,,
 AK74N,LIST,,,
 experience,level,,,
 0,0,6p1_01_upper_receiver ak74n_lower_receiver ak74n_standard_barrel izhmash_ak74_6p20_020_compensator izhmash_ak74_wood_6p20_sb5 6p20_wooden_sb6_upper_piece ak74_gas_tube 6p20_wooden_sb6_lower_handguard 6p20_wooden_sb6_lower_handguard_alt caf_wasr_10_63_wooden_upper_piece ak74_bolt 6p1_sb2_rear_sight akm_rear_sight_6p1_sb2_1 izhmash_ak74_fire_selector izhmash_akm_fire_selector bakelite_6p4_sbv8v 5.45x39_6l20 akmn_gas_tube izhmash_ak74_wood_6p20_sb5 picatinny_section 6p20_wooden_sb6_upper_piece 6p20_wooden_sb6_lower_handguard_alt caf_wasr_10_63_wooden_bottom_handguard_alt 5.45x39_tulammo_60gr_fmj_ta545390,,
@@ -463,4 +463,4 @@ experience,level,,,
 734200,97,badger_ordnance_comm_34mm_mount_body badger_ordnance_comm_34mm_ring_half badger_ordnance_c1_34mm_accessory_arc_ring_cap badger_ordnance_c1_34mm_12oclock_t1_optical_half_tube_plate,22000,
 757200,98,,22500,
 807200,99,,23000,
-807200,100,maxwell_grip,50000
+807200,100,maxwell_grip,50000,

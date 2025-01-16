@@ -1,4 +1,4 @@
-﻿0.24.0,Thu Jan 09 13:05:09 2025,,,,,,,,,,,,,
+﻿0.24.0,Thu Jan 16 14:30:55 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1857,7 +1857,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1005,,corvus_defensio_aug_charging_handle,Corvus Defensio AUG Charging Handle,2,0.03,,,,,,,,,500
 ,aug_a3_foregrip,,,,,,,,,,,,,
 1006,,aug_a3_std_foregrip,AUG A3 Std.,2,0.1,-5,-4,,,,,,,0
-1007,,aug_a3_std_foregrip_folded,AUG A3 Std. Folded,7,0.1,3,-1,,0.3,,,,,0
+1007,,aug_a3_std_foregrip_folded,AUG A3 Std. Folded,7,0.1,2,0,,0.2,,,,,0
 1008,,steyr_aug_a3_xs_bottom_accessory_rail,Steyr AUG A3 XS Bottom Accessory Rail,0,0.07,0,0,,,,,,,1000
 1009,,corvus_defensio_aug_forward_accessory_rail,Corvus Defensio AUG Forward Accessory Rail,-1,0.06,-1,0,,,,,,,1200
 ,aug_a3_mag_release,,,,,,,,,,,,,

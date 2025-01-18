@@ -1,5 +1,5 @@
 ﻿,,new,,,,,,,,,,,,,,,,
-name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,bullet_deviation,bullet_damage,bullet_velocity,buck_bullet_deviation,fire_rate,price,strength,,irl price,price formula,irl weight,weight formula
+name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_bullet_deviation,fire_rate,price,strength,,irl price,price formula,irl weight,weight formula
 aeroknox_ax_mlok_grip,Aeroknox AX MLOK Handstop,6,0.04,-1,-2,,,,,,,600,7.2,,,,,
 dd_enhanced_mvg,DD Enhanced MVG,4,0.07,-1,-6,,,,,,,400,7,,,,,
 magpul_mvg_mag597_foregrip,Magpul MVG MAG597 Foregrip,4,0.05,-4,-1,,,,,,,300,6.8,,,,,
@@ -64,6 +64,6 @@ zenit_rk5_angled,Zenitco Rk-5,3,0.05,-4,-4,,,,,,,500,7.6,,,,,
 zenit_rk6_angled,Zenitco Rk-6,5,0.04,-2,-3,,,,,,,500,7.6,,,,,
 ,,,,,,,,,,,,,0,,,,,
 aug_a3_std_foregrip,AUG A3 Std.,2,0.1,-5,-4,,,,,,,0,6.4,,,,,
-aug_a3_std_foregrip_folded,AUG A3 Std. Folded,7,0.1,3,-1,,0.3,,,,,0,3.2,,,,,
+aug_a3_std_foregrip_folded,AUG A3 Std. Folded,7,0.1,2,0,,0.2,,,,,0,3,,,,,
 ,,,,,,,,,,,,,0,,,,,
 airtronic_psrl_plastic_foregrip,AirTronic USA PSRL Plastic Foregrip,3,0.1,-2,-2,,,,,,,800,3.8,,,,,

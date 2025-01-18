@@ -1,4 +1,4 @@
-﻿0.24.0,Thu Jan 09 13:05:09 2025,,,,,,,,,,,,,
+﻿0.24.0,Sat Jan 18 13:01:13 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1390,7 +1390,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 769,,tt33_std_frame_with_lanyard_loop,TT33 w/ Lanyard Loop,1,0.34,,,,,,,,,500
 ,tt33_grip,,,,,,,,,,,,,
 770,,ksd_ivory_lanyard_grip,KSD Ivory Lanyard,4,0.06,0,1,,,,,,,2000
-771,,razor_arms_g02,Razor Arms G02,6,0.08,3,3,,,,,,,1000
+771,,razor_arms_g02,Razor Arms G02,6,0.08,1,2,,,,,,,1000
 772,,tt33_std_grip,TT33 Std.,3,0.06,,,,,,,,,0
 ,tt33_hammer,,,,,,,,,,,,,
 773,,tt33_hammer,TT33,0,0.03,,,,,,,,,0

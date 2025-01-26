@@ -1,4 +1,4 @@
-﻿0.24.0,Sat Jan 18 14:11:01 2025,,,,,,,,,,,,,
+﻿0.24.0,Sat Jan 25 23:18:33 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -589,7 +589,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 302,,colt_m4a1_castlenut,Colt M4A1 Castle Nut,0,0.02,,,,,,,,,0
 303,,magpul_ubr_gen2_buffer,Magpul UBR Gen2 Receiver Extension,-1,0.14,-1,-2,,-0.1,,,,,400
 305,,colt_a2_buffer,Colt A2,-2,0.15,-1,-1,,-0.1,,,,,300
-,,ews_bufferless_system_ar15_castlenut,EWS Bufferless System AR15 Castlenut,3,0.08,7,10,,3,,,,,250
+,,ews_bufferless_system_ar15_castlenut,EWS Bufferless System AR15 Castlenut,3,0.08,7,10,,1,,,,,250
 ,scr_stocks,,,,,,,,,,,,,
 ,,fightlite_scr_wooden_rifle_stock,Fightlite SCR Wooden Rifle Stock,13,0.25,-11,-16,,,,,,,1000
 ,,fightlite_scr_high_impact_polymer_stock,Fightlite SCR High Impact Polymer Stock,15,0.2,-8,-10,,,,,,,1100
@@ -607,7 +607,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,noveske_love_ar15_charging_handle,Noveske Love AR15 Charging Handle,4,0.05,,,,,,,,,650
 ,ar15_endplate,,,,,,,,,,,,,
 315,,colt_m4a1_receiver_endplate,Colt M4A1 Receiver Endplate,0,0.01,,,,,,,,,0
-,,thorsden_frs15_gen3_ar15_endplate,Thorsden FRS15 Gen3 AR15 Endplate,2,0.06,8,8,,3,,,,,600
+,,thorsden_frs15_gen3_ar15_endplate,Thorsden FRS15 Gen3 AR15 Endplate,2,0.06,8,8,,1,,,,,600
 ,,aeroknox_ax15_endplate,Aeroknox AX // 15 Endplate,0,0.01,,,,,,,,,0
 ,,colt_607_car15_buffer_tube,Colt 607 CAR-15 Buffer Tube,-2,0.13,-1,-1,,,,,,,500
 ,,colt_607_car15_stock,Colt 607 CAR-15 Stock,16,0.23,-8,-14,,,,,,,500

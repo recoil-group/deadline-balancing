@@ -1,4 +1,4 @@
-﻿0.24.0,Sat Jan 25 23:18:33 2025,,,,,,,,,,,,,
+﻿0.24.0,Sun Jan 26 12:12:06 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1026,12 +1026,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,steyr_mpi_69_81_9x19_32r_mag,Steyr MPI69/81 9x19 32R,15,0.3,,,32,,,,,,750
 554,,roch_custom_steyr_aug_9x19_40r_mag,Roch Custom Steyr AUG Para 9x19 40R,9,0.38,,,40,,,,,,1000
 ,magazine_7.62x51_fn_fal,,,,,,,,,,,,,
-555,,dsa_sa58_fal_metric_magazine_10r,DSA FAL SA-58 U.S. Made Metric 10R,6,0.21,,,10,,,,,,500
-556,,dsa_sa58_fal_metric_magazine_20r,DSA FAL SA-58 U.S. Made Metric 20R,-2,0.31,,,20,,,,,,1000
-557,,dsa_sa58_fal_metric_magazine_30r,DSA FAL SA-58 U.S. Made Metric 30R,-9,0.49,,,30,,,,,,2000
-558,,enfield_l1a1_slr_pattern_mag_30r,Enfield L1A1 SLR Pattern 30R,-7,0.52,,,30,,,,,,2500
-559,,mmw_fal_polymer_mag_20r,Moses Mag Works Polymer 20R,-3,0.26,,,20,,,,,,1500
-560,,x_products_x_fal_drum_mag_50r,X Products X-FAL .308 50R Drum,-15,0.82,,,50,0.1,,,,,4000
+555,,dsa_sa58_fal_metric_magazine_10r,DSA FAL SA-58 U.S. Made Metric 10R,7,0.32,,,10,,,,,,500
+556,,dsa_sa58_fal_metric_magazine_20r,DSA FAL SA-58 U.S. Made Metric 20R,0,0.61,,,20,,,,,,1000
+557,,dsa_sa58_fal_metric_magazine_30r,DSA FAL SA-58 U.S. Made Metric 30R,-7,0.92,,,30,,,,,,2000
+558,,enfield_l1a1_slr_pattern_mag_30r,Enfield L1A1 SLR Pattern 30R,-6,0.94,,,30,,,,,,2500
+559,,mmw_fal_polymer_mag_20r,Moses Mag Works Polymer 20R,-1,0.55,,,20,,,,,,1500
+560,,x_products_x_fal_drum_mag_50r,X Products X-FAL .308 50R Drum,-13,1.55,,,50,0.1,,,,,4000
 ,magazine_7.62x51_nato_scarh,,,,,,,,,,,,,
 561,,promag_scar17_7.62x51_50r_drum,ProMag FN Scar 17 .308 50R Drum,-20,1.2,,,50,0.5,,,,,4500
 562,,fn_scar_h_7.62x51_10r,FN SCAR-H 7.62x51 NATO 10R,15,0.2,,,10,,,,,,500
@@ -2123,8 +2123,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,doublestar_ace_recoil_pad,,,,,,,,,,,,,
 1152,,doublestar_ace_0.5_recoil_pad,Doublestar ACE M4 SOCOM Buttpad,2,0.03,-1,-1,,,,,,,0
 ,dsa_sa58_mag_plate,,,,,,,,,,,,,
-1153,,dsa_sa58_enhanced_bumper_magazine_bottom_plate,DSA FAL SA-58 Enhanced Bumper Magazine,2,0.04,,,,,,,,,500
-1154,,dsa_sa58_mag_bottom_plate,DSA FAL SA-58 Magazine,1,0.02,,,,,,,,,0
+1153,,dsa_sa58_enhanced_bumper_magazine_bottom_plate,DSA FAL SA-58 Enhanced Bumper Magazine,1,0.04,,,,,,,,,500
+1154,,dsa_sa58_mag_bottom_plate,DSA FAL SA-58 Magazine,0,0.02,,,,,,,,,0
 ,fn_fal_halbek,,,,,,,,,,,,,
 1155,,rhodesian_halbek_muzzle_device,Rhodesian Reproduction Halbek,-3,0.04,10,-20,,0.2,-0.02,0,,,1200
 ,gemtech_adapter,,,,,,,,,,,,,

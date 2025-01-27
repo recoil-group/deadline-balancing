@@ -1,4 +1,4 @@
-﻿0.24.0,Sun Jan 26 21:10:05 2025,,,,,,,,,,,,,
+0.24.0,Sun Jan 26 21:10:05 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -730,6 +730,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 371,,cmmg_mk9_upper_receiver,CMMG MK9,0,0.14,0,0,,,,,,,0
 ,mk9_lower_receiver,,,,,,,,,,,,,
 372,,cmmg_mk9_lower_receiver,CMMG MK9,0,0.24,,,,,,,,,0
+,,aeroknox_ax15_lower_receiver_ar9,Aeroknox AX // 15 Lower Receiver,3,0.25,-1,0,,,,,,,1500
+,,colt_m4a1_std_lower_receiver_ar9,Colt M4A1,0,0.3,,,,,,,,,0
+,,daniel_defense_m4_carbine_lower_receiver_ar9,Daniel Defense M4 Carbine Lower  Receiver,3,0.33,,,,,,,,,1000
+,,noveske_n4_gen3_ar15_lower_receiver_ar9,Noveske N4 Gen3 Lower Receiver,5,0.35,-2,-1,,,,,,,2000
 ,mk9_dust_cover,,,,,,,,,,,,,
 373,,cmmg_mk9_dust_cover,CMMG MK9,1,0.03,0,0,,,,,,,0
 ,ar9_bolt,,,,,,,,,,,,,
@@ -947,6 +951,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,promag_saiga308_sai_a5_polymer_mag_24r,ProMag Saiga .308 SAI-A5 Polymer 24rd Magazine,-3,0.68,,,24,,,,,,900
 ,magazine_10mm_glock20,,,,,,,,,,,,,
 504,,glock20_10mm_15r,Glock Standard 15R 10mm,0,0.18,,,15,,,,,,500
+,magazine_ar9_adapter,,,,,,,,,,,,,
+,,nbs_ar15_9x19_colt_mag_adapter,NBS AR-15 9x19 Colt Mag Adapter,0,0.1,,,,,,,,,1000
 ,magazine_9x19_ar9,,,,,,,,,,,,,
 505,,colt_32rd,Colt 9x19 32rnd,0,0.3,,,32,,,,,,500
 506,,duramag_colt_ar9_20r_mag,Duramag Colt AR-9 20Rnd,7,0.19,,-2,20,,,,,,400

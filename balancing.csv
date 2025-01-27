@@ -1,4 +1,4 @@
-0.24.0,Sun Jan 26 21:10:05 2025,,,,,,,,,,,,,
+﻿0.24.0,Sun Jan 26 21:10:05 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -732,7 +732,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 372,,cmmg_mk9_lower_receiver,CMMG MK9,0,0.24,,,,,,,,,0
 ,,aeroknox_ax15_lower_receiver_ar9,Aeroknox AX // 15 Lower Receiver,3,0.25,-1,0,,,,,,,1500
 ,,colt_m4a1_std_lower_receiver_ar9,Colt M4A1,0,0.3,,,,,,,,,0
-,,daniel_defense_m4_carbine_lower_receiver_ar9,Daniel Defense M4 Carbine Lower  Receiver,3,0.33,,,,,,,,,1000
+,,daniel_defense_m4_carbine_lower_receiver_ar9,Daniel Defense M4 Carbine Lower Receiver,3,0.33,,,,,,,,,1000
 ,,noveske_n4_gen3_ar15_lower_receiver_ar9,Noveske N4 Gen3 Lower Receiver,5,0.35,-2,-1,,,,,,,2000
 ,mk9_dust_cover,,,,,,,,,,,,,
 373,,cmmg_mk9_dust_cover,CMMG MK9,1,0.03,0,0,,,,,,,0

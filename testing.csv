@@ -1,4 +1,4 @@
-﻿0.24.0,Sun Jan 26 12:12:06 2025,,,,,,,,,,,,,
+﻿0.24.0,Sun Jan 26 20:58:00 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -935,16 +935,16 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,7.62x39_rwb_ak47_75r_drum_mag,RWB AK47 75R Drum Magazine,-12.5,0.9,3,3,75,0.15,,,,,5000
 ,,7.62x39_rwb_ak47_100r_drum_mag,RWB AK47 100R Drum Magazine,-17,1.22,3,4,100,0.23,,,,,6000
 ,magazine_762x51_ak308,,,,,,,,,,,,,
-495,,7.62x51_kalashnikov_concern_ak308_20r_mag,Kalashnikov Concern 7.62x51 AK-308 20R,32,0.41,,,20,,,,,,600
-496,,springfield_armory_m14_7.62x51_modified_30r_mag,Springfield Armory M14/M1A 7.62x51 Modified 30R,20,0.59,,,30,,,,,,1000
-497,,springfield_armory_m14_7.62x51_modified_20r_mag,Springfield Armory M14/M1A 7.62x51 Modified 20R,31,0.39,,,20,,,,,,750
-498,,sgm_tactical_saiga308_15r_mag,SGM Tactical Saiga .308 15R,37,0.3,,,15,,,,,,700
-499,,sgm_tactical_saiga308_20r_mag,SGM Tactical Saiga .308 20R,31.5,0.4,,,20,,,,,,750
-500,,sgm_tactical_saiga308_25r_mag,SGM Tactical Saiga .308 25R,25,0.48,,,25,,,,,,950
-501,,sgm_tactical_saiga308_10r_mag,SGM Tactical Saiga .308 10R,45,0.22,,,10,,,,,,500
-502,,sgm_tactical_saiga308_3r_mag,SGM Tactical Saiga .308 3R,60,0.08,,,3,,,,,,100
-503,,sgm_tactical_saiga308_5r_mag,SGM Tactical Saiga .308 5R,55,0.12,,,5,,,,,,300
-,,promag_saiga308_sai_a5_polymer_mag_24r,ProMag Saiga .308 SAI-A5 Polymer 24rd Magazine,23,0.43,,,24,,,,,,900
+495,,7.62x51_kalashnikov_concern_ak308_20r_mag,Kalashnikov Concern 7.62x51 AK-308 20R,0,0.59,,,20,,,,,,600
+496,,springfield_armory_m14_7.62x51_modified_30r_mag,Springfield Armory M14/M1A 7.62x51 Modified 30R,-6,0.93,,,30,,,,,,1000
+497,,springfield_armory_m14_7.62x51_modified_20r_mag,Springfield Armory M14/M1A 7.62x51 Modified 20R,0.5,0.63,,,20,,,,,,750
+498,,sgm_tactical_saiga308_15r_mag,SGM Tactical Saiga .308 15R,5,0.42,,,15,,,,,,700
+499,,sgm_tactical_saiga308_20r_mag,SGM Tactical Saiga .308 20R,-0.5,0.57,,,20,,,,,,750
+500,,sgm_tactical_saiga308_25r_mag,SGM Tactical Saiga .308 25R,-4,0.71,,,25,,,,,,950
+501,,sgm_tactical_saiga308_10r_mag,SGM Tactical Saiga .308 10R,7,0.28,,,10,,,,,,500
+502,,sgm_tactical_saiga308_3r_mag,SGM Tactical Saiga .308 3R,19,0.09,,,3,,,,,,100
+503,,sgm_tactical_saiga308_5r_mag,SGM Tactical Saiga .308 5R,13,0.14,,,5,,,,,,300
+,,promag_saiga308_sai_a5_polymer_mag_24r,ProMag Saiga .308 SAI-A5 Polymer 24rd Magazine,-3,0.68,,,24,,,,,,900
 ,magazine_10mm_glock20,,,,,,,,,,,,,
 504,,glock20_10mm_15r,Glock Standard 15R 10mm,0,0.18,,,15,,,,,,500
 ,magazine_9x19_ar9,,,,,,,,,,,,,
@@ -1031,22 +1031,22 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 557,,dsa_sa58_fal_metric_magazine_30r,DSA FAL SA-58 U.S. Made Metric 30R,-7,0.92,,,30,,,,,,2000
 558,,enfield_l1a1_slr_pattern_mag_30r,Enfield L1A1 SLR Pattern 30R,-6,0.94,,,30,,,,,,2500
 559,,mmw_fal_polymer_mag_20r,Moses Mag Works Polymer 20R,-1,0.55,,,20,,,,,,1500
-560,,x_products_x_fal_drum_mag_50r,X Products X-FAL .308 50R Drum,-13,1.55,,,50,0.1,,,,,4000
+560,,x_products_x_fal_drum_mag_50r,X Products X-FAL .308 50R Drum,-15,1.49,,,50,0.1,,,,,4000
 ,magazine_7.62x51_nato_scarh,,,,,,,,,,,,,
-561,,promag_scar17_7.62x51_50r_drum,ProMag FN Scar 17 .308 50R Drum,-20,1.2,,,50,0.5,,,,,4500
-562,,fn_scar_h_7.62x51_10r,FN SCAR-H 7.62x51 NATO 10R,15,0.2,,,10,,,,,,500
-563,,molon_labe_industries_scar_7.62x51_polymer_15r,Molon Labe Industries SCAR-H 7.62x51 Polymer 15R,7,0.29,,,15,,,,,,1500
-564,,molon_labe_industries_scar_7.62x51_polymer_20r,Molon Labe Industries SCAR-H 7.62x51 Polymer 20R,-1,0.38,,,20,,,,,,1250
-565,,molon_labe_industries_scar_7.62x51_polymer_30r,Molon Labe Industries SCAR-H 7.62x51 Polymer 30R,-7,0.5,,,30,,,,,,3000
-566,,molon_labe_industries_scar_7.62x51_polymer_10r,Molon Labe Industries SCAR-H 7.62x51 Polymer 10R,14,0.18,,,10,,,,,,750
-567,,fn_scar_h_7.62x51_20r,FN SCAR-H 7.62x51 NATO 20R,0,0.4,,,20,,,,,,1000
+561,,promag_scar17_7.62x51_50r_drum,ProMag FN Scar 17 .308 50R Drum,-15,1.46,,,50,0.1,,,,,4500
+562,,fn_scar_h_7.62x51_10r,FN SCAR-H 7.62x51 NATO 10R,7,0.32,,,10,,,,,,500
+563,,molon_labe_industries_scar_7.62x51_polymer_15r,Molon Labe Industries SCAR-H 7.62x51 Polymer 15R,2,0.43,,,15,,,,,,1500
+564,,molon_labe_industries_scar_7.62x51_polymer_20r,Molon Labe Industries SCAR-H 7.62x51 Polymer 20R,-1,0.57,,,20,,,,,,1250
+565,,molon_labe_industries_scar_7.62x51_polymer_30r,Molon Labe Industries SCAR-H 7.62x51 Polymer 30R,-7,0.86,,,30,,,,,,3000
+566,,molon_labe_industries_scar_7.62x51_polymer_10r,Molon Labe Industries SCAR-H 7.62x51 Polymer 10R,6.5,0.29,,,10,,,,,,750
+567,,fn_scar_h_7.62x51_20r,FN SCAR-H 7.62x51 NATO 20R,0,0.63,,,20,,,,,,1000
 ,magazine_7.62x51_nato_sr25,,,,,,,,,,,,,
-568,,x_products_x25_7.62x51_drum_50r,X Products X-25 .308 50R Drum,-15,0.9,,-4,50,0.5,,,,,5000
-569,,magpul_pmag_d50_lr_sr_gen_m3_7.62x51_50r,Magpul PMAG D-50 LR/SR Gen M3 .308 50R Drum,-15.5,0.89,,-4,50,0.5,,,,,4500
-570,,lancer_systems_l7awm_translucent_7.62x51_25r,Lancer Systems L7AWM Translucent 7.62x51 25R,-4,0.45,,,25,,,,,,1500
-571,,lancer_systems_l7awm_7.62x51_25r,Lancer Systems L7AWM 7.62x51 25R,-5,0.44,,,25,,,,,,1500
-572,,lancer_systems_l7awm_translucent_7.62x51_20r,Lancer Systems L7AWM Translucent 7.62x51 20R,1,0.4,,,20,,,,,,1250
-573,,lancer_systems_l7awm_7.62x51_20r,Lancer Systems L7AWM 7.62x51 20R,0,0.39,,,20,,,,,,1250
+568,,x_products_x25_7.62x51_drum_50r,X Products X-25 .308 50R Drum,-14,1.5,,,50,0.1,,,,,5000
+569,,magpul_pmag_d50_lr_sr_gen_m3_7.62x51_50r,Magpul PMAG D-50 LR/SR Gen M3 .308 50R Drum,-15,1.45,,,50,0.1,,,,,4500
+570,,lancer_systems_l7awm_translucent_7.62x51_25r,Lancer Systems L7AWM Translucent 7.62x51 25R,-3.5,0.73,,,25,,,,,,1500
+571,,lancer_systems_l7awm_7.62x51_25r,Lancer Systems L7AWM 7.62x51 25R,-4,0.72,,,25,,,,,,1500
+572,,lancer_systems_l7awm_translucent_7.62x51_20r,Lancer Systems L7AWM Translucent 7.62x51 20R,0.5,0.59,,,20,,,,,,1250
+573,,lancer_systems_l7awm_7.62x51_20r,Lancer Systems L7AWM 7.62x51 20R,0,0.58,,,20,,,,,,1250
 ,l7awm_mag_assist,,,,,,,,,,,,,
 ,,magpul_223_mag_assist_l7awm,Magpul 223 Mag Assist L7AWM,1,0.04,,,,,,,,,200
 ,magazine_9mm_vector,,,,,,,,,,,,,
@@ -1054,9 +1054,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 575,,9x19_sgmt_drum50r_vector,SGMT 9x19 50R Drum,18,0.55,,,50,,,,,,3000
 576,,9x19_glock_std_17r_vector,Glock 9x19 17R,16,0.15,,,17,,,,,,500
 ,magazine_7.62x51_g3,,,,,,,,,,,,,
-577,,hk_g3_std_20r_magazine,HK G3 Standard 20R,-2,0.4,,,20,,,,,,1000
-578,,custom_g3_welded_30r_magazine,Custom G3 Welded 30R,-9,0.7,,,30,,,,,,2000
-579,,hk_g3_10r_magazine,HK G3/MSG-90 10R,5,0.2,,,10,,,,,,500
+577,,hk_g3_std_20r_magazine,HK G3 Standard 20R,0,0.64,,,20,,,,,,1000
+578,,custom_g3_welded_30r_magazine,Custom G3 Welded 30R,-7,0.94,,,30,,,,,,2000
+579,,hk_g3_10r_magazine,HK G3/MSG-90 10R,7,0.33,,,10,,,,,,500
 ,r870_agr,,,,,,,,,,,,,
 580,,agr_870_protection_cap,AGR 870,16,0.02,8,8,,,,,,,100
 581,,agr_870_buffer_tube,AGR-870,-1,0.1,-2,-2,,,,,,,500
@@ -2123,7 +2123,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,doublestar_ace_recoil_pad,,,,,,,,,,,,,
 1152,,doublestar_ace_0.5_recoil_pad,Doublestar ACE M4 SOCOM Buttpad,2,0.03,-1,-1,,,,,,,0
 ,dsa_sa58_mag_plate,,,,,,,,,,,,,
-1153,,dsa_sa58_enhanced_bumper_magazine_bottom_plate,DSA FAL SA-58 Enhanced Bumper Magazine,1,0.04,,,,,,,,,500
+1153,,dsa_sa58_enhanced_bumper_magazine_bottom_plate,DSA FAL SA-58 Enhanced Bumper Magazine,1,0.05,,,,,,,,,500
 1154,,dsa_sa58_mag_bottom_plate,DSA FAL SA-58 Magazine,0,0.02,,,,,,,,,0
 ,fn_fal_halbek,,,,,,,,,,,,,
 1155,,rhodesian_halbek_muzzle_device,Rhodesian Reproduction Halbek,-3,0.04,10,-20,,0.2,-0.02,0,,,1200
@@ -2499,7 +2499,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1330,,HK416A5,HK416A5,28,0,56,90,0,0.45,1,1600,,,30000
 1331,,AUG_A3,Steyr AUG A3,42,0,58,63,0,0.45,1,1550,,,42000
 1332,,AK12,Kalashnikov Concern AK-12,28,0.85,63,57,0,0.5,1,1500,,,25000
-1333,,AK308,Kalashnikov Concern AK-308,10,0.7,90,110,0,0.75,0.8,1600,,,65000
+1333,,AK308,Kalashnikov Concern AK-308,42,0.7,90,110,0,0.75,0.8,1600,,,65000
 1334,,M4A1,M4A1,15,0,64,87,0,0.5,1,1550,,,0
 1335,,QBZ95,Norinco QBZ-95,45,2.3,50,50,0,0.5,0.9,1550,,,25000
 1336,,SA58,DS Arms SA-58,40,0.8,70,100,0,0.8,0.8,1550,,,20000

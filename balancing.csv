@@ -330,7 +330,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 174,,trijicon_acog_ta01_4x_scope_carry_handle,Trijicon ACOG TA01 4x Scope,-3,0.16,,-1,,,,,,,1500
 ,,trijicon_acog_ta31_comspec_4x_scope_carry_handle,Trijicon ACOG TA31 Comspec 4x Scope,-3,0.16,,-1,,,,,,,1800
 ,,trijicon_acog_ta31_milspec_4x_scope_carry_handle,Trijicon ACOG TA31 Milspec 4x Scope,-3,0.16,,-1,,,,,,,1600
-175,,burris_prism_ar332_carry_handle,Burris Tactical Prism AR-332 3x,-3,0.18,,-1,,,,,,,1300
+175,,burris_ar332_prism_3x_sight_carry_handle,Burris Tactical Prism AR-332 3x,-3,0.18,,-1,,,,,,,1300
 ,,burris_ar536_prism_5x_sight_carry_handle,Burris Tactical Prism AR-536 5x,-3,0.2,,-1,,,,,,,2700
 176,,pri_ar15_std_carry_handle_mount,PRI AR-15 Standard Carry Handle,-4,0.11,,,,,,,,,300
 177,,m16_m4_carryhandle_z_rail,M16/M4 Carry Handle Z-Rail,-4.5,0.13,,,,,,,,,200

@@ -1,4 +1,4 @@
-0.24.0,Sun Jan 26 21:10:05 2025,,,,,,,,,,,,,
+﻿0.24.0,Wed Jan 29 17:05:02 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1624,7 +1624,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ammo_5.8x42,,,,,,,,,,,,,
 884,,5.8x42_norinco_dbp95_64gr_fmj,5.8x42 Norinco DBP-95 64gr FMJ,0,0.15,0,0,,0,,,,,0
 ,,5.8x42_norinco_dbx95_64gr_green_tracer,5.8x42 Norinco DBX-95 64gr Green Tracer,-1,0.15,-1,-1,,0.05,,,,,1000
-,,5.8x42_norinco_dbx10_71gr_fmj,5.8x42 Norinco DBP-10 71gr FMJ,2,0.18,2,2,,0.1,,,,,2000
+,,5.8x42_norinco_dbp10_71gr_fmj,5.8x42 Norinco DBP-10 71gr FMJ,2,0.18,2,2,,0.1,,,,,2000
 ,ammo_762x25,,,,,,,,,,,,,
 885,,7.62x25_romanian_86gr_fmj_am3324,7.62x25 Romanian Surplus 86gr FMJ (AM3324),0,0.01,,0,,0,,0,,,0
 886,,7.62x25_tulammo_89gr_red_tracer_57_t_133,),0,0.01,,1,,0.05,,-100,,,1000

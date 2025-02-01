@@ -1,4 +1,4 @@
-﻿0.24.0,Wed Jan 29 17:05:02 2025,,,,,,,,,,,,,
+﻿0.24.0,Fri Jan 31 17:21:03 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -2029,7 +2029,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kalashnikov_concern_ak12k_5.45x39_flash_hider,Kalashnikov Concern AK12K Flash Hider,2,0.06,-9,-12,,0.05,0.04,20,,,500
 ,7.62x51nato_m15x1rh_muzzle_device,,,,,,,,,,,,,
 1090,,hughes_precision_m15x1rh_to_5_8x24_thread_adapter,Hughes Precision M15x1RH to 5/8x24 Thread,-1,0.05,1,1,,0.1,0,-50,,,1000
-1091,,hk_bird_cage_flash_hider_m15x1rh,HK Bird Cage Style M15x1RH 7.62x51 NATO,1,s,-9,-7,,0,0,50,,,0
+1091,,hk_bird_cage_flash_hider_m15x1rh,HK Bird Cage Style M15x1RH 7.62x51 NATO,1,0.05,-9,-7,,0,0,50,,,0
 ,7.62x51nato_muzzle_device,,,,,,,,,,,,,
 1092,,ak308_7.62x51_muzzle_brake,Kalashnikov Concern AK-308,-1,0.06,-9,-12,,0.05,0,50,,,0
 1093,,tiger_rock_ar10_7.62x51_barrett_style_muzzle_brake_with_jam_nut,Tiger Rock AR-10 .308 Barrett Style Muzzle Brake with Jam Nut,-6,0.16,12,-34,,0.15,-0.03,-20,,,1500

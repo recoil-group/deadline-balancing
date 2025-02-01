@@ -149,7 +149,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,vortex_optics_sport_cantilever_cm_102_30mm_2inch_offset,"Vortex Optics Sport Cantilever 30mm CM-102 2"" Offset",-1,0.09,,,,,,,,,500
 ,,vortex_optics_sport_cantilever_cm_203_30mm_3inch_offset,"Vortex Optics Sport Cantilever 30mm CM-203 3"" Offset",-1,0.1,,,,,,,,,500
 ,,walther_mrs_red_dot_sight,Walther MRS Reflex,-6,0.07,,,,0.25,,,,,600
-,,zenit_belomo_pk06,Zenit BelOMO PK-06 Kobra,-2.5,0.06,,,,,,,,,900
+,,zenit_belomo_pk06_kobra_sight,Zenit BelOMO PK-06 Kobra,-2.5,0.06,,,,,,,,,1000
 ,,zenit_belomo_prc_red_dot,Zenit BelOMO PRC,-2,0.16,,,,,,,,,1200
 ,,zenit_belomo_picatinny_mount_pkas,Zenit-BelOMO PK-AS,0,0.05,,,,,,,,,300
 ,,zenitco_klesch_2p_lcu,Zenitco Klesch-2P + LCU,-0.5,0.08,,,,,,,,,1000

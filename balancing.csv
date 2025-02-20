@@ -1,4 +1,4 @@
-﻿0.24.0,Wed Feb 19 14:49:40 2025,,,,,,,,,,,,,
+﻿0.24.0,Wed Feb 19 17:37:26 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -995,16 +995,16 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 527,,r870_std_4r_mag_cap,Rem. 870 4R,11,0.02,,,,,,,,,200
 528,,r870_2rnd_extension,Remington +2,9,0.07,,,,,,,,,500
 ,magazine_5.45x39,,,,,,,,,,,,,
-529,,5.45x39_6l26,6L26,-6.5,0.54,,,45,,,,,,1600
-530,,5.45x39_6l31,6L31,-8.5,0.68,,,60,,,,,,3000
+529,,5.45x39_6l26,6L26,-7,0.63,,,45,,,,,,1600
+530,,5.45x39_6l31,6L31,-12,0.8,,,60,,,,,,3000
 531,,5.45x39_rpk16_mag,RPK 16 95R,-18,1.16,,,95,,,,,,6000
-532,,5.45x39_saiga10r,Saiga 5.45 10R,8,0.12,,,10,,,,,,300
-533,,5.45x39_romanian30r,Romanian steel 30R,0,0.38,,,30,,,,,,750
-534,,5.45x39_6l20,6L20,2,0.41,,,30,,,,,,500
-535,,molot_rpk_5.45x39_6l18_45r_mag,Molot 5.45x39 AK74/RPK 6L18 45R,-5,0.58,,,45,,,,,,1600
-536,,5.45x39_magpul_pmag_ak74_30r,Magpul PMAG 5.45x39 30R,-1,0.37,,,30,,,,,,1200
-537,,5.45x39_6l23,6L23,-3,0.36,,,30,,,,,,600
-538,,5.45x39_izhmash_ak12_magazine_30r,Izhmash AK-12 Windowed Polymer 30R,1,0.4,,,30,,,,,,1200
+532,,5.45x39_saiga10r,Saiga 5.45 10R,9,0.16,,,10,,,,,,300
+533,,5.45x39_romanian30r,Romanian steel 30R,1,0.49,,,30,,,,,,750
+534,,5.45x39_6l20,6L20,0,0.43,,,30,,,,,,500
+535,,molot_rpk_5.45x39_6l18_45r_mag,Molot 5.45x39 AK74/RPK 6L18 45R,-6.5,0.66,,,45,,,,,,1600
+536,,5.45x39_magpul_pmag_ak74_30r,Magpul PMAG 5.45x39 30R,0,0.39,,,30,,,,,,1200
+537,,5.45x39_6l23,6L23,0,0.43,,,30,,,,,,600
+538,,5.45x39_izhmash_ak12_magazine_30r,Izhmash AK-12 Windowed Polymer 30R,0,0.42,,,30,,,,,,1200
 ,,banan_magazine,Banana Magazine,0,0.39,,,30,,,,,,5000
 ,magazine_7.62x51_remington700,,,,,,,,,,,,,
 539,,wyatts_5r,Wyatt's Outdoor .308 5R,-1,0.14,,,5,,,,,,300

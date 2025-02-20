@@ -1,4 +1,4 @@
-﻿0.24.0,Wed Feb 19 17:37:26 2025,,,,,,,,,,,,,
+﻿0.24.0,Thu Feb 20 13:53:10 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1069,15 +1069,15 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 580,,agr_870_protection_cap,AGR 870,16,0.02,8,8,,,,,,,100
 581,,agr_870_buffer_tube,AGR-870,-1,0.1,-2,-2,,,,,,,500
 ,r870_barrel,,,,,,,,,,,,,
-582,,r870_325mm_sawn_off,Sawn Off Smoothbore 325mm,4,0.37,4,4,,0.1,-0.1,-7,-0.3,,1200
-583,,r870_325mm_sawn_off_vent_ribs,Sawn Off 325mm Smoothbore With Vent Ribs,4.5,0.41,4,4,,0.1,-0.1,-7,0.2,,1200
-584,,r870_508mm,Remington 508mm Smoothbore,3,0.64,0,0,,0,0,168,0,,1000
-585,,r870_660mm_barrel_vent_ribs,Remington 660mm Smoothbore With Vent Ribs,2,0.72,-1,-1,,-0.1,0.05,271,0.5,,1500
-586,,r870_711mm_barrel_vent_ribs,Remington 711mm Smoothbore With Vent Ribs,1,0.8,-2,-2,,-0.15,0.1,300,-0.15,,1750
-587,,r870_762mm_barrel_vent_ribs,Remington 762mm Smoothbore With Vent Ribs,0.5,0.86,-2.5,-2.5,,-0.2,0.15,327,0,,2000
-588,,r870_864mm_barrel_vent_ribs,Remington 864mm Smoothbore With Vent Ribs,0,1,-4,-4,,-0.3,0.2,376,-0.3,,3500
-589,,r870_211mm_sawn_off,Sawn Off Smoothbore 211mm,5,0.32,5,5,,0.2,-0.2,-176,0.2,,1000
-590,,r870_508mm_fixed_sight,Remington 508mm Smoothbore With Fixed Sight,3.5,0.66,0,0,,0,0,168,0,,1100
+582,,r870_325mm_sawn_off,Sawn Off Smoothbore 325mm,6,0.37,4,4,,0.2,-0.1,-7,0.2,,1200
+583,,r870_325mm_sawn_off_vent_ribs,Sawn Off 325mm Smoothbore With Vent Ribs,6.5,0.41,4,4,,0.2,-0.1,-7,0.2,,1200
+584,,r870_508mm,Remington 508mm Smoothbore,4.5,0.64,0,0,,0.05,0,168,-0.05,,1000
+585,,r870_660mm_barrel_vent_ribs,Remington 660mm Smoothbore With Vent Ribs,3,0.72,-1,-1,,-0.1,0.1,271,-0.2,,1500
+586,,r870_711mm_barrel_vent_ribs,Remington 711mm Smoothbore With Vent Ribs,2,0.8,-2,-2,,-0.15,0.15,300,-0.25,,1750
+587,,r870_762mm_barrel_vent_ribs,Remington 762mm Smoothbore With Vent Ribs,0.5,0.86,-2.5,-2.5,,-0.2,0.2,327,-0.3,,2000
+588,,r870_864mm_barrel_vent_ribs,Remington 864mm Smoothbore With Vent Ribs,-2,1,-4,-4,,-0.2,0.25,376,-0.3,,3500
+589,,r870_211mm_sawn_off,Sawn Off Smoothbore 211mm,5,0.32,5,5,,0.3,-0.2,-176,0.3,,1000
+590,,r870_508mm_fixed_sight,Remington 508mm Smoothbore With Fixed Sight,4,0.66,0,0,,0.05,0,168,-0.05,,1100
 591,,carlson_slug_610mm_cantilever,Carlson's Slug 610mm w/ cantilever,-1,0.72,-2,-1,,-0.5,0.1,390,0.5,,2500
 ,r870_barrel_front_sight,,,,,,,,,,,,,
 592,,r870_std_front_sight,Remington Standard Barrel,3,0.1,,,,,,,,,0
@@ -1317,19 +1317,19 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak_magwell,,,,,,,,,,,,,
 ,,iron_claw_tactical_gen2_ak_magwell_system,Iron Claw Tactical Gen2 AK Magwell System,3,0.08,,-1,,,,,,,1000
 ,mp133_barrel,,,,,,,,,,,,,
-723,,mp_133_510mm_rib_barrel,510mm Rib,0,0.66,0,0,,0,0,170,0,,1000
-724,,mp_133_540mm_barrel,540mm,0,0.69,-1,-1,,-0.02,0.02,192,-0.1,,1100
-725,,mp_133_540mm_rib_barrel,540mm Rib,-1,0.71,-1,-1,,-0.02,0.02,192,-0.1,,1100
-726,,mp_133_610mm_barrel,610mm,-3,0.76,-3,-3,,-0.05,0.05,240,-0.15,,1300
-727,,mp_133_610mm_rib_barrel,610mm Rib,-4,0.78,-3,-3,,-0.05,0.05,240,-0.15,,1300
-728,,mp_133_660mm_barrel,660mm,-5,0.81,-4,-4,,-0.1,0.1,271,-0.2,,1400
-729,,mp_133_660mm_rib_barrel,660mm Rib,-6,0.83,-4,-4,,-0.1,0.1,271,-0.2,,1400
-730,,mp_133_710mm_barrel,710mm,-7,0.86,-6,-6,,-0.15,0.15,299,-0.25,,1500
-731,,mp_133_710mm_rib_barrel,710mm Rib,-8,0.88,-6,-6,,-0.15,0.15,299,-0.25,,1500
-732,,mp_133_750mm_rib_barrel,750mm Rib,-10,0.92,-7,-7,,-0.2,0.2,321,-0.3,,1600
-733,,mp_133_sawn_off_340mm_barrel,Sawn off 340mm,4,0.38,3,3,,0.2,-0.2,11,0.3,,1200
-734,,mp_133_510mm_barrel,510mm,1,0.64,0,0,,0,0,170,0,,1000
-735,,mp_133_750mm_barrel,750mm,-9,0.9,-7,-7,,-0.2,0.2,321,-0.3,,1600
+723,,mp_133_510mm_rib_barrel,510mm Rib,2,0.66,0,0,,0.05,0,170,-0.05,,1000
+724,,mp_133_540mm_barrel,540mm,0,0.69,-1,-1,,0,0.02,192,-0.1,,1100
+725,,mp_133_540mm_rib_barrel,540mm Rib,1,0.71,-1,-1,,0,0.02,192,-0.1,,1100
+726,,mp_133_610mm_barrel,610mm,-1.5,0.76,-3,-3,,-0.05,0.05,240,-0.15,,1300
+727,,mp_133_610mm_rib_barrel,610mm Rib,-1,0.78,-3,-3,,-0.05,0.05,240,-0.15,,1300
+728,,mp_133_660mm_barrel,660mm,-3.5,0.81,-4,-4,,-0.1,0.1,271,-0.2,,1400
+729,,mp_133_660mm_rib_barrel,660mm Rib,-3,0.83,-4,-4,,-0.1,0.1,271,-0.2,,1400
+730,,mp_133_710mm_barrel,710mm,-6.5,0.86,-6,-6,,-0.15,0.15,299,-0.25,,1500
+731,,mp_133_710mm_rib_barrel,710mm Rib,-6,0.88,-6,-6,,-0.15,0.15,299,-0.25,,1500
+732,,mp_133_750mm_rib_barrel,750mm Rib,-9.5,0.92,-7,-7,,-0.2,0.2,321,-0.3,,1600
+733,,mp_133_sawn_off_340mm_barrel,Sawn off 340mm,4,0.38,3,3,,0.2,-0.2,11,0.2,,1200
+734,,mp_133_510mm_barrel,510mm,1.5,0.64,0,0,,0.05,0,170,-0.05,,1000
+735,,mp_133_750mm_barrel,750mm,-10,0.9,-7,-7,,-0.2,0.2,321,-0.3,,1600
 ,mp133_barrel_rib_mount,,,,,,,,,,,,,
 736,,etmi_019_rib_mount,ETMI-019,-2,0.05,,,,,,,,,500
 ,mp133_bolt,,,,,,,,,,,,,

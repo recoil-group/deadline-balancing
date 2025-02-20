@@ -1,4 +1,4 @@
-﻿0.24.0,Thu Feb 20 13:53:10 2025,,,,,,,,,,,,,
+﻿0.24.0,Thu Feb 20 14:06:15 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1533,17 +1533,17 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 821,,tsa_g,TSA G,-15,0.14,7,7,,,,,,,2000
 ,glock_front_sight,,,,,,,,,,,,,
 822,,truglo_glock_tfx_fs,Truglo TFX,2,0.03,,,,,,,,,500
-823,,glock20_front_sight,Glock 20 Factory,0.5,0.02,,,,,,,,,0
-824,,trijicon_glock_supp_height_front_sights_wh_sf,Trijicon Suppressor / Optic Height White Outline Std. Frame,-1,0.04,,,,,,,,,300
-,,glock17l_front_sight,Glock 17L Front Sight,1,0.01,,,,,,,,,100
-825,,glock17_gen5_front_sight,Glock standard,1,0.01,,,,,,,,,0
+823,,glock20_front_sight,Glock 20 Factory,2,0.02,,,,,,,,,0
+824,,trijicon_glock_supp_height_front_sights_wh_sf,Trijicon Suppressor / Optic Height White Outline Std. Frame,1,0.04,,,,,,,,,300
+,,glock17l_front_sight,Glock 17L Front Sight,2,0.01,,,,,,,,,100
+825,,glock17_gen5_front_sight,Glock 17 Gen5 Factory,2,0.01,,,,,,,,,0
 ,glock_rear_sight,,,,,,,,,,,,,
 826,,trijicon_rm44_rear_sight_mount,Trijicon RM44 RMR Rear Sight Mount,-1,0.03,,,,,,,,,500
 827,,truglo_glock_tfx_rs,Truglo TFX,2,0.03,,,,,,,,,500
-828,,glock20_lf_rear_sight,Glock 20 Factory Large Frame,0.5,0.02,,,,,,,,,0
-829,,trijicon_glock_supp_height_rear_sights_wh_sf,Trijicon Suppressor / Optic Height White Outline Std. Frame,-1,0.04,,,,,,,,,300
-830,,glock17_gen4_sf_rear_sight,Glock Gen4 standard,1,0.01,,,,,,,,,100
-,,glock17_gen5_sf_rear_sight,Glock Gen 5 standard,1,0.01,,,,,,,,,0
+828,,glock20_lf_rear_sight,Glock 20 Factory Large Frame,2,0.02,,,,,,,,,0
+829,,trijicon_glock_supp_height_rear_sights_wh_sf,Trijicon Suppressor / Optic Height White Outline Std. Frame,1,0.04,,,,,,,,,300
+830,,glock17_gen4_sf_rear_sight,Glock 17 Gen4 Factory Small Frame,2,0.01,,,,,,,,,100
+,,glock17_gen5_sf_rear_sight,Glock 17 Gen5 Factory Small Frame,2,0.01,,,,,,,,,0
 ,,hughnitions_company_extra_high_rear_sight,HughNitions Company Extra High Rear Sight,2,0.03,,,,,,,,,500
 ,edc_x9_front_sight,,,,,,,,,,,,,
 831,,wilson_combat_edc_x9_snagfree_front_sight_red,Wilson Combat EDC X9 Snag-Free Red Fiber,1,0.01,,,,,,,,,0

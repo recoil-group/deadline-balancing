@@ -1,0 +1,23 @@
+﻿name,pretty_name,old_ergonomics,old_weight,old_price,,ergonomics,weight,price
+truglo_glock_tfx_fs,Truglo TFX,2,0.03,500,,2,0.03,500
+truglo_glock_tfx_rs,Truglo TFX,2,0.03,500,,2,0.03,500
+trijicon_glock_supp_height_front_sights_wh_sf,Trijicon Suppressor / Optic Height White Outline Std. Frame,-1,0.04,300,,1,0.04,300
+trijicon_glock_supp_height_rear_sights_wh_sf,Trijicon Suppressor / Optic Height White Outline Std. Frame,-1,0.04,300,,1,0.04,300
+hughnitions_company_extra_high_rear_sight,HughNitions Company Extra High Rear Sight,2,0.03,500,,2,0.03,500
+hughnitions_company_extra_high_front_sight,HughNitions Company Extra High Front Sight,2,0.03,200,,2,0.03,200
+glock17_gen5_front_sight,Glock 17 Gen5 Factory,1,0.01,0,,2,0.01,0
+glock17_gen5_sf_rear_sight,Glock 17 Gen5 Factory Small Frame,1,0.01,0,,2,0.01,0
+glock17_gen4_sf_rear_sight,Glock 17 Gen4 Factory Small Frame,1,0.01,100,,2,0.01,100
+glock17l_front_sight,Glock 17L Front Sight,1,0.01,100,,2,0.01,100
+,,,,,,,,
+glock20_front_sight,Glock 20 Factory,0.5,0.02,0,,2,0.02,0
+glock20_lf_rear_sight,Glock 20 Factory Large Frame,0.5,0.02,0,,2,0.02,0
+,,,,,,,,
+,Sums:,,,,,Sums:,,
+,Truglo TFX,4,0.06,1000,,4,0.06,1000
+,Trijicon Suppressor / Optic Height White Outline Std. Frame,-2,0.08,600,,2,0.08,600
+,HughNitions Company Extra High Rear Sight,4,0.06,700,,4,0.06,700
+,Glock 17 Gen5 Factory Small Frame,2,0.02,0,,4,0.02,0
+,Glock 17 Gen4 Factory Small Frame,2,0.02,200,,4,0.02,200
+,,,,,,,,
+,Glock 20 Factory,1,0.04,0,,4,0.04,0

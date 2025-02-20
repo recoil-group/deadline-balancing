@@ -1412,6 +1412,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,tt33_slide,,,,,,,,,,,,,
 778,,tt33_postwar_slide,TT33 Post-war 1949,1,0.16,0,0.5,,,,,,,0
 779,,tt33_prewar_slide,TT33 Pre-war 1935,0,0.15,0,0,,,,,,,0
+,,tt33_mod_postwar_slide,TT33 Modified Full-Auto Post-war 1949,0,0.16,7,10,,0.1,,,,,4000
 ,tt33_slide_catch,,,,,,,,,,,,,
 780,,tt33_slide_catch,TT33,0,0.01,,,,,,,,,0
 ,tt33_trigger,,,,,,,,,,,,,

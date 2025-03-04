@@ -106,6 +106,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 85,,aimpoint_qrp1_30mm_mount,Aimpoint QRP 30mm,-0.5,0.07,,,,,,,,,300
 ,,aimpoint_qrp1_30mm_mount_w_spacer,Aimpoint QRP 30mm w 39mm Spacer,-1,0.09,,,,,,,,,400
 ,,wilcox_compm_30mm_mount,Wilcox COMP-M 30mm,-1,0.06,,,,,,,,,600
+,,aimpoint_qrp2_modular_base_mount,Aimpoint QRP2 Modular Base Mount,-1,0.03,,,,,,,,,300
+,,aimpoint_ar15_spacer,Aimpoint AR-15 Spacer,0,0.02,,,,,,,,,200
 86,,rk_b25_angled_mount,Rk B25 angled,-1,0.03,0,0,,,,,,,500
 87,,rk_foregrip_mount,Rk foregrip,-0.5,0.03,0,0,,,,,,,200
 88,,rk_short_foregrip_mount,Rk short foregrip,-0.5,0.02,0,0,,,,,,,200
@@ -469,6 +471,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 248,,nightforce_atacr7_35x56_f1,Nightforce ATACR 7-35x56 F1,-7,0.42,,-4,,,,,,,5000
 ,single_ring_30mm_sight_mount,,,,,,,,,,,,,
 249,,aimpoint_compm2_sight,Aimpoint CompM2,-2,0.11,,,,,,,,,800
+,aimpoint_qrp2_mount,,,,,,,,,,,,,
+,,aimpoint_ar15_spacer,Aimpoint AR-15 Spacer,0,0.02,,,,,,,,,200
 ,25mm_ring_mount,,,,,,,,,,,,,
 250,,armytek_predator_prov3_xhp35_hi,Armytek Predator Pro v3 XHP35 HI Flashlight,-2,0.16,,,,,,,,,750
 251,,ultrafire_wf501b_flashlight,Ultrafire WF-501B Flashlight,-1,0.12,,,,,,,,,500
@@ -1440,6 +1444,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 791,,izhevsk_pm_9x18_std_slide,Izhevsk PM 9x18 Standard Slide,0,0.1,,,,,,,,,0
 ,makarov_barrel,,,,,,,,,,,,,
 792,,izhevsk_pm_9x18_94mm_barrel,Izhevsk PM 9x18 94mm Barrel,0,0.15,0,0,,0,0,0,,,0
+,,chefur_custom_pm_9x18_110mm_threaded_barrel,Chefur Custom PM 9x18 110mm Threaded,-2,0.18,3,1,,0.08,,32,,,1000
 ,makarov_parts,,,,,,,,,,,,,
 ,,izhevsk_pm_mag_release_spring,Izhevsk PM Standard Magazine Release Spring,,0.01,,,,,,,,,0
 ,,izhevsk_pm_std_hammer,Izhevsk PM Standard Hammer,,0.01,,,,,,,,,0
@@ -2166,6 +2171,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1162,,ss_lrs1_suppressor,Spike's Tactical Lrs-1,-5,0.3,-12,-22,,-0.25,0.14,100,,,1200
 ,makarov_laser,,,,,,,,,,,,,
 1163,,ncstar_apls_laser,NcStart APLS,-1,0.04,,,,,,,,,400
+,,est_pm_laser_sight,EST PM-Laser,-1,0.03,1,,,,,,,,700
 ,pjs_cqc_handguard,,,,,,,,,,,,,
 ,,pjs_aug_a3_sa_cqc_handguard,PJS AUG A3 CQC Handguard,3,0.14,-2,-2,,,,,,,800
 ,pjs_cqc_handguard_rails,,,,,,,,,,,,,

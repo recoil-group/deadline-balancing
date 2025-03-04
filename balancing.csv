@@ -106,6 +106,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 85,,aimpoint_qrp1_30mm_mount,Aimpoint QRP 30mm,-0.5,0.07,,,,,,,,,300
 ,,aimpoint_qrp1_30mm_mount_w_spacer,Aimpoint QRP 30mm w 39mm Spacer,-1,0.09,,,,,,,,,400
 ,,wilcox_compm_30mm_mount,Wilcox COMP-M 30mm,-1,0.06,,,,,,,,,600
+,,aimpoint_qrp2_modular_base_mount,Aimpoint QRP2 Modular Base Mount,-1,0.03,,,,,,,,,300
+,,aimpoint_ar15_spacer,Aimpoint AR-15 Spacer,0,0.02,,,,,,,,,200
 86,,rk_b25_angled_mount,Rk B25 angled,-1,0.03,0,0,,,,,,,500
 87,,rk_foregrip_mount,Rk foregrip,-0.5,0.03,0,0,,,,,,,200
 88,,rk_short_foregrip_mount,Rk short foregrip,-0.5,0.02,0,0,,,,,,,200
@@ -469,6 +471,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 248,,nightforce_atacr7_35x56_f1,Nightforce ATACR 7-35x56 F1,-7,0.42,,-4,,,,,,,5000
 ,single_ring_30mm_sight_mount,,,,,,,,,,,,,
 249,,aimpoint_compm2_sight,Aimpoint CompM2,-2,0.11,,,,,,,,,800
+,aimpoint_qrp2_mount,,,,,,,,,,,,,
+,,aimpoint_ar15_spacer,Aimpoint AR-15 Spacer,0,0.02,,,,,,,,,200
 ,25mm_ring_mount,,,,,,,,,,,,,
 250,,armytek_predator_prov3_xhp35_hi,Armytek Predator Pro v3 XHP35 HI Flashlight,-2,0.16,,,,,,,,,750
 251,,ultrafire_wf501b_flashlight,Ultrafire WF-501B Flashlight,-1,0.12,,,,,,,,,500

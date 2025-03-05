@@ -1,4 +1,4 @@
-﻿0.24.0,Tue Mar 04 18:06:35 2025,,,,,,,,,,,,,
+﻿0.24.0,Tue Mar 04 21:39:19 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -8,39 +8,40 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 5,,arms_no5_mount,A.R.M.S. #5 Multibase,0,0.06,,,,,,,,,400
 6,,a3_angled_foregrip,A3 Angled,1,0.16,-1,-7,,,,,,,900
 7,,abom_cnc_works_picatinny_susat_adapter,Abom's CNC Works Picatinny SUSAT Adapter,0,0.06,,,,,,,,,300
-8,,trijicon_ac32062_mount,Trijicon AC32062 RMR Mount,-0.5,0.05,,,,,,,,,350
+8,,trijicon_ac32062_mount,Trijicon AC32062 RMR Mount,-1,0.05,,,,,,,,,350
 9,,aeroknox_ax15_front_sight_base,Aeroknox AX15 Front Sight Base,0,0.02,,,,,,,,,400
 10,,aeroknox_ax15_rear_sight_base,Aeroknox AX15 Rear Sight Base,0,0.02,,,,,,,,,400
 11,,aim_sports_low_profile_45_degree_sight_base,AIM Sports Low Profile 45 Degree Sight Base,0,0.02,,,,,,,,,400
-12,,aimpoint_30mm_low_ring_mount,Aimpoint 30mm Low Ring,-0.5,0.03,,,,,,,,,200
+12,,aimpoint_30mm_low_ring_mount,Aimpoint 30mm Low Ring,0,0.03,,,,,,,,,200
 13,,aimpoint_amm_dovetail_11mm_mount,Aimpoint AMM Dovetail Groove 11mm Mount,0,0.02,,,,,,,,,200
-14,,aimpoint_electronic_g2_red_dot,Aimpoint Electronic G2,-2,0.17,,,,,,,,,500
+14,,aimpoint_electronic_g2_red_dot,Aimpoint Electronic G2,0,0.17,,,,,,,,,500
 15,,aimpoint_micro_lrp_qd_mount,Aimpoint Micro LRP QD Mount,0,0.03,,,,,,,,,300
 16,,be_meyers_mawl_c1+,B.E. Meyers MAWL-C1+,-1,0.07,,,,,,,,,3000
 17,,badger_ordnance_comm_30mm_mount_body,"Badger Ordnance C.O.M.M. 30mm 1.54"" Height",-0.5,0.06,,,,,,,,,1000
 18,,badger_ordnance_comm_34mm_mount_body,"Badger Ordnance C.O.M.M. 34mm 1.54"" Height",-0.5,0.07,,,,,,,,,1000
 19,,burris_ar_prb_mount,Burris AR PRB Mount,0,0.06,,,,,,,,,400
 20,,burris_ar_pepr_30mm_mount,Burris AR-P.E.P.R.™,-1,0.11,,,,,,,,,800
-21,,axion_kobra_ekp_8_sight,Axion Kobra EKP 8 18,-1,0.14,,,,,,,,,700
-,,axion_kobra_ekp_8_18_mount,Axion Kobra EKP 8 18 Mount,-1,0.03,,,,,,,,,400
+21,,axion_kobra_ekp_8_sight,Axion Kobra EKP-8,-1,0.16,,,,,,,,,700
+,,axion_kobra_ekp_8_18_mount,Axion Kobra EKP-8-18 Picatinny,0,0.03,,,,,,,,,400
+,,axion_kobra_ekp_8_sunshade,Axion Kobra EKP-8,1,0.02,,,,,,,,,50
 22,,colt_ca2r,Colt CA2R,3,0.07,,,,,,,,,400
 23,,colt_m4a1_carry_handle,Colt M4A1 Carry Handle,4,0.14,,,,,,,,,0
 24,,hera_arms_cqr_gen1_foregrip,CQR FG,6,0.23,-1,-3,,,,,,,1000
 ,,hera_arms_cqr_gen2_foregrip,Hera Arms CQR Gen2 Foregrip,6,0.23,-3,0,,,,,,,1500
-25,,elcan_c79a2,ELCAN C79A2 3.4x,-3,0.33,,-3,,,,,,,3000
+25,,elcan_c79a2,ELCAN C79A2 3.4x,-2.5,0.33,,-3,,,,,,,3000
 26,,elcan_specter_os4x_sfov4,ELCAN Specter OS4X Fixed-Magn. SFOV4,-3,0.24,,-2,,,,,,,3000
-27,,elcan_specterdr_1_4x_dfov14_t1,ELCAN SpecterDR 1-4x DFOV14-T1,-3,0.28,,-1,,,,,,,4000
-28,,eotech_553_holo_sight,EOTECH 553,-2,0.18,,,,,,,,,1400
-,,eotech_552_holo_sight,EOTECH 552,-2,0.17,,,,,,,,,1300
+27,,elcan_specterdr_1_4x_dfov14_t1,ELCAN SpecterDR 1-4x DFOV14-T1,-3.5,0.28,,-2,,,,,,,4000
+28,,eotech_553_holo_sight,EOTECH 553,-1.5,0.18,,,,,,,,,1400
+,,eotech_552_holo_sight,EOTECH 552,-1.5,0.17,,,,,,,,,1300
 ,,eotech_512_holo_sight,EOTECH 512,-1,0.17,,,,,,,,,1100
 29,,eotech_exps3_holo_sight,EOTECH EXPS-3,-2,0.12,,,,,,,,,1700
-,,eotech_exps2_holo_sight,EOTECH EXPS-2,-1,0.12,,,,,,,,,1500
-30,,eotech_sts_picatinny_mount,EOTECH G23/33 STS,-1,0.03,,,,,,,,,200
+,,eotech_exps2_holo_sight,EOTECH EXPS-2,-1.5,0.12,,,,,,,,,1500
+30,,eotech_sts_picatinny_mount,EOTECH G23/33 STS,0,0.04,,,,,,,,,200
 31,,eotech_xps3_holo_sight,EOTECH XPS3,-2,0.14,,,,,,,,,1800
-,,eotech_xps2_holo_sight,EOTECH XPS2,-1,0.14,,,,,,,,,1600
-,,eotech_xps2_green_holo_sight,EOTECH XPS2 Green Holo Sight,-1,0.14,,,,,,,,,1700
-,,eotech_xps2z_zombie_stopper_holo_sight,EOTECH XPS2Z Zombie Stopper Holo Sight,-1,0.14,,,,,,,,,2000
-,,eotech_exps2_green_holo_sight,EOTECH EXPS2 Green Holo Sight,-1,0.12,,,,,,,,,1600
+,,eotech_xps2_holo_sight,EOTECH XPS2,-1.5,0.14,,,,,,,,,1600
+,,eotech_xps2_green_holo_sight,EOTECH XPS2 Green Holo Sight,-1.5,0.14,,,,,,,,,1700
+,,eotech_xps2z_zombie_stopper_holo_sight,EOTECH XPS2Z Zombie Stopper Holo Sight,-1.5,0.14,,,,,,,,,2000
+,,eotech_exps2_green_holo_sight,EOTECH EXPS2 Green Holo Sight,-1.5,0.12,,,,,,,,,1600
 ,,eotech_exps2_mount,EOTECH EXPS2 Mount,0,0.03,,,,,,,,,300
 ,,eotech_exps3_mount,EOTECH EXPS3 Mount,0,0.03,,,,,,,,,300
 ,,eotech_exps2_hood,EOTECH EXPS 2 Hood,0,0,,,,,,,,,0
@@ -48,11 +49,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,eotech_exps2_green_hood,EOTECH EXPS2 Green Hood,0,0,,,,,,,,,0
 ,,eotech_553_hood,EOTECH 553 Hood,0,0,,,,,,,,,0
 32,,fab_defense_tactical_lightweight_vertical_grip,FAB Defense Lightweight Vertical,5,0.11,-4,-1,,,,,,,400
-33,,firefield_mg_kemper_xl_reflex_sight,Firefield MG Kemper XL Reflex,-7,0.19,,,,0.25,,,,,2000
+33,,firefield_mg_kemper_xl_reflex_sight,Firefield MG Kemper XL Reflex,-7,0.19,,-1,,0.25,,,,,2000
 34,,fn_scar_rear_sight_base,FN Scar Rear Sight Base,0,0.02,,,,,,,,,200
 35,,gbrs_group_aimpoint_hydra_mount_kit,GBRS Group Hydra Mount Kit For Aimpoint,-3,0.17,,,,,,,,,1000
 36,,grip_pod_gps_02_body,Grip Pod Systems GPS-02,0,0.15,0,0,,,,,,,1100
-37,,holosun_hs401g5,Holosun HS401G5,-2.5,0.2,,,,,,,,,800
+37,,holosun_hs401g5,Holosun HS401G5,-2,0.2,,,,,,,,,800
 38,,holosun_ls321g,Holosun LS321G,-1,0.06,,,,,,,,,800
 39,,insight_technology_an_peq_5_cvl,Insight Technology CVL AN/PEQ-5,-1,0.07,,,,,,,,,600
 40,,insight_technology_an_peq_2a_tpial,Insight Technology TPIAL AN/PEQ-2A,-1.5,0.08,,,,,,,,,750
@@ -73,9 +74,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 55,,l3harris_mipim_an_peq_16b,L3Harris MIPIM AN/PEQ-16B,-1,0.07,,,,,,,,,2000
 56,,larue_qd_lt_101,LaRue QD LT-101,-0.5,0.04,,,,,,,,,1000
 57,,las_tac_2,LAS/TAC 2,-0.5,0.05,,,,,,,,,750
-58,,leupold_deltapoint_pro_ar,Leupold DeltaPoint PRO AR,0,0.07,,,,,,,,,300
+58,,leupold_deltapoint_pro_ar,Leupold DeltaPoint PRO AR,-1,0.07,,,,,,,,,300
 59,,leupold_deltapoint_pro_cross_slot,Leupold DeltaPoint Pro Cross Slot,0,0.02,,,,,,,,,200
-60,,leupold_deltapoint_pro_ar_dloc,Leupold DeltaPoint PRO DLOC,0,0.05,,,,,,,,,250
+60,,leupold_deltapoint_pro_ar_dloc,Leupold DeltaPoint PRO DLOC,-1,0.05,,,,,,,,,250
 61,,magpul_afg_2_grip,Magpul AFG-2,4,0.09,-4,-3,,,,,,,600
 62,,magpul_mbus_gen2_base,Magpul MBUS Gen2,0,0.02,,,,,,,,,400
 63,,magpul_rvg_mag412_foregrip,Magpul RVG MAG412 Foregrip,4,0.08,-2,-5,,,,,,,300
@@ -100,13 +101,13 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 79,,npz_1p78_kashtan_p1_picatinny_adapter,NPZ 1P78 Kashtan P-1 Picatinny Adapter,0,0.06,,,,,,,,,300
 80,,okb_crazy_romanian_picatinny_full_grip,OKB Crazy Romanian Picatinny Full Grip,1,0.11,-5,-4,,,,,,,800
 81,,okb_crazy_romanian_picatinny_half_grip,OKB Crazy Romanian Picatinny Half Grip,4,0.07,-1,-4,,,,,,,600
-82,,pilad_p1x42,Pilad P1x42,-2.5,0.09,,,,,,,,,1000
-83,,priceli_narod_okp_7_picatinny,Priceli Narod OKP-7,-2,0.12,,,,,,,,,1000
+82,,pilad_p1x42,Pilad P1x42,-2,0.09,,,,,,,,,1000
+83,,priceli_narod_okp_7_picatinny,Priceli Narod OKP-7,-1.5,0.12,,,,,,,,,1000
 84,,pts_fortis_shift_tactical_grip,Pts Fortis Shift Tactical Grip,3,0.09,-5,-3,,,,,,,600
 85,,aimpoint_qrp1_30mm_mount,Aimpoint QRP 30mm,-0.5,0.07,,,,,,,,,300
 ,,aimpoint_qrp1_30mm_mount_w_spacer,Aimpoint QRP 30mm w 39mm Spacer,-1,0.09,,,,,,,,,400
 ,,wilcox_compm_30mm_mount,Wilcox COMP-M 30mm,-1,0.06,,,,,,,,,600
-,,aimpoint_qrp2_modular_base_mount,Aimpoint QRP2 Modular Base Mount,0,0.03,,,,,,,,,300
+,,aimpoint_qrp2_modular_base_mount,Aimpoint QRP2 Modular Base Mount,-0.5,0.03,,,,,,,,,300
 ,,aimpoint_ar15_spacer,Aimpoint AR-15 Spacer,-1,0.02,,,,,,,,,200
 ,,aimpoint_compm4_sight,Aimpoint CompM4,-1,0.14,,,,,,,,,1000
 86,,rk_b25_angled_mount,Rk B25 angled,-1,0.03,0,0,,,,,,,500
@@ -115,10 +116,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 89,,trijicon_rm33_mount,Trijicon RM33 RMR Mount,0,0.02,,,,,,,,,300
 90,,rtm_pillau_tactical_grip,RTM Pillau Tactical grip,4,0.07,-3,-3,,,,,,,300
 91,,scalarworks_leap01_swo100_1.42_mount,Scalarworks Leap01 SWO 100 1.42 Mount,-1,0.04,,,,,,,,,500
-92,,scalarworks_leap01_swo110_1.57_mount,Scalarworks Leap01 SWO 110 1.57 Mount,-1,0.04,,,,,,,,,550
-93,,scalarworks_leap01_swo120_1.93_mount,Scalarworks Leap01 SWO 120 1.93 Mount,-1,0.05,,,,,,,,,600
-94,,sig_sauer_bravo4_4x30,SIG Sauer BRAVO4 4X30,-3,0.27,,-2,,,,,,,2000
-,,sig_sauer_qd_1.41_cowitness_romeo3_riser,Sig Sauer QD 1.41 co-witness Romeo 3,0,0.04,,,,,,,,,300
+92,,scalarworks_leap01_swo110_1.57_mount,Scalarworks Leap01 SWO 110 1.57 Mount,-1,0.05,,,,,,,,,550
+93,,scalarworks_leap01_swo120_1.93_mount,Scalarworks Leap01 SWO 120 1.93 Mount,-1,0.06,,,,,,,,,600
+94,,sig_sauer_bravo4_4x30,SIG Sauer BRAVO4 4X30,-2.5,0.27,,-2,,,,,,,2000
+,,sig_sauer_qd_1.41_cowitness_romeo3_riser,Sig Sauer QD 1.41 co-witness Romeo 3,-1,0.04,,,,,,,,,300
 95,,sig_sauer_romeo3_low_rise_mount,Sig Sauer Romeo 3 Low-Rise,0,0.02,,,,,,,,,200
 96,,sig_sauer_romeo_cowitness_qd_mount,Sig Sauer Romeo Cowitness QD Mount,-0.5,0.05,,,,,,,,,400
 97,,sig_sauer_romeo4_mount,Sig Sauer Romeo4,-1,0.04,,,,,,,,,200
@@ -129,14 +130,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 102,,sightmark_lopro_mini_combo,Sightmark Lopro Mini Combo,-0.5,0.05,,,,,,,,,600
 103,,stark_se_5_express_forward_grip,Stark SE-5 Express Forward Grip,2,0.1,-5,-5,,,,,,,400
 104,,swampfox_picatinny_rmr_footprint_mount,Swampfox Picatinny RMR Mount,0,0.02,,,,,,,,,200
-105,,swampfox_trihawk_3x30_prism_scope,Swampfox Trihawk 3x30 Prism Scope,-2.5,0.22,,-1,,,,,,,1000
+105,,swampfox_trihawk_3x30_prism_scope,Swampfox Trihawk 3x30 Prism Scope,-3,0.22,,-1,,,,,,,1000
 106,,tangodown_bgv_mk46k_grip,Tangodown BGV-MK46K,3,0.08,-4,-4,,,,,,,600
 107,,timber_creek_enforcer_foregrip,Timber Creek Enforcer,3,0.1,-3,-5,,,,,,,700
 108,,timber_creek_enforcer_handstop,Timber Creek Enforcer,6,0.05,-1,-2,,,,,,,700
 109,,trijicon_compact_acog_ac12041_mount,Trijicon Compact ACOG AC12041 Mount w/ Q-LOC Technology,0,0.03,,,,,,,,,350
 110,,trijicon_rmr_ac32066_offset,Trijicon RMR AC32066 45degree Offset Mount,-4,0.03,,,,,,,,,200
-111,,trijicon_rx14_mount,Trijicon RX14,0,0.04,,,,,,,,,200
-112,,trijicon_srs02,Trijicon SRS-02,-2,0.16,,,,,,,,,1000
+111,,trijicon_rx14_mount,Trijicon RX14,-0.5,0.06,,,,,,,,,200
+112,,trijicon_srs02,Trijicon SRS-02,-1,0.16,,,,,,,,,1000
 113,,trijicon_ta51_flattop_mount,Trijicon TA51 Thumbscrew Flattop ,0,0.06,,,,,,,,,400
 114,,tristar_compact_carry_handle,Tristar Compact Carry Handle,7,0.3,,,,,,,,,1200
 115,,true_view_rap4_offset_picatinny_mount,True View Rap4 Offset Picatinny Mount,-3,0.08,,,,,,,,,500
@@ -147,14 +148,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 120,,unity_fast_optics_riser,Unity FAST Optics,-1,0.04,,,,,,,,,500
 121,,utg_ms_qd_foregrip,UTG MS QD,4,0.15,-6,-1,,,,,,,500
 ,,utg_super_slim_vertical_foregrip,UTG Super Slim Vertical,5,0.1,-1,-5,,,,,,,300
-,,valday_1p87,Valday JSC optics PK-120 (1P87),-2,0.16,,,,,,,,,1000
+,,valday_1p87,Valday JSC optics PK-120 (1P87),-1.5,0.16,,,,,,,,,1000
 ,,viking_tactical_uvg_grip,Viking Tactical UVG,5,0.09,-2,-4,,,,,,,800
-,,vortex_optics_razor_amg_uh1_gen1_sight,Vortex Optics Razor AMG UH-1 Gen I,-4,0.17,,,,,,,,,1600
+,,vortex_optics_razor_amg_uh1_gen1_sight,Vortex Optics Razor AMG UH-1 Gen I,-1,0.17,,,,,,,,,1600
 ,,vortex_optics_sport_cantilever_cm_102_30mm_2inch_offset,"Vortex Optics Sport Cantilever 30mm CM-102 2"" Offset",-1,0.09,,,,,,,,,500
 ,,vortex_optics_sport_cantilever_cm_203_30mm_3inch_offset,"Vortex Optics Sport Cantilever 30mm CM-203 3"" Offset",-1,0.1,,,,,,,,,500
 ,,walther_mrs_red_dot_sight,Walther MRS Reflex,-6,0.07,,,,0.25,,,,,600
 ,,zenit_belomo_pk06_kobra_sight,Zenit BelOMO PK-06 Kobra,-2.5,0.06,,,,,,,,,1000
-,,zenit_belomo_prc_red_dot,Zenit BelOMO PRC,-2,0.16,,,,,,,,,1200
+,,zenit_belomo_prc_red_dot,Zenit BelOMO PRC,-1,0.16,,,,,,,,,1200
 ,,zenit_belomo_picatinny_mount_pkas,Zenit-BelOMO PK-AS,0,0.05,,,,,,,,,300
 ,,zenitco_klesch_2p_lcu,Zenitco Klesch-2P + LCU,-0.5,0.08,,,,,,,,,1000
 ,,zenitco_perst_3_classic_gen4_green,"Zenitco Perst-3 ""Classic"" gen 4.0 (GREEN+)",-1,0.07,,,,,,,,,1000
@@ -178,10 +179,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,daniel_defense_rubber_overmolding_vertical_foregrip,Daniel Defense Soft Touch Rubber Overmolding Vertical Foregrip,4,0.09,-3,-4,,,,,,,500
 ,,bt_qd_nar_acro_22mm_mount,B&T QD NAR ACRO 22m Mount,0,0.03,,,,,,,,,500
 ,,bt_qd_nar_acro_30mm_mount,B&T QD NAR ACRO 30m Mount,-0.5,0.04,,,,,,,,,550
-,,bt_qd_nar_acro_39mm_mount,B&T QD NAR ACRO 39m Mount,-0.5,0.05,,,,,,,,,600
+,,bt_qd_nar_acro_39mm_mount,B&T QD NAR ACRO 39m Mount,-1,0.05,,,,,,,,,600
 ,,sc_irregulars_omm_micro_mount,SC Irregulars OMM MICRO Mount,-1,0.13,,,,,,,,,2000
 ,,sc_irregulars_omm_pic_mount,SC Irregulars OMM PIC Mount,-2,0.08,,,,,,,,,1500
-,,valday_zt310_picatinny_mount,Valday ZT310 Picatinny Mount,-1,0.04,,,,,,,,,100
+,,valday_zt310_picatinny_mount,Valday ZT310 Picatinny Mount,0,0.03,,,,,,,,,100
 ,,arbalet_patriot_k_pu_20mm_picatinny_mount,Arbalet Patriot K-PU 20mm Picatinny Mount,0,0.06,,,,,,,,,400
 ,,trijicon_rm34_ac12036_mount,Trijcon RM34 AC12036 Mount,0,0.04,,,,,,,,,400
 ,,troy_battlesight_round_aperture,Troy Battlesight Round Rear Aperture,0,0.005,,,,,,,,,0
@@ -292,8 +293,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,trijicon_compact_acog_3x24_ta50c_green_alt,Trijicon Compact ACOG 3x24 TA50-C Red Reticle Version,-3,0.1,,,,,,,,,1500
 ,,trijicon_rm34_rmr_adapter,Trijicon RM34 RMR Adapter,0,0.02,,,,,,,,,200
 ,trijicon_retro_reflex_sight,,,,,,,,,,,,,
-153,,trijicon_rx01/06_series_1x24_reflex_sight,Trijicon RX01/06 Series 1x24 Reflex,-2,0.08,,,,,,,,,900
-154,,trijicon_rx01/06_series_1x24_reflex_sight_ch,Trijicon RX01/06 Series 1x24 Reflex,-2,0.08,,,,,,,,,900
+153,,trijicon_rx01/06_series_1x24_reflex_sight,Trijicon RX01/06 Series 1x24 Reflex,-1,0.08,,,,,,,,,900
+154,,trijicon_rx01/06_series_1x24_reflex_sight_ch,Trijicon RX01/06 Series 1x24 Reflex,-1,0.08,,,,,,,,,900
 ,elcan_alt_view,,,,,,,,,,,,,
 155,,elcan_alt_view,Elcan alt view,0,0,,,,,,,,,0
 ,kac_front_sight,,,,,,,,,,,,,
@@ -341,8 +342,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 178,,trijicon_rx10_gooseneck_mount,Trijicon RX10 Gooseneck,-1,0.07,,,,,,,,,200
 179,,leupold_mark_4_carry_handle_mount,Leupold Mark 4 Carry Handle Mount,-2,0.06,,,,,,,,,300
 180,,trijicon_acog_ta11d_bac_carry_handle,Trijicon Acog TA11D BAC,-3,0.2,,-2,,,,,,,1900
-,,colt_retro_a1_scope_carry_handle_mount,Colt Retro A1 Scope Carry Handle Mount,-2,0.05,,,,,,,,,300
-,,barska_4x20_scope_carry_handle_mount,Barska 4x20 Scope Carry Handle Mount,-2,0.05,,,,,,,,,300
+,,colt_retro_a1_scope_carry_handle_mount,Colt Retro A1 Scope Carry Handle Mount,-1,0.05,,,,,,,,,300
+,,barska_4x20_scope_carry_handle_mount,Barska 4x20 Scope Carry Handle Mount,-1,0.05,,,,,,,,,300
 ,,insight_technology_an_paq_4a_carry_handle_mount,Insight Technology AN/PAQ-4A Carry Handle Mount,1,0.08,,,,,,,,,200
 ,cosmic_tactical_saturn_mount,,,,,,,,,,,,,
 ,,cosmic_tactical_saturn_4x_red_scope,Cosmic Tactical SATURN 4x Red Fiber Scope,-3,0.2,,-1,,,,,,,1000
@@ -417,12 +418,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,g33_magnifier_riser,,,,,,,,,,,,,
 220,,eotech_magn_7mm_riser_1,eotech_magn_7mm_riser_1,0,0.01,,,,,,,,,50
 221,,eotech_magn_7mm_riser_2,eotech_magn_7mm_riser_2,0,0.01,,,,,,,,,50
-222,,eotech_g33_3x_magnifier,eotech_g33_3x_magnifier,-2,0.08,,,,,,,,,2000
+222,,eotech_g33_3x_magnifier,eotech_g33_3x_magnifier,-1,0.09,,,,,,,,,2000
 ,1p90_magnifier,,,,,,,,,,,,,
-,,valday_zt310_offset_mount,Valday ZT310 Offset Mount,,0.03,,,,,,,,,100
-,,valday_jsc_optics_1p90_zt310_3x_magnifier,Valday JSC Optics 1P90 ZT310 3x Magnifier,-1,0.04,,,,,,,,,700
+,,valday_zt310_offset_mount,Valday ZT310 Offset Mount,0,0.02,,,,,,,,,100
+,,valday_jsc_optics_1p90_zt310_3x_magnifier,Valday JSC Optics 1P90 ZT310 3x Magnifier,0,0.1,,,,,,,,,700
 ,g33_mount,,,,,,,,,,,,,
-223,,eotech_sts_pivot_mount,eotech_sts_pivot_mount,-1,0.02,,,,,,,,,300
+223,,eotech_sts_pivot_mount,eotech_sts_pivot_mount,0,0.02,,,,,,,,,300
 ,cqr_spacer,,,,,,,,,,,,,
 224,,15mm_cqr,CQR 15mm,2,0.05,,,,,,,,,250
 225,,30mm_cqr,CQR 30mm,4,0.1,-1,,,,,,,,500
@@ -432,22 +433,22 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,hera_arms_cqr_gen2_buttpad,Hera Arms CQR Gen2 Buttpad,1,0.05,-1,-1,,,,,,,0
 ,leupold_deltapoint_footprint,,,,,,,,,,,,,
 227,,leupold_deltapoint_reflex_sight,Leupold DeltaPoint Reflex,-2,0.04,,,,,,,,,800
-228,,leupold_deltapoint_pro_sight,Leupold DeltaPoint Pro,-1.5,0.05,,,,,,,,,1200
-229,,eotech_eflx_mini_red_dot,EOTECH EFLX Mini Red Dot,-1.5,0.05,,,,,,,,,1100
+228,,leupold_deltapoint_pro_sight,Leupold DeltaPoint Pro,-2,0.05,,,,,,,,,1200
+229,,eotech_eflx_mini_red_dot,EOTECH EFLX Mini Red Dot,-2,0.05,,,,,,,,,1100
 ,aim_sport_low_profile_sight,,,,,,,,,,,,,
 230,,aim_sports_front_sight,AIM Sports Low Profile 45 Degree Front Sight,2,0.02,,,,,,,,,0
 231,,aim_sports_rear_sight_folded,AIM Sports Low Profile 45 Degree Folded Rear Sight,1,0.02,,,,,,,,,0
 232,,aim_sports_front_sight_folded,AIM Sports Low Profile 45 Degree Folded Folded Front Sight,1,0.02,,,,,,,,,0
 233,,aim_sports_rear_sight,AIM Sports Low Profile 45 Degree Rear Sight,2,0.02,,,,,,,,,0
 ,aimpoint_micro_footprint,,,,,,,,,,,,,
-234,,sig_sauer_romeo4_sight,Sig Sauer Romeo4,-1,0.08,,,,,,,,,1000
-235,,sig_sauer_romeo4t_sight,Sig Sauer Romeo4T,-1,0.08,,,,,,,,,1100
-236,,aimpoint_micro_spacer_high_39mm,Aimpoint Micro Spacer High 39mm,-0.5,0.03,,,,,,,,,200
+234,,sig_sauer_romeo4_sight,Sig Sauer Romeo4,-1.5,0.08,,,,,,,,,1000
+235,,sig_sauer_romeo4t_sight,Sig Sauer Romeo4T,-1.5,0.08,,,,,,,,,1100
+236,,aimpoint_micro_spacer_high_39mm,Aimpoint Micro Spacer High 39mm,-1,0.03,,,,,,,,,200
 237,,aimpoint_micro_spacer_low_30mm,Aimpoint Micro Spacer Low 30mm,-0.5,0.02,,,,,,,,,200
-238,,aimpoint_micro_t1_sight,Aimpoint Micro T1,-1,0.06,,,,,,,,,1200
-239,,aimpoint_micro_t2_sight,Aimpoint Micro T2,-1,0.06,,,,,,,,,1300
-,,aimpoint_compm5_sight,Aimpoint CompM5,-0.5,0.1,,,,,,,,,1400
-240,,sig_sauer_romeo5_1x20_sight,Sig Sauer Romeo5 1x20 Sight,-1,0.06,,,,,,,,,700
+238,,aimpoint_micro_t1_sight,Aimpoint Micro T1,-1.5,0.06,,,,,,,,,1200
+239,,aimpoint_micro_t2_sight,Aimpoint Micro T2,-1.5,0.06,,,,,,,,,1300
+,,aimpoint_compm5_sight,Aimpoint CompM5,-1,0.09,,,,,,,,,1400
+240,,sig_sauer_romeo5_1x20_sight,Sig Sauer Romeo5 1x20 Sight,-1.5,0.06,,,,,,,,,700
 ,aimpoint_t2_caps,,,,,,,,,,,,,
 241,,aimpoint_micro_t2_lens_caps,Aimpoint Micro T2 Lens Caps,1,0.01,,,,,,,,,0
 ,aimpoint_t2_wrap,,,,,,,,,,,,,
@@ -455,7 +456,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,compm5_caps,,,,,,,,,,,,,
 ,,aimpoint_compm5_lens_caps,Aimpoint CompM5 Lens Caps,1,0.01,,,,,,,,,0
 ,acro_footprint,,,,,,,,,,,,,
-,,aimpoint_acro_p2_reflex_sight,Aimpoint ACRO P-2 Reflex,-1,0.05,,,,,,,,,1200
+,,aimpoint_acro_p2_reflex_sight,Aimpoint ACRO P-2 Reflex,-2,0.05,,,,,,,,,1200
 ,susat_scope_footprint,,,,,,,,,,,,,
 242,,usi_l12a1_susat_combat_optic,"United Scientific Industries L12A1 ""SUSAT"" Combat Optic",-3,0.25,,-2,,,,,,,950
 ,susat_backup_sights,,,,,,,,,,,,,
@@ -471,7 +472,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,dual_ring_34mm_sight_mount,,,,,,,,,,,,,
 248,,nightforce_atacr7_35x56_f1,Nightforce ATACR 7-35x56 F1,-7,0.42,,-4,,,,,,,5000
 ,single_ring_30mm_sight_mount,,,,,,,,,,,,,
-249,,aimpoint_compm2_sight,Aimpoint CompM2,-2,0.11,,,,,,,,,800
+249,,aimpoint_compm2_sight,Aimpoint CompM2,-1,0.11,,,,,,,,,800
 ,25mm_ring_mount,,,,,,,,,,,,,
 250,,armytek_predator_prov3_xhp35_hi,Armytek Predator Pro v3 XHP35 HI Flashlight,-2,0.16,,,,,,,,,750
 251,,ultrafire_wf501b_flashlight,Ultrafire WF-501B Flashlight,-1,0.12,,,,,,,,,500
@@ -2220,7 +2221,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,z24_scope,,,,,,,,,,,,,
 1182,,hensoldt_z24_fero_4x24,Hensoldt Z24 Fero 4x24mm,-3,0.16,,,,,,,,,750
 ,romeo3_mount,,,,,,,,,,,,,
-1183,,sig_sauer_romeo3,Sig Sauer Romeo3 Sight,-1.5,0.05,,,,,,,,,900
+1183,,sig_sauer_romeo3,Sig Sauer Romeo3 Sight,-2,0.05,,,,,,,,,900
 ,romeo4t_cap,,,,,,,,,,,,,
 1184,,romeo4t_lens_caps,Romeo4T Lens,1,0.02,,,,,,,,,0
 1185,,romeo4t_folded_lens_caps,Romeo4T Folded Lens,2,0.02,,,,,,,,,0

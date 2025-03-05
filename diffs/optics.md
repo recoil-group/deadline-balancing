@@ -1,6 +1,6 @@
 ﻿# optics.csv Balancing Changes
 
-[Changed attachments](#changed-attachments): 45
+[Changed attachments](#changed-attachments): 47
 
 [New attachments](#new-attachments): 11
 
@@ -83,23 +83,31 @@ Ergonomics: `-1` -> <code class="red">-2</code>
 
 ### EOTECH 553
 
-Ergonomics: `-2` -> <code class="green">-1</code>
+Ergonomics: `-2` -> <code class="green">-1.5</code>
 
 ### EOTECH 552
 
-Ergonomics: `-2` -> <code class="green">-1</code>
-
-### EOTECH 512
-
-Ergonomics: `-1` -> <code class="green">-0.5</code>
-
-### EOTECH XPS3
-
 Ergonomics: `-2` -> <code class="green">-1.5</code>
 
-### EOTECH EXPS-3
+### EOTECH XPS2
 
-Ergonomics: `-2` -> <code class="green">-1.5</code>
+Ergonomics: `-1` -> <code class="red">-1.5</code>
+
+### EOTECH XPS2 Green Holo Sight
+
+Ergonomics: `-1` -> <code class="red">-1.5</code>
+
+### EOTECH XPS2Z Zombie Stopper Holo Sight
+
+Ergonomics: `-1` -> <code class="red">-1.5</code>
+
+### EOTECH EXPS-2
+
+Ergonomics: `-1` -> <code class="red">-1.5</code>
+
+### EOTECH EXPS2 Green Holo Sight
+
+Ergonomics: `-1` -> <code class="red">-1.5</code>
 
 ### Trijicon RX14
 

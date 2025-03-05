@@ -71,10 +71,7 @@ def main(file1: str, file2: str):
     _, _, data1 = read_csv(file1)
     version, size, data2 = read_csv(file2)
 
-    filename = file2.replace("\\", "/").split("/")[-1]
-
-    all_cols = list(next(iter(data1.values())).keys())
-    compare_cols = [col for col in all_cols if col in stat_directions]
+    compare_cols = list(next(iter(data1.values())).keys())[4:]
 
     new = []
     changes = []
@@ -93,9 +90,9 @@ def main(file1: str, file2: str):
                 pretty_name = row2.get("pretty_name") or row2["name"]
                 new.append(f"### {pretty_name}\n\n" + " \\\n".join(row_changes) + "\n")
 
-    output_file = "diffs/" + filename
+    output_file = "changelogs/" + version.replace(".", "-") + ".md"
     with open(output_file, "w", encoding="utf-8-sig") as f:
-        f.write(f"# {filename} Balancing Changes\n\n")
+        f.write(f"# {version} Balancing Changes\n\n")
         f.write(f"[Changed attachments](#changed-attachments): {len(changes)}\n\n")
         f.write(f"[New attachments](#new-attachments): {len(new)}\n\n")
         f.write(f"Total attachments: {size}\n\n")

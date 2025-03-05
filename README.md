@@ -47,15 +47,28 @@ python port.py "changes/changes.csv" "testing.csv" 2
 - Empty cells will overwrite existing data. Be careful.
 - `[header row]` is the row # of the column headers in the change sheet. Useful for extra labels or dates above the headers. Optional, defaults to 1.
 
-### diff.py
+### changelog.py
 
 Script to compare two sheets and output a changelog. Usage:
 
 ```bash
-python diff.py (old sheet) (new sheet)
-python diff.py "archive/0-22-12.csv" "balancing.csv"
+python changelog.py (old sheet) (new sheet)
+python changelog.py "archive/old-sheet.csv" "balancing.csv"
 ```
 
 - Outputs a changelog to `changelogs/version-changelog.md`.
+- Matches rows by `name` column.
+- Uses the `pretty_name` column for display in the changelog, falling back to `name`.
+
+### diff.py
+
+Basically changelog.py but for comparing smaller change sheets. Usage:
+
+```bash
+python diff.py (old sheet) (new sheet)
+python diff.py "old-sheet.csv" "changes/new-sheet.csv"
+```
+
+- Outputs a changelog to `changelogs/new-sheet.md`.
 - Matches rows by `name` column.
 - Uses the `pretty_name` column for display in the changelog, falling back to `name`.

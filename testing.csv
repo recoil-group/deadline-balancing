@@ -1,4 +1,4 @@
-﻿0.24.0,Tue Mar 04 21:47:00 2025,,,,,,,,,,,,,
+0.24.0,Tue Mar 04 21:47:00 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -48,6 +48,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,eotech_exps3_hood,EOTECH EXPS 3 Hood,0,0,,,,,,,,,0
 ,,eotech_exps2_green_hood,EOTECH EXPS2 Green Hood,0,0,,,,,,,,,0
 ,,eotech_553_hood,EOTECH 553 Hood,0,0,,,,,,,,,0
+,,holosun_hs510c_sight ,Holosun HS510C,-2,0.1,,,,,,,,,1500
+,,holosun_hs510c-gr_sight,Holosun HS510C-GR,-2,0.1,,,,,,,,,1700
 32,,fab_defense_tactical_lightweight_vertical_grip,FAB Defense Lightweight Vertical,5,0.11,-4,-1,,,,,,,400
 33,,firefield_mg_kemper_xl_reflex_sight,Firefield MG Kemper XL Reflex,-7,0.19,,-1,,0.25,,,,,2000
 34,,fn_scar_rear_sight_base,FN Scar Rear Sight Base,0,0.02,,,,,,,,,200

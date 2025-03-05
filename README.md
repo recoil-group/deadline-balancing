@@ -69,6 +69,6 @@ python diff.py (old sheet) (new sheet)
 python diff.py "old-sheet.csv" "changes/new-sheet.csv"
 ```
 
-- Outputs a changelog to `changelogs/new-sheet.md`.
+- Outputs a changelog to `diffs/new-sheet.md`.
 - Matches rows by `name` column.
 - Uses the `pretty_name` column for display in the changelog, falling back to `name`.

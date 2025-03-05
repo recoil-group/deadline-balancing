@@ -1,6 +1,6 @@
 ﻿# optics.csv Balancing Changes
 
-[Changed attachments](#changed-attachments): 47
+[Changed attachments](#changed-attachments): 48
 
 [New attachments](#new-attachments): 11
 
@@ -130,10 +130,6 @@ Ergonomics: `-0.5` -> <code class="green">0</code>
 
 Ergonomics: `-2` -> <code class="green">-1</code>
 
-### Aimpoint QRP2 Modular Base Mount
-
-Ergonomics: `0` -> <code class="red">-0.5</code>
-
 ### Zenit BelOMO PK-06 Kobra
 
 Ergonomics: `-2.5` -> <code class="green">-2</code>
@@ -149,10 +145,6 @@ Ergonomics: `-2.5` -> <code class="green">-2</code>
 ### Firefield MG Kemper XL Reflex
 
 Vertical Recoil: `0` -> <code class="green">-1</code>
-
-### Valday JSC optics PK-120 (1P87)
-
-Ergonomics: `-2` -> <code class="green">-1.5</code>
 
 ### Zenit BelOMO PRC
 
@@ -172,7 +164,19 @@ Ergonomics: `-2` -> <code class="green">0</code>
 
 ### Vortex Optics Razor AMG UH-1 Gen I
 
-Ergonomics: `-4` -> <code class="green">-1</code>
+Ergonomics: `-4` -> <code class="green">-1.5</code>
+
+### Trijcon RM34 AC12036 Mount
+
+Ergonomics: `0` -> <code class="red">-0.5</code>
+
+### Trijicon RM34 RMR Adapter
+
+Ergonomics: `0` -> <code class="red">-0.5</code>
+
+### Primary Arms SLx 1.53" Riser
+
+Ergonomics: `0` -> <code class="red">-0.5</code>
 
 ### Swampfox Trihawk 3x30 Prism Scope
 

@@ -1,9 +1,9 @@
-﻿0.24.0,Tue Mar 04 21:39:19 2025,,,,,,,,,,,,,
+﻿0.24.0,Tue Mar 04 21:47:00 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
 2,,primary_arms_slx_1.1inch_mount,"Primary Arms SLx 1.1"" Mount",0,0.03,,,,,,,,,200
-3,,primary_arms_slx_1.53inch_straight_spacer,"Primary Arms SLx 1.53"" Riser",0,0.05,,,,,,,,,100
+3,,primary_arms_slx_1.53inch_straight_spacer,"Primary Arms SLx 1.53"" Riser",-0.5,0.05,,,,,,,,,100
 4,,25mm_universal_mount,25mm Universal Tactical Mount,0,0.04,,,,,,,,,100
 5,,arms_no5_mount,A.R.M.S. #5 Multibase,0,0.06,,,,,,,,,400
 6,,a3_angled_foregrip,A3 Angled,1,0.16,-1,-7,,,,,,,900
@@ -107,7 +107,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 85,,aimpoint_qrp1_30mm_mount,Aimpoint QRP 30mm,-0.5,0.07,,,,,,,,,300
 ,,aimpoint_qrp1_30mm_mount_w_spacer,Aimpoint QRP 30mm w 39mm Spacer,-1,0.09,,,,,,,,,400
 ,,wilcox_compm_30mm_mount,Wilcox COMP-M 30mm,-1,0.06,,,,,,,,,600
-,,aimpoint_qrp2_modular_base_mount,Aimpoint QRP2 Modular Base Mount,-0.5,0.03,,,,,,,,,300
+,,aimpoint_qrp2_modular_base_mount,Aimpoint QRP2 Modular Base Mount,0,0.03,,,,,,,,,300
 ,,aimpoint_ar15_spacer,Aimpoint AR-15 Spacer,-1,0.02,,,,,,,,,200
 ,,aimpoint_compm4_sight,Aimpoint CompM4,-1,0.14,,,,,,,,,1000
 86,,rk_b25_angled_mount,Rk B25 angled,-1,0.03,0,0,,,,,,,500
@@ -148,9 +148,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 120,,unity_fast_optics_riser,Unity FAST Optics,-1,0.04,,,,,,,,,500
 121,,utg_ms_qd_foregrip,UTG MS QD,4,0.15,-6,-1,,,,,,,500
 ,,utg_super_slim_vertical_foregrip,UTG Super Slim Vertical,5,0.1,-1,-5,,,,,,,300
-,,valday_1p87,Valday JSC optics PK-120 (1P87),-1.5,0.16,,,,,,,,,1000
+,,valday_1p87,Valday JSC optics PK-120 (1P87),-2,0.16,,,,,,,,,1000
 ,,viking_tactical_uvg_grip,Viking Tactical UVG,5,0.09,-2,-4,,,,,,,800
-,,vortex_optics_razor_amg_uh1_gen1_sight,Vortex Optics Razor AMG UH-1 Gen I,-1,0.17,,,,,,,,,1600
+,,vortex_optics_razor_amg_uh1_gen1_sight,Vortex Optics Razor AMG UH-1 Gen I,-1.5,0.17,,,,,,,,,1600
 ,,vortex_optics_sport_cantilever_cm_102_30mm_2inch_offset,"Vortex Optics Sport Cantilever 30mm CM-102 2"" Offset",-1,0.09,,,,,,,,,500
 ,,vortex_optics_sport_cantilever_cm_203_30mm_3inch_offset,"Vortex Optics Sport Cantilever 30mm CM-203 3"" Offset",-1,0.1,,,,,,,,,500
 ,,walther_mrs_red_dot_sight,Walther MRS Reflex,-6,0.07,,,,0.25,,,,,600
@@ -184,7 +184,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sc_irregulars_omm_pic_mount,SC Irregulars OMM PIC Mount,-2,0.08,,,,,,,,,1500
 ,,valday_zt310_picatinny_mount,Valday ZT310 Picatinny Mount,0,0.03,,,,,,,,,100
 ,,arbalet_patriot_k_pu_20mm_picatinny_mount,Arbalet Patriot K-PU 20mm Picatinny Mount,0,0.06,,,,,,,,,400
-,,trijicon_rm34_ac12036_mount,Trijcon RM34 AC12036 Mount,0,0.04,,,,,,,,,400
+,,trijicon_rm34_ac12036_mount,Trijcon RM34 AC12036 Mount,-0.5,0.04,,,,,,,,,400
 ,,troy_battlesight_round_aperture,Troy Battlesight Round Rear Aperture,0,0.005,,,,,,,,,0
 ,,troy_battlesight_round_aperture_for_folded,Troy Battlesight Round Rear Aperture,0,0.005,,,,,,,,,0
 ,,troy_battlesight_std_front_post,Troy Battlesight Std. Front Post,0,0.005,,,,,,,,,0
@@ -291,7 +291,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,trijicon_compact_acog_3x24_ta50c_red_alt,Trijicon Compact ACOG 3x24 TA50-C Red Reticle Version,-3,0.1,,,,,,,,,1200
 152,,trijicon_compact_acog_3x24_ta50c_green,Trijicon Compact ACOG 3x24 TA50-C Red Reticle Version,-3,0.1,,,,,,,,,1500
 ,,trijicon_compact_acog_3x24_ta50c_green_alt,Trijicon Compact ACOG 3x24 TA50-C Red Reticle Version,-3,0.1,,,,,,,,,1500
-,,trijicon_rm34_rmr_adapter,Trijicon RM34 RMR Adapter,0,0.02,,,,,,,,,200
+,,trijicon_rm34_rmr_adapter,Trijicon RM34 RMR Adapter,-0.5,0.02,,,,,,,,,200
 ,trijicon_retro_reflex_sight,,,,,,,,,,,,,
 153,,trijicon_rx01/06_series_1x24_reflex_sight,Trijicon RX01/06 Series 1x24 Reflex,-1,0.08,,,,,,,,,900
 154,,trijicon_rx01/06_series_1x24_reflex_sight_ch,Trijicon RX01/06 Series 1x24 Reflex,-1,0.08,,,,,,,,,900

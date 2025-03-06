@@ -1,4 +1,4 @@
-﻿0.24.0,Wed Mar 05 11:01:41 2025,,,,,,,,,,,,,
+﻿0.24.0,Wed Mar 05 16:20:01 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -418,12 +418,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,akm_steel_bottom_plate,,,,,,,,,,,,,
 ,,izhmash_akm_steel_magazine_bottom_plate,Izhmash AKM Steel Magazine Bottom Plate,,,,,,,,,,,0
 ,g33_magnifier_riser,,,,,,,,,,,,,
-220,,eotech_magn_7mm_riser_1,eotech_magn_7mm_riser_1,0,0.01,,,,,,,,,50
-221,,eotech_magn_7mm_riser_2,eotech_magn_7mm_riser_2,0,0.01,,,,,,,,,50
+220,,eotech_magn_7mm_riser_1,eotech_magn_7mm_riser_1,-0.5,0.01,,,,,,,,,50
+221,,eotech_magn_7mm_riser_2,eotech_magn_7mm_riser_2,-0.5,0.01,,,,,,,,,50
 222,,eotech_g33_3x_magnifier,eotech_g33_3x_magnifier,-1,0.09,,,,,,,,,2000
 ,1p90_magnifier,,,,,,,,,,,,,
 ,,valday_zt310_offset_mount,Valday ZT310 Offset Mount,0,0.02,,,,,,,,,100
-,,valday_jsc_optics_1p90_zt310_3x_magnifier,Valday JSC Optics 1P90 ZT310 3x Magnifier,0,0.1,,,,,,,,,700
+,,valday_jsc_optics_1p90_zt310_3x_magnifier,Valday JSC Optics 1P90 ZT310 3x Magnifier,-1,0.1,,,,,,,,,700
 ,g33_mount,,,,,,,,,,,,,
 223,,eotech_sts_pivot_mount,eotech_sts_pivot_mount,0,0.02,,,,,,,,,300
 ,cqr_spacer,,,,,,,,,,,,,

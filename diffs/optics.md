@@ -2,9 +2,9 @@
 
 [Changed attachments](#changed-attachments): 48
 
-[New attachments](#new-attachments): 11
+[New attachments](#new-attachments): 13
 
-Total attachments: 168
+Total attachments: 170
 
 ## Changed Attachments
 
@@ -223,6 +223,18 @@ Ergonomics: `1` \
 Weight: `0.02` \
 Price: `50`
 
+### Holosun HS510C
+
+Ergonomics: `-2` \
+Weight: `0.08` \
+Price: `1500`
+
+### Holosun HS510C-GR
+
+Ergonomics: `-2` \
+Weight: `0.08` \
+Price: `1700`
+
 ### EOTECH G23/33 STS
 
 Ergonomics: `0` \
@@ -237,13 +249,13 @@ Price: `300`
 
 ### eotech_magn_7mm_riser_1
 
-Ergonomics: `0` \
+Ergonomics: `-0.5` \
 Weight: `0.01` \
 Price: `50`
 
 ### eotech_magn_7mm_riser_2
 
-Ergonomics: `0` \
+Ergonomics: `-0.5` \
 Weight: `0.01` \
 Price: `50`
 
@@ -267,6 +279,6 @@ Price: `100`
 
 ### Valday JSC Optics 1P90 ZT310 3x Magnifier
 
-Ergonomics: `0` \
+Ergonomics: `-1` \
 Weight: `0.1` \
 Price: `700`

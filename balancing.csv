@@ -1,4 +1,4 @@
-﻿0.24.0,Wed Mar 05 16:20:00 2025,,,,,,,,,,,,,
+﻿0.24.0,Thu Mar 06 13:03:50 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1480,7 +1480,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,zevtech_glock_slide_cover,Zevtech Glock Slide Cover,0,0.02,,,,,,,,,0
 ,,aimpoint_acro_glock_mos_adapter_plate,Aimpoint ACRO Glock MOS Adapter Plate,0,0.02,,,,,,,,,500
 ,glock_sear,,,,,,,,,,,,,
-796,,glock17_auto_sear,Glock 17 Auto Sear,-3,0.05,5,12,,,,,,,4000
+796,,glock17_auto_sear,Glock 17 Auto Sear,-3,0.05,5,12,,0.1,,,,,4000
 ,glock_slide_backplate,,,,,,,,,,,,,
 ,,glock17_slide_backplate,Glock 17 Slide Backplate,0,0.01,,,,,,,,,0
 ,,zevtech_g17_slide_backplate,Zevtech Glock 17 Blackplate,0,0.01,,,,,,,,,100

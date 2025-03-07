@@ -1,4 +1,4 @@
-﻿,Thu Mar 06 13:17:15 2025,,,,,,,,,,,,,
+﻿,Fri Mar 07 12:49:55 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -2471,6 +2471,16 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ptr_mp5_hg_bottom_rail,PTR MP5 Handguard Rail,0,0.02,,,,,,,,,0
 ,,ptr_mp5_hg_left_rail,PTR MP5 Handguard Rail,0,0.02,,,,,,,,,0
 ,,ptr_mp5_hg_right_rail,PTR MP5 Handguard Rail,0,0.02,,,,,,,,,0
+,m9_bayonet,,,,,,,,,,,,,
+,,buck_knives_m9_phrobis_iii_bayonet_blade,Buck Knives M9 Phrobis III,-5,0.29,,,,0.03,,,,,1000
+,,buck_knives_m9_phrobis_iii_bayonet_grip,Buck Knives M9 Phrobis III Grip,1,0.02,,,,,,,,,
+,akm_bayonet,,,,,,,,,,,,,
+,,izhevsk_akm_type2_bayonet_blade,Izhevsk AKM Type II Bayonet,-8,0.23,,,,0.03,,,,,1500
+,,izhevsk_akm_type2_bayonet_grip,Izhevsk AKM Type II Grip,1,0.01,,,,,,,,,
+,,izhevsk_akm_type2_bayonet_sling,Izhevsk AKM Type II Sling,1,0.01,,,,,,,,,
+,,izhevsk_akm_type1_bayonet_blade,Izhevsk AKM Type I Bayonet,-10,0.2,,,,0.03,,,,,1000
+,,izhevsk_akm_type1_bayonet_grip,Izhevsk AKM Type 1 Grip,1,0.01,,,,,,,,,
+,,izhevsk_akm_type1_bayonet_sling,Izhevsk AKM Type I Sling,1,0.01,,,,,,,,,
 ,rpg7_warhead,,,,,,,,,,,,,
 ,,npo_bazalt_pg_7vl_heat_warhead,NPO Bazalt PG-7VL Heat Warhead,,1.2,,,,,,,,,
 ,,npo_bazalt_og_7v_frag_warhead,NPO Bazalt OG-7V Frag Warhead,,1,,,,0.3,,,,,30000

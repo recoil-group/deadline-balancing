@@ -978,7 +978,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 508,,tt33_std_8rnd,TT-33 Std. Single Stack 8R,27,0.09,,,8,,,,,,300
 509,,tt33_extended_16r_mag,TT-33 Custom Welded Single Stack Extended 16R,10,0.18,,,16,,,,,,1000
 ,magazine_9x18,,,,,,,,,,,,,
-510,,9x18_makarov_pm/ppsh_drum_84r,STD 84R,-5,0.68,,,84,1,,,,,2000
+510,,custom_pm_ppsh_9x18_84r_drum_mag,Custom PM/PPSH 9x18 84R Drum,-12,0.88,4,-1,84,0.05,,,,,5000
 511,,izhevsk_pm_9x18_8r_magazine,Izhevsk PM 9x18 8R Magazine,0,0.09,,,8,,,,,,0
 ,magazine_9x19_edc_x9,,,,,,,,,,,,,
 512,,wilson_combat_edc_x9_18r_magazine,EDC X9 Std. 18r,-5,0.19,,,18,,,,,,1000
@@ -1439,9 +1439,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,makarov_lower_receiver,,,,,,,,,,,,,
 788,,izhevsk_pm_9x18_std_frame,Izhevsk PM 9x18 Standard Frame,0,0.2,,,,,,,,,0
 ,makarov_pistol_grip,,,,,,,,,,,,,
-789,,izhevsk_pm_bakelite_grip,Izhevsk PM Bakelite Grip,2,0.06,-1,-1,,,,,,,0
-790,,fab_defense_pm_g_pistol_grip,FAB Defense PM-G Pistol Grip,4,0.12,-2,-2,,,,,,,1000
-,,gun_custom_tuning_pm_tactic_kit_pistol_grip,GCT PM Tactic Kit Pistol Grip,2,0.21,-3,-3,,,,,,,2000
+789,,izhevsk_pm_bakelite_grip,Izhevsk PM Bakelite Grip,0,0.06,0,0,,,,,,,0
+790,,fab_defense_pm_g_pistol_grip,FAB Defense PM-G Pistol Grip,2,0.12,-1,-1,,,,,,,1000
+,,gun_custom_tuning_pm_tactic_kit_pistol_grip,GCT PM Tactic Kit Pistol Grip,1,0.21,-2,-2,,,,,,,2000
+,,dozor_pm_pistol_grip,Dozor PM,3,0.11,0,0,,,,,,,800
 ,makarov_slide,,,,,,,,,,,,,
 791,,izhevsk_pm_9x18_std_slide,Izhevsk PM 9x18 Standard Slide,0,0.1,,,,,,,,,0
 ,makarov_barrel,,,,,,,,,,,,,
@@ -1480,7 +1481,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,zevtech_glock_slide_cover,Zevtech Glock Slide Cover,0,0.02,,,,,,,,,0
 ,,aimpoint_acro_glock_mos_adapter_plate,Aimpoint ACRO Glock MOS Adapter Plate,0,0.02,,,,,,,,,500
 ,glock_sear,,,,,,,,,,,,,
-796,,glock17_auto_sear,Glock 17 Auto Sear,-3,0.05,5,12,,,,,,,4000
+796,,glock17_auto_sear,Glock 17 Auto Sear,-3,0.05,5,12,,0.1,,,,,4000
 ,glock_slide_backplate,,,,,,,,,,,,,
 ,,glock17_slide_backplate,Glock 17 Slide Backplate,0,0.01,,,,,,,,,0
 ,,zevtech_g17_slide_backplate,Zevtech Glock 17 Blackplate,0,0.01,,,,,,,,,100
@@ -2470,6 +2471,16 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ptr_mp5_hg_bottom_rail,PTR MP5 Handguard Rail,0,0.02,,,,,,,,,0
 ,,ptr_mp5_hg_left_rail,PTR MP5 Handguard Rail,0,0.02,,,,,,,,,0
 ,,ptr_mp5_hg_right_rail,PTR MP5 Handguard Rail,0,0.02,,,,,,,,,0
+,m9_bayonet,,,,,,,,,,,,,
+,,buck_knives_m9_phrobis_iii_bayonet_blade,Buck Knives M9 Phrobis III,-5,0.29,,,,0.03,,,,,1000
+,,buck_knives_m9_phrobis_iii_bayonet_grip,Buck Knives M9 Phrobis III Grip,1,0.02,,,,,,,,,
+,akm_bayonet,,,,,,,,,,,,,
+,,izhevsk_akm_type2_bayonet_blade,Izhevsk AKM Type II Bayonet,-8,0.23,,,,0.03,,,,,1500
+,,izhevsk_akm_type2_bayonet_grip,Izhevsk AKM Type II Grip,1,0.01,,,,,,,,,
+,,izhevsk_akm_type2_bayonet_sling,Izhevsk AKM Type II Sling,1,0.01,,,,,,,,,
+,,izhevsk_akm_type1_bayonet_blade,Izhevsk AKM Type I Bayonet,-10,0.2,,,,0.03,,,,,1000
+,,izhevsk_akm_type1_bayonet_grip,Izhevsk AKM Type 1 Grip,1,0.01,,,,,,,,,
+,,izhevsk_akm_type1_bayonet_sling,Izhevsk AKM Type I Sling,1,0.01,,,,,,,,,
 ,rpg7_warhead,,,,,,,,,,,,,
 ,,npo_bazalt_pg_7vl_heat_warhead,NPO Bazalt PG-7VL Heat Warhead,,1.2,,,,,,,,,
 ,,npo_bazalt_og_7v_frag_warhead,NPO Bazalt OG-7V Frag Warhead,,1,,,,0.3,,,,,30000

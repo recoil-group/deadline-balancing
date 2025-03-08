@@ -1,4 +1,4 @@
-﻿0.24.0,Wed Mar 05 16:20:00 2025,,,,,,,,,,,,,
+﻿0.24.0,Fri Mar 07 17:47:41 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -515,18 +515,18 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 257,,2a_armament_builder_series_gen1_12inch_handguard,"2A Armament Builder Series Gen 1 12""",11,0.28,-10,-9,,,,,,,800
 258,,2a_armament_builder_series_gen1_15inch_handguard,"2A Armament Builder Series Gen 1 15""",9,0.33,-12,-11,,,,,,,900
 259,,2a_armament_builder_series_gen1_7inch_handguard,"2A Armament Builder Series Gen 1 7""",15,0.2,-6,-5,,,,,,,700
-260,,usgi_m16a1_triangle_handguard,USGI M16A1 Triangle Handguard,13,0.27,-10,-15,,0.07,,,,,600
+260,,usgi_m16a1_triangle_handguard,USGI M16A1 Triangle Handguard,13,0.27,-10,-15,,0.03,,,,,600
 261,,kac_urx_4_mlok_10.75inch_handguard,"KAC URX 4 MLOK 10.75""",11,0.28,-9,-11,,,,,,,1150
 262,,dd_m4a1_fsp_ris_2_12.25_handguard,DD M4A1 FSP RIS II 12.25,6,0.33,-13,-15,,,,,,,1100
 263,,dd_m4a1_ris_2_12.25_handguard,DD M4A1 RIS II 12.25,6,0.35,-13,-16,,,,,,,1100
 264,,dd_mk18_fsp_ris_2_9.55_handguard,DD MK18 FSP RIS II 9.55,8,0.28,-11,-13,,,,,,,1000
 265,,dd_mk18_ris_2_9.55_handguard,DD Mk18 RIS II 9.55,8,0.3,-11,-14,,,,,,,1000
-266,,kac_ras_m4a1_handguard,KAC RAS,10,0.23,-6,-13,,0.04,,,,,700
+266,,kac_ras_m4a1_handguard,KAC RAS,10,0.23,-6,-13,,0.03,,,,,700
 267,,geissele_smr_mk16_mlok_urg_i_13.5inch,"Geissele Super Modular Rail MK16 M-LOK URG-I 13.5""",8,0.33,-13,-12,,,,,,,1100
 268,,geissele_smr_mk16_mlok_urg_i_15inch,"Geissele Super Modular Rail MK16 M-LOK URG-I 15""",7,0.36,-15,-12,,,,,,,1200
 269,,geissele_smr_mk16_mlok_urg_i_9.3inch,"Geissele Super Modular Rail MK16 M-LOK URG-I 9.3""",11,0.26,-11,-8,,,,,,,1000
 272,,kac_m5_ras_lower_handguard,KAC M5 RAS Lower Handguard,,,,,,,,,,,0
-,,kac_m5_ras_upper_handguard,KAC M5 RAS Upper Handguard,8,0.34,-13,-13,,0.04,,,,,1200
+,,kac_m5_ras_upper_handguard,KAC M5 RAS Upper Handguard,8,0.34,-13,-13,,0.03,,,,,1200
 273,,kac_mre_free_float_ras_rifle_12inch_handguard,"KAC MRE RAS Free Float 12"" ",7,0.27,-11,-14,,,,,,,1400
 ,,kac_mre_standard_front_filler_tube,KAC MRE Standard Front Filler Tube,1,0.06,,,,,,,,,0
 ,,kac_mre_railed_front_filler_tube,KAC MRE Railed Front Filler Tube,1,0.1,,-1,,,,,,,500
@@ -547,14 +547,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 284,,sai_14.5_qd_handguard,"SAI 14.5"" QD Rail",6,0.36,-12,-16,,,,,,,1200
 285,,stngr_lvnc_10i,"Stngr Lvnc 10""",11,0.28,-7,-12,,,,,,,950
 286,,stngr_hwk_15i,"Stngr Hkw 15""",8,0.34,-10,-15,,,,,,,900
-287,,colt_a2_std_rifle_plastic_handguard,Colt M16A2 Rifle Length Plastic,12,0.29,-11,-16,,0.08,,,,,500
+287,,colt_a2_std_rifle_plastic_handguard,Colt M16A2 Rifle Length Plastic,12,0.29,-11,-16,,0.03,,,,,500
 288,,geissele_smr_mk16_mlok_urg_i_10.5inch,"Geissele Super Modular Rail MK16 M-LOK URG-I 10.5""",10,0.29,-12,-9,,,,,,,1050
 ,,geissele_smr_mk4_federal_mlok_10inch,"Geissele Super Modular Rail Mk4 Federal MLOK 10""",10,0.31,-12,-10,,,,,,,1100
 ,,kac_urx_6_mlok_13inch_handguard,"KAC URX 6 MLOK 13""",9,0.33,-10,-15,,,,,,,1500
 289,,kac_urx_4_mlok_8.5inch_handguard,"KAC URX 4 MLOK 8.5""",13,0.24,-7,-9,,,,,,,1100
 290,,kac_urx_4_mlok_13inch_handguard,"KAC URX 4 MLOK 13""",9,0.32,-11,-13,,,,,,,1250
 291,,kac_urx_4_mlok_14.5inch_handguard,"KAC URX 4 MLOK 14.5""",8,0.35,-12,-14,,,,,,,1300
-292,,colt_m4_std_carbine_plastic_handguard,Colt M4 Standard Carbine Length Plastic,14,0.2,-10,-10,,0.05,,,,,0
+292,,colt_m4_std_carbine_plastic_handguard,Colt M4 Standard Carbine Length Plastic,14,0.2,-10,-10,,0.03,,,,,0
 ,,aeroknox_ax15_10.5inch_handguard,"Aeroknox AX15 10.5"" Handguard",14,0.24,-5,-9,,,,,,,800
 ,,radian_weapons_ar15_model_1_m1curgh_10inch_handguard,"Radian Weapons AR15 Model 1 M1CURGH 10"" Handguard",12,0.28,-9,-11,,,,,,,1500
 ,,noveske_n4_nsr_gen3_handguard_9.15inch,Noveske N4 NSR Gen 3 9.15in Handguard,12,0.24,-8,-10,,,,,,,1100
@@ -564,7 +564,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,midwest_industries_supp_series_sp12m_mlok_handguard,"Midwest Industries Supp Series SP12M 12.625""",9,0.34,-9,-17,,,,,,,1450
 ,,midwest_industries_supp_series_sp15m_mlok_handguard,"Midwest Industries Supp Series SP15M 15""",7,0.38,-11,-18,,,,,,,1500
 ,,midwest_industries_supp_series_sp18m_mlok_handguard,"Midwest Industries Supp Series SP18M 18""",5,0.42,-12,-20,,,,,,,1600
-,,colt_607_car15_triangle_7inch_handguard,"Colt 607 CAR-15 Triangle 7"" Handguard",16,0.19,-8,-10,,0.05,,,,,550
+,,colt_607_car15_triangle_7inch_handguard,"Colt 607 CAR-15 Triangle 7"" Handguard",16,0.19,-8,-10,,0.03,,,,,550
 ,modtac_mounting_coupler,,,,,,,,,,,,,
 ,,modtac_mrac_gen2_mounting_coupler,MODTAC M-RAC Gen2 Mounting Coupler,-2,0.04,,,,,,,,,300
 ,,modtac_mrac_gen3_mounting_coupler,MODTAC M-RAC Gen3 Mounting Coupler,-1,0.05,,,,,,,,,500

@@ -1,4 +1,4 @@
-﻿0.24.0,Mon Mar 17 22:04:31 2025,,,,,,,,,,,,,
+﻿0.24.0,Mon Mar 17 22:24:06 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -970,11 +970,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 505,,colt_32rd,Colt 9x19 32rnd,0,0.3,,,32,,,,,,500
 506,,duramag_colt_ar9_20r_mag,Duramag Colt AR-9 20Rnd,7,0.19,,-2,20,,,,,,400
 507,,duramag_colt_ar9_10r_mag,Duramag Colt AR-9 10Rnd,14,0.1,,-4,10,,,,,,200
-,,custom_colt_smg_9x19_50r_mag,Custom Colt SMG 9x19 50rnd Magazine,-20,0.5,4,4,50,0.05,,,,,5000
+,,custom_colt_smg_9x19_50r_mag,Custom Colt SMG 9x19 50rnd Magazine,-20,0.5,,,50,0.05,,,,,5000
 ,colt_smg_extension,,,,,,,,,,,,,
 ,,taylor_freelance_colt_smg_10r_mag_extension,Taylor Freelance Colt SMG 10r Mag Extension,-5,0.08,,,10,,,,,,1000
 ,colt_50_more,,,,,,,,,,,,,
-,,custom_colt_smg_9x19_50r_extension,Custom Colt SMG 50rnd Magazine Extension,-35,0.5,20,20,50,0.05,,,,,5000
+,,custom_colt_smg_9x19_50r_extension,Custom Colt SMG 50rnd Magazine Extension,-45,0.5,20,20,50,0.05,,,,,5000
 ,,custom_colt_smg_mag_coupler,Custom Colt SMG Mag Coupler,-2,0.1,,,,,,,,,0
 ,magazine_762x25mm_tt33,,,,,,,,,,,,,
 508,,tt33_std_8rnd,TT-33 Std. Single Stack 8R,27,0.09,,,8,,,,,,300
@@ -1647,7 +1647,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ammo_12g,,,,,,,,,,,,,
 888,,12g_remington_accutip_275_slug,"12G Remington Accutip 2.75"" Slug",4,0.04,3,3,,0.2,,0,,,2000
 889,,12g_mili_275_00buck_9x,"12G MILI 2.75"" #00 Buckshot (9 Pellets)",-3,,,,,,,-300,0.1,,0
-890,,12g_phoenix_hellfire_300_dragons_breath,"12G Phoenix Rising Hellfire 3"" Dragon's Breath,-2",,,,,,,-200,0.25,,4000
+890,,12g_phoenix_hellfire_300_dragons_breath,"12G Phoenix Rising Hellfire 3"" Dragon's Breath,-2",,,,,,,-200,0.25,,4000,
 891,,12g_federal_game_load_275_4shot_152x,"12G Federal Game Load Heavy Field 2.75"" 4-Shot (152 Pellets)",5,,,,,,,,0.5,,1000
 892,,12g_wolfhill_275_mean_bean_bag,"12G Wolf Hill 2.75"" Mean Bean Bag",10,,-15,-10,,0.4,,-400,,,100
 ,hk_barrel_frontsight,,,,,,,,,,,,,

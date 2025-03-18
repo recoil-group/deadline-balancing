@@ -1,4 +1,4 @@
-﻿0.24.0,Thu Mar 13 15:54:54 2025,,,,,,,,,,,,,
+﻿0.24.0,Mon Mar 17 22:04:31 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1587,69 +1587,69 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 841,,wilson_combat_edc_x9_backstrap_small,Wilson Combat EDC X9 Small,1,0.03,,,,,,,,,0
 842,,wilson_combat_edc_x9_backstrap_large,Wilson Combat EDC X9 Large,2,0.05,,,,,,,,,200
 ,ammo_556x45,,,,,,,,,,,,,
-843,,5.56x45_federal_american_eagle_training_xm193blx_55gr_fmj,5.56x45 Federal American Eagle Training 55gr FMJ (XM193BLX),0,0.1,0,0,,0,0,150,,,0
-844,,5.56x45_cbcdefense_m196_55gr_red_tracer,5.56x45 CBC Defense M196 55gr Red Tracer,0,0.09,-1,-1,,0.1,-0.04,175,,,600
-845,,5.56x45_winchester_m855_62gr_fmj_greentip_vm855,5.56x45 Winchester M855 62gr FMJ Green Tip (VM855),-2,0.14,1,1,,-0.05,-0.02,100,,,1000
-846,,5.56x45_cbcdefense_sat_ip_62gr_clf_aep_97,5.56x45 CBC Defense SAT IP 62gr CLF (AEP-97),-1,0.13,0,1,,-0.2,0.02,50,,,2000
-847,,5.56x45_novx_copper_pentagon_55gr_mchp_556n55cp,5.56x45 NOVX Copper Pentagon 55gr MCHP (556N55CP),2,0.08,3,3,,0.3,0,200,,,1200
+843,,5.56x45_federal_xm193_55gr_fmjbt,5.56x45 Federal XM193 55gr FMJBT,0,0.1,0,0,,0,0,150,,,0
+844,,5.56x45_cbc_m196_55gr_red_tracer,5.56x45 CBC M196 55gr Red Tracer,0,0.09,-1,-1,,0.1,-0.04,175,,,600
+845,,5.56x45_winchester_m855_62gr_fmj,5.56x45 Winchester M855 62gr FMJ,-2,0.14,1,1,,-0.05,-0.02,100,,,1000
+846,,5.56x45_lakecity_m855a1_62gr_sat,5.56x45 Lake City M855A1 62gr SAT,-1,0.13,0,1,,-0.2,0.02,50,,,2000
+847,,5.56x45_novx_pentagon_55gr_mchp,5.56x45 NovX Pentagon 55gr MCHP,2,0.08,3,3,,0.3,0,200,,,1200
 ,ammo_762x51,,,,,,,,,,,,,
-848,,7.62x51_fedarm_m80_ball_147gr_fmj_lc_cr_762_fmj,7.62x51 FedArm M80 Ball Range Grade 147gr FMJ LC (CR-762-FMJ),-10,0.2,,,,0.15,,50,,,0
-849,,7.62x51_federal_american_eagle_xm119cs_175gr_ot,7.62x51 Federal American Eagle XM119CS Match Grade 175gr OT,-13,0.26,7,5,,-0.05,,250,,,2000
-850,,7.62x51_fedarm_m62_147gr_red_tracer_cr_762_tr,7.62x51 FedArm M62 Range Grade 147gr Red Tracer (CR-762-TR),-11,0.22,,,,0.15,,0,,,1000
-851,,7.62x51_cbcdefense_lilac_139gr_ir_tracer,7.62x51 CBC Defense LILAC NVD 139gr IR Tracer,-10,0.22,1,1,,0.25,,20,,,3000
+848,,7.62x51_winchester_m80_149gr_fmj,7.62x51 Winchester M80 149gr FMJ,-10,0.2,,,,0.15,,50,,,0
+849,,7.62x51_federal_m118lr_175gr_otm,7.62x51 Federal M118LR 175gr OTM,-13,0.26,7,5,,-0.05,,250,,,2000
+850,,7.62x51_lakecity_m62_142gr_red_tracer,7.62x51 Lake City M62 142gr Red Tracer,-11,0.22,,,,0.15,,0,,,1000
+851,,7.62x51_cbc_lilac_139gr_ir_tracer,7.62x51 CBC Lilac-Tip 139gr IR Tracer,-10,0.22,1,1,,0.25,,20,,,3000
 ,ammo_7.62x54r,,,,,,,,,,,,,
-852,,7.62x54r_tulammo_ps_151gr_fbmj_7n1,7.62x54R Tulammo PS 151gr FBMJ (7N1),0,0.1,,,,,,,,,0
-853,,7.62x54r_ppu_150gr_sp_pp76254s,7.62x54R PPU 150gr SP (PP76254S),0,0.1,1,1,,0.1,,100,,,2000
-854,,7.62x54r_tulammo_t_46_149gr_green_tracer_7t2,7.62x54R Tulammo T-46 149gr Green Tracer (7T2),1,0.13,3,3,,0.2,,200,,,1000
+852,,7.62x54r_novosibirsk_7n1_151gr_ps,7.62x54R Novosibirsk 7N1 151gr PS,0,0.1,,,,,,,,,0
+853,,7.62x54r_ppu_rifle_150gr_spbt,7.62x54R PPU Rifle Line 150gr SPBT,0,0.1,1,1,,0.1,,100,,,2000
+854,,7.62x54r_novosibirsk_7t2_149gr_green_tracer,7.62x54R Novosibirsk 7T2 149gr Green Tracer,1,0.13,3,3,,0.2,,200,,,1000
 ,ammo_762x39,,,,,,,,,,,,,
-855,,7.62x39_tulammo_122gr_fmj_ul076201,7.62x39 Tulammo Steel Case 122gr FMJ (UL076201),0,0.01,1,2,,0.35,,0,,,0
-856,,7.62x39_tulammo_154gr_sp,7.62x39 Tulammo Steel Case 154gr SP,-2,0.04,3,3,,0.45,,-50,,,2000
-857,,7.62x39_tulammo_144gr_tracer_t_45,7.62x39 Tulammo Steel Case 144gr Tracer (T-45),-3,0.03,2,4,,0.4,,10,,,1000
+855,,7.62x39_tula_57n231_122gr_ps,7.62x39 Tula 57-N-231 123gr PS,0,0.01,1,2,,0.35,,0,,,0
+856,,7.62x39_ppu_rifle_123gr_jsp,7.62x39 PPU Rifle Line 123gr JSP,-2,0.04,3,3,,0.45,,-50,,,2000
+857,,7.62x39_s&b_sv43_123gr_red_tracer,7.62x39 Sellier & Bellot Sv43 123gr Red Tracer,-3,0.03,2,4,,0.4,,10,,,1000
 ,ammo_5.45x39,,,,,,,,,,,,,
-858,,5.45x39_hornady_black_60gr_v_max,5.45x39 Hornady BLACK 60gr V-MAX (TA545390),1,0.12,2,2,,-0.2,,150,,,2000
-859,,5.45x39_tulammo_60gr_fmj_ta545390,5.45x39 TulAmmo 60gr FMJ (TA545390),0,0.1,,,,-0.05,,-100,,,0
-860,,5.45x39_tulammo_bs_64gr_bmj_7n24,5.45x39 TulAmmo BS 64gr BMJ (7N24),-2,0.08,1,4,,0.15,,-250,,,1000
-861,,5.45x39_tulammo_t_gs_49gr_red_tracer_7t3,5.45x39 TulAmmo T gs 49gr Red Tracer (7T3),3,0.12,-2,-3,,0.05,,-50,,,500
-862,,5.45x39_barnaul_bt_55gr_hpspc,5.45x39 Barnaul 55gr HP SPC,-3,0.12,3,5,,0.15,,-250,,,1500
-863,,5.45x39_tulammo_53gr_fmj_7n6,5.45x39 TulAmmo 53gr FMJ (7N6),2,0.14,-2,-2,,0.05,,100,,,850
+858,,5.45x39_hornady_black_60gr_vmax,5.45x39 Hornady BLACK 60gr V-MAX,1,0.12,2,2,,-0.2,,150,,,2000
+859,,5.45x39_silver_bear_60gr_fmj,5.45x39 Silver Bear 60gr FMJ,0,0.1,,,,-0.05,,-100,,,0
+860,,5.45x39_barnaul_7n22_57gr_bp,5.45x39 Barnaul 7N22 57gr BP,-2,0.08,1,4,,0.15,,-250,,,1000
+861,,5.45x39_tula_7t3_49gr_red_tracer,5.45x39 Tula 7T3 49gr Red Tracer,3,0.12,-2,-3,,0.05,,-50,,,500
+862,,5.45x39_wolf_performance_55gr_hpbt,5.45x39 Wolf Performance 55gr HPBT,-3,0.12,3,5,,0.15,,-250,,,1500
+863,,5.45x39_tula_7n6_53gr_ps,5.45x39 Tula 7N6 53gr PS,2,0.14,-2,-2,,0.05,,100,,,850
 ,ammo_9x18,,,,,,,,,,,,,
-864,,9x18_mesko_93gr_fmj_mesko9mak_1,9x18mm Mesko 93gr FMJ,0,0.02,,,,,,,,,0
-865,,9x18_underwood_115gr_fn_uw721,9x18mm Underwood 115gr FN (UW721),1,0,,,,,,,,,500
-866,,9x18_hornady_xtp_95gr_jhpfb,9x18mm Hornady XTP (extreme terminal performance) 95gr JHPFB,-3,0.03,5,3,,0.4,,-100,,,1000
-867,,9x18_nca_novosibirsk_ppt_gzh_56gr_red_tracer_75_t_181,9x18mm NCA Novosibirsk PPT gzh 56gr Red Tracer (75-t-181),,0.02,-1,1,,0.1,,20,,,750
-868,,9x18_underwood_xtreme_penetrator_95gr_sm,9x18mm Underwood Xtreme Penetrator 95gr SM,,0.05,-2,2,,0.1,,50,,,1000
+864,,9x18_novosibirsk_57n181s_92gr_pst,9x18 Novosibirsk 57-N-181S 92gr Pst,0,0.02,,,,,,,,,0
+865,,9x18_ppu_handgun_93gr_fmj,9x18 PPU Handgun Line 93gr FMJ,1,0,,,,,,,,,500
+866,,9x18_hornady_xtp_95gr_jhpfb,9x18 Hornady XTP 95gr JHPFB,-3,0.03,5,3,,0.4,,-100,,,1000
+867,,9x18_novosibirsk_57t181_56gr_red_tracer,9x18 Novosibirsk 57-T-181 56gr Red Tracer,,0.02,-1,1,,0.1,,20,,,750
+868,,9x18_underwood_xtreme_95gr_sm,9x18 Underwood Xtreme Penetrator 95gr SM,,0.05,-2,2,,0.1,,50,,,1000
 ,ammo_9x19,,,,,,,,,,,,,
-869,,9x19_remington_umc_115gr_fmj_l9mm3b,Remington UMC 115gr FMJ (L9MM3B),1,0.08,-5,-5,,0.1,0.04,0,,,0
-870,,9x19_federal_ballisticlean_100gr_rht_frangible_bc9nt3,Federal BallistiClean 100gr RHT Frangible (BC9NT3),2,0.06,-11,-8,,-0.2,-0.04,0,,,600
-871,,9x19_federal_classic_115gr_hi_shok_jhp_9bp,Federal Classic 115gr HI-SHOK JHP (9BP),-1,0.08,10,10,,0.4,,-100,,,2000
-872,,9x19_speer_lawman_124gr_tmj_53651,Speer Lawman 124gr TMJ (53651),0,0.1,-9,-12,,-0.05,0.1,-150,,,1500
-873,,9x19_armscor_usa_147gr_fmj_fac9_5n,ARMSCOR USA 147gr Subsonic FMJ (FAC9-5N),3,0.12,-13,-18,,0.2,-0.04,-300,,,1200
-874,,9x19_piney_mountain_124gr_green_tracer,Piney Mountain 124gr Green Tracer,0,0.09,-6,-4,,0.05,0.14,-150,,,750
+869,,9x19_remington_umc_115gr_fmj,9x19 Remington UMC 115gr FMJ,1,0.08,-5,-5,,0.1,0.04,0,,,0
+870,,9x19_norma_mle_94gr_rht_frangible,9x19 Norma MLE 94gr RHT Frangible,2,0.06,-11,-8,,-0.2,-0.04,0,,,600
+871,,9x19_federal_hishok_115gr_jhp,9x19 Federal Hi-Shok 115gr JHP,-1,0.08,10,10,,0.4,,-100,,,2000
+872,,9x19_winchester_m822_124gr_fmj,9x19 Winchester M882 124gr FMJ,0,0.1,-9,-12,,-0.05,0.1,-150,,,1500
+873,,9x19_armscor_usa_147gr_subsonic,9x19 ARMSCOR USA 147gr Subsonic FMJ,3,0.12,-13,-18,,0.2,-0.04,-300,,,1200
+874,,9x19_supernova_119gr_green_tracer,9x19 Supernova 119gr Green Tracer,0,0.09,-6,-4,,0.05,0.14,-150,,,750
 ,ammo_10mm,,,,,,,,,,,,,
-875,,10mm_sellier&bellot_160gr_fmj,10mm Auto Sellier & Bellot 160gr FMJ,0,0.03,,0,,0,,100,,,0
-876,,10mm_remington_umc_180gr_mc_fmj,10mm Auto Remington UMC 180gr MC FMJ,0,0.04,,0,,0.05,,50,,,1000
-877,,10mm_winchester_silvertip_170gr_jhp,10mm Auto Winchester Silvertip 170gr JHP,-1,0.04,,10,,0.1,,-100,,,2000
-878,,10mm_liberty_ammunition_civil_defense_60gr_frag_hplf,10mm Auto Liberty Ammunition Civil Defense 60gr Frag HPLF,-1.5,0.01,30,30,,0.5,,300,,,800
+875,,10mm_blazer_aluminum_200gr_fmj,10mm Auto Blazer Aluminum 200gr FMJ,0,0.03,,0,,0,,100,,,0
+876,,10mm_remington_umc_180gr_fmj,10mm Auto Remington UMC 180gr FMJ,0,0.04,,0,,0.05,,50,,,1000
+877,,10mm_winchester_silvertip_175gr_jhp,10mm Auto Winchester Silvertip 175gr JHP,-1,0.04,,10,,0.1,,-100,,,2000
+878,,10mm_liberty_civil_defense_60gr_hplf,10mm Auto Liberty Civil Defense 60gr HPLF,-1.5,0.01,30,30,,0.5,,300,,,800
 ,ammo_45acp,,,,,,,,,,,,,
 879,,45acp_blazer_brass_230gr_fmj,.45 ACP Blazer Brass 230gr FMJ,0,0.1,0,0,,0,0.03,80,,,0
-880,,45acp_pmc_230gr_fmj_45a,.45 ACP PMC 230gr FMJ (45A),0,0.1,0,-1,,0.1,0.06,80,,,1500
-881,,45acp_stelth_230gr_tmj_tmc_stl,.45 ACP Stelth 230gr TMJ (TMC-STL),2,0.1,-2,0,,0,-0.13,0,,,1200
-882,,45acp_tulammo_230gr_fmj,.45 ACP Tulammo 230gr FMJ,1,0.1,0,1,,0.1,0.14,100,,,1200
-883,,45acp_ammoinc_230gr_red_tracer_jhp,.45 ACP Ammo Inc. 230gr Red Tracer JHP,-1,0.1,0,0,,0.1,-0.12,170,,,1000
+880,,45acp_winchester_service_grade_230gr_fmj,.45 ACP Winchester Service Grade 230gr FMJ,0,0.1,0,-1,,0.1,0.06,80,,,1500
+881,,45acp_ammoinc_230gr_subsonic_tmj,.45 ACP Ammo Inc. 230gr Subsonic TMJ,2,0.1,-2,0,,0,-0.13,0,,,1200
+882,,45acp_speer_golddot_230gr_bjhp,.45 ACP Speer Gold Dot 230gr BJHP,1,0.1,0,1,,0.1,0.14,100,,,1200
+883,,45acp_supernova_225gr_red_tracer,.45 ACP Supernova 225gr Red Tracer,-1,0.1,0,0,,0.1,-0.12,170,,,1000
 ,ammo_5.8x42,,,,,,,,,,,,,
 884,,5.8x42_norinco_dbp95_64gr_fmj,5.8x42 Norinco DBP-95 64gr FMJ,0,0.15,0,0,,0,,,,,0
 ,,5.8x42_norinco_dbx95_64gr_green_tracer,5.8x42 Norinco DBX-95 64gr Green Tracer,-1,0.15,-1,-1,,0.05,,-50,,,1000
 ,,5.8x42_norinco_dbp10_71gr_fmj,5.8x42 Norinco DBP-10 71gr FMJ,2,0.18,2,2,,0.1,,-100,,,2000
 ,ammo_762x25,,,,,,,,,,,,,
-885,,7.62x25_romanian_86gr_fmj_am3324,7.62x25 Romanian Surplus 86gr FMJ (AM3324),0,0.01,,0,,0,,0,,,0
-886,,7.62x25_tulammo_89gr_red_tracer_57_t_133,),0,0.01,,1,,0.05,,-100,,,1000
-887,,7.62x25_tulammo_pst_gzh_85gr_sc_57_n_134s,7.62x25 TulAmmo PST gzh 85gr SC (57-N-134S),-1,0.01,,3,,-0.1,,100,,,1500
+885,,7.62x25_s&b_85gr_fmj,7.62x25 Sellier & Bellot 85gr FMJ,0,0.01,,0,,0,,0,,,0
+886,,7.62x25_tula_57t133_90gr_red_tracer,7.62x25 Tula 57-T-133 90gr Red Tracer,0,0.01,,1,,0.05,,-100,,,1000
+887,,7.62x25_tula_57n134s_85gr_pst,7.62x25 Tula 57-N-134S 85gr Pst,-1,0.01,,3,,-0.1,,100,,,1500
 ,ammo_12g,,,,,,,,,,,,,
-888,,remington_accutip_12g_275_lead_sabot_slug,"Remington Accutip 12g 2.75"" Slug",4,0.04,3,3,,0.2,,0,,,2000
-889,,mili_12g_12x70_9_pellets_00_buck,"MILI 12g 2.75"" 9 PELLETS 00 BUCK",-3,,,,,,,-300,0.1,,0
-890,,pheonix_rising_hellfire_3i_dragons_breath,Pheonix Rising Hellfire 3inch Dragon's Breath with buck,-2,,,,,,,-200,0.25,,4000
-891,,federal_h1234_game_shok_12x70_150_plts_#4,"Federal Ammunition Game-Shok Upland Heavy Field 12g 2.75"" 150 PELLETS #4 BUCK",5,,,,,,,,0.5,,1000
-892,,wolfhillammo_12g_12x70_mean_bean_bag,"WolfHillAmmo 12g 2.75"" Mean Bean Bag",10,,-15,-10,,0.4,,-400,,,100
+888,,12g_remington_accutip_275_slug,"12G Remington Accutip 2.75"" Slug",4,0.04,3,3,,0.2,,0,,,2000
+889,,12g_mili_275_00buck_9x,"12G MILI 2.75"" #00 Buckshot (9 Pellets)",-3,,,,,,,-300,0.1,,0
+890,,12g_phoenix_hellfire_300_dragons_breath,"12G Phoenix Rising Hellfire 3"" Dragon's Breath,-2",,,,,,,-200,0.25,,4000
+891,,12g_federal_game_load_275_4shot_152x,"12G Federal Game Load Heavy Field 2.75"" 4-Shot (152 Pellets)",5,,,,,,,,0.5,,1000
+892,,12g_wolfhill_275_mean_bean_bag,"12G Wolf Hill 2.75"" Mean Bean Bag",10,,-15,-10,,0.4,,-400,,,100
 ,hk_barrel_frontsight,,,,,,,,,,,,,
 893,,hk_33mm_fs_folded,HK 33mm Front Folding Sight - Folded,1,0.02,,,,,,,,,0
 894,,hk_33mm_fs,HK 33mm Front Folding Sight,2,0.02,,,,,,,,,0

@@ -1,6 +1,6 @@
 # deadline balancing
 
-attachment stats for deadline. game link: <https://www.roblox.com/games/3837841034>
+attachment stats and other stuff for [deadline](https://www.roblox.com/games/3837841034).
 
 ## changelogs
 

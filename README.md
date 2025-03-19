@@ -14,7 +14,7 @@ Attachment stats and other stuff for [Deadline](https://www.roblox.com/games/383
 
 Contains information about stats, gameplay, mechanics, and more.
 
-https://github.com/recoil-group/deadline-balancing/wiki
+<https://github.com/recoil-group/deadline-balancing/wiki>
 
 ## repo guide
 

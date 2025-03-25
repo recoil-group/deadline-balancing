@@ -1,4 +1,4 @@
-﻿0.24.0,Tue Mar 25 09:23:05 2025,,,,,,,,,,,,,
+﻿0.24.0,Tue Mar 25 09:30:39 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -2120,7 +2120,13 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,sa58_handguard,,,,,,,,,,,,,
 1125,,dsa_sa58_belgian_style_handguard,DSA SA-58 Belgian Style,3,0.25,-16,-17,,,,,,,0
 1126,,aim_sports_universal_11.3inch_mlok_hg_lower,"Aim Sports Universal MLOK 11.3""",1,0.15,-9,-11,,,,,,,1500
-1127,,dsa_metric_short_quadrail_handguard,DSA Metric Short Quad Rail,4,0.24,-7,-11,,,,,,,1000
+1127,,dsa_metric_short_quadrail_handguard,DSA Metric Short Quad Rail,4,0.18,-7,-11,,,,,,,1000
+,,dsa_sa58_metric_mlok_full_length_bottom_handguard,DSA SA58 Metric MLOK Full Length Lower Handguard,-2,0.14,-11,-14,,,,,,,1750
+,,dsa_sa58_metric_mlok_full_length_top_handguard,DSA SA58 Metric MLOK Full Length Picatinny Upper Handguard,0,0.09,0,0,,,,,,,250
+,,dsa_sa58_metric_mlok_mid_length_bottom_handguard,DSA SA58 Metric MLOK Mid Length Lower Handguard,1,0.12,-8,-12,,,,,,,1500
+,,dsa_sa58_metric_mlok_mid_length_top_handguard,DSA SA58 Metric MLOK Mid Length Picatinny Upper Handguard,0,0.08,0,0,,,,,,,200
+,,dsa_sa58_metric_mlok_pistol_length_bottom_handguard ,DSA SA58 Metric MLOK Pistol Length Lower Handguard,3,0.09,-5,-10,,,,,,,1200
+,,dsa_sa58_metric_mlok_pistol_length_top_handguard,DSA SA58 Metric MLOK Pistol Length Picatinny Upper Handguard ,0,0.05,0,0,,,,,,,150
 ,sa58_lower_receiver,,,,,,,,,,,,,
 1128,,sa58_std_lower_receiver,DSA SA-58 7.62x51,12,0,,,,,,,,,0
 ,sa58_rear_sight,,,,,,,,,,,,,

@@ -1,4 +1,4 @@
-﻿0.24.0,Tue Mar 25 09:30:39 2025,,,,,,,,,,,,,
+﻿0.24.0,Tue Mar 25 09:42:56 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1648,7 +1648,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 888,,12g_remington_accutip_275_slug,"12G Remington Accutip 2.75"" Slug",4,0.04,3,3,,0.2,,0,,,2000
 889,,12g_mili_275_00buck_9x,"12G MILI 2.75"" #00 Buckshot (9 Pellets)",-3,,,,,,,-300,0.1,,0
 890,,12g_phoenix_hellfire_300_dragons_breath,"12G Phoenix Rising Hellfire 3"" Dragon's Breath,-2",,,,,,,-200,0.25,,4000,
-891,,12g_federal_game_load_275_4shot_152x,"12G Federal Game Load Heavy Field 2.75"" 4-Shot (152 Pellets)",5,,,,,,,,0.5,,1000
+891,,12g_federal_game_load_275_4shot_152x,"12G Federal Game Load 2.75"" 4-Shot (152 Pellets)",5,,,,,,,,0.5,,1000
 892,,12g_wolfhill_275_mean_bean_bag,"12G Wolf Hill 2.75"" Mean Bean Bag",10,,-15,-10,,0.4,,-400,,,100
 ,hk_barrel_frontsight,,,,,,,,,,,,,
 893,,hk_33mm_fs_folded,HK 33mm Front Folding Sight - Folded,1,0.02,,,,,,,,,0
@@ -2503,8 +2503,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,izhevsk_akm_type1_bayonet_grip,Izhevsk AKM Type 1 Grip,1,0.01,,,,,,,,,
 ,,izhevsk_akm_type1_bayonet_sling,Izhevsk AKM Type I Sling,1,0.01,,,,,,,,,
 ,rpg7_warhead,,,,,,,,,,,,,
-,,npo_bazalt_pg_7vl_heat_warhead,NPO Bazalt PG-7VL Heat Warhead,,1.2,,,,,,,,,
-,,npo_bazalt_og_7v_frag_warhead,NPO Bazalt OG-7V Frag Warhead,,1,,,,0.3,,,,,30000
+,,npo_bazalt_pg_7vl_heat_warhead,NPO Bazalt PG-7VL HEAT Warhead,,1.2,,,,,,,,,
+,,npo_bazalt_og_7v_frag_warhead,NPO Bazalt OG-7V HE-Frag Warhead,,1,,,,0.3,,,,,30000
 ,rpg7,,,,,,,,,,,,,
 ,,npo_bazalt_rpg_7n2_tube,NPO Bazalt RPG-7N2 Tube,,3.4,,,,,,,,,0
 ,,npo_bazalt_rpg_7_wooden_shoulder_padding,NPO Bazalt RPG-7 Wooden Shoulder Padding,,0.5,,,,,,,,,0

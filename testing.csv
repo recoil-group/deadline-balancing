@@ -1045,7 +1045,6 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,steyr_mpi_69_81_9x19_32r_mag,Steyr MPI69/81 9x19 32R,15,0.3,,,32,,,,,,750
 554,,roch_custom_steyr_aug_9x19_40r_mag,Roch Custom Steyr AUG Para 9x19 40R,9,0.38,,,40,,,,,,1000
 ,magazine_7.62x51_fn_fal,,,,,,,,,,,,,
-,,dsa_sa58_fal_metric_magazine_5r,DSA FAL SA-58 U.S. Made Metric 5R,11,0.16,,,5,,,,,,200
 555,,dsa_sa58_fal_metric_magazine_10r,DSA FAL SA-58 U.S. Made Metric 10R,7,0.32,,,10,,,,,,500
 556,,dsa_sa58_fal_metric_magazine_20r,DSA FAL SA-58 U.S. Made Metric 20R,0,0.61,,,20,,,,,,1000
 557,,dsa_sa58_fal_metric_magazine_30r,DSA FAL SA-58 U.S. Made Metric 30R,-7,0.92,,,30,,,,,,2000
@@ -2065,7 +2064,6 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1094,,dsa_3prong_trident_7.62x51_flash_hider,DSA 3-Prong Trident 7.62x51,1,0.03,-7,-10,,0,0,30,,,0
 1095,,fn_fal_7.62x51_belgian_flash_hider,FN FAL Belgian Style 7.62x51,0,0.06,-11,-7,,0,0,50,,,500
 1096,,fn_fal_austrian_7.62x51_stg58_flash_hider,FN FAL Austrian STG58 7.62x51,1,0.09,-9,-10,,0,0,130,,,500
-,,dsa_warz_series_7.62x51_flash_hider,DSA WarZ Series 7.62x51,2,0.02,-5,-7,,,,25,,,600
 1097,,sig_srd762ti_suppressor,Sig SRD762Ti,-6,0.26,-8,-10,,-0.12,0.05,200,,,2000
 1098,,oss_bpr_suppressor_system_bpr_1425,OSS BPR Suppressor System BPR-1425,-4,0.16,-7,-7,,-0.1,0.03,150,,,2500
 1099,,fn_scar17_7.62x51_3prong_european_flash_hider,FN Scar Mk17 .308 3-Prong European,1,0.06,-8,-11,,0,0,50,,,0
@@ -2121,7 +2119,6 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1124,,sa58_std_grip,DSA SA-58 Standard,0,0.09,0,0,,,,,,,0
 ,sa58_handguard,,,,,,,,,,,,,
 1125,,dsa_sa58_belgian_style_handguard,DSA SA-58 Belgian Style,3,0.25,-16,-17,,,,,,,0
-,,dsa_sa58_belgian_style_mid_length_handguard,DSA SA-58 Belgian Style Mid Length Handguard,5,0.18,-14,-13,,,,,,,750
 1126,,aim_sports_universal_11.3inch_mlok_hg_lower,"Aim Sports Universal MLOK 11.3""",1,0.15,-9,-11,,,,,,,1500
 1127,,dsa_metric_short_quadrail_handguard,DSA Metric Short Quad Rail,4,0.18,-7,-11,,,,,,,1000
 ,,dsa_sa58_metric_mlok_full_length_bottom_handguard,DSA SA58 Metric MLOK Full Length Lower Handguard,-2,0.14,-11,-14,,,,,,,1750
@@ -2130,17 +2127,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,dsa_sa58_metric_mlok_mid_length_top_handguard,DSA SA58 Metric MLOK Mid Length Picatinny Upper Handguard,0,0.08,0,0,,,,,,,200
 ,,dsa_sa58_metric_mlok_pistol_length_bottom_handguard ,DSA SA58 Metric MLOK Pistol Length Lower Handguard,3,0.09,-5,-10,,,,,,,1200
 ,,dsa_sa58_metric_mlok_pistol_length_top_handguard,DSA SA58 Metric MLOK Pistol Length Picatinny Upper Handguard ,0,0.05,0,0,,,,,,,150
-,,dsa_sa58_tactical_pistol_v2_handguard,DSA SA-58 Tactical Pistol V2,6,0.16,-11,-12,,,,,,,2000
 ,sa58_lower_receiver,,,,,,,,,,,,,
 1128,,sa58_std_lower_receiver,DSA SA-58 7.62x51,12,0,,,,,,,,,0
 ,sa58_rear_sight,,,,,,,,,,,,,
 1129,,dsa_sa58_holland_type_sight,DSA SA-58 Holland Type,1,0.06,,,,,,,,,200
 1130,,dsa_sa58_para_rear_sight,DSA SA-58 Metric PARA,1.3,0.07,,,,,,,,,0
-,,dsa_sa58_rear_sight_picatinny_mount,DSA SA-58 Rear Sight Picatinny Mount ,-1,0.02,,,,,,,,,500
 ,sa58_stock,,,,,,,,,,,,,
 1131,,dsa_sa58_para_fold_assembly,DSA SA-58 Para Fold Assembly,0,0.08,0,0,,,,,,,500
 1132,,dsa_sa58_polymer_humpback_stock,DSA Humpback Polymer Fixed,3,0.24,0,-20,,,,,,,0
-,,dsa_sa58_pistol_qd_sling_endplate,DSA SA-58 Pistol QD Sling,3,0.05,9,7,,1,,,,,1000
 ,sa58_barrel,,,,,,,,,,,,,
 1133,,dsa_sa58_305mm_barrel,"DSA SA-58 12""",11,0.65,7,7,,0.15,-0.06,-131,,,750
 1134,,dsa_sa58_330mm_barrel,"DSA SA-58 13""",6,0.69,4,4,,0.1,-0.04,-81,,,500
@@ -2148,9 +2142,6 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1136,,dsa_sa58_457mm_barrel,"DSA SA-58 18""",-4,0.93,-2,-2,,-0.1,0.03,143,,,750
 1137,,dsa_sa58_533mm_barrel,"DSA SA-58 21""",-9,1.05,-4,-4,,-0.2,0.08,238,,,1000
 1138,,dsa_sa58_406mm_fluted_barrel,"DSA SA-58 16"" Fluted",1,0.81,1,1,,0,0,46,,,400
-,sa58_gas_piston,,,,,,,,,,,,,
-,,dsa_sa58_pistol_gas_piston,DSA SA-58 Pistol Length,2,0.01,-1,-2,,,,,,,100
-,,dsa_sa58_rifle_gas_piston,DSA SA-58 Rifle Length,0,0.03,-2,-3,,,,,,,0
 ,z_rail_mount,,,,,,,,,,,,,
 1139,,z_rail_side_mount2,Z-Rail Side,-1,0.04,,,,,,,,,0
 1140,,z_rail_side_mount1,Z-Rail Side,-1,0.04,,,,,,,,,0

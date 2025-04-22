@@ -1,4 +1,4 @@
-0.24.0,Mon Apr 21 14:51:58 2025,,,,,,,,,,,,,
+0.24.0,Mon Apr 21 18:51:59 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1171,8 +1171,6 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak_gastube_retainer,,,,,,,,,,,,,
 ,,izhmash_ak74_gastube_retainer,IZhMASh AK-74 Gastube Retainer,0,0.01,,,,,,,,,0
 ,,,,,,,,,,,,,,
-,ak_spring,,,,,,,,,,,,,
-,,izhmash_ak74_spring,IZhMASh AK-74 Spring,2,0.03,,-1,,,,,,,0
 ,ak_spring_retainer,,,,,,,,,,,,,
 ,,izhmash_ak74_spring_retainer,Izhmash AK-74 Spring Retainer,0,0.01,,,,,,,,,0
 ,elysium_ak,,,,,,,,,,,,,

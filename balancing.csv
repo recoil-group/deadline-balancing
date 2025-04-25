@@ -1601,6 +1601,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 830,,glock17_gen4_sf_rear_sight,Glock 17 Gen4 Factory Small Frame,2,0.01,,,,,,,,,100
 ,,glock17_gen5_sf_rear_sight,Glock 17 Gen5 Factory Small Frame,2,0.01,,,,,,,,,0
 ,,hughnitions_company_extra_high_rear_sight,HughNitions Company Extra High Rear Sight,2,0.03,,,,,,,,,500
+,,sof_industries_aim_glock_rear_sight,SOF Industries A.I.M Glock Rear Sight,1,0.05,,,,,,,,,600
 ,edc_x9_front_sight,,,,,,,,,,,,,
 831,,wilson_combat_edc_x9_snagfree_front_sight_red,Wilson Combat EDC X9 Snag-Free Red Fiber,1,0.01,,,,,,,,,0
 832,,wilson_combat_edc_x9_snagfree_front_sight_green,Wilson Combat EDC X9 Snag-Free Green Fiber,1,0.01,,,,,,,,,200

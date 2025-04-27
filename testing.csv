@@ -1038,9 +1038,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,mp5_magazine_bottom_plate,,,,,,,,,,,,,
 ,,hk_mp5_std_mag_plate,HK MP5 Std. Magazine Plate,,0.02,,,,,,,,,0
 ,magazine_9x19_pp19,,,,,,,,,,,,,
-548,,9x19_pp19_kp9_drum,KP9 Drum 50R,-4,0.58,,,50,0.5,,,,,3000
-549,,9x19_pp19_std,Standard PP-19-01 30R,-1,0.31,,,30,,,,,,500
-550,,9x19_pp19_10r_cap_std,Standard PP-19-01 10R,4,0.13,,,10,,,,,,300
+548,,izhmash_pp-19-01_vityaz_9x19_30r_mag,Izhmash PP-19-01 Vityaz 9x19 30R,1,0.2,,,30,,,,,,0
+549,,izhmash_saiga_9_9x19_pinned_10r_mag,Izhmash Saiga-9 9x19 Pinned 10R,9,0.07,,,10,,,,,,200
+,pp19_bottom_plate,,,,,,,,,,,,,
+550,,izhmash_pp-19-01_mag_bottom_plate,Izhmash PP-19-01 Bottom Plate,0,0.01,,,,,,,,,0
 ,magazine_45acp_ump45,,,,,,,,,,,,,
 551,,hk_ump45_45acp_25r_mag,HK UMP45 .45 ACP 25R,-6,0.3,,,25,,,,,,0
 ,magazine_5.8x42mm_qbz95,,,,,,,,,,,,,
@@ -1247,7 +1248,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak74_gas_block,,,,,,,,,,,,,
 ,,izhmash_ak74_gasblock,Izhmash AK-74 Gasblock,0,0.01,-1,-2,,,,,,,0
 ,ak_folding_stock,,,,,,,,,,,,,
-655,,izhmash_pp19_stock,PP19 std.,14,0.14,-10,-16,,,,,,,300
+655,,izhmash_pp-19-01_vityaz_folding_stock,Izhmash PP-19-01 Vityaz Folding Stock,14,0.23,-5,-5,,,,,,,300
 656,,zenitco_ak74m/ak100_pt_lock,Zenitco AK74M/AK100 PT Lock,-0.5,0.04,-1,-1,,,,,,,300
 657,,ak12_gen1_buffer_tube,Kalashnikov Concern AK-12 Gen 1,-1.5,0.14,-6,-6,,-0.1,,,,,500
 658,,caa_aksfsa_ak74m/ak100_buffer_tube,CAA AKSFSA AK74M/AK100 Buffer Tube,-1,0.15,-5,-5,,,,,,,1000
@@ -1333,7 +1334,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 697,,ds_ace_ak_ar15_adapter,DoubleStar ACE AK AR-15 Grip adapter,-1,0.03,,,,,,,,,1500
 698,,izhmash_ak74_polymer_6p1_sb8,Izhmash AK-74 Polymer 6P1 Sb.8,4,0.07,-4,-4,,,,,,,300
 699,,mg47,KGB MG-47,5,0.05,-3,-3,,,,,,,750
-700,,pp19_grip,PP19-01,5,0.08,-3,-5,,,,,,,300
+700,,izhmash_pp-19-01_vityaz_pistol_grip,Izhmash PP-19-01 Vityaz Pistol Grip,6,0.11,-4,-4,,,,,,,300
 701,,us_palm_ak_pistol_grip,US Palm AK,6,0.08,-2,-6,,,,,,,900
 ,,magpul_moe_k2_ak_pistol_grip,Magpul MOE-K2 AK,7,0.11,-4,-3,,,,,,,800
 ,ak_hanguard_retainer,,,,,,,,,,,,,
@@ -1351,8 +1352,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,izhmash_akm_wooden_6p1_sb6_1_lower_handguard_alt,Izhmash AKM Wooden 6P1 Sb.6-1 Lower Handguard,14,0.14,-8,-8,,,,,,,0
 710,,zenitco_b_30_gen1_lower_handguard,Zenitco B-30 Gen 1 Lower,6,0.2,-6,-8,,,,,,,1500
 711,,6p20_polymer_sb9_lower_handguard,AK74 Polymer 6P20 Sb.9 Lower,16,0.1,-5,-6,,,,,,,400
-,,izhmash_ak100_series_polymer_railed_lower_handguard,Izhmash AK 100 series Polymer Railed Lower Handguard,13,0.12,-5,-5,,,,,,,800
-,,izhmash_ak100_series_polymer_railed_lower_handguard_alt,Izhmash AK 100 Series Polymer Railed Lower Handguard,13,0.12,-5,-5,,,,,,,800
+,,izhmash_ak100_series_polymer_railed_lower_handguard ,Izhmash AK-100 Series Polymer Railed Lower Handguard,13,0.12,-5,-5,,,,,,,800
+,,izhmash_ak100_series_polymer_railed_lower_handguard_alt,Izhmash AK-100 Series Polymer Railed Lower Handguard,13,0.12,-5,-5,,,,,,,800
 712,,magpul_ak_moe_lower_handguard,AK Magpul MOE,15,0.17,-2,-4,,,,,,,500
 713,,tdiarms_ak_x47_rail_system,TDI Arms X47 Rail System,4,0.26,-9,-6,,,,,,,2000
 714,,zenitco_b_10m_gen1_lower_handguard,Zenitco B-10M Gen 1 Lower,12,0.12,-5,-5,,,,,,,1000
@@ -2034,16 +2035,45 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1049,,mosin_carbine_stock,Mosin Std. Carbine,3,0.5,0,-3,,,,,,,500
 1050,,mosin_standard_stock,Mosin Std. Sniper,5,0.6,-1,-5,,,,,,,0
 ,pp19_barrel,,,,,,,,,,,,,
-1051,,pp19_barrel,PP19 Standard,0,0.27,0,0,,0.1,0,100,,,0
-,pp19_bolt,,,,,,,,,,,,,
-1052,,pp19_bolt,PP19,0,0.1,,0,,,,,,,0
+,,izhmash_pp-19-01_238mm_9x19_barrel,Izhmash PP-19-01 Vityaz 238mm 9x19,-1,0.05,-1,-1,,,,50,,,0
+1051,,izhmash_saiga_9_345mm_9x19_barrel,Izhmash Saiga-9 345mm 9x19,-3,0.09,-2,-2,,,,90,,,500
+,pp19_fs_block,,,,,,,,,,,,,
+,,izhmash_pp-19-01_vityaz_front_sight_block,Izhmash PP-19-01 Vityaz Front Sight Block,0,0.01,,,,,,,,,0
+,pp19_front_trunnion,,,,,,,,,,,,,
+,,izhmash_pp-19-01_vityaz_front_trunnion,Izhmash PP-19-01 Vityaz Front Trunnion,0,0.01,,,,,,,,,0
+,pp19_lower,,,,,,,,,,,,,
+,,izhmash_pp-19-01_vityaz_lower_receiver,Izhmash PP-19-01 Vityaz Lower Reciever,0,0.07,,,,,,,,,0
+,pp19_fire_selector,,,,,,,,,,,,,
+,,izhmash_pp-19-01_vityaz_fire_selector,Izhmash PP-19-01 Vityaz Fire Selector,0.5,0.01,,,,,,,,,0
+,pp19_trigger,,,,,,,,,,,,,
+,,izhmash_pp-19-01_vityaz_trigger,Izhmash PP-19-01 Vityaz Trigger,0,0.01,,,,,,,,,0
+,pp19_trigger_guard,,,,,,,,,,,,,
+,,izhmash_pp-19-01_vityaz_trigger_guard,Izhmash PP-19-01 Vityaz Trigger Guard,0,0.01,,,,,,,,,0
+,pp19_mag_release,,,,,,,,,,,,,
+,,izhmash_pp-19-01_vityaz_mag_release,Izhmash PP-19-01 Vityaz Mag Release,0,0.01,,,,,,,,,0
+,pp19_magwell,,,,,,,,,,,,,
+,,izhmash_pp-19-01_vityaz_magwell,Izhmash PP-19-01 Vityaz Magwell,0,0.02,,,,,,,,,0
+,pp19_rear_trunnion,,,,,,,,,,,,,
+,,izhmash_aks74_rear_trunnion,Izhmash AKS-74 Rear Trunnion,0,0.03,,,,,,,,,0
+,pp19_stock_lock,,,,,,,,,,,,,
+,,izhmash_pp-19-01_vityaz_stock_lock,Izhmash PP-19-01 Vityaz Stock Lock,0,0.01,,,,,,,,,0
+,pp19_spring,,,,,,,,,,,,,
+,,izhmash_pp-19-01_vityaz_spring,Izhmash PP-19-01 Vityaz Spring,0,0.03,,,,,,,,,0
+,pp19_spring_retainer,,,,,,,,,,,,,
+,,izhmash_pp-19-01_vityaz_spring_retainer,Izhmash PP-19-01 Vityaz Spring Retainer,0,0.01,,,,,,,,,0
+,pp19_bolt_carrier,,,,,,,,,,,,,
+1052,,izhmash_pp-19-01_vityaz_9x19_bolt_carrier,Izhmash PP-19-01 Vityaz 9x19 Bolt Carrier,0,0.01,,,,,,,,,0
+,pp19_bolt_piston,,,,,,,,,,,,,
+,,izhmash_pp-19-01_vityaz_bolt_piston,Izhmash PP-19-01 Vityaz Bolt Piston,0,0.02,,,,,,,,,0
 ,pp19_dustcover,,,,,,,,,,,,,
-1053,,izhmash_vityaz_cover,Izhmash Vityaz,3,0.21,-3,-1,,,,,,,0
-1054,,izhmash_sn_vityaz_cover,Izhmash Vityaz-Sn,1,0.32,-1,-2,,,,,,,600
+1053,,izhmash_pp-19-01_vityaz_std_dust_cover,Izhmash PP-19-01 Vityaz Standard Dust Cover,4,0.03,,,,,,,,,300
+1054,,izhmash_pp-19-01_vityaz_sn_picatinny_dust_cover,Izhmash PP-19-01 Vityaz-SN Picatinny Dust Cover,0,0.07,-2,-2,,,,,,,2000
 ,pp19_gastube,,,,,,,,,,,,,
-1055,,pp19_01_gastube,PP-19-01,10,0.07,-1,-1,,,,,,,0
+1055,,izhmash_pp-19-01_vityaz_gastube,Izhmash PP-19-01 Vityaz Gastube,1,0.02,,,,,,,,,0
+,pp19_rs_block,,,,,,,,,,,,,
+,,izhmash_pp-19-01_vityaz_rear_sight_block,Izhmash PP-19-01 Vityaz Rear Sight Block,0,0.02,,,,,,,,,0
 ,pp19_rear_sight,,,,,,,,,,,,,
-1056,,pp19_rear_sight,PP19 Standard,1,0.03,,,,,,,,,0
+1056,,izhmash_pp-19-01_vityaz_rear_sight,Ishmash PP-19-01 Vityaz Rear Sight,1,0.01,,,,,,,,,0
 ,5.56x45_muzzle_device,,,,,,,,,,,,,
 1057,,tb_mount_223_mb,Thunder Beast 223CB,0,0.05,-14,-12,,0.1,0,0,,,400
 1058,,troy_claymore556,TROY Claymore 5.56x45,2,0.07,-10,-15,,0.05,0,0,,,500
@@ -2076,6 +2106,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1074,,alphadog_alpha9_flipped,Alpha Dog Alpha 9 9x19 Flipped,-7,0.22,-7,-8,,-0.2,0.15,150,,,1000
 1075,,alphadog_alpha9,Alpha Dog Alpha 9 9x19 Suppressor,-8,0.22,-7,-8,,-0.2,0.15,150,,,1000
 1076,,vityaz_suppressor,Vityaz 9x19,-5,0.23,-10,-10,,-0.2,0.13,150,,,1200
+,,izhmash_pp-19-01_vityaz_std_muzzle_brake_compensator,Izhmash PP-19-01 Vityaz Std.,-2,0.05,-4,-4,,,,-20,,,100
 1077,,sig_srd9_9x19,Sig SRD 9 9x19mm,-4,0.23,-10,-9,,-0.1,0.12,80,,,1500
 1078,,9x19_rotor43_8chamber_glock_suppressor,Rotor 43 8 Chambered 9x19 Glock,-5,0.24,-9,-11,,-0.15,0.15,100,,,1000
 1079,,9x19_naughty_9,Naughty-9,-2,0.18,-8,-8,,-0.05,0.07,50,,,900

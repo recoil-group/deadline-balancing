@@ -95,6 +95,13 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,notes
 103,black_blue,black_blue,#161616,default,experience_based,1582,strike viper stock
 139,black_red,black_red,#161616,default,experience_based,1645,strike viper stock
 ,,,,,,,
+113,airtronic_sand,airtronic_sand,#D3B58C,default,experience_based,1606,psrl
+121,airtronic_green,airtronic_green,#42589EC6,default,experience_based,1616,psrl
+,,,,,,,
+83,ivory_acrylic,ivory_acrylic,#A2FFFF5D,default,experience_based,1536,tt33 ivory grip
+127,white_acrylic,white_acrylic,#A2FFFF5D,default,experience_based,1625,tt33 ivory grip
+128,black_acrylic,black_acrylic,#A2FFFF5D,default,experience_based,1626,tt33 ivory grip
+,,,,,,,
 ,,,,,,,
 ,,,,,,,
 115,typhoon,typhoon,#D3B58C,default,experience_based,1608,dd parts
@@ -107,7 +114,9 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,notes
 81,lime,lime,#42589EC6,default,experience_based,1534,glock gen5 mos slide
 73,rainbow,Rainbow,#F140FFCD,default,experience_based,1509,aug magwell
 74,banana,Banana,#AED9C5B1,default,experience_based,1512,akm pmag
-125,ak_wood,ak_wood,#53E3FACD,default,experience_based,1622,
+118,purple,purple,#9DAEB201,default,experience_based,1612,suregrip ergo
+119,egg_blue,egg_blue,#3D264E4E,default,experience_based,1613,suregrip ergo
+125,ak_wood,ak_wood,#53E3FACD,default,experience_based,1622,crazy romanian grip
 59,zenitco_golden_desert,zenitco_golden_desert,#D3B58C,rough_metal,kills_based,350,
 60,black_anodized,Black Anodized,#161616,ROBLOX_METAL,experience_based,1505,
 63,hk_green_worn,HK Green Worn,#70A55B,default,experience_based,1500,
@@ -121,7 +130,6 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,notes
 77,tungsten_grey,Tungsten Grey,#A2FFFF5D,default,experience_based,1524,
 78,crocodile,Crocodile,#3F20DCC3,default,experience_based,1526,
 82,ranger_wrap,ranger_wrap,#161616,default,experience_based,1535,
-83,ivory_acrylic,ivory_acrylic,#A2FFFF5D,default,experience_based,1536,
 87,fde_od_worn,FDE OD Worn,#D3B58C,default,experience_based,1545,
 88,fde_black,FDE Black,#D3B58C,default,experience_based,1546,
 91,burnt_bronze_cerakote,burnt_bronze_cerakote,#3CEDF7DD,default,experience_based,1550,
@@ -136,18 +144,12 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,notes
 110,bs_grey,bs_grey,#A2FFFF5D,default,experience_based,1602,
 111,fancy_red,fancy_red,#FE4CFFB4,default,experience_based,1603,
 112,n_p3_coated,n_p3_coated,#A2FFFF5D,default,experience_based,1604,
-113,airtronic_sand,airtronic_sand,#D3B58C,default,experience_based,1606,
 114,surefire_fde,surefire_fde,#D3B58C,default,experience_based,1607,
 116,korean_camo,korean_camo,#161616,default,experience_based,1609,
-118,purple,purple,#9DAEB201,default,experience_based,1612,
-119,egg_blue,egg_blue,#3D264E4E,default,experience_based,1613,
 120,burnt_bronze,burnt_bronze,#3CEDF7DD,default,experience_based,1614,
-121,airtronic_green,airtronic_green,#42589EC6,default,experience_based,1616,
 122,black_np3,black_np3,#161616,default,experience_based,1617,
 123,very_worn,very_worn,#161616,default,experience_based,1619,
 126,korean,korean,#3CEDF7DD,default,experience_based,1624,
-127,white_acrylic,white_acrylic,#A2FFFF5D,default,experience_based,1625,
-128,black_acrylic,black_acrylic,#A2FFFF5D,default,experience_based,1626,
 129,fancy_bronze,fancy_bronze,#3CEDF7DD,default,experience_based,1628,
 130,dark_blue,dark_blue,#1924467C,default,experience_based,1629,
 131,bakelite,Bakelite,#AED9C5B1,default,experience_based,1630,

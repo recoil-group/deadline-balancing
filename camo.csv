@@ -5,33 +5,35 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value
 2,default_light,Default Light,#666666,default,always_available,
 ,,,,,,
 74,tan,tan,#D3B58C,default,experience_based,1571
-83,fde,fde,#D3B58C,default,experience_based,1580
 40,kac_od,kac_od,#70A55B,default,experience_based,1537
-31,bronze,bronze,#3CEDF7DD,default,experience_based,1528
-26,grey,Grey,#A2FFFF5D,default,experience_based,1523
+26,grey,Grey,#888885,default,experience_based,1523
+83,fde,fde,#C9BAA9,default,experience_based,1580
 30,magpul_od,Magpul OD,#709954,default,experience_based,1527
-147,diemaco_od,Diemaco OD,#3F20DCC3,default,set_price,3000
+31,bronze,bronze,#3CEDF7DD,default,experience_based,1528
+57,steyr_od,steyr_od,#70A55B,default,experience_based,1554
 14,ral_8000,RAL 8000,#D3B58C,default,experience_based,1511
 24,ral8000,RAL 8000,#D3B58C,default,experience_based,1521
+147,diemaco_od,Diemaco OD,#3F20DCC3,default,set_price,3000
 23,steyr_fde,Steyr FDE,#D3B58C,default,experience_based,1520
 113,scar_fde,scar_fde,#D3B58C,default,experience_based,1610
 75,zenitco_desert,zenitco_desert,#D3B58C,default,experience_based,1572
 151,zenitco_golden_khaki,zenitco_golden_khaki,#AF894F,rough_metal,kills_based,350
 58,plum,plum,#3CEDF7DD,default,experience_based,1555
-57,steyr_od,steyr_od,#70A55B,default,experience_based,1554
 139,charcoal_green,charcoal_green,#70A55B,default,experience_based,1636
 134,battleship_grey,battleship_grey,#A2FFFF5D,default,experience_based,1631
 93,alpine,alpine,#9DFFFF62,default,experience_based,1590
 ,,,,,,
 130,default_worn,default_worn,#161616,default,experience_based,1627
 80,tan_worn,tan_worn,#D3B58C,default,experience_based,1577
-98,fde_worn,fde_worn,#D3B58C,default,experience_based,1595
 4,kac_od_worn,KAC OD Worn,#70A55B,default,experience_based,1501
+98,fde_worn,fde_worn,#D3B58C,default,experience_based,1595
 77,magpul_od_worn,magpul_od_worn,#709954,default,experience_based,1574
 62,diemaco_od_worn,diemaco_od_worn,#3F603D,default,experience_based,1559
 90,steyr_fde_worn,steyr_fde_worn,#D3B58C,default,experience_based,1587
 52,scar_fde_worn,scar_fde_worn,#D3B58C,default,experience_based,1549
 32,steyr_od_worn,steyr_od_worn,#70A55B,default,experience_based,1529
+,,,,,,
+64,diamondback_rattlecan,diamondback_rattlecan,#709954,default,experience_based,1561
 ,,,,,,
 35,red,red,#FE4CFFB4,ROBLOX_METAL,experience_based,1532
 137,blue,blue,#4C219101,ROBLOX_METAL,experience_based,1634
@@ -39,14 +41,33 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value
 95,red_worn,red_worn,#FF4C4C,default,experience_based,1592
 118,blue_worn,blue_worn,#4C387A01,default,experience_based,1615
 ,,,,,,
-18,silver,Silver,#95FFFF6A,ROBLOX_METAL,kills_based,150
-152,gold,gold,#CEA54F,ROBLOX_METAL,kills_based,300
+18,silver,Silver,#95FFFF6A,ROBLOX_METAL,kills_based,100
+152,gold,gold,#CEA54F,ROBLOX_METAL,kills_based,200
 ,,,,,,
-16,su-231a_peq,SU 231A PEQ,#D3B58C,default,experience_based,1513
 17,us_marine_default,US Marine Default,#161616,default,experience_based,1514
 61,us_marine_tan,us_marine_tan,#D3B58C,default,experience_based,1558
-25,exps2_zombie_stopper_2,EXPS2 Zombie Stopper 2,#161616,default,experience_based,1522
+45,us_marine_fde,us_marine_fde,#D3B58C,default,experience_based,1542
+,,,,,,
 66,exps2_zombie_stopper,exps2_zombie_stopper,#161616,default,experience_based,1563
+25,exps2_zombie_stopper_2,EXPS2 Zombie Stopper 2,#161616,default,experience_based,1522
+,,,,,,
+126,eotech_tan_1,eotech_tan_1,#D3B58C,default,experience_based,1623
+63,eotech_tan_2,eotech_tan_2,#D3B58C,default,experience_based,1560
+144,eotech_tan_3,eotech_tan_3,#D3B58C,default,experience_based,1641
+43,tamography_tan,tamography_tan,#D3B58C,default,experience_based,1540
+20,tamography_olive_green,Tamography Olive Green,#42589EC6,default,experience_based,1517
+108,tamography_grey,tamography_grey,#95FFFF6A,default,experience_based,1605
+78,tamography_black,tamography_black,#161616,default,experience_based,1575
+136,l3_eotech_xps,l3_eotech_xps,#D3B58C,default,experience_based,1633
+16,su-231a_peq,SU 231A PEQ,#D3B58C,default,experience_based,1513
+,,,,,,
+99,aeroflake_desert,aeroflake_desert,#D3B58C,default,experience_based,1596
+82,aeroflake_forest,aeroflake_forest,#709954,default,experience_based,1579
+123,aeroflake_tundra,aeroflake_tundra,#161616,default,experience_based,1620
+96,aeroflake_urban,aeroflake_urban,#A2FFFF5D,default,experience_based,1593
+,,,,,,
+,,,,,,
+,,,,,,
 ,,,,,,
 67,black,black,#161616,default,experience_based,1564
 54,black_worn,black_worn,#161616,default,experience_based,1551
@@ -66,7 +87,6 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value
 10,kac_worn,Kac Worn,#70A55B,default,experience_based,1507
 12,rainbow,Rainbow,#F140FFCD,default,experience_based,1509
 15,banana,Banana,#AED9C5B1,default,experience_based,1512
-20,tamography_olive_green,Tamography Olive Green,#42589EC6,default,experience_based,1517
 21,forest_green,Forest Green,#70A55B,default,experience_based,1518
 22,old_wood,Old Wood,#53E3FACD,default,experience_based,1519
 27,tungsten_grey,Tungsten Grey,#A2FFFF5D,default,experience_based,1524
@@ -77,9 +97,7 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value
 38,ranger_wrap,ranger_wrap,#161616,default,experience_based,1535
 39,ivory_acrylic,ivory_acrylic,#A2FFFF5D,default,experience_based,1536
 41,tan_painted,tan_painted,#90E5EE9A,default,experience_based,1538
-43,tamography_tan,tamography_tan,#D3B58C,default,experience_based,1540
 44,dd_fde_worn,dd_fde_worn,#D3B58C,default,experience_based,1541
-45,us_marine_fde,us_marine_fde,#D3B58C,default,experience_based,1542
 46,radian_od,radian_od,#3F20DCC3,default,experience_based,1543
 48,fde_od_worn,FDE OD Worn,#D3B58C,default,experience_based,1545
 49,fde_black,FDE Black,#D3B58C,default,experience_based,1546
@@ -89,23 +107,17 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value
 55,faded_wood,faded_wood,#53E3FACD,default,experience_based,1552
 56,fde_painted,fde_painted,#D3B58C,default,experience_based,1553
 59,safari_streak_worn,Safari Streak Worn,#7F564C,default,experience_based,1556
-63,eotech_tan_2,eotech_tan_2,#D3B58C,default,experience_based,1560
-64,diamondback_rattlecan,diamondback_rattlecan,#709954,default,experience_based,1561
 65,clear_anodized,clear_anodized,#AEFFFF51,default,experience_based,1562
 69,tin,Tin,#543833,default,experience_based,1566
 70,walnut_wood,Walnut Wood,#53E3FACD,default,experience_based,1567
 71,tan_red,Tan Red,#D3B58C,default,experience_based,1568
 72,alpine_painted,alpine_painted,#9DFFFF62,default,experience_based,1569
 76,zenitco_desert_worn,zenitco_desert_worn,#D3B58C,default,experience_based,1573
-78,tamography_black,tamography_black,#161616,default,experience_based,1575
 79,kac_od_painted,kac_od_painted,#70A55B,default,experience_based,1576
-82,aeroflake_forest,aeroflake_forest,#709954,default,experience_based,1579
 84,green,green,#42589EC6,default,experience_based,1581
 85,black_blue,black_blue,#161616,default,experience_based,1582
 86,diamondback_rattlecan_fde,diamondback_rattlecan_fde,#D3B58C,default,experience_based,1583
 89,radian_grey,radian_grey,#A2FFFF5D,default,experience_based,1586
-96,aeroflake_urban,aeroflake_urban,#A2FFFF5D,default,experience_based,1593
-99,aeroflake_desert,aeroflake_desert,#D3B58C,default,experience_based,1596
 101,kac,kac,#161616,default,experience_based,1598
 102,the_sufferer,The Sufferer,#161616,default,experience_based,1599
 103,myriam,Myriam,#161616,default,experience_based,1600
@@ -113,7 +125,6 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value
 105,bs_grey,bs_grey,#A2FFFF5D,default,experience_based,1602
 106,fancy_red,fancy_red,#FE4CFFB4,default,experience_based,1603
 107,n_p3_coated,n_p3_coated,#A2FFFF5D,default,experience_based,1604
-108,tamography_grey,tamography_grey,#95FFFF6A,default,experience_based,1605
 109,airtronic_sand,airtronic_sand,#D3B58C,default,experience_based,1606
 110,surefire_fde,surefire_fde,#D3B58C,default,experience_based,1607
 111,typhoon,typhoon,#D3B58C,default,experience_based,1608
@@ -125,10 +136,8 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value
 119,airtronic_green,airtronic_green,#42589EC6,default,experience_based,1616
 120,black_np3,black_np3,#161616,default,experience_based,1617
 122,very_worn,very_worn,#161616,default,experience_based,1619
-123,aeroflake_tundra,aeroflake_tundra,#161616,default,experience_based,1620
 124,safari_streak,safari_streak,#7F564C,default,experience_based,1621
 125,ak_wood,ak_wood,#53E3FACD,default,experience_based,1622
-126,eotech_tan_1,eotech_tan_1,#D3B58C,default,experience_based,1623
 127,korean,korean,#3CEDF7DD,default,experience_based,1624
 128,white_acrylic,white_acrylic,#A2FFFF5D,default,experience_based,1625
 129,black_acrylic,black_acrylic,#A2FFFF5D,default,experience_based,1626
@@ -136,12 +145,10 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value
 132,dark_blue,dark_blue,#1924467C,default,experience_based,1629
 133,bakelite,Bakelite,#AED9C5B1,default,experience_based,1630
 135,titanium,titanium,#C3FFFF3C,ROBLOX_METAL,experience_based,1632
-136,l3_eotech_xps,l3_eotech_xps,#D3B58C,default,experience_based,1633
 138,beach_wood,beach_wood,#53E3FACD,default,experience_based,1635
 140,harris_fde_worn,harris_fde_worn,#D3B58C,default,experience_based,1637
 142,silver_black,silver_black,#A2F7FA6A,ROBLOX_METAL,experience_based,1639
 143,silver_tan,silver_tan,#A39B96,default,experience_based,1640
-144,eotech_tan_3,eotech_tan_3,#D3B58C,default,experience_based,1641
 145,ghillie_earth,ghillie_earth,#D3B58C,default,experience_based,1642
 146,black_and_white,black_and_white,#161616,default,experience_based,1643
 148,black_red,black_red,#161616,default,experience_based,1645

@@ -1,5 +1,5 @@
 ﻿,,new,,,,,,,,,,,,,
-name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,bullet_deviation,bullet_damage,bullet_velocity,buck_bullet_deviation,fire_rate,price,strength,,
+name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_bullet_deviation,fire_rate,price,strength,,
 remington_model_700_419mm_.308_barrel,Rem700 419mm Barrel,3,0.8,3,3,,0.15,-0.15,-200,,,2000,-20.11666667,,2.84
 remington_model_700_419mm_.308_threaded_barrel,Rem700 419mm Threaded Barrel,3,0.79,3,3,,0.17,-0.15,-200,,,3000,-20.01666667,,
 remington_model_700_508mm_.308_heavy_barrel,Rem700 508mm Heavy Barrel,1,1,1,1,,0.05,-0.05,-100,,,3000,-21.48333333,,

@@ -1,4 +1,4 @@
-﻿0.24.0,Wed Apr 30 23:58:52 2025,,,,,,,,,,,,,
+﻿0.24.0,Thu May 01 00:22:17 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -2437,7 +2437,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,at700_hinge_body,,,,,,,,,,,,,
 ,,accuracy_international_at_aics_gen2_stock_hinge_body,Accuracy International AT AICS 2.0 Stock Hinge Body,0,0.03,,,,,,,,,0
 ,at700_stock_variant,,,,,,,,,,,,,
-,,accuracy_international_rem700_sa_at_aics_gen2_folding_chassis_standard_stock,ccuracy International AT AICS 2.0 Standard Stock,19,0.27,-2,-2,,,,,,,0
+,,accuracy_international_rem700_sa_at_aics_gen2_folding_chassis_standard_stock,ccuracy International AT AICS 2.0 Standard Stock,19,0.27,-1,-1,,,,,,,0
 ,,accuracy_international_rem700_sa_at_aics_gen2_folding_chassis_thumbhole_stock,Accuracy International AT AICS 2.0 Thumbhole Stock,20,0.31,-3,-3,,,,,,,2000
 ,at700_frame_mount,,,,,,,,,,,,,
 ,,accuracy_international_at_aics_gen2_frame_mount,Accuracy International AT AICS 2.0 Frame Mount,0,0.02,,,,,,,,,0
@@ -2516,8 +2516,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,r700_stock,,,,,,,,,,,,,
 1274,,hogue_remington_model_700_overmolded_bdl_full_bed_block_stock,Hogue R700 Overmolded BDL Full Bed Block Stock,34,0.7,-2,-5,,,,,,,0
 1275,,magpul_hunter700_short_action,Magpul Hunter 700 Short Action,38,0.8,-4,-5,,0,,,,,1000
-1276,,mdt_lss_gen2_carbine_chassis,MDT LSS-XL Gen II Carbine,18,0.55,-2,-4,,,,,,,3000
-,,accuracy_international_rem700_sa_at_aics_gen2_folding_chassis_frame,Accuracy International Rem700 SA AT AICS 2.0 Folding Chassis Frame,26,0.47,-3,-3,,-0.05,,,,,6000
+1276,,mdt_lss_gen2_carbine_chassis,MDT LSS-XL Gen II Carbine,18,0.55,-3,-4,,,,,,,3000
+,,accuracy_international_rem700_sa_at_aics_gen2_folding_chassis_frame,Accuracy International Rem700 SA AT AICS 2.0 Folding Chassis Frame,25,0.47,-3,-3,,-0.05,,,,,6000
 ,r700_stock_pad,,,,,,,,,,,,,
 ,,hogue_remington_model_700_stock_pad,Hogue Rem700 Stock Pad,0,0.05,,,,,,,,,0
 ,badger_ordnance_comm_arc_mount,,,,,,,,,,,,,

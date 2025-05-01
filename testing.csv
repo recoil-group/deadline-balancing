@@ -1,4 +1,4 @@
-﻿0.24.0,Tue Apr 29 14:02:03 2025,,,,,,,,,,,,,
+﻿0.24.0,Wed Apr 30 22:16:53 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -2428,8 +2428,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,frs_15_pad,,,,,,,,,,,,,
 1249,,t_frs15_pad,Thordsen FRS-15,2,0.04,0,-2,,,,,,,0
 ,at700_buttpad,,,,,,,,,,,,,
-,,accuracy_international_at_aics_gen2_buttpad,Accuracy International AT AICS 2.0 Buttpad,2,0.05,-2,-2,,,,,,,0
-,,accuracy_international_at_aics_gen2_10mm_spacer,Accuracy International AT AICS 2.0 10mm Spacer,1,0.05,,,,,,,,,200
+,,accuracy_international_at_aics_gen2_buttpad,Accuracy International AT AICS 2.0 Buttpad,2,0.01,-2,-2,,,,,,,0
+,,accuracy_international_at_aics_gen2_10mm_spacer,Accuracy International AT AICS 2.0 10mm Spacer,1,0.01,,,,,,,,,200
 ,at700_cheekpad,,,,,,,,,,,,,
 ,,accuracy_international_at_aics_gen2_cheekrest,Accuracy International AT AICS 2.0 Cheek Rest,2,0,,,,,,,,,0
 ,at700_stock_hinge,,,,,,,,,,,,,
@@ -2437,8 +2437,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,at700_hinge_body,,,,,,,,,,,,,
 ,,accuracy_international_at_aics_gen2_stock_hinge_body,Accuracy International AT AICS 2.0 Stock Hinge Body,0,0.01,,,,,,,,,0
 ,at700_stock_variant,,,,,,,,,,,,,
-,,accuracy_international_rem700_sa_at_aics_gen2_folding_chassis_standard_stock,ccuracy International AT AICS 2.0 Standard Stock,17,0.3,-2,-2,,,,,,,0
-,,accuracy_international_rem700_sa_at_aics_gen2_folding_chassis_thumbhole_stock,Accuracy International AT AICS 2.0 Thumbhole Stock,19,0.5,-2,-2,,,,,,,2000
+,,accuracy_international_rem700_sa_at_aics_gen2_folding_chassis_standard_stock,ccuracy International AT AICS 2.0 Standard Stock,15,0.2,-2,-2,,,,,,,0
+,,accuracy_international_rem700_sa_at_aics_gen2_folding_chassis_thumbhole_stock,Accuracy International AT AICS 2.0 Thumbhole Stock,15,0.25,-4,-4,,,,,,,2000
 ,at700_frame_mount,,,,,,,,,,,,,
 ,,accuracy_international_at_aics_gen2_frame_mount,Accuracy International AT AICS 2.0 Frame Mount,0,0.01,,,,,,,,,0
 ,at700_cover,,,,,,,,,,,,,
@@ -2449,7 +2449,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,at700_mag_release,,,,,,,,,,,,,
 ,,accuracy_international_at_aics_gen2_mag_release,Accuracy International AT AICS 2.0 Mag Release,3,0.01,,,,,,,,,0
 ,at700_pistol_grip,,,,,,,,,,,,,
-,,accuracy_international_rem700_sa_at_aics_gen2_folding_chassis_pistol_grip_assembly,Accuracy International Rem700 SA AT AICS 2.0 Folding Chassis Pistol Grip Assembly,5,0.2,-2,-2,,,,,,,0
+,,accuracy_international_rem700_sa_at_aics_gen2_folding_chassis_pistol_grip_assembly,Accuracy International Rem700 SA AT AICS 2.0 Folding Chassis Pistol Grip Assembly,5,0.1,-2,-2,,,,,,,0
 ,at700_backstrap,,,,,,,,,,,,,
 ,,accuracy_international_at_aics_gen2_standard_backstrap,Accuracy International AT AICS 2.0 Standard Backstrap,2,0,,,,,,,,,0
 ,,accuracy_international_at_aics_gen2_thumbhole_backstrap,Accuracy International AT AICS 2.0 Thumbhole Backstrap,3,0.1,,,,,,,,,500
@@ -2517,7 +2517,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1274,,hogue_remington_model_700_overmolded_bdl_full_bed_block_stock,Hogue R700 Overmolded BDL Full Bed Block Stock,34,0.75,-2,-5,,,,,,,0
 1275,,magpul_hunter700_short_action,Magpul Hunter 700 Short Action,38,0.7,-4,-5,,0,,,,,1000
 1276,,mdt_lss_gen2_carbine_chassis,MDT LSS-XL Gen II Carbine,18,0.6,-2,-4,,-0.1,,,,,3000
-,,accuracy_international_rem700_sa_at_aics_gen2_folding_chassis_frame,Accuracy International Rem700 SA AT AICS 2.0 Folding Chassis Frame,19,1,-3,-3,,-0.1,,,,,6000
+,,accuracy_international_rem700_sa_at_aics_gen2_folding_chassis_frame,Accuracy International Rem700 SA AT AICS 2.0 Folding Chassis Frame,15,0.5,-3,-3,,-0.1,,,,,6000
 ,r700_stock_pad,,,,,,,,,,,,,
 ,,hogue_remington_model_700_stock_pad,Houge Rem700 Stock Pad,0,0.05,0,0,,,,,,,0
 ,badger_ordnance_comm_arc_mount,,,,,,,,,,,,,

@@ -1,4 +1,4 @@
-﻿0.24.0,Thu May 01 00:22:17 2025,,,,,,,,,,,,,
+0.24.0,Thu May 01 00:22:17 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -20,7 +20,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 17,,badger_ordnance_comm_30mm_mount_body,"Badger Ordnance C.O.M.M. 30mm 1.54"" Height",-0.5,0.06,,,,,,,,,1000
 18,,badger_ordnance_comm_34mm_mount_body,"Badger Ordnance C.O.M.M. 34mm 1.54"" Height",-0.5,0.07,,,,,,,,,1000
 19,,burris_ar_prb_mount,Burris AR PRB Mount,0,0.06,,,,,,,,,400
-20,,burris_ar_pepr_30mm_mount,Burris AR-P.E.P.R.™,-1,0.11,,,,,,,,,800
+20,,burris_ar_pepr_30mm_mount,Burris AR-P.E.P.R.�,-1,0.11,,,,,,,,,800
 21,,axion_kobra_ekp_8_sight,Axion Kobra EKP-8,-1,0.16,,,,,,,,,700
 ,,axion_kobra_ekp_8_18_mount,Axion Kobra EKP-8-18 Picatinny,0,0.03,,,,,,,,,400
 ,,axion_kobra_ekp_8_sunshade,Axion Kobra EKP-8,1,0.02,,,,,,,,,50
@@ -245,6 +245,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,daniel_defense_collapsible_milspec_buttstock,Daniel Defense Collapsible Milspec Stock,16,0.18,-8,-10,,,,,,,900
 ,,daniel_defense_concave_buttpad,Daniel Defense Concave Buttpad,1,0.02,-1,-1,,,,,,,0
 ,ak_rear_trunnions,,,,,,,,,,,,,
+<<<<<<< Updated upstream,,,,,,,,,,,,,,
+=======,,,,,,,,,,,,,,
+,,izhmash_ak74_rear_trunnion,Izhmash AK-74 Rear Trunnion,1,0.05,,,,,,,,,0
+,,izhmash_akm_rear_trunnion,Izhmash AKM Rear Trunnion,1,0.05,,,,,,,,,0
+,ak_springs,,,,,,,,,,,,,
+>>>>>>> Stashed changes,,,,,,,,,,,,,,
 ,,izhmash_ak74_spring,Izhmash AK-74 Spring,2,0.03,,-1,,,,,,,0
 ,,izhmash_akm_spring,Izhmash AKM Spring,2,0.03,,-1,,,,,,,0
 ,ak_fixed_stock,,,,,,,,,,,,,
@@ -1023,10 +1029,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 538,,5.45x39_izhmash_ak12_magazine_30r,Izhmash AK-12 Windowed Polymer 30R,0,0.42,,,30,,,,,,1200
 ,,banan_magazine,Banana Magazine,0,0.39,,,30,,,,,,5000
 ,magazine_7.62x51_remington700,,,,,,,,,,,,,
-539,,wyatt_outdoor_rem700_.308_5r_mag,	Wyatt's Outdoor .308 5R,-2,0.22,,,5,,,,,,300
+539,,wyatt_outdoor_rem700_.308_5r_mag,"	Wyatt's Outdoor .308 5R",-2,0.22,,,5,,,,,,300
 540,,magpul_pmag_ac_5r,Magpul PMAG AC .308 5R,-2,0.18,,,5,,,,,,
 541,,magpul_pmag_ac_10r,Magpul PMAG AC .308 10R,-6,0.32,,,10,,,,,,
-542,,wyatt_outdoor_rem700_.308_10r_mag,	Wyatt's Outdoor .308 10R,-6,0.36,,,10,,,,,,1000
+542,,wyatt_outdoor_rem700_.308_10r_mag,"	Wyatt's Outdoor .308 10R",-6,0.36,,,10,,,,,,1000
 ,magazine_7.62x54_mosin,,,,,,,,,,,,,
 543,,7.62x54_promag_10r,ProMag AA762R 02 10R,-3,0.2,,,10,,,,,,1000
 544,,7.62x54_promag_5r,ProMag AA762R 01 5R,-1,0.15,,,5,,,,,,500
@@ -2707,7 +2713,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1348,,Vector,TDI Kriss Vector Gen II,30,0,60,40,0,1.2,1,900,,,90000
 1349,,MK9,CmmG MK9 T,30,0,60,75,0,1,1,1200,,,20000
 1350,,UMP,HK UMP,58,0.2,86,96,0,1,1,880,,,15000
-1351,,PP19,Izhmash PP-19 Vityaz,20,0.4,50,75,0,0.9,1,1200,,,11000
+1351,,AK_9,Izhmash PP-19 Vityaz,20,0.4,50,75,0,0.9,1,1200,,,11000
 ,turret,,,,,,,,,,,,,
 1352,,Turret,Handheld turret,30,3,60,40,200,1.6,1,600,,,100
 ,placer,,,,,,,,,,,,,

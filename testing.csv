@@ -20,7 +20,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 17,,badger_ordnance_comm_30mm_mount_body,"Badger Ordnance C.O.M.M. 30mm 1.54"" Height",-0.5,0.06,,,,,,,,,1000
 18,,badger_ordnance_comm_34mm_mount_body,"Badger Ordnance C.O.M.M. 34mm 1.54"" Height",-0.5,0.07,,,,,,,,,1000
 19,,burris_ar_prb_mount,Burris AR PRB Mount,0,0.06,,,,,,,,,400
-20,,burris_ar_pepr_30mm_mount,Burris AR-P.E.P.R.™,-1,0.11,,,,,,,,,800
+20,,burris_ar_pepr_30mm_mount,Burris AR-P.E.P.R.ï¿½,-1,0.11,,,,,,,,,800
 21,,axion_kobra_ekp_8_sight,Axion Kobra EKP-8,-1,0.16,,,,,,,,,700
 ,,axion_kobra_ekp_8_18_mount,Axion Kobra EKP-8-18 Picatinny,0,0.03,,,,,,,,,400
 ,,axion_kobra_ekp_8_sunshade,Axion Kobra EKP-8,1,0.02,,,,,,,,,50
@@ -245,17 +245,15 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,daniel_defense_collapsible_milspec_buttstock,Daniel Defense Collapsible Milspec Stock,16,0.18,-8,-10,,,,,,,900
 ,,daniel_defense_concave_buttpad,Daniel Defense Concave Buttpad,1,0.02,-1,-1,,,,,,,0
 ,ak_rear_trunnions,,,,,,,,,,,,,
-<<<<<<< Updated upstream,,,,,,,,,,,,,,
-=======,,,,,,,,,,,,,,
 ,,izhmash_ak74_rear_trunnion,Izhmash AK-74 Rear Trunnion,1,0.05,,,,,,,,,0
 ,,izhmash_akm_rear_trunnion,Izhmash AKM Rear Trunnion,1,0.05,,,,,,,,,0
 ,ak_springs,,,,,,,,,,,,,
->>>>>>> Stashed changes,,,,,,,,,,,,,,
 ,,izhmash_ak74_spring,Izhmash AK-74 Spring,2,0.03,,-1,,,,,,,0
 ,,izhmash_akm_spring,Izhmash AKM Spring,2,0.03,,-1,,,,,,,0
+,,izhmash_aks74_spring,Izhmash AKS-74 Spring,2,0.02,,,,,,,,,
 ,ak_fixed_stock,,,,,,,,,,,,,
 136,,fab_defense_uas_akn_p,FAB Defense UAS AKN P,16,0.3,-7,-14,,,,,,,700
-137,,izhmash_ak74_polymer_6p20_sb7,Polymer 6P20 Sb.7 Polymer,15,0.25,-7,-13,,,,,,,600
+137,,izhmash_ak74_polymer_6p20_sb7,Izhmash AK-74 Polymer 6P20 Sb.7,14,0.3,-10,-12,,,,,,,500
 138,,izhmash_ak74_wood_6p20_sb5,Wooden 6P20 Sb.5 Wooden,15,0.3,-8,-13,,,,,,,0
 139,,zenitco_akm_ak74_pt_lock,Zenitco AKM/AK74 PT Lock,0,0.04,0,0,,,,,,,700
 140,,me_adapter,ME Adapter,0,0.13,0,0,,,,,,,400
@@ -265,6 +263,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,custom_3d_printed_fixed_acr_stock_adapter,Custom 3d Printed Fixed ACR Stock Adaptor,5,0.16,1,1,,,,,,,1000
 ,,rifle_dynamics_ak_to_m4_gen2_stock_adapter,Rifle Dynamics AK-to-M4 Gen2 Stock Adaptor,0,0.1,0,0,,,,,,,1200
 ,ak_stock_pad,,,,,,,,,,,,,
+,,izhmash_ak74m_metallic_stock_buttpad,Izhmash AK-74M Metallic Stock Buttpad,1,0.15,,-4,,,,,,,0
 ,,izhmash_ak_metallic_stock_buttpad,Izhmash AK Metalic Stock,1,0.15,,-3,,,,,,,0
 ,,utg_ak_rb_k7btp01_combat_rubber_stock_buttpad_ak74,UTG AK RB K7BTP01 Combat Rubber Buttpad AK74,2,0.12,-1,0,,,,,,,600
 ,,utg_ak_rb_k7btp01_combat_rubber_stock_buttpad_pp19,UTG AK RB K7BTP01 Combat Rubber Buttpad PP19,2,0.12,-1,0,,,,,,,600
@@ -1025,7 +1024,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 534,,izhmash_ak74_5.45x39_6l20_30r_mag,Izhmash AK-74 5.45x39 6L20 30R,2,0.41,,,30,,,,,,500
 535,,molot_rpk_5.45x39_6l18_45r_mag,Molot 5.45x39 AK74/RPK 6L18 45R,-6.5,0.66,,,45,,,,,,1600
 536,,5.45x39_magpul_pmag_ak74_30r,Magpul PMAG 5.45x39 30R,0,0.39,,,30,,,,,,1200
-537,,5.45x39_6l23,6L23,0,0.43,,,30,,,,,,600
+537,,izhmash_ak74m_5.45x39_6l23_30r_mag,Izhmash AK-74M Plastic 6L23 30R,1,0.38,,,30,,,,,,750
 538,,5.45x39_izhmash_ak12_magazine_30r,Izhmash AK-12 Windowed Polymer 30R,0,0.42,,,30,,,,,,1200
 ,,banan_magazine,Banana Magazine,0,0.39,,,30,,,,,,5000
 ,magazine_7.62x51_remington700,,,,,,,,,,,,,
@@ -1137,16 +1136,20 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 611,,r870_std_rear_sight,Remington Standard Barrel,1,0.02,,,,,,,,,0
 ,ak_dust_cover,,,,,,,,,,,,,
 612,,fab_defense_ak74_pdc_dust_cover,FAB Defence AK74 PDC,3,0.39,-2,-3,,0.05,,,,,1000
-613,,6p1_01_upper_receiver,Izhmash AK74 6P1 0-1,8,0.25,-3,-1,,,,,,,300
+613,,izhmash_ak74m_6p34_01_dust_cover,Izhmash AK-74M 6P34 0-1,8,0.22,-4,-5,,,,,,,500
 614,,izhmash_ak74_6p1_01_dust_cover,Izhmash AK-74 6P1 0-1 Dust Cover,6,0.25,-3,-4,,,,,,,300
 615,,zenitco_b_33_gen1_dust_cover,Zenitco B-33 Gen 1,5,0.38,0,-2,,,,,,,2000
 616,,akademia_bastion_dust_cover,AKademia bastion,1,0.44,-3,-5,,0.05,,,,,1200
 ,,midwest_industries_alpha_ak_series_railed_top_cover,Midwest Industries ALPHA AK series Railed Top Cover,4,0.42,-2,-4,,,,,,,2000
+,ak_carbine_dust_cover,,,,,,,,,,,,,
+,,izhmash_aks74u_6p26_sb7_dust_cover,Izhmash AKS-74U 6P26 Sb.7 Dust Cover,8,0,-5,-5,,,,,,,
 ,ak_rear_sight,,,,,,,,,,,,,
 617,,scout_scopes_ak_drop_on_rail,Scout Scopes AK,1,0.12,,,,,,,,,1000
 618,,si_ak_drop_on_rail,Strike Industries Ak,-0.5,0.06,,,,,,,,,1000
 619,,akm_rear_sight_6p1_sb2_1,6P1 Sb.2-1,1,0.03,,0,,,,,,,0
 620,,izhmash_ak74_6p1_sb2_rear_sight,Izhmash AK-74 6P1 Sb.2 Rear Sight,0,0.01,,,,,,,,,0
+,ak_carbine_rear_sight,,,,,,,,,,,,,
+,,izhmash_aks74u_rear_sight,Izhmash AKS-74U Rear Sight,,0.01,,,,,,,,,
 ,ak_rs_block,,,,,,,,,,,,,
 ,,izhmash_ak74_rear_sight_block,Izhmash AK-74 Rear Sight Block,0,0.02,,,,,,,,,0
 ,,izhmash_akm_rear_sight_block,Izhmash AKM Rear Sight Block,0,0.02,,,,,,,,,0
@@ -1175,12 +1178,16 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 632,,akmn_gas_tube,AKMN,-1,0.08,0,0,,,,,,,0
 633,,ultimak_m1_b_gastube,UltiMAK M1-B Gas Tube,0,0.09,0,-1,,,,,,,800
 634,,izhmash_ak74_6p20_sb1_2_gastube,Izhmash AK-74  6P20 Sb.1-2 Gas Tube,1,0.05,,1,,,,,,,0
+,ak_carbine_gastube,,,,,,,,,,,,,
+,,izhmash_aks74u_6p26_sb1_2_gastube,Izhmash AKS-74U 6P26 Sb.1-2 Gastube,,0.01,-1,-1,,,,,,,
 ,ak_gastube_retainer,,,,,,,,,,,,,
 ,,izhmash_ak74_gastube_retainer,Izhmash AK-74 Gastube Retainer,0,0.01,,,,,,,,,0
 ,,izhmash_akm_gastube_retainer,Izhmash AKM Gastube Retainer,0,0.01,,,,,,,,,0
 ,ak_spring_retainer,,,,,,,,,,,,,
 ,,izhmash_ak74_spring_retainer,Izhmash AK-74 Spring Retainer,0,0.01,,,,,,,,,0
 ,,izhmash_akm_spring_retainer,Izhmash AKM Spring Retainer,0,0.01,,,,,,,,,0
+,,izhmash_ak100_series_spring_retainer,Izhmash AK-100 Series Spring Retainer,0,0.01,,,,,,,,,50
+,,izhmash_aks74_spring_retainer,Izhmash AKS-74 Spring Retainer,,0.01,,,,,,,,,
 ,elysium_ak,,,,,,,,,,,,,
 ,,archient_technologies_elysium_addon_module,Archient Technologies Elysium AK Device,-8,0.2,-3,-5,,-0.05,,,,0.125,2000
 ,,archient_technologies_ak_gastube_mount_type1,Archient Technologies Elysium Gastube Mount Type 1,1.5,0.05,,,,,,,,,200
@@ -1242,6 +1249,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,izhmash_ak_front_sight_post,Izhmash AK Front Sight Post,1,0.01,,,,,,,,,0
 ,ak74_fs_block,,,,,,,,,,,,,
 ,,izhmash_ak74_front_sight_block,Izhmash AK-74 Front Sight Block,1,0.01,,,,,,,,,0
+,,izhmash_ak74m_front_sight_block,Izhmask AK-74M,1,0.01,,,,,,,,,500
 ,ak74_trigger,,,,,,,,,,,,,
 ,,izhmash_ak74_trigger,Izhmash AK-74 Trigger,0,0.02,1,1,,0.1,,,,,0
 ,ak74_trigger_guard,,,,,,,,,,,,,
@@ -1251,9 +1259,18 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,tss_custom_ak_bolt_on_oversize_gen3_charging_handle,TSS Custom AK Bolt On Oversize Gen3 Charging Handle,3,0.05,,,,,,,,,600
 ,ak74n_barrel,,,,,,,,,,,,,
 653,,izhmash_ak74_415mm_5.45x39_barrel,Izhmash AK-74 415mm 5.45x39 Barrel,-6,0.3,-7,-8,,0,0.05,43,,,500
-,ak74_gas_block,,,,,,,,,,,,,
+,ak_gas_block,,,,,,,,,,,,,
 ,,izhmash_ak74_gasblock,Izhmash AK-74 Gasblock,0,0.01,-1,-2,,,,,,,0
+,,izhmash_ak105_gasblock,Izhmask AK-105 Gasblock,1,0.01,0,-1,,,,,,,500
+,ak105_barrel,,,,,,,,,,,,,
+,,izhmash_ak105_314mm_5.45x39_barrel,Izhmash AK-105 314mm 5.45x39,-3,0.24,-3,-4,,,0.1,35,,,3000
+,ak100_front_trunnion,,,,,,,,,,,,,
+,,izhmash_ak100_series_front_trunnion,Izhmash AK-100 Series Front Trunnion,0,0.15,1,-3,,,,,,,200
+,ak100_rear_trunnion,,,,,,,,,,,,,
+,,izhmash_ak100_series_rear_trunnion,Izhmash AK-100 Series Rear Trunnion,2,0.05,,,,,,,,,200
 ,ak_folding_stock,,,,,,,,,,,,,
+,,izhmash_aks74u_6p26_sb5_skeletonized_stock,Izhmash AKS-74U 6P26 Sb.5 Skeletonized Stock,14,0.16,-12,-15,,,,,,,
+,,izhmash_ak74m_polymer_6p34_sb15,Izhmash AK-74M Polymer 6P34 Sb.15,17,0.3,-9,-11,,,,,,,1000
 655,,izhmash_pp-19-01_vityaz_folding_stock,Izhmash PP-19-01 Vityaz Folding Stock,14,0.23,-5,-5,,,,,,,300
 656,,zenitco_ak74m/ak100_pt_lock,Zenitco AK74M/AK100 PT Lock,-0.5,0.04,-1,-1,,,,,,,300
 657,,ak12_gen1_buffer_tube,Kalashnikov Concern AK-12 Gen 1,-1.5,0.14,-6,-6,,-0.1,,,,,500
@@ -1261,8 +1278,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,magpul_zhukov_s_hinge_part,Magpul ZHUKOV-S Hinge Part,0,0.07,,,,,,,,,600
 ,ak_cleaning_rod,,,,,,,,,,,,,
 ,,izhmash_ak_cleaning_rod,Izhmash AK Cleaning Rod,0,0.02,,-1,,0.02,,,,,0
+,,izhmash_ak_short_cleaning_rod,Izhmash AK-105 Cleaning Rod,0,0.02,,,,0.02,,,,,50
 ,ak_lower_receiver,,,,,,,,,,,,,
 659,,izhmash_ak74_lower_receiver,Izhmash AK-74 Lower Reciever,8,0,,,,,,,,,0
+,,izhmash_ak100_series_lower_receiver,Izhmash AK-100 Series Lower Reciever,10,0,,,,,,,,,5000
 ,ak74_mag_release,,,,,,,,,,,,,
 ,,izhmash_ak74_mag_release,Izhmash AK-74 Mag Release,2,0.01,,,,,,,,,0
 ,ak_sight_mount,,,,,,,,,,,,,
@@ -1293,6 +1312,24 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,izhmash_akm_fire_selector,Izhmash AKM Fire Selector,0.5,0.05,,,,,,,,,0
 ,,retro_arms_cnc_ak_model_a_fire_selector,Retro Arms CNC AK MODEL A Fire Selector,1,0.03,,,,,,,,,750
 ,,legal_arsenal_ak_enhanced_safety_fire_selector,Legal Arsenal AK Enhanced Safety Fire Selector,2,0.06,,,,,,,,,900
+,ak_carbine_lower,,,,,,,,,,,,,
+,,izhmash_aks74u_lower_receiver,Izhmash AKS-74U Lower Receiver,10,0,,,,,,,,,
+,aks74u_barrel,,,,,,,,,,,,,
+,,izhmash_aks74u_210mm_5.45x39_barrel,Izhmash AKS-74U 210mm 5.45x39 Barrel,2,0.1,-3,-5,,0.05,-0.05,,,,
+,aks74u_bolt,,,,,,,,,,,,,
+,,izhmash_aks74u_5.45x39_bolt,Izhmash AKS-74U Bolt,,0.02,,,,,,,,,
+,aks74u_bolt_carrier,,,,,,,,,,,,,
+,,izhmash_aks74u_5.45x39_bolt_carrier,Izhmash AKS-74U 5.45x39 Bolt Carrier,,0.01,,,,,,,,,
+,aks74u_piston,,,,,,,,,,,,,
+,,izhmash_aks74u_bolt_piston,Izhmash AKS-74U Bolt Piston,,0.02,,,,,,,,,
+,aks74u_fsp,,,,,,,,,,,,,
+,,izhmash_aks74u_front_sight_post,Izhmash AKS-74U Front Sight Post,1,0.01,,,,,,,,,
+,aks74u_fs_block,,,,,,,,,,,,,
+,,izhmash_aks74u_front_sight_block,Izhmash AKS-74U Front Sight Block,1,0.01,,,,,,,,,
+,aks74u_front_trunnion,,,,,,,,,,,,,
+,,izhmash_aks74u_front_trunnion,Izhmash AKS-74U Front Trunnion,,0.02,,,,,,,,,
+,aks74u_rs_block,,,,,,,,,,,,,
+,,izhmash_aks74u_rear_sight_block,Izhmash AKS-74U Rear Sight Block,,0.01,,,,,,,,,
 ,ak_barrel_end,,,,,,,,,,,,,
 667,,dt_dpmn_fh,Delta-Tek DPMN,3,0.11,-9,-13,,0.05,0.05,35,,,750
 668,,dt_dtkai_mb,Delta-Tek DTK AK IPSC,-2,0.08,-18,-10,,0.2,-0.05,10,,,750
@@ -1304,6 +1341,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 674,,v762_vr10m_mb,Vector VR-10M,-2,0.14,-14,-14,,0.15,0,25,,,750
 675,,v762_vrdtl_fh,Vector VR-DTL,0.5,0.1,-12,-13,,0,0.1,70,,,750
 676,,vs_05,VS-05,-0.5,0.08,-9,-11,,0.1,0,25,,,750
+,,izhmash_ak105_6p44_020_compensator,Izhmash AK-105 6P44 0-20 Compensator,-0.5,0.05,-9,-12,,0.2,,30,,,700
+,,izhmash_ak74m_6p20_020_compensator,Izhmash AK-74M 6P20 0-20 Compensator,-0.5,0.07,-7,-8,,0.2,,30,,,250
 677,,izhmash_ak74_6p20_020_compensator,Izhmash AK-74 6P20 0-20 Compensator,-0.5,0.07,-7,-10,,0.2,0,30,,,500
 ,,izhmash_aks74u_5.45x39_6p26_020_muzzle_brake,Izhmash AKS74U 6P26 0-20 Muzzle Booster,1,0.08,-8,-13,,0.25,-0.05,30,,0.077,400
 678,,ga_24_1/2,Griffin Armaments 24-1/2,-1,0.05,2,2,,0.1,0,5,,,1000
@@ -1333,6 +1372,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,midwest_industries_alpha_ak_series_10inch_mlok_upper_handguard,"Midwest Industries ALPHA AK Series 10"" MLOK Top Mount",-3,0.13,-2,-1,,,,,,,800
 ,,5.45_design_aggressor_ak_upper_handguard,"5.45 DESIGN ""Aggressor"" AK Upper Handguard",0,0.07,,,,,,,,,0
 ,,5.45_design_aggressor_ak_handguard_rails,"5.45 DESIGN ""Aggressor"" AK Handguard Rails",0,0.1,,,,,,,,,0
+,ak_carbine_hanguard_top_cover,,,,,,,,,,,,,
+,,izhmash_aks74u_wooden_6p26_sb6_upper_handguard,Izhmash AKS-74U Wooden 6p26 Sb.6 Upper Handguard,0,0.05,-2,-1,,,,,,,
 ,ak_grip,,,,,,,,,,,,,
 694,,zenitco_rk3_ak_pistol_grip,RK-3,7,0.11,-3,-5,,,,,,,1000
 695,,ak12_gen1_pistol_grip,AK-12 Gen 1,5,0.1,-5,-3,,,,,,,800
@@ -1343,8 +1384,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 700,,izhmash_pp-19-01_vityaz_pistol_grip,Izhmash PP-19-01 Vityaz Pistol Grip,6,0.11,-4,-4,,,,,,,300
 701,,us_palm_ak_pistol_grip,US Palm AK,6,0.08,-2,-6,,,,,,,900
 ,,magpul_moe_k2_ak_pistol_grip,Magpul MOE-K2 AK,7,0.11,-4,-3,,,,,,,800
-,ak_hanguard_retainer,,,,,,,,,,,,,
+,ak_handguard_retainer,,,,,,,,,,,,,
 ,,izhmash_ak_handguard_retainer,Izhmash AK Handguard Retainer,,0.01,,,,,,,,,0
+,ak_carbine_hanguard_retainer,,,,,,,,,,,,,
+,,izhmash_aks74u_handguard_retainer,Izhmash AKS-74U Handguard Retainer,,0.01,,,,,,,,,
 ,ak_handguard,,,,,,,,,,,,,
 702,,caf_wasr_10_63_wooden_bottom_handguard,Wooden CAF WASR 10-63 Bottom Handguard,14,0.2,-9,-9,,,,,,,300
 703,,tdiarms_ak_akm_l_lower_handguard,TDI Arms AKM-L Handguard,10,0.11,-3,-4,,,,,,,1000
@@ -1367,6 +1410,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,midwest_industries_alpha_ak_series_6inch_mlok_lower_handguard,"Midwest Industries ALPHA AK Series 6"" MLOK Lower Handguard",12,0.15,-4,-5,,,,,,,1200
 ,,midwest_industries_alpha_ak_series_10inch_mlok_lower_handguard,"Midwest Industries ALPHA AK Series 10"" MLOK Lower Handguard",8,0.21,-5,-7,,,,,,,1600
 ,,was_woodworks_lower_ak_handguard_with_handstop,WAS Woodworks Lower AK Handguard with Handstop,18,0.16,-2,-3,,,,,,,1000
+,ak_carbine_handguard,,,,,,,,,,,,,
+,,izhmash_aks74u_wooden_6p26_sb6_lower_handguard,Izhmash AKS-74U Wooden 6p26 Sb.6 Lower Handguard,16,0.1,-7,-5,,,,,,,
 ,caa_rs47_handguard,,,,,,,,,,,,,
 ,,caa_rs47_lower_handguard,CAA RS47 Lower Handguard,7,0.1,-2,-4,,,,,,,750
 ,,caa_rs47_lower_handguard_alt,CAA RS47 Lower Handguard,7,0.1,-2,-4,,,,,,,750

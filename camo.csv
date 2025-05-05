@@ -1,157 +1,298 @@
-﻿0.24.0,Wed Apr 30 20:28:42 2025,,,,,,
-order,name,display_name,color,pbr_material,unlock_type,unlock_value,notes
-1,None,None,#161616,default,always_available,,
-2,default,Default,#161616,default,always_available,,
-3,default_light,Default Light,#666666,default,always_available,,
-9,exps2_zombie_stopper,EXPS2 Zombie Stopper,#161616,default,experience_based,0,exps2 zombie stopper
-10,exps2_zombie_stopper_2,EXPS2 Zombie Stopper 2,#161616,default,experience_based,0,exps2 zombie stopper
-32,ranger_wrap,Ranger Wrap,#161616,default,experience_based,0,t2 ranger wrap
-4,us_marine_default,US Marine Default,#161616,default,experience_based,1000,"peq15, peq16"
-5,us_marine_tan,US Marine Tan,#D3B58C,default,experience_based,2000,"peq15, peq16"
-6,us_marine_fde,US Marine FDE,#D3B58C,default,experience_based,3000,peq15
-7,harris_fde,Harris FDE,#D3B58C,default,experience_based,4000,peq15
-8,harris_fde_worn,Harris FDE Worn,#D3B58C,default,experience_based,5000,peq15
-11,ivory_acrylic,Ivory Acrylic,#A2FFFF5D,default,experience_based,0,tt33 ivory grip
-12,white_acrylic,White Acrylic,#A2FFFF5D,default,experience_based,2000,tt33 ivory grip
-13,black_acrylic,Black Acrylic,#A2FFFF5D,default,experience_based,4000,tt33 ivory grip
-14,purple,Purple,#9DAEB201,default,experience_based,2000,suregrip ergo
-15,egg_blue,Egg Blue,#3D264E4E,default,experience_based,4000,suregrip ergo
-16,tan_red,Tan Red,#D3B58C,default,experience_based,1000,strike viper stock
-17,black_red,Black Red,#161616,default,experience_based,2000,strike viper stock
-18,black_blue,Black Blue,#161616,default,experience_based,3000,strike viper stock
-19,black_nitride,Black Nitride,#161616,default,experience_based,0,glock sai barrel
-20,tin,Tin,#543833,default,experience_based,5000,glock sai barrel
-21,rose_gold,Rose Gold,#CDD6A9B1,ROBLOX_METAL,experience_based,10000,glock sai barrel
-22,typhoon,Typhoon,#D3B58C,default,experience_based,5000,dd parts
-23,forest_green,Forest Green,#70A55B,default,experience_based,5000,aug stock
-24,tigerstripe,Tigerstripe,#3F603D,default,experience_based,10000,aug
-25,titanium,Titanium,#C3FFFF3C,ROBLOX_METAL,experience_based,10000,aug suppressor
-26,safari_streak,Safari Streak,#7F564C,default,experience_based,10000,"aug suppressor, glock, knife grips"
-27,myriam,Myriam,#161616,default,kills_based,450,aug stock
-28,lime,Lime,#42589EC6,default,experience_based,5000,glock gen5 mos slide
-29,rainbow,Rainbow,#F140FFCD,default,experience_based,5000,aug magwell
-30,banana,Banana,#AED9C5B1,default,experience_based,5000,akm pmag
-31,korean,Korean,#3CEDF7DD,default,experience_based,5000,stanag bottom plate
-33,eotech_tan_1,Eotech Tan 1,#D3B58C,default,experience_based,1000,eotech
-34,eotech_tan_2,Eotech Tan 2,#D3B58C,default,experience_based,2000,eotech
-35,eotech_tan_3,Eotech Tan 3,#D3B58C,default,experience_based,3000,eotech
-36,tamography_tan,Tamography Tan,#D3B58C,default,kills_based,25,eotech
-37,tamography_olive_green,Tamography Olive Green,#42589EC6,default,kills_based,50,eotech
-38,tamography_grey,Tamography Grey,#95FFFF6A,default,kills_based,75,eotech
-39,tamography_black,Tamography Black,#161616,default,kills_based,100,eotech
-40,l3_eotech_xps,L3 Eotech XPS,#D3B58C,default,experience_based,4000,xps
-41,su-231a_peq,SU-231A/PEQ,#D3B58C,default,experience_based,4000,exps
-42,dd_fde,DD FDE,#D3B58C,default,experience_based,1000,dd handguard
-43,dd_fde_alt,DD FDE Alt,#D3B58C,default,experience_based,2000,dd handguard
-44,dd_fde_worn,DD FDE Worn,#D3B58C,default,experience_based,3000,dd handguard
-45,dd_fde_worn_alt,DD FDE Alt Worn,#D3B58C,default,experience_based,4000,dd handguard
-46,aeroflake_desert,Aeroflake Desert,#D3B58C,default,experience_based,2000,aeroknox
-47,aeroflake_forest,Aeroflake Forest,#709954,default,experience_based,4000,aeroknox
-48,aeroflake_tundra,Aeroflake Tundra,#161616,default,experience_based,6000,aeroknox
-49,aeroflake_urban,Aeroflake Urban,#A2FFFF5D,default,experience_based,8000,aeroknox
-50,radian_brown,Radian Brown,#3CEDF7DD,default,experience_based,2000,radian
-51,radian_od,Radian OD,#3F20DCC3,default,experience_based,4000,radian
-52,radian_grey,Radian Grey,#A2FFFF5D,default,experience_based,6000,radian
-53,airtronic_sand,Airtronic Sand,#D3B58C,default,experience_based,2000,psrl
-54,airtronic_green,Aitronic Green,#42589EC6,default,experience_based,4000,psrl
-55,old_wood,Old Wood,#53E3FACD,default,experience_based,2000,wood
-56,faded_wood,Faded Wood,#53E3FACD,default,experience_based,4000,wood
-57,beach_wood,Beach Wood,#53E3FACD,default,experience_based,6000,wood
-58,walnut_wood,Walnut Wood,#53E3FACD,default,experience_based,8000,wood
-59,ak_wood,AK Wood,#53E3FACD,default,experience_based,10000,crazy romanian grip
-60,tan_painted,Tan Painted,#90E5EE9A,default,experience_based,3000,wood painted
-61,kac_od_painted,KAC OD Painted,#70A55B,default,experience_based,5000,wood painted
-62,fde_painted,FDE Painted,#D3B58C,default,experience_based,7000,wood painted
-63,alpine_painted,Alpine Painted,#9DFFFF62,default,experience_based,9000,wood painted
-64,gold_painted,Gold Painted,#CDD6A9B1,default,experience_based,11000,wood painted
-65,zenitco_golden_desert,zenitco_golden_desert,#D3B58C,rough_metal,experience_based,5000,
-66,hk_green_worn,HK Green Worn,#70A55B,default,experience_based,5000,
-67,hk_green,hk_green,#70A55B,default,experience_based,5000,
-68,yellow,Yellow,#AF894F,default,experience_based,5000,
-69,sand_beige,Sand Beige,#D3B58C,default,experience_based,5000,
-70,ghillie_green,Ghillie Green,#42589EC6,default,experience_based,5000,
-71,diemaco_green,Diemaco Green,#42589EC6,default,experience_based,5000,
-72,kac_worn,Kac Worn,#70A55B,default,experience_based,5000,
-73,tungsten_grey,Tungsten Grey,#A2FFFF5D,default,experience_based,5000,
-74,crocodile,Crocodile,#3F20DCC3,default,experience_based,5000,
-75,fde_od_worn,FDE OD Worn,#D3B58C,default,experience_based,5000,
-76,fde_black,FDE Black,#D3B58C,default,experience_based,5000,
-77,burnt_bronze_cerakote,burnt_bronze_cerakote,#3CEDF7DD,default,experience_based,5000,
-78,safari_streak_worn,Safari Streak Worn,#7F564C,default,experience_based,5000,
-79,zenitco_desert_worn,zenitco_desert_worn,#D3B58C,default,experience_based,5000,
-80,green,green,#42589EC6,default,experience_based,5000,
-81,diamondback_rattlecan_fde,diamondback_rattlecan_fde,#D3B58C,default,experience_based,5000,
-82,kac,kac,#161616,default,experience_based,5000,
-83,the_sufferer,The Sufferer,#161616,default,experience_based,5000,
-84,sand_beige_and_black,sand_beige_and_black,#D3B58C,default,experience_based,5000,
-85,bs_grey,bs_grey,#A2FFFF5D,default,experience_based,5000,
-86,fancy_red,fancy_red,#FE4CFFB4,default,experience_based,5000,
-87,n_p3_coated,n_p3_coated,#A2FFFF5D,default,experience_based,5000,
-88,surefire_fde,surefire_fde,#D3B58C,default,experience_based,5000,
-89,korean_camo,korean_camo,#161616,default,experience_based,5000,
-90,burnt_bronze,burnt_bronze,#3CEDF7DD,default,experience_based,5000,
-91,black_np3,black_np3,#161616,default,experience_based,5000,
-92,fancy_bronze,fancy_bronze,#3CEDF7DD,default,experience_based,5000,
-93,dark_blue,dark_blue,#1924467C,default,experience_based,5000,
-94,bakelite,Bakelite,#AED9C5B1,default,experience_based,5000,
-95,silver_black,silver_black,#A2F7FA6A,ROBLOX_METAL,experience_based,5000,
-96,silver_tan,silver_tan,#A39B96,default,experience_based,5000,
-97,ghillie_earth,ghillie_earth,#D3B58C,default,experience_based,5000,
-98,black_and_white,black_and_white,#161616,default,experience_based,5000,
-99,orange_worn,orange_worn,#FF6D3F,default,experience_based,5000,
-100,black_anodized,Black Anodized,#161616,ROBLOX_METAL,experience_based,5000,
-101,clear_anodized,clear_anodized,#AEFFFF51,default,experience_based,5000,
-102,black,Black,#161616,default,experience_based,500,non-black defaults (socom rc2)
-103,tan,Tan,#D3B58C,default,experience_based,500,
-104,kac_od,KAC OD,#70A55B,default,experience_based,1000,
-105,grey,Grey,#888885,default,experience_based,1500,
-106,fde,FDE,#C9BAA9,default,experience_based,2000,
-107,magpul_od,Magpul OD,#709954,default,experience_based,2500,
-108,bronze,Bronze,#AF894F,default,experience_based,3000,
-109,steyr_fde,Steyr FDE,#C9BAA9,default,experience_based,3500,
-110,steyr_od,Steyr OD,#70A55B,default,experience_based,4000,
-111,scar_fde,Scar FDE,#D3B58C,default,experience_based,4500,
-112,diemaco_od,Diemaco OD,#70A55B,default,experience_based,5000,
-113,ral_8000,RAL 8000,#D3B58C,default,experience_based,5500,
-114,ral8000,RAL 8000,#D3B58C,default,experience_based,6000,
-115,zenitco_desert,Zenitco Desert,#D3B58C,default,experience_based,6500,
-116,zenitco_golden_khaki,Zenitco Golden Khaki,#AF894F,rough_metal,experience_based,7000,
-117,plum,Plum,#FF4C4C,default,experience_based,7500,
-118,charcoal_green,Charcoal Green,#A2FFFF5D,default,experience_based,8000,
-119,battleship_grey,Battleship Grey,#3CEDF7DD,default,experience_based,8500,
-120,alpine,Alpine,#EEEEEE,default,experience_based,9000,
-121,default_worn,Default Worn,#161616,default,experience_based,9500,
-122,black_worn,Black Worn,#161616,default,experience_based,9500,non-black defaults (socom rc2)
-123,very_worn,Very Worn,#161616,default,experience_based,9500,ak parts
-124,tan_worn,Tan Worn,#D3B58C,default,experience_based,10000,
-125,kac_od_worn,KAC OD Worn,#70A55B,default,experience_based,10500,
-126,fde_worn,FDE Worn,#D3B58C,default,experience_based,11000,
-127,magpul_od_worn,Magpul OD Worn,#709954,default,experience_based,11500,
-128,steyr_fde_worn,Steyr FDE Worn,#D3B58C,default,experience_based,12000,
-129,steyr_od_worn,Steyr OD Worn,#70A55B,default,experience_based,12500,
-130,scar_fde_worn,Scar FDE Worn,#D3B58C,default,experience_based,13000,
-131,diemaco_od_worn,Diemaco OD Worn,#3F603D,default,experience_based,13500,
-132,plum_worn,plum_worn,#3D2B23,default,experience_based,13500,aug stock?
-133,orange,Orange ,#FE6DD1C1,default,experience_based,14000,
-134,red_worn,Red Worn,#FF4C4C,default,experience_based,14500,
-135,blue_worn,Blue Worn,#4C387A01,default,experience_based,15000,
-136,red,Red,#FE4CFFB4,ROBLOX_METAL,experience_based,15500,
-137,blue,Blue,#4C219101,ROBLOX_METAL,experience_based,16000,
-138,silver,Silver,#95FFFF6A,ROBLOX_METAL,kills_based,150,
-139,gold,Gold,#CEA54F,ROBLOX_METAL,kills_based,300,
-140,speckled_paint,Speckled Paint,#709954,default,gamepass,bush_war_classics_1,,,,,,,,,,
-141,arid_green,Arid Green,#709954,default,gamepass,arid_green_skinpack_1,,,,,,,,,,
-142,evergreen_pine,Evergreen Pine,#709954,default,gamepass,evergreen_pine_skinpack_1,,,,,,,,,,
-143,pink,Pink,#C586B201,default,gamepass,pink_menace_skinpack_1,,,,,,,,,,
-144,bush_warrior,Bush Warrior,#709954,default,gamepass,bush_war_classics_1,,,,,,,,,,
-145,boomslang,Boomslang,#709954,default,gamepass,bush_war_classics_1,,,,,,,,,,
-146,dingler,Dingler,#161616,default,gamepass,dingler_skinpack_1,,,,,,,,,,
-,,,,,,,
-0,option_1,Option 1,#161616,default,always_available,,
-0,option_2,Option 2,#161616,default,always_available,,
-0,option_3,Option 3,#161616,default,always_available,,
-0,option_4,Option 4,#161616,default,always_available,,
-0,option_5,Option 5,#161616,default,always_available,,
-0,option_6,Option 6,#161616,default,always_available,,
-0,option_7,Option 7,#161616,default,always_available,,
-0,option_8,Option 8,#161616,default,always_available,,
+Name,Value,,0.24.0,Wed Apr 30 20:28:42 2025,,,,,,
+matech_usgi_rear_buis_aperture,SIGHT,,order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,notes
+impoint_micro_t1_sight,SIGHT,,1,None,None,#161616,default,always_available,,,
+impoint_micro_t2_sight,SIGHT,,2,default,Default,#161616,default,always_available,,,
+ig_sauer_romeo5_1x20_sight,SIGHT,,3,default_light,Default Light,#666666,default,always_available,,,
+ig_sauer_romeo4t_sight,SIGHT,,9,exps2_zombie_stopper,EXPS2 Zombie Stopper,#161616,default,experience_based,0,,exps2 zombie stopper
+ig_sauer_romeo4_sight,SIGHT,,10,exps2_zombie_stopper_2,EXPS2 Zombie Stopper 2,#161616,default,experience_based,0,,exps2 zombie stopper
+impoint_compm5_sight,SIGHT,,32,ranger_wrap,Ranger Wrap,#161616,default,experience_based,0,,t2 ranger wrap
+burris_ar536_prism_5x_sight,SIGHT,,4,us_marine_default,US Marine Default,#161616,default,experience_based,1000,,"""peq15"
+trijicon_acog_ta01_4x_scope,SIGHT,,5,us_marine_tan,US Marine Tan,#D3B58C,default,experience_based,2000,,"""peq15"
+trijicon_acog_ta31_comspec_4x_scope,SIGHT,,6,us_marine_fde,US Marine FDE,#D3B58C,default,experience_based,3000,,peq15
+trijicon_acog_ta11d_bac,SIGHT,,7,harris_fde,Harris FDE,#D3B58C,default,experience_based,4000,,peq15
+burris_ar332_prism_3x_sight,SIGHT,,8,harris_fde_worn,Harris FDE Worn,#D3B58C,default,experience_based,5000,,peq15
+trijicon_acog_ta31_milspec_4x_scope,SIGHT,,11,ivory_acrylic,Ivory Acrylic,#A2FFFF5D,default,experience_based,0,,tt33 ivory grip
+aim_sports_rear_sight,SIGHT,,12,white_acrylic,White Acrylic,#A2FFFF5D,default,experience_based,2000,,tt33 ivory grip
+primary_arms_slx_1x_microprism_acss_g2_scope,SIGHT,,13,black_acrylic,Black Acrylic,#A2FFFF5D,default,experience_based,4000,,tt33 ivory grip
+trijicon_compact_acog_3x24_ta50c_red,SIGHT,,14,purple,Purple,#9DAEB201,default,experience_based,2000,,suregrip ergo
+monstrum_tactical_s232p_2x32_prism_scope,SIGHT,,15,egg_blue,Egg Blue,#3D264E4E,default,experience_based,4000,,suregrip ergo
+sig_sauer_romeo3,SIGHT,,16,tan_red,Tan Red,#D3B58C,default,experience_based,1000,,strike viper stock
+aimpoint_acro_p2_reflex_sight,SIGHT,,17,black_red,Black Red,#161616,default,experience_based,2000,,strike viper stock
+eotech_vudu_1_6x24,SIGHT,,18,black_blue,Black Blue,#161616,default,experience_based,3000,,strike viper stock
+hensoldt_z24_fero_4x24,SIGHT,,19,black_nitride,Black Nitride,#161616,default,experience_based,0,,glock sai barrel
+trijicon_rx01/06_series_1x24_reflex_sight,SIGHT,,20,tin,Tin,#543833,default,experience_based,5000,,glock sai barrel
+trijicon_rmr_rm01_type2_auto_led_reflex,SIGHT,,21,rose_gold,Rose Gold,#CDD6A9B1,ROBLOX_METAL,experience_based,10000,,glock sai barrel
+trijicon_rmr_rm06_type2_adj_led_reflex,SIGHT,,22,typhoon,Typhoon,#D3B58C,default,experience_based,5000,,dd parts
+trijicon_sro_reflex_sight,SIGHT,,23,forest_green,Forest Green,#70A55B,default,experience_based,5000,,aug stock
+trijicon_rmr_rm05_dual_illuminated_reflex,SIGHT,,24,tigerstripe,Tigerstripe,#3F603D,default,experience_based,10000,,aug
+swampfox_kingslayer_micro_reflex_sight,SIGHT,,25,titanium,Titanium,#C3FFFF3C,ROBLOX_METAL,experience_based,10000,,aug suppressor
+scalarworks_peak01_rear_aperture,SIGHT,,26,safari_streak,Safari Streak,#7F564C,default,experience_based,10000,,"""aug suppressor",
+colt_rear_ironsight_200m,SIGHT,,27,myriam,Myriam,#161616,default,kills_based,450,,aug stock,
+aimpoint_compm2_sight,SIGHT,,28,lime,Lime,#42589EC6,default,experience_based,5000,,glock gen5 mos slide,
+elcan_alt_view,SIGHT,,29,rainbow,Rainbow,#F140FFCD,default,experience_based,5000,,aug magwell,
+nightforce_atacr7_35x56_f1,SIGHT,,30,banana,Banana,#AED9C5B1,default,experience_based,5000,,akm pmag,
+daniel_defense_fixed_sight_rear_aperture,SIGHT,,31,korean,Korean,#3CEDF7DD,default,experience_based,5000,,stanag bottom plate,
+dpms_mangonel_rear_sight,SIGHT,,33,eotech_tan_1,Eotech Tan 1,#D3B58C,default,experience_based,1000,,eotech,
+pu_3.5x_scope,SIGHT,,34,eotech_tan_2,Eotech Tan 2,#D3B58C,default,experience_based,2000,,eotech,
+vomz_pilad_p3.5x20c_scope,SIGHT,,35,eotech_tan_3,Eotech Tan 3,#D3B58C,default,experience_based,3000,,eotech,
+npz_1p78_1_2.8x_kashtan_scope,SIGHT,,36,tamography_tan,Tamography Tan,#D3B58C,default,kills_based,25,,eotech,
+axion_kobra_ekp_8_sight,SIGHT,,37,tamography_olive_green,Tamography Olive Green,#42589EC6,default,kills_based,50,,eotech,
+kac_rear_sight,SIGHT,,38,tamography_grey,Tamography Grey,#95FFFF6A,default,kills_based,75,,eotech,
+leupold_deltapoint_pro_sight,SIGHT,,39,tamography_black,Tamography Black,#161616,default,kills_based,100,,eotech,
+eotech_eflx_mini_red_dot,SIGHT,,40,l3_eotech_xps,L3 Eotech XPS,#D3B58C,default,experience_based,4000,,xps,
+leupold_deltapoint_reflex_sight,SIGHT,,41,su-231a_peq,SU-231A/PEQ,#D3B58C,default,experience_based,4000,,exps,
+kac_micro_rear_sight,SIGHT,,42,dd_fde,DD FDE,#D3B58C,default,experience_based,1000,,dd handguard,
+cosmic_tactical_saturn_4x_red_scope,SIGHT,,43,dd_fde_alt,DD FDE Alt,#D3B58C,default,experience_based,2000,,dd handguard,
+cosmic_tactical_saturn_4x_green_scope,SIGHT,,44,dd_fde_worn,DD FDE Worn,#D3B58C,default,experience_based,3000,,dd handguard,
+aeroknox_ax15_rear_sight_folded,SIGHT,,45,dd_fde_worn_alt,DD FDE Alt Worn,#D3B58C,default,experience_based,4000,,dd handguard,
+aeroknox_ax15_rear_sight,SIGHT,,46,aeroflake_desert,Aeroflake Desert,#D3B58C,default,experience_based,2000,,aeroknox,
+burris_ar536_prism_5x_sight_carry_handle,SIGHT,,47,aeroflake_forest,Aeroflake Forest,#709954,default,experience_based,4000,,aeroknox,
+trijicon_acog_ta01_4x_scope_carry_handle,SIGHT,,48,aeroflake_tundra,Aeroflake Tundra,#161616,default,experience_based,6000,,aeroknox,
+trijicon_acog_ta11d_bac_carry_handle,SIGHT,,49,aeroflake_urban,Aeroflake Urban,#A2FFFF5D,default,experience_based,8000,,aeroknox,
+trijicon_acog_ta31_comspec_4x_scope_carry_handle,SIGHT,,50,radian_brown,Radian Brown,#3CEDF7DD,default,experience_based,2000,,radian,
+burris_ar332_prism_3x_sight_carry_handle,SIGHT,,51,radian_od,Radian OD,#3F20DCC3,default,experience_based,4000,,radian,
+trijicon_acog_ta31_milspec_4x_scope_carry_handle,SIGHT,,52,radian_grey,Radian Grey,#A2FFFF5D,default,experience_based,6000,,radian,
+magpul_mbus_gen2_rear_top,SIGHT,,53,airtronic_sand,Airtronic Sand,#D3B58C,default,experience_based,2000,,psrl,
+aimpoint_compm4_sight,SIGHT,,54,airtronic_green,Aitronic Green,#42589EC6,default,experience_based,4000,,psrl,
+zenit_belomo_pk_as,SIGHT,,55,old_wood,Old Wood,#53E3FACD,default,experience_based,2000,,wood,
+eotech_exps3_holo_sight,SIGHT,,56,faded_wood,Faded Wood,#53E3FACD,default,experience_based,4000,,wood,
+eotech_exps2_holo_sight,SIGHT,,57,beach_wood,Beach Wood,#53E3FACD,default,experience_based,6000,,wood,
+eotech_exps2_green_holo_sight,SIGHT,,58,walnut_wood,Walnut Wood,#53E3FACD,default,experience_based,8000,,wood,
+armytek_predator_prov3_xhp35_hi,TACTICAL,,59,ak_wood,AK Wood,#53E3FACD,default,experience_based,10000,,crazy romanian grip,
+ultrafire_wf501b_flashlight,TACTICAL,,60,tan_painted,Tan Painted,#90E5EE9A,default,experience_based,3000,,wood painted,
+magpul_xtm_enhanced_handstop_2,RAIL_PANEL,,61,kac_od_painted,KAC OD Painted,#70A55B,default,experience_based,5000,,wood painted,
+usi_l12a1_susat_combat_optic,SIGHT,,62,fde_painted,FDE Painted,#D3B58C,default,experience_based,7000,,wood painted,
+leupold_cq_deltapoint_pro_rear_ironsight,SIGHT,,63,alpine_painted,Alpine Painted,#9DFFFF62,default,experience_based,9000,,wood painted,
+susat_backup_sights,SIGHT,,64,gold_painted,Gold Painted,#CDD6A9B1,default,experience_based,11000,,wood painted,
+xtm_2_piece,RAIL_PANEL,,65,zenitco_golden_desert,zenitco_golden_desert,#D3B58C,rough_metal,experience_based,5000,,,
+unity_fast_optics_riser,MOUNT,,66,hk_green_worn,HK Green Worn,#70A55B,default,experience_based,5000,,,
+badger_ordnance_comm_30mm_mount_body,MOUNT,,67,hk_green,hk_green,#70A55B,default,experience_based,5000,,,
+scalarworks_leap01_swo110_1.57_mount,MOUNT,,68,yellow,Yellow,#AF894F,default,experience_based,5000,,,
+valday_zt310_picatinny_mount,MOUNT,,69,sand_beige,Sand Beige,#D3B58C,default,experience_based,5000,,,
+arms_no5_mount,MOUNT,,70,ghillie_green,Ghillie Green,#42589EC6,default,experience_based,5000,,,
+ncstar_blue_lam_module,TACTICAL,,71,diemaco_green,Diemaco Green,#42589EC6,default,experience_based,5000,,,
+sightmark_lopro_mini_combo,TACTICAL,,72,kac_worn,Kac Worn,#70A55B,default,experience_based,5000,,,
+insight_technology_wmx200_fixed_mount_tactical_illuminator,TACTICAL,,73,tungsten_grey,Tungsten Grey,#A2FFFF5D,default,experience_based,5000,,,
+badger_ordnance_comm_34mm_mount_body,MOUNT,,74,crocodile,Crocodile,#3F20DCC3,default,experience_based,5000,,,
+sc_irregulars_omm_micro_mount,MOUNT,,75,fde_od_worn,FDE OD Worn,#D3B58C,default,experience_based,5000,,,
+bt_qd_nar_acro_30mm_mount,MOUNT,,76,fde_black,FDE Black,#D3B58C,default,experience_based,5000,,,
+eotech_ogl_tactical_laser_module,TACTICAL,,77,burnt_bronze_cerakote,burnt_bronze_cerakote,#3CEDF7DD,default,experience_based,5000,,,
+daniel_defense_3inch_picatinny_rail_panel,RAIL_PANEL,,78,safari_streak_worn,Safari Streak Worn,#7F564C,default,experience_based,5000,,,
+aim_sports_mt012l_riser_mount,MOUNT,,79,zenitco_desert_worn,zenitco_desert_worn,#D3B58C,default,experience_based,5000,,,
+aeroknox_ax15_front_sight_base,MOUNT,,80,green,green,#42589EC6,default,experience_based,5000,,,
+daniel_defense_7inch_picatinny_rail_panel,RAIL_PANEL,,81,diamondback_rattlecan_fde,diamondback_rattlecan_fde,#D3B58C,default,experience_based,5000,,,
+npz_1p78_kashtan_p1_picatinny_adapter,MOUNT,,82,kac,kac,#161616,default,experience_based,5000,,,
+dpms_mangonel_front_sight_base,MOUNT,,83,the_sufferer,The Sufferer,#161616,default,experience_based,5000,,,
+leupold_deltapoint_pro_cross_slot,MOUNT,,84,sand_beige_and_black,sand_beige_and_black,#D3B58C,default,experience_based,5000,,,
+airtronic_psrl_ironsight_base_mount,MOUNT,,85,bs_grey,bs_grey,#A2FFFF5D,default,experience_based,5000,,,
+kac_rear_sight_base,MOUNT,,86,fancy_red,fancy_red,#FE4CFFB4,default,experience_based,5000,,,
+arisaka_inline_scout_picatinny_mount,MOUNT,,87,n_p3_coated,n_p3_coated,#A2FFFF5D,default,experience_based,5000,,,
+wilcox_compm_30mm_mount,MOUNT,,88,surefire_fde,surefire_fde,#D3B58C,default,experience_based,5000,,,
+trijicon_rm33_mount,MOUNT,,89,korean_camo,korean_camo,#161616,default,experience_based,5000,,,
+25mm_universal_mount,MOUNT,,90,burnt_bronze,burnt_bronze,#3CEDF7DD,default,experience_based,5000,,,
+zenit_belomo_picatinny_mount_pkas,MOUNT,,91,black_np3,black_np3,#161616,default,experience_based,5000,,,
+be_meyers_mawl_c1+,TACTICAL,,92,fancy_bronze,fancy_bronze,#3CEDF7DD,default,experience_based,5000,,,
+ncstar_vism_micro_green_dot_red_laser_vdgrlb,TACTICAL,,93,dark_blue,dark_blue,#1924467C,default,experience_based,5000,,,
+sig_sauer_romeo4_low,SIGHT,,94,bakelite,Bakelite,#AED9C5B1,default,experience_based,5000,,,
+eotech_xps2_green_holo_sight,SIGHT,,95,silver_black,silver_black,#A2F7FA6A,ROBLOX_METAL,experience_based,5000,,,
+burris_ar_prb_mount,MOUNT,,96,silver_tan,silver_tan,#A39B96,default,experience_based,5000,,,
+kac_9rib_railpanel,RAIL_PANEL,,97,ghillie_earth,ghillie_earth,#D3B58C,default,experience_based,5000,,,
+eotech_512_holo_sight,SIGHT,,98,black_and_white,black_and_white,#161616,default,experience_based,5000,,,
+primary_arms_slx_1.1inch_mount,MOUNT,,99,orange_worn,orange_worn,#FF6D3F,default,experience_based,5000,,,
+matech_usgi_rear_buis_base,MOUNT,,100,black_anodized,Black Anodized,#161616,ROBLOX_METAL,experience_based,5000,,,
+vortex_optics_sport_cantilever_cm_102_30mm_2inch_offset,MOUNT,,101,clear_anodized,clear_anodized,#AEFFFF51,default,experience_based,5000,,,
+axion_kobra_ekp_8_18_mount,MOUNT,,102,black,Black,#161616,default,experience_based,500,,non-black defaults (socom rc2),
+magpul_xtm_enhanced_handstop_1,RAIL_PANEL,,103,tan,Tan,#D3B58C,default,experience_based,500,,,
+aimpoint_qrp1_30mm_mount,MOUNT,,104,kac_od,KAC OD,#70A55B,default,experience_based,1000,,,
+arms_#40_rear_sight_base,MOUNT,,105,grey,Grey,#888885,default,experience_based,1500,,,
+elcan_c79a2,SIGHT,,106,fde,FDE,#C9BAA9,default,experience_based,2000,,,
+aimpoint_qrp2_modular_base_mount,MOUNT,,107,magpul_od,Magpul OD,#709954,default,experience_based,2500,,,
+sig_sauer_romeo5_low_mount,MOUNT,,108,bronze,Bronze,#AF894F,default,experience_based,3000,,,
+daniel_defense_rock_lock_a1.5_fixed_rear_sight,SIGHT,,109,steyr_fde,Steyr FDE,#C9BAA9,default,experience_based,3500,,,
+aimpoint_micro_lrp_qd_mount,MOUNT,,110,steyr_od,Steyr OD,#70A55B,default,experience_based,4000,,,
+kac_micro_front_sight_base,MOUNT,,111,scar_fde,Scar FDE,#D3B58C,default,experience_based,4500,,,
+zenitco_perst_3_classic_gen4_green,TACTICAL,,112,diemaco_od,Diemaco OD,#70A55B,default,experience_based,5000,,,
+true_view_rap4_offset_picatinny_mount,MOUNT,,113,ral_8000,RAL 8000,#D3B58C,default,experience_based,5500,,,
+fn_scar_rear_sight_base,MOUNT,,114,ral8000,RAL 8000,#D3B58C,default,experience_based,6000,,,
+larue_qd_lt_101,MOUNT,,115,zenitco_desert,Zenitco Desert,#D3B58C,default,experience_based,6500,,,
+unity_fast_lpvo_30mm_mount,MOUNT,,116,zenitco_golden_khaki,Zenitco Golden Khaki,#AF894F,rough_metal,experience_based,7000,,,
+sightmark_lopro_combo,TACTICAL,,117,plum,Plum,#FF4C4C,default,experience_based,7500,,,
+kac_11rib_railpanel,RAIL_PANEL,,118,charcoal_green,Charcoal Green,#A2FFFF5D,default,experience_based,8000,,,
+unity_fast_micro_mount,MOUNT,,119,battleship_grey,Battleship Grey,#3CEDF7DD,default,experience_based,8500,,,
+ncstar_mark_3_tactical_gen2_3_9x42,SIGHT,,120,alpine,Alpine,#EEEEEE,default,experience_based,9000,,,
+ncstar_mpr45_offset_mount,MOUNT,,121,default_worn,Default Worn,#161616,default,experience_based,9500,,,
+aim_sports_mt012h_riser_mount,MOUNT,,122,black_worn,Black Worn,#161616,default,experience_based,9500,,non-black defaults (socom rc2),
+burris_ar_pepr_30mm_mount,MOUNT,,123,very_worn,Very Worn,#161616,default,experience_based,9500,,ak parts,
+aimpoint_amm_dovetail_11mm_mount,MOUNT,,124,tan_worn,Tan Worn,#D3B58C,default,experience_based,10000,,,
+firefield_mg_kemper_xl_reflex_sight,SIGHT,,125,kac_od_worn,KAC OD Worn,#70A55B,default,experience_based,10500,,,
+daniel_defense_5inch_picatinny_rail_panel,RAIL_PANEL,,126,fde_worn,FDE Worn,#D3B58C,default,experience_based,11000,,,
+kac_aimpoint_micro_nvg_high_rise_picatinny_mount,MOUNT,,127,magpul_od_worn,Magpul OD Worn,#709954,default,experience_based,11500,,,
+npz_pso_1_4x24_picatinny_scope,SIGHT,,128,steyr_fde_worn,Steyr FDE Worn,#D3B58C,default,experience_based,12000,,,
+trijicon_ta51_flattop_mount,MOUNT,,129,steyr_od_worn,Steyr OD Worn,#70A55B,default,experience_based,12500,,,
+aim_sports_mt012m_riser_mount,MOUNT,,130,scar_fde_worn,Scar FDE Worn,#D3B58C,default,experience_based,13000,,,
+sig_sauer_bravo4_4x30,SIGHT,,131,diemaco_od_worn,Diemaco OD Worn,#3F603D,default,experience_based,13500,,,
+arbalet_patriot_k_pu_20mm_picatinny_mount,MOUNT,,132,plum_worn,plum_worn,#3D2B23,default,experience_based,13500,,aug stock?,
+leupold_deltapoint_pro_ar_dloc,MOUNT,,133,orange,Orange ,#FE6DD1C1,default,experience_based,14000,,,
+trijicon_rmr_ac32066_offset,MOUNT,,134,red_worn,Red Worn,#FF4C4C,default,experience_based,14500,,,
+kac_front_sight_base,MOUNT,,135,blue_worn,Blue Worn,#4C387A01,default,experience_based,15000,,,
+sc_irregulars_omm_pic_mount,MOUNT,,136,red,Red,#FE4CFFB4,ROBLOX_METAL,experience_based,15500,,,
+monstrum_tactical_compact_scope_mount,MOUNT,,137,blue,Blue,#4C219101,ROBLOX_METAL,experience_based,16000,,,
+magpul_xtm_enhanced_short_handstop_1,RAIL_PANEL,,138,silver,Silver,#95FFFF6A,ROBLOX_METAL,kills_based,150,,,
+kac_4rib_railpanel,RAIL_PANEL,,139,gold,Gold,#CEA54F,ROBLOX_METAL,kills_based,300,,,
+holosun_he510c-gr_sight,SIGHT,,140,speckled_paint,Speckled Paint,#709954,default,gamepass,,bush_war_classics_1,,,,,,,,,,
+elcan_specterdr_1_4x_dfov14_t1,SIGHT,,141,arid_green,Arid Green,#709954,default,gamepass,,arid_green_skinpack_1,,,,,,,,,,
+swampfox_trihawk_3x30_prism_scope,SIGHT,,142,evergreen_pine,Evergreen Pine,#709954,default,gamepass,,evergreen_pine_skinpack_1,,,,,,,,,,
+bt_qd_nar_acro_39mm_mount,MOUNT,,143,pink,Pink,#C586B201,default,gamepass,,pink_menace_skinpack_1,,,,,,,,,,
+trijicon_rx14_mount,MOUNT,,144,bush_warrior,Bush Warrior,#709954,default,gamepass,,bush_war_classics_1,,,,,,,,,,
+gbrs_group_aimpoint_hydra_mount_kit,MOUNT,,145,boomslang,Boomslang,#709954,default,gamepass,,bush_war_classics_1,,,,,,,,,,
+insight_technology_an_peq_5_cvl,TACTICAL,,146,dingler,Dingler,#161616,default,gamepass,,dingler_skinpack_1,,,,,,,,,,
+magpul_xtm_enhanced_half_panel_1,RAIL_PANEL,,,,,,,,,,,,,,,,,,,
+sig_sauer_romeo_cowitness_qd_mount,MOUNT,,0,option_1,Option 1,#161616,default,always_available,,,,,,,,,,,,
+maxwell_grip,GRIP,,0,option_2,Option 2,#161616,default,always_available,,,,,,,,,,,,
+trijicon_ac32062_mount,MOUNT,,0,option_3,Option 3,#161616,default,always_available,,,,,,,,,,,,
+trijicon_srs02,SIGHT,,0,option_4,Option 4,#161616,default,always_available,,,,,,,,,,,,
+ncstar_vism_gen2_carry_handle,SIGHT,,0,option_5,Option 5,#161616,default,always_available,,,,,,,,,,,,
+wilcox_raid_xe_g18_high_power_laser_aiming_device,TACTICAL,,0,option_6,Option 6,#161616,default,always_available,,,,,,,,,,,,
+zenit_belomo_pk06_kobra_sight,SIGHT,,0,option_7,Option 7,#161616,default,always_available,,,,,,,,,,,,
+eotech_xps2z_zombie_stopper_holo_sight,SIGHT,,0,option_8,Option 8,#161616,default,always_available,,,,,,,,,,,,
+eotech_exps2_mount,MOUNT,,,,,,,,,,,,,,,,,,,
+eotech_exps3_mount,MOUNT,,,,,,,,,,,,,,,,,,,
+aeroknox_ax15_rear_sight_base,MOUNT,,,,,,,,,,,,,,,,,,,
+kac_2rib_railpanel,RAIL_PANEL,,,,,,,,,,,,,,,,,,,
+scalarworks_leap01_swo120_1.93_mount,MOUNT,,,,,,,,,,,,,,,,,,,
+aimpoint_electronic_g2_red_dot,SIGHT,,,,,,,,,,,,,,,,,,,
+walther_mrs_red_dot_sight,SIGHT,,,,,,,,,,,,,,,,,,,
+gbrs_group_lerna_picatinny_eotech_mount,MOUNT,,,,,,,,,,,,,,,,,,,
+insight_technology_an_peq_2a_tpial,TACTICAL,,,,,,,,,,,,,,,,,,,
+khf_34mm_iea,MOUNT,,,,,,,,,,,,,,,,,,,
+swampfox_picatinny_rmr_footprint_mount,MOUNT,,,,,,,,,,,,,,,,,,,
+vortex_optics_razor_amg_uh1_gen1_sight,SIGHT,,,,,,,,,,,,,,,,,,,
+colt_m4a1_carry_handle,SIGHT,,,,,,,,,,,,,,,,,,,
+colt_ca2r,SIGHT,,,,,,,,,,,,,,,,,,,
+aim_sports_low_profile_45_degree_sight_base,MOUNT,,,,,,,,,,,,,,,,,,,
+scalarworks_peak01_fixed_rear_ironsight,SIGHT,,,,,,,,,,,,,,,,,,,
+troy_battlesight_picatinny_base,MOUNT,,,,,,,,,,,,,,,,,,,
+xtm_full_handstop,RAIL_PANEL,,,,,,,,,,,,,,,,,,,
+priceli_narod_okp_7_picatinny,SIGHT,,,,,,,,,,,,,,,,,,,
+sig_sauer_romeo4_mount,MOUNT,,,,,,,,,,,,,,,,,,,
+l3harris_atpial_an_peq_15,TACTICAL,,,,,,,,,,,,,,,,,,,
+vortex_optics_sport_cantilever_cm_203_30mm_3inch_offset,MOUNT,,,,,,,,,,,,,,,,,,,
+trijicon_compact_acog_ac12041_mount,MOUNT,,,,,,,,,,,,,,,,,,,
+kac_micro_rear_sight_base,MOUNT,,,,,,,,,,,,,,,,,,,
+magpul_mbus_gen2_base,MOUNT,,,,,,,,,,,,,,,,,,,
+bt_qd_nar_acro_22mm_mount,MOUNT,,,,,,,,,,,,,,,,,,,
+dpms_mangonel_rear_sight_base,MOUNT,,,,,,,,,,,,,,,,,,,
+eotech_sts_picatinny_mount,MOUNT,,,,,,,,,,,,,,,,,,,
+aimpoint_qrp1_30mm_mount_w_spacer,MOUNT,,,,,,,,,,,,,,,,,,,
+zenit_belomo_prc_red_dot,SIGHT,,,,,,,,,,,,,,,,,,,
+valday_1p87,SIGHT,,,,,,,,,,,,,,,,,,,
+scalarworks_leap01_swo100_1.42_mount,MOUNT,,,,,,,,,,,,,,,,,,,
+abom_cnc_works_picatinny_susat_adapter,MOUNT,,,,,,,,,,,,,,,,,,,
+eotech_553_holo_sight,SIGHT,,,,,,,,,,,,,,,,,,,
+xtm_4_piece,RAIL_PANEL,,,,,,,,,,,,,,,,,,,
+eotech_xps3_holo_sight,SIGHT,,,,,,,,,,,,,,,,,,,
+kac_5rib_railpanel,RAIL_PANEL,,,,,,,,,,,,,,,,,,,
+l3harris_mipim_an_peq_16b,TACTICAL,,,,,,,,,,,,,,,,,,,
+scalarworks_peak01_fixed_front_ironsight,SIGHT,,,,,,,,,,,,,,,,,,,
+sig_sauer_romeo4t_1/3_cowitness_mount,MOUNT,,,,,,,,,,,,,,,,,,,
+pilad_p1x42,SIGHT,,,,,,,,,,,,,,,,,,,
+leupold_deltapoint_pro_ar,MOUNT,,,,,,,,,,,,,,,,,,,
+tristar_compact_carry_handle,SIGHT,,,,,,,,,,,,,,,,,,,
+sig_sauer_qd_1.41_cowitness_romeo3_riser,MOUNT,,,,,,,,,,,,,,,,,,,
+daniel_defense_rock_lock_rail_mounted_fixed_front_sight,SIGHT,,,,,,,,,,,,,,,,,,,
+elcan_specter_os4x_sfov4,SIGHT,,,,,,,,,,,,,,,,,,,
+wilcox_raid_xe_g14_high_power_laser_aiming_device,TACTICAL,,,,,,,,,,,,,,,,,,,
+kac_6rib_railpanel,RAIL_PANEL,,,,,,,,,,,,,,,,,,,
+eotech_xps2_holo_sight,SIGHT,,,,,,,,,,,,,,,,,,,
+npz_po1x20_rakurs_pm,SIGHT,,,,,,,,,,,,,,,,,,,
+eotech_552_holo_sight,SIGHT,,,,,,,,,,,,,,,,,,,
+holosun_ls321g,TACTICAL,,,,,,,,,,,,,,,,,,,
+trijicon_rm34_ac12036_mount,MOUNT,,,,,,,,,,,,,,,,,,,
+aimpoint_30mm_low_ring_mount,MOUNT,,,,,,,,,,,,,,,,,,,
+armasight_orion_3x_gen1_plus_nv_scope,SIGHT,,,,,,,,,,,,,,,,,,,
+holosun_hs401g5,SIGHT,,,,,,,,,,,,,,,,,,,
+cosmic_tactical_saturn_scope_mount,MOUNT,,,,,,,,,,,,,,,,,,,
+magpul_xtm_enhanced_panel_1,RAIL_PANEL,,,,,,,,,,,,,,,,,,,
+true_view_rap4_offset_picatinny_mount_flipped,MOUNT,,,,,,,,,,,,,,,,,,,
+sig_sauer_romeo3_low_rise_mount,MOUNT,,,,,,,,,,,,,,,,,,,
+holosun_hs510c_sight,SIGHT,,,,,,,,,,,,,,,,,,,
+izhevsk_akm_type1_bayonet_blade,MISC,,,,,,,,,,,,,,,,,,,
+izhevsk_akm_type2_bayonet_blade,MISC,,,,,,,,,,,,,,,,,,,
+kac_qdc_3prong_flash_5.56x45_eliminator,FLASH_HIDER,,,,,,,,,,,,,,,,,,,
+annihilator_556,FLASH_HIDER,,,,,,,,,,,,,,,,,,,
+jg_usgi_a2_birdcage_m4a1_flash_hider,FLASH_HIDER,,,,,,,,,,,,,,,,,,,
+kac_qdc_m4qd_5.56x56_flash_suppressor,SUPPRESSOR,,,,,,,,,,,,,,,,,,,
+ips_1_2x28_to_5_8x24_knurled_thread_adapter,MUZZLE_ADAPTER,,,,,,,,,,,,,,,,,,,
+aac_5.56x45_blackout_18_tooth_flash_hider,FLASH_HIDER,,,,,,,,,,,,,,,,,,,
+troy_claymore556,FLASH_HIDER,,,,,,,,,,,,,,,,,,,
+strike_industries_jcomp_gen2_5.56x45_muzzle_brake,MUZZLE_BRAKE,,,,,,,,,,,,,,,,,,,
+aeroknox_ae01_muzzle_brake,MUZZLE_BRAKE,,,,,,,,,,,,,,,,,,,
+nordic_corvette_556,FLASH_HIDER,,,,,,,,,,,,,,,,,,,
+gemtech_adapter,MUZZLE_ADAPTER,,,,,,,,,,,,,,,,,,,
+ips_5.56x45_4inch_barrel_extension,MUZZLE_ADAPTER,,,,,,,,,,,,,,,,,,,
+tb_mount_223_mb,MUZZLE_BRAKE,,,,,,,,,,,,,,,,,,,
+ddw_adapter,MUZZLE_ADAPTER,,,,,,,,,,,,,,,,,,,
+ips_5.56x45_2inch_barrel_extension,MUZZLE_ADAPTER,,,,,,,,,,,,,,,,,,,
+bt_st6012,MUZZLE_BRAKE,,,,,,,,,,,,,,,,,,,
+colt_607_car15_3.5inch_flash_moderator,FLASH_HIDER,,,,,,,,,,,,,,,,,,,
+surefire_socom556_sfmb_muzzle_brake,MUZZLE_BRAKE,,,,,,,,,,,,,,,,,,,
+ips_5.56x45_1inch_barrel_extension,MUZZLE_ADAPTER,,,,,,,,,,,,,,,,,,,
+surefire_warcomp_5.56x45_flash_hider,FLASH_HIDER,,,,,,,,,,,,,,,,,,,
+ss_combo_mount,MUZZLE_ADAPTER,,,,,,,,,,,,,,,,,,,
+jt_5.5inch_flashsuppressor,MUZZLE_BRAKE,,,,,,,,,,,,,,,,,,,
+kac_qdc_mcq_prt_5.56x45_suppressor,SUPPRESSOR,,,,,,,,,,,,,,,,,,,
+kac_qdc_crs_prt_5.56x45_suppressor,SUPPRESSOR,,,,,,,,,,,,,,,,,,,
+kac_qdss_nt4_5.56x45_suppressor,SUPPRESSOR,,,,,,,,,,,,,,,,,,,
+fn_fal_austrian_7.62x51_stg58_flash_hider,FLASH_HIDER,,,,,,,,,,,,,,,,,,,
+dsa_3prong_trident_7.62x51_flash_hider,FLASH_HIDER,,,,,,,,,,,,,,,,,,,
+fn_scar17_7.62x51_3prong_european_flash_hider,FLASH_HIDER,,,,,,,,,,,,,,,,,,,
+odin_works_tiduro_.338_modular_no_baffle_suppressor,SUPPRESSOR,,,,,,,,,,,,,,,,,,,
+silencerco_osprey45_gen1_45acp_suppressor_7.62x51_piston_flipped,SUPPRESSOR,,,,,,,,,,,,,,,,,,,
+lantac_dgn762b_asr_muzzle_brake,MUZZLE_BRAKE,,,,,,,,,,,,,,,,,,,
+odin_works_tiduro_.338_modular_3_baffle_suppressor,SUPPRESSOR,,,,,,,,,,,,,,,,,,,
+tiger_rock_ar10_7.62x51_barrett_style_muzzle_brake_with_jam_nut,MUZZLE_BRAKE,,,,,,,,,,,,,,,,,,,
+aac_scar_sd_blackout_51_tooth_flashhider_supp_mount,MUZZLE_ADAPTER,,,,,,,,,,,,,,,,,,,
+fn_fal_7.62x51_belgian_flash_hider,FLASH_HIDER,,,,,,,,,,,,,,,,,,,
+odin_works_tiduro_.338_modular_5_baffle_suppressor,SUPPRESSOR,,,,,,,,,,,,,,,,,,,
+odin_works_tiduro_thread_adapter_module,MUZZLE_ADAPTER,,,,,,,,,,,,,,,,,,,
+surefire_socom762_sfmb_muzzle_brake,MUZZLE_BRAKE,,,,,,,,,,,,,,,,,,,
+strike_industries_jcomp_gen2_7.62x51_muzzle_brake,MUZZLE_BRAKE,,,,,,,,,,,,,,,,,,,
+dsa_warz_series_7.62x51_flash_hider,FLASH_HIDER,,,,,,,,,,,,,,,,,,,
+sig_srd762ti_suppressor,SUPPRESSOR,,,,,,,,,,,,,,,,,,,
+silencerco_osprey45_gen1_45acp_suppressor_7.62x51_piston,SUPPRESSOR,,,,,,,,,,,,,,,,,,,
+oss_bpr_suppressor_system_bpr_1425,SUPPRESSOR,,,,,,,,,,,,,,,,,,,
+strike_industries_oppressor_blast_shield,FLASH_HIDER,,,,,,,,,,,,,,,,,,,
+gemtech_1_762,MUZZLE_BRAKE,,,,,,,,,,,,,,,,,,,
+tb_5,SUPPRESSOR,,,,,,,,,,,,,,,,,,,
+tb_7,SUPPRESSOR,,,,,,,,,,,,,,,,,,,
+tb_9,SUPPRESSOR,,,,,,,,,,,,,,,,,,,
+ddw_qd,SUPPRESSOR,,,,,,,,,,,,,,,,,,,
+surefire_socom556_rc2_suppressor,SUPPRESSOR,,,,,,,,,,,,,,,,,,,
+surefire_warden_blast_regulator,FLASH_HIDER,,,,,,,,,,,,,,,,,,,
+ss_lrs1_suppressor,SUPPRESSOR,,,,,,,,,,,,,,,,,,,
+zenitco_dtk_1_muzzle_brake,MUZZLE_BRAKE,,,,,,,,,,,,,,,,,,,
+dt_dtm_fh,FLASH_HIDER,,,,,,,,,,,,,,,,,,,
+dtk_2,MUZZLE_BRAKE,,,,,,,,,,,,,,,,,,,
+i_24_14_ta,MUZZLE_ADAPTER,,,,,,,,,,,,,,,,,,,
+dt_dtkai_mb,MUZZLE_BRAKE,,,,,,,,,,,,,,,,,,,
+izhmash_ak74_6p20_020_compensator,MUZZLE_BRAKE,,,,,,,,,,,,,,,,,,,
+ga_24_1/2,MUZZLE_ADAPTER,,,,,,,,,,,,,,,,,,,
+hexagon545,SUPPRESSOR,,,,,,,,,,,,,,,,,,,
+v762_vr10m_mb,MUZZLE_BRAKE,,,,,,,,,,,,,,,,,,,
+vs_05,MUZZLE_BRAKE,,,,,,,,,,,,,,,,,,,
+hexagon_dtkp_ak74_5.45x39_suppressor,SUPPRESSOR,,,,,,,,,,,,,,,,,,,
+tsniitochmash_pbs_4_5.45x39_suppressor,SUPPRESSOR,,,,,,,,,,,,,,,,,,,
+hexagon_dtkp_ak74_shortened_5.45x39_suppressor,SUPPRESSOR,,,,,,,,,,,,,,,,,,,
+v762_vr05_mb,MUZZLE_BRAKE,,,,,,,,,,,,,,,,,,,
+izhmash_ak74m_6p20_020_compensator,MUZZLE_BRAKE,,,,,,,,,,,,,,,,,,,
+izhmash_ak105_6p44_020_compensator,MUZZLE_BRAKE,,,,,,,,,,,,,,,,,,,
+v762_vr05t_mb,MUZZLE_BRAKE,,,,,,,,,,,,,,,,,,,
+izhmash_aks74u_5.45x39_6p26_020_muzzle_brake,MUZZLE_BRAKE,,,,,,,,,,,,,,,,,,,
+dt_dpmn_fh,FLASH_HIDER,,,,,,,,,,,,,,,,,,,
+v762_vr04_mb,MUZZLE_BRAKE,,,,,,,,,,,,,,,,,,,
+v762_vrdtl_fh,FLASH_HIDER,,,,,,,,,,,,,,,,,,,
+odin_works_tiduro_modular_compensator,MUZZLE_BRAKE,,,,,,,,,,,,,,,,,,,
+silencerco_qd_asr_mount,MUZZLE_ADAPTER,,,,,,,,,,,,,,,,,,,
+rhodesian_halbek_muzzle_device,MUZZLE_BRAKE,,,,,,,,,,,,,,,,,,,
+oss_bpr_suppressor_system_srm_6,SUPPRESSOR,,,,,,,,,,,,,,,,,,,
+amtac_cqb_suppressor,SUPPRESSOR

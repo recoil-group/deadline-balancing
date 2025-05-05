@@ -1,4 +1,4 @@
-0.24.0,Thu May 01 00:22:17 2025,,,,,,,,,,,,,
+0.24.0,Sun May 04 17:27:01 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -20,7 +20,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 17,,badger_ordnance_comm_30mm_mount_body,"Badger Ordnance C.O.M.M. 30mm 1.54"" Height",-0.5,0.06,,,,,,,,,1000
 18,,badger_ordnance_comm_34mm_mount_body,"Badger Ordnance C.O.M.M. 34mm 1.54"" Height",-0.5,0.07,,,,,,,,,1000
 19,,burris_ar_prb_mount,Burris AR PRB Mount,0,0.06,,,,,,,,,400
-20,,burris_ar_pepr_30mm_mount,Burris AR-P.E.P.R.�,-1,0.11,,,,,,,,,800
+20,,burris_ar_pepr_30mm_mount,Burris AR-P.E.P.R.™,-1,0.11,,,,,,,,,800
 21,,axion_kobra_ekp_8_sight,Axion Kobra EKP-8,-1,0.16,,,,,,,,,700
 ,,axion_kobra_ekp_8_18_mount,Axion Kobra EKP-8-18 Picatinny,0,0.03,,,,,,,,,400
 ,,axion_kobra_ekp_8_sunshade,Axion Kobra EKP-8,1,0.02,,,,,,,,,50
@@ -929,7 +929,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 471,,vector_45acp_170mm_barrel,Kriss Vector .45ACP 170mm,-1,0.23,-3,-3,,-0.02,0.03,-72,-0.1,,750
 472,,vector_45acp_140mm_barrel,Kriss Vector .45ACP 140mm,0,0.2,-1,-1,,0,0,-99,0,,800
 ,magazine_45acp_vector,,,,,,,,,,,,,
-473,,glock_std_13r_vector_remodel,STD 13R .45 ACP,15,0.15,,,13,,,,,,0
+473,,glock_std_13r_vector_remodel,STD 13R .45 ACP,15,0.16,,,13,,,,,,0
 ,magazine_556x45,,,,,,,,,,,,,
 474,,5.56x45_magpul_pmag_60r,Magpul PMAG D60 60R Drum,-12,1.12,,,60,0.1,,,,,4000
 475,,5.56x45_x15m_drum_50r,X-15M Drum,-8,1.05,,,50,,,,,,3000
@@ -1028,10 +1028,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 538,,5.45x39_izhmash_ak12_magazine_30r,Izhmash AK-12 Windowed Polymer 30R,0,0.42,,,30,,,,,,1200
 ,,banan_magazine,Banana Magazine,0,0.39,,,30,,,,,,5000
 ,magazine_7.62x51_remington700,,,,,,,,,,,,,
-539,,wyatt_outdoor_rem700_.308_5r_mag,"	Wyatt's Outdoor .308 5R",-2,0.22,,,5,,,,,,300
+539,,wyatt_outdoor_rem700_.308_5r_mag,	Wyatt's Outdoor .308 5R,-2,0.22,,,5,,,,,,300
 540,,magpul_pmag_ac_5r,Magpul PMAG AC .308 5R,-2,0.18,,,5,,,,,,
 541,,magpul_pmag_ac_10r,Magpul PMAG AC .308 10R,-6,0.32,,,10,,,,,,
-542,,wyatt_outdoor_rem700_.308_10r_mag,"	Wyatt's Outdoor .308 10R",-6,0.36,,,10,,,,,,1000
+542,,wyatt_outdoor_rem700_.308_10r_mag,	Wyatt's Outdoor .308 10R,-6,0.36,,,10,,,,,,1000
 ,magazine_7.62x54_mosin,,,,,,,,,,,,,
 543,,7.62x54_promag_10r,ProMag AA762R 02 10R,-3,0.2,,,10,,,,,,1000
 544,,7.62x54_promag_5r,ProMag AA762R 01 5R,-1,0.15,,,5,,,,,,500
@@ -1081,9 +1081,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,l7awm_mag_assist,,,,,,,,,,,,,
 ,,magpul_223_mag_assist_l7awm,Magpul 223 Mag Assist L7AWM,1,0.04,,,,,,,,,200
 ,magazine_9mm_vector,,,,,,,,,,,,,
-574,,9x19_glock_stick_31r_vector,Glock 9x19 31R Stick,17,0.29,,,29,,,,,,1000
-575,,9x19_sgmt_drum50r_vector,SGMT 9x19 50R Drum,18,0.55,,,50,,,,,,3000
-576,,9x19_glock_std_17r_vector,Glock 9x19 17R,16,0.15,,,17,,,,,,500
+574,,9x19_glock_stick_31r_vector,Glock 9x19 31R Stick,16,0.26,,,29,,,,,,1000
+575,,9x19_sgmt_drum50r_vector,SGMT 9x19 50R Drum,6,0.55,,,50,,,,,,3000
+576,,9x19_glock_std_17r_vector,Glock 9x19 17R,20,0.15,,,17,,,,,,500
 ,magazine_7.62x51_g3,,,,,,,,,,,,,
 577,,hk_g3_std_20r_magazine,HK G3 Standard 20R,0,0.64,,,20,,,,,,1000
 578,,custom_g3_welded_30r_magazine,Custom G3 Welded 30R,-7,0.94,,,30,,,,,,2000
@@ -1611,11 +1611,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,glock_17_mag_release,,,,,,,,,,,,,
 ,,glock17_gen5_mag_release,Glock 17 Gen5 Magazine Release,0,0.01,,,,,,,,,0
 ,glock_mag_13r_45acp_plate,,,,,,,,,,,,,
-801,,45acp_kriss_magex2_glock,.45 ACP KRISS MagEx2 For Glock (+17 Rounds),-8,0.2,,,17,,,,,,1000
+801,,45acp_kriss_magex2_glock,.45 ACP KRISS MagEx2 For Glock (+17 Rounds),-8,0.25,,,17,,,,,,1000
 802,,glock_13r_plate,Magazine,1,0.015,,,,,,,,,0
 ,,,,,,,,,,,,,,
 803,,vector_17r_plate,Magazine,1,0.015,,,0,,,,,,1000
-804,,9x19_kriss_magex2_vector,9x19 KRISS MagEx2 For Glock (+23 Rounds),-2,0.16,,,23,,,,,,0
+804,,9x19_kriss_magex2_vector,9x19 KRISS MagEx2 For Glock (+23 Rounds),-12,0.3,,,23,,,,,,0
 ,glock20_barrel,,,,,,,,,,,,,
 805,,glock20_std_117mm_barrel,Glock Standard 117mm,0,0.17,-5,-5,,0,0,0,,,0
 ,glock20_magazine_bottom_plate,,,,,,,,,,,,,

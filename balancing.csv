@@ -1,4 +1,4 @@
-﻿0.24.0,Sun May 04 17:27:01 2025,,,,,,,,,,,,,
+﻿0.24.0,Tue May 06 18:29:44 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -2729,7 +2729,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1323,,TestFlash,TestFlash,,,,,,,,,,,5000
 1324,,TestSmoke,TestSmoke,,,,,,,,,,,2000
 ,pistol,,,,,,,,,,,,,
-1325,,Makarov,Izhevsk PM,60,0,25,25,0,1.2,1,1200,,,2000
+1325,,Makarov,Izhevsk PM,75,0,25,25,0,1.2,1,1200,,,2000
 1326,,TT33,Tula TT-33,45,0,40,40,0,1.2,0.98,1400,,,5000
 1327,,EDC_X9,Wilson Combat EDC X9,80,0,28,28,0,0.9,1,1400,,,25000
 1328,,Glock17,Glock 17,50,0,40,70,0,1.2,1,1300,,,0

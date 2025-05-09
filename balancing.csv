@@ -1,4 +1,4 @@
-﻿0.24.0,Tue May 06 18:29:44 2025,,,,,,,,,,,,,
+﻿0.24.0,Thu May 08 17:48:49 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -553,8 +553,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 281,,mk10_rl_handguard,MK10RL,13,0.34,-12,-12,,,,,,,1000
 282,,magpul_moe_sl_carbine_handguard,Moe SL Carbine Length,14,0.21,-4,-8,,,,,,,500
 ,,magpul_moe_sl_mid_handguard,MOE SL Mid Length,12,0.25,-6,-10,,,,,,,550
-283,,sai_10_qd_handguard,"SAI 10"" QD Rail",9,0.29,-10,-12,,,,,,,1000
-284,,sai_14.5_qd_handguard,"SAI 14.5"" QD Rail",6,0.36,-12,-16,,,,,,,1200
+283,,sai_ar15_qd_10inch_handguard,"SAI 10"" QD Rail",9,0.29,-10,-12,,,,,,,1000
+284,,sai_ar15_qd_14.5inch_handguard,"SAI 14.5"" QD Rail",6,0.36,-12,-16,,,,,,,1200
 285,,stngr_lvnc_10i,"Stngr Lvnc 10""",11,0.28,-7,-12,,,,,,,950
 286,,stngr_hwk_15i,"Stngr Hkw 15""",8,0.34,-10,-15,,,,,,,900
 287,,colt_a2_std_rifle_plastic_handguard,Colt M16A2 Rifle Length Plastic,12,0.29,-11,-16,,0.03,,,,,500
@@ -637,7 +637,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 318,,juggernaut_tacticals_featureless_grip,Juggernaut tacticals featureless,0,0.05,-6,-1,,,,,,,700
 319,,hera_arms_cqr_gen1_pistol_grip_stock,CQR PGS,10,0.45,-13,-18,,,,,,,2000
 320,,gral_s_pistol_grip,Gral-S,3,0.07,-4,-5,,,,,,,500
-321,,hk_ergo_psg_pistol_grip,HK Ergo Psg,10,0.14,0,0,,,,,,,1500
+321,,ergo_deluxe_ar15_suregrip,HK Ergo Psg,10,0.14,0,0,,,,,,,1500
 322,,pmm_scar_modified_grip_hogue,PMM SCAR Modified Hogue Non-Beavertail,6,0.08,-2,-6,,,,,,,600
 323,,mdt_premier_avp_grip,MDT Premier AVP,10,0.08,1,1,,,,,,,700
 324,,hk_battle_pistol_grip,HK Battle,5,0.08,-5,-4,,,,,,,800
@@ -1327,7 +1327,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,aks74u_fs_block,,,,,,,,,,,,,
 ,,izhmash_aks74u_front_sight_block,Izhmash AKS-74U Front Sight Block,1,0.01,,,,,,,,,
 ,aks74u_front_trunnion,,,,,,,,,,,,,
-,,izhmash_aks74u_front_trunnion,Izhmash AKS-74U Front Trunnion,,0.02,,,,,,,,,
+,,izhmash_aks74_front_trunnion,Izhmash AKS-74U Front Trunnion,,0.02,,,,,,,,,
 ,aks74u_rs_block,,,,,,,,,,,,,
 ,,izhmash_aks74u_rear_sight_block,Izhmash AKS-74U Rear Sight Block,,0.01,,,,,,,,,
 ,ak_barrel_end,,,,,,,,,,,,,
@@ -1644,7 +1644,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,glock_spring,,,,,,,,,,,,,
 ,,glock17_gen5_spring,Glock 17 Gen5 Spring,0,0.02,,,,,,,,,0
 ,glock_grip,,,,,,,,,,,,,
-818,,pachmayr_rubber_grip,Pachmayr Rubber,3,0.05,0,0,,,,,,,750
+818,,pachmayr_tactical_glock_grip_glove,Pachmayr Tactical Glock Grip,3,0.05,0,0,,,,,,,750 
 819,,pachmayr_rubber_grip_for_g20,Pachmayr Rubber,3,0.05,0,0,,,,,,,750
 ,glock_stock,,,,,,,,,,,,,
 820,,glr_17,GLR-17,-5,0.15,-2,-8,,-0.15,,,,,1500
@@ -2107,7 +2107,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,pp19_rear_trunnion,,,,,,,,,,,,,
 ,,izhmash_aks74_rear_trunnion,Izhmash AKS-74 Rear Trunnion,0,0.03,,,,,,,,,0
 ,pp19_stock_lock,,,,,,,,,,,,,
-,,izhmash_pp-19-01_vityaz_stock_lock,Izhmash PP-19-01 Vityaz Stock Lock,0,0.01,,,,,,,,,0
+,,izhmash_aks74_stock_lock,Izhmash AKS-74 Stock Lock,0,0.01,,,,,,,,,0
 ,pp19_spring,,,,,,,,,,,,,
 ,,izhmash_pp-19-01_vityaz_spring,Izhmash PP-19-01 Vityaz Spring,0,0.03,,,,,,,,,0
 ,pp19_spring_retainer,,,,,,,,,,,,,
@@ -2254,7 +2254,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,sa58_grip,,,,,,,,,,,,,
 1124,,sa58_std_grip,DSA SA-58 Standard,0,0.09,0,0,,,,,,,0
 ,sa58_handguard,,,,,,,,,,,,,
-1125,,dsa_sa58_belgian_style_handguard,DSA SA-58 Belgian Style,3,0.25,-16,-17,,,,,,,0
+1125,,dsa_sa58_belgian_style_full_length_handguard,DSA SA-58 Belgian Style,3,0.25,-16,-17,,,,,,,0
 ,,dsa_sa58_belgian_style_mid_length_handguard,DSA SA-58 Belgian Style Mid Length Handguard,5,0.18,-14,-13,,,,,,,750
 1126,,aim_sports_universal_11.3inch_mlok_hg_lower,"Aim Sports Universal MLOK 11.3""",1,0.15,-9,-11,,,,,,,1500
 1127,,dsa_metric_short_quadrail_handguard,DSA Metric Short Quad Rail,4,0.18,-7,-11,,,,,,,1000
@@ -2293,7 +2293,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,acog_fs,,,,,,,,,,,,,
 1142,,acog_fs,Acog Front Backup Sight,1,0.01,,,,,,,,,0
 ,acog_rs,,,,,,,,,,,,,
-1143,,rm35,Trijicon RM35 Acog RMR Mount,-1,0.03,,,,,,,,,200
+1143,,trijicon_rm35_acog_mount,Trijicon RM35 Acog RMR Mount,-1,0.03,,,,,,,,,200
 1144,,acog_rs,Acog Rear Backup Sight,1,0.03,,,,,,,,,0
 ,adapter_omega45k,,,,,,,,,,,,,
 1145,,silencerco_omega45k_45acp_suppressor,SilencerCo Omega45K,-2,0.09,-4,-5,,-0.05,0.08,80,,,1200
@@ -2395,7 +2395,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,sai_extension,,,,,,,,,,,,,
 1186,,syoss_jail_brake,SAI JailBrake 5.56x45,-3,0.16,-3,-5,,0.05,0,0,,,800
 ,saiqd,,,,,,,,,,,,,
-1187,,syoss_jailbrake,SAI JailBrake 5.56x45 Muzzle Brake QD Handguard Extension,-2,0.16,-1,-10,,0.05,0,0,,,800
+1187,,sai_jailbrake_handguard_extension,SAI JailBrake 5.56x45 Muzzle Brake QD Handguard Extension,-2,0.16,-1,-10,,0.05,0,0,,,800
 ,sling_mount,,,,,,,,,,,,,
 1188,,sling_mount_ar,Sling Mount,1,0.01,,,,,,,,,0
 ,stanag_plate,,,,,,,,,,,,,

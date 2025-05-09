@@ -340,7 +340,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,trijicon_acog_ta31_comspec_4x_scope,Trijicon ACOG TA31 Comspec 4x Scope,-3,0.16,,-1,,,,,,,1800
 ,,trijicon_acog_ta31_milspec_4x_scope,Trijicon ACOG TA31 Milspec 4x Scope,-3,0.16,,-1,,,,,,,1600
 ,carry_handle_mount,,,,,,,,,,,,,
-,,arms_#02_m16_scope_mount ,A.R.M.S. #2 M16 Scope Mount,-1,0.08,,,,,,,,,500
+,,arms_#02_m16_scope_mount,A.R.M.S. #2 M16 Scope Mount,-1,0.08,,,,,,,,,500
 174,,trijicon_acog_ta01_4x_scope_carry_handle,Trijicon ACOG TA01 4x Scope,-3,0.16,,-1,,,,,,,1500
 ,,trijicon_acog_ta31_comspec_4x_scope_carry_handle,Trijicon ACOG TA31 Comspec 4x Scope,-3,0.16,,-1,,,,,,,1800
 ,,trijicon_acog_ta31_milspec_4x_scope_carry_handle,Trijicon ACOG TA31 Milspec 4x Scope,-3,0.16,,-1,,,,,,,1600
@@ -634,7 +634,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 318,,juggernaut_tacticals_featureless_grip,Juggernaut tacticals featureless,0,0.05,-6,-1,,,,,,,700
 319,,hera_arms_cqr_gen1_pistol_grip_stock,CQR PGS,10,0.45,-13,-18,,,,,,,2000
 320,,gral_s_pistol_grip,Gral-S,3,0.07,-4,-5,,,,,,,500
-321,,hk_ergo_psg_pistol_grip,HK Ergo Psg,10,0.14,0,0,,,,,,,1500
+321,,ergo_deluxe_ar15_suregrip,ERGO Deluxe AR-15 Suregrip,7,0.08,0,0,,,,,,,1500
+,,ergo_deluxe_suregrip_palm_shelf,ERGO Deluxe AR-15 Suregrip Palm Shelf,4,0.06,-1,1,,,,,,,200
 322,,pmm_scar_modified_grip_hogue,PMM SCAR Modified Hogue Non-Beavertail,6,0.08,-2,-6,,,,,,,600
 323,,mdt_premier_avp_grip,MDT Premier AVP,10,0.08,1,1,,,,,,,700
 324,,hk_battle_pistol_grip,HK Battle,5,0.08,-5,-4,,,,,,,800

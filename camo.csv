@@ -1,5 +1,5 @@
 ﻿0.24.0,Wed Apr 30 20:28:42 2025,,,,,,,
-order,name,display_name,color,pbr_material,unlock_type,unlock_value,,notes
+order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,notes
 1,None,None,#161616,default,always_available,,,
 2,default,Default,#161616,default,always_available,,,
 3,default_light,Default Light,#666666,default,always_available,,,

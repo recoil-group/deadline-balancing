@@ -1042,6 +1042,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,magazine_9x19_pp19,,,,,,,,,,,,,
 548,,izhmash_pp-19-01_vityaz_9x19_30r_mag,Izhmash PP-19-01 Vityaz 9x19 30R,1,0.2,,,30,,,,,,0
 549,,izhmash_saiga_9_9x19_pinned_10r_mag,Izhmash Saiga-9 9x19 Pinned 10R,9,0.07,,,10,,,,,,200
+,,kalashnikov_usa_kp9_9x19_50r_drum_mag,Kalashnikov USA KP9 9x19 50R Drum Mag,-3,0.5,,,50,,,,,,3000
 ,pp19_bottom_plate,,,,,,,,,,,,,
 550,,izhmash_pp-19-01_mag_bottom_plate,Izhmash PP-19-01 Bottom Plate,0,0.01,,,,,,,,,0
 ,magazine_45acp_ump45,,,,,,,,,,,,,
@@ -1173,7 +1174,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,belomo_pk_a_1x20_dovetail_scope,Belomo PKA Dovetail Optic,-3,0.15,,,,,,,,,1000
 ,,npz_nspu_m_3.5x_1pn58,NPZ NSPU-M 3.5x 1PN58 Night Vision Optic,-7,0.38,,,,,,,,,2500
 ,ak_gas_tube,,,,,,,,,,,,,
-632,,akmn_gas_tube,AKMN,-1,0.08,0,0,,,,,,,0
+632,,izhmash_akm_6p1_sb1_2_gastube,Izhmash AKM 6P1 Sb.1-2 Gastube,1,0.05,,1,,,,,,,0
 633,,ultimak_m1_b_gastube,UltiMAK M1-B Gas Tube,0,0.09,0,-1,,,,,,,800
 634,,izhmash_ak74_6p20_sb1_2_gastube,Izhmash AK-74  6P20 Sb.1-2 Gas Tube,1,0.05,,1,,,,,,,0
 ,ak_carbine_gastube,,,,,,,,,,,,,
@@ -1289,14 +1290,20 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 662,,gdr_zvn_64_night_rear_sight_akm,German Democratic Republic ZVN-64 Rear Night Shooting,2,0.02,,,,,,,,,200
 ,akm_barrel,,,,,,,,,,,,,
 ,,izhmash_akm_415mm_7.62x39_barrel,Izhmash AKM 415mm 7.62x39 Barrel,-6,0.3,-7,-8,,0,0.05,43,,,500
+,akm_gasblock,,,,,,,,,,,,,
+,,izhmash_akm_gasblock,Izhmash AKM Gasblock,0,0.01,-1,-2,,,,,,,0
 ,akm_fs_block,,,,,,,,,,,,,
 ,,izhmash_akm_front_sight_block,Izhmash AKM Front Sight Block,1,0.01,,,,,,,,,0
 ,akm_bolt,,,,,,,,,,,,,
 665,,izhmash_akm_7.62x39_bolt,Izhmash AKM 7.62x39 Bolt,0,0.03,,,,,,,,,0
 ,akm_bolt_carrier,,,,,,,,,,,,,
 ,,izhmash_akm_7.62x39_bolt_carrier,Izhmash AKM 7.62x39 Bolt Carrier,0,0.01,,,,,,,,,0
+,akm_bolt_piston ,,,,,,,,,,,,,
+,,izhmash_akm_bolt_piston,Izhmash AKM Bolt Piston,0,0.02,,,,,,,,,0
 ,akm_lower_receiver,,,,,,,,,,,,,
 666,,izhmash_akm_lower_receiver,Izhmash AKM Lower Reciever,8,0,,,,,,,,,0
+,akm_mag_release,,,,,,,,,,,,,
+,,izhmash_akm_mag_release,Izhmash AKM Mag Release,2,0.01,,,,,,,,,0
 ,ak_trigger,,,,,,,,,,,,,
 ,,izhmash_akm_trigger,Izhmash AKM Trigger,0,0.02,1,1,,0.1,,,,,0
 ,ak_trigger_guard,,,,,,,,,,,,,
@@ -2746,8 +2753,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1339,,SCARL,FN SCAR Mk16,40,0,65,70,0,0.45,1.1,1650,,,40000
 1340,,G3,H&K G3,45,0,70,100,0,0.4,0.8,1700,,,30000
 1341,,Remington700,Remington Model 700,50,0,80,92,0,0.1,1,2150,,,42000
-1342,,AK_762,Izhmash AKM,9,1.2,80,100,0,0.6,1,1300,,,15000
-1343,,AK_545,Izhmash AK74,10,1,65,70,0,0.4,1,1500,,,5000
+1342,,AK_762,AK 7.62,9,1.2,80,100,0,0.6,1,1300,,,15000
+1343,,AK_545,AK 5.45,10,1,65,70,0,0.4,1,1500,,,5000
 1344,,MosinNagant,Mosin Nagant M91/30 PU,35,1,80,92,0,0.2,1,1200,,,14000
 ,shotgun,,,,,,,,,,,,,
 1345,,Remington870,Remington 870 Express,20,0.9,90,90,1,0.8,1,1000,2.5,,20000
@@ -2757,7 +2764,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1348,,Vector,TDI Kriss Vector Gen II,30,0,60,40,0,1.2,1,900,,,90000
 1349,,MK9,CmmG MK9 T,30,0,60,75,0,1,1,1200,,,20000
 1350,,UMP,HK UMP,58,0.2,86,96,0,1,1,880,,,15000
-1351,,PP19,Izhmash PP-19 Vityaz,20,0.4,50,75,0,0.9,1,1200,,,11000
+1351,,AK_9,AK 9mm,20,0.4,50,75,0,0.9,1,1200,,,11000
 ,turret,,,,,,,,,,,,,
 1352,,Turret,Handheld turret,30,3,60,40,200,1.6,1,600,,,100
 ,placer,,,,,,,,,,,,,

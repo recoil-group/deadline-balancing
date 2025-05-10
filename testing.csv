@@ -2646,6 +2646,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,surefire_628lmf_b_mp5_handguard,Surefire 628LMF-B MP5 Handguard,8,0.21,-9,-9,,,,,,,1200
 ,,midwest_industries_mp5_mlok_handguard,Midwest Industries MP5 MLOK Handguard,9,0.15,-6,-7,,,,,,,1000
 ,,ptr_mp5_trirail_handguard,PTR MP5 Trirail Handguard,7,0.12,-8,-6,,,,,,,900
+,,caa_hx5_mp5_picatinny_handguard,CAA HX-5 MP5,8,0.19,-7,-6,,,,,,,2500
 ,mp5_lower_receiver,,,,,,,,,,,,,
 ,,hk_mp5_plastic_4_position_trigger_housing,HK MP5 Plastic 4 Position Trigger Housing,0,0.34,0,0,,,,,,,0
 ,,aeroknox_ax_mp5_trigger_housing,Aeroknox AX MP5 Trigger Housing,-3,0.32,3,3,,,,,,,1000

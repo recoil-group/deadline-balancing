@@ -140,7 +140,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 110,,trijicon_rmr_ac32066_offset,Trijicon RMR AC32066 45degree Offset Mount,-4,0.03,,,,,,,,,200
 111,,trijicon_rx14_mount,Trijicon RX14,-0.5,0.06,,,,,,,,,200
 112,,trijicon_srs02,Trijicon SRS-02,-1,0.16,,,,,,,,,1000
-113,,trijicon_ta51_flattop_mount,Trijicon TA51 Thumbscrew Flattop ,0,0.06,,,,,,,,,400
+113,,trijicon_ta51_flattop_mount,Trijicon TA51 Thumbscrew Flattop,0,0.06,,,,,,,,,400
 114,,tristar_compact_carry_handle,Tristar Compact Carry Handle,7,0.3,,,,,,,,,1200
 115,,true_view_rap4_offset_picatinny_mount,True View Rap4 Offset Picatinny Mount,-3,0.08,,,,,,,,,500
 116,,true_view_rap4_offset_picatinny_mount_flipped,True View Rap4 Offset Picatinny Mount,-3,0.08,,,,,,,,,500
@@ -218,7 +218,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,eotech_ogl_access_point_cap,EOTECH OGL Access Point Cap,0,0.01,,,,,,,,,0
 ,,eotech_ogl_lens_caps,EOTECH OGL Lens Caps,1,0.01,,,,,,,,,0
 ,,wilcox_raid_xe_g18_high_power_laser_aiming_device,Wilcox RAID Xe G18 Laser Device,-2,0.06,,,,,,,,,4500
-,,wilcox_raid_xe_g14_high_power_laser_aiming_device,Wilcox RAID Xe G14 Laser Device ,-2,0.06,,,,,,,,,4000
+,,wilcox_raid_xe_g14_high_power_laser_aiming_device,Wilcox RAID Xe G14 Laser Device,-2,0.06,,,,,,,,,4000
 ,,wilcox_raid_xe_junction_box_legacy_crane_connector,Wilcox RAID Xe Junction Box Crane Connector,0,0.01,,,,,,,,,0
 ,,wilcox_raid_xe_front_caps,Wilcox RAID Xe Front Caps,0,0.01,,,,,,,,,0
 ,,kac_aimpoint_micro_nvg_high_rise_picatinny_mount,Aimpoint Micro NVG High Rise,-2,0.1,,,,,,,,,1300
@@ -677,7 +677,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,aeroknox_ax15_upper_receiver,Aeroknox AX15 Upper Receiver,0,0.1,0,0,,,,,,,1000
 ,,colt_m16a2_carry_handle_upper_receiver,Colt M16A2 Carry Handle Upper Receiver,6,0.32,0,0,,,,,,,750
 ,,lone_star_armory_tx15_light_ar15_upper_receiver,Lone Star Armory TX15 Light AR15 Upper Receiver,2,0.15,1,0,,,,,,,3000
-,,lone_star_armory_tx15_regular_ar15_upper_receiver,Lone Star Armory TX15 AR15 Upper Receiver ,5,0.3,1,1,,-0.1,,,,,3500
+,,lone_star_armory_tx15_regular_ar15_upper_receiver,Lone Star Armory TX15 AR15 Upper Receiver,5,0.3,1,1,,-0.1,,,,,3500
 ,,noveske_gen3_ar15_upper_receiver,Noveske GEN3 AR15 Upper Receiver,3,0.27,-1,0,,,,,,,3000
 ,,noveske_marked_vltor_mur1s_ar15_upper_receiver,Noveske Marked VLTOR MUR1S AR15 Upper Receiver,2,0.26,-1,-1,,,,,,,2500
 ,,vltor_mur1s_ar15_upper_receiver,VLTOR MUR1S AR15 Upper Receiver,1,0.25,-1,-2,,,,,,,2000
@@ -1307,7 +1307,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 665,,izhmash_akm_7.62x39_bolt,Izhmash AKM 7.62x39 Bolt,0,0.03,,,,,,,,,0
 ,akm_bolt_carrier,,,,,,,,,,,,,
 ,,izhmash_akm_7.62x39_bolt_carrier,Izhmash AKM 7.62x39 Bolt Carrier,0,0.01,,,,,,,,,0
-,akm_bolt_piston ,,,,,,,,,,,,,
+,akm_bolt_piston,,,,,,,,,,,,,
 ,,izhmash_akm_bolt_piston,Izhmash AKM Bolt Piston,0,0.02,,,,,,,,,0
 ,akm_lower_receiver,,,,,,,,,,,,,
 666,,izhmash_akm_lower_receiver,Izhmash AKM Lower Reciever,8,0,,,,,,,,,0
@@ -2044,7 +2044,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,steyr_aug_z_rail_irons,,,,,,,,,,,,,
 ,,steyr_aug_z_rail_front_sight,Steyr AUG-Z Rail Front Sight,3,0.03,,,,,,,,,0
 ,,steyr_aug_z_rail_front_sight_folded,Steyr AUG-Z Rail Front Sight Folded,2,0.03,,,,,,,,,0
-,,steyr_aug_z_rail_rear_sight,Steyr AUG-Z Rail Rear Sight ,3,0.03,,,,,,,,,0
+,,steyr_aug_z_rail_rear_sight,Steyr AUG-Z Rail Rear Sight,3,0.03,,,,,,,,,0
 ,,steyr_aug_z_rail_rear_sight_folded,Steyr AUG-Z Rail Rear Sight Folded,2,0.03,,,,,,,,,0
 ,aug_a3m1_top_rail_mount,,,,,,,,,,,,,
 1016,,steyr_aug_a3_m1_high_sight_mount,Steyr AUG A3 M1 High Top Rail,-1,0.1,-1,0,,,,,,,400
@@ -2237,7 +2237,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,odin_mount,,,,,,,,,,,,,
 ,,odin_works_tiduro_modular_compensator,Odin Works Tiduro Modular Compensator,-1,0.05,-2,-5,,0.05,-0.03,-30,,,700
 ,45acp_muzzle_device,,,,,,,,,,,,,
-1104,,direct_thread_adapter_omega45k,.45ACP Direct thread adapter for Omega 45K suppressor ,0,0.03,2,0,,0.05,0,5,,,200
+1104,,direct_thread_adapter_omega45k,.45ACP Direct thread adapter for Omega 45K suppressor,0,0.03,2,0,,0.05,0,5,,,200
 1105,,silencerco_osprey45_gen1_45acp_suppressor,SilencerCo Osprey 45 Gen 1 .45ACP Suppressor,-7,0.29,-2,-9,,-0.05,0.2,200,,,1500
 1106,,silencerco_osprey45_gen1_45acp_suppressor_flipped,SilencerCo Osprey 45 Gen 1 .45ACP Suppressor Flipped,-7,0.29,-2,-9,,-0.05,0.2,200,,,1500
 ,5.8x42_muzzle_device,,,,,,,,,,,,,
@@ -2270,9 +2270,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,sa58_front_sight,,,,,,,,,,,,,
 1118,,kns_precision_fal_duplex_front_sight,KNS Precision FAL Duplex,1,0.015,,,,,,,,,200
 1119,,dsa_metric_front_sight_size4,DSA Metric Size 4,1,0.01,,,,,,,,,0
-1120,,dsa_metric_front_sight_size2,DSA Metric Size 2,1.5,0.01,,,,,,,,,0
+1120,,dsa_metric_front_sight_size2,DSA Metric Size 2,1,0.01,,,,,,,,,0
 1121,,dsa_metric_front_sight_size3,DSA Metric Size 3,1,0.01,,,,,,,,,0
-1122,,dsa_metric_front_sight_size1,DSA Metric Size 1,1.5,0.01,,,,,,,,,0
+1122,,dsa_metric_front_sight_size1,DSA Metric Size 1,1,0.01,,,,,,,,,0
 1123,,kns_precision_fal_crosshair_front_sight,KNS Precision FAL Crosshair,1,0.015,,,,,,,,,200
 ,sa58_grip,,,,,,,,,,,,,
 1124,,sa58_std_grip,DSA SA-58 Standard,0,0.09,0,0,,,,,,,0
@@ -2286,14 +2286,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,dsa_sa58_metric_mlok_mid_length_bottom_handguard,DSA SA58 Metric MLOK Mid Length Lower Handguard,1,0.12,-8,-12,,,,,,,1500
 ,,dsa_sa58_metric_mlok_mid_length_top_handguard,DSA SA58 Metric MLOK Mid Length Picatinny Upper Handguard,0,0.08,0,0,,,,,,,200
 ,,dsa_sa58_metric_mlok_pistol_length_bottom_handguard,DSA SA58 Metric MLOK Pistol Length Lower Handguard,3,0.09,-5,-10,,,,,,,1200
-,,dsa_sa58_metric_mlok_pistol_length_top_handguard,DSA SA58 Metric MLOK Pistol Length Picatinny Upper Handguard ,0,0.05,0,0,,,,,,,150
+,,dsa_sa58_metric_mlok_pistol_length_top_handguard,DSA SA58 Metric MLOK Pistol Length Picatinny Upper Handguard,0,0.05,0,0,,,,,,,150
 ,,dsa_sa58_tactical_pistol_v2_handguard,DSA SA-58 Tactical Pistol V2,6,0.16,-11,-12,,,,,,,2000
 ,sa58_lower_receiver,,,,,,,,,,,,,
 1128,,sa58_std_lower_receiver,DSA SA-58 7.62x51,12,0,,,,,,,,,0
 ,sa58_rear_sight,,,,,,,,,,,,,
-1129,,dsa_sa58_holland_type_sight,DSA SA-58 Holland Type,1,0.06,,,,,,,,,200
-1130,,dsa_sa58_para_rear_sight,DSA SA-58 Metric PARA,1.3,0.07,,,,,,,,,0
-,,dsa_sa58_rear_sight_picatinny_mount,DSA SA-58 Rear Sight Picatinny Mount ,-1,0.02,,,,,,,,,500
+1129,,dsa_sa58_holland_type_sight,DSA SA-58 Holland Type,1,0.03,,,,,,,,,200
+1130,,dsa_sa58_para_rear_sight,DSA SA-58 Metric PARA,1,0.03,,,,,,,,,0
+,,dsa_sa58_rear_sight_picatinny_mount,DSA SA-58 Rear Sight Picatinny Mount,-1,0.03,,,,,,,,,500
 ,sa58_stock,,,,,,,,,,,,,
 1131,,dsa_sa58_para_fold_assembly,DSA SA-58 Para Fold Assembly,0,0.06,0,0,,,,,,,500
 1132,,dsa_sa58_polymer_humpback_stock,DSA Humpback Polymer Fixed,10,0.3,-10,-10,,,,,,,0
@@ -2502,7 +2502,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1232,,zenit_rk1,Zenitco Rk-1,1,0.07,-4,-8,,,,,,,600
 1233,,zenit_rk2,Zenitco Rk-2,-1,0.1,-5,-9,,,,,,,700
 1234,,zenit_rk4,Zenitco Rk-4,4,0.05,-3,-4,,,,,,,600
-1235,,zenit_rk5,Zenitco Rk-5 ,3,0.05,-4,-4,,,,,,,500
+1235,,zenit_rk5,Zenitco Rk-5,3,0.05,-4,-4,,,,,,,500
 1236,,zenit_rk6,Zenitco Rk-6,5,0.04,-2,-3,,,,,,,500
 ,prs_3_stock_pad,,,,,,,,,,,,,
 1237,,prs_gen3_buttpad,Magpul PRS Gen3 Buttpad,1,0.04,-1,-1,,,,,,,0
@@ -2597,7 +2597,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1269,,remington_model_700_508mm_.308_heavy_barrel,Rem700 508mm Heavy Barrel,1,1,1,1,,0.05,-0.05,-100,,,3000
 1270,,remington_model_700_508mm_.308_heavy_threaded_barrel,Rem700 508mm Threaded Heavy Barrel,1,0.99,1,1,,0.07,-0.05,-100,,,4000
 1271,,remington_model_700_559mm_.308_barrel,Rem700 559mm Default Barrel,0,1.1,0,0,,0,0,0,,,0
-1272,,remington_model_700_610mm_.308_barrel,Rem700 610mm Barrel ,-1,1.2,-1,-1,,-0.05,0.05,100,,,5000
+1272,,remington_model_700_610mm_.308_barrel,Rem700 610mm Barrel,-1,1.2,-1,-1,,-0.05,0.05,100,,,5000
 ,,remington_model_700_610mm_.308_threaded_barrel,Rem700 610mm Threaded Barrel,-1,1.19,-1,-1,,-0.03,0.05,100,,,6000
 ,,remington_model_700_660mm_.308_barrel,Rem700 660mm Barrel,-2,1.3,-2,-2,,-0.1,0.1,200,,,8000
 ,r700_bolt_handle,,,,,,,,,,,,,
@@ -2617,7 +2617,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,r700_recoil_lug,,,,,,,,,,,,,
 ,,remington_model_700_factory_recoil_lug,Rem700 Factory Recoil Lug,0,0.03,,,,,,,,,0
 ,r700_safety,,,,,,,,,,,,,
-,,remington_walker_model_700_safety,Walker Model 700 safety ,0,0.01,,,,,,,,,0
+,,remington_walker_model_700_safety,Walker Model 700 safety,0,0.01,,,,,,,,,0
 ,,timney_impact_700_safety,Timney Impact 700 Safety,1,0.01,,,,,,,,,0
 ,r700_stock,,,,,,,,,,,,,
 1274,,hogue_remington_model_700_overmolded_bdl_full_bed_block_stock,Hogue R700 Overmolded BDL Full Bed Block Stock,34,0.7,-2,-5,,,,,,,0

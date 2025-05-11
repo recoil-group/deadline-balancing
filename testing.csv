@@ -1,4 +1,4 @@
-﻿0.24.0,Sun May 11 12:20:23 2025,,,,,,,,,,,,,
+﻿0.24.0,Sun May 11 12:30:08 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -783,11 +783,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 387,,fn_scar_h_gasblock,FN SCAR-H Standard,0,0.12,0,0,,,,,,,500
 ,,hi_desertdog_hdd_tactical_scarh_hitorque_gasblock,Hi-desertdog HDD Tactical Scar H HiTorque Gasblock,2,0.16,-1,0,,,,,,,400
 ,fn_front_sight_base,,,,,,,,,,,,,
-388,,fn_scar_front_sight_base,FN SCAR Standard,0,0.02,,,,,,,,,100
-389,,kinetic_development_group_scar_fs_replacement_rail,Kinetic Development Group SCAR Front Sight Replacement Rail,-0.5,0.03,,,,,,,,,300
+388,,fn_scar_front_sight_base,FN SCAR Standard,0,0.01,,,,,,,,,100
+389,,kinetic_development_group_scar_fs_replacement_rail,Kinetic Development Group SCAR Front Sight Replacement Rail,0,0.03,,,,,,,,,300
 ,fn_front_sight,,,,,,,,,,,,,
-390,,fn_scar_front_sight_folded,FN SCAR Standard Folded,0,0.01,,,,,,,,,0
-391,,fn_scar_front_sight,FN SCAR Standard,2,0.01,,,,,,,,,0
+390,,fn_scar_front_sight_folded,FN SCAR Standard Folded,2,0.01,,,,,,,,,0
+391,,fn_scar_front_sight,FN SCAR Standard,3,0.01,,,,,,,,,0
 ,fn_scar_bolt_release,,,,,,,,,,,,,
 392,,fn_scar_bolt_release,FN SCAR-H Standard,0,0,,,,,,,,,0
 393,,pmm_scar_battery_control_bolt_release,PMM SCAR Battery Control,2,0.06,,,,,,,,,500

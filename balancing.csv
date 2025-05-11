@@ -1,4 +1,4 @@
-﻿0.24.0,Sun May 11 14:15:56 2025,,,,,,,,,,,,,
+﻿0.24.0,Sun May 11 15:04:57 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -227,6 +227,20 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,npz_pso_rear_cup,NPZ PSO Rear Cup,2,0.02,,,,,,,,,0
 ,,npz_pso_front_cup,NPZ PSO Front Cup,1,0.02,,,,,,,,,0
 ,,stupid_camera,FujiFilm X-T20,-10,0.3,,,,,,,,,4000
+,,cgr_klra,CGR Klra,0.25,0.01,,,,,,,,,1000
+,,cgr_klra_flipped,CGR Klra Flipped,0.25,0.01,,,,,,,,,1000
+,,cgr_jolly_roger,CGR Jolly Roger,0.25,0.01,,,,,,,,,1000
+,,cgr_jolly_roger_flipped,CGR Jolly Roger Flipped,0.25,0.01,,,,,,,,,1000
+,,cgr_ace,CGR Ace,0.25,0.01,,,,,,,,,1000
+,,cgr_ace_flipped,CGR Ace Flipped,0.25,0.01,,,,,,,,,1000
+,,cgr_abomination,CGR Abomination,0.25,0.01,,,,,,,,,1000
+,,cgr_abomination_flipped,CGR Abomination Flipped,0.25,0.01,,,,,,,,,1000
+,,cgr_punisher,CGR Punisher,0.25,0.01,,,,,,,,,1000
+,,cgr_punisher_flipped,CGR Punisher Flipped,0.25,0.01,,,,,,,,,1000
+,,cgr_dingler,CGR Dingler,0.25,0.01,,,,,,,,,1000
+,,cgr_dingler_flipped,CGR Dingler Flipped,0.25,0.01,,,,,,,,,1000
+,,cgr_aeon,CGR Aeon,0.25,0.01,,,,,,,,,1000
+,,cgr_aeon_flipped,CGR Aeon Flipped,0.25,0.01,,,,,,,,,1000
 ,stock,,,,,,,,,,,,,
 122,,fortis_la_stock,Fortis LA,17,0.2,-12,-6,,,,,,,900
 123,,hk_slim_stock,HK Slim Line,16,0.26,-5,-19,,,,,,,1000

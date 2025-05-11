@@ -1,4 +1,4 @@
-﻿0.24.0,Sat May 10 20:15:08 2025,,,,,,,,,,,,,
+﻿0.24.0,Sat May 10 20:48:32 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -226,6 +226,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,npz_pso_1_4x24_picatinny_scope,NPZ PSO-1 4x24 Picatinny Scope,-3,0.21,,-1,,,,,,,1200
 ,,npz_pso_rear_cup,NPZ PSO Rear Cup,2,0.02,,,,,,,,,0
 ,,npz_pso_front_cup,NPZ PSO Front Cup,1,0.02,,,,,,,,,0
+,,stupid_camera,FujiFilm X-T20,-10,0.3,,,,,,,,,4000
 ,stock,,,,,,,,,,,,,
 122,,fortis_la_stock,Fortis LA,17,0.2,-12,-6,,,,,,,900
 123,,hk_slim_stock,HK Slim Line,16,0.26,-5,-19,,,,,,,1000
@@ -254,7 +255,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak_fixed_stock,,,,,,,,,,,,,
 136,,fab_defense_uas_akn_p,FAB Defense UAS AKN P,16,0.3,-7,-14,,,,,,,700
 137,,izhmash_ak74_polymer_6p20_sb7,Izhmash AK-74 Polymer 6P20 Sb.7,14,0.3,-10,-12,,,,,,,500
-138,,izhmash_ak74_wood_6p20_sb5,Wooden 6P20 Sb.5 Wooden,15,0.3,-8,-13,,,,,,,0
+138,,izhmash_ak74_wooden_6p20_sb5,Izhmask AK-74 Wooden 6P20 Sb.5,15,0.3,-8,-13,,,,,,,0
+,,izhmash_akm_wooden_6p1_sb5,Izhmask AKM Wooden 6P1 Sb.5,15,0.3,-8,-13,,,,,,,0
 139,,zenitco_akm_ak74_pt_lock,Zenitco AKM/AK74 PT Lock,0,0.04,0,0,,,,,,,700
 140,,me_adapter,ME Adapter,0,0.13,0,0,,,,,,,400
 141,,caa_akts_akm_ak74_buffer_tube,CAA AKTS AKM/AK74 Buffer Tube,-1,0.13,0,0,,,,,,,750
@@ -734,6 +736,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 359,,diemaco_tri_ad_i_mount,Diemaco TRI-AD I Barrel Mount,-1,0.06,,,,,,,,,600
 360,,colt_m4a1_front_side_sling_swivel,Colt Front Side Sling Swivel,2,0.05,,,,,,,,,300
 ,,ergo_m4_forward_picatinny_rail,ERGO M4 Forward Picatinny Rail,-5,0.21,-2,-2,,0.05,,,,,800
+,windham_weaponry_mount,,,,,,,,,,,,,
+,,windham_weaponry_sling_swivel,Windham Weaponry Sling Swivel,1,0.03,,,,,,,,,100
 ,ar_mag_assists,,,,,,,,,,,,,
 361,,magpul_223_mag_assist_misc2,Magpul 223,1,0.04,,,,,,,,,200
 362,,magpul_223_mag_assist_misc1,Magpul 223,1,0.04,,,,,,,,,200
@@ -1029,10 +1033,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 538,,5.45x39_izhmash_ak12_magazine_30r,Izhmash AK-12 Windowed Polymer 30R,0,0.42,,,30,,,,,,1200
 ,,banan_magazine,Banana Magazine,0,0.39,,,30,,,,,,5000
 ,magazine_7.62x51_remington700,,,,,,,,,,,,,
-539,,wyatt_outdoor_rem700_.308_5r_mag,	Wyatt's Outdoor .308 5R,-2,0.22,,,5,,,,,,300
+539,,wyatt_outdoor_rem700_.308_5r_mag,Wyatt's Outdoor .308 5R,-2,0.22,,,5,,,,,,300
 540,,magpul_pmag_ac_5r,Magpul PMAG AC .308 5R,-2,0.18,,,5,,,,,,
 541,,magpul_pmag_ac_10r,Magpul PMAG AC .308 10R,-6,0.32,,,10,,,,,,
-542,,wyatt_outdoor_rem700_.308_10r_mag,	Wyatt's Outdoor .308 10R,-6,0.36,,,10,,,,,,1000
+542,,wyatt_outdoor_rem700_.308_10r_mag,Wyatt's Outdoor .308 10R,-6,0.36,,,10,,,,,,1000
 ,magazine_7.62x54_mosin,,,,,,,,,,,,,
 543,,7.62x54_promag_10r,ProMag AA762R 02 10R,-3,0.2,,,10,,,,,,1000
 544,,7.62x54_promag_5r,ProMag AA762R 01 5R,-1,0.15,,,5,,,,,,500
@@ -1168,7 +1172,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 626,,rs_regulate_ak_303m_full_length_lower_mount,RS Regulate AK-303M Full Length Lower,-2,0.1,0,0,,,,,,,750
 ,,rs_regulate_ak_301m_front_biased_lower_mount,RS Regulate AK-301M Front Biased Lower Mount,-1,0.07,,,,,,,,,700
 627,,npz_pk1_1p63_obzor,NPZ PK-1 1X (1P63) Obzor,-3,0.22,-2,-1,,,,,,,1500
-628,,npz_po_1x20_1p76_rakurs_a,NPZ PO 1X20 (1P76) Rakurs-A,-2,0.2,0,-2,,,,,,,1200
+628,,npz_po1x20_1p76_rakurs_a,NPZ PO 1X20 (1P76) Rakurs-A,-2,0.2,0,-2,,,,,,,1200
+,,npz_po1x20_rakurs_pm,NPZ PO 1x20 (1P76) Rakurs-PM,-2,0.1,,,,,,,,,1200
 629,,axion_cobra_mount,Axion Cobra,-4,0.3,0,0,,,,,,,750
 630,,npz_usp_1_4x_1p29_tulip,NPZ USP-1 4X (1P29) Tulip,-4,0.3,-4,-2,,,,,,,1000
 631,,zenit_belomo_pso1,Zenit BelOMO PSO-1 4x24,-3,0.25,-2,0,,,,,,,900
@@ -1317,6 +1322,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak_rmp_dovetail,,,,,,,,,,,,,
 ,,izhmash_rmp3_dovetail_mount,Izhmash RMP-3 Dovetail,0,0.02,,,,,,,,,300
 ,,izhmash_rmp5_dovetail_mount,Izhmash RMP-5 Dovetail,0,0.02,,,,,,,,,300
+,,izhmash_74m_p_dovetail_mount,Izhmash AK-74M P Dovetail Mount,1,0,,,,,,,,,300
 ,ak_fire_selector,,,,,,,,,,,,,
 ,,izhmash_ak74_fire_selector,Izhmash AK-74 Fire Selector,0.5,0.02,,,,,,,,,0
 ,,izhmash_akm_fire_selector,Izhmash AKM Fire Selector,0.5,0.05,,,,,,,,,0
@@ -1399,29 +1405,30 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak_carbine_hanguard_retainer,,,,,,,,,,,,,
 ,,izhmash_aks74u_handguard_retainer,Izhmash AKS-74U Handguard Retainer,,0.01,,,,,,,,,
 ,ak_handguard,,,,,,,,,,,,,
-702,,caf_wasr_10_63_wooden_bottom_handguard,Wooden CAF WASR 10-63 Bottom Handguard,14,0.2,-9,-9,,,,,,,300
-703,,tdiarms_ak_akm_l_lower_handguard,TDI Arms AKM-L Handguard,10,0.11,-3,-4,,,,,,,1000
-704,,midwest_industries_ak74_extended_gen1_handguard,Midwest Industries AK74 Extended Gen 1 Handguard,7,0.22,-7,-9,,,,,,,1600
-705,,midwest_industries_ak74_gen1_handguard,Midwest Industries AK74 Gen 1 Handguard,11,0.14,-6,-5,,,,,,,1200
+702,,caf_wasr_10_63_wooden_bottom_handguard,Wooden CAF WASR 10-63 Bottom,14,0.2,-9,-9,,,,,,,300
+703,,tdiarms_ak_akm_l_lower_handguard,TDI Arms AKM-L,10,0.11,-3,-4,,,,,,,1000
+704,,midwest_industries_ak74_extended_gen1_handguard,Midwest Industries AK74 Extended Gen 1,7,0.22,-7,-9,,,,,,,1600
+705,,midwest_industries_ak74_gen1_handguard,Midwest Industries AK74 Gen 1,11,0.14,-6,-5,,,,,,,1200
 706,,magpul_ak_zhukov_u_lower_handguard,AK Magpul ZHUKOV-U,16,0.23,0,-1,,,,,,,1500
-,,5.45_design_aggressor_ak_lower_handguard,"5.45 DESIGN ""Aggressor"" AK Lower Handguard",8,0.1,-4,-4,,,,,,,3000
-708,,izhmash_ak74_wooden_6p20_sb6_lower_handguard,Izhmash AK-74 Wooden 6P20 Sb.6 Lower Handguard,14,0.14,-8,-8,,,,,,,0
-,,izhmash_ak74_wooden_6p20_sb6_lower_handguard_alt,Izhmash AK-74 Wooden 6P20 Sb.6 Lower Handguard,14,0.14,-8,-8,,,,,,,0
-,,izhmash_akm_wooden_6p1_sb6_1_lower_handguard,Izhmash AKM Wooden 6P1 Sb.6-1 Lower Handguard,14,0.14,-8,-8,,,,,,,0
-,,izhmash_akm_wooden_6p1_sb6_1_lower_handguard_alt,Izhmash AKM Wooden 6P1 Sb.6-1 Lower Handguard,14,0.14,-8,-8,,,,,,,0
+,,5.45_design_aggressor_ak_lower_handguard,"5.45 DESIGN ""Aggressor"" AK",8,0.1,-4,-4,,,,,,,3000
+708,,izhmash_ak74_wooden_6p20_sb6_lower_handguard,Izhmash AK-74 Wooden 6P20 Sb.6,14,0.14,-8,-8,,,,,,,0
+,,izhmash_ak74_wooden_6p20_sb6_lower_handguard_alt,Izhmash AK-74 Wooden 6P20 Sb.6,14,0.14,-8,-8,,,,,,,0
+,,izhmash_akm_wooden_6p1_sb6_1_lower_handguard,Izhmash AKM Wooden 6P1 Sb.6-1,14,0.14,-8,-8,,,,,,,0
+,,izhmash_akm_wooden_6p1_sb6_1_lower_handguard_alt,Izhmash AKM Wooden 6P1 Sb.6-1,14,0.14,-8,-8,,,,,,,0
 710,,zenitco_b_30_gen1_lower_handguard,Zenitco B-30 Gen 1 Lower,6,0.2,-6,-8,,,,,,,1500
-711,,6p20_polymer_sb9_lower_handguard,AK74 Polymer 6P20 Sb.9 Lower,16,0.1,-5,-6,,,,,,,400
-,,izhmash_ak100_series_polymer_railed_lower_handguard ,Izhmash AK-100 Series Polymer Railed Lower Handguard,13,0.12,-5,-5,,,,,,,800
-,,izhmash_ak100_series_polymer_railed_lower_handguard_alt,Izhmash AK-100 Series Polymer Railed Lower Handguard,13,0.12,-5,-5,,,,,,,800
+711,,izhmash_ak74_polymer_6p20_sb9_lower_handguard,Izhmask AK-74 Polymer 6P20 Sb.9,16,0.1,-5,-6,,,,,,,400
+,,izhmash_ak74_polymer_6p20_sb9_lower_handguard_alt,Izhmask AK-74 Polymer 6P20 Sb.9,16,0.1,-5,-6,,,,,,,0
+,,izhmash_ak100_series_polymer_railed_lower_handguard,Izhmash AK-100 Series Polymer Railed,13,0.12,-5,-5,,,,,,,800
+,,izhmash_ak100_series_polymer_railed_lower_handguard_alt,Izhmash AK-100 Series Polymer Railed,13,0.12,-5,-5,,,,,,,800
 712,,magpul_ak_moe_lower_handguard,AK Magpul MOE,15,0.17,-2,-4,,,,,,,500
 713,,tdiarms_ak_x47_rail_system,TDI Arms X47 Rail System,4,0.26,-9,-6,,,,,,,2000
 714,,zenitco_b_10m_gen1_lower_handguard,Zenitco B-10M Gen 1 Lower,12,0.12,-5,-5,,,,,,,1000
 715,,zenitco_b_10l_sport_lower_handguard,"Zenitco B-10L ""Sport"" Lower",12,0.13,-8,-11,,,,,,,1100
-,,midwest_industries_alpha_ak_series_6inch_mlok_lower_handguard,"Midwest Industries ALPHA AK Series 6"" MLOK Lower Handguard",12,0.15,-4,-5,,,,,,,1200
-,,midwest_industries_alpha_ak_series_10inch_mlok_lower_handguard,"Midwest Industries ALPHA AK Series 10"" MLOK Lower Handguard",8,0.21,-5,-7,,,,,,,1600
-,,was_woodworks_lower_ak_handguard_with_handstop,WAS Woodworks Lower AK Handguard with Handstop,18,0.16,-2,-3,,,,,,,1000
+,,midwest_industries_alpha_ak_series_6inch_mlok_lower_handguard,"Midwest Industries ALPHA AK Series 6"" MLOK Lower",12,0.15,-4,-5,,,,,,,1200
+,,midwest_industries_alpha_ak_series_10inch_mlok_lower_handguard,"Midwest Industries ALPHA AK Series 10"" MLOK Lower",8,0.21,-5,-7,,,,,,,1600
+,,was_woodworks_lower_ak_handguard_with_handstop,WAS Woodworks Lower AK w/ Handstop and MLOK,18,0.16,-2,-3,,,,,,,1000
 ,ak_carbine_handguard,,,,,,,,,,,,,
-,,izhmash_aks74u_wooden_6p26_sb6_lower_handguard,Izhmash AKS-74U Wooden 6p26 Sb.6 Lower Handguard,16,0.1,-7,-5,,,,,,,
+,,izhmash_aks74u_wooden_6p26_sb6_lower_handguard,Izhmash AKS-74U Wooden 6p26 Sb.6,16,0.1,-7,-5,,,,,,,
 ,caa_rs47_handguard,,,,,,,,,,,,,
 ,,caa_rs47_lower_handguard,CAA RS47 Lower Handguard,7,0.1,-2,-4,,,,,,,750
 ,,caa_rs47_lower_handguard_alt,CAA RS47 Lower Handguard,7,0.1,-2,-4,,,,,,,750
@@ -1434,7 +1441,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 718,,tdiarms_ak_akm_l_lower_handguard_alt,TDI Arms AKM-L Handguard,10,0.11,-3,-4,,,,,,,1000
 719,,magpul_ak_zhukov_u_lower_handguard_alt,AK Magpul ZHUKOV-U,16,0.23,0,-1,,,,,,,1500
 720,,magpul_ak_moe_lower_handguard_alt,AK Magpul MOE,15,0.17,-2,-4,,,,,,,500
-721,,6p20_polymer_sb9_lower_handguard_alt,AK74 Polymer 6P20 Sb.9 Lower,15,0.1,-5,-6,,,,,,,400
+721,,izhmash_ak74_polymer_6p20_sb9_upper_handguard,Izhmask AK-74 Polymer 6P20 Sb.9 Upper Handguard,0,0.03,0,-1,,,,,,,300
 ,,was_woodworks_lower_ak_handguard_with_handstop_alt,WAS Woodworks Lower AK Handguard with Handstop,18,0.16,-2,-3,,,,,,,1000
 ,,zenitco_b_10m_gen1_lower_handguard_alt,Zenitco B-10M Gen 1 Lower,12,0.12,-5,-5,,,,,,,1000
 ,,zenitco_b_10l_sport_lower_handguard_alt,"Zenitco B-10L ""Sport"" Lower",12,0.13,-8,-11,,,,,,,1100
@@ -1654,7 +1661,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,glock_spring,,,,,,,,,,,,,
 ,,glock17_gen5_spring,Glock 17 Gen5 Spring,0,0.02,,,,,,,,,0
 ,glock_grip,,,,,,,,,,,,,
-818,,pachmayr_tactical_glock_grip_glove,Pachmayr Tactical Glock Grip,3,0.05,0,0,,,,,,,750 
+818,,pachmayr_tactical_glock_grip_glove,Pachmayr Tactical Glock Grip,3,0.05,0,0,,,,,,,750
 819,,pachmayr_rubber_grip_for_g20,Pachmayr Rubber,3,0.05,0,0,,,,,,,750
 ,glock_stock,,,,,,,,,,,,,
 820,,glr_17,GLR-17,-5,0.15,-2,-8,,-0.15,,,,,1500
@@ -2117,7 +2124,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,pp19_rear_trunnion,,,,,,,,,,,,,
 ,,izhmash_aks74_rear_trunnion,Izhmash AKS-74 Rear Trunnion,0,0.03,,,,,,,,,0
 ,pp19_stock_lock,,,,,,,,,,,,,
-,,izhmash_aks74_stock_lock,Izhmash AKS-74 Stock Lock,0,0.01,,,,,,,,,0
+,,izhmash_aks74_stock_lock,Izhmash AKS-74 Stock Lock,0,0.02,,,,,,,,,0
 ,pp19_spring,,,,,,,,,,,,,
 ,,izhmash_pp-19-01_vityaz_spring,Izhmash PP-19-01 Vityaz Spring,0,0.03,,,,,,,,,0
 ,pp19_spring_retainer,,,,,,,,,,,,,
@@ -2160,13 +2167,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,aeroknox_ae01_muzzle_brake,Aeroknox AE/01,-1,0.07,-16,-13,,0.1,0,0,,,600
 ,,strike_industries_jcomp_gen2_5.56x45_muzzle_brake,Strike Industries JCOMP Gen2 5.56x45 Muzzle Brake,-1,0.05,-13,-16,,0.05,0,0,,,500
 ,,colt_607_car15_3.5inch_flash_moderator,"Colt 607 CAR-15 3.5"" Flash Moderator",2,0.09,-11,-12,,0.1,0,0,,,500
+,,aac_5.56x45_blackout_18_tooth_flash_hider,ACC 5.56x45 Blackout 18 Tooth Flash Hider,2,0.04,-11,-13,,0.05,0,0,,,500
 ,9x19_muzzle_device,,,,,,,,,,,,,
 1071,,custom4port,CUSTOM4PORT,-2,0.07,-10,-2,,0.1,0,10,,,500
 1072,,fd917,FD917,-9,0.25,-5,-14,,-0.2,0.2,300,,,2000
 1073,,mp5_noveske_style_muzzle_brake_th,MP5 Noveske Style Muzzle Brake,-1,0.06,-9,-5,,0.1,0,20,,,600
 1074,,alphadog_alpha9_flipped,Alpha Dog Alpha 9 9x19 Flipped,-7,0.22,-7,-8,,-0.2,0.15,150,,,1000
 1075,,alphadog_alpha9,Alpha Dog Alpha 9 9x19 Suppressor,-8,0.22,-7,-8,,-0.2,0.15,150,,,1000
-1076,,vityaz_suppressor,Vityaz 9x19,-5,0.23,-10,-10,,-0.2,0.13,150,,,1200
+1076,,izhmash_pp-19-01_vityaz_9x19_suppressor,Izhmash PP-19-01 Vityaz 9x19 Supressor,-5,0.23,-10,-10,,-0.2,0.13,150,,,1200
 ,,izhmash_pp-19-01_vityaz_std_muzzle_brake_compensator,Izhmash PP-19-01 Vityaz Std.,-2,0.05,-4,-4,,,,-20,,,100
 1077,,sig_srd9_9x19,Sig SRD 9 9x19mm,-4,0.23,-10,-9,,-0.1,0.12,80,,,1500
 1078,,9x19_rotor43_8chamber_glock_suppressor,Rotor 43 8 Chambered 9x19 Glock,-5,0.24,-9,-11,,-0.15,0.15,100,,,1000
@@ -2272,7 +2280,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,dsa_sa58_metric_mlok_full_length_top_handguard,DSA SA58 Metric MLOK Full Length Picatinny Upper Handguard,0,0.09,0,0,,,,,,,250
 ,,dsa_sa58_metric_mlok_mid_length_bottom_handguard,DSA SA58 Metric MLOK Mid Length Lower Handguard,1,0.12,-8,-12,,,,,,,1500
 ,,dsa_sa58_metric_mlok_mid_length_top_handguard,DSA SA58 Metric MLOK Mid Length Picatinny Upper Handguard,0,0.08,0,0,,,,,,,200
-,,dsa_sa58_metric_mlok_pistol_length_bottom_handguard ,DSA SA58 Metric MLOK Pistol Length Lower Handguard,3,0.09,-5,-10,,,,,,,1200
+,,dsa_sa58_metric_mlok_pistol_length_bottom_handguard,DSA SA58 Metric MLOK Pistol Length Lower Handguard,3,0.09,-5,-10,,,,,,,1200
 ,,dsa_sa58_metric_mlok_pistol_length_top_handguard,DSA SA58 Metric MLOK Pistol Length Picatinny Upper Handguard ,0,0.05,0,0,,,,,,,150
 ,,dsa_sa58_tactical_pistol_v2_handguard,DSA SA-58 Tactical Pistol V2,6,0.16,-11,-12,,,,,,,2000
 ,sa58_lower_receiver,,,,,,,,,,,,,
@@ -2286,6 +2294,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1132,,dsa_sa58_polymer_humpback_stock,DSA Humpback Polymer Fixed,3,0.24,0,-20,,,,,,,0
 ,,dsa_sa58_pistol_qd_sling_endplate,DSA SA-58 Pistol QD Sling,3,0.05,9,7,,1,,,,,1000
 ,sa58_barrel,,,,,,,,,,,,,
+,,dsa_sa58_210mm_premium_pistol_barrel,"DSA SA-58 8.25"" Premium Pistol",14,0.45,4,3,,0.15,-0.8,-158,,,1000
 1133,,dsa_sa58_305mm_barrel,"DSA SA-58 12""",11,0.65,7,7,,0.15,-0.06,-131,,,750
 1134,,dsa_sa58_330mm_barrel,"DSA SA-58 13""",6,0.69,4,4,,0.1,-0.04,-81,,,500
 1135,,dsa_sa58_406mm_barrel,"DSA SA-58 16""",0,0.86,0,0,,0,0,71,,,0
@@ -2405,7 +2414,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,sai_extension,,,,,,,,,,,,,
 1186,,syoss_jail_brake,SAI JailBrake 5.56x45,-3,0.16,-3,-5,,0.05,0,0,,,800
 ,saiqd,,,,,,,,,,,,,
-1187,,sai_jailbrake_handguard_extension,SAI JailBrake 5.56x45 Muzzle Brake QD Handguard Extension,-2,0.16,-1,-10,,0.05,0,0,,,800
+1187,,sai_jailbrake_handguard_extension,SAI Jailbreak Extension,-2,0.16,-1,-10,,0.05,0,0,,,800
 ,sling_mount,,,,,,,,,,,,,
 1188,,sling_mount_ar,Sling Mount,1,0.01,,,,,,,,,0
 ,stanag_plate,,,,,,,,,,,,,
@@ -2688,6 +2697,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,m9_bayonet,,,,,,,,,,,,,
 ,,buck_knives_m9_phrobis_iii_bayonet_blade,Buck Knives M9 Phrobis III,-5,0.29,,,,0.03,,,,,1000
 ,,buck_knives_m9_phrobis_iii_bayonet_grip,Buck Knives M9 Phrobis III Grip,1,0.02,,,,,,,,,
+,m11_eod,,,,,,,,,,,,,
+,,ontarioknife_m11_eod_knife_grip,Ontario M11 EOD Knife Grip,1,0.01,,,,,,,,,0
+,,ontarioknife_m11_eod_knife_blade,Ontario M11 EOD Knife Blade,-4,0.25,,,,,,,,,1000
 ,akm_bayonet,,,,,,,,,,,,,
 ,,izhevsk_akm_type2_bayonet_blade,Izhevsk AKM Type II Bayonet,-8,0.23,,,,0.03,,,,,1500
 ,,izhevsk_akm_type2_bayonet_grip,Izhevsk AKM Type II Grip,1,0.01,,,,,,,,,

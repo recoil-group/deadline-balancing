@@ -1,4 +1,4 @@
-﻿0.24.0,Sun May 11 12:30:08 2025,,,,,,,,,,,,,
+﻿0.24.0,Sun May 11 12:32:47 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -800,8 +800,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pmm_scar_heavy_duty_mlok_bottom_panel,PMM Scar Heavy Duty MLOK Bottom Panel,2,0.08,,,,,,,,,300
 ,fn_scar_charging_handle,,,,,,,,,,,,,
 398,,fn_scar_charging_handle,FN SCAR-L Standard,1,0.02,,,,,,,,,0
-399,,apex_bolt_handle_for_scar,Apex Bolt Handle for SCAR,1.5,0.04,,,,,,,,,500
-,,kinetic_development_group_ambi_scarging_handle,Kinetic Development Group AMBI Scarging Handle,2,0.06,,,,,,,,,500
+399,,apex_bolt_handle_for_scar,Apex Bolt Handle for SCAR,2,0.04,,,,,,,,,500
+,,kinetic_development_group_ambi_scarging_handle,Kinetic Development Group AMBI Scarging Handle,2,0.03,,,,,,,,,500
 ,fn_scar_fire_selector,,,,,,,,,,,,,
 400,,fn_scar_fire_selector,FN SCAR-H Standard,0,0,,,,,,,,,0
 401,,kinetic_development_group_talon_ambi_scar_45_90_safety_selector,Kinetic Development Group Talon Ambi SCAR 45/90,1.5,0.02,,,,,,,,,300

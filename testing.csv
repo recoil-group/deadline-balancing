@@ -1,4 +1,4 @@
-0.24.0,Sun May 11 00:39:38 2025,,,,,,,,,,,,,
+﻿0.24.0,Sun May 11 01:55:49 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -2771,9 +2771,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1335,,QBZ95,Norinco QBZ-95,45,2.3,50,50,0,0.5,0.9,1550,,,25000
 1336,,SA58,DS Arms SA-58,35,0.7,80,100,0,0.7,0.8,1550,,,20000
 1337,,SCAR47,Handl Defense SCAR-47,40,0.35,60,60,0,0.2,0.9,1350,,,60000
-1338,,SCARH,FN SCAR Mk17,25,0,75,75,0,0.4,0.8,1650,,,75000
+1338,,SCARH,FN SCAR Mk17,30,0,75,75,0,0.4,0.8,1650,,,75000
 1339,,SCARL,FN SCAR Mk16,40,0,65,70,0,0.45,1.1,1650,,,40000
-1340,,G3,H&K G3,45,0,70,100,0,0.4,0.8,1700,,,30000
+1340,,G3,H&K G3,50,0,70,100,0,0.4,0.8,1700,,,30000
 1341,,Remington700,Remington Model 700,50,0,80,92,0,0.1,1,2150,,,42000
 1342,,AK_762,AK 7.62,9,1.2,80,100,0,0.6,1,1300,,,15000
 1343,,AK_545,AK 5.45,10,1,65,70,0,0.4,1,1500,,,5000

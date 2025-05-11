@@ -1,4 +1,4 @@
-0.24.0,Sat May 10 22:42:30 2025,,,,,,,,,,,,,
+0.24.0,Sat May 10 23:39:05 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -478,7 +478,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,asr_mounts,,,,,,,,,,,,,
 244,,silencerco_qd_asr_mount,SilencerCo QD ASR Mount,0,0.03,,,,,,,,,200
 ,asr_suppressors,,,,,,,,,,,,,
-245,,silencerco_omega_300_suppressor,SilencerCo OMEGA 300,-6,0.2,-10,-9,,-0.15,0.04,140,,,1000
+245,,silencerco_omega_300_suppressor,SilencerCo OMEGA 300,-6,0.2,-12,-11,,-0.15,0.04,140,,,1000
 ,hensoldt_zf_6x42_scope_eye_cup,,,,,,,,,,,,,
 246,,hensoldt_zf_6x42_eye_cup,Hensoldt ZF 6x42 Eye Cup,4.5,0.05,0,0,,,,,,,0
 ,dual_ring_30mm_sight_mount,,,,,,,,,,,,,
@@ -1033,10 +1033,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 538,,5.45x39_izhmash_ak12_magazine_30r,Izhmash AK-12 Windowed Polymer 30R,0,0.42,,,30,,,,,,1200
 ,,banan_magazine,Banana Magazine,0,0.39,,,30,,,,,,5000
 ,magazine_7.62x51_remington700,,,,,,,,,,,,,
-539,,wyatt_outdoor_rem700_.308_5r_mag,Wyatt's Outdoor .308 5R,-2,0.22,,,5,,,,,,300
+539,,wyatt_outdoor_rem700_.308_5r_mag,	Wyatt's Outdoor .308 5R,-2,0.22,,,5,,,,,,300
 540,,magpul_pmag_ac_5r,Magpul PMAG AC .308 5R,-2,0.18,,,5,,,,,,
 541,,magpul_pmag_ac_10r,Magpul PMAG AC .308 10R,-6,0.32,,,10,,,,,,
-542,,wyatt_outdoor_rem700_.308_10r_mag,Wyatt's Outdoor .308 10R,-6,0.36,,,10,,,,,,1000
+542,,wyatt_outdoor_rem700_.308_10r_mag,	Wyatt's Outdoor .308 10R,-6,0.36,,,10,,,,,,1000
 ,magazine_7.62x54_mosin,,,,,,,,,,,,,
 543,,7.62x54_promag_10r,ProMag AA762R 02 10R,-3,0.2,,,10,,,,,,1000
 544,,7.62x54_promag_5r,ProMag AA762R 01 5R,-1,0.15,,,5,,,,,,500
@@ -2162,7 +2162,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ips_5.56x45_4inch_barrel_extension,IPS 5.56 4in Barrel Extension,-3,0.16,-1,-1,,0.2,0.06,80,,,600
 ,,ips_1_2x28_to_5_8x24_knurled_thread_adapter,ISP 1/2x28 to 5/8x24 Knurled Thread Adapter,-1,0.05,2,2,,0.2,,-200,,,1000
 ,,surefire_socom556_sfmb_muzzle_brake,Surefire SOCOM556 SFMB Muzzle Break,-1,0.06,-17,-11,,0.05,0,0,,,700
-,,surefire_warden_blast_regulator,Surefire Warden Blast Regulator,0,0.12,-15,-11,,0,0.02,40,,,1000
+,,surefire_warden_blast_regulator,Surefire Warden Blast Regulator,0,0.12,-17,-13,,0,0.02,40,,,1000
 ,,kac_qdc_3prong_flash_5.56x45_eliminator,Kac QDC 3prong Flash Eliminator 5.56,2,0.04,-12,-12,,0.05,0,0,,,600
 ,,aeroknox_ae01_muzzle_brake,Aeroknox AE/01,-1,0.07,-16,-13,,0.1,0,0,,,600
 ,,strike_industries_jcomp_gen2_5.56x45_muzzle_brake,Strike Industries JCOMP Gen2 5.56x45 Muzzle Brake,-1,0.05,-13,-16,,0.05,0,0,,,500
@@ -2210,32 +2210,32 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kalashnikov_concern_ak12k_5.45x39_flash_hider,Kalashnikov Concern AK12K Flash Hider,2,0.06,-9,-12,,0.05,0.04,20,,,500
 ,7.62x51nato_m15x1rh_muzzle_device,,,,,,,,,,,,,
 1090,,hughes_precision_m15x1rh_to_5_8x24_thread_adapter,Hughes Precision M15x1RH to 5/8x24 Thread,-1,0.05,1,1,,0.1,0,-50,,,1000
-1091,,hk_bird_cage_flash_hider_m15x1rh,HK Bird Cage Style M15x1RH 7.62x51 NATO,1,0.05,-9,-7,,0,0,50,,,0
+1091,,hk_bird_cage_flash_hider_m15x1rh,HK Bird Cage Style M15x1RH 7.62x51 NATO,1,0.05,-11,-9,,0,0,50,,,0
 ,7.62x51nato_muzzle_device,,,,,,,,,,,,,
-1092,,ak308_7.62x51_muzzle_brake,Kalashnikov Concern AK-308,-1,0.06,-9,-12,,0.05,0,50,,,0
-1093,,tiger_rock_ar10_7.62x51_barrett_style_muzzle_brake_with_jam_nut,Tiger Rock AR-10 .308 Barrett Style Muzzle Brake with Jam Nut,-6,0.16,12,-34,,0.15,-0.03,-20,,,1500
-1094,,dsa_3prong_trident_7.62x51_flash_hider,DSA 3-Prong Trident 7.62x51,1,0.03,-7,-10,,0,0,30,,,0
-1095,,fn_fal_7.62x51_belgian_flash_hider,FN FAL Belgian Style 7.62x51,0,0.06,-11,-7,,0,0,50,,,500
-1096,,fn_fal_austrian_7.62x51_stg58_flash_hider,FN FAL Austrian STG58 7.62x51,1,0.09,-9,-10,,0,0,130,,,500
-,,dsa_warz_series_7.62x51_flash_hider,DSA WarZ Series 7.62x51,2,0.02,-5,-7,,,,25,,,600
-1097,,sig_srd762ti_suppressor,Sig SRD762Ti,-6,0.26,-8,-10,,-0.12,0.05,200,,,2000
-1098,,oss_bpr_suppressor_system_bpr_1425,OSS BPR Suppressor System BPR-1425,-4,0.16,-7,-7,,-0.1,0.03,150,,,2500
-1099,,fn_scar17_7.62x51_3prong_european_flash_hider,FN Scar Mk17 .308 3-Prong European,1,0.06,-8,-11,,0,0,50,,,0
-1100,,aac_scar_sd_blackout_51_tooth_flashhider_supp_mount,AAC SCAR-SD Blackout 51-Tooth Flash Hider,1,0.07,-10,-9,,0,0,50,,,750
-1101,,silencerco_osprey45_gen1_45acp_suppressor_7.62x51_piston,SilencerCo Osprey 45 Gen 1 .45ACP Suppressor w/ 7.62x51 Piston,-5,0.21,-6,-11,,-0.1,0.05,100,,,1500
-1102,,silencerco_osprey45_gen1_45acp_suppressor_7.62x51_piston_flipped,SilencerCo Osprey 45 Gen 1 .45ACP Suppressor w/ 7.62x51 Piston Flipped,-5,0.21,-6,-11,,-0.1,0.05,100,,,1500
-1103,,lantac_dgn762b_asr_muzzle_brake,LANTAC DGM762B-ASR Muzzle Brake,-1,0.06,-13,-13,,0.05,-0.01,20,,,1000
+1092,,ak308_7.62x51_muzzle_brake,Kalashnikov Concern AK-308,-1,0.06,-11,-14,,0.05,0,50,,,0
+1093,,tiger_rock_ar10_7.62x51_barrett_style_muzzle_brake_with_jam_nut,Tiger Rock AR-10 .308 Barrett Style Muzzle Brake with Jam Nut,-6,0.16,10,-35,,0.15,-0.01,-20,,,1500
+1094,,dsa_3prong_trident_7.62x51_flash_hider,DSA 3-Prong Trident 7.62x51,1,0.04,-10,-12,,0,0,30,,,0
+1095,,fn_fal_7.62x51_belgian_flash_hider,FN FAL Belgian Style 7.62x51,0,0.06,-13,-11,,0,0,50,,,500
+1096,,fn_fal_austrian_7.62x51_stg58_flash_hider,FN FAL Austrian STG58 7.62x51,1,0.09,-10,-14,,0,0,130,,,500
+,,dsa_warz_series_7.62x51_flash_hider,DSA WarZ Series 7.62x51,2,0.03,-9,-11,,0,0,25,,,600
+1097,,sig_srd762ti_suppressor,Sig SRD762Ti,-6,0.26,-10,-12,,-0.12,0.05,200,,,2000
+1098,,oss_bpr_suppressor_system_bpr_1425,OSS BPR Suppressor System BPR-1425,-4,0.16,-9,-9,,-0.1,0.03,150,,,2500
+1099,,fn_scar17_7.62x51_3prong_european_flash_hider,FN Scar Mk17 .308 3-Prong European,1,0.06,-11,-12,,0,0,50,,,0
+1100,,aac_scar_sd_blackout_51_tooth_flashhider_supp_mount,AAC SCAR-SD Blackout 51-Tooth Flash Hider,1,0.07,-14,-10,,0,0,50,,,750
+1101,,silencerco_osprey45_gen1_45acp_suppressor_7.62x51_piston,SilencerCo Osprey 45 Gen 1 .45ACP Suppressor w/ 7.62x51 Piston,-5,0.21,-8,-13,,-0.1,0.05,100,,,1500
+1102,,silencerco_osprey45_gen1_45acp_suppressor_7.62x51_piston_flipped,SilencerCo Osprey 45 Gen 1 .45ACP Suppressor w/ 7.62x51 Piston Flipped,-5,0.21,-8,-13,,-0.1,0.05,100,,,1500
+1103,,lantac_dgn762b_asr_muzzle_brake,LANTAC DGM762B-ASR Muzzle Brake,-1,0.06,-14,-14,,0.05,0,20,,,1000
 ,,ips_7.62x51_1inch_barrel_extension,IPS 7.62x51 1in Barrel Extension,-1,0.05,0,0,,0.05,0.01,20,,,500
 ,,ips_7.62x51_2inch_barrel_extension,IPS 7.62x51 2in Barrel Extension,-2,0.09,0,-1,,0.1,0.02,40,,,750
 ,,ips_7.62x51_4inch_barrel_extension,IPS 7.62x51 4in Barrel Extension,-3,0.17,-1,-1,,0.2,0.04,80,,,1000
-,,surefire_socom762_sfmb_muzzle_brake,Surefire SOCOM762 SFMB Muzzle Break,-1,0.06,-16,-11,,0.07,-0.03,30,,,900
-,,odin_works_tiduro_thread_adapter_module,Odin Works Tiduro Thread Adaptor Module,-1,0.04,-6,-6,,0,0,-30,,,300
-,,odin_works_tiduro_.338_modular_no_baffle_suppressor,Odin Works Tiduro .338 No Baffle Suppressor,-3,0.12,-7,-5,,-0.06,0.04,120,,,1500
-,,odin_works_tiduro_.338_modular_3_baffle_suppressor,Odin Works Tiduro .338 3 Baffle Suppressor,-5,0.15,-8,-6,,-0.11,0.05,160,,,2000
-,,odin_works_tiduro_.338_modular_5_baffle_suppressor,Odin Works Tiduro .338 5 Baffle Suppressor,-7,0.18,-9,-7,,-0.16,0.06,200,,,3000
-,,strike_industries_jcomp_gen2_7.62x51_muzzle_brake,Strike Industries JCOMP Gen2 7.62x51 Muzzle Brake,-1,0.05,-12,-15,,0.1,-0.02,30,,,500
+,,surefire_socom762_sfmb_muzzle_brake,Surefire SOCOM762 SFMB Muzzle Break,-2,0.06,-17,-12,,0.05,0,30,,,900
+,,odin_works_tiduro_thread_adapter_module,Odin Works Tiduro Thread Adaptor Module,-1,0.04,-8,-8,,0,0,-30,,,300
+,,odin_works_tiduro_.338_modular_no_baffle_suppressor,Odin Works Tiduro .338 No Baffle Suppressor,-3,0.12,-9,-7,,-0.06,0.04,120,,,1500
+,,odin_works_tiduro_.338_modular_3_baffle_suppressor,Odin Works Tiduro .338 3 Baffle Suppressor,-5,0.15,-10,-8,,-0.11,0.05,160,,,2000
+,,odin_works_tiduro_.338_modular_5_baffle_suppressor,Odin Works Tiduro .338 5 Baffle Suppressor,-7,0.18,-11,-9,,-0.16,0.06,200,,,3000
+,,strike_industries_jcomp_gen2_7.62x51_muzzle_brake,Strike Industries JCOMP Gen2 7.62x51 Muzzle Brake,-1,0.05,-13,-15,,0.05,0,30,,,500
 ,odin_mount,,,,,,,,,,,,,
-,,odin_works_tiduro_modular_compensator,Odin Works Tiduro Modular Compensator,-1,0.05,-2,-5,,0.05,-0.03,-30,,,700
+,,odin_works_tiduro_modular_compensator,Odin Works Tiduro Modular Compensator,-1,0.05,-4,-7,,0.05,-0.03,-30,,,700
 ,45acp_muzzle_device,,,,,,,,,,,,,
 1104,,direct_thread_adapter_omega45k,.45ACP Direct thread adapter for Omega 45K suppressor,0,0.03,2,0,,0.05,0,5,,,200
 1105,,silencerco_osprey45_gen1_45acp_suppressor,SilencerCo Osprey 45 Gen 1 .45ACP Suppressor,-7,0.29,-2,-9,,-0.05,0.2,200,,,1500
@@ -2337,7 +2337,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1153,,dsa_sa58_enhanced_bumper_magazine_bottom_plate,DSA FAL SA-58 Enhanced Bumper Magazine,1,0.05,,,,,,,,,500
 1154,,dsa_sa58_mag_bottom_plate,DSA FAL SA-58 Magazine,0,0.02,,,,,,,,,0
 ,fn_fal_halbek,,,,,,,,,,,,,
-1155,,rhodesian_halbek_muzzle_device,Rhodesian Reproduction Halbek,-3,0.04,10,-20,,0.2,-0.02,0,,,1200
+1155,,rhodesian_halbek_muzzle_device,Rhodesian Reproduction Halbek,-3,0.04,14,-22,,0.1,-0.01,0,,,1200
 ,gemtech_adapter,,,,,,,,,,,,,
 1156,,gemtech_1_762,Gemtech One 7.62,-5,0.24,-19,-13,,-0.15,0.12,90,,,1400
 ,hk_mag_plate,,,,,,,,,,,,,
@@ -2401,7 +2401,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,warsport_handguard_short_accessory_rail_bottom,Warsport Short Accessory Rail,-1,0.04,,,,,,,,,300
 ,,warsport_handguard_short_accessory_rail_side,Warsport Short Accessory Rail,-1,0.04,,,,,,,,,300
 ,oss_bpr_supp,,,,,,,,,,,,,
-1177,,oss_bpr_suppressor_system_srm_6,OSS BPR Suppressor System SRM-6,-3,0.14,-2,-2,,-0.08,0.03,130,,,1000
+1177,,oss_bpr_suppressor_system_srm_6,OSS BPR Suppressor System SRM-6,-3,0.14,-4,-4,,-0.08,0.03,130,,,1000
 ,prs_adjustment,,,,,,,,,,,,,
 1178,,prs_adjustable_piece,Magpul PRS Gen3 Adjustment Piece,0,0.05,,,,,,,,,0
 ,pso_cup,,,,,,,,,,,,,
@@ -2437,7 +2437,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kac_qdc_mcq_prt_5.56x45_suppressor,KAC QDC/MRQ PRT 5.56 Suppressor,-2,0.2,-15,-15,,-0.1,0.08,60,,,1800
 ,,kac_mcq_prt_suppressor_cover,KAC MRQ PRT Suppressor Cover,1,0.03,,,,,,,,,500
 ,strike_oppressor,,,,,,,,,,,,,
-,,strike_industries_oppressor_blast_shield,Strike Industries Oppressor Blast Shield,0,0.14,-13,-14,,0,0.02,20,,,1000
+,,strike_industries_oppressor_blast_shield,Strike Industries Oppressor Blast Shield,0,0.14,-15,-16,,0,0.02,20,,,1000
 ,swivel_mount,,,,,,,,,,,,,
 1194,,harris_hbr_base,Harris HBR Bipod Base,-1,0.03,,,,,,,,,500
 ,tailhook_brace,,,,,,,,,,,,,
@@ -2597,7 +2597,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1269,,remington_model_700_508mm_.308_heavy_barrel,Rem700 508mm Heavy Barrel,1,1,1,1,,0.05,-0.05,-100,,,3000
 1270,,remington_model_700_508mm_.308_heavy_threaded_barrel,Rem700 508mm Threaded Heavy Barrel,1,0.99,1,1,,0.07,-0.05,-100,,,4000
 1271,,remington_model_700_559mm_.308_barrel,Rem700 559mm Default Barrel,0,1.1,0,0,,0,0,0,,,0
-1272,,remington_model_700_610mm_.308_barrel,Rem700 610mm Barrel,-1,1.2,-1,-1,,-0.05,0.05,100,,,5000
+1272,,remington_model_700_610mm_.308_barrel,Rem700 610mm Barrel ,-1,1.2,-1,-1,,-0.05,0.05,100,,,5000
 ,,remington_model_700_610mm_.308_threaded_barrel,Rem700 610mm Threaded Barrel,-1,1.19,-1,-1,,-0.03,0.05,100,,,6000
 ,,remington_model_700_660mm_.308_barrel,Rem700 660mm Barrel,-2,1.3,-2,-2,,-0.1,0.1,200,,,8000
 ,r700_bolt_handle,,,,,,,,,,,,,
@@ -2617,7 +2617,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,r700_recoil_lug,,,,,,,,,,,,,
 ,,remington_model_700_factory_recoil_lug,Rem700 Factory Recoil Lug,0,0.03,,,,,,,,,0
 ,r700_safety,,,,,,,,,,,,,
-,,remington_walker_model_700_safety,Walker Model 700 safety,0,0.01,,,,,,,,,0
+,,remington_walker_model_700_safety,Walker Model 700 safety ,0,0.01,,,,,,,,,0
 ,,timney_impact_700_safety,Timney Impact 700 Safety,1,0.01,,,,,,,,,0
 ,r700_stock,,,,,,,,,,,,,
 1274,,hogue_remington_model_700_overmolded_bdl_full_bed_block_stock,Hogue R700 Overmolded BDL Full Bed Block Stock,34,0.7,-2,-5,,,,,,,0
@@ -2766,10 +2766,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1330,,HK416A5,HK416A5,28,0,56,90,0,0.45,1,1600,,,30000
 1331,,AUG_A3,Steyr AUG A3,42,0,58,63,0,0.45,1,1550,,,42000
 1332,,AK12,Kalashnikov Concern AK-12,28,0.85,63,57,0,0.5,1,1500,,,25000
-1333,,AK308,Kalashnikov Concern AK-308,42,0.7,80,100,0,0.75,0.8,1600,,,65000
+1333,,AK308,Kalashnikov Concern AK-308,42,0.7,80,100,0,0.7,0.8,1600,,,65000
 1334,,M4A1,M4A1,15,0,64,87,0,0.5,1,1550,,,0
 1335,,QBZ95,Norinco QBZ-95,45,2.3,50,50,0,0.5,0.9,1550,,,25000
-1336,,SA58,DS Arms SA-58,40,0.7,70,90,0,0.8,0.8,1550,,,20000
+1336,,SA58,DS Arms SA-58,40,0.7,70,90,0,0.7,0.8,1550,,,20000
 1337,,SCAR47,Handl Defense SCAR-47,40,0.35,60,60,0,0.2,0.9,1350,,,60000
 1338,,SCARH,FN SCAR Mk17,25,0,75,75,0,0.4,0.8,1650,,,75000
 1339,,SCARL,FN SCAR Mk16,40,0,65,70,0,0.45,1.1,1650,,,40000

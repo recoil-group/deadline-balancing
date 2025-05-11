@@ -1,4 +1,4 @@
-0.24.0,Sat May 10 23:39:05 2025,,,,,,,,,,,,,
+0.24.0,Sat May 10 23:49:07 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1926,7 +1926,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 960,,hk_g3_406mm_barrel,HK G3 406mm 7.62x51,0,0.71,0,0,,0,0,70,,,0
 961,,hk_g3_457mm_barrel,HK G3 457mm 7.62x51,-3,0.78,-1,-1,,-0.1,0.03,143,,,800
 ,,hk_msg90a1_threaded_600mm_barrel,HK MSG90A1 Threaded 600mm Barrel,-6,1,-2,-2,,-0.25,0.11,410,,,4800
-962,,fr_ordnance_mc51_211mm_7.62x51_barrel,FR Ordnance MC51 211mm 7.62x51,4,0.41,10,10,,0.45,-0.05,-331,,,3500
+962,,fr_ordnance_mc51_211mm_7.62x51_barrel,FR Ordnance MC51 211mm 7.62x51,4,0.41,10,10,,0.45,-0.06,-331,,,3500
 963,,fr_ordnance_mc51k_145mm_7.62x51_barrel,FR Ordnance MC51k 145mm 7.62x51,20,0.32,11,11,,0.55,-0.15,-561,,,1500
 ,,fr_ordnance_mc51sd_125mm_7.62x51_barrel,FR Ordinance MC51SD 125mm 7.62x51,14,0.29,14,14,,0.6,-0.16,-652,,,2500
 964,,hk_psg1_bull_650mm_barrel,HK PSG-1 Bull 650mm 7.62x51,-5,1.07,-1,-1,,-0.35,0.14,509,,,4500
@@ -2232,7 +2232,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,odin_works_tiduro_thread_adapter_module,Odin Works Tiduro Thread Adaptor Module,-1,0.04,-8,-8,,0,0,-30,,,300
 ,,odin_works_tiduro_.338_modular_no_baffle_suppressor,Odin Works Tiduro .338 No Baffle Suppressor,-3,0.12,-9,-7,,-0.06,0.04,120,,,1500
 ,,odin_works_tiduro_.338_modular_3_baffle_suppressor,Odin Works Tiduro .338 3 Baffle Suppressor,-5,0.15,-10,-8,,-0.11,0.05,160,,,2000
-,,odin_works_tiduro_.338_modular_5_baffle_suppressor,Odin Works Tiduro .338 5 Baffle Suppressor,-7,0.18,-11,-9,,-0.16,0.06,200,,,3000
+,,odin_works_tiduro_.338_modular_5_baffle_suppressor,Odin Works Tiduro .338 5 Baffle Suppressor,-7,0.18,-11,-9,,-0.15,0.06,200,,,3000
 ,,strike_industries_jcomp_gen2_7.62x51_muzzle_brake,Strike Industries JCOMP Gen2 7.62x51 Muzzle Brake,-1,0.05,-13,-15,,0.05,0,30,,,500
 ,odin_mount,,,,,,,,,,,,,
 ,,odin_works_tiduro_modular_compensator,Odin Works Tiduro Modular Compensator,-1,0.05,-4,-7,,0.05,-0.03,-30,,,700
@@ -2299,8 +2299,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1132,,dsa_sa58_polymer_humpback_stock,DSA Humpback Polymer Fixed,10,0.3,-10,-10,,,,,,,0
 ,,dsa_sa58_pistol_qd_sling_endplate,DSA SA-58 Pistol QD Sling,4,0.05,8,8,,0.5,,,,,1000
 ,sa58_barrel,,,,,,,,,,,,,
-,,dsa_sa58_210mm_premium_pistol_barrel,"DSA SA-58 8.25"" Premium Pistol",14,0.45,4,3,,0.15,-0.8,-158,,,1000
-1133,,dsa_sa58_305mm_barrel,"DSA SA-58 12""",11,0.65,7,7,,0.15,-0.06,-131,,,750
+,,dsa_sa58_210mm_premium_pistol_barrel,"DSA SA-58 8.25"" Premium Pistol",14,0.47,9,9,,0.15,-0.08,-158,,,1000
+1133,,dsa_sa58_305mm_barrel,"DSA SA-58 12""",9,0.65,6,6,,0.15,-0.06,-131,,,750
 1134,,dsa_sa58_330mm_barrel,"DSA SA-58 13""",6,0.69,4,4,,0.1,-0.04,-81,,,500
 1135,,dsa_sa58_406mm_barrel,"DSA SA-58 16""",0,0.86,0,0,,0,0,71,,,0
 1136,,dsa_sa58_457mm_barrel,"DSA SA-58 18""",-4,0.93,-2,-2,,-0.1,0.03,143,,,750

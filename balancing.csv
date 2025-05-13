@@ -1,4 +1,4 @@
-﻿0.24.0,Tue May 13 01:43:06 2025,,,,,,,,,,,,,
+﻿0.24.0,Tue May 13 02:11:47 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -2172,11 +2172,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1069,,surefire_warcomp_5.56x45_flash_hider,Surefire WarComp 5.56x45,1,0.06,-13,-13,,0.05,0,0,,,700
 1070,,kac_qdc_m4qd_5.56x56_flash_suppressor,KAC QDC M4QD 5.56x45,2,0.04,-9,-15,,0.1,0,0,,,500
 ,,ips_5.56x45_1inch_barrel_extension,IPS 5.56 1in Barrel Extension,-1,0.04,0,0,,0.05,0.01,20,,,400
-,,ips_5.56x45_2inch_barrel_extension,IPS 5.56 2in Barrel Extension,-2,0.08,0,-1,,0.1,0.03,40,,,500
-,,ips_5.56x45_4inch_barrel_extension,IPS 5.56 4in Barrel Extension,-3,0.16,-1,-1,,0.2,0.06,80,,,600
+,,ips_5.56x45_2inch_barrel_extension,IPS 5.56 2in Barrel Extension,-2,0.08,0,0,,0.1,0.02,40,,,500
+,,ips_5.56x45_4inch_barrel_extension,IPS 5.56 4in Barrel Extension,-3,0.16,0,0,,0.2,0.04,80,,,600
 ,,ips_1_2x28_to_5_8x24_knurled_thread_adapter,ISP 1/2x28 to 5/8x24 Knurled Thread Adapter,-1,0.05,2,2,,0.2,,-200,,,1000
 ,,surefire_socom556_sfmb_muzzle_brake,Surefire SOCOM556 SFMB Muzzle Break,-1,0.06,-17,-11,,0.05,0,0,,,700
-,,surefire_warden_blast_regulator,Surefire Warden Blast Regulator,0,0.12,-17,-13,,0,0.02,40,,,1000
+,,surefire_warden_blast_regulator,Surefire Warden Blast Regulator,0,0.12,-15,-11,,0,0.02,40,,,1000
 ,,kac_qdc_3prong_flash_5.56x45_eliminator,Kac QDC 3prong Flash Eliminator 5.56,2,0.04,-12,-12,,0.05,0,0,,,600
 ,,aeroknox_ae01_muzzle_brake,Aeroknox AE/01,-1,0.07,-16,-13,,0.1,0,0,,,600
 ,,strike_industries_jcomp_gen2_5.56x45_muzzle_brake,Strike Industries JCOMP Gen2 5.56x45 Muzzle Brake,-1,0.05,-13,-16,,0.05,0,0,,,500
@@ -2240,8 +2240,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1102,,silencerco_osprey45_gen1_45acp_suppressor_7.62x51_piston_flipped,SilencerCo Osprey 45 Gen 1 .45ACP Suppressor w/ 7.62x51 Piston Flipped,-5,0.21,-8,-13,,-0.1,0.05,100,,,1500
 1103,,lantac_dgn762b_asr_muzzle_brake,LANTAC DGM762B-ASR Muzzle Brake,-1,0.06,-15,-13,,0.05,0,0,,,1000
 ,,ips_7.62x51_1inch_barrel_extension,IPS 7.62x51 1in Barrel Extension,-1,0.05,0,0,,0.05,0.01,20,,,500
-,,ips_7.62x51_2inch_barrel_extension,IPS 7.62x51 2in Barrel Extension,-2,0.09,0,-1,,0.1,0.02,40,,,750
-,,ips_7.62x51_4inch_barrel_extension,IPS 7.62x51 4in Barrel Extension,-3,0.17,-1,-1,,0.2,0.04,80,,,1000
+,,ips_7.62x51_2inch_barrel_extension,IPS 7.62x51 2in Barrel Extension,-2,0.09,0,0,,0.1,0.02,40,,,750
+,,ips_7.62x51_4inch_barrel_extension,IPS 7.62x51 4in Barrel Extension,-3,0.17,0,0,,0.2,0.04,80,,,1000
 ,,surefire_socom762_sfmb_muzzle_brake,Surefire SOCOM762 SFMB Muzzle Break,-2,0.06,-17,-12,,0.05,0,0,,,900
 ,,odin_works_tiduro_thread_adapter_module,Odin Works Tiduro Thread Adaptor Module,-1,0.04,-8,-8,,0,0,-30,,,300
 ,,odin_works_tiduro_.338_modular_no_baffle_suppressor,Odin Works Tiduro .338 No Baffle Suppressor,-3,0.12,-9,-7,,-0.06,0.04,120,,,1500
@@ -2451,7 +2451,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kac_qdc_mcq_prt_5.56x45_suppressor,KAC QDC/MRQ PRT 5.56 Suppressor,-2,0.2,-15,-15,,-0.1,0.08,60,,,1800
 ,,kac_mcq_prt_suppressor_cover,KAC MRQ PRT Suppressor Cover,1,0.03,,,,,,,,,500
 ,strike_oppressor,,,,,,,,,,,,,
-,,strike_industries_oppressor_blast_shield,Strike Industries Oppressor Blast Shield,0,0.14,-15,-16,,0,0.02,20,,,1000
+,,strike_industries_oppressor_blast_shield,Strike Industries Oppressor Blast Shield,0,0.14,-13,-14,,0,0.02,20,,,1000
 ,swivel_mount,,,,,,,,,,,,,
 1194,,harris_hbr_base,Harris HBR Bipod Base,-1,0.03,,,,,,,,,500
 ,tailhook_brace,,,,,,,,,,,,,

@@ -1,4 +1,4 @@
-﻿0.24.0,Wed May 14 23:04:39 2025,,,,,,,,,,,,,
+0.24.0,Wed May 14 23:04:39 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -432,6 +432,16 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kac_mlok_3inch_5_slot_rail_section_side,KAC MLOK 3in 5 Slot Rail Section Side,-2,0.06,,,,,,,,,500
 ,,kac_mlok_3inch_5_slot_rail_section_top,KAC MLOK 3in 5 Slot Rail Section Top,-2,0.06,,,,,,,,,500
 ,,arisaka_mlok_fingerstop,Arisaka MLOK Fingerstop,6,0.02,0,-1,,,,,,,500
+,zenit_basis,,,,,,,,,,,,,
+,,zenitco_npn_2_rail_cover,Zenitco NPN-2 Rail Cover,1,0.03,,,,,,,,,750
+,,zenitco_npn_2_half_rail_cover,Zenitco NPN-2 Half Rail Cover,0.5,0.02,,,,,,,,,300
+,,zenitco_b_2l_34mm_rail_side,Zenitco B2L 34mm Rail,-1,0.05,,,,,,,,,100
+,,zenitco_b_2l_34mm_rail_top,Zenitco B2L 34mm Rail,-1,0.05,,,,,,,,,100
+,,zenitco_b_2l_34mm_rail_grips,Zenitco B2L 34mm Rail,-1,0.05,,,,,,,,,100
+,,zenitco_b_2u_75mm_rail_side,Zenitco B2U 75mm Rail,-1.5,0.07,,,,,,,,,400
+,,zenitco_b_2u_75mm_rail_top,Zenitco B2U 75mm Rail,-1.5,0.07,,,,,,,,,400
+,,zenitco_b_2u_75mm_rail_grips,Zenitco B2U 75mm Rail,-1.5,0.07,,,,,,,,,400
+,,zenitco_rl_1_handstop,Zenitco RL1,4,0.04,,,,,,,,,400
 ,pmag_m3_bottom_plate,,,,,,,,,,,,,
 216,,magpul_std_m3_bottom_plate,Magpul Standard M3,0,0.02,,,,,,,,,0
 217,,magpul_ranger_m3_bottom_plate,Magpul Ranger M3,2,0.04,,,,,,,,,200
@@ -1047,10 +1057,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 538,,5.45x39_izhmash_ak12_magazine_30r,Izhmash AK-12 Windowed Polymer 30R,0,0.42,,,30,,,,,,1200
 ,,banan_magazine,Banana Magazine,0,0.39,,,30,,,,,,5000
 ,magazine_7.62x51_remington700,,,,,,,,,,,,,
-539,,wyatt_outdoor_rem700_.308_5r_mag,	Wyatt's Outdoor .308 5R,-2,0.22,,,5,,,,,,300
+539,,wyatt_outdoor_rem700_.308_5r_mag,"	Wyatt's Outdoor .308 5R",-2,0.22,,,5,,,,,,300
 540,,magpul_pmag_ac_5r,Magpul PMAG AC .308 5R,-2,0.18,,,5,,,,,,
 541,,magpul_pmag_ac_10r,Magpul PMAG AC .308 10R,-6,0.32,,,10,,,,,,
-542,,wyatt_outdoor_rem700_.308_10r_mag,	Wyatt's Outdoor .308 10R,-6,0.36,,,10,,,,,,1000
+542,,wyatt_outdoor_rem700_.308_10r_mag,"	Wyatt's Outdoor .308 10R",-6,0.36,,,10,,,,,,1000
 ,magazine_7.62x54_mosin,,,,,,,,,,,,,
 543,,7.62x54_promag_10r,ProMag AA762R 02 10R,-3,0.2,,,10,,,,,,1000
 544,,7.62x54_promag_5r,ProMag AA762R 01 5R,-1,0.15,,,5,,,,,,500
@@ -1158,7 +1168,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 612,,fab_defense_ak74_pdc_dust_cover,FAB Defence AK74 PDC,3,0.39,-2,-3,,0.05,,,,,1000
 613,,izhmash_ak74m_6p34_01_dust_cover,Izhmash AK-74M 6P34 0-1,8,0.22,-4,-5,,,,,,,500
 614,,izhmash_ak74_6p1_01_dust_cover,Izhmash AK-74 6P1 0-1 Dust Cover,6,0.25,-3,-4,,,,,,,300
-615,,zenitco_b_33_gen1_dust_cover,Zenitco B-33 Gen 1,5,0.38,0,-2,,,,,,,2000
+615,,zenitco_b_33_ak_dust_cover,Zenitco B-33,5,0.38,0,-2,,,,,,,2000
 616,,akademia_bastion_dust_cover,AKademia bastion,1,0.44,-3,-5,,0.05,,,,,1200
 ,,midwest_industries_alpha_ak_series_railed_top_cover,Midwest Industries ALPHA AK series Railed Top Cover,4,0.42,-2,-4,,,,,,,2000
 ,ak_carbine_dust_cover,,,,,,,,,,,,,
@@ -1394,7 +1404,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 687,,midwest_industries_ak74_gen1_30mm_topcover,Midwest Industries AK74 Handguard 30mm Mount Top Cover,-0.5,0.06,-1,-1,,,,,,,750
 688,,magpul_ak_moe_top_cover,AK Magpul MOE,-0.5,0.03,-0.5,0,,,,,,,500
 689,,zenitco_b_31s_gen1_rail_mount,Zenitco B-31S Gen 1 Rail Mount,-3,0.14,-2,-2,,,,,,,1000
-690,,zenitco_b_19_gen1_rail_mount,Zenitco B-19 Gen 1 Rail Mount,-1,0.08,-1.5,-1,,,,,,,750
+690,,zenitco_b_19_rail_mount,Zenitco B-19 Rail Mount,-1,0.08,-1.5,-1,,,,,,,750
+,,zenitco_b_19n_rail_mount,Zenitco B-19N Rail Mount,-1,0.06,-1,0,,,,,,,800
+,,zenitco_b_31_leader_rail_mount,"Zenitco B-31 ""Leader"" Rail Mount",-2,0.11,-2.5,-2,,,,,,,1600
 691,,6p20_polymer_sb9_upper_piece,AK74 Std. Polymer 6P20 Sb.9 Upper Piece,0,0.03,0,-1,,,,,,,300
 692,,zenitco_b_32_klassika_rail_mount,"Zenitco B-32 Klassika Extra Long ""Space Blaster"" Rail Mount",-5,0.3,-6,-7,,,,,,,2000
 693,,zenitco_b_31lv_sport_rail_mount,"Zenitco B-31LV ""Sport"" Rail Mount",0,0.14,0,-1,,,,,,,1200
@@ -1441,8 +1453,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,midwest_industries_alpha_ak_series_6inch_mlok_lower_handguard,"Midwest Industries ALPHA AK Series 6"" MLOK Lower",12,0.15,-4,-5,,,,,,,1200
 ,,midwest_industries_alpha_ak_series_10inch_mlok_lower_handguard,"Midwest Industries ALPHA AK Series 10"" MLOK Lower",8,0.21,-5,-7,,,,,,,1600
 ,,was_woodworks_lower_ak_handguard_with_handstop,WAS Woodworks Lower AK w/ Handstop and MLOK,18,0.16,-2,-3,,,,,,,1000
+,zenitco_leader_kit,,,,,,,,,,,,,
+,,zenitco_dl_leader_handguard_extension,"Zenitco DL ""Leader"" Handguard Extension",5,0.06,-1,-1,,,,,,,600
+,,zenitco_leader_insert_rail_handguard_extension,"Zenitco ""Leader"" Insert Rail Handguard Extension",4,0.08,-2,-2,,,,,,,750
+,,zenitco_leader_handstop,"Zenitco ""Leader"" Handstop",1,0.02,-1,0,,,,,,,200
 ,ak_carbine_handguard,,,,,,,,,,,,,
-,,izhmash_aks74u_wooden_6p26_sb6_lower_handguard,Izhmash AKS-74U Wooden 6p26 Sb.6,16,0.1,-7,-5,,,,,,,
+,,izhmash_aks74u_wooden_6p26_sb6_lower_handguard,Izhmash AKS-74U Wooden 6p26 Sb.6,16,0.1,-7,-5,,,,,,,0
+,,zenitco_b_11_lower_handguard,Zenitco B11 Handguard,9,0.13,-4,-3,,,,,,,1500
+,,zenitco_b_11u_lower_handguard,Zenitco B11U Handguard,7,0.16,-5,-4,,,,,,,1750
 ,caa_rs47_handguard,,,,,,,,,,,,,
 ,,caa_rs47_lower_handguard,CAA RS47 Lower Handguard,7,0.1,-2,-4,,,,,,,750
 ,,caa_rs47_lower_handguard_alt,CAA RS47 Lower Handguard,7,0.1,-2,-4,,,,,,,750
@@ -1584,7 +1602,6 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 791,,izhevsk_pm_9x18_std_slide,Izhevsk PM 9x18 Standard Slide,0,0.1,,,,,,,,,0
 ,makarov_barrel,,,,,,,,,,,,,
 792,,izhevsk_pm_9x18_94mm_barrel,Izhevsk PM 9x18 94mm Barrel,0,0.15,0,0,,0,0,0,,,0
-,,chefur_custom_pm_9x18_110mm_threaded_barrel,Chefur Custom PM 9x18 110mm Threaded,-2,0.18,3,1,,0.08,,32,,,1000
 ,makarov_parts,,,,,,,,,,,,,
 ,,izhevsk_pm_mag_release_spring,Izhevsk PM Standard Magazine Release Spring,,0.01,,,,,,,,,0
 ,,izhevsk_pm_std_hammer,Izhevsk PM Standard Hammer,,0.01,,,,,,,,,0
@@ -2376,7 +2393,6 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1162,,ss_lrs1_suppressor,Spike's Tactical Lrs-1,-5,0.3,-12,-22,,-0.25,0.14,100,,,1200
 ,makarov_laser,,,,,,,,,,,,,
 1163,,ncstar_apls_laser,NcStart APLS,-1,0.04,,,,,,,,,400
-,,est_pm_laser_sight,EST PM-Laser,-1,0.03,1,,,,,,,,700
 ,pjs_cqc_handguard,,,,,,,,,,,,,
 ,,pjs_aug_a3_sa_cqc_handguard,PJS AUG A3 CQC Handguard,3,0.14,-2,-2,,,,,,,800
 ,pjs_cqc_handguard_rails,,,,,,,,,,,,,

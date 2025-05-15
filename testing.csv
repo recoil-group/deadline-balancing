@@ -1,4 +1,4 @@
-﻿0.24.0,Wed May 14 22:59:46 2025,,,,,,,,,,,,,
+﻿0.24.0,Wed May 14 23:04:39 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1374,7 +1374,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,izhmash_ak105_6p44_020_compensator,Izhmash AK-105 6P44 0-20 Compensator,-0.5,0.05,-9,-12,,0.2,,30,,0.05,700
 ,,izhmash_ak74m_6p20_020_compensator,Izhmash AK-74M 6P20 0-20 Compensator,-0.5,0.07,-7,-8,,0.2,,30,,,250
 677,,izhmash_ak74_6p20_020_compensator,Izhmash AK-74 6P20 0-20 Compensator,-0.5,0.07,-7,-10,,0.2,0,30,,,500
-,,izhmash_aks74u_5.45x39_6p26_020_muzzle_brake,Izhmash AKS74U 6P26 0-20 Muzzle Booster,1,0.08,-8,-13,,0.25,-0.05,30,,0.077,400
+,,izhmash_aks74u_5.45x39_6p26_020_muzzle_brake,Izhmash AKS74U 6P26 0-20 Muzzle Booster,1,0.08,-8,-13,,0.25,-0.05,30,,0.123,400
 678,,ga_24_1/2,Griffin Armaments 24-1/2,-1,0.05,2,2,,0.1,0,5,,,1000
 679,,i_24_14_ta,Infinite 24mm-1/2mm,-1,0.03,2,3,,0.1,0,5,,,1000
 680,,tsniitochmash_pbs_4_5.45x39_suppressor,TSNIITochMash PBS-4 5.45x39,-6,0.26,-14,-17,,-0.25,0.18,100,,,2000

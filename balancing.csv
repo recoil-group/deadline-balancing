@@ -1,4 +1,4 @@
-﻿0.24.0,Sat May 17 13:44:52 2025,,,,,,,,,,,,,
+﻿0.24.0,Sat May 17 15:12:08 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -873,20 +873,20 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 425,,fn_scar_mk20_side_rail_1,FN Scar Mk20,-1,0.07,,,,,,,,,500
 426,,fn_scar_side_rail_2,FN Scar Side Rail,-0.5,0.04,,,,,,,,,0
 ,fn_scar_stock_cheek_piece,,,,,,,,,,,,,
-427,,fn_scar_stock_cheek_piece,FN SCAR,3,0.14,,,,,,,,,0
+427,,fn_scar_stock_cheek_piece,FN SCAR,3,0.16,,,,,,,,,0
 ,fn_scar_stock_connector,,,,,,,,,,,,,
 428,,fn_scar_stock_connector,FN SCAR,0,0.07,0,0,,,,,,,0
-429,,fn_scar_ssr_stock_assembly,FN SCAR SSR,21,0.48,-2,-2,,,,,,,600
+429,,fn_scar_ssr_stock_assembly,FN SCAR SSR,20,0.51,-3,-3,,,,,,,600
 430,,kinetic_development_group_sas_acr_stock_scar_adapter,Kinetic Development Group SAS Adaptive ACR Stock Connector,-1,0.07,0,0,,,,,,,300
-,,mesa_tactical_faro_scar_buffer_tube_adapter,Mesa Tactical Faro Scar Buffer Tube Adapter,-5,0.06,2,2,,0.1,,,,,450
+,,mesa_tactical_faro_scar_buffer_tube_adapter,Mesa Tactical Faro Scar Buffer Tube Adapter,-5,0.08,2,2,,0.1,,,,,450
 ,,fn_scar_sc_stock_adapter,FN Scar SC Stock Adaptor,1,0.08,0,0,,,,,,,1500
 ,scar_sc_stock,,,,,,,,,,,,,
 ,,fn_scar_sc_stock_adjustment_lever,FN Scar SC Stock Adjustment Lever,2,0.02,,,,,,,,,
 ,,fn_scar_sc_stock_cheekpad,FN Scar SC Stock Cheekpad,4,0.04,,,,,,,,,
-,,fn_scar_sc_stock_buttpad,FN Scar SC Stock Buttpad,7,0.1,-7,-8,,,,,,,
-,,fn_scar_sc_stock_adjustment_rail,FN Scar SC Stock Adjustment Rail,0,0.07,,,,,,,,,
+,,fn_scar_sc_stock_buttpad,FN Scar SC Stock Buttpad,7,0.11,-7,-7,,,,,,,
+,,fn_scar_sc_stock_adjustment_rail,FN Scar SC Stock Adjustment Rail,0,0.08,,,,,,,,,
 ,fn_scar_stock_shoulder_piece,,,,,,,,,,,,,
-431,,fn_scar_stock_shoulder_piece,FN SCAR,7,0.16,-9,-12,,,,,,,0
+431,,fn_scar_stock_shoulder_piece,FN SCAR,7,0.19,-9,-12,,,,,,,0
 ,scar47_barrel,,,,,,,,,,,,,
 432,,handl_defense_scar47_394mm_barrel,HANDL DEFENSE SCAR 47 394mm,0,0.47,0,0,,0.25,-0.1,-417,,,1000
 ,scar47_lower_receiver,,,,,,,,,,,,,
@@ -2469,7 +2469,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,swivel_mount,,,,,,,,,,,,,
 1194,,harris_hbr_base,Harris HBR Bipod Base,-1,0.03,,,,,,,,,500
 ,tailhook_brace,,,,,,,,,,,,,
-1195,,ghw_tailhook_mod1_brace_small,GHW Tailhook MOD 1,12,0.09,-5,-5,,,,,,,0
+1195,,ghw_tailhook_mod1_brace_small,GHW Tailhook MOD 1,11,0.09,-5,-5,,,,,,,400
 1196,,ghw_tailhook_mod1_brace_big,GHW Tailhook MOD 1,11,0.09,-5,-5,,,,,,,400
 ,thunderbeast_ultra,,,,,,,,,,,,,
 1197,,tb_5,Thunder Beast Ultra 5,-1,0.09,-14,-12,,-0.05,0.04,50,,,1200
@@ -2553,10 +2553,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,acr_stock_cheek_pad,,,,,,,,,,,,,
 1244,,kinetic_development_group_sas_acr_stock_cheek_pad,Kinetic Development Group SAS Adaptive ACR Stock,4,0.04,,,,,,,,,0
 ,acr_stock_moving_part,,,,,,,,,,,,,
-1245,,kinetic_development_group_sas_acr_stock,Kinetic Development Group SAS Adaptive ACR Stock,10,0.13,-10,-7,,,,,,,1000
+1245,,kinetic_development_group_sas_acr_stock,Kinetic Development Group SAS Adaptive ACR Stock,10,0.16,-10,-7,,,,,,,1000
 1246,,haga_defense_scar_acr_tailhook_adapter,Haga Defense SCAR ACR Tailhook,0,0.06,,,,,,,,,600
 ,acr_stock_retractor,,,,,,,,,,,,,
-1247,,kinetic_development_group_sas_acr_stock_retractor,Kinetic Development Group SAS Adaptive ACR Retractor,0,0.09,,,,,,,,,0
+1247,,kinetic_development_group_sas_acr_stock_retractor,Kinetic Development Group SAS Adaptive ACR Retractor,0,0.11,,,,,,,,,0
 ,ar_tr2_stock_pad,,,,,,,,,,,,,
 1248,,ar_tr2_pad,AR TR2 Buttpad,1,0.03,-1,-1,,,,,,,0
 ,frs_15_pad,,,,,,,,,,,,,

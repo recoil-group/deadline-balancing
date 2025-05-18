@@ -32,6 +32,8 @@ zenitco_b_33_ak_dust_cover,Zenitco B-33,3,0.18,-3,-2,,,,,,,2000,3,,7.58391,0.182
 akademia_bastion_dust_cover,AKademia bastion,1,0.2,-4,-4,,,,,,,1200,2.6,,8.11302,0.19471248
 midwest_industries_alpha_ak_series_railed_top_cover,Midwest Industries ALPHA AK series Railed Top Cover,4,0.23,-4,-2,,,,,,,2000,3.8,,9.7,0.2328
 legal_arsenal_pilgrim_aksu_dust_cover,Legal Arsenal Pilgrim AKSU Railed,5,0.14,-1,-1,,,,,,,1500,3.6,,5.99658,0.14391792
+izhmash_pp-19-01_vityaz_std_dust_cover,Izhmash PP-19-01 Vityaz Standard Dust Cover,6,0.06,-3,-3,,,,,,,300,9,,,
+izhmash_pp-19-01_vityaz_sn_picatinny_dust_cover,Izhmash PP-19-01 Vityaz-SN Picatinny Dust Cover,3,0.09,-2,-2,,,,,,,2000,4,,,
 ,fire selector,,,,,,,,,,,,0,,,
 izhmash_akm_fire_selector,Izhmash AKM Fire Selector,0,0.02,,,,,,,,,0,-0.4,,,
 izhmash_ak74_fire_selector,Izhmash AK-74 Fire Selector,0,0.02,,,,,,,,,0,-0.4,,,
@@ -42,11 +44,14 @@ legal_arsenal_ak_enhanced_safety_fire_selector,Legal Arsenal AK Enhanced Safety 
 izhmash_rmp3_dovetail_mount,Izhmash RMP-3 Dovetail,1,0.03,,,,,,,,,300,0.4,,,
 izhmash_rmp5_dovetail_mount,Izhmash RMP-5 Dovetail,1,0.04,,,,,,,,,300,0.2,,,
 izhmash_74m_p_dovetail_mount,Izhmash AK-74M-P Dovetail Mount,1,0.02,,,,,,,,,300,0.6,,,
+,charging handle,,,,,,,,,,,,0,,,
+zenitco_rp1_ak_charging_handle,RP-1 Zenitco,2,0.03,,,,,,,,,750,1.4,,,
+tss_custom_ak_bolt_on_oversize_gen3_charging_handle,TSS Custom AK Bolt On Oversize Gen3 Charging Handle,1.5,0.02,,,,,,,,,600,1.1,,,
 ,trigger,,,,,,,,,,,,0,,,
 izhmash_akm_trigger,Izhmash AKM Trigger,0,0.02,,,,,,,,,0,-0.4,,,
 izhmash_ak74_trigger,Izhmash AK-74 Trigger,0,0.02,,,,,,,,,0,-0.4,,,
 izhmash_pp-19-01_vityaz_trigger,Izhmash PP-19-01 Vityaz Trigger,0,0.02,,,,,,,,,0,-0.4,,,
-,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,0,,,
 ,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,0,,,
 ,,,,,,,,,,,,,0,,,

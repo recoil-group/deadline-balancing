@@ -1,4 +1,4 @@
-﻿0.24.1,Sat May 17 21:29:45 2025,,,,,,,,,,,,,
+﻿0.24.1,Sat May 17 21:36:24 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1288,8 +1288,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak74_trigger_guard,,,,,,,,,,,,,
 ,,izhmash_ak74_trigger_guard,Izhmash AK-74 Trigger Guard,0,0.02,,,,,,,,,0
 ,ak74_handle,,,,,,,,,,,,,
-652,,zenitco_rp1_ak_charging_handle,RP-1 Zenitco,1,0.02,,,,,,,,,750
-,,tss_custom_ak_bolt_on_oversize_gen3_charging_handle,TSS Custom AK Bolt On Oversize Gen3 Charging Handle,3,0.05,,,,,,,,,600
+652,,zenitco_rp1_ak_charging_handle,RP-1 Zenitco,2,0.03,,,,,,,,,750
+,,tss_custom_ak_bolt_on_oversize_gen3_charging_handle,TSS Custom AK Bolt On Oversize Gen3 Charging Handle,1.5,0.02,,,,,,,,,600
 ,ak74n_barrel,,,,,,,,,,,,,
 653,,izhmash_ak74_415mm_5.45x39_barrel,Izhmash AK-74 415mm 5.45x39 Barrel,-6,0.3,-7,-8,,0,0.05,43,,,500
 ,ak_gas_block,,,,,,,,,,,,,
@@ -1316,7 +1316,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 659,,izhmash_ak74_lower_receiver,Izhmash AK-74 Lower Reciever,0,0.4,,,,,,,,,0
 ,,izhmash_ak100_series_lower_receiver,Izhmash AK-100 Series Lower Reciever,1,0.4,,,,,,,,,5000
 ,ak74_mag_release,,,,,,,,,,,,,
-,,izhmash_ak74_mag_release,Izhmash AK-74 Mag Release,2,0.01,,,,,,,,,0
+,,izhmash_ak74_mag_release,Izhmash AK-74 Mag Release,1,0.01,,,,,,,,,0
 ,ak_sight_mount,,,,,,,,,,,,,
 660,,gdr_zvn_64_night_front_sight,German Democratic Republic ZVN-64 Front Night Shooting,1,0.02,,,,,,,,,200
 661,,gdr_zvn_64_night_rear_sight_ak74,German Democratic Republic ZVN-64 Rear Night Shooting,2,0.02,,,,,,,,,200
@@ -1336,7 +1336,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,akm_lower_receiver,,,,,,,,,,,,,
 666,,izhmash_akm_lower_receiver,Izhmash AKM Lower Reciever,0,0.4,,,,,,,,,0
 ,akm_mag_release,,,,,,,,,,,,,
-,,izhmash_akm_mag_release,Izhmash AKM Mag Release,2,0.01,,,,,,,,,0
+,,izhmash_akm_mag_release,Izhmash AKM Mag Release,1,0.01,,,,,,,,,0
 ,ak_trigger,,,,,,,,,,,,,
 ,,izhmash_akm_trigger,Izhmash AKM Trigger,0,0.02,,,,,,,,,0
 ,ak_trigger_guard,,,,,,,,,,,,,
@@ -2145,9 +2145,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,pp19_trigger,,,,,,,,,,,,,
 ,,izhmash_pp-19-01_vityaz_trigger,Izhmash PP-19-01 Vityaz Trigger,0,0.02,,,,,,,,,0
 ,pp19_trigger_guard,,,,,,,,,,,,,
-,,izhmash_pp-19-01_vityaz_trigger_guard,Izhmash PP-19-01 Vityaz Trigger Guard,0,0.01,,,,,,,,,0
+,,izhmash_pp-19-01_vityaz_trigger_guard,Izhmash PP-19-01 Vityaz Trigger Guard,0,0.02,,,,,,,,,0
 ,pp19_mag_release,,,,,,,,,,,,,
-,,izhmash_pp-19-01_vityaz_mag_release,Izhmash PP-19-01 Vityaz Mag Release,0,0.01,,,,,,,,,0
+,,izhmash_pp-19-01_vityaz_mag_release,Izhmash PP-19-01 Vityaz Mag Release,1,0.01,,,,,,,,,0
 ,pp19_magwell,,,,,,,,,,,,,
 ,,izhmash_pp-19-01_vityaz_magwell,Izhmash PP-19-01 Vityaz Magwell,0,0.02,,,,,,,,,0
 ,pp19_rear_trunnion,,,,,,,,,,,,,
@@ -2163,8 +2163,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,pp19_bolt_piston,,,,,,,,,,,,,
 ,,izhmash_pp-19-01_vityaz_bolt_piston,Izhmash PP-19-01 Vityaz Bolt Piston,0,0.02,,,,,,,,,0
 ,pp19_dustcover,,,,,,,,,,,,,
-1053,,izhmash_pp-19-01_vityaz_std_dust_cover,Izhmash PP-19-01 Vityaz Standard Dust Cover,4,0.03,,,,,,,,,300
-1054,,izhmash_pp-19-01_vityaz_sn_picatinny_dust_cover,Izhmash PP-19-01 Vityaz-SN Picatinny Dust Cover,0,0.07,-2,-2,,,,,,,2000
+1053,,izhmash_pp-19-01_vityaz_std_dust_cover,Izhmash PP-19-01 Vityaz Standard Dust Cover,6,0.06,-3,-3,,,,,,,300
+1054,,izhmash_pp-19-01_vityaz_sn_picatinny_dust_cover,Izhmash PP-19-01 Vityaz-SN Picatinny Dust Cover,3,0.09,-2,-2,,,,,,,2000
 ,pp19_gastube,,,,,,,,,,,,,
 1055,,izhmash_pp-19-01_vityaz_gastube,Izhmash PP-19-01 Vityaz Gastube,1,0.02,,,,,,,,,0
 ,pp19_rs_block,,,,,,,,,,,,,

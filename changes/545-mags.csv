@@ -1,9 +1,9 @@
 ﻿,,new,,,,,,,,,,,,,IN OUNCES!!!!,,ammo weight: 0.3703766
 name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,bullet_deviation,bullet_damage,bullet_velocity,buck_bullet_deviation,fire_rate,price,strength,,loaded weight,unloaded weight,calculated (loaded)
 5.45x39_saiga10r,Saiga 5.45 10R,9,0.16,,,10,,,,,,300,5.8,,,,0
-izhmash_ak74m_5.45x39_6l23_30r_mag,6L23,0,0.43,,,30,,,,,,600,-8.6,,18,,0.432
-5.45x39_magpul_pmag_ak74_30r,Magpul PMAG 5.45x39 30R,0,0.41,,,30,,,,,,1200,-8.2,,17.111298,6,0.410671152
-izhmash_ak74_5.45x39_6l20_30r_mag,6L20,0,0.43,,,30,,,,,,500,-8.6,,,,0
+izhmash_ak74m_5.45x39_6l23_30r_mag,6L23,0,0.41,,,30,,,,,,600,-8.2,,18,,0.432
+5.45x39_magpul_pmag_ak74_30r,Magpul PMAG 5.45x39 30R,-0.5,0.38,,,30,,,,,,1200,-8.1,,17.111298,6,0.410671152
+izhmash_ak74_5.45x39_6l20_30r_mag,6L20,0,0.41,,,30,,,,,,500,-8.2,,,,0
 5.45x39_romanian30r,Romanian steel 30R,1,0.49,,,30,,,,,,750,-8.8,,22.111298,11,0.530671152
 5.45x39_izhmash_ak12_magazine_30r,Izhmash AK-12 Windowed Polymer 30R,0,0.42,,,30,,,,,,1200,-8.4,,17.511298,6.4,0.420271152
 5.45x39_6l26,6L26,-7,0.63,,,45,,,,,,1600,-19.6,,26.366947,10.5822,0.632806728
@@ -11,8 +11,8 @@ molot_rpk_5.45x39_6l18_45r_mag,Molot 5.45x39 AK74/RPK 6L18 45R,-6.5,0.66,,,45,,,
 5.45x39_6l31,6L31,-12,0.8,,,60,,,,,,3000,-28,,32.804796,,0.787315104
 .45x39_rpk16_mag,RPK 16 95R,-20,1.42,,,95,,,,,,6000,-48.4,,59.172067,,1.420129608
 ,,,,,,,,,,,,,0,,,,
-,,,,,,,,,,,,,0,,,,
-,,,,,,,,,,,,,0,,,,
+izhmash_ak74_mag_bottomplate,Izhmash AK74 Mag Bottom Plate,0,0.02,,,,,,,,,,-0.4,,,,
+legal_arsenal_5_rnd_545_223_ak_mag_extension,Legal Arsenal 5rd 5.45/.223 AK Magazine Extension,-2,0.08,,,5,,,,,,750,-3.6,,,,
 ,,,,,,,,,,,,,0,,,,
 ,,,,,,,,,,,,,0,,,,
 ,,,,,,,,,,,,,0,,,,

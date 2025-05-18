@@ -1,4 +1,4 @@
-﻿0.24.1,Sat May 17 17:37:15 2025,,,,,,,,,,,,,
+﻿0.24.1,Sat May 17 20:00:29 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1207,9 +1207,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,belomo_pk_a_1x20_dovetail_scope,Belomo PKA Dovetail Optic,-3,0.15,,,,,,,,,1000
 ,,npz_nspu_m_3.5x_1pn58,NPZ NSPU-M 3.5x 1PN58 Night Vision Optic,-7,0.38,,,,,,,,,2500
 ,ak_gas_tube,,,,,,,,,,,,,
-632,,izhmash_akm_6p1_sb1_2_gastube,Izhmash AKM 6P1 Sb.1-2 Gastube,1,0.05,,1,,,,,,,0
-633,,ultimak_m1_b_gastube,UltiMAK M1-B Gas Tube,0,0.09,0,-1,,,,,,,800
-634,,izhmash_ak74_6p20_sb1_2_gastube,Izhmash AK-74  6P20 Sb.1-2 Gas Tube,1,0.05,,1,,,,,,,0
+632,,izhmash_akm_6p1_sb1_2_gastube,Izhmash AKM 6P1 Sb.1-2 Gastube,0,0.05,,,,,,,,,0
+633,,ultimak_m1_b_gastube,UltiMAK M1-B Gas Tube,-1,0.09,-1,-1,,,,,,,800
+634,,izhmash_ak74_6p20_sb1_2_gastube,Izhmash AK-74  6P20 Sb.1-2 Gas Tube,0,0.05,,,,,,,,,0
 ,ak_carbine_gastube,,,,,,,,,,,,,
 ,,izhmash_aks74u_6p26_sb1_2_gastube,Izhmash AKS-74U 6P26 Sb.1-2 Gastube,,0.01,-1,-1,,,,,,,
 ,ak_gastube_retainer,,,,,,,,,,,,,
@@ -1398,24 +1398,24 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 682,,izhmash_ak74_wooden_6p20_sb6_upper_handguard,Izhmash AK-74 Wooden 6P20 Sb.6 Upper Handguard,0,0.05,-1,-1,,,,,,,0
 ,,izhmash_akm_wooden_6p1_sb6_1_upper_handguard,Izhmash AKM Wooden 6P1 Sb.6-1 Upper Handguard,0,0.05,-1,-1,,,,,,,0
 683,,caf_wasr_10_63_wooden_upper_piece,Wooden CAF WASR 10-63 Upper Piece,0,0.05,-1,-1,,,,,,,200
-684,,khyber_customs_swiss_cheese_grater,Khyber Customs Swiss Cheese Grater Upper Handguard,-0.5,0.02,0.5,0.5,,,,,,,400
-685,,midwest_industries_ak74_gen1_railed_topcover,Midwest Industries AK74 Handguard Railed Top Cover,-0.5,0.07,-1,-1,,,,,,,750
-686,,midwest_industries_ak74_gen1_t1_mount_topcover,Midwest Industries AK74 Handguard T1 Mount Top Cover,-1,0.09,-1,-1.5,,,,,,,750
-687,,midwest_industries_ak74_gen1_30mm_topcover,Midwest Industries AK74 Handguard 30mm Mount Top Cover,-0.5,0.06,-1,-1,,,,,,,750
-688,,magpul_ak_moe_top_cover,AK Magpul MOE,-0.5,0.03,-0.5,0,,,,,,,500
-689,,zenitco_b_31s_gen1_rail_mount,Zenitco B-31S Gen 1 Rail Mount,-3,0.14,-2,-2,,,,,,,1000
-690,,zenitco_b_19_rail_mount,Zenitco B-19 Rail Mount,-1,0.08,-1.5,-1,,,,,,,750
-,,zenitco_b_19n_rail_mount,Zenitco B-19N Rail Mount,-1,0.06,-1,0,,,,,,,800
-,,zenitco_b_31_leader_rail_mount,"Zenitco B-31 ""Leader"" Rail Mount",-2,0.11,-2.5,-2,,,,,,,1600
+684,,khyber_customs_swiss_cheese_grater,Khyber Customs Swiss Cheese Grater Upper Handguard,-0.5,0.03,-1,-1.5,,,,,,,400
+685,,midwest_industries_ak74_gen1_railed_topcover,Midwest Industries AK74 Handguard Railed Top Cover,0,0.06,-1,-2,,,,,,,750
+686,,midwest_industries_ak74_gen1_t1_mount_topcover,Midwest Industries AK74 Handguard T1 Mount Top Cover,-3,0.06,-1,-2,,,,,,,750
+687,,midwest_industries_ak74_gen1_30mm_topcover,Midwest Industries AK74 Handguard 30mm Mount Top Cover,-3,0.09,-1,-2,,,,,,,750
+688,,magpul_ak_moe_top_cover,AK Magpul MOE,0.5,0.04,-0.5,-1,,,,,,,500
+689,,zenitco_b_31s_gen1_rail_mount,Zenitco B-31S Gen 1 Rail Mount,0,0.1,-2,-2,,,,,,,1000
+690,,zenitco_b_19_rail_mount,Zenitco B-19 Rail Mount,1,0.08,-1,-1,,,,,,,750
+,,zenitco_b_19n_rail_mount,Zenitco B-19N Rail Mount,1,0.06,-0.5,-1,,,,,,,800
+,,zenitco_b_31_leader_rail_mount,"Zenitco B-31 ""Leader"" Rail Mount",0,0.13,-3,-2,,,,,,,1600
 691,,6p20_polymer_sb9_upper_piece,AK74 Std. Polymer 6P20 Sb.9 Upper Piece,0,0.03,0,-1,,,,,,,300
-692,,zenitco_b_32_klassika_rail_mount,"Zenitco B-32 Klassika Extra Long ""Space Blaster"" Rail Mount",-5,0.3,-6,-7,,,,,,,2000
-693,,zenitco_b_31lv_sport_rail_mount,"Zenitco B-31LV ""Sport"" Rail Mount",0,0.14,0,-1,,,,,,,1200
-,,midwest_industries_alpha_ak_series_6inch_mlok_upper_handguard,"Midwest Industries ALPHA AK Series 6"" MLOK Top Mount",-1,0.1,-2,0,,,,,,,800
-,,midwest_industries_alpha_ak_series_10inch_mlok_upper_handguard,"Midwest Industries ALPHA AK Series 10"" MLOK Top Mount",-3,0.13,-2,-1,,,,,,,800
-,,5.45_design_aggressor_ak_upper_handguard,"5.45 DESIGN ""Aggressor"" AK Upper Handguard",0,0.07,,,,,,,,,0
-,,5.45_design_aggressor_ak_handguard_rails,"5.45 DESIGN ""Aggressor"" AK Handguard Rails",0,0.1,,,,,,,,,0
+692,,zenitco_b_32_klassika_rail_mount,"Zenitco B-32 Klassika Extra Long ""Space Blaster"" Rail Mount",-3,0.23,-4,-4,,,,,,,2000
+693,,zenitco_b_31lv_sport_rail_mount,"Zenitco B-31LV ""Sport"" Rail Mount",0,0.12,-2,-3,,,,,,,1200
+,,midwest_industries_alpha_ak_series_6inch_mlok_upper_handguard,"Midwest Industries ALPHA AK Series 6"" MLOK Top Mount",0,0.04,-2,0,,,,,,,800
+,,midwest_industries_alpha_ak_series_10inch_mlok_upper_handguard,"Midwest Industries ALPHA AK Series 10"" MLOK Top Mount",0,0.07,-2,-1,,,,,,,800
+,,5.45_design_aggressor_ak_upper_handguard,"5.45 DESIGN ""Aggressor"" AK Upper Handguard",0,0.07,-1,-2,,,,,,,0
+,,5.45_design_aggressor_ak_handguard_rails,"5.45 DESIGN ""Aggressor"" AK Handguard Rails",1,0.12,-1,-1,,,,,,,0
 ,ak_carbine_hanguard_top_cover,,,,,,,,,,,,,
-,,izhmash_aks74u_wooden_6p26_sb6_upper_handguard,Izhmash AKS-74U Wooden 6p26 Sb.6 Upper Handguard,0,0.05,-2,-1,,,,,,,
+,,izhmash_aks74u_wooden_6p26_sb6_upper_handguard,Izhmash AKS-74U Wooden 6p26 Sb.6 Upper Handguard,1,0.04,0,-0.5,,,,,,,0
 ,ak_grip,,,,,,,,,,,,,
 694,,zenitco_rk3_ak_pistol_grip,RK-3,7,0.11,-3,-5,,,,,,,1000
 695,,ak12_gen1_pistol_grip,AK-12 Gen 1,5,0.1,-5,-3,,,,,,,800
@@ -1431,52 +1431,52 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak_carbine_hanguard_retainer,,,,,,,,,,,,,
 ,,izhmash_aks74u_handguard_retainer,Izhmash AKS-74U Handguard Retainer,,0.01,,,,,,,,,
 ,ak_handguard,,,,,,,,,,,,,
-702,,caf_wasr_10_63_wooden_bottom_handguard,Wooden CAF WASR 10-63 Bottom,14,0.2,-9,-9,,,,,,,300
-703,,tdiarms_ak_akm_l_lower_handguard,TDI Arms AKM-L,10,0.11,-3,-4,,,,,,,1000
-704,,midwest_industries_ak74_extended_gen1_handguard,Midwest Industries AK74 Extended Gen 1,7,0.22,-7,-9,,,,,,,1600
-705,,midwest_industries_ak74_gen1_handguard,Midwest Industries AK74 Gen 1,11,0.14,-6,-5,,,,,,,1200
-706,,magpul_ak_zhukov_u_lower_handguard,AK Magpul ZHUKOV-U,16,0.23,0,-1,,,,,,,1500
-,,5.45_design_aggressor_ak_lower_handguard,"5.45 DESIGN ""Aggressor"" AK",8,0.1,-4,-4,,,,,,,3000
-708,,izhmash_ak74_wooden_6p20_sb6_lower_handguard,Izhmash AK-74 Wooden 6P20 Sb.6,14,0.14,-8,-8,,,,,,,0
-,,izhmash_akm_wooden_6p1_sb6_1_lower_handguard,Izhmash AKM Wooden 6P1 Sb.6-1,14,0.14,-8,-8,,,,,,,0
-710,,zenitco_b_30_gen1_lower_handguard,Zenitco B-30 Gen 1 Lower,6,0.2,-6,-8,,,,,,,1500
-711,,izhmash_ak74_polymer_6p20_sb9_lower_handguard,Izhmask AK-74 Polymer 6P20 Sb.9,16,0.1,-5,-6,,,,,,,400
+702,,caf_wasr_10_63_wooden_bottom_handguard,Wooden CAF WASR 10-63 Bottom,12,0.2,-11,-11,,,,,,,300
+703,,tdiarms_ak_akm_l_lower_handguard,TDI Arms AKM-L,12,0.09,-5,-6,,,,,,,1000
+704,,midwest_industries_ak74_extended_gen1_handguard,Midwest Industries AK74 Extended Gen 1,7,0.24,-11,-9,,,,,,,1600
+705,,midwest_industries_ak74_gen1_handguard,Midwest Industries AK74 Gen 1,9,0.17,-9,-7,,,,,,,1200
+706,,magpul_ak_zhukov_u_lower_handguard,AK Magpul ZHUKOV-U,15,0.3,-5,-7,,,,,,,1500
+,,5.45_design_aggressor_ak_lower_handguard,"5.45 DESIGN ""Aggressor"" AK",9,0.1,-5,-10,,,,,,,3000
+708,,izhmash_ak74_wooden_6p20_sb6_lower_handguard,Izhmash AK-74 Wooden 6P20 Sb.6,15,0.12,-7,-9,,,,,,,0
+,,izhmash_akm_wooden_6p1_sb6_1_lower_handguard,Izhmash AKM Wooden 6P1 Sb.6-1,15,0.12,-7,-9,,,,,,,0
+710,,zenitco_b_30_gen1_lower_handguard,Zenitco B-30 Gen 1 Lower,9,0.23,-9,-10,,,,,,,1500
+711,,izhmash_ak74_polymer_6p20_sb9_lower_handguard,Izhmask AK-74 Polymer 6P20 Sb.9,15,0.1,-7,-8,,,,,,,0
 ,,izhmash_ak100_series_polymer_railed_lower_handguard,Izhmash AK-100 Series Polymer Railed,13,0.12,-5,-5,,,,,,,800
-712,,magpul_ak_moe_lower_handguard,AK Magpul MOE,15,0.17,-2,-4,,,,,,,500
-713,,tdiarms_ak_x47_rail_system,TDI Arms X47 Rail System,4,0.26,-9,-6,,,,,,,2000
-714,,zenitco_b_10m_gen1_lower_handguard,Zenitco B-10M Gen 1 Lower,12,0.12,-5,-5,,,,,,,1000
-715,,zenitco_b_10l_sport_lower_handguard,"Zenitco B-10L ""Sport"" Lower",12,0.13,-8,-11,,,,,,,1100
-,,midwest_industries_alpha_ak_series_6inch_mlok_lower_handguard,"Midwest Industries ALPHA AK Series 6"" MLOK Lower",12,0.15,-4,-5,,,,,,,1200
-,,midwest_industries_alpha_ak_series_10inch_mlok_lower_handguard,"Midwest Industries ALPHA AK Series 10"" MLOK Lower",8,0.21,-5,-7,,,,,,,1600
-,,was_woodworks_lower_ak_handguard_with_handstop,WAS Woodworks Lower AK w/ Handstop and MLOK,18,0.16,-2,-3,,,,,,,1000
-,,caa_rs47_lower_handguard,CAA RS47 Lower Handguard,7,0.1,-2,-4,,,,,,,750
+712,,magpul_ak_moe_lower_handguard,AK Magpul MOE,14,0.14,-4,-5,,,,,,,500
+713,,tdiarms_ak_x47_rail_system,TDI Arms X47 Rail System,6,0.36,-10,-10,,,,,,,2000
+714,,zenitco_b_10m_gen1_lower_handguard,Zenitco B-10M Gen 1 Lower,12,0.15,-6,-6,,,,,,,1000
+715,,zenitco_b_10l_sport_lower_handguard,"Zenitco B-10L ""Sport"" Lower",10,0.08,-7,-7,,,,,,,1100
+,,midwest_industries_alpha_ak_series_6inch_mlok_lower_handguard,"Midwest Industries ALPHA AK Series 6"" MLOK Lower",13,0.15,-7,-4,,,,,,,1200
+,,midwest_industries_alpha_ak_series_10inch_mlok_lower_handguard,"Midwest Industries ALPHA AK Series 10"" MLOK Lower",11,0.21,-9,-6,,,,,,,1600
+,,was_woodworks_lower_ak_handguard_with_handstop,WAS Woodworks Lower AK w/ Handstop and MLOK,14,0.15,-9,-9,,,,,,,1000
+,,caa_rs47_lower_handguard,CAA RS47 Lower Handguard,11,0.14,-6,-7,,,,,,,750
 ,zenitco_leader_kit,,,,,,,,,,,,,
-,,zenitco_dl_leader_handguard_extension,"Zenitco DL ""Leader"" Handguard Extension",5,0.06,-1,-1,,,,,,,600
-,,zenitco_leader_insert_rail_handguard_extension,"Zenitco ""Leader"" Insert Rail Handguard Extension",4,0.08,-2,-2,,,,,,,750
-,,zenitco_leader_handstop,"Zenitco ""Leader"" Handstop",1,0.02,-1,0,,,,,,,200
+,,zenitco_dl_leader_handguard_extension,"Zenitco DL ""Leader"" Handguard Extension",1,0.06,0,-1,,,,,,,600
+,,zenitco_leader_insert_rail_handguard_extension,"Zenitco ""Leader"" Insert Rail Handguard Extension",1,0.04,0,0,,,,,,,750
+,,zenitco_leader_handstop,"Zenitco ""Leader"" Handstop",1,0.02,0,0,,,,,,,200
 ,ak_carbine_handguard,,,,,,,,,,,,,
-,,izhmash_aks74u_wooden_6p26_sb6_lower_handguard,Izhmash AKS-74U Wooden 6p26 Sb.6,16,0.1,-7,-5,,,,,,,0
-,,zenitco_b_11_lower_handguard,Zenitco B11 Handguard,9,0.13,-4,-3,,,,,,,1500
-,,zenitco_b_11u_lower_handguard,Zenitco B11U Handguard,7,0.16,-5,-4,,,,,,,1750
+,,izhmash_aks74u_wooden_6p26_sb6_lower_handguard,Izhmash AKS-74U Wooden 6p26 Sb.6,16,0.1,-6,-8,,,,,,,0
+,,zenitco_b_11_lower_handguard,Zenitco B11 Handguard,13,0.12,-5,-6,,,,,,,1500
+,,zenitco_b_11u_lower_handguard,Zenitco B11U Handguard,13,0.09,-5,-5,,,,,,,1750
 ,caa_rs47_handguard,,,,,,,,,,,,,
-,,caa_rs47_upper_handguard,CAA RS47 Upper Handguard,3,0.06,-1,-2,,,,,,,200
-,,caa_rs47_handguard_side_rails,CAA RS47 Handguard Side Rails,-1,0.02,,,,,,,,,0
+,,caa_rs47_upper_handguard,CAA RS47 Upper Handguard,0,0.07,-2,-1,,,,,,,200
+,,caa_rs47_handguard_side_rails,CAA RS47 Handguard Side Rails,1,0.05,,,,,,,,,0
 ,ak_handguard_alt,,,,,,,,,,,,,
-,,izhmash_ak74_wooden_6p20_sb6_lower_handguard_alt,Izhmash AK-74 Wooden 6P20 Sb.6,14,0.14,-8,-8,,,,,,,0
-,,izhmash_akm_wooden_6p1_sb6_1_lower_handguard_alt,Izhmash AKM Wooden 6P1 Sb.6-1,14,0.14,-8,-8,,,,,,,0
-,,izhmash_ak74_polymer_6p20_sb9_lower_handguard_alt,Izhmask AK-74 Polymer 6P20 Sb.9,16,0.1,-5,-6,,,,,,,0
+,,izhmash_ak74_wooden_6p20_sb6_lower_handguard_alt,Izhmash AK-74 Wooden 6P20 Sb.6,15,0.12,-7,-9,,,,,,,0
+,,izhmash_akm_wooden_6p1_sb6_1_lower_handguard_alt,Izhmash AKM Wooden 6P1 Sb.6-1,15,0.12,-7,-9,,,,,,,0
+,,izhmash_ak74_polymer_6p20_sb9_lower_handguard_alt,Izhmask AK-74 Polymer 6P20 Sb.9,15,0.1,-7,-8,,,,,,,0
 ,,izhmash_ak100_series_polymer_railed_lower_handguard_alt,Izhmash AK-100 Series Polymer Railed,13,0.12,-5,-5,,,,,,,800
-717,,caf_wasr_10_63_wooden_bottom_handguard_alt,Wooden CAF WASR 10-63 Bottom Handguard,14,0.2,-9,-9,,,,,,,300
-718,,tdiarms_ak_akm_l_lower_handguard_alt,TDI Arms AKM-L Handguard,10,0.11,-3,-4,,,,,,,1000
-719,,magpul_ak_zhukov_u_lower_handguard_alt,AK Magpul ZHUKOV-U,16,0.23,0,-1,,,,,,,1500
-720,,magpul_ak_moe_lower_handguard_alt,AK Magpul MOE,15,0.17,-2,-4,,,,,,,500
-721,,izhmash_ak74_polymer_6p20_sb9_upper_handguard,Izhmask AK-74 Polymer 6P20 Sb.9 Upper Handguard,0,0.03,0,-1,,,,,,,300
-,,was_woodworks_lower_ak_handguard_with_handstop_alt,WAS Woodworks Lower AK Handguard with Handstop,18,0.16,-2,-3,,,,,,,1000
-,,zenitco_b_10m_gen1_lower_handguard_alt,Zenitco B-10M Gen 1 Lower,12,0.12,-5,-5,,,,,,,1000
-,,zenitco_b_10l_sport_lower_handguard_alt,"Zenitco B-10L ""Sport"" Lower",12,0.13,-8,-11,,,,,,,1100
-,,caa_rs47_lower_handguard_alt,CAA RS47 Lower Handguard,7,0.1,-2,-4,,,,,,,750
+717,,caf_wasr_10_63_wooden_bottom_handguard_alt,Wooden CAF WASR 10-63 Bottom Handguard,12,0.2,-11,-11,,,,,,,300
+718,,tdiarms_ak_akm_l_lower_handguard_alt,TDI Arms AKM-L Handguard,12,0.09,-5,-6,,,,,,,1000
+719,,magpul_ak_zhukov_u_lower_handguard_alt,AK Magpul ZHUKOV-U,15,0.3,-5,-7,,,,,,,1500
+720,,magpul_ak_moe_lower_handguard_alt,AK Magpul MOE,14,0.14,-4,-5,,,,,,,500
+721,,izhmash_ak74_polymer_6p20_sb9_upper_handguard,Izhmask AK-74 Polymer 6P20 Sb.9 Upper Handguard,0,0.04,-1,-1,,,,,,,300
+,,was_woodworks_lower_ak_handguard_with_handstop_alt,WAS Woodworks Lower AK Handguard with Handstop,14,0.15,-9,-9,,,,,,,1000
+,,zenitco_b_10m_gen1_lower_handguard_alt,Zenitco B-10M Gen 1 Lower,12,0.15,-6,-6,,,,,,,1000
+,,zenitco_b_10l_sport_lower_handguard_alt,"Zenitco B-10L ""Sport"" Lower",10,0.08,-7,-7,,,,,,,1100
+,,caa_rs47_lower_handguard_alt,CAA RS47 Lower Handguard,11,0.14,-6,-7,,,,,,,750
 ,zenitco_rail_extension,,,,,,,,,,,,,
-722,,zenitco_dl_2_gen2_sport_handguard_extension,"Zenitco DL-2 Gen2 ""Sport"" Handguard",4,0.07,-2,-1,,,,,,,600
+722,,zenitco_dl_2_gen2_sport_handguard_extension,"Zenitco DL-2 Gen2 ""Sport"" Handguard",1,0.05,0,0,,,,,,,600
 ,ak_magwell,,,,,,,,,,,,,
 ,,iron_claw_tactical_gen2_ak_magwell_system,Iron Claw Tactical Gen2 AK Magwell System,3,0.08,,-1,,,,,,,1000
 ,mp133_barrel,,,,,,,,,,,,,

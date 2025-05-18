@@ -1,4 +1,4 @@
-﻿0.24.1,Sat May 17 20:14:46 2025,,,,,,,,,,,,,
+﻿0.24.1,Sat May 17 20:50:22 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1165,15 +1165,15 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,r870_barrel_rear_sight,,,,,,,,,,,,,
 611,,r870_std_rear_sight,Remington Standard Barrel,1,0.02,,,,,,,,,0
 ,ak_dust_cover,,,,,,,,,,,,,
-612,,fab_defense_ak74_pdc_dust_cover,FAB Defence AK74 PDC,3,0.39,-2,-3,,0.05,,,,,1000
-613,,izhmash_ak74m_6p34_01_dust_cover,Izhmash AK-74M 6P34 0-1,8,0.22,-4,-5,,,,,,,500
-614,,izhmash_ak74_6p1_01_dust_cover,Izhmash AK-74 6P1 0-1 Dust Cover,6,0.25,-3,-4,,,,,,,300
-615,,zenitco_b_33_ak_dust_cover,Zenitco B-33,5,0.38,0,-2,,,,,,,2000
-616,,akademia_bastion_dust_cover,AKademia bastion,1,0.44,-3,-5,,0.05,,,,,1200
-,,midwest_industries_alpha_ak_series_railed_top_cover,Midwest Industries ALPHA AK series Railed Top Cover,4,0.42,-2,-4,,,,,,,2000
+612,,fab_defense_ak74_pdc_dust_cover,FAB Defence AK74 PDC,2,0.16,-2,-4,,,,,,,1000
+613,,izhmash_ak74m_6p34_01_dust_cover,Izhmash AK-74M 6P34 0-1,7,0.09,-3,-4,,,,,,,500
+614,,izhmash_ak74_6p1_01_dust_cover,Izhmash AK-74 6P1 0-1 Dust Cover,6,0.08,-3,-3,,,,,,,300
+615,,zenitco_b_33_ak_dust_cover,Zenitco B-33,3,0.18,-3,-2,,,,,,,2000
+616,,akademia_bastion_dust_cover,AKademia bastion,1,0.2,-4,-4,,,,,,,1200
+,,midwest_industries_alpha_ak_series_railed_top_cover,Midwest Industries ALPHA AK series Railed Top Cover,4,0.23,-4,-2,,,,,,,2000
 ,ak_carbine_dust_cover,,,,,,,,,,,,,
-,,izhmash_aks74u_6p26_sb7_dust_cover,Izhmash AKS-74U 6P26 Sb.7 Dust Cover,8,0,-5,-5,,,,,,,0
-,,legal_arsenal_pilgrim_aksu_dust_cover,Legal Arsenal Pilgrim AKSU Railed,6,0.05,-4,-4,,,,,,,1500
+,,izhmash_aks74u_6p26_sb7_dust_cover,Izhmash AKS-74U 6P26 Sb.7 Dust Cover,8,0.12,-2,-3,,,,,,,0
+,,legal_arsenal_pilgrim_aksu_dust_cover,Legal Arsenal Pilgrim AKSU Railed,5,0.14,-1,-1,,,,,,,1500
 ,ak_rear_sight,,,,,,,,,,,,,
 617,,scout_scopes_ak_drop_on_rail,Scout Scopes AK,1,0.12,,,,,,,,,1000
 618,,si_ak_drop_on_rail,Strike Industries Ak,-0.5,0.06,,,,,,,,,1000

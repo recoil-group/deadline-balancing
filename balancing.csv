@@ -1,4 +1,4 @@
-﻿0.24.1,Sun May 18 00:57:22 2025,,,,,,,,,,,,,
+﻿0.24.1,Sun May 18 01:30:07 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1050,10 +1050,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 531,,5.45x39_rpk16_mag,RPK 16 95R,-18,1.16,,,95,,,,,,6000
 532,,5.45x39_saiga10r,Saiga 5.45 10R,9,0.16,,,10,,,,,,300
 533,,5.45x39_romanian30r,Romanian steel 30R,1,0.49,,,30,,,,,,750
-534,,izhmash_ak74_5.45x39_6l20_30r_mag,Izhmash AK-74 5.45x39 6L20 30R,2,0.41,,,30,,,,,,500
+534,,izhmash_ak74_5.45x39_6l20_30r_mag,6L20,0,0.43,,,30,,,,,,500
 535,,molot_rpk_5.45x39_6l18_45r_mag,Molot 5.45x39 AK74/RPK 6L18 45R,-6.5,0.66,,,45,,,,,,1600
-536,,5.45x39_magpul_pmag_ak74_30r,Magpul PMAG 5.45x39 30R,0,0.39,,,30,,,,,,1200
-537,,izhmash_ak74m_5.45x39_6l23_30r_mag,Izhmash AK-74M Plastic 6L23 30R,1,0.38,,,30,,,,,,750
+536,,5.45x39_magpul_pmag_ak74_30r,Magpul PMAG 5.45x39 30R,0,0.41,,,30,,,,,,1200
+537,,izhmash_ak74m_5.45x39_6l23_30r_mag,6L23,0,0.43,,,30,,,,,,600
 538,,5.45x39_izhmash_ak12_magazine_30r,Izhmash AK-12 Windowed Polymer 30R,0,0.42,,,30,,,,,,1200
 ,,banan_magazine,Banana Magazine,0,0.39,,,30,,,,,,5000
 ,magazine_7.62x51_remington700,,,,,,,,,,,,,
@@ -1277,12 +1277,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak74_bolt_piston,,,,,,,,,,,,,
 ,,izhmash_ak74_bolt_piston,Izhmash AK-74 Bolt Piston,0,0.05,,,,,,,,,0
 ,ak74_front_trunnion,,,,,,,,,,,,,
-,,izhmash_ak74_front_trunnion,Izhmash AK-74 Front Trunnion,0,0.09,,,,,,,,,0
+,,izhmash_ak74_front_trunnion,Izhmash AK-74 Front Trunnion,0,0.1,,,,,,,,,0
 ,ak_fsp,,,,,,,,,,,,,
 ,,izhmash_ak_front_sight_post,Izhmash AK Front Sight Post,1,0.01,,,,,,,,,0
 ,ak74_fs_block,,,,,,,,,,,,,
 ,,izhmash_ak74_front_sight_block,Izhmash AK-74 Front Sight Block,0,0.06,,,,,,,,,0
-,,izhmash_ak74m_front_sight_block,Izhmask AK-74M,1,0.06,,,,,,,,,500
+,,izhmash_ak74m_front_sight_block,Izhmask AK-74M,1,0.07,,,,,,,,,500
 ,ak74_trigger,,,,,,,,,,,,,
 ,,izhmash_ak74_trigger,Izhmash AK-74 Trigger,0,0.02,,,,,,,,,0
 ,ak74_trigger_guard,,,,,,,,,,,,,
@@ -1298,7 +1298,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak105_barrel,,,,,,,,,,,,,
 ,,izhmash_ak105_314mm_5.45x39_barrel,Izhmash AK-105 314mm 5.45x39,3,0.4,-3,-4,,0.1,-0.05,-35,,,3000
 ,ak100_front_trunnion,,,,,,,,,,,,,
-,,izhmash_ak100_series_front_trunnion,Izhmash AK-100 Series Front Trunnion,1,0.12,,,,,,,,,200
+,,izhmash_ak100_series_front_trunnion,Izhmash AK-100 Series Front Trunnion,1,0.13,,,,,,,,,200
 ,ak100_rear_trunnion,,,,,,,,,,,,,
 ,,izhmash_ak100_series_rear_trunnion,Izhmash AK-100 Series Rear Trunnion,1,0.05,,,,,,,,,200
 ,ak_folding_stock,,,,,,,,,,,,,
@@ -1342,7 +1342,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak_trigger_guard,,,,,,,,,,,,,
 ,,izhmash_akm_trigger_guard,Izhmash AKM Trigger Guard,0,0.02,,,,,,,,,0
 ,akm_front_trunnion,,,,,,,,,,,,,
-,,izhmash_akm_front_trunnion,Izhmash AKM Front Trunnion,0,0.09,,,,,,,,,0
+,,izhmash_akm_front_trunnion,Izhmash AKM Front Trunnion,0,0.1,,,,,,,,,0
 ,ak_rmp_dovetail,,,,,,,,,,,,,
 ,,izhmash_rmp3_dovetail_mount,Izhmash RMP-3 Dovetail,1,0.03,,,,,,,,,300
 ,,izhmash_rmp5_dovetail_mount,Izhmash RMP-5 Dovetail,1,0.04,,,,,,,,,300
@@ -1367,7 +1367,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,aks74u_fs_block,,,,,,,,,,,,,
 ,,izhmash_aks74u_front_sight_block,Izhmash AKS-74U Front Sight Block,0,0.05,,,,,,,,,0
 ,aks74u_front_trunnion,,,,,,,,,,,,,
-,,izhmash_aks74_front_trunnion,Izhmash AKS-74U Front Trunnion,1,0.12,,,,,,,,,0
+,,izhmash_aks74_front_trunnion,Izhmash AKS-74U Front Trunnion,1,0.13,,,,,,,,,0
 ,aks74u_rs_block,,,,,,,,,,,,,
 ,,izhmash_aks74u_rear_sight_block,Izhmash AKS-74U Rear Sight Block,,0.05,,,,,,,,,0
 ,ak_barrel_end,,,,,,,,,,,,,
@@ -2137,7 +2137,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,pp19_fs_block,,,,,,,,,,,,,
 ,,izhmash_pp-19-01_vityaz_front_sight_block,Izhmash PP-19-01 Vityaz Front Sight Block,0,0.04,,,,,,,,,0
 ,pp19_front_trunnion,,,,,,,,,,,,,
-,,izhmash_pp-19-01_vityaz_front_trunnion,Izhmash PP-19-01 Vityaz Front Trunnion,0,0.05,,,,,,,,,0
+,,izhmash_pp-19-01_vityaz_front_trunnion,Izhmash PP-19-01 Vityaz Front Trunnion,0,0.06,,,,,,,,,0
 ,pp19_lower,,,,,,,,,,,,,
 ,,izhmash_pp-19-01_vityaz_lower_receiver,Izhmash PP-19-01 Vityaz Lower Reciever,0,0.2,,,,,,,,,0
 ,pp19_fire_selector,,,,,,,,,,,,,
@@ -2803,9 +2803,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1339,,SCARL,FN SCAR Mk16,40,0,65,70,0,0.45,1.1,1650,,,40000
 1340,,G3,H&K G3,45,0,70,100,0,0.4,0.8,1700,,,30000
 1341,,Remington700,Remington Model 700,50,0,80,92,0,0.1,1,2150,,,42000
-1342,,AK_762,AK 7.62,9,0.2,80,100,0,0.6,1,1300,,,15000
-1343,,AK_545,AK 5.45,10,0,65,75,0,0.4,1,1500,,,5000
-,,AK_545_Carbine,AK 5.45 Carbine,10,0,65,75,0,0.4,1,1500,,,30000
+1342,,AK_762,AK 7.62,10,0.2,80,100,0,0.6,1,1300,,,15000
+1343,,AK_545,AK 5.45,15,0,65,75,0,0.3,1,1500,,,5000
+,,AK_545_Carbine,AK 5.45 Carbine,15,0,65,75,0,0.3,1,1500,,,30000
 1344,,MosinNagant,Mosin Nagant M91/30 PU,35,1,80,92,0,0.2,1,1200,,,14000
 ,shotgun,,,,,,,,,,,,,
 1345,,Remington870,Remington 870 Express,20,0.9,90,90,1,0.8,1,1000,2.5,,20000

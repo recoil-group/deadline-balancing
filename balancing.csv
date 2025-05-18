@@ -1,4 +1,4 @@
-﻿0.24.1,Sun May 18 15:46:48 2025,,,,,,,,,,,,,
+﻿0.24.1,Sun May 18 15:48:34 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1316,7 +1316,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 659,,izhmash_ak74_lower_receiver,Izhmash AK-74 Lower Reciever,0,0.3,,,,,,,,,0
 ,,izhmash_ak100_series_lower_receiver,Izhmash AK-100 Series Lower Reciever,1,0.3,,,,,,,,,5000
 ,ak74_mag_release,,,,,,,,,,,,,
-,,izhmash_ak74_mag_release,Izhmash AK-74 Mag Release,1,0.01,,,,,,,,,0
+,,izhmash_ak74_mag_release,Izhmash AK-74 Mag Release,0,0.01,,,,,,,,,0
 ,ak_sight_mount,,,,,,,,,,,,,
 660,,gdr_zvn_64_night_front_sight,German Democratic Republic ZVN-64 Front Night Shooting,1,0.02,,,,,,,,,200
 661,,gdr_zvn_64_night_rear_sight_ak74,German Democratic Republic ZVN-64 Rear Night Shooting,2,0.02,,,,,,,,,200
@@ -1336,7 +1336,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,akm_lower_receiver,,,,,,,,,,,,,
 666,,izhmash_akm_lower_receiver,Izhmash AKM Lower Reciever,0,0.33,,,,,,,,,0
 ,akm_mag_release,,,,,,,,,,,,,
-,,izhmash_akm_mag_release,Izhmash AKM Mag Release,1,0.01,,,,,,,,,0
+,,izhmash_akm_mag_release,Izhmash AKM Mag Release,0,0.01,,,,,,,,,0
 ,ak_trigger,,,,,,,,,,,,,
 ,,izhmash_akm_trigger,Izhmash AKM Trigger,0,0.02,,,,,,,,,0
 ,ak_trigger_guard,,,,,,,,,,,,,
@@ -2146,7 +2146,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,pp19_trigger_guard,,,,,,,,,,,,,
 ,,izhmash_pp-19-01_vityaz_trigger_guard,Izhmash PP-19-01 Vityaz Trigger Guard,0,0.02,,,,,,,,,0
 ,pp19_mag_release,,,,,,,,,,,,,
-,,izhmash_pp-19-01_vityaz_mag_release,Izhmash PP-19-01 Vityaz Mag Release,1,0.01,,,,,,,,,0
+,,izhmash_pp-19-01_vityaz_mag_release,Izhmash PP-19-01 Vityaz Mag Release,0,0.01,,,,,,,,,0
 ,pp19_magwell,,,,,,,,,,,,,
 ,,izhmash_pp-19-01_vityaz_magwell,Izhmash PP-19-01 Vityaz Magwell,0,0.04,,,,,,,,,0
 ,pp19_rear_trunnion,,,,,,,,,,,,,

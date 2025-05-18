@@ -1,4 +1,4 @@
-﻿0.24.1,Sun May 18 01:52:56 2025,,,,,,,,,,,,,
+﻿0.24.1,Sun May 18 12:45:31 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1349,7 +1349,6 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,izhmash_74m_p_dovetail_mount,Izhmash AK-74M-P Dovetail Mount,1,0.02,,,,,,,,,300
 ,ak_fire_selector,,,,,,,,,,,,,
 ,,izhmash_ak74_fire_selector,Izhmash AK-74 Fire Selector,0,0.02,,,,,,,,,0
-,,izhmash_akm_fire_selector,Izhmash AKM Fire Selector,0,0.02,,,,,,,,,0
 ,,retro_arms_cnc_ak_model_a_fire_selector,Retro Arms CNC AK MODEL A Fire Selector,1,0.01,,,,,,,,,750
 ,,legal_arsenal_ak_enhanced_safety_fire_selector,Legal Arsenal AK Enhanced Safety Fire Selector,1.5,0.03,,,,,,,,,900
 ,ak_carbine_lower,,,,,,,,,,,,,

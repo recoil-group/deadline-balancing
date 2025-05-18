@@ -67,7 +67,7 @@ zenitco_leader_insert_rail_handguard_extension,"Zenitco ""Leader"" Insert Rail H
 5.45_design_aggressor_ak_handguard_rails,"5.45 DESIGN ""Aggressor"" AK Handguard Rails",1,0.12,-1,-1,,,,,,,0,1.11022E-16,,,0,
 ,misc,,,,,,,,,,,,0,,,,
 caa_rs47_handguard_side_rails,CAA RS47 Handguard Side Rails,1,0.05,,,,,,,,,0,0,,,,
-zenitco_leader_handstop,"Zenitco ""Leader"" Handstop",1,0.02,0,0,,,,,,,200,0.6,,,,
+zenitco_leader_handstop,"Zenitco ""Leader"" Handstop",6,0.02,0,-1,,,,,,,200,6.2,,,,
 ,,,,,,,,,,,,,0,,,,
 ,summed,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_bullet_deviation,fire_rate,price,strength,,irl weight,weight formula,
 ,Izhmash AK-74 Wooden 6P20 Sb.6,15,0.17,-8,-10,0,0,0,0,0,0,0,24,0,5,0.12,
@@ -87,8 +87,8 @@ zenitco_leader_handstop,"Zenitco ""Leader"" Handstop",1,0.02,0,0,,,,,,,200,0.6,,
 ,Zenitco B-10M Gen 1 + B-19,13,0.23,-7,-7,0,0,0,0,0,0,1750,18.2,0,9.52398,0.22857552,
 ,Zenitco B-30 Gen 1+ B-31S,9,0.33,-11,-12,0,0,0,0,0,0,2500,18.4,0,13.615764,0.326778336,
 ,"Zenitco B-10L ""Sport"" + B-19",11,0.16,-8,-8,0,0,0,0,0,0,1850,19,0,6.34932,0.15238368,
-,"Zenitco ""Sport-4"" Kit",12,0.27,-9,-10,0,0,0,0,0,0,3100,19.8,0,9.982542,0.239581008,0.284449536
-,"Zenitco ""Leader"" Kit",13,0.33,-10,-10,0,0,0,0,0,0,4250,20.4,0,12.87501,0.30900024,0.32593176
+,"Zenitco ""Sport-4"" Kit",11,0.25,-9,-10,0,0,0,0,0,0,2900,19.2,0,9.982542,0.239581008,0.284449536
+,"Zenitco ""Leader"" Kit",12,0.31,-10,-10,0,0,0,0,0,0,4050,19.8,0,12.87501,0.30900024,0.32593176
 ,Zenitco B11 + B-19,14,0.2,-6,-7,0,0,0,0,0,0,2250,19,0,8.28939,0.19894536,
 ,Zenitco B11U + B-19,14,0.17,-6,-6,0,0,0,0,0,0,2500,19,0,6.52569,0.15661656,
 ,"5.45 DESIGN ""Aggressor"" AK",10,0.29,-7,-13,0,0,0,0,0,0,3000,17.6,0,0,0,

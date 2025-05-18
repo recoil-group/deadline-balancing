@@ -1,4 +1,4 @@
-﻿0.24.1,Sat May 17 23:30:47 2025,,,,,,,,,,,,,
+﻿0.24.1,Sat May 17 23:44:17 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1273,9 +1273,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak74_bolt,,,,,,,,,,,,,
 651,,izhmash_ak74_5.45x39_bolt,Izhmash AK-74 5.45 Bolt,0,0.04,,,,,,,,,0
 ,ak74_bolt_carrier,,,,,,,,,,,,,
-,,izhmash_ak74_5.45x39_bolt_carrier,Izhmash AK-74 5.45X39 Bolt Carrier,0,0.25,,,,,,,,,0
+,,izhmash_ak74_5.45x39_bolt_carrier,Izhmash AK-74 5.45X39 Bolt Carrier,0,0.22,,,,,,,,,0
 ,ak74_bolt_piston,,,,,,,,,,,,,
-,,izhmash_ak74_bolt_piston,Izhmash AK-74 Bolt Piston,0,0.07,,,,,,,,,0
+,,izhmash_ak74_bolt_piston,Izhmash AK-74 Bolt Piston,0,0.06,,,,,,,,,0
 ,ak74_front_trunnion,,,,,,,,,,,,,
 ,,izhmash_ak74_front_trunnion,Izhmash AK-74 Front Trunnion,0,0.1,,,,,,,,,0
 ,ak_fsp,,,,,,,,,,,,,
@@ -1313,8 +1313,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,izhmash_ak_cleaning_rod,Izhmash AK Cleaning Rod,0,0.02,,-1,,0.02,,,,,0
 ,,izhmash_ak_short_cleaning_rod,Izhmash AK-105 Cleaning Rod,0,0.02,,,,0.02,,,,,50
 ,ak_lower_receiver,,,,,,,,,,,,,
-659,,izhmash_ak74_lower_receiver,Izhmash AK-74 Lower Reciever,0,0.4,,,,,,,,,0
-,,izhmash_ak100_series_lower_receiver,Izhmash AK-100 Series Lower Reciever,1,0.4,,,,,,,,,5000
+659,,izhmash_ak74_lower_receiver,Izhmash AK-74 Lower Reciever,0,0.3,,,,,,,,,0
+,,izhmash_ak100_series_lower_receiver,Izhmash AK-100 Series Lower Reciever,1,0.3,,,,,,,,,5000
 ,ak74_mag_release,,,,,,,,,,,,,
 ,,izhmash_ak74_mag_release,Izhmash AK-74 Mag Release,1,0.01,,,,,,,,,0
 ,ak_sight_mount,,,,,,,,,,,,,
@@ -1330,11 +1330,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,akm_bolt,,,,,,,,,,,,,
 665,,izhmash_akm_7.62x39_bolt,Izhmash AKM 7.62x39 Bolt,0,0.04,,,,,,,,,0
 ,akm_bolt_carrier,,,,,,,,,,,,,
-,,izhmash_akm_7.62x39_bolt_carrier,Izhmash AKM 7.62x39 Bolt Carrier,0,0.28,,,,,,,,,0
+,,izhmash_akm_7.62x39_bolt_carrier,Izhmash AKM 7.62x39 Bolt Carrier,0,0.25,,,,,,,,,0
 ,akm_bolt_piston,,,,,,,,,,,,,
-,,izhmash_akm_bolt_piston,Izhmash AKM Bolt Piston,0,0.07,,,,,,,,,0
+,,izhmash_akm_bolt_piston,Izhmash AKM Bolt Piston,0,0.06,,,,,,,,,0
 ,akm_lower_receiver,,,,,,,,,,,,,
-666,,izhmash_akm_lower_receiver,Izhmash AKM Lower Reciever,0,0.43,,,,,,,,,0
+666,,izhmash_akm_lower_receiver,Izhmash AKM Lower Reciever,0,0.33,,,,,,,,,0
 ,akm_mag_release,,,,,,,,,,,,,
 ,,izhmash_akm_mag_release,Izhmash AKM Mag Release,1,0.01,,,,,,,,,0
 ,ak_trigger,,,,,,,,,,,,,
@@ -1353,13 +1353,13 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,retro_arms_cnc_ak_model_a_fire_selector,Retro Arms CNC AK MODEL A Fire Selector,1,0.01,,,,,,,,,750
 ,,legal_arsenal_ak_enhanced_safety_fire_selector,Legal Arsenal AK Enhanced Safety Fire Selector,1.5,0.03,,,,,,,,,900
 ,ak_carbine_lower,,,,,,,,,,,,,
-,,izhmash_aks74u_lower_receiver,Izhmash AKS-74U Lower Receiver,1,0.4,,,,,,,,,0
+,,izhmash_aks74u_lower_receiver,Izhmash AKS-74U Lower Receiver,1,0.3,,,,,,,,,0
 ,aks74u_barrel,,,,,,,,,,,,,
 ,,izhmash_aks74u_210mm_5.45x39_barrel,Izhmash AKS-74U 210mm 5.45x39 Barrel,5,0.27,-3,-5,,0.2,-0.1,-200,,,0
 ,aks74u_bolt,,,,,,,,,,,,,
 ,,izhmash_aks74u_5.45x39_bolt,Izhmash AKS-74U Bolt,0,0.04,,,,,,,,,0
 ,aks74u_bolt_carrier,,,,,,,,,,,,,
-,,izhmash_aks74u_5.45x39_bolt_carrier,Izhmash AKS-74U 5.45x39 Bolt Carrier,0,0.25,,,,,,,,,0
+,,izhmash_aks74u_5.45x39_bolt_carrier,Izhmash AKS-74U 5.45x39 Bolt Carrier,0,0.22,,,,,,,,,0
 ,aks74u_piston,,,,,,,,,,,,,
 ,,izhmash_aks74u_bolt_piston,Izhmash AKS-74U Bolt Piston,0,0.03,,,,,,,,,0
 ,aks74u_fsp,,,,,,,,,,,,,
@@ -2139,7 +2139,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,pp19_front_trunnion,,,,,,,,,,,,,
 ,,izhmash_pp-19-01_vityaz_front_trunnion,Izhmash PP-19-01 Vityaz Front Trunnion,0,0.06,,,,,,,,,0
 ,pp19_lower,,,,,,,,,,,,,
-,,izhmash_pp-19-01_vityaz_lower_receiver,Izhmash PP-19-01 Vityaz Lower Reciever,0,0.3,,,,,,,,,0
+,,izhmash_pp-19-01_vityaz_lower_receiver,Izhmash PP-19-01 Vityaz Lower Reciever,0,0.2,,,,,,,,,0
 ,pp19_fire_selector,,,,,,,,,,,,,
 ,,izhmash_pp-19-01_vityaz_fire_selector,Izhmash PP-19-01 Vityaz Fire Selector,0,0.02,,,,,,,,,0
 ,pp19_trigger,,,,,,,,,,,,,
@@ -2159,7 +2159,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,pp19_spring_retainer,,,,,,,,,,,,,
 ,,izhmash_pp-19-01_vityaz_spring_retainer,Izhmash PP-19-01 Vityaz Spring Retainer,0,0.01,,,,,,,,,0
 ,pp19_bolt_carrier,,,,,,,,,,,,,
-1052,,izhmash_pp-19-01_vityaz_9x19_bolt_carrier,Izhmash PP-19-01 Vityaz 9x19 Bolt Carrier,0,0.26,,,,,,,,,0
+1052,,izhmash_pp-19-01_vityaz_9x19_bolt_carrier,Izhmash PP-19-01 Vityaz 9x19 Bolt Carrier,0,0.23,,,,,,,,,0
 ,pp19_bolt_piston,,,,,,,,,,,,,
 ,,izhmash_pp-19-01_vityaz_bolt_piston,Izhmash PP-19-01 Vityaz Bolt Piston,0,0.03,,,,,,,,,0
 ,pp19_dustcover,,,,,,,,,,,,,
@@ -2815,7 +2815,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1348,,Vector,TDI Kriss Vector Gen II,30,0,60,40,0,1.2,1,900,,,90000
 1349,,MK9,CmmG MK9 T,30,0,60,75,0,1,1,1200,,,20000
 1350,,UMP,HK UMP,58,0.2,86,96,0,1,1,880,,,15000
-1351,,AK_9,AK 9mm,20,0.2,50,75,0,0.9,1,1200,,,11000
+1351,,AK_9,AK 9mm,20,0,50,75,0,0.9,1,1200,,,11000
 ,turret,,,,,,,,,,,,,
 1352,,Turret,Handheld turret,30,3,60,40,200,1.6,1,600,,,100
 ,placer,,,,,,,,,,,,,

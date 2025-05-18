@@ -1,5 +1,5 @@
 ﻿,,new,,,,,,,,,,,,,,,,,,,,,
-name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,bullet_deviation,bullet_damage,bullet_velocity,buck_bullet_deviation,fire_rate,price,strength,,base,length,mod,,,irl price,,,
+name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price,strength,,base,length,mod,,,irl price,,,
 cmmg_ar_15_5.56x45_610mm_fluted_r_barrel,"CMMG 24"" Fluted AR-15 Rifle Length Gastube 5.56x45",-12,0.91,-16,-16,,-0.3,0.4,262,,-0.06,5000,-1.426666667,,0.18,24,-0.06,0.91,,349.95,2099.7,,
 brwnls_a1_m4a1_5.56x45_508mm_govt_r_barrel,"Brownells A1 Government 20"" Rifle Length Gastube 5.56x45",-9,0.84,-10,-10,,-0.2,0.26,179,,-0.06,1600,-7.603333333,,0.18,20,,0.84,,344.99,2069.94,,0.80952381
 brwnls_m4a1_5.56x45_508mm_hbar_r_barrel,"Brownells HBAR 20"" Rifle Length Gastube 5.56x45",-10,0.92,-11,-12,,-0.22,0.26,191,,-0.06,2000,-8.063333333,,0.18,20,0.08,0.92,,349.99,2099.94,,
@@ -26,7 +26,7 @@ fn_scar_l_355mm_barrel,FN SCAR-L 355mm,0,0.6,0,0,,0,0,17,,,1000,-11.94333333,,0.
 fn_scar_l_254mm_barrel,FN SCAR-L 254mm,2,0.47,1,2,,0.2,-0.08,-135,,,1200,-11.65,,0.14,10,,0.47,,,,,
 ,,,,,,,,,,,,,0,,,,,0,,,,,
 steyr_aug_hbar_620mm_heavy_barrel,Steyr AUG HBAR 5.56x45 620mm Heavy LMG,-10,1.01,-8,-8,,0.1,0.28,269,,,2000,-15.80333333,,0.1,24.4094,0.1,1.01,,,,,
-steyr_aug_508mm_barrel,Steyr AUG A3 5.56x45 508mm,-4,0.76,-5,-5,,-0.18,0.24,179,,,1000,-8.303333333,,0.1,20,,0.76,,,,,
+steyr_aug_508mm_barrel,Steyr AUG A3 5.56x45 508mm,-4,0.76,-5,-5,,-0.15,0.24,179,,,1000,-8.453333333,,0.1,20,,0.76,,,,,
 steyr_aug_457mm_barrel,Steyr AUG A3 5.56x45 457mm,-2,0.69,-3,-3,,-0.08,0.16,131,,,750,-9.163333333,,0.1,17.9921,,0.69,,,,,
 steyr_aug_407mm_barrel,Steyr AUG A3 5.56x45 407mm,0,0.63,-1,-1,,0,0.1,79,,,0,-9.936666667,,0.1,16.0236,,0.63,,,,,
 steyr_aug_350mm_barrel,Steyr AUG A3 5.56x45 350mm,2,0.55,0,0,,0.1,0,10,,,600,-9.466666667,,0.1,13.7795,,0.55,,,,,

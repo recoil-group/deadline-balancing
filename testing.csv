@@ -1,4 +1,4 @@
-﻿0.24.1,Sun May 18 00:03:46 2025,,,,,,,,,,,,,
+﻿0.24.1,Sun May 18 00:24:21 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1182,8 +1182,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak_carbine_rear_sight,,,,,,,,,,,,,
 ,,izhmash_aks74u_rear_sight,Izhmash AKS-74U Rear Sight,,0.01,,,,,,,,,0
 ,ak_rs_block,,,,,,,,,,,,,
-,,izhmash_ak74_rear_sight_block,Izhmash AK-74 Rear Sight Block,0,0.1,,,,,,,,,0
-,,izhmash_akm_rear_sight_block,Izhmash AKM Rear Sight Block,0,0.11,,,,,,,,,0
+,,izhmash_ak74_rear_sight_block,Izhmash AK-74 Rear Sight Block,0,0.09,,,,,,,,,0
+,,izhmash_akm_rear_sight_block,Izhmash AKM Rear Sight Block,0,0.1,,,,,,,,,0
 ,ak_barrel_mount,,,,,,,,,,,,,
 621,,rs_regulate_bm_1_akm_spec_.59_accessory_mount,RS Regulate BM-1 AKM Spec .59 Accessory,-1,0.04,,,,,,,,,500
 ,ak_dovetail_mount,,,,,,,,,,,,,
@@ -1273,11 +1273,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak74_bolt,,,,,,,,,,,,,
 651,,izhmash_ak74_5.45x39_bolt,Izhmash AK-74 5.45 Bolt,0,0.04,,,,,,,,,0
 ,ak74_bolt_carrier,,,,,,,,,,,,,
-,,izhmash_ak74_5.45x39_bolt_carrier,Izhmash AK-74 5.45X39 Bolt Carrier,0,0.22,,,,,,,,,0
+,,izhmash_ak74_5.45x39_bolt_carrier,Izhmash AK-74 5.45X39 Bolt Carrier,0,0.2,,,,,,,,,0
 ,ak74_bolt_piston,,,,,,,,,,,,,
-,,izhmash_ak74_bolt_piston,Izhmash AK-74 Bolt Piston,0,0.06,,,,,,,,,0
+,,izhmash_ak74_bolt_piston,Izhmash AK-74 Bolt Piston,0,0.05,,,,,,,,,0
 ,ak74_front_trunnion,,,,,,,,,,,,,
-,,izhmash_ak74_front_trunnion,Izhmash AK-74 Front Trunnion,0,0.1,,,,,,,,,0
+,,izhmash_ak74_front_trunnion,Izhmash AK-74 Front Trunnion,0,0.09,,,,,,,,,0
 ,ak_fsp,,,,,,,,,,,,,
 ,,izhmash_ak_front_sight_post,Izhmash AK Front Sight Post,1,0.01,,,,,,,,,0
 ,ak74_fs_block,,,,,,,,,,,,,
@@ -1298,7 +1298,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak105_barrel,,,,,,,,,,,,,
 ,,izhmash_ak105_314mm_5.45x39_barrel,Izhmash AK-105 314mm 5.45x39,3,0.39,-3,-4,,0.1,-0.05,-35,,,3000
 ,ak100_front_trunnion,,,,,,,,,,,,,
-,,izhmash_ak100_series_front_trunnion,Izhmash AK-100 Series Front Trunnion,1,0.13,,,,,,,,,200
+,,izhmash_ak100_series_front_trunnion,Izhmash AK-100 Series Front Trunnion,1,0.12,,,,,,,,,200
 ,ak100_rear_trunnion,,,,,,,,,,,,,
 ,,izhmash_ak100_series_rear_trunnion,Izhmash AK-100 Series Rear Trunnion,1,0.05,,,,,,,,,200
 ,ak_folding_stock,,,,,,,,,,,,,
@@ -1330,9 +1330,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,akm_bolt,,,,,,,,,,,,,
 665,,izhmash_akm_7.62x39_bolt,Izhmash AKM 7.62x39 Bolt,0,0.04,,,,,,,,,0
 ,akm_bolt_carrier,,,,,,,,,,,,,
-,,izhmash_akm_7.62x39_bolt_carrier,Izhmash AKM 7.62x39 Bolt Carrier,0,0.25,,,,,,,,,0
+,,izhmash_akm_7.62x39_bolt_carrier,Izhmash AKM 7.62x39 Bolt Carrier,0,0.23,,,,,,,,,0
 ,akm_bolt_piston,,,,,,,,,,,,,
-,,izhmash_akm_bolt_piston,Izhmash AKM Bolt Piston,0,0.06,,,,,,,,,0
+,,izhmash_akm_bolt_piston,Izhmash AKM Bolt Piston,0,0.05,,,,,,,,,0
 ,akm_lower_receiver,,,,,,,,,,,,,
 666,,izhmash_akm_lower_receiver,Izhmash AKM Lower Reciever,0,0.33,,,,,,,,,0
 ,akm_mag_release,,,,,,,,,,,,,
@@ -1342,7 +1342,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak_trigger_guard,,,,,,,,,,,,,
 ,,izhmash_akm_trigger_guard,Izhmash AKM Trigger Guard,0,0.02,,,,,,,,,0
 ,akm_front_trunnion,,,,,,,,,,,,,
-,,izhmash_akm_front_trunnion,Izhmash AKM Front Trunnion,0,0.1,,,,,,,,,0
+,,izhmash_akm_front_trunnion,Izhmash AKM Front Trunnion,0,0.09,,,,,,,,,0
 ,ak_rmp_dovetail,,,,,,,,,,,,,
 ,,izhmash_rmp3_dovetail_mount,Izhmash RMP-3 Dovetail,1,0.03,,,,,,,,,300
 ,,izhmash_rmp5_dovetail_mount,Izhmash RMP-5 Dovetail,1,0.04,,,,,,,,,300
@@ -1359,17 +1359,17 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,aks74u_bolt,,,,,,,,,,,,,
 ,,izhmash_aks74u_5.45x39_bolt,Izhmash AKS-74U Bolt,0,0.04,,,,,,,,,0
 ,aks74u_bolt_carrier,,,,,,,,,,,,,
-,,izhmash_aks74u_5.45x39_bolt_carrier,Izhmash AKS-74U 5.45x39 Bolt Carrier,0,0.22,,,,,,,,,0
+,,izhmash_aks74u_5.45x39_bolt_carrier,Izhmash AKS-74U 5.45x39 Bolt Carrier,0,0.2,,,,,,,,,0
 ,aks74u_piston,,,,,,,,,,,,,
-,,izhmash_aks74u_bolt_piston,Izhmash AKS-74U Bolt Piston,0,0.03,,,,,,,,,0
+,,izhmash_aks74u_bolt_piston,Izhmash AKS-74U Bolt Piston,0,0.02,,,,,,,,,0
 ,aks74u_fsp,,,,,,,,,,,,,
 ,,izhmash_aks74u_front_sight_post,Izhmash AKS-74U Front Sight Post,1,0.01,,,,,,,,,
 ,aks74u_fs_block,,,,,,,,,,,,,
 ,,izhmash_aks74u_front_sight_block,Izhmash AKS-74U Front Sight Block,0,0.05,,,,,,,,,0
 ,aks74u_front_trunnion,,,,,,,,,,,,,
-,,izhmash_aks74_front_trunnion,Izhmash AKS-74U Front Trunnion,1,0.13,,,,,,,,,0
+,,izhmash_aks74_front_trunnion,Izhmash AKS-74U Front Trunnion,1,0.12,,,,,,,,,0
 ,aks74u_rs_block,,,,,,,,,,,,,
-,,izhmash_aks74u_rear_sight_block,Izhmash AKS-74U Rear Sight Block,,0.06,,,,,,,,,0
+,,izhmash_aks74u_rear_sight_block,Izhmash AKS-74U Rear Sight Block,,0.05,,,,,,,,,0
 ,ak_barrel_end,,,,,,,,,,,,,
 667,,dt_dpmn_fh,Delta-Tek DPMN,3,0.11,-9,-13,,0.05,0.05,35,,,750
 668,,dt_dtkai_mb,Delta-Tek DTK AK IPSC,-2,0.08,-18,-10,,0.2,-0.05,10,,,750
@@ -1417,15 +1417,15 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak_carbine_hanguard_top_cover,,,,,,,,,,,,,
 ,,izhmash_aks74u_wooden_6p26_sb6_upper_handguard,Izhmash AKS-74U Wooden 6p26 Sb.6 Upper Handguard,1,0.04,0,-0.5,,,,,,,0
 ,ak_grip,,,,,,,,,,,,,
-694,,zenitco_rk3_ak_pistol_grip,RK-3,7,0.11,-3,-5,,,,,,,1000
-695,,ak12_gen1_pistol_grip,AK-12 Gen 1,5,0.1,-5,-3,,,,,,,800
-696,,izhmash_ak74_bakelite_6p4_sb8v,Izhmash AK-74 Bakelite 6P4 Sb.8v,4,0.11,-4,-4,,,,,,,400
+694,,zenitco_rk3_ak_pistol_grip,RK-3,7,0.11,-5,-3,,,,,,,1000
+695,,ak12_gen1_pistol_grip,AK-12 Gen 1,5,0.1,-6,-4,,,,,,,800
+696,,izhmash_ak74_bakelite_6p4_sb8v,Izhmash AK-74 Bakelite 6P4 Sb.8v,4,0.09,-4,-5,,,,,,,400
 697,,ds_ace_ak_ar15_adapter,DoubleStar ACE AK AR-15 Grip adapter,-1,0.03,,,,,,,,,1500
-698,,izhmash_ak74_polymer_6p1_sb8,Izhmash AK-74 Polymer 6P1 Sb.8,4,0.07,-4,-4,,,,,,,300
-699,,mg47,KGB MG-47,5,0.05,-3,-3,,,,,,,750
-700,,izhmash_pp-19-01_vityaz_pistol_grip,Izhmash PP-19-01 Vityaz Pistol Grip,6,0.11,-4,-4,,,,,,,300
-701,,us_palm_ak_pistol_grip,US Palm AK,6,0.08,-2,-6,,,,,,,900
-,,magpul_moe_k2_ak_pistol_grip,Magpul MOE-K2 AK,7,0.11,-4,-3,,,,,,,800
+698,,izhmash_ak74_polymer_6p1_sb8,Izhmash AK-74 Polymer 6P1 Sb.8,4,0.07,-4,-5,,,,,,,300
+699,,mg47,KGB MG-47,5,0.05,-4,-4,,,,,,,750
+700,,izhmash_pp-19-01_vityaz_pistol_grip,Izhmash PP-19-01 Vityaz Pistol Grip,6,0.09,-4,-5,,,,,,,300
+701,,us_palm_ak_pistol_grip,US Palm AK,6,0.08,-3,-6,,,,,,,900
+,,magpul_moe_k2_ak_pistol_grip,Magpul MOE-K2 AK,7,0.1,-4,-4,,,,,,,800
 ,ak_handguard_retainer,,,,,,,,,,,,,
 ,,izhmash_ak_handguard_retainer,Izhmash AK Handguard Retainer,,0.01,,,,,,,,,0
 ,ak_carbine_hanguard_retainer,,,,,,,,,,,,,
@@ -2137,7 +2137,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,pp19_fs_block,,,,,,,,,,,,,
 ,,izhmash_pp-19-01_vityaz_front_sight_block,Izhmash PP-19-01 Vityaz Front Sight Block,0,0.04,,,,,,,,,0
 ,pp19_front_trunnion,,,,,,,,,,,,,
-,,izhmash_pp-19-01_vityaz_front_trunnion,Izhmash PP-19-01 Vityaz Front Trunnion,0,0.06,,,,,,,,,0
+,,izhmash_pp-19-01_vityaz_front_trunnion,Izhmash PP-19-01 Vityaz Front Trunnion,0,0.05,,,,,,,,,0
 ,pp19_lower,,,,,,,,,,,,,
 ,,izhmash_pp-19-01_vityaz_lower_receiver,Izhmash PP-19-01 Vityaz Lower Reciever,0,0.2,,,,,,,,,0
 ,pp19_fire_selector,,,,,,,,,,,,,
@@ -2159,16 +2159,16 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,pp19_spring_retainer,,,,,,,,,,,,,
 ,,izhmash_pp-19-01_vityaz_spring_retainer,Izhmash PP-19-01 Vityaz Spring Retainer,0,0.01,,,,,,,,,0
 ,pp19_bolt_carrier,,,,,,,,,,,,,
-1052,,izhmash_pp-19-01_vityaz_9x19_bolt_carrier,Izhmash PP-19-01 Vityaz 9x19 Bolt Carrier,0,0.23,,,,,,,,,0
+1052,,izhmash_pp-19-01_vityaz_9x19_bolt_carrier,Izhmash PP-19-01 Vityaz 9x19 Bolt Carrier,0,0.21,,,,,,,,,0
 ,pp19_bolt_piston,,,,,,,,,,,,,
-,,izhmash_pp-19-01_vityaz_bolt_piston,Izhmash PP-19-01 Vityaz Bolt Piston,0,0.03,,,,,,,,,0
+,,izhmash_pp-19-01_vityaz_bolt_piston,Izhmash PP-19-01 Vityaz Bolt Piston,0,0.02,,,,,,,,,0
 ,pp19_dustcover,,,,,,,,,,,,,
 1053,,izhmash_pp-19-01_vityaz_std_dust_cover,Izhmash PP-19-01 Vityaz Standard Dust Cover,6,0.06,-3,-3,,,,,,,300
 1054,,izhmash_pp-19-01_vityaz_sn_picatinny_dust_cover,Izhmash PP-19-01 Vityaz-SN Picatinny Dust Cover,3,0.09,-2,-2,,,,,,,2000
 ,pp19_gastube,,,,,,,,,,,,,
 1055,,izhmash_pp-19-01_vityaz_gastube,Izhmash PP-19-01 Vityaz Gastube,0,0.05,,,,,,,,,0
 ,pp19_rs_block,,,,,,,,,,,,,
-,,izhmash_pp-19-01_vityaz_rear_sight_block,Izhmash PP-19-01 Vityaz Rear Sight Block,0,0.11,,,,,,,,,0
+,,izhmash_pp-19-01_vityaz_rear_sight_block,Izhmash PP-19-01 Vityaz Rear Sight Block,0,0.1,,,,,,,,,0
 ,pp19_rear_sight,,,,,,,,,,,,,
 1056,,izhmash_pp-19-01_vityaz_rear_sight,Ishmash PP-19-01 Vityaz Rear Sight,1,0.01,,,,,,,,,0
 ,5.56x45_muzzle_device,,,,,,,,,,,,,

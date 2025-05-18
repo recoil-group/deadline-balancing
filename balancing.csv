@@ -1,4 +1,4 @@
-﻿0.24.1,Sat May 17 16:01:26 2025,,,,,,,,,,,,,
+﻿0.24.1,Sat May 17 17:37:15 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -268,9 +268,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,izhmash_aks74_spring,Izhmash AKS-74 Spring,2,0.02,,,,,,,,,
 ,ak_fixed_stock,,,,,,,,,,,,,
 136,,fab_defense_uas_akn_p,FAB Defense UAS AKN P,16,0.33,-7,-14,,,,,,,700
-137,,izhmash_ak74_polymer_6p20_sb7,Izhmash AK-74 Polymer 6P20 Sb.7,15,0.25,-7,-13,,,,,,,600
-138,,izhmash_ak74_wooden_6p20_sb5,Izhmask AK-74 Wooden 6P20 Sb.5,15,0.3,-8,-13,,,,,,,0
-,,izhmash_akm_wooden_6p1_sb5,Izhmask AKM Wooden 6P1 Sb.5,15,0.3,-8,-13,,,,,,,0
+137,,izhmash_ak74_polymer_6p20_sb7,Izhmash AK-74 Polymer 6P20 Sb.7,15,0.22,-8,-11,,,,,,,600
+138,,izhmash_ak74_wooden_6p20_sb5,Izhmask AK-74 Wooden 6P20 Sb.5,15,0.29,-8,-13,,,,,,,0
+,,izhmash_akm_wooden_6p1_sb5,Izhmask AKM Wooden 6P1 Sb.5,15,0.29,-8,-13,,,,,,,0
 139,,zenitco_akm_ak74_pt_lock,Zenitco AKM/AK74 PT Lock,0,0.04,,,,,,,,,700
 140,,me_adapter,ME Adapter,0,0.13,0,0,,,,,,,400
 141,,caa_akts_akm_ak74_buffer_tube,CAA AKTS AKM/AK74 Buffer Tube,0,0.13,0,0,,,,,,,750
@@ -1303,7 +1303,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,izhmash_ak100_series_rear_trunnion,Izhmash AK-100 Series Rear Trunnion,2,0.05,,,,,,,,,200
 ,ak_folding_stock,,,,,,,,,,,,,
 ,,izhmash_aks74u_6p26_sb5_skeletonized_stock,Izhmash AKS-74U 6P26 Sb.5 Skeletonized Stock,13,0.19,-8,-11,,,,,,,0
-,,izhmash_ak74m_polymer_6p34_sb15,Izhmash AK-74M Polymer 6P34 Sb.15,15,0.25,-7,-13,,,,,,,600
+,,izhmash_ak74m_polymer_6p34_sb15,Izhmash AK-74M Polymer 6P34 Sb.15,15,0.22,-8,-11,,,,,,,600
 655,,izhmash_pp-19-01_vityaz_folding_stock,Izhmash PP-19-01 Vityaz Folding Stock,14,0.2,-7,-11,,,,,,,300
 656,,zenitco_ak74m/ak100_pt_lock,Zenitco AK74M/AK100 PT Lock,0,0.02,,,,,,,,,700
 657,,ak12_gen1_buffer_tube,Kalashnikov Concern AK-12 Gen 1,-1,0.1,0,0,,,-0.1,,,,500

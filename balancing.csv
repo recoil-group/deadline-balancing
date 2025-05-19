@@ -1,4 +1,4 @@
-﻿0.24.1,Sun May 18 16:48:38 2025,,,,,,,,,,,,,
+﻿0.24.1,Sun May 18 21:18:25 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -291,11 +291,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,magpul_moe_a_frame_fixed_ak_stock,Magpul MOE A Frame Fixed AK Stock,17,0.24,-8,-7,,,,,,,1200
 ,,magpul_moe_a_frame_stock_buttpad,Magpul MOE A Frame Stock Buttpad,1,0.05,-1,-1,,,,,,,0
 ,ak_hera_stock,,,,,,,,,,,,,
-,,hera_arms_cqr_gen1_ak_stock,Hera Arms CQR Gen 1 AK Stock,10,0.35,-15,-20,,,,,,,2000
-,,hera_arms_cqr_ak_buttpad,Hera Arms CQR AK Buttpad,2,0.05,-2,-2,,,,,,,0
-,,hera_arms_cqr_ak_15mm_spacer,Hera Arms CQR AK 15mm Spacer,2,0.05,,,,,,,,,250
-,,hera_arms_cqr_ak_30mm_spacer,Hera Arms CQR AK 30mm Spacer,4,0.1,-1,,,,,,,,500
-,,hera_arms_cqr_ak_45mm_spacer,Hera Arms CQR AK 45mm Spacer,6,0.15,-2,-1,,,,,,,750
+,,hera_arms_cqr_gen1_ak_stock,Hera Arms CQR Gen 1 AK Stock,10,0.42,-15,-20,,,,,,,2000
+,,hera_arms_cqr_ak_buttpad,Hera Arms CQR AK Buttpad,1,0.03,-1,-1,,,,,,,0
+,,hera_arms_cqr_ak_15mm_spacer,Hera Arms CQR AK 15mm Spacer,0.5,0.03,,,,,,,,,250
+,,hera_arms_cqr_ak_30mm_spacer,Hera Arms CQR AK 30mm Spacer,1,0.06,,,,,,,,,500
+,,hera_arms_cqr_ak_45mm_spacer,Hera Arms CQR AK 45mm Spacer,1.5,0.09,,,,,,,,,750
 ,zenit_belomo_pkas_sight,,,,,,,,,,,,,
 143,,zenit_belomo_pk_as,Zenit BelOMO PK-AS Red Dot Sight,-2,0.17,,,,,,,,,1000
 ,rs_regulate_rail,,,,,,,,,,,,,
@@ -1243,14 +1243,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak12_gen2_pistol_grip,,,,,,,,,,,,,
 639,,ak12_gen2_pistol_grip,Kalashnikov Concern AK-12 Gen 2,4,0.1,-6.5,-1,,,,,,,0
 ,ak12_gen2_stock,,,,,,,,,,,,,
-640,,ak12_gen2_stock,Kalashnikov Concern AK-12 Gen 2,17,0.13,-22,-12,,-0.1,,,,,0
-,,kalashnikov_concern_rpl_20_stock,Kalashnikov Concern RPL-20 Stock,9,0.18,-18,-22,,0.05,,,,,2000
+640,,ak12_gen2_stock,Kalashnikov Concern AK-12 Gen 2,16,0.2,-11,-6,,,,,,,0
+,,kalashnikov_concern_rpl_20_stock,Kalashnikov Concern RPL-20 Stock,8,0.24,-14,-17,,0.05,,,,,2000
 ,ak12_gen3_cheekpad,,,,,,,,,,,,,
-,,kalashnikov_concern_ak12_gen3_stock_cheekpad,Kalashnikov Concern AK-12 Gen 3 Stock Cheekpad,3,0.08,,,,,,,,,600
-,,kalashnikov_concern_ak12_gen3_stock_cheekpad_extended,Kalashnikov Concern AK-12 Gen 3 Stock Cheekpad Extended,5,0.08,1,2,,,,,,,600
+,,kalashnikov_concern_ak12_gen3_stock_cheekpad,Kalashnikov Concern AK-12 Gen 3 Stock Cheekpad,2,0.06,,,,,,,,,600
+,,kalashnikov_concern_ak12_gen3_stock_cheekpad_extended,Kalashnikov Concern AK-12 Gen 3 Stock Cheekpad Extended,4,0.06,1,2,,,,,,,600
 ,rpl20_cheekrest,,,,,,,,,,,,,
-,,rpl_20_cheek_pad_high,RPL-20 Cheek Pad High,5,0.06,2,2,,,,,,,0
-,,rpl_20_cheek_pad_low,RPL-20 Cheek Pad Low,1,0.06,-1,,,,,,,,0
+,,rpl_20_cheek_pad_high,RPL-20 Cheek Pad High,4,0.08,1,2,,,,,,,0
+,,rpl_20_cheek_pad_low,RPL-20 Cheek Pad Low,2,0.08,,,,,,,,,0
 ,ak12_lower_handguard,,,,,,,,,,,,,
 641,,ak12_std_lower_handguard,Kalashnikov Concern AK-12 Std.,8,0.12,0,0,,,,,,,500
 642,,lac_akvilon15,L.A.C. Akvilon-15,6,0.22,-1,-2,,,,,,,2000
@@ -1306,7 +1306,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,izhmash_ak74m_polymer_6p34_sb15,Izhmash AK-74M Polymer 6P34 Sb.15,15,0.22,-8,-11,,,,,,,600
 655,,izhmash_pp-19-01_vityaz_folding_stock,Izhmash PP-19-01 Vityaz Folding Stock,14,0.2,-7,-11,,,,,,,300
 656,,zenitco_ak74m/ak100_pt_lock,Zenitco AK74M/AK100 PT Lock,0,0.02,,,,,,,,,700
-657,,ak12_gen1_buffer_tube,Kalashnikov Concern AK-12 Gen 1,-1,0.1,0,0,,,-0.1,,,,500
+657,,ak12_gen1_buffer_tube,Kalashnikov Concern AK-12 Gen 1,-1,0.11,0,-1,,,,,,,500
 658,,caa_aksfsa_ak74m/ak100_buffer_tube,CAA AKSFSA AK74M/AK100 Buffer Tube,0,0.12,0,0,,,,,,,750
 ,,magpul_zhukov_s_hinge_part,Magpul ZHUKOV-S Hinge Part,0,0.07,,,,,,,,,600
 ,ak_cleaning_rod,,,,,,,,,,,,,
@@ -2792,7 +2792,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,rifle,,,,,,,,,,,,,
 1330,,HK416A5,HK416A5,28,0,56,90,0,0.45,1,1600,,,30000
 1331,,AUG_A3,Steyr AUG A3,42,0,58,63,0,0.45,1,1550,,,42000
-1332,,AK12,Kalashnikov Concern AK-12,28,0.85,63,57,0,0.5,1,1550,,,25000
+1332,,AK12,Kalashnikov Concern AK-12,35,0.85,50,50,0,0.5,1,1550,,,25000
 1333,,AK308,Kalashnikov Concern AK-308,40,0.7,80,100,0,0.7,0.8,1600,,,65000
 1334,,M4A1,M4A1,15,0,64,87,0,0.5,1,1550,,,0
 1335,,QBZ95,Norinco QBZ-95,45,2.3,50,50,0,0.5,0.9,1550,,,25000

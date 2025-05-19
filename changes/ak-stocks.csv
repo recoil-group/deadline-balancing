@@ -7,8 +7,8 @@ izhmash_ak74m_polymer_6p34_sb15,Izhmash AK-74M Polymer 6P34 Sb.15,15,0.22,-8,-11
 izhmash_ak_metallic_stock_buttpad,Izhmash AK Metallic Stock,0,0.05,,,,,,,,,0,-1,,,,,
 izhmash_ak74m_metallic_stock_buttpad,Izhmash AK-74M Metallic Stock Buttpad,0,0.05,,,,,,,,,0,-1,,,,,
 utg_ak_rb_k7btp01_combat_rubber_stock_buttpad_ak74,UTG AK RB K7BTP01 Combat Rubber Buttpad AK74,1,0.09,-1,-1,,,,,,,600,0.6,,6,,,
-izhmash_aks74u_6p26_sb5_skeletonized_stock,Izhmash AKS-74U 6P26 Sb.5 Skeletonized Stock,13,0.19,-8,-11,,,,,,,0,22.2,,,,,
-izhmash_pp-19-01_vityaz_folding_stock,Izhmash PP-19-01 Vityaz Folding Stock,14,0.2,-7,-11,,,,,,,300,22.2,,,,,
+izhmash_aks74u_6p26_sb5_skeletonized_stock,Izhmash AKS-74U 6P26 Sb.5 Skeletonized Stock,14,0.19,-8,-10,,,,,,,0,22.6,,,,,
+izhmash_pp-19-01_vityaz_folding_stock,Izhmash PP-19-01 Vityaz Folding Stock,15,0.2,-7,-10,,,,,,,300,22.6,,,,,
 zenitco_akm_ak74_pt_lock,Zenitco AKM/AK74 PT Lock,0,0.04,,,,,,,,,700,-0.8,,,,,
 zenitco_ak74m/ak100_pt_lock,Zenitco AK74M/AK100 PT Lock,0,0.02,,,,,,,,,700,-0.4,,,,,
 zenitco_pt_3_base_part,Zenitco PT-3 Adjustable,0,0.11,,,,,,,,,0,-2.2,,,,,
@@ -61,8 +61,8 @@ me_adapter,ME Adapter,0,0.13,0,0,,,,,,,400,-2.6,,9.35,,,
 ,Izhmask AK-74 Wooden 6P20 Sb.5 + pad,16,0.43,-9,-14,0,0,0,0,0,0,600,23,0,20.356518,0.488556432,,v
 ,Izhmash AK-74 Polymer 6P20 Sb.7 + pad,16,0.36,-9,-12,0,0,0,0,0,0,1200,23.2,0,16.987851,0.407708424,,v
 ,,,,,,,,,,,,,,,,0,,
-,Izhmash AKS-74U 6P26 Sb.5 Skeletonized Stock,13,0.19,-8,-11,0,0,0,0,0,0,0,22.2,0,0,0,,v
-,Izhmash PP-19-01 Vityaz Folding Stock,14,0.2,-7,12,0,0,0,0,0,0,300,22.2,0,0,0,,v
+,Izhmash AKS-74U 6P26 Sb.5 Skeletonized Stock,14,0.19,-8,-10,0,0,0,0,0,0,0,22.6,0,0,0,,v
+,Izhmash PP-19-01 Vityaz Folding Stock,15,0.2,-7,12,0,0,0,0,0,0,300,22.6,0,0,0,,v
 ,,,,,,,,,,,,,,,,0,,
 ,Zenitco AKM/AK74 PT Lock,,,,,,,,,,,,,,,0,,
 ,Zenitco PT-3 Adjustable,22,0.43,-8,-7,0,0,0,0,0,0,1400,24,0,19.4,0.4656,,e

@@ -1,4 +1,4 @@
-0.24.1,Mon May 19 14:03:50 2025,,,,,,,,,,,,,
+0.24.1,Mon May 19 20:02:46 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1165,15 +1165,15 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,r870_barrel_rear_sight,,,,,,,,,,,,,
 611,,r870_std_rear_sight,Remington Standard Barrel,1,0.02,,,,,,,,,0
 ,ak_dust_cover,,,,,,,,,,,,,
-612,,fab_defense_ak74_pdc_dust_cover,FAB Defence AK74 PDC,2,0.16,-2,-4,,,,,,,1000
-613,,izhmash_ak74m_6p34_01_dust_cover,Izhmash AK-74M 6P34 0-1,7,0.1,-3,-4,,,,,,,500
-614,,izhmash_ak74_6p1_01_dust_cover,Izhmash AK-74 6P1 0-1 Dust Cover,6,0.08,-3,-3,,,,,,,300
-615,,zenitco_b_33_ak_dust_cover,Zenitco B-33,3,0.18,-3,-2,,,,,,,2000
-616,,akademia_bastion_dust_cover,AKademia bastion,1,0.2,-4,-4,,,,,,,1200
-,,midwest_industries_alpha_ak_series_railed_top_cover,Midwest Industries ALPHA AK series Railed Top Cover,4,0.23,-4,-2,,,,,,,2000
+612,,fab_defense_ak74_pdc_dust_cover,FAB Defence AK74 PDC,2,0.17,-2,-4,,,,,,,1000
+613,,izhmash_ak74m_6p34_01_dust_cover,Izhmash AK-74M 6P34 0-1,7,0.11,-3,-4,,,,,,,500
+614,,izhmash_ak74_6p1_01_dust_cover,Izhmash AK-74 6P1 0-1 Dust Cover,6,0.09,-3,-3,,,,,,,300
+615,,zenitco_b_33_ak_dust_cover,Zenitco B-33,3,0.19,-3,-2,,,,,,,2000
+616,,akademia_bastion_dust_cover,AKademia bastion,1,0.21,-4,-4,,,,,,,1200
+,,midwest_industries_alpha_ak_series_railed_top_cover,Midwest Industries ALPHA AK series Railed Top Cover,4,0.24,-4,-2,,,,,,,2000
 ,ak_carbine_dust_cover,,,,,,,,,,,,,
-,,izhmash_aks74u_6p26_sb7_dust_cover,Izhmash AKS-74U 6P26 Sb.7 Dust Cover,8,0.12,-2,-3,,,,,,,0
-,,legal_arsenal_pilgrim_aksu_dust_cover,Legal Arsenal Pilgrim AKSU Railed,5,0.14,-1,-1,,,,,,,1500
+,,izhmash_aks74u_6p26_sb7_dust_cover,Izhmash AKS-74U 6P26 Sb.7 Dust Cover,8,0.13,-2,-3,,,,,,,0
+,,legal_arsenal_pilgrim_aksu_dust_cover,Legal Arsenal Pilgrim AKSU Railed,5,0.15,-1,-1,,,,,,,1500
 ,ak_rear_sight,,,,,,,,,,,,,
 617,,scout_scopes_ak_drop_on_rail,Scout Scopes AK,1,0.12,,,,,,,,,1000
 618,,si_ak_drop_on_rail,Strike Industries Ak,-0.5,0.06,,,,,,,,,1000
@@ -1314,7 +1314,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,izhmash_ak_short_cleaning_rod,Izhmash AK-105 Cleaning Rod,0,0.02,,,,0.02,,,,,50
 ,ak_lower_receiver,,,,,,,,,,,,,
 659,,izhmash_ak74_lower_receiver,Izhmash AK-74 Lower Reciever,0,0.3,,,,,,,,,0
-,,izhmash_ak100_series_lower_receiver,Izhmash AK-100 Series Lower Reciever,1,0.31,,,,,,,,,5000
+,,izhmash_ak100_series_lower_receiver,Izhmash AK-100 Series Lower Reciever,1,0.32,,,,,,,,,5000
 ,ak74_mag_release,,,,,,,,,,,,,
 ,,izhmash_ak74_mag_release,Izhmash AK-74 Mag Release,0,0.01,,,,,,,,,0
 ,ak_sight_mount,,,,,,,,,,,,,
@@ -1352,7 +1352,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,retro_arms_cnc_ak_model_a_fire_selector,Retro Arms CNC AK MODEL A Fire Selector,1,0.01,,,,,,,,,750
 ,,legal_arsenal_ak_enhanced_safety_fire_selector,Legal Arsenal AK Enhanced Safety Fire Selector,1.5,0.03,,,,,,,,,900
 ,ak_carbine_lower,,,,,,,,,,,,,
-,,izhmash_aks74u_lower_receiver,Izhmash AKS-74U Lower Receiver,1,0.3,,,,,,,,,0
+,,izhmash_aks74u_lower_receiver,Izhmash AKS-74U Lower Receiver,1,0.32,2,2,,,,,,,0
 ,aks74u_barrel,,,,,,,,,,,,,
 ,,izhmash_aks74u_210mm_5.45x39_barrel,Izhmash AKS-74U 210mm 5.45x39 Barrel,8,0.29,1,0,,0.25,-0.1,-200,,,0
 ,aks74u_bolt,,,,,,,,,,,,,
@@ -2162,8 +2162,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,pp19_bolt_piston,,,,,,,,,,,,,
 ,,izhmash_pp-19-01_vityaz_bolt_piston,Izhmash PP-19-01 Vityaz Bolt Piston,0,0.03,,,,,,,,,0
 ,pp19_dustcover,,,,,,,,,,,,,
-1053,,izhmash_pp-19-01_vityaz_std_dust_cover,Izhmash PP-19-01 Vityaz Standard Dust Cover,6,0.06,-3,-3,,,,,,,300
-1054,,izhmash_pp-19-01_vityaz_sn_picatinny_dust_cover,Izhmash PP-19-01 Vityaz-SN Picatinny Dust Cover,3,0.09,-2,-2,,,,,,,2000
+1053,,izhmash_pp-19-01_vityaz_std_dust_cover,Izhmash PP-19-01 Vityaz Standard Dust Cover,6,0.07,-3,-3,,,,,,,300
+1054,,izhmash_pp-19-01_vityaz_sn_picatinny_dust_cover,Izhmash PP-19-01 Vityaz-SN Picatinny Dust Cover,3,0.1,-2,-2,,,,,,,2000
 ,pp19_gastube,,,,,,,,,,,,,
 1055,,izhmash_pp-19-01_vityaz_gastube,Izhmash PP-19-01 Vityaz Gastube,0,0.05,,,,,,,,,0
 ,pp19_rs_block,,,,,,,,,,,,,

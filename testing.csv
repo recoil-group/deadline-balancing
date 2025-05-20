@@ -1,4 +1,4 @@
-0.24.1,Mon May 19 20:02:46 2025,,,,,,,,,,,,,
+0.24.1,Mon May 19 21:18:49 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1234,8 +1234,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak12_bolt,,,,,,,,,,,,,
 636,,ak12_std_5.45x39_bolt,AK-12 5.45x39,0,0,,,,,,,,,0
 ,ak12_dust_cover,,,,,,,,,,,,,
-637,,ak12_gen2_dustcover,Kalashnikov Concern AK-12 Gen2 Dust Cover,1,0.35,0,0,,,,,,,800
-,,ak12_gen1_dustcover,Kalashnikov Concern AK-12 Gen1,0,0.31,0,0,,,,,,,0
+637,,ak12_gen2_dustcover,Kalashnikov Concern AK-12 Gen2 Dust Cover,1,0.28,0,0,,,,,,,800
+,,ak12_gen1_dustcover,Kalashnikov Concern AK-12 Gen1,0,0.24,0,0,,,,,,,0
 ,ak12_rear_sight,,,,,,,,,,,,,
 ,,kalashnikov_concern_ak12_gen1_rear_sight,Kalashnikov Concern AK-12 Gen1 Rear Sight,2,0.05,,,,,,,,,0
 ,ak12_fire_selector,,,,,,,,,,,,,
@@ -1257,8 +1257,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kalashnikov_concern_rpk16_handguard,Kalashnikov Convern RPK-16 Handguard,3,0.18,-2,-4,,,,,,,1500
 ,,arms_rtg_ak12_megatron_handguard,Arms RTG Ak12 Megatron Handguard,4,0.28,-3,-5,,,,,,,2500
 ,ak12_lower_receiver,,,,,,,,,,,,,
-643,,ak12_gen2_lower_receiver,Kalashnikov Concern AK-12 Gen 2,5,0.46,1,1,,-0.05,,,,,1500
-644,,ak12_gen1_lower_receiver,Kalashnikov Concern AK-12 Gen 1,0,0.42,-2,0,,0,,,,,500
+643,,ak12_gen2_lower_receiver,Kalashnikov Concern AK-12 Gen 2,5,0.46,3,1,,-0.05,,,,,1500
+644,,ak12_gen1_lower_receiver,Kalashnikov Concern AK-12 Gen 1,0,0.42,0,0,,0,,,,,500
 ,ak12_upper_handguard,,,,,,,,,,,,,
 645,,ak12_std_upper_handguard,Kalashnikov Concern AK-12 Std.,0,0.06,0,0,,,,,,,250
 ,,kalashnikov_concern_ak12_std_handguard_side_rail,Kalashnikov Concern AK-12 Std. Handguard Side Rail,-0.5,0.02,,,,,,,,,300
@@ -2792,7 +2792,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,rifle,,,,,,,,,,,,,
 1330,,HK416A5,HK416A5,28,0,56,90,0,0.45,1,1600,,,30000
 1331,,AUG_A3,Steyr AUG A3,42,0,58,63,0,0.45,1,1550,,,42000
-1332,,AK12,Kalashnikov Concern AK-12,30,0.6,50,50,0,0.3,1,1550,,,25000
+1332,,AK12,Kalashnikov Concern AK-12,30,0.6,50,55,0,0.3,1,1550,,,25000
 1333,,AK308,Kalashnikov Concern AK-308,40,0.7,90,100,0,0.6,0.8,1600,,,65000
 1334,,M4A1,M4A1,15,0,64,87,0,0.5,1,1550,,,0
 1335,,QBZ95,Norinco QBZ-95,45,2.3,50,50,0,0.5,0.9,1550,,,25000

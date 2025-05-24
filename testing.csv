@@ -1,4 +1,4 @@
-0.24.1,Thu May 22 21:01:03 2025,,,,,,,,,,,,,
+0.24.1,Sat May 24 13:01:32 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1929,7 +1929,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,fr_ordnance_mc51_upper_receiver,FR Ordinance MC51 Upper Receiver,3,0.5,4,5,,,,,,,5000
 ,,fr_ordnance_mc51k_upper_receiver,FR Ordinance MC51K Upper Receiver,6,0.45,10,5,,,,,,,2000
 ,,fr_ordnance_mc51sd_upper_receiver,FR Ordinance MC51SD Upper Receiver,1,0.5,3,3,,,,,,,4000
-,,ptr_32_7.62x39_upper_receiver,PTR 32 7.62x39 Upper Receiver,-20,0.6,-12,-18,,,,-400,,,10000
+,,ptr_32_7.62x39_upper_receiver,PTR 32 7.62x39 Upper Receiver,-20,0.6,-12,-18,,,,,,,10000
 ,hk_upper_receiver_mounts,,,,,,,,,,,,,
 955,,addon_hk_upper_receiver_picatinny_rail,Custom Addon HK Upper Receiver Picatinny,-0.5,0.07,0,0,,,,,,,0
 ,hk_g3_stock,,,,,,,,,,,,,

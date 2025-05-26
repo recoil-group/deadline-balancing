@@ -1,4 +1,4 @@
-0.24.1,Sat May 24 13:01:32 2025,,,,,,,,,,,,,
+0.24.1,Sun May 25 21:53:05 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1806,30 +1806,30 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,hk_bolt,,,,,,,,,,,,,
 895,,hk_bolt,HK416A5 Bolt,1.5,0.12,,,,,,,,,0
 ,ump_upper_receiver,,,,,,,,,,,,,
-896,,hk_ump45_upper_receiver,HK UMP45 Upper Receiver,0,0.25,,,,,,,,,
-897,,hk_ump9_upper_receiver,HK UMP9 Upper Receiver,6,0.24,-20,-14,,,,200,,0.25,4000
+896,,hk_ump45_upper_receiver,HK UMP45 Upper Receiver,0,0.5,,,,,,,,,
+897,,hk_ump9_upper_receiver,HK UMP9 Upper Receiver,6,0.49,-20,-14,,,,200,,0.25,4000
 ,ump_trigger,,,,,,,,,,,,,
 898,,hk_ump_trigger,HK UMP Trigger,1,0.02,,,,,,,,,0
 ,ump_top_rail,,,,,,,,,,,,,
 899,,hk_ump_top_rail,HK UMP Top Rail,-1,0.08,,,,,,,,,1000
 ,ump_stock_block,,,,,,,,,,,,,
-900,,hk_ump_stock_block,HK UMP Stock Block,0,0.5,,,,,,,,,0
+900,,hk_ump_stock_block,HK UMP Stock Block,0,0.1,,,,,,,,,0
 ,ump_stock,,,,,,,,,,,,,
 901,,hk_ump_polymer_stock,HK UMP Polymer Folding Stock,10,0.18,-9,-12,,,,,,,0
 902,,tommybuilt_ump_tailhook_brace_adapter,Tommy Built UMP Tailhook Brace Adapter,0,0.13,0,0,,,,,,,800
 903,,bt_mp5/ump_folding_stock,B&T MP5 Folding Stock,15,0.2,-10,-7,,,,,,,600
 904,,hogue_ump_buffer_tube_adapter,Hogue UMP Buffer Tube Adapter,-3,0.08,2,2,,,,,,,1000
 ,ump_rs,,,,,,,,,,,,,
-905,,hk_ump_rear_sight,HK UMP 25M,2,0.02,,,,,,,,,0
+905,,hk_ump_rear_sight,HK UMP 25M,2,0.01,,,,,,,,,0
 ,ump_rear_sight_base,,,,,,,,,,,,,
-907,,hk_ump_rear_sight_base,HK UMP Rear Sight Base,1,0.03,,,,,,,,,0
+907,,hk_ump_rear_sight_base,HK UMP Rear Sight Base,0,0.03,,,,,,,,,0
 ,ump_mag_release,,,,,,,,,,,,,
-908,,hk_ump_paddle_mag_release,HK UMP Paddle,1,0.02,,,,,,,,,0
+908,,hk_ump_paddle_mag_release,HK UMP Paddle,0,0.02,,,,,,,,,0
 ,ump_lower_receiver,,,,,,,,,,,,,
-909,,hk_ump_01_navy_lower_receiver,HK UMP 0-1 Navy,2,0.4,-2,-2,,,,,,,0
-,,hk_ump_012_navy_lower_receiver,HK UMP 0-1-2 Navy,2,0.5,-1,-1,,,,,,,750
-,,hk_ump_01d_navy_lower_receiver,HK UMP 0-1-D Navy,0,0.5,,,,,,,,,1500
-,,hk_ump_012d_navy_lower_receiver,HK UMP 0-1-2-D Navy,0,0.6,1,,,,,,,,1750
+909,,hk_ump_01_navy_lower_receiver,HK UMP 0-1 Navy,2,0.37,-2,-2,,,,,,,0
+,,hk_ump_012_navy_lower_receiver,HK UMP 0-1-2 Navy,2,0.4,-1,-1,,,,,,,500
+,,hk_ump_01d_navy_lower_receiver,HK UMP 0-1-D Navy,0,0.4,,,,,,,,,1000
+,,hk_ump_012d_navy_lower_receiver,HK UMP 0-1-2-D Navy,0,0.43,1,,,,,,,,1500
 ,ump_handstop,,,,,,,,,,,,,
 910,,hk_ump_handstop,HK UMP Handstop,2,0.04,-1,,,,,,,,500
 ,ump_handguard_rail,,,,,,,,,,,,,
@@ -1841,30 +1841,26 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ump_fs,,,,,,,,,,,,,
 915,,hk_ump_front_sight,HK UMP Front Sight,3,0.02,,,,,,,,,0
 ,ump9_bcg,,,,,,,,,,,,,
-,,hk_ump9_bcg,HK UMP-9,0,0.09,0,0,0,0,0,0,,0,500
-,ump9_bolt,,,,,,,,,,,,,
-916,,ump_9_full_auto_bolt,UMP 9x19 Full Auto,0,0.1,0,0,,0,0,0,,,0
+,,hk_ump9_bcg,HK UMP-9,0,0.16,0,0,0,0,0,0,,0,500
 ,ump9_barrel,,,,,,,,,,,,,
-,,hk_ump9_200mm_flanged_barrel,HK UMP9 200mm 9x19 Flanged,-1,0.18,-1,,,0,,-25,,,500
-,,hk_ump9_200mm_trilug_threaded_barrel,HK UMP9 200mm 9x19 Tri-Lug Threaded,-3,0.18,1,1,,0.08,,-30,,,1000
-,ump45_bolt,,,,,,,,,,,,,
-920,,ump_45_full_auto_bolt,UMP .45 ACP Full Auto,0,0.1,0,0,,0,0,0,,,0
+,,hk_ump9_200mm_flanged_barrel,HK UMP9 200mm 9x19 Flanged,0,0.22,-1,,,0,,-25,,,500
+,,hk_ump9_200mm_trilug_threaded_barrel,HK UMP9 200mm 9x19 Tri-Lug Threaded,-2,0.22,1,1,,0.08,,-30,,,1000
 ,ump45_bcg,,,,,,,,,,,,,
-,,hk_ump45_bcg,HK UMP-45,0,0.1,0,0,0,0,0,0,,,0
+,,hk_ump45_bcg,HK UMP-45,0,0.17,0,0,0,0,0,0,,,0
 ,ump_bolt_catch,,,,,,,,,,,,,
-,,hk_ump_bolt_catch,HK UMP Bolt Catch,0,0.01,,,,,,,,,0
+,,hk_ump_bolt_catch,HK UMP Bolt Catch,0,0.02,,,,,,,,,0
 ,ump_charging_handle,,,,,,,,,,,,,
 ,,hk_ump_charging_handle,HK UMP Charging Handle,0,0.02,,,,,,,,,0
 ,ump_cocking_tube,,,,,,,,,,,,,
-,,hk_ump_cocking_tube,HK UMP Cocking Tube,0,0.03,,,,,,,,,0
+,,hk_ump_cocking_tube,HK UMP Cocking Tube,0,0.07,,,,,,,,,0
 ,ump_fire_selector,,,,,,,,,,,,,
-,,hk_ump_fire_selector,HK UMP Fire Selector,0,0.01,,,,,,,,,0
+,,hk_ump_fire_selector,HK UMP Fire Selector,0,0.02,,,,,,,,,0
 ,hk_mp5k_handguard,,,,,,,,,,,,,
 921,,hk_mp5k_polymer_handguard,HK MP5 Wide Tropical,15,0.15,-7,-5,,,,,,,1500
 ,ump45_barrel,,,,,,,,,,,,,
-922,,hk_ump45_200mm_flanged_barrel,HK UMP45 200mm .45ACP Flanged,-1,0.22,-2,-1,,0,,-35,,,0
-923,,hdps_ump45_200mm_threaded_barrel,HDPS UMP45 200mm .45ACP Threaded,-3,0.2,1,,,0.08,,-38,,,750
-924,,omega_ump45_200mm_trilug_barrel,OMEGA UMP45 200mm .45ACP Tri-Lug,-2,0.21,,1,,0.05,,-36,,,300
+922,,hk_ump45_200mm_flanged_barrel,HK UMP45 200mm .45ACP Flanged,0,0.26,-2,-1,,0,,-35,,,0
+923,,hdps_ump45_200mm_threaded_barrel,HDPS UMP45 200mm .45ACP Threaded,-2,0.27,1,,,0.08,,-38,,,750
+924,,omega_ump45_200mm_trilug_barrel,OMEGA UMP45 200mm .45ACP Tri-Lug,-1,0.26,,1,,0.05,,-36,,,300
 ,hk416_barrel,,,,,,,,,,,,,
 925,,hk416_269mm_barrel,10.6 Inch 5.56 HK416,2,0.55,4,4,,0.2,-0.08,-109,,,1000
 926,,hk416_279mm_barrel,11 Inch 5.56 HK416,2,0.56,4,4,,0.2,-0.06,-92,,,1500
@@ -2813,7 +2809,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1347,,MP5,H&K MP5,30,0,45,55,0,1,1,1000,,,5000
 1348,,Vector,TDI Kriss Vector Gen II,30,0,60,40,0,1.2,1,700,,,90000
 1349,,MK9,CmmG MK9 T,30,0,60,75,0,1,1,1000,,,20000
-1350,,UMP,HK UMP,58,0.2,86,96,0,1,1,700,,,15000
+1350,,UMP,HK UMP,65,0,86,96,0,1,1,700,,,15000
 1351,,AK_9,AK 9mm,20,0,50,75,0,0.9,1,1000,,,11000
 ,turret,,,,,,,,,,,,,
 1352,,Turret,Handheld turret,30,3,60,40,200,1.6,1,600,,,100

@@ -60,7 +60,7 @@ odin_works_tiduro_.338_modular_3_baffle_suppressor,Odin Works Tiduro .338 3 Baff
 odin_works_tiduro_.338_modular_5_baffle_suppressor,Odin Works Tiduro .338 5 Baffle Suppressor,-6,0.24,-7,-8,,-0.15,0.12,80,,,3000,6.92,,-7,0.18,-11,-9,,-0.15,0.06,200,,,3000,8.92,,11,0.165,,,,,
 odin_works_tiduro_modular_compensator,Odin Works Tiduro Modular Compensator,-3,0.08,-10,8,,0.15,-0.1,-30,,,700,-7.75,,-1,0.05,-4,-4,,0.05,-0.01,-30,,,700,2.35,,2,0.03,,,,,
 odin_works_tiduro_thread_adapter_module,Odin Works Tiduro Thread Adaptor Module,-3,0.08,-22,16,,0.15,-0.15,-30,,,300,-4.95,,-1,0.04,-8,-8,,0,0,-30,,,300,9.30,,,,,,,,
-silencerco_omega_300_suppressor,SilencerCo OMEGA 300,-6,0.23,-6,-10,,-0.3,0.08,200,,,1000,8.57,,-6,0.18,-12,-11,,-0.15,0.04,150,,,1000,10.95,,12.6,0.189,,,,,
+silencerco_omega_300_suppressor,SilencerCo OMEGA 300,-6,0.23,-6,-10,,-0.3,0.08,200,,,1000,8.57,,-6,0.18,-12,-12,,-0.15,0.04,150,,,1000,11.55,,12.6,0.189,,,,,
 silencerco_qd_asr_mount,SilencerCo QD ASR Mount,-0.5,0.03,,,,,,,,,200,-1.10,,0,0.03,,,,,,,,,200,-0.60,,,,,,,,
 ,,,,,,,,,,,,,0.00,,,,,,,,,,,,,0.00,,,,,,,,
 ips_7.62x51_1inch_barrel_extension,IPS 7.62x51 1in Barrel Extension,-1,0.06,0,0,,0.06,,40,,,500,-2.97,,-1,0.05,0,0,,0.05,0.01,20,,,500,-2.28,,,,,,,,

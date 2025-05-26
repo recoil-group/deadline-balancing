@@ -1,4 +1,4 @@
-﻿0.24.1,Mon May 26 13:56:49 2025,,,,,,,,,,,,,
+﻿0.24.1,Mon May 26 14:05:43 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -2199,7 +2199,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1074,,alphadog_alpha9_flipped,Alpha Dog Alpha 9 9x19 Flipped,-7,0.22,-7,-8,,-0.2,0.15,150,,,1000
 1075,,alphadog_alpha9,Alpha Dog Alpha 9 9x19 Suppressor,-8,0.22,-7,-8,,-0.2,0.15,150,,,1000
 1076,,izhmash_pp-19-01_vityaz_9x19_suppressor,Izhmash PP-19-01 Vityaz 9x19 Supressor,-5,0.23,-10,-10,,-0.2,0.13,150,,,1200
-,,izhmash_pp-19-01_vityaz_std_muzzle_brake_compensator,Izhmash PP-19-01 Vityaz Std.,-2,0.05,-4,-4,,,,-20,,,100
+,,izhmash_pp-19-01_vityaz_std_muzzle_brake_compensator,Izhmash PP-19-01 Vityaz Std.,-1,0.04,-6,-7,,,0,0,,,100
 1077,,sig_srd9_9x19,Sig SRD 9 9x19mm,-4,0.23,-10,-9,,-0.1,0.12,80,,,1500
 1078,,9x19_rotor43_8chamber_glock_suppressor,Rotor 43 8 Chambered 9x19 Glock,-5,0.24,-9,-11,,-0.15,0.15,100,,,1000
 1079,,9x19_naughty_9,Naughty-9,-2,0.18,-8,-8,,-0.05,0.07,50,,,900
@@ -2207,7 +2207,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1081,,9x19_thread_protector,9x19 Thread Protector,3,0.01,0,0,,0,0,0,,,100
 1082,,silencerco_osprey9_gen1_9x19_suppressor,SilencerCo Osprey 9 Gen 1 9x19 Suppressor,-6,0.19,-6,-12,,-0.1,0.2,150,,,1500
 1083,,silencerco_osprey9_gen1_9x19_suppressor_flipped,SilencerCo Osprey 9 Gen 1 9x19 Suppressor Flipped,-6,0.19,-6,-12,,-0.1,0.2,150,,,1500
-,,vltor_vc9_9x19_compensator,VLTOR VC9 9x19 Compensator,-2,0.05,-7,-9,,0.1,0,50,,,1800
+,,vltor_vc9_9x19_compensator,VLTOR VC9 9x19 Compensator,-2,0.05,-7,-9,,0.1,0,20,,,1800
 ,,ips_9x19_1inch_barrel_extension,IPS 9x19 1in Barrel Extension,-1,0.03,0,0,,0.06,0.01,40,,,500
 ,,rugged_suppressors_obsidian_9_9x19_piston,Rugged Suppressors Obsidian9 9x19 Piston,0,0.03,0,0,,0.05,0,0,,,300
 ,,rugged_suppressors_obsidian_9_3lug_piston,Rugged Suppressors Obsidian9 3-Lug Piston,0,0.03,0,0,,0.05,0,0,,,300
@@ -2809,8 +2809,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1347,,MP5,H&K MP5,30,0,45,55,0,1,1,1000,,,5000
 1348,,Vector,TDI Kriss Vector Gen II,30,0,60,40,0,1.2,1,700,,,90000
 1349,,MK9,CmmG MK9 T,30,0,60,75,0,1,1,1000,,,20000
-1350,,UMP,HK UMP,65,0,86,96,0,1,1,700,,,15000
-1351,,AK_9,AK 9mm,20,0,50,75,0,0.9,1,1000,,,11000
+1350,,UMP,HK UMP,65,0,80,90,0,0.9,1,700,,,15000
+1351,,AK_9,AK 9mm,25,0,50,75,0,0.9,1,1000,,,11000
 ,turret,,,,,,,,,,,,,
 1352,,Turret,Handheld turret,30,3,60,40,200,1.6,1,600,,,100
 ,placer,,,,,,,,,,,,,

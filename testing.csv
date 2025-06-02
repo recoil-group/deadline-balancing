@@ -1,4 +1,4 @@
-0.24.1,Sun Jun 01 23:32:13 2025,,,,,,,,,,,,,
+0.24.1,Sun Jun 01 23:58:58 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1373,17 +1373,17 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 667,,dt_dpmn_fh,Delta-Tek DPMN,2,0.12,-13,-12,,0.05,0,20,,,750
 668,,dt_dtkai_mb,Delta-Tek DTK AK IPSC,-1.5,0.1,-18,-11,,0.1,0,20,,,750
 669,,dt_dtm_fh,Delta-Tek DPM,1,0.12,-13,-13,,0.1,0,20,,,750
-670,,dtk_2,Zenitco Dtk-2,-2,0.09,-16,-15,,0.15,0,10,,,1000
-671,,v762_vr04_mb,Vector VR-04,-1.5,0.11,-16,-14,,0.1,0,20,,,750
+670,,dtk_2,Zenitco Dtk-2,-2,0.09,-16,-14,,0.15,0,10,,,1000
+671,,v762_vr04_mb,Vector VR-04,-1.5,0.11,-15,-15,,0.1,0,20,,,750
 672,,v762_vr05_mb,Vector VR-05,-1,0.1,-15,-14,,0.1,0,20,,,750
 673,,v762_vr05t_mb,Vector VR-05T,-1,0.09,-15,-14,,0.1,0,20,,,750
 674,,v762_vr10m_mb,Vector VR-10M,-0.5,0.12,-12,-16,,0.05,0,20,,,750
 675,,v762_vrdtl_fh,Vector VR-DTL,3,0.15,-10,-14,,0.05,0,10,,,750
 676,,vs_05,VS-05,-0.5,0.1,-14,-14,,0.1,0,20,,,750
-,,izhmash_ak105_6p44_020_compensator,Izhmash AK-105 6P44 0-20 Compensator,0,0.06,-10,-14,,0.1,0,10,,0.05,700
-,,izhmash_ak74m_6p20_020_compensator,Izhmash AK-74M 6P20 0-20 Compensator,0,0.08,-10,-15,,0.1,0,20,,,250
-677,,izhmash_ak74_6p20_020_compensator,Izhmash AK-74 6P20 0-20 Compensator,0,0.08,-10,-15,,0.1,0,20,,,500
-,,izhmash_aks74u_5.45x39_6p26_020_muzzle_brake,Izhmash AKS74U 6P26 0-20 Muzzle Booster,0,0.07,-10,-14,,0.1,0,20,,0.123,400
+,,izhmash_ak105_6p44_020_compensator,Izhmash AK-105 6P44 0-20 Compensator,0,0.06,-11,-14,,0.1,0,10,,0.05,700
+,,izhmash_ak74m_6p20_020_compensator,Izhmash AK-74M 6P20 0-20 Compensator,0,0.08,-11,-15,,0.1,0,20,,,250
+677,,izhmash_ak74_6p20_020_compensator,Izhmash AK-74 6P20 0-20 Compensator,0,0.08,-11,-15,,0.1,0,20,,,500
+,,izhmash_aks74u_5.45x39_6p26_020_muzzle_brake,Izhmash AKS74U 6P26 0-20 Muzzle Booster,0,0.07,-11,-14,,0.1,0,20,,0.123,400
 678,,ga_24_1/2,Griffin Armaments 24-1/2,-1,0.04,1,1,,0.1,0,10,,,1000
 679,,i_24_14_ta,Infinite 24mm-1/2mm,-1,0.06,0,2,,0.1,0,10,,,1000
 680,,tsniitochmash_pbs_4_5.45x39_suppressor,TSNIITochMash PBS-4 5.45x39,-5,0.32,-13,-18,,-0.25,0.16,100,,,2000
@@ -2228,7 +2228,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,jmac_laf_14_1lh_muzzle_brake,JMAC Customs LAF 14-1LH Muzzle Brake,-5,0.15,-15,-10,,0.15,-0.04,-30,,,1000
 ,,zenitco_dtk_1l_muzzle_brake,Zenitco Dtk-1l,-2.5,0.14,-12,-10,,0.1,-0.05,-40,,,1000
 ,ak12_5.45x39_muzzle_device,,,,,,,,,,,,,
-1087,,ak12_std_muzzle_device,Kalashnikov Concern AK-12 Std.,0,0.09,-11,-14,,0.1,0,20,,,0
+1087,,ak12_std_muzzle_device,Kalashnikov Concern AK-12 Std.,0,0.09,-12,-14,,0.1,0,20,,,0
 1088,,kalashnikov_concern_6ch60_ak12_suppressor,Kalashnikov Concern 6Ch60 AK-12,-5,0.3,-14,-17,,-0.2,0.14,120,,,1000
 1089,,legal_arsenal_bayonet_thread_adapter_for_ak12,Legal Arsenal Bayonet Thread Adapter for AK-12,0,0.03,0,0,,0,0,0,,,1500
 ,,kalashnikov_concern_ak12k_5.45x39_flash_hider,Kalashnikov Concern AK12K Flash Hider,2,0.06,-10,-12,,0.1,0,10,,,500

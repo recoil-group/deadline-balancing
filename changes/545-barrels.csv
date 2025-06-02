@@ -2,11 +2,11 @@
 name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price,strength,,base,length,mod,,,irl weight,
 izhmash_ak74_415mm_5.45x39_barrel,Izhmash AK-74 415mm 5.45x39 Barrel,-2,0.5,-7,-8,,0,0,43,,,0,-1.456666667,,0.08,16,0,0.5,,21,0.504
 izhmash_ak105_314mm_5.45x39_barrel,Izhmash AK-105 314mm 5.45x39,3,0.4,-3,-4,,0.1,-0.05,-35,,,3000,-1.316666667,,0.08,12.3622,0,0.4,,,
-izhmash_aks74u_210mm_5.45x39_barrel,Izhmash AKS-74U 210mm 5.45x39 Barrel,8,0.29,1,0,,0.25,-0.1,-200,,,0,-1.516666667,,0.08,8.26772,0,0.29,,,
+izhmash_aks74u_210mm_5.45x39_barrel,Izhmash AKS-74U 210mm 5.45x39 Barrel,8,0.29,1,0,,0.25,-0.08,-200,,,0,-1.316666667,,0.08,8.26772,0,0.29,,,
 ,,,,,,,,,,,,,0,,,,,0,,,
 kalashnikov_concern_std_rpk16_559mm_barrel,RPK16 556mm Barrel,-8,0.92,-5,-4,,0.1,0.1,185,,,1000,-18.88333333,,0.33,22.0079,,0.9,,,
 ak12_std_415mm_barrel,AK-12 415mm 5.45x39,0,0.75,0,0,,0,0,43,,,0,-14.85666667,,0.33,16,,0.75,,,
-kalashnikov_concern_ak12k_314mm_barrel,AK12k 314mm Barrel,5,0.65,3,4,,0.15,-0.1,-90,,,1500,-14.85,,0.33,12.3622,,0.65,,,
+kalashnikov_concern_ak12k_314mm_barrel,AK12k 314mm Barrel,5,0.65,3,4,,0.15,-0.05,-90,,,1500,-14.35,,0.33,12.3622,,0.65,,,
 ,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,

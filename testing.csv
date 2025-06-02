@@ -1,4 +1,4 @@
-0.24.1,Sun Jun 01 23:58:58 2025,,,,,,,,,,,,,
+0.24.1,Mon Jun 02 00:47:20 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -779,7 +779,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,mk9_upper_receiver,,,,,,,,,,,,,
 371,,cmmg_mk9_upper_receiver,CMMG MK9,0,0.14,0,0,,,,,,,0
 ,mk9_lower_receiver,,,,,,,,,,,,,
-372,,cmmg_mk9_lower_receiver,CMMG MK9,0,0.24,,,,,,,,,0
+372,,cmmg_mk9_lower_receiver,CMMG MK9,2,0.24,,,,,,,,,0
 ,,aeroknox_ax15_lower_receiver_ar9,Aeroknox AX // 15 Lower Receiver,3,0.25,-1,0,,,,,,,1500
 ,,colt_m4a1_std_lower_receiver_ar9,Colt M4A1,0,0.3,,,,,,,,,0
 ,,daniel_defense_m4_carbine_lower_receiver_ar9,Daniel Defense M4 Carbine Lower Receiver,3,0.33,,,,,,,,,1000
@@ -1230,7 +1230,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak12_barrel,,,,,,,,,,,,,
 635,,ak12_std_415mm_barrel,AK-12 415mm 5.45x39,0,0.75,0,0,,0,0,43,,,0
 ,,kalashnikov_concern_std_rpk16_559mm_barrel,RPK16 556mm Barrel,-8,0.92,-5,-4,,0.1,0.1,185,,,1000
-,,kalashnikov_concern_ak12k_314mm_barrel,AK12k 314mm Barrel,5,0.65,3,4,,0.15,-0.1,-90,,,1500
+,,kalashnikov_concern_ak12k_314mm_barrel,AK12k 314mm Barrel,5,0.65,3,4,,0.15,-0.05,-90,,,1500
 ,ak12_bolt,,,,,,,,,,,,,
 636,,ak12_std_5.45x39_bolt,AK-12 5.45x39,0,0,,,,,,,,,0
 ,ak12_dust_cover,,,,,,,,,,,,,
@@ -1354,7 +1354,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak_carbine_lower,,,,,,,,,,,,,
 ,,izhmash_aks74u_lower_receiver,Izhmash AKS-74U Lower Receiver,1,0.32,2,2,,,,,,,0
 ,aks74u_barrel,,,,,,,,,,,,,
-,,izhmash_aks74u_210mm_5.45x39_barrel,Izhmash AKS-74U 210mm 5.45x39 Barrel,8,0.29,1,0,,0.25,-0.1,-200,,,0
+,,izhmash_aks74u_210mm_5.45x39_barrel,Izhmash AKS-74U 210mm 5.45x39 Barrel,8,0.29,1,0,,0.25,-0.08,-200,,,0
 ,aks74u_bolt,,,,,,,,,,,,,
 ,,izhmash_aks74u_5.45x39_bolt,Izhmash AKS-74U Bolt,0,0.05,,,,,,,,,0
 ,aks74u_bolt_carrier,,,,,,,,,,,,,
@@ -1426,9 +1426,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 701,,us_palm_ak_pistol_grip,US Palm AK,6,0.08,-3,-6,,,,,,,900
 ,,magpul_moe_k2_ak_pistol_grip,Magpul MOE-K2 AK,7,0.1,-4,-4,,,,,,,800
 ,ak_handguard_retainer,,,,,,,,,,,,,
-,,izhmash_ak_handguard_retainer,Izhmash AK Handguard Retainer,,0.01,,,,,,,,,0
+,,izhmash_ak_handguard_retainer,Izhmash AK Handguard Retainer,1,0.01,,,,,,,,,0
 ,ak_carbine_hanguard_retainer,,,,,,,,,,,,,
-,,izhmash_aks74u_handguard_retainer,Izhmash AKS-74U Handguard Retainer,,0.01,,,,,,,,,
+,,izhmash_aks74u_handguard_retainer,Izhmash AKS-74U Handguard Retainer,1,0.01,,,,,,,,,
 ,ak_handguard,,,,,,,,,,,,,
 702,,caf_wasr_10_63_wooden_bottom_handguard,Wooden CAF WASR 10-63 Bottom,13,0.2,-9,-12,,,,,,,300
 703,,tdiarms_ak_akm_l_lower_handguard,TDI Arms AKM-L,12,0.09,-6,-5,,,,,,,1000
@@ -2698,8 +2698,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,hk_mp5_hk94_stock_endcap,HP MP5/HK94 Stock Endcap,2,0.06,,,,,,,,,1000
 ,,hk_mp5_endcap_sling_swivel,HK MP5 Endcap Sling Swivel,10,0.01,10,10,,0.2,,,,,250
 ,mp5_upper_receiver,,,,,,,,,,,,,
-,,hk_mp5_std_upper_receiver,HK MP5 Std. Upper Receiver,0,0.3,,,,,,,,,
-,,hk_mp5sd_upper_receiver,HK MP5SD Std. Upper Receiver,-3,0.32,-2,,,,,,,,2000
+,,hk_mp5_std_upper_receiver,HK MP5 Std. Upper Receiver,0,0.4,,,,,,,,,
+,,hk_mp5sd_upper_receiver,HK MP5SD Std. Upper Receiver,-3,0.42,-2,,,,,,,,2000
 ,mp5_front_trunnion,,,,,,,,,,,,,
 ,,hk_mp5_std_9x19_front_trunnion,HK MP5 Std. 9x19 Front Trunnion,0,0.07,,,,,,,,,0
 ,,hk_mp5sd_9x19_front_trunnion,HK MP5SD 9x19 Front Trunnion,0,0.07,,,,,,,,,0
@@ -2806,11 +2806,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1345,,Remington870,Remington 870 Express,20,0.9,90,90,1,0.8,1,1000,2.5,,20000
 1346,,MP133,Baikal MP-133,30,0.9,60,70,1,0.6,1,1000,2.5,,9000
 ,smg,,,,,,,,,,,,,
-1347,,MP5,H&K MP5,30,0,45,55,0,1,1,1000,,,5000
+1347,,MP5,H&K MP5,35,0,45,55,0,1,1,1000,,,5000
 1348,,Vector,TDI Kriss Vector Gen II,30,0,60,40,0,1.2,1,700,,,90000
 1349,,MK9,CmmG MK9 T,30,0,60,75,0,1,1,1000,,,20000
 1350,,UMP,HK UMP,65,0,80,90,0,0.9,1,700,,,15000
-1351,,AK_9,AK 9mm,25,0,50,75,0,0.9,1,1000,,,11000
+1351,,AK_9,AK 9mm,30,0,60,70,0,0.9,1,1000,,,11000
 ,turret,,,,,,,,,,,,,
 1352,,Turret,Handheld turret,30,3,60,40,200,1.6,1,600,,,100
 ,placer,,,,,,,,,,,,,

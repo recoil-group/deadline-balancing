@@ -1,4 +1,4 @@
-﻿0.24.1,Mon May 26 14:05:43 2025,,,,,,,,,,,,,
+﻿0.24.1,Sun Jun 01 23:31:34 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -2023,10 +2023,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,aug_a1_receiver_top_sights,,,,,,,,,,,,,
 997,,aug_a1_receiver_top_backup_sights,Backup Sights,0,0,,,,,,,,,0
 ,steyr_aug_threaded,,,,,,,,,,,,,
-998,,steyr_aug_a1_tulip_5.56x45_closed_flash_hider,Steyr AUG A1 Tulip 5.56x45 Closed,1,0.05,-13,-11,,0,0.02,50,,,
-999,,steyr_aug_a3_5.56x45_closed_flash_hider,Steyr AUG A3 5.56x45 Closed,1,0.06,-12,-13,,0.05,0,60,,,500
-1000,,rat_worx_aug_5.56x45_supp_adapter,Rat Worx AUG 5.56x45 1/2x28,0,0.04,0,0,,0.1,0.02,30,,,1500
-,,steyr_aug_a3_5.56x45_original_closed_muzzle_brake,Steyr AUG A3 5.56 Original Closed Flash Hider,0,0.07,-13,-14,,0,0,0,,,750
+998,,steyr_aug_a1_tulip_5.56x45_closed_flash_hider,Steyr AUG A1 Tulip 5.56x45 Closed,1,0.08,-13,-11,,0,0.02,50,,,
+999,,steyr_aug_a3_5.56x45_closed_flash_hider,Steyr AUG A3 5.56x45 Closed,1,0.09,-12,-13,,0.05,0,60,,,500
+1000,,rat_worx_aug_5.56x45_supp_adapter,Rat Worx AUG 5.56x45 1/2x28,0,0.06,0,0,,0.05,0.01,30,,,1500
+,,steyr_aug_a3_5.56x45_original_closed_muzzle_brake,Steyr AUG A3 5.56 Original Closed Flash Hider,0,0.1,-13,-14,,0,0,0,,,750
 ,,steyr_breezer_ums_5.56x45_aug_suppressor,Steyr Breezer UMS 5.56 AUG Suppressor,-2,0.22,-14,-18,,-0.1,0.08,65,,,1800
 ,steyr_aug_austrian_mag_bottom_plates,,,,,,,,,,,,,
 1001,,steyr_aug_austrian_mag_bottom_plate,Steyr AUG A3 Austrian Mag,0,0.02,,,,,,,,,0
@@ -2167,30 +2167,30 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,pp19_rear_sight,,,,,,,,,,,,,
 1056,,izhmash_pp-19-01_vityaz_rear_sight,Ishmash PP-19-01 Vityaz Rear Sight,1,0.01,,,,,,,,,0
 ,5.56x45_muzzle_device,,,,,,,,,,,,,
-1057,,tb_mount_223_mb,Thunder Beast 223CB,0,0.05,-14,-12,,0.1,0,0,,,400
-1058,,troy_claymore556,TROY Claymore 5.56x45,2,0.07,-10,-15,,0.05,0,0,,,500
-1059,,gemtech_adapter,Gemtech One,0,0.03,-7,-8,,0.05,0.02,20,,,300
-1060,,ddw_adapter,Daniel Defence Wave MB,0,0.05,-16,-10,,0.1,0,0,,,500
-1061,,bt_st6012,Bulletec ST-6012 5.56x45,-1,0.06,-18,-10,,0.1,0,0,,,400
-1062,,nordic_corvette_556,Nordic Corvette 5.56x45,0,0.05,-15,-11,,0.05,0,0,,,400
-0,,annihilator_556,Annihilator 5.56,1,0.07,-11,-16,,0.05,0,0,,,500
-1064,,amtac_cqbm_suppressor,AMTAC Cqbm 5.56x45,-2,0.27,-13,-19,,-0.05,0.08,50,,,1500
-1065,,amtac_cqb_suppressor,AMTAC Cqbm 5.56x45,-4,0.32,-15,-20,,-0.1,0.12,70,,,1600
-1066,,ss_combo_mount,Spike's Tatical combo mount,-1,0.07,-10,-16,,0.05,0.04,30,,,500
-1067,,jt_5.5inch_flashsuppressor,"JT 5.5"" Flash Suppressor",1,0.1,-8,-18,,0,0.06,40,,,300
-1068,,jg_usgi_a2_birdcage_m4a1_flash_hider,JG Standard birdcage M4A1,2,0.03,-9,-9,,0.1,0,0,,,0
-1069,,surefire_warcomp_5.56x45_flash_hider,Surefire WarComp 5.56x45,1,0.06,-13,-13,,0.05,0,0,,,700
-1070,,kac_qdc_m4qd_5.56x56_flash_suppressor,KAC QDC M4QD 5.56x45,2,0.04,-9,-15,,0.1,0,0,,,500
-,,ips_5.56x45_1inch_barrel_extension,IPS 5.56 1in Barrel Extension,-1,0.04,0,0,,0.05,0.01,20,,,400
-,,ips_5.56x45_2inch_barrel_extension,IPS 5.56 2in Barrel Extension,-2,0.08,0,0,,0.1,0.02,40,,,500
-,,ips_5.56x45_4inch_barrel_extension,IPS 5.56 4in Barrel Extension,-3,0.16,0,0,,0.2,0.04,80,,,600
-,,ips_1_2x28_to_5_8x24_knurled_thread_adapter,ISP 1/2x28 to 5/8x24 Knurled Thread Adapter,-1,0.05,2,2,,0.2,,-200,,,1000
-,,surefire_socom556_sfmb_muzzle_brake,Surefire SOCOM556 SFMB Muzzle Break,-1,0.06,-17,-11,,0.05,0,0,,,700
-,,surefire_warden_blast_regulator,Surefire Warden Blast Regulator,0,0.12,-15,-11,,0,0.02,40,,,1000
-,,kac_qdc_3prong_flash_5.56x45_eliminator,Kac QDC 3prong Flash Eliminator 5.56,2,0.04,-12,-12,,0.05,0,0,,,600
-,,aeroknox_ae01_muzzle_brake,Aeroknox AE/01,-1,0.07,-16,-13,,0.1,0,0,,,600
-,,strike_industries_jcomp_gen2_5.56x45_muzzle_brake,Strike Industries JCOMP Gen2 5.56x45 Muzzle Brake,-1,0.05,-13,-16,,0.05,0,0,,,500
-,,colt_607_car15_3.5inch_flash_moderator,"Colt 607 CAR-15 3.5"" Flash Moderator",2,0.09,-11,-12,,0.1,0,0,,,500
+1057,,tb_mount_223_mb,Thunder Beast 223CB,0,0.08,-14,-12,,0.1,0,0,,,400
+1058,,troy_claymore556,TROY Claymore 5.56x45,2,0.1,-10,-15,,0.05,0,0,,,500
+1059,,gemtech_adapter,Gemtech One,0,0.06,-7,-8,,0.05,0.02,20,,,300
+1060,,ddw_adapter,Daniel Defence Wave MB,0,0.08,-16,-10,,0.1,0,0,,,500
+1061,,bt_st6012,Bulletec ST-6012 5.56x45,-1,0.09,-18,-10,,0.1,0,0,,,400
+1062,,nordic_corvette_556,Nordic Corvette 5.56x45,0,0.08,-15,-11,,0.05,0,0,,,400
+0,,annihilator_556,Annihilator 5.56,1,0.1,-11,-16,,0.05,0,0,,,500
+1064,,amtac_cqbm_suppressor,AMTAC Cqbm 5.56x45,-2,0.3,-13,-19,,-0.05,0.08,50,,,1500
+1065,,amtac_cqb_suppressor,AMTAC Cqbm 5.56x45,-4,0.35,-15,-20,,-0.1,0.12,70,,,1600
+1066,,ss_combo_mount,Spike's Tatical combo mount,-1,0.1,-10,-16,,0.05,0.04,30,,,500
+1067,,jt_5.5inch_flashsuppressor,"JT 5.5"" Flash Suppressor",1,0.13,-8,-18,,0,0.06,40,,,300
+1068,,jg_usgi_a2_birdcage_m4a1_flash_hider,JG Standard birdcage M4A1,2,0.06,-9,-9,,0.1,0,0,,,0
+1069,,surefire_warcomp_5.56x45_flash_hider,Surefire WarComp 5.56x45,1,0.09,-13,-13,,0.05,0,0,,,700
+1070,,kac_qdc_m4qd_5.56x56_flash_suppressor,KAC QDC M4QD 5.56x45,2,0.07,-9,-15,,0.1,0,0,,,500
+,,ips_5.56x45_1inch_barrel_extension,IPS 5.56 1in Barrel Extension,-1,0.05,0,0,,0.05,0.01,20,,,400
+,,ips_5.56x45_2inch_barrel_extension,IPS 5.56 2in Barrel Extension,-2,0.09,0,0,,0.1,0.02,40,,,500
+,,ips_5.56x45_4inch_barrel_extension,IPS 5.56 4in Barrel Extension,-3,0.17,0,0,,0.2,0.04,80,,,600
+,,ips_1_2x28_to_5_8x24_knurled_thread_adapter,ISP 1/2x28 to 5/8x24 Knurled Thread Adapter,-1,0.06,2,2,,0.2,,-200,,,1000
+,,surefire_socom556_sfmb_muzzle_brake,Surefire SOCOM556 SFMB Muzzle Break,-1,0.09,-17,-11,,0.05,0,0,,,700
+,,surefire_warden_blast_regulator,Surefire Warden Blast Regulator,0,0.15,-15,-11,,0,0.02,40,,,1000
+,,kac_qdc_3prong_flash_5.56x45_eliminator,Kac QDC 3prong Flash Eliminator 5.56,2,0.07,-12,-12,,0.05,0,0,,,600
+,,aeroknox_ae01_muzzle_brake,Aeroknox AE/01,-1,0.1,-16,-13,,0.1,0,0,,,600
+,,strike_industries_jcomp_gen2_5.56x45_muzzle_brake,Strike Industries JCOMP Gen2 5.56x45 Muzzle Brake,-1,0.08,-13,-16,,0.05,0,0,,,500
+,,colt_607_car15_3.5inch_flash_moderator,"Colt 607 CAR-15 3.5"" Flash Moderator",2,0.12,-11,-12,,0.1,0,0,,,500
 ,,aac_5.56x45_blackout_18_tooth_flash_hider,ACC 5.56x45 Blackout 18 Tooth Flash Hider,2,0.04,-11,-13,,0.05,0,0,,,500
 ,9x19_muzzle_device,,,,,,,,,,,,,
 1071,,custom4port,CUSTOM4PORT,-2,0.07,-10,-2,,0.1,0,10,,,500
@@ -2354,7 +2354,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1149,,colt_rear_ironsight_200m,Colt 200m,0,0.005,,,,,,,,,0
 1150,,colt_rear_ironsight_600m,Colt 600m,0,0.005,,,,,,,,,0
 ,ddw,,,,,,,,,,,,,
-1151,,ddw_qd,Daniel Defence Wave QD,-6,0.25,-17,-19,,-0.1,0.16,90,,,1200
+1151,,ddw_qd,Daniel Defence Wave QD,-6,0.28,-17,-19,,-0.1,0.16,90,,,1200
 ,doublestar_ace_recoil_pad,,,,,,,,,,,,,
 1152,,doublestar_ace_0.5_recoil_pad,Doublestar ACE M4 SOCOM Buttpad,2,0.03,-1,-1,,,,,,,0
 ,dsa_sa58_mag_plate,,,,,,,,,,,,,
@@ -2363,7 +2363,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,fn_fal_halbek,,,,,,,,,,,,,
 1155,,rhodesian_halbek_muzzle_device,Rhodesian Reproduction Halbek,-3,0.04,14,-22,,0.1,-0.01,0,,,1200
 ,gemtech_adapter,,,,,,,,,,,,,
-1156,,gemtech_1_762,Gemtech One 7.62,-5,0.24,-19,-13,,-0.15,0.12,90,,,1400
+1156,,gemtech_1_762,Gemtech One 7.62,-5,0.27,-19,-13,,-0.15,0.12,90,,,1400
 ,hk_mag_plate,,,,,,,,,,,,,
 1157,,hk_mag_plate,HK Mag Bottom Plate,0,0.02,,,,,,,,,0
 ,l7awm_bottom_plate,,,,,,,,,,,,,
@@ -2383,7 +2383,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1160,,deltapoint_attachment,Leupold DeltaPoint Cap,0,0.01,,,,,,,,,0
 1161,,leupold_cq_deltapoint_pro_rear_ironsight,Leupold CQ DeltaPoint Pro Rear,0.5,0.02,,,,,,,,,200
 ,lrs_1_suppressor,,,,,,,,,,,,,
-1162,,ss_lrs1_suppressor,Spike's Tactical Lrs-1,-5,0.3,-12,-22,,-0.25,0.14,100,,,1200
+1162,,ss_lrs1_suppressor,Spike's Tactical Lrs-1,-5,0.33,-12,-22,,-0.25,0.14,100,,,1200
 ,makarov_laser,,,,,,,,,,,,,
 1163,,ncstar_apls_laser,NcStart APLS,-1,0.04,,,,,,,,,400
 ,pjs_cqc_handguard,,,,,,,,,,,,,
@@ -2453,23 +2453,23 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,surefire_handguard_light,,,,,,,,,,,,,
 1192,,lm2,SureFire LM2,-0.5,0.1,,,,,,,,,500
 ,surefire_rc,,,,,,,,,,,,,
-1193,,surefire_socom556_rc2_suppressor,SureFire SOCOM556-RC2 Fast-Attach,-4,0.25,-18,-16,,-0.1,0.12,80,,,1500
+1193,,surefire_socom556_rc2_suppressor,SureFire SOCOM556-RC2 Fast-Attach,-4,0.28,-18,-16,,-0.1,0.12,80,,,1500
 ,qdc_suppressors,,,,,,,,,,,,,
-,,kac_qdc_crs_prt_5.56x45_suppressor,KAC QDC/CRS PRT 5.56 Suppressor,-5,0.28,-18,-18,,-0.15,0.1,90,,,2000
+,,kac_qdc_crs_prt_5.56x45_suppressor,KAC QDC/CRS PRT 5.56 Suppressor,-5,0.31,-18,-18,,-0.15,0.1,90,,,2000
 ,,kac_crs_prt_suppressor_cover,KAC CRS PRT Suppressor Cover,1,0.04,,,,,,,,,500
-,,kac_qdc_mcq_prt_5.56x45_suppressor,KAC QDC/MRQ PRT 5.56 Suppressor,-2,0.2,-15,-15,,-0.1,0.08,60,,,1800
+,,kac_qdc_mcq_prt_5.56x45_suppressor,KAC QDC/MRQ PRT 5.56 Suppressor,-2,0.23,-15,-15,,-0.1,0.08,60,,,1800
 ,,kac_mcq_prt_suppressor_cover,KAC MRQ PRT Suppressor Cover,1,0.03,,,,,,,,,500
 ,strike_oppressor,,,,,,,,,,,,,
-,,strike_industries_oppressor_blast_shield,Strike Industries Oppressor Blast Shield,0,0.14,-13,-14,,0,0.02,20,,,1000
+,,strike_industries_oppressor_blast_shield,Strike Industries Oppressor Blast Shield,0,0.17,-13,-14,,0,0.02,20,,,1000
 ,swivel_mount,,,,,,,,,,,,,
 1194,,harris_hbr_base,Harris HBR Bipod Base,-1,0.03,,,,,,,,,500
 ,tailhook_brace,,,,,,,,,,,,,
 1195,,ghw_tailhook_mod1_brace_small,GHW Tailhook MOD 1,11,0.09,-5,-5,,,,,,,400
 1196,,ghw_tailhook_mod1_brace_big,GHW Tailhook MOD 1,11,0.09,-5,-5,,,,,,,400
 ,thunderbeast_ultra,,,,,,,,,,,,,
-1197,,tb_5,Thunder Beast Ultra 5,-1,0.09,-14,-12,,-0.05,0.04,50,,,1200
-1198,,tb_7,Thunder Beast Ultra 7,-3,0.12,-16,-13,,-0.1,0.06,70,,,1300
-1199,,tb_9,Thunder Beast Ultra 9,-5,0.15,-17,-14,,-0.2,0.1,90,,,1400
+1197,,tb_5,Thunder Beast Ultra 5,-1,0.12,-15,-12,,-0.05,0.04,50,,,1200
+1198,,tb_7,Thunder Beast Ultra 7,-3,0.15,-16,-13,,-0.1,0.06,70,,,1300
+1199,,tb_9,Thunder Beast Ultra 9,-5,0.18,-17,-14,,-0.2,0.1,90,,,1400
 ,troy_m7a1_pdw_extendable_stock,,,,,,,,,,,,,
 1200,,troy_m7a1_pdw_extendable_stock,Troy M7A1 PDW Extendable Stock,21,0.15,-6,-7,,,,,,,800
 ,ubr_stock,,,,,,,,,,,,,
@@ -2479,7 +2479,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,unity_offset_base_adapter,,,,,,,,,,,,,
 1203,,unity_offset_optic_rmr_adapter_plate,Unity Offset Optic RMR Adapter Plate,-0.5,0.03,,,,,,,,,200
 ,usgi_a2_extension,,,,,,,,,,,,,
-1204,,gemtech_gmt_halo,Gemtech GMT Halo,-5,0.19,-15,-16,,-0.2,0.14,100,,,1300
+1204,,gemtech_gmt_halo,Gemtech GMT Halo,-5,0.22,-15,-16,,-0.2,0.14,100,,,1300
 ,vism_sight,,,,,,,,,,,,,
 1205,,vism_pro_rear_200m,NcStar VISM Pro Rear 200m,1,0.01,,,,,,,,,0
 1206,,vism_pro_rear_600m,NcStar VISM Pro Rear 600m,3,0.01,,,,,,,,,0
@@ -2497,7 +2497,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,z24_covers,,,,,,,,,,,,,
 1213,,z24_covers,Z24,4,0.03,,,,,,,,,0
 ,kac_qd_suppressor,,,,,,,,,,,,,
-1214,,kac_qdss_nt4_5.56x45_suppressor,KAC QDSS NT-4 5.56x45,-5,0.3,-16,-20,,-0.2,0.12,90,,,1900
+1214,,kac_qdss_nt4_5.56x45_suppressor,KAC QDSS NT-4 5.56x45,-5,0.33,-16,-20,,-0.2,0.12,90,,,1900
 ,grip_pod_gps_02_legs,,,,,,,,,,,,,
 1215,,grip_pod_gps_02_legs_ext,GPS-02 Extended,-3,0.09,-6,-7,,,,,,,0
 1216,,grip_pod_gps_02_legs_col,GPS-02 Collapsed,-1,0.09,-4,-5,,,,,,,0

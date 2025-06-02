@@ -1,4 +1,4 @@
-0.24.1,Mon Jun 02 01:06:38 2025,,,,,,,,,,,,,
+0.24.1,Mon Jun 02 01:26:50 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -2052,7 +2052,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,arid_concepts_aug_mag_release_std_paddle,Arid Concepts Standard Paddle,0.5,0.01,,,,,,,,,0
 ,,arid_concepts_aug_mag_release_large_paddle,Arid Concepts Large Paddle,1,0.02,,,,,,,,,100
 ,aug_a3_stock,,,,,,,,,,,,,
-1012,,steyr_aug_a3_para_9x19_stock,Steyr AUG Para 9x19,17,0.23,-12,-13,,0.2,0.05,-300,,,2000
+1012,,steyr_aug_a3_para_9x19_stock,Steyr AUG Para 9x19,17,0.23,-16,-16,,0.2,0.05,-300,,,2000
 1013,,fbt_aug_carbon_fiber_stock,Fine Ballistic Tools AUG Carbon Fiber Stock,20,0.3,-8,-7,,,,,,,4000
 1014,,steyr_aug_a3_nato_stock,AUG A3 NATO,13,0.21,-6,-9,,,,,,,1000
 1015,,steyr_aug_a3_austrian_stock,AUG A3 Austrian,15,0.21,-8,-7,,,,,,,0
@@ -2810,7 +2810,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1348,,Vector,TDI Kriss Vector Gen II,30,0,60,40,0,1.2,1,700,,,90000
 1349,,MK9,CmmG MK9 T,30,0,60,75,0,1,1,1000,,,20000
 1350,,UMP,HK UMP,65,0,80,90,0,0.9,1,700,,,15000
-1351,,AK_9,AK 9mm,30,0,60,70,0,0.9,1,1000,,,11000
+1351,,AK_9,AK 9mm,30,0,55,70,0,0.9,1,1000,,,11000
 ,turret,,,,,,,,,,,,,
 1352,,Turret,Handheld turret,30,3,60,40,200,1.6,1,600,,,100
 ,placer,,,,,,,,,,,,,

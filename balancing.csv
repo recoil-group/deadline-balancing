@@ -1,4 +1,4 @@
-﻿0.24.1,Mon Jun 02 03:16:10 2025,,,,,,,,,,,,,
+﻿0.24.1,Mon Jun 02 03:24:46 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1774,7 +1774,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 871,,9x19_federal_hishok_115gr_jhp,9x19 Federal Hi-Shok 115gr JHP,-1,0.08,10,10,,0.4,,-100,,,2000
 872,,9x19_winchester_m822_124gr_fmj,9x19 Winchester M882 124gr FMJ,0,0.1,-9,-12,,-0.05,0.1,-150,,,1500
 873,,9x19_armscor_usa_147gr_subsonic,9x19 ARMSCOR USA 147gr Subsonic FMJ,3,0.12,-13,-18,,0.2,-0.04,-300,,,1200
-874,,9x19_supernova_119gr_green_tracer,9x19 Supernova 119gr Green Tracer,0,0.09,-6,-4,,0.05,0.12,-150,,,750
+874,,9x19_supernova_119gr_green_tracer,9x19 Supernova 119gr Green Tracer,0,0.09,-6,-4,,0.05,0.13,-150,,,750
 ,ammo_10mm,,,,,,,,,,,,,
 875,,10mm_blazer_aluminum_200gr_fmj,10mm Auto Blazer Aluminum 200gr FMJ,0,0.03,,0,,0,,100,,,0
 876,,10mm_remington_umc_180gr_fmj,10mm Auto Remington UMC 180gr FMJ,0,0.04,,0,,0.05,,50,,,1000

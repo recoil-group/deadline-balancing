@@ -1,4 +1,4 @@
-﻿0.24.1,Mon Jun 02 03:24:46 2025,,,,,,,,,,,,,
+﻿0.24.1,Mon Jun 02 03:29:33 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1683,7 +1683,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,glock_barrel,,,,,,,,,,,,,
 816,,glock17_gen5_marksman_114mm_9x19_barrel,114mm,2,0.16,-9,-12,,0,0,-61,,,0
 817,,sai_match_threaded_9x19_barrel,SAI Match Threaded G17 9x19,0,0.16,-7,-10,,0.05,0,-57,,,1200
-,,glock17l_ported_153mm_9x19_barrel,Glock 17L Ported 153mm 9x19 Barrel,-1,0.2,-12,-15,,-0.1,0.04,-14,,,1500
+,,glock17l_ported_153mm_9x19_barrel,Glock 17L Ported 153mm 9x19 Barrel,-1,0.2,-12,-15,,-0.1,0.03,-14,,,1500
 ,,igb_austria_match_grade_polygonal_406mm_9x19_barrel,IGB Austria Match Grade Polygonal 406mm 9x19 Barrel,-25,0.43,-10,-15,,-0.2,0.1,140,,,3000
 ,,radian_weapons_glock17_ramjet_barrel,Radian Weapons Glock 17 Gen5 RAMJET 9x19,1,0.15,-10,-10,,0.1,0,-57,,,1500
 ,glock_spring,,,,,,,,,,,,,
@@ -2127,8 +2127,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1049,,mosin_carbine_stock,Mosin Std. Carbine,3,0.5,0,-3,,,,,,,500
 1050,,mosin_standard_stock,Mosin Std. Sniper,5,0.6,-1,-5,,,,,,,0
 ,pp19_barrel,,,,,,,,,,,,,
-,,izhmash_pp-19-01_238mm_9x19_barrel,Izhmash PP-19-01 Vityaz 238mm 9x19,-1,0.05,-1,-1,,,,50,,,0
-1051,,izhmash_saiga_9_345mm_9x19_barrel,Izhmash Saiga-9 345mm 9x19,-3,0.09,-2,-2,,,,90,,,500
+,,izhmash_pp-19-01_238mm_9x19_barrel,Izhmash PP-19-01 Vityaz 238mm 9x19,0,0.28,0,0,,0.1,0.05,50,,,0
+1051,,izhmash_saiga_9_345mm_9x19_barrel,Izhmash Saiga-9 345mm 9x19,-2,0.37,-2,-2,,0.1,0.09,90,,,500
 ,pp19_fs_block,,,,,,,,,,,,,
 ,,izhmash_pp-19-01_vityaz_front_sight_block,Izhmash PP-19-01 Vityaz Front Sight Block,0,0.05,,,,,,,,,0
 ,pp19_front_trunnion,,,,,,,,,,,,,

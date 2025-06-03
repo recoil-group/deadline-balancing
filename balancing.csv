@@ -2442,7 +2442,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,sai_extension,,,,,,,,,,,,,
 1186,,syoss_jail_brake,SAI JailBrake 5.56x45,-3,0.16,-3,-5,,0.05,0,0,,,800
 ,saiqd,,,,,,,,,,,,,
-1187,,sai_jailbrake_handguard_extension,SAI Jailbreak Extension,-2,0.16,-1,-10,,0.05,0,0,,,800
+1187,,sai_jailbrake_handguard_extension,SAI Jailbreak Extension,-2,0.16,-1,-8,,0.05,0,0,,,800
 ,sling_mount,,,,,,,,,,,,,
 1188,,sling_mount_ar,Sling Mount,1,0.01,,,,,,,,,0
 ,stanag_plate,,,,,,,,,,,,,

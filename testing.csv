@@ -1,4 +1,4 @@
-0.24.1,Mon Jun 02 19:26:38 2025,,,,,,,,,,,,,
+0.24.1,Wed Jun 04 10:24:48 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -2790,7 +2790,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1331,,AUG_A3,Steyr AUG A3,42,0,58,63,0,0.45,1,2300,,,42000
 1332,,AK12,Kalashnikov Concern AK-12,30,0.6,50,55,0,0.3,1,2300,,,25000
 1333,,AK308,Kalashnikov Concern AK-308,40,0.7,80,100,0,0.7,0.8,1600,,,65000
-1334,,M4A1,M4A1,15,0,64,87,0,0.5,1,2300,,,0
+1334,,M4A1,M4A1,15,0,65,85,0,0.5,1,2300,,,0
 1335,,QBZ95,Norinco QBZ-95,45,2.3,50,50,0,0.5,0.9,2500,,,25000
 1336,,SA58,DS Arms SA-58,30,0.7,80,100,0,0.7,0.8,1550,,,20000
 1337,,SCAR47,Handl Defense SCAR-47,40,0.35,60,60,0,0.2,0.9,1600,,,60000

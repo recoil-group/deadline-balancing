@@ -1,4 +1,4 @@
-0.24.1,Mon Jun 02 19:26:38 2025,,,,,,,,,,,,,
+0.24.1,Sat Jun 07 13:41:04 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -2439,10 +2439,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,romeo4t_cap,,,,,,,,,,,,,
 1184,,romeo4t_lens_caps,Romeo4T Lens,1,0.02,,,,,,,,,0
 1185,,romeo4t_folded_lens_caps,Romeo4T Folded Lens,2,0.02,,,,,,,,,0
-,sai_extension,,,,,,,,,,,,,
-1186,,syoss_jail_brake,SAI JailBrake 5.56x45,-3,0.16,-3,-5,,0.05,0,0,,,800
 ,saiqd,,,,,,,,,,,,,
-1187,,sai_jailbrake_handguard_extension,SAI Jailbreak Extension,-2,0.16,-1,-8,,0.05,0,0,,,800
+1187,,sai_jailbrake_handguard_extension,SAI Jailbreak Extension,-2,0.16,-1,-7,,0.05,0,0,,,800
 ,sling_mount,,,,,,,,,,,,,
 1188,,sling_mount_ar,Sling Mount,1,0.01,,,,,,,,,0
 ,stanag_plate,,,,,,,,,,,,,

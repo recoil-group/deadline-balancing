@@ -1,4 +1,4 @@
-﻿0.24.1,Sat Jun 07 14:04:57 2025,,,,,,,,,,,,,
+﻿0.24.1,Sun Jun 08 22:25:12 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -602,24 +602,24 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,midwest_industries_supp_series_sp18m_mlok_handguard,"Midwest Industries Supp Series SP18M 18""",5,0.42,-12,-20,,,,,,,1600
 ,,colt_607_car15_triangle_7inch_handguard,"Colt 607 CAR-15 Triangle 7"" Handguard",16,0.19,-8,-10,,0.03,,,,,550
 ,modtac_mounting_coupler,,,,,,,,,,,,,
-,,modtac_mrac_gen2_mounting_coupler,MODTAC M-RAC Gen2 Mounting Coupler,-2,0.04,,,,,,,,,300
-,,modtac_mrac_gen3_mounting_coupler,MODTAC M-RAC Gen3 Mounting Coupler,-1,0.05,,,,,,,,,500
-,,modtac_urac_gen2_mounting_coupler,MODTAC U-RAC Gen2 Mounting Coupler,-1,0.05,,,,,,,,,450
-,,modtac_urac_gen3_mounting_coupler,MODTAC U-RAC Gen3 Mounting Coupler,0,0.07,,,,,,,,,600
+,,modtac_mrac_gen2_mounting_coupler,MODTAC M-RAC Gen2 Mounting Coupler,0,0.05,,,,,,,,,300
+,,modtac_mrac_gen3_mounting_coupler,MODTAC M-RAC Gen3 Mounting Coupler,0,0.05,,,,,,,,,500
+,,modtac_urac_gen2_mounting_coupler,MODTAC U-RAC Gen2 Mounting Coupler,0,0.04,,,,,,,,,450
+,,modtac_urac_gen3_mounting_coupler,MODTAC U-RAC Gen3 Mounting Coupler,0,0.04,,,,,,,,,600
 ,modtac_rac_suppressor_shield,,,,,,,,,,,,,
-,,modtac_rac_gen2_6inch_suppressor_shield,MODTAC M-RAC Gen2 6inch Suppressor Shield,1,0.05,,,,,,,,,600
-,,modtac_rac_gen2_7inch_suppressor_shield,MODTAC M-RAC Gen 2 7inch Suppressor Shield,1,0.06,,,,,,,,,700
-,,modtac_rac_gen3_6inch_suppressor_shield,MODTAC M-RAC Gen3 6inch Suppressor Shield,2,0.07,,,,,,,,,800
-,,modtac_rac_gen3_7inch_suppressor_shield,MODTAC M-RAC Gen3 7inch Suppressor Shield,2,0.09,,,,,,,,,900
+,,modtac_rac_gen2_6inch_suppressor_shield,MODTAC M-RAC Gen2 6inch Suppressor Shield,2,0.07,,,,,,,,,600
+,,modtac_rac_gen2_7inch_suppressor_shield,MODTAC M-RAC Gen 2 7inch Suppressor Shield,2,0.08,,,,,,,,,700
+,,modtac_rac_gen3_6inch_suppressor_shield,MODTAC M-RAC Gen3 6inch Suppressor Shield,2,0.06,,,,,,,,,800
+,,modtac_rac_gen3_7inch_suppressor_shield,MODTAC M-RAC Gen3 7inch Suppressor Shield,2,0.07,,,,,,,,,900
 ,modtac_urac_mount,,,,,,,,,,,,,
-,,modtac_urac_picatinny_coupler_mount,MODTAC U-RAC Picatinny Coupler Mount,-1,0.03,,,,,,,,,200
+,,modtac_urac_picatinny_coupler_mount,MODTAC U-RAC Picatinny Coupler Mount,0,0.03,,,,,,,,,200
 ,,modtac_urac_top_front_ironsight,MODTAC U-RAC Top Front Ironsight,3,0.02,,,,,,,,,0
 ,,modtac_urac_top_front_ironsight_folded,MODTAC U-RAC Folded Top Front Ironsight,2,0.02,,,,,,,,,0
-,,modtac_urac_ironsight_mount,MODTAC U-RAC Ironsight Mount,0,0.04,,,,,,,,,600
+,,modtac_urac_ironsight_mount,MODTAC U-RAC Ironsight Mount,0,0.02,,,,,,,,,600
 ,,modtac_urac_flag_mount,MODTAC U-RAC US Flag Mount,1,0.03,,,,,,,,,2000
 ,modtac_mrac_mounting_plates,,,,,,,,,,,,,
-,,modtac_mrac_low_profile_mounting_plates,MODTAC M-RAC Low Profile Mounting Plates,3,0.03,,,,,,,,,200
-,,modtac_mrac_picatinny_rail_mounting_plates,MODTAC M-RAC Picatinny Rail Mounting Plates,1,0.04,,,,,,,,,400
+,,modtac_mrac_low_profile_mounting_plates,MODTAC M-RAC Low Profile Mounting Plates,0,0.03,,,,,,,,,200
+,,modtac_mrac_picatinny_rail_mounting_plates,MODTAC M-RAC Picatinny Rail Mounting Plates,-1,0.04,,,,,,,,,400
 ,ar15_buffer,,,,,,,,,,,,,
 293,,sb_tactical_vector_brace,SB Tactical Vector Brace,18,0.28,-3,-3,,,,,,,500
 294,,doublestar_ace_m4_socom_gen4_stock,Doublestar ACE M4 SOCOM,14,0.32,-9,-9,,,,,,,1000

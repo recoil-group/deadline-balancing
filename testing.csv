@@ -1,4 +1,4 @@
-0.24.1,Sun Jun 08 22:25:12 2025,,,,,,,,,,,,,
+0.24.1,Tue Jun 10 14:53:08 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -479,7 +479,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 232,,aim_sports_front_sight_folded,AIM Sports Low Profile 45 Degree Folded Folded Front Sight,1,0.02,,,,,,,,,0
 233,,aim_sports_rear_sight,AIM Sports Low Profile 45 Degree Rear Sight,2,0.02,,,,,,,,,0
 ,aimpoint_micro_footprint,,,,,,,,,,,,,
-234,,sig_sauer_romeo4_sight,Sig Sauer Romeo4,-1.5,0.08,,,,,,,,,1000
+234,,sig_sauer_romeo4b_sight,Sig Sauer Romeo4B,-1.5,0.08,,,,,,,,,1000
 235,,sig_sauer_romeo4t_sight,Sig Sauer Romeo4T,-1.5,0.08,,,,,,,,,1100
 236,,aimpoint_micro_spacer_high_39mm,Aimpoint Micro Spacer High 39mm,-1,0.03,,,,,,,,,200
 237,,aimpoint_micro_spacer_low_30mm,Aimpoint Micro Spacer Low 30mm,-0.5,0.02,,,,,,,,,200

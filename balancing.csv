@@ -1,4 +1,4 @@
-﻿0.24.1,Mon Jun 16 21:18:01 2025,,,,,,,,,,,,,
+﻿0.24.1,Mon Jun 16 21:21:08 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -99,7 +99,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 75,,aim_sports_mt012m_riser_mount,"Aim Sports MT012M 0.83""",-1,0.06,,,,,,,,,300
 76,,ncstar_blue_lam_module,NcStar Blue LAM Module,-1,0.08,,,,,,,,,750
 77,,ncstar_mark_3_tactical_gen2_3_9x42,NcStar Mark III Tactical Gen 2 3-9x42,-5,0.26,,-2,,,,,,,2000
-78,,ncstar_mpr45_offset_mount,NcStar Mpr45 Offset mount,-4,0.02,,,,,,,,,200
+78,,ncstar_mpr45_offset_mount,NcStar Mpr45 Offset mount,-2,0.02,,,,,,,,,200
 79,,npz_1p78_kashtan_p1_picatinny_adapter,NPZ 1P78 Kashtan P-1 Picatinny Adapter,0,0.06,,,,,,,,,300
 80,,okb_crazy_romanian_picatinny_full_grip,OKB Crazy Romanian Picatinny Full Grip,1,0.11,-5,-4,,,,,,,800
 81,,okb_crazy_romanian_picatinny_half_grip,OKB Crazy Romanian Picatinny Half Grip,4,0.07,-1,-4,,,,,,,600
@@ -137,7 +137,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 107,,timber_creek_enforcer_foregrip,Timber Creek Enforcer,3,0.1,-3,-5,,,,,,,700
 108,,timber_creek_enforcer_handstop,Timber Creek Enforcer,6,0.05,-1,-2,,,,,,,700
 109,,trijicon_compact_acog_ac12041_mount,Trijicon Compact ACOG AC12041 Mount w/ Q-LOC Technology,0,0.03,,,,,,,,,350
-110,,trijicon_rmr_ac32066_offset,Trijicon RMR AC32066 45degree Offset Mount,-4,0.03,,,,,,,,,200
+110,,trijicon_rmr_ac32066_offset,Trijicon RMR AC32066 45degree Offset Mount,-2,0.03,,,,,,,,,200
 111,,trijicon_rx14_mount,Trijicon RX14,-0.5,0.06,,,,,,,,,200
 112,,trijicon_srs02,Trijicon SRS-02,-1,0.16,,,,,,,,,1000
 113,,trijicon_ta51_flattop_mount,Trijicon TA51 Thumbscrew Flattop,0,0.06,,,,,,,,,400

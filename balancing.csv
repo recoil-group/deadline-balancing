@@ -1,4 +1,4 @@
-﻿0.24.1,Tue Jun 17 00:41:50 2025,,,,,,,,,,,,,
+﻿0.24.1,Tue Jun 17 01:11:10 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -2052,7 +2052,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,arid_concepts_aug_mag_release_std_paddle,Arid Concepts Standard Paddle,0.5,0.01,,,,,,,,,0
 ,,arid_concepts_aug_mag_release_large_paddle,Arid Concepts Large Paddle,1,0.02,,,,,,,,,100
 ,aug_a3_stock,,,,,,,,,,,,,
-1012,,steyr_aug_a3_para_9x19_stock,Steyr AUG Para 9x19,20,0.23,-14,-14,,0.2,,-600,,,2000
+1012,,steyr_aug_a3_para_9x19_stock,Steyr AUG Para 9x19,20,0.23,-13,-13,,0.2,,-600,,,2000
 1013,,fbt_aug_carbon_fiber_stock,Fine Ballistic Tools AUG Carbon Fiber Stock,22,0.3,-6,-6,,,,,,,4000
 1014,,steyr_aug_a3_nato_stock,AUG A3 NATO,16,0.21,-5,-7,,,,,,,1000
 1015,,steyr_aug_a3_austrian_stock,AUG A3 Austrian,17,0.21,-7,-6,,,,,,,0

@@ -1,4 +1,4 @@
-﻿0.24.1,Mon Jun 16 22:29:36 2025,,,,,,,,,,,,,
+﻿0.24.1,Tue Jun 17 00:41:50 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -2804,7 +2804,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1345,,Remington870,Remington 870 Express,20,0.9,90,90,1,0.8,1,1000,2.5,,20000
 1346,,MP133,Baikal MP-133,30,0.9,60,70,1,0.6,1,1000,2.5,,9000
 ,smg,,,,,,,,,,,,,
-1347,,MP5,H&K MP5,35,0,45,55,0,1,1,1000,,,5000
+1347,,MP5,H&K MP5,35,0,50,60,0,1,1,1000,,,5000
 1348,,Vector,TDI Kriss Vector Gen II,30,0,60,40,0,1.2,1,700,,,90000
 1349,,MK9,CmmG MK9 T,30,0,60,75,0,1,1,1000,,,20000
 1350,,UMP,HK UMP,65,0,80,90,0,0.9,1,700,,,15000

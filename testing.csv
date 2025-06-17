@@ -1,4 +1,4 @@
-0.24.1,Mon Jun 16 21:21:08 2025,,,,,,,,,,,,,
+0.24.1,Mon Jun 16 21:25:59 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -708,7 +708,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,radian_weapons_ar15_model_1_m1curgh_upper_receiver,Radian Weapons AR15 Model 1 M1CURGH Upper Receiver,4,0.34,-1,-1,,-0.05,,,,,4000
 ,,daniel_defense_ddm4v7_upper_receiver,Daniel Defense DDM4 Upper Receiver,1,0.23,-1,-1,,,,,,,1000
 ,,daniel_defense_m4a1_upper_receiver,Daniel Defense M4A1 Upper Receiver,0,0.24,-2,-2,,,,,,,1500
-,,daniel_defense_mk12_upper_receiver,Daniel Defense MK12 Upper Receiver,4,0.25,2,0,,-0.1,,100,,,1000
+,,daniel_defense_mk12_upper_receiver,Daniel Defense MK12 Upper Receiver,4,0.25,1,2,,-0.1,,100,,,1000
 ,,daniel_defense_mk18_upper_receiver,Daniel Defense MK18 Upper Receiver,3,0.23,0,-1,,0.15,,-100,,,2500
 ,m4a1_bolt_catch,,,,,,,,,,,,,
 339,,m4a1_std_bolt_catch,Colt M4 Standard,0,0.01,,,,,,,,,0

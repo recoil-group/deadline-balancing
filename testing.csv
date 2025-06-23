@@ -1,4 +1,4 @@
-0.24.1,Tue Jun 17 01:11:10 2025,,,,,,,,,,,,,
+0.24.1,Sun Jun 22 23:21:14 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -2771,6 +2771,49 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,airtronic_psrl_front_ironsight,AirTronic USA PSRL Front Ironsight,2,0.02,,,,,,,,,0
 ,,airtronic_psrl_front_ironsight_folded,AirTronic USA PSRL Front Ironsight Folded,1,0.02,,,,,,,,,0
 ,,airtronic_psrl_plastic_foregrip,AirTronic USA PSRL Plastic Foregrip,3,0.1,-2,-2,,,,,,,800
+,sig_sauer_p320_mag,,,,,,,,,,,,,
+,,sig_sauer_p320_mag_bottom_plate,Sig Sauer P320 Mag Bottom Plate,0,0.02,,,,,,,,,0
+,,sig_sauer_p320_9x19_17r_mag,Sig Sauer P320 9x19 17r Mag,0,0.15,,,17,,,,,,0
+,,sig_sauer_p320_9x19_21r_mag,Sig Sauer P320 9x19 21r Mag,-2,0.19,,,21,,,,,,2000
+,,sig_sauer_p320_9x19_30r_mag,Sig Sauer P320 9x19 30r Mag,-4,0.28,,,30,,,,,,4000
+,sig_sauer_p320_mag_sleeve,,,,,,,,,,,,,
+,,sig_sauer_p320_mag_short_sleeve,Sig Sauer P320 Mag Short Sleeve,1,0.06,,,,,,,,,500
+,,sig_sauer_p320_mag_long_sleeve,Sig Sauer P320 Mag Long Sleeve,1.5,0.08,,,,,,,,,1000
+,sig_sauer_p320_barrel,,,,,,,,,,,,,
+,,sig_sauer_p320_compact_3.9inch_9x19_barrel,"Sig Sauer P320 Compact 3.9"" 9x19 Barrel",4,0.14,3,3,,0.1,-0.03,-80,,,1000
+,,sig_sauer_p320_compact_4.6inch_threaded_9x19_barrel,"Sig Sauer P320 Compact 4.6"" Threaded 9x19 Barrel",1,0.16,1,1,,0.05,0,-50,,,3000
+,,sig_sauer_p320_full_4.7inch_9x19_barrel,"Sig Sauer P320 Full 4.7"" 9x19 Barrel",0,0.17,0,0,,0,0.01,-45,,,0
+,,sig_sauer_p320_full_5.5inch_threaded_9x19_barrel,"Sig Sauer P320 Full 5.5"" Threaded 9x19 Barrel",-3,0.19,-1,-1,,-0.1,0.04,-10,,,1500
+,sig_sauer_p320_grip_module,,,,,,,,,,,,,
+,,sig_sauer_p320_xfull_grip_module,Sig Sauer P320 XFull Grip Module,0,0.22,-2,-2,,,,,,,0
+,,sig_sauer_p320_xcarry_grip_module,Sig Sauer P320 XCarry Grip Module,2,0.19,0,0,,,,,,,2000
+,sig_sauer_p320_trigger,,,,,,,,,,,,,
+,,sig_sauer_p320_flat_trigger,Sig Sauer P320 Flat Trigger,0,0.02,,,,,,,,,0
+,,sig_sauer_p320_skeletonized_enhanced_trigger,Sig Sauer P320 Skeletonized Enhanced Trigger,1,0.01,,,,,,,,0.05,1000
+,sig_sauer_p320_recoil_spring,,,,,,,,,,,,,
+,,sig_sauer_p320_xfull_recoil_spring,Sig Sauer P320 XFull Recoil Spring,0,0.03,,,,,,,,,0
+,,sig_sauer_p320_xcarry_recoil_spring,Sig Sauer XCarry Recoil Spring,0,0.02,,,,,,,,,0
+,sig_sauer_p320_slide,,,,,,,,,,,,,
+,,sig_sauer_p320_xfull_9x19_slide,Sig Sauer P320 XFull 9x19 Slide,1,0.09,-2,-3,,,,,,,0
+,,sig_sauer_m18x_9x19_slide,Sig Sauer M18X 9x19 Slide,4,0.07,-1,0,,,,,,,3000
+,,sig_sauer_m17x_9x19_slide,Sig Sauer M17X 9x19 Slide,2,0.09,-3,-2,,,,,,,2000
+,sig_sauer_p320_slide_cover,,,,,,,,,,,,,
+,,sig_sauer_m17_optic_slide_cover,Sig Sauer M17 Optic Slide Cover,0,0.03,,,,,,,,,250
+,,sig_sauer_p320_optic_slide_cover,Sig Sauer P320 Optic Slide Cover,0,0.03,,,,,,,,,0
+,sig_sauer_p320_sight,,,,,,,,,,,,,
+,,sig_sauer_xray3_night_front_sight,Sig Sauer X-RAY3 Night Front Sight,2,0.01,,,,,,,,,0
+,,sig_sauer_xray3_night_rear_sight,Sig Sauer X-RAY3 Night Rear Sight,2,0.01,,,,,,,,,0
+,,sig_sauer_m17_sigplate_rear_sight,Sig Sauer M17 SigPlate Rear Sight,0,0.02,,,,,,,,,0
+,sig_sauer_p320_misc_parts,,,,,,,,,,,,,
+,,sig_sauer_p320_fcu,Sig Sauer P320 FCU,0,0.06,,,,,,,,,0
+,,sig_sauer_p320_extractor,Sig Sauer P320 Extractor,0,0.01,,,,,,,,,0
+,,sig_sauer_p320_mag_release,Sig Sauer P320 Mag Release,0,0.01,,,,,,,,,0
+,,sig_sauer_p320_sear_housing,Sig Sauer P320 Sear Housing,0,0.02,,,,,,,,,0
+,,sig_sauer_p320_slide_cap,Sig Sauer P320 Slide Cap,0,0.01,,,,,,,,,0
+,,sig_sauer_p320_slide_release,Sig Sauer P320 Slide Release,0,0.01,,,,,,,,,0
+,,sig_sauer_p320_takedown_lever,Sig Sauer P320 Takedown Lever,0,0.01,,,,,,,,,0
+,,sig_sauer_p320_10mm_takedown_safety_lever,Sig Sauer P320 10mm Takedown Safety Lever,1,0.02,,,,,,,,,0
+,,sig_sauer_p320_x_mag_funnel,Sig Sauer P320 X Mag Funnel,2,0.04,,,,,,,,,750
 ,throwable,,,,,,,,,,,,,
 1320,,F1,F1 Grenade,,0.2,,,,,,,,,10000
 1321,,M67,M67 Grenade,,0.2,,,,,,,,,0
@@ -2783,6 +2826,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1327,,EDC_X9,Wilson Combat EDC X9,80,0,30,30,0,0.9,1,1000,,,25000
 1328,,Glock17,Glock 17,50,0,40,70,0,1.2,1,1000,,,0
 1329,,Glock20,Glock 20,60,0.4,40,70,0,1.1,1,1000,,,10000
+,,P320,Sig Sauer P320,70,0,25,35,0,1,1,1000,,,25000
 ,rifle,,,,,,,,,,,,,
 1330,,HK416A5,HK416A5,30,0,55,90,0,0.45,1,2300,,,30000
 1331,,AUG_A3,Steyr AUG A3,40,0,55,60,0,0.45,1,2300,,,42000

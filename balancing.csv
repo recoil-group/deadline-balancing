@@ -1616,9 +1616,6 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,izhevsk_pm_std_rear_sight,Izhevsk PM Standard Rear Sight,1,0.01,,,,,,,,,0
 ,,rtm_pm1_makarov_rear_sight,RTM PM1 Makarov Rear Sight,2,0.03,,,,,,,,,500
 ,glock_slide,,,,,,,,,,,,,
-793,,glock_standard_slide,Glock Standard,0,0.15,-1,-1,,,,,,,0
-794,,hex_slide,Zev Tech Hex Gen3,3,0.1,0,-3,,,,,,,0
-795,,moto_cut_slide,Moto Cut,1,0.12,-3,-2,,,,,,,0
 ,,glock17_gen4_slide,Glock 17 Gen4 Slide,3,0.08,-2,-3,,,,,,,600
 ,,glock17_gen5_early_slide,Glock 17 Gen5 Slide,2,0.07,-3,-4,,,,,,,0
 ,,glock17l_slide,Glock 17L Slide,2,0.1,-4,-5,,,,,,,1500

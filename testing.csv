@@ -1,4 +1,4 @@
-0.24.1,Wed Jun 25 14:06:35 2025,,,,,,,,,,,,,
+0.24.1,Wed Jun 25 14:19:09 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1924,7 +1924,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,fr_ordnance_mc51_upper_receiver,FR Ordinance MC51 Upper Receiver,3,0.55,4,5,,,,,,,5000
 ,,fr_ordnance_mc51k_upper_receiver,FR Ordinance MC51K Upper Receiver,6,0.5,10,5,,,,,,,2000
 ,,fr_ordnance_mc51sd_upper_receiver,FR Ordinance MC51SD Upper Receiver,1,0.55,3,3,,,,,,,4000
-,,ptr_32_7.62x39_upper_receiver,PTR 32 7.62x39 Upper Receiver,-20,0.6,-12,-18,,,,,,,10000
+,,ptr_32_7.62x39_upper_receiver,PTR 32 7.62x39 Upper Receiver,-10,0.62,-16,-20,,,,,,,10000
 ,hk_upper_receiver_mounts,,,,,,,,,,,,,
 955,,addon_hk_upper_receiver_picatinny_rail,Custom Addon HK Upper Receiver Picatinny,-0.5,0.07,0,0,,,,,,,0
 ,hk_g3_stock,,,,,,,,,,,,,
@@ -1954,10 +1954,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,fr_ordnance_mc51sd_125mm_7.62x51_barrel,FR Ordinance MC51SD 125mm 7.62x51,14,0.39,13,13,,0.6,-0.16,-652,,,2500
 964,,hk_psg1_bull_650mm_barrel,HK PSG-1 Bull 650mm 7.62x51,-5,1.17,-1,-1,,-0.35,0.14,509,,,4500
 ,ptr_32_barrel,,,,,,,,,,,,,
-,,ptr_32_7.62x39_457mm_m14x1lh_barrel,PTR 32 7.62x39 18in Barrel,-3,0.6,-8,-11,,-0.15,0.35,-375,,,3000
-,,ptr_32_7.62x39_457mm_5-8x24_barrel,PTR 32 7.62x39 18in 5/8 Threaded Barrel,-4,0.6,-7,-10,,-0.15,0.35,-375,,,3250
-,,ptr_32_7.62x39_406mm_m14x1lh_barrel,PTR 32 7.62x39 16in Barrel,-1,0.5,-5,-8,,-0.05,0.3,-409,,,2000
-,,ptr_32_7.62x39_406mm_5-8x24_barrel,PTR 32 7.62x39 16in 5/8 Threaded Barrel,-2,0.5,-4,-7,,-0.05,0.3,-409,,,2250
+,,ptr_32_7.62x39_457mm_m14x1lh_barrel,PTR 32 7.62x39 18in Barrel,-3,0.81,-2,-2,,-0.15,0.03,-375,,,3000
+,,ptr_32_7.62x39_457mm_5-8x24_barrel,PTR 32 7.62x39 18in 5/8 Threaded Barrel,-4,0.81,-2,-2,,-0.15,0.03,-375,,,3250
+,,ptr_32_7.62x39_406mm_m14x1lh_barrel,PTR 32 7.62x39 16in Barrel,0,0.74,0,0,,-0.05,0,-409,,,2000
+,,ptr_32_7.62x39_406mm_5-8x24_barrel,PTR 32 7.62x39 16in 5/8 Threaded Barrel,-1,0.74,0,0,,-0.05,0,-409,,,2250
 ,mc51sd_suppressor,,,,,,,,,,,,,
 ,,fr_ordnance_mc51sd_suppressor,FR Ordinance MC51SD Suppressor,-6,0.26,-6,-6,,-0.1,0.15,90,,,5000
 ,hk_g3_rear_sight_assembly_top,,,,,,,,,,,,,

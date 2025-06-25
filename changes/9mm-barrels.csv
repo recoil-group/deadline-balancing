@@ -34,3 +34,6 @@ sig_sauer_p320_compact_3.9inch_9x19_barrel,"Sig Sauer P320 Compact 3.9"" 9x19 Ba
 sig_sauer_p320_compact_4.6inch_threaded_9x19_barrel,"Sig Sauer P320 Compact 4.6"" Threaded 9x19 Barrel",1,0.16,1,1,,0.05,0,-50,,,3000,-4.141666667,,0.06,4.6,,0.17,-0.003272727,
 sig_sauer_p320_full_4.7inch_9x19_barrel,"Sig Sauer P320 Full 4.7"" 9x19 Barrel",0,0.17,0,0,,0,0.01,-45,,,0,-3.4,,0.06,4.7,,0.17,-0.002454545,
 sig_sauer_p320_full_5.5inch_threaded_9x19_barrel,"Sig Sauer P320 Full 5.5"" Threaded 9x19 Barrel",-3,0.19,-1,-1,,-0.1,0.04,-10,,,1500,-4.083333333,,0.06,5.5,,0.19,0.004090909,
+,,,,,,,,,,,,,0,,,,,0,-0.040909091,
+wilson_combat_edc_x9_102mm_9x19_barrel,Wilson Combat EDC X9 102mm 9x19,0,0.16,0,0,,0,0,-78,,,0,-3.46,,0.06,4.01575,,0.15,-0.008052955,
+wilson_combat_edc_x9_127mm_threaded_9x19_barrel,Wilson Combat EDC X9 127mm Threaded 9x19,-1,0.18,2,2,,0.1,0,-44,,,750,-8.296666667,,0.06,5,,0.18,0,

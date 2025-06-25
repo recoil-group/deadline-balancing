@@ -1,4 +1,4 @@
-0.24.1,Wed Jun 25 14:58:03 2025,,,,,,,,,,,,,
+0.24.1,Wed Jun 25 16:24:42 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1006,14 +1006,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,magazine_ar9_adapter,,,,,,,,,,,,,
 ,,nbs_ar15_9x19_colt_mag_adapter,NBS AR-15 9x19 Colt Mag Adapter,0,0.07,,,,,,,,,1000
 ,magazine_9x19_ar9,,,,,,,,,,,,,
-505,,colt_32rd,Colt 9x19 32rnd,0,0.3,,,32,,,,,,500
-506,,duramag_colt_ar9_20r_mag,Duramag Colt AR-9 20Rnd,7,0.19,,-2,20,,,,,,400
-507,,duramag_colt_ar9_10r_mag,Duramag Colt AR-9 10Rnd,14,0.1,,-4,10,,,,,,200
-,,custom_colt_smg_9x19_50r_mag,Custom Colt SMG 9x19 50rnd Magazine,-20,0.5,,,50,0.05,,,,,5000
+505,,colt_32rd,Colt 9x19 32rnd,0,0.35,,,32,,,,,,500
+506,,duramag_colt_ar9_20r_mag,Duramag Colt AR-9 20Rnd,7,0.23,,-2,20,,,,,,400
+507,,duramag_colt_ar9_10r_mag,Duramag Colt AR-9 10Rnd,14,0.12,,-4,10,,,,,,200
+,,custom_colt_smg_9x19_50r_mag,Custom Colt SMG 9x19 50rnd Magazine,-20,0.6,,,50,0.05,,,,,5000
 ,colt_smg_extension,,,,,,,,,,,,,
-,,taylor_freelance_colt_smg_10r_mag_extension,Taylor Freelance Colt SMG 10r Mag Extension,-5,0.08,,,10,,,,,,1000
+,,taylor_freelance_colt_smg_10r_mag_extension,Taylor Freelance Colt SMG 10r Mag Extension,-5,0.11,,,10,,,,,,1000
 ,colt_50_more,,,,,,,,,,,,,
-,,custom_colt_smg_9x19_50r_extension,Custom Colt SMG 50rnd Magazine Extension,-45,0.5,20,20,50,0.05,,,,,5000
+,,custom_colt_smg_9x19_50r_extension,Custom Colt SMG 50rnd Magazine Extension,-45,0.55,20,20,50,0.05,,,,,5000
 ,,custom_colt_smg_mag_coupler,Custom Colt SMG Mag Coupler,-2,0.1,,,,,,,,,0
 ,magazine_762x25mm_tt33,,,,,,,,,,,,,
 508,,tt33_std_8rnd,TT-33 Std. Single Stack 8R,27,0.09,,,8,,,,,,300
@@ -1022,17 +1022,17 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 510,,custom_pm_ppsh_9x18_84r_drum_mag,Custom PM/PPSH 9x18 84R Drum,-12,0.88,4,-1,84,0.05,,,,,5000
 511,,izhevsk_pm_9x18_8r_magazine,Izhevsk PM 9x18 8R Magazine,0,0.09,,,8,,,,,,0
 ,magazine_9x19_edc_x9,,,,,,,,,,,,,
-512,,wilson_combat_edc_x9_18r_magazine,EDC X9 Std. 18r,-5,0.20,,,18,,,,,,1000
-513,,wilson_combat_edc_x9_15r_magazine,EDC X9 Std. 15r,-3,0.15,,,15,,,,,,500
-514,,wilson_combat_edc_x9_10r_magazine,EDC X9 Std. 10r,0,0.1,,,10,,,,,,300
+512,,wilson_combat_edc_x9_18r_magazine,EDC X9 Std. 18r,-5,0.21,,,18,,,,,,1000
+513,,wilson_combat_edc_x9_15r_magazine,EDC X9 Std. 15r,-3,0.18,,,15,,,,,,500
+514,,wilson_combat_edc_x9_10r_magazine,EDC X9 Std. 10r,0,0.13,,,10,,,,,,300
 ,magazine_9x19,,,,,,,,,,,,,
-515,,glock17_9x19_stick_31r_magazine,Glock 9x19 31R Stick,-3,0.31,,,31,,,,,,1000
-,,9x19_glock_stick_31r,Glock 9x19 31R Stick,-3,0.31,,,31,,,,,,1000
-516,,glock17_gen5_9x19_17r_magazine,Glock 9x19 17R,0,0.17,,,17,,,,,,500
-517,,sgm_tactical_glock_9x19_50r_drum_magazine,SGMT 9x19 50R Drum,-6,0.55,,,50,,,,,,3000
-,,9x19_sgmt_50r_drum,SGMT 9x19 50R Drum,-6,0.55,,,50,,,,,,3000
+515,,glock17_9x19_stick_31r_magazine,Glock 9x19 31R Stick,-3,0.35,,,31,,,,,,1000
+,,9x19_glock_stick_31r,Glock 9x19 31R Stick,-3,0.35,,,31,,,,,,1000
+516,,glock17_gen5_9x19_17r_magazine,Glock 9x19 17R,0,0.2,,,17,,,,,,500
+517,,sgm_tactical_glock_9x19_50r_drum_magazine,SGMT 9x19 50R Drum,-7,0.7,,,50,,,,,,3000
+,,9x19_sgmt_50r_drum,SGMT 9x19 50R Drum,-7,0.7,,,50,,,,,,3000
 ,magazine_9x19_ump9,,,,,,,,,,,,,
-518,,hk_ump9_9x19_30r_mag,HK UMP9 9x19 30R,-5,0.25,,,30,,,,,,500
+518,,hk_ump9_9x19_30r_mag,HK UMP9 9x19 30R,0,0.36,,,30,,,,,,500
 ,magazine_12g_r870,,,,,,,,,,,,,
 519,,lancer_systems_lsx_2rnd_extension,Lancer Systems LSX +2,9,0.07,,,,,,,,,550
 520,,lancer_systems_lsx_3rnd_extension,Lancer Systems LSX +3,8,0.1,,,,,,,,,750
@@ -1066,25 +1066,25 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 544,,7.62x54_promag_5r,ProMag AA762R 01 5R,-1,0.15,,,5,,,,,,500
 545,,7.62x54_mosin_5r,Mosin Standard 5R,0,0.2,,,5,,,,,,0
 ,magazine_9x19_mp5,,,,,,,,,,,,,
-546,,hk_mp5_std_curved_30r_9x19_magazine,HK MP5 Std. Curved 30rd 9x19 Magazine,0,0.28,,,30,,,,,,0
-,,hk_mp5_straight_30r_9x19_magazine,HK MP5 Straight 30rd 9x19 Magazine,1,0.3,,,30,,,,,,500
-,,x_products_mp5_50r_9x19_drum,X Products MP5 50rd 9x19 Drum,-10,0.55,,,50,,,,,,3000
+546,,hk_mp5_std_curved_30r_9x19_magazine,HK MP5 Std. Curved 30rd 9x19 Magazine,0,0.34,,,30,,,,,,0
+,,hk_mp5_straight_30r_9x19_magazine,HK MP5 Straight 30rd 9x19 Magazine,1,0.36,,,30,,,,,,500
+,,x_products_mp5_50r_9x19_drum,X Products MP5 50rd 9x19 Drum,-9,0.68,,,50,,,,,,3000
 ,mp5_magazine_bottom_plate,,,,,,,,,,,,,
-,,hk_mp5_std_mag_plate,HK MP5 Std. Magazine Plate,,0.02,,,,,,,,,0
+,,hk_mp5_std_mag_plate,HK MP5 Std. Magazine Plate,0,0.02,,,,,,,,,0
 ,magazine_9x19_pp19,,,,,,,,,,,,,
-548,,izhmash_pp-19-01_vityaz_9x19_30r_mag,Izhmash PP-19-01 Vityaz 9x19 30R,1,0.2,,,30,,,,,,0
+548,,izhmash_pp-19-01_vityaz_9x19_30r_mag,Izhmash PP-19-01 Vityaz 9x19 30R,0,0.34,,,30,,,,,,0
 549,,izhmash_saiga_9_9x19_pinned_10r_mag,Izhmash Saiga-9 9x19 Pinned 10R,9,0.07,,,10,,,,,,200
-,,kalashnikov_usa_kp9_9x19_50r_drum_mag,Kalashnikov USA KP9 9x19 50R Drum Mag,-3,0.5,,,50,,,,,,3000
+,,kalashnikov_usa_kp9_9x19_50r_drum_mag,Kalashnikov USA KP9 9x19 50R Drum Mag,-6,0.65,,,50,,,,,,3000
 ,pp19_bottom_plate,,,,,,,,,,,,,
-550,,izhmash_pp-19-01_mag_bottom_plate,Izhmash PP-19-01 Bottom Plate,0,0.01,,,,,,,,,0
+550,,izhmash_pp-19-01_mag_bottom_plate,Izhmash PP-19-01 Bottom Plate,0,0.02,,,,,,,,,0
 ,magazine_45acp_ump45,,,,,,,,,,,,,
 551,,hk_ump45_45acp_25r_mag,HK UMP45 .45 ACP 25R,-6,0.3,,,25,,,,,,0
 ,magazine_5.8x42mm_qbz95,,,,,,,,,,,,,
 552,,magazine_5.8x42mm_qbz95,Norinco QBZ-95 5.8x42mm 30R,,,,,30,,,,,,500
 ,magazine_9x19_aug_para,,,,,,,,,,,,,
-553,,steyr_aug_para_mp88_9x19_25r_mag,Steyr AUG MP88 9x19 25R,20,0.23,,,25,,,,,,500
-,,steyr_mpi_69_81_9x19_32r_mag,Steyr MPI69/81 9x19 32R,15,0.3,,,32,,,,,,750
-554,,roch_custom_steyr_aug_9x19_40r_mag,Roch Custom Steyr AUG Para 9x19 40R,9,0.38,,,40,,,,,,1000
+553,,steyr_aug_para_mp88_9x19_25r_mag,Steyr AUG MP88 9x19 25R,0,0.29,,,25,,,,,,500
+,,steyr_mpi_69_81_9x19_32r_mag,Steyr MPI69/81 9x19 32R,-4,0.36,,,32,,,,,,750
+554,,roch_custom_steyr_aug_9x19_40r_mag,Roch Custom Steyr AUG Para 9x19 40R,-10,0.44,,,40,,,,,,1000
 ,magazine_7.62x51_fn_fal,,,,,,,,,,,,,
 ,,dsa_sa58_fal_metric_magazine_5r,DSA FAL SA-58 U.S. Made Metric 5R,11,0.16,,,5,,,,,,200
 555,,dsa_sa58_fal_metric_magazine_10r,DSA FAL SA-58 U.S. Made Metric 10R,7,0.32,,,10,,,,,,500
@@ -1636,10 +1636,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,glock17_slide_backplate,Glock 17 Slide Backplate,0,0.01,,,,,,,,,0
 ,,zevtech_g17_slide_backplate,Zevtech Glock 17 Blackplate,0,0.01,,,,,,,,,100
 ,glock_17r_mag_plate,,,,,,,,,,,,,
-797,,glock17_17r_magazine_bottom_plate,Magazine,1,0.02,,,,,,,,,0
-798,,9x19_kriss_magex2_glock,9x19 KRISS MagEx2 For Glock (+23 Rounds),-8,0.21,,,23,,,,,,1000
-,glock_31r_mag_plate,,,,,,,,,,,,,
-799,,31_mag_extension_2r_plate,Magazine,1,0.04,,,2,,,,,,0
+797,,glock17_17r_magazine_bottom_plate,Glock 17R Magazine Bottom Plate,0,0.02,,,,,,,,,0
+798,,9x19_kriss_magex2_glock,9x19 KRISS MagEx2 For Glock (+23 Rounds),-6,0.27,,,23,,,,,,1000
 ,glock_lower_receiver,,,,,,,,,,,,,
 800,,glock_lower_receiver,Glock Standard,0,0,,,,,,,,,0
 ,,glock17_gen4_receiver,Glock 17 Gen4 Receiver,13,0.23,-2,-9,,,,,,,1000
@@ -1680,11 +1678,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,glock_underbarrel_picatinny,,,,,,,,,,,,,
 815,,rail,Additional attachment,0,0,,,,,,,,,0
 ,glock_barrel,,,,,,,,,,,,,
-816,,glock17_gen5_marksman_114mm_9x19_barrel,114mm,2,0.16,-9,-12,,0,0,-61,,,0
-817,,sai_match_threaded_9x19_barrel,SAI Match Threaded G17 9x19,0,0.16,-7,-10,,0.05,0,-57,,,1200
-,,glock17l_ported_153mm_9x19_barrel,Glock 17L Ported 153mm 9x19 Barrel,-1,0.2,-12,-15,,-0.1,0.03,-14,,,1500
-,,igb_austria_match_grade_polygonal_406mm_9x19_barrel,IGB Austria Match Grade Polygonal 406mm 9x19 Barrel,-25,0.43,-10,-15,,-0.2,0.09,140,,,3000
-,,radian_weapons_glock17_ramjet_barrel,Radian Weapons Glock 17 Gen5 RAMJET 9x19,1,0.15,-10,-10,,0.1,0,-57,,,1500
+816,,glock17_gen5_marksman_114mm_9x19_barrel,114mm,2,0.13,-9,-12,,0,0,-61,,,0
+817,,sai_match_threaded_9x19_barrel,SAI Match Threaded G17 9x19,0,0.13,-7,-10,,0.05,0,-57,,,1200
+,,glock17l_ported_153mm_9x19_barrel,Glock 17L Ported 153mm 9x19 Barrel,-1,0.17,-12,-15,,-0.1,0.03,-14,,,1500
+,,igb_austria_match_grade_polygonal_406mm_9x19_barrel,IGB Austria Match Grade Polygonal 406mm 9x19 Barrel,-25,0.4,-10,-15,,-0.2,0.09,140,,,3000
+,,radian_weapons_glock17_ramjet_barrel,Radian Weapons Glock 17 Gen5 RAMJET 9x19,1,0.12,-10,-10,,0.1,0,-57,,,1500
 ,glock_spring,,,,,,,,,,,,,
 ,,glock17_gen5_spring,Glock 17 Gen5 Spring,0,0.02,,,,,,,,,0
 ,glock_grip,,,,,,,,,,,,,
@@ -1726,8 +1724,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,edc_x9_hammer,,,,,,,,,,,,,
 836,,wilson_combat_edc_x9_hammer,EDC X9 Std.,0,0.02,,,,,,,,,0
 ,edc_x9_barrel,,,,,,,,,,,,,
-837,,wilson_combat_edc_x9_102mm_9x19_barrel,Wilson Combat EDC X9 102mm 9x19,0,0.16,0,0,,0,0,-78,,,0
-838,,wilson_combat_edc_x9_127mm_threaded_9x19_barrel,Wilson Combat EDC X9 127mm Threaded 9x19,-1,0.18,2,2,,0.1,0,-44,,,750
+837,,wilson_combat_edc_x9_102mm_9x19_barrel,Wilson Combat EDC X9 102mm 9x19,0,0.13,0,0,,0,0,-78,,,0
+838,,wilson_combat_edc_x9_127mm_threaded_9x19_barrel,Wilson Combat EDC X9 127mm Threaded 9x19,-1,0.15,2,2,,0.1,0,-44,,,750
 ,edc_x9_bottomplate,,,,,,,,,,,,,
 839,,wilson_combat_edc_x9_mag_bottomplate,Wilson Combat EDC X9 Magazine,0,0.02,,,,,,,,,0
 ,edc_x9_grip,,,,,,,,,,,,,
@@ -2770,17 +2768,17 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,airtronic_psrl_plastic_foregrip,AirTronic USA PSRL Plastic Foregrip,3,0.1,-2,-2,,,,,,,800
 ,sig_sauer_p320_mag,,,,,,,,,,,,,
 ,,sig_sauer_p320_mag_bottom_plate,Sig Sauer P320 Mag Bottom Plate,0,0.02,,,,,,,,,0
-,,sig_sauer_p320_9x19_17r_mag,Sig Sauer P320 9x19 17r Mag,0,0.17,,,17,,,,,,0
-,,sig_sauer_p320_9x19_21r_mag,Sig Sauer P320 9x19 21r Mag,-2,0.21,,,21,,,,,,2000
-,,sig_sauer_p320_9x19_30r_mag,Sig Sauer P320 9x19 30r Mag,-4,0.30,,,30,,,,,,4000
+,,sig_sauer_p320_9x19_17r_mag,Sig Sauer P320 9x19 17r Mag,0,0.19,,,17,,,,,,0
+,,sig_sauer_p320_9x19_21r_mag,Sig Sauer P320 9x19 21r Mag,-2,0.23,,,21,,,,,,2000
+,,sig_sauer_p320_9x19_30r_mag,Sig Sauer P320 9x19 30r Mag,-4,0.33,,,30,,,,,,4000
 ,sig_sauer_p320_mag_sleeve,,,,,,,,,,,,,
 ,,sig_sauer_p320_mag_short_sleeve,Sig Sauer P320 Mag Short Sleeve,1,0.06,,,,,,,,,500
 ,,sig_sauer_p320_mag_long_sleeve,Sig Sauer P320 Mag Long Sleeve,1.5,0.08,,,,,,,,,1000
 ,sig_sauer_p320_barrel,,,,,,,,,,,,,
-,,sig_sauer_p320_compact_3.9inch_9x19_barrel,"Sig Sauer P320 Compact 3.9"" 9x19 Barrel",4,0.14,3,3,,0.1,-0.03,-80,,,1000
-,,sig_sauer_p320_compact_4.6inch_threaded_9x19_barrel,"Sig Sauer P320 Compact 4.6"" Threaded 9x19 Barrel",1,0.16,1,1,,0.05,0,-50,,,3000
-,,sig_sauer_p320_full_4.7inch_9x19_barrel,"Sig Sauer P320 Full 4.7"" 9x19 Barrel",0,0.17,0,0,,0,0.01,-45,,,0
-,,sig_sauer_p320_full_5.5inch_threaded_9x19_barrel,"Sig Sauer P320 Full 5.5"" Threaded 9x19 Barrel",-3,0.19,-1,-1,,-0.1,0.04,-10,,,1500
+,,sig_sauer_p320_compact_3.9inch_9x19_barrel,"Sig Sauer P320 Compact 3.9"" 9x19 Barrel",4,0.11,3,3,,0.1,-0.03,-80,,,1000
+,,sig_sauer_p320_compact_4.6inch_threaded_9x19_barrel,"Sig Sauer P320 Compact 4.6"" Threaded 9x19 Barrel",1,0.13,1,1,,0.05,0,-50,,,3000
+,,sig_sauer_p320_full_4.7inch_9x19_barrel,"Sig Sauer P320 Full 4.7"" 9x19 Barrel",0,0.14,0,0,,0,0.01,-45,,,0
+,,sig_sauer_p320_full_5.5inch_threaded_9x19_barrel,"Sig Sauer P320 Full 5.5"" Threaded 9x19 Barrel",-3,0.16,-1,-1,,-0.1,0.04,-10,,,1500
 ,sig_sauer_p320_grip_module,,,,,,,,,,,,,
 ,,sig_sauer_p320_xfull_grip_module,Sig Sauer P320 XFull Grip Module,0,0.18,-2,-2,,,,,,,0
 ,,sig_sauer_p320_xcarry_grip_module,Sig Sauer P320 XCarry Grip Module,2,0.16,0,0,,,,,,,2000

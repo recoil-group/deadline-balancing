@@ -1022,13 +1022,13 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 510,,custom_pm_ppsh_9x18_84r_drum_mag,Custom PM/PPSH 9x18 84R Drum,-12,0.88,4,-1,84,0.05,,,,,5000
 511,,izhevsk_pm_9x18_8r_magazine,Izhevsk PM 9x18 8R Magazine,0,0.09,,,8,,,,,,0
 ,magazine_9x19_edc_x9,,,,,,,,,,,,,
-512,,wilson_combat_edc_x9_18r_magazine,EDC X9 Std. 18r,-5,0.18,,,18,,,,,,1000
+512,,wilson_combat_edc_x9_18r_magazine,EDC X9 Std. 18r,-5,0.20,,,18,,,,,,1000
 513,,wilson_combat_edc_x9_15r_magazine,EDC X9 Std. 15r,-3,0.15,,,15,,,,,,500
 514,,wilson_combat_edc_x9_10r_magazine,EDC X9 Std. 10r,0,0.1,,,10,,,,,,300
 ,magazine_9x19,,,,,,,,,,,,,
-515,,glock17_9x19_stick_31r_magazine,Glock 9x19 31R Stick,-3,0.29,,,31,,,,,,1000
-,,9x19_glock_stick_31r,Glock 9x19 31R Stick,-3,0.29,,,31,,,,,,1000
-516,,glock17_gen5_9x19_17r_magazine,Glock 9x19 17R,0,0.15,,,17,,,,,,500
+515,,glock17_9x19_stick_31r_magazine,Glock 9x19 31R Stick,-3,0.31,,,31,,,,,,1000
+,,9x19_glock_stick_31r,Glock 9x19 31R Stick,-3,0.31,,,31,,,,,,1000
+516,,glock17_gen5_9x19_17r_magazine,Glock 9x19 17R,0,0.17,,,17,,,,,,500
 517,,sgm_tactical_glock_9x19_50r_drum_magazine,SGMT 9x19 50R Drum,-6,0.55,,,50,,,,,,3000
 ,,9x19_sgmt_50r_drum,SGMT 9x19 50R Drum,-6,0.55,,,50,,,,,,3000
 ,magazine_9x19_ump9,,,,,,,,,,,,,
@@ -1715,10 +1715,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,edc_x9_rear_sight,,,,,,,,,,,,,
 833,,wilson_combat_1911_tab_rear_battlesight,Wilson Combat 1911 TAB,1,0.02,,,,,,,,,0
 ,edc_x9_receiver,,,,,,,,,,,,,
-834,,wilson_combat_edc_x9_light_rail_receiver,Wilson Combat EDC X9 Light Rail,0,0.26,,,,,,,,,0
+834,,wilson_combat_edc_x9_light_rail_receiver,Wilson Combat EDC X9 Light Rail,0,0.24,,,,,,,,,0
 ,edc_x9_slide,,,,,,,,,,,,,
-835,,wilson_combat_edc_x9_slide,Wilson Combat EDC X9,0,0.14,0,0,,,,,,,0
-,,wilson_combat_edc_x9_custom_cut_slide,Wilson Combat EDC X9 Custom Slide Cut,-3,0.12,,,,,,,,,1200
+835,,wilson_combat_edc_x9_slide,Wilson Combat EDC X9,0,0.13,0,0,,,,,,,0
+,,wilson_combat_edc_x9_custom_cut_slide,Wilson Combat EDC X9 Custom Slide Cut,-3,0.11,,,,,,,,,1200
 ,edc_x9_optic_cut,,,,,,,,,,,,,
 ,,wilson_combat_true_zero_acro_mount,Wilson Combat True Zero ACRO Mount,1,0.02,,,,,,,,,700
 ,,wilson_combat_true_zero_deltapoint_mount,Wilson Combat True Zero Deltapoint Mount,0.5,0.02,,,,,,,,,500
@@ -2770,9 +2770,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,airtronic_psrl_plastic_foregrip,AirTronic USA PSRL Plastic Foregrip,3,0.1,-2,-2,,,,,,,800
 ,sig_sauer_p320_mag,,,,,,,,,,,,,
 ,,sig_sauer_p320_mag_bottom_plate,Sig Sauer P320 Mag Bottom Plate,0,0.02,,,,,,,,,0
-,,sig_sauer_p320_9x19_17r_mag,Sig Sauer P320 9x19 17r Mag,0,0.15,,,17,,,,,,0
-,,sig_sauer_p320_9x19_21r_mag,Sig Sauer P320 9x19 21r Mag,-2,0.19,,,21,,,,,,2000
-,,sig_sauer_p320_9x19_30r_mag,Sig Sauer P320 9x19 30r Mag,-4,0.28,,,30,,,,,,4000
+,,sig_sauer_p320_9x19_17r_mag,Sig Sauer P320 9x19 17r Mag,0,0.17,,,17,,,,,,0
+,,sig_sauer_p320_9x19_21r_mag,Sig Sauer P320 9x19 21r Mag,-2,0.21,,,21,,,,,,2000
+,,sig_sauer_p320_9x19_30r_mag,Sig Sauer P320 9x19 30r Mag,-4,0.30,,,30,,,,,,4000
 ,sig_sauer_p320_mag_sleeve,,,,,,,,,,,,,
 ,,sig_sauer_p320_mag_short_sleeve,Sig Sauer P320 Mag Short Sleeve,1,0.06,,,,,,,,,500
 ,,sig_sauer_p320_mag_long_sleeve,Sig Sauer P320 Mag Long Sleeve,1.5,0.08,,,,,,,,,1000
@@ -2802,7 +2802,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sig_sauer_xray3_night_rear_sight,Sig Sauer X-RAY3 Night Rear Sight,2,0.01,,,,,,,,,0
 ,,sig_sauer_m17_sigplate_rear_sight,Sig Sauer M17 SigPlate Rear Sight,0,0.02,,,,,,,,,0
 ,sig_sauer_p320_misc_parts,,,,,,,,,,,,,
-,,sig_sauer_p320_fcu,Sig Sauer P320 FCU,0,0.06,,,,,,,,,0
+,,sig_sauer_p320_fcu,Sig Sauer P320 FCU,0,0.05,,,,,,,,,0
 ,,sig_sauer_p320_extractor,Sig Sauer P320 Extractor,0,0.01,,,,,,,,,0
 ,,sig_sauer_p320_mag_release,Sig Sauer P320 Mag Release,0,0.01,,,,,,,,,0
 ,,sig_sauer_p320_sear_housing,Sig Sauer P320 Sear Housing,0,0.02,,,,,,,,,0

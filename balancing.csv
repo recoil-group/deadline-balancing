@@ -1,4 +1,4 @@
-﻿0.24.1,Tue Jun 24 16:27:16 2025,,,,,,,,,,,,,
+﻿0.24.1,Wed Jun 25 14:06:35 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1615,6 +1615,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,makarov_rear_sight,,,,,,,,,,,,,
 ,,izhevsk_pm_std_rear_sight,Izhevsk PM Standard Rear Sight,1,0.01,,,,,,,,,0
 ,,rtm_pm1_makarov_rear_sight,RTM PM1 Makarov Rear Sight,2,0.03,,,,,,,,,500
+,makarov_laser,,,,,,,,,,,,,
+,,est_pm_laser_sight,EST PM-Laser,-1,0.04,,,,,,,,,700
 ,glock_slide,,,,,,,,,,,,,
 ,,glock17_gen4_slide,Glock 17 Gen4 Slide,3,0.08,-2,-3,,,,,,,600
 ,,glock17_gen5_early_slide,Glock 17 Gen5 Slide,2,0.07,-3,-4,,,,,,,0
@@ -1767,11 +1769,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 868,,9x18_underwood_xtreme_95gr_sm,9x18 Underwood Xtreme Penetrator 95gr SM,,0.05,-2,2,,0.1,,50,,,1000
 ,ammo_9x19,,,,,,,,,,,,,
 869,,9x19_remington_umc_115gr_fmj,9x19 Remington UMC 115gr FMJ,1,0.02,0,0,,0.1,0.02,0,,,0
-870,,9x19_norma_mle_94gr_rht_frangible,9x19 Norma MLE 94gr RHT Frangible,2,0,-5,-3,,-0.2,-0.04,0,,,600
-871,,9x19_federal_hishok_115gr_jhp,9x19 Federal Hi-Shok 115gr JHP,-1,0.02,10,10,,0.4,,-100,,,2000
-872,,9x19_winchester_m822_124gr_fmj,9x19 Winchester M882 124gr FMJ,0,0.04,-4,-6,,-0.05,0.1,-150,,,1500
-873,,9x19_armscor_usa_147gr_subsonic,9x19 ARMSCOR USA 147gr Subsonic FMJ,3,0.06,-8,-10,,0.2,-0.04,-300,,,1200
-874,,9x19_supernova_119gr_green_tracer,9x19 Supernova 119gr Green Tracer,0,0.03,-1,1,,0.05,0.12,-150,,,750
+870,,9x19_norma_mle_94gr_rht_frangible,9x19 Norma MLE 94gr RHT Frangible,1,0,-6,-3,,-0.2,-0.04,0,,,600
+871,,9x19_federal_hishok_115gr_jhp,9x19 Federal Hi-Shok 115gr JHP,-1,0.02,14,14,,0.4,,-100,,,2000
+872,,9x19_winchester_m822_124gr_fmj,9x19 Winchester M882 124gr FMJ,0,0.04,1,-1,,-0.05,0.19,-150,,,1500
+873,,9x19_armscor_usa_147gr_subsonic,9x19 ARMSCOR USA 147gr Subsonic FMJ,2,0.06,-8,-11,,0.2,-0.04,-300,,,1200
+874,,9x19_supernova_119gr_green_tracer,9x19 Supernova 119gr Green Tracer,0,0.03,-3,-5,,0.05,0.02,-150,,,750
 ,ammo_10mm,,,,,,,,,,,,,
 875,,10mm_blazer_aluminum_200gr_fmj,10mm Auto Blazer Aluminum 200gr FMJ,0,0.03,,0,,0,,100,,,0
 876,,10mm_remington_umc_180gr_fmj,10mm Auto Remington UMC 180gr FMJ,0,0.04,,0,,0.05,,50,,,1000
@@ -2381,8 +2383,6 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1161,,leupold_cq_deltapoint_pro_rear_ironsight,Leupold CQ DeltaPoint Pro Rear,0.5,0.02,,,,,,,,,200
 ,lrs_1_suppressor,,,,,,,,,,,,,
 1162,,ss_lrs1_suppressor,Spike's Tactical Lrs-1,-5,0.33,-12,-22,,-0.25,0.14,100,,,1200
-,makarov_laser,,,,,,,,,,,,,
-1163,,ncstar_apls_laser,NcStart APLS,-1,0.04,,,,,,,,,400
 ,pjs_cqc_handguard,,,,,,,,,,,,,
 ,,pjs_aug_a3_sa_cqc_handguard,PJS AUG A3 CQC Handguard,3,0.14,-2,-2,,,,,,,800
 ,pjs_cqc_handguard_rails,,,,,,,,,,,,,

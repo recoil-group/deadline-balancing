@@ -1,4 +1,4 @@
-0.24.1,Wed Jun 25 16:24:42 2025,,,,,,,,,,,,,
+0.24.1,Wed Jun 25 16:40:21 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1618,12 +1618,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,makarov_laser,,,,,,,,,,,,,
 ,,est_pm_laser_sight,EST PM-Laser,-1,0.04,,,,,,,,,700
 ,glock_slide,,,,,,,,,,,,,
-,,glock17_gen4_slide,Glock 17 Gen4 Slide,3,0.09,-2,-3,,,,,,,600
-,,glock17_gen5_early_slide,Glock 17 Gen5 Slide,2,0.08,-3,-4,,,,,,,0
-,,glock17l_slide,Glock 17L Slide,2,0.11,-4,-5,,,,,,,1500
-,,glock17_gen5_mos_slide,Glock17 Gen5 MOS Slide,1,0.07,-3,-4,,,,,,,1500
-,,glock17_gen4_mos_slide,Glock17 Gen4 MOS Slide,2,0.06,-2,-3,,,,,,,1200
-,,zevtech_z17_cryo_rmr_cut_g17_gen5_slide,Zevtech Z17 Cryo RMR Cut Glock 17 Gen5 Slide,2,0.05,-3,-2,,,,,,,2000
+,,glock17_gen4_slide,Glock 17 Gen4 Slide,3,0.19,-2,-3,,,,,,,600
+,,glock17_gen5_early_slide,Glock 17 Gen5 Slide,2,0.18,-3,-4,,,,,,,0
+,,glock17l_slide,Glock 17L Slide,2,0.21,-4,-5,,,,,,,1500
+,,glock17_gen5_mos_slide,Glock17 Gen5 MOS Slide,1,0.17,-3,-4,,,,,,,1500
+,,glock17_gen4_mos_slide,Glock17 Gen4 MOS Slide,2,0.16,-2,-3,,,,,,,1200
+,,zevtech_z17_cryo_rmr_cut_g17_gen5_slide,Zevtech Z17 Cryo RMR Cut Glock 17 Gen5 Slide,2,0.15,-3,-2,,,,,,,2000
 ,glock_mos,,,,,,,,,,,,,
 ,,glock17_slide_mos_plate,Glock 17 Slide MOS Plate,0,0.03,,,,,,,,,0
 ,,glock_mos_02_adapter_plate,Glock MOS 02 Adapter Plate,0,0.02,,,,,,,,,300
@@ -1639,11 +1639,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 797,,glock17_17r_magazine_bottom_plate,Glock 17R Magazine Bottom Plate,0,0.02,,,,,,,,,0
 798,,9x19_kriss_magex2_glock,9x19 KRISS MagEx2 For Glock (+23 Rounds),-6,0.27,,,23,,,,,,1000
 ,glock_lower_receiver,,,,,,,,,,,,,
-800,,glock_lower_receiver,Glock Standard,0,0,,,,,,,,,0
-,,glock17_gen4_receiver,Glock 17 Gen4 Receiver,13,0.23,-2,-9,,,,,,,1000
-,,glock17_gen5_receiver,Glock 17 Gen5 Receiver,11,0.21,-3,-9,,,,,,,0
+,,glock17_gen4_receiver,Glock 17 Gen4 Receiver,13,0.13,-2,-9,,,,,,,1000
+,,glock17_gen5_receiver,Glock 17 Gen5 Receiver,11,0.11,-3,-9,,,,,,,0
 ,glock_17_trigger,,,,,,,,,,,,,
-,,glock17_gen5_trigger,Glock 17 Gen5 Trigger,0,0.03,,,,,,,,,0
+,,glock17_gen5_trigger,Glock 17 Gen5 Trigger,0,0.02,,,,,,,,,0
 ,,glock17_gen5_trigger_safety,Glock 17 Gen5 Trigger Safety,1,0.01,,,,,,,,,0
 ,glock_17_ejector,,,,,,,,,,,,,
 ,,glock17_gen5_ejector,Glock 17 Gen5 Ejector,0,0.01,,,,,,,,,0
@@ -1655,7 +1654,6 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,glock_mag_13r_45acp_plate,,,,,,,,,,,,,
 801,,45acp_kriss_magex2_glock,.45 ACP KRISS MagEx2 For Glock (+17 Rounds),-8,0.25,,,17,,,,,,1000
 802,,glock_13r_plate,Magazine,1,0.015,,,,,,,,,0
-,,,,,,,,,,,,,,
 803,,vector_17r_plate,Magazine,1,0.015,,,0,,,,,,1000
 804,,9x19_kriss_magex2_vector,9x19 KRISS MagEx2 For Glock (+23 Rounds),-12,0.3,,,23,,,,,,0
 ,glock20_barrel,,,,,,,,,,,,,
@@ -1713,10 +1711,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,edc_x9_rear_sight,,,,,,,,,,,,,
 833,,wilson_combat_1911_tab_rear_battlesight,Wilson Combat 1911 TAB,1,0.02,,,,,,,,,0
 ,edc_x9_receiver,,,,,,,,,,,,,
-834,,wilson_combat_edc_x9_light_rail_receiver,Wilson Combat EDC X9 Light Rail,0,0.24,,,,,,,,,0
+834,,wilson_combat_edc_x9_light_rail_receiver,Wilson Combat EDC X9 Light Rail,0,0.16,,,,,,,,,0
 ,edc_x9_slide,,,,,,,,,,,,,
-835,,wilson_combat_edc_x9_slide,Wilson Combat EDC X9,0,0.13,0,0,,,,,,,0
-,,wilson_combat_edc_x9_custom_cut_slide,Wilson Combat EDC X9 Custom Slide Cut,-3,0.11,,,,,,,,,1200
+835,,wilson_combat_edc_x9_slide,Wilson Combat EDC X9,0,0.21,0,0,,,,,,,0
+,,wilson_combat_edc_x9_custom_cut_slide,Wilson Combat EDC X9 Custom Slide Cut,-3,0.19,,,,,,,,,1200
 ,edc_x9_optic_cut,,,,,,,,,,,,,
 ,,wilson_combat_true_zero_acro_mount,Wilson Combat True Zero ACRO Mount,1,0.02,,,,,,,,,700
 ,,wilson_combat_true_zero_deltapoint_mount,Wilson Combat True Zero Deltapoint Mount,0.5,0.02,,,,,,,,,500
@@ -2049,7 +2047,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,arid_concepts_aug_mag_release_std_paddle,Arid Concepts Standard Paddle,0.5,0.01,,,,,,,,,0
 ,,arid_concepts_aug_mag_release_large_paddle,Arid Concepts Large Paddle,1,0.02,,,,,,,,,100
 ,aug_a3_stock,,,,,,,,,,,,,
-1012,,steyr_aug_a3_para_9x19_stock,Steyr AUG Para 9x19,20,0.23,-18,-18,,0.2,,-600,,,2000
+1012,,steyr_aug_a3_para_9x19_stock,Steyr AUG Para 9x19,40,0.23,-18,-20,,0.2,,-600,,,2000
 1013,,fbt_aug_carbon_fiber_stock,Fine Ballistic Tools AUG Carbon Fiber Stock,22,0.3,-6,-6,,,,,,,4000
 1014,,steyr_aug_a3_nato_stock,AUG A3 NATO,16,0.21,-5,-7,,,,,,,1000
 1015,,steyr_aug_a3_austrian_stock,AUG A3 Austrian,17,0.21,-7,-6,,,,,,,0
@@ -2780,8 +2778,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sig_sauer_p320_full_4.7inch_9x19_barrel,"Sig Sauer P320 Full 4.7"" 9x19 Barrel",0,0.14,0,0,,0,0.01,-45,,,0
 ,,sig_sauer_p320_full_5.5inch_threaded_9x19_barrel,"Sig Sauer P320 Full 5.5"" Threaded 9x19 Barrel",-3,0.16,-1,-1,,-0.1,0.04,-10,,,1500
 ,sig_sauer_p320_grip_module,,,,,,,,,,,,,
-,,sig_sauer_p320_xfull_grip_module,Sig Sauer P320 XFull Grip Module,0,0.18,-2,-2,,,,,,,0
-,,sig_sauer_p320_xcarry_grip_module,Sig Sauer P320 XCarry Grip Module,2,0.16,0,0,,,,,,,2000
+,,sig_sauer_p320_xfull_grip_module,Sig Sauer P320 XFull Grip Module,0,0.11,-2,-2,,,,,,,0
+,,sig_sauer_p320_xcarry_grip_module,Sig Sauer P320 XCarry Grip Module,2,0.09,0,0,,,,,,,2000
 ,sig_sauer_p320_trigger,,,,,,,,,,,,,
 ,,sig_sauer_p320_flat_trigger,Sig Sauer P320 Flat Trigger,0,0.02,,,,,,,,,0
 ,,sig_sauer_p320_skeletonized_enhanced_trigger,Sig Sauer P320 Skeletonized Enhanced Trigger,1,0.01,,,,,,,,0.05,1000
@@ -2789,9 +2787,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sig_sauer_p320_xfull_recoil_spring,Sig Sauer P320 XFull Recoil Spring,0,0.03,,,,,,,,,0
 ,,sig_sauer_p320_xcarry_recoil_spring,Sig Sauer XCarry Recoil Spring,0,0.02,,,,,,,,,0
 ,sig_sauer_p320_slide,,,,,,,,,,,,,
-,,sig_sauer_p320_xfull_9x19_slide,Sig Sauer P320 XFull 9x19 Slide,1,0.09,-2,-3,,,,,,,0
-,,sig_sauer_m18x_9x19_slide,Sig Sauer M18X 9x19 Slide,4,0.07,-1,0,,,,,,,3000
-,,sig_sauer_m17x_9x19_slide,Sig Sauer M17X 9x19 Slide,2,0.09,-3,-2,,,,,,,2000
+,,sig_sauer_p320_xfull_9x19_slide,Sig Sauer P320 XFull 9x19 Slide,1,0.16,-2,-3,,,,,,,0
+,,sig_sauer_m18x_9x19_slide,Sig Sauer M18X 9x19 Slide,4,0.14,-1,0,,,,,,,3000
+,,sig_sauer_m17x_9x19_slide,Sig Sauer M17X 9x19 Slide,2,0.16,-3,-2,,,,,,,2000
 ,sig_sauer_p320_slide_cover,,,,,,,,,,,,,
 ,,sig_sauer_m17_optic_slide_cover,Sig Sauer M17 Optic Slide Cover,0,0.03,,,,,,,,,250
 ,,sig_sauer_p320_optic_slide_cover,Sig Sauer P320 Optic Slide Cover,0,0.03,,,,,,,,,0

@@ -1,4 +1,4 @@
-﻿0.24.1,Wed Jun 25 14:19:09 2025,,,,,,,,,,,,,
+﻿0.24.1,Wed Jun 25 14:30:39 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1768,9 +1768,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 867,,9x18_novosibirsk_57t181_56gr_red_tracer,9x18 Novosibirsk 57-T-181 56gr Red Tracer,,0.02,-1,1,,0.1,,20,,,750
 868,,9x18_underwood_xtreme_95gr_sm,9x18 Underwood Xtreme Penetrator 95gr SM,,0.05,-2,2,,0.1,,50,,,1000
 ,ammo_9x19,,,,,,,,,,,,,
-869,,9x19_remington_umc_115gr_fmj,9x19 Remington UMC 115gr FMJ,1,0.02,0,0,,0.1,0.02,0,,,0
-870,,9x19_norma_mle_94gr_rht_frangible,9x19 Norma MLE 94gr RHT Frangible,1,0,-6,-3,,-0.2,-0.04,0,,,600
-871,,9x19_federal_hishok_115gr_jhp,9x19 Federal Hi-Shok 115gr JHP,-1,0.02,14,14,,0.4,,-100,,,2000
+869,,9x19_remington_umc_115gr_fmj,9x19 Remington UMC 115gr FMJ,1,0.02,0,0,,0,0.02,0,,,0
+870,,9x19_norma_mle_94gr_rht_frangible,9x19 Norma MLE 94gr RHT Frangible,1,0,-6,-3,,-0.1,-0.04,0,,,600
+871,,9x19_federal_hishok_115gr_jhp,9x19 Federal Hi-Shok 115gr JHP,-1,0.02,14,14,,0.3,,-100,,,2000
 872,,9x19_winchester_m822_124gr_fmj,9x19 Winchester M882 124gr FMJ,0,0.04,1,-1,,-0.05,0.19,-150,,,1500
 873,,9x19_armscor_usa_147gr_subsonic,9x19 ARMSCOR USA 147gr Subsonic FMJ,2,0.06,-8,-11,,0.2,-0.04,-300,,,1200
 874,,9x19_supernova_119gr_green_tracer,9x19 Supernova 119gr Green Tracer,0,0.03,-3,-5,,0.05,0.02,-150,,,750

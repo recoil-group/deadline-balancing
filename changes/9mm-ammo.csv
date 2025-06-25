@@ -1,5 +1,5 @@
 ﻿,,old,,,,,,,,,,,,,,,,,damage,,,,irl stats,,,,,,,,,,,,
-name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,bullet_deviation,bullet_damage,bullet_velocity,buck_bullet_deviation,fire_rate,price,strength,,mv,vel loss,suppression,pen,0st,100st,200st,,type,mv,,,,,loss %,energy,,,,,
+name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_bullet_deviation,fire_rate,price,strength,,mv,vel loss,suppression,pen,0st,100st,200st,,type,mv,,,,,loss %,energy,,,,,
 ,Federal Classic 115gr HI-SHOK JHP (9BP),,0.09,10,10,,0.4,,-150,,,2000,28.40666667,,1100,40,70%,0.02,50,39,27,,hollow point,1180,1106,1048,1001,961,0.18559322,356,312,280,256,236,0.337078652
 ,Piney Mountain 124gr Green Tracer,-1,0.09,,1,,0.1,,,,,750,5.466666667,,1250,60,50%,0.1,37,24,9,,tracer,1100,,,,,1,350,,,,,1
 ,Remington UMC 115gr FMJ (L9MM3B),0,0.1,,,,,,,,,0,10.1,,1260,50,50%,0.2,39,25,10,,full metal jacket,1240,1147,1075,1019,973,0.215322581,335,305,280,261,244,0.271641791
@@ -7,7 +7,7 @@ name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_ca
 ,Federal BallistiClean 100gr RHT Frangible (BC9NT3),,0.07,-5,-10,,-0.4,,-100,,,600,19.65333333,,1150,60,30%,0.11,35,24,11,,frangible,1240,1147,1075,1019,973,0.215322581,341,292,257,230,210,0.384164223
 ,ARMSCOR USA 147gr Subsonic FMJ (FAC9-5N),2,0.05,-15,-20,,0.2,,-200,,,1000,27.54,,1050,50,10%,0.02,35,22,7,,subsonic,950,,850,,,1,295,,236,,,1
 ,,new,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,bullet_deviation,bullet_damage,bullet_velocity,buck_bullet_deviation,fire_rate,price,strength,,mv,vel loss,suppression,pen,0st,100st,200st,,,,,,,,,,,,,,
+,,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_bullet_deviation,fire_rate,price,strength,,mv,vel loss,suppression,pen,0st,100st,200st,,,,,,,,,,,,,,
 9x19_federal_hishok_115gr_jhp,9x19 Federal Hi-Shok 115gr JHP,-1,0.02,14,14,,0.3,,-100,,,2000,16.89,,1150,40,70%,0.02,50,45,39,9x19 Federal Hi-Shok 115gr JHP,,,,,,,,,,,,,
 9x19_winchester_m822_124gr_fmj,9x19 Winchester M882 124gr FMJ,0,0.04,1,-1,,-0.05,0.19,-150,,,1500,16.53333333,,1100,60,50%,0.1,41,34,26,9x19 Winchester M882 124gr FMJ,,,,,,,,,,,,,
 9x19_remington_umc_115gr_fmj,9x19 Remington UMC 115gr FMJ,1,0.02,0,0,,0,0.02,0,,,0,15.25,,1250,50,50%,0.2,39,32,25,9x19 Remington UMC 115gr FMJ,,,,,,,,,,,,,

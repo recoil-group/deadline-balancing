@@ -1,4 +1,4 @@
-0.24.1,Wed Jun 25 16:40:21 2025,,,,,,,,,,,,,
+0.24.1,Thu Jun 26 22:12:07 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1599,6 +1599,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 791,,izhevsk_pm_9x18_std_slide,Izhevsk PM 9x18 Standard Slide,0,0.1,,,,,,,,,0
 ,makarov_barrel,,,,,,,,,,,,,
 792,,izhevsk_pm_9x18_94mm_barrel,Izhevsk PM 9x18 94mm Barrel,0,0.15,0,0,,0,0,0,,,0
+,,chefur_custom_pm_9x18_110mm_threaded_barrel,Chefur Custom PM 9x18 110mm Threaded,-2,0.18,2,1,,0.08,0,32,,,1000
 ,makarov_parts,,,,,,,,,,,,,
 ,,izhevsk_pm_mag_release_spring,Izhevsk PM Standard Magazine Release Spring,,0.01,,,,,,,,,0
 ,,izhevsk_pm_std_hammer,Izhevsk PM Standard Hammer,,0.01,,,,,,,,,0

@@ -1026,9 +1026,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 513,,wilson_combat_edc_x9_15r_magazine,EDC X9 Std. 15r,-3,0.18,,,15,,,,,,500
 514,,wilson_combat_edc_x9_10r_magazine,EDC X9 Std. 10r,0,0.13,,,10,,,,,,300
 ,magazine_9x19,,,,,,,,,,,,,
-515,,pf940_9x19_stick_31r_magazine,Glock 9x19 31R Stick,-3,0.35,,,31,,,,,,1000
+515,,pf940_9x19_stick_31r_magazine,PF940 9x19 31R Stick,-3,0.35,,,31,,,,,,1000
 ,,9x19_glock_stick_31r,Glock 9x19 31R Stick,-3,0.35,,,31,,,,,,1000
-516,,pf940_gen5_9x19_17r_magazine,Glock 9x19 17R,0,0.2,,,17,,,,,,500
+516,,pf940_gen5_9x19_17r_magazine,PF940 9x19 17R,0,0.2,,,17,,,,,,500
 517,,sgm_tactical_pf940_9x19_50r_drum_magazine,SGMT 9x19 50R Drum,-7,0.7,,,50,,,,,,3000
 ,,9x19_sgmt_50r_drum,SGMT 9x19 50R Drum,-7,0.7,,,50,,,,,,3000
 ,magazine_9x19_ump9,,,,,,,,,,,,,
@@ -1111,9 +1111,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,l7awm_mag_assist,,,,,,,,,,,,,
 ,,magpul_223_mag_assist_l7awm,Magpul 223 Mag Assist L7AWM,1,0.04,,,,,,,,,200
 ,magazine_9mm_vector,,,,,,,,,,,,,
-574,,9x19_glock_stick_31r_vector,Glock 9x19 31R Stick,16,0.26,,,29,,,,,,1000
-575,,9x19_sgmt_drum50r_vector,SGMT 9x19 50R Drum,6,0.55,,,50,,,,,,3000
-576,,9x19_pf940_std_17r_vector,Glock 9x19 17R,20,0.15,,,17,,,,,,500
+574,,9x19_glock_stick_31r_vector,PF940 9x19 31R Stick,16,0.26,,,29,,,,,,1000
+575,,9x19_sgmt_drum50r_vector,PF940 9x19 50R Drum,6,0.55,,,50,,,,,,3000
+576,,9x19_pf940_std_17r_vector,PF940 9x19 17R,20,0.15,,,17,,,,,,500
 ,magazine_7.62x51_g3,,,,,,,,,,,,,
 577,,hk_g3_std_20r_magazine,HK G3 Standard 20R,0,0.64,,,20,,,,,,1000
 578,,custom_g3_welded_30r_magazine,Custom G3 Welded 30R,-7,0.94,,,30,,,,,,2000
@@ -1629,7 +1629,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,glock17_slide_mos_plate,Glock 17 Slide MOS Plate,0,0.03,,,,,,,,,0
 ,,glock_mos_02_adapter_plate,Glock MOS 02 Adapter Plate,0,0.02,,,,,,,,,300
 ,,glock_mos_04_adapter_plate,Glock MOS 04 Adapter Plate,0,0.02,,,,,,,,,300
-,,zevtech_pf940_slide_cover,Zevtech Glock Slide Cover,0,0.02,,,,,,,,,0
+,,zevtech_pf940_slide_cover,Zevtech PF940 Slide Cover,0,0.02,,,,,,,,,0
 ,,aimpoint_acro_glock_mos_adapter_plate,Aimpoint ACRO Glock MOS Adapter Plate,0,0.02,,,,,,,,,500
 ,glock_sear,,,,,,,,,,,,,
 796,,glock17_auto_sear,Glock 17 Auto Sear,-3,0.05,5,12,,0.1,,,,,10000
@@ -2197,7 +2197,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1076,,izhmash_pp-19-01_vityaz_9x19_suppressor,Izhmash PP-19-01 Vityaz 9x19 Supressor,-5,0.23,-10,-10,,-0.2,0.13,150,,,1200
 ,,izhmash_pp-19-01_vityaz_std_muzzle_brake_compensator,Izhmash PP-19-01 Vityaz Std.,-1,0.04,-6,-7,,,0,0,,,100
 1077,,sig_srd9_9x19,Sig SRD 9 9x19mm,-4,0.23,-10,-9,,-0.1,0.12,80,,,1500
-1078,,9x19_rotor43_8chamber_pf940_suppressor,Rotor 43 8 Chambered 9x19 Glock,-5,0.24,-9,-11,,-0.15,0.14,100,,,1000
+1078,,9x19_rotor43_8chamber_pf940_suppressor,Rotor 43 8 Chambered 9x19 PF940,-5,0.24,-9,-11,,-0.15,0.14,100,,,1000
 1079,,9x19_naughty_9,Naughty-9,-2,0.18,-8,-8,,-0.05,0.06,50,,,900
 1080,,wilson_combat_9x19_thread_protector,Wilson Combat 9x19,3,0.01,0,0,,0,0,0,,,100
 1081,,9x19_thread_protector,9x19 Thread Protector,3,0.01,0,0,,0,0,0,,,100

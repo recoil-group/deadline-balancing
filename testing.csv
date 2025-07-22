@@ -1,4 +1,4 @@
-0.24.2,Mon Jul 21 23:17:33 2025,,,,,,,,,,,,,
+0.24.2,Tue Jul 22 12:24:34 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -248,7 +248,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 125,,magpul_moe_carbine_stock,Magpul MOE Carbine,17,0.19,-9,-8,,,,,,,800
 126,,ar_tr2_stock,AR TR2,16,0.22,-7,-12,,,,,,,800
 127,,vltor_emod_stock,VLTOR EMOD,14,0.26,-10,-11,,,,,,,700
-128,,magpul_prs_gen3_stock,Magpul PRS Gen3 Stock,20,0.33,-4,-3,,-0.1,,,,,1500
+128,,magpul_prs_gen3_stock,Magpul PRS Gen3 Stock,20,0.33,-4,-3,,-0.05,,,,,1500
 129,,hera_arms_ccs_stock,Hera Arms CCS,15,0.21,-9,-12,,,,,,,600
 130,,ak12_gen1_std_stock,Kalashnikov Concern AK-12 Gen 1,16,0.22,-12,-7,,,,,,,750
 131,,colt_m4ss_stock,Colt M4SS,16,0.2,-9,-7,,,,,,,0
@@ -621,19 +621,19 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,modtac_mrac_low_profile_mounting_plates,MODTAC M-RAC Low Profile Mounting Plates,0,0.03,,,,,,,,,200
 ,,modtac_mrac_picatinny_rail_mounting_plates,MODTAC M-RAC Picatinny Rail Mounting Plates,-1,0.04,,,,,,,,,400
 ,ar15_buffer,,,,,,,,,,,,,
-293,,sb_tactical_vector_brace,SB Tactical Vector Brace,18,0.28,-3,-3,,,,,,,500
+293,,sb_tactical_vector_brace,SB Tactical Vector Brace,18,0.28,-4,-4,,,,,,,500
 294,,doublestar_ace_m4_socom_gen4_stock,Doublestar ACE M4 SOCOM,14,0.32,-9,-9,,,,,,,1000
 295,,hk_416_enhanced_buffer_tube,HK Enhanced Buffer Tube,-1,0.15,,-3,,-0.1,,,,,400
 296,,si_ar_are_t7_buffer_tube,Strike Industries Advanced Receiver Extension T7,-1,0.11,-1,-1,,0,,,,,600
 297,,colt_buffer_tube,Colt,-2,0.15,-2,-1,,-0.1,,,,,0
 ,ar15_castlenut,,,,,,,,,,,,,
-298,,colt_m4a1_castlenut_hk,Colt M4A1 Castle Nut,0,0.01,,,,,,,,,0
-299,,colt_m4a1_castlenut_for_all,Colt M4A1 Castle Nut,0,0.01,,,,,,,,,0
+298,,colt_m4a1_castlenut_hk,Colt M4A1 Castle Nut,0,0.02,,,,,,,,,0
+299,,colt_m4a1_castlenut_for_all,Colt M4A1 Castle Nut,0,0.02,,,,,,,,,0
 300,,mdt_lss_stock_adapter,MDT LSS Fixed,-1,0.04,,,,,,,,,100
 301,,leapers_utg_model_15_fixed_a2_ar15_stock,UTG A2 Fixed,11,0.44,-12,-18,,,,,,,700
 302,,colt_m4a1_castlenut,Colt M4A1 Castle Nut,0,0.02,,,,,,,,,0
-303,,magpul_ubr_gen2_buffer,Magpul UBR Gen2 Receiver Extension,-1,0.14,-1,-2,,-0.1,,,,,400
-305,,colt_a2_buffer,Colt A2,-2,0.15,-1,-1,,-0.1,,,,,300
+303,,magpul_ubr_gen2_buffer,Magpul UBR Gen2 Receiver Extension,-1,0.14,-1,-2,,-0.05,,,,,400
+305,,colt_a2_buffer,Colt A2,-2,0.15,-1,-1,,-0.05,,,,,300
 ,,ews_bufferless_system_ar15_castlenut,EWS Bufferless System AR15 Castlenut,3,0.08,7,10,,1,,,,,250
 ,scr_stocks,,,,,,,,,,,,,
 ,,fightlite_scr_wooden_rifle_stock,Fightlite SCR Wooden Rifle Stock,13,0.25,-11,-16,,,,,,,1000
@@ -918,11 +918,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pmm_scar_17_magwell_type2,PMM Scar 17 Magwell Type 2,2.5,0.1,-1,,,,,,,,700
 ,,pmm_scar_16_magwell,PMM Scar 16 Magwell,2.5,0.1,-1,,,,,,,,700
 ,vector_folding_stock,,,,,,,,,,,,,
-449,,kriss_vector_gen2_folding_stock,Kriss Vector Gen2,8,0.21,-5,-7,,,,,,,600
-450,,kriss_vector_non_folding_stock_adapter,Kriss Vector Non-Folding Stock Adapter,-5,0.08,10,20,,,,,,,800
+449,,kriss_vector_gen2_folding_stock,Kriss Vector Gen2,17,0.28,-7,-9,,,,,,,600
+450,,kriss_vector_non_folding_stock_adapter,Kriss Vector Non-Folding Stock Adapter,0,0.08,0,0,,,,,,,800
 ,vector_upper_receiver,,,,,,,,,,,,,
-451,,vector_9mm_upper_receiver,Kriss Vector 9mm,0,0.33,-5,-20,,,,200,,,3000
-452,,vector_45acp_upper_receiver,Kriss Vector .45ACP,-1,0.35,0,0,,,,,,,3000
+451,,vector_9mm_upper_receiver,Kriss Vector 9mm,0,0.41,-5,-20,,,,200,,,3000
+452,,vector_45acp_upper_receiver,Kriss Vector .45ACP,-1,0.43,0,0,,,,,,,3000
 ,vector_trigger,,,,,,,,,,,,,
 453,,vector_std_trigger,Kriss Vector Std.,0,0.03,,,,,,,,,0
 ,vector_right_rail,,,,,,,,,,,,,
@@ -930,7 +930,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,vector_magazine_eject,,,,,,,,,,,,,
 455,,vector_std_mag_eject,Kriss Vector Std.,0,0.01,,,,,,,,,0
 ,vector_lower_receiver,,,,,,,,,,,,,
-456,,vector_lower_receiver,Kriss Vector Gen2,0,0.42,,,,,,,,,0
+456,,vector_lower_receiver,Kriss Vector Gen2,0,0.5,,,,,,,,,0
 ,vector_left_rail,,,,,,,,,,,,,
 457,,vector_left_rail,Kriss Vector Std.,-1,0.04,,,,,,,,,0
 ,vector_handguard_mount,,,,,,,,,,,,,
@@ -955,8 +955,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 469,,vector_9mm_170mm_barrel,Kriss Vector 9x19 170mm,-1,0.21,-1,-1,,-0.02,0.02,2,-0.1,,750
 470,,vector_9mm_140mm_barrel,Kriss Vector 9x19 140mm,0,0.19,0,0,,0,0,-28,0,,800
 ,vector_45acp_barrel,,,,,,,,,,,,,
-471,,vector_45acp_170mm_barrel,Kriss Vector .45ACP 170mm,-1,0.23,-3,-3,,-0.02,0.03,-72,-0.1,,750
-472,,vector_45acp_140mm_barrel,Kriss Vector .45ACP 140mm,0,0.2,-1,-1,,0,0,-99,0,,800
+471,,vector_45acp_170mm_barrel,Kriss Vector .45ACP 170mm,-1,0.23,-1,-1,,-0.02,0.03,-72,-0.1,,750
+472,,vector_45acp_140mm_barrel,Kriss Vector .45ACP 140mm,0,0.2,0,0,,0,0,-99,0,,800
 ,magazine_45acp_vector,,,,,,,,,,,,,
 473,,pf940_std_13r_vector_remodel,STD 13R .45 ACP,15,0.16,,,13,,,,,,0
 ,magazine_556x45,,,,,,,,,,,,,
@@ -1654,8 +1654,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,glock17_gen5_mag_release,Glock 17 Gen5 Magazine Release,0,0.01,,,,,,,,,0
 ,glock_mag_13r_45acp_plate,,,,,,,,,,,,,
 801,,45acp_kriss_magex2_pf940,.45 ACP KRISS MagEx2 For Glock (+17 Rounds),-8,0.25,,,17,,,,,,1000
-802,,pf940_13r_plate,Magazine,1,0.015,,,,,,,,,0
-803,,vector_17r_plate,Magazine,1,0.015,,,0,,,,,,1000
+802,,pf940_13r_plate,Magazine,0,0.02,,,,,,,,,0
+803,,vector_17r_plate,Magazine,0,0.02,,,0,,,,,,1000
 804,,9x19_kriss_magex2_vector,9x19 KRISS MagEx2 For Glock (+23 Rounds),-12,0.3,,,23,,,,,,0
 ,glock20_barrel,,,,,,,,,,,,,
 805,,glock20_std_117mm_barrel,Glock Standard 117mm,0,0.17,-5,-5,,0,0,0,,,0
@@ -1855,8 +1855,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 921,,hk_mp5k_polymer_handguard,HK MP5 Wide Tropical,15,0.15,-7,-5,,,,,,,1500
 ,ump45_barrel,,,,,,,,,,,,,
 922,,hk_ump45_200mm_flanged_barrel,HK UMP45 200mm .45ACP Flanged,0,0.26,-2,-1,,0,,-15,,,0
-923,,hdps_ump45_200mm_threaded_barrel,HDPS UMP45 200mm .45ACP Threaded,-2,0.27,1,,,0.08,,-21,,,750
-924,,omega_ump45_200mm_trilug_barrel,OMEGA UMP45 200mm .45ACP Tri-Lug,-1,0.26,,1,,0.05,,-18,,,300
+923,,hdps_ump45_200mm_threaded_barrel,HDPS UMP45 200mm .45ACP Threaded,-2,0.27,1,0,,0.08,,-21,,,750
+924,,omega_ump45_200mm_trilug_barrel,OMEGA UMP45 200mm .45ACP Tri-Lug,-1,0.26,0,-2,,0.05,,-18,,,300
 ,hk416_barrel,,,,,,,,,,,,,
 925,,hk416_269mm_barrel,10.6 Inch 5.56 HK416,2,0.55,4,4,,0.2,-0.08,-109,,,1000
 926,,hk416_279mm_barrel,11 Inch 5.56 HK416,2,0.56,4,4,,0.2,-0.06,-92,,,1500
@@ -2843,7 +2843,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1346,,MP133,Baikal MP-133,30,0.9,60,70,1,0.6,1,1000,2.5,,9000
 ,smg,,,,,,,,,,,,,
 1347,,MP5,H&K MP5,35,0,45,55,0,1,1,1000,,,5000
-1348,,Vector,TDI Kriss Vector Gen II,30,0,60,60,0,1.2,1,700,,,90000
+1348,,Vector,TDI Kriss Vector Gen II,25,0,70,70,0,1.2,1,700,,,90000
 1349,,MK9,CmmG MK9 T,30,0,55,70,0,1,1,1000,,,20000
 1350,,UMP,HK UMP,65,0,80,90,0,0.9,1,700,,,15000
 1351,,AK_9,AK 9mm,30,0,50,65,0,0.9,1,1000,,,11000

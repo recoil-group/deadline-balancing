@@ -1,4 +1,4 @@
-﻿0.24.2,Tue Jul 22 12:26:52 2025,,,,,,,,,,,,,
+﻿0.24.2,Tue Jul 22 13:01:57 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -918,11 +918,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pmm_scar_17_magwell_type2,PMM Scar 17 Magwell Type 2,2.5,0.1,-1,,,,,,,,700
 ,,pmm_scar_16_magwell,PMM Scar 16 Magwell,2.5,0.1,-1,,,,,,,,700
 ,vector_folding_stock,,,,,,,,,,,,,
-449,,kriss_vector_gen2_folding_stock,Kriss Vector Gen2,17,0.28,-7,-9,,,,,,,600
+449,,kriss_vector_gen2_folding_stock,Kriss Vector Gen2,16,0.26,-7,-9,,,,,,,600
 450,,kriss_vector_non_folding_stock_adapter,Kriss Vector Non-Folding Stock Adapter,0,0.08,0,0,,,,,,,800
 ,vector_upper_receiver,,,,,,,,,,,,,
-451,,vector_9mm_upper_receiver,Kriss Vector 9mm,0,0.41,-5,-20,,,,200,,,3000
-452,,vector_45acp_upper_receiver,Kriss Vector .45ACP,-1,0.43,0,0,,,,,,,3000
+451,,vector_9mm_upper_receiver,Kriss Vector 9mm,0,0.39,-5,-20,,,,200,,,3000
+452,,vector_45acp_upper_receiver,Kriss Vector .45ACP,-1,0.41,0,0,,,,,,,3000
 ,vector_trigger,,,,,,,,,,,,,
 453,,vector_std_trigger,Kriss Vector Std.,0,0.03,,,,,,,,,0
 ,vector_right_rail,,,,,,,,,,,,,
@@ -930,7 +930,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,vector_magazine_eject,,,,,,,,,,,,,
 455,,vector_std_mag_eject,Kriss Vector Std.,0,0.01,,,,,,,,,0
 ,vector_lower_receiver,,,,,,,,,,,,,
-456,,vector_lower_receiver,Kriss Vector Gen2,0,0.5,,,,,,,,,0
+456,,vector_lower_receiver,Kriss Vector Gen2,0,0.48,,,,,,,,,0
 ,vector_left_rail,,,,,,,,,,,,,
 457,,vector_left_rail,Kriss Vector Std.,-1,0.04,,,,,,,,,0
 ,vector_handguard_mount,,,,,,,,,,,,,
@@ -948,17 +948,17 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,vector_bolt_release,,,,,,,,,,,,,
 466,,vector_bolt_release,Kriss Vector Std.,0,0.01,,,,,,,,,0
 ,vector_9mm_bolt,,,,,,,,,,,,,
-467,,vector_9mm_bolt,Kriss Vector .45ACP,0,0.03,,,,,,,,,0
+467,,vector_9mm_bolt,Kriss Vector .45ACP,0,0.04,,,,,,,,,0
 ,vector_45acp_bolt,,,,,,,,,,,,,
-468,,vector_45acp_bolt,Kriss Vector .45ACP,0,0.04,,,,,,,,,0
+468,,vector_45acp_bolt,Kriss Vector .45ACP,0,0.05,,,,,,,,,0
 ,vector_9mm_barrel,,,,,,,,,,,,,
 469,,vector_9mm_170mm_barrel,Kriss Vector 9x19 170mm,-1,0.21,-1,-1,,-0.02,0.02,2,-0.1,,750
 470,,vector_9mm_140mm_barrel,Kriss Vector 9x19 140mm,0,0.19,0,0,,0,0,-28,0,,800
 ,vector_45acp_barrel,,,,,,,,,,,,,
-471,,vector_45acp_170mm_barrel,Kriss Vector .45ACP 170mm,-1,0.23,-1,-1,,-0.02,0.03,-72,-0.1,,750
-472,,vector_45acp_140mm_barrel,Kriss Vector .45ACP 140mm,0,0.2,0,0,,0,0,-99,0,,800
+471,,vector_45acp_170mm_barrel,Kriss Vector .45ACP 170mm,-1,0.24,-1,-1,,-0.02,0.03,-72,-0.1,,750
+472,,vector_45acp_140mm_barrel,Kriss Vector .45ACP 140mm,0,0.21,0,0,,0,0,-99,0,,800
 ,magazine_45acp_vector,,,,,,,,,,,,,
-473,,pf940_std_13r_vector_remodel,STD 13R .45 ACP,15,0.16,,,13,,,,,,0
+473,,pf940_std_13r_vector_remodel,STD 13R .45 ACP,15,0.23,,,13,,,,,,0
 ,magazine_556x45,,,,,,,,,,,,,
 474,,5.56x45_magpul_pmag_60r,Magpul PMAG D60 60R Drum,-12,1.12,,,60,0.1,,,,,4000
 475,,5.56x45_x15m_drum_50r,X-15M Drum,-8,1.05,,,50,,,,,,3000
@@ -1078,7 +1078,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,pp19_bottom_plate,,,,,,,,,,,,,
 550,,izhmash_pp-19-01_mag_bottom_plate,Izhmash PP-19-01 Bottom Plate,0,0.02,,,,,,,,,0
 ,magazine_45acp_ump45,,,,,,,,,,,,,
-551,,hk_ump45_45acp_25r_mag,HK UMP45 .45 ACP 25R,-6,0.3,,,25,,,,,,0
+551,,hk_ump45_45acp_25r_mag,HK UMP45 .45 ACP 25R,-6,0.43,,,25,,,,,,0
 ,magazine_5.8x42mm_qbz95,,,,,,,,,,,,,
 552,,magazine_5.8x42mm_qbz95,Norinco QBZ-95 5.8x42mm 30R,,,,,30,,,,,,500
 ,magazine_9x19_aug_para,,,,,,,,,,,,,
@@ -1653,7 +1653,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,glock_17_mag_release,,,,,,,,,,,,,
 ,,glock17_gen5_mag_release,Glock 17 Gen5 Magazine Release,0,0.01,,,,,,,,,0
 ,glock_mag_13r_45acp_plate,,,,,,,,,,,,,
-801,,45acp_kriss_magex2_pf940,.45 ACP KRISS MagEx2 For Glock (+17 Rounds),-8,0.25,,,17,,,,,,1000
+801,,45acp_kriss_magex2_pf940,.45 ACP KRISS MagEx2 For Glock (+17 Rounds),-8,0.33,,,17,,,,,,1000
 802,,pf940_13r_plate,Magazine,0,0.02,,,,,,,,,0
 803,,vector_17r_plate,Magazine,0,0.02,,,0,,,,,,1000
 804,,9x19_kriss_magex2_vector,9x19 KRISS MagEx2 For Glock (+23 Rounds),-12,0.3,,,23,,,,,,0
@@ -1777,11 +1777,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 877,,10mm_winchester_silvertip_175gr_jhp,10mm Auto Winchester Silvertip 175gr JHP,-1,0.04,,10,,0.1,,-100,,,2000
 878,,10mm_liberty_civil_defense_60gr_hplf,10mm Auto Liberty Civil Defense 60gr HPLF,-1.5,0.01,30,30,,0.5,,300,,,800
 ,ammo_45acp,,,,,,,,,,,,,
-879,,45acp_blazer_brass_230gr_fmj,.45 ACP Blazer Brass 230gr FMJ,0,0.1,0,0,,0,0.03,80,,,0
-880,,45acp_winchester_service_grade_230gr_fmj,.45 ACP Winchester Service Grade 230gr FMJ,0,0.1,0,-1,,0.1,0.06,80,,,1500
-881,,45acp_ammoinc_230gr_subsonic_tmj,.45 ACP Ammo Inc. 230gr Subsonic TMJ,2,0.1,-2,0,,0,-0.13,0,,,1200
-882,,45acp_speer_golddot_230gr_bjhp,.45 ACP Speer Gold Dot 230gr BJHP,1,0.1,0,1,,0.1,0.14,100,,,1200
-883,,45acp_supernova_225gr_red_tracer,.45 ACP Supernova 225gr Red Tracer,-1,0.1,0,0,,0.1,-0.12,170,,,1000
+879,,45acp_blazer_brass_230gr_fmj,.45 ACP Blazer Brass 230gr FMJ,0,0,0,0,,0,0.03,80,,,0
+880,,45acp_winchester_service_grade_230gr_fmj,.45 ACP Winchester Service Grade 230gr FMJ,0,0,0,-1,,0.1,0.06,80,,,1500
+881,,45acp_ammoinc_230gr_subsonic_tmj,.45 ACP Ammo Inc. 230gr Subsonic TMJ,2,0,-2,0,,0,-0.13,0,,,1200
+882,,45acp_speer_golddot_230gr_bjhp,.45 ACP Speer Gold Dot 230gr BJHP,1,0,0,1,,0.1,0.14,100,,,1200
+883,,45acp_supernova_225gr_red_tracer,.45 ACP Supernova 225gr Red Tracer,-1,0,0,0,,0.1,-0.12,170,,,1000
 ,ammo_5.8x42,,,,,,,,,,,,,
 884,,5.8x42_norinco_dbp95_64gr_fmj,5.8x42 Norinco DBP-95 64gr FMJ,0,0.15,0,0,,0,,,,,0
 ,,5.8x42_norinco_dbx95_64gr_green_tracer,5.8x42 Norinco DBX-95 64gr Green Tracer,-1,0.15,-1,-1,,0.05,,-50,,,1000
@@ -1802,16 +1802,16 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,hk_bolt,,,,,,,,,,,,,
 895,,hk_bolt,HK416A5 Bolt,0,0.12,,,,,,,,,0
 ,ump_upper_receiver,,,,,,,,,,,,,
-896,,hk_ump45_upper_receiver,HK UMP45 Upper Receiver,0,0.5,,,,,,,,,
-897,,hk_ump9_upper_receiver,HK UMP9 Upper Receiver,6,0.48,-25,-23,,,,200,,0.25,4000
+896,,hk_ump45_upper_receiver,HK UMP45 Upper Receiver,0,0.48,,,,,,,,,
+897,,hk_ump9_upper_receiver,HK UMP9 Upper Receiver,6,0.46,-25,-23,,,,200,,0.25,4000
 ,ump_trigger,,,,,,,,,,,,,
 898,,hk_ump_trigger,HK UMP Trigger,1,0.02,,,,,,,,,0
 ,ump_top_rail,,,,,,,,,,,,,
 899,,hk_ump_top_rail,HK UMP Top Rail,-1,0.08,,,,,,,,,1000
 ,ump_stock_block,,,,,,,,,,,,,
-900,,hk_ump_stock_block,HK UMP Stock Block,0,0.1,,,,,,,,,0
+900,,hk_ump_stock_block,HK UMP Stock Block,0,0.09,,,,,,,,,0
 ,ump_stock,,,,,,,,,,,,,
-901,,hk_ump_polymer_stock,HK UMP Polymer Folding Stock,10,0.18,-9,-12,,,,,,,0
+901,,hk_ump_polymer_stock,HK UMP Standard Polymer Folding,10,0.21,-9,-12,,,,,,,0
 902,,tommybuilt_ump_tailhook_brace_adapter,Tommy Built UMP Tailhook Brace Adapter,0,0.13,0,0,,,,,,,800
 903,,bt_mp5/ump_folding_stock,B&T MP5 Folding Stock,15,0.2,-10,-7,,,,,,,600
 904,,hogue_ump_buffer_tube_adapter,Hogue UMP Buffer Tube Adapter,-3,0.08,2,2,,,,,,,1000
@@ -1823,9 +1823,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 908,,hk_ump_paddle_mag_release,HK UMP Paddle,0,0.02,,,,,,,,,0
 ,ump_lower_receiver,,,,,,,,,,,,,
 909,,hk_ump_01_navy_lower_receiver,HK UMP 0-1 Navy,4,0.37,-2,-2,,,,,,,500
-,,hk_ump_012_navy_lower_receiver,HK UMP 0-1-2 Navy,3,0.4,-2,-2,,,,,,,1000
-,,hk_ump_01d_navy_lower_receiver,HK UMP 0-1-D Navy,0,0.4,,,,,,,,,0
-,,hk_ump_012d_navy_lower_receiver,HK UMP 0-1-2-D Navy,0,0.43,1,,,,,,,,1500
+,,hk_ump_012_navy_lower_receiver,HK UMP 0-1-2 Navy,3,0.39,-2,-2,,,,,,,1000
+,,hk_ump_01d_navy_lower_receiver,HK UMP 0-1-D Navy,0,0.39,,,,,,,,,0
+,,hk_ump_012d_navy_lower_receiver,HK UMP 0-1-2-D Navy,0,0.41,1,,,,,,,,1500
 ,ump_handstop,,,,,,,,,,,,,
 910,,hk_ump_handstop,HK UMP Handstop,2,0.04,-1,,,,,,,,500
 ,ump_handguard_rail,,,,,,,,,,,,,
@@ -1854,9 +1854,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,hk_mp5k_handguard,,,,,,,,,,,,,
 921,,hk_mp5k_polymer_handguard,HK MP5 Wide Tropical,15,0.15,-7,-5,,,,,,,1500
 ,ump45_barrel,,,,,,,,,,,,,
-922,,hk_ump45_200mm_flanged_barrel,HK UMP45 200mm .45ACP Flanged,0,0.26,-2,-1,,0,,-15,,,0
-923,,hdps_ump45_200mm_threaded_barrel,HDPS UMP45 200mm .45ACP Threaded,-2,0.27,1,0,,0.08,,-21,,,750
-924,,omega_ump45_200mm_trilug_barrel,OMEGA UMP45 200mm .45ACP Tri-Lug,-1,0.26,0,-2,,0.05,,-18,,,300
+922,,hk_ump45_200mm_flanged_barrel,HK UMP45 200mm .45ACP Flanged,0,0.27,-2,-1,,0,,-15,,,0
+923,,hdps_ump45_200mm_threaded_barrel,HDPS UMP45 200mm .45ACP Threaded,-2,0.28,1,0,,0.08,,-21,,,750
+924,,omega_ump45_200mm_trilug_barrel,OMEGA UMP45 200mm .45ACP Tri-Lug,-1,0.27,0,-2,,0.05,,-18,,,300
 ,hk416_barrel,,,,,,,,,,,,,
 925,,hk416_269mm_barrel,10.6 Inch 5.56 HK416,2,0.55,4,4,,0.2,-0.08,-109,,,1000
 926,,hk416_279mm_barrel,11 Inch 5.56 HK416,2,0.56,4,4,,0.2,-0.06,-92,,,1500

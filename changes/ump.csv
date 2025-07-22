@@ -1,6 +1,6 @@
 ﻿,,old,,,,,,,,,,,,,new,,,,,,,,,,,
-name,pretty_name,ergonomicsold,weightold,horizontal_recoilold,vertical_recoilold,magazine_capacityold,barrel_deviationold,bullet_damageold,bullet_velocityold,buck_barrel_deviationold,fire_rateold,priceold,strength,,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price,strength
-hk_ump_polymer_stock,HK UMP Standard Polymer Folding,5,0.2,-5,-10,,,,,,,0,11,,11,0.21,-9,-13,,,,,,,0,21.8
+name,pretty_name,ergonomicsold,weightold,horizontal_recoilold,vertical_recoilold,magazine_capacityold,bullet_deviationold,bullet_damageold,bullet_velocityold,buck_bullet_deviationold,fire_rateold,priceold,strength,,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,bullet_deviation,bullet_damage,bullet_velocity,buck_bullet_deviation,fire_rate,price,strength
+hk_ump_polymer_stock,HK UMP Standard Polymer Folding,5,0.2,-5,-10,,,,,,,0,11,,10,0.21,-9,-12,,,,,,,0,20.2
 bt_mp5/ump_folding_stock,B&T MP5 Folding Stock,16,0.21,-5,-3,,,,,,,600,17.6,,15,0.2,-10,-7,,,,,,,600,23.2
 ,,,,,,,,,,,,,0,,,,,,,,,,,,,0
 hogue_ump_buffer_tube_adapter,Hogue UMP Buffer Tube Adapter,-10,0.12,5,5,,,,,,,1000,-19.4,,-3,0.08,2,2,,,,,,,1000,-7.4

@@ -1,5 +1,5 @@
 ﻿,,old,,,,,,,,,,,,,,,,,damage,,,,,irl stats,,
-name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price,strength,,mv,vel loss,suppression,pen,0st,100st,200st,,,type,mv,energy
+name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,bullet_deviation,bullet_damage,bullet_velocity,buck_bullet_deviation,fire_rate,price,strength,,mv,vel loss,suppression,pen,0st,100st,200st,,,type,mv,energy
 45acp_tulammo_230gr_fmj,.45 ACP Tulammo 230gr FMJ,1,0.1,-2,-2,,0.1,,-50,,,1200,17.64,,1150,20,50%,-0.08,43,38,23,34.66666667,,fmk,850,369
 45acp_stelth_230gr_tmj_tmc_stl,.45 ACP Stelth 230gr TMJ (TMC-STL),-0.5,0.1,,1,,0.1,,,,,1200,21.5,,1200,30,50%,0.55,48,43,35,42,,tmj,757,293
 45acp_pmc_230gr_fmj_45a,.45 ACP PMC 230gr FMJ (45A),0,0.1,,-2,,0.1,,-20,,,1500,18.48,,1180,50,50%,0.09,45,38,30,37.66666667,,fmj,830,352
@@ -7,10 +7,10 @@ name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_ca
 45acp_ammoinc_230gr_red_tracer_jhp,.45 ACP Ammo Inc. 230gr Red Tracer JHP,0,0.1,,,,0.1,,-50,,,1000,26.08,,1150,30,60%,0.04,52,47,41,46.66666667,,tracer,920,432
 ,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,new,,,,,,,,,,,,,,,,,,,,,,,,
-,,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price,strength,,mv,vel loss,suppression,pen,0st,100st,200st,,,,,
-45acp_tulammo_230gr_fmj,.45 ACP Tulammo 230gr FMJ,1,0.1,0,1,,0.1,0.14,100,,,1200,18.95333333,,1000,50,40%,0.1,49.02,43.32,26.22,39.52,,,,
-45acp_stelth_230gr_tmj_tmc_stl,.45 ACP Stelth 230gr TMJ (TMC-STL),2,0.1,-2,0,,0,-0.13,0,,,1200,19.46,,900,50,40%,0.16,41.76,37.41,30.45,36.54,,,,
-45acp_pmc_230gr_fmj_45a,.45 ACP PMC 230gr FMJ (45A),0,0.1,0,-1,,0.1,0.06,80,,,1500,19.57333333,,980,50,40%,0.14,47.7,40.28,31.8,39.92666667,,,,
-45acp_blazer_brass_230gr_fmj,.45 ACP Blazer Brass 230gr FMJ,0,0.1,0,0,,0,0.03,80,,,0,18.30333333,,980,50,40%,0.12,46.35,39.14,30.9,38.79666667,,,,
-45acp_ammoinc_230gr_red_tracer_jhp,.45 ACP Ammo Inc. 230gr Red Tracer JHP,-1,0.1,0,0,,0.1,-0.12,170,,,1000,19.21333333,,1070,60,50%,0.04,45.76,41.36,36.08,41.06666667,,,,
+,,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,bullet_deviation,bullet_damage,bullet_velocity,buck_bullet_deviation,fire_rate,price,strength,,mv,vel loss,suppression,pen,0st,100st,200st,,,,,
+45acp_speer_golddot_230gr_bjhp,.45 ACP Speer Gold Dot 230gr BJHP,1,0,0,1,,0.1,0.14,100,,,1200,20.95333333,,1000,50,40%,0.1,49.02,43.32,26.22,39.52,,,,
+45acp_ammoinc_230gr_subsonic_tmj,.45 ACP Ammo Inc. 230gr Subsonic TMJ,2,0,-2,0,,0,-0.13,0,,,1200,21.46,,900,50,40%,0.16,41.76,37.41,30.45,36.54,,,,
+45acp_winchester_service_grade_230gr_fmj,.45 ACP Winchester Service Grade 230gr FMJ,0,0,0,-1,,0.1,0.06,80,,,1500,21.57333333,,980,50,40%,0.14,47.7,40.28,31.8,39.92666667,,,,
+45acp_blazer_brass_230gr_fmj,.45 ACP Blazer Brass 230gr FMJ,0,0,0,0,,0,0.03,80,,,0,20.30333333,,980,50,40%,0.12,46.35,39.14,30.9,38.79666667,,,,
+45acp_supernova_225gr_red_tracer,.45 ACP Supernova 225gr Red Tracer,-1,0,0,0,,0.1,-0.12,170,,,1000,21.21333333,,1070,60,50%,0.04,45.76,41.36,36.08,41.06666667,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,

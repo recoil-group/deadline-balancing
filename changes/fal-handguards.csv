@@ -1,13 +1,13 @@
 ﻿,,new,,,,,,,,,,,,
 name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_bullet_deviation,fire_rate,price,strength,
-dsa_sa58_belgian_style_full_length_handguard,DSA SA-58 Belgian Style,8,0.3,-16,-16,,,,,,,0,24.4,6
+dsa_sa58_belgian_style_full_length_handguard,DSA SA-58 Belgian Style,8,0.3,-16,-16,,0.03,,,,,0,24.4,6
 ,aim sports mlok,8,0.25,-11,-11,0,0,0,0,0,0,2000,18.4,
 ,aim sports picatinny,7,0.28,-11,-11,0,0,0,0,0,0,1800,16.8,
 ,metric mlok full,7,0.26,-13,-11,0,0,0,0,0,0,2000,18.8,
-dsa_sa58_belgian_style_mid_length_handguard,DSA SA-58 Belgian Style Mid Length Handguard,10,0.21,-13,-13,,,,,,,750,24,
+dsa_sa58_belgian_style_mid_length_handguard,DSA SA-58 Belgian Style Mid Length Handguard,10,0.21,-13,-13,,0.03,,,,,750,24,
 dsa_metric_short_quadrail_handguard,DSA Metric Short Quad Rail,9,0.22,-8,-12,,,,,,,1000,18.2,
 ,metric mlok mid,10,0.2,-10,-8,0,0,0,0,0,0,1700,18.8,
-dsa_sa58_tactical_pistol_v2_handguard,DSA SA-58 Tactical Pistol V2,14,0.15,-8,-8,,,,,,,2000,22.2,
+dsa_sa58_tactical_pistol_v2_handguard,DSA SA-58 Tactical Pistol V2,14,0.15,-8,-8,,0.03,,,,,2000,22.2,
 ,metric mlok pistol,13,0.14,-5,-5,0,0,0,0,0,0,1350,17.2,
 ,,,,,,,,,,,,,0,
 aim_sports_universal_11.3inch_mlok_hg_lower,"Aim Sports Universal MLOK 11.3""",8,0.15,-11,-11,,,,,,,1500,20.4,

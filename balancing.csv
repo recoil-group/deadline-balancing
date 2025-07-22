@@ -1,4 +1,4 @@
-﻿0.24.2,Tue Jul 22 13:32:23 2025,,,,,,,,,,,,,
+﻿0.24.2,Tue Jul 22 13:53:02 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -921,8 +921,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 449,,kriss_vector_gen2_folding_stock,Kriss Vector Gen2,16,0.26,-7,-9,,,,,,,600
 450,,kriss_vector_non_folding_stock_adapter,Kriss Vector Non-Folding Stock Adapter,0,0.08,0,0,,,,,,,800
 ,vector_upper_receiver,,,,,,,,,,,,,
-451,,vector_9mm_upper_receiver,Kriss Vector 9mm,0,0.39,-5,-20,,,,200,,,3000
-452,,vector_45acp_upper_receiver,Kriss Vector .45ACP,-1,0.41,0,0,,,,,,,3000
+451,,vector_9mm_upper_receiver,Kriss Vector 9mm,3,0.39,-10,-10,,,,200,,,3000
+452,,vector_45acp_upper_receiver,Kriss Vector .45ACP,0,0.41,0,0,,,,,,,3000
 ,vector_trigger,,,,,,,,,,,,,
 453,,vector_std_trigger,Kriss Vector Std.,0,0.03,,,,,,,,,0
 ,vector_right_rail,,,,,,,,,,,,,
@@ -2843,7 +2843,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1346,,MP133,Baikal MP-133,30,0.9,60,70,1,0.6,1,1000,2.5,,9000
 ,smg,,,,,,,,,,,,,
 1347,,MP5,H&K MP5,35,0,45,55,0,1,1,1000,,,5000
-1348,,Vector,TDI Kriss Vector Gen II,25,0,70,70,0,1.2,1,700,,,90000
+1348,,Vector,TDI Kriss Vector Gen II,25,0,65,65,0,1.2,1,700,,,90000
 1349,,MK9,CmmG MK9 T,30,0,55,70,0,1,1,1000,,,20000
 1350,,UMP,HK UMP,65,0,80,90,0,0.9,1,700,,,15000
 1351,,AK_9,AK 9mm,30,0,50,65,0,0.9,1,1000,,,11000

@@ -1,4 +1,4 @@
-0.24.2,Mon Jul 21 22:08:50 2025,,,,,,,,,,,,,
+0.24.2,Mon Jul 21 22:32:01 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -2324,7 +2324,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1134,,dsa_sa58_330mm_barrel,"DSA SA-58 13""",6,0.79,4,4,,0.1,-0.04,-81,,,500
 1135,,dsa_sa58_406mm_barrel,"DSA SA-58 16""",0,0.96,0,0,,0,0,71,,,0
 1136,,dsa_sa58_457mm_barrel,"DSA SA-58 18""",-4,1.03,-2,-2,,-0.1,0.03,143,,,750
-1137,,dsa_sa58_533mm_barrel,"DSA SA-58 21""",-9,1.15,-4,-4,,-0.2,0.08,238,,,1000
+1137,,dsa_sa58_533mm_barrel,"DSA SA-58 21""",-9,1.15,-3,-4,,-0.3,0.08,238,,,1000
 1138,,dsa_sa58_406mm_fluted_barrel,"DSA SA-58 16"" Fluted",1,0.91,1,1,,0,0,46,,,400
 ,sa58_gas_piston,,,,,,,,,,,,,
 ,,dsa_sa58_pistol_gas_piston,DSA SA-58 Pistol Length,2,0.01,-1,-2,,,,,,,100

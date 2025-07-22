@@ -1,4 +1,4 @@
-﻿0.24.2,Mon Jul 21 20:21:17 2025,,,,,,,,,,,,,
+﻿0.24.2,Mon Jul 21 22:08:50 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1062,9 +1062,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 541,,magpul_pmag_ac_10r,Magpul PMAG AC .308 10R,-6,0.32,,,10,,,,,,
 542,,wyatt_outdoor_rem700_.308_10r_mag,	Wyatt's Outdoor .308 10R,-6,0.36,,,10,,,,,,1000
 ,magazine_7.62x54_mosin,,,,,,,,,,,,,
-543,,7.62x54_promag_10r,ProMag AA762R 02 10R,-3,0.2,,,10,,,,,,1000
-544,,7.62x54_promag_5r,ProMag AA762R 01 5R,-1,0.15,,,5,,,,,,500
-545,,7.62x54_mosin_5r,Mosin Standard 5R,0,0.2,,,5,,,,,,0
+543,,7.62x54_promag_10r,ProMag AA762R 02 10R,-4,0.33,,,10,,,,,,1000
+544,,7.62x54_promag_5r,ProMag AA762R 01 5R,0,0.19,,,5,,,,,,500
+545,,7.62x54_mosin_5r,Mosin Standard 5R,0,0.24,,,5,,,,,,0
 ,magazine_9x19_mp5,,,,,,,,,,,,,
 546,,hk_mp5_std_curved_30r_9x19_magazine,HK MP5 Std. Curved 30rd 9x19 Magazine,0,0.34,,,30,,,,,,0
 ,,hk_mp5_straight_30r_9x19_magazine,HK MP5 Straight 30rd 9x19 Magazine,1,0.36,,,30,,,,,,500

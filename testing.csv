@@ -1057,10 +1057,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 538,,5.45x39_izhmash_ak12_magazine_30r,Izhmash AK-12 Windowed Polymer 30R,0,0.42,,,30,,,,,,1200
 ,,banan_magazine,Banana Magazine,0,0.39,,,30,,,,,,5000
 ,magazine_7.62x51_remington700,,,,,,,,,,,,,
-539,,wyatt_outdoor_rem700_.308_5r_mag,	Wyatt's Outdoor .308 5R,-2,0.22,,,5,,,,,,300
+539,,wyatt_outdoor_rem700_.308_5r_mag,"	Wyatt's Outdoor .308 5R",-2,0.22,,,5,,,,,,300
 540,,magpul_pmag_ac_5r,Magpul PMAG AC .308 5R,-2,0.18,,,5,,,,,,
 541,,magpul_pmag_ac_10r,Magpul PMAG AC .308 10R,-6,0.32,,,10,,,,,,
-542,,wyatt_outdoor_rem700_.308_10r_mag,	Wyatt's Outdoor .308 10R,-6,0.36,,,10,,,,,,1000
+542,,wyatt_outdoor_rem700_.308_10r_mag,"	Wyatt's Outdoor .308 10R",-6,0.36,,,10,,,,,,1000
 ,magazine_7.62x54_mosin,,,,,,,,,,,,,
 543,,7.62x54_promag_10r,ProMag AA762R 02 10R,-4,0.33,,,10,,,,,,1000
 544,,7.62x54_promag_5r,ProMag AA762R 01 5R,0,0.19,,,5,,,,,,500
@@ -2049,7 +2049,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,arid_concepts_aug_mag_release_large_paddle,Arid Concepts Large Paddle,1,0.02,,,,,,,,,100
 ,aug_a3_stock,,,,,,,,,,,,,
 1012,,steyr_aug_a3_para_9x19_stock,Steyr AUG Para 9x19,40,0.32,-18,-20,,0.2,,-600,,,2000
-1013,,fbt_aug_carbon_fiber_stock,Fine Ballistic Tools AUG Carbon Fiber Stock,21,0.36,-6,-6,,,,,,,4000
+1013,,fbt_aug_carbon_fiber_stock,Fine Ballistic Tools AUG Carbon Fiber Stock,22,0.38,-6,-5,,,,,,,4000
 1014,,steyr_aug_a3_nato_stock,AUG A3 NATO,16,0.29,-5,-7,,,,,,,1000
 1015,,steyr_aug_a3_austrian_stock,AUG A3 Austrian,17,0.29,-7,-6,,,,,,,0
 ,talon_aug_grip_wrap,,,,,,,,,,,,,

@@ -948,9 +948,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,vector_bolt_release,,,,,,,,,,,,,
 466,,vector_bolt_release,Kriss Vector Std.,0,0.01,,,,,,,,,0
 ,vector_9mm_bolt,,,,,,,,,,,,,
-467,,vector_9mm_bolt,Kriss Vector .45ACP,0,0.03,,,,,,,,,0
+467,,vector_9mm_bolt,Kriss Vector .45ACP,0,0.05,,,,,,,,,0
 ,vector_45acp_bolt,,,,,,,,,,,,,
-468,,vector_45acp_bolt,Kriss Vector .45ACP,0,0.04,,,,,,,,,0
+468,,vector_45acp_bolt,Kriss Vector .45ACP,0,0.06,,,,,,,,,0
 ,vector_9mm_barrel,,,,,,,,,,,,,
 469,,vector_9mm_170mm_barrel,Kriss Vector 9x19 170mm,-1,0.21,-1,-1,,-0.02,0.02,2,-0.1,,750
 470,,vector_9mm_140mm_barrel,Kriss Vector 9x19 140mm,0,0.19,0,0,,0,0,-28,0,,800

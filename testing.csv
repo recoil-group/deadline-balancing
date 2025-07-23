@@ -1,4 +1,4 @@
-0.24.2,Tue Jul 22 17:45:43 2025,,,,,,,,,,,,,
+0.24.2,Tue Jul 22 18:09:20 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -2119,7 +2119,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,mosin_stock,,,,,,,,,,,,,
 1046,,mosin_sawn_off_stock,Mosin Sawn Off,-5,0.2,5,5,,,,,,,1000
 1047,,mosin_sawn_off_full_stock,Mosin Sawn Off Full,-10,0.3,2,0,,,,,,,1000
-1048,,mosin_promag_archangel_stock,ProMag Archangel Mosin PRS,0,0.6,-4,-8,,,,,,,2000
+1048,,mosin_promag_archangel_stock,ProMag Archangel Mosin PRS,1,0.65,-4,-8,,,,,,,2000
 1049,,mosin_carbine_stock,Mosin Std. Carbine,3,0.5,0,-3,,,,,,,500
 1050,,mosin_standard_stock,Mosin Std. Sniper,5,0.6,-1,-5,,,,,,,0
 ,pp19_barrel,,,,,,,,,,,,,

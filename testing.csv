@@ -1,4 +1,4 @@
-0.24.2,Tue Jul 22 14:59:16 2025,,,,,,,,,,,,,
+0.24.2,Tue Jul 22 17:45:43 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -981,15 +981,15 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,5.56x45_lancer_systems_l5awm_gen2_30r_opaque_mag,Lancer Systems L5AWM Gen2 30R Opaque,-1.5,0.28,,,30,,,,,,1500
 ,,5.56x45_lancer_systems_l5awm_gen2_30r_translucent_mag,Lancer Systems L5AWM Gen2 30R Translucent,-1.5,0.28,,,30,,,,,,1700
 ,magazine_762x39_akm,,,,,,,,,,,,,
-490,,7.62x39_akms_aluminium_30r_mag,AKMS Aluminium 7.62x39 30R,-2,0.39,,,30,,,,,,750
-491,,7.62x39_izhmash_akm_6l10_30r_mag,Izhmash AKM 6L10 7.62x39 30R,1,0.43,,,30,,,,,,800
-492,,7.62x39_magpul_pmag_akm_30r,Magpul PMAG AK/AKM 7.62x39 30R,0,0.41,,,30,,,,,,1200
-493,,7.62x39_promag_ak47_polymer_mag_30r,ProMag AK-47 7.62x39 Polymer Magazine 30R,-1,0.4,,,30,,,,,,1000
-494,,7.62x39_promag_ak47_polymer_mag_40r,ProMag AK-47 7.62x39 Polymer Magazine 40R,-6,0.52,,,40,,,,,,1500
-,,7.62x39_izhmash_akm_ribbed_1955_30r_mag,Izhmash AKM Ribbed 1955 30R Magazine,-0.5,0.42,,,30,,,,,,500
-,,7.62x39_ati_schmeisser_ak47_windowed_60r_mag,ATI Schmeisser AK47 Windowed 60R Magazine,-10,0.72,,,60,,,,,,3500
-,,7.62x39_rwb_ak47_75r_drum_mag,RWB AK47 75R Drum Magazine,-12.5,0.9,3,3,75,0.15,,,,,5000
-,,7.62x39_rwb_ak47_100r_drum_mag,RWB AK47 100R Drum Magazine,-17,1.22,3,4,100,0.23,,,,,6000
+490,,7.62x39_akms_aluminium_30r_mag,AKMS Aluminium 7.62x39 30R,0,0.58,,,30,,,,,,750
+491,,7.62x39_izhmash_akm_6l10_30r_mag,Izhmash AKM 6L10 7.62x39 30R,1,0.63,,,30,,,,,,800
+492,,7.62x39_magpul_pmag_akm_30r,Magpul PMAG AK/AKM 7.62x39 30R,0,0.55,,,30,,,,,,1200
+493,,7.62x39_promag_ak47_polymer_mag_30r,ProMag AK-47 7.62x39 Polymer Magazine 30R,0.5,0.6,,,30,,,,,,1000
+494,,7.62x39_promag_ak47_polymer_mag_40r,ProMag AK-47 7.62x39 Polymer Magazine 40R,-6,0.78,,,40,,,,,,1500
+,,7.62x39_izhmash_akm_ribbed_1955_30r_mag,Izhmash AKM Ribbed 1955 30R Magazine,1,0.65,,,30,,,,,,500
+,,7.62x39_ati_schmeisser_ak47_windowed_60r_mag,ATI Schmeisser AK47 Windowed 60R Magazine,-10,1.09,,,60,,,,,,3500
+,,7.62x39_rwb_ak47_75r_drum_mag,RWB AK47 75R Drum Magazine,-13,1.51,,,75,0.15,,,,,5000
+,,7.62x39_rwb_ak47_100r_drum_mag,RWB AK47 100R Drum Magazine,-17,1.86,,,100,0.23,,,,,6000
 ,magazine_762x51_ak308,,,,,,,,,,,,,
 495,,7.62x51_kalashnikov_concern_ak308_20r_mag,Kalashnikov Concern 7.62x51 AK-308 20R,0,0.59,,,20,,,,,,600
 496,,springfield_armory_m14_7.62x51_modified_30r_mag,Springfield Armory M14/M1A 7.62x51 Modified 30R,-6,0.93,,,30,,,,,,1000
@@ -2834,7 +2834,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1339,,SCARL,FN SCAR Mk16,40,0,65,70,0,0.45,1.1,2300,,,40000
 1340,,G3,H&K G3,35,0,70,100,0,0.55,1,1700,,,30000
 1341,,Remington700,Remington Model 700,30,0,80,90,0,0.2,1.2,2200,,,42000
-1342,,AK_762,AK 7.62,10,0.2,80,100,0,0.55,1,1600,,,15000
+1342,,AK_762,AK 7.62,10,0,80,100,0,0.55,1,1600,,,15000
 1343,,AK_545,AK 5.45,15,0,65,70,0,0.3,1,2300,,,5000
 ,,AK_545_Carbine,AK 5.45 Carbine,15,0,65,70,0,0.3,1,2300,,,30000
 1344,,MosinNagant,Mosin Nagant M91/30 PU,65,1.2,80,90,0,0.2,1,1900,,,14000

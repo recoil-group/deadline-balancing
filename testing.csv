@@ -1,4 +1,4 @@
-0.24.2,Fri Jul 25 20:24:38 2025,,,,,,,,,,,,,
+0.24.2,Fri Jul 25 22:30:16 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1673,7 +1673,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 811,,amp_1ts,AMP 1TS,-0.5,0.04,,,,,,,,,750
 812,,um_tactical_um_3_mount,UM3,-9,0.06,,,,,,,,,800
 813,,amp_1r,AMP 1R,-0.5,0.03,,,,,,,,,750
-814,,wasatch_arms_comp_weight_compensator_10mm,Wasatch Arms Comp Weight 10mm Compensator for Glock 20,-3,0.11,-5,-7,,0.1,0,-100,,,1000
+814,,wasatch_arms_comp_weight_compensator_10mm,Wasatch Arms Comp Weight 10mm Compensator for Glock 20,-3,0.11,-5,-7,,0,0,-100,,,1000
 ,glock_underbarrel_picatinny,,,,,,,,,,,,,
 815,,rail,Additional attachment,0,0,,,,,,,,,0
 ,glock_barrel,,,,,,,,,,,,,
@@ -1840,7 +1840,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,hk_ump9_bcg,HK UMP-9,0,0.15,0,0,0,0,0,0,,0,500
 ,ump9_barrel,,,,,,,,,,,,,
 ,,hk_ump9_200mm_flanged_barrel,HK UMP9 200mm 9x19 Flanged,0,0.28,-1,0,,0,,-15,,,500
-,,hk_ump9_200mm_trilug_threaded_barrel,HK UMP9 200mm 9x19 Tri-Lug Threaded,-2,0.28,1,1,,0.08,,-20,,,1000
+,,hk_ump9_200mm_trilug_threaded_barrel,HK UMP9 200mm 9x19 Tri-Lug Threaded,-2,0.28,1,1,,0.05,,-20,,,1000
 ,ump45_bcg,,,,,,,,,,,,,
 ,,hk_ump45_bcg,HK UMP-45,0,0.16,0,0,0,0,0,0,,,0
 ,ump_bolt_catch,,,,,,,,,,,,,
@@ -2123,12 +2123,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1049,,mosin_carbine_stock,Mosin Std. Carbine,3,0.5,0,-3,,,,,,,500
 1050,,mosin_standard_stock,Mosin Std. Sniper,5,0.6,-1,-5,,,,,,,0
 ,pp19_barrel,,,,,,,,,,,,,
-,,izhmash_pp-19-01_238mm_9x19_barrel,Izhmash PP-19-01 Vityaz 238mm 9x19,0,0.32,0,0,,0.1,0.04,50,,,0
-1051,,izhmash_saiga_9_345mm_9x19_barrel,Izhmash Saiga-9 345mm 9x19,-2,0.44,-2,-2,,0.05,0.07,90,,,500
+,,izhmash_pp-19-01_238mm_9x19_barrel,Izhmash PP-19-01 Vityaz 238mm 9x19,0,0.32,0,0,,0.05,0.04,50,,,0
+1051,,izhmash_saiga_9_345mm_9x19_barrel,Izhmash Saiga-9 345mm 9x19,-2,0.44,-2,-2,,0,0.07,90,,,500
 ,pp19_fs_block,,,,,,,,,,,,,
-,,izhmash_pp-19-01_vityaz_front_sight_block,Izhmash PP-19-01 Vityaz Front Sight Block,0,0.05,,,,,,,,,0
+,,izhmash_pp-19-01_vityaz_front_sight_block,Izhmash PP-19-01 Vityaz Front Sight Block,0,0.04,,,,,,,,,0
 ,pp19_front_trunnion,,,,,,,,,,,,,
-,,izhmash_pp-19-01_vityaz_front_trunnion,Izhmash PP-19-01 Vityaz Front Trunnion,0,0.07,,,,,,,,,0
+,,izhmash_pp-19-01_vityaz_front_trunnion,Izhmash PP-19-01 Vityaz Front Trunnion,0,0.06,,,,,,,,,0
 ,pp19_lower,,,,,,,,,,,,,
 ,,izhmash_pp-19-01_vityaz_lower_receiver,Izhmash PP-19-01 Vityaz Lower Reciever,0,0.2,,,,,,,,,0
 ,pp19_fire_selector,,,,,,,,,,,,,
@@ -2189,28 +2189,28 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,colt_607_car15_3.5inch_flash_moderator,"Colt 607 CAR-15 3.5"" Flash Moderator",2,0.12,-11,-12,,0.1,0,0,,,500
 ,,aac_5.56x45_blackout_18_tooth_flash_hider,ACC 5.56x45 Blackout 18 Tooth Flash Hider,2,0.04,-11,-13,,0.05,0,0,,,500
 ,9x19_muzzle_device,,,,,,,,,,,,,
-1071,,custom4port,CUSTOM4PORT,-2,0.07,-10,-2,,0.1,0,10,,,500
-1072,,fd917,FD917,-8,0.25,-6,-14,,-0.2,0.14,200,,,2000
-1073,,mp5_noveske_style_muzzle_brake_th,MP5 Noveske Style Muzzle Brake,-1,0.06,-9,-5,,0.1,0,20,,,600
-1074,,alphadog_alpha9_flipped,Alpha Dog Alpha 9 9x19 Flipped,-7,0.22,-7,-8,,-0.2,0.14,150,,,1000
-1075,,alphadog_alpha9,Alpha Dog Alpha 9 9x19 Suppressor,-8,0.22,-7,-8,,-0.2,0.14,150,,,1000
+1071,,custom4port,CUSTOM4PORT,-2,0.07,-10,-2,,0,0,10,,,500
+1072,,fd917,FD917,-8,0.25,-6,-14,,-0.15,0.14,200,,,2000
+1073,,mp5_noveske_style_muzzle_brake_th,MP5 Noveske Style Muzzle Brake,-1,0.06,-8,-6,,0,0,20,,,600
+1074,,alphadog_alpha9_flipped,Alpha Dog Alpha 9 9x19 Flipped,-7,0.22,-7,-8,,-0.15,0.14,150,,,1000
+1075,,alphadog_alpha9,Alpha Dog Alpha 9 9x19 Suppressor,-8,0.22,-7,-8,,-0.15,0.14,150,,,1000
 1076,,izhmash_pp-19-01_vityaz_9x19_suppressor,Izhmash PP-19-01 Vityaz 9x19 Supressor,-5,0.23,-10,-10,,-0.2,0.13,150,,,1200
-,,izhmash_pp-19-01_vityaz_std_muzzle_brake_compensator,Izhmash PP-19-01 Vityaz Std.,-1,0.04,-6,-7,,,0,0,,,100
+,,izhmash_pp-19-01_vityaz_std_muzzle_brake_compensator,Izhmash PP-19-01 Vityaz Std.,-1,0.04,-6,-7,,0,0,0,,,100
 1077,,sig_srd9_9x19,Sig SRD 9 9x19mm,-4,0.23,-10,-9,,-0.1,0.12,80,,,1500
-1078,,9x19_rotor43_8chamber_pf940_suppressor,Rotor 43 8 Chambered 9x19 PF940,-5,0.24,-9,-11,,-0.15,0.14,100,,,1000
+1078,,9x19_rotor43_8chamber_pf940_suppressor,Rotor 43 8 Chambered 9x19 PF940,-5,0.24,-9,-11,,-0.12,0.14,100,,,1000
 1079,,9x19_naughty_9,Naughty-9,-2,0.18,-8,-8,,-0.05,0.06,50,,,900
 1080,,wilson_combat_9x19_thread_protector,Wilson Combat 9x19,3,0.01,0,0,,0,0,0,,,100
 1081,,9x19_thread_protector,9x19 Thread Protector,3,0.01,0,0,,0,0,0,,,100
 1082,,silencerco_osprey9_gen1_9x19_suppressor,SilencerCo Osprey 9 Gen 1 9x19 Suppressor,-6,0.19,-8,-12,,-0.1,0.14,150,,,1500
 1083,,silencerco_osprey9_gen1_9x19_suppressor_flipped,SilencerCo Osprey 9 Gen 1 9x19 Suppressor Flipped,-6,0.19,-8,-12,,-0.1,0.14,150,,,1500
-,,vltor_vc9_9x19_compensator,VLTOR VC9 9x19 Compensator,-2,0.05,-7,-9,,0.1,0,20,,,1800
+,,vltor_vc9_9x19_compensator,VLTOR VC9 9x19 Compensator,-2,0.05,-7,-9,,0,0,20,,,1800
 ,,ips_9x19_1inch_barrel_extension,IPS 9x19 1in Barrel Extension,-1,0.03,1,1,,0.06,0.01,30,,,500
-,,rugged_suppressors_obsidian_9_9x19_piston,Rugged Suppressors Obsidian9 9x19 Piston,0,0.03,0,0,,0.05,0,0,,,300
-,,rugged_suppressors_obsidian_9_3lug_piston,Rugged Suppressors Obsidian9 3-Lug Piston,0,0.03,0,0,,0.05,0,0,,,300
-,,radian_weapons_glock17_afterburner_micro_compensator,Radian Weapons Glock 17 Gen5 AFTERBURNER Micro Compensator,0,0.04,-5,-5,,0.05,0,20,,,1000
+,,rugged_suppressors_obsidian_9_9x19_piston,Rugged Suppressors Obsidian9 9x19 Piston,0,0.03,0,0,,0,0,0,,,300
+,,rugged_suppressors_obsidian_9_3lug_piston,Rugged Suppressors Obsidian9 3-Lug Piston,0,0.03,0,0,,0,0,0,,,300
+,,radian_weapons_glock17_afterburner_micro_compensator,Radian Weapons Glock 17 Gen5 AFTERBURNER Micro Compensator,0,0.04,-5,-5,,0,0,20,,,1000
 ,rugged_suppressors_obsidian_9,,,,,,,,,,,,,
-,,rugged_suppressors_obsidian_9_body,Rugged Suppressors Obsidian9 9x19 Body,-4,0.09,-9,-8,,-0.1,0.09,70,,,1500
-,,rugged_suppressors_obsidian_9_extension,Rugged Suppressors Obsidian9 9x19 Extension,-3,0.07,-3,-2,,-0.05,0.05,50,,,1000
+,,rugged_suppressors_obsidian_9_body,Rugged Suppressors Obsidian9 9x19 Body,-4,0.09,-9,-8,,-0.08,0.09,70,,,1500
+,,rugged_suppressors_obsidian_9_extension,Rugged Suppressors Obsidian9 9x19 Extension,-3,0.07,-3,-2,,-0.04,0.05,50,,,1000
 ,,rugged_suppressors_obsidian_9_cap,Rugged Suppressors Obsidian9 9x19 Cap,0,0.02,,,,,,,,,0
 ,7.62x39_muzzle_device,,,,,,,,,,,,,
 1084,,izhmash_akm_6p1_0_14_compensator,Izhmash AKM 6P1 0-14,-0.5,0.04,-7,-10,,0.2,0,30,,,500
@@ -2845,7 +2845,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1347,,MP5,H&K MP5,35,0,45,55,0,1,1,1000,,,5000
 1348,,Vector,TDI Kriss Vector Gen II,25,0,65,65,0,1.2,1,700,,,90000
 1349,,MK9,CmmG MK9 T,30,0,55,70,0,1,1,1000,,,20000
-1350,,UMP,HK UMP,65,0,80,90,0,0.9,1,700,,,15000
+1350,,UMP,HK UMP,65,0,80,90,0,1,1,700,,,15000
 1351,,AK_9,AK 9mm,30,0,50,65,0,0.9,1,1000,,,11000
 ,turret,,,,,,,,,,,,,
 1352,,Turret,Handheld turret,30,3,60,40,200,1.6,1,600,,,100

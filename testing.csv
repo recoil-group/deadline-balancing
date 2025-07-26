@@ -1,4 +1,4 @@
-0.24.2,Fri Jul 25 20:10:56 2025,,,,,,,,,,,,,
+0.24.2,Fri Jul 25 20:24:38 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -930,7 +930,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,vector_magazine_eject,,,,,,,,,,,,,
 455,,vector_std_mag_eject,Kriss Vector Std.,0,0.01,,,,,,,,,0
 ,vector_lower_receiver,,,,,,,,,,,,,
-456,,vector_lower_receiver,Kriss Vector Gen2,0,0.48,,,,,,,,,0
+456,,vector_lower_receiver,Kriss Vector Gen2,0,0.57,,,,,,,,,0
 ,vector_left_rail,,,,,,,,,,,,,
 457,,vector_left_rail,Kriss Vector Std.,-1,0.04,,,,,,,,,0
 ,vector_handguard_mount,,,,,,,,,,,,,
@@ -1006,14 +1006,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,magazine_ar9_adapter,,,,,,,,,,,,,
 ,,nbs_ar15_9x19_colt_mag_adapter,NBS AR-15 9x19 Colt Mag Adapter,0,0.07,,,,,,,,,1000
 ,magazine_9x19_ar9,,,,,,,,,,,,,
-505,,colt_32rd,Colt 9x19 32rnd,0,0.35,,,32,,,,,,500
+505,,colt_32rd,Colt 9x19 32rnd,0,0.36,,,32,,,,,,500
 506,,duramag_colt_ar9_20r_mag,Duramag Colt AR-9 20Rnd,7,0.23,,-2,20,,,,,,400
 507,,duramag_colt_ar9_10r_mag,Duramag Colt AR-9 10Rnd,14,0.12,,-4,10,,,,,,200
 ,,custom_colt_smg_9x19_50r_mag,Custom Colt SMG 9x19 50rnd Magazine,-20,0.6,,,50,0.05,,,,,5000
 ,colt_smg_extension,,,,,,,,,,,,,
 ,,taylor_freelance_colt_smg_10r_mag_extension,Taylor Freelance Colt SMG 10r Mag Extension,-5,0.11,,,10,,,,,,1000
 ,colt_50_more,,,,,,,,,,,,,
-,,custom_colt_smg_9x19_50r_extension,Custom Colt SMG 50rnd Magazine Extension,-45,0.55,20,20,50,0.05,,,,,5000
+,,custom_colt_smg_9x19_50r_extension,Custom Colt SMG 50rnd Magazine Extension,-45,0.57,20,20,50,0.05,,,,,5000
 ,,custom_colt_smg_mag_coupler,Custom Colt SMG Mag Coupler,-2,0.1,,,,,,,,,0
 ,magazine_762x25mm_tt33,,,,,,,,,,,,,
 508,,tt33_std_8rnd,TT-33 Std. Single Stack 8R,27,0.09,,,8,,,,,,300
@@ -1073,7 +1073,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,hk_mp5_std_mag_plate,HK MP5 Std. Magazine Plate,0,0.02,,,,,,,,,0
 ,magazine_9x19_pp19,,,,,,,,,,,,,
 548,,izhmash_pp-19-01_vityaz_9x19_30r_mag,Izhmash PP-19-01 Vityaz 9x19 30R,0,0.34,,,30,,,,,,0
-549,,izhmash_saiga_9_9x19_pinned_10r_mag,Izhmash Saiga-9 9x19 Pinned 10R,9,0.07,,,10,,,,,,200
+549,,izhmash_saiga_9_9x19_pinned_10r_mag,Izhmash Saiga-9 9x19 Pinned 10R,9,0.13,,,10,,,,,,200
 ,,kalashnikov_usa_kp9_9x19_50r_drum_mag,Kalashnikov USA KP9 9x19 50R Drum Mag,-6,0.65,,,50,,,,,,3000
 ,pp19_bottom_plate,,,,,,,,,,,,,
 550,,izhmash_pp-19-01_mag_bottom_plate,Izhmash PP-19-01 Bottom Plate,0,0.02,,,,,,,,,0
@@ -1638,7 +1638,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,zevtech_g17_slide_backplate,Zevtech Glock 17 Blackplate,0,0.01,,,,,,,,,100
 ,glock_17r_mag_plate,,,,,,,,,,,,,
 797,,glock17_17r_magazine_bottom_plate,Glock 17R Magazine Bottom Plate,0,0.02,,,,,,,,,0
-798,,9x19_kriss_magex2_glock,9x19 KRISS MagEx2 For Glock (+23 Rounds),-6,0.27,,,23,,,,,,1000
+798,,9x19_kriss_magex2_glock,9x19 KRISS MagEx2 For Glock (+23 Rounds),-8,0.3,,,23,,,,,,1000
 ,glock_lower_receiver,,,,,,,,,,,,,
 ,,glock17_gen4_receiver,Glock 17 Gen4 Receiver,13,0.13,-2,-9,,,,,,,1000
 ,,glock17_gen5_receiver,Glock 17 Gen5 Receiver,11,0.11,-3,-9,,,,,,,0
@@ -1656,7 +1656,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 801,,45acp_kriss_magex2_pf940,.45 ACP KRISS MagEx2 For Glock (+17 Rounds),-8,0.33,,,17,,,,,,1000
 802,,pf940_13r_plate,Magazine,0,0.02,,,,,,,,,0
 803,,vector_17r_plate,Magazine,0,0.02,,,0,,,,,,1000
-804,,9x19_kriss_magex2_vector,9x19 KRISS MagEx2 For Glock (+23 Rounds),-12,0.3,,,23,,,,,,0
+804,,9x19_kriss_magex2_vector,9x19 KRISS MagEx2 For PF940 (+23 Rounds),-8,0.3,,,23,,,,,,1000
 ,glock20_barrel,,,,,,,,,,,,,
 805,,glock20_std_117mm_barrel,Glock Standard 117mm,0,0.17,-5,-5,,0,0,0,,,0
 ,glock20_magazine_bottom_plate,,,,,,,,,,,,,
@@ -1802,8 +1802,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,hk_bolt,,,,,,,,,,,,,
 895,,hk_bolt,HK416A5 Bolt,0,0.12,,,,,,,,,0
 ,ump_upper_receiver,,,,,,,,,,,,,
-896,,hk_ump45_upper_receiver,HK UMP45 Upper Receiver,0,0.47,,,,,,,,,
-897,,hk_ump9_upper_receiver,HK UMP9 Upper Receiver,6,0.45,-25,-23,,,,200,,0.25,4000
+896,,hk_ump45_upper_receiver,HK UMP45 Upper Receiver,0,0.44,,,,,,,,,
+897,,hk_ump9_upper_receiver,HK UMP9 Upper Receiver,6,0.42,-25,-23,,,,200,,0.25,4000
 ,ump_trigger,,,,,,,,,,,,,
 898,,hk_ump_trigger,HK UMP Trigger,1,0.02,,,,,,,,,0
 ,ump_top_rail,,,,,,,,,,,,,
@@ -1822,10 +1822,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ump_mag_release,,,,,,,,,,,,,
 908,,hk_ump_paddle_mag_release,HK UMP Paddle,0,0.02,,,,,,,,,0
 ,ump_lower_receiver,,,,,,,,,,,,,
-909,,hk_ump_01_navy_lower_receiver,HK UMP 0-1 Navy,4,0.36,-2,-2,,,,,,,500
-,,hk_ump_012_navy_lower_receiver,HK UMP 0-1-2 Navy,3,0.38,-2,-2,,,,,,,1000
-,,hk_ump_01d_navy_lower_receiver,HK UMP 0-1-D Navy,0,0.38,,,,,,,,,0
-,,hk_ump_012d_navy_lower_receiver,HK UMP 0-1-2-D Navy,0,0.4,1,,,,,,,,1500
+909,,hk_ump_01_navy_lower_receiver,HK UMP 0-1 Navy,4,0.33,-2,-2,,,,,,,500
+,,hk_ump_012_navy_lower_receiver,HK UMP 0-1-2 Navy,3,0.35,-2,-2,,,,,,,1000
+,,hk_ump_01d_navy_lower_receiver,HK UMP 0-1-D Navy,0,0.35,,,,,,,,,0
+,,hk_ump_012d_navy_lower_receiver,HK UMP 0-1-2-D Navy,0,0.37,1,,,,,,,,1500
 ,ump_handstop,,,,,,,,,,,,,
 910,,hk_ump_handstop,HK UMP Handstop,2,0.04,-1,,,,,,,,500
 ,ump_handguard_rail,,,,,,,,,,,,,
@@ -2150,7 +2150,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,pp19_spring_retainer,,,,,,,,,,,,,
 ,,izhmash_pp-19-01_vityaz_spring_retainer,Izhmash PP-19-01 Vityaz Spring Retainer,0,0.01,,,,,,,,,0
 ,pp19_bolt_carrier,,,,,,,,,,,,,
-1052,,izhmash_pp-19-01_vityaz_9x19_bolt_carrier,Izhmash PP-19-01 Vityaz 9x19 Bolt Carrier,0,0.23,,,,,,,,,0
+1052,,izhmash_pp-19-01_vityaz_9x19_bolt_carrier,Izhmash PP-19-01 Vityaz 9x19 Bolt Carrier,0,0.2,,,,,,,,,0
 ,pp19_bolt_piston,,,,,,,,,,,,,
 ,,izhmash_pp-19-01_vityaz_bolt_piston,Izhmash PP-19-01 Vityaz Bolt Piston,0,0.03,,,,,,,,,0
 ,pp19_dustcover,,,,,,,,,,,,,
@@ -2661,22 +2661,22 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,mp5_barrel,,,,,,,,,,,,,
 ,,hk_mp5_9x19_225mm_barrel,HK MP5 9x19 225mm Barrel,0,0.31,-3,-7,,0.1,0.03,47,,,0
 ,hk_claw_mount,,,,,,,,,,,,,
-,,mfi_hk_universal_low_profile_scope_mount,MFI HK Universal Low Profile Scope Mount,-1,0.08,,,,,,,,,750
-,,mfi_hk_universal_low_profile_scope_mount_flipped,MFI HK Universal Low Profile Scope Mount Flipped,-1,0.08,,,,,,,,,750
-,,bt_bt21021_armasuisse_nar_mp5_top_rail,B&T NAR MP5 Mounting Rail (Armasuisse Version),-1,0.09,,,,,,,,,1000
+,,mfi_hk_universal_low_profile_scope_mount,MFI HK Universal Low Profile Scope Mount,-1,0.07,,,,,,,,,750
+,,mfi_hk_universal_low_profile_scope_mount_flipped,MFI HK Universal Low Profile Scope Mount Flipped,-1,0.07,,,,,,,,,750
+,,bt_bt21021_armasuisse_nar_mp5_top_rail,B&T NAR MP5 Mounting Rail (Armasuisse Version),-1,0.08,,,,,,,,,1000
 ,mp5_drum_sight,,,,,,,,,,,,,
 ,mp5_front_sight,,,,,,,,,,,,,
 ,,hk_mp5_std_front_sight_assembly,HK MP5 Std. Front Sight Assembly,0,0.03,,,,,,,,,
 ,mp5_handguard,,,,,,,,,,,,,
-,,hk_mp5_wide_tropical_handguard,HK MP5 Wide Tropical,8,0.18,-9,-7,,,,,,,0
-,,hk_mp5sd_polymer_handguard,HK MP5SD Polymer Handguard,11,0.22,-6,-8,,,,,,,1000
-,,bt_bt21343_3x_nar_mp5sd_handguard,B&T BT-21343 3x NAR MP5SD Handguard,7,0.35,-5,-7,,,,,,,1200
-,,bt_bt401003_tl99_3x_nar_mp5_handguard,B&T TL99 3x NAR MP5 Handguard,8,0.17,-6,-8,,,,,,,600
-,,hk_mp5_slim_checkered_handguard,HK MP5 Slim Checkered Handguard,10,0.16,-7,-6,,,,,,,1500
-,,surefire_628lmf_b_mp5_handguard,Surefire 628LMF-B MP5 Handguard,8,0.21,-9,-9,,,,,,,1200
-,,midwest_industries_mp5_mlok_handguard,Midwest Industries MP5 MLOK Handguard,9,0.15,-6,-7,,,,,,,1000
-,,ptr_mp5_trirail_handguard,PTR MP5 Trirail Handguard,7,0.12,-8,-6,,,,,,,900
-,,caa_hx5_mp5_picatinny_handguard,CAA HX-5 MP5,8,0.19,-7,-6,,,,,,,2500
+,,hk_mp5_wide_tropical_handguard,HK MP5 Wide Tropical,8,0.17,-9,-7,,,,,,,0
+,,hk_mp5sd_polymer_handguard,HK MP5SD Polymer Handguard,11,0.16,-6,-8,,,,,,,1000
+,,bt_bt21343_3x_nar_mp5sd_handguard,B&T BT-21343 3x NAR MP5SD Handguard,7,0.23,-5,-7,,,,,,,1200
+,,bt_bt401003_tl99_3x_nar_mp5_handguard,B&T TL99 3x NAR MP5 Handguard,8,0.16,-6,-8,,,,,,,600
+,,hk_mp5_slim_checkered_handguard,HK MP5 Slim Checkered Handguard,10,0.15,-7,-6,,,,,,,1500
+,,surefire_628lmf_b_mp5_handguard,Surefire 628LMF-B MP5 Handguard,8,0.20,-9,-9,,,,,,,1200
+,,midwest_industries_mp5_mlok_handguard,Midwest Industries MP5 MLOK Handguard,9,0.14,-6,-7,,,,,,,1000
+,,ptr_mp5_trirail_handguard,PTR MP5 Trirail Handguard,7,0.11,-8,-6,,,,,,,900
+,,caa_hx5_mp5_picatinny_handguard,CAA HX-5 MP5,8,0.18,-7,-6,,,,,,,2500
 ,mp5_lower_receiver,,,,,,,,,,,,,
 ,,hk_mp5_plastic_4_position_trigger_housing,HK MP5 Plastic 4 Position Trigger Housing,0,0.34,0,0,,,,,,,0
 ,,aeroknox_ax_mp5_trigger_housing,Aeroknox AX MP5 Trigger Housing,-3,0.32,3,3,,,,,,,1000
@@ -2691,7 +2691,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,hk_mp5_endcap_sling_swivel,HK MP5 Endcap Sling Swivel,10,0.01,10,10,,0.2,,,,,250
 ,mp5_upper_receiver,,,,,,,,,,,,,
 ,,hk_mp5_std_upper_receiver,HK MP5 Std. Upper Receiver,0,0.4,,,,,,,,,
-,,hk_mp5sd_upper_receiver,HK MP5SD Std. Upper Receiver,-3,0.42,-2,,,,,,,,2000
+,,hk_mp5sd_upper_receiver,HK MP5SD Std. Upper Receiver,-3,0.45,-2,,,,,,,,2000
 ,mp5_front_trunnion,,,,,,,,,,,,,
 ,,hk_mp5_std_9x19_front_trunnion,HK MP5 Std. 9x19 Front Trunnion,0,0.07,,,,,,,,,0
 ,,hk_mp5sd_9x19_front_trunnion,HK MP5SD 9x19 Front Trunnion,0,0.07,,,,,,,,,0

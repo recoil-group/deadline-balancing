@@ -1,4 +1,4 @@
-﻿0.24.2,Fri Jul 25 19:44:37 2025,,,,,,,,,,,,,
+﻿0.24.2,Fri Jul 25 20:10:56 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -789,13 +789,13 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ar9_bolt,,,,,,,,,,,,,
 374,,ar9_bolt,MK9 Bolt,0,0.07,,,,,,,,,0
 ,mk9_barrel,,,,,,,,,,,,,
-375,,kak_value_line_light_tapered_melonite_ar9_76mm_9x19_barrel,"KAK Value Line Light Tapered Melonite AR9 3"" 9x19",9,0.15,8,8,,0.3,-0.15,-300,,,750
-376,,cmmg_mk9_216mm_9x19_barrel,"CmmG Mk9 8.5"" 9x19",3,0.32,3,2,,0.12,0.03,-90,,,900
-377,,cmmg_mk9_229mm_9x19_barrel,"CmmG Mk9 9"" 9x19",2,0.33,2,2,,0.1,0.04,-70,,,950
-378,,cmmg_mk9_406mm_9x19_c_barrel,"CmmG Mk9 16"" 9x19 Carbine Length",-3,0.54,-2,-2,,0.05,0.09,200,,,1200
-379,,cmmg_mk9_406mm_9x19_r_barrel,"CmmG Mk9 16"" 9x19 Rifle Length",-5,0.56,-4,-4,,0.05,0.09,200,,,1200
-380,,cmmg_mk9_406mm_9x19_m_barrel,"CmmG Mk9 16"" 9x19 Mid Length",-4,0.55,-3,-3,,0.05,0.09,200,,,1200
-381,,cmmg_mk9_127mm_9x19_barrel,"CmmG Mk9 5"" 9x19",7,0.21,6,6,,0.25,0,-225,,,800
+375,,kak_value_line_light_tapered_melonite_ar9_76mm_9x19_barrel,"KAK Value Line Light Tapered Melonite AR9 3"" 9x19",9,0.14,8,8,,0.3,-0.15,-300,,,750
+376,,cmmg_mk9_216mm_9x19_barrel,"CmmG Mk9 8.5"" 9x19",3,0.3,3,2,,0.12,0.03,-90,,,900
+377,,cmmg_mk9_229mm_9x19_barrel,"CmmG Mk9 9"" 9x19",2,0.31,2,2,,0.1,0.04,-70,,,950
+378,,cmmg_mk9_406mm_9x19_c_barrel,"CmmG Mk9 16"" 9x19 Carbine Length",-3,0.51,-2,-2,,0.05,0.09,200,,,1200
+379,,cmmg_mk9_406mm_9x19_r_barrel,"CmmG Mk9 16"" 9x19 Rifle Length",-5,0.53,-4,-4,,0.05,0.09,200,,,1200
+380,,cmmg_mk9_406mm_9x19_m_barrel,"CmmG Mk9 16"" 9x19 Mid Length",-4,0.52,-3,-3,,0.05,0.09,200,,,1200
+381,,cmmg_mk9_127mm_9x19_barrel,"CmmG Mk9 5"" 9x19",7,0.2,6,6,,0.25,0,-225,,,800
 ,fn_rear_sight,,,,,,,,,,,,,
 382,,fn_scar_rear_sight,FN SCAR Standard,3,0.01,,,,,,,,,0
 383,,fn_scar_rear_sight_folded,FN SCAR Standard Folded,2,0.01,,,,,,,,,0
@@ -956,7 +956,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 470,,vector_9mm_140mm_barrel,Kriss Vector 9x19 140mm,0,0.23,0,0,,0,0,-28,0,,800
 ,vector_45acp_barrel,,,,,,,,,,,,,
 471,,vector_45acp_170mm_barrel,Kriss Vector .45ACP 170mm,-1,0.27,-1,-1,,-0.02,0.03,-72,-0.1,,750
-472,,vector_45acp_140mm_barrel,Kriss Vector .45ACP 140mm,0,0.24,0,0,,0,0,-99,0,,800
+472,,vector_45acp_140mm_barrel,Kriss Vector .45ACP 140mm,0,0.23,0,0,,0,0,-99,0,,800
 ,magazine_45acp_vector,,,,,,,,,,,,,
 473,,pf940_std_13r_vector_remodel,STD 13R .45 ACP,15,0.23,,,13,,,,,,0
 ,magazine_556x45,,,,,,,,,,,,,
@@ -1839,8 +1839,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ump9_bcg,,,,,,,,,,,,,
 ,,hk_ump9_bcg,HK UMP-9,0,0.15,0,0,0,0,0,0,,0,500
 ,ump9_barrel,,,,,,,,,,,,,
-,,hk_ump9_200mm_flanged_barrel,HK UMP9 200mm 9x19 Flanged,0,0.3,-1,0,,0,,-15,,,500
-,,hk_ump9_200mm_trilug_threaded_barrel,HK UMP9 200mm 9x19 Tri-Lug Threaded,-2,0.3,1,1,,0.08,,-20,,,1000
+,,hk_ump9_200mm_flanged_barrel,HK UMP9 200mm 9x19 Flanged,0,0.28,-1,0,,0,,-15,,,500
+,,hk_ump9_200mm_trilug_threaded_barrel,HK UMP9 200mm 9x19 Tri-Lug Threaded,-2,0.28,1,1,,0.08,,-20,,,1000
 ,ump45_bcg,,,,,,,,,,,,,
 ,,hk_ump45_bcg,HK UMP-45,0,0.16,0,0,0,0,0,0,,,0
 ,ump_bolt_catch,,,,,,,,,,,,,
@@ -1854,9 +1854,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,hk_mp5k_handguard,,,,,,,,,,,,,
 921,,hk_mp5k_polymer_handguard,HK MP5 Wide Tropical,15,0.15,-7,-5,,,,,,,1500
 ,ump45_barrel,,,,,,,,,,,,,
-922,,hk_ump45_200mm_flanged_barrel,HK UMP45 200mm .45ACP Flanged,0,0.31,-2,-1,,0,,-15,,,0
-923,,hdps_ump45_200mm_threaded_barrel,HDPS UMP45 200mm .45ACP Threaded,-2,0.32,1,0,,0.08,,-21,,,750
-924,,omega_ump45_200mm_trilug_barrel,OMEGA UMP45 200mm .45ACP Tri-Lug,-1,0.31,0,-2,,0.05,,-18,,,300
+922,,hk_ump45_200mm_flanged_barrel,HK UMP45 200mm .45ACP Flanged,0,0.3,-2,-1,,0,,-15,,,0
+923,,hdps_ump45_200mm_threaded_barrel,HDPS UMP45 200mm .45ACP Threaded,-2,0.31,1,0,,0.08,,-21,,,750
+924,,omega_ump45_200mm_trilug_barrel,OMEGA UMP45 200mm .45ACP Tri-Lug,-1,0.3,0,-2,,0.05,,-18,,,300
 ,hk416_barrel,,,,,,,,,,,,,
 925,,hk416_269mm_barrel,10.6 Inch 5.56 HK416,2,0.55,4,4,,0.2,-0.08,-109,,,1000
 926,,hk416_279mm_barrel,11 Inch 5.56 HK416,2,0.56,4,4,,0.2,-0.06,-92,,,1500
@@ -2012,8 +2012,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,aug_a3_stock_buttpad,,,,,,,,,,,,,
 993,,aug_a3_stock_buttpad,AUG A3 Factory Stock,1,0.06,,,,,,,,,0
 ,aug_para_9x19_barrel,,,,,,,,,,,,,
-994,,steyr_aug_para_9x19_420mm_barrel,Steyr AUG Para 9x19 420mm,3,0.56,-12,-14,,0.05,0.09,145,,,2000
-995,,steyr_aug_para_9x19_325mm_threaded_barrel,Steyr AUG Para 9x19 325mm Threaded,4,0.44,-9,-8,,0.15,0.06,105,,,3000
+994,,steyr_aug_para_9x19_420mm_barrel,Steyr AUG Para 9x19 420mm,3,0.52,-12,-14,,0.05,0.09,145,,,2000
+995,,steyr_aug_para_9x19_325mm_threaded_barrel,Steyr AUG Para 9x19 325mm Threaded,4,0.42,-9,-8,,0.15,0.06,105,,,3000
 ,aug_para_9x19_bolt_carrier,,,,,,,,,,,,,
 996,,steyr_aug_para_9x19_std_bolt_carrier,AUG Para 9x19 Std.,0,0.2,,,,,,,,,0
 ,aug_a1_receiver_top_sights,,,,,,,,,,,,,
@@ -2123,8 +2123,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1049,,mosin_carbine_stock,Mosin Std. Carbine,3,0.5,0,-3,,,,,,,500
 1050,,mosin_standard_stock,Mosin Std. Sniper,5,0.6,-1,-5,,,,,,,0
 ,pp19_barrel,,,,,,,,,,,,,
-,,izhmash_pp-19-01_238mm_9x19_barrel,Izhmash PP-19-01 Vityaz 238mm 9x19,0,0.34,0,0,,0.1,0.04,50,,,0
-1051,,izhmash_saiga_9_345mm_9x19_barrel,Izhmash Saiga-9 345mm 9x19,-2,0.47,-2,-2,,0.05,0.07,90,,,500
+,,izhmash_pp-19-01_238mm_9x19_barrel,Izhmash PP-19-01 Vityaz 238mm 9x19,0,0.32,0,0,,0.1,0.04,50,,,0
+1051,,izhmash_saiga_9_345mm_9x19_barrel,Izhmash Saiga-9 345mm 9x19,-2,0.44,-2,-2,,0.05,0.07,90,,,500
 ,pp19_fs_block,,,,,,,,,,,,,
 ,,izhmash_pp-19-01_vityaz_front_sight_block,Izhmash PP-19-01 Vityaz Front Sight Block,0,0.05,,,,,,,,,0
 ,pp19_front_trunnion,,,,,,,,,,,,,
@@ -2659,7 +2659,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,hk_mp5a3_early_gen_stock_endplate,HK MP5A3 Early Generation Stock Endplate,2,0.08,,,,,,,,,1500
 ,,hk_mp5a3_early_gen_collapsible_stock,HK MP5A3 Early Generation Collapsible Stock,9,0.12,-9,-8,,,,,,,0
 ,mp5_barrel,,,,,,,,,,,,,
-,,hk_mp5_9x19_225mm_barrel,HK MP5 9x19 225mm Barrel,0,0.33,-3,-7,,0.1,0.03,47,,,0
+,,hk_mp5_9x19_225mm_barrel,HK MP5 9x19 225mm Barrel,0,0.31,-3,-7,,0.1,0.03,47,,,0
 ,hk_claw_mount,,,,,,,,,,,,,
 ,,mfi_hk_universal_low_profile_scope_mount,MFI HK Universal Low Profile Scope Mount,-1,0.08,,,,,,,,,750
 ,,mfi_hk_universal_low_profile_scope_mount_flipped,MFI HK Universal Low Profile Scope Mount Flipped,-1,0.08,,,,,,,,,750
@@ -2702,7 +2702,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,hk_mp5_std_fire_selector,HK MP5 Std. Fire Selector,0,0.02,,,,,,,,,0
 ,,hk_mp5_std_mag_release,HK MP5 Std. Mag Release,0,0.01,,,,,,,,,0
 ,mp5sd_barrel,,,,,,,,,,,,,
-,,hk_mp5sd_9x19_146mm_barrel,HK MP5SD 9x19 146mm Barrel,2,0.23,-1,-4,,0.15,0,80,,,1000
+,,hk_mp5sd_9x19_146mm_barrel,HK MP5SD 9x19 146mm Barrel,2,0.22,-1,-4,,0.15,0,80,,,1000
 ,mp5sd_suppressor,,,,,,,,,,,,,
 ,,hk_mp5sd_9x19_suppressor,HK MP5SD 9x19 Suppressor,-5,0.26,-12,-16,,-0.1,0.15,-950,,,3000
 ,surefire_mp5_flashlight,,,,,,,,,,,,,

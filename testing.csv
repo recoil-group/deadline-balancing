@@ -1,4 +1,4 @@
-0.24.2,Fri Jul 25 22:37:02 2025,,,,,,,,,,,,,
+0.24.2,Fri Jul 25 22:44:34 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -2257,9 +2257,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,odin_mount,,,,,,,,,,,,,
 ,,odin_works_tiduro_modular_compensator,Odin Works Tiduro Modular Compensator,-1,0.05,-4,-4,,0.05,-0.01,-30,,,700
 ,45acp_muzzle_device,,,,,,,,,,,,,
-1104,,direct_thread_adapter_omega45k,.45ACP Direct thread adapter for Omega 45K suppressor,0,0.03,2,0,,0.05,0,5,,,200
-1105,,silencerco_osprey45_gen1_45acp_suppressor,SilencerCo Osprey 45 Gen 1 .45ACP Suppressor,-7,0.29,-2,-9,,-0.05,0.2,200,,,1500
-1106,,silencerco_osprey45_gen1_45acp_suppressor_flipped,SilencerCo Osprey 45 Gen 1 .45ACP Suppressor Flipped,-7,0.29,-2,-9,,-0.05,0.2,200,,,1500
+1104,,direct_thread_adapter_omega45k,.45ACP Direct thread adapter for Omega 45K suppressor,0,0.03,0,0,,0.05,0,5,,,200
+1105,,silencerco_osprey45_gen1_45acp_suppressor,SilencerCo Osprey 45 Gen 1 .45ACP Suppressor,-6,0.19,-8,-12,,-0.15,0.15,150,,,1500
+1106,,silencerco_osprey45_gen1_45acp_suppressor_flipped,SilencerCo Osprey 45 Gen 1 .45ACP Suppressor Flipped,-6,0.19,-8,-12,,-0.15,0.15,150,,,1500
 ,5.8x42_muzzle_device,,,,,,,,,,,,,
 ,,norinco_qbz95_factory_type1_bird_cage_flash_hider,Norinco QBZ Factory Type 1 Bird Cage Flash Hider,-1,0.08,-3,-2,,0,0,45,,,300
 ,,norinco_qbz95_factory_type2_bird_cage_flash_hider,Norinco QBZ Factory Type 2 Bird Cage Flash Hider,0,0.1,-2,-2,,0,0,45,,,300
@@ -2340,7 +2340,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1143,,trijicon_rm35_acog_mount,Trijicon RM35 Acog RMR Mount,-1,0.03,,,,,,,,,200
 1144,,acog_rs,Acog Rear Backup Sight,1,0.03,,,,,,,,,0
 ,adapter_omega45k,,,,,,,,,,,,,
-1145,,silencerco_omega45k_45acp_suppressor,SilencerCo Omega45K,-2,0.09,-4,-5,,-0.05,0.08,80,,,1200
+1145,,silencerco_omega45k_45acp_suppressor,SilencerCo Omega45K,-4,0.13,-9,-8,,-0.1,0.1,80,,,1200
 ,aimsports_fn_fal_universal_mlok_handguard_upper,,,,,,,,,,,,,
 1146,,aim_sports_universal_11.3inch_hg_mlok,Aim Sports Universal MLOK,0,0.1,0,0,,,,,,,500
 1147,,aim_sports_universal_11.3inch_hg_picatinny,Aim Sports Universal Picatinny,-1,0.13,0,0,,,,,,,300

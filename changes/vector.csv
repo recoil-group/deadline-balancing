@@ -5,14 +5,14 @@ kriss_vector_non_folding_stock_adapter,Kriss Vector Non-Folding Stock Adapter,0,
 ,Summed Buffer Stock,18,0.4,-9,-10,0,0,0,0,0,0,2200,23.2
 kriss_vector_gen2_folding_stock,Kriss Vector Gen2,16,0.26,-7,-9,,,,,,,600,21.8
 ,,,,,,,,,,,,,0
+vector_bottom_rail,Kriss Vector Std.,0,0.04,,,,,,,,,0,-0.8
 ,,,,,,,,,,,,,0
+vector_mk1_modular_rail,Kriss Vector Mk1 Modular,2,0.2,-4,-4,,,,,,,1000,3.6
+vector_mk5_mlok_rail,Vector Mk5 M-Lok ModularRail,2,0.17,-2,-4,,,,,,,2000,2.6
+vector_round_shroud_mk1_11inch_modular,"Vector Mk.1 Round Shroud 11"" Modular",3,0.24,-2,-6,,,,,,,2000,3.4
+vector_round_shroud_mk1_9inch_modular,"Vector Mk.1 Round Shroud 9"" Modular",3,0.19,-1,-5,,,,,,,1500,3
 ,,,,,,,,,,,,,0
-,,,,,,,,,,,,,0
-,,,,,,,,,,,,,0
-,,,,,,,,,,,,,0
-,,,,,,,,,,,,,0
-,,,,,,,,,,,,,0
-,,,,,,,,,,,,,0
+vector_mk5_side_rail,Vector Mk5 Side Rail,0,0.03,0,0,,,,,,,0,-0.6
 ,,,,,,,,,,,,,0
 ,,,,,,,,,,,,,0
 ,,,,,,,,,,,,,0

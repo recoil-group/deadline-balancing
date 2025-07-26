@@ -1,4 +1,4 @@
-﻿0.24.2,Fri Jul 25 23:15:38 2025,,,,,,,,,,,,,
+﻿0.24.2,Fri Jul 25 23:33:33 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -934,17 +934,17 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,vector_left_rail,,,,,,,,,,,,,
 457,,vector_left_rail,Kriss Vector Std.,-1,0.04,,,,,,,,,0
 ,vector_handguard_mount,,,,,,,,,,,,,
-458,,vector_mk5_side_rail,Vector Mk5 Side Rail,-1,0.03,0,-1,,,,,,,0
+458,,vector_mk5_side_rail,Vector Mk5 Side Rail,0,0.03,0,0,,,,,,,0
 459,,mlok_spot,Mlok Attach Point,0,0,,,,,,,,,0
 ,vector_handguard,,,,,,,,,,,,,
-460,,vector_mk1_modular_rail,Kriss Vector Mk1 Modular,2,0.15,0,-1,,,,,,,1000
-461,,vector_mk5_mlok_rail,Vector Mk5 M-Lok ModularRail,2,0.18,0,-2,,,,,,,2000
-462,,vector_round_shroud_mk1_11inch_modular,"Vector Mk.1 Round Shroud 11"" Modular",5,0.25,-2,-6,,,,,,,2000
-463,,vector_round_shroud_mk1_9inch_modular,"Vector Mk.1 Round Shroud 9"" Modular",3,0.2,-1,-5,,,,,,,1500
+460,,vector_mk1_modular_rail,Kriss Vector Mk1 Modular,2,0.2,-4,-4,,,,,,,1000
+461,,vector_mk5_mlok_rail,Vector Mk5 M-Lok ModularRail,2,0.17,-2,-4,,,,,,,2000
+462,,vector_round_shroud_mk1_11inch_modular,"Vector Mk.1 Round Shroud 11"" Modular",3,0.24,-2,-6,,,,,,,2000
+463,,vector_round_shroud_mk1_9inch_modular,"Vector Mk.1 Round Shroud 9"" Modular",3,0.19,-1,-5,,,,,,,1500
 ,vector_charging_handle,,,,,,,,,,,,,
 464,,vector_charging_handle,Kriss Vector Std.,1,0.03,,,,,,,,,0
 ,vector_bottom_rail,,,,,,,,,,,,,
-465,,vector_bottom_rail,Kriss Vector Std.,-1,0.05,,,,,,,,,0
+465,,vector_bottom_rail,Kriss Vector Std.,0,0.04,,,,,,,,,0
 ,vector_bolt_release,,,,,,,,,,,,,
 466,,vector_bolt_release,Kriss Vector Std.,0,0.01,,,,,,,,,0
 ,vector_9mm_bolt,,,,,,,,,,,,,
@@ -2673,7 +2673,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,bt_bt21343_3x_nar_mp5sd_handguard,B&T BT-21343 3x NAR MP5SD Handguard,7,0.23,-5,-7,,,,,,,1200
 ,,bt_bt401003_tl99_3x_nar_mp5_handguard,B&T TL99 3x NAR MP5 Handguard,8,0.16,-6,-8,,,,,,,600
 ,,hk_mp5_slim_checkered_handguard,HK MP5 Slim Checkered Handguard,10,0.15,-7,-6,,,,,,,1500
-,,surefire_628lmf_b_mp5_handguard,Surefire 628LMF-B MP5 Handguard,8,0.20,-9,-9,,,,,,,1200
+,,surefire_628lmf_b_mp5_handguard,Surefire 628LMF-B MP5 Handguard,8,0.2,-9,-9,,,,,,,1200
 ,,midwest_industries_mp5_mlok_handguard,Midwest Industries MP5 MLOK Handguard,9,0.14,-6,-7,,,,,,,1000
 ,,ptr_mp5_trirail_handguard,PTR MP5 Trirail Handguard,7,0.11,-8,-6,,,,,,,900
 ,,caa_hx5_mp5_picatinny_handguard,CAA HX-5 MP5,8,0.18,-7,-6,,,,,,,2500

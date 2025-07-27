@@ -3,7 +3,6 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 1,None,None,#161616,default,always_available,,,
 2,default,Default,#161616,default,always_available,,,
 3,default_light,Default Light,#666666,default,always_available,,,
-4,default_od,Default OD,#161616,default,always_available,,,
 9,exps2_zombie_stopper,EXPS2 Zombie Stopper,#161616,default,experience_based,0,,exps2 zombie stopper
 10,exps2_zombie_stopper_2,EXPS2 Zombie Stopper 2,#161616,default,experience_based,0,,exps2 zombie stopper
 32,ranger_wrap,Ranger Wrap,#161616,default,experience_based,0,,t2 ranger wrap
@@ -75,7 +74,6 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 72,kac_worn,Kac Worn,#70A55B,default,experience_based,5000,,
 73,tungsten_grey,Tungsten Grey,#888888,default,experience_based,5000,,
 74,crocodile,Crocodile,#3F603D,default,experience_based,5000,,
-75,fde_od_worn,FDE OD Worn,#D3B58C,default,experience_based,5000,,
 76,fde_black,FDE Black,#D3B58C,default,experience_based,5000,,
 77,burnt_bronze_cerakote,Burnt Bronze Cerakote,#7F564C,default,experience_based,5000,,
 78,safari_streak_worn,Safari Streak Worn,#7F564C,default,experience_based,5000,,

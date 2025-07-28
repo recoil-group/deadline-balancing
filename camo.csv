@@ -65,8 +65,8 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 63,alpine_painted,Alpine Painted,#EEEEEE,default,experience_based,9000,,wood painted
 64,gold_painted,Gold Painted,#CDD6A9,default,experience_based,11000,,wood painted
 65,zenitco_golden_desert,Zenitco Golden Desert,#D3B58C,rough_metal,experience_based,5000,,
-66,hk_green_worn,HK Green Worn,#70A55B,default,experience_based,5000,,
-67,hk_green,HK Green,#70A55B,default,experience_based,5000,,
+66,hf_green_worn,HF Green Worn,#70A55B,default,experience_based,5000,,
+67,hf_green,HF Green,#70A55B,default,experience_based,5000,,
 68,yellow,Yellow,#AF894F,default,experience_based,5000,,
 69,sand_beige,Sand Beige,#D3B58C,default,experience_based,5000,,
 70,ghillie_green,Ghillie Green,#70A55B,default,experience_based,5000,,

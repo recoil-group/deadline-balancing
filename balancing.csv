@@ -24,8 +24,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 21,,axion_kobra_ekp_8_sight,Axion Kobra EKP-8,-1,0.16,,,,,,,,,700
 ,,axion_kobra_ekp_8_18_mount,Axion Kobra EKP-8-18 Picatinny,0,0.03,,,,,,,,,400
 ,,axion_kobra_ekp_8_sunshade,Axion Kobra EKP-8,1,0.02,,,,,,,,,50
-22,,camarillo_ca2r,Camarillo CA2R,3,0.07,,,,,,,,,400
-23,,camarillo_m4a1_carry_handle,Camarillo M4A1 Carry Handle,4,0.14,,,,,,,,,0
+22,,hart_ca2r,Hart CA2R,3,0.07,,,,,,,,,400
+23,,hart_m4a1_carry_handle,Hart M4A1 Carry Handle,4,0.14,,,,,,,,,0
 24,,hera_arms_cqr_gen1_foregrip,CQR FG,6,0.23,-1,-3,,,,,,,1000
 ,,hera_arms_cqr_gen2_foregrip,Hera Arms CQR Gen2 Foregrip,6,0.23,-3,0,,,,,,,1500
 25,,elcan_c79a2,ELCAN C79A2 3.4x,-2.5,0.33,,-3,,,,,,,3000
@@ -251,7 +251,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 128,,magpul_prs_gen3_stock,Magpul PRS Gen3 Stock,20,0.33,-4,-3,,-0.05,,,,,1500
 129,,hera_arms_ccs_stock,Hera Arms CCS,15,0.21,-9,-12,,,,,,,600
 130,,ak12_gen1_std_stock,Kalashnikov Concern AK-12 Gen 1,16,0.22,-12,-7,,,,,,,750
-131,,camarillo_m4ss_stock,Camarillo M4SS,16,0.2,-9,-7,,,,,,,0
+131,,hart_m4ss_stock,Hart M4SS,16,0.2,-9,-7,,,,,,,0
 132,,lmt_sopmod,LMT Sopmod,18,0.24,-5,-13,,,,,,,700
 133,,brwnls_xm177_car,Brownells XM177 CAR,16,0.14,-6,-11,,,,,,,500
 134,,thordsen_frs15_cover_stock,Thordsen FRS-15 Cover,5,0.1,0,0,,,,,,,600
@@ -370,7 +370,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 178,,trijicon_rx10_gooseneck_mount,Trijicon RX10 Gooseneck,-1,0.07,,,,,,,,,200
 179,,leupold_mark_4_carry_handle_mount,Leupold Mark 4 Carry Handle Mount,-2,0.06,,,,,,,,,300
 180,,trijicon_acog_ta11d_bac_carry_handle,Trijicon Acog TA11D BAC,-3,0.2,,-2,,,,,,,1900
-,,camarillo_retro_a1_scope_carry_handle_mount,Camarillo Retro A1 Scope Carry Handle Mount,-1,0.05,,,,,,,,,300
+,,hart_retro_a1_scope_carry_handle_mount,Hart Retro A1 Scope Carry Handle Mount,-1,0.05,,,,,,,,,300
 ,,barska_4x20_scope_carry_handle_mount,Barska 4x20 Scope Carry Handle Mount,-1,0.05,,,,,,,,,300
 ,,insight_technology_an_paq_4a_carry_handle_mount,Insight Technology AN/PAQ-4A Carry Handle Mount,1,0.08,,,,,,,,,200
 ,cosmic_tactical_saturn_mount,,,,,,,,,,,,,
@@ -527,7 +527,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,arisaka_momentary_tailcap,Arisaka Momentary Tailcap,1,0.01,,,,,,,,,100
 ,,surefire_z68_clicky_tailcap,Surefire Z68 Clicky Tailcap,1.5,0.02,,,,,,,,,250
 ,carry_handle_scope_mount,,,,,,,,,,,,,
-,,camarillo_retro_a1_4x21_scope,Camarillo Retro A1 4x21 Scope,-3,0.17,,,,,,,,,750
+,,hart_retro_a1_4x21_scope,Hart Retro A1 4x21 Scope,-3,0.17,,,,,,,,,750
 ,,barska_eletrco_4x20_bdc_scope,Barska Electro 4x20 BDC Turret Scope,-3,0.18,,,,,,,,,1000
 ,sc_irregulars_omm_front_mount,,,,,,,,,,,,,
 ,,sc_irregulars_cap_front,SC Irregulars OMM Front Cap,0,0.01,,,,,,,,,0
@@ -545,7 +545,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 252,,jp_enterprises_5b_gasblock,JP Enterprises 5B,-1,0.08,-2,-2,,,,,,,750
 253,,daniel_defense_mk12_low_profile_gasblock,Daniel Defense MK12 Low Profile,0,0.06,-1,-1,,,,,,,1200
 254,,windham_weaponry_railed_ar15_gasblock,Windham Weaponry Rail Gas Block,0,0.1,0,-1,,,,,,,1000
-255,,camarillo_m4fs_gasblock,Camarillo M4 Standard,3,0.11,0,0,,,,,,,0
+255,,hart_m4fs_gasblock,Hart M4 Standard,3,0.11,0,0,,,,,,,0
 ,m4a1_handguard,,,,,,,,,,,,,
 256,,2a_armament_builder_series_gen1_10inch_handguard,"2A Armament Builder Series Gen 1 10""",13,0.25,-8,-7,,,,,,,750
 257,,2a_armament_builder_series_gen1_12inch_handguard,"2A Armament Builder Series Gen 1 12""",11,0.28,-10,-9,,,,,,,800
@@ -583,14 +583,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 284,,sai_ar15_qd_14.5inch_handguard,"SAI 14.5"" QD Rail",6,0.36,-12,-16,,,,,,,1200
 285,,stngr_lvnc_10i,"Stngr Lvnc 10""",11,0.28,-7,-12,,,,,,,950
 286,,stngr_hwk_15i,"Stngr Hkw 15""",8,0.34,-10,-15,,,,,,,900
-287,,camarillo_a2_std_rifle_plastic_handguard,Camarillo M16A2 Rifle Length Plastic,12,0.29,-11,-16,,0.03,,,,,500
+287,,hart_a2_std_rifle_plastic_handguard,Hart M16A2 Rifle Length Plastic,12,0.29,-11,-16,,0.03,,,,,500
 288,,geissele_smr_mk16_mlok_urg_i_10.5inch,"Geissele Super Modular Rail MK16 M-LOK URG-I 10.5""",10,0.29,-12,-9,,,,,,,1050
 ,,geissele_smr_mk4_federal_mlok_10inch,"Geissele Super Modular Rail Mk4 Federal MLOK 10""",10,0.31,-12,-10,,,,,,,1100
 ,,kac_urx_6_mlok_13inch_handguard,"KAC URX 6 MLOK 13""",9,0.33,-10,-15,,,,,,,1500
 289,,kac_urx_4_mlok_8.5inch_handguard,"KAC URX 4 MLOK 8.5""",13,0.24,-7,-9,,,,,,,1100
 290,,kac_urx_4_mlok_13inch_handguard,"KAC URX 4 MLOK 13""",9,0.32,-11,-13,,,,,,,1250
 291,,kac_urx_4_mlok_14.5inch_handguard,"KAC URX 4 MLOK 14.5""",8,0.35,-12,-14,,,,,,,1300
-292,,camarillo_m4_std_carbine_plastic_handguard,Camarillo M4 Standard Carbine Length Plastic,14,0.2,-10,-10,,0.03,,,,,0
+292,,hart_m4_std_carbine_plastic_handguard,Hart M4 Standard Carbine Length Plastic,14,0.2,-10,-10,,0.03,,,,,0
 ,,aeroknox_ax15_10.5inch_handguard,"Aeroknox AX15 10.5"" Handguard",14,0.24,-5,-9,,,,,,,800
 ,,radian_weapons_ar15_model_1_m1curgh_10inch_handguard,"Radian Weapons AR15 Model 1 M1CURGH 10"" Handguard",12,0.28,-9,-11,,,,,,,1500
 ,,noveske_n4_nsr_gen3_handguard_9.15inch,Noveske N4 NSR Gen 3 9.15in Handguard,12,0.24,-8,-10,,,,,,,1100
@@ -600,7 +600,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,midwest_industries_supp_series_sp12m_mlok_handguard,"Midwest Industries Supp Series SP12M 12.625""",9,0.34,-9,-17,,,,,,,1450
 ,,midwest_industries_supp_series_sp15m_mlok_handguard,"Midwest Industries Supp Series SP15M 15""",7,0.38,-11,-18,,,,,,,1500
 ,,midwest_industries_supp_series_sp18m_mlok_handguard,"Midwest Industries Supp Series SP18M 18""",5,0.42,-12,-20,,,,,,,1600
-,,camarillo_607_car15_triangle_7inch_handguard,"Camarillo 607 CAR-15 Triangle 7"" Handguard",16,0.19,-8,-10,,0.03,,,,,550
+,,hart_607_car15_triangle_7inch_handguard,"Hart 607 CAR-15 Triangle 7"" Handguard",16,0.19,-8,-10,,0.03,,,,,550
 ,modtac_mounting_coupler,,,,,,,,,,,,,
 ,,modtac_mrac_gen2_mounting_coupler,MODTAC M-RAC Gen2 Mounting Coupler,0,0.05,,,,,,,,,300
 ,,modtac_mrac_gen3_mounting_coupler,MODTAC M-RAC Gen3 Mounting Coupler,0,0.05,,,,,,,,,500
@@ -625,15 +625,15 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 294,,doublestar_ace_m4_socom_gen4_stock,Doublestar ACE M4 SOCOM,14,0.32,-9,-9,,,,,,,1000
 295,,hk_416_enhanced_buffer_tube,HK Enhanced Buffer Tube,-1,0.15,,-3,,-0.1,,,,,400
 296,,si_ar_are_t7_buffer_tube,Strike Industries Advanced Receiver Extension T7,-1,0.11,-1,-1,,0,,,,,600
-297,,camarillo_buffer_tube,Camarillo,-2,0.15,-2,-1,,-0.1,,,,,0
+297,,hart_buffer_tube,Hart,-2,0.15,-2,-1,,-0.1,,,,,0
 ,ar15_castlenut,,,,,,,,,,,,,
-298,,camarillo_m4a1_castlenut_hk,Camarillo M4A1 Castle Nut,0,0.02,,,,,,,,,0
-299,,camarillo_m4a1_castlenut_for_all,Camarillo M4A1 Castle Nut,0,0.02,,,,,,,,,0
+298,,hart_m4a1_castlenut_hk,Hart M4A1 Castle Nut,0,0.02,,,,,,,,,0
+299,,hart_m4a1_castlenut_for_all,Hart M4A1 Castle Nut,0,0.02,,,,,,,,,0
 300,,mdt_lss_stock_adapter,MDT LSS Fixed,-1,0.04,,,,,,,,,100
 301,,leapers_utg_model_15_fixed_a2_ar15_stock,UTG A2 Fixed,11,0.44,-12,-18,,,,,,,700
-302,,camarillo_m4a1_castlenut,Camarillo M4A1 Castle Nut,0,0.02,,,,,,,,,0
+302,,hart_m4a1_castlenut,Hart M4A1 Castle Nut,0,0.02,,,,,,,,,0
 303,,magpul_ubr_gen2_buffer,Magpul UBR Gen2 Receiver Extension,-1,0.14,-1,-2,,-0.05,,,,,400
-305,,camarillo_a2_buffer,Camarillo A2,-2,0.15,-1,-1,,-0.05,,,,,300
+305,,hart_a2_buffer,Hart A2,-2,0.15,-1,-1,,-0.05,,,,,300
 ,,ews_bufferless_system_ar15_castlenut,EWS Bufferless System AR15 Castlenut,3,0.08,7,10,,1,,,,,250
 ,scr_stocks,,,,,,,,,,,,,
 ,,fightlite_scr_wooden_rifle_stock,Fightlite SCR Wooden Rifle Stock,13,0.25,-11,-16,,,,,,,1000
@@ -648,14 +648,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 311,,tc_enforcer_small_charging_handle,Timber Creek enforcer small,3,0.03,,,,,,,,,300
 312,,tc_enforcer_charging_handle,Timber Creek Enforcer,3.5,0.05,,,,,,,,,300
 313,,armaspec_victory_charging_handle,Armaspec Victory,4,0.06,,,,,,,,,500
-314,,camarillo_m4a1_charging_handle,Camarillo M4 Standard,2,0.03,,,,,,,,,0
+314,,hart_m4a1_charging_handle,Hart M4 Standard,2,0.03,,,,,,,,,0
 ,,noveske_love_ar15_charging_handle,Noveske Love AR15 Charging Handle,4,0.05,,,,,,,,,650
 ,ar15_endplate,,,,,,,,,,,,,
-315,,camarillo_m4a1_receiver_endplate,Camarillo M4A1 Receiver Endplate,0,0.01,,,,,,,,,0
+315,,hart_m4a1_receiver_endplate,Hart M4A1 Receiver Endplate,0,0.01,,,,,,,,,0
 ,,thorsden_frs15_gen3_ar15_endplate,Thorsden FRS15 Gen3 AR15 Endplate,2,0.06,8,8,,1,,,,,600
 ,,aeroknox_ax15_endplate,Aeroknox AX // 15 Endplate,0,0.01,,,,,,,,,0
-,,camarillo_607_car15_buffer_tube,Camarillo 607 CAR-15 Buffer Tube,-2,0.13,-1,-1,,,,,,,500
-,,camarillo_607_car15_stock,Camarillo 607 CAR-15 Stock,16,0.23,-8,-14,,,,,,,500
+,,hart_607_car15_buffer_tube,Hart 607 CAR-15 Buffer Tube,-2,0.13,-1,-1,,,,,,,500
+,,hart_607_car15_stock,Hart 607 CAR-15 Stock,16,0.23,-8,-14,,,,,,,500
 ,,troy_m7a1_pdw_base_stock,Troy M7A1 PDW Base,-2,0.12,0,0,,,,,,,1000
 ,ar15_pistol_grip,,,,,,,,,,,,,
 316,,timber_creek_enforcer_pistol_grip,Timber Creek Enforcer,4,0.07,-1,-7,,,,,,,900
@@ -668,9 +668,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 322,,pmm_scar_modified_grip_hogue,PMM SCAR Modified Hogue Non-Beavertail,6,0.08,-2,-6,,,,,,,600
 323,,mdt_premier_avp_grip,MDT Premier AVP,10,0.08,1,1,,,,,,,700
 324,,hk_battle_pistol_grip,HK Battle,5,0.08,-5,-4,,,,,,,800
-325,,camarillo_a2_pistol_grip,A2,6,0.08,-3,-3,,,,,,,0
-,,camarillo_a1_pistol_grip,A1,5,0.07,-2,-3,,,,,,,500
-,,camarillo_a1_chopped_pistol_grip,A1 Chopped,4,0.05,-1,-3,,,,,,,550
+325,,hart_a2_pistol_grip,A2,6,0.08,-3,-3,,,,,,,0
+,,hart_a1_pistol_grip,A1,5,0.07,-2,-3,,,,,,,500
+,,hart_a1_chopped_pistol_grip,A1 Chopped,4,0.05,-1,-3,,,,,,,550
 326,,thordsen_frs_15_stock,Thordsen FRS-15,14,0.26,-6,-8,,,,,,,1500
 327,,magpul_moe_ar15_pistol_grip,Magpul MOE AR-15 Pistol Grip,7,0.1,-3,-5,,,,,,,800
 328,,magpul_moe_k2_ar15_pistol_grip,Magpul MOE-K2,7,0.1,-4,-4,,,,,,,800
@@ -682,7 +682,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pmm_bcm_gunfighter_mod3_scar_pistol_grip,PMM BCM Gunfighter Mod3 SCAR Pistol Grip,8,0.1,-3,-3,,,,,,,800
 ,,daniel_defense_pistol_grip_with_trigger_guard,Daniel Defense Pistol Grip w/ Trigger Guard,10,0.13,-4,-2,,,,,,,900
 ,ar15_trigger,,,,,,,,,,,,,
-330,,camarillo_m4a1_std_trigger,M4 Standard,2,0.04,0,0,,0,,,,,200
+330,,hart_m4a1_std_trigger,M4 Standard,2,0.04,0,0,,0,,,,,200
 331,,cmc_dropin_trigger,CMC drop-in,3,0.03,-1,0,,-0.05,,,,0.03,300
 332,,psa_custom_trigger,PSA custom,3.5,0.04,0,-1,,-0.05,,,,0.03,400
 333,,rise_blitz_trigger,Rise Armaments blitz,4,0.05,-1,0,,-0.1,,,,0.05,1000
@@ -694,12 +694,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ar15_trigger_guard,,,,,,,,,,,,,
 335,,magpul_enhanced_ar15_mag1186_polymer_trigger_guard,Magpul OD Trigger Guard,2,0.02,,,,,,,,,200
 336,,troy_enhanced_ar15_trigger_guard,TI Enhanced Trigger Guard,2.5,0.04,,,,,,,,,200
-337,,camarillo_m4a1_trigger_guard,Camarillo M4 standard Trigger Guard,2,0.02,,,,,,,,,0
+337,,hart_m4a1_trigger_guard,Hart M4 standard Trigger Guard,2,0.02,,,,,,,,,0
 ,,strike_industries_polyflex_ar15_trigger_guard,Strike Industries Polyflex AR15 Trigger Guard,3,0.08,,,,,,,,,400
 ,m4a1_upper_receiver,,,,,,,,,,,,,
-338,,camarillo_m4a1_std_upper_receiver,Camarillo M4 Standard,0,0.2,0,0,,,,,,,0
+338,,hart_m4a1_std_upper_receiver,Hart M4 Standard,0,0.2,0,0,,,,,,,0
 ,,aeroknox_ax15_upper_receiver,Aeroknox AX15 Upper Receiver,0,0.13,0,-1,,,,,,,1000
-,,camarillo_m16a2_carry_handle_upper_receiver,Camarillo M16A2 Carry Handle Upper Receiver,6,0.32,0,0,,,,,,,750
+,,hart_m16a2_carry_handle_upper_receiver,Hart M16A2 Carry Handle Upper Receiver,6,0.32,0,0,,,,,,,750
 ,,lone_star_armory_tx15_light_ar15_upper_receiver,Lone Star Armory TX15 Light AR15 Upper Receiver,2,0.16,0,1,,,,,,,3000
 ,,lone_star_armory_tx15_regular_ar15_upper_receiver,Lone Star Armory TX15 AR15 Upper Receiver ,5,0.3,1,1,,-0.1,,,,,3500
 ,,noveske_gen3_ar15_upper_receiver,Noveske GEN3 AR15 Upper Receiver,3,0.27,-1,0,,,,,,,3000
@@ -711,30 +711,30 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,daniel_defense_mk12_upper_receiver,Daniel Defense MK12 Upper Receiver,4,0.25,1,2,,-0.1,,100,,,2000
 ,,daniel_defense_mk18_upper_receiver,Daniel Defense MK18 Upper Receiver,3,0.23,0,-1,,0.15,,-100,,,2500
 ,m4a1_bolt_catch,,,,,,,,,,,,,
-339,,m4a1_std_bolt_catch,Camarillo M4 Standard,0,0.01,,,,,,,,,0
+339,,m4a1_std_bolt_catch,Hart M4 Standard,0,0.01,,,,,,,,,0
 ,,radian_weapons_ar15_extended_bolt_catch,Radian Weapons AR15 Extended Bolt Catch,1,0.03,,,,,,,,,300
 ,m4a1_dust_cover,,,,,,,,,,,,,
-340,,m4a1_std_dust_cover,Camarillo M4 Standard,1,0.04,,,,,,,,,0
+340,,m4a1_std_dust_cover,Hart M4 Standard,1,0.04,,,,,,,,,0
 ,m4a1_fire_selector,,,,,,,,,,,,,
-341,,m4a1_std_fire_selector,Camarillo M4 Standard,0,0.01,,,,,,,,,0
+341,,m4a1_std_fire_selector,Hart M4 Standard,0,0.01,,,,,,,,,0
 ,,fightlite_scr_ar15_safety,Fightlite SCR AR15 Safety Selector,1,0.03,,,,,,,,,0
 ,,radian_weapons_ar15_talon_ambi_2lever_fire_selector,Radian Weapons AR15 Talon Ambi 2level Fire Selector,1,0.03,,,,,,,,,500
 ,m4a1_lower_receiver,,,,,,,,,,,,,
-342,,camarillo_m4a1_std_lower_receiver,Camarillo M4A1,0,0.3,,,,,,,,,0
+342,,hart_m4a1_std_lower_receiver,Hart M4A1,0,0.3,,,,,,,,,0
 ,,fightlite_scr_rifle_lower_receiver,Fightlite SCR Rifle Lower Receiver,6,0.26,-6,12,,,,,,,3000
 ,,radian_weapons_ax556_adac15_lower_receiver,Radian Weapons AX556 ADAC15 Lower Receiver,6,0.42,-2,-3,,,,,,,4000
 ,,noveske_n4_gen3_ar15_lower_receiver,Noveske N4 Gen3 AR15 Lower Receiver,5,0.35,-2,-1,,,,,,,2000
 ,,aeroknox_ax15_lower_receiver,Aeroknox AX // 15 Lower Receiver,3,0.25,-1,0,,,,,,,1500
 ,,daniel_defense_m4_carbine_lower_receiver,Daniel Defense M4 Carbine Lower Receiver,3,0.33,,,,,,,,,1000
 ,m4a1_mag_release,,,,,,,,,,,,,
-343,,m4a1_std_mag_release,Camarillo M4A1,0,0.01,,,,,,,,,0
+343,,m4a1_std_mag_release,Hart M4A1,0,0.01,,,,,,,,,0
 ,,radian_weapons_adac15_mag_release,Radian Weapons ADAC15 Mag Rlease,1,0.02,,,,,,,,,200
 ,m4a1_mag_well,,,,,,,,,,,,,
 344,,armaspec_rhino_r23_tactical_magwell,Armaspec Rhino R-23 Tactical,3,0.13,,,,,,,,,750
 345,,ncstar_blastar_vkarmw_magwell,NcStar BlastAR VKARMW,1,0.07,-1,-1,,,,,,,500
 ,,hrf_concepts_rcm_ar15_milspec_magwell,HRF Concepts RCM AR15 Milspec Magwell,2,0.05,,,,,,,,,250
 ,m4a1_bolt,,,,,,,,,,,,,
-346,,m4a1_556_bolt,Camarillo M4 Standard,0,0.1,0,0,,,,,,,0
+346,,m4a1_556_bolt,Hart M4 Standard,0,0.1,0,0,,,,,,,0
 ,,fightlite_scr_rifle_bcg,Fightlite SCR Rifle Bolt Carrier Group,3,0.07,2,5,,,,,,,750
 ,,ews_bufferless_system_ar15_bcg,EWS Bufferless System AR15 Bolt Carrier Group,4,0.08,4,4,,,,,,,500
 ,,radian_weapons_ar15_enhanced_bcg,Radian Weapons AR15 Enhanced Bolt Carrier Group,2,0.16,0,0,,,,,,,1000
@@ -745,11 +745,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 349,,brwnls_m4a1_5.56x45_508mm_hbar_r_barrel,"Brownells HBAR 20"" Rifle Length Gastube 5.56x45",-10,0.92,-11,-12,,-0.22,0.26,191,,-0.06,2000
 350,,brwnls_m4a1_5.56x45_406mm_socom_c_barrel,"Brownells Socom 16"" Carbine Length Gastube 5.56x45",-3,0.69,-6,-6,,-0.05,0.12,78,,,1200
 351,,cmmg_ar_15_5.56x45_610mm_fluted_r_barrel,"CMMG 24"" Fluted AR-15 Rifle Length Gastube 5.56x45",-12,0.91,-16,-16,,-0.3,0.4,262,,-0.06,5000
-352,,camarillo_m4a1_5.56x45_267mm_govt_c_barrel,"Camarillo Government 10.5"" Carbine Length Gastube 5.56x45",3,0.47,-2,-1,,0.25,-0.1,-113,,,1200
-353,,camarillo_m4a1_5.56x45_317mm_govt_c_barrel,"Camarillo Government 12.5"" Carbine Length Gastube 5.56x45",1,0.53,-3,-3,,0.15,-0.04,-34,,,1200
-354,,camarillo_m4a1_5.56x45_368mm_govt_c_barrel,"Camarillo Government 14.5"" Carbine Length Gastube 5.56x45",0,0.6,-4,-4,,0.08,0.02,33,,,0
-355,,camarillo_m4a1_5.56x45_190mm_govt_p_barrel,"Camarillo Government 7.5"" Pistol Length Gastube 5.56x45",4,0.34,-1,0,,0.4,-0.15,-266,,0.03,1300
-356,,camarillo_m4a1_5.56x45_368mm_socom_c_barrel,"Camarillo Socom 14.5"" Carbine Length Gastube 5.56x45",-1,0.64,-5,-5,,0.05,0.04,45,,,800
+352,,hart_m4a1_5.56x45_267mm_govt_c_barrel,"Hart Government 10.5"" Carbine Length Gastube 5.56x45",3,0.47,-2,-1,,0.25,-0.1,-113,,,1200
+353,,hart_m4a1_5.56x45_317mm_govt_c_barrel,"Hart Government 12.5"" Carbine Length Gastube 5.56x45",1,0.53,-3,-3,,0.15,-0.04,-34,,,1200
+354,,hart_m4a1_5.56x45_368mm_govt_c_barrel,"Hart Government 14.5"" Carbine Length Gastube 5.56x45",0,0.6,-4,-4,,0.08,0.02,33,,,0
+355,,hart_m4a1_5.56x45_190mm_govt_p_barrel,"Hart Government 7.5"" Pistol Length Gastube 5.56x45",4,0.34,-1,0,,0.4,-0.15,-266,,0.03,1300
+356,,hart_m4a1_5.56x45_368mm_socom_c_barrel,"Hart Socom 14.5"" Carbine Length Gastube 5.56x45",-1,0.64,-5,-5,,0.05,0.04,45,,,800
 357,,custom_2inch_ar15_barrel,Custom 2in AR15 Barrel,6,0.12,5,5,,5,-0.4,-866,,0.125,2000
 ,,veriforce_tactical_ar15_127mm_5.56_nitride_barrel_custom_gastube,Vertiforce Tactical AR15 5in 5.56 Nitride Barrel Custom Gastube,5,0.24,0,1,,0.6,-0.2,-450,,0.063,1400
 ,,x_caliber_ar_15_.223wylde_457mm_spiral_6groove_m_barrel,"X-Caliber Custom 18"" Spiral 6 Groove Mid Length Gastube .223 Wylde",-7,0.7,-8,-9,,-0.1,0.16,131,,-0.03,1800
@@ -758,7 +758,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,m4_gasblock_mount,,,,,,,,,,,,,
 358,,aim_sports_mt026_mount,AIM Sports MT026 Tri-Rail Barrel Mount,-3,0.1,,,,,,,,,400
 359,,diemaco_tri_ad_i_mount,Diemaco TRI-AD I Barrel Mount,-1,0.06,,,,,,,,,600
-360,,camarillo_m4a1_front_side_sling_swivel,Camarillo Front Side Sling Swivel,2,0.05,,,,,,,,,300
+360,,hart_m4a1_front_side_sling_swivel,Hart Front Side Sling Swivel,2,0.05,,,,,,,,,300
 ,,ergo_m4_forward_picatinny_rail,ERGO M4 Forward Picatinny Rail,-5,0.21,-2,-2,,0.05,,,,,800
 ,windham_weaponry_mount,,,,,,,,,,,,,
 ,,windham_weaponry_sling_swivel,Windham Weaponry Sling Swivel,1,0.03,,,,,,,,,100
@@ -781,7 +781,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,mk9_lower_receiver,,,,,,,,,,,,,
 372,,cmmg_mk9_lower_receiver,CMMG MK9,1,0.26,,,,,,,,,0
 ,,aeroknox_ax15_lower_receiver_ar9,Aeroknox AX // 15 Lower Receiver,3,0.25,-1,0,,,,,,,1500
-,,camarillo_m4a1_std_lower_receiver_ar9,Camarillo M4A1,0,0.3,,,,,,,,,0
+,,hart_m4a1_std_lower_receiver_ar9,Hart M4A1,0,0.3,,,,,,,,,0
 ,,daniel_defense_m4_carbine_lower_receiver_ar9,Daniel Defense M4 Carbine Lower Receiver,3,0.33,,,,,,,,,1000
 ,,noveske_n4_gen3_ar15_lower_receiver_ar9,Noveske N4 Gen3 Lower Receiver,5,0.35,-2,-1,,,,,,,2000
 ,mk9_dust_cover,,,,,,,,,,,,,
@@ -964,7 +964,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 475,,5.56x45_x15m_drum_50r,X-15M Drum,-8,1.05,,,50,,,,,,3000
 476,,5.56x45_magpul_pmag_m3_10r,Magpul PMAG M3 5.56x45 10R,11,0.15,,,10,,,,,,500
 477,,5.56x45_magpul_pmag_m3_20r,Magpul PMAG M3 5.56x45 20R,6,0.28,,,20,,,,,,750
-478,,5.56x45_camarillo_ar15_stanag_30r,Camarillo STANAG AR15 30R,0,0.39,,,30,,,,,,500
+478,,5.56x45_hart_ar15_stanag_30r,Hart STANAG AR15 30R,0,0.39,,,30,,,,,,500
 479,,5.56x45_brwnls_stanag_25r,Brownells STANAG Mag 5.56x45 25R,3,0.34,,,25,,,,,,750
 480,,5.56x45_brwnls_stanag_ss_20r,Brownells STANAG SS Mag 5.56x45 20R,5,0.25,,,20,,,,,,600
 481,,5.56x45_magpul_pmag_m3_windowed_30r,Magpul PMAG M3 5.56x45 Windowed 30R,1,0.4,,,30,,,,,,1500
@@ -1004,17 +1004,17 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,magazine_10mm_glock20,,,,,,,,,,,,,
 504,,glock20_10mm_15r,Glock Standard 15R 10mm,0,0.18,,,15,,,,,,500
 ,magazine_ar9_adapter,,,,,,,,,,,,,
-,,nbs_ar15_9x19_camarillo_mag_adapter,NBS AR-15 9x19 Camarillo Mag Adapter,0,0.07,,,,,,,,,1000
+,,nbs_ar15_9x19_hart_mag_adapter,NBS AR-15 9x19 Hart Mag Adapter,0,0.07,,,,,,,,,1000
 ,magazine_9x19_ar9,,,,,,,,,,,,,
-505,,camarillo_32rd,Camarillo 9x19 32rnd,0,0.36,,,32,,,,,,500
-506,,duramag_camarillo_ar9_20r_mag,Duramag Camarillo AR-9 20Rnd,7,0.23,,-2,20,,,,,,400
-507,,duramag_camarillo_ar9_10r_mag,Duramag Camarillo AR-9 10Rnd,14,0.12,,-4,10,,,,,,200
-,,custom_camarillo_smg_9x19_50r_mag,Custom Camarillo SMG 9x19 50rnd Magazine,-20,0.6,,,50,0.05,,,,,5000
-,camarillo_smg_extension,,,,,,,,,,,,,
-,,taylor_freelance_camarillo_smg_10r_mag_extension,Taylor Freelance Camarillo SMG 10r Mag Extension,-5,0.11,,,10,,,,,,1000
-,camarillo_50_more,,,,,,,,,,,,,
-,,custom_camarillo_smg_9x19_50r_extension,Custom Camarillo SMG 50rnd Magazine Extension,-45,0.57,20,20,50,0.05,,,,,5000
-,,custom_camarillo_smg_mag_coupler,Custom Camarillo SMG Mag Coupler,-2,0.1,,,,,,,,,0
+505,,hart_32rd,Hart 9x19 32rnd,0,0.36,,,32,,,,,,500
+506,,duramag_hart_ar9_20r_mag,Duramag Hart AR-9 20Rnd,7,0.23,,-2,20,,,,,,400
+507,,duramag_hart_ar9_10r_mag,Duramag Hart AR-9 10Rnd,14,0.12,,-4,10,,,,,,200
+,,custom_hart_smg_9x19_50r_mag,Custom Hart SMG 9x19 50rnd Magazine,-20,0.6,,,50,0.05,,,,,5000
+,hart_smg_extension,,,,,,,,,,,,,
+,,taylor_freelance_hart_smg_10r_mag_extension,Taylor Freelance Hart SMG 10r Mag Extension,-5,0.11,,,10,,,,,,1000
+,hart_50_more,,,,,,,,,,,,,
+,,custom_hart_smg_9x19_50r_extension,Custom Hart SMG 50rnd Magazine Extension,-45,0.57,20,20,50,0.05,,,,,5000
+,,custom_hart_smg_mag_coupler,Custom Hart SMG Mag Coupler,-2,0.1,,,,,,,,,0
 ,magazine_762x25mm_tt33,,,,,,,,,,,,,
 508,,tt33_std_8rnd,TT-33 Std. Single Stack 8R,27,0.09,,,8,,,,,,300
 509,,tt33_extended_16r_mag,TT-33 Custom Welded Single Stack Extended 16R,10,0.18,,,16,,,,,,1000
@@ -2186,7 +2186,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kac_qdc_3prong_flash_5.56x45_eliminator,Kac QDC 3prong Flash Eliminator 5.56,2,0.07,-12,-12,,0.05,0,0,,,600
 ,,aeroknox_ae01_muzzle_brake,Aeroknox AE/01,-1,0.1,-16,-13,,0.1,0,0,,,600
 ,,strike_industries_jcomp_gen2_5.56x45_muzzle_brake,Strike Industries JCOMP Gen2 5.56x45 Muzzle Brake,-1,0.08,-13,-16,,0.05,0,0,,,500
-,,camarillo_607_car15_3.5inch_flash_moderator,"Camarillo 607 CAR-15 3.5"" Flash Moderator",2,0.12,-11,-12,,0.1,0,0,,,500
+,,hart_607_car15_3.5inch_flash_moderator,"Hart 607 CAR-15 3.5"" Flash Moderator",2,0.12,-11,-12,,0.1,0,0,,,500
 ,,aac_5.56x45_blackout_18_tooth_flash_hider,ACC 5.56x45 Blackout 18 Tooth Flash Hider,2,0.04,-11,-13,,0.05,0,0,,,500
 ,9x19_muzzle_device,,,,,,,,,,,,,
 1071,,custom4port,CUSTOM4PORT,-2,0.07,-10,-2,,0,0,10,,,500
@@ -2346,9 +2346,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1147,,aim_sports_universal_11.3inch_hg_picatinny,Aim Sports Universal Picatinny,-1,0.13,0,0,,,,,,,300
 ,amrs_picatinny,,,,,,,,,,,,,
 1148,,picatinny_section,Air for mounting picatinny attachments,0,0,,,,,,,,,0
-,camarillo_sight,,,,,,,,,,,,,
-1149,,camarillo_rear_ironsight_200m,Camarillo 200m,0,0.005,,,,,,,,,0
-1150,,camarillo_rear_ironsight_600m,Camarillo 600m,0,0.005,,,,,,,,,0
+,hart_sight,,,,,,,,,,,,,
+1149,,hart_rear_ironsight_200m,Hart 200m,0,0.005,,,,,,,,,0
+1150,,hart_rear_ironsight_600m,Hart 600m,0,0.005,,,,,,,,,0
 ,ddw,,,,,,,,,,,,,
 1151,,ddw_qd,Daniel Defence Wave QD,-6,0.28,-17,-19,,-0.1,0.16,90,,,1200
 ,doublestar_ace_recoil_pad,,,,,,,,,,,,,

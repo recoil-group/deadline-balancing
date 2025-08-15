@@ -1007,8 +1007,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,nbs_ar15_9x19_hart_mag_adapter,NBS AR-15 9x19 Hart Mag Adapter,0,0.07,,,,,,,,,1000
 ,magazine_9x19_ar9,,,,,,,,,,,,,
 505,,hart_32rd,Hart 9x19 32rnd,0,0.36,,,32,,,,,,500
-506,,duramag_hart_ar9_20r_mag,Duramag Hart AR-9 20Rnd,7,0.23,,-2,20,,,,,,400
-507,,duramag_hart_ar9_10r_mag,Duramag Hart AR-9 10Rnd,14,0.12,,-4,10,,,,,,200
+506,,evermag_hart_ar9_20r_mag,Duramag Hart AR-9 20Rnd,7,0.23,,-2,20,,,,,,400
+507,,evermag_hart_ar9_10r_mag,Duramag Hart AR-9 10Rnd,14,0.12,,-4,10,,,,,,200
 ,,custom_hart_smg_9x19_50r_mag,Custom Hart SMG 9x19 50rnd Magazine,-20,0.6,,,50,0.05,,,,,5000
 ,hart_smg_extension,,,,,,,,,,,,,
 ,,taylor_freelance_hart_smg_10r_mag_extension,Taylor Freelance Hart SMG 10r Mag Extension,-5,0.11,,,10,,,,,,1000
@@ -1057,10 +1057,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 538,,5.45x39_kazarov_ak12_magazine_30r,Izhmash AK-12 Windowed Polymer 30R,0,0.42,,,30,,,,,,1200
 ,,banan_magazine,Banana Magazine,0,0.39,,,30,,,,,,5000
 ,magazine_7.62x51_roosevelt700,,,,,,,,,,,,,
-539,,scrubs_outdoors_roosevelt_700__.308_5r_mag,	Wyatt's Outdoor .308 5R,-2,0.22,,,5,,,,,,300
+539,,scrubs_outdoors_roosevelt_700_.308_5r_mag,	Wyatt's Outdoor .308 5R,-2,0.22,,,5,,,,,,300
 540,,magtap_pmag_ac_5r,Magpul PMAG AC .308 5R,-2,0.18,,,5,,,,,,
 541,,magtap_pmag_ac_10r,Magpul PMAG AC .308 10R,-6,0.32,,,10,,,,,,
-542,,scrubs_outdoors_roosevelt_700__.308_10r_mag,	Wyatt's Outdoor .308 10R,-6,0.36,,,10,,,,,,1000
+542,,scrubs_outdoors_roosevelt_700_.308_10r_mag,	Wyatt's Outdoor .308 10R,-6,0.36,,,10,,,,,,1000
 ,magazine_7.62x54_mosin,,,,,,,,,,,,,
 543,,7.62x54_promag_10r,ProMag AA762R 02 10R,-4,0.33,,,10,,,,,,1000
 544,,7.62x54_promag_5r,ProMag AA762R 01 5R,0,0.19,,,5,,,,,,500
@@ -2558,19 +2558,19 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,at700_hinge_body,,,,,,,,,,,,,
 ,,precision_intercontinental_at_aics_gen2_stock_hinge_body,Accuracy International AT AICS 2.0 Stock Hinge Body,0,0.03,,,,,,,,,0
 ,at700_stock_variant,,,,,,,,,,,,,
-,,precision_intercontinental_roosevelt_700__sa_at_aics_gen2_folding_chassis_standard_stock,ccuracy International AT AICS 2.0 Standard Stock,19,0.27,-1,-1,,,,,,,0
-,,precision_intercontinental_roosevelt_700__sa_at_aics_gen2_folding_chassis_thumbhole_stock,Accuracy International AT AICS 2.0 Thumbhole Stock,20,0.31,-3,-3,,,,,,,2000
+,,precision_intercontinental_roosevelt_700_sa_at_aics_gen2_folding_chassis_standard_stock,ccuracy International AT AICS 2.0 Standard Stock,19,0.27,-1,-1,,,,,,,0
+,,precision_intercontinental_roosevelt_700_sa_at_aics_gen2_folding_chassis_thumbhole_stock,Accuracy International AT AICS 2.0 Thumbhole Stock,20,0.31,-3,-3,,,,,,,2000
 ,at700_frame_mount,,,,,,,,,,,,,
 ,,precision_intercontinental_at_aics_gen2_frame_mount,Accuracy International AT AICS 2.0 Frame Mount,0,0.02,,,,,,,,,0
 ,at700_cover,,,,,,,,,,,,,
-,,precision_intercontinental_roosevelt_700__sa_at_aics_gen2_folding_chassis_external_cover,Accuracy International Rem700 SA AT AICS 2.0 Folding Chassis External Cover,0,0.1,,,,,,,,,0
+,,precision_intercontinental_roosevelt_700_sa_at_aics_gen2_folding_chassis_external_cover,Accuracy International Rem700 SA AT AICS 2.0 Folding Chassis External Cover,0,0.1,,,,,,,,,0
 ,at700_cover_mods,,,,,,,,,,,,,
 ,,precision_intercontinental_at_aics_gen2_frame_keymod_assembly,Accuracy International AT AICS 2.0 Keymod Frame Cover,0,0.02,,,,,,,,,200
 ,,precision_intercontinental_at_aics_gen2_frame_rail_assembly,Accuracy International AT AICS 2.0 Picatinny Frame Cover,-2,0.03,,,,,,,,,700
 ,at700_mag_release,,,,,,,,,,,,,
 ,,precision_intercontinental_at_aics_gen2_mag_release,Accuracy International AT AICS 2.0 Mag Release,0,0.01,,,,,,,,,0
 ,at700_pistol_grip,,,,,,,,,,,,,
-,,precision_intercontinental_roosevelt_700__sa_at_aics_gen2_folding_chassis_pistol_grip_assembly,Accuracy International Rem700 SA AT AICS 2.0 Folding Chassis Pistol Grip Assembly,5,0.18,-2,-2,,,,,,,0
+,,precision_intercontinental_roosevelt_700_sa_at_aics_gen2_folding_chassis_pistol_grip_assembly,Accuracy International Rem700 SA AT AICS 2.0 Folding Chassis Pistol Grip Assembly,5,0.18,-2,-2,,,,,,,0
 ,at700_backstrap,,,,,,,,,,,,,
 ,,precision_intercontinental_at_aics_gen2_standard_backstrap,Accuracy International AT AICS 2.0 Standard Backstrap,2,0.04,,,,,,,,,0
 ,,precision_intercontinental_at_aics_gen2_thumbhole_backstrap,Accuracy International AT AICS 2.0 Thumbhole Backstrap,3,0.07,,,,,,,,,500
@@ -2605,7 +2605,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,roosevelt_walker_model_700_trigger_housing,Walker Model 700 Trigger housing,0,0.03,,,,,,,,,0
 ,,lockwood_impact_700_trigger_housing,Timney Impact 700 Trigger housing,1,0.03,,,,,,,,,0
 ,r700_magwell,,,,,,,,,,,,,
-,,scrubs_outdoors_roosevelt_700__.308_magwell,Wyatt Outdoor Rem700 .308 Magwell,0,0.08,,,,,,,,,0
+,,scrubs_outdoors_roosevelt_700_.308_magwell,Wyatt Outdoor Rem700 .308 Magwell,0,0.08,,,,,,,,,0
 ,r700_barrel,,,,,,,,,,,,,
 1267,,roosevelt_model_700_419mm_.308_barrel,Rem700 419mm Barrel,3,0.8,3,3,,0.15,-0.15,-200,,,2000
 1268,,roosevelt_model_700_419mm_.308_threaded_barrel,Rem700 419mm Threaded Barrel,3,0.79,3,3,,0.17,-0.15,-200,,,3000
@@ -2638,7 +2638,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1274,,hogue_roosevelt_model_700_overmolded_bdl_full_bed_block_stock,Hogue R700 Overmolded BDL Full Bed Block Stock,34,0.7,-2,-5,,,,,,,0
 1275,,magtap_hunter700_short_action,Magpul Hunter 700 Short Action,38,0.8,-4,-5,,0,,,,,1000
 1276,,mcs_lss_gen2_carbine_chassis,MDT LSS-XL Gen II Carbine,18,0.55,-3,-4,,,,,,,3000
-,,precision_intercontinental_roosevelt_700__sa_at_aics_gen2_folding_chassis_frame,Accuracy International Rem700 SA AT AICS 2.0 Folding Chassis Frame,25,0.47,-3,-3,,-0.05,,,,,6000
+,,precision_intercontinental_roosevelt_700_sa_at_aics_gen2_folding_chassis_frame,Accuracy International Rem700 SA AT AICS 2.0 Folding Chassis Frame,25,0.47,-3,-3,,-0.05,,,,,6000
 ,r700_stock_pad,,,,,,,,,,,,,
 ,,hogue_roosevelt_model_700_stock_pad,Hogue Rem700 Stock Pad,0,0.05,,,,,,,,,0
 ,corvus_mounts_comm_arc_mount,,,,,,,,,,,,,
@@ -2854,4 +2854,5 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,launcher,,,,,,,,,,,,,
 ,,RPG7,RPG7,30,0,80,90,0,2.5,1,220,,,100000
 ,,PSRL,PSRL,40,0,75,95,0,2.5,1,220,,,140000
+
 

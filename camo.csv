@@ -60,7 +60,7 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 58,walnut_wood,Walnut Wood,#7F564C,default,experience_based,8000,,wood
 59,ak_wood,AK Wood,#7F564C,default,experience_based,10000,,crazy romanian grip
 60,tan_painted,Tan Painted,#D3B58C,default,experience_based,3000,,wood painted
-61,kac_od_painted,KAC OD Painted,#70A55B,default,experience_based,5000,,wood painted
+61,kac_od_painted,PAC OD Painted,#70A55B,default,experience_based,5000,,wood painted
 62,fde_painted,FDE Painted,#D3B58C,default,experience_based,7000,,wood painted
 63,alpine_painted,Alpine Painted,#EEEEEE,default,experience_based,9000,,wood painted
 64,gold_painted,Gold Painted,#CDD6A9,default,experience_based,11000,,wood painted
@@ -71,7 +71,7 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 69,sand_beige,Sand Beige,#D3B58C,default,experience_based,5000,,
 70,ghillie_green,Ghillie Green,#70A55B,default,experience_based,5000,,
 71,diemaco_green,Diemaco Green,#70A55B,default,experience_based,5000,,
-72,kac_worn,Kac Worn,#70A55B,default,experience_based,5000,,
+72,kac_worn,PAC Worn,#70A55B,default,experience_based,5000,,
 73,tungsten_grey,Tungsten Grey,#888888,default,experience_based,5000,,
 74,crocodile,Crocodile,#3F603D,default,experience_based,5000,,
 76,fde_black,FDE Black,#D3B58C,default,experience_based,5000,,
@@ -80,7 +80,7 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 79,zenitco_desert_worn,Zenitco Desert Worn,#D3B58C,default,experience_based,5000,,
 80,green,Green,#70A55B,default,experience_based,5000,,
 81,diamondback_rattlecan_fde,Diamondback Rattlecan FDE,#D3B58C,default,experience_based,5000,,
-82,kac,KAC,#161616,default,experience_based,5000,,
+82,PAC,PAC,#161616,default,experience_based,5000,,
 83,the_sufferer,The Sufferer,#161616,default,experience_based,5000,,
 84,sand_beige_and_black,Sand Beige and Black,#D3B58C,default,experience_based,5000,,
 85,bs_grey,BS Grey,#888888,default,experience_based,5000,,
@@ -102,10 +102,10 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 101,clear_anodized,Clear Anodized,#EEEEEE,default,experience_based,5000,,
 102,black,Black,#161616,default,experience_based,500,,non-black defaults (socom rc2)
 103,tan,Tan,#D3B58C,default,experience_based,500,,
-104,kac_od,KAC OD,#70A55B,default,experience_based,1000,,
+104,kac_od,PAC OD,#70A55B,default,experience_based,1000,,
 105,grey,Grey,#888885,default,experience_based,1500,,
 106,fde,FDE,#C9BAA9,default,experience_based,2000,,
-107,magpul_od,Magpul OD,#709954,default,experience_based,2500,,
+107,magpul_od,Magtap OD,#709954,default,experience_based,2500,,
 108,bronze,Bronze,#AF894F,default,experience_based,3000,,
 109,steyr_fde,Steyr FDE,#C9BAA9,default,experience_based,3500,,
 110,steyr_od,Steyr OD,#70A55B,default,experience_based,4000,,
@@ -123,9 +123,9 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 122,black_worn,Black Worn,#161616,default,experience_based,9500,,non-black defaults (socom rc2)
 123,very_worn,Very Worn,#161616,default,experience_based,9500,,ak parts
 124,tan_worn,Tan Worn,#D3B58C,default,experience_based,10000,,
-125,kac_od_worn,KAC OD Worn,#70A55B,default,experience_based,10500,,
+125,kac_od_worn,PAC OD Worn,#70A55B,default,experience_based,10500,,
 126,fde_worn,FDE Worn,#D3B58C,default,experience_based,11000,,
-127,magpul_od_worn,Magpul OD Worn,#709954,default,experience_based,11500,,
+127,magpul_od_worn,Magtap OD Worn,#709954,default,experience_based,11500,,
 128,steyr_fde_worn,Steyr FDE Worn,#D3B58C,default,experience_based,12000,,
 129,steyr_od_worn,Steyr OD Worn,#70A55B,default,experience_based,12500,,
 130,scar_fde_worn,Scar FDE Worn,#D3B58C,default,experience_based,13000,,
@@ -155,3 +155,4 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 0,option_6,Option 6,#161616,default,always_available,,,
 0,option_7,Option 7,#161616,default,always_available,,,
 0,option_8,Option 8,#161616,default,always_available,,,
+

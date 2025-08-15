@@ -665,7 +665,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 320,,gral_s_pistol_grip,Gral-S,3,0.07,-4,-5,,,,,,,500
 321,,ergo_deluxe_ar15_suregrip,ERGO Deluxe AR-15 Suregrip,7,0.08,0,0,,,,,,,1500
 ,,ergo_deluxe_suregrip_palm_shelf,ERGO Deluxe AR-15 Suregrip Palm Shelf,4,0.06,-1,1,,,,,,,200
-322,,pmm_scar_modified_grip_hogue,PMM SCAR Modified Hogue Non-Beavertail,6,0.08,-2,-6,,,,,,,600
+322,,pmm_scar_modified_grip_rogue,PMM SCAR Modified rogue Non-Beavertail,6,0.08,-2,-6,,,,,,,600
 323,,mcs_premier_avp_grip,MDT Premier AVP,10,0.08,1,1,,,,,,,700
 324,,hk_battle_pistol_grip,HK Battle,5,0.08,-5,-4,,,,,,,800
 325,,hart_a2_pistol_grip,A2,6,0.08,-3,-3,,,,,,,0
@@ -1814,7 +1814,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 901,,hk_ump_polymer_stock,HK UMP Standard Polymer Folding,10,0.21,-9,-12,,,,,,,0
 902,,tommybuilt_ump_tailhook_brace_adapter,Tommy Built UMP Tailhook Brace Adapter,0,0.13,0,0,,,,,,,800
 903,,bt_mp5/ump_folding_stock,B&T MP5 Folding Stock,15,0.2,-10,-7,,,,,,,600
-904,,hogue_ump_buffer_tube_adapter,Hogue UMP Buffer Tube Adapter,-3,0.08,2,2,,,,,,,1000
+904,,rogue_ump_buffer_tube_adapter,rogue UMP Buffer Tube Adapter,-3,0.08,2,2,,,,,,,1000
 ,ump_rs,,,,,,,,,,,,,
 905,,hk_ump_rear_sight,HK UMP 25M,2,0.01,,,,,,,,,0
 ,ump_rear_sight_base,,,,,,,,,,,,,
@@ -2635,12 +2635,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,roosevelt_walker_model_700_safety,Walker Model 700 safety ,0,0.01,,,,,,,,,0
 ,,lockwood_impact_700_safety,Timney Impact 700 Safety,1,0.01,,,,,,,,,0
 ,r700_stock,,,,,,,,,,,,,
-1274,,hogue_roosevelt_model_700_overmolded_bdl_full_bed_block_stock,Hogue R700 Overmolded BDL Full Bed Block Stock,34,0.7,-2,-5,,,,,,,0
+1274,,rogue_roosevelt_model_700_overmolded_bdl_full_bed_block_stock,rogue R700 Overmolded BDL Full Bed Block Stock,34,0.7,-2,-5,,,,,,,0
 1275,,magtap_hunter700_short_action,Magpul Hunter 700 Short Action,38,0.8,-4,-5,,0,,,,,1000
 1276,,mcs_lss_gen2_carbine_chassis,MDT LSS-XL Gen II Carbine,18,0.55,-3,-4,,,,,,,3000
 ,,precision_intercontinental_roosevelt_700_sa_at_aics_gen2_folding_chassis_frame,Accuracy International Rem700 SA AT AICS 2.0 Folding Chassis Frame,25,0.47,-3,-3,,-0.05,,,,,6000
 ,r700_stock_pad,,,,,,,,,,,,,
-,,hogue_roosevelt_model_700_stock_pad,Hogue Rem700 Stock Pad,0,0.05,,,,,,,,,0
+,,rogue_roosevelt_model_700_stock_pad,rogue Rem700 Stock Pad,0,0.05,,,,,,,,,0
 ,corvus_mounts_comm_arc_mount,,,,,,,,,,,,,
 1284,,corvus_mounts_c1_30mm_12oclock_rmr_mount_for_arc,Badger Ordnance Condition 1 30mm 12 O'Clock RMR Mount for ARC,0,0.02,,,,,,,,,200
 ,corvus_mounts_comm_j_arm,,,,,,,,,,,,,
@@ -2854,5 +2854,6 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,launcher,,,,,,,,,,,,,
 ,,RPG7,RPG7,30,0,80,90,0,2.5,1,220,,,100000
 ,,PSRL,PSRL,40,0,75,95,0,2.5,1,220,,,140000
+
 
 

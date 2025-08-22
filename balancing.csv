@@ -1,4 +1,4 @@
-﻿0.24.3,Fri Jul 25 23:33:33 2025,,,,,,,,,,,,,
+﻿0.24.3,Thu Aug 21 20:50:15 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -623,7 +623,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ar15_buffer,,,,,,,,,,,,,
 293,,sb_tactical_vector_brace,SB Tactical Vector Brace,18,0.28,-4,-4,,,,,,,500
 294,,doublestar_ace_m4_socom_gen4_stock,Doublestar ACE M4 SOCOM,14,0.32,-9,-9,,,,,,,1000
-295,,hk_416_enhanced_buffer_tube,HK Enhanced Buffer Tube,-1,0.15,,-3,,-0.1,,,,,400
+295,,kf_416_enhanced_buffer_tube,KF Enhanced Buffer Tube,-1,0.15,,-3,,-0.1,,,,,400
 296,,si_ar_are_t7_buffer_tube,Strike Industries Advanced Receiver Extension T7,-1,0.11,-1,-1,,0,,,,,600
 297,,hart_buffer_tube,Hart,-2,0.15,-2,-1,,-0.1,,,,,0
 ,ar15_castlenut,,,,,,,,,,,,,
@@ -2854,6 +2854,3 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,launcher,,,,,,,,,,,,,
 ,,RPG7,RPG7,30,0,80,90,0,2.5,1,220,,,100000
 ,,PSRL,PSRL,40,0,75,95,0,2.5,1,220,,,140000
-
-
-

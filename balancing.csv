@@ -431,7 +431,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pac_mlok_3inch_5_slot_rail_section_bottom,KAC MLOK 3in 5 Slot Rail Section Bottom,-2,0.06,,,,,,,,,500
 ,,pac_mlok_3inch_5_slot_rail_section_side,KAC MLOK 3in 5 Slot Rail Section Side,-2,0.06,,,,,,,,,500
 ,,pac_mlok_3inch_5_slot_rail_section_top,KAC MLOK 3in 5 Slot Rail Section Top,-2,0.06,,,,,,,,,500
-,,arisaka_mlok_fingerstop,Arisaka MLOK Fingerstop,6,0.02,0,-1,,,,,,,500
+,,nariakira_mlok_fingerstop,Arisaka MLOK Fingerstop,6,0.02,0,-1,,,,,,,500
 ,zenit_basis,,,,,,,,,,,,,
 ,,zenitco_npn_2_rail_cover,Zenitco NPN-2 Rail Cover,1,0.03,,,,,,,,,750
 ,,zenitco_npn_2_half_rail_cover,Zenitco NPN-2 Half Rail Cover,0.5,0.02,,,,,,,,,300
@@ -514,17 +514,17 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,25mm_ring_mount,,,,,,,,,,,,,
 250,,armytek_predator_prov3_xhp35_hi,Armytek Predator Pro v3 XHP35 HI Flashlight,-2,0.16,,,,,,,,,750
 251,,ultrafire_wf501b_flashlight,Ultrafire WF-501B Flashlight,-1,0.12,,,,,,,,,500
-,arisaka_mount,,,,,,,,,,,,,
-,,arisaka_inline_scout_mlok_mount,Arisaka Inline Scout MLOK Mount,-0.5,0.03,,,,,,,,,250
-,,arisaka_inline_scout_picatinny_mount,Arisaka Inline Scout Picatinny Mount,-1,0.03,,,,,,,,,250
+,nariakira_mount,,,,,,,,,,,,,
+,,nariakira_inline_scout_mlok_mount,Arisaka Inline Scout MLOK Mount,-0.5,0.03,,,,,,,,,250
+,,nariakira_inline_scout_picatinny_mount,Arisaka Inline Scout Picatinny Mount,-1,0.03,,,,,,,,,250
 ,surefire_300_body,,,,,,,,,,,,,
-,,arisaka_300_series_light_body,Arisaka 300 Series Light Body,-0.5,0.03,,,,,,,,,500
-,,arisaka_18650_series_light_body,Arisaka 18650 Series Light Body,-1,0.04,,,,,,,,,750
+,,nariakira_300_series_light_body,Arisaka 300 Series Light Body,-0.5,0.03,,,,,,,,,500
+,,nariakira_18650_series_light_body,Arisaka 18650 Series Light Body,-1,0.04,,,,,,,,,750
 ,surefire_scoutlight_head,,,,,,,,,,,,,
 ,,modlite_plhv2_light_head,Modlite PLHV2 Light Head,-1,0.03,,,,,,,,,500
 ,,surefire_km1_e_ir_scout_light_head,Surefire KM1-E IR Scout Light Head,0,0.02,,,,,,,,,250
 ,surefire_tailcap,,,,,,,,,,,,,
-,,arisaka_momentary_tailcap,Arisaka Momentary Tailcap,1,0.01,,,,,,,,,100
+,,nariakira_momentary_tailcap,Arisaka Momentary Tailcap,1,0.01,,,,,,,,,100
 ,,surefire_z68_clicky_tailcap,Surefire Z68 Clicky Tailcap,1.5,0.02,,,,,,,,,250
 ,carry_handle_scope_mount,,,,,,,,,,,,,
 ,,hart_retro_a1_4x21_scope,Hart Retro A1 4x21 Scope,-3,0.17,,,,,,,,,750

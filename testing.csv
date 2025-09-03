@@ -1,4 +1,4 @@
-0.24.3,Thu Aug 21 20:50:15 2025,,,,,,,,,,,,,
+0.24.3,Tue Sep 02 19:37:25 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,primary_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -12,10 +12,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 9,,aeroknox_ax15_front_sight_base,Aeroknox AX15 Front Sight Base,0,0.02,,,,,,,,,400
 10,,aeroknox_ax15_rear_sight_base,Aeroknox AX15 Rear Sight Base,0,0.02,,,,,,,,,400
 11,,aim_sports_low_profile_45_degree_sight_base,AIM Sports Low Profile 45 Degree Sight Base,0,0.02,,,,,,,,,400
-12,,aimpoint_30mm_low_ring_mount,Aimpoint 30mm Low Ring,0,0.03,,,,,,,,,200
-13,,aimpoint_amm_dovetail_11mm_mount,Aimpoint AMM Dovetail Groove 11mm Mount,0,0.02,,,,,,,,,200
-14,,aimpoint_electronic_g2_red_dot,Aimpoint Electronic G2,0,0.17,,,,,,,,,500
-15,,aimpoint_micro_lrp_qd_mount,Aimpoint Micro LRP QD Mount,0,0.03,,,,,,,,,300
+12,,azimuth_30mm_low_ring_mount,azimuth 30mm Low Ring,0,0.03,,,,,,,,,200
+13,,azimuth_amm_dovetail_11mm_mount,azimuth AMM Dovetail Groove 11mm Mount,0,0.02,,,,,,,,,200
+14,,azimuth_electronic_g2_red_dot,azimuth Electronic G2,0,0.17,,,,,,,,,500
+15,,azimuth_micro_lrp_qd_mount,azimuth Micro LRP QD Mount,0,0.03,,,,,,,,,300
 16,,be_meyers_mawl_c1+,B.E. Meyers MAWL-C1+,-1,0.07,,,,,,,,,3000
 17,,corvus_mounts_comm_30mm_mount_body,"Badger Ordnance C.O.M.M. 30mm 1.54"" Height",-0.5,0.06,,,,,,,,,1000
 18,,corvus_mounts_comm_34mm_mount_body,"Badger Ordnance C.O.M.M. 34mm 1.54"" Height",-0.5,0.07,,,,,,,,,1000
@@ -53,7 +53,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 32,,fab_defense_tactical_lightweight_vertical_grip,FAB Defense Lightweight Vertical,5,0.11,-4,-1,,,,,,,400
 33,,firefield_mg_kemper_xl_reflex_sight,Firefield MG Kemper XL Reflex,-7,0.19,,-1,,0.25,,,,,2000
 34,,fn_scar_rear_sight_base,FN Scar Rear Sight Base,0,0.02,,,,,,,,,200
-35,,gbrs_group_aimpoint_hydra_mount_kit,GBRS Group Hydra Mount Kit For Aimpoint,-3,0.17,,,,,,,,,1000
+35,,gbrs_group_azimuth_hydra_mount_kit,GBRS Group Hydra Mount Kit For azimuth,-3,0.17,,,,,,,,,1000
 36,,grip_pod_gps_02_body,Grip Pod Systems GPS-02,0,0.15,0,0,,,,,,,1100
 37,,holosun_hs401g5,Holosun HS401G5,-2,0.2,,,,,,,,,800
 38,,holosun_ls321g,Holosun LS321G,-1,0.06,,,,,,,,,800
@@ -106,12 +106,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 82,,pilad_p1x42,Pilad P1x42,-2,0.09,,,,,,,,,1000
 83,,priceli_narod_okp_7_picatinny,Priceli Narod OKP-7,-1.5,0.12,,,,,,,,,1000
 84,,pts_fortis_shift_tactical_grip,Pts Fortis Shift Tactical Grip,3,0.09,-5,-3,,,,,,,600
-85,,aimpoint_qrp1_30mm_mount,Aimpoint QRP 30mm,-0.5,0.07,,,,,,,,,300
-,,aimpoint_qrp1_30mm_mount_w_spacer,Aimpoint QRP 30mm w 39mm Spacer,-1,0.09,,,,,,,,,400
+85,,azimuth_qrp1_30mm_mount,azimuth QRP 30mm,-0.5,0.07,,,,,,,,,300
+,,azimuth_qrp1_30mm_mount_w_spacer,azimuth QRP 30mm w 39mm Spacer,-1,0.09,,,,,,,,,400
 ,,wilcox_compm_30mm_mount,Wilcox COMP-M 30mm,-1,0.06,,,,,,,,,600
-,,aimpoint_qrp2_modular_base_mount,Aimpoint QRP2 Modular Base Mount,0,0.03,,,,,,,,,300
-,,aimpoint_ar15_spacer,Aimpoint AR-15 Spacer,-1,0.02,,,,,,,,,200
-,,aimpoint_compm4_sight,Aimpoint CompM4,-1,0.14,,,,,,,,,1000
+,,azimuth_qrp2_modular_base_mount,azimuth QRP2 Modular Base Mount,0,0.03,,,,,,,,,300
+,,azimuth_ar15_spacer,azimuth AR-15 Spacer,-1,0.02,,,,,,,,,200
+,,azimuth_compm4_sight,azimuth CompM4,-1,0.14,,,,,,,,,1000
 86,,rk_b25_angled_mount,Rk B25 angled,-1,0.03,0,0,,,,,,,500
 87,,rk_foregrip_mount,Rk foregrip,-0.5,0.03,0,0,,,,,,,200
 88,,rk_short_foregrip_mount,Rk short foregrip,-0.5,0.02,0,0,,,,,,,200
@@ -156,18 +156,18 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,vortex_optics_sport_cantilever_cm_102_30mm_2inch_offset,"Vortex Optics Sport Cantilever 30mm CM-102 2"" Offset",-1,0.09,,,,,,,,,500
 ,,vortex_optics_sport_cantilever_cm_203_30mm_3inch_offset,"Vortex Optics Sport Cantilever 30mm CM-203 3"" Offset",-1,0.1,,,,,,,,,500
 ,,walther_mrs_red_dot_sight,Walther MRS Reflex,-6,0.07,,,,0.25,,,,,600
-,,zenit_belomo_pk06_kobra_sight,Zenit BelOMO PK-06 Kobra,-2.5,0.06,,,,,,,,,1000
-,,zenit_belomo_prc_red_dot,Zenit BelOMO PRC,-1,0.16,,,,,,,,,1200
-,,zenit_belomo_picatinny_mount_pkas,Zenit-BelOMO PK-AS,0,0.05,,,,,,,,,300
-,,zenitco_klesch_2p_lcu,Zenitco Klesch-2P + LCU,-0.5,0.08,,,,,,,,,1000
-,,zenitco_perst_3_classic_gen4_green,"Zenitco Perst-3 ""Classic"" gen 4.0 (GREEN+)",-1,0.07,,,,,,,,,1000
+,,veles_belomo_pk06_kobra_sight,Zenit BelOMO PK-06 Kobra,-2.5,0.06,,,,,,,,,1000
+,,veles_belomo_prc_red_dot,Zenit BelOMO PRC,-1,0.16,,,,,,,,,1200
+,,veles_belomo_picatinny_mount_pkas,Zenit-BelOMO PK-AS,0,0.05,,,,,,,,,300
+,,veles_klesch_2p_lcu,Zenitco Klesch-2P + LCU,-0.5,0.08,,,,,,,,,1000
+,,veles_perst_3_classic_gen4_green,"Zenitco Perst-3 ""Classic"" gen 4.0 (GREEN+)",-1,0.07,,,,,,,,,1000
 ,,primary_arms_slx_1x_microprism_acss_g2_scope_alt,,-1,0.08,,,,,,,,,1300
 ,,primary_arms_slx_1.53inch_straight_spacer_alt,,0,0.05,,,,,,,,,100
 ,,gbrs_group_lerna_picatinny_eotech_mount,GBRS Group Lerna Picatinny EOTECH Mount,-1,0.07,,,,,,,,,900
-,,strike_industries_ar_picatinny_bipod_foregrip,Strike Industries AR Picatinny Bipod Foregrip,0,0.1,0,0,,,,,,,700
-,,strike_industries_bipod_foregrip_collapsed_legs,Strike Industries Bipod Foregrip Collapsed,-1,0.06,-3,-4,,,,,,,0
-,,strike_industries_bipod_foregrip_extended_legs,Strike Industries Bipod Foregrip Extended,-3,0.06,-5,-6,,,,,,,0
-,,strike_industries_cobra_tactical_foregrip,Strike Industries Cobra Tactical Foregrip,5,0.06,-4,0,,,,,,,500
+,,smite_industries_ar_picatinny_bipod_foregrip,Strike Industries AR Picatinny Bipod Foregrip,0,0.1,0,0,,,,,,,700
+,,smite_industries_bipod_foregrip_collapsed_legs,Strike Industries Bipod Foregrip Collapsed,-1,0.06,-3,-4,,,,,,,0
+,,smite_industries_bipod_foregrip_extended_legs,Strike Industries Bipod Foregrip Extended,-3,0.06,-5,-6,,,,,,,0
+,,smite_industries_cobra_tactical_foregrip,Strike Industries Cobra Tactical Foregrip,5,0.06,-4,0,,,,,,,500
 ,,scalarworks_peak01_fixed_front_ironsight,Scalarworks Peak01 Fixed Front Irons,0,0.03,,,,,,,,,750
 ,,scalarworks_peak01_fixed_rear_ironsight,Scalarworks Peak01 Fixed Rear Irons,0,0.03,,,,,,,,,750
 ,,squadsight_orion_3x_gen1_plus_nv_scope,Armasight Orion 3x Gen1+ Night Vision Scope,-8,0.36,,-3,,,,,,,3000
@@ -221,7 +221,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,wilcox_raid_xe_g14_high_power_laser_aiming_device,Wilcox RAID Xe G14 Laser Device,-2,0.06,,,,,,,,,4000
 ,,wilcox_raid_xe_junction_box_legacy_crane_connector,Wilcox RAID Xe Junction Box Crane Connector,0,0.01,,,,,,,,,0
 ,,wilcox_raid_xe_front_caps,Wilcox RAID Xe Front Caps,0,0.01,,,,,,,,,0
-,,pac_aimpoint_micro_nvg_high_rise_picatinny_mount,Aimpoint Micro NVG High Rise,-2,0.1,,,,,,,,,1300
+,,pac_azimuth_micro_nvg_high_rise_picatinny_mount,azimuth Micro NVG High Rise,-2,0.1,,,,,,,,,1300
 ,,sig_sauer_foxtrot1_flashlight,Sig Sauer Foxtrot1 Flashlight,0,0.05,,,,,,,,,900
 ,,npz_pso_1_4x24_picatinny_scope,NPZ PSO-1 4x24 Picatinny Scope,-3,0.21,,-1,,,,,,,1200
 ,,npz_pso_rear_cup,NPZ PSO Rear Cup,2,0.02,,,,,,,,,0
@@ -271,7 +271,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 137,,kazarov_ak74_polymer_6p20_sb7,Izhmash AK-74 Polymer 6P20 Sb.7,15,0.22,-8,-11,,,,,,,600
 138,,kazarov_ak74_wooden_6p20_sb5,Izhmask AK-74 Wooden 6P20 Sb.5,15,0.29,-8,-13,,,,,,,0
 ,,kazarov_akm_wooden_6p1_sb5,Izhmask AKM Wooden 6P1 Sb.5,15,0.29,-8,-13,,,,,,,0
-139,,zenitco_akm_ak74_pt_lock,Zenitco AKM/AK74 PT Lock,0,0.04,,,,,,,,,700
+139,,veles_akm_ak74_pt_lock,Zenitco AKM/AK74 PT Lock,0,0.04,,,,,,,,,700
 140,,me_adapter,ME Adapter,0,0.13,0,0,,,,,,,400
 141,,caa_akts_akm_ak74_buffer_tube,CAA AKTS AKM/AK74 Buffer Tube,0,0.13,0,0,,,,,,,750
 ,,caa_cbs_ar15_stock,CAA CBS AR-15 Collapsible AR Stock,18,0.23,-9,-8,,,,,,,700
@@ -297,7 +297,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,hera_arms_cqr_ak_30mm_spacer,Hera Arms CQR AK 30mm Spacer,1,0.06,,,,,,,,,500
 ,,hera_arms_cqr_ak_45mm_spacer,Hera Arms CQR AK 45mm Spacer,1.5,0.09,,,,,,,,,750
 ,zenit_belomo_pkas_sight,,,,,,,,,,,,,
-143,,zenit_belomo_pk_as,Zenit BelOMO PK-AS Red Dot Sight,-2,0.17,,,,,,,,,1000
+143,,veles_belomo_pk_as,Zenit BelOMO PK-AS Red Dot Sight,-2,0.17,,,,,,,,,1000
 ,rs_regulate_rail,,,,,,,,,,,,,
 144,,rs_regulate_akm_30mm_scope_mount,RS Regulate AKM 30mm Upper,-1,0.04,,,,,,,,,200
 145,,rs_regulate_akr_1913_railed_0moa_mount,RS Regulate AKR 1913 0 MOA Upper,-3,0.08,,,,,,,,,300
@@ -431,17 +431,17 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pac_mlok_3inch_5_slot_rail_section_bottom,KAC MLOK 3in 5 Slot Rail Section Bottom,-2,0.06,,,,,,,,,500
 ,,pac_mlok_3inch_5_slot_rail_section_side,KAC MLOK 3in 5 Slot Rail Section Side,-2,0.06,,,,,,,,,500
 ,,pac_mlok_3inch_5_slot_rail_section_top,KAC MLOK 3in 5 Slot Rail Section Top,-2,0.06,,,,,,,,,500
-,,arisaka_mlok_fingerstop,Arisaka MLOK Fingerstop,6,0.02,0,-1,,,,,,,500
+,,nariakira_mlok_fingerstop,Arisaka MLOK Fingerstop,6,0.02,0,-1,,,,,,,500
 ,zenit_basis,,,,,,,,,,,,,
-,,zenitco_npn_2_rail_cover,Zenitco NPN-2 Rail Cover,1,0.03,,,,,,,,,750
-,,zenitco_npn_2_half_rail_cover,Zenitco NPN-2 Half Rail Cover,0.5,0.02,,,,,,,,,300
-,,zenitco_b_2l_34mm_rail_side,Zenitco B2L 34mm Rail,-1,0.03,,,,,,,,,100
-,,zenitco_b_2l_34mm_rail_top,Zenitco B2L 34mm Rail,-1,0.03,,,,,,,,,100
-,,zenitco_b_2l_34mm_rail_grips,Zenitco B2L 34mm Rail,-1,0.03,,,,,,,,,100
-,,zenitco_b_2u_75mm_rail_side,Zenitco B2U 75mm Rail,-1.5,0.06,,,,,,,,,400
-,,zenitco_b_2u_75mm_rail_top,Zenitco B2U 75mm Rail,-1.5,0.06,,,,,,,,,400
-,,zenitco_b_2u_75mm_rail_grips,Zenitco B2U 75mm Rail,-1.5,0.06,,,,,,,,,400
-,,zenitco_rl_1_handstop,Zenitco RL1,6,0.04,-1,-1,,,,,,,400
+,,veles_npn_2_rail_cover,Zenitco NPN-2 Rail Cover,1,0.03,,,,,,,,,750
+,,veles_npn_2_half_rail_cover,Zenitco NPN-2 Half Rail Cover,0.5,0.02,,,,,,,,,300
+,,veles_b_2l_34mm_rail_side,Zenitco B2L 34mm Rail,-1,0.03,,,,,,,,,100
+,,veles_b_2l_34mm_rail_top,Zenitco B2L 34mm Rail,-1,0.03,,,,,,,,,100
+,,veles_b_2l_34mm_rail_grips,Zenitco B2L 34mm Rail,-1,0.03,,,,,,,,,100
+,,veles_b_2u_75mm_rail_side,Zenitco B2U 75mm Rail,-1.5,0.06,,,,,,,,,400
+,,veles_b_2u_75mm_rail_top,Zenitco B2U 75mm Rail,-1.5,0.06,,,,,,,,,400
+,,veles_b_2u_75mm_rail_grips,Zenitco B2U 75mm Rail,-1.5,0.06,,,,,,,,,400
+,,veles_rl_1_handstop,Zenitco RL1,6,0.04,-1,-1,,,,,,,400
 ,pmag_m3_bottom_plate,,,,,,,,,,,,,
 216,,magtap_std_m3_bottom_plate,Magpul Standard M3,0,0.02,,,,,,,,,0
 217,,magtap_ranger_m3_bottom_plate,Magpul Ranger M3,1,0.05,,,,,,,,,200
@@ -478,31 +478,31 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 231,,aim_sports_rear_sight_folded,AIM Sports Low Profile 45 Degree Folded Rear Sight,1,0.02,,,,,,,,,0
 232,,aim_sports_front_sight_folded,AIM Sports Low Profile 45 Degree Folded Folded Front Sight,1,0.02,,,,,,,,,0
 233,,aim_sports_rear_sight,AIM Sports Low Profile 45 Degree Rear Sight,2,0.02,,,,,,,,,0
-,aimpoint_micro_footprint,,,,,,,,,,,,,
+,azimuth_micro_footprint,,,,,,,,,,,,,
 234,,sig_sauer_romeo4b_sight,Sig Sauer Romeo4B,-1.5,0.08,,,,,,,,,1000
 235,,sig_sauer_romeo4t_sight,Sig Sauer Romeo4T,-1.5,0.08,,,,,,,,,1100
-236,,aimpoint_micro_spacer_high_39mm,Aimpoint Micro Spacer High 39mm,-1,0.03,,,,,,,,,200
-237,,aimpoint_micro_spacer_low_30mm,Aimpoint Micro Spacer Low 30mm,-0.5,0.02,,,,,,,,,200
-238,,aimpoint_micro_t1_sight,Aimpoint Micro T1,-1.5,0.06,,,,,,,,,1200
-239,,aimpoint_micro_t2_sight,Aimpoint Micro T2,-1.5,0.06,,,,,,,,,1300
-,,aimpoint_compm5_sight,Aimpoint CompM5,-1,0.09,,,,,,,,,1400
+236,,azimuth_micro_spacer_high_39mm,azimuth Micro Spacer High 39mm,-1,0.03,,,,,,,,,200
+237,,azimuth_micro_spacer_low_30mm,azimuth Micro Spacer Low 30mm,-0.5,0.02,,,,,,,,,200
+238,,azimuth_micro_t1_sight,azimuth Micro T1,-1.5,0.06,,,,,,,,,1200
+239,,azimuth_micro_t2_sight,azimuth Micro T2,-1.5,0.06,,,,,,,,,1300
+,,azimuth_compm5_sight,azimuth CompM5,-1,0.09,,,,,,,,,1400
 240,,sig_sauer_romeo5_1x20_sight,Sig Sauer Romeo5 1x20 Sight,-1.5,0.06,,,,,,,,,700
-,aimpoint_t2_caps,,,,,,,,,,,,,
-241,,aimpoint_micro_t2_lens_caps,Aimpoint Micro T2 Lens Caps,1,0.01,,,,,,,,,0
-,aimpoint_t2_wrap,,,,,,,,,,,,,
-,,aimpoint_t2_cordura_fabric_wrap,Aimpoint Micro T-2 / H-2 Cordura Fabric Wrap,0,0.005,,,,,,,,,1000
+,azimuth_t2_caps,,,,,,,,,,,,,
+241,,azimuth_micro_t2_lens_caps,azimuth Micro T2 Lens Caps,1,0.01,,,,,,,,,0
+,azimuth_t2_wrap,,,,,,,,,,,,,
+,,azimuth_t2_cordura_fabric_wrap,azimuth Micro T-2 / H-2 Cordura Fabric Wrap,0,0.005,,,,,,,,,1000
 ,compm5_caps,,,,,,,,,,,,,
-,,aimpoint_compm5_lens_caps,Aimpoint CompM5 Lens Caps,1,0.01,,,,,,,,,0
+,,azimuth_compm5_lens_caps,azimuth CompM5 Lens Caps,1,0.01,,,,,,,,,0
 ,acro_footprint,,,,,,,,,,,,,
-,,aimpoint_acro_p2_reflex_sight,Aimpoint ACRO P-2 Reflex,-2,0.05,,,,,,,,,1200
+,,azimuth_acro_p2_reflex_sight,azimuth ACRO P-2 Reflex,-2,0.05,,,,,,,,,1200
 ,susat_scope_footprint,,,,,,,,,,,,,
 242,,usi_l12a1_susat_combat_optic,"United Scientific Industries L12A1 ""SUSAT"" Combat Optic",-3,0.25,,-2,,,,,,,950
 ,susat_backup_sights,,,,,,,,,,,,,
 243,,susat_backup_sights,SUSAT Backup Sights,0,0,,,,,,,,,0
 ,asr_mounts,,,,,,,,,,,,,
-244,,silencerco_qd_asr_mount,SilencerCo QD ASR Mount,0,0.03,,,,,,,,,200
+244,,silencers_inc_qd_asr_mount,SilencerCo QD ASR Mount,0,0.03,,,,,,,,,200
 ,asr_suppressors,,,,,,,,,,,,,
-245,,silencerco_omega_300_suppressor,SilencerCo OMEGA 300,-6,0.18,-12,-12,,-0.15,0.04,150,,,1000
+245,,silencers_inc_omega_300_suppressor,SilencerCo OMEGA 300,-6,0.18,-12,-12,,-0.15,0.04,150,,,1000
 ,hensoldt_zf_6x42_scope_eye_cup,,,,,,,,,,,,,
 246,,hensoldt_zf_6x42_eye_cup,Hensoldt ZF 6x42 Eye Cup,4.5,0.05,0,0,,,,,,,0
 ,dual_ring_30mm_sight_mount,,,,,,,,,,,,,
@@ -510,21 +510,21 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,dual_ring_34mm_sight_mount,,,,,,,,,,,,,
 248,,nightforce_atacr7_35x56_f1,Nightforce ATACR 7-35x56 F1,-7,0.42,,-4,,,,,,,5000
 ,single_ring_30mm_sight_mount,,,,,,,,,,,,,
-249,,aimpoint_compm2_sight,Aimpoint CompM2,-1,0.11,,,,,,,,,800
+249,,azimuth_compm2_sight,azimuth CompM2,-1,0.11,,,,,,,,,800
 ,25mm_ring_mount,,,,,,,,,,,,,
 250,,armytek_predator_prov3_xhp35_hi,Armytek Predator Pro v3 XHP35 HI Flashlight,-2,0.16,,,,,,,,,750
 251,,ultrafire_wf501b_flashlight,Ultrafire WF-501B Flashlight,-1,0.12,,,,,,,,,500
-,arisaka_mount,,,,,,,,,,,,,
-,,arisaka_inline_scout_mlok_mount,Arisaka Inline Scout MLOK Mount,-0.5,0.03,,,,,,,,,250
-,,arisaka_inline_scout_picatinny_mount,Arisaka Inline Scout Picatinny Mount,-1,0.03,,,,,,,,,250
+,nariakira_mount,,,,,,,,,,,,,
+,,nariakira_inline_scout_mlok_mount,Arisaka Inline Scout MLOK Mount,-0.5,0.03,,,,,,,,,250
+,,nariakira_inline_scout_picatinny_mount,Arisaka Inline Scout Picatinny Mount,-1,0.03,,,,,,,,,250
 ,surefire_300_body,,,,,,,,,,,,,
-,,arisaka_300_series_light_body,Arisaka 300 Series Light Body,-0.5,0.03,,,,,,,,,500
-,,arisaka_18650_series_light_body,Arisaka 18650 Series Light Body,-1,0.04,,,,,,,,,750
+,,nariakira_300_series_light_body,Arisaka 300 Series Light Body,-0.5,0.03,,,,,,,,,500
+,,nariakira_18650_series_light_body,Arisaka 18650 Series Light Body,-1,0.04,,,,,,,,,750
 ,surefire_scoutlight_head,,,,,,,,,,,,,
 ,,modlite_plhv2_light_head,Modlite PLHV2 Light Head,-1,0.03,,,,,,,,,500
 ,,surefire_km1_e_ir_scout_light_head,Surefire KM1-E IR Scout Light Head,0,0.02,,,,,,,,,250
 ,surefire_tailcap,,,,,,,,,,,,,
-,,arisaka_momentary_tailcap,Arisaka Momentary Tailcap,1,0.01,,,,,,,,,100
+,,nariakira_momentary_tailcap,Arisaka Momentary Tailcap,1,0.01,,,,,,,,,100
 ,,surefire_z68_clicky_tailcap,Surefire Z68 Clicky Tailcap,1.5,0.02,,,,,,,,,250
 ,carry_handle_scope_mount,,,,,,,,,,,,,
 ,,hart_retro_a1_4x21_scope,Hart Retro A1 4x21 Scope,-3,0.17,,,,,,,,,750
@@ -593,13 +593,13 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 292,,hart_m4_std_carbine_plastic_handguard,Hart M4 Standard Carbine Length Plastic,14,0.2,-10,-10,,0.03,,,,,0
 ,,aeroknox_ax15_10.5inch_handguard,"Aeroknox AX15 10.5"" Handguard",14,0.24,-5,-9,,,,,,,800
 ,,radian_weapons_ar15_model_1_m1curgh_10inch_handguard,"Radian Weapons AR15 Model 1 M1CURGH 10"" Handguard",12,0.28,-9,-11,,,,,,,1500
-,,noveske_n4_nsr_gen3_handguard_9.15inch,Noveske N4 NSR Gen 3 9.15in Handguard,12,0.24,-8,-10,,,,,,,1100
-,,midwest_industries_supp_series_sp7m_mlok_handguard,"Midwest Industries Supp Series SP7M 7.25"" ",14,0.24,-5,-10,,,,,,,1300
-,,midwest_industries_supp_series_sp9m_mlok_handguard,"Midwest Industries Supp Series SP9M 9.25""",12,0.27,-6,-13,,,,,,,1350
-,,midwest_industries_supp_series_sp10m_mlok_handguard,"Midwest Industries Supp Series SP10M 10.5""",11,0.3,-7,-15,,,,,,,1400
-,,midwest_industries_supp_series_sp12m_mlok_handguard,"Midwest Industries Supp Series SP12M 12.625""",9,0.34,-9,-17,,,,,,,1450
-,,midwest_industries_supp_series_sp15m_mlok_handguard,"Midwest Industries Supp Series SP15M 15""",7,0.38,-11,-18,,,,,,,1500
-,,midwest_industries_supp_series_sp18m_mlok_handguard,"Midwest Industries Supp Series SP18M 18""",5,0.42,-12,-20,,,,,,,1600
+,,nowa_n4_nsr_gen3_handguard_9.15inch,Nowa N4 NSR Gen 3 9.15in Handguard,12,0.24,-8,-10,,,,,,,1100
+,,northeast_industries_supp_series_sp7m_mlok_handguard,"Midwest Industries Supp Series SP7M 7.25"" ",14,0.24,-5,-10,,,,,,,1300
+,,northeast_industries_supp_series_sp9m_mlok_handguard,"Midwest Industries Supp Series SP9M 9.25""",12,0.27,-6,-13,,,,,,,1350
+,,northeast_industries_supp_series_sp10m_mlok_handguard,"Midwest Industries Supp Series SP10M 10.5""",11,0.3,-7,-15,,,,,,,1400
+,,northeast_industries_supp_series_sp12m_mlok_handguard,"Midwest Industries Supp Series SP12M 12.625""",9,0.34,-9,-17,,,,,,,1450
+,,northeast_industries_supp_series_sp15m_mlok_handguard,"Midwest Industries Supp Series SP15M 15""",7,0.38,-11,-18,,,,,,,1500
+,,northeast_industries_supp_series_sp18m_mlok_handguard,"Midwest Industries Supp Series SP18M 18""",5,0.42,-12,-20,,,,,,,1600
 ,,hart_607_car15_triangle_7inch_handguard,"Hart 607 CAR-15 Triangle 7"" Handguard",16,0.19,-8,-10,,0.03,,,,,550
 ,modtac_mounting_coupler,,,,,,,,,,,,,
 ,,modtac_mrac_gen2_mounting_coupler,MODTAC M-RAC Gen2 Mounting Coupler,0,0.05,,,,,,,,,300
@@ -649,7 +649,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 312,,tc_enforcer_charging_handle,Timber Creek Enforcer,3.5,0.05,,,,,,,,,300
 313,,armaspec_victory_charging_handle,Armaspec Victory,4,0.06,,,,,,,,,500
 314,,hart_m4a1_charging_handle,Hart M4 Standard,2,0.03,,,,,,,,,0
-,,noveske_love_ar15_charging_handle,Noveske Love AR15 Charging Handle,4,0.05,,,,,,,,,650
+,,nowa_love_ar15_charging_handle,Nowa Love AR15 Charging Handle,4,0.05,,,,,,,,,650
 ,ar15_endplate,,,,,,,,,,,,,
 315,,hart_m4a1_receiver_endplate,Hart M4A1 Receiver Endplate,0,0.01,,,,,,,,,0
 ,,thorsden_frs15_gen3_ar15_endplate,Thorsden FRS15 Gen3 AR15 Endplate,2,0.06,8,8,,1,,,,,600
@@ -695,15 +695,15 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 335,,magtap_enhanced_ar15_mag1186_polymer_trigger_guard,Magpul OD Trigger Guard,2,0.02,,,,,,,,,200
 336,,troy_enhanced_ar15_trigger_guard,TI Enhanced Trigger Guard,2.5,0.04,,,,,,,,,200
 337,,hart_m4a1_trigger_guard,Hart M4 standard Trigger Guard,2,0.02,,,,,,,,,0
-,,strike_industries_polyflex_ar15_trigger_guard,Strike Industries Polyflex AR15 Trigger Guard,3,0.08,,,,,,,,,400
+,,smite_industries_polyflex_ar15_trigger_guard,Strike Industries Polyflex AR15 Trigger Guard,3,0.08,,,,,,,,,400
 ,m4a1_upper_receiver,,,,,,,,,,,,,
 338,,hart_m4a1_std_upper_receiver,Hart M4 Standard,0,0.2,0,0,,,,,,,0
 ,,aeroknox_ax15_upper_receiver,Aeroknox AX15 Upper Receiver,0,0.13,0,-1,,,,,,,1000
 ,,hart_m16a2_carry_handle_upper_receiver,Hart M16A2 Carry Handle Upper Receiver,6,0.32,0,0,,,,,,,750
 ,,lone_star_armory_tx15_light_ar15_upper_receiver,Lone Star Armory TX15 Light AR15 Upper Receiver,2,0.16,0,1,,,,,,,3000
 ,,lone_star_armory_tx15_regular_ar15_upper_receiver,Lone Star Armory TX15 AR15 Upper Receiver ,5,0.3,1,1,,-0.1,,,,,3500
-,,noveske_gen3_ar15_upper_receiver,Noveske GEN3 AR15 Upper Receiver,3,0.27,-1,0,,,,,,,3000
-,,noveske_marked_vyctor_mur1s_ar15_upper_receiver,Noveske Marked VLTOR MUR1S AR15 Upper Receiver,2,0.26,-1,-1,,,,,,,2500
+,,nowa_gen3_ar15_upper_receiver,Nowa GEN3 AR15 Upper Receiver,3,0.27,-1,0,,,,,,,3000
+,,nowa_marked_vyctor_mur1s_ar15_upper_receiver,Nowa Marked VLTOR MUR1S AR15 Upper Receiver,2,0.26,-1,-1,,,,,,,2500
 ,,vyctor_mur1s_ar15_upper_receiver,VLTOR MUR1S AR15 Upper Receiver,1,0.25,-1,-2,,,,,,,2000
 ,,radian_weapons_ar15_model_1_m1curgh_upper_receiver,Radian Weapons AR15 Model 1 M1CURGH Upper Receiver,4,0.34,-1,-1,,-0.05,,,,,4000
 ,,axtell_defense_ddm4v7_upper_receiver,Daniel Defense DDM4 Upper Receiver,1,0.23,-1,-1,,,,,,,1000
@@ -723,7 +723,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 342,,hart_m4a1_std_lower_receiver,Hart M4A1,0,0.3,,,,,,,,,0
 ,,fightlite_scr_rifle_lower_receiver,Fightlite SCR Rifle Lower Receiver,6,0.26,-6,12,,,,,,,3000
 ,,radian_weapons_ax556_adac15_lower_receiver,Radian Weapons AX556 ADAC15 Lower Receiver,6,0.42,-2,-3,,,,,,,4000
-,,noveske_n4_gen3_ar15_lower_receiver,Noveske N4 Gen3 AR15 Lower Receiver,5,0.35,-2,-1,,,,,,,2000
+,,nowa_n4_gen3_ar15_lower_receiver,Nowa N4 Gen3 AR15 Lower Receiver,5,0.35,-2,-1,,,,,,,2000
 ,,aeroknox_ax15_lower_receiver,Aeroknox AX // 15 Lower Receiver,3,0.25,-1,0,,,,,,,1500
 ,,axtell_defense_m4_carbine_lower_receiver,Daniel Defense M4 Carbine Lower Receiver,3,0.33,,,,,,,,,1000
 ,m4a1_mag_release,,,,,,,,,,,,,
@@ -753,7 +753,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 357,,custom_2inch_ar15_barrel,Custom 2in AR15 Barrel,6,0.12,5,5,,5,-0.4,-866,,0.125,2000
 ,,veriforce_tactical_ar15_127mm_5.56_nitride_barrel_custom_gastube,Vertiforce Tactical AR15 5in 5.56 Nitride Barrel Custom Gastube,5,0.24,0,1,,0.6,-0.2,-450,,0.063,1400
 ,,x_caliber_ar_15_.223wylde_457mm_spiral_6groove_m_barrel,"X-Caliber Custom 18"" Spiral 6 Groove Mid Length Gastube .223 Wylde",-7,0.7,-8,-9,,-0.1,0.16,131,,-0.03,1800
-,,ballistic_advantage_ar15_modern_series_5.56x45_292mm_govt_c_barrel,"Ballistic Advantage Modern Series Government 11.5"" Carbine Length Gastube 5.56x45",2,0.5,-2,-3,,0.2,-0.07,-72,,,1100
+,,kinetic_advantage_ar15_modern_series_5.56x45_292mm_govt_c_barrel,"Ballistic Advantage Modern Series Government 11.5"" Carbine Length Gastube 5.56x45",2,0.5,-2,-3,,0.2,-0.07,-72,,,1100
 ,,pac_ks1_5.56x45_348mm_heavy_dimpled_m_barrel,"KAC KS-1 (L403A1) Heavy Dimpled 13.7"" Mid Length Gastube 5.56x45",1,0.62,-5,-4,,0.1,-0.01,37,,-0.03,2000
 ,m4_gasblock_mount,,,,,,,,,,,,,
 358,,aim_sports_mt026_mount,AIM Sports MT026 Tri-Rail Barrel Mount,-3,0.1,,,,,,,,,400
@@ -783,7 +783,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,aeroknox_ax15_lower_receiver_ar9,Aeroknox AX // 15 Lower Receiver,3,0.25,-1,0,,,,,,,1500
 ,,hart_m4a1_std_lower_receiver_ar9,Hart M4A1,0,0.3,,,,,,,,,0
 ,,axtell_defense_m4_carbine_lower_receiver_ar9,Daniel Defense M4 Carbine Lower Receiver,3,0.33,,,,,,,,,1000
-,,noveske_n4_gen3_ar15_lower_receiver_ar9,Noveske N4 Gen3 Lower Receiver,5,0.35,-2,-1,,,,,,,2000
+,,nowa_n4_gen3_ar15_lower_receiver_ar9,Nowa N4 Gen3 Lower Receiver,5,0.35,-2,-1,,,,,,,2000
 ,mk9_dust_cover,,,,,,,,,,,,,
 373,,cmmg_mk9_dust_cover,CMMG MK9,1,0.03,0,0,,,,,,,0
 ,ar9_bolt,,,,,,,,,,,,,
@@ -804,11 +804,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 385,,fn_scar_rear_sight_200m_aperture,FN Scar 200m Aperture,0,0.005,,,,,,,,,0
 ,fn_scar_h_gasblock,,,,,,,,,,,,,
 386,,fn_scar_mk20_gas_block,FN SCAR Mk20,3,0.15,2,2,,-0.05,,100,,,1000
-387,,fn_scar_h_gasblock,FN SCAR-H Standard,0,0.12,0,0,,,,,,,500
+387,,aft_mk_17_gasblock,FN SCAR-H Standard,0,0.12,0,0,,,,,,,500
 ,,hi_desertdog_hdd_tactical_scarh_hitorque_gasblock,Hi-desertdog HDD Tactical Scar H HiTorque Gasblock,2,0.16,-1,0,,,,,,,400
 ,fn_front_sight_base,,,,,,,,,,,,,
 388,,fn_scar_front_sight_base,FN SCAR Standard,0,0.01,,,,,,,,,100
-389,,kinetic_development_group_scar_fs_replacement_rail,Kinetic Development Group SCAR Front Sight Replacement Rail,0,0.03,,,,,,,,,300
+389,,dynamic_development_group_scar_fs_replacement_rail,Kinetic Development Group SCAR Front Sight Replacement Rail,0,0.03,,,,,,,,,300
 ,fn_front_sight,,,,,,,,,,,,,
 390,,fn_scar_front_sight_folded,FN SCAR Standard Folded,2,0.01,,,,,,,,,0
 391,,fn_scar_front_sight,FN SCAR Standard,3,0.01,,,,,,,,,0
@@ -825,45 +825,45 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,fn_scar_charging_handle,,,,,,,,,,,,,
 398,,fn_scar_charging_handle,FN SCAR-L Standard,1,0.02,,,,,,,,,0
 399,,apex_bolt_handle_for_scar,Apex Bolt Handle for SCAR,2,0.04,,,,,,,,,500
-,,kinetic_development_group_ambi_scarging_handle,Kinetic Development Group AMBI Scarging Handle,2,0.03,,,,,,,,,500
+,,dynamic_development_group_ambi_scarging_handle,Kinetic Development Group AMBI Scarging Handle,2,0.03,,,,,,,,,500
 ,fn_scar_fire_selector,,,,,,,,,,,,,
 400,,fn_scar_fire_selector,FN SCAR-H Standard,0,0,,,,,,,,,0
-401,,kinetic_development_group_talon_ambi_scar_45_90_safety_selector,Kinetic Development Group Talon Ambi SCAR 45/90,1.5,0.02,,,,,,,,,300
+401,,dynamic_development_group_talon_ambi_scar_45_90_safety_selector,Kinetic Development Group Talon Ambi SCAR 45/90,1.5,0.02,,,,,,,,,300
 ,fn_scar_h_barrel,,,,,,,,,,,,,
 402,,fn_scar_mk20_508mm_barrel,FN SCAR Mk20 508mm,-3,1.01,2,2,,-0.3,0.09,308,,,1500
 403,,deadshot_scar20_spiral_508mm_threaded_barrel,"Deadshot FN SCAR 20 Spiral 20"" Threaded",-7,0.94,-4,-2,,-0.15,0.07,358,,,2000
-404,,fn_scar_h_508mm_barrel,FN SCAR-H 508mm,-5,0.96,-3,-3,,-0.1,0.06,208,,,1500
+404,,aft_mk_17_508mm_barrel,FN SCAR-H 508mm,-5,0.96,-3,-3,,-0.1,0.06,208,,,1500
 ,,deadshot_scar20_spiral_406mm_threaded_barrel,"Deadshot FN SCAR 20 Spiral 16"" Threaded",-1,0.79,-1,1,,-0.05,0.01,171,,,1500
-405,,fn_scar_h_406mm_barrel,FN SCAR-H 406mm,0,0.81,0,0,,0,0,70,,,1000
-406,,fn_scar_h_330mm_barrel,FN SCAR-H 330mm,6,0.69,3,4,,0.1,-0.04,-57,,,1200
+405,,aft_mk_17_406mm_barrel,FN SCAR-H 406mm,0,0.81,0,0,,0,0,70,,,1000
+406,,aft_mk_17_330mm_barrel,FN SCAR-H 330mm,6,0.69,3,4,,0.1,-0.04,-57,,,1200
 ,,hi_desertdog_hdd_tactical_scarh_267mm_7.62x51_barrel,Hi-desertdog HDD Tactical Scar H 267mm Barrel,12,0.6,7,7,,0.2,-0.08,-187,,0.05,1500
 ,fn_scar_h_bolt,,,,,,,,,,,,,
-407,,fn_scar_h_bolt_carrier,FN SCAR-H Bolt,0,0.2,,,,,,,,,0
+407,,aft_mk_17_bolt_carrier,FN SCAR-H Bolt,0,0.2,,,,,,,,,0
 ,,imperial_arms_buffered_scar_bolt_carrier,Imperial Arms Buffered Scar BCG,-1,0.22,-2,-2,,,,,,,500
 ,fn_scar_h_lower_receiver,,,,,,,,,,,,,
 408,,x_products_scar_h_x17_trigger_module_lower_receiver,X Products X-17 SCAR-H Trigger Module,2,0.42,1,0,,,,,,,2000
-409,,fn_scar_h_lower_receiver,FN Scar-H Standard,0,0.38,-1,1,,,,,,,0
+409,,aft_mk_17_lower_receiver,FN Scar-H Standard,0,0.38,-1,1,,,,,,,0
 ,,lingle_industries_ar17_scar_h_lower,Lingle Industries AR17 Scar H Lower,4,0.45,-1,-1,,,,,,,2500
 ,lingle_mag_release,,,,,,,,,,,,,
 ,,m4a1_std_mag_release_scar,Lingle Industries AR17 Scar H Mag Release,0,0.1,,,,,,,,,0
 ,fn_scar_h_upper_receiver,,,,,,,,,,,,,
-410,,fn_scar_h_upper_receiver,FN SCAR-H Standard,0,0.65,0,0,,,,,,,2000
+410,,aft_mk_17_upper_receiver,FN SCAR-H Standard,0,0.65,0,0,,,,,,,2000
 411,,fn_scar_mk20_upper_receiver,FN SCAR Mk20,8,0.85,3,6,,,0.05,50,,,4000
 412,,imperial_arms_cypher_x_standard_scar_h_upper_receiver,Imperial Arms CypherX Standard SCAR-H,3,0.7,0,0,,,,,,,3000
 ,fn_scar_l_barrel,,,,,,,,,,,,,
-413,,fn_scar_l_254mm_barrel,FN SCAR-L 254mm,2,0.47,1,2,,0.2,-0.08,-135,,,1200
-414,,fn_scar_l_355mm_barrel,FN SCAR-L 355mm,0,0.6,0,0,,0,0,17,,,1000
-415,,fn_scar_l_457mm_barrel,FN SCAR-L 457mm,-5,0.73,-3,-4,,-0.1,0.14,131,,,1500
+413,,aft_mk_16_254mm_barrel,FN SCAR-L 254mm,2,0.47,1,2,,0.2,-0.08,-135,,,1200
+414,,aft_mk_16_355mm_barrel,FN SCAR-L 355mm,0,0.6,0,0,,0,0,17,,,1000
+415,,aft_mk_16_457mm_barrel,FN SCAR-L 457mm,-5,0.73,-3,-4,,-0.1,0.14,131,,,1500
 ,fn_scar_l_bolt,,,,,,,,,,,,,
-416,,fn_scar_l_bolt_carrier,FN SCAR-L Bolt,2,0.1,,,,,,,,,0
+416,,aft_mk_16_bolt_carrier,FN SCAR-L Bolt,2,0.1,,,,,,,,,0
 ,fn_scar_l_gasblock,,,,,,,,,,,,,
-417,,fn_scar_l_gasblock,FN SCAR-L Standard,0,0.1,0,0,,,,,,,0
+417,,aft_mk_16_gasblock,FN SCAR-L Standard,0,0.1,0,0,,,,,,,0
 ,fn_scar_l_lower_receiver,,,,,,,,,,,,,
-418,,fn_scar_l_lower_receiver,FN Scar-L Standard,0,0.4,0,0,,,,,,,0
+418,,aft_mk_16_lower_receiver,FN Scar-L Standard,0,0.4,0,0,,,,,,,0
 ,fn_scar_l_magplate,,,,,,,,,,,,,
-419,,fn_scar_l_std_magplate,FN Scar Mag Bottom Plate,0,0.02,,,,,,,,,0
+419,,aft_mk_16_std_magplate,FN Scar Mag Bottom Plate,0,0.02,,,,,,,,,0
 ,fn_scar_l_upper_receiver,,,,,,,,,,,,,
-420,,fn_scar_l_upper_receiver,FN SCAR-L Standard,0,0.5,0,0,,,,,,,1500
+420,,aft_mk_16_upper_receiver,FN SCAR-L Standard,0,0.5,0,0,,,,,,,1500
 ,fn_scar_mag_release,,,,,,,,,,,,,
 421,,fn_scar_mag_release,FN SCAR-H Standard,0,0,,,,,,,,,0
 422,,pmm_scar_oversized_mag_release_button,PMM SCAR Oversized Button,1,0.03,,,,,,,,,500
@@ -877,7 +877,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,fn_scar_stock_connector,,,,,,,,,,,,,
 428,,fn_scar_stock_connector,FN SCAR,0,0.07,0,0,,,,,,,0
 429,,fn_scar_ssr_stock_assembly,FN SCAR SSR,20,0.51,-3,-3,,,,,,,600
-430,,kinetic_development_group_sas_acr_stock_scar_adapter,Kinetic Development Group SAS Adaptive ACR Stock Connector,-1,0.07,0,0,,,,,,,300
+430,,dynamic_development_group_sas_acr_stock_scar_adapter,Kinetic Development Group SAS Adaptive ACR Stock Connector,-1,0.07,0,0,,,,,,,300
 ,,mesa_tactical_faro_scar_buffer_tube_adapter,Mesa Tactical Faro Scar Buffer Tube Adapter,-5,0.08,2,2,,0.1,,,,,450
 ,,fn_scar_sc_stock_adapter,FN Scar SC Stock Adaptor,1,0.08,0,0,,,,,,,1500
 ,scar_sc_stock,,,,,,,,,,,,,
@@ -896,20 +896,20 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,scar47_pistol_grip,,,,,,,,,,,,,
 435,,scar47_pistol_grip,HANDL DEFENSE SCAR 47,7,0.07,-2,-2,,,,,,,0
 ,scar47_upper_receiver,,,,,,,,,,,,,
-436,,fn_scar_h_upper_receiver_for_scar47,FN SCAR-H Standard,0,0.65,0,0,,,,,,,2000
+436,,aft_mk_17_upper_receiver_for_scar47,FN SCAR-H Standard,0,0.65,0,0,,,,,,,2000
 437,,fn_scar_mk20_upper_receiver_for_scar47,FN SCAR Mk20,8,0.85,3,6,,,0.05,50,,,4000
 438,,imperial_arms_cypher_x_standard_scar_h_upper_receiver_for_scar47,Imperial Arms CypherX Standard SCAR-H,3,0.7,0,0,,,,,,,3000
 ,scar_handguard,,,,,,,,,,,,,
 439,,handl_defense_scar47_mlok_handguard,Handl Defense SCAR47 MLOK,2,0.25,-1,-4,,,,,,,1200
 440,,pmm_scar_mlok_xl_rail_extension_mre_xl,PMM SCAR MLOK XL Rail Extension (MRE XL),2,0.13,0,-1,,,,,,,900
 441,,madbull_pws_srx_5inch_rail_handguard,"Madbull PWS SRX 5"" ",1,0.16,-1,-2,,,,,,,800
-442,,kinetic_development_group_scar_mrex_mlok_6.5inch_gen1_handguard,"Kinetic Development Group SCAR MREX MLOK 6.5"" Gen 1",3,0.28,-3,-1,,,,,,,1750
-443,,midwest_industries_scar_socom_extended_mlok_handguard,Midwest Industries SCAR SOCOM Extended MLOK,4,0.29,-2,-1,,,,,,,1600
-444,,midwest_industries_scar_quad_rail_handguard,Midwest Industries SCAR Quad Rail Extension,3,0.33,-2,-4,,,,,,,1500
+442,,dynamic_development_group_scar_mrex_mlok_6.5inch_gen1_handguard,"Kinetic Development Group SCAR MREX MLOK 6.5"" Gen 1",3,0.28,-3,-1,,,,,,,1750
+443,,northeast_industries_scar_socom_extended_mlok_handguard,Midwest Industries SCAR SOCOM Extended MLOK,4,0.29,-2,-1,,,,,,,1600
+444,,northeast_industries_scar_quad_rail_handguard,Midwest Industries SCAR Quad Rail Extension,3,0.33,-2,-4,,,,,,,1500
 445,,laylax_scar_rail_extension,Laylax SCAR Rail Extension,1,0.21,-2,-2,,,,,,,1300
-,,kinetic_development_group_scar_mrex_mk2_mlok_2.2inch_handguard,"Kinetic Development Group Scar MREX Mk2 MLOK 2.2"" Handguard",4,0.22,-1,0,,,,,,,1250
-,,kinetic_development_group_scar_mrex_mk2_mlok_4.25inch_handguard,"Kinetic Development Group Scar MREX Mk2 MLOK 4.25"" Handguard",3,0.26,-2,-2,,,,,,,1750
-,,kinetic_development_group_scar_mrex_mk2_mlok_6.5inch_handguard,"Kinetic Development Group Scar MREX Mk2 MLOK 6.5"" Handguard",2,0.3,-4,-2,,,,,,,2000
+,,dynamic_development_group_scar_mrex_mk2_mlok_2.2inch_handguard,"Kinetic Development Group Scar MREX Mk2 MLOK 2.2"" Handguard",4,0.22,-1,0,,,,,,,1250
+,,dynamic_development_group_scar_mrex_mk2_mlok_4.25inch_handguard,"Kinetic Development Group Scar MREX Mk2 MLOK 4.25"" Handguard",3,0.26,-2,-2,,,,,,,1750
+,,dynamic_development_group_scar_mrex_mk2_mlok_6.5inch_handguard,"Kinetic Development Group Scar MREX Mk2 MLOK 6.5"" Handguard",2,0.3,-4,-2,,,,,,,2000
 ,fn_scar_gas_selector,,,,,,,,,,,,,
 446,,mototech_engineering_scarburator_gen3,Mototech Engineering SCARburator Gen3,0,0.04,0,-2,,,,,,,400
 447,,fn_scar_oem_gas_selector,FN SCAR OEM,0,0.02,0,0,,,,,,,0
@@ -1095,12 +1095,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 560,,x_products_x_fal_drum_mag_50r,X Products X-FAL .308 50R Drum,-15,1.49,,,50,0.1,,,,,4000
 ,magazine_7.62x51_nato_scarh,,,,,,,,,,,,,
 561,,promag_scar17_7.62x51_50r_drum,ProMag FN Scar 17 .308 50R Drum,-15,1.46,,,50,0.1,,,,,4500
-562,,fn_scar_h_7.62x51_10r,FN SCAR-H 7.62x51 NATO 10R,7,0.32,,,10,,,,,,500
+562,,aft_mk_17_7.62x51_10r,FN SCAR-H 7.62x51 NATO 10R,7,0.32,,,10,,,,,,500
 563,,molon_labe_industries_scar_7.62x51_polymer_15r,Molon Labe Industries SCAR-H 7.62x51 Polymer 15R,2,0.43,,,15,,,,,,1500
 564,,molon_labe_industries_scar_7.62x51_polymer_20r,Molon Labe Industries SCAR-H 7.62x51 Polymer 20R,-1,0.57,,,20,,,,,,1250
 565,,molon_labe_industries_scar_7.62x51_polymer_30r,Molon Labe Industries SCAR-H 7.62x51 Polymer 30R,-7,0.86,,,30,,,,,,3000
 566,,molon_labe_industries_scar_7.62x51_polymer_10r,Molon Labe Industries SCAR-H 7.62x51 Polymer 10R,6.5,0.29,,,10,,,,,,750
-567,,fn_scar_h_7.62x51_20r,FN SCAR-H 7.62x51 NATO 20R,0,0.63,,,20,,,,,,1000
+567,,aft_mk_17_7.62x51_20r,FN SCAR-H 7.62x51 NATO 20R,0,0.63,,,20,,,,,,1000
 ,magazine_7.62x51_nato_sr25,,,,,,,,,,,,,
 568,,x_products_x25_7.62x51_drum_50r,X Products X-25 .308 50R Drum,-14,1.5,,,50,0.1,,,,,5000
 569,,magtap_pmag_d50_lr_sr_gen_m3_7.62x51_50r,Magpul PMAG D-50 LR/SR Gen M3 .308 50R Drum,-15,1.45,,,50,0.1,,,,,4500
@@ -1168,9 +1168,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 612,,fab_defense_ak74_pdc_dust_cover,FAB Defence AK74 PDC,2,0.17,-2,-4,,,,,,,1000
 613,,kazarov_ak74m_6p34_01_dust_cover,Izhmash AK-74M 6P34 0-1,7,0.11,-3,-4,,,,,,,500
 614,,kazarov_ak74_6p1_01_dust_cover,Izhmash AK-74 6P1 0-1 Dust Cover,6,0.09,-3,-3,,,,,,,300
-615,,zenitco_b_33_ak_dust_cover,Zenitco B-33,3,0.19,-3,-2,,,,,,,2000
+615,,veles_b_33_ak_dust_cover,Zenitco B-33,3,0.19,-3,-2,,,,,,,2000
 616,,akademia_bastion_dust_cover,AKademia bastion,1,0.21,-4,-4,,,,,,,1200
-,,midwest_industries_alpha_ak_series_railed_top_cover,Midwest Industries ALPHA AK series Railed Top Cover,4,0.24,-4,-2,,,,,,,2000
+,,northeast_industries_alpha_ak_series_railed_top_cover,Midwest Industries ALPHA AK series Railed Top Cover,4,0.24,-4,-2,,,,,,,2000
 ,ak_carbine_dust_cover,,,,,,,,,,,,,
 ,,kazarov_aks74u_6p26_sb7_dust_cover,Izhmash AKS-74U 6P26 Sb.7 Dust Cover,8,0.13,-2,-3,,,,,,,0
 ,,legal_arsenal_pilgrim_aksu_dust_cover,Legal Arsenal Pilgrim AKSU Railed,5,0.15,-1,-1,,,,,,,1500
@@ -1188,9 +1188,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 621,,rs_regulate_bm_1_akm_spec_.59_accessory_mount,RS Regulate BM-1 AKM Spec .59 Accessory,-1,0.04,,,,,,,,,500
 ,ak_dovetail_mount,,,,,,,,,,,,,
 ,,axion_kobra_ekp_8_02_mount,Axion Kobra EKP 8 02 Mount,-1,0.1,0,-1,,,,,,,100
-622,,zenit_belomo_dovetail_mount_pkas,Zenit BelOMO PK-AS,-1,0.08,,,,,,,,,600
+622,,veles_belomo_dovetail_mount_pkas,Zenit BelOMO PK-AS,-1,0.08,,,,,,,,,600
 623,,priceli_narod_okp_7_dovetail,Priceli Narod OKP-7,-1,0.16,0,0,,,,,,,1200
-624,,zenitco_b_13_klassika_dovetail_mount,"Zenitco B-13 ""Klassika""",-3,0.14,0,0,,,,,,,750
+624,,veles_b_13_klassika_dovetail_mount,"Zenitco B-13 ""Klassika""",-3,0.14,0,0,,,,,,,750
 625,,npz_1p78_1_dovetail_mount,NPZ 1P78-1 Dovetail,-1,0.09,0,0,,,,,,,600
 ,,npz_1p78_kashtan_s3_1_dovetail_mount,NPZ 1P78 Kashtan S3-1 Dovetail Mount,1,0.11,,1,,,,,,,700
 626,,rs_regulate_ak_303m_full_length_lower_mount,RS Regulate AK-303M Full Length Lower,-2,0.1,0,0,,,,,,,750
@@ -1200,7 +1200,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,npz_po1x20_rakurs_pm,NPZ PO 1x20 (1P76) Rakurs-PM,-2,0.1,,,,,,,,,1200
 629,,axion_cobra_mount,Axion Cobra,-4,0.3,0,0,,,,,,,750
 630,,npz_usp_1_4x_1p29_tulip,NPZ USP-1 4X (1P29) Tulip,-4,0.3,-4,-2,,,,,,,1000
-631,,zenit_belomo_pso1,Zenit BelOMO PSO-1 4x24,-3,0.25,-2,0,,,,,,,900
+631,,veles_belomo_pso1,Zenit BelOMO PSO-1 4x24,-3,0.25,-2,0,,,,,,,900
 ,,sag_bit_low_profile_dovetail_mount,SAG Bit Low Profile Dovetail Mount,-1,0.15,0,0,,,,,,,1200
 ,,sag_bit_rail,SAG Bit Low Profile Dovetail Mount,,,,,,,,,,,0
 ,,zeiss_zfk_4x25_scope,Zeiss ZFK 4x25 Scope,-4,0.2,0,0,,,,,,,1300
@@ -1288,7 +1288,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak74_trigger_guard,,,,,,,,,,,,,
 ,,kazarov_ak74_trigger_guard,Izhmash AK-74 Trigger Guard,0,0.02,,,,,,,,,0
 ,ak74_handle,,,,,,,,,,,,,
-652,,zenitco_rp1_ak_charging_handle,RP-1 Zenitco,2,0.03,,,,,,,,,750
+652,,veles_rp1_ak_charging_handle,RP-1 Zenitco,2,0.03,,,,,,,,,750
 ,,tss_custom_ak_bolt_on_oversize_gen3_charging_handle,TSS Custom AK Bolt On Oversize Gen3 Charging Handle,1.5,0.02,,,,,,,,,600
 ,ak74n_barrel,,,,,,,,,,,,,
 653,,kazarov_ak74_415mm_5.45x39_barrel,Izhmash AK-74 415mm 5.45x39 Barrel,-2,0.5,-7,-8,,0,0,43,,,0
@@ -1305,7 +1305,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kazarov_aks74u_6p26_sb5_skeletonized_stock,Izhmash AKS-74U 6P26 Sb.5 Skeletonized Stock,14,0.19,-8,-10,,,,,,,0
 ,,kazarov_ak74m_polymer_6p34_sb15,Izhmash AK-74M Polymer 6P34 Sb.15,15,0.22,-8,-11,,,,,,,600
 655,,kazarov_pp-19-01_vityaz_folding_stock,Izhmash PP-19-01 Vityaz Folding Stock,15,0.2,-7,-10,,,,,,,300
-656,,zenitco_ak74m/ak100_pt_lock,Zenitco AK74M/AK100 PT Lock,0,0.02,,,,,,,,,700
+656,,veles_ak74m/ak100_pt_lock,Zenitco AK74M/AK100 PT Lock,0,0.02,,,,,,,,,700
 657,,ak12_gen1_buffer_tube,Kalashnikov Concern AK-12 Gen 1,-1,0.11,0,-1,,,,,,,500
 658,,caa_aksfsa_ak74m/ak100_buffer_tube,CAA AKSFSA AK74M/AK100 Buffer Tube,0,0.12,0,0,,,,,,,750
 ,,magtap_zhukov_s_hinge_part,Magpul ZHUKOV-S Hinge Part,0,0.07,,,,,,,,,600
@@ -1392,31 +1392,31 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,hexagon_dtkp_ak12_5.45x39_suppressor,Hexagon DTKP 5.45x39,-3,0.28,-17,-13,,-0.1,0.1,70,,,3000
 ,,hexagon_dtkp_ak74_shortened_5.45x39_suppressor,Hexagon Shortened DTKP 5.45x39,-2,0.22,-16,-12,,-0.05,0.06,50,,,3500
 ,,hexagon_dtkp_ak12_shortened_5.45x39_suppressor,Hexagon Shortened DTKP 5.45x39,-2,0.23,-16,-12,,-0.05,0.06,50,,,3500
-,,zenitco_dtk_1_muzzle_brake,Zenitco Dtk-1,-2,0.1,-17,-14,,0.15,0,20,,,1000
+,,veles_dtk_1_muzzle_brake,Zenitco Dtk-1,-2,0.1,-17,-14,,0.15,0,20,,,1000
 ,ak_handguard_top_cover,,,,,,,,,,,,,
 682,,kazarov_ak74_wooden_6p20_sb6_upper_handguard,Izhmash AK-74 Wooden 6P20 Sb.6 Upper Handguard,0,0.05,-1,-1,,,,,,,0
 ,,kazarov_akm_wooden_6p1_sb6_1_upper_handguard,Izhmash AKM Wooden 6P1 Sb.6-1 Upper Handguard,0,0.05,-1,-1,,,,,,,0
 683,,caf_wasr_10_63_wooden_upper_piece,Wooden CAF WASR 10-63 Upper Piece,0,0.05,-1,-1,,,,,,,200
 684,,khyber_customs_swiss_cheese_grater,Khyber Customs Swiss Cheese Grater Upper Handguard,-1,0.03,-2,-1,,,,,,,400
-685,,midwest_industries_ak74_gen1_railed_topcover,Midwest Industries AK74 Handguard Railed Top Cover,0,0.06,-1,-2,,,,,,,750
-686,,midwest_industries_ak74_gen1_t1_mount_topcover,Midwest Industries AK74 Handguard T1 Mount Top Cover,-3,0.06,-1,-2,,,,,,,750
-687,,midwest_industries_ak74_gen1_30mm_topcover,Midwest Industries AK74 Handguard 30mm Mount Top Cover,-3,0.09,-1,-2,,,,,,,750
+685,,northeast_industries_ak74_gen1_railed_topcover,Midwest Industries AK74 Handguard Railed Top Cover,0,0.06,-1,-2,,,,,,,750
+686,,northeast_industries_ak74_gen1_t1_mount_topcover,Midwest Industries AK74 Handguard T1 Mount Top Cover,-3,0.06,-1,-2,,,,,,,750
+687,,northeast_industries_ak74_gen1_30mm_topcover,Midwest Industries AK74 Handguard 30mm Mount Top Cover,-3,0.09,-1,-2,,,,,,,750
 688,,magtap_ak_moe_top_cover,AK Magpul MOE,1,0.04,-0.5,0,,,,,,,500
-689,,zenitco_b_31s_gen1_rail_mount,Zenitco B-31S Gen 1 Rail Mount,0,0.1,-2,-2,,,,,,,1000
-690,,zenitco_b_19_rail_mount,Zenitco B-19 Rail Mount,0,0.08,-1.5,-2,,,,,,,750
-,,zenitco_b_19n_rail_mount,Zenitco B-19N Rail Mount,0,0.06,-1,-2,,,,,,,800
-,,zenitco_b_31_leader_rail_mount,"Zenitco B-31 ""Leader"" Rail Mount",1,0.13,-3,-1,,,,,,,1600
+689,,veles_b_31s_gen1_rail_mount,Zenitco B-31S Gen 1 Rail Mount,0,0.1,-2,-2,,,,,,,1000
+690,,veles_b_19_rail_mount,Zenitco B-19 Rail Mount,0,0.08,-1.5,-2,,,,,,,750
+,,veles_b_19n_rail_mount,Zenitco B-19N Rail Mount,0,0.06,-1,-2,,,,,,,800
+,,veles_b_31_leader_rail_mount,"Zenitco B-31 ""Leader"" Rail Mount",1,0.13,-3,-1,,,,,,,1600
 691,,6p20_polymer_sb9_upper_piece,AK74 Std. Polymer 6P20 Sb.9 Upper Piece,0,0.03,0,-1,,,,,,,300
-692,,zenitco_b_32_klassika_rail_mount,"Zenitco B-32 Klassika Extra Long ""Space Blaster"" Rail Mount",-3,0.23,-3,-4,,,,,,,2000
-693,,zenitco_b_31lv_sport_rail_mount,"Zenitco B-31LV ""Sport"" Rail Mount",1,0.14,-2,-3,,,,,,,1200
-,,midwest_industries_alpha_ak_series_6inch_mlok_upper_handguard,"Midwest Industries ALPHA AK Series 6"" MLOK Top Mount",0,0.04,-2,0,,,,,,,800
-,,midwest_industries_alpha_ak_series_10inch_mlok_upper_handguard,"Midwest Industries ALPHA AK Series 10"" MLOK Top Mount",0,0.07,-2,-1,,,,,,,800
+692,,veles_b_32_klassika_rail_mount,"Zenitco B-32 Klassika Extra Long ""Space Blaster"" Rail Mount",-3,0.23,-3,-4,,,,,,,2000
+693,,veles_b_31lv_sport_rail_mount,"Zenitco B-31LV ""Sport"" Rail Mount",1,0.14,-2,-3,,,,,,,1200
+,,northeast_industries_alpha_ak_series_6inch_mlok_upper_handguard,"Midwest Industries ALPHA AK Series 6"" MLOK Top Mount",0,0.04,-2,0,,,,,,,800
+,,northeast_industries_alpha_ak_series_10inch_mlok_upper_handguard,"Midwest Industries ALPHA AK Series 10"" MLOK Top Mount",0,0.07,-2,-1,,,,,,,800
 ,,5.45_design_aggressor_ak_upper_handguard,"5.45 DESIGN ""Aggressor"" AK Upper Handguard",0,0.07,-1,-2,,,,,,,0
 ,,5.45_design_aggressor_ak_handguard_rails,"5.45 DESIGN ""Aggressor"" AK Handguard Rails",0,0.13,-2,-2,,,,,,,0
 ,ak_carbine_hanguard_top_cover,,,,,,,,,,,,,
 ,,kazarov_aks74u_wooden_6p26_sb6_upper_handguard,Izhmash AKS-74U Wooden 6p26 Sb.6 Upper Handguard,0,0.04,-1,-1,,,,,,,0
 ,ak_grip,,,,,,,,,,,,,
-694,,zenitco_rk3_ak_pistol_grip,RK-3,7,0.11,-5,-3,,,,,,,1000
+694,,veles_rk3_ak_pistol_grip,RK-3,7,0.11,-5,-3,,,,,,,1000
 695,,ak12_gen1_pistol_grip,AK-12 Gen 1,5,0.1,-6,-4,,,,,,,800
 696,,kazarov_ak74_bakelite_6p4_sb8v,Izhmash AK-74 Bakelite 6P4 Sb.8v,4,0.09,-4,-5,,,,,,,400
 697,,ds_ace_ak_ar15_adapter,DoubleStar ACE AK AR-15 Grip adapter,-1,0.03,,,,,,,,,1500
@@ -1432,31 +1432,31 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak_handguard,,,,,,,,,,,,,
 702,,caf_wasr_10_63_wooden_bottom_handguard,Wooden CAF WASR 10-63 Bottom,13,0.2,-9,-12,,,,,,,300
 703,,tdiarms_ak_akm_l_lower_handguard,TDI Arms AKM-L,12,0.09,-6,-5,,,,,,,1000
-704,,midwest_industries_ak74_extended_gen1_handguard,Midwest Industries AK74 Extended Gen 1,7,0.24,-10,-12,,,,,,,1600
-705,,midwest_industries_ak74_gen1_handguard,Midwest Industries AK74 Gen 1,10,0.17,-7,-9,,,,,,,1200
+704,,northeast_industries_ak74_extended_gen1_handguard,Midwest Industries AK74 Extended Gen 1,7,0.24,-10,-12,,,,,,,1600
+705,,northeast_industries_ak74_gen1_handguard,Midwest Industries AK74 Gen 1,10,0.17,-7,-9,,,,,,,1200
 706,,magtap_ak_zhukov_u_lower_handguard,AK Magpul ZHUKOV-U,16,0.3,-4,-6,,,,,,,1500
 ,,5.45_design_aggressor_ak_lower_handguard,"5.45 DESIGN ""Aggressor"" AK",8,0.11,-5,-11,,,,,,,3000
 708,,kazarov_ak74_wooden_6p20_sb6_lower_handguard,Izhmash AK-74 Wooden 6P20 Sb.6,15,0.12,-7,-9,,,,,,,0
 ,,kazarov_akm_wooden_6p1_sb6_1_lower_handguard,Izhmash AKM Wooden 6P1 Sb.6-1,15,0.12,-7,-9,,,,,,,0
-710,,zenitco_b_30_gen1_lower_handguard,Zenitco B-30 Gen 1 Lower,8,0.23,-10,-11,,,,,,,1500
+710,,veles_b_30_gen1_lower_handguard,Zenitco B-30 Gen 1 Lower,8,0.23,-10,-11,,,,,,,1500
 711,,kazarov_ak74_polymer_6p20_sb9_lower_handguard,Izhmask AK-74 Polymer 6P20 Sb.9,15,0.1,-7,-8,,,,,,,0
 ,,kazarov_ak100_series_polymer_railed_lower_handguard,Izhmash AK-100 Series Polymer Railed,13,0.12,-5,-5,,,,,,,800
 712,,magtap_ak_moe_lower_handguard,AK Magpul MOE,15,0.14,-3,-4,,,,,,,500
 713,,tdiarms_ak_x47_rail_system,TDI Arms X47 Rail System,6,0.36,-10,-13,,,,,,,2000
-714,,zenitco_b_10m_gen1_lower_handguard,Zenitco B-10M Gen 1 Lower,13,0.15,-6,-5,,,,,,,1000
-715,,zenitco_b_10l_sport_lower_handguard,"Zenitco B-10L ""Sport"" Lower",11,0.09,-7,-6,,,,,,,1100
-,,midwest_industries_alpha_ak_series_6inch_mlok_lower_handguard,"Midwest Industries ALPHA AK Series 6"" MLOK Lower",12,0.15,-8,-4,,,,,,,1200
-,,midwest_industries_alpha_ak_series_10inch_mlok_lower_handguard,"Midwest Industries ALPHA AK Series 10"" MLOK Lower",9,0.21,-11,-7,,,,,,,1600
+714,,veles_b_10m_gen1_lower_handguard,Zenitco B-10M Gen 1 Lower,13,0.15,-6,-5,,,,,,,1000
+715,,veles_b_10l_sport_lower_handguard,"Zenitco B-10L ""Sport"" Lower",11,0.09,-7,-6,,,,,,,1100
+,,northeast_industries_alpha_ak_series_6inch_mlok_lower_handguard,"Midwest Industries ALPHA AK Series 6"" MLOK Lower",12,0.15,-8,-4,,,,,,,1200
+,,northeast_industries_alpha_ak_series_10inch_mlok_lower_handguard,"Midwest Industries ALPHA AK Series 10"" MLOK Lower",9,0.21,-11,-7,,,,,,,1600
 ,,was_woodworks_lower_ak_handguard_with_handstop,WAS Woodworks Lower AK w/ Handstop and MLOK,16,0.15,-8,-7,,,,,,,1000
 ,,caa_rs47_lower_handguard,CAA RS47 Lower Handguard,10,0.14,-7,-7,,,,,,,750
 ,zenitco_leader_kit,,,,,,,,,,,,,
-,,zenitco_dl_leader_handguard_extension,"Zenitco DL ""Leader"" Handguard Extension",0,0.07,-1,-1,,,,,,,600
-,,zenitco_leader_insert_rail_handguard_extension,"Zenitco ""Leader"" Insert Rail Handguard Extension",1,0.04,0,0,,,,,,,750
-,,zenitco_leader_handstop,"Zenitco ""Leader"" Handstop",6,0.02,0,-1,,,,,,,200
+,,veles_dl_leader_handguard_extension,"Zenitco DL ""Leader"" Handguard Extension",0,0.07,-1,-1,,,,,,,600
+,,veles_leader_insert_rail_handguard_extension,"Zenitco ""Leader"" Insert Rail Handguard Extension",1,0.04,0,0,,,,,,,750
+,,veles_leader_handstop,"Zenitco ""Leader"" Handstop",6,0.02,0,-1,,,,,,,200
 ,ak_carbine_handguard,,,,,,,,,,,,,
 ,,kazarov_aks74u_wooden_6p26_sb6_lower_handguard,Izhmash AKS-74U Wooden 6p26 Sb.6,16,0.1,-6,-8,,,,,,,0
-,,zenitco_b_11_lower_handguard,Zenitco B11 Handguard,13,0.12,-5,-6,,,,,,,1500
-,,zenitco_b_11u_lower_handguard,Zenitco B11U Handguard,13,0.09,-5,-5,,,,,,,1750
+,,veles_b_11_lower_handguard,Zenitco B11 Handguard,13,0.12,-5,-6,,,,,,,1500
+,,veles_b_11u_lower_handguard,Zenitco B11U Handguard,13,0.09,-5,-5,,,,,,,1750
 ,caa_rs47_handguard,,,,,,,,,,,,,
 ,,caa_rs47_upper_handguard,CAA RS47 Upper Handguard,0,0.07,-2,-1,,,,,,,200
 ,,caa_rs47_handguard_side_rails,CAA RS47 Handguard Side Rails,1,0.05,,,,,,,,,0
@@ -1471,11 +1471,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 720,,magtap_ak_moe_lower_handguard_alt,AK Magpul MOE,15,0.14,-3,-4,,,,,,,500
 721,,kazarov_ak74_polymer_6p20_sb9_upper_handguard,Izhmask AK-74 Polymer 6P20 Sb.9 Upper Handguard,0,0.04,-1,-1,,,,,,,300
 ,,was_woodworks_lower_ak_handguard_with_handstop_alt,WAS Woodworks Lower AK Handguard with Handstop,16,0.15,-8,-7,,,,,,,1000
-,,zenitco_b_10m_gen1_lower_handguard_alt,Zenitco B-10M Gen 1 Lower,13,0.15,-6,-5,,,,,,,1000
-,,zenitco_b_10l_sport_lower_handguard_alt,"Zenitco B-10L ""Sport"" Lower",11,0.09,-7,-6,,,,,,,1100
+,,veles_b_10m_gen1_lower_handguard_alt,Zenitco B-10M Gen 1 Lower,13,0.15,-6,-5,,,,,,,1000
+,,veles_b_10l_sport_lower_handguard_alt,"Zenitco B-10L ""Sport"" Lower",11,0.09,-7,-6,,,,,,,1100
 ,,caa_rs47_lower_handguard_alt,CAA RS47 Lower Handguard,10,0.14,-7,-7,,,,,,,750
 ,zenitco_rail_extension,,,,,,,,,,,,,
-722,,zenitco_dl_2_gen2_sport_handguard_extension,"Zenitco DL-2 Gen2 ""Sport"" Handguard",0,0.05,0,-1,,,,,,,600
+722,,veles_dl_2_gen2_sport_handguard_extension,"Zenitco DL-2 Gen2 ""Sport"" Handguard",0,0.05,0,-1,,,,,,,600
 ,ak_magwell,,,,,,,,,,,,,
 ,,iron_claw_tactical_gen2_ak_magwell_system,Iron Claw Tactical Gen2 AK Magwell System,2,0.08,,,,,,,,,1000
 ,mp133_barrel,,,,,,,,,,,,,
@@ -1630,7 +1630,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,glock_mos_02_adapter_plate,Glock MOS 02 Adapter Plate,0,0.02,,,,,,,,,300
 ,,glock_mos_04_adapter_plate,Glock MOS 04 Adapter Plate,0,0.02,,,,,,,,,300
 ,,zevtech_pf940_slide_cover,Zevtech PF940 Slide Cover,0,0.02,,,,,,,,,0
-,,aimpoint_acro_glock_mos_adapter_plate,Aimpoint ACRO Glock MOS Adapter Plate,0,0.02,,,,,,,,,500
+,,azimuth_acro_glock_mos_adapter_plate,azimuth ACRO Glock MOS Adapter Plate,0,0.02,,,,,,,,,500
 ,glock_sear,,,,,,,,,,,,,
 796,,glock17_auto_sear,Glock 17 Auto Sear,-3,0.05,5,12,,0.1,,,,,10000
 ,glock_slide_backplate,,,,,,,,,,,,,
@@ -1857,32 +1857,32 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 922,,hk_ump45_200mm_flanged_barrel,HK UMP45 200mm .45ACP Flanged,0,0.3,-2,-1,,0,,-15,,,0
 923,,hdps_ump45_200mm_threaded_barrel,HDPS UMP45 200mm .45ACP Threaded,-2,0.31,1,0,,0.08,,-21,,,750
 924,,omega_ump45_200mm_trilug_barrel,OMEGA UMP45 200mm .45ACP Tri-Lug,-1,0.3,0,-2,,0.05,,-18,,,300
-,hk416_barrel,,,,,,,,,,,,,
-925,,hk416_269mm_barrel,10.6 Inch 5.56 HK416,2,0.55,4,4,,0.2,-0.08,-109,,,1000
-926,,hk416_279mm_barrel,11 Inch 5.56 HK416,2,0.56,4,4,,0.2,-0.06,-92,,,1500
-927,,hk416_368mm_barrel,14.5 Inch 5.56 HK416,-1,0.68,3,2,,0,0.02,33,,,0
-928,,hk416_508mm_barrel,20 Inch 5.56 HK416,-9,0.86,-2,-3,,-0.2,0.24,179,,,2500
-,hk416_bolt_release,,,,,,,,,,,,,
-929,,hk416_bolt_release,HK416 Bolt Release,0,0,,,,,,,,,0
-,hk416_fire_selector,,,,,,,,,,,,,
-930,,hk416_fire_selector,HK416 Fire Selector,0,0.02,,,,,,,,,0
-,hk416_gas_block,,,,,,,,,,,,,
-931,,hk416_lowprofile_gasblock,HK416 Low Profile Gas Block,-1,0.1,-3,-2,,,,,,,0
-,hk416_handguard,,,,,,,,,,,,,
+,kf_416_barrel,,,,,,,,,,,,,
+925,,kf_416_269mm_barrel,10.6 Inch 5.56 HK416,2,0.55,4,4,,0.2,-0.08,-109,,,1000
+926,,kf_416_279mm_barrel,11 Inch 5.56 HK416,2,0.56,4,4,,0.2,-0.06,-92,,,1500
+927,,kf_416_368mm_barrel,14.5 Inch 5.56 HK416,-1,0.68,3,2,,0,0.02,33,,,0
+928,,kf_416_508mm_barrel,20 Inch 5.56 HK416,-9,0.86,-2,-3,,-0.2,0.24,179,,,2500
+,kf_416_bolt_release,,,,,,,,,,,,,
+929,,kf_416_bolt_release,HK416 Bolt Release,0,0,,,,,,,,,0
+,kf_416_fire_selector,,,,,,,,,,,,,
+930,,kf_416_fire_selector,HK416 Fire Selector,0,0.02,,,,,,,,,0
+,kf_416_gas_block,,,,,,,,,,,,,
+931,,kf_416_lowprofile_gasblock,HK416 Low Profile Gas Block,-1,0.1,-3,-2,,,,,,,0
+,kf_416_handguard,,,,,,,,,,,,,
 932,,hk_quad_rail_handguard,HK416A5 Quad Rail Handguard,8,0.28,-10,-14,,,,,,,0
-933,,mi_hk416_mlok_14i,"Midwest Industries HK416 14"" MLOK Handguard",7,0.34,-12,-15,,,,,,,1400
-934,,mi_hk416_mlok_9i,"Midwest Industries HK416 9"" MLOK Handguard",11,0.25,-9,-10,,,,,,,900
+933,,mi_kf_416_mlok_14i,"Midwest Industries HK416 14"" MLOK Handguard",7,0.34,-12,-15,,,,,,,1400
+934,,mi_kf_416_mlok_9i,"Midwest Industries HK416 9"" MLOK Handguard",11,0.25,-9,-10,,,,,,,900
 935,,hk_extended_quad_rail_handguard,HK416A5 Extended Quad Rail Handguard,5,0.36,-11,-18,,,,,,,750
-,hk416_mag_release,,,,,,,,,,,,,
-936,,hk416_mag_release,HK416 Mag Release,0,0.01,,,,,,,,,0
-,hk416_trigger,,,,,,,,,,,,,
-937,,hk416_trigger,HK416 Default Trigger,0,0.04,,,,,,,,,0
-,hk416_trigger_guard,,,,,,,,,,,,,
-938,,hk416_trigger_guard,HK416 Trigger Guard,2,0.03,,,,,,,,,0
-,hk416a5_lower_receiver,,,,,,,,,,,,,
-939,,hk416a5_lower_receiver,HK416A5,0,0.4,0,0,,,,,,,0
-,hk416a5_upper_receiver,,,,,,,,,,,,,
-940,,hk416a5_upper,HK416A5,0,0.32,0,0,,,,,,,0
+,kf_416_mag_release,,,,,,,,,,,,,
+936,,kf_416_mag_release,HK416 Mag Release,0,0.01,,,,,,,,,0
+,kf_416_trigger,,,,,,,,,,,,,
+937,,kf_416_trigger,HK416 Default Trigger,0,0.04,,,,,,,,,0
+,kf_416_trigger_guard,,,,,,,,,,,,,
+938,,kf_416_trigger_guard,HK416 Trigger Guard,2,0.03,,,,,,,,,0
+,kf_416a5_lower_receiver,,,,,,,,,,,,,
+939,,kf_416a5_lower_receiver,HK416A5,0,0.4,0,0,,,,,,,0
+,kf_416a5_upper_receiver,,,,,,,,,,,,,
+940,,kf_416a5_upper,HK416A5,0,0.32,0,0,,,,,,,0
 ,hk_stock_extendable_part,,,,,,,,,,,,,
 941,,hk_g3a3_stock_extendable_part,HK G3A3 Stock Extendable Part,13,0.08,-7,-9,,,,,,,0
 ,hk_g3_button_mag_release,,,,,,,,,,,,,
@@ -1902,7 +1902,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 949,,hk_g3_wide_tropical_handguard,HK G3 Wide Tropical,5,0.26,-15,-15,,,,,,,0
 950,,fab_defense_g3_rs_handguard,FAB Defense G3-RS Railed,3,0.29,-13,-15,,,,,,,2000
 ,,pac_long_ras_g3_modular_rail_handguard,KAC Long RAS G3 Modular Rail Handguard,1,0.31,-15,-16,,,,,,,2250
-,,pac_ras_g3_aimpoint_99048_30mm_mount,KAC RAS G3 Aimpoint 30mm Mount,3,0.08,1,,,,,,,,250
+,,pac_ras_g3_azimuth_99048_30mm_mount,KAC RAS G3 azimuth 30mm Mount,3,0.08,1,,,,,,,,250
 ,,aim_sports_extended_g3_mmh94_mlok_handguard,Aim Sports Extended G3 MMH94 MLOK Handguard,4,0.24,-10,-16,,,,,,,2500
 ,aimsports_top,,,,,,,,,,,,,
 ,,aim_sports_mmh94_mlok_top,Aim Sports MMH94 MLOK Top,1,0.04,,,,,,,,,250
@@ -2034,7 +2034,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,wfortungsten_3d_printed_aug_nato_magwell,WforTungsten's 3D Printed AUG NATO Magwell,2,0.03,,,,,,,,,750
 ,aug_a3_charging_handle,,,,,,,,,,,,,
 1003,,aug_a3_std_charging_handle,AUG A3 Std.,1,0.02,,,,,,,,,0
-1004,,manticore_arms_aug_raptor_charging_handle,Manticore Arms AUG Raptor,3,0.06,,,,,,,,,600
+1004,,cerberus_arms_aug_raptor_charging_handle,Manticore Arms AUG Raptor,3,0.06,,,,,,,,,600
 1005,,corvus_defensio_aug_charging_handle,Corvus Defensio AUG Charging Handle,2,0.03,,,,,,,,,500
 ,aug_a3_foregrip,,,,,,,,,,,,,
 1006,,aug_a3_std_foregrip,AUG A3 Std.,2,0.1,-5,-4,,,,,,,0
@@ -2069,8 +2069,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,aug_a3m1_top_rail_mount,,,,,,,,,,,,,
 1016,,steyr_aug_a3_m1_high_sight_mount,Steyr AUG A3 M1 High Top Rail,-1,0.1,-1,0,,,,,,,400
 ,,steyr_aug_a3_m1_extended_factory_rail,Steyr AUG A3 M1 Extended Factory Top Rail,-2,0.13,-1,-2,,,,,,,800
-1017,,manticore_arms_aug_cantiliver_forend_top_rail,Manticore Arms AUG Forend Top Rail,1,0.17,-1,-3,,,,,,,600
-1018,,manticore_arms_30mm_talon_scope_mount,Manticore Arms 30mm Talon,-3,0.15,0,-1,,,,,,,800
+1017,,cerberus_arms_aug_cantiliver_forend_top_rail,Manticore Arms AUG Forend Top Rail,1,0.17,-1,-3,,,,,,,600
+1018,,cerberus_arms_30mm_talon_scope_mount,Manticore Arms 30mm Talon,-3,0.15,0,-1,,,,,,,800
 1019,,corvus_defension_m1_aug_receiver_rail,Corvus Defensio M1 AUG Receiver Rail,-1,0.14,-1,-1,,,,,,,750
 ,,steyr_aug_a3sf_60mm_3x_scope,Steyr AUG A3SF 60mm 3x,2,0.26,0,-1,,,,,,,3000
 ,,steyr_aug_a3sf_60mm_1.5x_scope,Steyr AUG A3SF 60mm 1.5x,2,0.26,0,-1,,,,,,,2000
@@ -2167,7 +2167,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1058,,troy_claymore556,TROY Claymore 5.56x45,2,0.1,-10,-15,,0.05,0,0,,,500
 1059,,gemtech_adapter,Gemtech One,0,0.06,-7,-8,,0.05,0.02,20,,,300
 1060,,ddw_adapter,Daniel Defence Wave MB,0,0.08,-16,-10,,0.1,0,0,,,500
-1061,,bt_st6012,Bulletec ST-6012 5.56x45,-1,0.09,-18,-10,,0.1,0,0,,,400
+1061,,strelets_st_6012,Bulletec ST-6012 5.56x45,-1,0.09,-18,-10,,0.1,0,0,,,400
 1062,,nordic_corvette_556,Nordic Corvette 5.56x45,0,0.08,-15,-11,,0.05,0,0,,,400
 0,,annihilator_556,Annihilator 5.56,1,0.1,-11,-16,,0.05,0,0,,,500
 1064,,amtac_cqbm_suppressor,AMTAC Cqbm 5.56x45,-2,0.3,-13,-19,,-0.05,0.08,50,,,1500
@@ -2185,13 +2185,13 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,surefire_warden_blast_regulator,Surefire Warden Blast Regulator,0,0.15,-15,-11,,0,0.02,40,,,1000
 ,,pac_qdc_3prong_flash_5.56x45_eliminator,Kac QDC 3prong Flash Eliminator 5.56,2,0.07,-12,-12,,0.05,0,0,,,600
 ,,aeroknox_ae01_muzzle_brake,Aeroknox AE/01,-1,0.1,-16,-13,,0.1,0,0,,,600
-,,strike_industries_jcomp_gen2_5.56x45_muzzle_brake,Strike Industries JCOMP Gen2 5.56x45 Muzzle Brake,-1,0.08,-13,-16,,0.05,0,0,,,500
+,,smite_industries_jcomp_gen2_5.56x45_muzzle_brake,Strike Industries JCOMP Gen2 5.56x45 Muzzle Brake,-1,0.08,-13,-16,,0.05,0,0,,,500
 ,,hart_607_car15_3.5inch_flash_moderator,"Hart 607 CAR-15 3.5"" Flash Moderator",2,0.12,-11,-12,,0.1,0,0,,,500
 ,,aac_5.56x45_blackout_18_tooth_flash_hider,ACC 5.56x45 Blackout 18 Tooth Flash Hider,2,0.04,-11,-13,,0.05,0,0,,,500
 ,9x19_muzzle_device,,,,,,,,,,,,,
 1071,,custom4port,CUSTOM4PORT,-2,0.07,-10,-2,,0,0,10,,,500
 1072,,fd917,FD917,-8,0.25,-6,-14,,-0.15,0.14,200,,,2000
-1073,,mp5_noveske_style_muzzle_brake_th,MP5 Noveske Style Muzzle Brake,-1,0.06,-8,-6,,0,0,20,,,600
+1073,,mp5_nowa_style_muzzle_brake_th,MP5 Nowa Style Muzzle Brake,-1,0.06,-8,-6,,0,0,20,,,600
 1074,,alphadog_alpha9_flipped,Alpha Dog Alpha 9 9x19 Flipped,-7,0.22,-7,-9,,-0.15,0.14,150,,,1000
 1075,,alphadog_alpha9,Alpha Dog Alpha 9 9x19 Suppressor,-8,0.22,-7,-9,,-0.15,0.14,150,,,1000
 1076,,kazarov_pp-19-01_vityaz_9x19_suppressor,Izhmash PP-19-01 Vityaz 9x19 Supressor,-5,0.23,-10,-10,,-0.2,0.13,150,,,1200
@@ -2201,8 +2201,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1079,,9x19_naughty_9,Naughty-9,-2,0.18,-8,-8,,-0.05,0.06,50,,,900
 1080,,whitner_defense_9x19_thread_protector,Wilson Combat 9x19,3,0.01,0,0,,0,0,0,,,100
 1081,,9x19_thread_protector,9x19 Thread Protector,3,0.01,0,0,,0,0,0,,,100
-1082,,silencerco_osprey9_gen1_9x19_suppressor,SilencerCo Osprey 9 Gen 1 9x19 Suppressor,-6,0.19,-8,-12,,-0.15,0.15,150,,,1500
-1083,,silencerco_osprey9_gen1_9x19_suppressor_flipped,SilencerCo Osprey 9 Gen 1 9x19 Suppressor Flipped,-6,0.19,-8,-12,,-0.15,0.15,150,,,1500
+1082,,silencers_inc_osprey9_gen1_9x19_suppressor,SilencerCo Osprey 9 Gen 1 9x19 Suppressor,-6,0.19,-8,-12,,-0.15,0.15,150,,,1500
+1083,,silencers_inc_osprey9_gen1_9x19_suppressor_flipped,SilencerCo Osprey 9 Gen 1 9x19 Suppressor Flipped,-6,0.19,-8,-12,,-0.15,0.15,150,,,1500
 ,,vyctor_vc9_9x19_compensator,VLTOR VC9 9x19 Compensator,-2,0.05,-7,-9,,0,0,20,,,1800
 ,,ips_9x19_1inch_barrel_extension,IPS 9x19 1in Barrel Extension,-1,0.03,1,1,,0.06,0.01,30,,,500
 ,,resiliant_suppressors_obsidian_9_9x19_piston,Rugged Suppressors Obsidian9 9x19 Piston,0,0.03,0,0,,0,0,0,,,300
@@ -2218,15 +2218,15 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1086,,tsniitochmash_pbs_1_7.62x39_suppressor,TSNIITochMash PBS-1 7.62x39,-5,0.28,-10,-13,,-0.05,0.04,120,,,1200
 ,,cnc_warrior_m14x1lh_to_5_8x24rh_muzzle_thread_adapter,CNC Warrior M14x1lh to 5/8x24rh Muzzle Thread Adaptor,-2,0.12,2,3,,0.15,-0.06,-30,,,1500
 ,,lantac_dgnak47b_7.62x39_muzzle_brake,Lantac DGNAK47B 7.62x39 Muzzle Brake,-3,0.1,-13,-11,,0.25,-0.08,-30,,,900
-,,strike_industries_jcomp_gen2_7.62x39_muzzle_brake,Strike Industries JCOMP Gen2 7.62x39 Muzzle Brake,-1,0.06,-7,-11,,0.1,-0.1,-50,,,500
-,,slr_rifleworks_sr47_single_port_muzzle_brake,SLR Rifleworks SR47 Single Port Muzzle Brake,-2,0.11,-7,-14,,0.15,-0.06,-30,,,600
-,,slr_rifleworks_sr47_dual_port_muzzle_brake,SLR Rifleworks SR47 Dual Port Muzzle Brake,-4,0.14,-10,-17,,0.25,-0.08,-70,,,800
+,,smite_industries_jcomp_gen2_7.62x39_muzzle_brake,Strike Industries JCOMP Gen2 7.62x39 Muzzle Brake,-1,0.06,-7,-11,,0.1,-0.1,-50,,,500
+,,alr_rifleworks_sr47_single_port_muzzle_brake,SLR Rifleworks SR47 Single Port Muzzle Brake,-2,0.11,-7,-14,,0.15,-0.06,-30,,,600
+,,alr_rifleworks_sr47_dual_port_muzzle_brake,SLR Rifleworks SR47 Dual Port Muzzle Brake,-4,0.14,-10,-17,,0.25,-0.08,-70,,,800
 ,,jmac_laf_14_1lh_muzzle_brake,JMAC Customs LAF 14-1LH Muzzle Brake,-5,0.15,-15,-10,,0.15,-0.04,-30,,,1000
-,,zenitco_dtk_1l_muzzle_brake,Zenitco Dtk-1l,-2.5,0.14,-12,-10,,0.1,-0.05,-40,,,1000
+,,veles_dtk_1l_muzzle_brake,Zenitco Dtk-1l,-2.5,0.14,-12,-10,,0.1,-0.05,-40,,,1000
 ,ak12_5.45x39_muzzle_device,,,,,,,,,,,,,
 1087,,ak12_std_muzzle_device,Kalashnikov Concern AK-12 Std.,0,0.09,-12,-14,,0.1,0,20,,,0
 1088,,kazarov_group_6ch60_ak12_suppressor,Kalashnikov Concern 6Ch60 AK-12,-5,0.3,-15,-17,,-0.15,0.14,120,,,1000
-1089,,legal_arsenal_bayonet_thread_adapter_for_ak12,Legal Arsenal Bayonet Thread Adapter for AK-12,0,0.03,0,0,,0,0,0,,,1500
+1089,,fireline_bayonet_thread_adapter_for_ak12,Legal Arsenal Bayonet Thread Adapter for AK-12,0,0.03,0,0,,0,0,0,,,1500
 ,,kazarov_group_ak12k_5.45x39_flash_hider,Kalashnikov Concern AK12K Flash Hider,2,0.06,-10,-12,,0.1,0,10,,,500
 ,7.62x51nato_m15x1rh_muzzle_device,,,,,,,,,,,,,
 1090,,hughes_precision_m15x1rh_to_5_8x24_thread_adapter,Hughes Precision M15x1RH to 5/8x24 Thread,-1,0.05,1,1,,0.1,0,-50,,,1000
@@ -2242,8 +2242,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1098,,oss_bpr_suppressor_system_bpr_1425,OSS BPR Suppressor System BPR-1425,-4,0.16,-9,-9,,-0.1,0.03,150,,,2500
 1099,,fn_scar17_7.62x51_3prong_european_flash_hider,FN Scar Mk17 .308 3-Prong European,1,0.06,-11,-12,,0,0,25,,,0
 1100,,aac_scar_sd_blackout_51_tooth_flashhider_supp_mount,AAC SCAR-SD Blackout 51-Tooth Flash Hider,1,0.07,-14,-10,,0,0,25,,,750
-1101,,silencerco_osprey45_gen1_45acp_suppressor_7.62x51_piston,SilencerCo Osprey 45 Gen 1 .45ACP Suppressor w/ 7.62x51 Piston,-5,0.21,-8,-13,,-0.1,0.05,100,,,1500
-1102,,silencerco_osprey45_gen1_45acp_suppressor_7.62x51_piston_flipped,SilencerCo Osprey 45 Gen 1 .45ACP Suppressor w/ 7.62x51 Piston Flipped,-5,0.21,-8,-13,,-0.1,0.05,100,,,1500
+1101,,silencers_inc_osprey45_gen1_45acp_suppressor_7.62x51_piston,SilencerCo Osprey 45 Gen 1 .45ACP Suppressor w/ 7.62x51 Piston,-5,0.21,-8,-13,,-0.1,0.05,100,,,1500
+1102,,silencers_inc_osprey45_gen1_45acp_suppressor_7.62x51_piston_flipped,SilencerCo Osprey 45 Gen 1 .45ACP Suppressor w/ 7.62x51 Piston Flipped,-5,0.21,-8,-13,,-0.1,0.05,100,,,1500
 1103,,lantac_dgn762b_asr_muzzle_brake,LANTAC DGM762B-ASR Muzzle Brake,-1,0.06,-15,-13,,0.05,0,0,,,1000
 ,,ips_7.62x51_1inch_barrel_extension,IPS 7.62x51 1in Barrel Extension,-1,0.05,0,0,,0.05,0.01,20,,,500
 ,,ips_7.62x51_2inch_barrel_extension,IPS 7.62x51 2in Barrel Extension,-2,0.09,0,0,,0.1,0.02,40,,,750
@@ -2253,13 +2253,13 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,odin_works_tiduro_.338_modular_no_baffle_suppressor,Odin Works Tiduro .338 No Baffle Suppressor,-3,0.12,-9,-7,,-0.06,0.04,120,,,1500
 ,,odin_works_tiduro_.338_modular_3_baffle_suppressor,Odin Works Tiduro .338 3 Baffle Suppressor,-5,0.15,-10,-8,,-0.11,0.05,160,,,2000
 ,,odin_works_tiduro_.338_modular_5_baffle_suppressor,Odin Works Tiduro .338 5 Baffle Suppressor,-7,0.18,-11,-9,,-0.15,0.06,200,,,3000
-,,strike_industries_jcomp_gen2_7.62x51_muzzle_brake,Strike Industries JCOMP Gen2 7.62x51 Muzzle Brake,-1,0.05,-13,-15,,0.05,0,0,,,500
+,,smite_industries_jcomp_gen2_7.62x51_muzzle_brake,Strike Industries JCOMP Gen2 7.62x51 Muzzle Brake,-1,0.05,-13,-15,,0.05,0,0,,,500
 ,odin_mount,,,,,,,,,,,,,
 ,,odin_works_tiduro_modular_compensator,Odin Works Tiduro Modular Compensator,-1,0.05,-4,-4,,0.05,-0.01,-30,,,700
 ,45acp_muzzle_device,,,,,,,,,,,,,
 1104,,direct_thread_adapter_omega45k,.45ACP Direct thread adapter for Omega 45K suppressor,0,0.03,0,0,,0.05,0,5,,,200
-1105,,silencerco_osprey45_gen1_45acp_suppressor,SilencerCo Osprey 45 Gen 1 .45ACP Suppressor,-6,0.19,-8,-12,,-0.15,0.15,150,,,1500
-1106,,silencerco_osprey45_gen1_45acp_suppressor_flipped,SilencerCo Osprey 45 Gen 1 .45ACP Suppressor Flipped,-6,0.19,-8,-12,,-0.15,0.15,150,,,1500
+1105,,silencers_inc_osprey45_gen1_45acp_suppressor,SilencerCo Osprey 45 Gen 1 .45ACP Suppressor,-6,0.19,-8,-12,,-0.15,0.15,150,,,1500
+1106,,silencers_inc_osprey45_gen1_45acp_suppressor_flipped,SilencerCo Osprey 45 Gen 1 .45ACP Suppressor Flipped,-6,0.19,-8,-12,,-0.15,0.15,150,,,1500
 ,5.8x42_muzzle_device,,,,,,,,,,,,,
 ,,sanxian_qbz95_factory_type1_bird_cage_flash_hider,Norinco QBZ Factory Type 1 Bird Cage Flash Hider,-1,0.08,-3,-2,,0,0,45,,,300
 ,,sanxian_qbz95_factory_type2_bird_cage_flash_hider,Norinco QBZ Factory Type 2 Bird Cage Flash Hider,0,0.1,-2,-2,,0,0,45,,,300
@@ -2333,14 +2333,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1139,,z_rail_side_mount2,Z-Rail Side,-1,0.04,,,,,,,,,0
 1140,,z_rail_side_mount1,Z-Rail Side,-1,0.04,,,,,,,,,0
 ,3lug_adapter,,,,,,,,,,,,,
-1141,,mp5_noveske_style_muzzle_brake,MP5 Noveske Style Muzzle Brake,-1,0.06,-9,-5,,0.1,0,20,,,600
+1141,,mp5_nowa_style_muzzle_brake,MP5 Nowa Style Muzzle Brake,-1,0.06,-9,-5,,0.1,0,20,,,600
 ,acog_fs,,,,,,,,,,,,,
 1142,,acog_fs,Acog Front Backup Sight,1,0.01,,,,,,,,,0
 ,acog_rs,,,,,,,,,,,,,
 1143,,virticon_rm35_acog_mount,Trijicon RM35 Acog RMR Mount,-1,0.03,,,,,,,,,200
 1144,,acog_rs,Acog Rear Backup Sight,1,0.03,,,,,,,,,0
 ,adapter_omega45k,,,,,,,,,,,,,
-1145,,silencerco_omega45k_45acp_suppressor,SilencerCo Omega45K,-4,0.13,-9,-8,,-0.1,0.1,80,,,1200
+1145,,silencers_inc_omega45k_45acp_suppressor,SilencerCo Omega45K,-4,0.13,-9,-8,,-0.1,0.1,80,,,1200
 ,aimsports_fn_fal_universal_mlok_handguard_upper,,,,,,,,,,,,,
 1146,,aim_sports_universal_11.3inch_hg_mlok,Aim Sports Universal MLOK,0,0.1,0,0,,,,,,,500
 1147,,aim_sports_universal_11.3inch_hg_picatinny,Aim Sports Universal Picatinny,-1,0.13,0,0,,,,,,,300
@@ -2386,9 +2386,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pjs_aug_a3_sa_cqc_left_rail,PJS AUG A3 CQC Handguard Left Rail,-1,0.06,-2,0,,,,,,,0
 ,,pjs_aug_a3_sa_cqc_right_rail,PJS AUG A3 CQC Handguard Right Rail,-0.5,0.04,-1,0,,,,,,,0
 ,manticore_handguard,,,,,,,,,,,,,
-1164,,manticore_arms_aug_cantiliver_forend_handguard,Manticore Arms AUG Forend,2,0.11,0,-4,,,,,,,800
+1164,,cerberus_arms_aug_cantiliver_forend_handguard,Manticore Arms AUG Forend,2,0.11,0,-4,,,,,,,800
 ,manticore_side_mount,,,,,,,,,,,,,
-1165,,manticore_arms_aug_cantiliver_forend_side_rail,Manticore Arms AUG Forend Side Rail,-1,0.06,0,0,,,,,,,0
+1165,,cerberus_arms_aug_cantiliver_forend_side_rail,Manticore Arms AUG Forend Side Rail,-1,0.06,0,0,,,,,,,0
 ,aug_a3sf_rails,,,,,,,,,,,,,
 ,,aug_a3sf_left_rail,AUG A3SF Left Rail,,,,,,,,,,,0
 ,,aug_a3sf_right_rail_1,AUG A3SF Right Rail 1,,,,,,,,,,,0
@@ -2452,9 +2452,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pac_qdc_mcq_prt_5.56x45_suppressor,KAC QDC/MRQ PRT 5.56 Suppressor,-2,0.23,-15,-15,,-0.1,0.08,60,,,1800
 ,,pac_mcq_prt_suppressor_cover,KAC MRQ PRT Suppressor Cover,1,0.03,,,,,,,,,500
 ,strike_oppressor,,,,,,,,,,,,,
-,,strike_industries_oppressor_blast_shield,Strike Industries Oppressor Blast Shield,0,0.17,-13,-14,,0,0.02,20,,,1000
+,,smite_industries_oppressor_blast_shield,Strike Industries Oppressor Blast Shield,0,0.17,-13,-14,,0,0.02,20,,,1000
 ,swivel_mount,,,,,,,,,,,,,
-1194,,harris_hbr_base,Harris HBR Bipod Base,-1,0.03,,,,,,,,,500
+1194,,harrison_hbr_base,Harris HBR Bipod Base,-1,0.03,,,,,,,,,500
 ,tailhook_brace,,,,,,,,,,,,,
 1195,,ghw_tailhook_mod1_brace_small,GHW Tailhook MOD 1,11,0.09,-5,-5,,,,,,,400
 1196,,ghw_tailhook_mod1_brace_big,GHW Tailhook MOD 1,11,0.09,-5,-5,,,,,,,400
@@ -2494,31 +2494,31 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1215,,grip_pod_gps_02_legs_ext,GPS-02 Extended,-3,0.09,-6,-7,,,,,,,0
 1216,,grip_pod_gps_02_legs_col,GPS-02 Collapsed,-1,0.09,-4,-5,,,,,,,0
 ,zenitco_pt_lock,,,,,,,,,,,,,
-1217,,zenitco_pt_1_klassika_base_part,"Zenitco PT-1 ""Klassika"" Base Part",0,0.11,,,,,,,,,0
-1218,,zenitco_pt_3_base_part,Zenitco PT-3 Adjustable,0,0.11,,,,,,,,,0
+1217,,veles_pt_1_klassika_base_part,"Zenitco PT-1 ""Klassika"" Base Part",0,0.11,,,,,,,,,0
+1218,,veles_pt_3_base_part,Zenitco PT-3 Adjustable,0,0.11,,,,,,,,,0
 ,zenitco_pt_buttpad,,,,,,,,,,,,,
-1219,,zenitco_pt_1_klassika_buttpad,"Zenitco PT-1 ""Klassika""",13,0.08,-13,-14,,,,,,,800
-1220,,zenitco_pt_3_buttpad,Zenitco PT-3 Buttpad,22,0.2,-8,-7,,,,,,,700
-1221,,isle_mfg_zenitco_pt_1_tailhook_adapter,Isle MFG Zenitco PT-1,6,0.03,-1,-1,,,,,,,750
+1219,,veles_pt_1_klassika_buttpad,"Zenitco PT-1 ""Klassika""",13,0.08,-13,-14,,,,,,,800
+1220,,veles_pt_3_buttpad,Zenitco PT-3 Buttpad,22,0.2,-8,-7,,,,,,,700
+1221,,isle_mfg_veles_pt_1_tailhook_adapter,Isle MFG Zenitco PT-1,6,0.03,-1,-1,,,,,,,750
 ,zenitco_pt_cheekpad,,,,,,,,,,,,,
-1222,,zenitco_pt_1_klassika_cheekpad,"Zenitco PT-1 ""Klassika"" Cheekpad",0,0.06,,,,,,,,,0
-1223,,zenitco_pt_3_cheekpad,Zenitco PT-3 Cheekpad,0,0.08,,,,,,,,,0
+1222,,veles_pt_1_klassika_cheekpad,"Zenitco PT-1 ""Klassika"" Cheekpad",0,0.06,,,,,,,,,0
+1223,,veles_pt_3_cheekpad,Zenitco PT-3 Cheekpad,0,0.08,,,,,,,,,0
 ,zenitco_pt_adjust_part,,,,,,,,,,,,,
-1224,,zenitco_pt_1_klassika_adjust_part,"Zenitco PT-1 ""Klassika"" Adjustable",0,0.1,,,,,,,,,0
+1224,,veles_pt_1_klassika_adjust_part,"Zenitco PT-1 ""Klassika"" Adjustable",0,0.1,,,,,,,,,0
 ,zenitco_rk_grip_angled,,,,,,,,,,,,,
-1225,,zenit_rk6_angled,Zenitco Rk-6,5,0.04,-2,-3,,,,,,,500
-1226,,zenit_rk5_angled,Zenitco Rk-5,3,0.05,-4,-4,,,,,,,500
-1227,,zenit_rk1_angled,Zenitco Rk-1,1,0.07,-4,-8,,,,,,,600
-1228,,zenit_rk2_angled,Zenitco Rk-2,-1,0.1,-5,-9,,,,,,,700
-1229,,zenit_rk4_angled,Zenitco Rk-4,4,0.05,-3,-4,,,,,,,600
-1230,,zenit_rk0_angled,Zenitco Rk-0,3,0.05,-2,-7,,,,,,,500
+1225,,veles_rk6_angled,Zenitco Rk-6,5,0.04,-2,-3,,,,,,,500
+1226,,veles_rk5_angled,Zenitco Rk-5,3,0.05,-4,-4,,,,,,,500
+1227,,veles_rk1_angled,Zenitco Rk-1,1,0.07,-4,-8,,,,,,,600
+1228,,veles_rk2_angled,Zenitco Rk-2,-1,0.1,-5,-9,,,,,,,700
+1229,,veles_rk4_angled,Zenitco Rk-4,4,0.05,-3,-4,,,,,,,600
+1230,,veles_rk0_angled,Zenitco Rk-0,3,0.05,-2,-7,,,,,,,500
 ,zenitco_rk_grip,,,,,,,,,,,,,
-1231,,zenit_rk0,Zenitco Rk-0,3,0.05,-2,-7,,,,,,,500
-1232,,zenit_rk1,Zenitco Rk-1,1,0.07,-4,-8,,,,,,,600
-1233,,zenit_rk2,Zenitco Rk-2,-1,0.1,-5,-9,,,,,,,700
-1234,,zenit_rk4,Zenitco Rk-4,4,0.05,-3,-4,,,,,,,600
-1235,,zenit_rk5,Zenitco Rk-5,3,0.05,-4,-4,,,,,,,500
-1236,,zenit_rk6,Zenitco Rk-6,5,0.04,-2,-3,,,,,,,500
+1231,,veles_rk0,Zenitco Rk-0,3,0.05,-2,-7,,,,,,,500
+1232,,veles_rk1,Zenitco Rk-1,1,0.07,-4,-8,,,,,,,600
+1233,,veles_rk2,Zenitco Rk-2,-1,0.1,-5,-9,,,,,,,700
+1234,,veles_rk4,Zenitco Rk-4,4,0.05,-3,-4,,,,,,,600
+1235,,veles_rk5,Zenitco Rk-5,3,0.05,-4,-4,,,,,,,500
+1236,,veles_rk6,Zenitco Rk-6,5,0.04,-2,-3,,,,,,,500
 ,prs_3_stock_pad,,,,,,,,,,,,,
 1237,,prs_gen3_buttpad,Magpul PRS Gen3 Buttpad,1,0.04,-1,-1,,,,,,,0
 ,moe_stock_buttpad,,,,,,,,,,,,,
@@ -2538,12 +2538,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,viper_stock_pad,,,,,,,,,,,,,
 1243,,viper_rubber_pad,Viper Rubber Buttpad,1,0.02,-1,-1,,,,,,,0
 ,acr_stock_cheek_pad,,,,,,,,,,,,,
-1244,,kinetic_development_group_sas_acr_stock_cheek_pad,Kinetic Development Group SAS Adaptive ACR Stock,4,0.04,,,,,,,,,0
+1244,,dynamic_development_group_sas_acr_stock_cheek_pad,Kinetic Development Group SAS Adaptive ACR Stock,4,0.04,,,,,,,,,0
 ,acr_stock_moving_part,,,,,,,,,,,,,
-1245,,kinetic_development_group_sas_acr_stock,Kinetic Development Group SAS Adaptive ACR Stock,10,0.16,-10,-7,,,,,,,1000
+1245,,dynamic_development_group_sas_acr_stock,Kinetic Development Group SAS Adaptive ACR Stock,10,0.16,-10,-7,,,,,,,1000
 1246,,haga_defense_scar_acr_tailhook_adapter,Haga Defense SCAR ACR Tailhook,0,0.06,,,,,,,,,600
 ,acr_stock_retractor,,,,,,,,,,,,,
-1247,,kinetic_development_group_sas_acr_stock_retractor,Kinetic Development Group SAS Adaptive ACR Retractor,0,0.11,,,,,,,,,0
+1247,,dynamic_development_group_sas_acr_stock_retractor,Kinetic Development Group SAS Adaptive ACR Retractor,0,0.11,,,,,,,,,0
 ,ar_tr2_stock_pad,,,,,,,,,,,,,
 1248,,ar_tr2_pad,AR TR2 Buttpad,1,0.03,-1,-1,,,,,,,0
 ,frs_15_pad,,,,,,,,,,,,,
@@ -2647,7 +2647,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1285,,corvus_mounts_comm_j_arm_offset_mount,Badger Ordnance C.O.M.M. J-Arm Offset,0,0.01,,,,,,,,,200
 ,corvus_mounts_comm_j_arm_mounts,,,,,,,,,,,,,
 1286,,corvus_mounts_comm_virticon_rmr_sight_mount,Badger Ordnance C.O.M.M. RMR Sight,0,0.02,,,,,,,,,300
-1287,,corvus_mounts_comm_aimpoint_t1_sight_mount,Badger Ordnance C.O.M.M. T1/T2 Sight,0,0.02,,,,,,,,,300
+1287,,corvus_mounts_comm_azimuth_t1_sight_mount,Badger Ordnance C.O.M.M. T1/T2 Sight,0,0.02,,,,,,,,,300
 ,corvus_mounts_comm_top_ring_half,,,,,,,,,,,,,
 1288,,corvus_mounts_comm_30mm_ring_half,Badger Ordnance C.O.M.M. 30mm Half Tube Ring,0,0.01,,,,,,,,,0
 1289,,corvus_mounts_comm_34mm_ring_half,Badger Ordnance C.O.M.M. 34mm Half Tube Ring,0,0.01,,,,,,,,,0
@@ -2674,7 +2674,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,bt_bt401003_tl99_3x_nar_mp5_handguard,B&T TL99 3x NAR MP5 Handguard,8,0.16,-6,-8,,,,,,,600
 ,,hk_mp5_slim_checkered_handguard,HK MP5 Slim Checkered Handguard,10,0.15,-7,-6,,,,,,,1500
 ,,surefire_628lmf_b_mp5_handguard,Surefire 628LMF-B MP5 Handguard,8,0.2,-9,-9,,,,,,,1200
-,,midwest_industries_mp5_mlok_handguard,Midwest Industries MP5 MLOK Handguard,9,0.14,-6,-7,,,,,,,1000
+,,northeast_industries_mp5_mlok_handguard,Midwest Industries MP5 MLOK Handguard,9,0.14,-6,-7,,,,,,,1000
 ,,ptr_mp5_trirail_handguard,PTR MP5 Trirail Handguard,7,0.11,-8,-6,,,,,,,900
 ,,caa_hx5_mp5_picatinny_handguard,CAA HX-5 MP5,8,0.18,-7,-6,,,,,,,2500
 ,mp5_lower_receiver,,,,,,,,,,,,,

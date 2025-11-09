@@ -36,8 +36,8 @@ from pathlib import Path
 from typing import List, Dict, Tuple
 
 CSV_PATH = Path("../balancing.csv")
-NEW_NAMES_PATH = Path("new_item_names2.txt")
-CHANGE_LOG_PATH = Path("rename_changes_auto.csv")
+NEW_NAMES_PATH = Path("new_item_names3.txt")
+CHANGE_LOG_PATH = Path("rename_changes_auto3.csv")
 
 TOKEN_SPLIT_RE = re.compile(r"[_\-/]+")
 

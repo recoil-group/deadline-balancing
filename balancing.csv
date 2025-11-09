@@ -1,4 +1,4 @@
-﻿0.24.3,Sun Nov 9 19:37:25 2025,,,,,,,,,,,,,
+﻿0.24.3,Sun Nov 09 15:56:20 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -372,12 +372,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 180,,virticon_acog_ta11d_bac_carry_handle,Trijicon Acog TA11D BAC,-3,0.2,,-2,,,,,,,1900
 ,,hart_retro_a1_scope_carry_handle_mount,Hart Retro A1 Scope Carry Handle Mount,-1,0.05,,,,,,,,,300
 ,,ultracross_4x20_scope_carry_handle_mount,Barska 4x20 Scope Carry Handle Mount,-1,0.05,,,,,,,,,300
-,,insight_technology_an_paq_4a_carry_handle_mount,Insight Technology AN/PAQ-4A Carry Handle Mount,1,0.08,,,,,,,,,200
+,,insight_technology_an_paq_4a_carry_handle_mount,Insight Technology AN/PAQ-4A Carry Handle Mount,0,0.08,,,,,,,,,200
 ,cosmic_tactical_saturn_mount,,,,,,,,,,,,,
 ,,stellartac_saturn_4x_red_scope,Cosmic Tactical SATURN 4x Red Fiber Scope,-3,0.2,,-1,,,,,,,1000
 ,,stellartac_saturn_4x_green_scope,Cosmic Tactical SATURN 4x Green Fiber Scope,-3,0.2,,-1,,,,,,,1200
 ,insight_tech_anpaq4a,,,,,,,,,,,,,
-,,insight_technology_an_paq_4a_ir_laser,Insight Technology AN/PAQ-4A IR Laser,4,0.08,-1,-1,,,,,,,1000
+,,insight_technology_an_paq_4a_ir_laser,Insight Technology AN/PAQ-4A IR Laser,1,0.08,-1,-1,,,,,,,1000
 ,magtap_mbus_frontsight_post,,,,,,,,,,,,,
 181,,magtap_mbus_gen2_frontsight_post,Magpul MBUS Gen2 Sight,0,0.005,,,,,,,,,0
 ,magtap_mbus_rearsight_post,,,,,,,,,,,,,

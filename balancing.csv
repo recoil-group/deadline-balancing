@@ -1,4 +1,4 @@
-﻿0.24.3,Sun Nov 09 15:56:20 2025,,,,,,,,,,,,,
+﻿0.24.3,Thu Nov 20 23:20:11 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -87,7 +87,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 64,,magtap_xtm_enhanced_handstop_1,Magpul XTM Enhanced Handstop Piece,6,0.03,-1,0,,,,,,,50
 65,,magtap_xtm_enhanced_half_panel_1,Magpul XTM Enhanced Modular Half Panel Piece,0.25,0.01,,,,,,,,,50
 66,,magtap_xtm_enhanced_panel_1,Magpul XTM Enhanced Modular Panel Piece,0.5,0.02,,,,,,,,,50
-67,,magtap_xtm_enhanced_short_handstop_1,Magpul XTM Enhanced Short Handstop Piece,1,0.04,,,,,,,,,50
+67,,magtap_xtm_enhanced_short_handstop_1,Magpul XTM Enhanced Short Handstop Piece,0.5,0.03,,,,,,,,,50
 68,,xtm_full_handstop,Magpul XTM Full Handstop,6,0.09,-2,-2,,,,,,,500
 69,,fab_tech_usgi_rear_buis_base,MaTech USGI Rear BUIS Base,0,0.03,,,,,,,,,200
 70,,maxwell_grip,Maxwell,,4,,,,,,,,,10000

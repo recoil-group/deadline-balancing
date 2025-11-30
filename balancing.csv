@@ -1,4 +1,4 @@
-﻿0.24.3,Sat Nov 29 22:20:57 2025,,,,,,,,,,,,,
+﻿0.24.3,Sat Nov 29 23:26:23 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -2831,7 +2831,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1336,,SA58,DS Arms SA-58,20,0.75,80,100,0,0.75,1,1550,,,20000
 1337,,SCAR47,Handl Defense SCAR-47,40,0,60,60,0,0.2,0.9,1600,,,60000
 1338,,SCARH,FN SCAR Mk17,15,0,75,80,0,0.55,1,1650,,,75000
-1339,,SCARL,FN SCAR Mk16,40,0,65,70,0,0.45,1.1,2300,,,40000
+1339,,SCARL,FN SCAR Mk16,40,0,60,65,0,0.45,1.1,2300,,,40000
 1340,,G3,H&K G3,35,0,70,100,0,0.55,1,1700,,,30000
 1341,,Remington700,Remington Model 700,30,0,80,90,0,0.2,1.2,2200,,,42000
 1342,,AK_762,AK 7.62,10,0,80,100,0,0.55,1,1600,,,15000

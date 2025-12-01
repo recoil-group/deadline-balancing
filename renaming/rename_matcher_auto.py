@@ -36,10 +36,13 @@ from pathlib import Path
 from typing import List, Dict, Tuple
 
 CSV_PATH = Path("../balancing.csv")
-NEW_NAMES_PATH = Path("new_item_names3.txt")
-CHANGE_LOG_PATH = Path("rename_changes_auto3.csv")
+NEW_NAMES_PATH = Path("new_item_names4.txt")
+CHANGE_LOG_PATH = Path("rename_changes_auto4.csv")
 
 TOKEN_SPLIT_RE = re.compile(r"[_\-/]+")
+
+# Blacklist: substrings that should exclude candidates from matching
+BLACKLIST_SUBSTRINGS: List[str] = ["aft", "kf_416"]
 
 
 def tokenize(name: str) -> List[str]:
@@ -65,6 +68,12 @@ def load_new_names(path: Path) -> List[str]:
         for ln in path.read_text(encoding="utf-8", errors="replace").splitlines()
         if ln.strip()
     ]
+
+
+def is_blacklisted(name: str) -> bool:
+    """Check if name contains any blacklisted substrings (case-insensitive)."""
+    name_lower = name.lower()
+    return any(substring.lower() in name_lower for substring in BLACKLIST_SUBSTRINGS)
 
 
 def load_balancing(csv_path: Path):
@@ -137,6 +146,11 @@ def auto_rename():
             print(f"[SKIP already present] {new_name}")
             continue
 
+        # Skip if blacklisted
+        if is_blacklisted(new_name):
+            print(f"[SKIP blacklisted] {new_name}")
+            continue
+
         # Priority prefix direct match handling
         applied_priority = False
         for new_prefix, old_prefix in priority_prefix_pairs:
@@ -158,6 +172,12 @@ def auto_rename():
         candidates = [n for n in name_to_row.keys() if n not in target_set]
         if not candidates:
             print(f"[NO CANDIDATES] {new_name} (skipped)")
+            continue
+
+        # Filter out blacklisted candidates
+        candidates = [n for n in candidates if not is_blacklisted(n)]
+        if not candidates:
+            print(f"[NO CANDIDATES after blacklist] {new_name} (skipped)")
             continue
 
         # Score all candidates

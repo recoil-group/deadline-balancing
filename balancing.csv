@@ -627,7 +627,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 296,,si_ar_are_t7_buffer_tube,Strike Industries Advanced Receiver Extension T7,-1,0.11,-1,-1,,0,,,,,600
 297,,hart_buffer_tube,Hart,-2,0.15,-2,-1,,-0.1,,,,,0
 ,ar15_castlenut,,,,,,,,,,,,,
-298,,hart_m4a1_castlenut_hk,Hart M4A1 Castle Nut,0,0.02,,,,,,,,,0
+298,,hart_m4a1_castlenut,Hart M4A1 Castle Nut,0,0.02,,,,,,,,,0
 299,,hart_m4a1_castlenut_for_all,Hart M4A1 Castle Nut,0,0.02,,,,,,,,,0
 300,,mcs_lss_stock_adapter,MDT LSS Fixed,-1,0.04,,,,,,,,,100
 301,,leopard_atg_model_15_fixed_a2_ar15_stock,UTG A2 Fixed,11,0.44,-12,-18,,,,,,,700
@@ -813,21 +813,21 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 390,,aft_front_sight_folded,FN SCAR Standard Folded,2,0.01,,,,,,,,,0
 391,,aft_front_sight,FN SCAR Standard,3,0.01,,,,,,,,,0
 ,fn_scar_bolt_release,,,,,,,,,,,,,
-392,,aft_bolt_release,FN SCAR-H Standard,0,0,,,,,,,,,0
+392,,fn_scar_bolt_release,FN SCAR-H Standard,0,0,,,,,,,,,0
 393,,pmm_scar_battery_control_bolt_release,PMM SCAR Battery Control,2,0.06,,,,,,,,,500
 ,fn_scar_trigger,,,,,,,,,,,,,
-394,,aft_trigger,FN Scar Standard,0,0.03,,,,,,,,,0
+394,,fn_scar_trigger,FN Scar Standard,0,0.03,,,,,,,,,0
 395,,schmidt_super_scar_trigger,Geissele Super SCAR,2,0.05,,,,,,,,,750
 ,fn_scar_bottom_rail_mount,,,,,,,,,,,,,
 396,,aft_mk20_bottom_rail_mount,FN Scar Mk20,4,0.2,,,,,,,,,400
 397,,aft_bottom_rail_mount,FN Scar Bottom Rail Mount,2.5,0.1,,,,,,,,,0
 ,,pmm_scar_heavy_duty_mlok_bottom_panel,PMM Scar Heavy Duty MLOK Bottom Panel,2,0.08,,,,,,,,,300
 ,fn_scar_charging_handle,,,,,,,,,,,,,
-398,,aft_charging_handle,FN SCAR-L Standard,1,0.02,,,,,,,,,0
+398,,fn_scar_charging_handle,FN SCAR-L Standard,1,0.02,,,,,,,,,0
 399,,apex_bolt_handle_for_scar,Apex Bolt Handle for SCAR,2,0.04,,,,,,,,,500
 ,,dynamic_development_group_ambi_scarging_handle,Kinetic Development Group AMBI Scarging Handle,2,0.03,,,,,,,,,500
 ,fn_scar_fire_selector,,,,,,,,,,,,,
-400,,aft_fire_selector,FN SCAR-H Standard,0,0,,,,,,,,,0
+400,,fn_scar_fire_selector,FN SCAR-H Standard,0,0,,,,,,,,,0
 401,,dynamic_development_group_talon_ambi_scar_45_90_safety_selector,Kinetic Development Group Talon Ambi SCAR 45/90,1.5,0.02,,,,,,,,,300
 ,fn_scar_h_barrel,,,,,,,,,,,,,
 402,,aft_mk20_508mm_barrel,FN SCAR Mk20 508mm,-3,1.01,2,2,,-0.3,0.09,308,,,1500
@@ -865,7 +865,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,fn_scar_l_upper_receiver,,,,,,,,,,,,,
 420,,aft_mk_16_upper_receiver,FN SCAR-L Standard,0,0.5,0,0,,,,,,,1500
 ,fn_scar_mag_release,,,,,,,,,,,,,
-421,,aft_mag_release,FN SCAR-H Standard,0,0,,,,,,,,,0
+421,,fn_scar_mag_release,FN SCAR-H Standard,0,0,,,,,,,,,0
 422,,pmm_scar_oversized_mag_release_button,PMM SCAR Oversized Button,1,0.03,,,,,,,,,500
 ,fn_scar_side_rail_mount,,,,,,,,,,,,,
 423,,aft_side_rail_1,FN Scar Side Rail,-0.5,0.04,,,,,,,,,0

@@ -52,7 +52,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,holosun_he510c-gr_sight,Holosun HE510C-GR,-2,0.08,,,,,,,,,1700
 32,,pro_tactical_tactical_lightweight_vertical_grip,FAB Defense Lightweight Vertical,5,0.11,-4,-1,,,,,,,400
 33,,emberfield_mg_kemper_xl_reflex_sight,Firefield MG Kemper XL Reflex,-7,0.19,,-1,,0.25,,,,,2000
-34,,fn_scar_rear_sight_base,FN Scar Rear Sight Base,0,0.02,,,,,,,,,200
+34,,aft_rear_sight_base,FN Scar Rear Sight Base,0,0.02,,,,,,,,,200
 35,,gbrs_group_azimuth_hydra_mount_kit,GBRS Group Hydra Mount Kit For azimuth,-3,0.17,,,,,,,,,1000
 36,,grip_pod_gps_02_body,Grip Pod Systems GPS-02,0,0.15,0,0,,,,,,,1100
 37,,holosun_hs401g5,Holosun HS401G5,-2,0.2,,,,,,,,,800
@@ -797,8 +797,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 380,,cmmg_mk9_406mm_9x19_m_barrel,"CmmG Mk9 16"" 9x19 Mid Length",-4,0.52,-3,-3,,0,0.09,200,,,1200
 381,,cmmg_mk9_127mm_9x19_barrel,"CmmG Mk9 5"" 9x19",7,0.2,6,6,,0.2,0,-225,,,800
 ,fn_rear_sight,,,,,,,,,,,,,
-382,,fn_scar_rear_sight,FN SCAR Standard,3,0.01,,,,,,,,,0
-383,,fn_scar_rear_sight_folded,FN SCAR Standard Folded,2,0.01,,,,,,,,,0
+382,,aft_rear_sight,FN SCAR Standard,3,0.01,,,,,,,,,0
+383,,aft_rear_sight_folded,FN SCAR Standard Folded,2,0.01,,,,,,,,,0
 ,fn_scar_rear_sight_apertures,,,,,,,,,,,,,
 384,,aft_rear_sight_600m_aperture,FN Scar 600m Aperture,0,0.005,,,,,,,,,0
 385,,aft_rear_sight_200m_aperture,FN Scar 200m Aperture,0,0.005,,,,,,,,,0
@@ -807,27 +807,27 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 387,,aft_mk_17_gasblock,FN SCAR-H Standard,0,0.12,0,0,,,,,,,500
 ,,hi_dog_hdd_tactical_scarh_hitorque_gasblock,Hi-desertdog HDD Tactical Scar H HiTorque Gasblock,2,0.16,-1,0,,,,,,,400
 ,fn_front_sight_base,,,,,,,,,,,,,
-388,,fn_scar_front_sight_base,FN SCAR Standard,0,0.01,,,,,,,,,100
+388,,aft_front_sight_base,FN SCAR Standard,0,0.01,,,,,,,,,100
 389,,dynamic_development_group_scar_fs_replacement_rail,Kinetic Development Group SCAR Front Sight Replacement Rail,0,0.03,,,,,,,,,300
 ,fn_front_sight,,,,,,,,,,,,,
-390,,fn_scar_front_sight_folded,FN SCAR Standard Folded,2,0.01,,,,,,,,,0
-391,,fn_scar_front_sight,FN SCAR Standard,3,0.01,,,,,,,,,0
+390,,aft_front_sight_folded,FN SCAR Standard Folded,2,0.01,,,,,,,,,0
+391,,aft_front_sight,FN SCAR Standard,3,0.01,,,,,,,,,0
 ,fn_scar_bolt_release,,,,,,,,,,,,,
-392,,fn_scar_bolt_release,FN SCAR-H Standard,0,0,,,,,,,,,0
+392,,aft_bolt_release,FN SCAR-H Standard,0,0,,,,,,,,,0
 393,,pmm_scar_battery_control_bolt_release,PMM SCAR Battery Control,2,0.06,,,,,,,,,500
 ,fn_scar_trigger,,,,,,,,,,,,,
-394,,fn_scar_trigger,FN Scar Standard,0,0.03,,,,,,,,,0
+394,,aft_trigger,FN Scar Standard,0,0.03,,,,,,,,,0
 395,,schmidt_super_scar_trigger,Geissele Super SCAR,2,0.05,,,,,,,,,750
 ,fn_scar_bottom_rail_mount,,,,,,,,,,,,,
 396,,aft_mk20_bottom_rail_mount,FN Scar Mk20,4,0.2,,,,,,,,,400
 397,,aft_bottom_rail_mount,FN Scar Bottom Rail Mount,2.5,0.1,,,,,,,,,0
 ,,pmm_scar_heavy_duty_mlok_bottom_panel,PMM Scar Heavy Duty MLOK Bottom Panel,2,0.08,,,,,,,,,300
 ,fn_scar_charging_handle,,,,,,,,,,,,,
-398,,fn_scar_charging_handle,FN SCAR-L Standard,1,0.02,,,,,,,,,0
+398,,aft_charging_handle,FN SCAR-L Standard,1,0.02,,,,,,,,,0
 399,,apex_bolt_handle_for_scar,Apex Bolt Handle for SCAR,2,0.04,,,,,,,,,500
 ,,dynamic_development_group_ambi_scarging_handle,Kinetic Development Group AMBI Scarging Handle,2,0.03,,,,,,,,,500
 ,fn_scar_fire_selector,,,,,,,,,,,,,
-400,,fn_scar_fire_selector,FN SCAR-H Standard,0,0,,,,,,,,,0
+400,,aft_fire_selector,FN SCAR-H Standard,0,0,,,,,,,,,0
 401,,dynamic_development_group_talon_ambi_scar_45_90_safety_selector,Kinetic Development Group Talon Ambi SCAR 45/90,1.5,0.02,,,,,,,,,300
 ,fn_scar_h_barrel,,,,,,,,,,,,,
 402,,aft_mk20_508mm_barrel,FN SCAR Mk20 508mm,-3,1.01,2,2,,-0.3,0.09,308,,,1500
@@ -865,7 +865,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,fn_scar_l_upper_receiver,,,,,,,,,,,,,
 420,,aft_mk_16_upper_receiver,FN SCAR-L Standard,0,0.5,0,0,,,,,,,1500
 ,fn_scar_mag_release,,,,,,,,,,,,,
-421,,fn_scar_mag_release,FN SCAR-H Standard,0,0,,,,,,,,,0
+421,,aft_mag_release,FN SCAR-H Standard,0,0,,,,,,,,,0
 422,,pmm_scar_oversized_mag_release_button,PMM SCAR Oversized Button,1,0.03,,,,,,,,,500
 ,fn_scar_side_rail_mount,,,,,,,,,,,,,
 423,,aft_side_rail_1,FN Scar Side Rail,-0.5,0.04,,,,,,,,,0

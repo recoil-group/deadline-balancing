@@ -1,4 +1,4 @@
-﻿0.24.3,Sat Nov 29 23:26:23 2025,,,,,,,,,,,,,
+﻿0.24.3,Tue Dec 02 02:17:24 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -631,7 +631,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 299,,hart_m4a1_castlenut_for_all,Hart M4A1 Castle Nut,0,0.02,,,,,,,,,0
 300,,mcs_lss_stock_adapter,MDT LSS Fixed,-1,0.04,,,,,,,,,100
 301,,leopard_atg_model_15_fixed_a2_ar15_stock,UTG A2 Fixed,11,0.44,-12,-18,,,,,,,700
-302,,kf_416d_castlenut,Hart M4A1 Castle Nut,0,0.02,,,,,,,,,0
+302,,kf_416d_castlenut,KF416D Castle Nut,0,0.02,,,,,,,,,0
+,,kf_416a5_extended_castlenut,KF416A5 Extended Castle Nut,0.5,0.03,,,,,,,,,100
 303,,magtap_ubr_gen2_buffer,Magpul UBR Gen2 Receiver Extension,-1,0.14,-1,-2,,-0.05,,,,,400
 305,,hart_a2_buffer,Hart A2,-2,0.15,-1,-1,,-0.05,,,,,300
 ,,ews_bufferless_system_ar15_castlenut,EWS Bufferless System AR15 Castlenut,3,0.08,7,10,,1,,,,,250
@@ -668,6 +669,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 322,,pmm_scar_modified_grip_rogue,PMM SCAR Modified rogue Non-Beavertail,6,0.08,-2,-6,,,,,,,600
 323,,mcs_premier_avp_grip,MCS Premier AVP,9,0.06,0,-1,,,,,,,700
 324,,kf_ar15_battlegrip,KF AR15 Battlegrip,5,0.08,-5,-4,,,,,,,800
+,,kf_ar15_battlegrip_beavertail,KF AR-15 Battlegrip Beavertail,6,0.09,-4,-4,,,,,,,800
 325,,hart_a2_pistol_grip,A2,6,0.08,-3,-3,,,,,,,0
 ,,hart_a1_pistol_grip,A1,5,0.07,-2,-3,,,,,,,500
 ,,hart_a1_chopped_pistol_grip,A1 Chopped,4,0.05,-1,-3,,,,,,,550
@@ -683,7 +685,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,axtell_defense_pistol_grip_with_trigger_guard,Daniel Defense Pistol Grip w/ Trigger Guard,10,0.13,-4,-2,,,,,,,900
 ,ar15_trigger,,,,,,,,,,,,,
 330,,hart_m4a1_std_trigger,M4 Standard,2,0.04,0,0,,0,,,,,200
-331,,cmc_dropin_trigger,CMC drop-in,3,0.03,-1,0,,-0.05,,,,0.03,300
+331,,fort_worth_manufacturing_trigger,CMC drop-in,3,0.03,-1,0,,-0.05,,,,0.03,300
 332,,tsa_custom_trigger,PSA custom,3.5,0.04,0,-1,,-0.05,,,,0.03,400
 333,,rise_blitz_trigger,Rise Armaments blitz,4,0.05,-1,0,,-0.1,,,,0.05,1000
 334,,lockwood_trigger,Timney drop-in,2.5,0.02,0,-1,,-0.15,,,,0.03,400
@@ -1796,11 +1798,6 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 890,,12g_phoenix_hellfire_300_dragons_breath,"12G Phoenix Rising Hellfire 3"" Dragon's Breath,-2",,,,,,,-200,0.25,,4000,
 891,,12g_federal_game_load_275_4shot_152x,"12G Federal Game Load 2.75"" 4-Shot (152 Pellets)",5,,,,,,,,0.5,,1000
 892,,12g_foxhill_275_mean_bean_bag,"12G Wolf Hill 2.75"" Mean Bean Bag",10,,-15,-10,,0.4,,-400,,,100
-,hk_barrel_frontsight,,,,,,,,,,,,,
-893,,hk_33mm_fs_folded,HK 33mm Front Folding Sight - Folded,1,0.02,,,,,,,,,0
-894,,hk_33mm_fs,HK 33mm Front Folding Sight,2,0.02,,,,,,,,,0
-,hk_bolt,,,,,,,,,,,,,
-895,,hk_bolt,HK416A5 Bolt,0,0.12,,,,,,,,,0
 ,ump_upper_receiver,,,,,,,,,,,,,
 896,,hk_ump45_upper_receiver,HK UMP45 Upper Receiver,0,0.44,,,,,,,,,
 897,,hk_ump9_upper_receiver,HK UMP9 Upper Receiver,6,0.42,-25,-23,,,,200,,0.25,4000
@@ -1857,32 +1854,62 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 922,,hk_ump45_200mm_flanged_barrel,HK UMP45 200mm .45ACP Flanged,0,0.3,-2,-1,,0,,-15,,,0
 923,,hdts_ump45_200mm_threaded_barrel,HDPS UMP45 200mm .45ACP Threaded,-2,0.31,1,0,,0.08,,-21,,,750
 924,,omega_ump45_200mm_trilug_barrel,OMEGA UMP45 200mm .45ACP Tri-Lug,-1,0.3,0,-2,,0.05,,-18,,,300
+,kf_416_barrel_sight,,,,,,,,,,,,,
+,,33mm_open_front_folding_iron_sight,33mm Open Front,1,0.02,,,,,,,,,0
+,,33mm_open_front_folding_iron_sight_folded,33mm Open Front Folded,0,0.02,,,,,,,,,0
+,,33mm_enclosed_front_folding_iron_sight,33mm Enclosed Front,1,0.02,,,,,,,,,0
+,,33mm_enclosed_front_folding_iron_sight_folded,33mm Enclosed Front Folded,0,0.02,,,,,,,,,0
 ,kf_416_barrel,,,,,,,,,,,,,
 925,,kf_416_269mm_barrel,10.6 Inch 5.56 HK416,2,0.55,4,4,,0.2,-0.08,-109,,,1000
 926,,kf_416_279mm_barrel,11 Inch 5.56 HK416,2,0.56,4,4,,0.2,-0.06,-92,,,1500
 927,,kf_416_368mm_barrel,14.5 Inch 5.56 HK416,-1,0.68,3,2,,0,0.02,33,,,0
 928,,kf_416_508mm_barrel,20 Inch 5.56 HK416,-9,0.86,-2,-3,,-0.2,0.24,179,,,2500
-,kf_416_bolt_release,,,,,,,,,,,,,
-929,,kf_416_bolt_release,HK416 Bolt Release,0,0,,,,,,,,,0
-,kf_416_fire_selector,,,,,,,,,,,,,
-930,,kf_416_fire_selector,HK416 Fire Selector,0,0.02,,,,,,,,,0
+,kf_416_barrel_nut,,,,,,,,,,,,,
+,,kf_416_barrel_nut,KF416,0,0.05,,,,,,,,,0
+,,kf_416_a5_barrel_nut,KF416A5,0,0.05,,,,,,,,,0
 ,kf_416_gas_block,,,,,,,,,,,,,
-931,,kf_416_lowprofile_gasblock,HK416 Low Profile Gas Block,-1,0.1,-3,-2,,,,,,,0
+,,kf_416a5_adjustable_gas_block,KF416A5 Adjustable,0,0.1,,,,,,,,,0
+,,kf_416c_adjustable_gas_block,KF416C Adjustable,0,0.11,,,,,,,,,200
+,kf_416_gas_piston,,,,,,,,,,,,,
+,,kf_416_default_gas_piston,KF416,0,0.01,,,,,,,,,0
+,kf_416_gas_system,,,,,,,,,,,,,
+,,compact_length_gas_system,KF416C Gas System,0,0.03,,,,,,,,,0
+,,normal_length_gas_system,KF416D Gas System,0,0.04,,,,,,,,,0
 ,kf_416_handguard,,,,,,,,,,,,,
 932,,hk_quad_rail_handguard,HK416A5 Quad Rail Handguard,8,0.28,-10,-14,,,,,,,0
 933,,mi_kf_416_mlok_14i,"Midwest Industries HK416 14"" MLOK Handguard",7,0.34,-12,-15,,,,,,,1400
 934,,mi_kf_416_mlok_9i,"Midwest Industries HK416 9"" MLOK Handguard",11,0.25,-9,-10,,,,,,,900
 935,,hk_extended_quad_rail_handguard,HK416A5 Extended Quad Rail Handguard,5,0.36,-11,-18,,,,,,,750
-,kf_416_mag_release,,,,,,,,,,,,,
-936,,kf_416_mag_release,HK416 Mag Release,0,0.01,,,,,,,,,0
+,kf_416_handguard_sight,,,,,,,,,,,,,
+,,handguard_flip_up_sight,KF416 Handguard,1,0.02,,,,,,,,,0
+,,handguard_flip_up_sight_folded,KF416 Handguard (Folded),0,0.02,,,,,,,,,0
+,kf_416_bcg,,,,,,,,,,,,,
+,,kf_416_bolt_carrier_group,KF416 BCG,0,0.11,,,,,,,,,0
+,,kf_416a5_bolt_carrier_group,KF416A5 BCG,0,0.11,,,,,,,,,0
+,,kf_416c_bolt_carrier_group,KF416C BCG,0,0.11,,,,,,,,,0
+,kf_416a5_upper_receiver,,,,,,,,,,,,,
+940,,kf_416a5_upper,HK416A5,0,0.32,0,0,,,,,,,0
+,kf_416a5_lower_receiver,,,,,,,,,,,,,
+939,,kf_416a5_lower_receiver,HK416A5,0,0.4,0,0,,,,,,,0
+,kf_416_dust_cover,,,,,,,,,,,,,
+,,kf_416_dust_cover,KF416,1,0.04,,,,,,,,,0
+,kf_416_controls,,,,,,,,,,,,,
+,,kf_416d_fire_selector,KF416D,0,0.01,,,,,,,,,0
+,,kf_416a5_ambi_fire_selector,KF416A5 Ambi,1,0.03,,,,,,,,,200
+,,kf_416d_bolt_catch,KF416D,0,0.01,,,,,,,,,0
+,,kf_416a5_enhanced_ambi_bolt_catch,KF416A5 Enhanced Ambi,1,0.02,,,,,,,,,200
+,,kf_416_mag_release,KF416,0,0.01,,,,,,,,,0
+,,kf_416a5_ambi_mag_release,KF416A5 Ambi,1,0.02,,,,,,,,,200
+,,kf_416_forward_assist,KF416,0,0.01,,,,,,,,,0
 ,kf_416_trigger,,,,,,,,,,,,,
 937,,kf_416_trigger,HK416 Default Trigger,0,0.04,,,,,,,,,0
 ,kf_416_trigger_guard,,,,,,,,,,,,,
-938,,kf_416_trigger_guard,HK416 Trigger Guard,2,0.03,,,,,,,,,0
-,kf_416a5_lower_receiver,,,,,,,,,,,,,
-939,,kf_416a5_lower_receiver,HK416A5,0,0.4,0,0,,,,,,,0
-,kf_416a5_upper_receiver,,,,,,,,,,,,,
-940,,kf_416a5_upper,HK416A5,0,0.32,0,0,,,,,,,0
+,,kf_416d_trigger_guard,KF416D,2,0.02,,,,,,,,,0
+,,kf_416a5_trigger_guard,KF 416 Enlarged,2.5,0.03,,,,,,,,,200
+,kf_416_endplate,,,,,,,,,,,,,
+,,kf_416d_endplate,KF416D,0,0.01,,,,,,,,,0
+,,kf_416c_endplate,KF416C,0,0.01,,,,,,,,,100
+,,kf_416a5_sling_eyelet_endplate,KF416A5 Sling Eyelet,0,0.02,,,,,,,,,200
 ,hk_stock_extendable_part,,,,,,,,,,,,,
 941,,hk_g3a3_stock_extendable_part,HK G3A3 Stock Extendable Part,13,0.08,-7,-9,,,,,,,0
 ,hk_g3_button_mag_release,,,,,,,,,,,,,
@@ -2822,7 +2849,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1329,,Glock20,Glock 20,60,0.4,40,70,0,1.1,1,1000,,,10000
 ,,P320,Sig Sauer P320,70,0,20,30,0,1,1,1000,,,25000
 ,rifle,,,,,,,,,,,,,
-1330,,HK416A5,HK416A5,30,0,55,90,0,0.45,1,2300,,,30000
+1330,,KF416,KF416,30,0,55,90,0,0.45,1,2300,,,30000
 1331,,AUG_A3,Steyr AUG A3,40,0,55,60,0,0.45,1,2300,,,42000
 1332,,AK12,Kalashnikov Concern AK-12,30,0.6,50,55,0,0.3,1,2300,,,25000
 1333,,AK308,Kalashnikov Concern AK-308,30,0.75,80,100,0,0.8,1,1600,,,65000

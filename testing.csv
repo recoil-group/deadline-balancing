@@ -1,4 +1,4 @@
-0.24.3,Tue Dec 02 22:57:32 2025,,,,,,,,,,,,,
+0.24.3,Wed Dec 03 00:25:16 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -243,7 +243,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,cgr_aeon_flipped,CGR Aeon Flipped,0.25,0.01,,,,,,,,,1000
 ,stock,,,,,,,,,,,,,
 122,,validus_la_stock,Fortis LA,17,0.2,-12,-6,,,,,,,900
-123,,hk_slim_stock,HK Slim Line,16,0.26,-5,-19,,,,,,,1000
+,,kf_416_slim_line_stock,KF416 Slim Line,16,0.26,-5,-19,,,,,,,1000
+123,,kf_416_e1_stock,KF416 E1,17,0.3,-7,-16,,,,,,,1200
 124,,si_viper_mod1_stock,Strike Industries Viper MOD1 Stock,18,0.14,-6,-7,,,,,,,500
 125,,magtap_moe_carbine_stock,Magpul MOE Carbine,17,0.19,-9,-8,,,,,,,800
 126,,ar_tr2_stock,AR TR2,16,0.22,-7,-12,,,,,,,800
@@ -623,7 +624,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ar15_buffer,,,,,,,,,,,,,
 293,,sb_tactical_vector_brace,SB Tactical Vector Brace,18,0.28,-4,-4,,,,,,,500
 294,,starsurp_apex_m4_socom_gen4_stock,Doublestar ACE M4 SOCOM,14,0.32,-9,-9,,,,,,,1000
-295,,kf_416_enhanced_buffer_tube,KF Enhanced Buffer Tube,-1,0.15,,-3,,-0.1,,,,,400
+,,kf_416_enhanced_buffer_tube,KF Enhanced Buffer Tube,-1,0.15,,-3,,-0.1,,,,,400
 296,,si_ar_are_t7_buffer_tube,Strike Industries Advanced Receiver Extension T7,-1,0.11,-1,-1,,0,,,,,600
 297,,hart_buffer_tube,Hart,-2,0.15,-2,-1,,-0.1,,,,,0
 ,ar15_castlenut,,,,,,,,,,,,,
@@ -1883,10 +1884,17 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,compact_length_gas_system,KF416C Gas System,0,0.03,,,,,,,,,0
 ,,normal_length_gas_system,KF416D Gas System,0,0.04,,,,,,,,,0
 ,kf_416_handguard,,,,,,,,,,,,,
-932,,hk_quad_rail_handguard,HK416A5 Quad Rail Handguard,8,0.28,-10,-14,,,,,,,0
-933,,mi_kf_416_mlok_14i,"Midwest Industries HK416 14"" MLOK Handguard",7,0.34,-12,-15,,,,,,,1400
-934,,mi_kf_416_mlok_9i,"Midwest Industries HK416 9"" MLOK Handguard",11,0.25,-9,-10,,,,,,,900
-935,,hk_extended_quad_rail_handguard,HK416A5 Extended Quad Rail Handguard,5,0.36,-11,-18,,,,,,,750
+,,kf_416c_handguard,KF416C,11,0.26,-9,-10,,,,,,,1000
+,,kf_416_standard_length_quad_rail_handguard,Standard Length Quad Rail,9,0.31,-10,-14,,,,,,,0
+,,kf_416_extended_length_quad_rail_handguard,Extended Length Quad Rail,7,0.34,-12,-16,,,,,,,500
+,,kf_416_dmr_extra_long_handguard,DMR Extra Long,6,0.43,-15,-15,,,,,,,1000
+,,kf_416_9i_quad_rail_handguard,"9"" Quad Rail",8,0.32,-12,-14,,,,,,,500
+,,kf_416_9i_quad_rail_handguard_with_flip_up_sight,"9"" Quad Rail w/ Flip Up Sight",8,0.33,-12,-14,,,,,,,750
+,,kf_416_short_hkey_handguard,KF416 Short H-Key,9,0.3,-9,-16,,,,,,,1000
+,,f_416_long_qd_hkey_handguard,KF416 Long QD H-Key,6,0.38,-12,-19,,,,,,,1500
+,,kf_416_11.5i_qd_mlok_handguard,"KF416 11.5"" QD MLOK",10,0.3,-13,-9,,,,,,,1000
+,,kf_416_12.5i_qd_mlok_handguard,"KF416 12.5"" QD MLOK",9,0.32,-14,-10,,,,,,,1250
+935,,kf_416_14.5i_qd_mlok_handguard,"KF416 14.5"" QD MLOK",7,0.37,-16,-12,,,,,,,1500
 ,kf_416_handguard_sight,,,,,,,,,,,,,
 ,,handguard_flip_up_sight,KF416 Handguard,1,0.02,,,,,,,,,0
 ,,handguard_flip_up_sight_folded,KF416 Handguard (Folded),0,0.02,,,,,,,,,0
@@ -1915,7 +1923,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kf_416a5_ambi_mag_release,KF416A5 Ambi,1,0.02,,,,,,,,,200
 ,,kf_416_forward_assist,KF416,0,0.01,,,,,,,,,0
 ,kf_416_trigger,,,,,,,,,,,,,
-937,,kf_416_trigger,HK416 Default Trigger,0,0.04,,,,,,,,,0
+937,,kf_416_trigger,HK416 Default Trigger,3,0.04,,,,,,,,,0
 ,kf_416_trigger_guard,,,,,,,,,,,,,
 ,,kf_416d_trigger_guard,KF416D,2,0.02,,,,,,,,,0
 ,,kf_416a5_trigger_guard,KF 416 Enlarged,2.5,0.03,,,,,,,,,200

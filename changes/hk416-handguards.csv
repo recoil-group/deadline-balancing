@@ -1,61 +1,13 @@
-﻿,,new,,,,,,,,,,,
-name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price,strength
-hk_quad_rail_handguard,HK416A5 Quad Rail Handguard,8,0.28,-10,-14,,,,,,,0,18.8
-hk_extended_quad_rail_handguard,HK416A5 Extended Quad Rail Handguard,5,0.36,-11,-18,,,,,,,750,17.4
-mi_hk416_mlok_9i,"Midwest Industries HK416 9"" MLOK Handguard",11,0.25,-9,-10,,,,,,,900,19.2
-mi_hk416_mlok_14i,"Midwest Industries HK416 14"" MLOK Handguard",7,0.34,-12,-15,,,,,,,1400,18.8
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
+﻿,,new,,,,,,,,,,,,,,,
+name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,bullet_deviation,bullet_damage,bullet_velocity,buck_bullet_deviation,fire_rate,price,strength,,,,
+kf_416c_handguard,KF416C,11,0.26,-9,-10,,,,,,,1000,19,,124,0.03,0.2612
+kf_416_standard_length_quad_rail_handguard,Standard Length Quad Rail,9,0.31,-10,-14,,,,,,,0,19.2,,160,0.03,0.308
+kf_416_extended_length_quad_rail_handguard,Extended Length Quad Rail,7,0.34,-12,-16,,,,,,,500,19.4,,187,0.03,0.3431
+kf_416_dmr_extra_long_handguard,DMR Extra Long,6,0.43,-15,-15,,,,,,,1000,18.4,,255,0.03,0.4315
+kf_416_9i_quad_rail_handguard,"9"" Quad Rail",8,0.32,-12,-14,,,,,,,500,19.6,,170,0.03,0.321
+kf_416_9i_quad_rail_handguard_with_flip_up_sight,"9"" Quad Rail w/ Flip Up Sight",8,0.33,-12,-14,,,,,,,750,19.4,,170,0.04,0.331
+kf_416_short_hkey_handguard,KF416 Short H-Key,9,0.3,-9,-16,,,,,,,1000,19.8,,166,0.01,0.2958
+f_416_long_qd_hkey_handguard,KF416 Long QD H-Key,6,0.38,-12,-19,,,,,,,1500,19.4,,234,0.01,0.3842
+kf_416_11.5i_qd_mlok_handguard,"KF416 11.5"" QD MLOK",10,0.3,-13,-9,,,,,,,1000,19.8,,176,,0.2988
+kf_416_12.5i_qd_mlok_handguard,"KF416 12.5"" QD MLOK",9,0.32,-14,-10,,,,,,,1250,19.8,,195,,0.3235
+kf_416_14.5i_qd_mlok_handguard,"KF416 14.5"" QD MLOK",7,0.37,-16,-12,,,,,,,1500,19.6,,233,,0.3729

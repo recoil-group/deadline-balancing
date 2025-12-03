@@ -7,7 +7,7 @@ kf_416_dmr_extra_long_handguard,DMR Extra Long,6,0.43,-15,-15,,,,,,,1000,18.4,,2
 kf_416_9i_quad_rail_handguard,"9"" Quad Rail",8,0.32,-12,-14,,,,,,,500,19.6,,170,0.03,0.321
 kf_416_9i_quad_rail_handguard_with_flip_up_sight,"9"" Quad Rail w/ Flip Up Sight",8,0.33,-12,-14,,,,,,,750,19.4,,170,0.04,0.331
 kf_416_short_hkey_handguard,KF416 Short H-Key,9,0.3,-9,-16,,,,,,,1000,19.8,,166,0.01,0.2958
-f_416_long_qd_hkey_handguard,KF416 Long QD H-Key,6,0.38,-12,-19,,,,,,,1500,19.4,,234,0.01,0.3842
+kf_416_long_qd_hkey_handguard,KF416 Long QD H-Key,6,0.38,-12,-19,,,,,,,1500,19.4,,234,0.01,0.3842
 kf_416_11.5i_qd_mlok_handguard,"KF416 11.5"" QD MLOK",10,0.3,-13,-9,,,,,,,1000,19.8,,176,,0.2988
 kf_416_12.5i_qd_mlok_handguard,"KF416 12.5"" QD MLOK",9,0.32,-14,-10,,,,,,,1250,19.8,,195,,0.3235
 kf_416_14.5i_qd_mlok_handguard,"KF416 14.5"" QD MLOK",7,0.37,-16,-12,,,,,,,1500,19.6,,233,,0.3729

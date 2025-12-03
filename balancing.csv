@@ -1,4 +1,4 @@
-﻿0.24.3,Wed Dec 03 00:49:09 2025,,,,,,,,,,,,,
+﻿0.24.3,Wed Dec 03 00:55:14 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1897,7 +1897,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kf_416_9i_quad_rail_handguard,"9"" Quad Rail",8,0.32,-12,-14,,,,,,,500
 ,,kf_416_9i_quad_rail_handguard_with_flip_up_sight,"9"" Quad Rail w/ Flip Up Sight",8,0.33,-12,-14,,,,,,,750
 ,,kf_416_short_hkey_handguard,KF416 Short H-Key,9,0.3,-9,-16,,,,,,,1000
-,,f_416_long_qd_hkey_handguard,KF416 Long QD H-Key,6,0.38,-12,-19,,,,,,,1500
+,,kf_416_long_qd_hkey_handguard,KF416 Long QD H-Key,6,0.38,-12,-19,,,,,,,1500
 ,,kf_416_11.5i_qd_mlok_handguard,"KF416 11.5"" QD MLOK",10,0.3,-13,-9,,,,,,,1000
 ,,kf_416_12.5i_qd_mlok_handguard,"KF416 12.5"" QD MLOK",9,0.32,-14,-10,,,,,,,1250
 935,,kf_416_14.5i_qd_mlok_handguard,"KF416 14.5"" QD MLOK",7,0.37,-16,-12,,,,,,,1500
@@ -2880,7 +2880,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1329,,Glock20,Glock 20,60,0.4,40,70,0,1.1,1,1000,,,10000
 ,,P320,Sig Sauer P320,70,0,20,30,0,1,1,1000,,,25000
 ,rifle,,,,,,,,,,,,,
-1330,,KF416,KF416,30,0,55,90,0,0.5,1,2300,,,30000
+1330,,KF416,KF416,30,0,60,80,0,0.5,1,2300,,,30000
 1331,,AUG_A3,Steyr AUG A3,40,0,55,60,0,0.5,1,2300,,,42000
 1332,,AK12,Kalashnikov Concern AK-12,30,0.6,50,55,0,0.3,1,2300,,,25000
 1333,,AK308,Kalashnikov Concern AK-308,30,0.75,80,100,0,0.8,1,1600,,,65000

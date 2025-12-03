@@ -1,4 +1,4 @@
-﻿0.24.3,Tue Dec 02 02:17:24 2025,,,,,,,,,,,,,
+﻿0.24.3,Tue Dec 02 22:16:50 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -742,21 +742,21 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ardian_weapons_ar15_enhanced_bcg,Radian Weapons AR15 Enhanced Bolt Carrier Group,2,0.16,0,0,,,,,,,1000
 ,,troy_m7a1_pdw_ar15_bcg,Troy M7A1 PDW AR15 BCG,1,0.11,0,1,,,,,,,300
 ,m4a1_5.56x45_barrel,,,,,,,,,,,,,
-347,,whtnls_a1_m4a1_5.56x45_508mm_govt_r_barrel,"Brownells A1 Government 20"" Rifle Length Gastube 5.56x45",-9,0.84,-10,-10,,-0.2,0.26,179,,-0.06,1600
-348,,whtnls_m4a1_5.56x45_406mm_govt_m_barrel,"Brownells Government 16"" Mid Length Gastube 5.56x45",-4,0.68,-7,-7,,0,0.1,108,,-0.03,1100
-349,,whtnls_m4a1_5.56x45_508mm_hbar_r_barrel,"Brownells HBAR 20"" Rifle Length Gastube 5.56x45",-10,0.92,-11,-12,,-0.22,0.26,191,,-0.06,2000
-350,,whtnls_m4a1_5.56x45_406mm_socom_c_barrel,"Brownells Socom 16"" Carbine Length Gastube 5.56x45",-3,0.69,-6,-6,,-0.05,0.12,78,,,1200
-351,,cmmg_ar_15_5.56x45_610mm_fluted_r_barrel,"CMMG 24"" Fluted AR-15 Rifle Length Gastube 5.56x45",-12,0.91,-16,-16,,-0.3,0.4,262,,-0.06,5000
-352,,hart_m4a1_5.56x45_267mm_govt_c_barrel,"Hart Government 10.5"" Carbine Length Gastube 5.56x45",3,0.47,-2,-1,,0.25,-0.1,-113,,,1200
-353,,hart_m4a1_5.56x45_317mm_govt_c_barrel,"Hart Government 12.5"" Carbine Length Gastube 5.56x45",1,0.53,-3,-3,,0.15,-0.04,-34,,,1200
-354,,hart_m4a1_5.56x45_368mm_govt_c_barrel,"Hart Government 14.5"" Carbine Length Gastube 5.56x45",0,0.6,-4,-4,,0.08,0.02,33,,,0
-355,,hart_m4a1_5.56x45_190mm_govt_p_barrel,"Hart Government 7.5"" Pistol Length Gastube 5.56x45",4,0.34,-1,0,,0.4,-0.15,-266,,0.03,1300
-356,,hart_m4a1_5.56x45_368mm_socom_c_barrel,"Hart Socom 14.5"" Carbine Length Gastube 5.56x45",-1,0.64,-5,-5,,0.05,0.04,45,,,800
-357,,custom_2inch_ar15_barrel,Custom 2in AR15 Barrel,6,0.12,5,5,,5,-0.4,-866,,0.125,2000
-,,quix_tacticals_ar15_127mm_5.56_nitride_barrel_custom_gastube,Vertiforce Tactical AR15 5in 5.56 Nitride Barrel Custom Gastube,5,0.24,0,1,,0.6,-0.2,-450,,0.063,1400
-,,ex_call_ar_15_.223wylde_457mm_spiral_6groove_m_barrel,"X-Caliber Custom 18"" Spiral 6 Groove Mid Length Gastube .223 Wylde",-7,0.7,-8,-9,,-0.1,0.16,131,,-0.03,1800
-,,primabarrels_ar15_modern_series_5.56x45_292mm_govt_c_barrel,"Ballistic Advantage Modern Series Government 11.5"" Carbine Length Gastube 5.56x45",2,0.5,-2,-3,,0.2,-0.07,-72,,,1100
-,,pac_ks1_5.56x45_348mm_heavy_dimpled_m_barrel,"KAC KS-1 (L403A1) Heavy Dimpled 13.7"" Mid Length Gastube 5.56x45",1,0.62,-5,-4,,0.1,-0.01,37,,-0.03,2000
+,,cmmg_ar_15_5.56x45_610mm_fluted_r_barrel,"CMMG 24"" Fluted AR-15 Rifle Length Gastube 5.56x45",-12,0.97,-16,-16,,-0.32,0.4,262,,-0.06,5000
+,,whtnls_a1_m4a1_5.56x45_508mm_govt_r_barrel,"Brownells A1 Government 20"" Rifle Length Gastube 5.56x45",-9,0.84,-10,-10,,-0.24,0.26,179,,-0.06,1600
+,,whtnls_m4a1_5.56x45_508mm_hbar_r_barrel,"Brownells HBAR 20"" Rifle Length Gastube 5.56x45",-10,0.94,-11,-12,,-0.26,0.26,191,,-0.06,2000
+,,ex_call_ar_15_.223wylde_457mm_spiral_6groove_m_barrel,"X-Caliber Custom 18"" Spiral 6 Groove Mid Length Gastube .223 Wylde",-7,0.72,-9,-9,,-0.15,0.16,131,,-0.03,1800
+,,whtnls_m4a1_5.56x45_406mm_govt_m_barrel,"Brownells Government 16"" Mid Length Gastube 5.56x45",-4,0.68,-7,-7,,-0.05,0.1,108,,-0.03,1100
+,,whtnls_m4a1_5.56x45_406mm_socom_c_barrel,"Brownells Socom 16"" Carbine Length Gastube 5.56x45",-3,0.71,-6,-6,,-0.07,0.12,78,,,1200
+,,hart_m4a1_5.56x45_368mm_socom_c_barrel,"Hart Socom 14.5"" Carbine Length Gastube 5.56x45",-1,0.65,-5,-5,,-0.02,0.04,45,,,800
+,,hart_m4a1_5.56x45_368mm_govt_c_barrel,"Hart Government 14.5"" Carbine Length Gastube 5.56x45",0,0.61,-4,-4,,0,0.02,33,,,0
+,,pac_ks1_5.56x45_348mm_heavy_dimpled_m_barrel,"KAC KS-1 (L403A1) Heavy Dimpled 13.7"" Mid Length Gastube 5.56x45",1,0.61,-5,-4,,0.03,-0.01,37,,-0.03,2000
+,,hart_m4a1_5.56x45_317mm_govt_c_barrel,"Hart Government 12.5"" Carbine Length Gastube 5.56x45",1,0.54,-3,-3,,0.09,-0.04,-34,,,1200
+,,primabarrels_ar15_modern_series_5.56x45_292mm_govt_c_barrel,"Ballistic Advantage Modern Series Government 11.5"" Carbine Length Gastube 5.56x45",2,0.5,-2,-3,,0.13,-0.07,-72,,,1100
+,,hart_m4a1_5.56x45_267mm_govt_c_barrel,"Hart Government 10.5"" Carbine Length Gastube 5.56x45",3,0.47,-2,-1,,0.18,-0.1,-113,,,1200
+,,hart_m4a1_5.56x45_190mm_govt_p_barrel,"Hart Government 7.5"" Pistol Length Gastube 5.56x45",4,0.35,-1,0,,0.3,-0.15,-266,,0.03,1300
+,,quix_tacticals_ar15_127mm_5.56_nitride_barrel_custom_gastube,Vertiforce Tactical AR15 5in 5.56 Nitride Barrel Custom Gastube,5,0.24,0,1,,0.4,-0.2,-450,,0.063,1400
+,,custom_2inch_ar15_barrel,Custom 2in AR15 Barrel,6,0.12,5,5,,5,-0.4,-866,,0.125,2000
 ,m4_gasblock_mount,,,,,,,,,,,,,
 358,,target_sports_mt026_mount,AIM Sports MT026 Tri-Rail Barrel Mount,-3,0.1,,,,,,,,,400
 359,,diemaco_tri_ad_i_mount,Diemaco TRI-AD I Barrel Mount,-1,0.06,,,,,,,,,600
@@ -976,6 +976,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 485,,5.56x45_steyr_aug_austrian_42r,Steyr AUG A3 Austrian 5.56x45 42R,-6,0.58,,,42,,,,,,1600
 486,,5.56x45_steyr_aug_austrian_30r,Steyr AUG A3 Austrian 5.56x45 30R,1.5,0.44,,,30,,,,,,0
 487,,5.56x45_magtap_pmag_m3_30r,Magpul PMAG M3 5.56x45 30R,1,0.41,,,30,,,,,,1000
+,,5.56x45_kf_416_gen_3_magazine,KF-416 30R Gen 3,1,0.41,,,30,,,,,,1500
 488,,5.56x45_hk_polymer_transparent_30r,HK Polymer 30R Transparent Mag,1,0.43,,,30,,,,,,1300
 489,,5.56x45_aft_30r,FN Scar 30R,1,0.42,,,30,,,,,,1200
 ,,5.56x45_centrefire_mag560_60r_mag,Surefire MAG560 60R Magazine,-17,0.87,,,60,0.1,,,,,4000
@@ -1860,10 +1861,16 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,33mm_enclosed_front_folding_iron_sight,33mm Enclosed Front,1,0.02,,,,,,,,,0
 ,,33mm_enclosed_front_folding_iron_sight_folded,33mm Enclosed Front Folded,0,0.02,,,,,,,,,0
 ,kf_416_barrel,,,,,,,,,,,,,
-925,,kf_416_269mm_barrel,10.6 Inch 5.56 HK416,2,0.55,4,4,,0.2,-0.08,-109,,,1000
-926,,kf_416_279mm_barrel,11 Inch 5.56 HK416,2,0.56,4,4,,0.2,-0.06,-92,,,1500
-927,,kf_416_368mm_barrel,14.5 Inch 5.56 HK416,-1,0.68,3,2,,0,0.02,33,,,0
-928,,kf_416_508mm_barrel,20 Inch 5.56 HK416,-9,0.86,-2,-3,,-0.2,0.24,179,,,2500
+,,kf_416c_9.0i_barrel,"KF416C 9.0""",4,0.4,3,3,,0.25,-0.12,-140,,,1000
+,,kf_416d_10.4i_barrel,"KF416D 10.4""",3,0.46,2,2,,0.18,-0.09,-100,,,1000
+,,kf_416a5_11i_barrel,"KF416A5 11""",2,0.47,1,1,,0.15,-0.07,-80,,,1000
+,,kf_416a5_12.5i_barrel,"KF416A5 12.5""",1,0.52,1,1,,0.08,-0.03,-30,,,1000
+,,kf_416d_14.5i_barrel,"KF416D 14.5""",0,0.65,0,0,,0,0.03,50,,,0
+,,kf_416a5_14.5i_barrel,"KF416A5 14.5""",0,0.62,0,0,,-0.02,0.03,50,,,0
+,,kf_416d_16.5i_barrel,"KF416D 16.5""",-3,0.72,-2,-2,,-0.08,0.11,100,,,1000
+,,kf_416a5_16.5i_barrel,"KF416A5 16.5""",-3,0.69,-2,-2,,-0.1,0.11,100,,,1000
+,,kf_416d_20i_barrel,"KF416D 20""",-7,0.85,-5,-5,,-0.24,0.25,190,,,2000
+,,kf_416a5_20i_barrel,"KF416A5 20""",-7,0.82,-5,-5,,-0.26,0.25,190,,,2000
 ,kf_416_barrel_nut,,,,,,,,,,,,,
 ,,kf_416_barrel_nut,KF416,0,0.05,,,,,,,,,0
 ,,kf_416_a5_barrel_nut,KF416A5,0,0.05,,,,,,,,,0
@@ -2017,11 +2024,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 980,,steyr_aug_para_9x19_gasblock,Steyr AUG Para 9x19,0,0.1,,,,,,,,,0
 981,,steyr_aug_z_9x19_gasblock,Steyr AUG Z Shortened 9x19,0,0.06,,,,,,,,,600
 ,aug_a3_barrel,,,,,,,,,,,,,
-982,,steyr_aug_407mm_barrel,Steyr AUG A3 5.56x45 407mm,0,0.63,-1,-1,,0,0.1,79,,,0
-983,,steyr_aug_508mm_barrel,Steyr AUG A3 5.56x45 508mm,-4,0.76,-5,-5,,-0.15,0.24,179,,,1000
-984,,steyr_aug_350mm_barrel,Steyr AUG A3 5.56x45 350mm,2,0.55,0,0,,0.1,0,10,,,600
+982,,steyr_aug_407mm_barrel,Steyr AUG A3 5.56x45 407mm,0,0.65,-1,-1,,-0.06,0.1,79,,,0
+983,,steyr_aug_508mm_barrel,Steyr AUG A3 5.56x45 508mm,-4,0.8,-5,-5,,-0.24,0.24,179,,,1000
+984,,steyr_aug_350mm_barrel,Steyr AUG A3 5.56x45 350mm,2,0.57,0,0,,0.03,0,10,,,600
 985,,steyr_aug_hbar_620mm_heavy_barrel,Steyr AUG HBAR 5.56x45 620mm Heavy LMG,-10,1.01,-8,-8,,0.1,0.28,269,,,2000
-,,steyr_aug_457mm_barrel,Steyr AUG A3 5.56x45 457mm,-2,0.69,-3,-3,,-0.08,0.16,131,,,750
+,,steyr_aug_457mm_barrel,Steyr AUG A3 5.56x45 457mm,-2,0.72,-3,-3,,-0.15,0.16,131,,,750
 ,aug_a3_bolt_carrier,,,,,,,,,,,,,
 986,,aug_a3_std_bolt_carrier,AUG A3 Std.,0,0.2,,,,,,,,,0
 ,aug_a3_gasblock,,,,,,,,,,,,,
@@ -2849,11 +2856,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1329,,Glock20,Glock 20,60,0.4,40,70,0,1.1,1,1000,,,10000
 ,,P320,Sig Sauer P320,70,0,20,30,0,1,1,1000,,,25000
 ,rifle,,,,,,,,,,,,,
-1330,,KF416,KF416,30,0,55,90,0,0.45,1,2300,,,30000
-1331,,AUG_A3,Steyr AUG A3,40,0,55,60,0,0.45,1,2300,,,42000
+1330,,KF416,KF416,30,0,55,90,0,0.5,1,2300,,,30000
+1331,,AUG_A3,Steyr AUG A3,40,0,55,60,0,0.5,1,2300,,,42000
 1332,,AK12,Kalashnikov Concern AK-12,30,0.6,50,55,0,0.3,1,2300,,,25000
 1333,,AK308,Kalashnikov Concern AK-308,30,0.75,80,100,0,0.8,1,1600,,,65000
-1334,,M4A1,M4A1,15,0,65,85,0,0.5,1,2300,,,0
+1334,,M4A1,M4A1,15,0,65,85,0,0.6,1,2300,,,0
 1335,,QBZ95,Norinco QBZ-95,45,2.3,50,50,0,0.5,0.9,2500,,,25000
 1336,,SA58,DS Arms SA-58,20,0.75,80,100,0,0.75,1,1550,,,20000
 1337,,SCAR47,Handl Defense SCAR-47,40,0,60,60,0,0.2,0.9,1600,,,60000

@@ -1,4 +1,4 @@
-﻿0.24.3,Wed Dec 03 00:25:16 2025,,,,,,,,,,,,,
+﻿0.24.3,Wed Dec 03 00:49:09 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1872,6 +1872,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kf_416a5_16.5i_barrel,"KF416A5 16.5""",-3,0.69,-2,-2,,-0.1,0.11,100,,,1000
 ,,kf_416d_20i_barrel,"KF416D 20""",-7,0.85,-5,-5,,-0.24,0.25,190,,,2000
 ,,kf_416a5_20i_barrel,"KF416A5 20""",-7,0.82,-5,-5,,-0.26,0.25,190,,,2000
+,kf_416_bayonet_mount,,,,,,,,,,,,,
+,,kf_416_a5_bayonet_mount,KF416A5,0,0.02,,,,,,,,,0
+,,m27_bayonet_mount,M27,0,0.02,,,,,,,,,500
+,kf_416_sight_mount,,,,,,,,,,,,,
+,,standalone_front_sight_mount,,0,0.02,,,,,,,,,0
+,,custom_bayonet_mount+_front_sight_mount,,0,0.03,,,,,,,,,500
 ,kf_416_barrel_nut,,,,,,,,,,,,,
 ,,kf_416_barrel_nut,KF416,0,0.05,,,,,,,,,0
 ,,kf_416_a5_barrel_nut,KF416A5,0,0.05,,,,,,,,,0
@@ -1903,9 +1909,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kf_416a5_bolt_carrier_group,KF416A5 BCG,0,0.11,,,,,,,,,0
 ,,kf_416c_bolt_carrier_group,KF416C BCG,0,0.11,,,,,,,,,0
 ,kf_416a5_upper_receiver,,,,,,,,,,,,,
-,,kf_416d_upper_receiver,KF 416D Upper Receiver,0,0.25,0,0,,,,,,,0
-,,kf_416a5_upper_receiver,KF 416A5 Upper Receiver,1,0.22,0,1,,,,,,,1000
-,,kf_m27_iar_upper_receiver,KF M27 IAR Upper Receiver,-1,0.27,-1,-1,,-0.05,,,,,2000
+,,kf_416d_upper_receiver,KF 416D Upper Receiver,0,0.26,0,0,,,,,,,0
+,,kf_416a5_upper_receiver,KF 416A5 Upper Receiver,1,0.23,0,1,,,,,,,1000
+,,kf_m27_iar_upper_receiver,KF M27 IAR Upper Receiver,-1,0.28,-1,-1,,-0.05,,,,,2000
 ,kf_416a5_lower_receiver,,,,,,,,,,,,,
 ,,kf_416c_lower_receiver,KF 416C Lower Receiver,2,0.3,1,1,,,,,,,1000
 ,,kf_416d_lower_receiver,KF 416D Lower Receiver,0,0.35,0,0,,,,,,,0
@@ -1931,6 +1937,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kf_416d_endplate,KF416D,0,0.01,,,,,,,,,0
 ,,kf_416c_endplate,KF416C,0,0.01,,,,,,,,,100
 ,,kf_416a5_sling_eyelet_endplate,KF416A5 Sling Eyelet,0,0.02,,,,,,,,,200
+,kf_416c_stock,,,,,,,,,,,,,
+,,kf_416c_stock_body,KF416C Stock Body,-2,0.11,,,,,,,,,1000
+,,kf_416c_type_1_buttstock,KF416C Type 1,20,0.13,-8,-7,,,,,,,250
+,,kf_416c_type_2_buttstock,KF416C Type 2,21,0.16,-8,-7,,,,,,,500
 ,hk_stock_extendable_part,,,,,,,,,,,,,
 941,,hk_g3a3_stock_extendable_part,HK G3A3 Stock Extendable Part,13,0.08,-7,-9,,,,,,,0
 ,hk_g3_button_mag_release,,,,,,,,,,,,,

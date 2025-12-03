@@ -1,4 +1,4 @@
-0.24.3,Wed Dec 03 00:55:14 2025,,,,,,,,,,,,,
+0.24.3,Wed Dec 03 01:48:09 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1876,11 +1876,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kf_416_a5_bayonet_mount,KF416A5,0,0.02,,,,,,,,,0
 ,,m27_bayonet_mount,M27,0,0.02,,,,,,,,,500
 ,kf_416_sight_mount,,,,,,,,,,,,,
-,,standalone_front_sight_mount,,0,0.02,,,,,,,,,0
-,,custom_bayonet_mount+_front_sight_mount,,0,0.03,,,,,,,,,500
+,,standalone_front_sight_mount,,1,0.02,,,,,,,,,0
+,,custom_bayonet_mount+_front_sight_mount,,1,0.03,,,,,,,,,500
 ,kf_416_barrel_nut,,,,,,,,,,,,,
-,,kf_416_barrel_nut,KF416,0,0.05,,,,,,,,,0
-,,kf_416_a5_barrel_nut,KF416A5,0,0.05,,,,,,,,,0
+,,kf_416_barrel_nut,KF416,1,0.05,,,,,,,,,0
+,,kf_416_a5_barrel_nut,KF416A5,1,0.05,,,,,,,,,0
 ,kf_416_gas_block,,,,,,,,,,,,,
 ,,kf_416a5_adjustable_gas_block,KF416A5 Adjustable,0,0.1,,,,,,,,,0
 ,,kf_416c_adjustable_gas_block,KF416C Adjustable,0,0.11,,,,,,,,,200
@@ -2880,7 +2880,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1329,,Glock20,Glock 20,60,0.4,40,70,0,1.1,1,1000,,,10000
 ,,P320,Sig Sauer P320,70,0,20,30,0,1,1,1000,,,25000
 ,rifle,,,,,,,,,,,,,
-1330,,KF416,KF416,30,0,60,80,0,0.5,1,2300,,,30000
+1330,,KF416,KF416,25,0,60,80,0,0.55,1,2300,,,30000
 1331,,AUG_A3,Steyr AUG A3,40,0,55,60,0,0.5,1,2300,,,42000
 1332,,AK12,Kalashnikov Concern AK-12,30,0.6,50,55,0,0.3,1,2300,,,25000
 1333,,AK308,Kalashnikov Concern AK-308,30,0.75,80,100,0,0.8,1,1600,,,65000

@@ -1,4 +1,4 @@
-0.24.3,Tue Dec 02 22:16:50 2025,,,,,,,,,,,,,
+0.24.3,Tue Dec 02 22:33:22 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1895,9 +1895,15 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kf_416a5_bolt_carrier_group,KF416A5 BCG,0,0.11,,,,,,,,,0
 ,,kf_416c_bolt_carrier_group,KF416C BCG,0,0.11,,,,,,,,,0
 ,kf_416a5_upper_receiver,,,,,,,,,,,,,
-940,,kf_416a5_upper,HK416A5,0,0.32,0,0,,,,,,,0
+,,kf_416d_upper_receiver,KF 416D Upper Receiver,0,0.25,0,0,,,,,,,0
+,,kf_416a5_upper_receiver,KF 416A5 Upper Receiver,1,0.22,0,1,,,,,,,1000
+,,kf_m27_iar_upper_receiver,KF M27 IAR Upper Receiver,-1,0.27,-1,-1,,-0.05,,,,,2000
 ,kf_416a5_lower_receiver,,,,,,,,,,,,,
-939,,kf_416a5_lower_receiver,HK416A5,0,0.4,0,0,,,,,,,0
+,,kf_416c_lower_receiver,KF 416C Lower Receiver,2,0.3,1,1,,,,,,,1000
+,,kf_416d_lower_receiver,KF 416D Lower Receiver,0,0.35,0,0,,,,,,,0
+,,kf_m27_iar_lower_receiver,KF M27 IAR Lower Receiver,1,0.38,-1,-1,,,,,,,2000
+,,kf_m38_sdmr_lower_receiver,KF M38 SDMR Lower Receiver,2,0.4,0,0,,-0.05,,,,,2000
+939,,kf_416a5_lower_receiver,KF 416A5 Lower Receiver,1,0.33,0,-1,,,,,,,1000
 ,kf_416_dust_cover,,,,,,,,,,,,,
 ,,kf_416_dust_cover,KF416,1,0.04,,,,,,,,,0
 ,kf_416_controls,,,,,,,,,,,,,

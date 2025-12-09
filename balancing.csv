@@ -1,4 +1,4 @@
-﻿0.24.4,Tue Dec 09 02:11:36 2025,,,,,,,,,,,,,
+﻿0.24.4,Tue Dec 09 02:24:34 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -617,7 +617,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,taclite_urac_top_front_ironsight,TACLITE U-RAC Top Front Ironsight,1,0.01,,,,,,,,,0
 ,,taclite_urac_top_front_ironsight_folded,TACLITE U-RAC Folded Top Front Ironsight,0,0.01,,,,,,,,,0
 ,,taclite_urac_ironsight_mount,MODTAC U-RAC Ironsight Mount,0,0.02,,,,,,,,,600
-,,taclite_urac_flag_mount,MODTAC U-RAC US Flag Mount,1,0.03,,,,,,,,,2000
+,,taclite_urac_flag_mount,MODTAC U-RAC US Flag Mount,0.5,0.01,,,,,,,,,2000
 ,modtac_mrac_mounting_plates,,,,,,,,,,,,,
 ,,taclite_mrac_low_profile_mounting_plates,MODTAC M-RAC Low Profile Mounting Plates,0,0.03,,,,,,,,,200
 ,,taclite_mrac_picatinny_rail_mounting_plates,MODTAC M-RAC Picatinny Rail Mounting Plates,-1,0.04,,,,,,,,,400

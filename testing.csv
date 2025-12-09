@@ -1,4 +1,4 @@
-﻿0.24.4,Mon Dec 08 23:34:29 2025,,,,,,,,,,,,,
+﻿0.24.4,Tue Dec 09 00:11:14 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1011,11 +1011,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,nbs_ar15_9x19_hart_mag_adapter,NBS AR-15 9x19 Hart Mag Adapter,0,0.07,,,,,,,,,1000
 ,magazine_9x19_ar9,,,,,,,,,,,,,
 505,,hart_32rd,Hart 9x19 32rnd,0,0.36,,,32,,,,,,500
-506,,evermag_hart_ar9_20r_mag,Duramag Hart AR-9 20Rnd,7,0.23,,-2,20,,,,,,400
-507,,evermag_hart_ar9_10r_mag,Duramag Hart AR-9 10Rnd,14,0.12,,-4,10,,,,,,200
+506,,evermag_hart_ar9_20r_mag,Duramag Hart AR-9 20Rnd,6,0.23,,,20,,,,,,400
+507,,evermag_hart_ar9_10r_mag,Duramag Hart AR-9 10Rnd,12,0.12,,,10,,,,,,200
 ,,custom_hart_smg_9x19_50r_mag,Custom Hart SMG 9x19 50rnd Magazine,-20,0.6,,,50,0.05,,,,,5000
 ,hart_smg_extension,,,,,,,,,,,,,
-,,tyler_freelance_hart_smg_10r_mag_extension,Taylor Freelance Hart SMG 10r Mag Extension,-5,0.11,,,10,,,,,,1000
+,,tyler_freelance_hart_smg_10r_mag_extension,Taylor Freelance Hart SMG 10r Mag Extension,-6,0.11,,,10,,,,,,1000
 ,hart_50_more,,,,,,,,,,,,,
 ,,custom_hart_smg_9x19_50r_extension,Custom Hart SMG 50rnd Magazine Extension,-45,0.57,20,20,50,0.05,,,,,5000
 ,,custom_hart_smg_mag_coupler,Custom Hart SMG Mag Coupler,-2,0.1,,,,,,,,,0

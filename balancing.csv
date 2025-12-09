@@ -1,4 +1,4 @@
-﻿0.24.4,Wed Dec 03 01:48:09 2025,,,,,,,,,,,,,
+﻿0.24.4,Mon Dec 08 23:34:29 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -806,7 +806,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 384,,aft_rear_sight_600m_aperture,FN Scar 600m Aperture,0,0.005,,,,,,,,,0
 385,,aft_rear_sight_200m_aperture,FN Scar 200m Aperture,0,0.005,,,,,,,,,0
 ,fn_scar_h_gasblock,,,,,,,,,,,,,
-386,,aft_mk20_gas_block,FN SCAR Mk20,3,0.15,2,2,,-0.05,,100,,,1000
+386,,aft_mk20_gas_block,AFT SCAR Mk20,3,0.15,2,2,,-0.05,,100,,,1000
 387,,aft_mk_17_gasblock,FN SCAR-H Standard,0,0.12,0,0,,,,,,,500
 ,,hi_dog_hdd_tactical_scarh_hitorque_gasblock,Hi-desertdog HDD Tactical Scar H HiTorque Gasblock,2,0.16,-1,0,,,,,,,400
 ,fn_front_sight_base,,,,,,,,,,,,,
@@ -820,9 +820,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 393,,pmm_scar_battery_control_bolt_release,PMM SCAR Battery Control,2,0.06,,,,,,,,,500
 ,fn_scar_trigger,,,,,,,,,,,,,
 394,,fn_scar_trigger,FN Scar Standard,0,0.03,,,,,,,,,0
-395,,schmidt_super_scar_trigger,Geissele Super SCAR,2,0.05,,,,,,,,,750
+395,,schmidt_super_scar_trigger,Schmidt Super SCAR,2,0.05,,,,-0.05,,,,,750
 ,fn_scar_bottom_rail_mount,,,,,,,,,,,,,
-396,,aft_mk20_bottom_rail_mount,FN Scar Mk20,4,0.2,,,,,,,,,400
+396,,aft_mk20_bottom_rail_mount,AFT SCAR Mk20,4,0.15,,,,,,,,,400
 397,,aft_bottom_rail_mount,FN Scar Bottom Rail Mount,2.5,0.1,,,,,,,,,0
 ,,pmm_scar_heavy_duty_mlok_bottom_panel,PMM Scar Heavy Duty MLOK Bottom Panel,2,0.08,,,,,,,,,300
 ,fn_scar_charging_handle,,,,,,,,,,,,,
@@ -833,7 +833,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 400,,fn_scar_fire_selector,FN SCAR-H Standard,0,0,,,,,,,,,0
 401,,dynamic_development_group_talon_ambi_scar_45_90_safety_selector,Kinetic Development Group Talon Ambi SCAR 45/90,1.5,0.02,,,,,,,,,300
 ,fn_scar_h_barrel,,,,,,,,,,,,,
-402,,aft_mk20_508mm_barrel,FN SCAR Mk20 508mm,-3,1.01,2,2,,-0.3,0.09,308,,,1500
+402,,aft_mk20_508mm_barrel,AFT SCAR Mk20 508mm,-4,1.01,2,2,,-0.3,0.09,308,,,1500
 403,,barreltech_scar20_spiral_508mm_threaded_barrel,"Deadshot FN SCAR 20 Spiral 20"" Threaded",-7,0.94,-4,-2,,-0.15,0.07,358,,,2000
 404,,aft_mk_17_508mm_barrel,FN SCAR-H 508mm,-5,0.96,-3,-3,,-0.1,0.06,208,,,1500
 ,,barreltech_scar20_spiral_406mm_threaded_barrel,"Deadshot FN SCAR 20 Spiral 16"" Threaded",-1,0.79,-1,1,,-0.05,0.01,171,,,1500
@@ -851,7 +851,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,m4a1_std_mag_release_scar,Lingle Industries AR17 Scar H Mag Release,0,0.1,,,,,,,,,0
 ,fn_scar_h_upper_receiver,,,,,,,,,,,,,
 410,,aft_mk_17_upper_receiver,FN SCAR-H Standard,0,0.65,0,0,,,,,,,2000
-411,,aft_mk20_upper_receiver,FN SCAR Mk20,8,0.85,3,6,,,0.05,50,,,4000
+411,,aft_mk20_upper_receiver,AFT SCAR Mk20,5,0.9,3,6,,,0.05,50,,,4000
 412,,monarch_ballistics_cypher_x_standard_scar_h_upper_receiver,Imperial Arms CypherX Standard SCAR-H,3,0.7,0,0,,,,,,,3000
 ,fn_scar_l_barrel,,,,,,,,,,,,,
 413,,aft_mk_16_254mm_barrel,FN SCAR-L 254mm,2,0.47,1,2,,0.2,-0.08,-135,,,1200
@@ -872,14 +872,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 422,,pmm_scar_oversized_mag_release_button,PMM SCAR Oversized Button,1,0.03,,,,,,,,,500
 ,fn_scar_side_rail_mount,,,,,,,,,,,,,
 423,,aft_side_rail_1,FN Scar Side Rail,-0.5,0.04,,,,,,,,,0
-424,,aft_mk20_side_rail_2,FN Scar Mk20,-1,0.07,,,,,,,,,500
-425,,aft_mk20_side_rail_1,FN Scar Mk20,-1,0.07,,,,,,,,,500
+424,,aft_mk20_side_rail_2,AFT SCAR Mk20,-1,0.07,,,,,,,,,500
+425,,aft_mk20_side_rail_1,AFT SCAR Mk20,-1,0.07,,,,,,,,,500
 426,,aft_side_rail_2,FN Scar Side Rail,-0.5,0.04,,,,,,,,,0
 ,fn_scar_stock_cheek_piece,,,,,,,,,,,,,
 427,,aft_stock_cheek_piece,FN SCAR,3,0.16,,,,,,,,,0
 ,fn_scar_stock_connector,,,,,,,,,,,,,
 428,,aft_stock_connector,FN SCAR,0,0.07,0,0,,,,,,,0
-429,,aft_ssr_stock_assembly,FN SCAR SSR,20,0.51,-3,-3,,,,,,,600
+429,,aft_ssr_stock_assembly,AFT SCAR SSR,18,0.51,-3,-4,,-0.05,,,,,600
 430,,dynamic_development_group_sas_acr_stock_scar_adapter,Kinetic Development Group SAS Adaptive ACR Stock Connector,-1,0.07,0,0,,,,,,,300
 ,,mesa_tactical_faro_scar_buffer_tube_adapter,Mesa Tactical Faro Scar Buffer Tube Adapter,-5,0.08,2,2,,0.1,,,,,450
 ,,aft_sc_stock_adapter,FN Scar SC Stock Adaptor,1,0.08,0,0,,,,,,,1500

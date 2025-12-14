@@ -1590,8 +1590,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 784,,tt_c_optic_rail,TT-C Optic,-0.5,0.04,,,,,,,,,1000
 ,pm_makarov_mag_bottomplate,,,,,,,,,,,,,
 785,,izhevsk_pm_mag_bottomplate,Izhevsk PM Magazine Bottom Plate,0,0.01,,,,,,,,,0
-786,,legal_arsenal_enhanced_+2r_ext_pm_mag_plate,Legal Arsenal PM Makarov Enhanced (+2 Round),-0.8,0.025,,,2,,,,,,1400
-787,,fireline_+2r_ext_pm_mag_plate,Legal Arsenal PM Makarov (+2 Round),-1,0.02,,,2,,,,,,1000
+787,,fireline_+2r_ext_pm_mag_plate,FireLine PM Makarov (+2 Round),-2,0.04,,,2,,,,,,1000
 ,makarov_lower_receiver,,,,,,,,,,,,,
 788,,izhevsk_pm_9x18_std_frame,Izhevsk PM 9x18 Standard Frame,0,0.2,,,,,,,,,0
 ,makarov_pistol_grip,,,,,,,,,,,,,
@@ -1603,7 +1602,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 791,,izhevsk_pm_9x18_std_slide,Izhevsk PM 9x18 Standard Slide,0,0.1,,,,,,,,,0
 ,makarov_barrel,,,,,,,,,,,,,
 792,,izhevsk_pm_9x18_94mm_barrel,Izhevsk PM 9x18 94mm Barrel,0,0.15,0,0,,0,0,0,,,0
-,,hahn_precision_works_pm_9x18_110mm_threaded_barrel,Chefur Custom PM 9x18 110mm Threaded,-2,0.18,2,1,,0.08,0,32,,,1000
+,,hahn_precision_works_pm_9x18_110mm_threaded_barrel,Hahn Precision Works PM 9x18 110mm Threaded,-2,0.18,2,1,,0.08,0,32,,,1000
 ,makarov_parts,,,,,,,,,,,,,
 ,,izhevsk_pm_mag_release_spring,Izhevsk PM Standard Magazine Release Spring,,0.01,,,,,,,,,0
 ,,izhevsk_pm_std_hammer,Izhevsk PM Standard Hammer,,0.01,,,,,,,,,0
@@ -2873,7 +2872,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1323,,TestFlash,TestFlash,,,,,,,,,,,5000
 1324,,TestSmoke,TestSmoke,,,,,,,,,,,2000
 ,pistol,,,,,,,,,,,,,
-1325,,Makarov,Izhevsk PM,75,0,25,25,0,1.2,1,800,,,2000
+1325,,Makarov,Izhevsk PM,75,0,25,25,0,1,1,800,,,2000
 1326,,TT33,Tula TT-33,45,0,40,40,0,1.2,0.98,1100,,,5000
 1327,,EDC_X9,Wilson Combat EDC X9,80,0,25,25,0,0.9,1,1000,,,40000
 1328,,Glock17,Glock 17,50,0,35,65,0,1.2,1,1000,,,0

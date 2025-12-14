@@ -4,6 +4,7 @@ Attachment stats and other stuff for [Deadline](https://www.roblox.com/games/383
 
 ## changelogs
 
+- [0.24.2](changelogs/0-24-2.md)
 - [0.24.1](changelogs/0-24-1.md)
 - [0.24.0](changelogs/0-24-0.md)
 - [0.23.3](changelogs/0-23-3.md)

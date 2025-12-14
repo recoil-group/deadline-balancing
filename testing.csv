@@ -1,4 +1,4 @@
-﻿0.24.4,Sat Dec 13 17:35:19 2025,,,,,,,,,,,,,
+﻿0.24.4,Sat Dec 13 20:50:16 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -850,8 +850,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,lingle_mag_release,,,,,,,,,,,,,
 ,,m4a1_std_mag_release_scar,Lingle Industries AR17 Scar H Mag Release,0,0.1,,,,,,,,,0
 ,fn_scar_h_upper_receiver,,,,,,,,,,,,,
-410,,aft_mk_17_upper_receiver,FN SCAR-H Standard,0,0.65,0,0,,,,,,,2000
-411,,aft_mk20_upper_receiver,AFT SCAR Mk20,5,0.9,3,6,,,0.05,50,,,4000
+410,,aft_mk_17_upper_receiver,AFT Mk17 Standard,0,0.65,0,0,,,,,,,2000
+411,,aft_mk20_upper_receiver,AFT Mk20,5,0.9,3,4,,,,,,,4000
 412,,monarch_ballistics_cypher_x_standard_scar_h_upper_receiver,Imperial Arms CypherX Standard SCAR-H,3,0.7,0,0,,,,,,,3000
 ,fn_scar_l_barrel,,,,,,,,,,,,,
 413,,aft_mk_16_254mm_barrel,FN SCAR-L 254mm,2,0.47,1,2,,0.2,-0.08,-135,,,1200

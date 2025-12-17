@@ -1,4 +1,4 @@
-﻿0.24.4,Wed Dec 17 15:03:42 2025,,,,,,,,,,,,,
+﻿0.24.4,Wed Dec 17 15:23:42 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -997,14 +997,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,magazine_762x51_ak308,,,,,,,,,,,,,
 495,,7.62x51_kazarov_group_ak308_20r_mag,Kalashnikov Concern 7.62x51 AK-308 20R,0,0.59,,,20,,,,,,600
 496,,springfield_armory_m14_7.62x51_modified_30r_mag,Springfield Armory M14/M1A 7.62x51 Modified 30R,-6,0.93,,,30,,,,,,1000
-497,,springfield_armory_m14_7.62x51_modified_20r_mag,Springfield Armory M14/M1A 7.62x51 Modified 20R,0.5,0.63,,,20,,,,,,750
+497,,springfield_armory_m14_7.62x51_modified_20r_mag,Springfield Armory M14/M1A 7.62x51 Modified 20R,0.5,0.62,,,20,,,,,,750
 498,,sgm_tactical_saiga308_15r_mag,SGM Tactical Saiga .308 15R,5,0.42,,,15,,,,,,700
 499,,sgm_tactical_saiga308_20r_mag,SGM Tactical Saiga .308 20R,-0.5,0.57,,,20,,,,,,750
-500,,sgm_tactical_saiga308_25r_mag,SGM Tactical Saiga .308 25R,-4,0.71,,,25,,,,,,950
+500,,sgm_tactical_saiga308_25r_mag,SGM Tactical Saiga .308 25R,-3,0.69,,,25,,,,,,950
 501,,sgm_tactical_saiga308_10r_mag,SGM Tactical Saiga .308 10R,7,0.28,,,10,,,,,,500
 502,,sgm_tactical_saiga308_3r_mag,SGM Tactical Saiga .308 3R,19,0.09,,,3,,,,,,100
 503,,sgm_tactical_saiga308_5r_mag,SGM Tactical Saiga .308 5R,13,0.14,,,5,,,,,,300
-,,promag_saiga308_sai_a5_polymer_mag_24r,ProMag Saiga .308 SAI-A5 Polymer 24rd Magazine,-3,0.68,,,24,,,,,,900
+,,promag_saiga308_sai_a5_polymer_mag_24r,ProMag Saiga .308 SAI-A5 Polymer 24rd Magazine,-2.5,0.68,,,24,,,,,,900
 ,magazine_10mm_glock20,,,,,,,,,,,,,
 504,,glock20_10mm_15r,Glock Standard 15R 10mm,0,0.18,,,15,,,,,,500
 ,magazine_ar9_adapter,,,,,,,,,,,,,
@@ -1238,10 +1238,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak12_bolt,,,,,,,,,,,,,
 636,,ak12_std_5.45x39_bolt,AK-12 5.45x39,0,0,,,,,,,,,0
 ,ak12_dust_cover,,,,,,,,,,,,,
-637,,ak12_gen2_dustcover,Kalashnikov Concern AK-12 Gen2 Dust Cover,1,0.28,0,0,,,,,,,800
+637,,ak12_gen2_dustcover,Kalashnikov Concern AK-12 Gen2 Dust Cover,1,0.27,0,0,,,,,,,800
 ,,ak12_gen1_dustcover,Kalashnikov Concern AK-12 Gen1,0,0.24,0,0,,,,,,,0
 ,ak12_rear_sight,,,,,,,,,,,,,
-,,kazarov_group_ak12_gen1_rear_sight,Kazarov Group AK-12 Gen1 Rear Sight,1,0.05,,,,,,,,,0
+,,kazarov_group_ak12_gen1_rear_sight,Kazarov Group AK-12 Gen1 Rear Sight,1,0.03,,,,,,,,,0
 ,ak12_fire_selector,,,,,,,,,,,,,
 638,,ak12_std_fire_selector,AK-12 Std.,0,0.02,,,,,,,,,0
 ,ak12_gen2_pistol_grip,,,,,,,,,,,,,
@@ -1267,8 +1267,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 645,,ak12_std_upper_handguard,Kalashnikov Concern AK-12 Std.,0,0.06,0,0,,,,,,,250
 ,,kazarov_group_ak12_std_handguard_side_rail,Kalashnikov Concern AK-12 Std. Handguard Side Rail,-0.5,0.02,,,,,,,,,300
 ,ak308_barrel,,,,,,,,,,,,,
-646,,ak308_std_415mm_barrel,AK-308 415mm 7.62x51,0,1.02,0,0,,0.25,0,0,,,500
-647,,custom_ak308_7.62x51_415mm_threaded_barrel,Custom AK-308 415mm Threaded 7.62x51,-1,1.02,2,2,,0.35,0,-50,,,1000
+646,,ak308_std_415mm_barrel,AK-308 415mm 7.62x51,0,1.02,0,0,,0,0,0,,,
+647,,custom_ak308_7.62x51_415mm_threaded_barrel,Custom AK-308 415mm Threaded 7.62x51,-1,1.02,1,1,,0.1,0,0,,,
 ,ak308_bolt,,,,,,,,,,,,,
 648,,ak308_std_7.62x51_bolt,AK-308 7.62x51 NATO,0,0,,,,,,,,,0
 ,ak308_lower_receiver,,,,,,,,,,,,,
@@ -2882,7 +2882,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1330,,KF416,KF416,25,0,60,80,0,0.55,1,2300,,,30000
 1331,,AUG_A3,Steyr AUG A3,40,0,55,60,0,0.5,1,2300,,,42000
 1332,,AK12,Kalashnikov Concern AK-12,30,0.6,50,55,0,0.3,1,2300,,,25000
-1333,,AK308,Kalashnikov Concern AK-308,30,0.75,80,100,0,0.8,1,1600,,,65000
+1333,,AK308,Kalashnikov Concern AK-308,30,0.75,80,100,0,0.85,1,1600,,,65000
 1334,,M4A1,M4A1,15,0,65,85,0,0.6,1,2300,,,0
 1335,,QBZ95,Norinco QBZ-95,45,2.3,50,50,0,0.5,0.9,2500,,,25000
 1336,,SA58,DS Arms SA-58,20,0.75,80,100,0,0.75,1,1550,,,20000

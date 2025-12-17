@@ -1,4 +1,4 @@
-﻿0.24.4,Wed Dec 17 15:23:42 2025,,,,,,,,,,,,,
+﻿0.24.4,Wed Dec 17 15:25:21 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -900,7 +900,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 435,,scar47_pistol_grip,HANDL DEFENSE SCAR 47,7,0.07,-2,-2,,,,,,,0
 ,scar47_upper_receiver,,,,,,,,,,,,,
 436,,aft_mk_17_upper_receiver_for_scar47,FN SCAR-H Standard,0,0.65,0,0,,,,,,,2000
-437,,aft_mk20_upper_receiver_for_scar47,FN SCAR Mk20,8,0.85,3,6,,,0.05,50,,,4000
+437,,aft_mk20_upper_receiver_for_scar47,FN SCAR Mk20,5,0.9,3,4,,,,,,,4000
 438,,monarch_ballistics_cypher_x_standard_scar_h_upper_receiver_for_scar47,Imperial Arms CypherX Standard SCAR-H,3,0.7,0,0,,,,,,,3000
 ,scar_handguard,,,,,,,,,,,,,
 439,,hilt_defense_scar47_mlok_handguard,Handl Defense SCAR47 MLOK,2,0.25,-1,-4,,,,,,,1200

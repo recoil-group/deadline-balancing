@@ -1,4 +1,4 @@
-﻿0.24.4,Wed Dec 17 15:25:21 2025,,,,,,,,,,,,,
+﻿0.24.4,Wed Dec 17 15:31:48 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -371,7 +371,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 178,,virticon_rx10_gooseneck_mount,Trijicon RX10 Gooseneck,-1,0.07,,,,,,,,,200
 179,,strauss_mark_4_carry_handle_mount,Leupold Mark 4 Carry Handle Mount,-2,0.06,,,,,,,,,300
 180,,virticon_acog_ta11d_bac_carry_handle,Trijicon Acog TA11D BAC,-3,0.2,,-2,,,,,,,1900
-,,hart_retro_a1_scope_carry_handle_mount,Hart Retro A1 Scope Carry Handle Mount,-1,0.05,,,,,,,,,300
+,,hart_retro_a1_scope_carry_handle_mount,Hart Retro A1 Scope Carry Handle Mount,-1,0.05,,,,,,,,,0
 ,,ultracross_4x20_scope_carry_handle_mount,Barska 4x20 Scope Carry Handle Mount,-1,0.05,,,,,,,,,300
 ,,insight_technology_an_paq_4a_carry_handle_mount,Insight Technology AN/PAQ-4A Carry Handle Mount,0,0.08,,,,,,,,,200
 ,cosmic_tactical_saturn_mount,,,,,,,,,,,,,
@@ -528,7 +528,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,nariakira_momentary_tailcap,Arisaka Momentary Tailcap,1,0.01,,,,,,,,,100
 ,,centrefire_z68_clicky_tailcap,Surefire Z68 Clicky Tailcap,1.5,0.02,,,,,,,,,250
 ,carry_handle_scope_mount,,,,,,,,,,,,,
-,,hart_retro_a1_4x21_scope,Hart Retro A1 4x21 Scope,-3,0.17,,,,,,,,,750
+,,hart_retro_a1_4x21_scope,Hart Retro A1 4x21 Scope,-3,0.17,,,,,,,,,0
 ,,ultracross_electro_4x20_bdc_scope,Barska Electro 4x20 BDC Turret Scope,-3,0.18,,,,,,,,,1000
 ,sc_irregulars_omm_front_mount,,,,,,,,,,,,,
 ,,sc_irregulars_cap_front,SC Irregulars OMM Front Cap,0,0.01,,,,,,,,,0
@@ -685,7 +685,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pmm_bcm_gunfighter_mod3_scar_pistol_grip,PMM BCM Gunfighter Mod3 SCAR Pistol Grip,8,0.1,-3,-3,,,,,,,800
 ,,axtell_defense_pistol_grip_with_trigger_guard,Daniel Defense Pistol Grip w/ Trigger Guard,10,0.13,-4,-2,,,,,,,900
 ,ar15_trigger,,,,,,,,,,,,,
-330,,hart_m4a1_std_trigger,M4 Standard,2,0.04,0,0,,0,,,,,200
+330,,hart_m4a1_std_trigger,M4 Standard,2,0.04,0,0,,0,,,,,0
 331,,fort_worth_manufacturing_trigger,CMC drop-in,3,0.03,-1,0,,-0.05,,,,0.03,300
 332,,tsa_custom_trigger,PSA custom,3.5,0.04,0,-1,,-0.05,,,,0.03,400
 333,,rise_blitz_trigger,Rise Armaments blitz,4,0.05,-1,0,,-0.1,,,,0.05,1000
@@ -795,7 +795,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 375,,bnb_value_line_light_tapered_melonite_ar9_76mm_9x19_barrel,"KAK Value Line Light Tapered Melonite AR9 3"" 9x19",9,0.14,8,8,,0.25,-0.15,-300,,,750
 376,,cmmg_mk9_216mm_9x19_barrel,"CmmG Mk9 8.5"" 9x19",3,0.3,3,2,,0.07,0.03,-90,,,900
 377,,cmmg_mk9_229mm_9x19_barrel,"CmmG Mk9 9"" 9x19",2,0.31,2,2,,0.05,0.04,-70,,,950
-378,,cmmg_mk9_406mm_9x19_c_barrel,"CmmG Mk9 16"" 9x19 Carbine Length",-3,0.51,-2,-2,,0,0.09,200,,,1200
+378,,cmmg_mk9_406mm_9x19_c_barrel,"CmmG Mk9 16"" 9x19 Carbine Length",-3,0.51,-2,-2,,0,0.09,200,,,0
 379,,cmmg_mk9_406mm_9x19_r_barrel,"CmmG Mk9 16"" 9x19 Rifle Length",-5,0.53,-4,-4,,0,0.09,200,,,1200
 380,,cmmg_mk9_406mm_9x19_m_barrel,"CmmG Mk9 16"" 9x19 Mid Length",-4,0.52,-3,-3,,0,0.09,200,,,1200
 381,,cmmg_mk9_127mm_9x19_barrel,"CmmG Mk9 5"" 9x19",7,0.2,6,6,,0.2,0,-225,,,800
@@ -807,10 +807,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 385,,aft_rear_sight_200m_aperture,FN Scar 200m Aperture,0,0.005,,,,,,,,,0
 ,fn_scar_h_gasblock,,,,,,,,,,,,,
 386,,aft_mk20_gas_block,AFT SCAR Mk20,3,0.15,2,2,,-0.05,,100,,,1000
-387,,aft_mk_17_gasblock,FN SCAR-H Standard,0,0.12,0,0,,,,,,,500
+387,,aft_mk_17_gasblock,FN SCAR-H Standard,0,0.12,0,0,,,,,,,0
 ,,hi_dog_hdd_tactical_scarh_hitorque_gasblock,Hi-desertdog HDD Tactical Scar H HiTorque Gasblock,2,0.16,-1,0,,,,,,,400
 ,fn_front_sight_base,,,,,,,,,,,,,
-388,,aft_front_sight_base,FN SCAR Standard,0,0.01,,,,,,,,,100
+388,,aft_front_sight_base,FN SCAR Standard,0,0.01,,,,,,,,,0
 389,,dynamic_development_group_scar_fs_replacement_rail,Kinetic Development Group SCAR Front Sight Replacement Rail,0,0.03,,,,,,,,,300
 ,fn_front_sight,,,,,,,,,,,,,
 390,,aft_front_sight_folded,AFT Standard Folded,0,0.01,,,,,,,,,0
@@ -833,12 +833,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 400,,fn_scar_fire_selector,FN SCAR-H Standard,0,0,,,,,,,,,0
 401,,dynamic_development_group_talon_ambi_scar_45_90_safety_selector,Kinetic Development Group Talon Ambi SCAR 45/90,1.5,0.02,,,,,,,,,300
 ,fn_scar_h_barrel,,,,,,,,,,,,,
-402,,aft_mk20_508mm_barrel,AFT SCAR Mk20 508mm,-4,1.01,2,2,,-0.3,0.09,308,,,1500
+402,,aft_mk20_508mm_barrel,AFT Mk20 508mm,-4,1.01,2,2,,-0.3,0.09,308,,,1500
 403,,barreltech_scar20_spiral_508mm_threaded_barrel,"Deadshot FN SCAR 20 Spiral 20"" Threaded",-7,0.94,-4,-2,,-0.15,0.07,358,,,2000
-404,,aft_mk_17_508mm_barrel,FN SCAR-H 508mm,-5,0.96,-3,-3,,-0.1,0.06,208,,,1500
+404,,aft_mk_17_508mm_barrel,AFT Mk20 508mm,-5,0.96,-3,-3,,-0.1,0.06,208,,,1500
 ,,barreltech_scar20_spiral_406mm_threaded_barrel,"Deadshot FN SCAR 20 Spiral 16"" Threaded",-1,0.79,-1,1,,-0.05,0.01,171,,,1500
-405,,aft_mk_17_406mm_barrel,FN SCAR-H 406mm,0,0.81,0,0,,0,0,70,,,1000
-406,,aft_mk_17_330mm_barrel,FN SCAR-H 330mm,6,0.69,3,4,,0.1,-0.04,-57,,,1200
+405,,aft_mk_17_406mm_barrel,AFT Mk20 406mm,0,0.81,0,0,,0,0,70,,,0
+406,,aft_mk_17_330mm_barrel,AFT Mk20 330mm,6,0.69,3,4,,0.1,-0.04,-57,,,1200
 ,,hi_dog_hdd_tactical_scarh_267mm_7.62x51_barrel,Hi-desertdog HDD Tactical Scar H 267mm Barrel,12,0.6,7,7,,0.2,-0.08,-187,,0.05,1500
 ,fn_scar_h_bolt,,,,,,,,,,,,,
 407,,aft_mk_17_bolt_carrier,FN SCAR-H Bolt,0,0.2,,,,,,,,,0
@@ -850,12 +850,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,lingle_mag_release,,,,,,,,,,,,,
 ,,m4a1_std_mag_release_scar,Lingle Industries AR17 Scar H Mag Release,0,0.1,,,,,,,,,0
 ,fn_scar_h_upper_receiver,,,,,,,,,,,,,
-410,,aft_mk_17_upper_receiver,AFT Mk17 Standard,0,0.65,0,0,,,,,,,2000
+410,,aft_mk_17_upper_receiver,AFT Mk17 Standard,0,0.65,0,0,,,,,,,0
 411,,aft_mk20_upper_receiver,AFT Mk20,5,0.9,3,4,,,,,,,4000
 412,,monarch_ballistics_cypher_x_standard_scar_h_upper_receiver,Imperial Arms CypherX Standard SCAR-H,3,0.7,0,0,,,,,,,3000
 ,fn_scar_l_barrel,,,,,,,,,,,,,
 413,,aft_mk_16_254mm_barrel,FN SCAR-L 254mm,2,0.47,1,2,,0.2,-0.08,-135,,,1200
-414,,aft_mk_16_355mm_barrel,FN SCAR-L 355mm,0,0.6,0,0,,0,0,17,,,1000
+414,,aft_mk_16_355mm_barrel,FN SCAR-L 355mm,0,0.6,0,0,,0,0,17,,,0
 415,,aft_mk_16_457mm_barrel,FN SCAR-L 457mm,-5,0.73,-3,-4,,-0.1,0.14,131,,,1500
 ,fn_scar_l_bolt,,,,,,,,,,,,,
 416,,aft_mk_16_bolt_carrier,FN SCAR-L Bolt,2,0.1,,,,,,,,,0
@@ -866,7 +866,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,fn_scar_l_magplate,,,,,,,,,,,,,
 419,,aft_mk_16_std_magplate,FN Scar Mag Bottom Plate,0,0.02,,,,,,,,,0
 ,fn_scar_l_upper_receiver,,,,,,,,,,,,,
-420,,aft_mk_16_upper_receiver,FN SCAR-L Standard,0,0.5,0,0,,,,,,,1500
+420,,aft_mk_16_upper_receiver,FN SCAR-L Standard,0,0.5,0,0,,,,,,,0
 ,fn_scar_mag_release,,,,,,,,,,,,,
 421,,fn_scar_mag_release,FN SCAR-H Standard,0,0,,,,,,,,,0
 422,,pmm_scar_oversized_mag_release_button,PMM SCAR Oversized Button,1,0.03,,,,,,,,,500
@@ -891,7 +891,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,fn_scar_stock_shoulder_piece,,,,,,,,,,,,,
 431,,aft_stock_shoulder_piece,FN SCAR,7,0.19,-9,-12,,,,,,,0
 ,scar47_barrel,,,,,,,,,,,,,
-432,,hilt_defense_scar47_394mm_barrel,HANDL DEFENSE SCAR 47 394mm,0,0.77,0,0,,0.25,-0.1,0,,,1000
+432,,hilt_defense_scar47_394mm_barrel,HANDL DEFENSE SCAR 47 394mm,0,0.77,0,0,,0.25,-0.1,0,,,0
 ,scar47_lower_receiver,,,,,,,,,,,,,
 433,,scar47_lower_receiver,HANDL DEFENSE SCAR 47,0,0.4,,,,,,,,,0
 ,scar47_mag_release,,,,,,,,,,,,,
@@ -899,7 +899,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,scar47_pistol_grip,,,,,,,,,,,,,
 435,,scar47_pistol_grip,HANDL DEFENSE SCAR 47,7,0.07,-2,-2,,,,,,,0
 ,scar47_upper_receiver,,,,,,,,,,,,,
-436,,aft_mk_17_upper_receiver_for_scar47,FN SCAR-H Standard,0,0.65,0,0,,,,,,,2000
+436,,aft_mk_17_upper_receiver_for_scar47,FN SCAR-H Standard,0,0.65,0,0,,,,,,,0
 437,,aft_mk20_upper_receiver_for_scar47,FN SCAR Mk20,5,0.9,3,4,,,,,,,4000
 438,,monarch_ballistics_cypher_x_standard_scar_h_upper_receiver_for_scar47,Imperial Arms CypherX Standard SCAR-H,3,0.7,0,0,,,,,,,3000
 ,scar_handguard,,,,,,,,,,,,,
@@ -921,11 +921,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pmm_scar_17_magwell_type2,PMM Scar 17 Magwell Type 2,2.5,0.1,-1,,,,,,,,700
 ,,pmm_scar_16_magwell,PMM Scar 16 Magwell,2.5,0.1,-1,,,,,,,,700
 ,vector_folding_stock,,,,,,,,,,,,,
-449,,kriss_vector_gen2_folding_stock,Kriss Vector Gen2,16,0.26,-7,-9,,,,,,,600
+449,,kriss_vector_gen2_folding_stock,Kriss Vector Gen2,16,0.26,-7,-9,,,,,,,0
 450,,kriss_vector_non_folding_stock_adapter,Kriss Vector Non-Folding Stock Adapter,0,0.08,0,0,,,,,,,800
 ,vector_upper_receiver,,,,,,,,,,,,,
 451,,vector_9mm_upper_receiver,Kriss Vector 9mm,3,0.39,-10,-10,,,,200,,,3000
-452,,vector_45acp_upper_receiver,Kriss Vector .45ACP,0,0.41,0,0,,,,,,,3000
+452,,vector_45acp_upper_receiver,Kriss Vector .45ACP,0,0.41,0,0,,,,,,,0
 ,vector_trigger,,,,,,,,,,,,,
 453,,vector_std_trigger,Kriss Vector Std.,0,0.03,,,,,,,,,0
 ,vector_right_rail,,,,,,,,,,,,,
@@ -995,7 +995,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,7.62x39_rwb_ak47_75r_drum_mag,RWB AK47 75R Drum Magazine,-13,1.51,,,75,0.15,,,,,5000
 ,,7.62x39_rwb_ak47_100r_drum_mag,RWB AK47 100R Drum Magazine,-17,1.86,,,100,0.23,,,,,6000
 ,magazine_762x51_ak308,,,,,,,,,,,,,
-495,,7.62x51_kazarov_group_ak308_20r_mag,Kalashnikov Concern 7.62x51 AK-308 20R,0,0.59,,,20,,,,,,600
+495,,7.62x51_kazarov_group_ak308_20r_mag,Kalashnikov Concern 7.62x51 AK-308 20R,0,0.59,,,20,,,,,,0
 496,,springfield_armory_m14_7.62x51_modified_30r_mag,Springfield Armory M14/M1A 7.62x51 Modified 30R,-6,0.93,,,30,,,,,,1000
 497,,springfield_armory_m14_7.62x51_modified_20r_mag,Springfield Armory M14/M1A 7.62x51 Modified 20R,0.5,0.62,,,20,,,,,,750
 498,,sgm_tactical_saiga308_15r_mag,SGM Tactical Saiga .308 15R,5,0.42,,,15,,,,,,700
@@ -1010,7 +1010,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,magazine_ar9_adapter,,,,,,,,,,,,,
 ,,nbs_ar15_9x19_hart_mag_adapter,NBS AR-15 9x19 Hart Mag Adapter,0,0.07,,,,,,,,,1000
 ,magazine_9x19_ar9,,,,,,,,,,,,,
-505,,hart_32rd,Hart 9x19 32rnd,0,0.36,,,32,,,,,,500
+505,,hart_32rd,Hart 9x19 32rnd,0,0.36,,,32,,,,,,0
 506,,evermag_hart_ar9_20r_mag,Duramag Hart AR-9 20Rnd,6,0.23,,,20,,,,,,400
 507,,evermag_hart_ar9_10r_mag,Duramag Hart AR-9 10Rnd,12,0.12,,,10,,,,,,200
 ,,custom_hart_smg_9x19_50r_mag,Custom Hart SMG 9x19 50rnd Magazine,-20,0.6,,,50,0.05,,,,,5000
@@ -1020,7 +1020,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,custom_hart_smg_9x19_50r_extension,Custom Hart SMG 50rnd Magazine Extension,-45,0.57,20,20,50,0.05,,,,,5000
 ,,custom_hart_smg_mag_coupler,Custom Hart SMG Mag Coupler,-2,0.1,,,,,,,,,0
 ,magazine_762x25mm_tt33,,,,,,,,,,,,,
-508,,tt33_std_8rnd,TT-33 Std. Single Stack 8R,27,0.09,,,8,,,,,,300
+508,,tt33_std_8rnd,TT-33 Std. Single Stack 8R,27,0.09,,,8,,,,,,0
 509,,tt33_extended_16r_mag,TT-33 Custom Welded Single Stack Extended 16R,10,0.18,,,16,,,,,,1000
 ,magazine_9x18,,,,,,,,,,,,,
 510,,custom_pm_ppsh_9x18_84r_drum_mag,Custom PM/PPSH 9x18 84R Drum,-12,0.88,4,-1,84,0.05,,,,,5000
@@ -1028,7 +1028,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,magazine_9x19_edc_x9,,,,,,,,,,,,,
 512,,whitner_defense_edc_x9_18r_magazine,EDC X9 Std. 18r,-5,0.21,,,18,,,,,,1000
 513,,whitner_defense_edc_x9_15r_magazine,EDC X9 Std. 15r,-3,0.18,,,15,,,,,,500
-514,,whitner_defense_edc_x9_10r_magazine,EDC X9 Std. 10r,0,0.13,,,10,,,,,,300
+514,,whitner_defense_edc_x9_10r_magazine,EDC X9 Std. 10r,0,0.13,,,10,,,,,,0
 ,magazine_9x19,,,,,,,,,,,,,
 515,,pf940_9x19_stick_31r_magazine,PF940 9x19 31R Stick,-3,0.35,,,31,,,,,,1000
 ,,9x19_glock_stick_31r,Glock 9x19 31R Stick,-3,0.35,,,31,,,,,,1000
@@ -1046,7 +1046,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 524,,dragoon_systems_lsx_7rnd_extension,Lancer Systems LSX +7,1,0.22,,,,,,,,,2500
 525,,dragoon_systems_lsx_8rnd_extension,Lancer Systems LSX +8,-1,0.25,,,,,,,,,3000
 526,,r870_4rnd_extension,Remington +4,7,0.12,,,,,,,,,1000
-527,,r870_std_4r_mag_cap,Rem. 870 4R,11,0.02,,,,,,,,,200
+527,,r870_std_4r_mag_cap,Rem. 870 4R,11,0.02,,,,,,,,,0
 528,,r870_2rnd_extension,Remington +2,9,0.07,,,,,,,,,500
 ,magazine_5.45x39,,,,,,,,,,,,,
 529,,5.45x39_6l26,6L26,-7,0.63,,,45,,,,,,1600
@@ -1061,7 +1061,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 538,,5.45x39_kazarov_ak12_magazine_30r,Izhmash AK-12 Windowed Polymer 30R,0,0.42,,,30,,,,,,1200
 ,,banan_magazine,Banana Magazine,0,0.39,,,30,,,,,,5000
 ,magazine_7.62x51_roosevelt700,,,,,,,,,,,,,
-539,,scrubs_outdoors_roosevelt_700_.308_5r_mag,	Wyatt's Outdoor .308 5R,-2,0.22,,,5,,,,,,300
+539,,scrubs_outdoors_roosevelt_700_.308_5r_mag,	Wyatt's Outdoor .308 5R,-2,0.22,,,5,,,,,,0
 540,,magtap_pmag_ac_5r,Magpul PMAG AC .308 5R,-2,0.18,,,5,,,,,,
 541,,magtap_pmag_ac_10r,Magpul PMAG AC .308 10R,-6,0.32,,,10,,,,,,
 542,,scrubs_outdoors_roosevelt_700_.308_10r_mag,	Wyatt's Outdoor .308 10R,-6,0.36,,,10,,,,,,1000
@@ -1084,7 +1084,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,magazine_45acp_ump45,,,,,,,,,,,,,
 551,,hk_ump45_45acp_25r_mag,HK UMP45 .45 ACP 25R,-6,0.43,,,25,,,,,,0
 ,magazine_5.8x42mm_qbz95,,,,,,,,,,,,,
-552,,magazine_5.8x42mm_qbz95,Norinco QBZ-95 5.8x42mm 30R,,,,,30,,,,,,500
+552,,magazine_5.8x42mm_qbz95,Norinco QBZ-95 5.8x42mm 30R,,,,,30,,,,,,0
 ,magazine_9x19_aug_para,,,,,,,,,,,,,
 553,,steyr_aug_para_mp88_9x19_25r_mag,Steyr AUG MP88 9x19 25R,0,0.3,,,25,,,,,,500
 ,,steyr_mpi_69_81_9x19_32r_mag,Steyr MPI69/81 9x19 32R,-4,0.38,,,32,,,,,,750
@@ -1092,7 +1092,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,magazine_7.62x51_fn_fal,,,,,,,,,,,,,
 ,,dsa_sa58_fal_metric_magazine_5r,DSA FAL SA-58 U.S. Made Metric 5R,11,0.16,,,5,,,,,,200
 555,,dsa_sa58_fal_metric_magazine_10r,DSA FAL SA-58 U.S. Made Metric 10R,7,0.32,,,10,,,,,,500
-556,,dsa_sa58_fal_metric_magazine_20r,DSA FAL SA-58 U.S. Made Metric 20R,0,0.61,,,20,,,,,,1000
+556,,dsa_sa58_fal_metric_magazine_20r,DSA FAL SA-58 U.S. Made Metric 20R,0,0.61,,,20,,,,,,0
 557,,dsa_sa58_fal_metric_magazine_30r,DSA FAL SA-58 U.S. Made Metric 30R,-7,0.92,,,30,,,,,,2000
 558,,enfield_l1a1_slr_pattern_mag_30r,Enfield L1A1 SLR Pattern 30R,-6,0.94,,,30,,,,,,2500
 559,,nm_fal_polymer_mag_20r,Moses Mag Works Polymer 20R,-1,0.55,,,20,,,,,,1500
@@ -1104,7 +1104,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 564,,carpe_diem_industries_scar_7.62x51_polymer_20r,Molon Labe Industries SCAR-H 7.62x51 Polymer 20R,-1,0.57,,,20,,,,,,1250
 565,,carpe_diem_industries_scar_7.62x51_polymer_30r,Molon Labe Industries SCAR-H 7.62x51 Polymer 30R,-7,0.86,,,30,,,,,,3000
 566,,carpe_diem_industries_scar_7.62x51_polymer_10r,Molon Labe Industries SCAR-H 7.62x51 Polymer 10R,6.5,0.29,,,10,,,,,,750
-567,,aft_mk_17_7.62x51_20r,FN SCAR-H 7.62x51 NATO 20R,0,0.63,,,20,,,,,,1000
+567,,aft_mk_17_7.62x51_20r,FN SCAR-H 7.62x51 NATO 20R,0,0.63,,,20,,,,,,0
 ,magazine_7.62x51_nato_sr25,,,,,,,,,,,,,
 568,,cartesia_productions_x25_7.62x51_drum_50r,X Products X-25 .308 50R Drum,-14,1.5,,,50,0.1,,,,,5000
 569,,magtap_pmag_d50_lr_sr_gen_m3_7.62x51_50r,Magpul PMAG D-50 LR/SR Gen M3 .308 50R Drum,-15,1.45,,,50,0.1,,,,,4500
@@ -1128,7 +1128,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,r870_barrel,,,,,,,,,,,,,
 582,,r870_325mm_sawn_off,Sawn Off Smoothbore 325mm,6,0.37,4,4,,0.2,-0.1,-7,0.2,,1200
 583,,r870_325mm_sawn_off_vent_ribs,Sawn Off 325mm Smoothbore With Vent Ribs,6.5,0.41,4,4,,0.2,-0.1,-7,0.2,,1200
-584,,r870_508mm,Remington 508mm Smoothbore,4.5,0.64,0,0,,0.05,0,168,-0.05,,1000
+584,,r870_508mm,Remington 508mm Smoothbore,4.5,0.64,0,0,,0.05,0,168,-0.05,,0
 585,,r870_660mm_barrel_vent_ribs,Remington 660mm Smoothbore With Vent Ribs,3,0.72,-1,-1,,-0.1,0.1,271,-0.2,,1500
 586,,r870_711mm_barrel_vent_ribs,Remington 711mm Smoothbore With Vent Ribs,2,0.8,-2,-2,,-0.15,0.15,300,-0.25,,1750
 587,,r870_762mm_barrel_vent_ribs,Remington 762mm Smoothbore With Vent Ribs,0.5,0.86,-2.5,-2.5,,-0.2,0.2,327,-0.3,,2000
@@ -1141,11 +1141,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,r870_bolt,,,,,,,,,,,,,
 593,,r870_std_bolt,Standard,0,0.1,,,,,,,,,0
 ,r870_handguard,,,,,,,,,,,,,
-594,,r870_speedfeed_handguard,Remington SpeedFeed,4,0.16,-5,-5,,,,,,,500
+594,,r870_speedfeed_handguard,Remington SpeedFeed,4,0.16,-5,-5,,,,,,,0
 595,,r870_magtap_moe_handguard,Magpul MOE Rem870 Handguard,8,0.19,-2,-1,,,,,,,750
 596,,pro_tactical_pr870_handguard,FAB Defense PR870,6,0.22,-3,-4,,,,,,,600
 ,r870_receiver,,,,,,,,,,,,,
-597,,r870_std_receiver,Standard Remington Model 870,0,0.4,0,0,,,,,,,500
+597,,r870_std_receiver,Standard Remington Model 870,0,0.4,0,0,,,,,,,0
 598,,r870_serbu_shorty_receiver,Remington Serbu Shorty,4,0.38,2,2,-2,,,,,,1000
 ,,roosevelt_870_mod_rmp3_receiver,Remington 870 Modified RMP3 Receiver,-2,0.43,-1,0,,,,,,,800
 ,r870_shell_carrier,,,,,,,,,,,,,
@@ -1171,7 +1171,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak_dust_cover,,,,,,,,,,,,,
 612,,pro_tactical_ak74_pdc_dust_cover,Pro Tactical AK74 PDC,4,0.17,-3,-3,,,,,,,1000
 613,,kazarov_ak74m_6p34_01_dust_cover,Kazarov AK-74M 6P34 0-1,7,0.11,-3,-4,,,,,,,500
-614,,kazarov_ak74_6p1_01_dust_cover,Kazarov AK-74 6P1 0-1 Dust Cover,6,0.09,-3,-3,,,,,,,300
+614,,kazarov_ak74_6p1_01_dust_cover,Kazarov AK-74 6P1 0-1 Dust Cover,6,0.09,-3,-3,,,,,,,0
 615,,veles_b_33_ak_dust_cover,Veles B-33,4,0.19,-3,-4,,,,,,,2000
 616,,akademia_bastion_dust_cover,AKademia bastion,3,0.21,-4,-5,,,,,,,1200
 ,,northeast_industries_alpha_ak_series_railed_top_cover,Northeast Industries ALPHA AK series Railed Top Cover,5,0.24,-4,-3,,,,,,,2000
@@ -1256,7 +1256,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,rpl_20_cheek_pad_high,RPL-20 Cheek Pad High,4,0.08,1,2,,,,,,,0
 ,,rpl_20_cheek_pad_low,RPL-20 Cheek Pad Low,2,0.08,,,,,,,,,0
 ,ak12_lower_handguard,,,,,,,,,,,,,
-641,,ak12_std_lower_handguard,Kalashnikov Concern AK-12 Std.,8,0.12,0,0,,,,,,,500
+641,,ak12_std_lower_handguard,Kalashnikov Concern AK-12 Std.,8,0.12,0,0,,,,,,,0
 642,,lac_akvilon15,L.A.C. Akvilon-15,6,0.22,-1,-2,,,,,,,2000
 ,,kazarov_group_rpk16_handguard,Kalashnikov Convern RPK-16 Handguard,3,0.18,-2,-4,,,,,,,1500
 ,,russian_tuning_ak12_megatron_handguard,Arms RTG Ak12 Megatron Handguard,4,0.28,-3,-5,,,,,,,2500
@@ -1264,10 +1264,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 643,,ak12_gen2_lower_receiver,Kalashnikov Concern AK-12 Gen 2,5,0.46,3,1,,-0.05,,,,,1500
 644,,ak12_gen1_lower_receiver,Kalashnikov Concern AK-12 Gen 1,0,0.42,0,0,,0,,,,,500
 ,ak12_upper_handguard,,,,,,,,,,,,,
-645,,ak12_std_upper_handguard,Kalashnikov Concern AK-12 Std.,0,0.06,0,0,,,,,,,250
+645,,ak12_std_upper_handguard,Kalashnikov Concern AK-12 Std.,0,0.06,0,0,,,,,,,0
 ,,kazarov_group_ak12_std_handguard_side_rail,Kalashnikov Concern AK-12 Std. Handguard Side Rail,-0.5,0.02,,,,,,,,,300
 ,ak308_barrel,,,,,,,,,,,,,
-646,,ak308_std_415mm_barrel,AK-308 415mm 7.62x51,0,1.02,0,0,,0,0,0,,,
+646,,ak308_std_415mm_barrel,AK-308 415mm 7.62x51,0,1.02,0,0,,0.25,0,0,,,0
 647,,custom_ak308_7.62x51_415mm_threaded_barrel,Custom AK-308 415mm Threaded 7.62x51,-1,1.02,1,1,,0.1,0,0,,,
 ,ak308_bolt,,,,,,,,,,,,,
 648,,ak308_std_7.62x51_bolt,AK-308 7.62x51 NATO,0,0,,,,,,,,,0
@@ -1326,7 +1326,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 661,,gdr_zvn_64_night_rear_sight_ak74,German Democratic Republic ZVN-64 Rear Night Shooting,2,0.02,,,,,,,,,200
 662,,gdr_zvn_64_night_rear_sight_akm,German Democratic Republic ZVN-64 Rear Night Shooting,2,0.02,,,,,,,,,200
 ,akm_barrel,,,,,,,,,,,,,
-,,kazarov_akm_415mm_7.62x39_barrel,Izhmash AKM 415mm 7.62x39 Barrel,-6,0.55,-7,-8,,0,0.05,43,,,500
+,,kazarov_akm_415mm_7.62x39_barrel,Izhmash AKM 415mm 7.62x39 Barrel,-6,0.55,-7,-8,,0,0.05,43,,,0
 ,akm_gasblock,,,,,,,,,,,,,
 ,,kazarov_akm_gasblock,Izhmash AKM Gasblock,0,0.06,,,,,,,,,0
 ,akm_fs_block,,,,,,,,,,,,,
@@ -1422,7 +1422,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak_grip,,,,,,,,,,,,,
 694,,veles_rk3_ak_pistol_grip,RK-3,7,0.11,-5,-3,,,,,,,1000
 695,,ak12_gen1_pistol_grip,AK-12 Gen 1,5,0.1,-6,-4,,,,,,,800
-696,,kazarov_ak74_bakelite_6p4_sb8v,Izhmash AK-74 Bakelite 6P4 Sb.8v,4,0.09,-4,-5,,,,,,,400
+696,,kazarov_ak74_bakelite_6p4_sb8v,Kazarov AK-74 Bakelite 6P4 Sb.8v,4,0.09,-4,-5,,,,,,,0
 697,,ss_apex_ak_ar15_adapter,DoubleStar ACE AK AR-15 Grip adapter,-1,0.03,,,,,,,,,1500
 698,,kazarov_ak74_polymer_6p1_sb8,Izhmash AK-74 Polymer 6P1 Sb.8,4,0.07,-4,-5,,,,,,,300
 699,,mg47,KGB MG-47,5,0.05,-4,-4,,,,,,,750
@@ -1494,7 +1494,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 731,,mp_133_710mm_rib_barrel,710mm Rib,-6,0.88,-6,-6,,-0.15,0.15,299,-0.25,,1500
 732,,mp_133_750mm_rib_barrel,750mm Rib,-9.5,0.92,-7,-7,,-0.2,0.2,321,-0.3,,1600
 733,,mp_133_sawn_off_340mm_barrel,Sawn off 340mm,4,0.38,3,3,,0.2,-0.2,11,0.2,,1200
-734,,mp_133_510mm_barrel,510mm,1.5,0.64,0,0,,0.05,0,170,-0.05,,1000
+734,,mp_133_510mm_barrel,510mm,1.5,0.64,0,0,,0.05,0,170,-0.05,,0
 735,,mp_133_750mm_barrel,750mm,-10,0.9,-7,-7,,-0.2,0.2,321,-0.3,,1600
 ,mp133_barrel_rib_mount,,,,,,,,,,,,,
 736,,etmi_019_rib_mount,ETMI-019,-2,0.05,,,,,,,,,500
@@ -1710,7 +1710,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sof_industries_aim_glock_rear_sight,SOF Industries A.I.M Glock Rear Sight,1,0.05,,,,,,,,,600
 ,edc_x9_front_sight,,,,,,,,,,,,,
 831,,whitner_defense_edc_x9_snagfree_front_sight_red,Wilson Combat EDC X9 Snag-Free Red Fiber,1,0.01,,,,,,,,,0
-832,,whitner_defense_edc_x9_snagfree_front_sight_green,Wilson Combat EDC X9 Snag-Free Green Fiber,1,0.01,,,,,,,,,200
+832,,whitner_defense_edc_x9_snagfree_front_sight_green,Wilson Combat EDC X9 Snag-Free Green Fiber,1,0.01,,,,,,,,,0
 ,,hughnitions_company_extra_high_front_sight,HughNitions Company Extra High Front Sight,2,0.03,,,,,,,,,200
 ,edc_x9_rear_sight,,,,,,,,,,,,,
 833,,whitner_defense_1911_tab_rear_battlesight,Wilson Combat 1911 TAB,1,0.02,,,,,,,,,0
@@ -2211,7 +2211,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,pp19_bolt_piston,,,,,,,,,,,,,
 ,,kazarov_pp-19-01_vityaz_bolt_piston,Izhmash PP-19-01 Vityaz Bolt Piston,0,0.03,,,,,,,,,0
 ,pp19_dustcover,,,,,,,,,,,,,
-1053,,kazarov_pp-19-01_vityaz_std_dust_cover,Izhmash PP-19-01 Vityaz Standard Dust Cover,6,0.07,-3,-3,,,,,,,300
+1053,,kazarov_pp-19-01_vityaz_std_dust_cover,Izhmash PP-19-01 Vityaz Standard Dust Cover,6,0.07,-3,-3,,,,,,,0
 1054,,kazarov_pp-19-01_vityaz_sn_picatinny_dust_cover,Izhmash PP-19-01 Vityaz-SN Picatinny Dust Cover,3,0.1,-2,-2,,,,,,,2000
 ,pp19_gastube,,,,,,,,,,,,,
 1055,,kazarov_pp-19-01_vityaz_gastube,Izhmash PP-19-01 Vityaz Gastube,0,0.05,,,,,,,,,0
@@ -2270,7 +2270,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,resiliant_suppressors_obsidian_9_extension,Rugged Suppressors Obsidian9 9x19 Extension,-3,0.07,-3,-2,,-0.04,0.05,50,,,1000
 ,,resiliant_suppressors_obsidian_9_cap,Rugged Suppressors Obsidian9 9x19 Cap,0,0.02,,,,,,,,,0
 ,7.62x39_muzzle_device,,,,,,,,,,,,,
-1084,,kazarov_akm_6p1_0_14_compensator,Izhmash AKM 6P1 0-14,-0.5,0.04,-7,-10,,0.2,0,30,,,500
+1084,,kazarov_akm_6p1_0_14_compensator,Kazarov AKM 6P1 0-14,-0.5,0.04,-7,-10,,0.2,0,30,,,0
 1085,,izmash_akml_flash_hider,Izhmash AKML System,4,0.1,-3,-5,,0.05,0.04,60,,,500
 1086,,tsniitochmash_pbs_1_7.62x39_suppressor,TSNIITochMash PBS-1 7.62x39,-5,0.28,-10,-13,,-0.05,0.04,120,,,1200
 ,,cnc_warrior_m14x1lh_to_5_8x24rh_muzzle_thread_adapter,CNC Warrior M14x1lh to 5/8x24rh Muzzle Thread Adaptor,-2,0.12,2,3,,0.15,-0.06,-30,,,1500

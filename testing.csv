@@ -1,4 +1,4 @@
-﻿0.24.4,Wed Dec 17 15:31:48 2025,,,,,,,,,,,,,
+﻿0.24.4,Wed Dec 17 15:38:27 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1267,8 +1267,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 645,,ak12_std_upper_handguard,Kalashnikov Concern AK-12 Std.,0,0.06,0,0,,,,,,,0
 ,,kazarov_group_ak12_std_handguard_side_rail,Kalashnikov Concern AK-12 Std. Handguard Side Rail,-0.5,0.02,,,,,,,,,300
 ,ak308_barrel,,,,,,,,,,,,,
-646,,ak308_std_415mm_barrel,AK-308 415mm 7.62x51,0,1.02,0,0,,0.25,0,0,,,0
-647,,custom_ak308_7.62x51_415mm_threaded_barrel,Custom AK-308 415mm Threaded 7.62x51,-1,1.02,1,1,,0.1,0,0,,,
+646,,ak308_std_415mm_barrel,AK-308 415mm 7.62x51,0,1.02,0,0,,0,0,0,,,0
+647,,custom_ak308_7.62x51_415mm_threaded_barrel,Custom AK-308 415mm Threaded 7.62x51,-1,1.02,1,1,,0.1,0,0,,,1000
 ,ak308_bolt,,,,,,,,,,,,,
 648,,ak308_std_7.62x51_bolt,AK-308 7.62x51 NATO,0,0,,,,,,,,,0
 ,ak308_lower_receiver,,,,,,,,,,,,,

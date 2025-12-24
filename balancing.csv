@@ -1,4 +1,4 @@
-﻿0.24.4,Wed Dec 17 15:38:27 2025,,,,,,,,,,,,,
+﻿0.24.4,Wed Dec 24 09:06:01 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -891,7 +891,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,fn_scar_stock_shoulder_piece,,,,,,,,,,,,,
 431,,aft_stock_shoulder_piece,FN SCAR,7,0.19,-9,-12,,,,,,,0
 ,scar47_barrel,,,,,,,,,,,,,
-432,,hilt_defense_scar47_394mm_barrel,HANDL DEFENSE SCAR 47 394mm,0,0.77,0,0,,0.25,-0.1,0,,,0
+432,,hilt_defense_scar47_394mm_barrel,HANDL DEFENSE SCAR 47 394mm,0,0.77,0,0,,0.25,0,0,,,0
 ,scar47_lower_receiver,,,,,,,,,,,,,
 433,,scar47_lower_receiver,HANDL DEFENSE SCAR 47,0,0.4,,,,,,,,,0
 ,scar47_mag_release,,,,,,,,,,,,,
@@ -1326,7 +1326,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 661,,gdr_zvn_64_night_rear_sight_ak74,German Democratic Republic ZVN-64 Rear Night Shooting,2,0.02,,,,,,,,,200
 662,,gdr_zvn_64_night_rear_sight_akm,German Democratic Republic ZVN-64 Rear Night Shooting,2,0.02,,,,,,,,,200
 ,akm_barrel,,,,,,,,,,,,,
-,,kazarov_akm_415mm_7.62x39_barrel,Izhmash AKM 415mm 7.62x39 Barrel,-6,0.55,-7,-8,,0,0.05,43,,,0
+,,kazarov_akm_415mm_7.62x39_barrel,Izhmash AKM 415mm 7.62x39 Barrel,-6,0.55,-7,-8,,0,0,43,,,0
 ,akm_gasblock,,,,,,,,,,,,,
 ,,kazarov_akm_gasblock,Izhmash AKM Gasblock,0,0.06,,,,,,,,,0
 ,akm_fs_block,,,,,,,,,,,,,
@@ -2008,10 +2008,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ferro_ordnance_mc51sd_125mm_7.62x51_barrel,FR Ordinance MC51SD 125mm 7.62x51,14,0.39,13,13,,0.6,-0.16,-652,,,2500
 964,,hk_psg1_bull_650mm_barrel,HK PSG-1 Bull 650mm 7.62x51,-5,1.17,-1,-1,,-0.35,0.14,509,,,4500
 ,ptr_32_barrel,,,,,,,,,,,,,
-,,ptr_32_7.62x39_457mm_m14x1lh_barrel,PTR 32 7.62x39 18in Barrel,-3,0.81,-2,-2,,-0.15,0.03,-375,,,3000
-,,ptr_32_7.62x39_457mm_5-8x24_barrel,PTR 32 7.62x39 18in 5/8 Threaded Barrel,-4,0.81,-2,-2,,-0.15,0.03,-375,,,3250
-,,ptr_32_7.62x39_406mm_m14x1lh_barrel,PTR 32 7.62x39 16in Barrel,0,0.74,0,0,,-0.05,0,-409,,,2000
-,,ptr_32_7.62x39_406mm_5-8x24_barrel,PTR 32 7.62x39 16in 5/8 Threaded Barrel,-1,0.74,0,0,,-0.05,0,-409,,,2250
+,,ptr_32_7.62x39_457mm_m14x1lh_barrel,PTR 32 7.62x39 18in Barrel,-3,0.81,-2,-2,,-0.15,0.06,-375,,,3000
+,,ptr_32_7.62x39_457mm_5-8x24_barrel,PTR 32 7.62x39 18in 5/8 Threaded Barrel,-4,0.81,-2,-2,,-0.15,0.06,-375,,,3250
+,,ptr_32_7.62x39_406mm_m14x1lh_barrel,PTR 32 7.62x39 16in Barrel,0,0.74,0,0,,-0.05,0.01,-409,,,2000
+,,ptr_32_7.62x39_406mm_5-8x24_barrel,PTR 32 7.62x39 16in 5/8 Threaded Barrel,-1,0.74,0,0,,-0.05,0.01,-409,,,2250
 ,mc51sd_suppressor,,,,,,,,,,,,,
 ,,ferro_ordnance_mc51sd_suppressor,FR Ordinance MC51SD Suppressor,-6,0.26,-6,-6,,-0.1,0.15,90,,,5000
 ,hk_g3_rear_sight_assembly_top,,,,,,,,,,,,,
@@ -2886,12 +2886,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1334,,M4A1,M4A1,15,0,65,85,0,0.6,1,2300,,,0
 1335,,QBZ95,Norinco QBZ-95,45,2.3,50,50,0,0.5,0.9,2500,,,25000
 1336,,SA58,DS Arms SA-58,20,0.75,80,100,0,0.75,1,1550,,,20000
-1337,,SCAR47,Handl Defense SCAR-47,40,0,60,60,0,0.2,0.9,1600,,,60000
+1337,,SCAR47,Handl Defense SCAR-47,40,0,60,60,0,0.2,0.85,1600,,,60000
 1338,,SCARH,FN SCAR Mk17,15,0,75,80,0,0.60,1,1650,,,75000
 1339,,SCARL,FN SCAR Mk16,40,0,60,65,0,0.45,1.1,2300,,,40000
 1340,,G3,H&K G3,35,0,70,100,0,0.55,1,1700,,,30000
 1341,,Remington700,Remington Model 700,30,0,80,90,0,0.2,1.2,2200,,,42000
-1342,,AK_762,AK 7.62,10,0,80,100,0,0.55,1,1600,,,15000
+1342,,AK_762,AK 7.62,10,0,80,100,0,0.55,1.03,1600,,,15000
 1343,,AK_545,AK 5.45,15,0,65,70,0,0.3,1,2300,,,5000
 ,,AK_545_Carbine,AK 5.45 Carbine,15,0,65,70,0,0.3,1,2300,,,30000
 1344,,MosinNagant,Mosin Nagant M91/30 PU,65,0,80,90,0,0.2,1,1900,,,14000

@@ -1,4 +1,4 @@
-﻿0.24.4,Wed Dec 24 09:06:01 2025,,,,,,,,,,,,,
+﻿0.24.4,Tue Dec 30 16:49:47 2025,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1179,8 +1179,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kazarov_aks74u_6p26_sb7_dust_cover,Izhmash AKS-74U 6P26 Sb.7 Dust Cover,8,0.13,-2,-3,,,,,,,0
 ,,fireline_pilgrim_aksu_dust_cover,Legal Arsenal Pilgrim AKSU Railed,5,0.15,-1,-1,,,,,,,1500
 ,ak_rear_sight,,,,,,,,,,,,,
-617,,scout_scopes_ak_drop_on_rail,Scout Scopes AK,1,0.12,,,,,,,,,1000
-618,,si_ak_drop_on_rail,Strike Industries Ak,-0.5,0.06,,,,,,,,,1000
+617,,scout_scopes_ak_drop_on_rail,Scout Scopes AK,-2,0.12,,,,,,,,,1000
+618,,si_ak_drop_on_rail,Strike Industries Ak,-2,0.06,,,,,,,,,1000
 619,,akm_rear_sight_6p1_sb2_1,6P1 Sb.2-1,1,0.03,,0,,,,,,,0
 620,,kazarov_ak74_6p1_sb2_rear_sight,Kazarov AK-74 6P1 Sb.2 Rear Sight,1,0.01,,,,,,,,,0
 ,ak_carbine_rear_sight,,,,,,,,,,,,,

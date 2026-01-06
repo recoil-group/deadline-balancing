@@ -1,4 +1,4 @@
-﻿0.24.4,Mon Jan 05 18:49:47 2026,,,,,,,,,,,,,
+﻿0.24.4,Mon Jan 05 19:49:47 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -652,6 +652,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 313,,tactispec_victory_charging_handle,Armaspec Victory,4,0.06,,,,,,,,,500
 314,,hart_m4a1_charging_handle,Hart M4 Standard,2,0.03,,,,,,,,,0
 ,,nowa_love_ar15_charging_handle,Nowa Love AR15 Charging Handle,4,0.05,,,,,,,,,650
+,,kf_416_e1_ambi_charging_handle,KF416 E1 Ambi,3,0.04,,,,,,,,,500
 ,ar15_endplate,,,,,,,,,,,,,
 315,,hart_m4a1_receiver_endplate,Hart M4A1 Receiver Endplate,0,0.01,,,,,,,,,0
 ,,thorsden_frs15_gen3_ar15_endplate,Thorsden FRS15 Gen3 AR15 Endplate,2,0.06,8,8,,1,,,,,600
@@ -1061,10 +1062,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 538,,5.45x39_kazarov_ak12_magazine_30r,Izhmash AK-12 Windowed Polymer 30R,0,0.42,,,30,,,,,,1200
 ,,banan_magazine,Banana Magazine,0,0.39,,,30,,,,,,5000
 ,magazine_7.62x51_roosevelt700,,,,,,,,,,,,,
-539,,scrubs_outdoors_roosevelt_700_.308_5r_mag,	Wyatt's Outdoor .308 5R,-2,0.22,,,5,,,,,,0
+539,,scrubs_outdoors_roosevelt_700_.308_5r_mag,"	Wyatt's Outdoor .308 5R",-2,0.22,,,5,,,,,,0
 540,,magtap_pmag_ac_5r,Magpul PMAG AC .308 5R,-2,0.18,,,5,,,,,,
 541,,magtap_pmag_ac_10r,Magpul PMAG AC .308 10R,-6,0.32,,,10,,,,,,
-542,,scrubs_outdoors_roosevelt_700_.308_10r_mag,	Wyatt's Outdoor .308 10R,-6,0.36,,,10,,,,,,1000
+542,,scrubs_outdoors_roosevelt_700_.308_10r_mag,"	Wyatt's Outdoor .308 10R",-6,0.36,,,10,,,,,,1000
 ,magazine_7.62x54_mosin,,,,,,,,,,,,,
 543,,7.62x54_promag_10r,ProMag AA762R 02 10R,-4,0.33,,,10,,,,,,1000
 544,,7.62x54_promag_5r,ProMag AA762R 01 5R,0,0.19,,,5,,,,,,500
@@ -2888,7 +2889,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1335,,QBZ95,Norinco QBZ-95,50,2.3,50,50,0,0.4,0.92,2500,,,25000
 1336,,SA58,DS Arms SA-58,20,0.75,80,100,0,0.75,1,1550,,,20000
 1337,,SCAR47,Handl Defense SCAR-47,40,0,60,60,0,0.2,0.85,1600,,,60000
-1338,,SCARH,FN SCAR Mk17,15,0,75,80,0,0.60,1,1650,,,75000
+1338,,SCARH,FN SCAR Mk17,15,0,75,80,0,0.6,1,1650,,,75000
 1339,,SCARL,FN SCAR Mk16,40,0,60,65,0,0.45,1.1,2300,,,40000
 1340,,G3,H&K G3,35,0,70,100,0,0.55,1,1700,,,30000
 1341,,Remington700,Remington Model 700,30,0,80,90,0,0.2,1.2,2200,,,42000

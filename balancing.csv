@@ -1,4 +1,4 @@
-﻿0.24.4,Mon Jan 05 19:49:47 2026,,,,,,,,,,,,,
+﻿0.24.4,Mon Jan 05 20:49:47 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1888,7 +1888,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kf_416_default_gas_piston,KF416,0,0.01,,,,,,,,,0
 ,kf_416_gas_system,,,,,,,,,,,,,
 ,,compact_length_gas_system,KF416C Gas System,0,0.03,,,,,,,,,0
-,,normal_length_gas_system,KF416D Gas System,0,0.04,,,,,,,,,0
+,,normal_length_gas_system_416a5,KF416A5 Gas System,0,0.04,,,,,,,,,0
+,,normal_length_gas_system_416d,KF416D Gas System,0,0.04,,,,,,,,,0
 ,kf_416_handguard,,,,,,,,,,,,,
 ,,kf_416c_handguard,KF416C,11,0.26,-9,-10,,,,,,,1000
 ,,kf_416_standard_length_quad_rail_handguard,Standard Length Quad Rail,9,0.31,-10,-14,,,,,,,0

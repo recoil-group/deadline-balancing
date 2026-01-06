@@ -1,4 +1,4 @@
-﻿0.24.4,Mon Jan 05 20:49:47 2026,,,,,,,,,,,,,
+﻿0.24.4,Mon Jan 05 20:50:47 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -630,6 +630,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ar15_castlenut,,,,,,,,,,,,,
 298,,hart_m4a1_castlenut,Hart M4A1 Castle Nut,0,0.02,,,,,,,,,0
 299,,hart_m4a1_castlenut_for_all,Hart M4A1 Castle Nut,0,0.02,,,,,,,,,0
+299,,hart_m4a1_castlenut_hk,Hart M4A1 Castle Nut,0,0.02,,,,,,,,,0
 300,,mcs_lss_stock_adapter,MDT LSS Fixed,-1,0.04,,,,,,,,,100
 301,,leopard_atg_model_15_fixed_a2_ar15_stock,UTG A2 Fixed,11,0.44,-12,-18,,,,,,,700
 302,,kf_416d_castlenut,KF416D Castle Nut,0,0.02,,,,,,,,,0

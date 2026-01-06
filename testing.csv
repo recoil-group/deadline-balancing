@@ -1,4 +1,4 @@
-﻿0.24.4,Mon Jan 05 20:50:47 2026,,,,,,,,,,,,,
+﻿0.24.4,Mon Jan 05 20:51:47 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -821,18 +821,18 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 392,,fn_scar_bolt_release,FN SCAR-H Standard,0,0,,,,,,,,,0
 393,,pmm_scar_battery_control_bolt_release,PMM SCAR Battery Control,2,0.06,,,,,,,,,500
 ,fn_scar_trigger,,,,,,,,,,,,,
-394,,fn_scar_trigger,FN Scar Standard,0,0.03,,,,,,,,,0
+394,,aft_trigger,AFT Standard,0,0.03,,,,,,,,,0
 395,,schmidt_super_scar_trigger,Schmidt Super SCAR,2,0.05,,,,-0.05,,,,,750
 ,fn_scar_bottom_rail_mount,,,,,,,,,,,,,
 396,,aft_mk20_bottom_rail_mount,AFT SCAR Mk20,4,0.15,,,,,,,,,400
 397,,aft_bottom_rail_mount,FN Scar Bottom Rail Mount,2.5,0.1,,,,,,,,,0
 ,,pmm_scar_heavy_duty_mlok_bottom_panel,PMM Scar Heavy Duty MLOK Bottom Panel,2,0.08,,,,,,,,,300
 ,fn_scar_charging_handle,,,,,,,,,,,,,
-398,,fn_scar_charging_handle,FN SCAR-L Standard,1,0.02,,,,,,,,,0
+398,,aft_charging_handle,AFT MK-16 Standard,1,0.02,,,,,,,,,0
 399,,apex_bolt_handle_for_scar,Apex Bolt Handle for SCAR,2,0.04,,,,,,,,,500
 ,,dynamic_development_group_ambi_scarging_handle,Kinetic Development Group AMBI Scarging Handle,2,0.03,,,,,,,,,500
 ,fn_scar_fire_selector,,,,,,,,,,,,,
-400,,fn_scar_fire_selector,FN SCAR-H Standard,0,0,,,,,,,,,0
+400,,aft_fire_selector,AFT MK-17 Standard,0,0,,,,,,,,,0
 401,,dynamic_development_group_talon_ambi_scar_45_90_safety_selector,Kinetic Development Group Talon Ambi SCAR 45/90,1.5,0.02,,,,,,,,,300
 ,fn_scar_h_barrel,,,,,,,,,,,,,
 402,,aft_mk20_508mm_barrel,AFT Mk20 508mm,-4,1.01,2,2,,-0.3,0.09,308,,,1500
@@ -870,7 +870,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,fn_scar_l_upper_receiver,,,,,,,,,,,,,
 420,,aft_mk_16_upper_receiver,FN SCAR-L Standard,0,0.5,0,0,,,,,,,0
 ,fn_scar_mag_release,,,,,,,,,,,,,
-421,,fn_scar_mag_release,FN SCAR-H Standard,0,0,,,,,,,,,0
+421,,aft_mag_release,AFT MK-17 Standard,0,0,,,,,,,,,0
 422,,pmm_scar_oversized_mag_release_button,PMM SCAR Oversized Button,1,0.03,,,,,,,,,500
 ,fn_scar_side_rail_mount,,,,,,,,,,,,,
 423,,aft_side_rail_1,FN Scar Side Rail,-0.5,0.04,,,,,,,,,0

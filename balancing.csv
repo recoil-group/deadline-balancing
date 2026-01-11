@@ -1,4 +1,4 @@
-﻿0.24.4,Sat Jan 10 22:59:09 2026,,,,,,,,,,,,,
+﻿0.24.4,Sat Jan 10 23:10:01 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1086,7 +1086,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,magazine_45acp_ump45,,,,,,,,,,,,,
 551,,hk_ump45_45acp_25r_mag,HK UMP45 .45 ACP 25R,-6,0.43,,,25,,,,,,0
 ,magazine_5.8x42mm_qbz95,,,,,,,,,,,,,
-552,,magazine_5.8x42mm_qbz95,Norinco QBZ-95 5.8x42mm 30R,,,,,30,,,,,,0
+552,,magazine_5.8x42mm_qbz95,Norinco QBZ-95 5.8x42mm 30R,,0.4,,,30,,,,,,500
 ,magazine_9x19_aug_para,,,,,,,,,,,,,
 553,,steyr_aug_para_mp88_9x19_25r_mag,Steyr AUG MP88 9x19 25R,0,0.3,,,25,,,,,,500
 ,,steyr_mpi_69_81_9x19_32r_mag,Steyr MPI69/81 9x19 32R,-4,0.38,,,32,,,,,,750
@@ -1519,16 +1519,16 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,mp133_receiver,,,,,,,,,,,,,
 748,,mp133_std_receiver,MP-133 Std.,0,0.39,0,0,,,,,,,0
 ,sanxian_qbz95_lower_receiver,,,,,,,,,,,,,
-749,,sanxian_qbz95_lower_receiver,Norinco QBZ-95 Lower,,,,,,,,,,,0
+749,,sanxian_qbz95_lower_receiver,Norinco QBZ-95 Lower,,0.25,,,,,,,,,0
 ,sanxian_qbz95_rear_aperture,,,,,,,,,,,,,
-750,,sanxian_qbz95_rear_aperture,Sanxian QBZ-95 Rear Sight,1,0.01,,,,,,,,,0
+750,,sanxian_qbz95_rear_aperture,Norinco QBZ-95 Rear Sight,,0.01,,,,,,,,,
 ,sanxian_qbz95_upper_receiver,,,,,,,,,,,,,
-751,,sanxian_qbz95_upper_receiver,Norinco QBZ-95 Upper,,,,,,,,,,,0
+751,,sanxian_qbz95_upper_receiver,Norinco QBZ-95 Upper,,0.3,,,,,,,,,0
 ,sanxian_qbz95_trigger,,,,,,,,,,,,,
-752,,sanxian_qbz95_trigger,Norinco QBZ-95,,,,,,,,,,,0
+752,,sanxian_qbz95_trigger,Norinco QBZ-95,,0.03,,,,,,,,,0
 ,,t97.ca_qbz95_trigger,Type 97 Canada QBZ95 Trigger,0.5,0.04,,,,,,,,,0
 ,sanxian_qbz95_bolt,,,,,,,,,,,,,
-753,,sanxian_qbz95_bolt,Norinco QBZ-95 5.8x42mm,,,,,,,,,,,0
+753,,sanxian_qbz95_bolt,Norinco QBZ-95 463mm 5.8x42mm,,0.3,,,,,,,,,0
 ,sanxian_qbz95_carry_handle,,,,,,,,,,,,,
 754,,sanxian_qbz95_carry_handle,Norinco QBZ-95,10,0.17,-1,-3,,,,,,,0
 755,,li_jiahao_acp95_top_rail_for_qbz,Li Jiahao designed ACP95 Top Rail for QBZ-95,8,0.24,-4,0,,,,,,,1000
@@ -1538,21 +1538,21 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sanxian_qbz95_yma95_3x_scope,Norinco QBZ95 YMA95 3x Scope,-4,0.12,,,,,,,,,800
 ,,yma95_eye_cup,YMA95 Eye Cup,2,0.03,,,,,,,,,
 ,sanxian_qbz95_fire_selector,,,,,,,,,,,,,
-756,,sanxian_qbz95_fire_selector,Norinco QBZ-95,,,,,,,,,,,0
+756,,sanxian_qbz95_fire_selector,Norinco QBZ-95,,0.02,,,,,,,,,0
 ,,t97.ca_qbz95_fire_selector,Type 97 Canada QBZ95 Fire Selector,0.5,0.03,,,,,,,,,0
 ,sanxian_qbz95_front_ironsight_post,,,,,,,,,,,,,
-757,,sanxian_qbz95_front_ironsight_post,Sanxian QBZ-95 Front Sight,1,0.01,,,,,,,,,0
+757,,sanxian_qbz95_front_ironsight_post,Norinco QBZ-95 463mm 5.8x42mm,,0.01,,,,,,,,,0
 ,sanxian_qbz95_gasblock,,,,,,,,,,,,,
-758,,sanxian_qbz95_gasblock,Norinco QBZ-95,,,,,,,,,,,0
+758,,sanxian_qbz95_gasblock,Norinco QBZ-95,,0.1,,,,,,,,,
 ,sanxian_qbz95_handguard_trigger_housing,,,,,,,,,,,,,
-759,,sanxian_qbz95_handguard_trigger_housing,Norinco QBZ-95 Handguard,,,,,,,,,,,0
+759,,sanxian_qbz95_handguard_trigger_housing,Norinco QBZ-95 Handguard,,0.3,,,,,,,,,0
 ,,t97.ca_qbz95_handguard_trigger_housing,Type 97 Canada QBZ95 Handguard Trigger Housing,3,0.14,-3,-1,,,,,,,3000
 ,sanxian_qbz95_mag_release,,,,,,,,,,,,,
-760,,sanxian_qbz95_mag_release,Norinco QBZ-95,,,,,,,,,,,0
+760,,sanxian_qbz95_mag_release,Norinco QBZ-95,,0.02,,,,,,,,,
 ,sanxian_qbz95_rear_ironsight_base,,,,,,,,,,,,,
-761,,sanxian_qbz95_rear_ironsight_base,Norinco QBZ-95 Rear Ironsight,,,,,,,,,,,0
+761,,sanxian_qbz95_rear_ironsight_base,Norinco QBZ-95 Rear Ironsight,,0.03,,,,,,,,,0
 ,sanxian_qbz95_barrel,,,,,,,,,,,,,
-762,,sanxian_qbz95_463mm_barrel,Norinco QBZ-95 463mm 5.8x42mm,,,,,,,,,,,0
+762,,sanxian_qbz95_463mm_barrel,Norinco QBZ-95 463mm 5.8x42mm,,0.7,,,,,,,,,0
 ,acp95_mount_side_rails,,,,,,,,,,,,,
 763,,acp95_side_rail,ACP95 Side Rail,-0.5,0.03,0,0,,,,,,,0
 ,tt33_barrel,,,,,,,,,,,,,
@@ -2888,7 +2888,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1332,,AK12,Kalashnikov Concern AK-12,30,0.6,50,55,0,0.3,1,2300,,,25000
 1333,,AK308,Kalashnikov Concern AK-308,30,0.75,80,100,0,0.85,1,1600,,,65000
 1334,,M4A1,M4A1,15,0,65,85,0,0.6,1,2300,,,0
-1335,,QBZ95,Norinco QBZ-95,50,2.3,50,50,0,0.4,0.92,2500,,,25000
+1335,,QBZ95,Norinco QBZ-95,45,0,50,50,0,0.4,0.9,2500,,,25000
 1336,,SA58,DS Arms SA-58,20,0.75,80,100,0,0.75,1,1550,,,20000
 1337,,SCAR47,Handl Defense SCAR-47,40,0,60,60,0,0.2,0.85,1600,,,60000
 1338,,SCARH,FN SCAR Mk17,15,0,75,80,0,0.6,1,1650,,,75000

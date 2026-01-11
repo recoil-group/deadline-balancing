@@ -1,4 +1,4 @@
-﻿0.24.4,Mon Jan 05 20:51:47 2026,,,,,,,,,,,,,
+﻿0.24.4,Sat Jan 10 20:51:47 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -723,7 +723,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,m4a1_fire_selector,,,,,,,,,,,,,
 341,,m4a1_std_fire_selector,Hart M4 Standard,0,0.01,,,,,,,,,0
 ,,strikon_scr_ar15_safety,Fightlite SCR AR15 Safety Selector,1,0.03,,,,,,,,,0
-,,ardian_weapons_ar15_talon_ambi_2lever_fire_selector,Radian Weapons AR15 Talon Ambi 2level Fire Selector,1,0.03,,,,,,,,,500
+,,ardian_weapons_ar15_talon_ambi_2lever_fire_selector,Radian Weapons AR15 Talon Ambi 2level Fire Selector,2,0.03,,,,,,,,,500
 ,m4a1_lower_receiver,,,,,,,,,,,,,
 342,,hart_m4a1_std_lower_receiver,Hart M4A1,0,0.3,,,,,,,,,0
 ,,strikon_scr_rifle_lower_receiver,Fightlite SCR Rifle Lower Receiver,6,0.26,-6,12,,,,,,,3000

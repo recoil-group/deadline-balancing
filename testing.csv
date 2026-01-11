@@ -1,4 +1,4 @@
-﻿0.24.4,Sat Jan 10 20:51:47 2026,,,,,,,,,,,,,
+﻿0.24.4,Sat Jan 10 22:59:09 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -24,7 +24,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 21,,adron_kobra_ekp_8_sight,Axion Kobra EKP-8,-1,0.16,,,,,,,,,700
 ,,axion_kobra_ekp_8_18_mount,Axion Kobra EKP-8-18 Picatinny,0,0.03,,,,,,,,,400
 ,,adron_kobra_ekp_8_sunshade,Axion Kobra EKP-8,1,0.02,,,,,,,,,50
-22,,hart_ca2r,Hart CA2R,0,0.07,,,,,,,,,400
+22,,hart_ca2r,Hart CA2R,1,0.07,,,,,,,,,400
 23,,hart_m4a1_carry_handle,Hart M4A1 Carry Handle,3,0.14,,,,,,,,,0
 24,,hera_arms_cqr_gen1_foregrip,CQR FG,6,0.23,-1,-3,,,,,,,1000
 ,,hera_arms_cqr_gen2_foregrip,Hera Arms CQR Gen2 Foregrip,6,0.23,-3,0,,,,,,,1500
@@ -191,9 +191,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,troy_battlesight_round_aperture_for_folded,Troy Battlesight Round Rear Aperture,0,0.005,,,,,,,,,0
 ,,troy_battlesight_std_front_post,Troy Battlesight Std. Front Post,0,0.005,,,,,,,,,0
 ,,troy_front_hk_battlesight,Troy Front Battlesight,1,0.01,,,,,,,,,0
-,,troy_front_hk_battlesight_folded,Troy Front Battlesight Folded,0,0.01,,,,,,,,,0
+,,troy_front_hk_battlesight_folded,Troy Front Battlesight Folded,1,0.01,,,,,,,,,0
 ,,troy_rear_battlesight,Troy Rear Battlesight,1,0.01,,,,,,,,,0
-,,troy_rear_battlesight_folded,Troy Rear Battlesight Folded,0,0.01,,,,,,,,,0
+,,troy_rear_battlesight_folded,Troy Rear Battlesight Folded,1,0.01,,,,,,,,,0
 ,,troy_battlesight_picatinny_base,Troy Battlesight Base,0,0.02,,,,,,,,,400
 ,,axtell_defense_rock_lock_rail_mounted_fixed_front_sight,Daniel Defense Rock & Lock Rail Mounted Front Fixed Ironsight,0,0.02,,,,,,,,,700
 ,,axtell_defense_rock_lock_a1.5_fixed_rear_sight,Daniel Defense Rock & Lock A1.5 Rear Fixed Ironsight,0,0.03,,,,,,,,,700
@@ -201,19 +201,19 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,axtell_defense_fixed_sight_rear_aperture,Axtell Defense Fixed Rear Sight Aperture,1,0.005,,,,,,,,,0
 ,,firm_#40_rear_sight_base,A.R.M.S. #40 Rear Sight Base,0,0.02,,,,,,,,,400
 ,,firm_#40_rear_sight,F.I.R.M. #40 Rear Sight,1,0.02,,,,,,,,,0
-,,firm_#40_rear_sight_folded,F.I.R.M. #40 Rear Sight Folded,0,0.02,,,,,,,,,0
+,,firm_#40_rear_sight_folded,F.I.R.M. #40 Rear Sight Folded,1,0.02,,,,,,,,,0
 ,,firm_#40_rear_sight_aperture,A.R.M.S. #40 Rear Sight Aperture,0,0.005,,,,,,,,,0
 ,,dams_mangonel_front_sight,DAMS Mangonel Front Sight,1,0.01,,,,,,,,,0
 ,,dams_mangonel_rear_sight,DAMS Mangonel Rear Sight,1,0.01,,,,,,,,,0
-,,dams_mangonel_rear_sight_folded,DAMS Mangonel Rear Sight Folded,0,0.01,,,,,,,,,0
-,,dams_mangonel_front_sight_folded,DAMS Mangonel Front Sight Folded,0,0.01,,,,,,,,,0
+,,dams_mangonel_rear_sight_folded,DAMS Mangonel Rear Sight Folded,1,0.01,,,,,,,,,0
+,,dams_mangonel_front_sight_folded,DAMS Mangonel Front Sight Folded,1,0.01,,,,,,,,,0
 ,,dams_mangonel_rear_sight_base,DPMS Mangonel Rear Sight Base,0,0.04,,,,,,,,,400
 ,,dams_mangonel_front_sight_base,DPMS Mangonel Front Sight Base,0,0.04,,,,,,,,,400
 ,,stellartac_saturn_scope_mount,Cosmic Tactical SATURN Scope Mount,,0.04,,,,,,,,,100
 ,,cosmotac_vism_gen2_carry_handle,NcStar VISM Gen2 Carry Handle,1,0.13,,,,,,,,,1000
 ,,cosmotac_vism_micro_green_dot_red_laser_vdgrlb,NcStar VISM Micro Green Dot w/ Red Laser VDGRLB,-3,0.06,,,,,,,,,700
 ,,cosmotac_vism_carry_handle_front_sight,CosmoTac VISM Carry Handle Front Sight,1,0.01,,,,,,,,,0
-,,cosmotac_vism_carry_handle_front_sight_folded,CosmoTac VISM Carry Handle Front Sight Folded,0,0.01,,,,,,,,,0
+,,cosmotac_vism_carry_handle_front_sight_folded,CosmoTac VISM Carry Handle Front Sight Folded,1,0.01,,,,,,,,,0
 ,,holotec_ogl_tactical_laser_module,EOTECH OGL Tactical Laser Module,-2,0.06,,,,,,,,,2500
 ,,holotec_ogl_access_point_cap,EOTECH OGL Access Point Cap,0,0.01,,,,,,,,,0
 ,,holotec_ogl_lens_caps,EOTECH OGL Lens Caps,1,0.01,,,,,,,,,0
@@ -326,29 +326,29 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,elcan_alt_view,,,,,,,,,,,,,
 155,,elcan_alt_view,Elcan alt view,0,0,,,,,,,,,0
 ,pac_front_sight,,,,,,,,,,,,,
-156,,pac_front_sight_folded,PAC Front Sight Folded,0,0.01,,,,,,,,,0
+156,,pac_front_sight_folded,PAC Front Sight Folded,1,0.01,,,,,,,,,0
 157,,pac_front_sight,PAC Front Sight,1,0.01,,,,,,,,,0
 ,pac_micro_front_sight,,,,,,,,,,,,,
 158,,pac_micro_front_sight,PAC Micro Front Sight,1,0.01,,,,,,,,,0
-159,,pac_micro_front_sight_folded,PAC Micro Front Sight Folded,0,0.01,,,,,,,,,0
+159,,pac_micro_front_sight_folded,PAC Micro Front Sight Folded,1,0.01,,,,,,,,,0
 ,pac_micro_rear_sight,,,,,,,,,,,,,
-160,,pac_micro_rear_sight_folded,PAC Micro Rear Sight Folded,0,0.01,,,,,,,,,0
+160,,pac_micro_rear_sight_folded,PAC Micro Rear Sight Folded,1,0.01,,,,,,,,,0
 161,,pac_micro_rear_sight,PAC Micro Rear Sight,1,0.01,,,,,,,,,0
 ,pac_rear_sight,,,,,,,,,,,,,
-162,,pac_rear_sight_folded,PAC Rear Sight Folded,0,0.01,,,,,,,,,0
+162,,pac_rear_sight_folded,PAC Rear Sight Folded,1,0.01,,,,,,,,,0
 163,,pac_rear_sight,PAC Rear Sight,1,0.01,,,,,,,,,0
 ,magtap_mbus_top_sight,,,,,,,,,,,,,
-164,,magtap_mbus_gen2_rear_top_folded,Magtap MBUS Gen2 RS Folded,0,0.01,,,,,,,,,0
+164,,magtap_mbus_gen2_rear_top_folded,Magtap MBUS Gen2 RS Folded,1,0.01,,,,,,,,,0
 165,,magtap_mbus_gen2_rear_top,Magtap MBUS Gen2 RS,1,0.01,,,,,,,,,0
 166,,magtap_mbus_gen2_front_top,Magtap MBUS Gen2 FS,1,0.01,,,,,,,,,0
-167,,magtap_mbus_gen2_front_top_folded,Magtap MBUS Gen2 FS Folded,0,0.01,,,,,,,,,0
+167,,magtap_mbus_gen2_front_top_folded,Magtap MBUS Gen2 FS Folded,1,0.01,,,,,,,,,0
 ,aeroknox_iron_sight,,,,,,,,,,,,,
 ,,aeroknox_ax15_front_sight,Aeroknox AX15 Front Sight,1,0.01,,,,,,,,,0
-,,aeroknox_ax15_front_sight_folded,Aeroknox AX15 Front Sight Folded,0,0.01,,,,,,,,,0
+,,aeroknox_ax15_front_sight_folded,Aeroknox AX15 Front Sight Folded,1,0.01,,,,,,,,,0
 ,,aeroknox_ax15_rear_sight,Aeroknox AX15 Rear Sight,1,0.01,,,,,,,,,0
-,,aeroknox_ax15_rear_sight_folded,Aeroknox AX15 Rear Sight Folded,0,0.01,,,,,,,,,0
+,,aeroknox_ax15_rear_sight_folded,Aeroknox AX15 Rear Sight Folded,1,0.01,,,,,,,,,0
 ,fab_tech_rear_aperture,,,,,,,,,,,,,
-168,,fab_tech_usgi_rear_buis_aperture_folded,FabTech USGI Rear BUIS Folded,0,0.01,,,,,,,,,0
+168,,fab_tech_usgi_rear_buis_aperture_folded,FabTech USGI Rear BUIS Folded,1,0.01,,,,,,,,,0
 169,,fab_tech_usgi_rear_buis_aperture,FabTech USGI Rear BUIS,1,0.01,,,,,,,,,0
 ,theoretical_barrel,,,,,,,,,,,,,
 170,,theoretical_barrel,Technically a barrel,,,,,,,,,,,0
@@ -475,10 +475,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 228,,strauss_deltapoint_pro_sight,Leupold DeltaPoint Pro,-2,0.05,,,,,,,,,1200
 229,,holotec_eflx_mini_red_dot,EOTECH EFLX Mini Red Dot,-2,0.05,,,,,,,,,1100
 ,aim_sport_low_profile_sight,,,,,,,,,,,,,
-230,,target_sports_front_sight,AIM Sports Low Profile 45 Degree Front Sight,2,0.02,,,,,,,,,0
-231,,target_sports_rear_sight_folded,AIM Sports Low Profile 45 Degree Folded Rear Sight,1,0.02,,,,,,,,,0
-232,,target_sports_front_sight_folded,AIM Sports Low Profile 45 Degree Folded Folded Front Sight,1,0.02,,,,,,,,,0
-233,,target_sports_rear_sight,AIM Sports Low Profile 45 Degree Rear Sight,2,0.02,,,,,,,,,0
+230,,target_sports_front_sight,Target Sports Low Profile 45 Degree Front Sight,1,0.02,,,,,,,,,0
+231,,target_sports_rear_sight_folded,Target Sports Low Profile 45 Degree Folded Rear Sight,1,0.02,,,,,,,,,0
+232,,target_sports_front_sight_folded,Target Sports Low Profile 45 Degree Folded Folded Front Sight,1,0.02,,,,,,,,,0
+233,,target_sports_rear_sight,Target Sports Low Profile 45 Degree Rear Sight,1,0.02,,,,,,,,,0
 ,azimuth_micro_footprint,,,,,,,,,,,,,
 234,,sig_sauer_romeo4b_sight,Sig Sauer Romeo4B,-1.5,0.08,,,,,,,,,1000
 235,,sig_sauer_romeo4t_sight,Sig Sauer Romeo4T,-1.5,0.08,,,,,,,,,1100
@@ -615,7 +615,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,modtac_urac_mount,,,,,,,,,,,,,
 ,,taclite_urac_picatinny_coupler_mount,MODTAC U-RAC Picatinny Coupler Mount,0,0.03,,,,,,,,,200
 ,,taclite_urac_top_front_ironsight,TACLITE U-RAC Top Front Ironsight,1,0.01,,,,,,,,,0
-,,taclite_urac_top_front_ironsight_folded,TACLITE U-RAC Folded Top Front Ironsight,0,0.01,,,,,,,,,0
+,,taclite_urac_top_front_ironsight_folded,TACLITE U-RAC Folded Top Front Ironsight,1,0.01,,,,,,,,,0
 ,,taclite_urac_ironsight_mount,MODTAC U-RAC Ironsight Mount,0,0.02,,,,,,,,,600
 ,,taclite_urac_flag_mount,MODTAC U-RAC US Flag Mount,0.5,0.01,,,,,,,,,2000
 ,modtac_mrac_mounting_plates,,,,,,,,,,,,,
@@ -803,7 +803,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 381,,cmmg_mk9_127mm_9x19_barrel,"CmmG Mk9 5"" 9x19",7,0.2,6,6,,0.2,0,-225,,,800
 ,fn_rear_sight,,,,,,,,,,,,,
 382,,aft_rear_sight,AFT Standard,1,0.01,,,,,,,,,0
-383,,aft_rear_sight_folded,AFT Standard Folded,0,0.01,,,,,,,,,0
+383,,aft_rear_sight_folded,AFT Standard Folded,1,0.01,,,,,,,,,0
 ,fn_scar_rear_sight_apertures,,,,,,,,,,,,,
 384,,aft_rear_sight_600m_aperture,FN Scar 600m Aperture,0,0.005,,,,,,,,,0
 385,,aft_rear_sight_200m_aperture,FN Scar 200m Aperture,0,0.005,,,,,,,,,0
@@ -815,7 +815,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 388,,aft_front_sight_base,FN SCAR Standard,0,0.01,,,,,,,,,0
 389,,dynamic_development_group_scar_fs_replacement_rail,Kinetic Development Group SCAR Front Sight Replacement Rail,0,0.03,,,,,,,,,300
 ,fn_front_sight,,,,,,,,,,,,,
-390,,aft_front_sight_folded,AFT Standard Folded,0,0.01,,,,,,,,,0
+390,,aft_front_sight_folded,AFT Standard Folded,1,0.01,,,,,,,,,0
 391,,aft_front_sight,AFT Standard,1,0.01,,,,,,,,,0
 ,fn_scar_bolt_release,,,,,,,,,,,,,
 392,,fn_scar_bolt_release,FN SCAR-H Standard,0,0,,,,,,,,,0
@@ -1063,10 +1063,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 538,,5.45x39_kazarov_ak12_magazine_30r,Izhmash AK-12 Windowed Polymer 30R,0,0.42,,,30,,,,,,1200
 ,,banan_magazine,Banana Magazine,0,0.39,,,30,,,,,,5000
 ,magazine_7.62x51_roosevelt700,,,,,,,,,,,,,
-539,,scrubs_outdoors_roosevelt_700_.308_5r_mag,"	Wyatt's Outdoor .308 5R",-2,0.22,,,5,,,,,,0
+539,,scrubs_outdoors_roosevelt_700_.308_5r_mag,	Wyatt's Outdoor .308 5R,-2,0.22,,,5,,,,,,0
 540,,magtap_pmag_ac_5r,Magpul PMAG AC .308 5R,-2,0.18,,,5,,,,,,
 541,,magtap_pmag_ac_10r,Magpul PMAG AC .308 10R,-6,0.32,,,10,,,,,,
-542,,scrubs_outdoors_roosevelt_700_.308_10r_mag,"	Wyatt's Outdoor .308 10R",-6,0.36,,,10,,,,,,1000
+542,,scrubs_outdoors_roosevelt_700_.308_10r_mag,	Wyatt's Outdoor .308 10R,-6,0.36,,,10,,,,,,1000
 ,magazine_7.62x54_mosin,,,,,,,,,,,,,
 543,,7.62x54_promag_10r,ProMag AA762R 02 10R,-4,0.33,,,10,,,,,,1000
 544,,7.62x54_promag_5r,ProMag AA762R 01 5R,0,0.19,,,5,,,,,,500
@@ -2123,9 +2123,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,steyr_aug_z_subcompact_swat_keymod_top_rail,Steyr AUG-Z Subcompact SWAT Keymod Top Rail,1,0.16,-3,-1,,,,,,,1200
 ,steyr_aug_z_rail_irons,,,,,,,,,,,,,
 ,,steyr_aug_z_rail_front_sight,Steyr AUG-Z Rail Front Sight,1,0.03,,,,,,,,,0
-,,steyr_aug_z_rail_front_sight_folded,Steyr AUG-Z Rail Front Sight Folded,0,0.03,,,,,,,,,0
+,,steyr_aug_z_rail_front_sight_folded,Steyr AUG-Z Rail Front Sight Folded,1,0.03,,,,,,,,,0
 ,,steyr_aug_z_rail_rear_sight,Steyr AUG-Z Rail Rear Sight,1,0.03,,,,,,,,,0
-,,steyr_aug_z_rail_rear_sight_folded,Steyr AUG-Z Rail Rear Sight Folded,0,0.03,,,,,,,,,0
+,,steyr_aug_z_rail_rear_sight_folded,Steyr AUG-Z Rail Rear Sight Folded,1,0.03,,,,,,,,,0
 ,aug_a3m1_top_rail_mount,,,,,,,,,,,,,
 1016,,steyr_aug_a3_m1_high_sight_mount,Steyr AUG A3 M1 High Top Rail,-1,0.1,-1,0,,,,,,,400
 ,,steyr_aug_a3_m1_extended_factory_rail,Steyr AUG A3 M1 Extended Factory Top Rail,-2,0.13,-1,-2,,,,,,,800
@@ -2801,10 +2801,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sno_vulkan_rpg_7_pistol_grip,NPO Bazalt RPG-7 Pistol Grip,4,0.08,-2,-2,,,,,,,0
 ,,sno_vulkan_rpg_7_rear_grip,NPO Bazalt RPG-7 Rear Grip,4,0.1,-2,-2,,,,,,,0
 ,,sno_vulkan_rpg_7_front_sight,SNO Vulkan RPG-7 Front Sight,1,0.05,,,,,,,,,0
-,,sno_vulkan_rpg_7_front_sight_folded,SNO Vulkan RPG-7 Front Sight Folded,0,0.05,,,,,,,,,0
-,,sno_vulkan_rpg_7_rear_sight,SNO Vulkan RPG-7 Rear Sight,0,0.03,,,,,,,,,0
+,,sno_vulkan_rpg_7_front_sight_folded,SNO Bazalt RPG-7 Front Sight Folded,1,0.05,,,,,,,,,0
+,,sno_vulkan_rpg_7_rear_sight,SNO Bazalt RPG-7 Rear Sight,1,0.03,,,,,,,,,0
 ,,sno_vulkan_rpg_7_rear_sight_zeroing_rail,SNO Vulkan RPG-7 Rear Sight Zeroing Rail,1,0.03,,,,,,,,,0
-,,sno_vulkan_rpg_7_rear_sight_zeroing_rail_folded,SNO Vulkan RPG-7 Rear Sight Zeroing Rail Folded,0,0.03,,,,,,,,,0
+,,sno_vulkan_rpg_7_rear_sight_zeroing_rail_folded,SNO Bazalt RPG-7 Rear Sight Zeroing Rail Folded,1,0.03,,,,,,,,,0
 ,psrl,,,,,,,,,,,,,
 ,,launchtron_psrl_2_tube,AirTronic USA PSRL-2 Tube,,3.2,,,,,,,,,0
 ,,launchtron_psrl_2_tube_shoulder_padding,AirTronic USA PSRL-2 Tube Shoulder Padding,,0.45,,,,,,,,,0
@@ -2821,10 +2821,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,launchtron_psrl_ironsight_base_mount,AirTronic USA PSRL Ironsight Base Mount,,0.04,,,,,,,,,500
 ,,launchtron_psrl_rear_ironsight_base,AirTronic USA PSRL Rear,,0.03,,,,,,,,,0
 ,,launchtron_psrl_rear_ironsight,LaunchTron USA PSRL Rear Ironsight,1,0.02,,,,,,,,,0
-,,launchtron_psrl_rear_ironsight_folded,LaunchTron USA PSRL Rear Ironsight Folded,0,0.02,,,,,,,,,0
+,,launchtron_psrl_rear_ironsight_folded,LaunchTron USA PSRL Rear Ironsight Folded,1,0.02,,,,,,,,,0
 ,,launchtron_psrl_front_ironsight_base,AirTronic USA PSRL Front,,0.03,,,,,,,,,0
 ,,launchtron_psrl_front_ironsight,LaunchTron USA PSRL Front Ironsight,1,0.02,,,,,,,,,0
-,,launchtron_psrl_front_ironsight_folded,LaunchTron USA PSRL Front Ironsight Folded,0,0.02,,,,,,,,,0
+,,launchtron_psrl_front_ironsight_folded,LaunchTron USA PSRL Front Ironsight Folded,1,0.02,,,,,,,,,0
 ,,launchtron_psrl_plastic_foregrip,AirTronic USA PSRL Plastic Foregrip,3,0.1,-2,-2,,,,,,,800
 ,sig_sauer_p320_mag,,,,,,,,,,,,,
 ,,sig_sauer_p320_mag_bottom_plate,Sig Sauer P320 Mag Bottom Plate,0,0.02,,,,,,,,,0

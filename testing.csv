@@ -1,4 +1,4 @@
-﻿0.25.0,Mon Jan 12 20:51:47 2026,,,,,,,,,,,,,
+﻿0.25.0,Mon Jan 12 11:51:47 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -2413,9 +2413,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1151,,adw_qd,Daniel Defence Wave QD,-6,0.28,-17,-19,,-0.1,0.16,90,,,1200
 ,starsurp_ace_recoil_pad,,,,,,,,,,,,,
 1152,,starsurp_starsurp_apex_0.5_recoil_pad,Starsurp ACE M4 SOCOM Buttpad,2,0.03,-1,-1,,,,,,,0
-,dsa_sa58_mag_plate,,,,,,,,,,,,,
-1153,,dsa_sa58_enhanced_bumper_magazine_bottom_plate,DSA FAL SA-58 Enhanced Bumper Magazine,1,0.05,,,,,,,,,500
-1154,,dsa_sa58_mag_bottom_plate,DSA FAL SA-58 Magazine,0,0.02,,,,,,,,,0
+,rsa_sa58_mag_plate,,,,,,,,,,,,,
+1153,,rsa_sa58_enhanced_bumper_magazine_bottom_plate,RSA FAL SA-58 Enhanced Bumper Magazine,1,0.05,,,,,,,,,500
+1154,,rsa_sa58_mag_bottom_plate,RSA FAL SA-58 Magazine,0,0.02,,,,,,,,,0
 ,fn_fal_halbek,,,,,,,,,,,,,
 1155,,rhodesian_halbek_muzzle_device,Rhodesian Reproduction Halbek,-3,0.04,14,-22,,0.1,-0.01,0,,,1200
 ,onyx_adapter,,,,,,,,,,,,,

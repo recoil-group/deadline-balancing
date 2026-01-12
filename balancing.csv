@@ -72,8 +72,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 51,,pac_rear_sight_base,KAC Rear Base,0,0.02,,,,,,,,,200
 52,,pac_vpg,KAC VPG,2,0.09,-6,-3,,,,,,,700
 53,,khf_34mm_iea,KHF I-E-A 34mm,-1,0.11,,,,,,,,,500
-54,,l3harris_atpial_an_peq_15,L3Harris ATPIAL AN/PEQ-15,-1,0.06,,,,,,,,,1200
-55,,l3harris_mipim_an_peq_16b,L3Harris MIPIM AN/PEQ-16B,-1,0.07,,,,,,,,,2000
+54,,l3harrison_atpial_an_peq_15,L3Harris ATPIAL AN/PEQ-15,-1,0.06,,,,,,,,,1200
+55,,l3harrison_mipim_an_peq_16b,L3Harris MIPIM AN/PEQ-16B,-1,0.07,,,,,,,,,2000
 56,,leroux_qd_lt_101,LaRue QD LT-101,-0.5,0.04,,,,,,,,,1000
 57,,las_tac_2,LAS/TAC 2,-0.5,0.05,,,,,,,,,750
 58,,strauss_deltapoint_pro_ar,Leupold DeltaPoint PRO AR,-1,0.07,,,,,,,,,300
@@ -1092,10 +1092,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,steyr_mpi_69_81_9x19_32r_mag,Steyr MPI69/81 9x19 32R,-4,0.38,,,32,,,,,,750
 554,,roch_custom_steyr_aug_9x19_40r_mag,Roch Custom Steyr AUG Para 9x19 40R,-10,0.46,,,40,,,,,,1000
 ,magazine_7.62x51_fn_fal,,,,,,,,,,,,,
-,,dsa_sa58_fal_metric_magazine_5r,DSA FAL SA-58 U.S. Made Metric 5R,11,0.16,,,5,,,,,,200
-555,,dsa_sa58_fal_metric_magazine_10r,DSA FAL SA-58 U.S. Made Metric 10R,7,0.32,,,10,,,,,,500
-556,,dsa_sa58_fal_metric_magazine_20r,DSA FAL SA-58 U.S. Made Metric 20R,0,0.61,,,20,,,,,,0
-557,,dsa_sa58_fal_metric_magazine_30r,DSA FAL SA-58 U.S. Made Metric 30R,-7,0.92,,,30,,,,,,2000
+,,rsa_sa58_fal_metric_magazine_5r,DSA FAL SA-58 U.S. Made Metric 5R,11,0.16,,,5,,,,,,200
+555,,rsa_sa58_fal_metric_magazine_10r,DSA FAL SA-58 U.S. Made Metric 10R,7,0.32,,,10,,,,,,500
+556,,rsa_sa58_fal_metric_magazine_20r,DSA FAL SA-58 U.S. Made Metric 20R,0,0.61,,,20,,,,,,0
+557,,rsa_sa58_fal_metric_magazine_30r,DSA FAL SA-58 U.S. Made Metric 30R,-7,0.92,,,30,,,,,,2000
 558,,enfield_l1a1_slr_pattern_mag_30r,Enfield L1A1 SLR Pattern 30R,-6,0.94,,,30,,,,,,2500
 559,,nm_fal_polymer_mag_20r,Moses Mag Works Polymer 20R,-1,0.55,,,20,,,,,,1500
 560,,cartesia_productions_x_fal_drum_mag_50r,X Products X-FAL .308 50R Drum,-15,1.49,,,50,0.1,,,,,4000
@@ -2294,10 +2294,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,7.62x51nato_muzzle_device,,,,,,,,,,,,,
 1092,,ak308_7.62x51_muzzle_brake,Kalashnikov Concern AK-308,-1,0.06,-11,-14,,0.05,0,50,,,0
 1093,,tiger_rock_ar10_7.62x51_barrett_style_muzzle_brake_with_jam_nut,Tiger Rock AR-10 .308 Barrett Style Muzzle Brake with Jam Nut,-6,0.16,10,-35,,0.15,-0.01,-20,,,1500
-1094,,dsa_3prong_trident_7.62x51_flash_hider,DSA 3-Prong Trident 7.62x51,1,0.04,-10,-12,,0,0,0,,,0
+1094,,rsa_3prong_trident_7.62x51_flash_hider,DSA 3-Prong Trident 7.62x51,1,0.04,-10,-12,,0,0,0,,,0
 1095,,fn_fal_7.62x51_belgian_flash_hider,FN FAL Belgian Style 7.62x51,0,0.06,-13,-11,,0,0,25,,,500
 1096,,fn_fal_austrian_7.62x51_stg58_flash_hider,FN FAL Austrian STG58 7.62x51,1,0.09,-10,-14,,0,0,50,,,500
-,,dsa_warz_series_7.62x51_flash_hider,DSA WarZ Series 7.62x51,2,0.03,-9,-11,,0,0,0,,,600
+,,rsa_warz_series_7.62x51_flash_hider,DSA WarZ Series 7.62x51,2,0.03,-9,-11,,0,0,0,,,600
 1097,,sig_srd762ti_suppressor,Sig SRD762Ti,-6,0.26,-10,-12,,-0.12,0.05,200,,,2000
 1098,,spiderweb_bpr_suppressor_system_bpr_1425,OSS BPR Suppressor System BPR-1425,-4,0.16,-9,-9,,-0.1,0.03,150,,,2500
 1099,,aft17_7.62x51_3prong_european_flash_hider,FN Scar Mk17 .308 3-Prong European,1,0.06,-11,-12,,0,0,25,,,0
@@ -2328,7 +2328,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1107,,sa58_type1_upper_receiver,DSA SA-58 Type 1,-10,0.38,0,0,,,,,,,500
 1108,,sa58_type1_upper_receiver_with_carry_handle,DSA SA-58 Type 1 (w/ Carry Handle Mount),-11,0.4,-2,-2,,,,,,,0
 ,sa58_bolt,,,,,,,,,,,,,
-1109,,dsa_sa58_7.62x51_bolt,DSA SA-58 7.62x51,0,0,,,,,,,,,0
+1109,,rsa_sa58_7.62x51_bolt,DSA SA-58 7.62x51,0,0,,,,,,,,,0
 ,sa58_carry_handle,,,,,,,,,,,,,
 1110,,fn_fal_long_carry_handle,FN FAL Long,5,0.1,,,,,,,,,0
 1111,,sa58_stg58_carry_handle,STG58,4,0.07,,,,,,,,,200
@@ -2336,59 +2336,59 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1112,,sa58_std_charging_handle,DSA SA-58,1,0.04,,,,,,,,,0
 ,sa58_dust_cover,,,,,,,,,,,,,
 1113,,fn_fal_std_dust_cover,FN FAL Std.,4,0.23,0,0,,,,,,,0
-1114,,dsa_extreme_duty_extended_dust_cover,DSA Extreme Duty Extended Rail,1,0.33,-1,-1,,,,,,,1000
+1114,,rsa_extreme_duty_extended_dust_cover,DSA Extreme Duty Extended Rail,1,0.33,-1,-1,,,,,,,1000
 ,sa58_fire_selector,,,,,,,,,,,,,
 1115,,sa58_std_fire_selector,DSA SA-58,0,0,,,,,,,,,0
 ,sa58_folding_stock,,,,,,,,,,,,,
-1116,,dsa_sa58_metric_para_folding_stock,DSA SA-58 Metric Para Folding,12,0.17,-6,-11,,,,,,,500
-1117,,dsa_metric_para_buffer_tube_adapter,DSA Para Metric Buffer Tube,-4,0.05,4,4,,,,,,,1000
-,,dsa_sa58_folding_spr_para_stock_body,DSA SA-58 Folding SPR PARA Stock Body,12,0.12,-9,-7,,,,,,,3000
-,,dsa_sa58_folding_spr_para_stock_extendable_part,DSA SA-58 Folding SPR PARA Stock Extendable Part,,0.02,,,,,,,,,0
-,,dsa_sa58_folding_spr_para_stock_buttpad_mount,DSA SA-58 Folding SPR PARA Stock Buttpad Mount,,0.02,,,,,,,,,0
-,,dsa_sa58_folding_spr_para_stock_cheek_riser,DSA SA-58 Folding SPR PARA Stock Cheek Riser,1,0.03,,,,,,,,,0
-,,dsa_sa58_folding_spr_para_stock_buttpad,DSA SA-58 Folding SPR PARA Stock Buttpad,1,0.03,,,,,,,,,0
+1116,,rsa_sa58_metric_para_folding_stock,DSA SA-58 Metric Para Folding,12,0.17,-6,-11,,,,,,,500
+1117,,rsa_metric_para_buffer_tube_adapter,DSA Para Metric Buffer Tube,-4,0.05,4,4,,,,,,,1000
+,,rsa_sa58_folding_spr_para_stock_body,DSA SA-58 Folding SPR PARA Stock Body,12,0.12,-9,-7,,,,,,,3000
+,,rsa_sa58_folding_spr_para_stock_extendable_part,DSA SA-58 Folding SPR PARA Stock Extendable Part,,0.02,,,,,,,,,0
+,,rsa_sa58_folding_spr_para_stock_buttpad_mount,DSA SA-58 Folding SPR PARA Stock Buttpad Mount,,0.02,,,,,,,,,0
+,,rsa_sa58_folding_spr_para_stock_cheek_riser,DSA SA-58 Folding SPR PARA Stock Cheek Riser,1,0.03,,,,,,,,,0
+,,rsa_sa58_folding_spr_para_stock_buttpad,DSA SA-58 Folding SPR PARA Stock Buttpad,1,0.03,,,,,,,,,0
 ,sa58_front_sight,,,,,,,,,,,,,
 1118,,fnb_precision_fal_duplex_front_sight,KNS Precision FAL Duplex,1,0.015,,,,,,,,,200
-1119,,dsa_metric_front_sight_size4,DSA Metric Size 4,1,0.01,,,,,,,,,0
-1120,,dsa_metric_front_sight_size2,DSA Metric Size 2,1,0.01,,,,,,,,,0
-1121,,dsa_metric_front_sight_size3,DSA Metric Size 3,1,0.01,,,,,,,,,0
-1122,,dsa_metric_front_sight_size1,DSA Metric Size 1,1,0.01,,,,,,,,,0
+1119,,rsa_metric_front_sight_size4,DSA Metric Size 4,1,0.01,,,,,,,,,0
+1120,,rsa_metric_front_sight_size2,DSA Metric Size 2,1,0.01,,,,,,,,,0
+1121,,rsa_metric_front_sight_size3,DSA Metric Size 3,1,0.01,,,,,,,,,0
+1122,,rsa_metric_front_sight_size1,DSA Metric Size 1,1,0.01,,,,,,,,,0
 1123,,fnb_precision_fal_crosshair_front_sight,KNS Precision FAL Crosshair,1,0.015,,,,,,,,,200
 ,sa58_grip,,,,,,,,,,,,,
 1124,,sa58_std_grip,DSA SA-58 Standard,0,0.09,0,0,,,,,,,0
 ,sa58_handguard,,,,,,,,,,,,,
-1125,,dsa_sa58_belgian_style_full_length_handguard,DSA SA-58 Belgian Style,8,0.3,-16,-16,,0.03,,,,,0
-,,dsa_sa58_belgian_style_mid_length_handguard,DSA SA-58 Belgian Style Mid Length Handguard,10,0.21,-13,-13,,0.03,,,,,750
+1125,,rsa_sa58_belgian_style_full_length_handguard,DSA SA-58 Belgian Style,8,0.3,-16,-16,,0.03,,,,,0
+,,rsa_sa58_belgian_style_mid_length_handguard,DSA SA-58 Belgian Style Mid Length Handguard,10,0.21,-13,-13,,0.03,,,,,750
 1126,,target_sports_universal_11.3inch_mlok_hg_lower,"Aim Sports Universal MLOK 11.3""",8,0.15,-11,-11,,,,,,,1500
-1127,,dsa_metric_short_quadrail_handguard,DSA Metric Short Quad Rail,9,0.22,-8,-12,,,,,,,1000
-,,dsa_sa58_metric_mlok_full_length_bottom_handguard,DSA SA58 Metric MLOK Full Length Lower Handguard,7,0.14,-13,-11,,,,,,,1750
-,,dsa_sa58_metric_mlok_full_length_top_handguard,DSA SA58 Metric MLOK Full Length Picatinny Upper Handguard,0,0.12,0,0,,,,,,,250
-,,dsa_sa58_metric_mlok_mid_length_bottom_handguard,DSA SA58 Metric MLOK Mid Length Lower Handguard,10,0.11,-10,-8,,,,,,,1500
-,,dsa_sa58_metric_mlok_mid_length_top_handguard,DSA SA58 Metric MLOK Mid Length Picatinny Upper Handguard,0,0.09,0,0,,,,,,,200
-,,dsa_sa58_metric_mlok_pistol_length_bottom_handguard,DSA SA58 Metric MLOK Pistol Length Lower Handguard,13,0.08,-5,-5,,,,,,,1200
-,,dsa_sa58_metric_mlok_pistol_length_top_handguard,DSA SA58 Metric MLOK Pistol Length Picatinny Upper Handguard,0,0.06,0,0,,,,,,,150
-,,dsa_sa58_tactical_pistol_v2_handguard,DSA SA-58 Tactical Pistol V2,14,0.15,-8,-8,,0.03,,,,,2000
+1127,,rsa_metric_short_quadrail_handguard,DSA Metric Short Quad Rail,9,0.22,-8,-12,,,,,,,1000
+,,rsa_sa58_metric_mlok_full_length_bottom_handguard,DSA SA58 Metric MLOK Full Length Lower Handguard,7,0.14,-13,-11,,,,,,,1750
+,,rsa_sa58_metric_mlok_full_length_top_handguard,DSA SA58 Metric MLOK Full Length Picatinny Upper Handguard,0,0.12,0,0,,,,,,,250
+,,rsa_sa58_metric_mlok_mid_length_bottom_handguard,DSA SA58 Metric MLOK Mid Length Lower Handguard,10,0.11,-10,-8,,,,,,,1500
+,,rsa_sa58_metric_mlok_mid_length_top_handguard,DSA SA58 Metric MLOK Mid Length Picatinny Upper Handguard,0,0.09,0,0,,,,,,,200
+,,rsa_sa58_metric_mlok_pistol_length_bottom_handguard,DSA SA58 Metric MLOK Pistol Length Lower Handguard,13,0.08,-5,-5,,,,,,,1200
+,,rsa_sa58_metric_mlok_pistol_length_top_handguard,DSA SA58 Metric MLOK Pistol Length Picatinny Upper Handguard,0,0.06,0,0,,,,,,,150
+,,rsa_sa58_tactical_pistol_v2_handguard,DSA SA-58 Tactical Pistol V2,14,0.15,-8,-8,,0.03,,,,,2000
 ,sa58_lower_receiver,,,,,,,,,,,,,
 1128,,sa58_std_lower_receiver,DSA SA-58 7.62x51,12,0,,,,,,,,,0
 ,sa58_rear_sight,,,,,,,,,,,,,
-1129,,dsa_sa58_holland_type_sight,DSA SA-58 Holland Type,1,0.03,,,,,,,,,200
-1130,,dsa_sa58_para_rear_sight,DSA SA-58 Metric PARA,1,0.03,,,,,,,,,0
-,,dsa_sa58_rear_sight_picatinny_mount,DSA SA-58 Rear Sight Picatinny Mount,-1,0.03,,,,,,,,,500
+1129,,rsa_sa58_holland_type_sight,DSA SA-58 Holland Type,1,0.03,,,,,,,,,200
+1130,,rsa_sa58_para_rear_sight,DSA SA-58 Metric PARA,1,0.03,,,,,,,,,0
+,,rsa_sa58_rear_sight_picatinny_mount,DSA SA-58 Rear Sight Picatinny Mount,-1,0.03,,,,,,,,,500
 ,sa58_stock,,,,,,,,,,,,,
-1131,,dsa_sa58_para_fold_assembly,DSA SA-58 Para Fold Assembly,0,0.06,0,0,,,,,,,500
-1132,,dsa_sa58_polymer_humpback_stock,DSA Humpback Polymer Fixed,10,0.3,-10,-10,,,,,,,0
-,,dsa_sa58_pistol_qd_sling_endplate,DSA SA-58 Pistol QD Sling,4,0.05,8,8,,0.5,,,,,1000
+1131,,rsa_sa58_para_fold_assembly,DSA SA-58 Para Fold Assembly,0,0.06,0,0,,,,,,,500
+1132,,rsa_sa58_polymer_humpback_stock,DSA Humpback Polymer Fixed,10,0.3,-10,-10,,,,,,,0
+,,rsa_sa58_pistol_qd_sling_endplate,DSA SA-58 Pistol QD Sling,4,0.05,8,8,,0.5,,,,,1000
 ,sa58_barrel,,,,,,,,,,,,,
-,,dsa_sa58_210mm_premium_pistol_barrel,"DSA SA-58 8.25"" Premium Pistol",13,0.57,9,9,,0.25,-0.09,-158,,,1000
-1133,,dsa_sa58_305mm_barrel,"DSA SA-58 12""",9,0.75,6,6,,0.15,-0.06,-131,,,750
-1134,,dsa_sa58_330mm_barrel,"DSA SA-58 13""",6,0.79,4,4,,0.1,-0.04,-81,,,500
-1135,,dsa_sa58_406mm_barrel,"DSA SA-58 16""",0,0.96,0,0,,0,0,71,,,0
-1136,,dsa_sa58_457mm_barrel,"DSA SA-58 18""",-4,1.03,-2,-2,,-0.1,0.03,143,,,750
-1137,,dsa_sa58_533mm_barrel,"DSA SA-58 21""",-9,1.15,-4,-4,,-0.25,0.08,238,,,1000
-1138,,dsa_sa58_406mm_fluted_barrel,"DSA SA-58 16"" Fluted",1,0.91,1,1,,0,0,46,,,400
+,,rsa_sa58_210mm_premium_pistol_barrel,"DSA SA-58 8.25"" Premium Pistol",13,0.57,9,9,,0.25,-0.09,-158,,,1000
+1133,,rsa_sa58_305mm_barrel,"DSA SA-58 12""",9,0.75,6,6,,0.15,-0.06,-131,,,750
+1134,,rsa_sa58_330mm_barrel,"DSA SA-58 13""",6,0.79,4,4,,0.1,-0.04,-81,,,500
+1135,,rsa_sa58_406mm_barrel,"DSA SA-58 16""",0,0.96,0,0,,0,0,71,,,0
+1136,,rsa_sa58_457mm_barrel,"DSA SA-58 18""",-4,1.03,-2,-2,,-0.1,0.03,143,,,750
+1137,,rsa_sa58_533mm_barrel,"DSA SA-58 21""",-9,1.15,-4,-4,,-0.25,0.08,238,,,1000
+1138,,rsa_sa58_406mm_fluted_barrel,"DSA SA-58 16"" Fluted",1,0.91,1,1,,0,0,46,,,400
 ,sa58_gas_piston,,,,,,,,,,,,,
-,,dsa_sa58_pistol_gas_piston,DSA SA-58 Pistol Length,2,0.01,-1,-2,,,,,,,100
-,,dsa_sa58_rifle_gas_piston,DSA SA-58 Rifle Length,0,0.03,-2,-3,,,,,,,0
+,,rsa_sa58_pistol_gas_piston,DSA SA-58 Pistol Length,2,0.01,-1,-2,,,,,,,100
+,,rsa_sa58_rifle_gas_piston,DSA SA-58 Rifle Length,0,0.03,-2,-3,,,,,,,0
 ,z_rail_mount,,,,,,,,,,,,,
 1139,,z_rail_side_mount2,Z-Rail Side,-1,0.04,,,,,,,,,0
 1140,,z_rail_side_mount1,Z-Rail Side,-1,0.04,,,,,,,,,0
@@ -2413,9 +2413,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1151,,adw_qd,Daniel Defence Wave QD,-6,0.28,-17,-19,,-0.1,0.16,90,,,1200
 ,doublestar_ace_recoil_pad,,,,,,,,,,,,,
 1152,,starsurp_apex_0.5_recoil_pad,Doublestar ACE M4 SOCOM Buttpad,2,0.03,-1,-1,,,,,,,0
-,dsa_sa58_mag_plate,,,,,,,,,,,,,
-1153,,dsa_sa58_enhanced_bumper_magazine_bottom_plate,DSA FAL SA-58 Enhanced Bumper Magazine,1,0.05,,,,,,,,,500
-1154,,dsa_sa58_mag_bottom_plate,DSA FAL SA-58 Magazine,0,0.02,,,,,,,,,0
+,rsa_sa58_mag_plate,,,,,,,,,,,,,
+1153,,rsa_sa58_enhanced_bumper_magazine_bottom_plate,DSA FAL SA-58 Enhanced Bumper Magazine,1,0.05,,,,,,,,,500
+1154,,rsa_sa58_mag_bottom_plate,DSA FAL SA-58 Magazine,0,0.02,,,,,,,,,0
 ,fn_fal_halbek,,,,,,,,,,,,,
 1155,,rhodesian_halbek_muzzle_device,Rhodesian Reproduction Halbek,-3,0.04,14,-22,,0.1,-0.01,0,,,1200
 ,gemtech_adapter,,,,,,,,,,,,,
@@ -2915,3 +2915,4 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,launcher,,,,,,,,,,,,,
 ,,RPG7,RPG7,30,0,80,90,0,2.5,1,220,,,100000
 ,,PSRL,PSRL,40,0,75,95,0,2.5,1,220,,,140000
+

@@ -30,6 +30,10 @@ def update_csv(changes, original, header_line=1):
                 if c_headers[j] in o_headers:
                     o_idx = o_headers.index(c_headers[j])
                     lines[i][o_idx] = changes_row[j]
+            del data[name]
+
+    for name in data:
+        print(f"Warning: Name '{name}' from changes file not found in original file.")
 
     with open(original, "w", newline="", encoding="utf-8-sig") as f:
         writer = csv.writer(f)

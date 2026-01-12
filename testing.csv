@@ -1,4 +1,4 @@
-﻿0.24.4,Mon Jan 05 20:51:47 2026,,,,,,,,,,,,,
+﻿0.25.0,Mon Jan 12 20:51:47 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -21,9 +21,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 18,,corvus_mounts_comm_34mm_mount_body,"Badger Ordnance C.O.M.M. 34mm 1.54"" Height",-0.5,0.07,,,,,,,,,1000
 19,,alistair_ar_prb_mount,Burris AR PRB Mount,0,0.06,,,,,,,,,400
 20,,alistair_ar_pepr_30mm_mount,Burris AR-P.E.P.R.™,-1,0.11,,,,,,,,,800
-21,,adron_kobra_ekp_8_sight,Axion Kobra EKP-8,-1,0.16,,,,,,,,,700
-,,axion_kobra_ekp_8_18_mount,Axion Kobra EKP-8-18 Picatinny,0,0.03,,,,,,,,,400
-,,adron_kobra_ekp_8_sunshade,Axion Kobra EKP-8,1,0.02,,,,,,,,,50
+21,,adron_kobra_ekp_8_sight,Adron Kobra EKP-8,-1,0.16,,,,,,,,,700
+,,adron_kobra_ekp_8_18_mount,Adron Kobra EKP-8-18 Picatinny,0,0.03,,,,,,,,,400
+,,adron_kobra_ekp_8_sunshade,Adron Kobra EKP-8,1,0.02,,,,,,,,,50
 22,,hart_ca2r,Hart CA2R,0,0.07,,,,,,,,,400
 23,,hart_m4a1_carry_handle,Hart M4A1 Carry Handle,3,0.14,,,,,,,,,0
 24,,hera_arms_cqr_gen1_foregrip,CQR FG,6,0.23,-1,-3,,,,,,,1000
@@ -73,7 +73,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 52,,pac_vpg,KAC VPG,2,0.09,-6,-3,,,,,,,700
 53,,khf_34mm_iea,KHF I-E-A 34mm,-1,0.11,,,,,,,,,500
 54,,l3harris_atpial_an_peq_15,L3Harris ATPIAL AN/PEQ-15,-1,0.06,,,,,,,,,1200
-55,,l3harris_mipim_an_peq_16b,L3Harris MIPIM AN/PEQ-16B,-1,0.07,,,,,,,,,2000
+55,,l3harrison_mipim_an_peq_16b,L3Harrison MIPIM AN/PEQ-16B,-1,0.07,,,,,,,,,2000
 56,,leroux_qd_lt_101,LaRue QD LT-101,-0.5,0.04,,,,,,,,,1000
 57,,las_tac_2,LAS/TAC 2,-0.5,0.05,,,,,,,,,750
 58,,strauss_deltapoint_pro_ar,Leupold DeltaPoint PRO AR,-1,0.07,,,,,,,,,300
@@ -504,8 +504,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 244,,suppressors_inc_qd_asr_mount,SilencerCo QD ASR Mount,0,0.03,,,,,,,,,200
 ,asr_suppressors,,,,,,,,,,,,,
 245,,suppressors_inc_omega_300_suppressor,SilencerCo OMEGA 300,-6,0.18,-12,-12,,-0.15,0.04,150,,,1000
-,hensoldt_zf_6x42_scope_eye_cup,,,,,,,,,,,,,
-246,,hetzel_zf_6x42_eye_cup,Hensoldt ZF 6x42 Eye Cup,4.5,0.05,0,0,,,,,,,0
+,hetzel_zf_6x42_scope_eye_cup,,,,,,,,,,,,,
+246,,hetzel_zf_6x42_eye_cup,Hetzel ZF 6x42 Eye Cup,4.5,0.05,0,0,,,,,,,0
 ,dual_ring_30mm_sight_mount,,,,,,,,,,,,,
 247,,holotec_vudu_1_6x24,EOTech Vudu 1-6x24,-5,0.27,,-2,,,,,,,4000
 ,dual_ring_34mm_sight_mount,,,,,,,,,,,,,
@@ -623,7 +623,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,taclite_mrac_picatinny_rail_mounting_plates,MODTAC M-RAC Picatinny Rail Mounting Plates,-1,0.04,,,,,,,,,400
 ,ar15_buffer,,,,,,,,,,,,,
 293,,sb_tactical_vector_brace,SB Tactical Vector Brace,18,0.28,-4,-4,,,,,,,500
-294,,starsurp_apex_m4_socom_gen4_stock,Doublestar ACE M4 SOCOM,14,0.32,-9,-9,,,,,,,1000
+294,,starsurp_starsurp_apex_m4_socom_gen4_stock,Starsurp ACE M4 SOCOM,14,0.32,-9,-9,,,,,,,1000
 ,,kf_416_enhanced_buffer_tube,KF Enhanced Buffer Tube,-1,0.15,,-3,,-0.1,,,,,400
 296,,si_ar_are_t7_buffer_tube,Strike Industries Advanced Receiver Extension T7,-1,0.11,-1,-1,,0,,,,,600
 297,,hart_buffer_tube,Hart,-2,0.15,-2,-1,,-0.1,,,,,0
@@ -1425,7 +1425,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 694,,veles_rk3_ak_pistol_grip,RK-3,7,0.11,-5,-3,,,,,,,1000
 695,,ak12_gen1_pistol_grip,AK-12 Gen 1,5,0.1,-6,-4,,,,,,,800
 696,,kazarov_ak74_bakelite_6p4_sb8v,Kazarov AK-74 Bakelite 6P4 Sb.8v,4,0.09,-4,-5,,,,,,,0
-697,,ss_apex_ak_ar15_adapter,DoubleStar ACE AK AR-15 Grip adapter,-1,0.03,,,,,,,,,1500
+697,,ss_apex_ak_ar15_adapter,Starsurp ACE AK AR-15 Grip adapter,-1,0.03,,,,,,,,,1500
 698,,kazarov_ak74_polymer_6p1_sb8,Izhmash AK-74 Polymer 6P1 Sb.8,4,0.07,-4,-5,,,,,,,300
 699,,mg47,KGB MG-47,5,0.05,-4,-4,,,,,,,750
 700,,kazarov_pp-19-01_vityaz_pistol_grip,Izhmash PP-19-01 Vityaz Pistol Grip,6,0.09,-4,-5,,,,,,,300
@@ -2044,8 +2044,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,hk_psg1_trigger,HK PSG-1 Trigger,0,0.05,0,1,,-0.05,,,,,500
 ,hk_psg_trigger_shoe,,,,,,,,,,,,,
 ,,hk_psg1_trigger_shoe,HK PSG-1 Trigger Shoe,1,0.03,,,,,,,,,0
-,hk_psg1_scope,,,,,,,,,,,,,
-979,,hetzel_zf_6x42_psg1_scope,Hensoldt ZF 6x42 PSG-1 Scope,-5,0.34,,-4,,,,,,,4000
+,psg1_scope,,,,,,,,,,,,,
+979,,hetzel_zf_6x42_psg1_scope,Hetzel ZF 6x42 PSG-1 Scope,-5,0.34,,-4,,,,,,,4000
 ,aug_para_9x19_gasblock,,,,,,,,,,,,,
 980,,steyr_aug_para_9x19_gasblock,Steyr AUG Para 9x19,0,0.1,,,,,,,,,0
 981,,steyr_aug_z_9x19_gasblock,Steyr AUG Z Shortened 9x19,0,0.06,,,,,,,,,600
@@ -2225,7 +2225,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,5.56x45_muzzle_device,,,,,,,,,,,,,
 1057,,tb_mount_223_mb,Thunder Beast 223CB,0,0.08,-14,-12,,0.1,0,0,,,400
 1058,,troy_claymore556,TROY Claymore 5.56x45,2,0.1,-10,-15,,0.05,0,0,,,500
-1059,,gemtech_adapter,Gemtech One,0,0.06,-7,-8,,0.05,0.02,20,,,300
+1059,,onyx_adapter,Onyx One,0,0.06,-7,-8,,0.05,0.02,20,,,300
 1060,,adw_adapter,Daniel Defence Wave MB,0,0.08,-16,-10,,0.1,0,0,,,500
 1061,,strelets_st_6012,Bulletec ST-6012 5.56x45,-1,0.09,-18,-10,,0.1,0,0,,,400
 1062,,kaleva_corvette_556,Nordic Corvette 5.56x45,0,0.08,-15,-11,,0.05,0,0,,,400
@@ -2294,10 +2294,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,7.62x51nato_muzzle_device,,,,,,,,,,,,,
 1092,,ak308_7.62x51_muzzle_brake,Kalashnikov Concern AK-308,-1,0.06,-11,-14,,0.05,0,50,,,0
 1093,,tiger_rock_ar10_7.62x51_barrett_style_muzzle_brake_with_jam_nut,Tiger Rock AR-10 .308 Barrett Style Muzzle Brake with Jam Nut,-6,0.16,10,-35,,0.15,-0.01,-20,,,1500
-1094,,dsa_3prong_trident_7.62x51_flash_hider,DSA 3-Prong Trident 7.62x51,1,0.04,-10,-12,,0,0,0,,,0
+1094,,rsa_3prong_trident_7.62x51_flash_hider,RSA 3-Prong Trident 7.62x51,1,0.04,-10,-12,,0,0,0,,,0
 1095,,fn_fal_7.62x51_belgian_flash_hider,FN FAL Belgian Style 7.62x51,0,0.06,-13,-11,,0,0,25,,,500
 1096,,fn_fal_austrian_7.62x51_stg58_flash_hider,FN FAL Austrian STG58 7.62x51,1,0.09,-10,-14,,0,0,50,,,500
-,,dsa_warz_series_7.62x51_flash_hider,DSA WarZ Series 7.62x51,2,0.03,-9,-11,,0,0,0,,,600
+,,rsa_warz_series_7.62x51_flash_hider,RSA WarZ Series 7.62x51,2,0.03,-9,-11,,0,0,0,,,600
 1097,,sig_srd762ti_suppressor,Sig SRD762Ti,-6,0.26,-10,-12,,-0.12,0.05,200,,,2000
 1098,,spiderweb_bpr_suppressor_system_bpr_1425,OSS BPR Suppressor System BPR-1425,-4,0.16,-9,-9,,-0.1,0.03,150,,,2500
 1099,,aft17_7.62x51_3prong_european_flash_hider,FN Scar Mk17 .308 3-Prong European,1,0.06,-11,-12,,0,0,25,,,0
@@ -2411,15 +2411,15 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1150,,hart_rear_ironsight_600m,Hart 600m,0,0.005,,,,,,,,,0
 ,ddw,,,,,,,,,,,,,
 1151,,adw_qd,Daniel Defence Wave QD,-6,0.28,-17,-19,,-0.1,0.16,90,,,1200
-,doublestar_ace_recoil_pad,,,,,,,,,,,,,
-1152,,starsurp_apex_0.5_recoil_pad,Doublestar ACE M4 SOCOM Buttpad,2,0.03,-1,-1,,,,,,,0
+,starsurp_ace_recoil_pad,,,,,,,,,,,,,
+1152,,starsurp_starsurp_apex_0.5_recoil_pad,Starsurp ACE M4 SOCOM Buttpad,2,0.03,-1,-1,,,,,,,0
 ,dsa_sa58_mag_plate,,,,,,,,,,,,,
 1153,,dsa_sa58_enhanced_bumper_magazine_bottom_plate,DSA FAL SA-58 Enhanced Bumper Magazine,1,0.05,,,,,,,,,500
 1154,,dsa_sa58_mag_bottom_plate,DSA FAL SA-58 Magazine,0,0.02,,,,,,,,,0
 ,fn_fal_halbek,,,,,,,,,,,,,
 1155,,rhodesian_halbek_muzzle_device,Rhodesian Reproduction Halbek,-3,0.04,14,-22,,0.1,-0.01,0,,,1200
-,gemtech_adapter,,,,,,,,,,,,,
-1156,,gemtech_1_762,Gemtech One 7.62,-5,0.27,-19,-13,,-0.15,0.12,90,,,1400
+,onyx_adapter,,,,,,,,,,,,,
+1156,,onyx_1_762,Onyx One 7.62,-5,0.27,-19,-13,,-0.15,0.12,90,,,1400
 ,hk_mag_plate,,,,,,,,,,,,,
 1157,,hk_mag_plate,HK Mag Bottom Plate,0,0.02,,,,,,,,,0
 ,l7awm_bottom_plate,,,,,,,,,,,,,
@@ -2487,7 +2487,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1180,,pu_3.5x_scope,PU 3.5x,-3.5,0.14,,,,,,,,,750
 1181,,nomz_pilad_p3.5x20c_scope,VOMZ Pilad P3.5x20 C,-3,0.16,,,,,,,,,800
 ,z24_scope,,,,,,,,,,,,,
-1182,,hensoldt_z24_fero_4x24,Hensoldt Z24 Fero 4x24mm,-3,0.16,,,,,,,,,750
+1182,,hetzel_z24_fero_4x24,Hetzel Z24 Fero 4x24mm,-3,0.16,,,,,,,,,750
 ,romeo3_mount,,,,,,,,,,,,,
 1183,,sig_sauer_romeo3,Sig Sauer Romeo3 Sight,-2,0.05,,,,,,,,,900
 ,romeo4t_cap,,,,,,,,,,,,,
@@ -2532,7 +2532,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,unity_offset_base_adapter,,,,,,,,,,,,,
 1203,,unity_offset_optic_rmr_adapter_plate,Unity Offset Optic RMR Adapter Plate,-0.5,0.03,,,,,,,,,200
 ,usgi_a2_extension,,,,,,,,,,,,,
-1204,,gemtech_gmt_halo,Gemtech GMT Halo,-5,0.22,-15,-16,,-0.2,0.14,100,,,1300
+1204,,onyx_gmt_halo,Onyx GMT Halo,-5,0.22,-15,-16,,-0.2,0.14,100,,,1300
 ,vism_sight,,,,,,,,,,,,,
 1205,,vism_pro_rear_200m,NcStar VISM Pro Rear 200m,1,0.01,,,,,,,,,0
 1206,,vism_pro_rear_600m,NcStar VISM Pro Rear 600m,3,0.01,,,,,,,,,0

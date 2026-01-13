@@ -1,4 +1,4 @@
-﻿0.25.0,Mon Jan 12 11:51:47 2026,,,,,,,,,,,,,
+﻿0.25.0,Mon Jan 12 12:51:47 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -818,7 +818,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 390,,aft_front_sight_folded,AFT Standard Folded,1,0.01,,,,,,,,,0
 391,,aft_front_sight,AFT Standard,1,0.01,,,,,,,,,0
 ,fn_scar_bolt_release,,,,,,,,,,,,,
-392,,fn_scar_bolt_release,FN SCAR-H Standard,0,0,,,,,,,,,0
+392,,aft_bolt_release,AFT Standard,0,0,,,,,,,,,0
 393,,pmm_scar_battery_control_bolt_release,PMM SCAR Battery Control,2,0.06,,,,,,,,,500
 ,fn_scar_trigger,,,,,,,,,,,,,
 394,,aft_trigger,AFT Standard,0,0.03,,,,,,,,,0

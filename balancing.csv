@@ -1,4 +1,4 @@
-﻿0.25.0,Thu Jan 15 14:45:13 2026,,,,,,,,,,,,,
+﻿0.25.0,Thu Jan 15 15:12:56 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -2108,10 +2108,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,arid_concepts_aug_mag_release_std_paddle,Arid Concepts Standard Paddle,0.5,0.01,,,,,,,,,0
 ,,arid_concepts_aug_mag_release_large_paddle,Arid Concepts Large Paddle,1,0.02,,,,,,,,,100
 ,aug_a3_stock,,,,,,,,,,,,,
-1012,,steyr_aug_a3_para_9x19_stock,Steyr AUG Para 9x19,40,0.34,-18,-20,,0.35,,-1245,,,2000
-1013,,fbt_aug_carbon_fiber_stock,Fine Ballistic Tools AUG Carbon Fiber Stock,22,0.39,-6,-5,,,,,,,4000
-1014,,steyr_aug_a3_nato_stock,AUG A3 NATO,16,0.3,-5,-7,,,,,,,1000
-1015,,steyr_aug_a3_austrian_stock,AUG A3 Austrian,17,0.3,-7,-6,,,,,,,0
+1012,,steyr_aug_a3_para_9x19_stock,Steyr AUG Para 9x19,40,0.34,-21,-28,,0.35,,-1245,,,2000
+1013,,fbt_aug_carbon_fiber_stock,Fine Ballistic Tools AUG Carbon Fiber Stock,22,0.39,-6,-6,,,,,,,4000
+1014,,steyr_aug_a3_nato_stock,AUG A3 NATO,16,0.3,-5,-8,,,,,,,1000
+1015,,steyr_aug_a3_austrian_stock,AUG A3 Austrian,17,0.3,-7,-7,,,,,,,0
 ,talon_aug_grip_wrap,,,,,,,,,,,,,
 ,,talon_aug_pistol_grip_wrap,TALON AUG Pistol Grip Wrap,1,0.03,,,,,,,,,500
 ,,talon_aug_foregrip_wrap,TALON AUG Foregrip Wrap,1,0.02,,,,,,,,,500
@@ -2884,7 +2884,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,P320,Sig Sauer P320,70,0,20,30,0,1,1,1000,,,25000
 ,rifle,,,,,,,,,,,,,
 1330,,KF416,KF416,25,0,60,80,0,0.55,1,2300,,,30000
-1331,,AUG_A3,Steyr AUG A3,40,0,55,60,0,0.5,1,2300,,,42000
+1331,,AUG_A3,Steyr AUG A3,40,0,55,65,0,0.5,1,2300,,,42000
 1332,,AK12,Kalashnikov Concern AK-12,30,0.6,50,55,0,0.3,1,2300,,,25000
 1333,,AK308,Kalashnikov Concern AK-308,30,0.75,80,100,0,0.85,1,1600,,,65000
 1334,,M4A1,M4A1,15,0,65,85,0,0.6,1,2300,,,0

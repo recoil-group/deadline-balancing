@@ -1,4 +1,4 @@
-﻿0.25.0,Thu Jan 15 00:16:39 2026,,,,,,,,,,,,,
+﻿0.25.0,Thu Jan 15 14:23:28 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -639,9 +639,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 305,,hart_a2_buffer,Hart A2,-2,0.15,-1,-1,,-0.05,,,,,300
 ,,ews_bufferless_system_ar15_castlenut,EWS Bufferless System AR15 Castlenut,3,0.08,7,10,,1,,,,,250
 ,scr_stocks,,,,,,,,,,,,,
-,,strikon_scr_wooden_rifle_stock,Fightlite SCR Wooden Rifle Stock,13,0.25,-11,-16,,,,,,,1000
-,,strikon_scr_high_impact_polymer_stock,Fightlite SCR High Impact Polymer Stock,15,0.2,-8,-10,,,,,,,1100
-,,strikon_scr_rubber_buttpad,Fightlite SCR Rubber Buttpad,2,0.04,-1,-2,,,,,,,0
+,,strikon_scr_wooden_rifle_stock,Fightlite SCR Wooden Rifle Stock,19,0.27,-12,-15,,,,,,,1000
+,,strikon_scr_high_impact_polymer_stock,Fightlite SCR High Impact Polymer Stock,16,0.19,-10,-13,,,,,,,1100
+,,strikon_scr_rubber_buttpad,Fightlite SCR Rubber Buttpad,2,0.04,,,,,,,,,0
 ,ar15_charging_handle,,,,,,,,,,,,,
 306,,combat_arms_rack_charging_handle,Battle arms rack,4.5,0.07,,,,,,,,,600
 307,,bravo_comp_gunfighter_charging_handle,Bravo Company GUNFIGHTER,2.5,0.02,,,,,,,,,600
@@ -883,7 +883,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 428,,aft_stock_connector,FN SCAR,0,0.07,0,0,,,,,,,0
 429,,aft_ssr_stock_assembly,AFT SCAR SSR,18,0.51,-3,-4,,-0.05,,,,,600
 430,,dynamic_development_group_sas_acr_stock_scar_adapter,Kinetic Development Group SAS Adaptive ACR Stock Connector,-1,0.07,0,0,,,,,,,300
-,,mesa_tactical_faro_scar_buffer_tube_adapter,Mesa Tactical Faro Scar Buffer Tube Adapter,-5,0.08,2,2,,0.1,,,,,450
+,,mesa_tactical_faro_scar_buffer_tube_adapter,Mesa Tactical Faro Scar Buffer Tube Adapter,-5,0.14,0,0,,,,,,,450
 ,,aft_sc_stock_adapter,FN Scar SC Stock Adaptor,1,0.08,0,0,,,,,,,1500
 ,scar_sc_stock,,,,,,,,,,,,,
 ,,aft_sc_stock_adjustment_lever,FN Scar SC Stock Adjustment Lever,2,0.02,,,,,,,,,
@@ -1126,7 +1126,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 579,,hk_g3_10r_magazine,HK G3/MSG-90 10R,7,0.33,,,10,,,,,,500
 ,r870_agr,,,,,,,,,,,,,
 580,,agr_870_protection_cap,AGR 870,16,0.02,8,8,,,,,,,100
-581,,agr_870_buffer_tube,AGR-870,-1,0.1,-2,-2,,,,,,,500
+581,,agr_870_buffer_tube,AGR-870,0,0.1,0,0,,,,,,,500
 ,r870_barrel,,,,,,,,,,,,,
 582,,r870_325mm_sawn_off,Sawn Off Smoothbore 325mm,6,0.37,4,4,,0.2,-0.1,-7,0.2,,1200
 583,,r870_325mm_sawn_off_vent_ribs,Sawn Off 325mm Smoothbore With Vent Ribs,6.5,0.41,4,4,,0.2,-0.1,-7,0.2,,1200
@@ -1158,10 +1158,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 601,,r870_shorty_std_bolt,Remington Shortened Serbu,1,0.08,,,,,,,,,0
 ,r870_stock,,,,,,,,,,,,,
 602,,r870_earthquake_raptor_pistol_grip,Shockwave Raptor Rem870,15,0.08,6,6,,,,,,,1000
-603,,r870_sps_polymer_stock,Remington SPS Polymer,14,0.22,-12,-12,,,,,,,750
+603,,r870_sps_polymer_stock,Remington SPS Polymer,18,0.24,-12,-12,,,,,,,750
 604,,r870_mesa_tactical_leo_stock_adapter,Mesa Tactical Rem870 LEO,-2,0.17,2,2,,,,,,,1000
-605,,agr_870_pistol_grip,FAB Defense AGR-870,0,0.11,-3,-3,,,,,,,1000
-606,,magtap_moe_870_sga_polymer_stock,Magpul MOE 870 SGA Polymer,16,0.22,-10,-10,,,,,,,1200
+605,,agr_870_pistol_grip,FAB Defense AGR-870,3,0.1,-3,-4,,,,,,,1000
+606,,magtap_moe_870_sga_polymer_stock,Magpul MOE 870 SGA Polymer,17,0.2,-10,-10,,,,,,,1200
 ,r870_top_mount,,,,,,,,,,,,,
 607,,asm_1_mount,Aimtech ASM-1,-3,0.1,,,,,,,,,1200
 608,,hg_shortrail_ghost_ring_rear_sight,XS Shortrail Ghost Ring,-1,0.06,,,,,,,,,1000

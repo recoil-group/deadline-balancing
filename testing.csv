@@ -1,4 +1,4 @@
-﻿0.25.0,Mon Jan 12 12:51:47 2026,,,,,,,,,,,,,
+﻿0.25.0,Wed Jan 14 23:02:26 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -841,7 +841,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,barreltech_scar20_spiral_406mm_threaded_barrel,"Deadshot FN SCAR 20 Spiral 16"" Threaded",-1,0.79,-1,1,,-0.05,0.01,171,,,1500
 405,,aft_mk_17_406mm_barrel,AFT Mk20 406mm,0,0.81,0,0,,0,0,70,,,0
 406,,aft_mk_17_330mm_barrel,AFT Mk20 330mm,6,0.69,3,4,,0.1,-0.04,-57,,,1200
-,,hi_dog_hdd_tactical_scarh_267mm_7.62x51_barrel,Hi-desertdog HDD Tactical Scar H 267mm Barrel,12,0.6,7,7,,0.2,-0.08,-187,,0.05,1500
+,,hi_dog_hdd_tactical_scarh_267mm_7.62x51_barrel,Hi-desertdog HDD Tactical Scar H 267mm Barrel,12,0.6,7,7,,0.2,-0.07,-187,,0.05,1500
 ,fn_scar_h_bolt,,,,,,,,,,,,,
 407,,aft_mk_17_bolt_carrier,FN SCAR-H Bolt,0,0.2,,,,,,,,,0
 ,,monarch_ballistics_buffered_scar_bolt_carrier,Imperial Arms Buffered Scar BCG,-1,0.22,-2,-2,,,,,,,500
@@ -2379,9 +2379,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1132,,rsa_sa58_polymer_humpback_stock,DSA Humpback Polymer Fixed,10,0.3,-10,-10,,,,,,,0
 ,,rsa_sa58_pistol_qd_sling_endplate,DSA SA-58 Pistol QD Sling,4,0.05,8,8,,0.5,,,,,1000
 ,sa58_barrel,,,,,,,,,,,,,
-,,rsa_sa58_210mm_premium_pistol_barrel,"DSA SA-58 8.25"" Premium Pistol",13,0.57,9,9,,0.25,-0.09,-158,,,1000
-1133,,rsa_sa58_305mm_barrel,"DSA SA-58 12""",9,0.75,6,6,,0.15,-0.06,-131,,,750
-1134,,rsa_sa58_330mm_barrel,"DSA SA-58 13""",6,0.79,4,4,,0.1,-0.04,-81,,,500
+,,rsa_sa58_210mm_premium_pistol_barrel,"RSA SA-58 8.25"""" Premium Pistol",16,0.49,9,9,,0.25,-0.08,-158,,,1000
+1133,,rsa_sa58_305mm_barrel,"RSA SA-58 12""",11,0.64,6,6,,0.15,-0.06,-131,,,750
+1134,,rsa_sa58_330mm_barrel,"RSA SA-58 13""",7,0.72,4,4,,0.1,-0.04,-81,,,500
 1135,,rsa_sa58_406mm_barrel,"DSA SA-58 16""",0,0.96,0,0,,0,0,71,,,0
 1136,,rsa_sa58_457mm_barrel,"DSA SA-58 18""",-4,1.03,-2,-2,,-0.1,0.03,143,,,750
 1137,,rsa_sa58_533mm_barrel,"DSA SA-58 21""",-9,1.15,-4,-4,,-0.25,0.08,238,,,1000

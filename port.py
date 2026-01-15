@@ -23,6 +23,8 @@ def update_csv(changes, original, header_line=1):
     o_name_idx = o_headers.index("name")
 
     for i in range(2, len(lines)):
+        if len(lines[i]) <= o_name_idx:
+            continue
         name = lines[i][o_name_idx]
         if len(name) > 0 and name in data:
             changes_row = data[name]

@@ -1,4 +1,4 @@
-﻿0.25.0,Wed Jan 14 23:50:01 2026,,,,,,,,,,,,,
+﻿0.25.0,Thu Jan 15 00:06:39 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1084,7 +1084,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,pp19_bottom_plate,,,,,,,,,,,,,
 550,,kazarov_pp-19-01_mag_bottom_plate,Izhmash PP-19-01 Bottom Plate,0,0.02,,,,,,,,,0
 ,magazine_45acp_ump45,,,,,,,,,,,,,
-551,,hk_ump45_45acp_25r_mag,HK UMP45 .45 ACP 25R,-6,0.43,,,25,,,,,,0
+551,,hk_ump45_45acp_25r_mag,HK UMP45 .45 ACP 25R,0,0.43,,,25,,,,,,0
 ,magazine_5.8x42mm_qbz95,,,,,,,,,,,,,
 552,,magazine_5.8x42mm_qbz95,Norinco QBZ-95 5.8x42mm 30R,,0.4,,,30,,,,,,500
 ,magazine_9x19_aug_para,,,,,,,,,,,,,
@@ -1802,12 +1802,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 891,,12g_federal_game_load_275_4shot_152x,"12G Federal Game Load 2.75"" 4-Shot (152 Pellets)",5,,,,,,,,0.5,,1000
 892,,12g_foxhill_275_mean_bean_bag,"12G Wolf Hill 2.75"" Mean Bean Bag",10,,-15,-10,,0.4,,-400,,,100
 ,ump_upper_receiver,,,,,,,,,,,,,
-896,,hk_ump45_upper_receiver,HK UMP45 Upper Receiver,0,0.44,,,,,,,,,
-897,,hk_ump9_upper_receiver,HK UMP9 Upper Receiver,6,0.42,-25,-23,,,,200,,0.25,4000
+896,,hk_ump45_upper_receiver,HK UMP45 Upper Receiver,0,0.39,,,,,,,,,
+897,,hk_ump9_upper_receiver,HK UMP9 Upper Receiver,7,0.37,-25,-23,,,,200,,0.25,4000
 ,ump_trigger,,,,,,,,,,,,,
 898,,hk_ump_trigger,HK UMP Trigger,1,0.02,,,,,,,,,0
 ,ump_top_rail,,,,,,,,,,,,,
-899,,hk_ump_top_rail,HK UMP Top Rail,-1,0.07,,,,,,,,,1000
+899,,hk_ump_top_rail,HK UMP Top Rail,-1,0.06,,,,,,,,,1000
 ,ump_stock_block,,,,,,,,,,,,,
 900,,hk_ump_stock_block,HK UMP Stock Block,0,0.08,,,,,,,,,0
 ,ump_stock,,,,,,,,,,,,,
@@ -1822,10 +1822,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ump_mag_release,,,,,,,,,,,,,
 908,,hk_ump_paddle_mag_release,HK UMP Paddle,0,0.02,,,,,,,,,0
 ,ump_lower_receiver,,,,,,,,,,,,,
-909,,hk_ump_01_navy_lower_receiver,HK UMP 0-1 Navy,4,0.33,-2,-2,,,,,,,500
-,,hk_ump_012_navy_lower_receiver,HK UMP 0-1-2 Navy,3,0.35,-2,-2,,,,,,,1000
-,,hk_ump_01d_navy_lower_receiver,HK UMP 0-1-D Navy,0,0.35,,,,,,,,,0
-,,hk_ump_012d_navy_lower_receiver,HK UMP 0-1-2-D Navy,0,0.37,1,,,,,,,,1500
+909,,hk_ump_01_navy_lower_receiver,HK UMP 0-1 Navy,4,0.0.28,-2,-2,,,,,,,500
+,,hk_ump_012_navy_lower_receiver,HK UMP 0-1-2 Navy,3,0.3,-2,-2,,,,,,,1000
+,,hk_ump_01d_navy_lower_receiver,HK UMP 0-1-D Navy,0,0.3,,,,,,,,,0
+,,hk_ump_012d_navy_lower_receiver,HK UMP 0-1-2-D Navy,0,0.32,1,,,,,,,,1500
 ,ump_handstop,,,,,,,,,,,,,
 910,,hk_ump_handstop,HK UMP Handstop,2,0.04,-1,,,,,,,,500
 ,ump_handguard_rail,,,,,,,,,,,,,
@@ -2906,7 +2906,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1347,,MP5,H&K MP5,40,0,45,55,0,1.05,1,1000,,,5000
 1348,,Vector,TDI Kriss Vector Gen II,25,0,60,60,0,1.2,1,700,,,90000
 1349,,MK9,CmmG MK9 T,30,0,55,70,0,1.05,1,1000,,,20000
-1350,,UMP,HK UMP,65,0,80,90,0,1.05,1,700,,,15000
+1350,,UMP,HK UMP,60,0,80,90,0,1.05,1,700,,,15000
 1351,,AK_9,AK 9mm,30,0,50,65,0,0.9,1,1000,,,11000
 ,turret,,,,,,,,,,,,,
 1352,,Turret,Handheld turret,30,3,60,40,200,1.6,1,600,,,100

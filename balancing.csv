@@ -1,4 +1,4 @@
-﻿0.25.0,Thu Jan 15 14:23:28 2026,,,,,,,,,,,,,
+﻿0.25.0,Thu Jan 15 14:45:13 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1854,9 +1854,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,hk_mp5k_handguard,,,,,,,,,,,,,
 921,,hk_mp5k_polymer_handguard,HK MP5 Wide Tropical,15,0.15,-7,-5,,,,,,,1500
 ,ump45_barrel,,,,,,,,,,,,,
-922,,hk_ump45_200mm_flanged_barrel,HK UMP45 200mm .45ACP Flanged,0,0.3,-2,-1,,0,,-15,,,0
-923,,hdts_ump45_200mm_threaded_barrel,HDPS UMP45 200mm .45ACP Threaded,-2,0.31,1,0,,0.08,,-21,,,750
-924,,omega_ump45_200mm_trilug_barrel,OMEGA UMP45 200mm .45ACP Tri-Lug,-1,0.3,0,-2,,0.05,,-18,,,300
+922,,hk_ump45_200mm_flanged_barrel,HK UMP45 200mm .45ACP Flanged,0,0.3,-2,-1,,0,0.06,-15,,,0
+923,,hdts_ump45_200mm_threaded_barrel,HDPS UMP45 200mm .45ACP Threaded,-2,0.31,1,0,,0.08,0.06,-21,,,750
+924,,omega_ump45_200mm_trilug_barrel,OMEGA UMP45 200mm .45ACP Tri-Lug,-1,0.3,0,-2,,0.05,0.06,-18,,,300
 ,kf_416_barrel_sight,,,,,,,,,,,,,
 ,,33mm_open_front_folding_iron_sight,33mm Open Front,1,0.02,,,,,,,,,0
 ,,33mm_open_front_folding_iron_sight_folded,33mm Open Front Folded,0,0.02,,,,,,,,,0

@@ -1,4 +1,4 @@
-﻿0.25.0,Fri Jan 16 15:12:56 2026,,,,,,,,,,,,,
+﻿0.25.0,Fri Jan 23 15:12:56 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1521,7 +1521,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,sanxian_qbz95_lower_receiver,,,,,,,,,,,,,
 749,,sanxian_qbz95_lower_receiver,Norinco QBZ-95 Lower,,0.25,,,,,,,,,0
 ,sanxian_qbz95_rear_aperture,,,,,,,,,,,,,
-750,,sanxian_qbz95_rear_aperture,Norinco QBZ-95 Rear Sight,,0.01,,,,,,,,,
+750,,sanxian_qbz95_rear_aperture,Norinco QBZ-95 Rear Sight,1,0.01,,,,,,,,,
 ,sanxian_qbz95_upper_receiver,,,,,,,,,,,,,
 751,,sanxian_qbz95_upper_receiver,Norinco QBZ-95 Upper,,0.3,,,,,,,,,0
 ,sanxian_qbz95_trigger,,,,,,,,,,,,,
@@ -1541,12 +1541,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 756,,sanxian_qbz95_fire_selector,Norinco QBZ-95,,0.02,,,,,,,,,0
 ,,t97.ca_qbz95_fire_selector,Type 97 Canada QBZ95 Fire Selector,0.5,0.03,,,,,,,,,0
 ,sanxian_qbz95_front_ironsight_post,,,,,,,,,,,,,
-757,,sanxian_qbz95_front_ironsight_post,Norinco QBZ-95 463mm 5.8x42mm,,0.01,,,,,,,,,0
+757,,sanxian_qbz95_front_ironsight_post,Norinco QBZ-95 463mm 5.8x42mm,1,0.01,,,,,,,,,0
 ,sanxian_qbz95_gasblock,,,,,,,,,,,,,
 758,,sanxian_qbz95_gasblock,Norinco QBZ-95,,0.1,,,,,,,,,
 ,sanxian_qbz95_handguard_trigger_housing,,,,,,,,,,,,,
 759,,sanxian_qbz95_handguard_trigger_housing,Norinco QBZ-95 Handguard,,0.3,,,,,,,,,0
-,,t97.ca_qbz95_handguard_trigger_housing,Type 97 Canada QBZ95 Handguard Trigger Housing,3,0.14,-3,-1,,,,,,,3000
+,,t97.ca_qbz95_handguard_trigger_housing,Type 97 Canada QBZ95 Handguard Trigger Housing,3,0.42,-3,-1,,,,,,,3000
 ,sanxian_qbz95_mag_release,,,,,,,,,,,,,
 760,,sanxian_qbz95_mag_release,Norinco QBZ-95,,0.02,,,,,,,,,
 ,sanxian_qbz95_rear_ironsight_base,,,,,,,,,,,,,
@@ -2853,11 +2853,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sig_sauer_m18x_9x19_slide,Sig Sauer M18X 9x19 Slide,4,0.14,-1,0,,,,,,,3000
 ,,sig_sauer_m17x_9x19_slide,Sig Sauer M17X 9x19 Slide,2,0.16,-3,-2,,,,,,,2000
 ,sig_sauer_p320_slide_cover,,,,,,,,,,,,,
-,,sig_sauer_m17_optic_slide_cover,Sig Sauer M17 Optic Slide Cover,0,0.03,,,,,,,,,250
-,,sig_sauer_p320_optic_slide_cover,Sig Sauer P320 Optic Slide Cover,0,0.03,,,,,,,,,0
+,,sig_sauer_m17_optic_slide_cover,Sig Sauer M17 Optic Slide Cover,1,0.03,,,,,,,,,250
+,,sig_sauer_p320_optic_slide_cover,Sig Sauer P320 Optic Slide Cover,1,0.03,,,,,,,,,0
 ,sig_sauer_p320_sight,,,,,,,,,,,,,
-,,sig_sauer_xray3_night_front_sight,Sig Sauer X-RAY3 Night Front Sight,2,0.01,,,,,,,,,0
-,,sig_sauer_xray3_night_rear_sight,Sig Sauer X-RAY3 Night Rear Sight,2,0.01,,,,,,,,,0
+,,sig_sauer_xray3_night_front_sight,Sig Sauer X-RAY3 Night Front Sight,1,0.01,,,,,,,,,0
+,,sig_sauer_xray3_night_rear_sight,Sig Sauer X-RAY3 Night Rear Sight,1,0.01,,,,,,,,,0
 ,,sig_sauer_m17_sigplate_rear_sight,Sig Sauer M17 SigPlate Rear Sight,0,0.02,,,,,,,,,0
 ,sig_sauer_p320_misc_parts,,,,,,,,,,,,,
 ,,sig_sauer_p320_fcu,Sig Sauer P320 FCU,0,0.05,,,,,,,,,0
@@ -2888,7 +2888,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1332,,AK12,Kalashnikov Concern AK-12,30,0.6,50,55,0,0.3,1,2300,,,25000
 1333,,AK308,Kalashnikov Concern AK-308,30,0.75,80,100,0,0.85,1,1600,,,65000
 1334,,M4A1,M4A1,15,0,65,85,0,0.6,1,2300,,,0
-1335,,QBZ95,Norinco QBZ-95,45,0,50,50,0,0.4,0.9,2500,,,25000
+1335,,QBZ95,Norinco QBZ-95,50,0,50,50,0,0.4,0.92,2500,,,25000
 1336,,SA58,DS Arms SA-58,20,0.75,80,100,0,0.75,1,1550,,,20000
 1337,,SCAR47,Handl Defense SCAR-47,40,0,60,60,0,0.2,0.85,1600,,,60000
 1338,,SCARH,FN SCAR Mk17,15,0,75,80,0,0.6,1,1650,,,75000

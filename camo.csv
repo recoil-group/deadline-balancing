@@ -1,4 +1,4 @@
-﻿0.24.0,Wed July 23 20:28:42 2025,,,,,,,
+0.24.0,Wed July 23 20:28:42 2025,,,,,,,
 order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,notes
 1,None,None,#161616,default,always_available,,,
 2,default,Default,#161616,default,always_available,,,
@@ -7,86 +7,86 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 10,exps2_zombie_stopper_2,EXPS2 Zombie Stopper 2,#161616,default,experience_based,0,,exps2 zombie stopper
 32,ranger_wrap,Ranger Wrap,#161616,default,experience_based,0,,t2 ranger wrap
 4,us_marine_default,US Marine Default,#161616,default,experience_based,1000,,"peq15, peq16"
-5,us_marine_tan,US Marine Tan,#D3B58C,default,experience_based,2000,,"peq15, peq16"
-6,us_marine_fde,US Marine FDE,#D3B58C,default,experience_based,3000,,peq15
-7,harris_fde,Harris FDE,#D3B58C,default,experience_based,4000,,peq15
-8,harris_fde_worn,Harris FDE Worn,#D3B58C,default,experience_based,5000,,peq15
+5,us_marine_tan,US Marine Tan,#554b42,default,experience_based,2000,,"peq15, peq16"
+6,us_marine_fde,US Marine FDE,#554b42,default,experience_based,3000,,peq15
+7,harris_fde,Harris FDE,#554b42,default,experience_based,4000,,peq15
+8,harris_fde_worn,Harris FDE Worn,#554b42,default,experience_based,5000,,peq15
 11,ivory_acrylic,Ivory Acrylic,#EEEEEE,default,experience_based,0,,tt33 ivory grip
 12,white_acrylic,White Acrylic,#EEEEEE,default,experience_based,2000,,tt33 ivory grip
 13,black_acrylic,Black Acrylic,#161616,default,experience_based,4000,,tt33 ivory grip
 14,purple,Purple,#AA00EE,default,experience_based,2000,,suregrip ergo
 15,egg_blue,Egg Blue,#3CEDF7,default,experience_based,4000,,suregrip ergo
-16,tan_red,Tan Red,#D3B58C,default,experience_based,1000,,strike viper stock
+16,tan_red,Tan Red,#554b42,default,experience_based,1000,,strike viper stock
 17,black_red,Black Red,#161616,default,experience_based,2000,,strike viper stock
 18,black_blue,Black Blue,#161616,default,experience_based,3000,,strike viper stock
 19,black_nitride,Black Nitride,#161616,default,experience_based,0,,glock sai barrel
 20,tin,Tin,#D3BB55,default,experience_based,5000,,glock sai barrel
 21,rose_gold,Rose Gold,#7F564C,ROBLOX_METAL,experience_based,10000,,glock sai barrel
-22,typhoon,Typhoon,#D3B58C,default,experience_based,5000,,dd parts
-23,forest_green,Forest Green,#70A55B,default,experience_based,5000,,aug stock
+22,typhoon,Typhoon,#554b42,default,experience_based,5000,,dd parts
+23,forest_green,Forest Green,#4a5045,default,experience_based,5000,,aug stock
 24,tigerstripe,Tigerstripe,#3F603D,default,experience_based,10000,,aug
 25,titanium,Titanium,#EEEEEE,ROBLOX_METAL,experience_based,10000,,aug suppressor
 26,safari_streak,Safari Streak,#7F564C,default,experience_based,10000,,"aug suppressor, glock, knife grips"
 27,myriam,Myriam,#161616,default,kills_based,450,,aug stock
-28,lime,Lime,#70A55B,default,experience_based,5000,,glock gen5 mos slide
+28,lime,Lime,#4a5045,default,experience_based,5000,,glock gen5 mos slide
 29,rainbow,Rainbow,#AA00EE,default,experience_based,5000,,aug magwell
 30,banana,Banana,#FFFF00,default,experience_based,5000,,akm pmag
 31,korean,Korean,#AED9C5,default,experience_based,5000,,stanag bottom plate
-33,eotech_tan_1,Holotec Tan 1,#D3B58C,default,experience_based,1000,,eotech
-34,eotech_tan_2,Holotec Tan 2,#D3B58C,default,experience_based,2000,,eotech
-35,eotech_tan_3,Holotec Tan 3,#D3B58C,default,experience_based,3000,,eotech
-36,tamography_tan,Tamography Tan,#D3B58C,default,kills_based,25,,eotech
-37,tamography_olive_green,Tamography Olive Green,#70A55B,default,kills_based,50,,eotech
+33,eotech_tan_1,Holotec Tan 1,#554b42,default,experience_based,1000,,eotech
+34,eotech_tan_2,Holotec Tan 2,#554b42,default,experience_based,2000,,eotech
+35,eotech_tan_3,Holotec Tan 3,#554b42,default,experience_based,3000,,eotech
+36,tamography_tan,Tamography Tan,#554b42,default,kills_based,25,,eotech
+37,tamography_olive_green,Tamography Olive Green,#4a5045,default,kills_based,50,,eotech
 38,tamography_grey,Tamography Grey,#888888,default,kills_based,75,,eotech
 39,tamography_black,Tamography Black,#161616,default,kills_based,100,,eotech
-40,l3_eotech_xps,L3 Holotec XPS,#D3B58C,default,experience_based,4000,,xps
-41,su-231a_peq,SU-231A/PEQ,#D3B58C,default,experience_based,4000,,exps
-42,dd_fde,DD FDE,#D3B58C,default,experience_based,1000,,dd handguard
-43,dd_fde_alt,DD FDE Alt,#D3B58C,default,experience_based,2000,,dd handguard
-44,dd_fde_worn,DD FDE Worn,#D3B58C,default,experience_based,3000,,dd handguard
-45,dd_fde_worn_alt,DD FDE Alt Worn,#D3B58C,default,experience_based,4000,,dd handguard
-46,aeroflake_desert,Aeroflake Desert,#D3B58C,default,experience_based,2000,,aeroknox
+40,l3_eotech_xps,L3 Holotec XPS,#554b42,default,experience_based,4000,,xps
+41,su-231a_peq,SU-231A/PEQ,#554b42,default,experience_based,4000,,exps
+42,dd_fde,DD FDE,#554b42,default,experience_based,1000,,dd handguard
+43,dd_fde_alt,DD FDE Alt,#554b42,default,experience_based,2000,,dd handguard
+44,dd_fde_worn,DD FDE Worn,#554b42,default,experience_based,3000,,dd handguard
+45,dd_fde_worn_alt,DD FDE Alt Worn,#554b42,default,experience_based,4000,,dd handguard
+46,aeroflake_desert,Aeroflake Desert,#554b42,default,experience_based,2000,,aeroknox
 47,aeroflake_forest,Aeroflake Forest,#709954,default,experience_based,4000,,aeroknox
 48,aeroflake_tundra,Aeroflake Tundra,#EEEEEE,default,experience_based,6000,,aeroknox
 49,aeroflake_urban,Aeroflake Urban,#161616,default,experience_based,8000,,aeroknox
 50,radian_brown,Radian Brown,#7F564C,default,experience_based,2000,,radian
 51,radian_od,Radian OD,#3F603D,default,experience_based,4000,,radian
 52,radian_grey,Radian Grey,#888888,default,experience_based,6000,,radian
-53,airtronic_sand,Airtronic Sand,#D3B58C,default,experience_based,2000,,psrl
-54,airtronic_green,Aitronic Green,#70A55B,default,experience_based,4000,,psrl
+53,airtronic_sand,Airtronic Sand,#554b42,default,experience_based,2000,,psrl
+54,airtronic_green,Aitronic Green,#4a5045,default,experience_based,4000,,psrl
 55,old_wood,Old Wood,#7F564C,default,experience_based,2000,,wood
 56,faded_wood,Faded Wood,#7F564C,default,experience_based,4000,,wood
 57,beach_wood,Beach Wood,#7F564C,default,experience_based,6000,,wood
 58,walnut_wood,Walnut Wood,#7F564C,default,experience_based,8000,,wood
 59,ak_wood,AK Wood,#7F564C,default,experience_based,10000,,crazy romanian grip
-60,tan_painted,Tan Painted,#D3B58C,default,experience_based,3000,,wood painted
-61,pac_od_painted,PAC OD Painted,#70A55B,default,experience_based,5000,,wood painted
-62,fde_painted,FDE Painted,#D3B58C,default,experience_based,7000,,wood painted
+60,tan_painted,Tan Painted,#554b42,default,experience_based,3000,,wood painted
+61,pac_od_painted,PAC OD Painted,#4a5045,default,experience_based,5000,,wood painted
+62,fde_painted,FDE Painted,#554b42,default,experience_based,7000,,wood painted
 63,alpine_painted,Alpine Painted,#EEEEEE,default,experience_based,9000,,wood painted
 64,gold_painted,Gold Painted,#CDD6A9,default,experience_based,11000,,wood painted
-65,veles_golden_desert,Veles Golden Desert,#D3B58C,rough_metal,experience_based,5000,,
-66,hf_green_worn,HF Green Worn,#70A55B,default,experience_based,5000,,
-67,hf_green,HF Green,#70A55B,default,experience_based,5000,,
+65,veles_golden_desert,Veles Golden Desert,#554b42,rough_metal,experience_based,5000,,
+66,hf_green_worn,HF Green Worn,#4a5045,default,experience_based,5000,,
+67,hf_green,HF Green,#4a5045,default,experience_based,5000,,
 68,yellow,Yellow,#AF894F,default,experience_based,5000,,
-69,sand_beige,Sand Beige,#D3B58C,default,experience_based,5000,,
-70,ghillie_green,Ghillie Green,#70A55B,default,experience_based,5000,,
-71,diemaco_green,Diemaco Green,#70A55B,default,experience_based,5000,,
-72,pac_worn,PAC Worn,#70A55B,default,experience_based,5000,,
+69,sand_beige,Sand Beige,#554b42,default,experience_based,5000,,
+70,ghillie_green,Ghillie Green,#4a5045,default,experience_based,5000,,
+71,diemaco_green,Diemaco Green,#4a5045,default,experience_based,5000,,
+72,pac_worn,PAC Worn,#4a5045,default,experience_based,5000,,
 73,tungsten_grey,Tungsten Grey,#888888,default,experience_based,5000,,
 74,crocodile,Crocodile,#3F603D,default,experience_based,5000,,
-76,fde_black,FDE Black,#D3B58C,default,experience_based,5000,,
+76,fde_black,FDE Black,#554b42,default,experience_based,5000,,
 77,burnt_bronze_cerakote,Burnt Bronze Cerakote,#7F564C,default,experience_based,5000,,
 78,safari_streak_worn,Safari Streak Worn,#7F564C,default,experience_based,5000,,
-79,veles_desert_worn,Veles Desert Worn,#D3B58C,default,experience_based,5000,,
-80,green,Green,#70A55B,default,experience_based,5000,,
-81,diamondback_rattlecan_fde,Diamondback Rattlecan FDE,#D3B58C,default,experience_based,5000,,
+79,veles_desert_worn,Veles Desert Worn,#554b42,default,experience_based,5000,,
+80,green,Green,#4a5045,default,experience_based,5000,,
+81,diamondback_rattlecan_fde,Diamondback Rattlecan FDE,#554b42,default,experience_based,5000,,
 82,PAC,PAC,#161616,default,experience_based,5000,,
 83,the_sufferer,The Sufferer,#161616,default,experience_based,5000,,
-84,sand_beige_and_black,Sand Beige and Black,#D3B58C,default,experience_based,5000,,
+84,sand_beige_and_black,Sand Beige and Black,#554b42,default,experience_based,5000,,
 85,bs_grey,BS Grey,#888888,default,experience_based,5000,,
 86,fancy_red,Fancy Red,#FF0000,default,experience_based,5000,,
-87,n_p3_coated,NP3 Coated,#D3B58C,default,experience_based,5000,,
-88,surefire_fde,Surefire FDE,#D3B58C,default,experience_based,5000,,
+87,n_p3_coated,NP3 Coated,#554b42,default,experience_based,5000,,
+88,surefire_fde,Surefire FDE,#554b42,default,experience_based,5000,,
 89,korean_camo,Korean Camo,#161616,default,experience_based,5000,,
 90,burnt_bronze,Burnt Bronze,#7F564C,default,experience_based,5000,,
 91,black_np3,Black NP3,#161616,default,experience_based,5000,,
@@ -95,28 +95,28 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 94,bakelite,Bakelite,#7F564C,default,experience_based,5000,,
 95,silver_black,Silver Black,#161616,ROBLOX_METAL,experience_based,5000,,
 96,silver_tan,Silver Tan,#A39B96,default,experience_based,5000,,
-97,ghillie_earth,Ghillie Earth,#D3B58C,default,experience_based,5000,,
+97,ghillie_earth,Ghillie Earth,#554b42,default,experience_based,5000,,
 98,black_and_white,Black and White,#161616,default,experience_based,5000,,
 99,orange_worn,Orange Worn,#FF6D3F,default,experience_based,5000,,
 100,black_anodized,Black Anodized,#161616,ROBLOX_METAL,experience_based,5000,,
 101,clear_anodized,Clear Anodized,#EEEEEE,default,experience_based,5000,,
 102,black,Black,#161616,default,experience_based,500,,non-black defaults (socom rc2)
-103,tan,Tan,#D3B58C,default,experience_based,500,,
-104,pac_od,PAC OD,#70A55B,default,experience_based,1000,,
-104,kac_od,PAC OD,#70A55B,default,experience_based,1000,,
+103,tan,Tan,#554b42,default,experience_based,500,,
+104,pac_od,PAC OD,#4a5045,default,experience_based,1000,,
+104,kac_od,PAC OD,#4a5045,default,experience_based,1000,,
 105,grey,Grey,#888885,default,experience_based,1500,,
 106,fde,FDE,#C9BAA9,default,experience_based,2000,,
 107,magtap_od,Magtap OD,#709954,default,experience_based,2500,,
 107,magpul_od,Magtap OD,#709954,default,experience_based,2500,,
 108,bronze,Bronze,#AF894F,default,experience_based,3000,,
 109,steyr_fde,Steyr FDE,#C9BAA9,default,experience_based,3500,,
-110,steyr_od,Steyr OD,#70A55B,default,experience_based,4000,,
-111,scar_fde,Scar FDE,#D3B58C,default,experience_based,4500,,
-112,diemaco_od,Diemaco OD,#70A55B,default,experience_based,5000,,
-113,ral_8000,RAL 8000,#D3B58C,default,experience_based,5500,,
-114,ral8000,RAL 8000,#D3B58C,default,experience_based,6000,,
-115,veles_desert,Veles Desert,#D3B58C,default,experience_based,6500,,
-115,zenitco_desert,Veles Desert,#D3B58C,default,experience_based,6500,,
+110,steyr_od,Steyr OD,#4a5045,default,experience_based,4000,,
+111,scar_fde,Scar FDE,#554b42,default,experience_based,4500,,
+112,diemaco_od,Diemaco OD,#4a5045,default,experience_based,5000,,
+113,ral_8000,RAL 8000,#554b42,default,experience_based,5500,,
+114,ral8000,RAL 8000,#554b42,default,experience_based,6000,,
+115,veles_desert,Veles Desert,#554b42,default,experience_based,6500,,
+115,zenitco_desert,Veles Desert,#554b42,default,experience_based,6500,,
 116,veles_golden_khaki,Veles Golden Khaki,#AF894F,rough_metal,experience_based,7000,,
 116,zenitco_golden_khaki,Veles Golden Khaki,#AF894F,rough_metal,experience_based,7000,,
 117,plum,Plum,#FF4C4C,default,experience_based,7500,,
@@ -126,14 +126,14 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 121,default_worn,Default Worn,#161616,default,experience_based,9500,,
 122,black_worn,Black Worn,#161616,default,experience_based,9500,,non-black defaults (socom rc2)
 123,very_worn,Very Worn,#161616,default,experience_based,9500,,ak parts
-124,tan_worn,Tan Worn,#D3B58C,default,experience_based,10000,,
-125,pac_od_worn,PAC OD Worn,#70A55B,default,experience_based,10500,,
-125,kac_od_worn,PAC OD Worn,#70A55B,default,experience_based,10500,,
-126,fde_worn,FDE Worn,#D3B58C,default,experience_based,11000,,
+124,tan_worn,Tan Worn,#554b42,default,experience_based,10000,,
+125,pac_od_worn,PAC OD Worn,#4a5045,default,experience_based,10500,,
+125,kac_od_worn,PAC OD Worn,#4a5045,default,experience_based,10500,,
+126,fde_worn,FDE Worn,#554b42,default,experience_based,11000,,
 127,magtap_od_worn,Magtap OD Worn,#709954,default,experience_based,11500,,
-128,steyr_fde_worn,Steyr FDE Worn,#D3B58C,default,experience_based,12000,,
-129,steyr_od_worn,Steyr OD Worn,#70A55B,default,experience_based,12500,,
-130,scar_fde_worn,Scar FDE Worn,#D3B58C,default,experience_based,13000,,
+128,steyr_fde_worn,Steyr FDE Worn,#554b42,default,experience_based,12000,,
+129,steyr_od_worn,Steyr OD Worn,#4a5045,default,experience_based,12500,,
+130,scar_fde_worn,Scar FDE Worn,#554b42,default,experience_based,13000,,
 131,diemaco_od_worn,Diemaco OD Worn,#3F603D,default,experience_based,13500,,
 132,plum_worn,Plum Worn,#3D2B23,default,experience_based,13500,,aug stock?
 133,orange,Orange ,#FF6D3F,default,experience_based,14000,,

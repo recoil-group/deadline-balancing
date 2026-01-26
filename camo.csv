@@ -37,7 +37,7 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 35,eotech_tan_3,Holotec Tan 3,#736a61,default,experience_based,3000,,eotech
 36,tamography_tan,Tamography Tan,#736a61,default,kills_based,25,,eotech
 37,tamography_olive_green,Tamography Olive Green,#4a5045,default,kills_based,50,,eotech
-38,tamography_grey,Tamography Grey,#434341,default,kills_based,75,,eotech
+38,tamography_grey,Tamography Grey,#3a3a39,default,kills_based,75,,eotech
 39,tamography_black,Tamography Black,#161616,default,kills_based,100,,eotech
 40,l3_eotech_xps,L3 Holotec XPS,#736a61,default,experience_based,4000,,xps
 41,su-231a_peq,SU-231A/PEQ,#736a61,default,experience_based,4000,,exps
@@ -51,7 +51,7 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 49,aeroflake_urban,Aeroflake Urban,#161616,default,experience_based,8000,,aeroknox
 50,radian_brown,Radian Brown,#4f4339,default,experience_based,2000,,radian
 51,radian_od,Radian OD,#3F603D,default,experience_based,4000,,radian
-52,radian_grey,Radian Grey,#434341,default,experience_based,6000,,radian
+52,radian_grey,Radian Grey,#3a3a39,default,experience_based,6000,,radian
 53,airtronic_sand,Airtronic Sand,#736a61,default,experience_based,2000,,psrl
 54,airtronic_green,Aitronic Green,#4a5045,default,experience_based,4000,,psrl
 55,old_wood,Old Wood,#4f4339,default,experience_based,2000,,wood
@@ -67,12 +67,12 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 65,veles_golden_desert,Veles Golden Desert,#736a61,rough_metal,experience_based,5000,,
 66,hf_green_worn,HF Green Worn,#4a5045,default,experience_based,5000,,
 67,hf_green,HF Green,#4a5045,default,experience_based,5000,,
-68,yellow,Yellow,#AF894F,default,experience_based,5000,,
+68,yellow,Yellow,#514841,default,experience_based,5000,,
 69,sand_beige,Sand Beige,#736a61,default,experience_based,5000,,
 70,ghillie_green,Ghillie Green,#4a5045,default,experience_based,5000,,
 71,diemaco_green,Diemaco Green,#4a5045,default,experience_based,5000,,
 72,pac_worn,PAC Worn,#4a5045,default,experience_based,5000,,
-73,tungsten_grey,Tungsten Grey,#434341,default,experience_based,5000,,
+73,tungsten_grey,Tungsten Grey,#3a3a39,default,experience_based,5000,,
 74,crocodile,Crocodile,#3F603D,default,experience_based,5000,,
 76,fde_black,FDE Black,#736a61,default,experience_based,5000,,
 77,burnt_bronze_cerakote,Burnt Bronze Cerakote,#4f4339,default,experience_based,5000,,
@@ -83,7 +83,7 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 82,PAC,PAC,#161616,default,experience_based,5000,,
 83,the_sufferer,The Sufferer,#161616,default,experience_based,5000,,
 84,sand_beige_and_black,Sand Beige and Black,#736a61,default,experience_based,5000,,
-85,bs_grey,BS Grey,#434341,default,experience_based,5000,,
+85,bs_grey,BS Grey,#3a3a39,default,experience_based,5000,,
 86,fancy_red,Fancy Red,#FF0000,default,experience_based,5000,,
 87,n_p3_coated,NP3 Coated,#736a61,default,experience_based,5000,,
 88,surefire_fde,Surefire FDE,#736a61,default,experience_based,5000,,
@@ -104,12 +104,12 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 103,tan,Tan,#736a61,default,experience_based,500,,
 104,pac_od,PAC OD,#4a5045,default,experience_based,1000,,
 104,kac_od,PAC OD,#4a5045,default,experience_based,1000,,
-105,grey,Grey,#888885,default,experience_based,1500,,
-106,fde,FDE,#C9BAA9,default,experience_based,2000,,
+105,grey,Grey,#3a3a39,default,experience_based,1500,,
+106,fde,FDE,#7f7066,default,experience_based,2000,,
 107,magtap_od,Magtap OD,#709954,default,experience_based,2500,,
 107,magpul_od,Magtap OD,#709954,default,experience_based,2500,,
-108,bronze,Bronze,#AF894F,default,experience_based,3000,,
-109,steyr_fde,Steyr FDE,#C9BAA9,default,experience_based,3500,,
+108,bronze,Bronze,#514841,default,experience_based,3000,,
+109,steyr_fde,Steyr FDE,#7f7066,default,experience_based,3500,,
 110,steyr_od,Steyr OD,#4a5045,default,experience_based,4000,,
 111,scar_fde,Scar FDE,#736a61,default,experience_based,4500,,
 112,diemaco_od,Diemaco OD,#4a5045,default,experience_based,5000,,
@@ -117,8 +117,8 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 114,ral8000,RAL 8000,#736a61,default,experience_based,6000,,
 115,veles_desert,Veles Desert,#736a61,default,experience_based,6500,,
 115,zenitco_desert,Veles Desert,#736a61,default,experience_based,6500,,
-116,veles_golden_khaki,Veles Golden Khaki,#AF894F,rough_metal,experience_based,7000,,
-116,zenitco_golden_khaki,Veles Golden Khaki,#AF894F,rough_metal,experience_based,7000,,
+116,veles_golden_khaki,Veles Golden Khaki,#514841,rough_metal,experience_based,7000,,
+116,zenitco_golden_khaki,Veles Golden Khaki,#514841,rough_metal,experience_based,7000,,
 117,plum,Plum,#FF4C4C,default,experience_based,7500,,
 118,charcoal_green,Charcoal Green,#A2FFFF,default,experience_based,8000,,
 119,battleship_grey,Battleship Grey,#3C99CC,default,experience_based,8500,,
@@ -160,5 +160,6 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 0,option_6,Option 6,#161616,default,always_available,,,
 0,option_7,Option 7,#161616,default,always_available,,,
 0,option_8,Option 8,#161616,default,always_available,,,
+
 
 

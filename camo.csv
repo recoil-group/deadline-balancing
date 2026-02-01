@@ -117,6 +117,7 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 114,ral8000,RAL 8000,#736a61,default,experience_based,6000,,
 115,veles_desert,Veles Desert,#736a61,default,experience_based,6500,,
 115,zenitco_desert,Veles Desert,#736a61,default,experience_based,6500,,
+115,zenitco_gold,Veles Gold,#736a61,default,experience_based,6500,,
 116,veles_golden_khaki,Veles Golden Khaki,#514841,rough_metal,experience_based,7000,,
 116,zenitco_golden_khaki,Veles Golden Khaki,#514841,rough_metal,experience_based,7000,,
 117,plum,Plum,#FF4C4C,default,experience_based,7500,,
@@ -160,6 +161,7 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 0,option_6,Option 6,#161616,default,always_available,,,
 0,option_7,Option 7,#161616,default,always_available,,,
 0,option_8,Option 8,#161616,default,always_available,,,
+
 
 
 

@@ -1,4 +1,4 @@
-﻿0.25.0,Sun Feb 01 13:29:10 2026,,,,,,,,,,,,,
+﻿0.25.0,Sun Feb 01 14:01:00 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -60,12 +60,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 39,,insight_technology_an_peq_5_cvl,Insight Technology CVL AN/PEQ-5,-1,0.07,,,,,,,,,600
 40,,insight_technology_an_peq_2a_tpial,Insight Technology TPIAL AN/PEQ-2A,-1.5,0.08,,,,,,,,,750
 41,,insight_technology_wmx200_fixed_mount_tactical_illuminator,Insight Technology WMX200 Tactical Illuminator w/ Fixed Non-Rotating Mount,-1,0.06,,,,,,,,,1200
-42,,pac_11rib_railpanel,KAC 11 Rib,1.5,0.06,,,,,,,,,600
-43,,pac_2rib_railpanel,KAC 2 Rib,0.25,0.01,,,,,,,,,100
-44,,pac_4rib_railpanel,KAC 4 Rib,0.5,0.02,,,,,,,,,200
-45,,pac_5rib_railpanel,KAC 5 Rib,0.75,0.03,,,,,,,,,300
-46,,pac_6rib_railpanel,KAC 6 Rib,1,0.04,,,,,,,,,400
-47,,pac_9rib_railpanel,KAC 9 Rib,1.25,0.05,,,,,,,,,500
+42,,pac_11rib_railpanel,KAC 11 Rib,1.75,0.07,,,,,,,,,600
+43,,pac_2rib_railpanel,KAC 2 Rib,0.5,0.02,,,,,,,,,100
+44,,pac_4rib_railpanel,KAC 4 Rib,0.75,0.03,,,,,,,,,200
+45,,pac_5rib_railpanel,KAC 5 Rib,1,0.04,,,,,,,,,300
+46,,pac_6rib_railpanel,KAC 6 Rib,1.25,0.05,,,,,,,,,400
+47,,pac_9rib_railpanel,KAC 9 Rib,1.5,0.06,,,,,,,,,500
 48,,pac_front_sight_base,KAC Front Base,0,0.02,,,,,,,,,200
 49,,pac_micro_front_sight_base,KAC Micro Front Base,0,0.01,,,,,,,,,200
 50,,pac_micro_rear_sight_base,KAC Micro Rear Base,0,0.01,,,,,,,,,200
@@ -83,7 +83,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 62,,magtap_mbus_gen2_base,Magpul MBUS Gen2,0,0.02,,,,,,,,,400
 63,,magtap_rvg_mag412_foregrip,Magpul RVG MAG412 Foregrip,4,0.08,-2,-5,,,,,,,300
 ,,xtm_2_piece,Magpul XTM 2-Piece Panel,1,0.04,,,,,,,,,200
-,,xtm_4_piece,Magpul XTM 4-Piece Panel,2,0.08,,,,,,,,,400
+,,xtm_4_piece,Magpul XTM 4-Piece Panel,1.75,0.07,,,,,,,,,400
 64,,magtap_xtm_enhanced_handstop_1,Magpul XTM Enhanced Handstop Piece,6,0.03,-1,0,,,,,,,50
 65,,magtap_xtm_enhanced_half_panel_1,Magpul XTM Enhanced Modular Half Panel Piece,0.25,0.01,,,,,,,,,50
 66,,magtap_xtm_enhanced_panel_1,Magpul XTM Enhanced Modular Panel Piece,0.5,0.02,,,,,,,,,50
@@ -175,9 +175,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,bcm_gunfighter_mod3_picatinny_foregrip_flipped,BCM Gunfighter Mod 3 Picatinny Foregrip Flipped,5,0.07,-3,-2,,,,,,,300
 ,,bcm_gunfighter_mod3_picatinny_shortened_foregrip,BCM Gunfighter Mod 3 Picatinny Shortened Foregrip,6,0.05,-2,-1,,,,,,,300
 ,,bcm_gunfighter_mod3_picatinny_shortened_foregrip_flipped,BCM Gunfighter Mod 3 Picatinny Shortened Foregrip Flipped,6,0.05,-2,-1,,,,,,,300
-,,axtell_defense_3inch_picatinny_rail_panel,Daniel Defense 3 inch Picatinny Rail Panel,0.75,0.03,,,,,,,,,300
-,,axtell_defense_5inch_picatinny_rail_panel,Daniel Defense 5 inch Picatinny Rail Panel,1.25,0.05,,,,,,,,,500
-,,axtell_defense_7inch_picatinny_rail_panel,Daniel Defense 7 inch Picatinny Rail Panel,1.75,0.07,,,,,,,,,700
+,,axtell_defense_3inch_picatinny_rail_panel,Daniel Defense 3 inch Picatinny Rail Panel,1,0.04,,,,,,,,,300
+,,axtell_defense_5inch_picatinny_rail_panel,Daniel Defense 5 inch Picatinny Rail Panel,1.5,0.06,,,,,,,,,500
+,,axtell_defense_7inch_picatinny_rail_panel,Daniel Defense 7 inch Picatinny Rail Panel,2,0.08,,,,,,,,,700
 ,,axtell_defense_rubber_overmolding_vertical_foregrip,Daniel Defense Soft Touch Rubber Overmolding Vertical Foregrip,4,0.09,-3,-4,,,,,,,500
 ,,bt_qd_nar_acro_22mm_mount,B&T QD NAR ACRO 22m Mount,0,0.03,,,,,,,,,500
 ,,bt_qd_nar_acro_30mm_mount,B&T QD NAR ACRO 30m Mount,-0.5,0.04,,,,,,,,,550

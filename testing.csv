@@ -1,4 +1,4 @@
-﻿0.25.0,Sun Feb 01 14:11:41 2026,,,,,,,,,,,,,
+﻿0.25.0,Sun Feb 01 14:48:34 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1946,7 +1946,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kf_416c_type_1_buttstock,KF416C Type 1,20,0.13,-8,-7,,,,,,,250
 ,,kf_416c_type_2_buttstock,KF416C Type 2,21,0.16,-8,-7,,,,,,,500
 ,hk_stock_extendable_part,,,,,,,,,,,,,
-941,,hk_g3a3_stock_extendable_part,HK G3A3 Stock Extendable Part,13,0.08,-7,-9,,,,,,,0
+941,,hk_g3a3_stock_extendable_part,HK G3A3 Stock Extendable Part,14,0.2,-7,-10,,,,,,,0
 ,hk_g3_button_mag_release,,,,,,,,,,,,,
 942,,hk_g3_button_mag_release,HK G3 Button,0,0.01,,,,,,,,,0
 ,hk_g3_charging_handle,,,,,,,,,,,,,
@@ -1955,7 +1955,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 944,,hk_g3_cocking_support,HK G3 Cocking Support,0,0.02,,,,,,,,,0
 ,hk_g3_endplate,,,,,,,,,,,,,
 945,,hk_g3_endplate,HK G3 Endplate,0,0.08,,,,,,,,,0
-946,,hk_g3a3_stock_endplate,HK G3A3 Stock Endplate,0,0.09,,,,,,,,,0
+946,,hk_g3a3_stock_endplate,HK G3A3 Stock Endplate,0,0.1,,,,,,,,,0
 ,hk_g3_fire_selector,,,,,,,,,,,,,
 947,,hk_g3_fire_selector,HK G3 Fire Selector,0,0.02,,,,,,,,,0
 ,hk_g3_front_sight_assembly,,,,,,,,,,,,,
@@ -1988,16 +1988,16 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 955,,addon_hk_upper_receiver_picatinny_rail,Custom Addon HK Upper Receiver Picatinny,-0.5,0.07,0,0,,,,,,,0
 ,hk_g3_stock,,,,,,,,,,,,,
 956,,hk_g3_std_fixed_plastic_stock,HK G3 Standard Fixed Plastic,9,0.26,-12,-12,,,,,,,0
-,,haga_defense_hk_g3_acr_stock_adapter,Haga Defense HK G3 ACR Stock Adaptor,1,0.09,,-1,,,,,,,1500
-,,ptr_hk_g3_milspec_ar15_buffer_tube_adapter,PTR HK G3 MilSpec AR15 Buffer Tube Adaptor,1,0.08,1,3,,0.1,,,,,1200
+,,haga_defense_hk_g3_acr_stock_adapter,Haga Defense HK G3 ACR Stock Adaptor,1,0.06,-1,-1,,,,,,,1000
+,,ptr_hk_g3_milspec_ar15_buffer_tube_adapter,PTR HK G3 MilSpec AR15 Buffer Tube Adaptor,0,0.08,2,2,,,,,,,1200
 ,,spuhr_g3_r410_stock_assembly_adapter,Spuhr G3 R410 Stock Assembly Adaptor,-2,0.07,0,0,,,,,,,1000
 ,hk_psg1_stock_assembly,,,,,,,,,,,,,
 ,,hk_psg1_stock_buttpad,HK PSG-1 Stock Buttpad,2,0.07,,,,,,,,,0
 ,,hk_psg1_stock_cheek_rest,HK PSG-1 Stock Cheek Rest,4,0.08,,,,,,,,,0
-,,hk_psg1_stock_base,HK Sniper PSG-1 Version 2 Stock Assembly,16,0.26,-4,-6,,,,,,,
+,,hk_psg1_stock_base,HK Sniper PSG-1 Version 2 Stock Assembly,15,0.26,-4,-6,,,,,,,2000
 ,spuhr_stock,,,,,,,,,,,,,
-,,spuhr_g3_r410_stock_assembly_stock,Spuhr G3 R410 Stock,8,0.18,-8,-19,,,,,,,0
-,,spuhr_g3_r410_stock_assembly_cheek_pad,Spuhr G3 R410 Stock Cheek Pad,2,0.03,,,,,,,,,0
+,,spuhr_g3_r410_stock_assembly_stock,Spuhr G3 R410 Stock,8,0.2,-10,-18,,,,,,,0
+,,spuhr_g3_r410_stock_assembly_cheek_pad,Spuhr G3 R410 Stock Cheek Pad,2,0.04,,,,,,,,,0
 ,hk_psg1_plunger,,,,,,,,,,,,,
 957,,hk_psg1_fa_plunger,HK PSG-1 Receiver Bolt FA Plunger,0,0.01,0,0,,,,,,,0
 ,hk_pattern_front_sight,,,,,,,,,,,,,

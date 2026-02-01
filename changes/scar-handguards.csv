@@ -1,22 +1,20 @@
-﻿,,old,,,,,,,,,,,-4,,new,,,,,,,,,,,
-name,pretty_name,ergonomicsold,weightold,horizontal_recoilold,vertical_recoilold,magazine_capacityold,barrel_deviationold,bullet_damageold,bullet_velocityold,buck_barrel_deviationold,fire_rateold,priceold,strength,,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price,strength
-fn_scar_mk20_upper_receiver,FN SCAR Mk20,11,0.85,3,6,,,0.05,50,,,4000,-11.25,,8,0.85,3,6,,,0.05,50,,,4000,-14.25
-,,,,,,,,,,,,,0,,,,,,,,,,,,,0
-fn_scar_mk20_bottom_rail_mount,FN Scar Mk20,-1,0.15,,,,,,,,,400,-4,,4,0.2,,,,,,,,,400,0
-fn_scar_bottom_rail_mount,FN Scar Bottom Rail Mount,-2,0.11,,,,,,,,,0,-4.2,,2.5,0.1,,,,,,,,,0,0.5
-pmm_scar_heavy_duty_mlok_bottom_panel,PMM Scar Heavy Duty MLOK Bottom Panel,-1.5,0.13,,,,,,,,,300,-4.1,,2,0.08,,,,,,,,,300,0.4
-,,,,,,,,,,,,,0,,,,,,,,,,,,,0
-pmm_scar_mlok_xl_rail_extension_mre_xl,PMM SCAR MLOK XL Rail Extension (MRE XL),4,0.16,0,0,,,,,,,900,0.8,,2,0.13,0,-1,,,,,,,900,-1.11022E-16
-madbull_pws_srx_5inch_rail_handguard,"Madbull PWS SRX 5"" ",2,0.19,-1,-1,,,,,,,800,-0.4,,1,0.16,-1,-2,,,,,,,800,-0.2
-laylax_scar_rail_extension,Laylax SCAR Rail Extension,2,0.22,-2,-1,,,,,,,1300,-0.2,,1,0.21,-2,-2,,,,,,,1300,-0.4
-midwest_industries_scar_socom_extended_mlok_handguard,Midwest Industries SCAR SOCOM Extended MLOK,4,0.32,0,-2,,,,,,,1600,-1.2,,4,0.29,-2,-1,,,,,,,1600,0.4
-midwest_industries_scar_quad_rail_handguard,Midwest Industries SCAR Quad Rail Extension,1,0.36,-2,-3,,,,,,,1500,-2.8,,3,0.33,-2,-4,,,,,,,1500,0.4
-kinetic_development_group_scar_mrex_mk2_mlok_2.2inch_handguard,"Kinetic Development Group Scar MREX Mk2 MLOK 2.2"" Handguard",0,0.26,0,-1,,,,,,,1250,-4.6,,4,0.22,-1,0,,,,,,,1250,0.4
-kinetic_development_group_scar_mrex_mk2_mlok_4.25inch_handguard,"Kinetic Development Group Scar MREX Mk2 MLOK 4.25"" Handguard",-1,0.29,-1,-2,,,,,,,1750,-4.8,,3,0.26,-2,-2,,,,,,,1750,0.6
-kinetic_development_group_scar_mrex_mk2_mlok_6.5inch_handguard,"Kinetic Development Group Scar MREX Mk2 MLOK 6.5"" Handguard",-2,0.33,-3,-3,,,,,,,2000,-4.4,,2,0.3,-4,-2,,,,,,,2000,0.4
-kinetic_development_group_scar_mrex_mlok_6.5inch_gen1_handguard,"Kinetic Development Group SCAR MREX MLOK 6.5"" Gen 1",2.5,0.3,-1,-3,,,,,,,1750,-0.9,,3,0.28,-3,-1,,,,,,,1750,0.4
-handl_defense_scar47_mlok_handguard,Handl Defense SCAR47 MLOK,2,0.27,-3,-1,,,,,,,1200,-0.4,,2,0.25,-1,-4,,,,,,,1200,0.2
-,,,,,,,,,,,,,,,,,,,,,,,,,,
-,PMM SCAR MLOK XL Rail Extension (MRE XL),2.5,0.29,0,0,0,0,0,0,0,0,1200,-3.3,,4,0.21,0,-1,0,0,0,0,0,0,1200,0.4
-,"Madbull PWS SRX 5"" ",0.5,0.32,-1,-1,0,0,0,0,0,0,1100,-4.5,,3,0.24,-1,-2,0,0,0,0,0,0,1100,0.2
-,Laylax SCAR Rail Extension,0.5,0.35,-2,-1,0,0,0,0,0,0,1600,-4.3,,3,0.29,-2,-2,0,0,0,0,0,0,1600,0
+﻿,,new,,,,,,,,,,,
+name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,bullet_deviation,bullet_damage,bullet_velocity,buck_bullet_deviation,fire_rate,price,strength
+aft_mk20_bottom_rail_mount,AFT SCAR Mk20,4,0.15,,,,,,,,,400,1
+aft_bottom_rail_mount,AF Tournai,2.5,0.1,,,,,,,,,0,0.5
+pmm_scar_heavy_duty_mlok_bottom_panel,PMM Scar Heavy Duty MLOK Bottom Panel,2,0.08,,,,,,,,,300,0.4
+,,,,,,,,,,,,,0
+pmm_scar_mlok_xl_rail_extension_mre_xl,PMM SCAR MLOK XL Rail Extension (MRE XL),2,0.12,0,-1,,,,,,,900,0.2
+madbull_pws_srx_5inch_rail_handguard,"Madbull PWS SRX 5"" ",1,0.15,-1,-2,,,,,,,800,0
+chillset_scar_rail_extension,Laylax SCAR Rail Extension,1,0.2,-2,-2,,,,,,,1300,-0.2
+northeast_industries_scar_socom_extended_mlok_handguard,Midwest Industries SCAR SOCOM Extended MLOK,4,0.26,-2,-1,,,,,,,1600,1
+northeast_industries_scar_quad_rail_handguard,Midwest Industries SCAR Quad Rail Extension,3,0.3,-2,-4,,,,,,,1500,1
+dynamic_development_group_scar_mrex_mk2_mlok_2.2inch_handguard,"Kinetic Development Group Scar MREX Mk2 MLOK 2.2"" Handguard",4,0.19,-1,0,,,,,,,1250,1
+dynamic_development_group_scar_mrex_mk2_mlok_4.25inch_handguard,"Kinetic Development Group Scar MREX Mk2 MLOK 4.25"" Handguard",3,0.23,-2,-2,,,,,,,1750,1.2
+dynamic_development_group_scar_mrex_mk2_mlok_6.5inch_handguard,"Kinetic Development Group Scar MREX Mk2 MLOK 6.5"" Handguard",2,0.27,-4,-2,,,,,,,2000,1
+dynamic_development_group_scar_mrex_mlok_6.5inch_gen1_handguard,"Kinetic Development Group SCAR MREX MLOK 6.5"" Gen 1",3,0.25,-3,-1,,,,,,,1750,1
+hilt_defense_scar47_mlok_handguard,Handl Defense SCAR47 MLOK,2,0.22,-1,-4,,,,,,,1200,0.8
+,,,,,,,,,,,,,
+,PMM SCAR MLOK XL Rail Extension (MRE XL),4,0.2,0,-1,0,0,0,0,0,0,1200,0.6
+,"Madbull PWS SRX 5"" ",3,0.23,-1,-2,0,0,0,0,0,0,1100,0.4
+,Laylax SCAR Rail Extension,3,0.28,-2,-2,0,0,0,0,0,0,1600,0.2

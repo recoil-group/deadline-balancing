@@ -60,7 +60,7 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 58,walnut_wood,Walnut Wood,#4f4339,default,experience_based,8000,,wood
 59,ak_wood,AK Wood,#4f4339,default,experience_based,10000,,crazy romanian grip
 60,tan_painted,Tan Painted,#736a61,default,experience_based,3000,,wood painted
-61,pac_od_painted,PAC OD Painted,#4a5045,default,experience_based,5000,,wood painted
+61,kac_od_painted,PAC OD Painted,#4a5045,default,experience_based,5000,,wood painted
 62,fde_painted,FDE Painted,#736a61,default,experience_based,7000,,wood painted
 63,alpine_painted,Alpine Painted,#EEEEEE,default,experience_based,9000,,wood painted
 64,gold_painted,Gold Painted,#CDD6A9,default,experience_based,11000,,wood painted
@@ -162,6 +162,7 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 0,option_6,Option 6,#161616,default,always_available,,,
 0,option_7,Option 7,#161616,default,always_available,,,
 0,option_8,Option 8,#161616,default,always_available,,,
+
 
 
 

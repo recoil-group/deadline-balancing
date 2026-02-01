@@ -1567,7 +1567,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 768,,tt33_std_frame,TT33 Standard,0,0.3,,,,,,,,,0
 769,,tt33_std_frame_with_lanyard_loop,TT33 w/ Lanyard Loop,1,0.34,,,,,,,,,500
 ,tt33_grip,,,,,,,,,,,,,
-770,,ksd_ivory_lanyard_grip,KSD Ivory Lanyard,4,0.06,0,1,,,,,,,2000
+770,,add_ivory_lanyard_grip,KSD Ivory Lanyard,4,0.06,0,1,,,,,,,2000
 771,,razor_arms_g02,Razor Arms G02,6,0.08,1,2,,,,,,,1000
 772,,tt33_std_grip,TT33 Std.,3,0.06,,,,,,,,,0
 ,tt33_hammer,,,,,,,,,,,,,
@@ -2361,6 +2361,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1124,,protac_ergonomic_ag_fal_pistol_grip,DSA SA-58 Standard,2,0.1,0,0,,,,,,,1500
 ,sa58_handguard,,,,,,,,,,,,,
 1125,,rsa_sa58_belgian_style_full_length_handguard,DSA SA-58 Belgian Style,8,0.3,-16,-16,,0.03,,,,,0
+1125,,rsa_sa58_wood_full_length_handguard,TODO,9,0.5,-17,-17,,0.03,,,,,1000
 ,,rsa_sa58_belgian_style_mid_length_handguard,DSA SA-58 Belgian Style Mid Length Handguard,10,0.21,-13,-13,,0.03,,,,,750
 1126,,target_sports_universal_11.3inch_mlok_hg_lower,"Aim Sports Universal MLOK 11.3""",8,0.15,-11,-11,,,,,,,1500
 1127,,rsa_metric_short_quadrail_handguard,DSA Metric Short Quad Rail,9,0.22,-8,-12,,,,,,,1000
@@ -2920,5 +2921,6 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,launcher,,,,,,,,,,,,,
 ,,RPG7,RPG7,30,0,80,90,0,2.5,1,220,,,100000
 ,,PSRL,PSRL,40,0,75,95,0,2.5,1,220,,,140000
+
 
 

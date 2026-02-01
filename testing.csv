@@ -1,4 +1,4 @@
-﻿0.25.0,Fri Jan 23 15:12:56 2026,,,,,,,,,,,,,
+﻿0.25.0,Sun Feb 01 15:12:56 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1063,10 +1063,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 538,,5.45x39_kazarov_ak12_magazine_30r,Izhmash AK-12 Windowed Polymer 30R,0,0.42,,,30,,,,,,1200
 ,,banan_magazine,Banana Magazine,0,0.39,,,30,,,,,,5000
 ,magazine_7.62x51_roosevelt700,,,,,,,,,,,,,
-539,,scrubs_outdoors_roosevelt_700_.308_5r_mag,	Wyatt's Outdoor .308 5R,-2,0.22,,,5,,,,,,0
+539,,scrubs_outdoors_roosevelt_700_.308_5r_mag,"	Wyatt's Outdoor .308 5R",-2,0.22,,,5,,,,,,0
 540,,magtap_pmag_ac_5r,Magpul PMAG AC .308 5R,-2,0.18,,,5,,,,,,
 541,,magtap_pmag_ac_10r,Magpul PMAG AC .308 10R,-6,0.32,,,10,,,,,,
-542,,scrubs_outdoors_roosevelt_700_.308_10r_mag,	Wyatt's Outdoor .308 10R,-6,0.36,,,10,,,,,,1000
+542,,scrubs_outdoors_roosevelt_700_.308_10r_mag,"	Wyatt's Outdoor .308 10R",-6,0.36,,,10,,,,,,1000
 ,magazine_7.62x54_mosin,,,,,,,,,,,,,
 543,,7.62x54_promag_10r,ProMag AA762R 02 10R,-4,0.33,,,10,,,,,,1000
 544,,7.62x54_promag_5r,ProMag AA762R 01 5R,0,0.19,,,5,,,,,,500
@@ -1096,6 +1096,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 555,,rsa_sa58_fal_metric_magazine_10r,DSA FAL SA-58 U.S. Made Metric 10R,7,0.32,,,10,,,,,,500
 556,,rsa_sa58_fal_metric_magazine_20r,DSA FAL SA-58 U.S. Made Metric 20R,0,0.61,,,20,,,,,,0
 557,,rsa_sa58_fal_metric_magazine_30r,DSA FAL SA-58 U.S. Made Metric 30R,-7,0.92,,,30,,,,,,2000
+557,,rsa_sa58_fal_metric_polymer_magazine_10r,RSA SA-58 Polymer Metric 10R,-2,0.3,,,10,,,,,,800
+557,,rsa_sa58_fal_metric_polymer_magazine_20r,RSA SA-58 Polymer Metric 20R,-4,0.5,,,20,,,,,,1000
 558,,enfield_l1a1_slr_pattern_mag_30r,Enfield L1A1 SLR Pattern 30R,-6,0.94,,,30,,,,,,2500
 559,,nm_fal_polymer_mag_20r,Moses Mag Works Polymer 20R,-1,0.55,,,20,,,,,,1500
 560,,cartesia_productions_x_fal_drum_mag_50r,X Products X-FAL .308 50R Drum,-15,1.49,,,50,0.1,,,,,4000
@@ -1565,7 +1567,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 768,,tt33_std_frame,TT33 Standard,0,0.3,,,,,,,,,0
 769,,tt33_std_frame_with_lanyard_loop,TT33 w/ Lanyard Loop,1,0.34,,,,,,,,,500
 ,tt33_grip,,,,,,,,,,,,,
-770,,ksd_ivory_lanyard_grip,KSD Ivory Lanyard,4,0.06,0,1,,,,,,,2000
+770,,add_ivory_lanyard_grip,KSD Ivory Lanyard,4,0.06,0,1,,,,,,,2000
 771,,razor_arms_g02,Razor Arms G02,6,0.08,1,2,,,,,,,1000
 772,,tt33_std_grip,TT33 Std.,3,0.06,,,,,,,,,0
 ,tt33_hammer,,,,,,,,,,,,,
@@ -2356,8 +2358,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1123,,fnb_precision_fal_crosshair_front_sight,KNS Precision FAL Crosshair,1,0.015,,,,,,,,,200
 ,sa58_grip,,,,,,,,,,,,,
 1124,,sa58_std_grip,DSA SA-58 Standard,0,0.09,0,0,,,,,,,0
+1124,,protac_ergonomic_ag_fal_pistol_grip,DSA SA-58 Standard,2,0.1,0,0,,,,,,,1500
 ,sa58_handguard,,,,,,,,,,,,,
 1125,,rsa_sa58_belgian_style_full_length_handguard,DSA SA-58 Belgian Style,8,0.3,-16,-16,,0.03,,,,,0
+1125,,rsa_sa58_wood_full_length_handguard,RSA SA-58 Wood Full Length Handguard,9,0.5,-18,-18,,0.03,,,,,1000
 ,,rsa_sa58_belgian_style_mid_length_handguard,DSA SA-58 Belgian Style Mid Length Handguard,10,0.21,-13,-13,,0.03,,,,,750
 1126,,target_sports_universal_11.3inch_mlok_hg_lower,"Aim Sports Universal MLOK 11.3""",8,0.15,-11,-11,,,,,,,1500
 1127,,rsa_metric_short_quadrail_handguard,DSA Metric Short Quad Rail,9,0.22,-8,-12,,,,,,,1000
@@ -2377,6 +2381,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,sa58_stock,,,,,,,,,,,,,
 1131,,rsa_sa58_para_fold_assembly,DSA SA-58 Para Fold Assembly,0,0.06,0,0,,,,,,,500
 1132,,rsa_sa58_polymer_humpback_stock,DSA Humpback Polymer Fixed,10,0.3,-10,-10,,,,,,,0
+1132,,rsa_sa58_x_series_stock,RSA SA-58 X-Series Stock,13,0.35,-11,-12,,,,,,,500
+1132,,rsa_sa58_wood_humpback_stock,DSA Humpback Polymer Fixed,9,0.4,-12,-13,,,,,,,1200
 ,,rsa_sa58_pistol_qd_sling_endplate,DSA SA-58 Pistol QD Sling,4,0.05,8,8,,0.5,,,,,1000
 ,sa58_barrel,,,,,,,,,,,,,
 ,,rsa_sa58_210mm_premium_pistol_barrel,"RSA SA-58 8.25"""" Premium Pistol",16,0.49,9,9,,0.25,-0.08,-158,,,1000
@@ -2915,4 +2921,3 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,launcher,,,,,,,,,,,,,
 ,,RPG7,RPG7,30,0,80,90,0,2.5,1,220,,,100000
 ,,PSRL,PSRL,40,0,75,95,0,2.5,1,220,,,140000
-

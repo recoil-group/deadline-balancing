@@ -5,12 +5,12 @@ hk_g3a3_stock_endplate,HK G3A3 Stock Endplate,0,0.1,,,,,,,,,0,-2
 hk_g3a3_stock_extendable_part,HK G3A3 Stock Extendable Part,14,0.2,-7,-10,,,,,,,0,21.6
 hk_g3_std_fixed_plastic_stock,HK G3 Standard Fixed Plastic,9,0.26,-12,-12,,,,,,,0,20.6
 haga_defense_hk_g3_acr_stock_adapter,Haga Defense HK G3 ACR Stock Adaptor,1,0.06,-1,-1,,,,,,,1000,1.2
-ptr_hk_g3_milspec_ar15_buffer_tube_adapter,PTR HK G3 MilSpec AR15 Buffer Tube Adaptor,0,0.08,2,2,,,,,,,1200,-4.4
-spuhr_g3_r410_stock_assembly_adapter,Spuhr G3 R410 Stock Assembly Adaptor,-2,0.07,0,0,,,,,,,1000,-3.4
+ptr_hk_g3_milspec_ar15_buffer_tube_adapter,PTR HK G3 MilSpec AR15 Buffer Tube Adaptor,-1,0.07,1,1,,0.1,,,,,1200,-4.3
+spuhr_g3_r410_stock_assembly_adapter,Spuhr G3 R410 Stock Assembly Adaptor,-2,0.09,0,0,,,,,,,1000,-3.8
 hk_psg1_stock_buttpad,HK PSG-1 Stock Buttpad,2,0.07,,,,,,,,,0,0.6
 hk_psg1_stock_cheek_rest,HK PSG-1 Stock Cheek Rest,4,0.08,,,,,,,,,0,2.4
-hk_psg1_stock_base,HK Sniper PSG-1 Version 2 Stock Assembly,15,0.26,-4,-6,,,,,,,2000,16.6
-spuhr_g3_r410_stock_assembly_stock,Spuhr G3 R410 Stock,8,0.2,-10,-18,,,,,,,0,22.8
+hk_psg1_stock_base,HK Sniper PSG-1 Version 2 Stock Assembly,15,0.26,-4,-6,,-0.05,,,,,2000,16.85
+spuhr_g3_r410_stock_assembly_stock,Spuhr G3 R410 Stock,8,0.18,-10,-18,,,,,,,0,23.2
 spuhr_g3_r410_stock_assembly_cheek_pad,Spuhr G3 R410 Stock Cheek Pad,2,0.04,,,,,,,,,0,1.2
 dynamic_development_group_sas_acr_stock_retractor,Kinetic Development Group SAS Adaptive ACR Retractor,0,0.11,,,,,,,,,0,-2.2
 dynamic_development_group_sas_acr_stock_cheek_pad,Kinetic Development Group SAS Adaptive ACR Stock,4,0.04,,,,,,,,,0,3.2
@@ -21,9 +21,9 @@ dynamic_development_group_sas_acr_stock,Kinetic Development Group SAS Adaptive A
 ,default,9,0.34,-12,-12,0,0,0,0,0,0,0,19
 ,a3,14,0.3,-7,-10,0,0,0,0,0,0,0,19.6
 ,acr,15,0.45,-11,-8,0,0,0,0,0,0,2000,19.6
-,psg1,21,0.49,-4,-6,0,0,0,0,0,0,2000,18
+,psg1,21,0.49,-4,-6,0,-0.05,0,0,0,0,2000,18.25
 ,spuhr,8,0.31,-10,-18,0,0,0,0,0,0,1000,20.6
-,buffer,17,0.51,-9,-8,0,0,0,0,0,0,2600,18.8
+,buffer,16,0.5,-10,-9,0,0.1,0,0,0,0,2600,18.9
 ,,,,,,,,,,,,,0
 ,,,,,,,,,,,,,0
 ,,,,,,,,,,,,,0

@@ -1,4 +1,4 @@
-﻿0.25.0,Sun Feb 01 20:00:29 2026,,,,,,,,,,,,,
+﻿0.25.0,Sun Feb 01 20:27:47 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -2342,13 +2342,13 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,sa58_fire_selector,,,,,,,,,,,,,
 1115,,sa58_std_fire_selector,DSA SA-58,0,0,,,,,,,,,0
 ,sa58_folding_stock,,,,,,,,,,,,,
-1116,,rsa_sa58_metric_para_folding_stock,DSA SA-58 Metric Para Folding,12,0.17,-6,-11,,,,,,,500
-1117,,rsa_metric_para_buffer_tube_adapter,DSA Para Metric Buffer Tube,-4,0.05,4,4,,,,,,,1000
-,,rsa_sa58_folding_spr_para_stock_body,DSA SA-58 Folding SPR PARA Stock Body,12,0.12,-9,-7,,,,,,,3000
-,,rsa_sa58_folding_spr_para_stock_extendable_part,DSA SA-58 Folding SPR PARA Stock Extendable Part,,0.02,,,,,,,,,0
-,,rsa_sa58_folding_spr_para_stock_buttpad_mount,DSA SA-58 Folding SPR PARA Stock Buttpad Mount,,0.02,,,,,,,,,0
-,,rsa_sa58_folding_spr_para_stock_cheek_riser,DSA SA-58 Folding SPR PARA Stock Cheek Riser,1,0.03,,,,,,,,,0
-,,rsa_sa58_folding_spr_para_stock_buttpad,DSA SA-58 Folding SPR PARA Stock Buttpad,1,0.03,,,,,,,,,0
+1116,,rsa_sa58_metric_para_folding_stock,DSA SA-58 Metric Para Folding,12,0.25,-7,-11,,,,,,,500
+1117,,rsa_metric_para_buffer_tube_adapter,DSA Para Metric Buffer Tube,-3,0.05,2,2,,0.05,,,,,1000
+,,rsa_sa58_folding_spr_para_stock_body,DSA SA-58 Folding SPR PARA Stock Body,13,0.19,-9,-7,,-0.05,,,,,3000
+,,rsa_sa58_folding_spr_para_stock_extendable_part,DSA SA-58 Folding SPR PARA Stock Extendable Part,,0.03,,,,,,,,,0
+,,rsa_sa58_folding_spr_para_stock_buttpad_mount,DSA SA-58 Folding SPR PARA Stock Buttpad Mount,,0.03,,,,,,,,,0
+,,rsa_sa58_folding_spr_para_stock_cheek_riser,DSA SA-58 Folding SPR PARA Stock Cheek Riser,1,0.04,,,,,,,,,0
+,,rsa_sa58_folding_spr_para_stock_buttpad,DSA SA-58 Folding SPR PARA Stock Buttpad,1,0.04,,,,,,,,,0
 ,sa58_front_sight,,,,,,,,,,,,,
 1118,,fnb_precision_fal_duplex_front_sight,KNS Precision FAL Duplex,1,0.015,,,,,,,,,200
 1119,,rsa_metric_front_sight_size4,DSA Metric Size 4,1,0.01,,,,,,,,,0
@@ -2380,9 +2380,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,rsa_sa58_rear_sight_picatinny_mount,DSA SA-58 Rear Sight Picatinny Mount,-1,0.03,,,,,,,,,500
 ,sa58_stock,,,,,,,,,,,,,
 1131,,rsa_sa58_para_fold_assembly,DSA SA-58 Para Fold Assembly,0,0.06,0,0,,,,,,,500
-1132,,rsa_sa58_polymer_humpback_stock,DSA Humpback Polymer Fixed,10,0.3,-10,-10,,,,,,,0
-1132,,rsa_sa58_x_series_stock,RSA SA-58 X-Series Stock,13,0.35,-11,-12,,,,,,,500
-1132,,rsa_sa58_wood_humpback_stock,DSA Humpback Polymer Fixed,9,0.4,-12,-13,,,,,,,1200
+1132,,rsa_sa58_polymer_humpback_stock,DSA Humpback Polymer Fixed,10,0.35,-10,-10,,,,,,,0
+,,rsa_sa58_x_series_stock,RSA SA-58 X-Series Stock,12,0.29,-10,-6,,,,,,,500
+,,rsa_sa58_buttpad,RSA SA-58 X-Series,1,0.05,,,,,,,,,0
+,,rsa_sa58_wood_humpback_stock,DSA Humpback Polymer Fixed,9,0.39,-11,-12,,,,,,,1200
+,,sa58_wood_stock_buttpad,SA58 Wood,1,0.03,,,,,,,,,0
 ,,rsa_sa58_pistol_qd_sling_endplate,DSA SA-58 Pistol QD Sling,4,0.05,8,8,,0.5,,,,,1000
 ,sa58_barrel,,,,,,,,,,,,,
 ,,rsa_sa58_210mm_premium_pistol_barrel,"RSA SA-58 8.25"""" Premium Pistol",16,0.49,9,9,,0.25,-0.08,-158,,,1000

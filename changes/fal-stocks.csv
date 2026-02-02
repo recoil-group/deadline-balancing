@@ -1,0 +1,41 @@
+﻿,,new,,,,,,,,,,,
+name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price,strength
+rsa_sa58_para_fold_assembly,DSA SA-58 Para Fold Assembly,0,0.06,0,0,,,,,,,500,-1.2
+rsa_sa58_polymer_humpback_stock,DSA Humpback Polymer Fixed,10,0.35,-10,-10,,,,,,,0,17
+rsa_sa58_x_series_stock,RSA SA-58 X-Series Stock,12,0.29,-10,-6,,,,,,,500,17.8
+rsa_sa58_buttpad,RSA SA-58 X-Series,1,0.05,,,,,,,,,0,0
+rsa_sa58_wood_humpback_stock,DSA Humpback Polymer Fixed,9,0.39,-11,-12,,,,,,,1200,17.2
+sa58_wood_stock_buttpad,SA58 Wood,1,0.03,,,,,,,,,0,0.4
+rsa_sa58_pistol_qd_sling_endplate,DSA SA-58 Pistol QD Sling,4,0.05,8,8,,0.5,,,,,1000,-10.7
+rsa_sa58_metric_para_folding_stock,DSA SA-58 Metric Para Folding,12,0.25,-7,-11,,,,,,,500,19.2
+rsa_metric_para_buffer_tube_adapter,DSA Para Metric Buffer Tube,-3,0.05,2,2,,0.05,,,,,1000,-7.05
+rsa_sa58_folding_spr_para_stock_body,DSA SA-58 Folding SPR PARA Stock Body,13,0.19,-9,-7,,-0.05,,,,,3000,20.85
+rsa_sa58_folding_spr_para_stock_extendable_part,DSA SA-58 Folding SPR PARA Stock Extendable Part,,0.03,,,,,,,,,0,-0.6
+rsa_sa58_folding_spr_para_stock_buttpad_mount,DSA SA-58 Folding SPR PARA Stock Buttpad Mount,,0.03,,,,,,,,,0,-0.6
+rsa_sa58_folding_spr_para_stock_cheek_riser,DSA SA-58 Folding SPR PARA Stock Cheek Riser,1,0.04,,,,,,,,,0,0.2
+rsa_sa58_folding_spr_para_stock_buttpad,DSA SA-58 Folding SPR PARA Stock Buttpad,1,0.04,,,,,,,,,0,0.2
+,MOE Carbine,17,0.35,-11,-10,0,0,0,0,0,0,1400,24.8
+,,,,,,,,,,,,,0
+,polymer,10,0.35,-10,-10,0,0,0,0,0,0,0,17
+,wood,10,0.42,-11,-12,0,0,0,0,0,0,1200,17.6
+,x series,13,0.34,-10,-6,0,0,0,0,0,0,500,17.8
+,pistol,4,0.05,8,8,0,0.5,0,0,0,0,1000,-10.7
+,para,12,0.31,-7,-11,0,0,0,0,0,0,1000,18
+,spr,15,0.39,-9,-7,0,-0.05,0,0,0,0,3500,18.85
+,buffer,14,0.46,-9,-8,0,0.05,0,0,0,0,2900,16.55
+,,,,,,,,,,,,,0
+,,,,,,,,,,,,,0
+,,,,,,,,,,,,,0
+,,,,,,,,,,,,,0
+,,,,,,,,,,,,,0
+,,,,,,,,,,,,,0
+,,,,,,,,,,,,,0
+,,,,,,,,,,,,,0
+,,,,,,,,,,,,,0
+,,,,,,,,,,,,,0
+,,,,,,,,,,,,,0
+,,,,,,,,,,,,,0
+,,,,,,,,,,,,,0
+,,,,,,,,,,,,,0
+,,,,,,,,,,,,,0
+,,,,,,,,,,,,,0

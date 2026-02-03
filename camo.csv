@@ -105,6 +105,7 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 104,pac_od,PAC OD,#4a5045,default,experience_based,1000,,
 104,kac_od,PAC OD,#4a5045,default,experience_based,1000,,
 105,grey,Grey,#3a3a39,default,experience_based,1500,,
+105,gray,Grey,#3a3a39,default,experience_based,1500,,
 106,fde,FDE,#7f7066,default,experience_based,2000,,
 107,magtap_od,Magtap OD,#709954,default,experience_based,2500,,
 107,magpul_od,Magtap OD,#709954,default,experience_based,2500,,
@@ -162,6 +163,7 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 0,option_6,Option 6,#161616,default,always_available,,,
 0,option_7,Option 7,#161616,default,always_available,,,
 0,option_8,Option 8,#161616,default,always_available,,,
+
 
 
 

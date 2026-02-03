@@ -52,8 +52,8 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 50,radian_brown,Radian Brown,#4f4339,default,experience_based,2000,,radian
 51,radian_od,Radian OD,#3F603D,default,experience_based,4000,,radian
 52,radian_grey,Radian Grey,#3a3a39,default,experience_based,6000,,radian
-53,airtronic_sand,Airtronic Sand,#736a61,default,experience_based,2000,,psrl
-54,airtronic_green,Aitronic Green,#4a5045,default,experience_based,4000,,psrl
+53,launchtron_sand,Launchtron Sand,#736a61,default,experience_based,2000,,psrl
+54,launchtron_green,Launchtron Green,#4a5045,default,experience_based,4000,,psrl
 55,old_wood,Old Wood,#4f4339,default,experience_based,2000,,wood
 56,faded_wood,Faded Wood,#4f4339,default,experience_based,4000,,wood
 57,beach_wood,Beach Wood,#4f4339,default,experience_based,6000,,wood

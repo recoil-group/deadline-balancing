@@ -1,4 +1,4 @@
-﻿0.25.0,Sun Feb 01 21:27:47 2026,,,,,,,,,,,,,
+﻿0.25.0,Tue Feb 03 21:27:47 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -2923,3 +2923,18 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,launcher,,,,,,,,,,,,,
 ,,RPG7,RPG7,30,0,80,90,0,2.5,1,220,,,100000
 ,,PSRL,PSRL,40,0,75,95,0,2.5,1,220,,,140000
+,wearable,,,,,,,,,,,,,
+,,cummerbund_magazine,,,,,,,,,,,,
+,,technix_black_gloves,,,,,,,,,,,,
+,,military_shirt_01,,,,,,,,,,,,
+,,military_shirt_02,,,,,,,,,,,,
+,,military_pants_01,,,,,,,,,,,,
+,,military_pants_02,,,,,,,,,,,,
+,,avs_m4_flap,,,,,,,,,,,,
+,,crye_precision_avs,,,,,,,,,,,,
+,,rear_platebag,,,,,,,,,,,,
+,,ops_core_fast_sf,,,,,,,,,,,,
+,,default_cummerbund,,,,,,,,,,,,
+,,temp_gpnvg,,,,,,,,,,,,
+,,temp_othernvg,,,,,,,,,,,,
+,,dovetail_nvg_mount,,,,,,,,,,,,

@@ -241,6 +241,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,cgr_dingler_flipped,CGR Dingler Flipped,0.25,0.01,,,,,,,,,1000
 ,,cgr_aeon,CGR Aeon,0.25,0.01,,,,,,,,,1000
 ,,cgr_aeon_flipped,CGR Aeon Flipped,0.25,0.01,,,,,,,,,1000
+,,kf_416_2mm_flip_up_sight,KF416 2mm Flip Up,0,0.02,,,,,,,,,0
+,,kf_416_2mm_flip_up_sight_aperture,KF416 2mm Flip Up,1,0.01,,,,,,,,,0
+,,kf_416_2mm_flip_up_sight_aperture_folded`,KF416 2mm Flip Up,1,0.01,,,,,,,,,0
 ,stock,,,,,,,,,,,,,
 122,,validus_la_stock,Fortis LA,17,0.2,-12,-6,,,,,,,900
 ,,kf_416_slim_line_stock,KF416 Slim Line,16,0.26,-5,-19,,,,,,,1000
@@ -1602,6 +1605,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 790,,pro_tactical_pm_g_pistol_grip,FAB Defense PM-G Pistol Grip,2,0.12,-1,-1,,,,,,,1000
 ,,truelock_custom_pm_tactic_kit_pistol_grip,GCT PM Tactic Kit Pistol Grip,1,0.21,-2,-2,,,,,,,2000
 ,,khorovod_pm_pistol_grip,Dozor PM,3,0.11,0,0,,,,,,,800
+,,pm_laser_ltsu_pm_laser,PM-Laser LTsU PM Laser,2,0.15,0,-2,,,,,,,1500
 ,makarov_slide,,,,,,,,,,,,,
 791,,izhevsk_pm_9x18_std_slide,Izhevsk PM 9x18 Standard Slide,0,0.1,,,,,,,,,0
 ,makarov_barrel,,,,,,,,,,,,,
@@ -2767,6 +2771,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,mp5_function,,,,,,,,,,,,,
 ,,hk_mp5_std_cocking_support,HK MP5 Std. Cocking Support,0,0.05,,,,,,,,,0
 ,,hk_mp5_std_charging_handle,HK MP5 Std. Charging Handle,0,0.02,,,,,,,,,0
+,,kfp_knurled_extended_mpi54_charging_handle,KFP MPi-54,1,0.03,,,,,,,,,300
 ,,hk_mp5_std_9x19_bolt_assembly,HK MP5 Std. 9x19 Bolt Assembly,0,0.14,,,,,,,,,0
 ,,hk_mp5_std_fire_selector,HK MP5 Std. Fire Selector,0,0.02,,,,,,,,,0
 ,,hk_mp5_std_mag_release,HK MP5 Std. Mag Release,0,0.01,,,,,,,,,0

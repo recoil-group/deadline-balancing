@@ -1,4 +1,4 @@
-﻿0.25.0,Tue Feb 03 21:27:47 2026,,,,,,,,,,,,,
+﻿0.25.1,Sun Mar 15 21:27:47 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -243,7 +243,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,cgr_aeon_flipped,CGR Aeon Flipped,0.25,0.01,,,,,,,,,1000
 ,,kf_416_2mm_flip_up_sight,KF416 2mm Flip Up,0,0.02,,,,,,,,,0
 ,,kf_416_2mm_flip_up_sight_aperture,KF416 2mm Flip Up,1,0.01,,,,,,,,,0
-,,kf_416_2mm_flip_up_sight_aperture_folded`,KF416 2mm Flip Up,1,0.01,,,,,,,,,0
+,,kf_416_2mm_flip_up_sight_aperture_folded,KF416 2mm Flip Up,1,0.01,,,,,,,,,0
 ,stock,,,,,,,,,,,,,
 122,,validus_la_stock,Fortis LA,17,0.2,-12,-6,,,,,,,900
 ,,kf_416_slim_line_stock,KF416 Slim Line,16,0.26,-5,-19,,,,,,,1000

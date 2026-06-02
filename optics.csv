@@ -1,0 +1,3 @@
+0.25.3,Tue Mar 31 21:30:47 2026,,,,,,,,,,,,,
+id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black_in_night_vision,disable_when_not_alone
+1,holotec_553_holo_sight,not_magnified,0.2,10,0,false,false

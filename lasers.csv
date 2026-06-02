@@ -1,0 +1,22 @@
+0.25.2,Tue Jun  2 16:50:57 2026,,,,,,,,,,,,,,
+id,name,ir_compatible,ir_fade_start,ir_fade_end,ir_flare_distance,ir_flare_strength,vi_compatible,vi_color_r,vi_color_g,vi_color_b,vi_fade_start,vi_fade_end,vi_flare_distance,vi_flare_strength
+1,pm_laser_ltsu_pm_laser,false,1000,1300,3,0.2,true,255,0,0,200,260,1,0.07
+2,est_pm_laser_sight,false,,,,,true,255,42,0,60,150,0.3,0.07
+3,archient_technologies_elysium_laser_module,false,,,,,true,255,0,0,50,150,0.2,0.06
+4,tt_virginia_gear_tactical_lam_module_tt33,false,,,,,true,255,0,0,50,150,0.3,0.06
+5,insight_technology_an_paq_4a_ir_laser,true,1000,1300,3,0.2,false,0,255,0,300,450,1,0.12
+6,insight_technology_an_peq_2a_tpial,true,700,1000,1,0.12,false,0,255,0,300,450,1,0.12
+7,l3harrison_atpial_an_peq_15,true,500,600,1,0.12,true,255,0,0,200,350,1,0.12
+8,holosun_hs401g5,false,,,,,true,255,0,0,50,150,0.4,0.1
+9,veles_perst_3_classic_gen4_green,true,400,480,1,0.12,true,0,255,0,170,350,0.8,0.1
+10,insight_technology_an_peq_5_cvl,false,500,650,,,true,255,0,0,200,400,1,0.12
+11,cosmotac_blue_lam_module,false,700,1000,,,true,0,0,255,100,150,0.3,0.1
+12,be_meyers_mawl_c1+,true,700,850,1.5,0.15,true,13,255,0,250,320,1,0.1
+13,l3harrison_mipim_an_peq_16b,true,600,750,1,0.12,true,255,0,0,180,290,1,0.1
+14,holosun_ls321g,true,500,600,1,0.12,true,0,255,0,150,300,1,0.1
+15,sightmark_lopro_combo,true,300,500,1,0.1,true,0,255,0,200,250,1,0.1
+16,sightmark_lopro_mini_combo,false,300,480,,,true,0,255,0,200,250,0.7,0.1
+17,cosmotac_vism_micro_green_dot_red_laser_vdgrlb,false,,,,,true,255,0,0,30,100,0.3,0.07
+18,holotec_ogl_tactical_laser_module,true,580,770,1,0.12,true,0,255,0,190,310,1.5,0.2
+19,whitehouse_raid_xe_g18_high_power_laser_aiming_device,true,680,870,1,0.12,true,0,255,0,250,400,2,0.4
+20,whitehouse_raid_xe_g14_high_power_laser_aiming_device,true,680,870,1,0.12,true,255,0,0,250,400,2,0.4

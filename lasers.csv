@@ -1,4 +1,4 @@
-0.25.2,Tue Jun  2 16:50:57 2026,,,,,,,,,,,,,,
+0.25.2,Tue Jun  2 16:52:45 2026,,,,,,,,,,,,,
 id,name,ir_compatible,ir_fade_start,ir_fade_end,ir_flare_distance,ir_flare_strength,vi_compatible,vi_color_r,vi_color_g,vi_color_b,vi_fade_start,vi_fade_end,vi_flare_distance,vi_flare_strength
 1,pm_laser_ltsu_pm_laser,false,1000,1300,3,0.2,true,255,0,0,200,260,1,0.07
 2,est_pm_laser_sight,false,,,,,true,255,42,0,60,150,0.3,0.07

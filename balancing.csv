@@ -729,7 +729,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ardian_weapons_ar15_talon_ambi_2lever_fire_selector,Radian Weapons AR15 Talon Ambi 2level Fire Selector,2,0.03,,,,,,,,,500
 ,m4a1_lower_receiver,,,,,,,,,,,,,
 342,,hart_m4a1_std_lower_receiver,Hart M4A1,0,0.3,,,,,,,,,0
-,,strikon_scr_rifle_lower_receiver,Fightlite SCR Rifle Lower Receiver,6,0.26,-6,12,,,,,,,3000
+,,strikon_scr_rifle_lower_receiver,Fightlite SCR Rifle Lower Receiver,13,0.26,-6,12,,,,,,,3000
 ,,ardian_weapons_ax556_adac15_lower_receiver,Radian Weapons AX556 ADAC15 Lower Receiver,6,0.42,-2,-3,,,,,,,4000
 ,,nowa_n4_gen3_ar15_lower_receiver,Nowa N4 Gen3 AR15 Lower Receiver,5,0.35,-2,-1,,,,,,,2000
 ,,aeroknox_ax15_lower_receiver,Aeroknox AX // 15 Lower Receiver,3,0.25,-1,0,,,,,,,1500
@@ -1066,10 +1066,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 538,,5.45x39_kazarov_ak12_magazine_30r,Izhmash AK-12 Windowed Polymer 30R,0,0.42,,,30,,,,,,1200
 ,,banan_magazine,Banana Magazine,0,0.39,,,30,,,,,,5000
 ,magazine_7.62x51_roosevelt700,,,,,,,,,,,,,
-539,,scrubs_outdoors_roosevelt_700_.308_5r_mag,	Wyatt's Outdoor .308 5R,-2,0.22,,,5,,,,,,0
+539,,scrubs_outdoors_roosevelt_700_.308_5r_mag,Wyatt's Outdoor .308 5R,-2,0.22,,,5,,,,,,0
 540,,magtap_pmag_ac_5r,Magpul PMAG AC .308 5R,-2,0.18,,,5,,,,,,
 541,,magtap_pmag_ac_10r,Magpul PMAG AC .308 10R,-6,0.32,,,10,,,,,,
-542,,scrubs_outdoors_roosevelt_700_.308_10r_mag,	Wyatt's Outdoor .308 10R,-6,0.36,,,10,,,,,,1000
+542,,scrubs_outdoors_roosevelt_700_.308_10r_mag,Wyatt's Outdoor .308 10R,-6,0.36,,,10,,,,,,1000
 ,magazine_7.62x54_mosin,,,,,,,,,,,,,
 543,,7.62x54_promag_10r,ProMag AA762R 02 10R,-4,0.33,,,10,,,,,,1000
 544,,7.62x54_promag_5r,ProMag AA762R 01 5R,0,0.19,,,5,,,,,,500
@@ -1162,11 +1162,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,r870_shorty_bolt,,,,,,,,,,,,,
 601,,r870_shorty_std_bolt,Remington Shortened Serbu,1,0.08,,,,,,,,,0
 ,r870_stock,,,,,,,,,,,,,
-602,,r870_earthquake_raptor_pistol_grip,Shockwave Raptor Rem870,15,0.08,6,6,,,,,,,1000
-603,,r870_sps_polymer_stock,Remington SPS Polymer,18,0.24,-12,-12,,,,,,,750
-604,,r870_mesa_tactical_leo_stock_adapter,Mesa Tactical Rem870 LEO,-2,0.17,2,2,,,,,,,1000
-605,,agr_870_pistol_grip,FAB Defense AGR-870,3,0.1,-3,-4,,,,,,,1000
-606,,magtap_moe_870_sga_polymer_stock,Magpul MOE 870 SGA Polymer,17,0.2,-10,-10,,,,,,,1200
+602,,r870_earthquake_raptor_pistol_grip,Shockwave Raptor Rem870,23,0.08,8,8,,,,,,,1000
+603,,r870_sps_polymer_stock,Remington SPS Polymer,26,0.24,-10,-10,,,,,,,750
+604,,r870_mesa_tactical_leo_stock_adapter,Mesa Tactical Rem870 LEO,-8,0.17,0,0,,,,,,,1000
+605,,agr_870_pistol_grip,FAB Defense AGR-870,-5,0.1,-1,-2,,,,,,,1000
+606,,magtap_moe_870_sga_polymer_stock,Magpul MOE 870 SGA Polymer,26,0.2,-8,-8,,,,,,,1200
 ,r870_top_mount,,,,,,,,,,,,,
 607,,asm_1_mount,Aimtech ASM-1,-3,0.1,,,,,,,,,1200
 608,,hg_shortrail_ghost_ring_rear_sight,XS Shortrail Ghost Ring,-1,0.06,,,,,,,,,1000
@@ -2649,22 +2649,22 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,precision_intercontinental_at_aics_gen2_thumbhole_backstrap,Accuracy International AT AICS 2.0 Thumbhole Backstrap,3,0.07,,,,,,,,,500
 ,hunter700_cheek,,,,,,,,,,,,,
 1250,,hunter_cheekrest_flat,Hunter 700 Stock Cheek Rest Flat,0.5,0.02,,,,,,,,,0
-1251,,hunter_cheekrest_.25,Hunter 700 Stock Cheek Rest .25,0.5,0.03,,,,,,,,,0
-1252,,hunter_cheekrest_.5,Hunter 700 Stock Cheek Rest .5,1,0.04,,,,,,,,,0
-1253,,hunter_cheekrest_.75,Hunter 700 Stock Cheek Rest .75,1,0.05,,,,,,,,,0
+1251,,hunter_cheekrest_.25,Hunter 700 Stock Cheek Rest .25,1,0.03,,,,,,,,,0
+1252,,hunter_cheekrest_.5,Hunter 700 Stock Cheek Rest .5,1.5,0.04,,,,,,,,,0
+1253,,hunter_cheekrest_.75,Hunter 700 Stock Cheek Rest .75,2,0.05,,,,,,,,,0
 ,hunter700_cheek_sga,,,,,,,,,,,,,
 1254,,hunter_cheekrest_.25_sga,Hunter Cheek Rest .25 for SGA,0.5,0.02,,,,,,,,,0
 1255,,hunter_cheekrest_flat_sga,Hunter Cheek Rest Flat for SGA,1,0.03,,,,,,,,,0
-1256,,hunter_cheekrest_.75_sga,Hunter Cheek Rest .75 for SGA,1.5,0.04,,,,,,,,,0
-1257,,hunter_cheekrest_.5_sga,Hunter Cheek Rest .5 for SGA,2,0.05,,,,,,,,,0
+1256,,hunter_cheekrest_.75_sga,Hunter Cheek Rest .75 for SGA,2,0.05,,,,,,,,,0
+1257,,hunter_cheekrest_.5_sga,Hunter Cheek Rest .5 for SGA,1.5,0.04,,,,,,,,,0
 ,hunter700_magwell,,,,,,,,,,,,,
 1258,,magtap_hunter_ac_magwell,Magpul Hunter AC Magazine Magwell,0,0.08,,,,,,,,,0
 1259,,corvus_mounts_m4_trigger_guard,Badger Ordnance M4 R700 Bottom Plate,3,0.21,,,5,,,,,,600
 ,hunter700_pad,,,,,,,,,,,,,
-1260,,hunterstock_lop_0.5_1,Hunter 700 Stock 0.5 Spacer,0.5,0.04,0,0,,,,,,,0
-1261,,hunterstock_lop_0.5_2,Hunter 700 Stock 0.5 Spacer,0.5,0.04,0,0,,,,,,,0
+1260,,hunterstock_lop_0.5_1,Hunter 700 Stock 0.5 Spacer,1,0.04,0,0,,,,,,,0
+1261,,hunterstock_lop_0.5_2,Hunter 700 Stock 0.5 Spacer,0.75,0.04,0,0,,,,,,,0
 1262,,hunterstock_lop_0.5_3,Hunter 700 Stock 0.5 Spacer,0.5,0.04,0,0,,,,,,,0
-1263,,hunterstock_lop_0.5_4,Hunter 700 Stock 0.5 Spacer,0.5,0.04,0,0,,,,,,,0
+1263,,hunterstock_lop_0.5_4,Hunter 700 Stock 0.5 Spacer,0.25,0.04,0,0,,,,,,,0
 1264,,hunter_stock_buttpad,Hunter 700 Stock Buttpad,2,0.05,-1,-1,,,,,,,0
 ,r700_adapter,,,,,,,,,,,,,
 1265,,spinner_extended_multislot_rail_base,Weaver Extended Multislot Rail Base,-0.5,0.05,,,,,,,,,1000

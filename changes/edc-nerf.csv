@@ -1,9 +1,0 @@
-﻿,,OLD,,,,,,,,,,NEW,,,,,,,,
-name,pretty_name,ergo,wght,hori,vert,mag,dev,dmg,vel,$,,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,price
-wilson_combat_edc_x9_18r_magazine,EDC X9 Std. 18r,21,0.19,,,18,,,,1000,,15,0.19,,,18,,,,1000
-wilson_combat_edc_x9_15r_magazine,EDC X9 Std. 15r,20,0.15,,,15,,,,500,,16,0.15,,,15,,,,500
-wilson_combat_edc_x9_10r_magazine,EDC X9 Std. 10r,19,0.1,,,10,,,,300,,17,0.1,,,10,,,,300
-wilson_combat_edc_x9_102mm_9x19_barrel,Wilson Combat EDC X9 102mm 9x19,0,0.16,-5,-5,,0,0,-70,0,,0,0.16,-2,-2,,0,0,-70,0
-wilson_combat_edc_x9_127mm_threaded_9x19_barrel,Wilson Combat EDC X9 127mm Threaded 9x19,-1.5,0.18,-3,-2,,0.1,0,-40,750,,-1.5,0.18,0,1,,0.1,0,-40,750
-wilson_combat_edc_x9_backstrap_small,Wilson Combat EDC X9 Small,1,0.03,,,,,,,0,,1,0.03,,,,,,,0
-wilson_combat_edc_x9_backstrap_large,Wilson Combat EDC X9 Large,3,0.05,,,,,,,200,,3,0.07,,,,,,,200

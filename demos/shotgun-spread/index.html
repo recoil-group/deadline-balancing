@@ -299,8 +299,8 @@
     <section class="card controls">
       <h1>Shotgun spread</h1>
       <p>
-        A small interactive demo of Deadline’s current pellet spread math. Defaults are the current stock R870
-        00 buck setup: <code>barrel_deviation = 0.85</code>, <code>spread_multiplier = 1.5</code>,
+        A small interactive demo of Deadline 0.25.2-style shotgun spread math. Defaults are the stock R870
+        00 buck setup using <code>buck_barrel_deviation = 2.55</code>, <code>spread_multiplier = 1.5</code>,
         <code>spread_factor = 0.8</code>, and 9 projectiles.
       </p>
 
@@ -314,7 +314,25 @@
           <span class="value" id="deviationValue"></span>
         </label>
         <input id="deviation" type="range" min="0" max="5" step="0.01" value="0.85" />
-        <div class="hint">The built weapon stat used by the current firing path.</div>
+        <div class="hint">The ordinary built weapon deviation stat.</div>
+      </div>
+
+      <div class="field">
+        <label for="buckDeviation">
+          <span>buck_barrel_deviation</span>
+          <span class="value" id="buckDeviationValue"></span>
+        </label>
+        <input id="buckDeviation" type="range" min="0" max="8" step="0.01" value="2.55" />
+        <div class="hint">The buckshot-specific built weapon deviation stat used by 0.25.2-style buck projectiles.</div>
+      </div>
+
+      <div class="field">
+        <label for="useBuckDeviation">
+          <span>Use buck deviation</span>
+          <span class="value" id="useBuckDeviationValue"></span>
+        </label>
+        <input id="useBuckDeviation" type="checkbox" checked />
+        <div class="hint">Toggle which raw stat feeds the firing formula.</div>
       </div>
 
       <div class="field">
@@ -361,7 +379,7 @@
       </div>
 
       <h2>Game formula</h2>
-      <div class="formula">input = barrel_deviation
+      <div class="formula">input = use_buck_deviation ? buck_barrel_deviation : barrel_deviation
 max = tan(input / 100) * spread_multiplier
 dir = Vector2(rand(-1, 1), rand(-1, 1)).Unit
 vec = dir * max * (rand(0, 1) ^ spread_factor)
@@ -416,6 +434,9 @@ final = (barrelCFrame * CFrame.Angles(vec.X, vec.Y, 0)).LookVector</div>
       {
         label: "00 buck",
         note: "12g_mili_275_00buck_9x: 9× 00_buck_piece",
+        deviation: 0.85,
+        buckDeviation: 2.55,
+        useBuckDeviation: true,
         spreadMultiplier: 1.5,
         spreadFactor: 0.8,
         projectiles: 9
@@ -423,6 +444,9 @@ final = (barrelCFrame * CFrame.Angles(vec.X, vec.Y, 0)).LookVector</div>
       {
         label: "04 birdshot",
         note: "12g_federal_game_load_275_4shot_152x: current ammo_mixing has 31× 04_buck_piece",
+        deviation: 0.85,
+        buckDeviation: 2.95,
+        useBuckDeviation: true,
         spreadMultiplier: 2.5,
         spreadFactor: 0.5,
         projectiles: 31
@@ -430,6 +454,9 @@ final = (barrelCFrame * CFrame.Angles(vec.X, vec.Y, 0)).LookVector</div>
       {
         label: "Beanbag",
         note: "12g_foxhill_275_mean_bean_bag: single projectile",
+        deviation: 1.25,
+        buckDeviation: 2.45,
+        useBuckDeviation: false,
         spreadMultiplier: 2,
         spreadFactor: 6,
         projectiles: 1
@@ -437,6 +464,9 @@ final = (barrelCFrame * CFrame.Angles(vec.X, vec.Y, 0)).LookVector</div>
       {
         label: "Slug",
         note: "12g_roosevelt_accutip_275_slug: single projectile",
+        deviation: 0.85,
+        buckDeviation: 2.45,
+        useBuckDeviation: false,
         spreadMultiplier: 1,
         spreadFactor: 1,
         projectiles: 1
@@ -444,6 +474,9 @@ final = (barrelCFrame * CFrame.Angles(vec.X, vec.Y, 0)).LookVector</div>
       {
         label: "DB 00 piece",
         note: "12g_phoenix_hellfire_300_dragons_breath component: 3× 00_buck_piece",
+        deviation: 0.85,
+        buckDeviation: 2.45,
+        useBuckDeviation: true,
         spreadMultiplier: 1.5,
         spreadFactor: 0.8,
         projectiles: 3
@@ -451,6 +484,9 @@ final = (barrelCFrame * CFrame.Angles(vec.X, vec.Y, 0)).LookVector</div>
       {
         label: "DB 02 piece",
         note: "12g_phoenix_hellfire_300_dragons_breath component: 2× 02_buck_piece",
+        deviation: 0.85,
+        buckDeviation: 2.45,
+        useBuckDeviation: true,
         spreadMultiplier: 1.7,
         spreadFactor: 0.6,
         projectiles: 2
@@ -458,6 +494,9 @@ final = (barrelCFrame * CFrame.Angles(vec.X, vec.Y, 0)).LookVector</div>
       {
         label: "DB fragment",
         note: "12g_phoenix_hellfire_300_dragons_breath component: 12× dragon_breath_fragment",
+        deviation: 0.85,
+        buckDeviation: 2.45,
+        useBuckDeviation: true,
         spreadMultiplier: 5,
         spreadFactor: 1,
         projectiles: 12
@@ -466,6 +505,8 @@ final = (barrelCFrame * CFrame.Angles(vec.X, vec.Y, 0)).LookVector</div>
 
     const ids = {
       deviation: document.getElementById("deviation"),
+      buckDeviation: document.getElementById("buckDeviation"),
+      useBuckDeviation: document.getElementById("useBuckDeviation"),
       spreadMultiplier: document.getElementById("spreadMultiplier"),
       spreadFactor: document.getElementById("spreadFactor"),
       distance: document.getElementById("distance"),
@@ -494,6 +535,8 @@ final = (barrelCFrame * CFrame.Angles(vec.X, vec.Y, 0)).LookVector</div>
     function readConfig() {
       return {
         deviation: Number(ids.deviation.value),
+        buckDeviation: Number(ids.buckDeviation.value),
+        useBuckDeviation: ids.useBuckDeviation.checked,
         spreadMultiplier: Number(ids.spreadMultiplier.value),
         spreadFactor: Number(ids.spreadFactor.value),
         distance: Number(ids.distance.value),
@@ -504,10 +547,16 @@ final = (barrelCFrame * CFrame.Angles(vec.X, vec.Y, 0)).LookVector</div>
 
     function updateLabels(config) {
       document.getElementById("deviationValue").textContent = number(config.deviation, 2);
+      document.getElementById("buckDeviationValue").textContent = number(config.buckDeviation, 2);
+      document.getElementById("useBuckDeviationValue").textContent = config.useBuckDeviation ? "on" : "off";
       document.getElementById("spreadMultiplierValue").textContent = number(config.spreadMultiplier, 2);
       document.getElementById("spreadFactorValue").textContent = number(config.spreadFactor, 2);
       document.getElementById("distanceValue").textContent = `${config.distance} studs`;
       document.getElementById("projectilesValue").textContent = `${config.projectiles}`;
+    }
+
+    function selectedDeviation(config) {
+      return config.useBuckDeviation ? config.buckDeviation : config.deviation;
     }
 
     function projectToTarget(xAngle, yAngle, distance) {
@@ -521,7 +570,7 @@ final = (barrelCFrame * CFrame.Angles(vec.X, vec.Y, 0)).LookVector</div>
     }
 
     function sampleProjectile(random, config) {
-      const max = Math.tan(config.deviation / 100) * config.spreadMultiplier;
+      const max = Math.tan(selectedDeviation(config) / 100) * config.spreadMultiplier;
       const rx = random() * 2 - 1;
       const ry = random() * 2 - 1;
       const length = Math.hypot(rx, ry) || 1;
@@ -533,7 +582,7 @@ final = (barrelCFrame * CFrame.Angles(vec.X, vec.Y, 0)).LookVector</div>
     }
 
     function getBoundary(config) {
-      const max = Math.tan(config.deviation / 100) * config.spreadMultiplier;
+      const max = Math.tan(selectedDeviation(config) / 100) * config.spreadMultiplier;
       const points = [];
       let radius = 0;
       for (let i = 0; i < 240; i++) {
@@ -651,13 +700,14 @@ final = (barrelCFrame * CFrame.Angles(vec.X, vec.Y, 0)).LookVector</div>
         `This seed produced mean impact radius ${number(meanSampleRadius, 2)} studs, ` +
         `median impact radius ${number(medianSampleRadius, 2)} studs, and farthest impact ` +
         `${number(farthestImpact, 2)} studs at ${config.distance} studs. ` +
+        `Selected raw deviation is ${number(selectedDeviation(config), 2)}. ` +
         `The random direction is normalized from a square sample, matching the game code's Vector2(...).Unit step.`;
     }
 
     for (const [name, input] of Object.entries(ids)) {
       if (input instanceof HTMLInputElement) {
         input.addEventListener("input", () => {
-          if (["spreadMultiplier", "spreadFactor", "projectiles"].includes(name)) {
+          if (["deviation", "buckDeviation", "useBuckDeviation", "spreadMultiplier", "spreadFactor", "projectiles"].includes(name)) {
             document.getElementById("presetNote").textContent = "Current preset: custom slider values.";
           }
           draw();
@@ -675,6 +725,9 @@ final = (barrelCFrame * CFrame.Angles(vec.X, vec.Y, 0)).LookVector</div>
       button.type = "button";
       button.textContent = preset.label;
       button.addEventListener("click", () => {
+        ids.deviation.value = preset.deviation;
+        ids.buckDeviation.value = preset.buckDeviation;
+        ids.useBuckDeviation.checked = preset.useBuckDeviation;
         ids.spreadMultiplier.value = preset.spreadMultiplier;
         ids.spreadFactor.value = preset.spreadFactor;
         ids.projectiles.value = preset.projectiles;

@@ -270,6 +270,12 @@
       border: 1px solid var(--red);
     }
 
+    .character {
+      border: 1px solid rgba(255, 255, 255, 0.72);
+      border-radius: 1px;
+      background: rgba(255, 255, 255, 0.14);
+    }
+
     .bottom {
       padding: 13px 18px 16px;
       border-top: 1px solid var(--line);
@@ -426,6 +432,7 @@
           <div><span class="swatch impact"></span>projectile impact</div>
           <div><span class="swatch center"></span>barrel forward center</div>
           <div><span class="swatch boundary"></span>maximum boundary</div>
+          <div><span class="swatch character"></span>Roblox character parts scale</div>
         </div>
       </div>
 
@@ -631,6 +638,43 @@
       ctx.restore();
     }
 
+    function drawCharacterScale(ctx, scale) {
+      const parts = [
+        { label: "Head", x: -0.5, y: -2, width: 1, height: 1 },
+        { label: "Torso", x: -1, y: -1, width: 2, height: 2 },
+        { label: "L Arm", x: -2, y: -1, width: 1, height: 2 },
+        { label: "R Arm", x: 1, y: -1, width: 1, height: 2 },
+        { label: "L Leg", x: -1, y: 1, width: 1, height: 2 },
+        { label: "R Leg", x: 0, y: 1, width: 1, height: 2 }
+      ];
+
+      ctx.fillStyle = "rgba(255,255,255,0.10)";
+      ctx.strokeStyle = "rgba(255,255,255,0.72)";
+      ctx.lineWidth = 1.5;
+      for (const part of parts) {
+        const x = part.x * scale;
+        const y = part.y * scale;
+        const width = part.width * scale;
+        const height = part.height * scale;
+        ctx.fillRect(x, y, width, height);
+        ctx.strokeRect(x, y, width, height);
+      }
+
+      if (scale >= 17) {
+        ctx.fillStyle = "rgba(238,244,251,0.88)";
+        ctx.font = "12px ui-sans-serif, system-ui";
+        ctx.textAlign = "center";
+        ctx.textBaseline = "middle";
+        for (const part of parts) {
+          ctx.fillText(
+            part.label,
+            (part.x + part.width / 2) * scale,
+            (part.y + part.height / 2) * scale
+          );
+        }
+      }
+    }
+
     function draw() {
       const config = readConfig();
       updateLabels(config);
@@ -651,7 +695,8 @@
       const impacts = Array.from({ length: config.projectiles }, () => sampleProjectile(random, config));
 
       const farthestImpact = impacts.reduce((max, impact) => Math.max(max, impact.radius), 0);
-      const visibleRadius = Math.max(boundary.radius, farthestImpact, 0.25);
+      const characterRadius = Math.hypot(4 / 2, 5 / 2);
+      const visibleRadius = Math.max(boundary.radius, farthestImpact, characterRadius, 0.25);
       const padding = 54;
       const scale = Math.min(
         (rect.width - padding * 2) / (visibleRadius * 2),
@@ -663,6 +708,8 @@
 
       ctx.save();
       ctx.translate(origin.x, origin.y);
+
+      drawCharacterScale(ctx, scale);
 
       ctx.strokeStyle = "rgba(255,107,107,0.95)";
       ctx.lineWidth = 2;

@@ -1,0 +1,691 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Deadline Shotgun Spread Demo</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0d1117;
+      --panel: #151b23;
+      --panel-soft: #1d2633;
+      --line: #303d4f;
+      --text: #eef4fb;
+      --muted: #9fafc2;
+      --blue: #65d8ff;
+      --yellow: #ffd166;
+      --red: #ff6b6b;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 16% 10%, rgba(101, 216, 255, 0.14), transparent 32rem),
+        radial-gradient(circle at 85% 5%, rgba(255, 209, 102, 0.08), transparent 26rem),
+        var(--bg);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    main {
+      width: min(1220px, calc(100vw - 28px));
+      min-height: 100vh;
+      margin: 0 auto;
+      padding: 18px 0;
+      display: grid;
+      grid-template-columns: 340px 1fr;
+      gap: 16px;
+    }
+
+    h1, h2, p {
+      margin-top: 0;
+    }
+
+    h1 {
+      margin-bottom: 8px;
+      font-size: 24px;
+      letter-spacing: -0.025em;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+      color: var(--blue);
+      font-size: 13px;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+    }
+
+    p {
+      color: var(--muted);
+      line-height: 1.45;
+    }
+
+    code {
+      color: #d7ecff;
+      font-family: "Cascadia Code", "SFMono-Regular", Consolas, monospace;
+      font-size: 0.92em;
+    }
+
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(21, 27, 35, 0.94);
+      box-shadow: 0 18px 52px rgba(0, 0, 0, 0.28);
+      overflow: hidden;
+    }
+
+    .controls {
+      align-self: start;
+      padding: 18px;
+    }
+
+    .field {
+      padding: 14px 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.075);
+    }
+
+    .field label {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+
+    .value {
+      color: var(--yellow);
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+
+    input[type="range"] {
+      width: 100%;
+      accent-color: var(--blue);
+    }
+
+    input[type="number"] {
+      width: 100%;
+      padding: 9px 10px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: var(--panel-soft);
+      color: var(--text);
+      font: inherit;
+    }
+
+    button {
+      width: 100%;
+      margin-top: 10px;
+      padding: 10px 12px;
+      border: 1px solid color-mix(in srgb, var(--blue), var(--line) 35%);
+      border-radius: 12px;
+      background: linear-gradient(135deg, #1b6f91, #243b68);
+      color: var(--text);
+      font: inherit;
+      cursor: pointer;
+    }
+
+    .preset-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+
+    .preset-grid button {
+      margin-top: 0;
+      padding: 9px 10px;
+      background: var(--panel-soft);
+      border-color: var(--line);
+      font-size: 13px;
+      text-align: left;
+    }
+
+    .preset-grid button:hover {
+      border-color: color-mix(in srgb, var(--blue), var(--line) 30%);
+    }
+
+    .hint {
+      margin-top: 5px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .formula {
+      margin-top: 14px;
+      padding: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 14px;
+      background: rgba(0, 0, 0, 0.25);
+      color: #d7ecff;
+      font-family: "Cascadia Code", "SFMono-Regular", Consolas, monospace;
+      font-size: 12px;
+      line-height: 1.45;
+      white-space: pre-wrap;
+    }
+
+    .stage {
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      min-height: calc(100vh - 36px);
+    }
+
+    .top {
+      padding: 18px;
+      border-bottom: 1px solid var(--line);
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 16px;
+      align-items: start;
+    }
+
+    .top p {
+      margin-bottom: 0;
+    }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(2, 150px);
+      gap: 10px;
+    }
+
+    .metric {
+      padding: 10px 12px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.045);
+    }
+
+    .metric small {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--muted);
+      font-size: 11px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .metric strong {
+      font-size: 18px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .canvas-wrap {
+      position: relative;
+      min-height: 560px;
+      background:
+        linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
+      background-size: 40px 40px;
+    }
+
+    canvas {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    .legend {
+      position: absolute;
+      left: 14px;
+      bottom: 14px;
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: rgba(13, 17, 23, 0.78);
+      backdrop-filter: blur(10px);
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    .swatch {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      margin-right: 6px;
+      border-radius: 50%;
+      vertical-align: -1px;
+    }
+
+    .impact {
+      background: var(--yellow);
+    }
+
+    .center {
+      background: var(--blue);
+    }
+
+    .boundary {
+      border: 1px solid var(--red);
+    }
+
+    .bottom {
+      padding: 13px 18px 16px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    @media (max-width: 900px) {
+      main {
+        grid-template-columns: 1fr;
+      }
+
+      .stage {
+        min-height: 690px;
+      }
+
+      .top {
+        grid-template-columns: 1fr;
+      }
+
+      .metrics {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card controls">
+      <h1>Shotgun spread</h1>
+      <p>
+        A small interactive demo of Deadline’s current pellet spread math. Defaults are the current stock R870
+        00 buck setup: <code>barrel_deviation = 0.85</code>, <code>spread_multiplier = 1.5</code>,
+        <code>spread_factor = 0.8</code>, and 9 projectiles.
+      </p>
+
+      <h2>Current ammo presets</h2>
+      <div class="preset-grid" id="presetGrid"></div>
+      <div class="hint" id="presetNote">Current preset: 12g 00 buck, 9× 00_buck_piece.</div>
+
+      <div class="field">
+        <label for="deviation">
+          <span>barrel_deviation</span>
+          <span class="value" id="deviationValue"></span>
+        </label>
+        <input id="deviation" type="range" min="0" max="5" step="0.01" value="0.85" />
+        <div class="hint">The built weapon stat used by the current firing path.</div>
+      </div>
+
+      <div class="field">
+        <label for="spreadMultiplier">
+          <span>spread_multiplier</span>
+          <span class="value" id="spreadMultiplierValue"></span>
+        </label>
+        <input id="spreadMultiplier" type="range" min="0" max="5" step="0.01" value="1.5" />
+        <div class="hint">Scales the maximum cone radius.</div>
+      </div>
+
+      <div class="field">
+        <label for="spreadFactor">
+          <span>spread_factor</span>
+          <span class="value" id="spreadFactorValue"></span>
+        </label>
+        <input id="spreadFactor" type="range" min="0.05" max="6" step="0.01" value="0.8" />
+        <div class="hint">Higher values pull pellets toward center; lower values push them toward the edge.</div>
+      </div>
+
+      <div class="field">
+        <label for="distance">
+          <span>Target distance</span>
+          <span class="value" id="distanceValue"></span>
+        </label>
+        <input id="distance" type="range" min="5" max="250" step="1" value="100" />
+      </div>
+
+      <div class="field">
+        <label for="projectiles">
+          <span>Projectiles</span>
+          <span class="value" id="projectilesValue"></span>
+        </label>
+        <input id="projectiles" type="range" min="1" max="500" step="1" value="9" />
+      </div>
+
+      <div class="field">
+        <label for="seed">
+          <span>Seed</span>
+          <span class="value">repeatable pattern</span>
+        </label>
+        <input id="seed" type="number" value="12345" step="1" />
+        <button id="reroll" type="button">Reroll spread</button>
+      </div>
+
+      <h2>Game formula</h2>
+      <div class="formula">input = barrel_deviation
+max = tan(input / 100) * spread_multiplier
+dir = Vector2(rand(-1, 1), rand(-1, 1)).Unit
+vec = dir * max * (rand(0, 1) ^ spread_factor)
+final = (barrelCFrame * CFrame.Angles(vec.X, vec.Y, 0)).LookVector</div>
+    </section>
+
+    <section class="card stage">
+      <div class="top">
+        <div>
+          <h1>Impact pattern at target distance</h1>
+          <p>
+            Yellow dots are simulated projectiles. The red outline is the exact maximum boundary for the current
+            cone on a flat target plane.
+          </p>
+        </div>
+
+        <div class="metrics">
+          <div class="metric">
+            <small>Max angle</small>
+            <strong id="maxAngle"></strong>
+          </div>
+          <div class="metric">
+            <small>Max radius</small>
+            <strong id="maxRadius"></strong>
+          </div>
+          <div class="metric">
+            <small>Mean radius scale</small>
+            <strong id="meanScale"></strong>
+          </div>
+          <div class="metric">
+            <small>Median radius scale</small>
+            <strong id="medianScale"></strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="canvas-wrap">
+        <canvas id="canvas"></canvas>
+        <div class="legend">
+          <div><span class="swatch impact"></span>projectile impact</div>
+          <div><span class="swatch center"></span>barrel forward center</div>
+          <div><span class="swatch boundary"></span>maximum boundary</div>
+        </div>
+      </div>
+
+      <div class="bottom" id="sampleStats"></div>
+    </section>
+  </main>
+
+  <script>
+    const presets = [
+      {
+        label: "00 buck",
+        note: "12g_mili_275_00buck_9x: 9× 00_buck_piece",
+        spreadMultiplier: 1.5,
+        spreadFactor: 0.8,
+        projectiles: 9
+      },
+      {
+        label: "04 birdshot",
+        note: "12g_federal_game_load_275_4shot_152x: current ammo_mixing has 31× 04_buck_piece",
+        spreadMultiplier: 2.5,
+        spreadFactor: 0.5,
+        projectiles: 31
+      },
+      {
+        label: "Beanbag",
+        note: "12g_foxhill_275_mean_bean_bag: single projectile",
+        spreadMultiplier: 2,
+        spreadFactor: 6,
+        projectiles: 1
+      },
+      {
+        label: "Slug",
+        note: "12g_roosevelt_accutip_275_slug: single projectile",
+        spreadMultiplier: 1,
+        spreadFactor: 1,
+        projectiles: 1
+      },
+      {
+        label: "DB 00 piece",
+        note: "12g_phoenix_hellfire_300_dragons_breath component: 3× 00_buck_piece",
+        spreadMultiplier: 1.5,
+        spreadFactor: 0.8,
+        projectiles: 3
+      },
+      {
+        label: "DB 02 piece",
+        note: "12g_phoenix_hellfire_300_dragons_breath component: 2× 02_buck_piece",
+        spreadMultiplier: 1.7,
+        spreadFactor: 0.6,
+        projectiles: 2
+      },
+      {
+        label: "DB fragment",
+        note: "12g_phoenix_hellfire_300_dragons_breath component: 12× dragon_breath_fragment",
+        spreadMultiplier: 5,
+        spreadFactor: 1,
+        projectiles: 12
+      }
+    ];
+
+    const ids = {
+      deviation: document.getElementById("deviation"),
+      spreadMultiplier: document.getElementById("spreadMultiplier"),
+      spreadFactor: document.getElementById("spreadFactor"),
+      distance: document.getElementById("distance"),
+      projectiles: document.getElementById("projectiles"),
+      seed: document.getElementById("seed"),
+      canvas: document.getElementById("canvas")
+    };
+
+    function mulberry32(seed) {
+      let t = seed >>> 0;
+      return function random() {
+        t += 0x6D2B79F5;
+        let r = Math.imul(t ^ (t >>> 15), 1 | t);
+        r ^= r + Math.imul(r ^ (r >>> 7), 61 | r);
+        return ((r ^ (r >>> 14)) >>> 0) / 4294967296;
+      };
+    }
+
+    function number(value, digits = 2) {
+      return value.toLocaleString(undefined, {
+        maximumFractionDigits: digits,
+        minimumFractionDigits: digits
+      });
+    }
+
+    function readConfig() {
+      return {
+        deviation: Number(ids.deviation.value),
+        spreadMultiplier: Number(ids.spreadMultiplier.value),
+        spreadFactor: Number(ids.spreadFactor.value),
+        distance: Number(ids.distance.value),
+        projectiles: Number(ids.projectiles.value),
+        seed: Number(ids.seed.value) || 0
+      };
+    }
+
+    function updateLabels(config) {
+      document.getElementById("deviationValue").textContent = number(config.deviation, 2);
+      document.getElementById("spreadMultiplierValue").textContent = number(config.spreadMultiplier, 2);
+      document.getElementById("spreadFactorValue").textContent = number(config.spreadFactor, 2);
+      document.getElementById("distanceValue").textContent = `${config.distance} studs`;
+      document.getElementById("projectilesValue").textContent = `${config.projectiles}`;
+    }
+
+    function projectToTarget(xAngle, yAngle, distance) {
+      // Matches identity CFrame * CFrame.Angles(x, y, 0).LookVector, then intersects
+      // that ray with a flat plane `distance` studs in front of the muzzle.
+      const dx = -Math.sin(yAngle);
+      const dy = Math.sin(xAngle) * Math.cos(yAngle);
+      const dz = -Math.cos(xAngle) * Math.cos(yAngle);
+      const t = distance / -dz;
+      return { x: dx * t, y: dy * t };
+    }
+
+    function sampleProjectile(random, config) {
+      const max = Math.tan(config.deviation / 100) * config.spreadMultiplier;
+      const rx = random() * 2 - 1;
+      const ry = random() * 2 - 1;
+      const length = Math.hypot(rx, ry) || 1;
+      const radius = Math.pow(random(), config.spreadFactor);
+      const xAngle = (rx / length) * max * radius;
+      const yAngle = (ry / length) * max * radius;
+      const point = projectToTarget(xAngle, yAngle, config.distance);
+      return { ...point, radius: Math.hypot(point.x, point.y) };
+    }
+
+    function getBoundary(config) {
+      const max = Math.tan(config.deviation / 100) * config.spreadMultiplier;
+      const points = [];
+      let radius = 0;
+      for (let i = 0; i < 240; i++) {
+        const angle = (i / 240) * Math.PI * 2;
+        const point = projectToTarget(Math.cos(angle) * max, Math.sin(angle) * max, config.distance);
+        points.push(point);
+        radius = Math.max(radius, Math.hypot(point.x, point.y));
+      }
+      return { max, points, radius };
+    }
+
+    function drawGrid(ctx, width, height, scale, origin) {
+      ctx.save();
+      ctx.translate(origin.x, origin.y);
+
+      ctx.strokeStyle = "rgba(255,255,255,0.075)";
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.moveTo(-width, 0);
+      ctx.lineTo(width, 0);
+      ctx.moveTo(0, -height);
+      ctx.lineTo(0, height);
+      ctx.stroke();
+
+      const ringCandidates = [0.5, 1, 2, 5, 10, 20, 50, 100];
+      const rings = ringCandidates.filter((r) => r * scale > 22 && r * scale < Math.max(width, height));
+      ctx.strokeStyle = "rgba(101,216,255,0.12)";
+      ctx.fillStyle = "rgba(159,175,194,0.78)";
+      ctx.font = "12px ui-sans-serif, system-ui";
+      for (const ring of rings) {
+        ctx.beginPath();
+        ctx.arc(0, 0, ring * scale, 0, Math.PI * 2);
+        ctx.stroke();
+        ctx.fillText(`${ring} st`, ring * scale + 5, -5);
+      }
+
+      ctx.fillStyle = "#65d8ff";
+      ctx.beginPath();
+      ctx.arc(0, 0, 4, 0, Math.PI * 2);
+      ctx.fill();
+
+      ctx.restore();
+    }
+
+    function draw() {
+      const config = readConfig();
+      updateLabels(config);
+
+      const canvas = ids.canvas;
+      const wrap = canvas.parentElement;
+      const rect = wrap.getBoundingClientRect();
+      const dpr = window.devicePixelRatio || 1;
+      canvas.width = Math.max(1, Math.floor(rect.width * dpr));
+      canvas.height = Math.max(1, Math.floor(rect.height * dpr));
+
+      const ctx = canvas.getContext("2d");
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      ctx.clearRect(0, 0, rect.width, rect.height);
+
+      const boundary = getBoundary(config);
+      const random = mulberry32(config.seed);
+      const impacts = Array.from({ length: config.projectiles }, () => sampleProjectile(random, config));
+
+      const farthestImpact = impacts.reduce((max, impact) => Math.max(max, impact.radius), 0);
+      const visibleRadius = Math.max(boundary.radius, farthestImpact, 0.25);
+      const padding = 54;
+      const scale = Math.min(
+        (rect.width - padding * 2) / (visibleRadius * 2),
+        (rect.height - padding * 2) / (visibleRadius * 2)
+      );
+      const origin = { x: rect.width / 2, y: rect.height / 2 };
+
+      drawGrid(ctx, rect.width, rect.height, scale, origin);
+
+      ctx.save();
+      ctx.translate(origin.x, origin.y);
+
+      ctx.strokeStyle = "rgba(255,107,107,0.95)";
+      ctx.lineWidth = 2;
+      ctx.setLineDash([7, 5]);
+      ctx.beginPath();
+      boundary.points.forEach((point, index) => {
+        const x = point.x * scale;
+        const y = -point.y * scale;
+        if (index === 0) ctx.moveTo(x, y);
+        else ctx.lineTo(x, y);
+      });
+      ctx.closePath();
+      ctx.stroke();
+      ctx.setLineDash([]);
+
+      for (const impact of impacts) {
+        ctx.fillStyle = "rgba(255,209,102,0.8)";
+        ctx.strokeStyle = "rgba(255,255,255,0.62)";
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        ctx.arc(impact.x * scale, -impact.y * scale, 4.5, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.stroke();
+      }
+
+      ctx.restore();
+
+      const meanSampleRadius = impacts.reduce((sum, impact) => sum + impact.radius, 0) / Math.max(1, impacts.length);
+      const sorted = impacts.map((impact) => impact.radius).sort((a, b) => a - b);
+      const medianSampleRadius = sorted[Math.floor((sorted.length - 1) / 2)] || 0;
+      const meanScale = 1 / (config.spreadFactor + 1);
+      const medianScale = Math.pow(0.5, config.spreadFactor);
+
+      document.getElementById("maxAngle").textContent = `${number(boundary.max * 180 / Math.PI, 3)}°`;
+      document.getElementById("maxRadius").textContent = `${number(boundary.radius, 2)} st`;
+      document.getElementById("meanScale").textContent = number(meanScale, 3);
+      document.getElementById("medianScale").textContent = number(medianScale, 3);
+      document.getElementById("sampleStats").textContent =
+        `This seed produced mean impact radius ${number(meanSampleRadius, 2)} studs, ` +
+        `median impact radius ${number(medianSampleRadius, 2)} studs, and farthest impact ` +
+        `${number(farthestImpact, 2)} studs at ${config.distance} studs. ` +
+        `The random direction is normalized from a square sample, matching the game code's Vector2(...).Unit step.`;
+    }
+
+    for (const [name, input] of Object.entries(ids)) {
+      if (input instanceof HTMLInputElement) {
+        input.addEventListener("input", () => {
+          if (["spreadMultiplier", "spreadFactor", "projectiles"].includes(name)) {
+            document.getElementById("presetNote").textContent = "Current preset: custom slider values.";
+          }
+          draw();
+        });
+      }
+    }
+
+    document.getElementById("reroll").addEventListener("click", () => {
+      ids.seed.value = Math.floor(Math.random() * 1_000_000_000);
+      draw();
+    });
+
+    for (const preset of presets) {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.textContent = preset.label;
+      button.addEventListener("click", () => {
+        ids.spreadMultiplier.value = preset.spreadMultiplier;
+        ids.spreadFactor.value = preset.spreadFactor;
+        ids.projectiles.value = preset.projectiles;
+        document.getElementById("presetNote").textContent = `Current preset: ${preset.note}.`;
+        draw();
+      });
+      document.getElementById("presetGrid").appendChild(button);
+    }
+
+    window.addEventListener("resize", draw);
+    draw();
+  </script>
+</body>
+</html>

@@ -18,6 +18,10 @@ Contains information about stats, gameplay, mechanics, and more.
 
 <https://github.com/recoil-group/deadline-balancing/wiki>
 
+## demos
+
+- [Shotgun spread demo](demos/shotgun-spread/)
+
 ## repo guide
 
 ### balancing.csv

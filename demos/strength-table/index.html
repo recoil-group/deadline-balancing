@@ -192,19 +192,6 @@
       font-variant-numeric: tabular-nums;
     }
 
-    .formula-preview {
-      margin-top: 10px;
-      padding: 8px;
-      border: 1px solid var(--line);
-      border-radius: 6px;
-      background: var(--accent-soft);
-      color: #24534e;
-      font-family: "Cascadia Code", "SFMono-Regular", Consolas, monospace;
-      font-size: 12px;
-      line-height: 1.35;
-      overflow-wrap: anywhere;
-    }
-
     .table-panel {
       min-width: 0;
       overflow: hidden;
@@ -392,7 +379,6 @@
           <div class="section">
             <p class="section-title">Strength formula</p>
             <div class="formula-grid" id="formulaFields"></div>
-            <div class="formula-preview" id="formulaPreview"></div>
           </div>
           <div class="section">
             <p class="section-title">Export</p>
@@ -474,7 +460,6 @@
     const tableWrap = document.querySelector("#tableWrap");
     const statusEl = document.querySelector("#status");
     const formulaFieldsEl = document.querySelector("#formulaFields");
-    const formulaPreviewEl = document.querySelector("#formulaPreview");
 
     function parseCsv(text) {
       const parsed = [];
@@ -569,17 +554,6 @@
       }, 0);
     }
 
-    function updateFormulaPreview() {
-      const active = numericColumns()
-        .filter(header => Number(weights[header] ?? 0) !== 0)
-        .map(header => {
-          const weight = Number(weights[header]);
-          return `${header} * ${formatNumber(weight)}`;
-        });
-
-      formulaPreviewEl.textContent = active.length ? active.join(" + ") : "0";
-    }
-
     function renderFormulaFields() {
       formulaFieldsEl.replaceChildren();
       for (const header of numericColumns()) {
@@ -610,7 +584,6 @@
           }
           weights[header] = checkbox.checked ? Number(number.value || 0) : 0;
           updateStrengthCells();
-          updateFormulaPreview();
         });
 
         number.addEventListener("input", () => {
@@ -618,14 +591,12 @@
           if (Number(number.value || 0) === 0) checkbox.checked = false;
           if (Number(number.value || 0) !== 0) checkbox.checked = true;
           updateStrengthCells();
-          updateFormulaPreview();
         });
 
         row.append(checkbox, label, number);
         formulaFieldsEl.append(row);
       }
 
-      updateFormulaPreview();
     }
 
     function loadFromText(text) {

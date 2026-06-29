@@ -2848,8 +2848,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sig_sauer_p320_mag_short_sleeve,Sig Sauer P320 Mag Short Sleeve,1,0.06,,,,,,,,,500
 ,,sig_sauer_p320_mag_long_sleeve,Sig Sauer P320 Mag Long Sleeve,1.5,0.08,,,,,,,,,1000
 ,sig_sauer_p320_barrel,,,,,,,,,,,,,
-,,sig_sauer_p320_compact_3.9inch_9x19_barrel,"Sig Sauer P320 Compact 3.9"" 9x19 Barrel",4,0.15,3,3,,0.1,-0.03,-80,,,1000
-,,sig_sauer_p320_compact_4.6inch_threaded_9x19_barrel,"Sig Sauer P320 Compact 4.6"" Threaded 9x19 Barrel",1,0.13,1,1,,0.05,0,-50,,,3000
+,,sig_sauer_p320_compact_3.9inch_9x19_barrel,"Sig Sauer P320 Compact 3.9"" 9x19 Barrel",4,0.13,3,3,,0.1,-0.03,-80,,,1000
+,,sig_sauer_p320_compact_4.6inch_threaded_9x19_barrel,"Sig Sauer P320 Compact 4.6"" Threaded 9x19 Barrel",1,0.15,1,1,,0.05,0,-50,,,3000
 ,,sig_sauer_p320_full_4.7inch_9x19_barrel,"Sig Sauer P320 Full 4.7"" 9x19 Barrel",0,0.14,0,0,,0,0.01,-45,,,0
 ,,sig_sauer_p320_full_5.5inch_threaded_9x19_barrel,"Sig Sauer P320 Full 5.5"" Threaded 9x19 Barrel",-3,0.16,-1,-1,,-0.1,0.04,-10,,,1500
 ,sig_sauer_p320_grip_module,,,,,,,,,,,,,

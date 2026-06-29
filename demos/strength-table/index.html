@@ -1,0 +1,785 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Deadline Balance Strength Table</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f7f4;
+      --panel: #ffffff;
+      --line: #d7d9d1;
+      --line-strong: #b9beb0;
+      --text: #20231f;
+      --muted: #66705f;
+      --accent: #22706a;
+      --accent-soft: #e7f2ef;
+      --warn: #a85c10;
+      --shadow: 0 12px 34px rgba(30, 39, 33, 0.08);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    button,
+    input,
+    textarea {
+      font: inherit;
+    }
+
+    button {
+      min-height: 34px;
+      border: 1px solid var(--line-strong);
+      border-radius: 6px;
+      background: var(--panel);
+      color: var(--text);
+      cursor: pointer;
+    }
+
+    button.primary {
+      border-color: var(--accent);
+      background: var(--accent);
+      color: white;
+    }
+
+    button:hover {
+      filter: brightness(0.98);
+    }
+
+    main {
+      width: min(1500px, calc(100vw - 28px));
+      margin: 0 auto;
+      padding: 14px 0 20px;
+    }
+
+    .topbar {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 12px;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 19px;
+      font-weight: 650;
+      letter-spacing: 0;
+    }
+
+    .status {
+      min-height: 20px;
+      color: var(--muted);
+      font-size: 13px;
+      text-align: right;
+    }
+
+    .layout {
+      display: grid;
+      gap: 12px;
+    }
+
+    .panel {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+
+    .side {
+      display: grid;
+      gap: 12px;
+    }
+
+    .tool-panel {
+      display: grid;
+      grid-template-columns: minmax(260px, 1.1fr) minmax(320px, 1.35fr) minmax(260px, 1fr);
+    }
+
+    .section {
+      padding: 12px;
+    }
+
+    .section + .section {
+      border-left: 1px solid var(--line);
+    }
+
+    .section-title {
+      margin: 0 0 8px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 118px;
+      resize: vertical;
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fbfbf9;
+      color: var(--text);
+      font-family: "Cascadia Code", "SFMono-Regular", Consolas, monospace;
+      font-size: 12px;
+      line-height: 1.42;
+    }
+
+    #output {
+      min-height: 118px;
+    }
+
+    .actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .formula-grid {
+      display: grid;
+      gap: 6px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      max-height: 174px;
+      overflow: auto;
+      padding-right: 2px;
+    }
+
+    .formula-row {
+      display: grid;
+      grid-template-columns: 20px minmax(0, 1fr) 86px;
+      gap: 8px;
+      align-items: center;
+      min-height: 30px;
+    }
+
+    .formula-row label {
+      overflow: hidden;
+      color: var(--text);
+      font-size: 13px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    input[type="checkbox"] {
+      width: 16px;
+      height: 16px;
+      margin: 0;
+      accent-color: var(--accent);
+    }
+
+    input[type="number"] {
+      width: 100%;
+      height: 30px;
+      padding: 4px 7px;
+      border: 1px solid var(--line);
+      border-radius: 5px;
+      background: #fbfbf9;
+      color: var(--text);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .formula-preview {
+      margin-top: 10px;
+      padding: 8px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--accent-soft);
+      color: #24534e;
+      font-family: "Cascadia Code", "SFMono-Regular", Consolas, monospace;
+      font-size: 12px;
+      line-height: 1.35;
+      overflow-wrap: anywhere;
+    }
+
+    .table-panel {
+      min-width: 0;
+      overflow: hidden;
+    }
+
+    .table-wrap {
+      overflow: auto;
+      max-height: calc(100vh - 324px);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      font-size: 13px;
+      table-layout: fixed;
+    }
+
+    th,
+    td {
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      padding: 0;
+      background: var(--panel);
+      vertical-align: middle;
+    }
+
+    th {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      height: 34px;
+      padding: 7px 8px;
+      background: #eceee8;
+      color: #3c4438;
+      font-size: 12px;
+      font-weight: 700;
+      text-align: left;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    th:first-child,
+    td:first-child {
+      border-left: 1px solid var(--line);
+    }
+
+    tbody tr:first-child td {
+      border-top: 0;
+    }
+
+    td.cell {
+      height: 32px;
+      padding: 7px 8px;
+      outline: none;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    td.cell:focus {
+      position: relative;
+      z-index: 1;
+      box-shadow: inset 0 0 0 2px var(--accent);
+    }
+
+    td.numeric {
+      font-variant-numeric: tabular-nums;
+      text-align: right;
+    }
+
+    td.strength {
+      position: sticky;
+      right: 0;
+      z-index: 1;
+      padding: 7px 8px;
+      background: #f1f7f5;
+      color: #184f48;
+      font-variant-numeric: tabular-nums;
+      font-weight: 700;
+      text-align: right;
+    }
+
+    th.strength-head {
+      position: sticky;
+      right: 0;
+      z-index: 3;
+      background: #dcece8;
+      color: #184f48;
+      text-align: right;
+    }
+
+    .col-name {
+      width: 16%;
+    }
+
+    .col-pretty_name {
+      width: 18%;
+    }
+
+    .col-ergonomics,
+    .col-weight,
+    .col-magazine_capacity,
+    .col-bullet_damage,
+    .col-fire_rate,
+    .col-price {
+      width: 5.2%;
+    }
+
+    .col-horizontal_recoil,
+    .col-vertical_recoil,
+    .col-barrel_deviation,
+    .col-bullet_velocity,
+    .col-buck_barrel_deviation {
+      width: 6%;
+    }
+
+    .col-strength {
+      width: 6.2%;
+    }
+
+    .empty {
+      padding: 36px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .warn {
+      color: var(--warn);
+    }
+
+    @media (max-width: 900px) {
+      main {
+        width: min(100vw - 16px, 760px);
+        padding-top: 8px;
+      }
+
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .tool-panel {
+        grid-template-columns: 1fr;
+      }
+
+      .section + .section {
+        border-left: 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .table-wrap {
+        max-height: 70vh;
+      }
+
+      .topbar {
+        grid-template-columns: 1fr;
+      }
+
+      .status {
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="topbar">
+      <h1>Balance strength table</h1>
+      <div class="status" id="status">Paste balancing.csv data rows to begin.</div>
+    </div>
+
+    <div class="layout">
+      <aside class="side">
+        <section class="panel tool-panel">
+          <div class="section">
+            <p class="section-title">Input</p>
+            <textarea id="input" spellcheck="false" placeholder="Paste balancing.csv data rows here, without headers"></textarea>
+            <div class="actions">
+              <button class="primary" id="load">Load table</button>
+              <button id="sample">Use sample</button>
+            </div>
+          </div>
+          <div class="section">
+            <p class="section-title">Strength formula</p>
+            <div class="formula-grid" id="formulaFields"></div>
+            <div class="formula-preview" id="formulaPreview"></div>
+          </div>
+          <div class="section">
+            <p class="section-title">Export</p>
+            <textarea id="output" spellcheck="false" readonly placeholder="Edited CSV rows will appear here"></textarea>
+            <div class="actions">
+              <button class="primary" id="export">Export rows</button>
+              <button id="copy">Copy export</button>
+            </div>
+          </div>
+        </section>
+      </aside>
+
+      <section class="panel table-panel">
+        <div class="table-wrap" id="tableWrap">
+          <div class="empty">No rows loaded.</div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    const DEFAULT_HEADERS = [
+      "id",
+      "class",
+      "name",
+      "pretty_name",
+      "ergonomics",
+      "weight",
+      "horizontal_recoil",
+      "vertical_recoil",
+      "magazine_capacity",
+      "barrel_deviation",
+      "bullet_damage",
+      "bullet_velocity",
+      "buck_barrel_deviation",
+      "fire_rate",
+      "price",
+    ];
+
+    const SAMPLE = `641,,ak12_std_lower_handguard,Kalashnikov Concern AK-12 Std.,8,0.13,0,0,,,,,,,0
+642,,lac_akvilon15,L.A.C. Akvilon-15,7,0.26,-1,-2,,,,,,,2000
+,,kazarov_group_rpk16_handguard,Kalashnikov Convern RPK-16 Handguard,3,0.22,-2,-4,,,,,,,1500
+,,russian_tuning_ak12_megatron_handguard,Arms RTG Ak12 Megatron Handguard,4,0.3,-3,-5,,,,,,,2500`;
+
+    const DISPLAY_LABELS = {
+      pretty_name: "pretty",
+      ergonomics: "ergo",
+      horizontal_recoil: "h_recoil",
+      vertical_recoil: "v_recoil",
+      magazine_capacity: "mag",
+      barrel_deviation: "barrel_dev",
+      bullet_damage: "damage",
+      bullet_velocity: "velocity",
+      buck_barrel_deviation: "buck_dev",
+      fire_rate: "fire",
+    };
+
+    const DEFAULT_WEIGHTS = {
+      ergonomics: 1,
+      weight: -20,
+      horizontal_recoil: -0.8,
+      vertical_recoil: -0.6,
+      magazine_capacity: 0,
+      barrel_deviation: -5,
+      bullet_damage: 10,
+      bullet_velocity: 1 / 300,
+      buck_barrel_deviation: 0,
+      fire_rate: 0,
+      price: 0,
+    };
+
+    const hiddenColumnCount = 2;
+    let headers = [...DEFAULT_HEADERS];
+    let rows = [];
+    let weights = { ...DEFAULT_WEIGHTS };
+
+    const inputEl = document.querySelector("#input");
+    const outputEl = document.querySelector("#output");
+    const tableWrap = document.querySelector("#tableWrap");
+    const statusEl = document.querySelector("#status");
+    const formulaFieldsEl = document.querySelector("#formulaFields");
+    const formulaPreviewEl = document.querySelector("#formulaPreview");
+
+    function parseCsv(text) {
+      const parsed = [];
+      let row = [];
+      let cell = "";
+      let inQuotes = false;
+
+      for (let i = 0; i < text.length; i += 1) {
+        const char = text[i];
+        const next = text[i + 1];
+
+        if (char === '"') {
+          if (inQuotes && next === '"') {
+            cell += '"';
+            i += 1;
+          } else {
+            inQuotes = !inQuotes;
+          }
+          continue;
+        }
+
+        if (char === "," && !inQuotes) {
+          row.push(cell);
+          cell = "";
+          continue;
+        }
+
+        if ((char === "\n" || char === "\r") && !inQuotes) {
+          if (char === "\r" && next === "\n") i += 1;
+          row.push(cell);
+          parsed.push(row);
+          row = [];
+          cell = "";
+          continue;
+        }
+
+        cell += char;
+      }
+
+      if (cell.length > 0 || row.length > 0) {
+        row.push(cell);
+        parsed.push(row);
+      }
+
+      return parsed;
+    }
+
+    function csvEscape(value) {
+      const text = String(value ?? "");
+      if (/[",\r\n]/.test(text)) {
+        return `"${text.replaceAll('"', '""')}"`;
+      }
+      return text;
+    }
+
+    function toCsv(dataRows) {
+      return dataRows.map(row => row.map(csvEscape).join(",")).join("\n");
+    }
+
+    function isBlankRow(row) {
+      return row.every(cell => String(cell).trim() === "");
+    }
+
+    function normalizeRow(row) {
+      const next = [...row];
+      while (next.length < headers.length) next.push("");
+      return next.slice(0, headers.length);
+    }
+
+    function numericColumns() {
+      return headers.slice(hiddenColumnCount).filter(header => !["name", "pretty_name"].includes(header));
+    }
+
+    function parseNumber(value) {
+      const trimmed = String(value ?? "").trim();
+      if (trimmed === "") return 0;
+      const number = Number(trimmed);
+      return Number.isFinite(number) ? number : 0;
+    }
+
+    function formatNumber(value) {
+      if (!Number.isFinite(value)) return "";
+      const rounded = Math.round(value * 1000) / 1000;
+      return Object.is(rounded, -0) ? "0" : String(rounded);
+    }
+
+    function strengthFor(row) {
+      return numericColumns().reduce((sum, header) => {
+        const weight = Number(weights[header] ?? 0);
+        const index = headers.indexOf(header);
+        return sum + parseNumber(row[index]) * weight;
+      }, 0);
+    }
+
+    function updateFormulaPreview() {
+      const active = numericColumns()
+        .filter(header => Number(weights[header] ?? 0) !== 0)
+        .map(header => {
+          const weight = Number(weights[header]);
+          return `${header} * ${formatNumber(weight)}`;
+        });
+
+      formulaPreviewEl.textContent = active.length ? active.join(" + ") : "0";
+    }
+
+    function renderFormulaFields() {
+      formulaFieldsEl.replaceChildren();
+      for (const header of numericColumns()) {
+        if (!(header in weights)) weights[header] = 0;
+
+        const row = document.createElement("div");
+        row.className = "formula-row";
+
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.checked = Number(weights[header] ?? 0) !== 0;
+        checkbox.title = `Use ${header}`;
+
+        const label = document.createElement("label");
+        label.textContent = header;
+        label.title = header;
+
+        const number = document.createElement("input");
+        number.type = "number";
+        number.step = "any";
+        number.value = formatNumber(Number(weights[header] ?? 0));
+        number.title = `${header} weight`;
+
+        checkbox.addEventListener("change", () => {
+          if (checkbox.checked && Number(number.value) === 0) {
+            const fallback = DEFAULT_WEIGHTS[header] ?? 1;
+            number.value = formatNumber(fallback === 0 ? 1 : fallback);
+          }
+          weights[header] = checkbox.checked ? Number(number.value || 0) : 0;
+          updateStrengthCells();
+          updateFormulaPreview();
+        });
+
+        number.addEventListener("input", () => {
+          weights[header] = checkbox.checked ? Number(number.value || 0) : 0;
+          if (Number(number.value || 0) === 0) checkbox.checked = false;
+          if (Number(number.value || 0) !== 0) checkbox.checked = true;
+          updateStrengthCells();
+          updateFormulaPreview();
+        });
+
+        row.append(checkbox, label, number);
+        formulaFieldsEl.append(row);
+      }
+
+      updateFormulaPreview();
+    }
+
+    function loadFromText(text) {
+      const parsed = parseCsv(text).filter(row => !isBlankRow(row));
+      if (!parsed.length) {
+        rows = [];
+        headers = [...DEFAULT_HEADERS];
+        renderTable();
+        renderFormulaFields();
+        statusEl.textContent = "Nothing to load.";
+        return;
+      }
+
+      headers = [...DEFAULT_HEADERS];
+      rows = parsed.map(normalizeRow);
+
+      renderFormulaFields();
+      renderTable();
+      outputEl.value = "";
+      statusEl.textContent = `${rows.length} row${rows.length === 1 ? "" : "s"} loaded.`;
+    }
+
+    function renderTable() {
+      if (!rows.length) {
+        tableWrap.innerHTML = '<div class="empty">No rows loaded.</div>';
+        return;
+      }
+
+      const table = document.createElement("table");
+      const colgroup = document.createElement("colgroup");
+      headers.slice(hiddenColumnCount).forEach(header => {
+        const col = document.createElement("col");
+        col.className = `col-${header}`;
+        colgroup.append(col);
+      });
+      const strengthCol = document.createElement("col");
+      strengthCol.className = "col-strength";
+      colgroup.append(strengthCol);
+
+      const thead = document.createElement("thead");
+      const headRow = document.createElement("tr");
+
+      headers.slice(hiddenColumnCount).forEach(header => {
+        const th = document.createElement("th");
+        th.className = `col-${header}`;
+        th.textContent = DISPLAY_LABELS[header] ?? header;
+        th.title = header;
+        headRow.append(th);
+      });
+
+      const strengthHead = document.createElement("th");
+      strengthHead.className = "strength-head col-strength";
+      strengthHead.textContent = "strength";
+      headRow.append(strengthHead);
+      thead.append(headRow);
+
+      const tbody = document.createElement("tbody");
+      rows.forEach((row, rowIndex) => {
+        const tr = document.createElement("tr");
+        headers.slice(hiddenColumnCount).forEach((header, visibleIndex) => {
+          const columnIndex = visibleIndex + hiddenColumnCount;
+          const td = document.createElement("td");
+          td.className = `cell col-${header}`;
+          if (!["name", "pretty_name"].includes(header)) td.classList.add("numeric");
+          td.contentEditable = "true";
+          td.spellcheck = false;
+          td.title = row[columnIndex] ?? "";
+          td.dataset.row = String(rowIndex);
+          td.dataset.column = String(columnIndex);
+          td.textContent = row[columnIndex] ?? "";
+          td.addEventListener("input", handleCellInput);
+          td.addEventListener("paste", handleTablePaste);
+          tr.append(td);
+        });
+
+        const strength = document.createElement("td");
+        strength.className = "strength";
+        strength.dataset.strengthRow = String(rowIndex);
+        strength.textContent = formatNumber(strengthFor(row));
+        tr.append(strength);
+        tbody.append(tr);
+      });
+
+      table.append(colgroup, thead, tbody);
+      tableWrap.replaceChildren(table);
+    }
+
+    function handleCellInput(event) {
+      const cell = event.currentTarget;
+      const rowIndex = Number(cell.dataset.row);
+      const columnIndex = Number(cell.dataset.column);
+      rows[rowIndex][columnIndex] = cell.textContent;
+      updateStrengthCell(rowIndex);
+    }
+
+    function handleTablePaste(event) {
+      const text = event.clipboardData?.getData("text/plain");
+      if (!text || (!text.includes("\t") && !text.includes("\n"))) return;
+
+      event.preventDefault();
+      const startCell = event.currentTarget;
+      const startRow = Number(startCell.dataset.row);
+      const startColumn = Number(startCell.dataset.column);
+      const pastedRows = text.replace(/\r\n/g, "\n").replace(/\r/g, "\n").split("\n");
+      if (pastedRows.at(-1) === "") pastedRows.pop();
+
+      pastedRows.forEach((line, rowOffset) => {
+        const targetRow = startRow + rowOffset;
+        if (!rows[targetRow]) return;
+        line.split("\t").forEach((value, columnOffset) => {
+          const targetColumn = startColumn + columnOffset;
+          if (targetColumn >= headers.length) return;
+          rows[targetRow][targetColumn] = value;
+        });
+      });
+
+      renderTable();
+    }
+
+    function updateStrengthCell(rowIndex) {
+      const cell = document.querySelector(`[data-strength-row="${rowIndex}"]`);
+      if (cell) cell.textContent = formatNumber(strengthFor(rows[rowIndex]));
+    }
+
+    function updateStrengthCells() {
+      rows.forEach((_, rowIndex) => updateStrengthCell(rowIndex));
+    }
+
+    function exportRows() {
+      if (!rows.length) {
+        outputEl.value = "";
+        statusEl.innerHTML = '<span class="warn">No rows to export.</span>';
+        return;
+      }
+
+      outputEl.value = toCsv(rows);
+      statusEl.textContent = `Exported ${rows.length} row${rows.length === 1 ? "" : "s"}.`;
+    }
+
+    document.querySelector("#load").addEventListener("click", () => loadFromText(inputEl.value));
+    document.querySelector("#sample").addEventListener("click", () => {
+      inputEl.value = SAMPLE;
+      loadFromText(SAMPLE);
+    });
+    document.querySelector("#export").addEventListener("click", exportRows);
+    document.querySelector("#copy").addEventListener("click", async () => {
+      if (!outputEl.value) exportRows();
+      if (!outputEl.value) return;
+      await navigator.clipboard.writeText(outputEl.value);
+      statusEl.textContent = "Export copied.";
+    });
+
+    renderFormulaFields();
+  </script>
+</body>
+
+</html>

@@ -1,4 +1,4 @@
-﻿0.25.3,Tue Mar 31 21:30:47 2026,,,,,,,,,,,,,
+﻿0.25.3,Mon Jun 29 11:05:57 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -2819,18 +2819,18 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sno_vulkan_rpg_7_rear_sight_zeroing_rail,SNO Vulkan RPG-7 Rear Sight Zeroing Rail,1,0.03,,,,,,,,,0
 ,,sno_vulkan_rpg_7_rear_sight_zeroing_rail_folded,SNO Bazalt RPG-7 Rear Sight Zeroing Rail Folded,1,0.03,,,,,,,,,0
 ,psrl,,,,,,,,,,,,,
-,,launchtron_psrl_2_tube,AirTronic USA PSRL-2 Tube,,3.2,,,,,,,,,0
+,,launchtron_psrl_2_tube,AirTronic USA PSRL-2 Tube,,3,,,,,,,,,0
 ,,launchtron_psrl_2_tube_shoulder_padding,AirTronic USA PSRL-2 Tube Shoulder Padding,,0.45,,,,,,,,,0
 ,,launchtron_psrl_2_trigger_housing,AirTronic USA PSRL-2 Trigger Housing,,0.27,,,,,,,,,0
 ,,launchtron_psrl_2_hammer,AirTronic USA PSRL-2 Hammer,,0.04,,,,,,,,,0
 ,,launchtron_psrl_2_safety,AirTronic USA PSRL-2 Safety,,0.02,,,,,,,,,0
 ,,launchtron_psrl_2_trigger,AirTronic USA PSRL-2 Trigger,,0.04,,,,,,,,,0
-,,launchtron_psrl_rear_top_rail,AirTronic USA PSRL Rear Top Rail,,0.07,,,,,,,,,0
-,,launchtron_psrl_rear_side_rail,AirTronic USA PSRL Rear Side Rail,,0.07,,,,,,,,,0
-,,launchtron_psrl_rear_bottom_rail,AirTronic USA PSRL Rear Bottom Rail,,0.07,,,,,,,,,0
-,,launchtron_psrl_front_top_rail,AirTronic USA PSRL Front Top Rail,,0.09,,,,,,,,,0
-,,launchtron_psrl_front_side_rail,AirTronic USA PSRL Front Side Rail,,0.05,,,,,,,,,0
-,,launchtron_psrl_front_bottom_rail,AirTronic USA PSRL Front Bottom Rail,,0.04,,,,,,,,,0
+,,launchtron_psrl_rear_top_rail,AirTronic USA PSRL Rear Top Rail,,,,,,,,,,,0
+,,launchtron_psrl_rear_side_rail,AirTronic USA PSRL Rear Side Rail,,,,,,,,,,,0
+,,launchtron_psrl_rear_bottom_rail,AirTronic USA PSRL Rear Bottom Rail,,,,,,,,,,,0
+,,launchtron_psrl_front_top_rail,AirTronic USA PSRL Front Top Rail,,,,,,,,,,,0
+,,launchtron_psrl_front_side_rail,AirTronic USA PSRL Front Side Rail,,,,,,,,,,,0
+,,launchtron_psrl_front_bottom_rail,AirTronic USA PSRL Front Bottom Rail,,,,,,,,,,,0
 ,,launchtron_psrl_ironsight_base_mount,AirTronic USA PSRL Ironsight Base Mount,,0.04,,,,,,,,,500
 ,,launchtron_psrl_rear_ironsight_base,AirTronic USA PSRL Rear,,0.03,,,,,,,,,0
 ,,launchtron_psrl_rear_ironsight,LaunchTron USA PSRL Rear Ironsight,1,0.02,,,,,,,,,0
@@ -2926,8 +2926,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,placer,,,,,,,,,,,,,
 1353,,PlacingTool,AN/PRC 152 Type A Radio,,0.2,,,,,,,,,100
 ,launcher,,,,,,,,,,,,,
-,,RPG7,RPG7,30,0,80,90,0,2.5,1,220,,,100000
-,,PSRL,PSRL,40,0,75,95,0,2.5,1,220,,,140000
+,,RPG7,RPG7,40,0,80,90,0,2.5,1,220,,,100000
+,,PSRL,PSRL,30,0,75,95,0,2.5,1,220,,,140000
 ,wearable,,,,,,,,,,,,,
 ,,cummerbund_magazine,,,,,,,,,,,,
 ,,technix_black_gloves,,,,,,,,,,,,

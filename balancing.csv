@@ -1946,9 +1946,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kf_416c_endplate,KF416C,0,0.01,,,,,,,,,100
 ,,kf_416a5_sling_eyelet_endplate,KF416A5 Sling Eyelet,0,0.02,,,,,,,,,200
 ,kf_416c_stock,,,,,,,,,,,,,
-,,kf_416c_stock_body,KF416C Stock Body,-2,0.11,,,,,,,,,1000
-,,kf_416c_type_1_buttstock,KF416C Type 1,20,0.13,-8,-7,,,,,,,250
-,,kf_416c_type_2_buttstock,KF416C Type 2,21,0.16,-8,-7,,,,,,,500
+,,kf_416c_stock_body,KF416C Stock Body,-2,0.12,,,,,,,,,1000
+,,kf_416c_type_1_buttstock,KF416C Type 1,21,0.16,-7,-7,,,,,,,250
+,,kf_416c_type_2_buttstock,KF416C Type 2,22,0.19,-7,-7,,,,,,,500
 ,hk_stock_extendable_part,,,,,,,,,,,,,
 941,,hk_g3a3_stock_extendable_part,HK G3A3 Stock Extendable Part,14,0.2,-7,-10,,,,,,,0
 ,hk_g3_button_mag_release,,,,,,,,,,,,,

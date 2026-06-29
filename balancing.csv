@@ -612,9 +612,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,taclite_urac_gen3_mounting_coupler,MODTAC U-RAC Gen3 Mounting Coupler,0,0.08,-1.5,-1.5,,,,,,,600
 ,modtac_rac_suppressor_shield,,,,,,,,,,,,,
 ,,taclite_rac_gen2_6inch_suppressor_shield,MODTAC M-RAC Gen2 6inch Suppressor Shield,2,0.07,,,,,,,,,600
-,,taclite_rac_gen2_7inch_suppressor_shield,MODTAC M-RAC Gen 2 7inch Suppressor Shield,2,0.08,,,,,,,,,700
+,,taclite_rac_gen2_7inch_suppressor_shield,MODTAC M-RAC Gen 2 7inch Suppressor Shield,2,0.08,-0.25,-0.25,,,,,,,700
 ,,taclite_rac_gen3_6inch_suppressor_shield,MODTAC M-RAC Gen3 6inch Suppressor Shield,2,0.06,,,,,,,,,800
-,,taclite_rac_gen3_7inch_suppressor_shield,MODTAC M-RAC Gen3 7inch Suppressor Shield,2,0.07,,,,,,,,,900
+,,taclite_rac_gen3_7inch_suppressor_shield,MODTAC M-RAC Gen3 7inch Suppressor Shield,2,0.07,-0.25,-0.25,,,,,,,900
 ,modtac_urac_mount,,,,,,,,,,,,,
 ,,taclite_urac_picatinny_coupler_mount,MODTAC U-RAC Picatinny Coupler Mount,0,0.03,,,,,,,,,200
 ,,taclite_urac_top_front_ironsight,TACLITE U-RAC Top Front Ironsight,1,0.01,,,,,,,,,0

@@ -2244,7 +2244,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1070,,pac_qdc_m4qd_5.56x56_flash_suppressor,PAC QDC M4QD 5.56x45,2,0.07,-9,-15,,0.1,0,0,,,500
 ,,ips_5.56x45_1inch_barrel_extension,IPS 5.56 1in Barrel Extension,-1,0.05,0,0,,0.05,0.01,20,,,400
 ,,ips_5.56x45_2inch_barrel_extension,IPS 5.56 2in Barrel Extension,-2,0.09,0,0,,0.1,0.02,40,,,500
-,,ips_5.56x45_4inch_barrel_extension,IPS 5.56 4in Barrel Extension,-3,0.17,0,0,,0.2,0.04,80,,,600
+,,ips_5.56x45_4inch_barrel_extension,IPS 5.56 4in Barrel Extension,-3,0.17,0,0,,0.2,0.03,80,,,600
 ,,ips_1_2x28_to_5_8x24_knurled_thread_adapter,ISP 1/2x28 to 5/8x24 Knurled Thread Adapter,-1,0.06,2,2,,0.2,,-200,,,1000
 ,,centrefire_socom556_sfmb_muzzle_brake,Centrefire SOCOM556 SFMB Muzzle Break,-1,0.09,-17,-11,,0.05,0,0,,,700
 ,,centrefire_warden_blast_regulator,Centrefire Warden Blast Regulator,0,0.15,-15,-11,,0,0.02,40,,,1000
@@ -2312,7 +2312,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1103,,lantac_dgn762b_asr_muzzle_brake,LANTAC DGM762B-ASR Muzzle Brake,-1,0.06,-15,-13,,0.05,0,0,,,1000
 ,,ips_7.62x51_1inch_barrel_extension,IPS 7.62x51 1in Barrel Extension,-1,0.05,0,0,,0.05,0.01,20,,,500
 ,,ips_7.62x51_2inch_barrel_extension,IPS 7.62x51 2in Barrel Extension,-2,0.09,0,0,,0.1,0.02,40,,,750
-,,ips_7.62x51_4inch_barrel_extension,IPS 7.62x51 4in Barrel Extension,-3,0.17,0,0,,0.2,0.04,80,,,1000
+,,ips_7.62x51_4inch_barrel_extension,IPS 7.62x51 4in Barrel Extension,-3,0.17,0,0,,0.2,0.03,80,,,1000
 ,,centrefire_socom762_sfmb_muzzle_brake,Surefire SOCOM762 SFMB Muzzle Break,-2,0.06,-17,-12,,0.05,0,0,,,900
 ,,odin_works_tiduro_thread_adapter_module,Odin Works Tiduro Thread Adaptor Module,-1,0.04,-8,-8,,0,0,-30,,,300
 ,,odin_works_tiduro_.338_modular_no_baffle_suppressor,Odin Works Tiduro .338 No Baffle Suppressor,-3,0.12,-9,-7,,-0.06,0.04,120,,,1500

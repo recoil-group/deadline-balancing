@@ -1,4 +1,4 @@
-﻿0.25.3,Tue Mar 31 21:30:47 2026,,,,,,,,,,,,,
+﻿0.25.3,Mon Jun 29 11:05:57 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -680,15 +680,15 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,hart_a1_pistol_grip,A1,5,0.07,-2,-3,,,,,,,500
 ,,hart_a1_chopped_pistol_grip,A1 Chopped,4,0.05,-1,-3,,,,,,,550
 326,,thordsen_frs_15_stock,Thordsen FRS-15,14,0.26,-6,-8,,,,,,,1500
-327,,magtap_moe_ar15_pistol_grip,Magpul MOE AR-15 Pistol Grip,7,0.1,-3,-5,,,,,,,800
-328,,magtap_moe_k2_ar15_pistol_grip,Magpul MOE-K2,7,0.1,-4,-4,,,,,,,800
-329,,magtap_moe_k2_scar_pistol_grip,Magpul MOE-K2 Modified,7,0.11,-4,-4,,,,,,,800
-,,magtap_moe_scar_pistol_grip,Magpul MOE Scar Pistol Grip,7,0.11,-3,-5,,,,,,,800
+327,,magtap_moe_ar15_pistol_grip,Magpul MOE AR-15 Pistol Grip,7,0.1,-3,-4,,,,,,,800
+328,,magtap_moe_k2_ar15_pistol_grip,Magpul MOE-K2,7,0.1,-4,-3,,,,,,,800
+329,,magtap_moe_k2_scar_pistol_grip,Magpul MOE-K2 Modified,7,0.11,-4,-3,,,,,,,800
+,,magtap_moe_scar_pistol_grip,Magpul MOE Scar Pistol Grip,7,0.11,-3,-4,,,,,,,800
 ,,hera_arms_cqr_gen2_pistol_grip,Hera Arms CQR Gen 2 Pistol Grip,3,0.14,-1,-6,,,,,,,1200
 ,,aeroknox_ax15_orion_pistol_grip,Aeroknox AX15 Orion Pistol Grip,9,0.09,-2,-1,,,,,,,1000
-,,bcm_gunfighter_mod3_ar15_pistol_grip,BCM Gunfighter Mod 3 AR-15 Pistol Grip,8,0.09,-3,-3,,,,,,,750
-,,pmm_bcm_gunfighter_mod3_scar_pistol_grip,PMM BCM Gunfighter Mod3 SCAR Pistol Grip,8,0.1,-3,-3,,,,,,,800
-,,axtell_defense_pistol_grip_with_trigger_guard,Daniel Defense Pistol Grip w/ Trigger Guard,10,0.13,-4,-2,,,,,,,900
+,,bcm_gunfighter_mod3_ar15_pistol_grip,BCM Gunfighter Mod 3 AR-15 Pistol Grip,8,0.09,-3,-2,,,,,,,750
+,,pmm_bcm_gunfighter_mod3_scar_pistol_grip,PMM BCM Gunfighter Mod3 SCAR Pistol Grip,8,0.1,-3,-2,,,,,,,800
+,,axtell_defense_pistol_grip_with_trigger_guard,Daniel Defense Pistol Grip w/ Trigger Guard,10,0.13,-2,-4,,,,,,,900
 ,ar15_trigger,,,,,,,,,,,,,
 330,,hart_m4a1_std_trigger,M4 Standard,2,0.04,0,0,,0,,,,,0
 331,,fort_worth_manufacturing_trigger,CMC drop-in,3,0.03,-1,0,,-0.05,,,,0.03,300
@@ -1252,7 +1252,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak12_fire_selector,,,,,,,,,,,,,
 638,,ak12_std_fire_selector,AK-12 Std.,0,0.02,,,,,,,,,0
 ,ak12_gen2_pistol_grip,,,,,,,,,,,,,
-639,,ak12_gen2_pistol_grip,Kalashnikov Concern AK-12 Gen 2,8,0.14,-5,-2,,,,,,,0
+639,,ak12_gen2_pistol_grip,Kalashnikov Concern AK-12 Gen 2,7,0.14,-5,-3,,,,,,,0
 ,ak12_gen2_stock,,,,,,,,,,,,,
 640,,ak12_gen2_stock,Kalashnikov Concern AK-12 Gen 2,16,0.2,-11,-6,,,,,,,0
 ,,kazarov_group_rpl_20_stock,Kalashnikov Concern RPL-20 Stock,8,0.24,-14,-17,,0.05,,,,,2000
@@ -1427,15 +1427,15 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak_carbine_hanguard_top_cover,,,,,,,,,,,,,
 ,,kazarov_aks74u_wooden_6p26_sb6_upper_handguard,Izhmash AKS-74U Wooden 6p26 Sb.6 Upper Handguard,0,0.04,-1,-1,,,,,,,0
 ,ak_grip,,,,,,,,,,,,,
-694,,veles_rk3_ak_pistol_grip,RK-3,7,0.11,-5,-3,,,,,,,1000
-695,,ak12_gen1_pistol_grip,AK-12 Gen 1,5,0.1,-6,-4,,,,,,,800
-696,,kazarov_ak74_bakelite_6p4_sb8v,Kazarov AK-74 Bakelite 6P4 Sb.8v,4,0.09,-4,-5,,,,,,,0
+694,,veles_rk3_ak_pistol_grip,RK-3,7,0.11,-5,-2,,,,,,,1000
+695,,ak12_gen1_pistol_grip,AK-12 Gen 1,5,0.1,-6,-3,,,,,,,800
+696,,kazarov_ak74_bakelite_6p4_sb8v,Kazarov AK-74 Bakelite 6P4 Sb.8v,4,0.09,-4,-4,,,,,,,0
 697,,ss_apex_ak_ar15_adapter,Starsurp ACE AK AR-15 Grip adapter,-1,0.03,,,,,,,,,1500
-698,,kazarov_ak74_polymer_6p1_sb8,Izhmash AK-74 Polymer 6P1 Sb.8,4,0.07,-4,-5,,,,,,,300
-699,,mg47,KGB MG-47,5,0.05,-4,-4,,,,,,,750
-700,,kazarov_pp-19-01_vityaz_pistol_grip,Izhmash PP-19-01 Vityaz Pistol Grip,6,0.09,-4,-5,,,,,,,300
-701,,us_pine_ak_pistol_grip,US Palm AK,6,0.08,-3,-6,,,,,,,900
-,,magtap_moe_k2_ak_pistol_grip,Magpul MOE-K2 AK,7,0.1,-4,-4,,,,,,,800
+698,,kazarov_ak74_polymer_6p1_sb8,Izhmash AK-74 Polymer 6P1 Sb.8,4,0.07,-4,-4,,,,,,,300
+699,,mg47,KGB MG-47,5,0.05,-3,-5,,,,,,,750
+700,,kazarov_pp-19-01_vityaz_pistol_grip,Izhmash PP-19-01 Vityaz Pistol Grip,6,0.09,-4,-4,,,,,,,300
+701,,us_pine_ak_pistol_grip,US Palm AK,6,0.08,-3,-5,,,,,,,900
+,,magtap_moe_k2_ak_pistol_grip,Magpul MOE-K2 AK,7,0.1,-4,-3,,,,,,,800
 ,ak_handguard_retainer,,,,,,,,,,,,,
 ,,kazarov_ak_handguard_retainer,Izhmash AK Handguard Retainer,1,0.01,,,,,,,,,0
 ,ak_carbine_hanguard_retainer,,,,,,,,,,,,,
@@ -1945,9 +1945,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kf_416c_endplate,KF416C,0,0.01,,,,,,,,,100
 ,,kf_416a5_sling_eyelet_endplate,KF416A5 Sling Eyelet,0,0.02,,,,,,,,,200
 ,kf_416c_stock,,,,,,,,,,,,,
-,,kf_416c_stock_body,KF416C Stock Body,-2,0.11,,,,,,,,,1000
-,,kf_416c_type_1_buttstock,KF416C Type 1,20,0.13,-8,-7,,,,,,,250
-,,kf_416c_type_2_buttstock,KF416C Type 2,21,0.16,-8,-7,,,,,,,500
+,,kf_416c_stock_body,KF416C Stock Body,-2,0.12,,,,,,,,,1000
+,,kf_416c_type_1_buttstock,KF416C Type 1,21,0.16,-7,-7,,,,,,,250
+,,kf_416c_type_2_buttstock,KF416C Type 2,22,0.19,-7,-7,,,,,,,500
 ,hk_stock_extendable_part,,,,,,,,,,,,,
 941,,hk_g3a3_stock_extendable_part,HK G3A3 Stock Extendable Part,14,0.2,-7,-10,,,,,,,0
 ,hk_g3_button_mag_release,,,,,,,,,,,,,
@@ -2818,18 +2818,18 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sno_vulkan_rpg_7_rear_sight_zeroing_rail,SNO Vulkan RPG-7 Rear Sight Zeroing Rail,1,0.03,,,,,,,,,0
 ,,sno_vulkan_rpg_7_rear_sight_zeroing_rail_folded,SNO Bazalt RPG-7 Rear Sight Zeroing Rail Folded,1,0.03,,,,,,,,,0
 ,psrl,,,,,,,,,,,,,
-,,launchtron_psrl_2_tube,AirTronic USA PSRL-2 Tube,,3.2,,,,,,,,,0
+,,launchtron_psrl_2_tube,AirTronic USA PSRL-2 Tube,,3,,,,,,,,,0
 ,,launchtron_psrl_2_tube_shoulder_padding,AirTronic USA PSRL-2 Tube Shoulder Padding,,0.45,,,,,,,,,0
 ,,launchtron_psrl_2_trigger_housing,AirTronic USA PSRL-2 Trigger Housing,,0.27,,,,,,,,,0
 ,,launchtron_psrl_2_hammer,AirTronic USA PSRL-2 Hammer,,0.04,,,,,,,,,0
 ,,launchtron_psrl_2_safety,AirTronic USA PSRL-2 Safety,,0.02,,,,,,,,,0
 ,,launchtron_psrl_2_trigger,AirTronic USA PSRL-2 Trigger,,0.04,,,,,,,,,0
-,,launchtron_psrl_rear_top_rail,AirTronic USA PSRL Rear Top Rail,,0.07,,,,,,,,,0
-,,launchtron_psrl_rear_side_rail,AirTronic USA PSRL Rear Side Rail,,0.07,,,,,,,,,0
-,,launchtron_psrl_rear_bottom_rail,AirTronic USA PSRL Rear Bottom Rail,,0.07,,,,,,,,,0
-,,launchtron_psrl_front_top_rail,AirTronic USA PSRL Front Top Rail,,0.09,,,,,,,,,0
-,,launchtron_psrl_front_side_rail,AirTronic USA PSRL Front Side Rail,,0.05,,,,,,,,,0
-,,launchtron_psrl_front_bottom_rail,AirTronic USA PSRL Front Bottom Rail,,0.04,,,,,,,,,0
+,,launchtron_psrl_rear_top_rail,AirTronic USA PSRL Rear Top Rail,,,,,,,,,,,0
+,,launchtron_psrl_rear_side_rail,AirTronic USA PSRL Rear Side Rail,,,,,,,,,,,0
+,,launchtron_psrl_rear_bottom_rail,AirTronic USA PSRL Rear Bottom Rail,,,,,,,,,,,0
+,,launchtron_psrl_front_top_rail,AirTronic USA PSRL Front Top Rail,,,,,,,,,,,0
+,,launchtron_psrl_front_side_rail,AirTronic USA PSRL Front Side Rail,,,,,,,,,,,0
+,,launchtron_psrl_front_bottom_rail,AirTronic USA PSRL Front Bottom Rail,,,,,,,,,,,0
 ,,launchtron_psrl_ironsight_base_mount,AirTronic USA PSRL Ironsight Base Mount,,0.04,,,,,,,,,500
 ,,launchtron_psrl_rear_ironsight_base,AirTronic USA PSRL Rear,,0.03,,,,,,,,,0
 ,,launchtron_psrl_rear_ironsight,LaunchTron USA PSRL Rear Ironsight,1,0.02,,,,,,,,,0
@@ -2847,8 +2847,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sig_sauer_p320_mag_short_sleeve,Sig Sauer P320 Mag Short Sleeve,1,0.06,,,,,,,,,500
 ,,sig_sauer_p320_mag_long_sleeve,Sig Sauer P320 Mag Long Sleeve,1.5,0.08,,,,,,,,,1000
 ,sig_sauer_p320_barrel,,,,,,,,,,,,,
-,,sig_sauer_p320_compact_3.9inch_9x19_barrel,"Sig Sauer P320 Compact 3.9"" 9x19 Barrel",4,0.15,3,3,,0.1,-0.03,-80,,,1000
-,,sig_sauer_p320_compact_4.6inch_threaded_9x19_barrel,"Sig Sauer P320 Compact 4.6"" Threaded 9x19 Barrel",1,0.13,1,1,,0.05,0,-50,,,3000
+,,sig_sauer_p320_compact_3.9inch_9x19_barrel,"Sig Sauer P320 Compact 3.9"" 9x19 Barrel",4,0.13,3,3,,0.1,-0.03,-80,,,1000
+,,sig_sauer_p320_compact_4.6inch_threaded_9x19_barrel,"Sig Sauer P320 Compact 4.6"" Threaded 9x19 Barrel",1,0.15,1,1,,0.05,0,-50,,,3000
 ,,sig_sauer_p320_full_4.7inch_9x19_barrel,"Sig Sauer P320 Full 4.7"" 9x19 Barrel",0,0.14,0,0,,0,0.01,-45,,,0
 ,,sig_sauer_p320_full_5.5inch_threaded_9x19_barrel,"Sig Sauer P320 Full 5.5"" Threaded 9x19 Barrel",-3,0.16,-1,-1,,-0.1,0.04,-10,,,1500
 ,sig_sauer_p320_grip_module,,,,,,,,,,,,,
@@ -2925,8 +2925,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,placer,,,,,,,,,,,,,
 1353,,PlacingTool,AN/PRC 152 Type A Radio,,0.2,,,,,,,,,100
 ,launcher,,,,,,,,,,,,,
-,,RPG7,RPG7,30,0,80,90,0,2.5,1,220,,,100000
-,,PSRL,PSRL,40,0,75,95,0,2.5,1,220,,,140000
+,,RPG7,RPG7,40,0,80,90,0,2.5,1,220,,,100000
+,,PSRL,PSRL,30,0,75,95,0,2.5,1,220,,,140000
 ,wearable,,,,,,,,,,,,,
 ,,cummerbund_magazine,,,,,,,,,,,,
 ,,technix_black_gloves,,,,,,,,,,,,

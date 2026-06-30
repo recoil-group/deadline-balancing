@@ -1,4 +1,4 @@
-﻿0.25.3,Tue Jun 30 01:44:08 2026,,,,,,,,,,,,,
+﻿0.25.3,Tue Jun 30 16:36:49 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -2278,16 +2278,16 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,resiliant_suppressors_obsidian_9_extension,Rugged Suppressors Obsidian9 9x19 Extension,-3,0.07,-3,-2,,-0.04,0.05,50,,,1000
 ,,resiliant_suppressors_obsidian_9_cap,Rugged Suppressors Obsidian9 9x19 Cap,0,0.02,,,,,,,,,0
 ,7.62x39_muzzle_device,,,,,,,,,,,,,
-1084,,kazarov_akm_6p1_0_14_compensator,Kazarov AKM 6P1 0-14,-0.5,0.04,-7,-10,,0.2,0,30,,,0
-1085,,izmash_akml_flash_hider,Izhmash AKML System,4,0.1,-3,-5,,0.05,0.04,60,,,500
-1086,,tsniitochmash_pbs_1_7.62x39_suppressor,TSNIITochMash PBS-1 7.62x39,-5,0.28,-10,-13,,-0.05,0.04,120,,,1200
-,,cnc_warrior_m14x1lh_to_5_8x24rh_muzzle_thread_adapter,CNC Warrior M14x1lh to 5/8x24rh Muzzle Thread Adaptor,-2,0.12,2,3,,0.15,-0.06,-30,,,1500
-,,lantac_dgnak47b_7.62x39_muzzle_brake,Lantac DGNAK47B 7.62x39 Muzzle Brake,-3,0.1,-13,-11,,0.25,-0.08,-30,,,900
-,,smite_industries_jcomp_gen2_7.62x39_muzzle_brake,Strike Industries JCOMP Gen2 7.62x39 Muzzle Brake,-1,0.06,-7,-11,,0.1,-0.1,-50,,,500
-,,alr_rifleworks_sr47_single_port_muzzle_brake,SLR Rifleworks SR47 Single Port Muzzle Brake,-2,0.11,-7,-14,,0.15,-0.06,-30,,,600
-,,alr_rifleworks_sr47_dual_port_muzzle_brake,SLR Rifleworks SR47 Dual Port Muzzle Brake,-4,0.14,-10,-17,,0.25,-0.08,-70,,,800
-,,jmac_laf_14_1lh_muzzle_brake,JMAC Customs LAF 14-1LH Muzzle Brake,-5,0.15,-15,-10,,0.15,-0.04,-30,,,1000
-,,veles_dtk_1l_muzzle_brake,Zenitco Dtk-1l,-2.5,0.14,-12,-10,,0.1,-0.05,-40,,,1000
+1084,,kazarov_akm_6p1_0_14_compensator,Kazarov AKM 6P1 0-14,0,0.04,-10,-13,,0,0,0,,,0
+1085,,izmash_akml_flash_hider,Izhmash AKML System,2,0.1,-11,-11,,0,0,20,,,500
+1086,,tsniitochmash_pbs_1_7.62x39_suppressor,TSNIITochMash PBS-1 7.62x39,-4,0.29,-14,-16,,-0.05,0.05,120,,,1200
+,,cnc_warrior_m14x1lh_to_5_8x24rh_muzzle_thread_adapter,CNC Warrior M14x1lh to 5/8x24rh Muzzle Thread Adaptor,-1,0.03,2,2,,0.15,-0.01,-30,,,1500
+,,lantac_dgnak47b_7.62x39_muzzle_brake,Lantac DGNAK47B 7.62x39 Muzzle Brake,-2,0.09,-14,-15,,0.05,0,20,,,900
+,,smite_industries_jcomp_gen2_7.62x39_muzzle_brake,Strike Industries JCOMP Gen2 7.62x39 Muzzle Brake,-1,0.08,-11,-17,,0.05,0,0,,,500
+,,alr_rifleworks_sr47_single_port_muzzle_brake,SLR Rifleworks SR47 Single Port Muzzle Brake,0,0.05,-13,-11,,0.05,0,0,,,600
+,,alr_rifleworks_sr47_dual_port_muzzle_brake,SLR Rifleworks SR47 Dual Port Muzzle Brake,-1,0.07,-14,-12,,0.05,0,0,,,800
+,,jmac_laf_14_1lh_muzzle_brake,JMAC Customs LAF 14-1LH Muzzle Brake,-4,0.15,-19,-10,,0.15,-0.02,0,,,1000
+,,veles_dtk_1l_muzzle_brake,Zenitco Dtk-1l,-2,0.12,-16,-14,,0.05,0,0,,,1000
 ,ak12_5.45x39_muzzle_device,,,,,,,,,,,,,
 1087,,ak12_std_muzzle_device,Kalashnikov Concern AK-12 Std.,0,0.09,-12,-14,,0.1,0,20,,,0
 1088,,kazarov_group_6ch60_ak12_suppressor,Kalashnikov Concern 6Ch60 AK-12,-5,0.3,-15,-17,,-0.15,0.14,120,,,1000

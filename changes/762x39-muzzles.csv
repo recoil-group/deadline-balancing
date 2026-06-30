@@ -1,0 +1,14 @@
+,,new,,,,,,,,,,,
+name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price,strength
+kazarov_akm_6p1_0_14_compensator,Kazarov AKM 6P1 0-14,0,0.04,-10,-13,,0,0,0,,,0,15
+izmash_akml_flash_hider,Izhmash AKML System,2,0.1,-11,-11,,0,0,20,,,500,15.5
+veles_dtk_1l_muzzle_brake,Zenitco Dtk-1l,-2,0.12,-16,-14,,0.05,0,0,,,1000,16.55
+lantac_dgnak47b_7.62x39_muzzle_brake,Lantac DGNAK47B 7.62x39 Muzzle Brake,-2,0.09,-14,-15,,0.05,0,20,,,900,16.25
+smite_industries_jcomp_gen2_7.62x39_muzzle_brake,Strike Industries JCOMP Gen2 7.62x39 Muzzle Brake,-1,0.08,-11,-17,,0.05,0,0,,,500,16.15
+alr_rifleworks_sr47_single_port_muzzle_brake,SLR Rifleworks SR47 Single Port Muzzle Brake,0,0.05,-13,-11,,0.05,0,0,,,600,15.75
+alr_rifleworks_sr47_dual_port_muzzle_brake,SLR Rifleworks SR47 Dual Port Muzzle Brake,-1,0.07,-14,-12,,0.05,0,0,,,800,15.75
+jmac_laf_14_1lh_muzzle_brake,JMAC Customs LAF 14-1LH Muzzle Brake,-4,0.15,-19,-10,,0.15,-0.02,0,,,1000,13.15
+tsniitochmash_pbs_1_7.62x39_suppressor,TSNIITochMash PBS-1 7.62x39,-4,0.29,-14,-16,,-0.05,0.05,120,,,1200,12.6
+smite_industries_oppressor_blast_shield,Strike Industries Oppressor Blast Shield,0,0.17,-13,-14,,0,0.02,20,,,1000,15.8
+,,,,,,,,,,,,,
+cnc_warrior_m14x1lh_to_5_8x24rh_muzzle_thread_adapter,CNC Warrior M14x1lh to 5/8x24rh Muzzle Thread Adaptor,-1,0.03,2,2,,0.15,-0.01,-30,,,1500,-5.45

@@ -1986,7 +1986,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ferro_ordnance_mc51_upper_receiver,FR Ordinance MC51 Upper Receiver,3,0.55,4,5,,,,,,,5000
 ,,ferro_ordnance_mc51k_upper_receiver,FR Ordinance MC51K Upper Receiver,6,0.5,10,5,,,,,,,2000
 ,,ferro_ordnance_mc51sd_upper_receiver,FR Ordinance MC51SD Upper Receiver,1,0.55,3,3,,,,,,,4000
-,,ptr_32_7.62x39_upper_receiver,PTR 32 7.62x39 Upper Receiver,15,0.62,-15,-30,,,,,,,10000
+,,ptr_32_7.62x39_upper_receiver,PTR 32 7.62x39 Upper Receiver,15,0.62,-25,-35,,,,,,,10000
 ,hk_upper_receiver_mounts,,,,,,,,,,,,,
 955,,addon_hk_upper_receiver_picatinny_rail,Custom Addon HK Upper Receiver Picatinny,-0.5,0.07,0,0,,,,,,,0
 ,hk_g3_stock,,,,,,,,,,,,,

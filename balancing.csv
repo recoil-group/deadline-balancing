@@ -904,9 +904,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,scar47_pistol_grip,,,,,,,,,,,,,
 435,,scar47_pistol_grip,HANDL DEFENSE SCAR 47,7,0.07,-2,-2,,,,,,,0
 ,scar47_upper_receiver,,,,,,,,,,,,,
-436,,aft_mk_17_upper_receiver_for_scar47,FN SCAR-H Standard,0,0.65,0,0,,,,,,,0
-437,,aft_mk20_upper_receiver_for_scar47,FN SCAR Mk20,5,0.9,3,4,,,,,,,4000
-438,,monarch_ballistics_cypher_x_standard_scar_h_upper_receiver_for_scar47,Imperial Arms CypherX Standard SCAR-H,3,0.7,0,0,,,,,,,3000
+436,,aft_mk_17_upper_receiver_for_scar47,FN SCAR-H Standard,0,0.6,0,0,,,,,,,0
+437,,aft_mk20_upper_receiver_for_scar47,FN SCAR Mk20,5,0.85,3,4,,,,,,,4000
+438,,monarch_ballistics_cypher_x_standard_scar_h_upper_receiver_for_scar47,Imperial Arms CypherX Standard SCAR-H,3,0.65,0,0,,,,,,,3000
 ,scar_handguard,,,,,,,,,,,,,
 439,,hilt_defense_scar47_mlok_handguard,Handl Defense SCAR47 MLOK,2,0.22,-1,-4,,,,,,,1200
 440,,pmm_scar_mlok_xl_rail_extension_mre_xl,PMM SCAR MLOK XL Rail Extension (MRE XL),2,0.12,0,-1,,,,,,,900
@@ -1986,7 +1986,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ferro_ordnance_mc51_upper_receiver,FR Ordinance MC51 Upper Receiver,3,0.55,4,5,,,,,,,5000
 ,,ferro_ordnance_mc51k_upper_receiver,FR Ordinance MC51K Upper Receiver,6,0.5,10,5,,,,,,,2000
 ,,ferro_ordnance_mc51sd_upper_receiver,FR Ordinance MC51SD Upper Receiver,1,0.55,3,3,,,,,,,4000
-,,ptr_32_7.62x39_upper_receiver,PTR 32 7.62x39 Upper Receiver,0,0.62,-15,-30,,,,,,,10000
+,,ptr_32_7.62x39_upper_receiver,PTR 32 7.62x39 Upper Receiver,15,0.62,-15,-30,,,,,,,10000
 ,hk_upper_receiver_mounts,,,,,,,,,,,,,
 955,,addon_hk_upper_receiver_picatinny_rail,Custom Addon HK Upper Receiver Picatinny,-0.5,0.07,0,0,,,,,,,0
 ,hk_g3_stock,,,,,,,,,,,,,

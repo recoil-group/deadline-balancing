@@ -849,9 +849,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 407,,aft_mk_17_bolt_carrier,FN SCAR-H Bolt,0,0.2,,,,,,,,,0
 ,,monarch_ballistics_buffered_scar_bolt_carrier,Imperial Arms Buffered Scar BCG,-1,0.22,-2,-2,,,,,,,500
 ,fn_scar_h_lower_receiver,,,,,,,,,,,,,
-408,,cartesia_productions_scar_h_x17_trigger_module_lower_receiver,X Products X-17 SCAR-H Trigger Module,2,0.42,1,0,,,,,,,2000
+408,,cartesia_productions_scar_h_x17_trigger_module_lower_receiver,X Products X-17 SCAR-H Trigger Module,2,0.37,1,0,,,,,,,2000
 409,,aft_mk_17_lower_receiver,FN Scar-H Standard,0,0.38,-1,1,,,,,,,0
-,,lingle_industries_ar17_scar_h_lower,Lingle Industries AR17 Scar H Lower,4,0.45,-1,-1,,,,,,,2500
+,,lingle_industries_ar17_scar_h_lower,Lingle Industries AR17 Scar H Lower,3,0.40,-1,-1,,,,,,,2500
 ,lingle_mag_release,,,,,,,,,,,,,
 ,,m4a1_std_mag_release_scar,Lingle Industries AR17 Scar H Mag Release,0,0.1,,,,,,,,,0
 ,fn_scar_h_upper_receiver,,,,,,,,,,,,,

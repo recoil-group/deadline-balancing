@@ -1758,9 +1758,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 853,,7.62x54r_zim_rifle_150gr_spbt,7.62x54R PPU Rifle Line 150gr SPBT,0,0.1,1,1,,0.1,,100,,,2000
 854,,7.62x54r_norilsk_7t2_149gr_green_tracer,7.62x54R Novosibirsk 7T2 149gr Green Tracer,1,0.13,3,3,,0.2,,200,,,1000
 ,ammo_762x39,,,,,,,,,,,,,
-855,,7.62x39_tula_57n231_122gr_ps,7.62x39 Tula 57-N-231 123gr PS,0,0.01,1,2,,0,,0,,,0
-856,,7.62x39_zim_rifle_123gr_jsp,7.62x39 PPU Rifle Line 123gr JSP,-2,0.04,3,3,,0.1,,-50,,,2000
-857,,7.62x39_s&b_sv43_123gr_red_tracer,7.62x39 Sellier & Bellot Sv43 123gr Red Tracer,-3,0.03,2,4,,0.05,,10,,,1000
+855,,7.62x39_tula_57n231_122gr_ps,7.62x39 Tula 57-N-231 123gr PS,0,0,0,0,,0,,0,,,0
+856,,7.62x39_zim_rifle_123gr_jsp,7.62x39 PPU Rifle Line 123gr JSP,-2,0.03,3,3,,0.1,,-50,,,2000
+857,,7.62x39_s&b_sv43_123gr_red_tracer,7.62x39 Sellier & Bellot Sv43 123gr Red Tracer,1,-0.01,-1,0,,0.05,,20,,,1000
 ,ammo_5.45x39,,,,,,,,,,,,,
 858,,5.45x39_hornet_black_60gr_vmax,5.45x39 Hornady BLACK 60gr V-MAX,-1,0.03,1,1,,-0.15,,-100,,,2000
 859,,5.45x39_polar_bear_60gr_fmj,5.45x39 Silver Bear 60gr FMJ,0,0.03,0,0,,0,,0,,,0

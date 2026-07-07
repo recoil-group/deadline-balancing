@@ -1,4 +1,4 @@
-﻿0.25.3,Mon Jul 06 23:29:00 2026,,,,,,,,,,,,,
+﻿0.25.3,Tue Jul 07 00:54:35 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -2016,10 +2016,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ferro_ordnance_mc51sd_125mm_7.62x51_barrel,FR Ordinance MC51SD 125mm 7.62x51,14,0.39,13,13,,0.6,-0.17,-652,,,2500
 964,,hk_psg1_bull_650mm_barrel,HK PSG-1 Bull 650mm 7.62x51,-5,1.17,-1,-1,,-0.35,0.14,509,,,4500
 ,ptr_32_barrel,,,,,,,,,,,,,
-,,ptr_32_7.62x39_457mm_m14x1lh_barrel,PTR 32 7.62x39 18in Barrel,-3,0.81,-2,-2,,-0.05,0.02,-375,,,3000
-,,ptr_32_7.62x39_457mm_5-8x24_barrel,PTR 32 7.62x39 18in 5/8 Threaded Barrel,-4,0.81,-2,-2,,-0.05,0.02,-375,,,3250
-,,ptr_32_7.62x39_406mm_m14x1lh_barrel,PTR 32 7.62x39 16in Barrel,0,0.74,0,0,,0,0,-409,,,2000
-,,ptr_32_7.62x39_406mm_5-8x24_barrel,PTR 32 7.62x39 16in 5/8 Threaded Barrel,-1,0.74,0,0,,0,0,-409,,,2250
+,,ptr_32_7.62x39_457mm_m14x1lh_barrel,PTR 32 7.62x39 18in Barrel,-3,0.81,-2,-2,,-0.05,0.02,-25,,,3000
+,,ptr_32_7.62x39_457mm_5-8x24_barrel,PTR 32 7.62x39 18in 5/8 Threaded Barrel,-4,0.81,-2,-2,,-0.05,0.02,-25,,,3250
+,,ptr_32_7.62x39_406mm_m14x1lh_barrel,PTR 32 7.62x39 16in Barrel,0,0.74,0,0,,0,0,-59,,,2000
+,,ptr_32_7.62x39_406mm_5-8x24_barrel,PTR 32 7.62x39 16in 5/8 Threaded Barrel,-1,0.74,0,0,,0,0,-59,,,2250
 ,mc51sd_suppressor,,,,,,,,,,,,,
 ,,ferro_ordnance_mc51sd_suppressor,FR Ordinance MC51SD Suppressor,-6,0.26,-8,-8,,-0.15,0.15,90,,,5000
 ,hk_g3_rear_sight_assembly_top,,,,,,,,,,,,,
@@ -2901,7 +2901,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1333,,AK308,Kalashnikov Concern AK-308,20,0,80,100,0,0.85,1,1900,,,65000
 1334,,M4A1,M4A1,15,0,65,85,0,0.6,1,2450,,,0
 1335,,QBZ95,Norinco QBZ-95,50,0,50,50,0,0.4,0.92,2500,,,25000
-1336,,SA58,,16,0,80,100,0,0.75,1,1900,,,20000
+1336,,SA58,RSA SG-58,16,0,80,100,0,0.75,1,1900,,,20000
 1337,,SCAR47,Handl Defense SCAR-47,40,0,55,60,0,0.5,1,1800,,,60000
 1338,,SCARH,FN SCAR Mk17,5,0,75,80,0,0.6,1,1900,,,75000
 1339,,SCARL,FN SCAR Mk16,40,0,60,65,0,0.45,1,2450,,,40000

@@ -2675,7 +2675,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,lockwood_impact_700_trigger,Timney Impact 700 Trigger,1,0.02,,,,,,,,,0
 ,r700_trigger_housing,,,,,,,,,,,,,
 ,,roosevelt_walker_model_700_trigger_housing,Walker Model 700 Trigger housing,0,0.03,,,,,,,,,0
-,,lockwood_impact_700_trigger_housing,Timney Impact 700 Trigger housing,1,0.03,,,,,,,,,0
+,,lockwood_impact_700_trigger_housing,Timney Impact 700 Trigger housing,0,0.03,,,,,,,,,0
 ,r700_magwell,,,,,,,,,,,,,
 ,,scrubs_outdoors_roosevelt_700_.308_magwell,Wyatt Outdoor Rem700 .308 Magwell,0,0.08,,,,,,,,,0
 ,r700_barrel,,,,,,,,,,,,,

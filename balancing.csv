@@ -1745,9 +1745,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 842,,whitner_defense_edc_x9_backstrap_large,Wilson Combat EDC X9 Large,2,0.05,,,,,,,,,200
 ,ammo_556x45,,,,,,,,,,,,,
 843,,5.56x45_federal_xm193_55gr_fmjbt,5.56x45 Federal XM193 55gr FMJBT,0,0.1,0,0,,0,0,0,,,0
-845,,5.56x45_winchester_m855_62gr_fmj,5.56x45 Winchester M855 62gr FMJ,-2,0.14,1,1,,-0.05,0,-50,,,1000
-846,,5.56x45_lakecity_m855a1_62gr_sat,5.56x45 Lake City M855A1 62gr SAT,-1,0.13,0,2,,-0.15,0,-100,,,2000
-847,,5.56x45_newq_pentagon_55gr_mchp,5.56x45 NovX Pentagon 55gr MCHP,2,0.08,2,3,,0.3,0,50,,,1200
+845,,5.56x45_winchester_m855_62gr_fmj,5.56x45 Winchester M855 62gr FMJ,-1,0.14,1,1,,-0.05,0,-100,,,1000
+846,,5.56x45_lakecity_m855a1_62gr_sat,5.56x45 Lake City M855A1 62gr SAT,-2,0.13,0,2,,-0.15,0,-50,,,2000
+847,,5.56x45_newq_pentagon_55gr_mchp,5.56x45 NovX Pentagon 55gr MCHP,1,0.08,1,0,,0.25,0,100,,,1200
 ,ammo_762x51,,,,,,,,,,,,,
 848,,7.62x51_winchester_m80_149gr_fmj,7.62x51 Winchester M80 149gr FMJ,0,0.04,0,0,,0,,0,,,0
 849,,7.62x51_federal_m118lr_175gr_otm,7.62x51 Federal M118LR 175gr OTM,0,0.07,3,2,,-0.1,,-50,,,2000

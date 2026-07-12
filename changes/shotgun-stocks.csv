@@ -1,24 +1,24 @@
 ﻿,,old,,,,,,,,,,,,,,new,,,,,,,,,,,,
 name,pretty_name,ergonomics_old,weight_old,horizontal_recoil_old,vertical_recoil_old,magazine_capacity_old,barrel_deviation_old,bullet_damage_old,bullet_velocity_old,buck_barrel_deviation_old,fire_rate_old,price_old,strength_old,,,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price,strength,strength_lessrecoil
-r870_earthquake_raptor_pistol_grip,Shockwave Raptor Rem870,15,0.08,6,6,,,,,,,1000,5,9.2,,16,0.08,6,6,,,,,,,1000,6,10.2
-r870_sps_polymer_stock,Remington SPS Polymer,18,0.24,-12,-12,,,,,,,750,30,21.6,,22,0.24,-9,-8,,,,,,,750,29.2,23.2
-,magpul,18,0.24,-10,-10,,,,,,,,27.2,20.2,,23,0.26,-7,-9,,,,,,,,28.8,23.3
-,mesa total,26,0.42,-7,-7,,,,,,,1000,27.4,22.5,,21,0.42,-10,-10,,,,,,,1000,26.6,19.6
-,agr total endcap,19,0.12,5,4,,,,,,,1000,10.2,13.4,,17,0.14,4,4,,,,,,,,8.6,11.4
-,agr total,22,0.36,-10,-12,,,,,,,,30,22.4,,20,0.38,-11,-12,,,,,,,,28.4,20.4
-strikon_scr_wooden_rifle_stock,Fightlite SCR Wooden Rifle Stock,19,0.27,-12,-15,,,,,,,1000,32.2,22.9,,19,0.29,-12,-15,,,,,,,1000,31.8,22.5
-,impact poly total,18,0.23,-10,-13,,,,,,,1100,29.2,21.3,,18,0.24,-13,-14,,,,,,,1100,32,22.6
+r870_earthquake_raptor_pistol_grip,Shockwave Raptor Rem870,15,0.08,6,6,,,,,,,1000,5,9.2,,14,0.09,6,6,,,,,,,1000,3.8,8
+r870_sps_polymer_stock,Remington SPS Polymer,18,0.24,-12,-12,,,,,,,750,30,21.6,,22,0.34,-9,-8,,,,,,,750,27.2,21.2
+,magpul,18,0.24,-10,-10,,,,,,,,27.2,20.2,,23,0.36,-7,-9,,,,,,,,26.8,21.3
+,mesa total,26,0.42,-7,-7,,,,,,,1000,27.4,22.5,,21,0.45,-10,-11,,,,,,,1000,26.6,19.3
+,agr total endcap,19,0.12,5,4,,,,,,,1000,10.2,13.4,,15,0.19,5,4,,,,,,,,4.8,8
+,agr total,22,0.36,-10,-12,,,,,,,,30,22.4,,20,0.43,-10,-12,,,,,,,,26.6,19
+strikon_scr_wooden_rifle_stock,Fightlite SCR Wooden Rifle Stock,19,0.27,-12,-15,,,,,,,1000,32.2,22.9,,19,0.38,-12,-15,,,,,,,1000,30,20.7
+,impact poly total,18,0.23,-10,-13,,,,,,,1100,29.2,21.3,,18,0.32,-13,-14,,,,,,,1100,30.4,21
 ,,,,,,,,,,,,,0,0,,,,,,,,,,,,,0,0
-magtap_moe_870_sga_polymer_stock,Magpul MOE 870 SGA Polymer,17,0.2,-10,-10,,,,,,,1200,27,20,,22,0.22,-7,-9,,,,,,,1200,28.6,23.1
-r870_mesa_tactical_leo_stock_adapter,Mesa Tactical Rem870 LEO,-2,0.17,2,2,,,,,,,1000,-8.2,-6.8,,-7,0.17,-1,-1,,,,,,,1000,-9,-9.7
-agr_870_pistol_grip,FAB Defense AGR-870,3,0.1,-3,-4,,,,,,,1000,5.8,3.4,,1,0.12,-4,-4,,,,,,,1000,4.2,1.4
-strikon_scr_high_impact_polymer_stock,Fightlite SCR High Impact Polymer Stock,16,0.19,-10,-13,,,,,,,1100,28,20.1,,16,0.2,-13,-14,,,,,,,1100,30.8,21.4
+magtap_moe_870_sga_polymer_stock,Magpul MOE 870 SGA Polymer,17,0.2,-10,-10,,,,,,,1200,27,20,,22,0.32,-7,-9,,,,,,,1200,26.6,21.1
+r870_mesa_tactical_leo_stock_adapter,Mesa Tactical Rem870 LEO,-2,0.17,2,2,,,,,,,1000,-8.2,-6.8,,-7,0.2,-1,-2,,,,,,,1000,-9,-10
+agr_870_pistol_grip,FAB Defense AGR-870,3,0.1,-3,-4,,,,,,,1000,5.8,3.4,,1,0.17,-3,-4,,,,,,,1000,2.4,-2.22045E-16
+strikon_scr_high_impact_polymer_stock,Fightlite SCR High Impact Polymer Stock,16,0.19,-10,-13,,,,,,,1100,28,20.1,,16,0.28,-13,-14,,,,,,,1100,29.2,19.8
 strikon_scr_rubber_buttpad,Fightlite SCR Rubber Buttpad,2,0.04,,,,,,,,,0,1.2,1.2,,2,0.04,,,,,,,,,0,1.2,1.2
 ,,,,,,,,,,,,,0,0,,,,,,,,,,,,,0,0
 ,viper,19,0.16,-7,-8,,,,,,,,26.2,21,,19,0.16,-7,-8,,,,,,,,26.2,21
 ,ax,9,0.09,-2,-1,,,,,,,,9.4,8.3,,9,0.09,-2,-1,,,,,,,,9.4,8.3
-,agr endcap,16,0.02,8,8,,,,,,,,4.4,10,,16,0.02,8,8,,,,,,,,4.4,10
-,agr buffer,0,0.1,,,,,,,,,,,,,0,0.1,,,,,,,,,,,
+agr_870_protection_cap,AGR 870,16,0.02,8,8,,,,,,,100,4.4,10,,14,0.02,8,8,,,,,,,100,2.4,8
+,agr buffer,0,0.1,,,,,,,,,,,,,0,0.1,,,,,,,,,,-2,
 ,hunter cheekrest,1,0.04,,,,,,,,,0,0.2,0.2,,1,0.04,,,,,,,,,0,0.2,0.2
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,

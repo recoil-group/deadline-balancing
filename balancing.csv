@@ -1,4 +1,4 @@
-﻿0.25.3,Tue Jul 07 00:54:35 2026,,,,,,,,,,,,,
+﻿0.25.3,Sat Jul 11 20:49:44 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -642,8 +642,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 305,,hart_a2_buffer,Hart A2,-2,0.15,-1,-1,,-0.05,,,,,300
 ,,ews_bufferless_system_ar15_castlenut,EWS Bufferless System AR15 Castlenut,3,0.08,7,10,,0.5,,,,,250
 ,scr_stocks,,,,,,,,,,,,,
-,,strikon_scr_wooden_rifle_stock,Fightlite SCR Wooden Rifle Stock,19,0.27,-12,-15,,,,,,,1000
-,,strikon_scr_high_impact_polymer_stock,Fightlite SCR High Impact Polymer Stock,16,0.19,-10,-13,,,,,,,1100
+,,strikon_scr_wooden_rifle_stock,Fightlite SCR Wooden Rifle Stock,19,0.29,-12,-15,,,,,,,1000
+,,strikon_scr_high_impact_polymer_stock,Fightlite SCR High Impact Polymer Stock,16,0.2,-13,-14,,,,,,,1100
 ,,strikon_scr_rubber_buttpad,Fightlite SCR Rubber Buttpad,2,0.04,,,,,,,,,0
 ,ar15_charging_handle,,,,,,,,,,,,,
 306,,combat_arms_rack_charging_handle,Battle arms rack,4.5,0.07,,,,,,,,,600
@@ -851,7 +851,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,fn_scar_h_lower_receiver,,,,,,,,,,,,,
 408,,cartesia_productions_scar_h_x17_trigger_module_lower_receiver,X Products X-17 SCAR-H Trigger Module,2,0.37,1,0,,,,,,,2000
 409,,aft_mk_17_lower_receiver,FN Scar-H Standard,0,0.38,-1,1,,,,,,,0
-,,lingle_industries_ar17_scar_h_lower,Lingle Industries AR17 Scar H Lower,3,0.40,-1,-1,,,,,,,2500
+,,lingle_industries_ar17_scar_h_lower,Lingle Industries AR17 Scar H Lower,3,0.4,-1,-1,,,,,,,2500
 ,lingle_mag_release,,,,,,,,,,,,,
 ,,m4a1_std_mag_release_scar,Lingle Industries AR17 Scar H Mag Release,0,0.1,,,,,,,,,0
 ,fn_scar_h_upper_receiver,,,,,,,,,,,,,
@@ -1162,11 +1162,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,r870_shorty_bolt,,,,,,,,,,,,,
 601,,r870_shorty_std_bolt,Remington Shortened Serbu,1,0.08,,,,,,,,,0
 ,r870_stock,,,,,,,,,,,,,
-602,,r870_earthquake_raptor_pistol_grip,Shockwave Raptor Rem870,15,0.08,6,6,,,,,,,1000
-603,,r870_sps_polymer_stock,Remington SPS Polymer,18,0.24,-12,-12,,,,,,,750
-604,,r870_mesa_tactical_leo_stock_adapter,Mesa Tactical Rem870 LEO,-2,0.17,2,2,,,,,,,1000
-605,,agr_870_pistol_grip,FAB Defense AGR-870,3,0.1,-3,-4,,,,,,,1000
-606,,magtap_moe_870_sga_polymer_stock,Magpul MOE 870 SGA Polymer,17,0.2,-10,-10,,,,,,,1200
+602,,r870_earthquake_raptor_pistol_grip,Shockwave Raptor Rem870,16,0.08,6,6,,,,,,,1000
+603,,r870_sps_polymer_stock,Remington SPS Polymer,22,0.24,-9,-8,,,,,,,750
+604,,r870_mesa_tactical_leo_stock_adapter,Mesa Tactical Rem870 LEO,-7,0.17,-1,-1,,,,,,,1000
+605,,agr_870_pistol_grip,FAB Defense AGR-870,1,0.12,-4,-4,,,,,,,1000
+606,,magtap_moe_870_sga_polymer_stock,Magpul MOE 870 SGA Polymer,22,0.22,-7,-9,,,,,,,1200
 ,r870_top_mount,,,,,,,,,,,,,
 607,,asm_1_mount,Aimtech ASM-1,-3,0.1,,,,,,,,,1200
 608,,hg_shortrail_ghost_ring_rear_sight,XS Shortrail Ghost Ring,-1,0.06,,,,,,,,,1000
@@ -1239,9 +1239,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,archient_technologies_elysium_flashlight_module,Archient Technologies Elysium Flashlight Module,-1,0.1,,-1,,,,,,,500
 ,,archient_technologies_elysium_laser_module,Archient Technologies Elysium Laser Module,-3,0.15,-2,-1,,-0.1,,,,,1000
 ,ak12_barrel,,,,,,,,,,,,,
-635,,ak12_std_415mm_barrel,AK-12 415mm 5.45x39,0,1.00,0,0,,0,0,43,,,0
+635,,ak12_std_415mm_barrel,AK-12 415mm 5.45x39,0,1,0,0,,0,0,43,,,0
 ,,kazarov_group_std_rpk16_559mm_barrel,RPK16 556mm Barrel,-8,1.18,-5,-4,,0.1,0.1,185,,,1000
-,,kazarov_group_ak12k_314mm_barrel,AK12k 314mm Barrel,5,0.90,3,4,,0.15,-0.05,-90,,,1500
+,,kazarov_group_ak12k_314mm_barrel,AK12k 314mm Barrel,5,0.9,3,4,,0.15,-0.05,-90,,,1500
 ,ak12_bolt,,,,,,,,,,,,,
 636,,ak12_std_5.45x39_bolt,AK-12 5.45x39,0,0.33,,,,,,,,,0
 ,ak12_dust_cover,,,,,,,,,,,,,
@@ -2653,9 +2653,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1253,,hunter_cheekrest_.75,Hunter 700 Stock Cheek Rest .75,1,0.05,,,,,,,,,0
 ,hunter700_cheek_sga,,,,,,,,,,,,,
 1254,,hunter_cheekrest_.25_sga,Hunter Cheek Rest .25 for SGA,0.5,0.02,,,,,,,,,0
-1255,,hunter_cheekrest_flat_sga,Hunter Cheek Rest Flat for SGA,1,0.03,,,,,,,,,0
-1256,,hunter_cheekrest_.75_sga,Hunter Cheek Rest .75 for SGA,1.5,0.04,,,,,,,,,0
-1257,,hunter_cheekrest_.5_sga,Hunter Cheek Rest .5 for SGA,2,0.05,,,,,,,,,0
+1255,,hunter_cheekrest_flat_sga,Hunter Cheek Rest Flat for SGA,0.5,0.03,,,,,,,,,0
+1256,,hunter_cheekrest_.75_sga,Hunter Cheek Rest .75 for SGA,1,0.04,,,,,,,,,0
+1257,,hunter_cheekrest_.5_sga,Hunter Cheek Rest .5 for SGA,1,0.05,,,,,,,,,0
 ,hunter700_magwell,,,,,,,,,,,,,
 1258,,magtap_hunter_ac_magwell,Magpul Hunter AC Magazine Magwell,0,0.08,,,,,,,,,0
 1259,,corvus_mounts_m4_trigger_guard,Badger Ordnance M4 R700 Bottom Plate,3,0.21,,,5,,,,,,600

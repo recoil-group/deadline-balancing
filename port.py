@@ -22,20 +22,23 @@ def update_csv(changes, original, header_line=1):
     o_headers = lines[1]
     o_name_idx = o_headers.index("name")
 
+    matched_names = set()
+
     for i in range(2, len(lines)):
         if len(lines[i]) <= o_name_idx:
             continue
         name = lines[i][o_name_idx]
         if len(name) > 0 and name in data:
+            matched_names.add(name)
             changes_row = data[name]
             for j in range(0, len(c_headers)):
                 if c_headers[j] in o_headers:
                     o_idx = o_headers.index(c_headers[j])
                     lines[i][o_idx] = changes_row[j]
-            del data[name]
 
     for name in data:
-        print(f"Warning: Name '{name}' from changes file not found in original file.")
+        if name not in matched_names:
+            print(f"Warning: Name '{name}' from changes file not found in original file.")
 
     with open(original, "w", newline="", encoding="utf-8-sig") as f:
         writer = csv.writer(f)

@@ -1,4 +1,4 @@
-﻿0.25.3,Sat Jul 11 23:11:29 2026,,,,,,,,,,,,,
+﻿0.25.3,Sun Jul 12 20:58:55 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Primary Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -99,7 +99,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 75,,target_sports_mt012m_riser_mount,"Aim Sports MT012M 0.83""",-1,0.06,,,,,,,,,300
 76,,cosmotac_blue_lam_module,NcStar Blue LAM Module,-1,0.08,,,,,,,,,750
 77,,cosmotac_mark_3_tactical_gen2_3_9x42,NcStar Mark III Tactical Gen 2 3-9x42,-5,0.26,,-2,,,,,,,2000
-78,,cosmotac_mpr45_offset_mount,NcStar Mpr45 Offset mount,-2,0.02,,,,,,,,,200
+78,,cosmotac_mpr45_offset_mount,NcStar Mpr45 Offset mount,-0.5,0.03,,,,,,,,,200
 79,,npz_1p78_kashtan_p1_picatinny_adapter,NPZ 1P78 Kashtan P-1 Picatinny Adapter,0,0.06,,,,,,,,,300
 80,,okb_crazy_romanian_picatinny_full_grip,OKB Crazy Romanian Picatinny Full Grip,1,0.11,-5,-4,,,,,,,800
 81,,okb_crazy_romanian_picatinny_half_grip,OKB Crazy Romanian Picatinny Half Grip,4,0.07,-1,-4,,,,,,,600
@@ -137,7 +137,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 107,,timber_creek_enforcer_foregrip,Timber Creek Enforcer,3,0.1,-3,-5,,,,,,,700
 108,,timber_creek_enforcer_handstop,Timber Creek Enforcer,6,0.05,-1,-2,,,,,,,700
 109,,virticon_compact_acog_ac12041_mount,Trijicon Compact ACOG AC12041 Mount w/ Q-LOC Technology,0,0.03,,,,,,,,,350
-110,,virticon_rmr_ac32066_offset,Trijicon RMR AC32066 45degree Offset Mount,-2,0.03,,,,,,,,,200
+110,,virticon_rmr_ac32066_offset,Trijicon RMR AC32066 45degree Offset Mount,-0.5,0.03,,,,,,,,,200
 111,,virticon_rx14_mount,Trijicon RX14,-0.5,0.06,,,,,,,,,200
 112,,virticon_srs02,Trijicon SRS-02,-1,0.16,,,,,,,,,1000
 113,,virticon_ta51_flattop_mount,Trijicon TA51 Thumbscrew Flattop,0,0.06,,,,,,,,,400
@@ -2092,9 +2092,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,steyr_aug_austrian_mag_bottom_plates,,,,,,,,,,,,,
 1001,,steyr_aug_austrian_mag_bottom_plate,Steyr AUG A3 Austrian Mag,0,0.02,,,,,,,,,0
 ,aug_case_deflector,,,,,,,,,,,,,
-1002,,corvus_defensio_aug_case_deflector,Corvus Defensio AUG Case Deflector,2.5,0.08,,,,,,,,,1000
-,,arid_concepts_aug_low_profile_case_deflector,Arid Concepts AUG Low Profile Case Deflector,1,0.04,,,,,,,,,600
-,,steyr_aug_case_deflector,Steyr AUG Case Deflector,2,0.07,,,,,,,,,500
+1002,,corvus_defensio_aug_case_deflector,Corvus Defensio AUG Case Deflector,2.5,0.07,,,,,,,,,1000
+,,arid_concepts_aug_low_profile_case_deflector,Arid Concepts AUG Low Profile Case Deflector,1,0.02,,,,,,,,,600
+,,steyr_aug_case_deflector,Steyr AUG Case Deflector,2,0.05,,,,,,,,,500
 ,aug_magwell,,,,,,,,,,,,,
 ,,wfortungsten_3d_printed_aug_nato_magwell,WforTungsten's 3D Printed AUG NATO Magwell,2,0.03,,,,,,,,,750
 ,aug_a3_charging_handle,,,,,,,,,,,,,
@@ -2137,8 +2137,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1017,,cerberus_arms_aug_cantiliver_forend_top_rail,Manticore Arms AUG Forend Top Rail,1,0.17,-1,-3,,,,,,,600
 1018,,cerberus_arms_30mm_talon_scope_mount,Manticore Arms 30mm Talon,-3,0.15,0,-1,,,,,,,800
 1019,,corvus_defension_m1_aug_receiver_rail,Corvus Defensio M1 AUG Receiver Rail,-1,0.14,-1,-1,,,,,,,750
-,,steyr_aug_a3sf_60mm_3x_scope,Steyr AUG A3SF 60mm 3x,2,0.26,0,-1,,,,,,,3000
-,,steyr_aug_a3sf_60mm_1.5x_scope,Steyr AUG A3SF 60mm 1.5x,2,0.26,0,-1,,,,,,,2000
+,,steyr_aug_a3sf_60mm_3x_scope,Steyr AUG A3SF 60mm 3x,0,0.26,0,-1,,,,,,,3000
+,,steyr_aug_a3sf_60mm_1.5x_scope,Steyr AUG A3SF 60mm 1.5x,0,0.26,0,-1,,,,,,,2000
 ,,steyr_aug_a3_m1_extended_factory_rail,Steyr AUG A3 M1 Extended Factory Top Rail,-2,0.13,-1,-2,,,,,,,800
 ,aug_a3_trigger,,,,,,,,,,,,,
 1020,,aug_a3_std_trigger,AUG A3 Std.,1,0.06,,,,,,,,,0
@@ -2740,11 +2740,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,mp5_front_sight,,,,,,,,,,,,,
 ,,hk_mp5_std_front_sight_assembly,HK MP5 Std. Front Sight Assembly,0,0.03,,,,,,,,,
 ,mp5_handguard,,,,,,,,,,,,,
-,,hk_mp5_wide_tropical_handguard,HK MP5 Wide Tropical,8,0.17,-9,-7,,,,,,,0
-,,hk_mp5sd_polymer_handguard,HK MP5SD Polymer Handguard,11,0.16,-6,-8,,,,,,,1000
-,,bt_bt21343_3x_nar_mp5sd_handguard,B&T BT-21343 3x NAR MP5SD Handguard,7,0.23,-5,-7,,,,,,,1200
+,,hk_mp5_wide_tropical_handguard,HK MP5 Wide Tropical,9,0.17,-10,-10,,,,,,,0
+,,hk_mp5sd_polymer_handguard,HK MP5SD Polymer Handguard,11,0.16,-7,-8,,,,,,,1000
+,,bt_bt21343_3x_nar_mp5sd_handguard,B&T BT-21343 3x NAR MP5SD Handguard,7,0.22,-6,-7,,,,,,,1200
 ,,bt_bt401003_tl99_3x_nar_mp5_handguard,B&T TL99 3x NAR MP5 Handguard,8,0.16,-6,-8,,,,,,,600
-,,hk_mp5_slim_checkered_handguard,HK MP5 Slim Checkered Handguard,10,0.15,-7,-6,,,,,,,1500
+,,hk_mp5_slim_checkered_handguard,HK MP5 Slim Checkered Handguard,13,0.15,-7,-6,,,,,,,1500
 ,,centrefire_628lmf_b_mp5_handguard,Surefire 628LMF-B MP5 Handguard,8,0.2,-9,-9,,,,,,,1200
 ,,northeast_industries_mp5_mlok_handguard,Midwest Industries MP5 MLOK Handguard,9,0.14,-6,-7,,,,,,,1000
 ,,ptr_mp5_trirail_handguard,PTR MP5 Trirail Handguard,7,0.11,-8,-6,,,,,,,900

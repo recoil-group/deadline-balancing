@@ -2,75 +2,104 @@
 
 ## Project Context
 
-This repo is the balancing/data workspace for the Roblox game Deadline. It is not the main game source repo. The connected Roblox Studio place exposes compiled/synced game code, runtime modules, remotes, config modules, item/property modules, maps, assets, and Studio utility scripts.
+This public repo is Deadline's balancing/data workspace. It contains game CSVs, focused change sheets, generated changelogs/diffs, and balancing-team tools.
 
-Default Studio MCP posture: read-only. Use `get_studio_state`, `search_game_tree`, `inspect_instance`, `script_search`, `script_grep`, `script_read`, and `get_console_output` for exploration. Do not use mutating tools such as `multi_edit`, `insert_asset`, `generate_material`, `upload_image`, `execute_luau`, or `start_stop_play` unless the user explicitly asks for a Studio change or command execution.
+This is not the main game source repo. When available, sibling `../deadline` is a roblox-ts project whose `src/` compiles to `out/`, which Rojo syncs into Studio. Read `../deadline/AGENTS.md` or `../deadline/CLAUDE.md` before working there.
+
+A connected Roblox Studio place may contain attachment, weapon, and other game data that is not represented in this repo or the main source repo.
+
+The root balancing CSVs are authoritative for the stats and fields they define; in particular, `balancing.csv` is the master sheet for general attachment stats. They are not complete item definitions: inspect Studio for the additional weapon and attachment data described below, and consult `../deadline` for how CSV and Studio data are applied at runtime. Prefer the local root CSVs over stale imported copies in Studio.
 
 ## Repo Map
 
 - `README.md`: quick overview and local script usage.
 - `balancing.csv`: primary attachment stats sheet.
-- `testing.csv`: testing/dev import sheet.
+- `testing.csv`: testing/dev import sheet; ignore unless specifically asked to use it.
 - Root CSVs loaded into Studio include `calibers.csv`, `optics.csv`, `lasers.csv`, `flashlights.csv`, `camo.csv`, and `progression.csv`.
-- `changes/`: focused change sheets, usually paired `.csv` and `.xlsx`.
+- `changes/`: focused one-time change sheets, usually paired `.csv` and `.xlsx`. The `.xlsx` files are the human-editing source of truth; Python scripts read the `.csv` files.
 - `archive/`: historical balancing CSVs for changelog generation.
-- `changelogs/` and `diffs/`: generated Markdown outputs.
-- `demos/`: small HTML balancing visualizations.
-- `renaming/`: attachment rename helpers and intermediate data.
+- `changelogs/` and `diffs/`: generated Markdown changelog outputs.
+- `demos/`: small HTML balancing visualizations/tools.
+- `renaming/`: temporary renaming helpers.
+
+## Runtime Balance Context
+
+The general data flow is:
+
+```text
+balancing.csv -> imported csv_stats -> stats keyed by name -> completed item build
+calibers.csv  -> imported csv_calibers -> caliber data -> selected ammunition properties
+...other root csvs
+```
+
+When investigating balance behavior:
+
+- `name` is the primary key used to match items across CSVs and Studio.
+- `fire_rate` and `bullet_damage` are fractional modifiers applied to base weapon or ammo stats.
+
+## Related Source and Studio Context
+
+`../deadline/default.project.json` syncs compiled code into `ReplicatedFirst`, `ReplicatedStorage`, and `ServerScriptService` while allowing other Studio Instances to coexist. It does not map major content containers such as `ServerStorage` and `Workspace`, so absence from `../deadline` does not mean an item or asset is nonexistent.
+
+Useful balance-related source landmarks in `../deadline` include:
+
+- `src/shared/module/namespace/AttachmentStatsData.ts`: loads general, optic, laser, and flashlight CSV data.
+- `src/shared/module/namespace/CaliberManifest.ts`: loads caliber/ammunition data and resolves referenced projectile/shell assets.
+- `src/shared/class/ItemBuild/`: build traversal, compatibility, attachment handling, and final stats. Start with `BuildConfig.ts`, `ItemBuild.ts`, `module/count_stats.ts`, and `module/attach_accessories.ts`.
+- `src/shared/framework/core/manifest/AttachmentManifest.ts`: associates registered attachments with their CSV stats and Studio definitions.
+- `src/shared/framework/core/manifest/item/framework_properties_manifest.ts`: associates item definitions with base CSV stats.
+
+Studio data conventions:
+
+- Weapons live under `ReplicatedStorage.data.item.<category>.<weapon>`.
+  - `properties` defines intrinsic weapon behavior outside the general CSV, such as base RPM and fire modes, operation and magazine types, animations and sounds, procedural handling, and mappings from completed stats to concrete gameplay values.
+  - `defaults` defines the stock nested attachment build. Changing it can change the stock weapon's completed stats and behavior without changing the weapon's own CSV row.
+  - `model`, `offsets`, and `player_offsets` define geometry and presentation; named parts and attachment points can also affect behavior.
+- Attachment definitions live under `ServerStorage.attachment_data`. Each attachment is a root `ModuleScript` whose returned table can define its type, display data, compatibility, nested mount map, default children, incompatibilities, and `global_flags`.
+  - A child `runtime_properties` module defines category-specific behavior not represented by ordinary general stats, such as an ammo caliber selection, optic behavior, magazine display behavior, or muzzle particle and flash-hider behavior.
+  - A child `property_patch` module can replace portions of the weapon's intrinsic `properties`, including RPM, fire modes, recoil mappings, animations, operation type, or magazine type. Check it when a conversion changes more than its visible CSV deltas suggest.
+  - A child `attributes` module generally defines selectable appearance or configuration data. Verify its consumer before assuming it is gameplay-neutral.
+- Current source assigns weapon base stats from the CSV row matching the weapon name and replaces an attachment's inline `stats` with the CSV row matching the attachment name. Treat inline Studio `stats` as legacy or non-authoritative unless current source shows a different path.
+
+Other useful Studio landmarks include:
+
+- `ReplicatedStorage.data.csv`: imported, chunked copies of the root CSVs.
+- `ServerScriptService.ext-util.attachment-management`: Studio-side attachment import/export and maintenance utilities.
 
 ## Local Scripts
 
-- `python port.py <change sheet> <target sheet> <header row>` ports matching rows by `name` into the target CSV and updates the target timestamp. The current code requires the header-row argument even though `README.md` describes it as optional.
-- `python changelog.py <old sheet> <new sheet>` writes `changelogs/<version>.md`.
-- `python diff.py <old sheet> <new/change sheet>` writes `diffs/<new-sheet-name>.md`.
+See `README.md` for usage. Agent-relevant caveats:
 
-The scripts use `utf-8-sig` CSV handling. Empty cells in change sheets are significant: `port.py` can overwrite target cells with empty strings.
+- `port.py` currently requires the header-row argument even though `README.md` describes it as optional.
+- The scripts use `utf-8-sig` CSV handling.
+- Empty cells in change sheets are significant: `port.py` can overwrite target cells with empty strings.
 
-## Studio MCP
+## Roblox Studio MCP
 
-The MCP server is configured in `~/.codex/config.toml` as:
+Studio MCP is read-only by default. Use inspection/search/read tools; do not mutate Studio or start/stop Play unless the user explicitly requests a change, command, or test run.
+
+The MCP server is configured in `~/.codex/config.toml`.
+
+On macOS:
 
 ```toml
 [mcp_servers.Roblox_Studio]
 command = "/Applications/RobloxStudio.app/Contents/MacOS/StudioMCP"
 ```
 
-On 2026-06-29, the connected Studio state was Edit mode for Deadline place `7452050927`, with available DataModel `Edit`.
+On Windows:
 
-If `list_roblox_studios` returns a stale/opaque ID while a place is open, inspect the latest Studio log under `~/Library/Logs/Roblox/*_Studio_*_last.log`, find the current `studioSid`, and call `set_active_studio` with that value before retrying state/tree tools.
+```toml
+[mcp_servers.Roblox_Studio]
+command = 'cmd.exe'
+args = ['/c', '%LOCALAPPDATA%\Roblox\mcp.bat']
+startup_timeout_sec = 30
+```
 
-## Studio Landmarks
+The connected Studio most likely has place ID `7452050927`, though other Deadline places are possible. Confirm the active instance before relying on it.
 
-- `ServerScriptService.main`: compiled roblox-ts server bootstrap. It requires `ServerScriptService.main.dl_server`.
-- `ServerScriptService.main.controller`: high-level server controllers such as players, bots, protection, debug, misc setup, and tag handlers.
-- `ServerScriptService.main.remote`: server remote definitions grouped by assignments, chat, data, framework, game, git attachment stats, insitux, match, and monetization.
-- `ServerScriptService.main.server`: server systems, including classes, core services, gamemodes, modules, namespaces, web API, ECS, grenade systems, and AI.
-- `ServerScriptService.main.server.namespace`: managers such as GameData, GamemodeManager, HitregManager, PlayerManager, ServerAttachmentManifest, WeaponControl, Anticheat, ChatManager, InsituxServer, ServerFramework, and ServerMetadata.
-- `ServerScriptService.main.server.webapi`: web API code; avoid dumping secrets unless the user specifically asks and there is a clear reason.
-- `ServerScriptService.storybook`: ModuleScript stories/tests for gameplay and GUI components.
-- `ServerScriptService.ext-util.attachment-management`: Studio utilities for attachment import/export and maintenance, including `import_csvs`, `import_arbitrary_csv`, `regen_attachment_properties`, `balancing.generate_spreadsheet_data`, rename helpers, weld helpers, and PBR helpers.
-- `ReplicatedStorage.client`: client entry modules, GUI tree, FX modules, namespaces, and controllers such as `dl_client`, `dl_replicator`, and `grenade_replicator`.
-- `ReplicatedStorage.client.gui`: UI modules for main menu, loadout, deploy, settings, profile, shop, quests, servers, weapon editor, ingame/death/match views, chat, leaderboard, loading, and reusable components.
-- `ReplicatedStorage.module`: shared modules for remotes, shared state, teams, casting, data, namespaces, raycasting, rodux, shootables, sight raycasting, utilities, voxels, grenades, and characters.
-- `ReplicatedStorage.module.namespace`: data/runtime modules including `AttachmentStatsData`, `GitAttachmentStats`, `ProgressionData`, `CaliberManifest`, `AttachmentCamoData`, `TestConfig`, and serialization helpers.
-- `ReplicatedStorage.module.util`: helper modules including CSV loading, attachment lookup, weapon setup parsing, rename/update helpers, and general utilities.
-- `ReplicatedStorage.class`: shared class-like modules plus `GunshotEmitter`, `ItemBuild`, and `SoundEventPlayer`.
-- `ReplicatedStorage.class.ItemBuild`: item build, compatibility, attachment type, and setup logic.
-- `ReplicatedStorage.framework`: client/shared framework code, item manager, controllers, animation/simulation code, item framework code, and weapon/melee/throwable/healing logic.
-- `ReplicatedStorage.data`: replicated assets and data folders for items, models, FX, sounds, attachment parts, attachment offsets, and chunked CSV data.
-- `ReplicatedStorage.data.csv`: in-Studio CSV chunks for stats, progression, calibers, optics, lasers, flashlights, and camo.
-- `ReplicatedFirst`: loading/startup scripts and fallback/loading GUI.
-- `StarterPlayer`: standard player script containers plus custom starter character models/scripts.
-- `ServerStorage`: large storage area with export `StringValue`s, resources/maps, PBR data/cache, client data, `TagList`, and `attachment_data`.
-- `ServerStorage.attachment_data`: large attachment module tree with `ALPHA`, `PRELOAD`, `NEW`, and `CLOTHING`.
-- `Workspace`: active scene folders for map, characters, effects, grenades, ignore/runtime folders, customization/editor rooms, terrain, camera, and some item models/modules with `properties`, `runtime_properties`, `stats`, or `attributes`.
-- `SoundService`, `Lighting`, and `MaterialService`: audio presets/groups, lighting presets/effects, and material/surface appearance assets.
+## Working Notes
 
-## Navigation Notes
-
-- Start with the narrowest service/folder relevant to the task; the place contains very large trees, especially `ServerStorage`.
-- Use `script_search` when a script/module name is known and `script_grep` for symbols or strings across Studio scripts.
-- Use `inspect_instance` before `script_read` when checking whether a target is a script, module, value object, model, or folder.
-- Treat Studio-side source as reference unless the user explicitly asks to modify Studio.
-- For Studio-side adjustments, inspect the relevant instance and read involved scripts/modules before changing properties or code.
-- For CSV work, check `git status --short`, read `README.md`, and sample headers with `sed -n '1,3p' <file>.csv` before editing.
+- For CSV work, check `git status --short`, read `README.md`, and sample the first three lines (`sed -n '1,3p' <file>.csv` or `Get-Content <file>.csv -TotalCount 3`).
+- In Studio, start with the narrowest relevant service/folder and inspect an Instance before reading its script. Large broad tree dumps are slow and noisy.
+- Keep private source code, server-only implementation details, credentials, unreleased content, and proprietary Studio data out of this public repo unless the user explicitly requests publication.

@@ -1,4 +1,4 @@
-﻿0.25.3,Mon Jul 13 02:25:57 2026,,,,,,,,,,,,,
+﻿0.25.3,Tue Jul 14 16:00:09 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 1,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -672,7 +672,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 320,,gral_s_pistol_grip,Gral-S,3,0.07,-4,-5,,,,,,,500
 321,,fit_deluxe_ar15_suregrip,FIT Deluxe AR-15 Suregrip,7,0.08,-1,0,,,,,,,1500
 ,,fit_deluxe_suregrip_palm_shelf,FIT Deluxe Suregrip,3,0.06,0,0,,,,,,,200
-322,,pmm_scar_modified_grip_rogue,"Everetts Machining SCAR Modified, Rogue Non-Beavertail",6,0.08,-2,-6,,,,,,,600
+322,,pmm_scar_modified_grip_rogue,Everetts Machining SCAR Modified Rogue Non-Beavertail,6,0.08,-2,-6,,,,,,,600
 323,,mcs_premier_avp_grip,MCS Premier AVP,9,0.06,0,-1,,,,,,,700
 324,,kf_ar15_battlegrip,KF AR-15 Battlegrip,5,0.08,-5,-4,,,,,,,800
 ,,kf_ar15_battlegrip_beavertail,KF AR-15 Battlegrip Beavertail,6,0.09,-4,-4,,,,,,,800

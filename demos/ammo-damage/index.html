@@ -188,9 +188,12 @@
       border-bottom: 1px solid var(--line-soft);
     }
 
-    .ammo-head { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 8px; align-items: center; }
+    .ammo-head { display: grid; grid-template-columns: auto auto minmax(0, 1fr) auto; gap: 8px; align-items: center; }
     .swatch { width: 9px; height: 9px; border-radius: 50%; background: var(--ammo-color); }
     .ammo-name { overflow: hidden; font-size: 12px; text-overflow: ellipsis; white-space: nowrap; }
+    .visibility-toggle { display: flex; align-items: center; gap: 4px; color: var(--muted); font-size: 11px; }
+    .visibility-toggle input { margin: 0; accent-color: var(--ammo-color); }
+    .ammo.hidden-curve .swatch { opacity: 0.35; }
     .remove-ammo {
       padding: 4px 7px;
       border: 1px solid var(--line);
@@ -560,7 +563,10 @@
     }
 
     function validateSharePayload(payload) {
-      if (!Array.isArray(payload) || payload.length !== 3 || payload[0] !== 1) throw new Error("Unsupported share version");
+      if (!Array.isArray(payload) || payload.length !== 3 || (payload[0] !== 1 && payload[0] !== 2)) {
+        throw new Error("Unsupported share version");
+      }
+      const version = payload[0];
       const ui = payload[1];
       const rows = payload[2];
       if (!Array.isArray(ui) || ui.length !== 5 || !Array.isArray(rows) || !rows.length || rows.length > 200) {
@@ -578,25 +584,31 @@
 
       const names = new Set();
       const cleanRows = rows.map(row => {
-        if (!Array.isArray(row) || row.length !== 17 || typeof row[0] !== "string") throw new Error("Invalid shared ammo row");
+        const expectedLength = version === 1 ? 17 : 18;
+        if (!Array.isArray(row) || row.length !== expectedLength || typeof row[0] !== "string") {
+          throw new Error("Invalid shared ammo row");
+        }
         const name = row[0].trim();
         if (!name || name.length > 200 || names.has(name)) throw new Error("Invalid or duplicate shared ammo name");
         names.add(name);
-        const values = row.slice(1);
+        const shown = version === 1 ? 1 : row[1];
+        if (shown !== 0 && shown !== 1) throw new Error("Invalid shared ammo visibility");
+        const values = row.slice(version === 1 ? 1 : 2);
         if (values.some(value => !Number.isFinite(value) || Math.abs(value) > 1e9)) throw new Error("Invalid shared damage value");
-        return [name, ...values];
+        return [name, shown, ...values];
       });
 
-      return [1, [partIndex, multiplier, maxDistance, maxDamage, showBreakpoints], cleanRows];
+      return [2, [partIndex, multiplier, maxDistance, maxDamage, showBreakpoints], cleanRows];
     }
 
     function makeSharePayload() {
       const rows = workingSet().map(item => [
         item.name,
+        item.shown ? 1 : 0,
         ...damageColumns().map(header => numberFrom(item.row[columnIndex.get(header)]) ?? 0)
       ]);
       return validateSharePayload([
-        1,
+        2,
         [
           BODY_PARTS.indexOf(bodyPart),
           gunDamageMultiplier(),
@@ -608,13 +620,40 @@
       ]);
     }
 
-    function applySharedPayload(payload) {
+    function applySharedPayload(payload, catalogText = "") {
       const [, ui, rows] = validateSharePayload(payload);
       const [partIndex, multiplier, maxDistance, maxDamage, showBreakpoints] = ui;
-      const catalogRows = [["name", ...damageColumns()], ...rows];
-      const text = serialize(catalogRows, ",");
       const selectedNames = new Set(rows.map(row => row[0]));
-      if (!loadText(text, "Shared link", true, selectedNames)) throw new Error("Could not load shared ammo");
+      let usedCurrentCatalog = false;
+
+      if (catalogText) usedCurrentCatalog = loadText(catalogText, "calibers.csv", false, selectedNames);
+      if (usedCurrentCatalog) {
+        const itemsByName = new Map(ammo.map(item => [item.name, item]));
+        for (const [name, , ...values] of rows) {
+          let item = itemsByName.get(name);
+          if (!item) {
+            const row = Array(headers.length).fill("");
+            row[columnIndex.get("name")] = name;
+            item = { name, row, rowIndex: parsedRows.length, selected: true, shown: true, color: "" };
+            parsedRows.push(row);
+            ammo.push(item);
+            itemsByName.set(name, item);
+          }
+          damageColumns().forEach((header, index) => { item.row[columnIndex.get(header)] = values[index]; });
+        }
+        sourceLabel = "calibers.csv + shared link";
+        sourceText = serialize(parsedRows);
+      } else {
+        const sharedRows = [["name", ...damageColumns()], ...rows.map(([name, , ...values]) => [name, ...values])];
+        const text = serialize(sharedRows, ",");
+        if (!loadText(text, "Shared link", true, selectedNames)) throw new Error("Could not load shared ammo");
+      }
+
+      const shownByName = new Map(rows.map(([name, shown]) => [name, Boolean(shown)]));
+      ammo.forEach(item => {
+        item.selected = selectedNames.has(item.name);
+        item.shown = item.selected ? shownByName.get(item.name) ?? true : false;
+      });
 
       bodyPart = BODY_PARTS[partIndex];
       elements.damageMultiplier.value = String(multiplier);
@@ -623,8 +662,10 @@
       elements.thresholds.checked = Boolean(showBreakpoints);
       document.querySelectorAll(".tab").forEach(tab => tab.setAttribute("aria-selected", String(tab.dataset.part === bodyPart)));
       document.querySelector("#comboKey").hidden = bodyPart !== "torso" && bodyPart !== "arm";
+      renderCatalogControls();
       renderAmmoList();
       drawChart();
+      return usedCurrentCatalog;
     }
 
     function showShareStatus(message, type = "") {
@@ -728,6 +769,7 @@
           row,
           rowIndex,
           selected: selectedNames ? selectedNames.has(name) : false,
+          shown: selectedNames ? selectedNames.has(name) : false,
           color: ""
         });
       }
@@ -768,6 +810,10 @@
       return ammo.filter(item => item.selected);
     }
 
+    function visibleSet() {
+      return ammo.filter(item => item.selected && item.shown);
+    }
+
     function caliberFor(item) {
       return item.name.split("_")[0];
     }
@@ -806,7 +852,8 @@
       }
 
       const count = workingSet().length;
-      elements.workingCount.textContent = `${count} selected`;
+      const shownCount = visibleSet().length;
+      elements.workingCount.textContent = `${count} selected · ${shownCount} shown`;
       elements.addAllAmmo.disabled = !ammo.length || count === ammo.length;
     }
 
@@ -818,7 +865,7 @@
     }
 
     function addToWorkingSet(items) {
-      items.forEach(item => { item.selected = true; });
+      items.forEach(item => { item.selected = true; item.shown = true; });
       elements.catalogSearch.value = "";
       refreshWorkingSet();
     }
@@ -912,10 +959,26 @@
       for (const item of selected) {
         const card = document.createElement("div");
         card.className = "ammo";
+        card.classList.toggle("hidden-curve", !item.shown);
         card.style.setProperty("--ammo-color", item.color);
 
         const head = document.createElement("div");
         head.className = "ammo-head";
+        const visibility = document.createElement("label");
+        visibility.className = "visibility-toggle";
+        const visibilityInput = document.createElement("input");
+        visibilityInput.type = "checkbox";
+        visibilityInput.checked = item.shown;
+        visibilityInput.setAttribute("aria-label", `Show ${item.name} on graph`);
+        const visibilityText = document.createElement("span");
+        visibilityText.textContent = "Show";
+        visibilityInput.addEventListener("change", () => {
+          item.shown = visibilityInput.checked;
+          card.classList.toggle("hidden-curve", !item.shown);
+          renderCatalogControls();
+          drawChart();
+        });
+        visibility.append(visibilityInput, visibilityText);
         const swatch = document.createElement("span");
         swatch.className = "swatch";
         const name = document.createElement("span");
@@ -928,8 +991,8 @@
         remove.title = "Remove from working set";
         remove.setAttribute("aria-label", `Remove ${item.name} from working set`);
         remove.textContent = "Remove";
-        remove.addEventListener("click", () => { item.selected = false; refreshWorkingSet(); });
-        head.append(swatch, name, remove);
+        remove.addEventListener("click", () => { item.selected = false; item.shown = false; refreshWorkingSet(); });
+        head.append(visibility, swatch, name, remove);
 
         const values = document.createElement("div");
         values.className = "values";
@@ -973,7 +1036,7 @@
 
     function graphBounds(width, height) {
       const maxX = Math.max(1, numberFrom(elements.maxDistance.value) ?? 1000);
-      const visible = workingSet();
+      const visible = visibleSet();
       let autoMax = 0;
       const multiplier = gunDamageMultiplier();
       for (const item of visible) {
@@ -1051,7 +1114,7 @@
       context.beginPath();
       context.rect(margin.left, margin.top, plotWidth, plotHeight);
       context.clip();
-      const visible = workingSet();
+      const visible = visibleSet();
       chartMarkers = [];
       const samples = Math.max(180, Math.floor(plotWidth));
       for (const item of visible) {
@@ -1127,7 +1190,7 @@
     }
 
     function updateVisibleCount() {
-      const count = workingSet().length;
+      const count = visibleSet().length;
       elements.visibleCount.textContent = `${count} curve${count === 1 ? "" : "s"}`;
     }
 
@@ -1138,7 +1201,7 @@
       const localY = event.clientY - rect.top;
       const inside = localX >= bounds.margin.left && localX <= bounds.margin.left + bounds.plotWidth &&
         localY >= bounds.margin.top && localY <= bounds.margin.top + bounds.plotHeight;
-      if (!inside || !ammo.some(item => item.selected)) {
+      if (!inside || !ammo.some(item => item.selected && item.shown)) {
         hoverDistance = null;
         elements.tooltip.hidden = true;
         drawChart();
@@ -1161,7 +1224,7 @@
         elements.tooltip.innerHTML = `<div class="tip-distance">${escapeHtml(marker.item.name)} · torso + arm one-shot limit</div>` +
           `<div class="tip-row"><span class="swatch" style="--ammo-color:${marker.item.color}"></span><span class="name">${formatTick(torso)} + ${formatTick(arm)} = ${formatTick(torso + arm)}</span><span class="damage">${formatTick(marker.distance)} st</span></div>`;
       } else {
-        const visible = workingSet();
+        const visible = visibleSet();
         const rows = visible.map(item => ({ item, damage: damageAt(item, hoverDistance) })).sort((left, right) => right.damage - left.damage);
         const shown = rows.slice(0, 12);
         elements.tooltip.innerHTML = `<div class="tip-distance">${formatTick(hoverDistance)} studs · ${bodyPart}</div>` + shown.map(({ item, damage }) =>
@@ -1180,12 +1243,15 @@
       return String(value).replace(/[&<>"']/g, character => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[character]);
     }
 
+    async function fetchRootCsvText() {
+      const response = await fetch("../../calibers.csv", { cache: "no-store" });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return response.text();
+    }
+
     async function reloadRootCsv() {
       try {
-        const response = await fetch("../../calibers.csv", { cache: "no-store" });
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        const text = await response.text();
-        return loadText(text, "calibers.csv");
+        return loadText(await fetchRootCsvText(), "calibers.csv");
       } catch (error) {
         showStatus("Could not fetch ../../calibers.csv. Choose the file above or paste rows instead.", true);
         return false;
@@ -1195,9 +1261,16 @@
     async function loadSharedLinkFromHash() {
       if (!location.hash.startsWith("#s=")) return false;
       const payload = await decodeSharePayload(location.hash.slice(3));
-      applySharedPayload(payload);
+      let catalogText = "";
+      try {
+        catalogText = await fetchRootCsvText();
+      } catch (error) {
+        // Shared rows are self-contained, so the link still works offline or from a local file.
+      }
+      const usedCurrentCatalog = applySharedPayload(payload, catalogText);
       const count = payload[2].length;
-      showShareStatus(`Loaded ${count} shared ammo row${count === 1 ? "" : "s"}.`);
+      const fallbackNote = usedCurrentCatalog ? " over the current catalog." : ". Current catalog unavailable; using shared rows only.";
+      showShareStatus(`Loaded ${count} shared ammo row${count === 1 ? "" : "s"}${fallbackNote}`, usedCurrentCatalog ? "" : "warn");
       return true;
     }
 
@@ -1253,7 +1326,7 @@
       elements.caliberSelect.value = "";
     });
     document.querySelector("#clearWorking").addEventListener("click", () => {
-      ammo.forEach(item => { item.selected = false; });
+      ammo.forEach(item => { item.selected = false; item.shown = false; });
       refreshWorkingSet();
     });
     elements.maxDistance.addEventListener("input", drawChart);
@@ -1306,7 +1379,15 @@
     });
 
     document.querySelector("#resetEdits").addEventListener("click", () => {
-      if (sourceText) loadText(sourceText, sourceLabel, false, new Set(workingSet().map(item => item.name)));
+      if (!sourceText) return;
+      const selectedNames = new Set(workingSet().map(item => item.name));
+      const shownByName = new Map(workingSet().map(item => [item.name, item.shown]));
+      if (loadText(sourceText, sourceLabel, false, selectedNames)) {
+        ammo.forEach(item => {
+          if (item.selected) item.shown = shownByName.get(item.name) ?? true;
+        });
+        refreshWorkingSet();
+      }
     });
 
     const resizeObserver = new ResizeObserver(drawChart);

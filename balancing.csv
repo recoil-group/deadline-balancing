@@ -2646,14 +2646,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,precision_intercontinental_at_aics_gen2_standard_backstrap,Precision Intercontinental AT AICS 2.0 Standard,2,0.04,,,,,,,,,0
 ,,precision_intercontinental_at_aics_gen2_thumbhole_backstrap,Precision Intercontinental AT AICS 2.0 Thumbhole,3,0.07,,,,,,,,,500
 ,hunter700_cheek,,,,,,,,,,,,,
-1250,,hunter_cheekrest_flat,Hunter 700 Stock Flat,0.5,0.02,,,,,,,,,0
-1251,,hunter_cheekrest_.25,Hunter 700 Stock .25,0.5,0.03,,,,,,,,,0
+1250,,hunter_cheekrest_flat,Hunter 700 Stock Flat,0,0.02,,,,,,,,,0
+1251,,hunter_cheekrest_.25,Hunter 700 Stock .25,.5,0.03,,,,,,,,,0
 1252,,hunter_cheekrest_.5,Hunter 700 Stock .5,1,0.04,,,,,,,,,0
-1253,,hunter_cheekrest_.75,Hunter 700 Stock .75,1,0.05,,,,,,,,,0
+1253,,hunter_cheekrest_.75,Hunter 700 Stock .75,1.5,0.05,,,,,,,,,0
 ,hunter700_cheek_sga,,,,,,,,,,,,,
-1254,,hunter_cheekrest_.25_sga,Hunter SGA .25,0.5,0.02,,,,,,,,,0
-1255,,hunter_cheekrest_flat_sga,Hunter SGA Flat,0.5,0.03,,,,,,,,,0
-1256,,hunter_cheekrest_.75_sga,Hunter SGA .75,1,0.04,,,,,,,,,0
+1254,,hunter_cheekrest_.25_sga,Hunter SGA .25,.5,0.02,,,,,,,,,0
+1255,,hunter_cheekrest_flat_sga,Hunter SGA Flat,0,0.03,,,,,,,,,0
+1256,,hunter_cheekrest_.75_sga,Hunter SGA .75,1.5,0.04,,,,,,,,,0
 1257,,hunter_cheekrest_.5_sga,Hunter SGA .5,1,0.05,,,,,,,,,0
 ,hunter700_magwell,,,,,,,,,,,,,
 1258,,magtap_hunter_ac_magwell,Magtap Hunter AC AICS Roosevelt 700 .308,0,0.08,,,,,,,,,0

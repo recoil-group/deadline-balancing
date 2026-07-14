@@ -21,6 +21,7 @@ Contains information about stats, gameplay, mechanics, and more.
 ## demos
 
 - [Shotgun spread demo](demos/shotgun-spread/)
+- [Ammo damage curve demo](demos/ammo-damage/)
 
 ## repo guide
 

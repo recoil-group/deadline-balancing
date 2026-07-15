@@ -188,7 +188,7 @@
       border-bottom: 1px solid var(--line-soft);
     }
 
-    .ammo-head { display: grid; grid-template-columns: auto auto minmax(0, 1fr) auto; gap: 8px; align-items: center; }
+    .ammo-head { display: grid; grid-template-columns: auto auto minmax(0, 1fr) auto auto; gap: 8px; align-items: center; }
     .swatch { width: 9px; height: 9px; border-radius: 50%; background: var(--ammo-color); }
     .ammo-name { overflow: hidden; font-size: 12px; text-overflow: ellipsis; white-space: nowrap; }
     .visibility-toggle { display: flex; align-items: center; gap: 4px; color: var(--muted); font-size: 11px; }
@@ -203,6 +203,7 @@
     }
 
     .remove-ammo:hover { color: var(--text); }
+    .standardize-ammo { padding: 4px 7px; font-size: 11px; }
 
     .custom-ammo-name {
       min-width: 0;
@@ -959,6 +960,21 @@
       refreshWorkingSet();
     }
 
+    function standardizeAmmo(item) {
+      const torsoValues = COEFFICIENTS.slice(0, 3)
+        .map(coefficient => item.row[columnFor("torso", coefficient)] ?? "");
+      const standardMultipliers = { arm: "0.3", leg: "0.5", head: "2.5" };
+      for (const [part, multiplier] of Object.entries(standardMultipliers)) {
+        COEFFICIENTS.slice(0, 3).forEach((coefficient, index) => {
+          item.row[columnFor(part, coefficient)] = torsoValues[index];
+        });
+        item.row[columnFor(part, "d")] = multiplier;
+      }
+      renderAmmoList();
+      drawChart();
+      showStatus(`${item.name}: copied torso A/B/C to arm, leg, and head.`);
+    }
+
     function columnFor(part, coefficient) {
       return columnIndex.get(`damage_${part}_${coefficient}`);
     }
@@ -1083,6 +1099,12 @@
           name.title = item.name;
           name.textContent = item.name;
         }
+        const standardize = document.createElement("button");
+        standardize.className = "standardize-ammo";
+        standardize.type = "button";
+        standardize.setAttribute("aria-label", `Standardize ${item.name} from torso values`);
+        standardize.textContent = "Standardize";
+        standardize.addEventListener("click", () => standardizeAmmo(item));
         const remove = document.createElement("button");
         remove.className = "remove-ammo";
         remove.type = "button";
@@ -1090,7 +1112,7 @@
         remove.setAttribute("aria-label", `Remove ${item.name} from working set`);
         remove.textContent = "Remove";
         remove.addEventListener("click", () => { item.selected = false; item.shown = false; refreshWorkingSet(); });
-        head.append(visibility, swatch, name, remove);
+        head.append(visibility, swatch, name, standardize, remove);
 
         const values = document.createElement("div");
         values.className = "values";

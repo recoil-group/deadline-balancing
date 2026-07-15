@@ -2691,8 +2691,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,r700_mcs_tac21,,,,,,,,,,,,,
 ,,mcs_tac21_gen2_15inch_r700_mlok_handguard,MCS TAC21 Gen II,7,0.24,-5,-5,,,,,,,1000
 ,,mcs_tac21_gen2_r700_buffer_tube_adapter,MCS TAC21 Gen II,1,0.06,,,,,,,,,600
-,,mcs_tac21_gen2_r700_lower_receiver,MCS TAC21 Gen II,3,0.18,-2,-3,,,,,,,2000
-,,mcs_tac21_gen2_r700_upper_receiver,MCS TAC21 Gen II,3,0.21,-4,-5,,,,,,,1000
+,,mcs_tac21_gen2_r700_lower_receiver,MCS TAC21 Gen II,3,0.08,-2,-3,,,,,,,2000
+,,mcs_tac21_gen2_r700_upper_receiver,MCS TAC21 Gen II,3,0.11,-4,-5,,,,,,,1000
 ,,mcs_tac21_gen2_r700_mag_release,MCS TAC21 Gen II,1,0.02,,,,,,,,,0
 ,r700_bolt_face,,,,,,,,,,,,,
 ,,roosevelt_model_700_.308_bolt_face,Roosevelt Model 700 .308,0,0.1,,,,,,,,,0
@@ -2706,10 +2706,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,roosevelt_walker_model_700_safety,Roosevelt-Walker Model 700,0,0.01,,,,,,,,,0
 ,,lockwood_impact_700_safety,Lockwood Impact 700,1,0.01,,,,,,,,,0
 ,r700_stock,,,,,,,,,,,,,
-1274,,rogue_roosevelt_model_700_overmolded_bdl_full_bed_block_stock,Rogue Roosevelt 700 Overmolded BDL Full Bed Block,34,0.7,-2,-5,,,,,,,0
-1275,,magtap_hunter700_short_action,Magtap Hunter 700 Short Action,38,0.8,-4,-5,,0,,,,,1000
-1276,,mcs_lss_gen2_carbine_chassis,MCS LSS-XL Gen II Carbine,18,0.55,-3,-4,,,,,,,3000
-,,precision_intercontinental_roosevelt_700_sa_at_aics_gen2_folding_chassis_frame,Precision Intercontinental Rem700 SA AT AICS 2.0 Folding Chassis,25,0.47,-3,-3,,-0.05,,,,,6000
+1274,,rogue_roosevelt_model_700_overmolded_bdl_full_bed_block_stock,Rogue Roosevelt 700 Overmolded BDL Full Bed Block,34,0.5,-2,-5,,,,,,,0
+1275,,magtap_hunter700_short_action,Magtap Hunter 700 Short Action,38,0.6,-4,-5,,0,,,,,1000
+1276,,mcs_lss_gen2_carbine_chassis,MCS LSS-XL Gen II Carbine,18,0.35,-3,-4,,,,,,,3000
+,,precision_intercontinental_roosevelt_700_sa_at_aics_gen2_folding_chassis_frame,Precision Intercontinental Rem700 SA AT AICS 2.0 Folding Chassis,25,0.27,-3,-3,,-0.05,,,,,6000
 ,r700_stock_pad,,,,,,,,,,,,,
 ,,rogue_roosevelt_model_700_stock_pad,Rogue Roosevelt Model 700,0,0.05,,,,,,,,,0
 ,corvus_mounts_comm_arc_mount,,,,,,,,,,,,,
@@ -2905,7 +2905,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1338,,SCARH,AFT MK-17,5,0,75,80,0,0.6,1,1900,,,75000
 1339,,SCARL,AFT MK-16,40,0,60,65,0,0.45,1,2450,,,40000
 1340,,G3,KF KG-31,25,0,70,100,0,0.55,1,1900,,,30000
-1341,,Remington700,Roosevelt M700,30,0,80,90,0,0.2,1.2,2200,,,42000
+1341,,Remington700,Roosevelt M700,35 ,0,80,90,0,0.2,1.2,2200,,,42000
 1342,,AK_762,Kazarov Group AK 7.62,20,0,70,85,0,0.55,1,1800,,,15000
 1343,,AK_545,Kazarov Group AK 5.45,15,0,65,70,0,0.3,1,2300,,,5000
 ,,AK_545_Carbine,Kazarov Group AK 5.45 Carbine,15,0,65,70,0,0.3,1,2300,,,30000

@@ -693,6 +693,7 @@
         item.selected = selectedNames.has(item.name);
         item.shown = item.selected ? shownByName.get(item.name) ?? true : false;
       });
+      updateWorkingColors();
 
       bodyPart = BODY_PARTS[partIndex];
       elements.damageMultiplier.value = String(multiplier);

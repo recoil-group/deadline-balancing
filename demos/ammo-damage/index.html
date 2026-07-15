@@ -204,6 +204,36 @@
 
     .remove-ammo:hover { color: var(--text); }
 
+    .custom-ammo-name {
+      min-width: 0;
+      width: 100%;
+      padding: 4px 6px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #111318;
+      color: var(--text);
+      font-size: 12px;
+    }
+
+    .ammo-insert {
+      position: relative;
+      z-index: 1;
+      height: 12px;
+      margin: -6px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .ammo-insert button {
+      padding: 3px 7px;
+      opacity: 0;
+      font-size: 11px;
+      transition: opacity 120ms ease;
+    }
+
+    .ammo-insert:hover button, .ammo-insert:focus-within button { opacity: 1; }
+
     .values {
       margin-top: 8px;
       display: grid;
@@ -356,6 +386,7 @@
             <datalist id="ammoOptions"></datalist>
             <button class="small-button primary" id="addAmmo" type="button">Add</button>
             <button class="small-button" id="addAllAmmo" type="button">Add all</button>
+            <button class="small-button" id="addCustomAmmo" type="button">New custom</button>
           </div>
           <select class="caliber-select" id="caliberSelect" aria-label="Add an entire caliber">
             <option value="">Add entire caliber…</option>
@@ -439,6 +470,7 @@
       catalogSearch: document.querySelector("#catalogSearch"),
       ammoOptions: document.querySelector("#ammoOptions"),
       addAllAmmo: document.querySelector("#addAllAmmo"),
+      addCustomAmmo: document.querySelector("#addCustomAmmo"),
       caliberSelect: document.querySelector("#caliberSelect"),
       catalogSummary: document.querySelector("#catalogSummary"),
       workingCount: document.querySelector("#workingCount"),
@@ -460,6 +492,7 @@
     let bodyPart = "torso";
     let hoverDistance = null;
     let chartMarkers = [];
+    let pendingNameFocus = null;
 
     function detectDelimiter(text) {
       const lines = text.replace(/^\uFEFF/, "").split(/\r?\n/).filter(line => line.trim());
@@ -629,17 +662,22 @@
       if (catalogText) usedCurrentCatalog = loadText(catalogText, "calibers.csv", false, selectedNames);
       if (usedCurrentCatalog) {
         const itemsByName = new Map(ammo.map(item => [item.name, item]));
+        let previousItem = null;
         for (const [name, , ...values] of rows) {
           let item = itemsByName.get(name);
           if (!item) {
             const row = Array(headers.length).fill("");
             row[columnIndex.get("name")] = name;
-            item = { name, row, rowIndex: parsedRows.length, selected: true, shown: true, color: "" };
-            parsedRows.push(row);
-            ammo.push(item);
+            const parsedInsertIndex = previousItem ? previousItem.rowIndex + 1 : headerIndex + 1;
+            const ammoInsertIndex = previousItem ? ammo.indexOf(previousItem) + 1 : 0;
+            item = { name, row, rowIndex: parsedInsertIndex, selected: true, shown: true, color: "", custom: true };
+            parsedRows.splice(parsedInsertIndex, 0, row);
+            ammo.splice(ammoInsertIndex, 0, item);
+            refreshRowIndexes();
             itemsByName.set(name, item);
           }
           damageColumns().forEach((header, index) => { item.row[columnIndex.get(header)] = values[index]; });
+          previousItem = item;
         }
         sourceLabel = "calibers.csv + shared link";
         sourceText = serialize(parsedRows);
@@ -770,7 +808,8 @@
           rowIndex,
           selected: selectedNames ? selectedNames.has(name) : false,
           shown: selectedNames ? selectedNames.has(name) : false,
-          color: ""
+          color: "",
+          custom: false
         });
       }
 
@@ -870,6 +909,56 @@
       refreshWorkingSet();
     }
 
+    function refreshRowIndexes() {
+      ammo.forEach(item => { item.rowIndex = parsedRows.indexOf(item.row); });
+    }
+
+    function nextCustomName() {
+      const names = new Set(ammo.map(item => item.name.toLowerCase()));
+      let suffix = 1;
+      while (names.has(`custom_ammo_${suffix}`)) suffix += 1;
+      return `custom_ammo_${suffix}`;
+    }
+
+    function insertCustomAmmo(afterItem = null) {
+      if (!headers.length || !columnIndex.has("name")) {
+        showStatus("Load a catalog before adding custom ammo.", true);
+        return;
+      }
+
+      const name = nextCustomName();
+      const row = Array(headers.length).fill("");
+      row[columnIndex.get("name")] = name;
+      const parsedInsertIndex = afterItem ? afterItem.rowIndex + 1 : parsedRows.length;
+      const ammoInsertIndex = afterItem ? ammo.indexOf(afterItem) + 1 : ammo.length;
+      const item = { name, row, rowIndex: parsedInsertIndex, selected: true, shown: true, color: "", custom: true };
+      parsedRows.splice(parsedInsertIndex, 0, row);
+      ammo.splice(ammoInsertIndex, 0, item);
+      refreshRowIndexes();
+      pendingNameFocus = item;
+      refreshWorkingSet();
+      showStatus(`Added ${name} to the catalog.`);
+    }
+
+    function renameCustomAmmo(item, input) {
+      const name = input.value.trim();
+      const duplicate = ammo.some(candidate => candidate !== item && candidate.name.toLowerCase() === name.toLowerCase());
+      if (!name || name.length > 200 || duplicate) {
+        input.setCustomValidity(!name
+          ? "Enter a custom ammo name."
+          : duplicate
+            ? "Ammo names must be unique."
+            : "Ammo names must be 200 characters or fewer.");
+        input.reportValidity();
+        input.value = item.name;
+        return;
+      }
+      input.setCustomValidity("");
+      item.name = name;
+      item.row[columnIndex.get("name")] = name;
+      refreshWorkingSet();
+    }
+
     function columnFor(part, coefficient) {
       return columnIndex.get(`damage_${part}_${coefficient}`);
     }
@@ -956,7 +1045,7 @@
       }
 
       const fragment = document.createDocumentFragment();
-      for (const item of selected) {
+      for (const [itemIndex, item] of selected.entries()) {
         const card = document.createElement("div");
         card.className = "ammo";
         card.classList.toggle("hidden-curve", !item.shown);
@@ -981,10 +1070,19 @@
         visibility.append(visibilityInput, visibilityText);
         const swatch = document.createElement("span");
         swatch.className = "swatch";
-        const name = document.createElement("span");
-        name.className = "ammo-name";
-        name.title = item.name;
-        name.textContent = item.name;
+        const name = item.custom ? document.createElement("input") : document.createElement("span");
+        name.className = item.custom ? "custom-ammo-name" : "ammo-name";
+        if (item.custom) {
+          name.type = "text";
+          name.value = item.name;
+          name.maxLength = 200;
+          name.setAttribute("aria-label", "Custom ammo name");
+          name.addEventListener("input", () => name.setCustomValidity(""));
+          name.addEventListener("change", () => renameCustomAmmo(item, name));
+        } else {
+          name.title = item.name;
+          name.textContent = item.name;
+        }
         const remove = document.createElement("button");
         remove.className = "remove-ammo";
         remove.type = "button";
@@ -1016,8 +1114,25 @@
 
         card.append(head, values);
         fragment.append(card);
+        if (itemIndex < selected.length - 1) {
+          const insert = document.createElement("div");
+          insert.className = "ammo-insert";
+          const button = document.createElement("button");
+          button.type = "button";
+          button.textContent = "+ Add custom ammo here";
+          button.setAttribute("aria-label", `Add custom ammo after ${item.name}`);
+          button.addEventListener("click", () => insertCustomAmmo(item));
+          insert.append(button);
+          fragment.append(insert);
+        }
       }
       elements.ammoList.append(fragment);
+      if (pendingNameFocus) {
+        const input = [...elements.ammoList.querySelectorAll(".custom-ammo-name")]
+          .find(candidate => candidate.value === pendingNameFocus.name);
+        if (input) input.focus();
+        pendingNameFocus = null;
+      }
       updateVisibleCount();
     }
 
@@ -1319,6 +1434,7 @@
     });
     document.querySelector("#addAmmo").addEventListener("click", addNamedAmmo);
     elements.addAllAmmo.addEventListener("click", () => addToWorkingSet(ammo));
+    elements.addCustomAmmo.addEventListener("click", () => insertCustomAmmo());
     elements.caliberSelect.addEventListener("change", () => {
       const caliber = elements.caliberSelect.value;
       if (!caliber) return;

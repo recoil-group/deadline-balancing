@@ -71,7 +71,8 @@ def main(file1: str, file2: str):
     _, _, data1 = read_csv(file1)
     version, size, data2 = read_csv(file2)
 
-    compare_cols = list(next(iter(data1.values())).keys())[4:]
+    all_cols = list(next(iter(data1.values())).keys())
+    compare_cols = [col for col in all_cols if col in stat_directions]
 
     new = []
     changes = []

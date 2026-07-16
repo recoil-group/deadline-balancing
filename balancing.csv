@@ -1,11 +1,11 @@
-﻿0.25.3,Thu Jul 16 16:26:34 2026,,,,,,,,,,,,,
+﻿0.25.3,Thu Jul 16 16:50:14 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
 ,,paramount_arms_slx_1.1inch_mount,"Paramount Arms SLx 1.1""",0,0.03,,,,,,,,,200
 ,,paramount_arms_slx_1.53inch_straight_spacer,"Paramount Arms SLx 1.53""",-0.5,0.05,,,,,,,,,100
 ,,25mm_universal_mount,25mm Universal Tactical,0,0.04,,,,,,,,,100
-,,firm_no5_mount,F.I.R.M. #5 Multibase,0,0.06,,,,,,,,,400
+,,firm_no5_mount,F.I.R.M. #5 Multibase,-1,0.06,,,,,,,,,400
 ,,alpha_four_tactical_angled_foregrip,Alpha Four Tactical Angled,1,0.16,-1,-7,,,,,,,900
 ,,abom_cnc_works_picatinny_susat_adapter,Abom's CNC Works Picatinny SUSAT Adapter,0,0.06,,,,,,,,,300
 ,,virticon_ac32062_mount,Virticon AC32062 RMR Mount,-1,0.05,,,,,,,,,350
@@ -142,8 +142,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,virticon_srs02,Virticon SRS-02,-1,0.16,,,,,,,,,1000
 ,,virticon_ta51_flattop_mount,Virticon TA51 Thumbscrew Flattop,0,0.06,,,,,,,,,400
 ,,tristar_compact_carry_handle,Tristar Compact,4,0.3,,,,,,,,,1200
-,,true_view_rap4_offset_picatinny_mount,TRUE VIEW RAP4 45 Degree,-3,0.08,,,,,,,,,500
-,,true_view_rap4_offset_picatinny_mount_flipped,TRUE VIEW RAP4 45 Degree Flipped,-3,0.08,,,,,,,,,500
+,,true_view_rap4_offset_picatinny_mount,TRUE VIEW RAP4 45 Degree,-1,0.08,,,,,,,,,500
+,,true_view_rap4_offset_picatinny_mount_flipped,TRUE VIEW RAP4 45 Degree Flipped,-1,0.08,,,,,,,,,500
 ,,um_3_wilson,UM3,-1,0.06,,,,,,,,,300
 ,,unity_fast_lpvo_30mm_mount,Harmony FAST LPVO 30mm,-1.5,0.1,,,,,,,,,750
 ,,unity_fast_micro_mount,Harmony Fast Micro,-1,0.06,,,,,,,,,500
@@ -402,27 +402,27 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,bcm_gunfighter_mod3_mlok_shortened_foregrip,BCM Gunfighter Mod 3 MLOK Shortened,6,0.05,-2,-1,,,,,,,300
 ,,bcm_gunfighter_mod3_mlok_shortened_foregrip_flipped,BCM Gunfighter Mod 3 MLOK Shortened Flipped,6,0.05,-2,-1,,,,,,,300
 ,,dd_enhanced_mvg,AD Enhanced MVG,4,0.07,-2,-5,,,,,,,400
-,,generic_11_slot_mlok_rail_bottom,Generic 11 Slot MLOK,-2,0.06,,,,,,,,,500
-,,generic_11_slot_mlok_rail_side,Generic 11 Slot MLOK,-2,0.06,,,,,,,,,500
-,,generic_11_slot_mlok_rail_top,Generic 11 Slot MLOK,-2,0.06,,,,,,,,,500
-,,generic_13_slot_mlok_rail_bottom,Generic 13 Slot MLOK,-2,0.06,,,,,,,,,600
-,,generic_13_slot_mlok_rail_side,Generic 13 Slot MLOK,-2,0.06,,,,,,,,,600
-,,generic_13_slot_mlok_rail_top,Generic 13 Slot MLOK,-2,0.06,,,,,,,,,600
-,,generic_5_slot_mlok_rail_bottom,Generic 5 Slot MLOK,-2,0.06,,,,,,,,,200
-,,generic_5_slot_mlok_rail_side,Generic 5 Slot MLOK,-2,0.06,,,,,,,,,200
-,,generic_5_slot_mlok_rail_top,Generic 5 Slot MLOK,-2,0.06,,,,,,,,,200
-,,generic_7_slot_mlok_rail_bottom,Generic 7 Slot MLOK,-2,0.06,,,,,,,,,300
-,,generic_7_slot_mlok_rail_side,Generic 7 Slot MLOK,-2,0.06,,,,,,,,,300
-,,generic_7_slot_mlok_rail_top,Generic 7 Slot MLOK,-2,0.06,,,,,,,,,300
-,,generic_9_slot_mlok_rail_bottom,Generic 9 Slot MLOK,-2,0.06,,,,,,,,,400
-,,generic_9_slot_mlok_rail_side,Generic 9 Slot MLOK,-2,0.06,,,,,,,,,400
-,,generic_9_slot_mlok_rail_top,Generic 9 Slot MLOK,-2,0.06,,,,,,,,,400
-,,kinect_development_group_qd_3slot_rail_bottom,Kinect Development Group QD 3-Slot MLOK,-1,0.05,,,,,,,,,300
-,,kinect_development_group_qd_3slot_rail_side,Kinect Development Group QD 3-Slot MLOK,-1,0.05,,,,,,,,,300
-,,kinect_development_group_qd_3slot_rail_top,Kinect Development Group QD 3-Slot MLOK,-1,0.05,,,,,,,,,300
-,,kinect_development_group_qd_7slot_rail_top,Kinect Development Group QD 7-Slot MLOK,-2,0.08,,,,,,,,,500
-,,kinect_development_group_qd_7slot_rail_bottom,Kinect Development Group QD 7-Slot MLOK,-2,0.08,,,,,,,,,500
-,,kinect_development_group_qd_7slot_rail_side,Kinect Development Group QD 7-Slot MLOK,-2,0.08,,,,,,,,,500
+,,generic_11_slot_mlok_rail_bottom,Generic 11 Slot MLOK,-0.5,0.11,,,,,,,,,500
+,,generic_11_slot_mlok_rail_side,Generic 11 Slot MLOK,-0.5,0.11,,,,,,,,,500
+,,generic_11_slot_mlok_rail_top,Generic 11 Slot MLOK,-0.5,0.11,,,,,,,,,500
+,,generic_13_slot_mlok_rail_bottom,Generic 13 Slot MLOK,-0.5,0.13,,,,,,,,,600
+,,generic_13_slot_mlok_rail_side,Generic 13 Slot MLOK,-0.5,0.13,,,,,,,,,600
+,,generic_13_slot_mlok_rail_top,Generic 13 Slot MLOK,-0.5,0.13,,,,,,,,,600
+,,generic_5_slot_mlok_rail_bottom,Generic 5 Slot MLOK,-0.5,0.05,,,,,,,,,200
+,,generic_5_slot_mlok_rail_side,Generic 5 Slot MLOK,-0.5,0.05,,,,,,,,,200
+,,generic_5_slot_mlok_rail_top,Generic 5 Slot MLOK,-0.5,0.05,,,,,,,,,200
+,,generic_7_slot_mlok_rail_bottom,Generic 7 Slot MLOK,-0.5,0.07,,,,,,,,,300
+,,generic_7_slot_mlok_rail_side,Generic 7 Slot MLOK,-0.5,0.07,,,,,,,,,300
+,,generic_7_slot_mlok_rail_top,Generic 7 Slot MLOK,-0.5,0.07,,,,,,,,,300
+,,generic_9_slot_mlok_rail_bottom,Generic 9 Slot MLOK,-0.5,0.09,,,,,,,,,400
+,,generic_9_slot_mlok_rail_side,Generic 9 Slot MLOK,-0.5,0.09,,,,,,,,,400
+,,generic_9_slot_mlok_rail_top,Generic 9 Slot MLOK,-0.5,0.09,,,,,,,,,400
+,,kinect_development_group_qd_3slot_rail_bottom,Kinect Development Group QD 3-Slot MLOK,-0.5,0.04,,,,,,,,,300
+,,kinect_development_group_qd_3slot_rail_side,Kinect Development Group QD 3-Slot MLOK,-0.5,0.04,,,,,,,,,300
+,,kinect_development_group_qd_3slot_rail_top,Kinect Development Group QD 3-Slot MLOK,-0.5,0.04,,,,,,,,,300
+,,kinect_development_group_qd_7slot_rail_top,Kinect Development Group QD 7-Slot MLOK,-0.5,0.08,,,,,,,,,500
+,,kinect_development_group_qd_7slot_rail_bottom,Kinect Development Group QD 7-Slot MLOK,-0.5,0.08,,,,,,,,,500
+,,kinect_development_group_qd_7slot_rail_side,Kinect Development Group QD 7-Slot MLOK,-0.5,0.08,,,,,,,,,500
 ,,magtap_mlok_1.6_bottom,Magtap mlok 1.6,-0.5,0.02,,,,,,,,,100
 ,,magtap_mlok_1.6_top,Magtap mlok 1.6,-0.5,0.02,,,,,,,,,100
 ,,magtap_mlok_1.6_side,Magtap mlok 1.6,-0.5,0.02,,,,,,,,,100
@@ -432,20 +432,20 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,railscales_rsb_vg,RailScales RSB Vertical Grip,4,0.07,-4,-2,,,,,,,800
 ,,si_link_curved_mlok_fg,Smite Industries LINK Curved MLOK,5,0.06,-2,-3,,,,,,,500
 ,,magtap_mlok_afg_grip,Magtap MLOK AFG,4,0.05,-3,-3,,,,,,,500
-,,pac_mlok_3inch_5_slot_rail_section_bottom,PAC MLOK 3 Inch 5-Slot Rail Section,-2,0.06,,,,,,,,,500
-,,pac_mlok_3inch_5_slot_rail_section_side,PAC MLOK 3 Inch 5-Slot Rail Section,-2,0.06,,,,,,,,,500
-,,pac_mlok_3inch_5_slot_rail_section_top,PAC MLOK 3 Inch 5-Slot Rail Section,-2,0.06,,,,,,,,,500
+,,pac_mlok_3inch_5_slot_rail_section_bottom,PAC MLOK 3 Inch 5-Slot Rail Section,-0.5,0.05,,,,,,,,,500
+,,pac_mlok_3inch_5_slot_rail_section_side,PAC MLOK 3 Inch 5-Slot Rail Section,-0.5,0.05,,,,,,,,,500
+,,pac_mlok_3inch_5_slot_rail_section_top,PAC MLOK 3 Inch 5-Slot Rail Section,-0.5,0.05,,,,,,,,,500
 ,,nariakira_mlok_fingerstop,Nariakira MLOK Fingerstop,6,0.02,-1,0,,,,,,,500
 ,,overlord_halo,Overlord HALO MLOK Handstop,6,0.03,-2,0,,,,,,,600
 ,zenit_basis,,,,,,,,,,,,,
 ,,veles_npn_2_rail_cover,Veles NPN-2,1,0.03,,,,,,,,,750
 ,,veles_npn_2_half_rail_cover,Veles NPN-2 Half,0.5,0.02,,,,,,,,,300
-,,veles_b_2l_34mm_rail_side,Veles B-2L 34mm Rail,-1,0.03,,,,,,,,,100
-,,veles_b_2l_34mm_rail_top,Veles B-2L 34mm Rail,-1,0.03,,,,,,,,,100
-,,veles_b_2l_34mm_rail_grips,Veles B-2L 34mm Rail,-1,0.03,,,,,,,,,100
-,,veles_b_2u_75mm_rail_side,Veles B-2U 75mm Rail,-1.5,0.06,,,,,,,,,400
-,,veles_b_2u_75mm_rail_top,Veles B-2U 75mm Rail,-1.5,0.06,,,,,,,,,400
-,,veles_b_2u_75mm_rail_grips,Veles B-2U 75mm Rail,-1.5,0.06,,,,,,,,,400
+,,veles_b_2l_34mm_rail_side,Veles B-2L 34mm Rail,-0.5,0.03,,,,,,,,,100
+,,veles_b_2l_34mm_rail_top,Veles B-2L 34mm Rail,-0.5,0.03,,,,,,,,,100
+,,veles_b_2l_34mm_rail_grips,Veles B-2L 34mm Rail,-0.5,0.03,,,,,,,,,100
+,,veles_b_2u_75mm_rail_side,Veles B-2U 75mm Rail,-0.5,0.06,,,,,,,,,400
+,,veles_b_2u_75mm_rail_top,Veles B-2U 75mm Rail,-0.5,0.06,,,,,,,,,400
+,,veles_b_2u_75mm_rail_grips,Veles B-2U 75mm Rail,-0.5,0.06,,,,,,,,,400
 ,,veles_rl_1_handstop,Veles RL-1,6,0.04,-1,-1,,,,,,,400
 ,pmag_m3_bottom_plate,,,,,,,,,,,,,
 ,,magtap_std_m3_bottom_plate,Magtap Standard M3,0,0.02,,,,,,,,,0
@@ -536,16 +536,16 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ultracross_electro_4x20_bdc_scope,UltraCROSS Electro 4x20 BDC Turret,-3,0.18,,,,,,,,,1000
 ,sc_irregulars_omm_front_mount,,,,,,,,,,,,,
 ,,sc_irregulars_cap_front,AT Refine OMM Front,0,0.01,,,,,,,,,0
-,,sc_irregulars_omm_3_slot_board_front,AT Refine OMM 3 Slot Board,-0.5,0.03,,,,,,,,,200
-,,sc_irregulars_omm_4_slot_board_front,AT Refine OMM 4 Slot Board,-1,0.04,,,,,,,,,300
-,,sc_irregulars_omm_6_slot_board_front,AT Refine OMM 6 Slot Board,-1.5,0.06,,,,,,,,,400
-,,sc_irregulars_omm_8_slot_board_front,AT Refine OMM 8 Slot Board,-2,0.08,,,,,,,,,500
+,,sc_irregulars_omm_3_slot_board_front,AT Refine OMM 3 Slot Board,0,0.03,,,,,,,,,200
+,,sc_irregulars_omm_4_slot_board_front,AT Refine OMM 4 Slot Board,0,0.04,,,,,,,,,300
+,,sc_irregulars_omm_6_slot_board_front,AT Refine OMM 6 Slot Board,0,0.06,,,,,,,,,400
+,,sc_irregulars_omm_8_slot_board_front,AT Refine OMM 8 Slot Board,0,0.08,,,,,,,,,500
 ,sc_irregulars_omm_rear_mount,,,,,,,,,,,,,
 ,,sc_irregulars_cap_rear,AT Refine OMM Rear,0,0.01,,,,,,,,,0
-,,sc_irregulars_omm_3_slot_board_rear,AT Refine OMM 3 Slot Board,-0.5,0.03,,,,,,,,,200
-,,sc_irregulars_omm_4_slot_board_rear,AT Refine OMM 4 Slot Board,-1,0.04,,,,,,,,,300
-,,sc_irregulars_omm_6_slot_board_rear,AT Refine OMM 6 Slot Board,-1.5,0.06,,,,,,,,,400
-,,sc_irregulars_omm_8_slot_board_rear,AT Refine OMM 8 Slot Board,-2,0.08,,,,,,,,,500
+,,sc_irregulars_omm_3_slot_board_rear,AT Refine OMM 3 Slot Board,0,0.03,,,,,,,,,200
+,,sc_irregulars_omm_4_slot_board_rear,AT Refine OMM 4 Slot Board,0,0.04,,,,,,,,,300
+,,sc_irregulars_omm_6_slot_board_rear,AT Refine OMM 6 Slot Board,0,0.06,,,,,,,,,400
+,,sc_irregulars_omm_8_slot_board_rear,AT Refine OMM 8 Slot Board,0,0.08,,,,,,,,,500
 ,m4a1_gas_block,,,,,,,,,,,,,
 ,,jp_enterprises_5b_gasblock,JP Enterprises 5B,-1,0.08,-2,-2,,,,,,,750
 ,,axtell_defense_mk12_low_profile_gasblock,Axtell Defense MK12 Low Profile,0,0.06,-1,-1,,,,,,,1200
@@ -2076,7 +2076,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,steyr_aug_a3_sa_receiver,Löwenherz AUG A3 Standard,0,0.37,-1,-2,,,,,,,500
 ,,steyr_aug_a1_stg77_1_5x_scoped_receiver,Löwenherz AUG A1 Swarovski Optik 1.5x Scoped,2,0.64,0,-4,,,,,,,0
 ,aug_a3_side_rail_mount,,,,,,,,,,,,,
-,,aug_a3_std_side_rail_mount,AUG A3 Side,-1,0.06,,,,,,,,,0
+,,aug_a3_std_side_rail_mount,AUG A3 Side,-0.5,0.06,,,,,,,,,0
 ,aug_a3_sling_mount,,,,,,,,,,,,,
 ,,aug_a3_sling_mount,AUG A3 M1,3,0.03,,,,,,,,,0
 ,aug_a3_stock_buttpad,,,,,,,,,,,,,
@@ -2479,19 +2479,19 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,mcs_v5_skeleton_rifle_stock,MCS Skeleton V5,22,0.32,0,0,,-0.05,,,,,1200
 ,,mcs_v5_skeleton_rifle_stock_short,MCS Skeleton V5 Short,22,0.3,0,0,,-0.05,,,,,1200
 ,mk10_bottom,,,,,,,,,,,,,
-,,mk10_bottom_adapter_large,MK10RL Large,-1,0.1,2,2,,,,,,,0
-,,mk10_bottom_adapter_small,MK10RL Small,-1,0.04,2,2,,,,,,,0
+,,mk10_bottom_adapter_large,MK10RL Large,-0.5,0.1,2,2,,,,,,,0
+,,mk10_bottom_adapter_small,MK10RL Small,-0.5,0.04,2,2,,,,,,,0
 ,mk10_side,,,,,,,,,,,,,
-,,mk10_side_adapter_large,MK10RL Large,-1,0.1,,,,,,,,,0
-,,mk10_side_adapter_small,MK10RL Small,-1,0.04,,,,,,,,,0
+,,mk10_side_adapter_large,MK10RL Large,-0.5,0.1,,,,,,,,,0
+,,mk10_side_adapter_small,MK10RL Small,-0.5,0.04,,,,,,,,,0
 ,mk10_top,,,,,,,,,,,,,
-,,mk10_top_adapter_large,MK10RL Large,-1,0.1,,,,,,,,,0
-,,mk10_top_adapter_small,MK10RL Small,-1,0.06,,,,,,,,,0
+,,mk10_top_adapter_large,MK10RL Large,-0.5,0.1,,,,,,,,,0
+,,mk10_top_adapter_small,MK10RL Small,-0.5,0.06,,,,,,,,,0
 ,warsport_handguard_accessory_rail,,,,,,,,,,,,,
-,,calsport_handguard_long_accessory_rail_bottom,Cal Sport Long Accessory Rail,-2,0.07,,,,,,,,,700
-,,calsport_handguard_long_accessory_rail_side,Cal Sport Long Accessory Rail,-2,0.07,,,,,,,,,700
-,,calsport_handguard_short_accessory_rail_bottom,Cal Sport Short Accessory Rail,-1,0.04,,,,,,,,,300
-,,calsport_handguard_short_accessory_rail_side,Cal Sport Short Accessory Rail,-1,0.04,,,,,,,,,300
+,,calsport_handguard_long_accessory_rail_bottom,Cal Sport Long Accessory Rail,-0.5,0.07,,,,,,,,,700
+,,calsport_handguard_long_accessory_rail_side,Cal Sport Long Accessory Rail,-0.5,0.07,,,,,,,,,700
+,,calsport_handguard_short_accessory_rail_bottom,Cal Sport Short Accessory Rail,-0.5,0.04,,,,,,,,,300
+,,calsport_handguard_short_accessory_rail_side,Cal Sport Short Accessory Rail,-0.5,0.04,,,,,,,,,300
 ,oss_bpr_supp,,,,,,,,,,,,,
 ,,spiderweb_bpr_suppressor_system_srm_6,Spiderweb BPR System SRM-6,-3,0.14,-3,-3,,-0.08,0.03,130,,,1000
 ,prs_adjustment,,,,,,,,,,,,,
@@ -2502,7 +2502,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pu_3.5x_scope,PU 3.5x,-3.5,0.14,,,,,,,,,750
 ,,nomz_pilad_p3.5x20c_scope,NOMZ Pilad P3.5x20 C,-3,0.16,,,,,,,,,800
 ,z24_scope,,,,,,,,,,,,,
-,,hetzel_z24_fero_4x24,Hetzel AG Z24 Fero 4x24mm,-3,0.16,,,,,,,,,750
+,,hetzel_z24_fero_4x24,Hetzel AG Z24 Fero 4x24mm,-2,0.16,,,,,,,,,750
 ,romeo3_mount,,,,,,,,,,,,,
 ,,sig_sauer_romeo3,Sic Stürmer Romeo3 Sight,-2,0.05,,,,,,,,,900
 ,romeo4t_cap,,,,,,,,,,,,,
@@ -2642,7 +2642,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,precision_intercontinental_roosevelt_700_sa_at_aics_gen2_folding_chassis_external_cover,Precision Intercontinental Rem700 SA AT AICS 2.0 Folding Chassis,0,0.1,,,,,,,,,0
 ,at700_cover_mods,,,,,,,,,,,,,
 ,,precision_intercontinental_at_aics_gen2_frame_keymod_assembly,Precision Intercontinental AT AICS 2.0 Keymod,0,0.02,,,,,,,,,200
-,,precision_intercontinental_at_aics_gen2_frame_rail_assembly,Precision Intercontinental AT AICS 2.0 Picatinny,-2,0.03,,,,,,,,,700
+,,precision_intercontinental_at_aics_gen2_frame_rail_assembly,Precision Intercontinental AT AICS 2.0 Picatinny,-1,0.03,,,,,,,,,700
 ,at700_mag_release,,,,,,,,,,,,,
 ,,precision_intercontinental_at_aics_gen2_mag_release,Precision Intercontinental AT AICS 2.0,0,0.01,,,,,,,,,0
 ,at700_pistol_grip,,,,,,,,,,,,,

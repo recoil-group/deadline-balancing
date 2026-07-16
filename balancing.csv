@@ -2918,7 +2918,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1345,,Remington870,Roosevelt M870 Express,25,0,90,90,1,0.8,1,1000,2.5,,20000
 1346,,MP133,Ladoga MP133,25,0,60,70,1,0.6,1,1000,2.5,,9000
 ,smg,,,,,,,,,,,,,
-1347,,MP5,KF MPi-54,40,0,45,55,0,1.05,1,1000,,,5000
+1347,,MP5,KF MPi-54,40,0,45,55,0,1.05,1,1000,,,25000
 1348,,Vector,KALIS Scalar Gen II,25,0,60,60,0,1.2,1,700,,,90000
 1349,,MK9,AR-9,30,0,55,70,0,1.05,1,1000,,,20000
 1350,,UMP,KF UMC-45,60,0,80,90,0,1.05,1,700,,,15000

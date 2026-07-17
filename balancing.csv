@@ -53,7 +53,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pro_tactical_tactical_lightweight_vertical_grip,P.R.O Tactical Lightweight Vertical,5,0.11,-4,-1,,,,,,,400
 ,,emberfield_mg_kemper_xl_reflex_sight,EmberField MG Kemper XL Reflex,-7,0.19,,-1,,0.25,,,,,2000
 ,,aft_rear_sight_base,AFT Standard,0,0.02,,,,,,,,,200
-,,gbrs_group_azimuth_hydra_mount_kit,GBRS Group Hydra Mount Kit For Azimuth,-3,0.17,,,,,,,,,1000
+,,gbrs_group_azimuth_hydra_mount_kit,GBRS Group Hydra Mount Kit For Azimuth,-1,0.17,,,,,,,,,1000
 ,,grip_pod_gps_02_body,Grip Pod Systems GPS-02,0,0.15,0,0,,,,,,,1100
 ,,holosun_hs401g5,HoloStar HS401G5,-2,0.2,,,,,,,,,800
 ,,holosun_ls321g,HoloStar LS321G,-1,0.06,,,,,,,,,800
@@ -183,7 +183,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,bt_qd_nar_acro_30mm_mount,B&T QD NAR ACRO 30mm,-0.5,0.04,,,,,,,,,550
 ,,bt_qd_nar_acro_39mm_mount,B&T QD NAR ACRO 39mm,-1,0.05,,,,,,,,,600
 ,,sc_irregulars_omm_micro_mount,AT Refine OMM MICRO,-1,0.13,,,,,,,,,2000
-,,sc_irregulars_omm_pic_mount,AT Refine OMM PIC Mount,-2,0.08,,,,,,,,,1500
+,,sc_irregulars_omm_pic_mount,AT Refine OMM PIC Mount,-1,0.08,,,,,,,,,1500
 ,,volhov_zt310_picatinny_mount,Valday JSC Optics ZT-310 Picatinny,0,0.03,,,,,,,,,100
 ,,arbalet_patriot_k_pu_20mm_picatinny_mount,Arbalet Patriot K-PU 20mm Picatinny,0,0.06,,,,,,,,,400
 ,,virticon_rm34_ac12036_mount,Virticon RM34 AC12036,-0.5,0.04,,,,,,,,,400
@@ -221,7 +221,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,whitehouse_raid_xe_g14_high_power_laser_aiming_device,Whitehouse RAID Xe G14 High Power,-2,0.06,,,,,,,,,4000
 ,,whitehouse_raid_xe_junction_box_legacy_crane_connector,Whitehouse RAID Xe Legacy Crane Connector,0,0.01,,,,,,,,,0
 ,,whitehouse_raid_xe_front_caps,Whitehouse RAID Xe Front,0,0.01,,,,,,,,,0
-,,pac_azimuth_micro_nvg_high_rise_picatinny_mount,PAC Azimuth Micro NVG High Rise Picatinny Mount,-2,0.1,,,,,,,,,1300
+,,pac_azimuth_micro_nvg_high_rise_picatinny_mount,PAC Azimuth Micro NVG High Rise Picatinny Mount,-1,0.1,,,,,,,,,1300
 ,,sig_sauer_foxtrot1_flashlight,Sic Stürmer FOXTROT1,0,0.05,,,,,,,,,900
 ,,npz_pso_1_4x24_picatinny_scope,NPZ PSO-1 4x24 Picatinny,-3,0.21,,-1,,,,,,,1200
 ,,npz_pso_rear_cup,NPZ PSO,2,0.02,,,,,,,,,0

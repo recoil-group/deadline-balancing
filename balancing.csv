@@ -1,4 +1,4 @@
-﻿0.25.3,Thu Jul 16 16:50:14 2026,,,,,,,,,,,,,
+﻿0.25.3,Thu Jul 16 18:17:16 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -817,12 +817,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,hi_dog_hdd_tactical_scarh_hitorque_gasblock,Hi-Dog HDD Tactical SCAR-H HI-TORQUE,2,0.16,-1,0,,,,,,,400
 ,fn_front_sight_base,,,,,,,,,,,,,
 ,,aft_front_sight_base,AFT Standard,0,0.01,,,,,,,,,0
-,,dynamic_development_group_scar_fs_replacement_rail,Dynamic Development Group SCAR Front Sight Replacement Rail,0,0.03,,,,,,,,,300
+,,dynamic_development_group_scar_fs_replacement_rail,Dynamic Development Group SCAR Front Sight Replacement Rail,0,0.02,,,,,,,,,
 ,fn_front_sight,,,,,,,,,,,,,
 ,,aft_front_sight_folded,AFT Standard Folded,1,0.01,,,,,,,,,0
 ,,aft_front_sight,AFT Standard,1,0.01,,,,,,,,,0
 ,fn_scar_bolt_release,,,,,,,,,,,,,
-,,aft_bolt_release,AFT MK-17 Standard,0,0,,,,,,,,,0
+,,aft_bolt_release,AFT MK-17 Standard,0,0.03,,,,,,,,,
 ,,pmm_scar_battery_control_bolt_release,Everetts Machining SCAR Battery Control,2,0.06,,,,,,,,,500
 ,fn_scar_trigger,,,,,,,,,,,,,
 ,,aft_trigger,AF Tournai Standard,0,0.03,,,,,,,,,0
@@ -833,10 +833,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pmm_scar_heavy_duty_mlok_bottom_panel,Everetts Machining SCAR Heavy Duty MLOK Bottom Panel,2,0.08,,,,,,,,,300
 ,fn_scar_charging_handle,,,,,,,,,,,,,
 ,,aft_charging_handle,AFT MK-16 Standard,1,0.02,,,,,,,,,0
-,,apex_bolt_handle_for_scar,Apex Bolt Handle for SCAR,2,0.04,,,,,,,,,500
-,,dynamic_development_group_ambi_scarging_handle,Dynamic Development Group Ambi SCARGING Bolt Handle,2,0.03,,,,,,,,,500
+,,apex_bolt_handle_for_scar,Apex Bolt Handle for SCAR,1.5,0.03,,,,,,,,,500
+,,dynamic_development_group_ambi_scarging_handle,Dynamic Development Group Ambi SCARGING Bolt Handle,2,0.04,,,,,,,,,500
 ,fn_scar_fire_selector,,,,,,,,,,,,,
-,,aft_fire_selector,AFT MK-17 Standard,0,0,,,,,,,,,0
+,,aft_fire_selector,AFT MK-17 Standard,0,0.02,,,,,,,,,0
 ,,dynamic_development_group_talon_ambi_scar_45_90_safety_selector,Dynamic Development Group Talon Ambi SCAR 45/90,1.5,0.02,,,,,,,,,300
 ,fn_scar_h_barrel,,,,,,,,,,,,,
 ,,aft_mk20_508mm_barrel,AFT Mk20 508mm,-4,1.01,2,2,,-0.3,0.09,308,,,1500
@@ -850,11 +850,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,aft_mk_17_bolt_carrier,AFT MK-17 Bolt,0,0.2,,,,,,,,,0
 ,,monarch_ballistics_buffered_scar_bolt_carrier,Monarch Ballistics Buffered SCAR,-1,0.22,-2,-2,,,,,,,500
 ,fn_scar_h_lower_receiver,,,,,,,,,,,,,
-,,cartesia_productions_scar_h_x17_trigger_module_lower_receiver,Cartesia Productions X-17 SCAR-H Trigger Module,2,0.37,1,0,,,,,,,2000
-,,aft_mk_17_lower_receiver,AF Tournai-H Standard,0,0.38,-1,1,,,,,,,0
-,,lingle_industries_ar17_scar_h_lower,Lingle Industries AR17 SCAR-H Lower,3,0.4,-1,-1,,,,,,,2500
+,,cartesia_productions_scar_h_x17_trigger_module_lower_receiver,Cartesia Productions X-17 SCAR-H Trigger Module,2,0.29,,,,,,,,,
+,,aft_mk_17_lower_receiver,AF Tournai-H Standard,0,0.3,,,,,,,,,0
+,,lingle_industries_ar17_scar_h_lower,Lingle Industries AR17 SCAR-H Lower,3,0.32,,,,,,,,,2500
 ,lingle_mag_release,,,,,,,,,,,,,
-,,m4a1_std_mag_release_scar,Hart M4A1,0,0.1,,,,,,,,,0
+,,m4a1_std_mag_release_scar,Hart M4A1,0,0.03,,,,,,,,,0
 ,fn_scar_h_upper_receiver,,,,,,,,,,,,,
 ,,aft_mk_17_upper_receiver,AFT MK-17 Standard,0,0.65,0,0,,,,,,,0
 ,,aft_mk20_upper_receiver,AFT Mk20,5,0.9,3,4,,,,,,,4000
@@ -868,14 +868,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,fn_scar_l_gasblock,,,,,,,,,,,,,
 ,,aft_mk_16_gasblock,AFT MK-16 Standard,0,0.1,0,0,,,,,,,0
 ,fn_scar_l_lower_receiver,,,,,,,,,,,,,
-,,aft_mk_16_lower_receiver,AF Tournai-L Standard,0,0.4,0,0,,,,,,,0
+,,aft_mk_16_lower_receiver,AF Tournai-L Standard,0,0.3,,,,,,,,,0
 ,fn_scar_l_magplate,,,,,,,,,,,,,
 ,,aft_mk_16_std_magplate,AF Tournai Mag,0,0.02,,,,,,,,,0
 ,fn_scar_l_upper_receiver,,,,,,,,,,,,,
-,,aft_mk_16_upper_receiver,AFT MK-16 Standard,0,0.5,0,0,,,,,,,0
+,,aft_mk_16_upper_receiver,AFT MK-16 Standard,0,0.46,,,,,,,,,0
 ,fn_scar_mag_release,,,,,,,,,,,,,
-,,aft_mag_release,AFT MK-17 Standard,0,0,,,,,,,,,0
-,,pmm_scar_oversized_mag_release_button,Everetts Machining SCAR Oversized Button,1,0.03,,,,,,,,,500
+,,aft_mag_release,AFT MK-17 Standard,0,0.03,,,,,,,,,0
+,,pmm_scar_oversized_mag_release_button,Everetts Machining SCAR Oversized Button,1,0.05,,,,,,,,,500
 ,fn_scar_side_rail_mount,,,,,,,,,,,,,
 ,,aft_side_rail_1,AF Tournai,-0.5,0.04,,,,,,,,,0
 ,,aft_mk20_side_rail_2,AF Tournai Mk20,-1,0.07,,,,,,,,,500
@@ -899,9 +899,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,scar47_barrel,,,,,,,,,,,,,
 ,,hilt_defense_scar47_394mm_barrel,HILT DEFENSE SCAR 47 394mm,0,0.77,0,0,,0,0,0,,,0
 ,scar47_lower_receiver,,,,,,,,,,,,,
-,,scar47_lower_receiver,HILT DEFENSE SCAR 47,0,0.4,,,,,,,,,0
+,,scar47_lower_receiver,HILT DEFENSE SCAR 47,0,0.38,,,,,,,,,0
 ,scar47_mag_release,,,,,,,,,,,,,
-,,scar47_mag_release,HILT DEFENSE SCAR 47,0,0.01,,,,,,,,,0
+,,scar47_mag_release,HILT DEFENSE SCAR 47,0,0.02,,,,,,,,,0
 ,scar47_pistol_grip,,,,,,,,,,,,,
 ,,scar47_pistol_grip,HILT DEFENSE SCAR 47,7,0.07,-2,-2,,,,,,,0
 ,scar47_upper_receiver,,,,,,,,,,,,,
@@ -923,9 +923,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,edinburg_engineering_scarburator_gen3,Edinburg Engineering SCARburator Gen3,0,0.04,0,-2,,,,,,,400
 ,,aft_oem_gas_selector,AFT OEM,0,0.02,0,0,,,,,,,0
 ,scar_magwell,,,,,,,,,,,,,
-,,pmm_scar_17_magwell_type1,Everetts Machining SCAR 17 Type 1,2,0.08,0,-2,,,,,,,750
-,,pmm_scar_17_magwell_type2,Everetts Machining SCAR 17 Type 2,2.5,0.1,-1,,,,,,,,700
-,,pmm_scar_16_magwell,Everetts Machining SCAR 16,2.5,0.1,-1,,,,,,,,700
+,,pmm_scar_17_magwell_type1,Everetts Machining SCAR 17 Type 1,2,0.06,0,-2,,,,,,,750
+,,pmm_scar_17_magwell_type2,Everetts Machining SCAR 17 Type 2,2.5,0.08,-1,,,,,,,,700
+,,pmm_scar_16_magwell,Everetts Machining SCAR 16,2,0.05,-1,,,,,,,,700
 ,vector_folding_stock,,,,,,,,,,,,,
 ,,kriss_vector_gen2_folding_stock,KALIS Scalar Gen2,16,0.26,-7,-9,,,,,,,0
 ,,kriss_vector_non_folding_stock_adapter,KALIS Scalar Non-Folding Stock Adapter,0,0.08,0,0,,,,,,,800
@@ -1869,9 +1869,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,omega_ump45_200mm_trilug_barrel,OMEGA UMC45 200mm .45ACP Tri-Lug,-1,0.3,0,-2,,0.05,0.06,-18,,,300
 ,kf_416_barrel_sight,,,,,,,,,,,,,
 ,,33mm_open_front_folding_iron_sight,33mm Open Front,1,0.02,,,,,,,,,0
-,,33mm_open_front_folding_iron_sight_folded,33mm Open Front Folded,0,0.02,,,,,,,,,0
+,,33mm_open_front_folding_iron_sight_folded,33mm Open Front Folded,1,0.02,,,,,,,,,0
 ,,33mm_enclosed_front_folding_iron_sight,33mm Enclosed Front,1,0.02,,,,,,,,,0
-,,33mm_enclosed_front_folding_iron_sight_folded,33mm Enclosed Front Folded,0,0.02,,,,,,,,,0
+,,33mm_enclosed_front_folding_iron_sight_folded,33mm Enclosed Front Folded,1,0.02,,,,,,,,,0
 ,kf_416_barrel,,,,,,,,,,,,,
 ,,kf_416c_9.0i_barrel,"KF416C 9.0""",4,0.4,3,3,,0.24,-0.11,-140,,,1000
 ,,kf_416d_10.4i_barrel,"KF416D 10.4""",3,0.46,2,2,,0.18,-0.08,-100,,,1000
@@ -2076,7 +2076,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,steyr_aug_a3_sa_receiver,Löwenherz AUG A3 Standard,0,0.37,-1,-2,,,,,,,500
 ,,steyr_aug_a1_stg77_1_5x_scoped_receiver,Löwenherz AUG A1 Swarovski Optik 1.5x Scoped,2,0.64,0,-4,,,,,,,0
 ,aug_a3_side_rail_mount,,,,,,,,,,,,,
-,,aug_a3_std_side_rail_mount,AUG A3 Side,-0.5,0.06,,,,,,,,,0
+,,aug_a3_std_side_rail_mount,AUG A3 Side,-0.5,0.04,,,,,,,,,0
 ,aug_a3_sling_mount,,,,,,,,,,,,,
 ,,aug_a3_sling_mount,AUG A3 M1,3,0.03,,,,,,,,,0
 ,aug_a3_stock_buttpad,,,,,,,,,,,,,
@@ -2132,10 +2132,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,corvus_defensio_aug_a3_mlok_top_rail,Corvus Defensio AUG A3 MLOK Top Rail,2,0.17,-1,-2,,,,,,,750
 ,,steyr_aug_z_subcompact_swat_keymod_top_rail,Löwenherz AUG-Z Subcompact SWAT Keymod Top Rail,1,0.16,-3,-1,,,,,,,1200
 ,steyr_aug_z_rail_irons,,,,,,,,,,,,,
-,,steyr_aug_z_rail_front_sight,Löwenherz AUG-Z Rail,1,0.03,,,,,,,,,0
-,,steyr_aug_z_rail_front_sight_folded,Löwenherz AUG-Z Rail Folded,1,0.03,,,,,,,,,0
-,,steyr_aug_z_rail_rear_sight,Löwenherz AUG-Z Rail,1,0.03,,,,,,,,,0
-,,steyr_aug_z_rail_rear_sight_folded,Löwenherz AUG-Z Rail Folded,1,0.03,,,,,,,,,0
+,,steyr_aug_z_rail_front_sight,Löwenherz AUG-Z Rail,1,0.02,,,,,,,,,0
+,,steyr_aug_z_rail_front_sight_folded,Löwenherz AUG-Z Rail Folded,1,0.02,,,,,,,,,0
+,,steyr_aug_z_rail_rear_sight,Löwenherz AUG-Z Rail,1,0.02,,,,,,,,,0
+,,steyr_aug_z_rail_rear_sight_folded,Löwenherz AUG-Z Rail Folded,1,0.02,,,,,,,,,0
 ,aug_a3m1_top_rail_mount,,,,,,,,,,,,,
 ,,steyr_aug_a3_m1_high_sight_mount,Löwenherz AUG A3 M1 High Top Rail,-1,0.1,-1,0,,,,,,,400
 ,,steyr_aug_a3_m1_extended_factory_rail,Löwenherz AUG A3 M1 Extended Factory Top Rail,-2,0.13,-1,-2,,,,,,,800

@@ -1,4 +1,4 @@
-﻿0.25.3,Thu Jul 16 18:20:38 2026,,,,,,,,,,,,,
+﻿0.25.3,Thu Jul 16 19:59:41 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -1275,13 +1275,13 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ak12_std_upper_handguard,Kazarov Group AK-12 Std.,0,0.06,0,0,,,,,,,0
 ,,kazarov_group_ak12_std_handguard_side_rail,Kazarov Group AK-12 Std. Side Rail,-0.5,0.02,,,,,,,,,300
 ,ak308_barrel,,,,,,,,,,,,,
-,,ak308_std_415mm_barrel,AK-308 415mm 7.62x51,0,1.32,0,0,,0,0,0,,,0
-,,custom_ak308_7.62x51_415mm_threaded_barrel,Custom AK-308 415mm Threaded 7.62x51,-1,1.32,1,1,,0.1,0,0,,,1000
+,,ak308_std_415mm_barrel,AK-308 415mm 7.62x51,0,1.45,0,0,,0,0,0,,,0
+,,custom_ak308_7.62x51_415mm_threaded_barrel,Custom AK-308 415mm Threaded 7.62x51,-1,1.45,1,1,,0.1,0,0,,,1000
 ,ak308_bolt,,,,,,,,,,,,,
-,,ak308_std_7.62x51_bolt,AK-308 7.62x51 NATO,0,0.4,,,,,,,,,0
+,,ak308_std_7.62x51_bolt,AK-308 7.62x51 NATO,0,0.41,,,,,,,,,0
 ,ak308_lower_receiver,,,,,,,,,,,,,
-,,ak308_gen2_lower_receiver,Kazarov Group AK-308 Gen 2,5,0.5,12,8,,-0.05,,,,,2000
-,,ak308_gen1_lower_receiver,Kazarov Group AK-308 Gen 1,0,0.46,8,5,,0,,,,,500
+,,ak308_gen2_lower_receiver,Kazarov Group AK-308 Gen 2,5,0.52,12,8,,-0.05,,,,,2000
+,,ak308_gen1_lower_receiver,Kazarov Group AK-308 Gen 1,0,0.48,8,5,,0,,,,,500
 ,ak74_bolt,,,,,,,,,,,,,
 ,,kazarov_ak74_5.45x39_bolt,Kazarov AK-74,0,0.05,,,,,,,,,0
 ,ak74_bolt_carrier,,,,,,,,,,,,,
@@ -2314,9 +2314,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,suppressors_inc_osprey45_gen1_45acp_suppressor_7.62x51_piston,Suppressors Inc. Osprey 45 Gen 1 .45ACP w/ 7.62x51 Piston,-5,0.21,-9,-14,,-0.1,0.05,100,,,1500
 ,,suppressors_inc_osprey45_gen1_45acp_suppressor_7.62x51_piston_flipped,Suppressors Inc. Osprey 45 Gen 1 .45ACP w/ 7.62x51 Piston Flipped,-5,0.21,-9,-14,,-0.1,0.05,100,,,1500
 ,,lantac_dgn762b_asr_muzzle_brake,PGTac DGN762B-ASR,-1,0.09,-15,-13,,0.05,0,0,,,1000
-,,ips_7.62x51_1inch_barrel_extension,"IPS 1"" 7.62x51",-1,0.05,0,0,,0.05,0.01,20,,,500
-,,ips_7.62x51_2inch_barrel_extension,"IPS 2"" 7.62x51",-2,0.09,0,0,,0.1,0.02,40,,,750
-,,ips_7.62x51_4inch_barrel_extension,"IPS 4"" 7.62x51",-3,0.17,0,0,,0.2,0.03,80,,,1000
+,,ips_7.62x51_1inch_barrel_extension,"IPS 1"" 7.62x51",-1,0.05,0,-1,,0.05,0,20,,,500
+,,ips_7.62x51_2inch_barrel_extension,"IPS 2"" 7.62x51",-2,0.09,0,-2,,0.1,0,40,,,750
+,,ips_7.62x51_4inch_barrel_extension,"IPS 4"" 7.62x51",-3,0.17,0,-4,,0.2,0,80,,,1000
 ,,centrefire_socom762_sfmb_muzzle_brake,Centrefire SOCOM 7.62 SFMB,-2,0.09,-17,-12,,0.05,0,0,,,900
 ,,odin_works_tiduro_thread_adapter_module,Odin Works Tiduro Thread Adapter Module,-1,0.04,-9,-9,,0,0,-30,,,300
 ,,odin_works_tiduro_.338_modular_no_baffle_suppressor,Odin Works Tiduro .338 Modular No Baffle,-3,0.12,-10,-8,,-0.06,0.04,120,,,1500
@@ -2902,7 +2902,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,KF416,KF 416,25,0,70,80,0,0.55,1,2450,,,30000
 ,,AUG_A3,Löwenherz AUG A3,40,0,55,65,0,0.5,1,2450,,,42000
 ,,AK12,Kazarov Group AK-12,30,0,50,55,0,0.3,1,2300,,,25000
-,,AK308,Kazarov Group AK-308,20,0,80,100,0,0.85,1,1900,,,65000
+,,AK308,Kazarov Group AK-308,20,0,80,100,0,0.75,1,1900,,,65000
 ,,M4A1,AR-15,15,0,65,85,0,0.6,1,2450,,,0
 ,,QBZ95,Sanxian QBZ-95,50,0,50,50,0,0.4,0.92,2500,,,25000
 ,,SA58,RSA SG-58,16,0,80,100,0,0.75,1,1900,,,20000

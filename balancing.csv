@@ -850,15 +850,15 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,aft_mk_17_bolt_carrier,AFT MK-17 Bolt,0,0.2,,,,,,,,,0
 ,,monarch_ballistics_buffered_scar_bolt_carrier,Monarch Ballistics Buffered SCAR,-1,0.22,-2,-2,,,,,,,500
 ,fn_scar_h_lower_receiver,,,,,,,,,,,,,
-,,cartesia_productions_scar_h_x17_trigger_module_lower_receiver,Cartesia Productions X-17 SCAR-H Trigger Module,2,0.29,,,,,,,,,
-,,aft_mk_17_lower_receiver,AF Tournai-H Standard,0,0.3,,,,,,,,,0
-,,lingle_industries_ar17_scar_h_lower,Lingle Industries AR17 SCAR-H Lower,3,0.32,,,,,,,,,2500
+,,cartesia_productions_scar_h_x17_trigger_module_lower_receiver,Cartesia Productions X-17 SCAR-H Trigger Module,2,0.34,,,,,,,,,
+,,aft_mk_17_lower_receiver,AF Tournai-H Standard,0,0.35,,,,,,,,,0
+,,lingle_industries_ar17_scar_h_lower,Lingle Industries AR17 SCAR-H Lower,3,0.37,,,,,,,,,2500
 ,lingle_mag_release,,,,,,,,,,,,,
 ,,m4a1_std_mag_release_scar,Hart M4A1,0,0.03,,,,,,,,,0
 ,fn_scar_h_upper_receiver,,,,,,,,,,,,,
-,,aft_mk_17_upper_receiver,AFT MK-17 Standard,0,0.65,0,0,,,,,,,0
-,,aft_mk20_upper_receiver,AFT Mk20,5,0.9,3,4,,,,,,,4000
-,,monarch_ballistics_cypher_x_standard_scar_h_upper_receiver,Monarch Ballistics CypherX Standard SCAR-H,3,0.67,0,1,,,,,,,3000
+,,aft_mk_17_upper_receiver,AFT MK-17 Standard,0,0.6,0,0,,,,,,,0
+,,aft_mk20_upper_receiver,AFT Mk20,5,0.85,3,4,,,,,,,4000
+,,monarch_ballistics_cypher_x_standard_scar_h_upper_receiver,Monarch Ballistics CypherX Standard SCAR-H,3,0.62,0,1,,,,,,,3000
 ,fn_scar_l_barrel,,,,,,,,,,,,,
 ,,aft_mk_16_254mm_barrel,AFT MK-16 254mm,2,0.47,1,1,,0.2,-0.08,-135,,,1200
 ,,aft_mk_16_355mm_barrel,AFT MK-16 355mm,0,0.6,0,0,,0.02,0.02,17,,,0
@@ -872,7 +872,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,fn_scar_l_magplate,,,,,,,,,,,,,
 ,,aft_mk_16_std_magplate,AF Tournai Mag,0,0.02,,,,,,,,,0
 ,fn_scar_l_upper_receiver,,,,,,,,,,,,,
-,,aft_mk_16_upper_receiver,AFT MK-16 Standard,0,0.46,,,,,,,,,0
+,,aft_mk_16_upper_receiver,AFT MK-16 Standard,0,0.5,,,,,,,,,0
 ,fn_scar_mag_release,,,,,,,,,,,,,
 ,,aft_mag_release,AFT MK-17 Standard,0,0.03,,,,,,,,,0
 ,,pmm_scar_oversized_mag_release_button,Everetts Machining SCAR Oversized Button,1,0.05,,,,,,,,,500

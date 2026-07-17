@@ -1,4 +1,4 @@
-﻿0.25.3,Thu Jul 16 18:17:16 2026,,,,,,,,,,,,,
+﻿0.25.3,Thu Jul 16 18:20:38 2026,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
 ,picatinny,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,1300
@@ -436,7 +436,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pac_mlok_3inch_5_slot_rail_section_side,PAC MLOK 3 Inch 5-Slot Rail Section,-0.5,0.05,,,,,,,,,500
 ,,pac_mlok_3inch_5_slot_rail_section_top,PAC MLOK 3 Inch 5-Slot Rail Section,-0.5,0.05,,,,,,,,,500
 ,,nariakira_mlok_fingerstop,Nariakira MLOK Fingerstop,6,0.02,-1,0,,,,,,,500
-,,overlord_halo,Overlord HALO MLOK Handstop,6,0.03,-2,0,,,,,,,600
+,,overlord_halo_mlok_handstop,Overlord HALO MLOK Handstop,6,0.03,-2,0,,,,,,,600
 ,zenit_basis,,,,,,,,,,,,,
 ,,veles_npn_2_rail_cover,Veles NPN-2,1,0.03,,,,,,,,,750
 ,,veles_npn_2_half_rail_cover,Veles NPN-2 Half,0.5,0.02,,,,,,,,,300

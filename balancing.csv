@@ -1745,10 +1745,17 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,whitner_defense_edc_x9_backstrap_small,Whitner Defense EDC X9 Small,1,0.03,,,,,,,,,0
 ,,whitner_defense_edc_x9_backstrap_large,Whitner Defense EDC X9 Large,2,0.05,,,,,,,,,200
 ,ammo_556x45,,,,,,,,,,,,,
-,,5.56x45_federal_xm193_55gr_fmjbt,5.56x45 Federal XM193 55gr FMJBT,0,0.1,0,0,,0,0,0,,,0
-,,5.56x45_winchester_m855_62gr_fmj,5.56x45 Winchester M855 62gr FMJ,-1,0.14,1,1,,-0.05,0,-100,,,1000
-,,5.56x45_lakecity_m855a1_62gr_sat,5.56x45 Lake City M855A1 62gr SAT,-2,0.13,0,2,,-0.15,0,-50,,,2000
-,,5.56x45_newq_pentagon_55gr_mchp,5.56x45 NewQ Pentagon 55gr MCHP,1,0.08,1,0,,0.25,0,100,,,1200
+,,5.56x45_copperhead_mk262_mod1_77gr,Copperhead Mk.262 Mod1 SMK 77gr,-2,0.13,0,2,,-0.15,0,-50,,,2000
+,,5.56x45_emmeo_m995_52gr_ap,Emmeo M995 52gr AP,-2,0.13,0,2,,-0.15,0,-50,,,2000
+,,5.56x45_anhalt_patrone_dm51_dea_55gr,Anhalt Patrone DM51/DEA 55gr,0,0.1,0,0,,0,0,0,,,0
+,,5.56x45_cae_l31a1_62gr_enhanced_performance,CAe L31A1 62gr Enhanced Performance,-2,0.13,0,2,,-0.15,0,-50,,,2000
+,,5.56x45_jgsdf_j3_62gr,JGSDF J3 62gr +P+,-1,0.14,1,1,,-0.05,0,-100,,,1000
+,,5.69x44_copperhead_223rem_honey_badger_50gr,Copperhead .223Rem Honey Badger 50gr,1,0.08,1,0,,0.25,0,100,,,1200
+,,5.69x44_laccio_223rem_field_dynamics_40gr_vmax,Laccio .223Rem Field Dynamics 40gr VMAX,1,0.08,1,0,,0.25,0,100,,,1200
+,,5.56x45_federal_m193_55gr_fmjbt,Federal M193 55gr FMJ,0,0.1,0,0,,0,0,0,,,0
+,,5.56x45_federal_m856a1_64gr_red_tracer,Federal M856A1 64gr Red Tracer,0,0.1,0,0,,0,0,0,,,0
+,,5.56x45_appalachian_m855_62gr_fmj,Appalachian M855 62gr FMJ,-1,0.14,1,1,,-0.05,0,-100,,,1000
+,,5.56x45_appalachian_m855a1_62gr_epr,Appalachian M855A1 62gr EPR,-2,0.13,0,2,,-0.15,0,-50,,,2000
 ,ammo_762x51,,,,,,,,,,,,,
 ,,7.62x51_winchester_m80_149gr_fmj,7.62x51 Winchester M80 149gr FMJ,0,0.04,0,0,,0,,0,,,0
 ,,7.62x51_federal_m118lr_175gr_otm,7.62x51 Federal M118LR 175gr OTM,0,0.07,3,2,,-0.1,,-50,,,2000

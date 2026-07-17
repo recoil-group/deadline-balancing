@@ -8,7 +8,7 @@ This is not the main game source repo. When available, sibling `../deadline` is 
 
 A connected Roblox Studio place may contain attachment, weapon, and other game data that is not represented in this repo or the main source repo.
 
-The root balancing CSVs are authoritative for the stats and fields they define; in particular, `balancing.csv` is the master sheet for general attachment stats. They are not complete item definitions: inspect Studio for the additional weapon and attachment data described below, and consult `../deadline` for how CSV and Studio data are applied at runtime. Prefer the local root CSVs over stale imported copies in Studio.
+The root balancing CSVs are authoritative for the stats and fields they define; in particular, `balancing.csv` is the master sheet for general attachment stats. They are not complete definitions: inspect Studio for the additional weapon and attachment data, and consult `../deadline` for how CSV and Studio data are applied at runtime.
 
 ## Repo Map
 
@@ -22,7 +22,15 @@ The root balancing CSVs are authoritative for the stats and fields they define; 
 - `demos/`: small HTML balancing visualizations/tools.
 - `renaming/`: temporary renaming helpers.
 
-## Runtime Balance Context
+## Balancing Repo Notes
+
+- `name` is the primary key used to match items across CSVs and Studio.
+- `fire_rate` and `bullet_damage` are fractional modifiers applied to base weapon or ammo stats.
+- The scripts use `utf-8-sig` CSV handling. This standard should apply to all CSVs.
+- Empty cells in change sheets are significant: `port.py` can overwrite target cells with empty strings.
+- For CSV work, check `git status --short`, read `README.md`, and sample the first three lines (`sed -n '1,3p' <file>.csv` or `Get-Content <file>.csv -TotalCount 3`).
+
+## Related Source and Studio Context
 
 The general data flow is:
 
@@ -31,15 +39,6 @@ balancing.csv -> imported csv_stats -> stats keyed by name -> completed item bui
 calibers.csv  -> imported csv_calibers -> caliber data -> selected ammunition properties
 ...other root csvs
 ```
-
-When investigating balance behavior:
-
-- `name` is the primary key used to match items across CSVs and Studio.
-- `fire_rate` and `bullet_damage` are fractional modifiers applied to base weapon or ammo stats.
-
-## Related Source and Studio Context
-
-`../deadline/default.project.json` syncs compiled code into `ReplicatedFirst`, `ReplicatedStorage`, and `ServerScriptService` while allowing other Studio Instances to coexist. It does not map major content containers such as `ServerStorage` and `Workspace`, so absence from `../deadline` does not mean an item or asset is nonexistent.
 
 Useful balance-related source landmarks in `../deadline` include:
 
@@ -66,14 +65,6 @@ Other useful Studio landmarks include:
 - `ReplicatedStorage.data.csv`: imported, chunked copies of the root CSVs.
 - `ServerScriptService.ext-util.attachment-management`: Studio-side attachment import/export and maintenance utilities.
 
-## Local Scripts
-
-See `README.md` for usage. Agent-relevant caveats:
-
-- `port.py` currently requires the header-row argument even though `README.md` describes it as optional.
-- The scripts use `utf-8-sig` CSV handling.
-- Empty cells in change sheets are significant: `port.py` can overwrite target cells with empty strings.
-
 ## Roblox Studio MCP
 
 Studio MCP is read-only by default. Use inspection/search/read tools; do not mutate Studio or start/stop Play unless the user explicitly requests a change, command, or test run.
@@ -98,8 +89,8 @@ startup_timeout_sec = 30
 
 The connected Studio most likely has place ID `7452050927`, though other Deadline places are possible. Confirm the active instance before relying on it.
 
-## Working Notes
+In Studio, start with the narrowest relevant service/folder and inspect an Instance before reading its script. Large broad tree dumps are slow and noisy.
 
-- For CSV work, check `git status --short`, read `README.md`, and sample the first three lines (`sed -n '1,3p' <file>.csv` or `Get-Content <file>.csv -TotalCount 3`).
-- In Studio, start with the narrowest relevant service/folder and inspect an Instance before reading its script. Large broad tree dumps are slow and noisy.
+## Other Notes
+
 - Keep private source code, server-only implementation details, credentials, unreleased content, and proprietary Studio data out of this public repo unless the user explicitly requests publication.

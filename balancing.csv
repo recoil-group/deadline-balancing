@@ -2788,17 +2788,17 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ptr_mp5_hg_left_rail,PTR MP5 Handguard Rail,0,0.02,,,,,,,,,0
 ,,ptr_mp5_hg_right_rail,PTR MP5 Handguard Rail,0,0.02,,,,,,,,,0
 ,m9_bayonet,,,,,,,,,,,,,
-,,buck_knives_m9_phrobis_iii_bayonet_blade,Buck Knives M9 Phrobis III,-5,0.29,,,,0.03,,,,,1000
-,,buck_knives_m9_phrobis_iii_bayonet_grip,Buck Knives M9 Phrobis III Grip,1,0.02,,,,,,,,,
+,,buck_knives_m9_phrobis_iii_bayonet_blade,Buck Knives M9 Phrobis III,-3,0.19,,-5,,0.05,,,,,1000
+,,buck_knives_m9_phrobis_iii_bayonet_grip,Buck Knives M9 Phrobis III Grip,1,0.04,,,,,,,,,
 ,m11_eod,,,,,,,,,,,,,
 ,,ontarioknife_m11_eod_knife_grip,Ontario M11 EOD Knife Grip,1,0.01,,,,,,,,,0
 ,,ontarioknife_m11_eod_knife_blade,Ontario M11 EOD Knife Blade,-4,0.25,,,,,,,,,1000
 ,akm_bayonet,,,,,,,,,,,,,
-,,izhevsk_akm_type2_bayonet_blade,Izhevsk AKM Type II Bayonet,-8,0.23,,,,0.03,,,,,1500
-,,izhevsk_akm_type2_bayonet_grip,Izhevsk AKM Type II Grip,1,0.01,,,,,,,,,
+,,izhevsk_akm_type2_bayonet_blade,Izhevsk AKM Type II Bayonet,-4,0.2,,-5,,0.05,,,,,1500
+,,izhevsk_akm_type2_bayonet_grip,Izhevsk AKM Type II Grip,1,0.04,,,,,,,,,
 ,,izhevsk_akm_type2_bayonet_sling,Izhevsk AKM Type II Sling,1,0.01,,,,,,,,,
-,,izhevsk_akm_type1_bayonet_blade,Izhevsk AKM Type I Bayonet,-10,0.2,,,,0.03,,,,,1000
-,,izhevsk_akm_type1_bayonet_grip,Izhevsk AKM Type 1 Grip,1,0.01,,,,,,,,,
+,,izhevsk_akm_type1_bayonet_blade,Izhevsk AKM Type I Bayonet,-4,0.19,,-4,,0.05,,,,,1000
+,,izhevsk_akm_type1_bayonet_grip,Izhevsk AKM Type 1 Grip,1,0.03,,,,,,,,,
 ,,izhevsk_akm_type1_bayonet_sling,Izhevsk AKM Type I Sling,1,0.01,,,,,,,,,
 ,rpg7_warhead,,,,,,,,,,,,,
 ,,sno_vulkan_pg_7vl_heat_warhead,NPO Bazalt PG-7VL HEAT Warhead,,1.2,,,,,,,,,

@@ -2257,7 +2257,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ips_5.56x45_2inch_barrel_extension,"IPS 2"" 5.56x45",-2,0.09,0,0,,0.1,0.02,40,,,,500
 ,,ips_5.56x45_4inch_barrel_extension,"IPS 4"" 5.56x45",-3,0.17,0,0,,0.2,0.03,80,,,,600
 ,,ips_1_2x28_to_5_8x24_knurled_thread_adapter,IPS 1/2x28 to 5/8x24 Knurled,-1,0.06,2,2,,0.2,,-200,,,,1000
-,,centrefire_socom556_sfmb_muzzle_brake,Centrefire SOCOM 5.56 SFMB,-1,0.09,-17,-11,,0.05,0,0,,,1,700
+,,centrefire_socom556_sfmb_muzzle_brake,Centrefire SOCOM 5.56 SFMB,-1,0.09,-17,-11,,0.05,0,0,,,,700
 ,,centrefire_warden_blast_regulator,Centrefire Warden Fast-Attach,0,0.15,-15,-11,,0,0.02,40,,,,1000
 ,,pac_qdc_3prong_flash_5.56x45_eliminator,PAC QDC 3-Prong 5.56x45,2,0.07,-12,-12,,0.05,0,0,,,,600
 ,,aeroknox_ae01_muzzle_brake,Arrow AE // 01 AR-15,-1,0.1,-16,-13,,0.1,0,0,,,,600
@@ -2527,7 +2527,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,surefire_handguard_light,,,,,,,,,,,,,,
 ,,lm2,SureFire LM2,-0.5,0.1,,,,,,,,,,500
 ,surefire_rc,,,,,,,,,,,,,,
-,,centrefire_socom556_rc2_suppressor,CentreFire SOCOM556-RC2 Fast-Attach,-4,0.28,-18,-16,,-0.1,0.08,80,,,-1,1500
+,,centrefire_socom556_rc2_suppressor,CentreFire SOCOM556-RC2 Fast-Attach,-4,0.28,-18,-16,,-0.1,0.08,80,,,,1500
 ,qdc_suppressors,,,,,,,,,,,,,,
 ,,pac_qdc_crs_prt_5.56x45_suppressor,PAC QDC/CRS-PRT 5.56x45,-5,0.31,-18,-18,,-0.15,0.08,90,,,,2000
 ,,pac_crs_prt_suppressor_cover,PAC CRS-PRT,1,0.04,,,,,,,,,,500

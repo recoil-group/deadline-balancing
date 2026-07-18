@@ -13,6 +13,7 @@ stat_directions = {
     "bullet_velocity": True,
     "buck_barrel_deviation": False,
     "fire_rate": True,
+    "muzzle_loudness": False,
     "price": False,
 }
 

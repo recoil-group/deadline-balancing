@@ -772,11 +772,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,windham_weaponry_mount,,,,,,,,,,,,,
 ,,windsor_armory_sling_swivel,Windsor Armory Sling,1,0.03,,,,,,,,,100
 ,ar_mag_assists,,,,,,,,,,,,,
-,,magtap_223_mag_assist_misc2,Magtap 223,1,0.04,,,,,,,,,200
-,,magtap_223_mag_assist_misc1,Magtap 223,1,0.04,,,,,,,,,200
-,,magtap_223_mag_assist_misc3,Magtap 223,1,0.04,,,,,,,,,200
-,,magtap_223_mag_assist_pmag,Magtap 223,1,0.04,,,,,,,,,200
-,,magtap_223_mag_assist_straightstanag,Magtap 223,1,0.04,,,,,,,,,200
+,,magtap_223_mag_assist_misc2,Magtap 223,1,0.03,,,,,,,,,200
+,,magtap_223_mag_assist_misc1,Magtap 223,1,0.03,,,,,,,,,200
+,,magtap_223_mag_assist_misc3,Magtap 223,1,0.03,,,,,,,,,200
+,,magtap_223_mag_assist_pmag,Magtap 223,1,0.03,,,,,,,,,200
+,,magtap_223_mag_assist_straightstanag,Magtap 223,1,0.03,,,,,,,,,200
 ,ar_bolt,,,,,,,,,,,,,
 ,,ar_bolt,M4 Bolt,,,,,,,,,,,0
 ,ar15_plastic_handguard_bottom_mount,,,,,,,,,,,,,
@@ -1121,7 +1121,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,dragoon_systems_l7awm_translucent_7.62x51_20r,Dragoon Systems L7AWM Translucent 7.62x51 20R,0.5,0.59,,,20,,,,,,1250
 ,,dragoon_systems_l7awm_7.62x51_20r,Dragoon Systems L7AWM 7.62x51 20R,0,0.58,,,20,,,,,,1250
 ,l7awm_mag_assist,,,,,,,,,,,,,
-,,magtap_223_mag_assist_l7awm,Magtap 223,1,0.04,,,,,,,,,200
+,,magtap_223_mag_assist_l7awm,Magtap 223,1,0.03,,,,,,,,,200
 ,magazine_9mm_vector,,,,,,,,,,,,,
 ,,9x19_glock_stick_31r_vector,PF940 9x19 31R Stick,16,0.26,,,29,,,,,,1000
 ,,9x19_sgmt_drum50r_vector,SGMT 9x19 50R Drum,6,0.55,,,50,,,,,,3000

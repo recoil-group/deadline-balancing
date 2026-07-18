@@ -14,6 +14,7 @@ stat_directions = {
     "buck_barrel_deviation": False,
     "fire_rate": True,
     "price": False,
+    "muzzle_loudness": False,
 }
 
 

@@ -88,7 +88,7 @@
     .workspace {
       min-height: 0;
       display: grid;
-      grid-template-columns: minmax(430px, 480px) minmax(0, 1fr);
+      grid-template-columns: minmax(330px, 390px) minmax(0, 1fr);
     }
 
     .sidebar {
@@ -238,8 +238,8 @@
     .values {
       margin-top: 8px;
       display: grid;
-      grid-template-columns: repeat(7, minmax(0, 1fr));
-      gap: 4px;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 6px;
     }
 
     .number-field { min-width: 0; }
@@ -253,12 +253,11 @@
 
     .number-field input, .axis-input {
       width: 100%;
-      padding: 5px 4px;
+      padding: 6px;
       border: 1px solid var(--line);
       border-radius: 7px;
       background: #111318;
       color: var(--text);
-      font-size: 12px;
       font-variant-numeric: tabular-nums;
     }
 
@@ -336,7 +335,7 @@
       font-size: 13px;
     }
 
-    @media (max-width: 920px) {
+    @media (max-width: 780px) {
       .app { height: auto; min-height: 100vh; }
       .topbar { align-items: stretch; flex-direction: column; }
       .title-row { align-items: flex-start; flex-direction: column; gap: 3px; }
@@ -965,14 +964,16 @@
     function standardizeAmmo(item) {
       const torsoValues = COEFFICIENTS.slice(0, 3)
         .map(coefficient => item.row[columnFor("torso", coefficient)] ?? "");
-      for (const part of BODY_PARTS.slice(1)) {
+      const standardMultipliers = { arm: "0.3", leg: "0.5", head: "2.5" };
+      for (const [part, multiplier] of Object.entries(standardMultipliers)) {
         COEFFICIENTS.slice(0, 3).forEach((coefficient, index) => {
           item.row[columnFor(part, coefficient)] = torsoValues[index];
         });
+        item.row[columnFor(part, "d")] = multiplier;
       }
       renderAmmoList();
       drawChart();
-      showStatus(`${item.name}: copied torso A/B/C to arm, leg, and head. D values were preserved.`);
+      showStatus(`${item.name}: copied torso A/B/C to arm, leg, and head.`);
     }
 
     function columnFor(part, coefficient) {
@@ -1102,8 +1103,8 @@
         const standardize = document.createElement("button");
         standardize.className = "standardize-ammo";
         standardize.type = "button";
-        standardize.setAttribute("aria-label", `Synchronize ${item.name} A, B, and C from torso values`);
-        standardize.textContent = "Sync A/B/C";
+        standardize.setAttribute("aria-label", `Standardize ${item.name} from torso values`);
+        standardize.textContent = "Standardize";
         standardize.addEventListener("click", () => standardizeAmmo(item));
         const remove = document.createElement("button");
         remove.className = "remove-ammo";
@@ -1116,36 +1117,18 @@
 
         const values = document.createElement("div");
         values.className = "values";
-        const fields = [
-          ...COEFFICIENTS.slice(0, 3).map(coefficient => ({
-            caption: coefficient,
-            value: item.row[columnFor("torso", coefficient)] ?? "",
-            step: coefficient === "a" ? "0.002" : "0.5",
-            ariaLabel: `${item.name} ${coefficient} for all body parts`,
-            update(value) {
-              for (const part of BODY_PARTS) item.row[columnFor(part, coefficient)] = value;
-            }
-          })),
-          ...BODY_PARTS.map(part => ({
-            caption: part,
-            value: item.row[columnFor(part, "d")] ?? "",
-            step: "0.05",
-            ariaLabel: `${item.name} ${part} d`,
-            update(value) { item.row[columnFor(part, "d")] = value; }
-          }))
-        ];
-        for (const field of fields) {
+        for (const coefficient of COEFFICIENTS) {
           const label = document.createElement("label");
           label.className = "number-field";
           const caption = document.createElement("span");
-          caption.textContent = field.caption;
+          caption.textContent = coefficient;
           const input = document.createElement("input");
           input.type = "number";
-          input.step = field.step;
-          input.value = field.value;
-          input.setAttribute("aria-label", field.ariaLabel);
+          input.step = "any";
+          input.value = item.row[columnFor(bodyPart, coefficient)] ?? "";
+          input.setAttribute("aria-label", `${item.name} ${bodyPart} ${coefficient}`);
           input.addEventListener("input", () => {
-            field.update(input.value);
+            item.row[columnFor(bodyPart, coefficient)] = input.value;
             drawChart();
           });
           label.append(caption, input);
@@ -1451,6 +1434,7 @@
         bodyPart = tab.dataset.part;
         document.querySelectorAll(".tab").forEach(other => other.setAttribute("aria-selected", String(other === tab)));
         document.querySelector("#comboKey").hidden = bodyPart !== "torso" && bodyPart !== "arm";
+        renderAmmoList();
         drawChart();
       });
     });

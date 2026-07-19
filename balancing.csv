@@ -1751,7 +1751,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,5.56x45_cae_l31a1_62gr_enhanced_performance,CAe L31A1 62gr Enhanced Performance,-2,0.13,0,2,,-0.15,0,-50,,,,2000
 ,,5.56x45_jgsdf_j3_62gr,JGSDF J3 62gr +P+,-1,0.14,1,1,,-0.05,0,-100,,,,1000
 ,,5.56x45_appalachian_mk318_mod0_62gr_sost,Appalachian Mk.318 Mod0 62gr SOST,1,0.08,1,0,,0.25,0,100,,,,1200
-,,5.69x44_laccio_223rem_field_dynamics_40gr_vmax,Laccio .223Rem Field Dynamics 40gr VMAX,1,0.08,1,0,,0.25,0,100,,,,1200
+,,5.69x44_laccio_223rose_field_dynamics_40gr_vmax,Laccio .223Rose Field Dynamics 40gr VMAX,1,0.08,1,0,,0.25,0,100,,,,1200
 ,,5.56x45_federal_m193_55gr_fmjbt,Federal M193 55gr FMJ,0,0.1,0,0,,0,0,0,,,,0
 ,,5.56x45_federal_m856a1_64gr_red_tracer,Federal M856A1 64gr Red Tracer,0,0.1,0,0,,0,0,0,,,,0
 ,,5.56x45_appalachian_m855_62gr_fmj,Appalachian M855 62gr FMJ,-1,0.14,1,1,,-0.05,0,-100,,,,1000

@@ -203,8 +203,6 @@
     }
 
     .remove-ammo:hover { color: var(--text); }
-    .standardize-ammo { padding: 4px 7px; font-size: 11px; }
-
     .custom-ammo-name {
       min-width: 0;
       width: 100%;
@@ -962,19 +960,6 @@
       refreshWorkingSet();
     }
 
-    function standardizeAmmo(item) {
-      const torsoValues = COEFFICIENTS.slice(0, 3)
-        .map(coefficient => item.row[columnFor("torso", coefficient)] ?? "");
-      for (const part of BODY_PARTS.slice(1)) {
-        COEFFICIENTS.slice(0, 3).forEach((coefficient, index) => {
-          item.row[columnFor(part, coefficient)] = torsoValues[index];
-        });
-      }
-      renderAmmoList();
-      drawChart();
-      showStatus(`${item.name}: copied torso A/B/C to arm, leg, and head. D values were preserved.`);
-    }
-
     function columnFor(part, coefficient) {
       return columnIndex.get(`damage_${part}_${coefficient}`);
     }
@@ -1099,12 +1084,6 @@
           name.title = item.name;
           name.textContent = item.name;
         }
-        const standardize = document.createElement("button");
-        standardize.className = "standardize-ammo";
-        standardize.type = "button";
-        standardize.setAttribute("aria-label", `Synchronize ${item.name} A, B, and C from torso values`);
-        standardize.textContent = "Sync A/B/C";
-        standardize.addEventListener("click", () => standardizeAmmo(item));
         const remove = document.createElement("button");
         remove.className = "remove-ammo";
         remove.type = "button";
@@ -1112,7 +1091,7 @@
         remove.setAttribute("aria-label", `Remove ${item.name} from working set`);
         remove.textContent = "Remove";
         remove.addEventListener("click", () => { item.selected = false; item.shown = false; refreshWorkingSet(); });
-        head.append(visibility, swatch, name, standardize, remove);
+        head.append(visibility, swatch, name, remove);
 
         const values = document.createElement("div");
         values.className = "values";

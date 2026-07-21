@@ -1789,12 +1789,17 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,9x18_norilsk_57t181_56gr_red_tracer,9x18 Norilsk 57-T-181 56gr Red Tracer,,0.02,-1,1,,0.1,,20,,,,750
 ,,9x18_underwood_xtreme_95gr_sm,9x18 Underwood Xtreme Penetrator 95gr SM,,0.05,-2,2,,0.1,,50,,,,1000
 ,ammo_9x19,,,,,,,,,,,,,,
-,,9x19_roosevelt_umc_115gr_fmj,9x19 Roosevelt UMC 115gr FMJ,1,0.02,0,0,,0,0.02,0,,,,0
-,,9x19_traviata_mle_94gr_rht_frangible,9x19 Traviata MLE 94gr RHT Frangible,1,0,-6,-3,,-0.1,-0.04,0,,,,600
-,,9x19_federal_hishok_115gr_jhp,9x19 Federal Hi-Shok 115gr JHP,-1,0.02,14,14,,0.3,,-100,,,,2000
-,,9x19_winchester_m822_124gr_fmj,9x19 Winchester M882 124gr FMJ,0,0.04,1,-1,,-0.05,0.19,-150,,,,1500
-,,9x19_ammocor_usa_147gr_subsonic,9x19 AMMOCOR USA 147gr Subsonic FMJ,2,0.06,-8,-11,,0.2,-0.04,-300,,,,1200
-,,9x19_supernova_119gr_green_tracer,9x19 Supernova 119gr Green Tracer,0,0.03,-3,-5,,0.05,0.02,-150,,,,750
+,,9x19_roosevelt_umc_115gr_fmj,Roosevelt UMC 115gr FMJ,1,0.02,0,0,,0,0.02,0,,,,0
+,,9x19_appalachian_mk254_mod0_90gr_frangible,Appalachian Mk.254 Mod0 90gr Frangible,1,0,-6,-3,,-0.1,-0.04,0,,,,600
+,,9x19_appalachian_xm1153_147gr_jhp,Appalachian XM1153 147gr JHP,-1,0.02,14,14,,0.3,,-100,,,,2000
+,,9x19_appalachian_m882_124gr_fmj,Appalachian M882 124gr FMJ +P,0,0.04,1,-1,,-0.05,0.19,-150,,,,1500
+,,9x19_appalachian_m1152_115gr_fmjfn,Appalachian M1152 115gr FMJ-FN +P+,1,0.02,0,0,,0,0.02,0,,,,0
+,,9x19_zfm_luger_154gr_fmjfp_subsonic,ZFM Luger 154gr FMJ-FP Subsonic,2,0.06,-8,-11,,0.2,-0.04,-300,,,,1200
+,,9x19_pulsar_119gr_green_tracer,Pulsar 119gr Green Tracer,0,0.03,-3,-5,,0.05,0.02,-150,,,,750
+,,9x19_novosibirsk_7n21_80gr_pst,Novosibirsk 7N21 80gr PST,1,0.02,0,0,,0,0.02,0,,,,0
+,,9x19_s2_research_9mm_rip_92gr_fhp,S2 Research RIP 92gr FHP,1,0.02,0,0,,0,0.02,0,,,,0
+,,9x19_kazarov_7n31_pbp_gzh_64gr,Kazarov 7N31 PBP gzh 64gr +P+,1,0.02,0,0,,0,0.02,0,,,,0
+,,9x19_btv_scorpio_nato_115gr_fmj,BVT Scorpio NATO 115gr FMJ +P,1,0.02,0,0,,0,0.02,0,,,,0
 ,ammo_10mm,,,,,,,,,,,,,,
 ,,10mm_phoenix_aluminum_200gr_fmj,10mm Auto Phoenix Aluminum 200gr FMJ,0,0.03,,0,,0,,100,,,,0
 ,,10mm_roosevelt_umc_180gr_fmj,10mm Auto Roosevelt UMC 180gr FMJ,0,0.04,,0,,0.05,,50,,,,1000

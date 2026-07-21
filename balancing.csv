@@ -850,7 +850,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,aft_mk_17_bolt_carrier,AFT MK-17 Bolt,0,0.2,,,,,,,,,,0
 ,,monarch_ballistics_buffered_scar_bolt_carrier,Monarch Ballistics Buffered SCAR,-1,0.22,-2,-2,,,,,,,,500
 ,fn_scar_h_lower_receiver,,,,,,,,,,,,,,
-,,cartesia_productions_scar_h_x17_trigger_module_lower_receiver,Cartesia Productions X-17 SCAR-H Trigger Module,2,0.34,,,,,,,,,,
+,,cartesia_productions_scar_h_x17_trigger_module_lower_receiver,Cartesia Productions X-17 SCAR-H Trigger Module,2,0.34,,,,,,,,,,2000
 ,,aft_mk_17_lower_receiver,AF Tournai-H Standard,0,0.35,,,,,,,,,,0
 ,,lingle_industries_ar17_scar_h_lower,Lingle Industries AR17 SCAR-H Lower,3,0.37,,,,,,,,,,2500
 ,lingle_mag_release,,,,,,,,,,,,,,

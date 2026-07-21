@@ -2382,7 +2382,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,fnb_precision_fal_crosshair_front_sight,F&B Precision FAL Crosshair,1,0.01,,,,,,,,,,200
 ,sa58_grip,,,,,,,,,,,,,,
 ,,sa58_std_grip,RSA SA-58 Standard,0,0.09,0,0,,,,,,,,0
-,,rsa_sg58_saw_style,RSA SG58 SAW Style,0,0.09,0,0,,,,,,,,0
+,,rsa_sg58_saw_style,RSA SG58 SAW Style,0,0.1,-1,-2,,,,,,,,750
 ,,protac_ergonomic_ag_fal_pistol_grip,PRO Tactical Ergonomic AG-FAL,2,0.1,0,0,,,,,,,,1500
 ,sa58_handguard,,,,,,,,,,,,,,
 ,,rsa_sa58_belgian_style_full_length_handguard,RSA SA-58 Belgian Style Full Length,8,0.3,-16,-16,,0.03,,,,,,0

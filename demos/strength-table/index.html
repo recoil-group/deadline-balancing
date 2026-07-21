@@ -507,8 +507,8 @@
       "price",
     ];
 
-    const SAMPLE = `641,,ak12_std_lower_handguard,Kalashnikov Concern AK-12 Std.,8,0.13,0,0,,,,,,,0
-642,,lac_akvilon15,L.A.C. Akvilon-15,7,0.26,-1,-2,,,,,,,2000
+    const SAMPLE = `,,ak12_std_lower_handguard,Kalashnikov Concern AK-12 Std.,8,0.13,0,0,,,,,,,0
+,,lac_akvilon15,L.A.C. Akvilon-15,7,0.26,-1,-2,,,,,,,2000
 ,,kazarov_group_rpk16_handguard,Kalashnikov Convern RPK-16 Handguard,3,0.22,-2,-4,,,,,,,1500
 ,,russian_tuning_ak12_megatron_handguard,Arms RTG Ak12 Megatron Handguard,4,0.3,-3,-5,,,,,,,2500`;
 
@@ -785,7 +785,9 @@
 
     function ingestBalancingCsv(text) {
       const parsed = parseCsv(text).filter(row => !isBlankRow(row));
-      const headerIndex = parsed.findIndex(row => row[0] === "id" && row.includes("name"));
+      const headerIndex = parsed.findIndex(
+        row => row.includes("name") && (row[0] === "class" || row[0] === "id"),
+      );
       if (headerIndex < 0) {
         throw new Error("Could not find the balancing.csv header row.");
       }

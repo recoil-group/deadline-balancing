@@ -50,7 +50,7 @@ Folder containing all balancing sheets from previous versions. These are used to
 Script to port changes from a change sheet into `balancing.csv` or `testing.csv`. Usage:
 
 ```bash
-python port.py (change sheet) (target sheet) [header row]  
+python port.py (change sheet) (target sheet) (header row)
 python port.py "changes/changes.csv" "testing.csv" 2
 ```
 
@@ -58,7 +58,7 @@ python port.py "changes/changes.csv" "testing.csv" 2
 - Matches rows by `name` column, make sure those are included in the change sheet.
 - Order of columns in the change sheet does not matter.
 - Empty cells will overwrite existing data. Be careful.
-- `[header row]` is the row # of the column headers in the change sheet. Useful for extra labels or dates above the headers. Optional, defaults to 1.
+- `[header row]` is the row # of the column headers in the change sheet. Useful for extra labels or dates above the headers.
 
 ### changelog.py
 

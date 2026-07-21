@@ -558,10 +558,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,freedom_arms_builder_series_gen1_7inch_handguard,"Freedom Arms Builder Series Gen 1 7""",15,0.2,-6,-5,,,,,,,,700
 ,,usgi_m16a1_triangle_handguard,USGI M16A1 Triangle,13,0.27,-10,-15,,0.03,,,,,,600
 ,,pac_urx_4_mlok_10.75inch_handguard,"PAC URX 4 MLOK 10.75""",11,0.28,-9,-11,,,,,,,,1150
-,,dd_m4a1_fsp_ris_2_12.25_handguard,AD M4A1 FSP RIS II 12.25,6,0.33,-13,-15,,,,,,,,1100
-,,dd_m4a1_ris_2_12.25_handguard,AD M4A1 RIS II 12.25,6,0.35,-13,-16,,,,,,,,1100
-,,dd_mk18_fsp_ris_2_9.55_handguard,AD MK18 FSP RIS II 9.55,8,0.28,-11,-13,,,,,,,,1000
-,,dd_mk18_ris_2_9.55_handguard,AD Mk18 RIS II 9.55,8,0.3,-11,-14,,,,,,,,1000
+,,ad_m4a1_fsp_raf_2_12.25_handguard,AD M4A1 FSP RAF 2 12.25,6,0.33,-13,-15,,,,,,,,1100
+,,ad_m4a1_raf_2_12.25_handguard,AD M4A1 RAF 2 12.25,6,0.35,-13,-16,,,,,,,,1100
+,,ad_mk18_fsp_raf_2_9.55_handguard,AD MK18 FSP RAF 2 9.55,8,0.28,-11,-13,,,,,,,,1000
+,,ad_mk18_raf_2_9.55_handguard,AD Mk18 RAF 2 9.55,8,0.3,-11,-14,,,,,,,,1000
 ,,pac_ras_m4a1_handguard,PAC RAS,10,0.23,-6,-13,,0.03,,,,,,700
 ,,schmidt_smr_mk16_mlok_urg_i_13.5inch,"Schmidt Super Modular Rail MK16 M-LOK URG-I 13.5""",8,0.33,-13,-12,,,,,,,,1100
 ,,schmidt_smr_mk16_mlok_urg_i_15inch,"Schmidt Super Modular Rail MK16 M-LOK URG-I 15""",7,0.36,-15,-12,,,,,,,,1200

@@ -1124,6 +1124,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,magtap_223_mag_assist_l7awm,Magtap 223,1,0.03,,,,,,,,,,200
 ,magazine_9mm_vector,,,,,,,,,,,,,,
 ,,9x19_glock_stick_31r_vector,PF940 9x19 31R Stick,16,0.26,,,29,,,,,,,1000
+,,kosch_10mm_15r_magazine,PF940 9x19 31R Stick,16,0.26,,,29,,,,,,,1000
+,,kosch_9x19_17r_magazine,PF940 9x19 31R Stick,16,0.26,,,29,,,,,,,1000
 ,,9x19_sgmt_drum50r_vector,SGMT 9x19 50R Drum,6,0.55,,,50,,,,,,,3000
 ,,9x19_pf940_std_17r_vector,PF940 9x19 17R,20,0.15,,,17,,,,,,,500
 ,magazine_7.62x51_g3,,,,,,,,,,,,,,

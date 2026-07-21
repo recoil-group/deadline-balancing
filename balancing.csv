@@ -1633,14 +1633,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,makarov_laser,,,,,,,,,,,,,,
 ,,est_pm_laser_sight,EST PM-Laser,-1,0.04,,,,,,,,,,700
 ,glock_slide,,,,,,,,,,,,,,
-,,glock17_gen4_slide,Glock 17 Gen4 Slide,3,0.19,-2,-3,,,,,,,,600
-,,glock17_gen5_early_slide,Glock 17 Gen5 Slide,2,0.18,-3,-4,,,,,,,,0
+,,kosch_mk1_sight_cutout_slide,KOSCH MK1 Sight Cutout Slide,3,0.19,-2,-3,,,,,,,,600
+,,kosch_mk2_sight_cutout_slide,KOSCH MK2 Sight Cutout Slide,2,0.18,-3,-4,,,,,,,,0
 ,,glock17l_slide,Glock 17L Slide,2,0.21,-4,-5,,,,,,,,1500
-,,glock17_gen5_mos_slide,Glock17 Gen5 MOS Slide,1,0.17,-3,-4,,,,,,,,1500
-,,glock17_gen4_mos_slide,Glock17 Gen4 MOS Slide,2,0.16,-2,-3,,,,,,,,1200
+,,kosch_mk2_flat_top_slide,KOSCH MK2 Flat Top Slide,1,0.17,-3,-4,,,,,,,,1500
+,,kosch_mk1_flat_top_slide,KOSCH MK1 Flat Top Slide,2,0.16,-2,-3,,,,,,,,1200
 ,,zvetech_z17_cryo_rmr_cut_kosch_slide,Zvetech Z17 Cryo RMR Cut KOSCH,2,0.15,-3,-2,,,,,,,,2000
 ,glock_mos,,,,,,,,,,,,,,
-,,glock17_slide_mos_plate,Glock 17 Slide MOS Plate,0,0.03,,,,,,,,,,0
+,,kosch_default_slide_cover_plate,KOSCH Default Slide Cover Plate,0,0.03,,,,,,,,,,0
 ,,kosch_02_adapter_plate,KOSCH 02 Adapter Plate,0,0.02,,,,,,,,,,300
 ,,kosch_04_adapter_plate,KOSCH 04 Adapter Plate,0,0.02,,,,,,,,,,300
 ,,zvetech_kosch_slide_cover,Zvetech KOSCH Slide Cover,0,0.02,,,,,,,,,,0
@@ -1648,33 +1648,36 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,glock_sear,,,,,,,,,,,,,,
 ,,glock17_auto_sear,Glock 17 Auto Sear,-3,0.05,5,12,,0.1,,,,,,10000
 ,glock_slide_backplate,,,,,,,,,,,,,,
-,,glock17_slide_backplate,Glock 17 Slide Backplate,0,0.01,,,,,,,,,,0
+,,kosch_default_slide_backplate,KOSCH Default Slide Backplate,0,0.01,,,,,,,,,,0
 ,,zvetech_kosch_slide_backplate,Zvetech KOSCH,0,0.01,,,,,,,,,,100
 ,glock_17r_mag_plate,,,,,,,,,,,,,,
-,,glock17_17r_magazine_bottom_plate,Glock 17R Magazine Bottom Plate,0,0.02,,,,,,,,,,0
+,,kosch_default_9x19_mag_plate,KOSCH Default 9x19 Magazine Plate,0,0.02,,,,,,,,,,0
 ,,9x19_kriss_magex2_glock,9x19 KRISS MagEx2 For Glock (+23 Rounds),-8,0.3,,,23,,,,,,,1000
 ,glock_lower_receiver,,,,,,,,,,,,,,
-,,glock17_gen4_receiver,Glock 17 Gen4 Receiver,13,0.13,-2,-9,,,,,,,,1000
-,,glock17_gen5_receiver,Glock 17 Gen5 Receiver,11,0.11,-3,-9,,,,,,,,0
+,,kosch_mk1_frame,KOSCH MK1 Frame,13,0.13,-2,-9,,,,,,,,1000
+,,kosch_mk2_frame,KOSCH MK2 Frame,11,0.11,-3,-9,,,,,,,,0
 ,glock_17_trigger,,,,,,,,,,,,,,
-,,glock17_gen5_trigger,Glock 17 Gen5 Trigger,0,0.02,,,,,,,,,,0
-,,glock17_gen5_trigger_safety,Glock 17 Gen5 Trigger Safety,1,0.01,,,,,,,,,,0
+,,kosch_default_trigger,KOSCH Default Trigger,0,0.02,,,,,,,,,,0
+,,kosch_default_trigger_safety,KOSCH Default Trigger Safety,1,0.01,,,,,,,,,,0
+,,kosch_default_trigger_bar,KOSCH Default Trigger Bar,0,0.01,,,,,,,,,,0
+,,kosch_default_trigger_housing,KOSCH Default Trigger Housing,0,0.02,,,,,,,,,,0
 ,glock_17_ejector,,,,,,,,,,,,,,
-,,glock17_gen5_ejector,Glock 17 Gen5 Ejector,0,0.01,,,,,,,,,,0
+,,kosch_default_extractor,KOSCH Default Extractor,0,0.01,,,,,,,,,,0
 ,glock_17_slide_release,,,,,,,,,,,,,,
-,,glock17_gen5_left_slide_release,Glock 17 Gen5 Left Slide Release,0,0.01,,,,,,,,,,0
-,,glock17_gen5_right_slide_release,Glock 17 Gen4 Right Slide Release,0,0.01,,,,,,,,,,0
+,,kosch_default_slide_catch,KOSCH Default Slide Catch,0,0.01,,,,,,,,,,0
+,,kosch_ambidextrous_slide_catch,KOSCH Ambidextrous Slide Catch,0,0.01,,,,,,,,,,0
 ,glock_17_mag_release,,,,,,,,,,,,,,
-,,glock17_gen5_mag_release,Glock 17 Gen5 Magazine Release,0,0.01,,,,,,,,,,0
+,,kosch_default_mag_catch,KOSCH Default Magazine Catch,0,0.01,,,,,,,,,,0
+,,kosch_ambidextrous_mag_catch,KOSCH Ambidextrous Magazine Catch,0,0.01,,,,,,,,,,0
 ,glock_mag_13r_45acp_plate,,,,,,,,,,,,,,
 ,,45acp_kriss_magex2_pf940,.45 ACP KALIS MagEx2 For PF940 (+17 Rounds),-8,0.33,,,17,,,,,,,1000
 ,,pf940_13r_plate,Magazine,0,0.02,,,,,,,,,,0
 ,,vector_17r_plate,Magazine,0,0.02,,,0,,,,,,,1000
 ,,9x19_kriss_magex2_vector,9x19 KALIS MagEx2 For PF940 (+23 Rounds),-8,0.3,,,23,,,,,,,1000
 ,glock20_barrel,,,,,,,,,,,,,,
-,,glock20_std_117mm_barrel,Glock Standard 117mm,0,0.17,-5,-5,,0,0,0,,,,0
+,,kosch_10mm_114mm_barrel,KOSCH 10mm 114mm Barrel,0,0.17,-5,-5,,0,0,0,,,,0
 ,glock20_magazine_bottom_plate,,,,,,,,,,,,,,
-,,glock20_std_mag_bottom_plate,Glock Standard,1,0.015,,,,,,,,,,0
+,,kosch_default_10mm_mag_plate,KOSCH Default 10mm Magazine Plate,1,0.015,,,,,,,,,,0
 ,glock20_magazine_release,,,,,,,,,,,,,,
 ,,glock20_std_magazine_release,Glock Standard,0,0,,,,,,,,,,0
 ,glock20_receiver,,,,,,,,,,,,,,
@@ -1691,13 +1694,13 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,glock_underbarrel_picatinny,,,,,,,,,,,,,,
 ,,rail,Additional attachment,0,0,,,,,,,,,,0
 ,glock_barrel,,,,,,,,,,,,,,
-,,glock17_gen5_marksman_114mm_9x19_barrel,114mm,2,0.13,-9,-12,,0,0,-61,,,,0
+,,kosch_9x19_114mm_barrel,KOSCH 9x19 114mm Barrel,2,0.13,-9,-12,,0,0,-61,,,,0
 ,,sai_match_threaded_9x19_barrel,SAI Match Threaded G17 9x19,0,0.13,-7,-10,,0.05,0,-57,,,,1200
 ,,glock17l_ported_153mm_9x19_barrel,Glock 17L Ported 153mm 9x19 Barrel,-1,0.17,-12,-15,,-0.1,0.03,-14,,,,1500
 ,,igb_austria_match_grade_polygonal_406mm_9x19_barrel,IGB Austria Match Grade Polygonal 406mm 9x19 Barrel,-25,0.4,-10,-15,,-0.2,0.09,140,,,,3000
 ,,radian_weapons_glock17_ramjet_barrel,Radian Weapons Glock 17 Gen5 RAMJET 9x19,1,0.12,-10,-10,,0.1,0,-57,,,,1500
 ,glock_spring,,,,,,,,,,,,,,
-,,glock17_gen5_spring,Glock 17 Gen5 Spring,0,0.02,,,,,,,,,,0
+,,kosch_default_recoil_spring,KOSCH Default Recoil Spring,0,0.02,,,,,,,,,,0
 ,glock_grip,,,,,,,,,,,,,,
 ,,pachmayr_tactical_glock_grip_glove,Pachmayr Tactical Glock Grip,3,0.05,0,0,,,,,,,,750
 ,,pachmayr_rubber_grip_for_g20,Pachmayr Rubber,3,0.05,0,0,,,,,,,,750
@@ -1709,14 +1712,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,glock20_front_sight,Glock 20 Factory,1,0.02,,,,,,,,,,0
 ,,virticon_glock_supp_height_front_sights_wh_sf,Trijicon Suppressor / Optic Height White Outline Std. Frame,1,0.04,,,,,,,,,,300
 ,,glock17l_front_sight,Glock 17L Front Sight,1,0.01,,,,,,,,,,100
-,,glock17_gen5_front_sight,Glock 17 Gen5 Factory,1,0.01,,,,,,,,,,0
+,,kosch_default_front_sight,KOSCH Default Front Sight,1,0.01,,,,,,,,,,0
 ,glock_rear_sight,,,,,,,,,,,,,,
 ,,virticon_rm44_rear_sight_mount,Virticon RM44 RMR Rear,-1,0.03,,,,,,,,,,500
 ,,truglo_glock_tfx_rs,Truglo TFX,1,0.03,,,,,,,,,,500
 ,,glock20_lf_rear_sight,PF940 20 Factory Large Frame,1,0.02,,,,,,,,,,0
 ,,virticon_glock_supp_height_rear_sights_wh_sf,Virticon Suppressor / Optic Height White Outline Std. Frame,1,0.04,,,,,,,,,,300
 ,,glock17_gen4_sf_rear_sight,PF940 17 Gen4 Factory Small Frame,1,0.01,,,,,,,,,,100
-,,glock17_gen5_sf_rear_sight,PF940 17 Gen5 Factory Small Frame,1,0.01,,,,,,,,,,0
+,,kosch_default_rear_sight,KOSCH Default Rear Sight,1,0.01,,,,,,,,,,0
 ,,hughnitions_company_extra_high_rear_sight,Hughnitions Company Extra High,1,0.03,,,,,,,,,,500
 ,,sof_industries_aim_glock_rear_sight,SOF Industries A.I.M. PF940,1,0.05,,,,,,,,,,600
 ,edc_x9_front_sight,,,,,,,,,,,,,,
@@ -2379,6 +2382,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,fnb_precision_fal_crosshair_front_sight,F&B Precision FAL Crosshair,1,0.01,,,,,,,,,,200
 ,sa58_grip,,,,,,,,,,,,,,
 ,,sa58_std_grip,RSA SA-58 Standard,0,0.09,0,0,,,,,,,,0
+,,rsa_sg58_saw_style,RSA SG58 SAW Style,0,0.09,0,0,,,,,,,,0
 ,,protac_ergonomic_ag_fal_pistol_grip,PRO Tactical Ergonomic AG-FAL,2,0.1,0,0,,,,,,,,1500
 ,sa58_handguard,,,,,,,,,,,,,,
 ,,rsa_sa58_belgian_style_full_length_handguard,RSA SA-58 Belgian Style Full Length,8,0.3,-16,-16,,0.03,,,,,,0
@@ -2909,7 +2913,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,Makarov,Pistolet Makarova,75,0,25,25,0,1,1,800,,,1,2000
 ,,TT33,Tokarev TT-33,45,0,40,40,0,1.2,0.98,1100,,,1,5000
 ,,EDC_X9,Whitner Defense EDC X9,80,0,25,25,0,0.9,1,1000,,,1,40000
-,,Glock17,Glock 17,50,0,35,65,0,1.2,1,1000,,,1,0
+,,KOSCH,KOSCH,50,0,35,65,0,1.2,1,1000,,,1,0
 ,,Glock20,Glock 20,60,0.4,40,70,0,1.1,1,1000,,,1,10000
 ,,P320,Sic Stürmer P320,70,0,20,30,0,1,1,1000,,,1,25000
 ,rifle,,,,,,,,,,,,,,

@@ -1,0 +1,1421 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Deadline Ammo Damage Curves</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #101216;
+      --panel: #171a20;
+      --panel-2: #1d2129;
+      --line: #303641;
+      --line-soft: #252a33;
+      --text: #f0f2f5;
+      --muted: #9ca5b3;
+      --accent: #77b8ff;
+      --danger: #ff7a8a;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    button, input, textarea { font: inherit; }
+
+    button {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel-2);
+      color: var(--text);
+      cursor: pointer;
+    }
+
+    button:hover { border-color: #566273; }
+    button:focus-visible, input:focus-visible, textarea:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 1px;
+    }
+
+    .app {
+      height: 100vh;
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr);
+    }
+
+    .topbar {
+      padding: 14px 18px;
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      background: var(--panel);
+    }
+
+    .title-row { display: flex; align-items: baseline; gap: 12px; min-width: 0; }
+    h1 { margin: 0; font-size: 19px; letter-spacing: -0.02em; white-space: nowrap; }
+    .formula { color: var(--muted); font: 12px/1.4 "Cascadia Code", Consolas, monospace; }
+
+    .tabs {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 3px;
+      padding: 3px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: #111318;
+    }
+
+    .tab {
+      min-width: 68px;
+      padding: 7px 12px;
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+    }
+
+    .tab[aria-selected="true"] { background: var(--panel-2); color: var(--text); }
+
+    .workspace {
+      min-height: 0;
+      display: grid;
+      grid-template-columns: minmax(330px, 390px) minmax(0, 1fr);
+    }
+
+    .sidebar {
+      min-height: 0;
+      border-right: 1px solid var(--line);
+      display: grid;
+      grid-template-rows: auto auto auto minmax(0, 1fr) auto;
+      background: var(--panel);
+    }
+
+    details { border-bottom: 1px solid var(--line); }
+    summary { padding: 12px 14px; cursor: pointer; color: var(--muted); font-size: 13px; }
+    .import-body { padding: 0 14px 14px; }
+
+    .file-row, .action-row, .add-row, .working-tools, .graph-tools {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    input[type="file"] { width: 100%; color: var(--muted); font-size: 12px; }
+    input[type="file"]::file-selector-button {
+      margin-right: 8px;
+      padding: 6px 9px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: var(--panel-2);
+      color: var(--text);
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 92px;
+      margin: 10px 0 8px;
+      padding: 9px;
+      resize: vertical;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #111318;
+      color: var(--text);
+      font: 11px/1.45 "Cascadia Code", Consolas, monospace;
+    }
+
+    .small-button { padding: 6px 9px; font-size: 12px; }
+    .primary { border-color: #376a9f; background: #193a5b; }
+
+    .status {
+      min-height: 18px;
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .status.error { color: var(--danger); }
+
+    .catalog-tools {
+      padding: 11px 12px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .catalog-summary {
+      margin-bottom: 8px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .add-row { flex-wrap: nowrap; }
+
+    .catalog-search, .caliber-select {
+      min-width: 130px;
+      flex: 1;
+      padding: 7px 9px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #111318;
+      color: var(--text);
+    }
+
+    .caliber-select { width: 100%; margin-top: 7px; }
+
+    .working-tools {
+      padding: 9px 12px;
+      border-bottom: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .working-title { color: var(--text); font-weight: 600; }
+    .working-count { flex: 1; }
+
+    .ammo-list { min-height: 0; overflow: auto; }
+
+    .ammo {
+      padding: 10px 12px 12px;
+      border-bottom: 1px solid var(--line-soft);
+    }
+
+    .ammo-head { display: grid; grid-template-columns: auto auto minmax(0, 1fr) auto; gap: 8px; align-items: center; }
+    .swatch { width: 9px; height: 9px; border-radius: 50%; background: var(--ammo-color); }
+    .ammo-name { overflow: hidden; font-size: 12px; text-overflow: ellipsis; white-space: nowrap; }
+    .visibility-toggle { display: flex; align-items: center; gap: 4px; color: var(--muted); font-size: 11px; }
+    .visibility-toggle input { margin: 0; accent-color: var(--ammo-color); }
+    .ammo.hidden-curve .swatch { opacity: 0.35; }
+    .remove-ammo {
+      padding: 4px 7px;
+      border: 1px solid var(--line);
+      background: var(--panel-2);
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    .remove-ammo:hover { color: var(--text); }
+
+    .values {
+      margin-top: 8px;
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 6px;
+    }
+
+    .number-field { min-width: 0; }
+    .number-field span {
+      display: block;
+      margin-bottom: 3px;
+      color: var(--muted);
+      font: 10px/1 "Cascadia Code", Consolas, monospace;
+      text-transform: uppercase;
+    }
+
+    .number-field input, .axis-input {
+      width: 100%;
+      padding: 6px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: #111318;
+      color: var(--text);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .sidebar-footer { border-top: 1px solid var(--line); }
+    .share-status {
+      min-height: 26px;
+      padding: 7px 12px 0;
+      color: var(--muted);
+      font-size: 11px;
+      line-height: 1.35;
+    }
+    .share-status.warn { color: #ffd166; }
+    .share-status.error { color: var(--danger); }
+    .export-row { padding: 7px 12px 10px; display: grid; grid-template-columns: 1fr 1fr; gap: 7px; }
+    .export-row button { padding: 7px; font-size: 12px; }
+
+    .graph-pane { min-width: 0; min-height: 0; display: grid; grid-template-rows: auto minmax(0, 1fr); }
+
+    .graph-tools {
+      min-height: 49px;
+      padding: 8px 14px;
+      border-bottom: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .axis-control { display: flex; align-items: center; gap: 6px; }
+    .axis-input { width: 78px; padding: 5px 7px; }
+    .spacer { flex: 1; }
+    .count { white-space: nowrap; }
+    .marker-key { display: flex; align-items: center; gap: 5px; white-space: nowrap; }
+    .marker-key > span { display: inline-flex; align-items: center; gap: 5px; }
+    .marker-key > span[hidden] { display: none; }
+    .legend-dot {
+      width: 8px;
+      height: 8px;
+      border: 1px solid #dce3ec;
+      border-radius: 50%;
+      background: #798697;
+    }
+    .legend-diamond {
+      width: 8px;
+      height: 8px;
+      border: 1px solid #dce3ec;
+      background: #798697;
+      transform: rotate(45deg);
+    }
+
+    .chart-wrap { position: relative; min-height: 360px; overflow: hidden; background: #13161b; }
+    canvas { display: block; width: 100%; height: 100%; }
+
+    .tooltip {
+      position: absolute;
+      z-index: 2;
+      max-width: min(320px, calc(100% - 24px));
+      padding: 8px 10px;
+      border: 1px solid #48515f;
+      border-radius: 8px;
+      background: rgba(17, 19, 24, 0.94);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.28);
+      pointer-events: none;
+      font-size: 11px;
+    }
+
+    .tooltip[hidden] { display: none; }
+    .tip-distance { margin-bottom: 5px; color: var(--muted); }
+    .tip-row { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 6px; line-height: 1.55; }
+    .tip-row .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .tip-row .damage { font-variant-numeric: tabular-nums; }
+
+    .empty {
+      padding: 36px 18px;
+      color: var(--muted);
+      text-align: center;
+      font-size: 13px;
+    }
+
+    @media (max-width: 780px) {
+      .app { height: auto; min-height: 100vh; }
+      .topbar { align-items: stretch; flex-direction: column; }
+      .title-row { align-items: flex-start; flex-direction: column; gap: 3px; }
+      .tabs { width: 100%; }
+      .tab { min-width: 0; }
+      .workspace { grid-template-columns: 1fr; }
+      .sidebar { max-height: 68vh; border-right: 0; border-bottom: 1px solid var(--line); }
+      .graph-pane { min-height: 68vh; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="title-row">
+        <h1>Ammo damage curves</h1>
+        <span class="formula">damage = max(min(a × distance + b, c) × d, 0) × gun multiplier</span>
+      </div>
+      <div class="tabs" role="tablist" aria-label="Body part">
+        <button class="tab" role="tab" data-part="torso" aria-selected="true">Torso</button>
+        <button class="tab" role="tab" data-part="arm" aria-selected="false">Arm</button>
+        <button class="tab" role="tab" data-part="leg" aria-selected="false">Leg</button>
+        <button class="tab" role="tab" data-part="head" aria-selected="false">Head</button>
+      </div>
+    </header>
+
+    <main class="workspace">
+      <aside class="sidebar">
+        <details>
+          <summary>Catalog data</summary>
+          <div class="import-body" id="dropArea">
+            <div class="file-row">
+              <input id="fileInput" type="file" accept=".csv,text/csv" aria-label="Choose calibers CSV" />
+            </div>
+            <textarea id="pasteInput" spellcheck="false" placeholder="Paste calibers rows with or without headers…"></textarea>
+            <div class="action-row">
+              <button class="small-button primary" id="loadPaste" type="button">Replace with pasted catalog</button>
+              <button class="small-button" id="reloadRoot" type="button">Load current calibers.csv</button>
+            </div>
+            <div class="status" id="status" aria-live="polite"></div>
+          </div>
+        </details>
+
+        <div class="catalog-tools">
+          <div class="catalog-summary" id="catalogSummary">No catalog loaded</div>
+          <div class="add-row">
+            <input class="catalog-search" id="catalogSearch" type="search" list="ammoOptions" placeholder="Add ammo…" aria-label="Add ammunition from catalog" />
+            <datalist id="ammoOptions"></datalist>
+            <button class="small-button primary" id="addAmmo" type="button">Add</button>
+            <button class="small-button" id="addAllAmmo" type="button">Add all</button>
+          </div>
+          <select class="caliber-select" id="caliberSelect" aria-label="Add an entire caliber">
+            <option value="">Add entire caliber…</option>
+          </select>
+        </div>
+
+        <div class="working-tools">
+          <span class="working-title">Working set</span>
+          <span class="working-count" id="workingCount">0 selected</span>
+          <button class="small-button" id="clearWorking" type="button">Clear</button>
+        </div>
+
+        <div class="ammo-list" id="ammoList"></div>
+
+        <div class="sidebar-footer">
+          <div class="share-status" id="shareStatus" aria-live="polite"></div>
+          <div class="export-row">
+            <button class="primary" id="copyShareLink" type="button">Copy share link</button>
+            <button id="copyCsv" type="button">Copy CSV</button>
+            <button id="downloadCsv" type="button">Download CSV</button>
+            <button id="resetEdits" type="button">Reset</button>
+          </div>
+        </div>
+      </aside>
+
+      <section class="graph-pane" aria-label="Damage graph">
+        <div class="graph-tools">
+          <label class="axis-control">Max distance
+            <input class="axis-input" id="maxDistance" type="number" min="1" step="50" value="1000" />
+          </label>
+          <label class="axis-control">Max damage
+            <input class="axis-input" id="maxDamage" type="number" min="1" step="10" placeholder="Auto" />
+          </label>
+          <label class="axis-control">Gun damage
+            <input class="axis-input" id="damageMultiplier" type="number" min="0" step="0.05" value="1" aria-label="Gun damage multiplier" /> ×
+          </label>
+          <label class="axis-control">
+            <input id="thresholds" type="checkbox" checked /> Breakpoints
+          </label>
+          <span class="marker-key"><span class="legend-dot"></span>simple <span id="comboKey"><span class="legend-diamond"></span>torso + arm = 100</span></span>
+          <span class="spacer"></span>
+          <span class="count" id="visibleCount">0 curves</span>
+        </div>
+        <div class="chart-wrap" id="chartWrap">
+          <canvas id="chart"></canvas>
+          <div class="tooltip" id="tooltip" hidden></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    const BODY_PARTS = ["torso", "arm", "leg", "head"];
+    const COEFFICIENTS = ["a", "b", "c", "d"];
+    const COLORS = [
+      "#78b7ff", "#ff826f", "#70d58d", "#ffc65c", "#c69cff", "#57d5d0",
+      "#f18ac2", "#a8d66d", "#ff9f5c", "#85a0ff", "#ddda69", "#9babbf"
+    ];
+    const HIT_GUIDES = [
+      { value: 100, label: "1 hit" },
+      { value: 50, label: "2 hits" },
+      { value: 100 / 3, label: "3 hits" },
+      { value: 25, label: "4 hits" }
+    ];
+    const CALIBERS_HEADERS = "name,shell_model,projectile_model,damage_torso_a,damage_torso_b,damage_torso_c,damage_torso_d,damage_arm_a,damage_arm_b,damage_arm_c,damage_arm_d,damage_leg_a,damage_leg_b,damage_leg_c,damage_leg_d,damage_head_a,damage_head_b,damage_head_c,damage_head_d,velocity,spread_multiplier,spread_factor,velocity_drop,projectile_ricochet_factor,physics_push_force,raycast_range,bullet_penetration_ability,velocity_loss_limb_pen,velocity_loss_ricochet,velocity_loss_wallbang,decal_size,muzzle_flash_chance,suppression,tracer_color_r,tracer_color_g,tracer_color_b,is_tracer,particle_type,suppression_type,group,is_mixed_ammo,ammo_mixing,is_arming,is_physical,arming_distance,ignition_distance,explosion_on_hit,explosion_server_damage_max_damage,explosion_server_damage_max_distance,emit_dragonbreath,use_buck_deviation".split(",");
+    const SAMPLE = `name,damage_torso_a,damage_torso_b,damage_torso_c,damage_torso_d,damage_arm_a,damage_arm_b,damage_arm_c,damage_arm_d,damage_leg_a,damage_leg_b,damage_leg_c,damage_leg_d,damage_head_a,damage_head_b,damage_head_c,damage_head_d
+12g_roosevelt_accutip_275_slug,-0.056,142,132,1,-0.056,142,132,0.4,-0.056,142,132,0.6,-0.056,142,132,2
+10mm_roosevelt_umc_180gr_fmj,-0.03,53.5,52,1,-0.03,53.5,52,0.4,-0.03,53.5,52,0.6,-0.03,53.5,52,2.7
+10mm_winchester_silvertip_175gr_jhp,-0.056,59,57,1,-0.056,59,57,0.4,-0.056,59,57,0.6,-0.056,59,57,2.7
+45acp_supernova_225gr_red_tracer,-0.03,53,52,1,-0.03,53,52,0.4,-0.03,53,52,0.6,-0.03,53,52,1`;
+
+    const elements = {
+      ammoList: document.querySelector("#ammoList"),
+      canvas: document.querySelector("#chart"),
+      chartWrap: document.querySelector("#chartWrap"),
+      tooltip: document.querySelector("#tooltip"),
+      status: document.querySelector("#status"),
+      shareStatus: document.querySelector("#shareStatus"),
+      pasteInput: document.querySelector("#pasteInput"),
+      fileInput: document.querySelector("#fileInput"),
+      catalogSearch: document.querySelector("#catalogSearch"),
+      ammoOptions: document.querySelector("#ammoOptions"),
+      addAllAmmo: document.querySelector("#addAllAmmo"),
+      caliberSelect: document.querySelector("#caliberSelect"),
+      catalogSummary: document.querySelector("#catalogSummary"),
+      workingCount: document.querySelector("#workingCount"),
+      maxDistance: document.querySelector("#maxDistance"),
+      maxDamage: document.querySelector("#maxDamage"),
+      damageMultiplier: document.querySelector("#damageMultiplier"),
+      thresholds: document.querySelector("#thresholds"),
+      visibleCount: document.querySelector("#visibleCount")
+    };
+
+    let sourceText = "";
+    let sourceLabel = "";
+    let delimiter = ",";
+    let parsedRows = [];
+    let headers = [];
+    let headerIndex = -1;
+    let columnIndex = new Map();
+    let ammo = [];
+    let bodyPart = "torso";
+    let hoverDistance = null;
+    let chartMarkers = [];
+
+    function detectDelimiter(text) {
+      const lines = text.replace(/^\uFEFF/, "").split(/\r?\n/).filter(line => line.trim());
+      const headerLine = lines.find(line => line.includes("damage_torso_a")) || lines[0] || "";
+      return (headerLine.match(/\t/g) || []).length > (headerLine.match(/,/g) || []).length ? "\t" : ",";
+    }
+
+    function parseDelimited(text, separator) {
+      const output = [];
+      let row = [];
+      let cell = "";
+      let inQuotes = false;
+      const input = text.replace(/^\uFEFF/, "");
+
+      for (let index = 0; index < input.length; index += 1) {
+        const char = input[index];
+        const next = input[index + 1];
+        if (char === '"') {
+          if (inQuotes && next === '"') { cell += '"'; index += 1; }
+          else inQuotes = !inQuotes;
+        } else if (char === separator && !inQuotes) {
+          row.push(cell); cell = "";
+        } else if ((char === "\n" || char === "\r") && !inQuotes) {
+          if (char === "\r" && next === "\n") index += 1;
+          row.push(cell); output.push(row); row = []; cell = "";
+        } else {
+          cell += char;
+        }
+      }
+      if (cell.length || row.length) { row.push(cell); output.push(row); }
+      return output;
+    }
+
+    function escapeCell(value, separator) {
+      const text = String(value ?? "");
+      if (text.includes('"') || text.includes("\r") || text.includes("\n") || text.includes(separator)) {
+        return `"${text.replaceAll('"', '""')}"`;
+      }
+      return text;
+    }
+
+    function serialize(rows, separator = delimiter) {
+      return rows.map(row => row.map(cell => escapeCell(cell, separator)).join(separator)).join("\n");
+    }
+
+    function damageColumns() {
+      return BODY_PARTS.flatMap(part => COEFFICIENTS.map(coefficient => `damage_${part}_${coefficient}`));
+    }
+
+    function numberFrom(value) {
+      const text = String(value ?? "").trim();
+      if (!text) return null;
+      const parsed = Number(text);
+      return Number.isFinite(parsed) ? parsed : null;
+    }
+
+    function bytesToBase64Url(bytes) {
+      let binary = "";
+      for (let index = 0; index < bytes.length; index += 0x8000) {
+        binary += String.fromCharCode(...bytes.subarray(index, index + 0x8000));
+      }
+      return btoa(binary).replaceAll("+", "-").replaceAll("/", "_").replace(/=+$/, "");
+    }
+
+    function base64UrlToBytes(value) {
+      if (!/^[A-Za-z0-9_-]+$/.test(value)) throw new Error("Invalid share encoding");
+      const base64 = value.replaceAll("-", "+").replaceAll("_", "/");
+      const binary = atob(base64 + "=".repeat((4 - base64.length % 4) % 4));
+      return Uint8Array.from(binary, character => character.charCodeAt(0));
+    }
+
+    async function transformBytes(bytes, StreamConstructor) {
+      const stream = new Blob([bytes]).stream().pipeThrough(new StreamConstructor("gzip"));
+      return new Uint8Array(await new Response(stream).arrayBuffer());
+    }
+
+    async function encodeSharePayload(payload) {
+      const bytes = new TextEncoder().encode(JSON.stringify(payload));
+      if (typeof CompressionStream === "function") {
+        try {
+          return `g${bytesToBase64Url(await transformBytes(bytes, CompressionStream))}`;
+        } catch (error) {
+          // Fall back to uncompressed JSON when browser compression is unavailable.
+        }
+      }
+      return `u${bytesToBase64Url(bytes)}`;
+    }
+
+    async function decodeSharePayload(encoded) {
+      if (!encoded) throw new Error("Empty share link");
+      if (encoded.length > 100000) throw new Error("Shared link is too large");
+      const format = encoded[0];
+      let bytes = base64UrlToBytes(encoded.slice(1));
+      if (format === "g") {
+        if (typeof DecompressionStream !== "function") throw new Error("This browser cannot decompress the shared link");
+        bytes = await transformBytes(bytes, DecompressionStream);
+      } else if (format !== "u") {
+        throw new Error("Unknown share format");
+      }
+      return validateSharePayload(JSON.parse(new TextDecoder().decode(bytes)));
+    }
+
+    function validateSharePayload(payload) {
+      if (!Array.isArray(payload) || payload.length !== 3 || (payload[0] !== 1 && payload[0] !== 2)) {
+        throw new Error("Unsupported share version");
+      }
+      const version = payload[0];
+      const ui = payload[1];
+      const rows = payload[2];
+      if (!Array.isArray(ui) || ui.length !== 5 || !Array.isArray(rows) || !rows.length || rows.length > 200) {
+        throw new Error("Invalid shared data");
+      }
+
+      const [partIndex, multiplier, maxDistance, maxDamage, showBreakpoints] = ui;
+      if (!Number.isInteger(partIndex) || partIndex < 0 || partIndex >= BODY_PARTS.length ||
+        !Number.isFinite(multiplier) || multiplier < 0 || multiplier > 1e6 ||
+        !Number.isFinite(maxDistance) || maxDistance <= 0 || maxDistance > 1e7 ||
+        !Number.isFinite(maxDamage) || maxDamage < 0 || maxDamage > 1e9 ||
+        (showBreakpoints !== 0 && showBreakpoints !== 1)) {
+        throw new Error("Invalid shared graph settings");
+      }
+
+      const names = new Set();
+      const cleanRows = rows.map(row => {
+        const expectedLength = version === 1 ? 17 : 18;
+        if (!Array.isArray(row) || row.length !== expectedLength || typeof row[0] !== "string") {
+          throw new Error("Invalid shared ammo row");
+        }
+        const name = row[0].trim();
+        if (!name || name.length > 200 || names.has(name)) throw new Error("Invalid or duplicate shared ammo name");
+        names.add(name);
+        const shown = version === 1 ? 1 : row[1];
+        if (shown !== 0 && shown !== 1) throw new Error("Invalid shared ammo visibility");
+        const values = row.slice(version === 1 ? 1 : 2);
+        if (values.some(value => !Number.isFinite(value) || Math.abs(value) > 1e9)) throw new Error("Invalid shared damage value");
+        return [name, shown, ...values];
+      });
+
+      return [2, [partIndex, multiplier, maxDistance, maxDamage, showBreakpoints], cleanRows];
+    }
+
+    function makeSharePayload() {
+      const rows = workingSet().map(item => [
+        item.name,
+        item.shown ? 1 : 0,
+        ...damageColumns().map(header => numberFrom(item.row[columnIndex.get(header)]) ?? 0)
+      ]);
+      return validateSharePayload([
+        2,
+        [
+          BODY_PARTS.indexOf(bodyPart),
+          gunDamageMultiplier(),
+          Math.max(1, numberFrom(elements.maxDistance.value) ?? 1000),
+          Math.max(0, numberFrom(elements.maxDamage.value) ?? 0),
+          elements.thresholds.checked ? 1 : 0
+        ],
+        rows
+      ]);
+    }
+
+    function applySharedPayload(payload, catalogText = "") {
+      const [, ui, rows] = validateSharePayload(payload);
+      const [partIndex, multiplier, maxDistance, maxDamage, showBreakpoints] = ui;
+      const selectedNames = new Set(rows.map(row => row[0]));
+      let usedCurrentCatalog = false;
+
+      if (catalogText) usedCurrentCatalog = loadText(catalogText, "calibers.csv", false, selectedNames);
+      if (usedCurrentCatalog) {
+        const itemsByName = new Map(ammo.map(item => [item.name, item]));
+        for (const [name, , ...values] of rows) {
+          let item = itemsByName.get(name);
+          if (!item) {
+            const row = Array(headers.length).fill("");
+            row[columnIndex.get("name")] = name;
+            item = { name, row, rowIndex: parsedRows.length, selected: true, shown: true, color: "" };
+            parsedRows.push(row);
+            ammo.push(item);
+            itemsByName.set(name, item);
+          }
+          damageColumns().forEach((header, index) => { item.row[columnIndex.get(header)] = values[index]; });
+        }
+        sourceLabel = "calibers.csv + shared link";
+        sourceText = serialize(parsedRows);
+      } else {
+        const sharedRows = [["name", ...damageColumns()], ...rows.map(([name, , ...values]) => [name, ...values])];
+        const text = serialize(sharedRows, ",");
+        if (!loadText(text, "Shared link", true, selectedNames)) throw new Error("Could not load shared ammo");
+      }
+
+      const shownByName = new Map(rows.map(([name, shown]) => [name, Boolean(shown)]));
+      ammo.forEach(item => {
+        item.selected = selectedNames.has(item.name);
+        item.shown = item.selected ? shownByName.get(item.name) ?? true : false;
+      });
+
+      bodyPart = BODY_PARTS[partIndex];
+      elements.damageMultiplier.value = String(multiplier);
+      elements.maxDistance.value = String(maxDistance);
+      elements.maxDamage.value = maxDamage > 0 ? String(maxDamage) : "";
+      elements.thresholds.checked = Boolean(showBreakpoints);
+      document.querySelectorAll(".tab").forEach(tab => tab.setAttribute("aria-selected", String(tab.dataset.part === bodyPart)));
+      document.querySelector("#comboKey").hidden = bodyPart !== "torso" && bodyPart !== "arm";
+      renderCatalogControls();
+      renderAmmoList();
+      drawChart();
+      return usedCurrentCatalog;
+    }
+
+    function showShareStatus(message, type = "") {
+      elements.shareStatus.textContent = message;
+      elements.shareStatus.classList.toggle("warn", type === "warn");
+      elements.shareStatus.classList.toggle("error", type === "error");
+    }
+
+    async function copyText(text) {
+      if (navigator.clipboard?.writeText) {
+        try {
+          await navigator.clipboard.writeText(text);
+          return;
+        } catch (error) {
+          // Try the selection-based fallback below.
+        }
+      }
+      const textarea = document.createElement("textarea");
+      textarea.value = text;
+      textarea.style.position = "fixed";
+      textarea.style.opacity = "0";
+      document.body.append(textarea);
+      textarea.select();
+      const copied = document.execCommand("copy");
+      textarea.remove();
+      if (!copied) throw new Error("Clipboard access was blocked");
+    }
+
+    function inferHeaderlessLayout(rows) {
+      const nonblank = rows.filter(row => row.some(cell => String(cell).trim()));
+      if (!nonblank.length) return null;
+
+      const widthCounts = new Map();
+      for (const row of nonblank) widthCounts.set(row.length, (widthCounts.get(row.length) ?? 0) + 1);
+      const width = [...widthCounts.entries()].sort((left, right) => right[1] - left[1])[0][0];
+      let inferredHeaders;
+      let damageStart;
+      let description;
+
+      if (width === 17) {
+        inferredHeaders = ["name", ...damageColumns()];
+        damageStart = 1;
+        description = "name + 16 damage columns";
+      } else if (width >= 19 && width <= CALIBERS_HEADERS.length) {
+        inferredHeaders = CALIBERS_HEADERS.slice(0, width);
+        damageStart = 3;
+        description = "calibers.csv column order";
+      } else {
+        return null;
+      }
+
+      const looksLikeAmmo = nonblank.some(row => {
+        const name = String(row[0] ?? "").trim();
+        const damageValues = row.slice(damageStart, damageStart + 16);
+        return name && damageValues.length === 16 && damageValues.some(value => numberFrom(value) !== null);
+      });
+      return looksLikeAmmo ? { headers: inferredHeaders, description } : null;
+    }
+
+    function loadText(text, label, remember = true, selectedNames = null) {
+      const nextDelimiter = detectDelimiter(text);
+      let nextRows = parseDelimited(text, nextDelimiter);
+      const required = ["name", ...damageColumns()];
+      let nextHeaderIndex = nextRows.findIndex(row => {
+        const normalized = row.map(cell => cell.trim().toLowerCase());
+        return normalized.includes("name") && normalized.some(cell => cell.startsWith("damage_") && cell.endsWith("_a"));
+      });
+      let inferredDescription = "";
+
+      if (nextHeaderIndex < 0) {
+        const inferred = inferHeaderlessLayout(nextRows);
+        if (!inferred) {
+          showStatus("Could not infer the columns. Paste full calibers rows, or name followed by all 16 damage values.", true);
+          return false;
+        }
+        nextRows = [inferred.headers, ...nextRows];
+        nextHeaderIndex = 0;
+        inferredDescription = ` Headers inferred as ${inferred.description}.`;
+      }
+
+      const nextHeaders = nextRows[nextHeaderIndex].map(cell => cell.trim());
+      const nextColumns = new Map(nextHeaders.map((header, index) => [header.toLowerCase(), index]));
+      const missing = required.filter(header => !nextColumns.has(header));
+      if (missing.length) {
+        showStatus(`Missing required columns: ${missing.join(", ")}`, true);
+        return false;
+      }
+
+      const nameColumn = nextColumns.get("name");
+      const nextAmmo = [];
+      const seenNames = new Set();
+      for (let rowIndex = nextHeaderIndex + 1; rowIndex < nextRows.length; rowIndex += 1) {
+        const row = nextRows[rowIndex];
+        const name = String(row[nameColumn] ?? "").trim();
+        if (!name || seenNames.has(name)) continue;
+        const hasDamage = damageColumns().some(header => numberFrom(row[nextColumns.get(header)]) !== null);
+        if (!hasDamage) continue;
+        seenNames.add(name);
+        nextAmmo.push({
+          name,
+          row,
+          rowIndex,
+          selected: selectedNames ? selectedNames.has(name) : false,
+          shown: selectedNames ? selectedNames.has(name) : false,
+          color: ""
+        });
+      }
+
+      if (!nextAmmo.length) {
+        showStatus("The CSV has damage columns, but no ammunition rows with numeric values.", true);
+        return false;
+      }
+
+      delimiter = nextDelimiter;
+      parsedRows = nextRows;
+      headers = nextHeaders;
+      headerIndex = nextHeaderIndex;
+      columnIndex = nextColumns;
+      ammo = nextAmmo;
+      sourceLabel = label;
+      if (remember) sourceText = text;
+      hoverDistance = null;
+      elements.tooltip.hidden = true;
+      updateWorkingColors();
+      renderCatalogControls();
+      const selectedCount = workingSet().length;
+      const selectionNote = selectedCount
+        ? ` Restored ${selectedCount} working-set selection${selectedCount === 1 ? "" : "s"}.`
+        : " Choose ammo to add to the working set.";
+      showStatus(`${label}: loaded ${ammo.length} ammo row${ammo.length === 1 ? "" : "s"}.${selectionNote}${inferredDescription}`);
+      renderAmmoList();
+      drawChart();
+      return true;
+    }
+
+    function showStatus(message, isError = false) {
+      elements.status.textContent = message;
+      elements.status.classList.toggle("error", isError);
+    }
+
+    function workingSet() {
+      return ammo.filter(item => item.selected);
+    }
+
+    function visibleSet() {
+      return ammo.filter(item => item.selected && item.shown);
+    }
+
+    function caliberFor(item) {
+      return item.name.split("_")[0];
+    }
+
+    function updateWorkingColors() {
+      workingSet().forEach((item, index) => { item.color = COLORS[index % COLORS.length]; });
+    }
+
+    function renderCatalogControls() {
+      elements.catalogSummary.textContent = ammo.length ? `${ammo.length} ammo in ${sourceLabel}` : "No catalog loaded";
+      elements.ammoOptions.replaceChildren();
+      for (const item of ammo) {
+        if (item.selected) continue;
+        const option = document.createElement("option");
+        option.value = item.name;
+        elements.ammoOptions.append(option);
+      }
+
+      const groups = new Map();
+      for (const item of ammo) {
+        const caliber = caliberFor(item);
+        if (!groups.has(caliber)) groups.set(caliber, []);
+        groups.get(caliber).push(item);
+      }
+      elements.caliberSelect.replaceChildren();
+      const placeholder = document.createElement("option");
+      placeholder.value = "";
+      placeholder.textContent = "Add entire caliber…";
+      elements.caliberSelect.append(placeholder);
+      for (const [caliber, items] of groups) {
+        if (items.length < 2) continue;
+        const option = document.createElement("option");
+        option.value = caliber;
+        option.textContent = `${caliber} (${items.length})`;
+        elements.caliberSelect.append(option);
+      }
+
+      const count = workingSet().length;
+      const shownCount = visibleSet().length;
+      elements.workingCount.textContent = `${count} selected · ${shownCount} shown`;
+      elements.addAllAmmo.disabled = !ammo.length || count === ammo.length;
+    }
+
+    function refreshWorkingSet() {
+      updateWorkingColors();
+      renderCatalogControls();
+      renderAmmoList();
+      drawChart();
+    }
+
+    function addToWorkingSet(items) {
+      items.forEach(item => { item.selected = true; item.shown = true; });
+      elements.catalogSearch.value = "";
+      refreshWorkingSet();
+    }
+
+    function columnFor(part, coefficient) {
+      return columnIndex.get(`damage_${part}_${coefficient}`);
+    }
+
+    function readCoefficients(item, part = bodyPart) {
+      return COEFFICIENTS.map(coefficient => numberFrom(item.row[columnFor(part, coefficient)]) ?? 0);
+    }
+
+    function gunDamageMultiplier() {
+      return Math.max(0, numberFrom(elements.damageMultiplier.value) ?? 1);
+    }
+
+    function damageAt(item, distance, part = bodyPart) {
+      const [a, b, c, d] = readCoefficients(item, part);
+      return Math.max(Math.min(a * distance + b, c) * d, 0) * gunDamageMultiplier();
+    }
+
+    function damageBreakpointDistance(item, part, target, maxDistance) {
+      const [a, b, c, d] = readCoefficients(item, part);
+      const effectiveD = d * gunDamageMultiplier();
+      if (!a || !effectiveD || target <= 0) return null;
+      const distance = (target / effectiveD - b) / a;
+      if (distance < 0 || distance > maxDistance) return null;
+      const actual = damageAt(item, distance, part);
+      const tolerance = Math.max(1e-7, target * 1e-8);
+      return Math.abs(actual - target) <= tolerance ? distance : null;
+    }
+
+    function affineDamageAt(item, part, distance) {
+      const [a, b, c, d] = readCoefficients(item, part);
+      const effectiveD = d * gunDamageMultiplier();
+      const raw = a * distance + b;
+      const capped = Math.min(raw, c);
+      if (capped * effectiveD <= 0) return { slope: 0, intercept: 0 };
+      if (raw >= c) return { slope: 0, intercept: c * effectiveD };
+      return { slope: a * effectiveD, intercept: b * effectiveD };
+    }
+
+    function torsoArmOneShotDistance(item, maxDistance) {
+      const target = 100;
+      const boundaries = [0, maxDistance];
+      for (const part of ["torso", "arm"]) {
+        const [a, b, c] = readCoefficients(item, part);
+        if (!a) continue;
+        for (const boundary of [(c - b) / a, -b / a]) {
+          if (boundary > 0 && boundary < maxDistance) boundaries.push(boundary);
+        }
+      }
+      boundaries.sort((left, right) => left - right);
+      const uniqueBoundaries = boundaries.filter((value, index) => index === 0 || Math.abs(value - boundaries[index - 1]) > 1e-8);
+      const crossings = [];
+      const tolerance = 1e-7;
+
+      for (let index = 0; index < uniqueBoundaries.length - 1; index += 1) {
+        const left = uniqueBoundaries[index];
+        const right = uniqueBoundaries[index + 1];
+        if (right - left <= 1e-10) continue;
+        const midpoint = (left + right) / 2;
+        const torso = affineDamageAt(item, "torso", midpoint);
+        const arm = affineDamageAt(item, "arm", midpoint);
+        const slope = torso.slope + arm.slope;
+        const intercept = torso.intercept + arm.intercept;
+        const leftDamage = slope * left + intercept;
+        const rightDamage = slope * right + intercept;
+
+        if (leftDamage >= target - tolerance && rightDamage < target - tolerance) {
+          const crossing = Math.abs(slope) > 1e-12 ? (target - intercept) / slope : left;
+          if (crossing >= left - tolerance && crossing <= right + tolerance) crossings.push(Math.max(left, Math.min(right, crossing)));
+        }
+      }
+
+      return crossings.length ? crossings[crossings.length - 1] : null;
+    }
+
+    function renderAmmoList() {
+      const selected = workingSet();
+      elements.ammoList.replaceChildren();
+
+      if (!selected.length) {
+        const empty = document.createElement("div");
+        empty.className = "empty";
+        empty.textContent = ammo.length ? "Add ammo from the catalog to begin." : "Load a catalog to begin.";
+        elements.ammoList.append(empty);
+      }
+
+      const fragment = document.createDocumentFragment();
+      for (const item of selected) {
+        const card = document.createElement("div");
+        card.className = "ammo";
+        card.classList.toggle("hidden-curve", !item.shown);
+        card.style.setProperty("--ammo-color", item.color);
+
+        const head = document.createElement("div");
+        head.className = "ammo-head";
+        const visibility = document.createElement("label");
+        visibility.className = "visibility-toggle";
+        const visibilityInput = document.createElement("input");
+        visibilityInput.type = "checkbox";
+        visibilityInput.checked = item.shown;
+        visibilityInput.setAttribute("aria-label", `Show ${item.name} on graph`);
+        const visibilityText = document.createElement("span");
+        visibilityText.textContent = "Show";
+        visibilityInput.addEventListener("change", () => {
+          item.shown = visibilityInput.checked;
+          card.classList.toggle("hidden-curve", !item.shown);
+          renderCatalogControls();
+          drawChart();
+        });
+        visibility.append(visibilityInput, visibilityText);
+        const swatch = document.createElement("span");
+        swatch.className = "swatch";
+        const name = document.createElement("span");
+        name.className = "ammo-name";
+        name.title = item.name;
+        name.textContent = item.name;
+        const remove = document.createElement("button");
+        remove.className = "remove-ammo";
+        remove.type = "button";
+        remove.title = "Remove from working set";
+        remove.setAttribute("aria-label", `Remove ${item.name} from working set`);
+        remove.textContent = "Remove";
+        remove.addEventListener("click", () => { item.selected = false; item.shown = false; refreshWorkingSet(); });
+        head.append(visibility, swatch, name, remove);
+
+        const values = document.createElement("div");
+        values.className = "values";
+        for (const coefficient of COEFFICIENTS) {
+          const label = document.createElement("label");
+          label.className = "number-field";
+          const caption = document.createElement("span");
+          caption.textContent = coefficient;
+          const input = document.createElement("input");
+          input.type = "number";
+          input.step = "any";
+          input.value = item.row[columnFor(bodyPart, coefficient)] ?? "";
+          input.setAttribute("aria-label", `${item.name} ${bodyPart} ${coefficient}`);
+          input.addEventListener("input", () => {
+            item.row[columnFor(bodyPart, coefficient)] = input.value;
+            drawChart();
+          });
+          label.append(caption, input);
+          values.append(label);
+        }
+
+        card.append(head, values);
+        fragment.append(card);
+      }
+      elements.ammoList.append(fragment);
+      updateVisibleCount();
+    }
+
+    function niceStep(span, targetTicks) {
+      const rough = span / targetTicks;
+      const power = 10 ** Math.floor(Math.log10(rough));
+      const normalized = rough / power;
+      const multiplier = normalized <= 1 ? 1 : normalized <= 2 ? 2 : normalized <= 5 ? 5 : 10;
+      return multiplier * power;
+    }
+
+    function formatTick(value) {
+      if (Math.abs(value) >= 1000) return value.toLocaleString(undefined, { maximumFractionDigits: 0 });
+      return Number(value.toFixed(2)).toString();
+    }
+
+    function graphBounds(width, height) {
+      const maxX = Math.max(1, numberFrom(elements.maxDistance.value) ?? 1000);
+      const visible = visibleSet();
+      let autoMax = 0;
+      const multiplier = gunDamageMultiplier();
+      for (const item of visible) {
+        const [a, b, c, d] = readCoefficients(item);
+        autoMax = Math.max(autoMax, damageAt(item, 0), damageAt(item, maxX), Math.max(c * d * multiplier, 0), Math.max(b * d * multiplier, 0));
+      }
+      const explicitMax = numberFrom(elements.maxDamage.value);
+      const paddedMax = Math.max(1, autoMax * 1.05);
+      const autoStep = niceStep(paddedMax, 8);
+      const maxY = explicitMax && explicitMax > 0 ? explicitMax : Math.max(1, Math.ceil(paddedMax / autoStep) * autoStep);
+      const margin = { left: width < 520 ? 48 : 58, right: 18, top: 18, bottom: 42 };
+      return { maxX, maxY, margin, plotWidth: width - margin.left - margin.right, plotHeight: height - margin.top - margin.bottom };
+    }
+
+    function drawChart() {
+      const canvas = elements.canvas;
+      const rect = elements.chartWrap.getBoundingClientRect();
+      if (!rect.width || !rect.height) return;
+      const ratio = window.devicePixelRatio || 1;
+      canvas.width = Math.round(rect.width * ratio);
+      canvas.height = Math.round(rect.height * ratio);
+      canvas.style.width = `${rect.width}px`;
+      canvas.style.height = `${rect.height}px`;
+      const context = canvas.getContext("2d");
+      context.setTransform(ratio, 0, 0, ratio, 0, 0);
+      context.clearRect(0, 0, rect.width, rect.height);
+
+      const bounds = graphBounds(rect.width, rect.height);
+      const { maxX, maxY, margin, plotWidth, plotHeight } = bounds;
+      if (plotWidth <= 0 || plotHeight <= 0) return;
+      const toX = value => margin.left + (value / maxX) * plotWidth;
+      const toY = value => margin.top + plotHeight - (value / maxY) * plotHeight;
+
+      context.fillStyle = "#13161b";
+      context.fillRect(0, 0, rect.width, rect.height);
+      context.font = "11px ui-sans-serif, system-ui";
+      context.textBaseline = "middle";
+
+      const xStep = niceStep(maxX, Math.max(4, Math.floor(plotWidth / 100)));
+      const yStep = niceStep(maxY, Math.max(4, Math.floor(plotHeight / 65)));
+      context.lineWidth = 1;
+      for (let x = 0; x <= maxX + xStep * 0.01; x += xStep) {
+        const px = toX(x);
+        context.strokeStyle = x === 0 ? "#59616d" : "#292e37";
+        context.beginPath(); context.moveTo(px, margin.top); context.lineTo(px, margin.top + plotHeight); context.stroke();
+        context.fillStyle = "#8f98a6";
+        context.textAlign = "center";
+        context.fillText(formatTick(x), px, margin.top + plotHeight + 17);
+      }
+      for (let y = 0; y <= maxY + yStep * 0.01; y += yStep) {
+        const py = toY(y);
+        context.strokeStyle = y === 0 ? "#59616d" : "#292e37";
+        context.beginPath(); context.moveTo(margin.left, py); context.lineTo(margin.left + plotWidth, py); context.stroke();
+        context.fillStyle = "#8f98a6";
+        context.textAlign = "right";
+        context.fillText(formatTick(y), margin.left - 8, py);
+      }
+
+      if (elements.thresholds.checked) {
+        context.save();
+        context.setLineDash([5, 5]);
+        for (const guide of HIT_GUIDES) {
+          if (guide.value > maxY) continue;
+          const py = toY(guide.value);
+          context.strokeStyle = guide.value === 100 ? "rgba(255,255,255,.48)" : "rgba(255,255,255,.2)";
+          context.beginPath(); context.moveTo(margin.left, py); context.lineTo(margin.left + plotWidth, py); context.stroke();
+          context.fillStyle = "#aeb5c0";
+          context.textAlign = "right";
+          context.fillText(guide.label, margin.left + plotWidth - 5, py - 8);
+        }
+        context.restore();
+      }
+
+      context.save();
+      context.beginPath();
+      context.rect(margin.left, margin.top, plotWidth, plotHeight);
+      context.clip();
+      const visible = visibleSet();
+      chartMarkers = [];
+      const samples = Math.max(180, Math.floor(plotWidth));
+      for (const item of visible) {
+        context.beginPath();
+        context.strokeStyle = item.color;
+        context.lineWidth = 2;
+        for (let sample = 0; sample <= samples; sample += 1) {
+          const distance = (sample / samples) * maxX;
+          const px = toX(distance);
+          const py = toY(damageAt(item, distance));
+          if (sample === 0) context.moveTo(px, py); else context.lineTo(px, py);
+        }
+        context.stroke();
+      }
+
+      if (hoverDistance !== null) {
+        const px = toX(hoverDistance);
+        context.strokeStyle = "rgba(255,255,255,.55)";
+        context.lineWidth = 1;
+        context.beginPath(); context.moveTo(px, margin.top); context.lineTo(px, margin.top + plotHeight); context.stroke();
+        for (const item of visible) {
+          const py = toY(damageAt(item, hoverDistance));
+          context.fillStyle = item.color;
+          context.beginPath(); context.arc(px, py, 3.5, 0, Math.PI * 2); context.fill();
+        }
+      }
+
+      if (elements.thresholds.checked) {
+        for (const item of visible) {
+          for (const guide of HIT_GUIDES) {
+            if (guide.value > maxY) continue;
+            const distance = damageBreakpointDistance(item, bodyPart, guide.value, maxX);
+            if (distance === null) continue;
+            const px = toX(distance);
+            const py = toY(guide.value);
+            context.fillStyle = item.color;
+            context.strokeStyle = "#eef3f9";
+            context.lineWidth = 1.25;
+            context.beginPath(); context.arc(px, py, 4.25, 0, Math.PI * 2); context.fill(); context.stroke();
+            chartMarkers.push({ type: "simple", item, guide, distance, damage: guide.value, x: px, y: py });
+          }
+
+          if (bodyPart === "torso" || bodyPart === "arm") {
+            const distance = torsoArmOneShotDistance(item, maxX);
+            if (distance !== null) {
+              const damage = damageAt(item, distance, bodyPart);
+              if (damage >= 0 && damage <= maxY) {
+                const px = toX(distance);
+                const py = toY(damage);
+                context.fillStyle = item.color;
+                context.strokeStyle = "#eef3f9";
+                context.lineWidth = 1.4;
+                context.beginPath();
+                context.moveTo(px, py - 5.5); context.lineTo(px + 5.5, py); context.lineTo(px, py + 5.5); context.lineTo(px - 5.5, py); context.closePath();
+                context.fill(); context.stroke();
+                chartMarkers.push({ type: "combined", item, distance, damage, x: px, y: py });
+              }
+            }
+          }
+        }
+      }
+      context.restore();
+
+      context.fillStyle = "#8f98a6";
+      context.textAlign = "center";
+      context.fillText("Distance (studs)", margin.left + plotWidth / 2, rect.height - 12);
+      context.save();
+      context.translate(14, margin.top + plotHeight / 2);
+      context.rotate(-Math.PI / 2);
+      context.fillText("Damage", 0, 0);
+      context.restore();
+      updateVisibleCount();
+    }
+
+    function updateVisibleCount() {
+      const count = visibleSet().length;
+      elements.visibleCount.textContent = `${count} curve${count === 1 ? "" : "s"}`;
+    }
+
+    function updateTooltip(event) {
+      const rect = elements.chartWrap.getBoundingClientRect();
+      const bounds = graphBounds(rect.width, rect.height);
+      const localX = event.clientX - rect.left;
+      const localY = event.clientY - rect.top;
+      const inside = localX >= bounds.margin.left && localX <= bounds.margin.left + bounds.plotWidth &&
+        localY >= bounds.margin.top && localY <= bounds.margin.top + bounds.plotHeight;
+      if (!inside || !ammo.some(item => item.selected && item.shown)) {
+        hoverDistance = null;
+        elements.tooltip.hidden = true;
+        drawChart();
+        return;
+      }
+
+      const marker = chartMarkers
+        .map(candidate => ({ candidate, distance: Math.hypot(candidate.x - localX, candidate.y - localY) }))
+        .filter(candidate => candidate.distance <= 9)
+        .sort((left, right) => left.distance - right.distance)[0]?.candidate;
+
+      hoverDistance = marker?.distance ?? Math.max(0, Math.min(bounds.maxX, ((localX - bounds.margin.left) / bounds.plotWidth) * bounds.maxX));
+      if (marker?.type === "simple") {
+        elements.tooltip.innerHTML = `<div class="tip-distance">${escapeHtml(marker.item.name)}</div>` +
+          `<div class="tip-row"><span class="swatch" style="--ammo-color:${marker.item.color}"></span><span class="name">${marker.guide.label} breakpoint</span><span class="damage">${formatTick(marker.distance)} st</span></div>` +
+          `<div class="tip-distance">${bodyPart}: ${formatTick(marker.damage)} damage</div>`;
+      } else if (marker?.type === "combined") {
+        const torso = damageAt(marker.item, marker.distance, "torso");
+        const arm = damageAt(marker.item, marker.distance, "arm");
+        elements.tooltip.innerHTML = `<div class="tip-distance">${escapeHtml(marker.item.name)} · torso + arm one-shot limit</div>` +
+          `<div class="tip-row"><span class="swatch" style="--ammo-color:${marker.item.color}"></span><span class="name">${formatTick(torso)} + ${formatTick(arm)} = ${formatTick(torso + arm)}</span><span class="damage">${formatTick(marker.distance)} st</span></div>`;
+      } else {
+        const visible = visibleSet();
+        const rows = visible.map(item => ({ item, damage: damageAt(item, hoverDistance) })).sort((left, right) => right.damage - left.damage);
+        const shown = rows.slice(0, 12);
+        elements.tooltip.innerHTML = `<div class="tip-distance">${formatTick(hoverDistance)} studs · ${bodyPart}</div>` + shown.map(({ item, damage }) =>
+          `<div class="tip-row"><span class="swatch" style="--ammo-color:${item.color}"></span><span class="name">${escapeHtml(item.name)}</span><span class="damage">${formatTick(damage)}</span></div>`
+        ).join("") + (rows.length > shown.length ? `<div class="tip-distance">+${rows.length - shown.length} more visible</div>` : "");
+      }
+      elements.tooltip.hidden = false;
+      const tipWidth = elements.tooltip.offsetWidth;
+      const tipHeight = elements.tooltip.offsetHeight;
+      elements.tooltip.style.left = `${Math.min(rect.width - tipWidth - 10, Math.max(10, localX + 14))}px`;
+      elements.tooltip.style.top = `${Math.min(rect.height - tipHeight - 10, Math.max(10, localY + 14))}px`;
+      drawChart();
+    }
+
+    function escapeHtml(value) {
+      return String(value).replace(/[&<>"']/g, character => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[character]);
+    }
+
+    async function fetchRootCsvText() {
+      const response = await fetch("../../calibers.csv", { cache: "no-store" });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return response.text();
+    }
+
+    async function reloadRootCsv() {
+      try {
+        return loadText(await fetchRootCsvText(), "calibers.csv");
+      } catch (error) {
+        showStatus("Could not fetch ../../calibers.csv. Choose the file above or paste rows instead.", true);
+        return false;
+      }
+    }
+
+    async function loadSharedLinkFromHash() {
+      if (!location.hash.startsWith("#s=")) return false;
+      const payload = await decodeSharePayload(location.hash.slice(3));
+      let catalogText = "";
+      try {
+        catalogText = await fetchRootCsvText();
+      } catch (error) {
+        // Shared rows are self-contained, so the link still works offline or from a local file.
+      }
+      const usedCurrentCatalog = applySharedPayload(payload, catalogText);
+      const count = payload[2].length;
+      const fallbackNote = usedCurrentCatalog ? " over the current catalog." : ". Current catalog unavailable; using shared rows only.";
+      showShareStatus(`Loaded ${count} shared ammo row${count === 1 ? "" : "s"}${fallbackNote}`, usedCurrentCatalog ? "" : "warn");
+      return true;
+    }
+
+    function clearSharedHash() {
+      if (location.hash.startsWith("#s=")) history.replaceState(null, "", `${location.pathname}${location.search}`);
+      showShareStatus("");
+    }
+
+    function addNamedAmmo() {
+      const query = elements.catalogSearch.value.trim().toLowerCase();
+      const item = ammo.find(candidate => !candidate.selected && candidate.name.toLowerCase() === query);
+      if (!item) {
+        elements.catalogSearch.setCustomValidity("Choose an unselected ammo from the catalog.");
+        elements.catalogSearch.reportValidity();
+        return;
+      }
+      elements.catalogSearch.setCustomValidity("");
+      addToWorkingSet([item]);
+    }
+
+    document.querySelectorAll(".tab").forEach(tab => {
+      tab.addEventListener("click", () => {
+        bodyPart = tab.dataset.part;
+        document.querySelectorAll(".tab").forEach(other => other.setAttribute("aria-selected", String(other === tab)));
+        document.querySelector("#comboKey").hidden = bodyPart !== "torso" && bodyPart !== "arm";
+        renderAmmoList();
+        drawChart();
+      });
+    });
+
+    document.querySelector("#loadPaste").addEventListener("click", () => {
+      const text = elements.pasteInput.value;
+      if (!text.trim()) { showStatus("Paste CSV or tab-separated rows first.", true); return; }
+      if (loadText(text, "Pasted data")) clearSharedHash();
+    });
+    document.querySelector("#reloadRoot").addEventListener("click", async () => {
+      if (await reloadRootCsv()) clearSharedHash();
+    });
+    elements.fileInput.addEventListener("change", async () => {
+      const file = elements.fileInput.files?.[0];
+      if (file && loadText(await file.text(), file.name)) clearSharedHash();
+    });
+    elements.catalogSearch.addEventListener("input", () => elements.catalogSearch.setCustomValidity(""));
+    elements.catalogSearch.addEventListener("keydown", event => {
+      if (event.key === "Enter") { event.preventDefault(); addNamedAmmo(); }
+    });
+    document.querySelector("#addAmmo").addEventListener("click", addNamedAmmo);
+    elements.addAllAmmo.addEventListener("click", () => addToWorkingSet(ammo));
+    elements.caliberSelect.addEventListener("change", () => {
+      const caliber = elements.caliberSelect.value;
+      if (!caliber) return;
+      addToWorkingSet(ammo.filter(item => caliberFor(item) === caliber));
+      elements.caliberSelect.value = "";
+    });
+    document.querySelector("#clearWorking").addEventListener("click", () => {
+      ammo.forEach(item => { item.selected = false; item.shown = false; });
+      refreshWorkingSet();
+    });
+    elements.maxDistance.addEventListener("input", drawChart);
+    elements.maxDamage.addEventListener("input", drawChart);
+    elements.damageMultiplier.addEventListener("input", drawChart);
+    elements.thresholds.addEventListener("change", drawChart);
+    elements.chartWrap.addEventListener("pointermove", updateTooltip);
+    elements.chartWrap.addEventListener("pointerleave", () => {
+      hoverDistance = null;
+      elements.tooltip.hidden = true;
+      drawChart();
+    });
+
+    document.querySelector("#copyShareLink").addEventListener("click", async () => {
+      if (!workingSet().length) {
+        showShareStatus("Add at least one ammo to the working set first.", "error");
+        return;
+      }
+      try {
+        const encoded = await encodeSharePayload(makeSharePayload());
+        const link = `${location.href.split("#")[0]}#s=${encoded}`;
+        await copyText(link);
+        const type = link.length > 1500 ? "warn" : "";
+        const warning = type ? " This may be too long for some chat messages." : "";
+        showShareStatus(`Copied ${link.length}-character share link.${warning}`, type);
+      } catch (error) {
+        showShareStatus(`Could not create share link: ${error.message}`, "error");
+      }
+    });
+
+    document.querySelector("#copyCsv").addEventListener("click", async () => {
+      if (!parsedRows.length) return;
+      try {
+        await navigator.clipboard.writeText(serialize(parsedRows));
+        showStatus(`${sourceLabel}: copied tuned CSV.`);
+      } catch (error) {
+        showStatus("Clipboard access was blocked. Use Download CSV instead.", true);
+      }
+    });
+
+    document.querySelector("#downloadCsv").addEventListener("click", () => {
+      if (!parsedRows.length) return;
+      const blob = new Blob([serialize(parsedRows, ",")], { type: "text/csv;charset=utf-8" });
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = "calibers-tuned.csv";
+      link.click();
+      URL.revokeObjectURL(link.href);
+      showStatus(`${sourceLabel}: downloaded tuned CSV.`);
+    });
+
+    document.querySelector("#resetEdits").addEventListener("click", () => {
+      if (!sourceText) return;
+      const selectedNames = new Set(workingSet().map(item => item.name));
+      const shownByName = new Map(workingSet().map(item => [item.name, item.shown]));
+      if (loadText(sourceText, sourceLabel, false, selectedNames)) {
+        ammo.forEach(item => {
+          if (item.selected) item.shown = shownByName.get(item.name) ?? true;
+        });
+        refreshWorkingSet();
+      }
+    });
+
+    const resizeObserver = new ResizeObserver(drawChart);
+    resizeObserver.observe(elements.chartWrap);
+
+    async function initialize() {
+      let sharedLinkError = false;
+      if (location.hash.startsWith("#s=")) {
+        try {
+          if (await loadSharedLinkFromHash()) return;
+        } catch (error) {
+          sharedLinkError = true;
+        }
+      }
+      loadText(SAMPLE, "Sample data");
+      const loadedCurrentCatalog = await reloadRootCsv();
+      if (sharedLinkError) {
+        showShareStatus(
+          loadedCurrentCatalog
+            ? "The shared link is invalid or unsupported. Loaded the current catalog instead."
+            : "The shared link is invalid and the current catalog could not be loaded. Sample data is shown instead.",
+          "error"
+        );
+      }
+    }
+
+    initialize();
+  </script>
+</body>
+
+</html>

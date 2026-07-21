@@ -1,6 +1,6 @@
 0.25.2,Tue Jun  2 16:37:57 2026,,,,,,
 id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black_in_night_vision,disable_when_not_alone
-1,holotec_vudu_1_6x24,not_magnified,10,0.1, ,true,false
+1,holotec_vudu_1_6x24,not_magnified,10,0.1,9,true,false
 2,nightforce_atacr7_35x56_f1,not_magnified,5,500, ,true,false
 3,azimuth_compm2_sight,not_magnified,5,0.2, ,false,false
 4,izhevsk_pm_std_rear_sight,not_magnified, , , ,false,false

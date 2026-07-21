@@ -1,0 +1,23 @@
+﻿,,OLD,,,,,,,NEW,,,,,
+name,,ergonomics1,horizontal1,vertical1,weight1,price1,strength,,ergonomics,horizontal_recoil,vertical_recoil,weight,price,strength
+dd_mk18_ris_2_9.55_handguard,DD Mk18 RIS II 9.55,8,-15,-17,0.3,1000,24.2,,8,-15,-18,0.3,1000,24.8
+dd_mk18_fsp_ris_2_9.55_handguard,DD MK18 FSP RIS II 9.55,8,-15,-16,0.28,1000,24,,8,-15,-17,0.28,1000,24.6
+dd_m4a1_ris_2_12.25_handguard,DD M4A1 RIS II 12.25,6,-17,-19,0.35,1100,24,,6,-17,-20,0.35,1100,24.6
+dd_m4a1_fsp_ris_2_12.25_handguard,DD M4A1 FSP RIS II 12.25,6,-17,-18,0.33,1100,23.8,,6,-17,-19,0.33,1100,24.4
+kac_ras_m4a1_handguard,KAC RAS,10,-10,-17,0.23,600,23.4,,10,-10,-17,0.23,700,23.4
+kac_ras_free_float_5inch,"KAC RAS Free Float 5""",11,-9,-16,0.21,650,23.6,,11,-9,-16,0.21,750,23.6
+kac_ras_free_float_12inch,"KAC RAS Free Float 12""",7,-14,-20,0.33,800,23.6,,7,-14,-21,0.33,900,24.2
+kac_mre_ras_free_float_12inch,"KAC MRE RAS Free Float 12""",7,-14,-19,0.31,850,23.4,,7,-14,-20,0.31,950,24
+kac_m5_ras_upper_handguard,KAC M5 RAS Upper Handguard,8,-16,-23,0.34,1500,27.6,,8,-15,-20,0.34,1200,25
+veriforce_tactical_ar15_4inch_ultralight_mlok_freefloat_hg,"Veriforce Tactical AR-15 Ultralight MLOK 4""",15,-6,-10,0.16,700,22.6,,14,-6,-9,0.13,700,21.6
+geissele_smr_mk4_federal_mlok_10inch,"Geissele Super Modular Rail MK4 Federal M-LOK 10""",10,-16,-13,0.31,1000,24.4,,10,-16,-14,0.31,1100,25
+kac_urx_4_mlok_8.5inch_handguard,"KAC URX 4 MLOK 8.5""",13,-11,-12,0.24,1100,24.2,,13,-11,-13,0.24,1100,24.8
+kac_urx_4_mlok_10.75inch_handguard,"KAC URX 4 MLOK 10.75""",11,-13,-14,0.28,1150,24.2,,11,-13,-15,0.28,1150,24.8
+kac_urx_4_mlok_13inch_handguard,"KAC URX 4 MLOK 13""",9,-15,-16,0.32,1250,24.2,,9,-15,-17,0.32,1250,24.8
+kac_urx_4_mlok_14.5inch_handguard,"KAC URX 4 MLOK 14.5""",8,-16,-17,0.35,1300,24,,8,-16,-18,0.35,1300,24.6
+geissele_smr_mk16_mlok_urg_i_9.3inch,"Geissele Super Modular Rail MK16 M-LOK URG-I 9.3""",11,-15,-10,0.26,1000,23.8,,11,-15,-11,0.26,1000,24.4
+midwest_industries_supp_series_sp7m_mlok_handguard,"Midwest Industries Supp Series SP7M 7.25""",14,-9,-14,0.24,1300,24.8,,14,-9,-15,0.24,1300,25.4
+midwest_industries_supp_series_sp9m_mlok_handguard,"Midwest Industries Supp Series SP9M 9.25""",12,-10,-17,0.27,1350,24.8,,12,-10,-18,0.27,1350,25.4
+midwest_industries_supp_series_sp10m_mlok_handguard,"Midwest Industries Supp Series SP10M 10.5""",11,-11,-18,0.3,1400,24.6,,11,-11,-19,0.3,1400,25.2
+midwest_industries_supp_series_sp12m_mlok_handguard,"Midwest Industries Supp Series SP12M 12.625""",9,-13,-20,0.34,1450,24.6,,9,-13,-21,0.34,1450,25.2
+midwest_industries_supp_series_sp15m_mlok_handguard,"Midwest Industries Supp Series SP15M 15""",7,-15,-21,0.38,1500,24,,7,-15,-22,0.38,1500,24.6

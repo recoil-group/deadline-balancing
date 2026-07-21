@@ -1,0 +1,44 @@
+﻿,,old,,,,,,,,,,,,,new,,,,,,,,,,,,,,,
+name,pretty_name,ergonomicsold,weightold,horizontal_recoilold,vertical_recoilold,magazine_capacityold,bullet_deviationold,bullet_damageold,bullet_velocityold,buck_bullet_deviationold,fire_rateold,priceold,strength,,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,bullet_deviation,bullet_damage,bullet_velocity,buck_bullet_deviation,fire_rate,price,strength,,irl weight,weight formula,sight weight formula
+,DOVETAIL BASE MOUNTS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+kazarov_rmp3_dovetail_mount,Kazarov RMP-3 Dovetail,1,0.03,,,,,,,,,300,0.4,,1,0.03,,,,,,,,,300,0.4,,,0,
+kazarov_rmp5_dovetail_mount,Kazarov RMP-5 Dovetail,1,0.04,,,,,,,,,300,0.2,,1,0.04,,,,,,,,,300,0.2,,,0,
+kazarov_74m_p_dovetail_mount,Kazarov AK-74M-P Dovetail Mount,1,0.02,,,,,,,,,300,0.6,,1,0.02,,,,,,,,,300,0.6,,,0,
+,DOVETAIL OPTIC MOUNTS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+adron_kobra_ekp_8_02_mount,Adron Kobra EKP 8 02 Mount,-1,0.1,0,-1,,,,,,,100,-2.4,,0,0.12,,,,,,,,,100,-2.4,,,0,
+veles_chelomo_dovetail_mount_pkas,Veles ChelOMO PK-AS,-1,0.08,,,,,,,,,600,-2.6,,0,0.08,,,,,,,,,600,-1.6,,,0,
+npz_1p78_1_dovetail_mount,NPZ 1P78-1 Dovetail,-1,0.09,0,0,,,,,,,600,-2.8,,0,0.1,,,,,,,,,600,-2,,,0,
+npz_1p78_kashtan_s3_1_dovetail_mount,NPZ 1P78 Kashtan S3-1 Dovetail Mount,1,0.11,,1,,,,,,,700,-1.8,,0,0.12,,,,,,,,,700,-2.4,,,0,
+,DOVETAIL OPTIC MOUNTS (OPTIC INCLUDED),,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+priceli_narod_okp_7_dovetail,Priceli Narod OKP-7,-1,0.16,0,0,,,,,,,1200,-4.2,,-2,0.17,,,,,,,,,1200,-5.4,,,0,0.02
+chelomo_pk_a_1x20_dovetail_scope,ChelOMO PKA Dovetail Optic,-3,0.15,,,,,,,,,1000,-6,,-2,0.19,,,,,,,,,1000,-5.8,,15.9,0.3816,0.2267
+npz_pk1_1p63_obzor,NPZ PK-1 1X (1P63) Obzor,-3,0.22,-2,-1,,,,,,,1500,-5.2,,-2,0.25,0,-1,,,,,,,1500,-6.4,,21.2,0.5088,0.2956
+npz_po1x20_1p76_rakurs_a,NPZ PO 1X20 (1P76) Rakurs-A,-2,0.2,0,-2,,,,,,,1200,-4.8,,-2,0.21,,,,,,,,,1200,-6.2,,17.3,0.4152,0.2449
+npz_usp_1_4x_1p29_tulip,NPZ USP-1 4X (1P29) Tulip,-4,0.3,-4,-2,,,,,,,1000,-5.6,,-2,0.34,0,-2,,,,,,,1000,-7.6,,28.2,0.6768,0.3866
+veles_chelomo_pso1,Veles ChelOMO PSO-1 4x24,-3,0.25,-2,0,,,,,,,900,-6.4,,-3,0.27,0,-1,,,,,,,900,-7.8,,21.2,0.5088,0.2956
+geiss_zfk_4x25_scope,Geiss ZFK 4x25 Scope,-4,0.2,0,0,,,,,,,1300,-8,,-3,0.27,0,-1,,,,,,,1300,-7.8,,21.1644,0.5079456,0.2951372
+npz_nspu_m_3.5x_1pn58,NPZ NSPU-M 3.5x 1PN58 Night Vision Optic,-7,0.38,,,,,,,,,2500,-14.6,,-7,0.45,0,-2,,,,,,,2500,-14.8,,,0,0.02
+,DOVETAIL RAIL MOUNTS,,,,,,,,,,,,0,,,,,,,,,,,,,0,,,,
+rs_regulate_ak_301m_front_biased_lower_mount,RS Regulate AK-301M Front Biased Lower Mount,-1,0.07,,,,,,,,,700,-2.4,,0,0.07,0,0,,,,,,,700,-1.4,,2.88,0.06912,
+rs_regulate_ak_303m_full_length_lower_mount,RS Regulate AK-303M Full Length Lower,-2,0.1,0,0,,,,,,,750,-4,,0,0.1,0,0,,,,,,,750,-2,,3.5,0.084,
+rs_regulate_akm_30mm_scope_mount,RS Regulate AKM 30mm Upper,-1,0.04,,,,,,,,,200,-1.8,,-1,0.04,,,,,,,,,200,-1.8,,1.68,0.04032,
+rs_regulate_akr_1913_railed_0moa_mount,RS Regulate AKR 1913 0 MOA Upper,-3,0.08,,,,,,,,,300,-4.6,,-2,0.06,,,,,,,,,300,-3.2,,2.37,0.05688,
+rs_regulate_akrk_mini_picatinny_mount,RS Regulate AKRK Mini Picatinny Upper,-1,0.04,,,,,,,,,200,-1.8,,-1,0.03,,,,,,,,,200,-1.6,,0.92,0.02208,
+rs_regulate_akmp_deltapoint_mount,RS Regulate AKMP Deltapoint Mount,-1,0.05,,,,,,,,,300,-2,,-1,0.02,,,,,,,,,300,-1.4,,0.88,0.02112,
+adron_cobra_mount,Adron Cobra,-4,0.3,0,0,,,,,,,750,-10,,-3,0.23,0,-1,,,,,,,750,-7,,9.5,0.228,
+veles_b_13_klassika_dovetail_mount,"Veles B-13 ""Klassika""",-3,0.14,0,0,,,,,,,750,-5.8,,-2,0.14,0,0,,,,,,,750,-4.8,,6.2,0.1488,
+sag_bit_low_profile_dovetail_mount,SAG Bit Low Profile Dovetail Mount,-1,0.15,0,0,,,,,,,1200,-4,,-2,0.08,0,-1,,,,,,,1200,-3,,3,0.072,
+,DUST COVERS,,,,,,,,,,,,0,,,,,,,,,,,,,0,,,0,
+kazarov_ak74_6p1_01_dust_cover,Kazarov AK-74 6P1 0-1 Dust Cover,6,0.09,-3,-3,,,,,,,300,8.4,,6,0.09,-3,-3,,,,,,,300,8.4,,3.7,0.0888,
+kazarov_ak74m_6p34_01_dust_cover,Kazarov AK-74M 6P34 0-1,7,0.11,-3,-4,,,,,,,500,9.6,,7,0.11,-3,-4,,,,,,,500,9.6,,4,0.096,
+pro_tactical_ak74_pdc_dust_cover,Pro Tactical AK74 PDC,2,0.17,-2,-4,,,,,,,1000,2.6,,4,0.17,-3,-3,,0.03,,,,,1000,4.65,,7,0.168,
+akademia_bastion_dust_cover,AKademia bastion,1,0.21,-4,-4,,,,,,,1200,2.4,,3,0.21,-4,-5,,,,,,,1200,5,,8.4,0.2016,
+veles_b_33_ak_dust_cover,Veles B-33,3,0.19,-3,-2,,,,,,,2000,2.8,,4,0.19,-3,-4,,,,,,,2000,5,,7.6,0.1824,
+northeast_industries_alpha_ak_series_railed_top_cover,Northeast Industries ALPHA AK series Railed Top Cover,4,0.24,-4,-2,,,,,,,2000,3.6,,5,0.24,-4,-3,,,,,,,2000,5.2,,9.7,0.2328,
+,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,

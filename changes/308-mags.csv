@@ -1,0 +1,41 @@
+﻿,,old,,,,,,,,,,,=C3-D3*20-E3*0.8-F3*0.6-H3*10,,new,,,,,,,,,,,
+name,pretty_name,ergonomicsold,weightold,horizontal_recoilold,vertical_recoilold,magazine_capacityold,barrel_deviationold,bullet_damageold,bullet_velocityold,buck_barrel_deviationold,fire_rateold,priceold,strength,,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price,strength
+dsa_sa58_fal_metric_magazine_10r,DSA FAL SA-58 U.S. Made Metric 10R,6,0.21,,,10,,,,,,500,1.8,,7,0.32,,,10,,,,,,500,0.6
+dsa_sa58_fal_metric_magazine_20r,DSA FAL SA-58 U.S. Made Metric 20R,-2,0.31,,,20,,,,,,1000,-8.2,,0,0.61,,,20,,,,,,1000,-12.2
+dsa_sa58_fal_metric_magazine_30r,DSA FAL SA-58 U.S. Made Metric 30R,-9,0.49,,,30,,,,,,2000,-18.8,,-7,0.92,,,30,,,,,,2000,-25.4
+enfield_l1a1_slr_pattern_mag_30r,Enfield L1A1 SLR Pattern 30R,-7,0.52,,,30,,,,,,2500,-17.4,,-6,0.94,,,30,,,,,,2500,-24.8
+mmw_fal_polymer_mag_20r,Moses Mag Works Polymer 20R,-3,0.26,,,20,,,,,,1500,-8.2,,-1,0.55,,,20,,,,,,1500,-12
+x_products_x_fal_drum_mag_50r,X Products X-FAL .308 50R Drum,-15,0.82,,,50,0.1,,,,,4000,-32.4,,-15,1.49,,,50,0.1,,,,,4000,-45.8
+,,,,,,,,,,,,,0,,,,,,,,,,,,,0
+dsa_sa58_enhanced_bumper_magazine_bottom_plate,DSA FAL SA-58 Enhanced Bumper Magazine,2,0.04,,,,,,,,,500,1.2,,1,0.05,,,,,,,,,500,0
+dsa_sa58_mag_bottom_plate,DSA FAL SA-58 Magazine,1,0.02,,,,,,,,,0,0.6,,0,0.02,,,,,,,,,0,-0.4
+,,,,,,,,,,,,,0,,,,,,,,,,,,,0
+hk_g3_10r_magazine,HK G3/MSG-90 10R,5,0.2,,,10,,,,,,500,1,,7,0.33,,,10,,,,,,500,0.4
+hk_g3_std_20r_magazine,HK G3 Standard 20R,-2,0.4,,,20,,,,,,1000,-10,,0,0.64,,,20,,,,,,1000,-12.8
+custom_g3_welded_30r_magazine,Custom G3 Welded 30R,-9,0.7,,,30,,,,,,2000,-23,,-7,0.94,,,30,,,,,,2000,-25.8
+,,,,,,,,,,,,,0,,,,,,,,,,,,,0
+fn_scar_h_7.62x51_10r,FN SCAR-H 7.62x51 NATO 10R,15,0.2,,,10,,,,,,500,11,,7,0.32,,,10,,,,,,500,0.6
+fn_scar_h_7.62x51_20r,FN SCAR-H 7.62x51 NATO 20R,0,0.4,,,20,,,,,,1000,-8,,0,0.63,,,20,,,,,,1000,-12.6
+molon_labe_industries_scar_7.62x51_polymer_10r,Molon Labe Industries SCAR-H 7.62x51 Polymer 10R,14,0.18,,,10,,,,,,750,10.4,,6.5,0.29,,,10,,,,,,750,0.7
+molon_labe_industries_scar_7.62x51_polymer_15r,Molon Labe Industries SCAR-H 7.62x51 Polymer 15R,7,0.29,,,15,,,,,,1500,1.2,,2,0.43,,,15,,,,,,1500,-6.6
+molon_labe_industries_scar_7.62x51_polymer_20r,Molon Labe Industries SCAR-H 7.62x51 Polymer 20R,-1,0.38,,,20,,,,,,1250,-8.6,,-1,0.57,,,20,,,,,,1250,-12.4
+molon_labe_industries_scar_7.62x51_polymer_30r,Molon Labe Industries SCAR-H 7.62x51 Polymer 30R,-7,0.5,,,30,,,,,,3000,-17,,-7,0.86,,,30,,,,,,3000,-24.2
+promag_scar17_7.62x51_50r_drum,ProMag FN Scar 17 .308 50R Drum,-20,1.2,,,50,0.5,,,,,4500,-49,,-15,1.46,,,50,0.1,,,,,4500,-45.2
+,,,,,,,,,,,,,0,,,,,,,,,,,,,0
+lancer_systems_l7awm_7.62x51_20r,Lancer Systems L7AWM 7.62x51 20R,0,0.39,,,20,,,,,,1250,-7.8,,0,0.58,,,20,,,,,,1250,-11.6
+lancer_systems_l7awm_translucent_7.62x51_20r,Lancer Systems L7AWM Translucent 7.62x51 20R,1,0.4,,,20,,,,,,1250,-7,,0.5,0.59,,,20,,,,,,1250,-11.3
+lancer_systems_l7awm_7.62x51_25r,Lancer Systems L7AWM 7.62x51 25R,-5,0.44,,,25,,,,,,1500,-13.8,,-4,0.72,,,25,,,,,,1500,-18.4
+lancer_systems_l7awm_translucent_7.62x51_25r,Lancer Systems L7AWM Translucent 7.62x51 25R,-4,0.45,,,25,,,,,,1500,-13,,-3.5,0.73,,,25,,,,,,1500,-18.1
+x_products_x25_7.62x51_drum_50r,X Products X-25 .308 50R Drum,-15,0.9,,-4,50,0.5,,,,,5000,-35.6,,-14,1.5,,,50,0.1,,,,,5000,-45
+magpul_pmag_d50_lr_sr_gen_m3_7.62x51_50r,Magpul PMAG D-50 LR/SR Gen M3 .308 50R Drum,-15.5,0.89,,-4,50,0.5,,,,,4500,-35.9,,-15,1.45,,,50,0.1,,,,,4500,-45
+,,,,,,,,,,,,,0,,,,,,,,,,,,,0
+7.62x51_kalashnikov_concern_ak308_20r_mag,Kalashnikov Concern 7.62x51 AK-308 20R,32,0.41,,,20,,,,,,600,23.8,,0,0.59,,,20,,,,,,600,-11.8
+springfield_armory_m14_7.62x51_modified_20r_mag,Springfield Armory M14/M1A 7.62x51 Modified 20R,31,0.39,,,20,,,,,,750,23.2,,0.5,0.63,,,20,,,,,,750,-12.1
+springfield_armory_m14_7.62x51_modified_30r_mag,Springfield Armory M14/M1A 7.62x51 Modified 30R,20,0.59,,,30,,,,,,1000,8.2,,-6,0.93,,,30,,,,,,1000,-24.6
+sgm_tactical_saiga308_3r_mag,SGM Tactical Saiga .308 3R,60,0.08,,,3,,,,,,100,58.4,,19,0.09,,,3,,,,,,100,17.2
+sgm_tactical_saiga308_5r_mag,SGM Tactical Saiga .308 5R,55,0.12,,,5,,,,,,300,52.6,,13,0.14,,,5,,,,,,300,10.2
+sgm_tactical_saiga308_10r_mag,SGM Tactical Saiga .308 10R,45,0.22,,,10,,,,,,500,40.6,,7,0.28,,,10,,,,,,500,1.4
+sgm_tactical_saiga308_15r_mag,SGM Tactical Saiga .308 15R,37,0.3,,,15,,,,,,700,31,,5,0.42,,,15,,,,,,700,-3.4
+sgm_tactical_saiga308_20r_mag,SGM Tactical Saiga .308 20R,31.5,0.4,,,20,,,,,,750,23.5,,-0.5,0.57,,,20,,,,,,750,-11.9
+sgm_tactical_saiga308_25r_mag,SGM Tactical Saiga .308 25R,25,0.48,,,25,,,,,,950,15.4,,-4,0.71,,,25,,,,,,950,-18.2
+promag_saiga308_sai_a5_polymer_mag_24r,ProMag Saiga .308 SAI-A5 Polymer 24rd Magazine,23,0.43,,,24,,,,,,900,14.4,,-3,0.68,,,24,,,,,,900,-16.6

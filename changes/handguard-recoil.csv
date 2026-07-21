@@ -1,0 +1,48 @@
+﻿basically adding +4 +4 recoil to every handguard to account for the muzzle device buff,,OLD,,,,,,,,,,,,NEW,,,,,,,,,,
+name,pretty_name,ergonomics_old,weight_old,horizontal_recoil_old,vertical_recoil_old,magazine_capacity_old,barrel_deviation_old,bullet_damage_old,bullet_velocity_old,buck_barrel_deviation_old,fire_rate_old,price_old,,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price
+2a_armament_builder_series_gen1_10inch_handguard,"2A Armament Builder Series Gen 1 10""",13,0.25,-12,-11,,,,,,,750,,13,0.25,-8,-7,,,,,,,750
+2a_armament_builder_series_gen1_12inch_handguard,"2A Armament Builder Series Gen 1 12""",11,0.28,-14,-12,,,,,,,800,,11,0.28,-10,-8,,,,,,,800
+2a_armament_builder_series_gen1_15inch_handguard,"2A Armament Builder Series Gen 1 15""",9,0.33,-16,-14,,,,,,,900,,9,0.33,-12,-10,,,,,,,900
+2a_armament_builder_series_gen1_7inch_handguard,"2A Armament Builder Series Gen 1 7""",15,0.2,-9,-10,,,,,,,700,,15,0.2,-5,-6,,,,,,,700
+usgi_m16a1_triangle_handguard,USGI M16A1 Triangle Handguard,13,0.27,-14,-20,,0.07,,,,,600,,13,0.27,-10,-16,,0.07,,,,,600
+kac_urx_4_mlok_10.75inch_handguard,"KAC URX 4 MLOK 10.75""",11,0.28,-13,-15,,,,,,,1150,,11,0.28,-9,-11,,,,,,,1150
+dd_m4a1_fsp_ris_2_12.25_handguard,DD M4A1 FSP RIS II 12.25,6,0.33,-17,-19,,,,,,,1100,,6,0.33,-13,-15,,,,,,,1100
+dd_m4a1_ris_2_12.25_handguard,DD M4A1 RIS II 12.25,6,0.35,-17,-20,,,,,,,1100,,6,0.35,-13,-16,,,,,,,1100
+dd_mk18_fsp_ris_2_9.55_handguard,DD MK18 FSP RIS II 9.55,8,0.28,-15,-17,,,,,,,1000,,8,0.28,-11,-13,,,,,,,1000
+dd_mk18_ris_2_9.55_handguard,DD Mk18 RIS II 9.55,8,0.3,-15,-18,,,,,,,1000,,8,0.3,-11,-14,,,,,,,1000
+kac_ras_m4a1_handguard,KAC RAS,10,0.23,-10,-17,,0.04,,,,,700,,10,0.23,-6,-13,,0.04,,,,,700
+geissele_smr_mk16_mlok_urg_i_13.5inch,"Geissele Super Modular Rail MK16 M-LOK URG-I 13.5""",8,0.33,-17,-15,,,,,,,1100,,8,0.33,-13,-11,,,,,,,1100
+geissele_smr_mk16_mlok_urg_i_15inch,"Geissele Super Modular Rail MK16 M-LOK URG-I 15""",7,0.36,-16,-16,,,,,,,1200,,7,0.36,-12,-12,,,,,,,1200
+geissele_smr_mk16_mlok_urg_i_9.3inch,"Geissele Super Modular Rail MK16 M-LOK URG-I 9.3""",11,0.26,-15,-11,,,,,,,1000,,11,0.26,-11,-7,,,,,,,1000
+kac_m5_ras_lower_handguard,KAC M5 RAS Lower Handguard,0,0,0,0,,,,,,,0,,0,0,0,0,,,,,,,0
+kac_m5_ras_upper_handguard,KAC M5 RAS Upper Handguard,8,0.34,-15,-20,,0.04,,,,,1200,,8,0.34,-11,-16,,0.04,,,,,1200
+kac_mre_ras_free_float_12inch,"KAC MRE RAS Free Float 12"" ",7,0.31,-14,-20,,,,,,,950,,7,0.31,-10,-16,,,,,,,950
+kac_ras_free_float_12inch,"KAC RAS Free Float 12"" ",7,0.33,-14,-21,,,,,,,900,,7,0.33,-10,-17,,,,,,,900
+kac_ras_free_float_5inch,"KAC RAS Free Float 5"" ",11,0.21,-9,-16,,,,,,,750,,11,0.21,-5,-12,,,,,,,750
+lvoa_c_handguard,LVOA-C,11,0.3,-15,-22,,,,,,,900,,11,0.3,-11,-18,,,,,,,900
+lvoa_s_handguard,LVOA-S,9,0.34,-17,-24,,,,,,,950,,9,0.34,-13,-20,,,,,,,950
+monster_10i_type_a_handguard,"Monster 10"" type A",8,0.27,-12,-18,,,,,,,600,,8,0.27,-8,-14,,,,,,,600
+monster_15i_type_a_handguard,"Monster 15"" type A",6,0.34,-14,-21,,,,,,,800,,6,0.34,-10,-17,,,,,,,800
+veriforce_tactical_ar15_4inch_ultralight_mlok_freefloat_hg,"Veriforce Tactical AR-15 Ultralight MLOK 4""",14,0.13,-6,-9,,,,,,,700,,14,0.13,-2,-5,,,,,,,700
+mk10_rl_handguard,MK10RL,13,0.34,-16,-16,,,,,,,1000,,13,0.34,-12,-12,,,,,,,1000
+magpul_moe_sl_carbine_handguard,Moe SL Carbine Length,14,0.21,-8,-11,,,,,,,500,,14,0.21,-4,-7,,,,,,,500
+magpul_moe_sl_mid_handguard,MOE SL Mid Length,12,0.25,-10,-13,,,,,,,550,,12,0.25,-6,-9,,,,,,,550
+sai_10_qd_handguard,"SAI 10"" QD Rail",9,0.29,-14,-16,,,,,,,1000,,9,0.29,-10,-12,,,,,,,1000
+sai_14.5_qd_handguard,"SAI 14.5"" QD Rail",6,0.36,-16,-20,,,,,,,1200,,6,0.36,-12,-16,,,,,,,1200
+stngr_lvnc_10i,"Stngr Lvnc 10""",11,0.28,-11,-16,,,,,,,950,,11,0.28,-7,-12,,,,,,,950
+stngr_hwk_15i,"Stngr Hkw 15""",8,0.34,-14,-19,,,,,,,900,,8,0.34,-10,-15,,,,,,,900
+colt_a2_std_rifle_plastic_handguard,Colt M16A2 Rifle Length Plastic,12,0.29,-15,-21,,0.08,,,,,500,,12,0.29,-11,-17,,0.08,,,,,500
+geissele_smr_mk16_mlok_urg_i_10.5inch,"Geissele Super Modular Rail MK16 M-LOK URG-I 10.5""",10,0.29,-16,-12,,,,,,,1050,,10,0.29,-12,-8,,,,,,,1050
+geissele_smr_mk4_federal_mlok_10inch,"Geissele Super Modular Rail Mk4 Federal MLOK 10""",10,0.31,-16,-14,,,,,,,1100,,10,0.31,-12,-10,,,,,,,1100
+kac_urx_4_mlok_8.5inch_handguard,"KAC URX 4 MLOK 8.5""",13,0.24,-11,-13,,,,,,,1100,,13,0.24,-7,-9,,,,,,,1100
+kac_urx_4_mlok_13inch_handguard,"KAC URX 4 MLOK 13""",9,0.32,-15,-17,,,,,,,1250,,9,0.32,-11,-13,,,,,,,1250
+kac_urx_4_mlok_14.5inch_handguard,"KAC URX 4 MLOK 14.5""",8,0.35,-16,-18,,,,,,,1300,,8,0.35,-12,-14,,,,,,,1300
+colt_m4_std_carbine_plastic_handguard,Colt M4 Standard Carbine Length Plastic,14,0.2,-14,-14,,0.05,,,,,0,,14,0.2,-10,-10,,0.05,,,,,0
+aeroknox_ax15_10.5inch_handguard,"Aeroknox AX15 10.5"" Handguard",14,0.24,-8,-14,,,,,,,800,,14,0.24,-4,-10,,,,,,,800
+radian_weapons_ar15_model_1_m1curgh_10inch_handguard,"Radian Weapons AR15 Model 1 M1CURGH 10"" Handguard",12,0.28,-13,-15,,,,,,,1500,,12,0.28,-9,-11,,,,,,,1500
+midwest_industries_supp_series_sp7m_mlok_handguard,"Midwest Industries Supp Series SP7M 7.25"" ",14,0.24,-9,-15,,,,,,,1300,,14,0.24,-5,-11,,,,,,,1300
+midwest_industries_supp_series_sp9m_mlok_handguard,"Midwest Industries Supp Series SP9M 9.25""",12,0.27,-10,-18,,,,,,,1350,,12,0.27,-6,-14,,,,,,,1350
+midwest_industries_supp_series_sp10m_mlok_handguard,"Midwest Industries Supp Series SP10M 10.5""",11,0.3,-11,-19,,,,,,,1400,,11,0.3,-7,-15,,,,,,,1400
+midwest_industries_supp_series_sp12m_mlok_handguard,"Midwest Industries Supp Series SP12M 12.625""",9,0.34,-13,-21,,,,,,,1450,,9,0.34,-9,-17,,,,,,,1450
+midwest_industries_supp_series_sp15m_mlok_handguard,"Midwest Industries Supp Series SP15M 15""",7,0.38,-15,-22,,,,,,,1500,,7,0.38,-11,-18,,,,,,,1500
+midwest_industries_supp_series_sp18m_mlok_handguard,"Midwest Industries Supp Series SP18M 18""",5,0.42,-16,-23,,,,,,,1600,,5,0.42,-12,-19,,,,,,,1600

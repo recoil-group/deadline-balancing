@@ -1,0 +1,160 @@
+0.25.2,Tue Jun  2 16:37:57 2026,,,,,,
+id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black_in_night_vision,disable_when_not_alone
+1,holotec_vudu_1_6x24,not_magnified,10,0.1,9,true,false
+2,nightforce_atacr7_35x56_f1,not_magnified,5,500, ,true,false
+3,azimuth_compm2_sight,not_magnified,5,0.2, ,false,false
+4,izhevsk_pm_std_rear_sight,not_magnified, , , ,false,false
+5,rtm_pm1_makarov_rear_sight,not_magnified, , , ,false,false
+6,aft_rear_sight_200m_aperture,not_magnified, , , ,false,false
+7,aft_rear_sight_600m_aperture,not_magnified, , , ,false,false
+8,r870_serbu_shorty_receiver,not_magnified, , , ,false,true
+9,r870_std_receiver,not_magnified, , , ,false,true
+10,roosevelt_870_mod_rmp3_receiver,not_magnified, , , ,false,true
+11,hg_shortrail_ghost_ring_rear_sight,not_magnified, , , ,false,false
+12,r870_std_rear_sight,not_magnified, , , ,false,false
+13,npz_pk1_1p63_obzor,70,5,0.2, ,false,false
+14,npz_usp_1_4x_1p29_tulip,22,5,0.2,9,true,false
+15,priceli_narod_okp_7_dovetail,not_magnified,10,0.333, ,false,false
+16,veles_chelomo_pso1,22,5,0.1,4.5,true,false
+17,geiss_zfk_4x25_scope,22,5,0.2,5,true,false
+18,chelomo_pk_a_1x20_dovetail_scope,70,5,0.2, ,false,false
+19,npz_nspu_m_3.5x_1pn58,22,5,0.1,5.5,true,false
+20,adron_kobra_ekp_8_02_mount,not_magnified, , , ,false,false
+21,npz_po1x20_1p76_rakurs_a,70,5,0.1,4.5,true,false
+22,ak12_gen2_dustcover,not_magnified, , , ,false,true
+23,archient_technologies_elysium_addon_module,not_magnified, , , ,false,false
+24,gdr_zvn_64_night_rear_sight_ak74,not_magnified, , , ,false,false
+25,gdr_zvn_64_night_rear_sight_akm,not_magnified, , , ,false,false
+26,kazarov_ak74_6p1_sb2_rear_sight,not_magnified, , , ,false,false
+27,kazarov_pp-19-01_vityaz_rear_sight,not_magnified, , , ,false,false
+28,kazarov_aks74u_rear_sight,not_magnified, , , ,false,false
+29,mp133_std_receiver,not_magnified, , , ,false,true
+30,launchtron_psrl_rear_ironsight,60, , , ,false,false
+31,tt33_postwar_slide,not_magnified, , , ,false,false
+32,tt33_prewar_slide,not_magnified, , , ,false,false
+33,tt33_mod_postwar_slide,not_magnified, , , ,false,false
+34,sanxian_qbz95_rear_aperture,not_magnified, , , ,false,false
+35,sanxian_qbz95_yma95_3x_scope,30,5,0.1,4.5,true,false
+36,sig_sauer_xray3_night_rear_sight,not_magnified, , , ,false,false
+37,sig_sauer_m17_sigplate_rear_sight,not_magnified, , , ,false,false
+38,whitner_defense_1911_tab_rear_battlesight,not_magnified, , , ,false,false
+39,steyr_aug_a1_stg77_1_5x_scoped_receiver,50,5,5,4,true,false
+40,aug_a1_receiver_top_backup_sights,not_magnified, , , ,false,false
+41,steyr_aug_a3sf_60mm_3x_scope,30,5,5,2,false,false
+42,steyr_aug_a3sf_60mm_1.5x_scope,50,5,5,2,false,false
+43,aug_a3sf_top_rail_2,not_magnified, , , ,false,false
+44,mosin_rear_sight,not_magnified, , , ,false,false
+45,npz_1p78_1_2.8x_kashtan_scope,40,5,0.2,4.5,true,false
+46,paramount_arms_slx_1x_microprism_acss_g2_scope,not_magnified,5,0.2,2,false,false
+47,virticon_compact_acog_3x24_ta50c_green,35,5,0.2,7,true,false
+48,virticon_compact_acog_3x24_ta50c_red,35,5,0.2,7,true,false
+49,monstrum_tactical_s232p_2x32_prism_scope,40,8,0.2,6,false,false
+50,aeroknox_ax15_rear_sight,not_magnified, , , ,false,false
+51,aeroknox_ax15_rear_sight_folded,not_magnified, , , ,false,false
+52,target_sports_rear_sight,not_magnified, , , ,false,false
+53,azimuth_acro_p2_reflex_sight,not_magnified,10,0.2, ,false,false
+54,azimuth_compm4_sight,not_magnified,13,0.15, ,false,false
+55,sig_sauer_romeo4b_sight,not_magnified,10,0.33, ,false,false
+56,sig_sauer_romeo4t_sight,not_magnified,10,0.2, ,false,false
+57,azimuth_micro_t1_sight,not_magnified,10,0.5, ,false,false
+58,azimuth_compm5_sight,not_magnified,10,0.2, ,false,false
+59,azimuth_micro_t2_sight,not_magnified,10,0.2, ,false,false
+60,alistair_ar536_prism_5x_sight_carry_handle,16,5,0.2,3.5,true,false
+61,alistair_ar332_prism_3x_sight_carry_handle,30,5,0.2,3.5,true,false
+62,virticon_acog_ta31_milspec_4x_scope_carry_handle,23,8,0.2,3.5,true,false
+63,virticon_acog_ta01_4x_scope_carry_handle,23,8,0.2,3.5,false,false
+64,virticon_acog_ta31_comspec_4x_scope_carry_handle,23,8,0.2,3.5,true,false
+65,virticon_acog_ta11d_bac_carry_handle,30,8,0.2,3.5,true,false
+66,hart_retro_a1_4x21_scope,22,5,0.1,4.5,true,false
+67,ultracross_electro_4x20_bdc_scope,22,5,0.1,3,true,false
+68,elcan_alt_view,not_magnified, , , ,false,false
+69,holotec_exps2_green_holo_sight,not_magnified,10,4, ,false,false
+70,holotec_exps2_holo_sight,not_magnified,10,4, ,false,false
+71,holotec_exps3_holo_sight,not_magnified,10,0.2, ,false,false
+72,holotec_g33_3x_magnifier,30, , , ,true,false
+73,pac_micro_rear_sight,not_magnified, , , ,false,false
+74,pac_rear_sight,not_magnified, , , ,false,false
+75,strauss_deltapoint_reflex_sight,not_magnified,10,0.25, ,false,false
+76,strauss_deltapoint_pro_sight,not_magnified,10,0.25, ,false,false
+77,holotec_eflx_mini_red_dot,not_magnified,10,0.333, ,false,false
+78,magtap_mbus_gen2_rear_top,not_magnified, , , ,false,false
+79,fab_tech_usgi_rear_buis_aperture,not_magnified, , , ,false,false
+80,virticon_rmr_rm01_type2_auto_led_reflex,not_magnified,10,0.25, ,false,false
+81,virticon_rmr_rm06_type2_adj_led_reflex,not_magnified,10,0.25, ,false,false
+82,virticon_rmr_rm05_dual_illuminated_reflex,not_magnified,10,0.25, ,false,false
+83,swampfox_kingslayer_micro_reflex_sight,not_magnified,10,0.333, ,false,false
+84,virticon_sro_reflex_sight,not_magnified,10,0.25, ,false,false
+85,stellartac_saturn_4x_red_scope,23,5,0.2,3.5,true,false
+86,stellartac_saturn_4x_green_scope,23,5,0.2,3.5,true,false
+87,susat_backup_sights,not_magnified, , , ,false,false
+88,usi_l12a1_susat_combat_optic,25,5,0.1,8,true,false
+89,alistair_ar536_prism_5x_sight,16,5,0.2,3.5,true,false
+90,alistair_ar332_prism_3x_sight,30,5,0.2,3.5,true,false
+91,virticon_acog_ta31_milspec_4x_scope,23,5,0.2,3.5,true,false
+92,virticon_acog_ta01_4x_scope,23,8,0.2,3.5,true,false
+93,virticon_acog_ta31_comspec_4x_scope,23,5,0.2,3.5,true,false
+94,virticon_acog_ta11d_bac,30,5,0.2,3.5,true,false
+95,virticon_rx01/06_series_1x24_reflex_sight,not_magnified,10,0.33, ,false,false
+96,virticon_rx01/06_series_1x24_reflex_sight_ch,not_magnified,10,0.33, ,false,false
+97,sno_vulkan_rpg_7_rear_sight,60, , , ,false,false
+98,rsa_sa58_holland_type_sight,not_magnified, , , ,false,false
+99,rsa_sa58_para_rear_sight,not_magnified, , , ,false,false
+100,hart_rear_ironsight_200m,not_magnified, , , ,false,false
+101,strauss_cq_deltapoint_pro_rear_ironsight,not_magnified, , , ,false,false
+102,dams_mangonel_rear_sight,not_magnified, , , ,false,false
+103,pu_3.5x_scope,27, , ,5,true,false
+104,nomz_pilad_p3.5x20c_scope,27, , ,5,true,false
+105,hetzel_z24_fero_4x24,20,5,0.1,5,true,false
+106,sig_sauer_romeo3,not_magnified,10,0.333, ,false,false
+107,glock20_lf_rear_sight,not_magnified, , , ,false,false
+108,glock17_gen4_sf_rear_sight,not_magnified, , , ,false,false
+109,truglo_glock_tfx_rs,not_magnified, , , ,false,false
+110,virticon_glock_supp_height_rear_sights_wh_sf,not_magnified, , , ,false,false
+111,glock17_gen5_sf_rear_sight,not_magnified, , , ,false,false
+112,hughnitions_company_extra_high_rear_sight,not_magnified, , , ,false,false
+113,sof_industries_aim_glock_rear_sight,not_magnified, , , ,false,false
+114,vism_pro_rear_200m,not_magnified, , , ,false,false
+115,vism_pro_rear_600m,not_magnified, , , ,false,false
+116,vectorworks_peak01_rear_aperture,not_magnified, , , ,false,false
+117,volhov_jsc_optics_1p90_zt310_3x_magnifier,30,5,0.1,4.5,false,false
+118,troy_battlesight_round_aperture,not_magnified, , , ,false,false
+119,axtell_defense_fixed_sight_rear_aperture,not_magnified, , , ,false,false
+120,steyr_aug_z_rail_rear_sight,not_magnified, , , ,false,false
+121,firm_#40_rear_sight_aperture,not_magnified, , , ,false,false
+122,veles_chelomo_pk_as,38,10,0.2,4.5,false,false
+123,adron_kobra_ekp_8_sight,not_magnified,10,0.333, ,false,false
+124,hk_ump_rear_sight,not_magnified, , , ,false,false
+125,hk_g3_rear_drum_sight,not_magnified, , , ,false,false
+126,hetzel_zf_6x42_psg1_scope,13,5,0.1,5.5,true,false
+127,gunther_mrs_red_dot_sight,not_magnified,10,0.333, ,false,false
+128,npz_pso_1_4x24_picatinny_scope,22,5,0.1,4.5,true,false
+129,veles_chelomo_pk06_kobra_sight,not_magnified,10,3, ,false,false
+130,volhov_1p87,not_magnified,10,0.2, ,false,false
+131,azimuth_electronic_g2_red_dot,not_magnified,10,8, ,true,false
+132,priceli_narod_okp_7_picatinny,not_magnified,10,0.333, ,false,false
+133,swampfox_trihawk_3x30_prism_scope,30,5,0.2,4.5,false,false
+134,npz_po1x20_rakurs_pm,70,5,0.1,4.5,true,false
+135,elcan_c79a2,25,10,0.2,4.5,true,false
+136,pilad_p1x42,not_magnified,10,0.2, ,false,false
+137,elcan_specterdr_1_4x_dfov14_t1,not_magnified,5,0.33,7,true,false
+138,tristar_compact_carry_handle,not_magnified, , , ,false,false
+139,squadsight_orion_3x_gen1_plus_nv_scope,22,1,1,5.5,true,false
+140,unity_fast_micro_mount,not_magnified, , , ,false,false
+141,virticon_srs02,not_magnified,10,0.33, ,false,false
+142,veles_chelomo_prc_red_dot,not_magnified,6,4, ,false,false
+143,sig_sauer_bravo4_4x30,22,10,0.33,6,true,false
+144,cosmotac_mark_3_tactical_gen2_3_9x42,not_magnified,10,0.1,7,true,false
+145,elcan_specter_os4x_sfov4,22,5,0.33,5.5,true,false
+146,emberfield_mg_kemper_xl_reflex_sight,not_magnified,10,0.5, ,false,false
+147,vortex_optics_razor_amg_uh1_gen1_sight,not_magnified,5,0.2, ,false,false
+148,holotec_xps2z_zombie_stopper_holo_sight,not_magnified,10,2.5, ,false,false
+149,holotec_xps2_green_holo_sight,not_magnified,10,2.5, ,false,false
+150,holotec_553_holo_sight,not_magnified,10,0.2, ,false,false
+151,holotec_552_holo_sight,not_magnified,10,0.2, ,false,false
+152,holotec_512_holo_sight,not_magnified,10,4, ,false,false
+153,holotec_xps2_holo_sight,not_magnified,10,2.5, ,false,false
+154,holotec_xps3_holo_sight,not_magnified,10,0.2, ,false,false
+155,kazarov_group_ak12_gen1_rear_sight,60, , , ,false,false
+156,holosun_hs510c_sight,not_magnified,7,0.4, ,false,false
+157,holosun_he510c-gr_sight,not_magnified,7,0.4, ,false,false
+158,kf_416_2mm_flip_up_sight_aperture,not_magnified, , , ,false,false

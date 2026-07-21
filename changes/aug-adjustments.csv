@@ -1,0 +1,21 @@
+﻿,,old,,,,,,,,,,,,,new,,,,,,,,,,,
+name,pretty_name,ergonomicsold,weightold,horizontal_recoilold,vertical_recoilold,magazine_capacityold,barrel_deviationold,bullet_damageold,bullet_velocityold,buck_barrel_deviationold,fire_rateold,priceold,strength,,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price,strength
+corvus_defensio_aug_case_deflector,Corvus Defensio AUG Case Deflector,3,0.06,,,,,,,,,1000,1.8,,2.5,0.08,,,,,,,,,1000,2.4
+talon_aug_pistol_grip_wrap,TALON AUG Pistol Grip Wrap,2,0.03,,,,,,,,,500,1.4,,2,0.02,,,,,,,,,500,1.6
+,,,,,,,,,,,,,0,,,,,,,,,,,,,0
+corvus_defensio_aug_charging_handle,Corvus Defensio AUG Charging Handle,1.5,0.03,,,,,,,,,500,0.9,,2,0.03,,,,,,,,,500,1.4
+,,,,,,,,,,,,,0,,,,,,,,,,,,,0
+aug_a3_std_bolt_carrier,AUG A3 Std.,0,0.35,,,,,,,,,0,-7,,0,0.2,,,,,,,,,0,-4
+,,,,,,,,,,,,,0,,,,,,,,,,,,,0
+steyr_aug_a3_m1_receiver,Steyr AUG A3 M1,2,0.39,0,-3,,,,,,,1000,-4,,1,0.39,0,-3,,,,,,,1000,-5
+steyr_aug_a3_sa_receiver,Steyr AUG A3 Standard,1,0.37,-1,-2,,,,,,,500,-4.4,,0,0.37,-1,-2,,,,,,,500,-5.4
+steyr_aug_a1_stg77_1_5x_scoped_receiver,Steyr AUG A1 Swarovski Optik 1.5x Scoped,3,0.49,0,-5,,,,,,,0,-3.8,,2,0.49,0,-4,,,,,,,0,-5.4
+,,,,,,,,,,,,,0,,,,,,,,,,,,,0
+pjs_aug_a3_sa_cqc_handguard,PJS AUG A3 CQC Handguard,6,0.12,-2,-2,,,,,,,800,,,3,0.14,-2,-2,,,,,,,800,
+pjs_aug_a3_sa_cqc_left_rail,PJS AUG A3 CQC Handguard Left Rail,-2,0.06,0,-2,,,,,,,0,-2,,-1,0.06,-2,0,,,,,,,0,-0.4
+pjs_aug_a3_sa_cqc_right_rail,PJS AUG A3 CQC Handguard Right Rail,-1,0.04,-1,0,,,,,,,0,-1,,-0.5,0.04,-1,0,,,,,,,0,-0.3
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+AUG_A3,Steyr AUG A3,30,0.1,55,60,0,0.5,1,1550,,,42000,-52,,42,0,58,63,0,0.5,1,1550,,,42000,-38
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+steyr_aug_a3_xs_bottom_accessory_rail,Steyr AUG A3 XS Bottom Accessory Rail,-1,0.06,,1,,,,,,,1000,-2.8,,0,0.07,0,0,,,,,,,1000,-1.4
+corvus_defensio_aug_forward_accessory_rail,Corvus Defensio AUG Forward Accessory Rail,-2,0.08,1,-1,,,,,,,1200,-3.8,,-1,0.06,-1,0,,,,,,,1200,-1.4

@@ -1,0 +1,10 @@
+name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,barrel_deviation,bullet_velocity,bullet_damage,price
+mosin_730mm_barrel,Mosin 730mm,-5,0.8,-2,-10,-0.2,300,0.1,0
+mosin_standard_stock,Mosin Std. Sniper,5,0.6,-1,-5,,,,0
+mosin_514mm_barrel,Mosin Regular 514mm,7,0.6,0,-2,0.15,-150,0,1000
+mosin_carbine_stock,Mosin Std. Carbine,3,0.5,0,-3,,,,500
+mosin_sawn_off_200mm_barrel,Mosin Sawn Off 200mm,25,0.3,5,10,0.8,-600,-0.3,1200
+mosin_sawn_off_220mm_barrel,Mosin Sawn Off 220mm w/ front sight,22,0.32,4,9,0.7,-580,-0.3,1200
+mosin_sawn_off_stock,Mosin Sawn Off,-5,0.2,5,5,,,,1000
+mosin_sawn_off_full_stock,Mosin Sawn Off Full,-10,0.3,2,0,,,,1000
+mosin_promag_archangel_stock,ProMag Archangel Mosin PRS,0,0.6,-4,-8,,,,2000

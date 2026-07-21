@@ -1,0 +1,23 @@
+﻿,,old,,,,,,,,,,,,,,new,,,,,,,,,,,,
+name,pretty_name,ergonomics_old,weight_old,horizontal_recoil_old,vertical_recoil_old,magazine_capacity_old,barrel_deviation_old,bullet_damage_old,bullet_velocity_old,buck_barrel_deviation_old,fire_rate_old,price_old,strength_old,strength_old,pretty name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price,strength,strength
+strikon_scr_wooden_rifle_stock,Fightlite SCR Wooden Rifle Stock,13,0.25,-11,-16,,0,0,0,,,1000,8,12.6,Strikon SCR Wooden Rifle Stock,19,0.27,-12,-15,,,,,,,1000,13.6,32.2
+r870_sps_polymer_stock,Remington SPS Polymer,14,0.22,-12,-12,,0,0,0,,,750,9.6,13.8,Roosevelt SPS Polymer,18,0.24,-12,-12,,,,,,,750,13.2,30
+r870_earthquake_raptor_pistol_grip,Shockwave Raptor Rem870,15,0.08,6,6,,,,,,,1000,13.4,11.3,Shockwave Raptor Rem870,15,0.08,6,6,,,,,,,1000,13.4,5
+,,,,,,,,,,,,,0,0,,,,,,,,,,,,,0,0
+,Mesa Tac total optimal,23,0.36,-8,-8,,,,,,,,15.8,18.6,Mesa Tac total optimal,23,0.42,-10,-10,,,,,,,,14.6,28.6
+,AGR total optimal,18,0.4,-13,-14,,,,,,,,10,14.7,AGR total optimal,22,0.39,-11,-13,,,,,,,,14.2,30.8
+,STRIKON total ,17,0.24,-9,-12,,,,,,,,12.2,15.8,STRIKON total ,18,0.23,-10,-13,,,,,,,,13.4,29.2
+,Magtap MOE max,18,0.27,-10,-10,,,,,,,,12.6,16.1,Magtap MOE max,19,0.25,-10,-10,,,,,,,,14,28
+,,,,,,,,,,,,,,0,,,,,,,,,,,,,,0
+strikon_scr_high_impact_polymer_stock,Fightlite SCR High Impact Polymer Stock,15,0.2,-8,-10,,0,0,0,,,1100,11,14.1,Strikon SCR High Impact Polymer Stock,16,0.19,-10,-13,,,,,,,1100,12.2,28
+magtap_moe_870_sga_polymer_stock,Magpul MOE 870 SGA Polymer,16,0.22,-10,-10,,,,,,,1200,11.6,15.1,Magtap MOE 870 SGA Polymer,17,0.2,-10,-10,,,,,,,1200,13,27
+agr_870_pistol_grip,FAB Defense AGR-870,0,0.11,-3,-3,,,,,,,1000,-2.2,-1.15,P.R.O Tactical AGR-870,3,0.1,-3,-4,,,,,,,1000,1,5.8
+agr_870_buffer_tube,AGR-870,-1,0.1,-2,-2,,,,,,,500,-3,-2.3,AGR-870,0,0.1,0,0,,,,,,,500,-2,-2
+mesa_tactical_faro_scar_buffer_tube_adapter,Mesa Tactical Faro Scar Buffer Tube Adapter,-5,0.08,2,2,,0.1,,,,,450,-7.1,-7.8,Mesa Tactical Faro Scar Buffer Tube Adapter,-5,0.14,0,0,,,,,,,450,-7.8,-7.8
+,,,,,,,,,,,,,0,0,,,,,,,,,,,,,0,0
+hunter_cheekrest_.5_sga,Hunter Cheek Rest .5 for SGA,2,0.05,,,,,,,,,0,1,1,Hunter Cheek Rest .5 for SGA,2,0.05,,,,,,,,,0,1,1
+strikon_scr_rubber_buttpad,Fightlite SCR Rubber Buttpad,2,0.04,-1,-2,,,,,,,0,1.2,1.7,Strikon SCR Rubber,2,0.04,,,,,,,,,0,1.2,1.2
+,,,,,,,,,,,,,0,0,,,,,,,,,,,,,0,0
+,Magpul MOE SL-K Carbine,18,0.17,-7,-8,,,,,,,800,14.6,17.2,,18,0.17,-7,-8,,,,,,,800,14.6,25
+,Magpul MOE SL-K Carbine Buttpad,1,0.02,-1,-1,,,,,,,0,0.6,0.95,,1,0.02,-1,-1,,,,,,,0,0.6,2
+,Aeroknox Orion,9,0.09,-2,-1,,,,,,,700,7.2,7.75,,9,0.09,-2,-1,,,,,,,700,7.2,9.4

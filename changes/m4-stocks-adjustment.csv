@@ -1,0 +1,49 @@
+,,new,,,,,,,,,,,
+name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price,strength score
+hera_arms_cqr_gen2_stock,Hera Arms CQR Gen2 Stock,10,0.32,-9,-13,,,,,,,1500,18.6
+hera_arms_cqr_gen2_buttpad,Hera Arms CQR Gen2 Buttpad,1,0.05,-1,-1,,,,,,,0,1.4
+colt_m4a1_receiver_endplate,Colt M4A1 Receiver Endplate,0,0.01,,,,,,,,,0,-0.2
+,,,,,,,,,,,,,
+troy_m7a1,Troy M7A1,-2,0.12,0,0,,,,,,,1000,-4.4
+ti_stock,Troy M7A1 Extendable Buttpad,23,0.15,-7,-9,,,,,,,800,31
+leapers_utg_model_15_fixed_a2_ar15_stock,UTG A2 Fixed,10,0.4,-16,-21,,,,,,,700,27.4
+mdt_lss_stock_adapter,MDT LSS Fixed,-1,0.04,,,,,,,,,100,-1.8
+mdt_v5_skeleton_rifle_stock,MDT Skeleton V5,23,0.32,0,0,,,,,,,1200,16.6
+mdt_v5_skeleton_rifle_stock_short,MDT Skeleton V5 Short,23,0.3,0,0,,,,,,,1200,17
+mdt_buttpad,MDT V5,2,0.05,-1,-1,,,,,,,0,2.4
+magpul_ubr_gen2_buffer,Magpul UBR Gen2 Receiver Extension,-1,0.14,-1,-2,,-0.2,,,,,400,-0.8
+ubr_gen2_stock,Magpul UBR Gen2,14,0.29,-17,-8,,,,,,,700,26.6
+colt_a2_buffer,Colt A2,-3,0.15,-2,-3,,-0.4,,,,,300,-0.6
+magpul_prs_gen2_stock,Magpul PRS Gen2,23,0.38,-3,-8,,,,,,,1200,22.6
+hera_hrs_light_stock,Hera HRS Light Fixed,15,0.16,-9,-11,,,,,,,1000,25.6
+colt_m4a1_castlenut,Colt M4A1 Castle Nut,0,0.02,,,,,,,,,0,-0.4
+,,,,,,,,,,,,,
+doublestar_ace_m4_socom_gen4_stock,Doublestar ACE M4 SOCOM,14,0.32,-13,-13,,,,,,,1000,25.8
+doublestar_ace_0.5_recoil_pad,Doublestar ACE M4 SOCOM Buttpad,2,0.03,-1,-1,,,,,,,0,2.8
+sb_tactical_vector_brace,SB Tactical Vector Brace,19,0.28,-4,-5,,,,,,,500,19.6
+si_ar_are_t7_buffer_tube,Strike Industries Advanced Receiver Extension T7,-1,0.12,-2,-2,,0,,,,,600,-0.6
+colt_buffer_tube,Colt,-2,0.15,-2,-3,,-0.1,,,,,0,-1.1
+,,,,,,,,,,,,,
+fortis_la_stock,Fortis LA,17,0.2,-16,-7,,,,,,,900,30
+hk_slim_stock,HK Slim Line,16,0.25,-6,-24,,,,,,,1000,30.2
+si_viper_mod1_stock,Strike Industries Viper MOD1 Stock,18,0.14,-8,-10,,,,,,,500,27.6
+viper_rubber_pad,Viper Rubber Buttpad,1,0.02,-1,-1,,,,,,,0,2
+magpul_moe_carbine_stock,Magpul MOE Carbine,17,0.19,-12,-11,,,,,,,900,29.4
+magpul_moe_butt_pad,Magpul MOE Buttpad,1,0.02,-1,-1,,,,,,,0,2
+ar_tr2_stock,AR TR2,16,0.22,-10,-15,,,,,,,800,28.6
+ar_tr2_pad,AR TR2 Buttpad,1,0.03,-1,-1,,,,,,,0,1.8
+vltor_emod_stock,VLTOR EMOD,14,0.26,-14,-14,,,,,,,700,28.4
+emod_pad,EMOD Buttpad,1,0.025,-1,-1,,,,,,,0,1.9
+magpul_prs_gen3_stock,Magpul PRS Gen3 Stock,20,0.35,-6,-5,,,,,,,1500,20.8
+prs_adjustable_piece,Magpul PRS Gen3 Adjustment Piece,0,0.05,,,,,,,,,0,-1
+prs_gen3_buttpad,Magpul PRS Gen3 Buttpad,2,0.04,-1,-1,,,,,,,0,2.6
+hera_arms_ccs_stock,Hera Arms CCS,15,0.21,-12,-16,,,,,,,600,30
+ak12_gen1_std_stock,Kalashnikov Concern AK-12 Gen 1,16,0.22,-15,-10,,,,,,,750,29.6
+colt_m4ss_stock,Colt M4SS,16,0.2,-12,-10,,,,,,,0,27.6
+lmt_pad,LMT Buttpad,1,0.02,-1,-1,,,,,,,0,2
+lmt_sopmod,LMT Sopmod,18,0.24,-6,-18,,,,,,,700,28.8
+brwnls_xm177_car,Brownells XM177 CAR,15,0.14,-9,-14,,,,,,,500,27.8
+cf_rubber_buttpad,CF Rubber Buttpad,2,0.04,-1,-1,,,,,,,0,2.6
+thordsen_frs15_cover_stock,Thordsen FRS-15 Cover,7,0.16,-2,-2,,,,,,,600,6.6
+magpul_str_carbine_stock,Magpul STR Carbine,17,0.23,-12,-12,,,,,,,900,29.2
+magpul_str_butt_pad,Magpul STR Buttpad,1,0.02,-1,-1,,,,,,,0,2

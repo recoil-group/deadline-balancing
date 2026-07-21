@@ -1,0 +1,1085 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Deadline Balance Strength Table</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f7f4;
+      --panel: #ffffff;
+      --line: #d7d9d1;
+      --line-strong: #b9beb0;
+      --text: #20231f;
+      --muted: #66705f;
+      --accent: #22706a;
+      --accent-soft: #e7f2ef;
+      --warn: #a85c10;
+      --shadow: 0 12px 34px rgba(30, 39, 33, 0.08);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    button,
+    input,
+    textarea {
+      font: inherit;
+    }
+
+    button {
+      min-height: 34px;
+      border: 1px solid var(--line-strong);
+      border-radius: 6px;
+      background: var(--panel);
+      color: var(--text);
+      cursor: pointer;
+    }
+
+    button.primary {
+      border-color: var(--accent);
+      background: var(--accent);
+      color: white;
+    }
+
+    button:hover {
+      filter: brightness(0.98);
+    }
+
+    main {
+      width: min(1500px, calc(100vw - 28px));
+      margin: 0 auto;
+      padding: 14px 0 20px;
+    }
+
+    .topbar {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 12px;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 19px;
+      font-weight: 650;
+      letter-spacing: 0;
+    }
+
+    .status {
+      min-height: 20px;
+      color: var(--muted);
+      font-size: 13px;
+      text-align: right;
+    }
+
+    .layout {
+      display: grid;
+      gap: 12px;
+    }
+
+    .panel {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+
+    .side {
+      display: grid;
+      gap: 12px;
+    }
+
+    .tool-panel {
+      display: grid;
+      grid-template-columns: minmax(260px, 1.05fr) minmax(260px, 0.95fr) minmax(320px, 1.35fr) minmax(260px, 1fr);
+    }
+
+    .section {
+      padding: 12px;
+    }
+
+    .section + .section {
+      border-left: 1px solid var(--line);
+    }
+
+    .section-title {
+      margin: 0 0 8px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 118px;
+      resize: vertical;
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fbfbf9;
+      color: var(--text);
+      font-family: "Cascadia Code", "SFMono-Regular", Consolas, monospace;
+      font-size: 12px;
+      line-height: 1.42;
+    }
+
+    #output {
+      min-height: 118px;
+    }
+
+    .actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .formula-grid {
+      display: grid;
+      gap: 6px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      max-height: 174px;
+      overflow: auto;
+      padding-right: 2px;
+    }
+
+    .formula-row {
+      display: grid;
+      grid-template-columns: 20px minmax(0, 1fr) 86px;
+      gap: 8px;
+      align-items: center;
+      min-height: 30px;
+    }
+
+    .formula-row label {
+      overflow: hidden;
+      color: var(--text);
+      font-size: 13px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    input[type="checkbox"] {
+      width: 16px;
+      height: 16px;
+      margin: 0;
+      accent-color: var(--accent);
+    }
+
+    input[type="number"] {
+      width: 100%;
+      height: 30px;
+      padding: 4px 7px;
+      border: 1px solid var(--line);
+      border-radius: 5px;
+      background: #fbfbf9;
+      color: var(--text);
+      font-variant-numeric: tabular-nums;
+    }
+
+    input[type="search"] {
+      width: 100%;
+      height: 34px;
+      padding: 5px 8px;
+      border: 1px solid var(--line);
+      border-radius: 5px;
+      background: #fbfbf9;
+      color: var(--text);
+    }
+
+    .lookup-actions {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .lookup-actions button {
+      min-width: 92px;
+    }
+
+    .small-note {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .table-panel {
+      min-width: 0;
+      overflow: hidden;
+    }
+
+    .table-wrap {
+      overflow: auto;
+      max-height: calc(100vh - 324px);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      font-size: 13px;
+      table-layout: fixed;
+    }
+
+    th,
+    td {
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      padding: 0;
+      background: var(--panel);
+      vertical-align: middle;
+    }
+
+    th {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      height: 34px;
+      padding: 7px 8px;
+      background: #eceee8;
+      color: #3c4438;
+      font-size: 12px;
+      font-weight: 700;
+      text-align: left;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    th.sortable {
+      cursor: pointer;
+      user-select: none;
+    }
+
+    th.sortable:hover {
+      background: #e2e7dd;
+    }
+
+    .sort-mark {
+      float: right;
+      margin-left: 6px;
+      color: var(--accent);
+      font-size: 11px;
+    }
+
+    th:first-child,
+    td:first-child {
+      border-left: 1px solid var(--line);
+    }
+
+    tbody tr:first-child td {
+      border-top: 0;
+    }
+
+    td.cell {
+      height: 32px;
+      padding: 7px 8px;
+      outline: none;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    td.cell:focus {
+      position: relative;
+      z-index: 1;
+      box-shadow: inset 0 0 0 2px var(--accent);
+    }
+
+    td.numeric {
+      font-variant-numeric: tabular-nums;
+      text-align: right;
+    }
+
+    td.reorder {
+      width: 54px;
+      padding: 3px 5px;
+      background: #f7f8f4;
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    th.reorder-head {
+      width: 54px;
+      background: #eceee8;
+      text-align: center;
+    }
+
+    .move-row {
+      width: 22px;
+      min-height: 24px;
+      margin: 0 1px;
+      padding: 0;
+      border-color: var(--line);
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1;
+    }
+
+    .move-row:disabled {
+      cursor: not-allowed;
+      opacity: 0.35;
+    }
+
+    td.strength {
+      position: sticky;
+      right: 0;
+      z-index: 1;
+      padding: 7px 8px;
+      background: #f1f7f5;
+      color: #184f48;
+      font-variant-numeric: tabular-nums;
+      font-weight: 700;
+      text-align: right;
+    }
+
+    th.strength-head {
+      position: sticky;
+      right: 0;
+      z-index: 3;
+      background: #dcece8;
+      color: #184f48;
+      text-align: right;
+    }
+
+    .col-name {
+      width: 16%;
+    }
+
+    .col-reorder {
+      width: 54px;
+    }
+
+    .col-pretty_name {
+      width: 18%;
+    }
+
+    .col-ergonomics,
+    .col-weight,
+    .col-magazine_capacity,
+    .col-bullet_damage,
+    .col-fire_rate,
+    .col-price {
+      width: 5.2%;
+    }
+
+    .col-horizontal_recoil,
+    .col-vertical_recoil,
+    .col-barrel_deviation,
+    .col-bullet_velocity,
+    .col-buck_barrel_deviation {
+      width: 6%;
+    }
+
+    .col-strength {
+      width: 6.2%;
+    }
+
+    .empty {
+      padding: 36px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .warn {
+      color: var(--warn);
+    }
+
+    @media (max-width: 900px) {
+      main {
+        width: min(100vw - 16px, 760px);
+        padding-top: 8px;
+      }
+
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .tool-panel {
+        grid-template-columns: 1fr;
+      }
+
+      .section + .section {
+        border-left: 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .table-wrap {
+        max-height: 70vh;
+      }
+
+      .topbar {
+        grid-template-columns: 1fr;
+      }
+
+      .status {
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="topbar">
+      <h1>Balance strength table</h1>
+      <div class="status" id="status">Paste balancing.csv data rows to begin.</div>
+    </div>
+
+    <div class="layout">
+      <aside class="side">
+        <section class="panel tool-panel">
+          <div class="section">
+            <p class="section-title">Input</p>
+            <textarea id="input" spellcheck="false" placeholder="Paste balancing.csv data rows here, without headers"></textarea>
+            <div class="actions">
+              <button class="primary" id="load">Load table</button>
+              <button id="sample">Use sample</button>
+            </div>
+          </div>
+          <div class="section">
+            <p class="section-title">Add CSV row</p>
+            <input id="rowLookup" type="search" list="rowOptions" autocomplete="off" placeholder="Type a balancing.csv name" />
+            <datalist id="rowOptions"></datalist>
+            <input id="csvFile" type="file" accept=".csv,text/csv" />
+            <div class="lookup-actions">
+              <button id="reloadCsv" type="button">Reload CSV</button>
+              <button class="primary" id="appendRow" type="button">Append</button>
+            </div>
+            <p class="small-note" id="csvStatus">Choose balancing.csv, or serve this folder to auto-load it.</p>
+          </div>
+          <div class="section">
+            <p class="section-title">Strength formula</p>
+            <div class="formula-grid" id="formulaFields"></div>
+          </div>
+          <div class="section">
+            <p class="section-title">Export</p>
+            <textarea id="output" spellcheck="false" readonly placeholder="Edited CSV rows will appear here"></textarea>
+            <div class="actions">
+              <button class="primary" id="export">Export rows</button>
+              <button id="copy">Copy export</button>
+            </div>
+          </div>
+        </section>
+      </aside>
+
+      <section class="panel table-panel">
+        <div class="table-wrap" id="tableWrap">
+          <div class="empty">No rows loaded.</div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    const DEFAULT_HEADERS = [
+      "id",
+      "class",
+      "name",
+      "pretty_name",
+      "ergonomics",
+      "weight",
+      "horizontal_recoil",
+      "vertical_recoil",
+      "magazine_capacity",
+      "barrel_deviation",
+      "bullet_damage",
+      "bullet_velocity",
+      "buck_barrel_deviation",
+      "fire_rate",
+      "price",
+    ];
+
+    const SAMPLE = `,,ak12_std_lower_handguard,Kalashnikov Concern AK-12 Std.,8,0.13,0,0,,,,,,,0
+,,lac_akvilon15,L.A.C. Akvilon-15,7,0.26,-1,-2,,,,,,,2000
+,,kazarov_group_rpk16_handguard,Kalashnikov Convern RPK-16 Handguard,3,0.22,-2,-4,,,,,,,1500
+,,russian_tuning_ak12_megatron_handguard,Arms RTG Ak12 Megatron Handguard,4,0.3,-3,-5,,,,,,,2500`;
+
+    const DISPLAY_LABELS = {
+      pretty_name: "pretty",
+      ergonomics: "ergo",
+      horizontal_recoil: "h_recoil",
+      vertical_recoil: "v_recoil",
+      magazine_capacity: "mag",
+      barrel_deviation: "barrel_dev",
+      bullet_damage: "damage",
+      bullet_velocity: "velocity",
+      buck_barrel_deviation: "buck_dev",
+      fire_rate: "fire",
+    };
+
+    const DEFAULT_WEIGHTS = {
+      ergonomics: 1,
+      weight: -20,
+      horizontal_recoil: -0.8,
+      vertical_recoil: -0.6,
+      magazine_capacity: 0,
+      barrel_deviation: -5,
+      bullet_damage: 10,
+      bullet_velocity: 1 / 300,
+      buck_barrel_deviation: 0,
+      fire_rate: 0,
+      price: 0,
+    };
+
+    const hiddenColumnCount = 2;
+    let headers = [...DEFAULT_HEADERS];
+    let rows = [];
+    let weights = { ...DEFAULT_WEIGHTS };
+    let csvRowsByName = new Map();
+    let sortState = { columnIndex: null, direction: "none" };
+    let unsortedRows = [];
+
+    const inputEl = document.querySelector("#input");
+    const outputEl = document.querySelector("#output");
+    const tableWrap = document.querySelector("#tableWrap");
+    const statusEl = document.querySelector("#status");
+    const formulaFieldsEl = document.querySelector("#formulaFields");
+    const rowLookupEl = document.querySelector("#rowLookup");
+    const rowOptionsEl = document.querySelector("#rowOptions");
+    const csvStatusEl = document.querySelector("#csvStatus");
+    const csvFileEl = document.querySelector("#csvFile");
+
+    function parseCsv(text) {
+      const parsed = [];
+      let row = [];
+      let cell = "";
+      let inQuotes = false;
+
+      for (let i = 0; i < text.length; i += 1) {
+        const char = text[i];
+        const next = text[i + 1];
+
+        if (char === '"') {
+          if (inQuotes && next === '"') {
+            cell += '"';
+            i += 1;
+          } else {
+            inQuotes = !inQuotes;
+          }
+          continue;
+        }
+
+        if (char === "," && !inQuotes) {
+          row.push(cell);
+          cell = "";
+          continue;
+        }
+
+        if ((char === "\n" || char === "\r") && !inQuotes) {
+          if (char === "\r" && next === "\n") i += 1;
+          row.push(cell);
+          parsed.push(row);
+          row = [];
+          cell = "";
+          continue;
+        }
+
+        cell += char;
+      }
+
+      if (cell.length > 0 || row.length > 0) {
+        row.push(cell);
+        parsed.push(row);
+      }
+
+      return parsed;
+    }
+
+    function csvEscape(value) {
+      const text = String(value ?? "");
+      if (/[",\r\n]/.test(text)) {
+        return `"${text.replaceAll('"', '""')}"`;
+      }
+      return text;
+    }
+
+    function toCsv(dataRows) {
+      return dataRows.map(row => row.map(csvEscape).join(",")).join("\n");
+    }
+
+    function isBlankRow(row) {
+      return row.every(cell => String(cell).trim() === "");
+    }
+
+    function normalizeRow(row) {
+      const next = [...row];
+      while (next.length < headers.length) next.push("");
+      return next.slice(0, headers.length);
+    }
+
+    function canonicalName(value) {
+      return String(value ?? "").trim().toLowerCase();
+    }
+
+    function rowName(row) {
+      return row[headers.indexOf("name")] ?? "";
+    }
+
+    function rowPrettyName(row) {
+      return row[headers.indexOf("pretty_name")] ?? "";
+    }
+
+    function numericColumns() {
+      return headers.slice(hiddenColumnCount).filter(header => !["name", "pretty_name"].includes(header));
+    }
+
+    function parseNumber(value) {
+      const trimmed = String(value ?? "").trim();
+      if (trimmed === "") return 0;
+      const number = Number(trimmed);
+      return Number.isFinite(number) ? number : 0;
+    }
+
+    function formatNumber(value) {
+      if (!Number.isFinite(value)) return "";
+      const rounded = Math.round(value * 1000) / 1000;
+      return Object.is(rounded, -0) ? "0" : String(rounded);
+    }
+
+    function resetSort() {
+      sortState = { columnIndex: null, direction: "none" };
+      unsortedRows = [];
+    }
+
+    function compareCellValues(a, b, columnIndex) {
+      const header = headers[columnIndex];
+      const aText = String(a[columnIndex] ?? "").trim();
+      const bText = String(b[columnIndex] ?? "").trim();
+
+      if (!["name", "pretty_name"].includes(header)) {
+        const aNumber = Number(aText);
+        const bNumber = Number(bText);
+        const aIsNumber = aText !== "" && Number.isFinite(aNumber);
+        const bIsNumber = bText !== "" && Number.isFinite(bNumber);
+
+        if (aIsNumber && bIsNumber) return aNumber - bNumber;
+        if (aIsNumber) return -1;
+        if (bIsNumber) return 1;
+      }
+
+      return aText.localeCompare(bText, undefined, { numeric: true, sensitivity: "base" });
+    }
+
+    function applySort() {
+      if (sortState.direction === "none" || sortState.columnIndex == null) return;
+
+      const direction = sortState.direction === "asc" ? 1 : -1;
+      rows = [...unsortedRows].sort((a, b) => compareCellValues(a, b, sortState.columnIndex) * direction);
+    }
+
+    function cycleSort(columnIndex) {
+      if (sortState.columnIndex !== columnIndex || sortState.direction === "none") {
+        unsortedRows = [...rows];
+        sortState = { columnIndex, direction: "asc" };
+        applySort();
+        renderTable();
+        statusEl.textContent = `Sorted by ${headers[columnIndex]} ascending.`;
+        return;
+      }
+
+      if (sortState.direction === "asc") {
+        sortState = { columnIndex, direction: "desc" };
+        applySort();
+        renderTable();
+        statusEl.textContent = `Sorted by ${headers[columnIndex]} descending.`;
+        return;
+      }
+
+      rows = [...unsortedRows];
+      resetSort();
+      renderTable();
+      statusEl.textContent = "Restored unsorted row order.";
+    }
+
+    function strengthFor(row) {
+      return numericColumns().reduce((sum, header) => {
+        const weight = Number(weights[header] ?? 0);
+        const index = headers.indexOf(header);
+        return sum + parseNumber(row[index]) * weight;
+      }, 0);
+    }
+
+    function renderFormulaFields() {
+      formulaFieldsEl.replaceChildren();
+      for (const header of numericColumns()) {
+        if (!(header in weights)) weights[header] = 0;
+
+        const row = document.createElement("div");
+        row.className = "formula-row";
+
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.checked = Number(weights[header] ?? 0) !== 0;
+        checkbox.title = `Use ${header}`;
+
+        const label = document.createElement("label");
+        label.textContent = header;
+        label.title = header;
+
+        const number = document.createElement("input");
+        number.type = "number";
+        number.step = "any";
+        number.value = formatNumber(Number(weights[header] ?? 0));
+        number.title = `${header} weight`;
+
+        checkbox.addEventListener("change", () => {
+          if (checkbox.checked && Number(number.value) === 0) {
+            const fallback = DEFAULT_WEIGHTS[header] ?? 1;
+            number.value = formatNumber(fallback === 0 ? 1 : fallback);
+          }
+          weights[header] = checkbox.checked ? Number(number.value || 0) : 0;
+          updateStrengthCells();
+        });
+
+        number.addEventListener("input", () => {
+          weights[header] = checkbox.checked ? Number(number.value || 0) : 0;
+          if (Number(number.value || 0) === 0) checkbox.checked = false;
+          if (Number(number.value || 0) !== 0) checkbox.checked = true;
+          updateStrengthCells();
+        });
+
+        row.append(checkbox, label, number);
+        formulaFieldsEl.append(row);
+      }
+
+    }
+
+    function loadFromText(text) {
+      const parsed = parseCsv(text).filter(row => !isBlankRow(row));
+      if (!parsed.length) {
+        rows = [];
+        headers = [...DEFAULT_HEADERS];
+        renderTable();
+        renderFormulaFields();
+        statusEl.textContent = "Nothing to load.";
+        return;
+      }
+
+      headers = [...DEFAULT_HEADERS];
+      rows = parsed.map(normalizeRow);
+      resetSort();
+
+      renderFormulaFields();
+      renderTable();
+      outputEl.value = "";
+      statusEl.textContent = `${rows.length} row${rows.length === 1 ? "" : "s"} loaded.`;
+    }
+
+    function ingestBalancingCsv(text) {
+      const parsed = parseCsv(text).filter(row => !isBlankRow(row));
+      const headerIndex = parsed.findIndex(
+        row => row.includes("name") && (row[0] === "class" || row[0] === "id"),
+      );
+      if (headerIndex < 0) {
+        throw new Error("Could not find the balancing.csv header row.");
+      }
+
+      const csvHeaders = parsed[headerIndex];
+      const prettyIndex = csvHeaders.indexOf("pretty_name");
+      csvRowsByName = new Map();
+
+      parsed.slice(headerIndex + 1).forEach(sourceRow => {
+        const mapped = headers.map(header => sourceRow[csvHeaders.indexOf(header)] ?? "");
+        const name = mapped[headers.indexOf("name")];
+        if (String(name ?? "").trim() === "") return;
+        csvRowsByName.set(canonicalName(name), normalizeRow(mapped));
+      });
+
+      rowOptionsEl.replaceChildren();
+      const options = [...csvRowsByName.values()]
+        .map(row => ({
+          name: rowName(row),
+          pretty: prettyIndex >= 0 ? rowPrettyName(row) : "",
+        }))
+        .sort((a, b) => a.name.localeCompare(b.name));
+
+      for (const optionRow of options) {
+        const option = document.createElement("option");
+        option.value = optionRow.name;
+        option.label = optionRow.pretty ? `${optionRow.pretty} (${optionRow.name})` : optionRow.name;
+        rowOptionsEl.append(option);
+      }
+
+      csvStatusEl.textContent = `${csvRowsByName.size} balancing.csv rows available.`;
+    }
+
+    async function loadBalancingCsv() {
+      csvStatusEl.textContent = "Loading ../../balancing.csv...";
+      try {
+        const response = await fetch("../../balancing.csv", { cache: "no-store" });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        ingestBalancingCsv(await response.text());
+      } catch (error) {
+        csvRowsByName = new Map();
+        rowOptionsEl.replaceChildren();
+        csvStatusEl.innerHTML = '<span class="warn">Auto-load unavailable. Choose balancing.csv below.</span>';
+      }
+    }
+
+    async function loadSelectedCsvFile() {
+      const file = csvFileEl.files?.[0];
+      if (!file) return;
+
+      try {
+        csvStatusEl.textContent = `Loading ${file.name}...`;
+        ingestBalancingCsv(await file.text());
+      } catch (error) {
+        csvRowsByName = new Map();
+        rowOptionsEl.replaceChildren();
+        csvStatusEl.innerHTML = `<span class="warn">Could not read ${file.name} as balancing.csv.</span>`;
+      }
+    }
+
+    function appendRowByName() {
+      const name = rowLookupEl.value.trim();
+      if (!name) {
+        statusEl.innerHTML = '<span class="warn">Type a full CSV name before appending.</span>';
+        return;
+      }
+
+      const sourceRow = csvRowsByName.get(canonicalName(name));
+      if (!sourceRow) {
+        statusEl.innerHTML = `<span class="warn">No exact balancing.csv row named "${name}".</span>`;
+        return;
+      }
+
+      const appendedRow = normalizeRow(sourceRow);
+      if (sortState.direction === "none") {
+        rows.push(appendedRow);
+      } else {
+        unsortedRows.push(appendedRow);
+        applySort();
+      }
+      renderFormulaFields();
+      renderTable();
+      rowLookupEl.select();
+      statusEl.textContent = `Appended ${rowName(sourceRow)}.`;
+    }
+
+    function moveRow(rowIndex, direction) {
+      const nextIndex = rowIndex + direction;
+      if (nextIndex < 0 || nextIndex >= rows.length) return;
+
+      const [row] = rows.splice(rowIndex, 1);
+      rows.splice(nextIndex, 0, row);
+      resetSort();
+      renderTable();
+      statusEl.textContent = `Moved ${rowName(row)} ${direction < 0 ? "up" : "down"}.`;
+    }
+
+    function renderTable() {
+      if (!rows.length) {
+        tableWrap.innerHTML = '<div class="empty">No rows loaded.</div>';
+        return;
+      }
+
+      const table = document.createElement("table");
+      const colgroup = document.createElement("colgroup");
+      const reorderCol = document.createElement("col");
+      reorderCol.className = "col-reorder";
+      colgroup.append(reorderCol);
+      headers.slice(hiddenColumnCount).forEach(header => {
+        const col = document.createElement("col");
+        col.className = `col-${header}`;
+        colgroup.append(col);
+      });
+      const strengthCol = document.createElement("col");
+      strengthCol.className = "col-strength";
+      colgroup.append(strengthCol);
+
+      const thead = document.createElement("thead");
+      const headRow = document.createElement("tr");
+
+      const reorderHead = document.createElement("th");
+      reorderHead.className = "reorder-head col-reorder";
+      reorderHead.textContent = "";
+      reorderHead.title = "Reorder rows";
+      headRow.append(reorderHead);
+
+      headers.slice(hiddenColumnCount).forEach(header => {
+        const columnIndex = headers.indexOf(header);
+        const th = document.createElement("th");
+        th.className = `sortable col-${header}`;
+        th.title = header;
+        th.tabIndex = 0;
+        th.addEventListener("click", () => cycleSort(columnIndex));
+        th.addEventListener("keydown", event => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            cycleSort(columnIndex);
+          }
+        });
+
+        const label = document.createElement("span");
+        label.textContent = DISPLAY_LABELS[header] ?? header;
+        th.append(label);
+
+        if (sortState.columnIndex === columnIndex && sortState.direction !== "none") {
+          const mark = document.createElement("span");
+          mark.className = "sort-mark";
+          mark.textContent = sortState.direction === "asc" ? "^" : "v";
+          th.append(mark);
+        }
+
+        headRow.append(th);
+      });
+
+      const strengthHead = document.createElement("th");
+      strengthHead.className = "strength-head col-strength";
+      strengthHead.textContent = "strength";
+      headRow.append(strengthHead);
+      thead.append(headRow);
+
+      const tbody = document.createElement("tbody");
+      rows.forEach((row, rowIndex) => {
+        const tr = document.createElement("tr");
+
+        const reorderCell = document.createElement("td");
+        reorderCell.className = "reorder col-reorder";
+
+        const upButton = document.createElement("button");
+        upButton.type = "button";
+        upButton.className = "move-row";
+        upButton.textContent = "^";
+        upButton.title = "Move row up";
+        upButton.disabled = rowIndex === 0;
+        upButton.addEventListener("click", () => moveRow(rowIndex, -1));
+
+        const downButton = document.createElement("button");
+        downButton.type = "button";
+        downButton.className = "move-row";
+        downButton.textContent = "v";
+        downButton.title = "Move row down";
+        downButton.disabled = rowIndex === rows.length - 1;
+        downButton.addEventListener("click", () => moveRow(rowIndex, 1));
+
+        reorderCell.append(upButton, downButton);
+        tr.append(reorderCell);
+
+        headers.slice(hiddenColumnCount).forEach((header, visibleIndex) => {
+          const columnIndex = visibleIndex + hiddenColumnCount;
+          const td = document.createElement("td");
+          td.className = `cell col-${header}`;
+          if (!["name", "pretty_name"].includes(header)) td.classList.add("numeric");
+          td.contentEditable = "true";
+          td.spellcheck = false;
+          td.title = row[columnIndex] ?? "";
+          td.dataset.row = String(rowIndex);
+          td.dataset.column = String(columnIndex);
+          td.textContent = row[columnIndex] ?? "";
+          td.addEventListener("input", handleCellInput);
+          td.addEventListener("paste", handleTablePaste);
+          tr.append(td);
+        });
+
+        const strength = document.createElement("td");
+        strength.className = "strength";
+        strength.dataset.strengthRow = String(rowIndex);
+        strength.textContent = formatNumber(strengthFor(row));
+        tr.append(strength);
+        tbody.append(tr);
+      });
+
+      table.append(colgroup, thead, tbody);
+      tableWrap.replaceChildren(table);
+    }
+
+    function handleCellInput(event) {
+      const cell = event.currentTarget;
+      const rowIndex = Number(cell.dataset.row);
+      const columnIndex = Number(cell.dataset.column);
+      rows[rowIndex][columnIndex] = cell.textContent;
+      updateStrengthCell(rowIndex);
+    }
+
+    function handleTablePaste(event) {
+      const text = event.clipboardData?.getData("text/plain");
+      if (!text || (!text.includes("\t") && !text.includes("\n"))) return;
+
+      event.preventDefault();
+      const startCell = event.currentTarget;
+      const startRow = Number(startCell.dataset.row);
+      const startColumn = Number(startCell.dataset.column);
+      const pastedRows = text.replace(/\r\n/g, "\n").replace(/\r/g, "\n").split("\n");
+      if (pastedRows.at(-1) === "") pastedRows.pop();
+
+      pastedRows.forEach((line, rowOffset) => {
+        const targetRow = startRow + rowOffset;
+        if (!rows[targetRow]) return;
+        line.split("\t").forEach((value, columnOffset) => {
+          const targetColumn = startColumn + columnOffset;
+          if (targetColumn >= headers.length) return;
+          rows[targetRow][targetColumn] = value;
+        });
+      });
+
+      resetSort();
+      renderTable();
+    }
+
+    function updateStrengthCell(rowIndex) {
+      const cell = document.querySelector(`[data-strength-row="${rowIndex}"]`);
+      if (cell) cell.textContent = formatNumber(strengthFor(rows[rowIndex]));
+    }
+
+    function updateStrengthCells() {
+      rows.forEach((_, rowIndex) => updateStrengthCell(rowIndex));
+    }
+
+    function exportRows() {
+      if (!rows.length) {
+        outputEl.value = "";
+        statusEl.innerHTML = '<span class="warn">No rows to export.</span>';
+        return;
+      }
+
+      outputEl.value = toCsv(rows);
+      statusEl.textContent = `Exported ${rows.length} row${rows.length === 1 ? "" : "s"}.`;
+    }
+
+    document.querySelector("#load").addEventListener("click", () => loadFromText(inputEl.value));
+    document.querySelector("#sample").addEventListener("click", () => {
+      inputEl.value = SAMPLE;
+      loadFromText(SAMPLE);
+    });
+    document.querySelector("#reloadCsv").addEventListener("click", loadBalancingCsv);
+    document.querySelector("#appendRow").addEventListener("click", appendRowByName);
+    csvFileEl.addEventListener("change", loadSelectedCsvFile);
+    rowLookupEl.addEventListener("keydown", event => {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        appendRowByName();
+      }
+    });
+    document.querySelector("#export").addEventListener("click", exportRows);
+    document.querySelector("#copy").addEventListener("click", async () => {
+      if (!outputEl.value) exportRows();
+      if (!outputEl.value) return;
+      await navigator.clipboard.writeText(outputEl.value);
+      statusEl.textContent = "Export copied.";
+    });
+
+    renderFormulaFields();
+    loadBalancingCsv();
+  </script>
+</body>
+
+</html>

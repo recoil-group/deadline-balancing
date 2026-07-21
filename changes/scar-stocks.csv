@@ -1,0 +1,32 @@
+﻿,,new,,,,,,,,,,,
+name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,bullet_deviation,bullet_damage,bullet_velocity,buck_bullet_deviation,fire_rate,price,
+fn_scar_stock_connector,FN SCAR,0,0.07,0,0,,,,,,,0,-1.4
+fn_scar_ssr_stock_assembly,FN SCAR SSR,20,0.51,-3,-3,,,,,,,600,14
+kinetic_development_group_sas_acr_stock_scar_adapter,Kinetic Development Group SAS Adaptive ACR Stock Connector,-1,0.07,0,0,,,,,,,300,-2.4
+mesa_tactical_faro_scar_buffer_tube_adapter,Mesa Tactical Faro Scar Buffer Tube Adapter,-5,0.08,2,2,,0.1,,,,,450,-9.9
+fn_scar_sc_stock_adapter,FN Scar SC Stock Adaptor,1,0.08,0,0,,,,,,,1500,-0.6
+,,,,,,,,,,,,,0
+fn_scar_stock_cheek_piece,FN SCAR,3,0.16,,,,,,,,,0,-0.2
+fn_scar_stock_shoulder_piece,FN SCAR,7,0.19,-9,-12,,,,,,,0,17.6
+,,,,,,,,,,,,,0
+kinetic_development_group_sas_acr_stock_retractor,Kinetic Development Group SAS Adaptive ACR Retractor,0,0.11,,,,,,,,,0,-2.2
+kinetic_development_group_sas_acr_stock_cheek_pad,Kinetic Development Group SAS Adaptive ACR Stock,4,0.04,,,,,,,,,0,3.2
+kinetic_development_group_sas_acr_stock,Kinetic Development Group SAS Adaptive ACR Stock,10,0.16,-10,-7,,,,,,,1000,19
+,,,,,,,,,,,,,0
+haga_defense_scar_acr_tailhook_adapter,Haga Defense SCAR ACR Tailhook,0,0.06,,,,,,,,,600,-1.2
+ghw_tailhook_mod1_brace_small,GHW Tailhook MOD 1,11,0.09,-5,-5,,,,,,,400,16.2
+ghw_tailhook_mod1_brace_big,GHW Tailhook MOD 1,11,0.09,-5,-5,,,,,,,400,16.2
+,,,,,,,,,,,,,0
+fn_scar_sc_stock_adjustment_lever,FN Scar SC Stock Adjustment Lever,2,0.02,,,,,,,,,,1.6
+fn_scar_sc_stock_cheekpad,FN Scar SC Stock Cheekpad,4,0.04,,,,,,,,,,3.2
+fn_scar_sc_stock_buttpad,FN Scar SC Stock Buttpad,7,0.11,-7,-7,,,,,,,,14.6
+fn_scar_sc_stock_adjustment_rail,FN Scar SC Stock Adjustment Rail,0,0.08,,,,,,,,,,-1.6
+,,,,,,,,,,,,,0
+,MOE Carbine,17,0.35,-11,-10,0,0,0,0,0,0,1400,24.8
+,,,,,,,,,,,,,0
+,SCAR,10,0.42,-9,-12,0,0,0,0,0,0,0,16
+,SCAR SSR,20,0.51,-3,-3,0,0,0,0,0,0,600,14
+,ACR,13,0.38,-10,-7,0,0,0,0,0,0,1300,17.6
+,ACR brace,14,0.37,-5,-5,0,0,0,0,0,0,1300,13.6
+,SC,14,0.33,-7,-7,0,0,0,0,0,0,1500,17.2
+,buffer,12,0.43,-9,-8,0,0.1,0,0,0,0,1850,14.9

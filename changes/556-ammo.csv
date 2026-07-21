@@ -1,0 +1,14 @@
+﻿,,old,,,,,,,,,old damage,,,,,,,,,,irl stats,
+name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,barrel_deviation,bullet_damage,bullet_velocity,fire_rate,price,0st,100st,200st,avg,vel loss,suppression,pen,strength,,,mv,energy
+,5.56x45 Federal American Eagle Training 55gr FMJ (XM193BLX),0,0.1,,,0,,,,0,52,48,42,47.33333333,40,20,0.91,-6.6,,,3165,1658.165
+,5.56x45 CBC Defense M196 55gr Red Tracer,0,0.1,0,1,0.05,,10,,600,52,48,42,47.33333333,40,30,0.8,-7.8,,,3200,1512
+,5.56x45 Winchester M855 62gr FMJ Green Tip (VM855),-1,0.13,1,2,-0.1,,50,,1000,58,55,51,54.66666667,50,100,0.63,0.75,,,3060,1748
+,5.56x45 CBC Defense SAT IP 62gr CLF (AEP-97),-3,0.17,2,3,-0.4,,300,,2000,52,48,42,47.33333333,20,10,0.97,-12.1,,,2953,1620
+,5.56x45 NOVX Copper Pentagon 55gr MCHP (556N55CP),0,0.07,5,4,0.3,,-100,,1200,62,50,38,50,80,80,0.38,-12,,,3340,1844
+,,new,,,,,,,,,new damage,,,,,,,,,,,
+,,ergonomics,weight,horizontal_recoil,vertical_recoil,barrel_deviation,bullet_damage,bullet_velocity,fire_rate,price,0st,100st,200st,avg,vel loss,suppression,pen,strength,,,,
+5.56x45_federal_american_eagle_training_xm193blx_55gr_fmj,5.56x45 Federal American Eagle Training 55gr FMJ (XM193BLX),0,0.1,0,0,0,0,150,,0,53,50,45,49.33333333,40,30,0.8,-2.516666667,,,,
+5.56x45_cbcdefense_m196_55gr_red_tracer,5.56x45 CBC Defense M196 55gr Red Tracer,0,0.09,-1,-1,0.1,-0.04,175,,600,53,49,44,48.66666667,40,60,0.6,-1.558333333,,,,
+5.56x45_winchester_m855_62gr_fmj_greentip_vm855,5.56x45 Winchester M855 62gr FMJ Green Tip (VM855),-2,0.14,1,1,-0.05,-0.02,100,,1000,58,55,51,54.66666667,30,50,0.7,-1.783333333,,,,
+5.56x45_cbcdefense_sat_ip_62gr_clf_aep_97,5.56x45 CBC Defense SAT IP 62gr CLF (AEP-97),-1,0.13,0,1,-0.2,0.02,50,,2000,54,54,49,52.33333333,20,50,1,-1.616666667,,,,
+5.56x45_novx_copper_pentagon_55gr_mchp_556n55cp,5.56x45 NOVX Copper Pentagon 55gr MCHP (556N55CP),2,0.08,3,3,0.3,0,200,,1200,63,51,38,50.66666667,80,40,0.3,-5.433333333,,,,

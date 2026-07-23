@@ -567,9 +567,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ad_mk18_fsp_raf_2_9.55_handguard,AD MK18 FSP RAF 2 9.55,8,0.28,-11,-13,,,,,,,,1000
 ,,ad_mk18_raf_2_9.55_handguard,AD Mk18 RAF 2 9.55,8,0.3,-11,-14,,,,,,,,1000
 ,,pac_ras_m4a1_handguard,PAC RAS,10,0.23,-6,-13,,0.03,,,,,,700
-,,schmidt_smr_mk16_mlok_urg_i_13.5inch,"Schmidt Super Modular Rail MK16 M-LOK URG-I 13.5""",8,0.33,-13,-12,,,,,,,,1100
-,,schmidt_smr_mk16_mlok_urg_i_15inch,"Schmidt Super Modular Rail MK16 M-LOK URG-I 15""",7,0.36,-15,-12,,,,,,,,1200
-,,schmidt_smr_mk16_mlok_urg_i_9.3inch,"Schmidt Super Modular Rail MK16 M-LOK URG-I 9.3""",11,0.26,-11,-8,,,,,,,,1000
+,,vallais_smr_mk16_mlok_urg_i_13.5inch,"Vallais Super Modular Rail MK16 M-LOK URG-I 13.5""",8,0.33,-13,-12,,,,,,,,1100
+,,vallais_smr_mk16_mlok_urg_i_15inch,"Vallais Super Modular Rail MK16 M-LOK URG-I 15""",7,0.36,-15,-12,,,,,,,,1200
+,,vallais_smr_mk16_mlok_urg_i_9.3inch,"Vallais Super Modular Rail MK16 M-LOK URG-I 9.3""",11,0.26,-11,-8,,,,,,,,1000
 ,,pac_m5_ras_lower_handguard,"PAC M5 RAS 11.5"" Lower",,,,,,,,,,,,0
 ,,pac_m5_ras_upper_handguard,"PAC M5 RAS 11.5"" Upper",8,0.34,-13,-13,,0.03,,,,,,1200
 ,,pac_mre_free_float_ras_rifle_12inch_handguard,"PAC MRE RAS Free Float 12""",7,0.27,-11,-14,,,,,,,,1400
@@ -593,8 +593,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,stngr_lvnc_10i,"STRYKR Lvnc 10""",11,0.28,-7,-12,,,,,,,,950
 ,,stngr_hwk_15i,"STRYKR Hkw 15""",8,0.34,-10,-15,,,,,,,,900
 ,,hart_a2_std_rifle_plastic_handguard,Hart M16A2 Rifle Length Plastic,12,0.29,-11,-16,,0.03,,,,,,500
-,,schmidt_smr_mk16_mlok_urg_i_10.5inch,"Schmidt Super Modular Rail MK16 M-LOK URG-I 10.5""",10,0.29,-12,-9,,,,,,,,1050
-,,schmidt_smr_mk4_federal_mlok_10inch,"Schmidt Super Modular Rail MK4 Federal M-LOK 10""",10,0.31,-12,-10,,,,,,,,1100
+,,vallais_smr_mk16_mlok_urg_i_10.5inch,"Vallais Super Modular Rail MK16 M-LOK URG-I 10.5""",10,0.29,-12,-9,,,,,,,,1050
+,,vallais_smr_mk4_federal_mlok_10inch,"Vallais Super Modular Rail MK4 Federal M-LOK 10""",10,0.31,-12,-10,,,,,,,,1100
 ,,pac_urx_6_mlok_13inch_handguard,"PAC URX 6 MLOK 13""",9,0.33,-10,-15,,,,,,,,1500
 ,,pac_urx_4_mlok_8.5inch_handguard,"PAC URX 4 MLOK 8.5""",13,0.24,-7,-9,,,,,,,,1100
 ,,pac_urx_4_mlok_13inch_handguard,"PAC URX 4 MLOK 13""",9,0.32,-11,-13,,,,,,,,1250
@@ -830,7 +830,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pmm_scar_battery_control_bolt_release,Everetts Machining SCAR Battery Control,2,0.06,,,,,,,,,,500
 ,fn_scar_trigger,,,,,,,,,,,,,,
 ,,aft_trigger,AF Tournai Standard,0,0.03,,,,,,,,,,0
-,,schmidt_super_scar_trigger,Schmidt Super SCAR,2,0.05,,,,-0.05,,,,,,750
+,,vallais_super_fang_trigger,Vallais Super FANG,2,0.05,,,,-0.05,,,,,,750
 ,fn_scar_bottom_rail_mount,,,,,,,,,,,,,,
 ,,aft_mk20_bottom_rail_mount,AF Tournai Mk20,4,0.15,,,,,,,,,,400
 ,,aft_bottom_rail_mount,AF Tournai,2.5,0.1,,,,,,,,,,0

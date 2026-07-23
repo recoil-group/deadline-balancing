@@ -55,23 +55,23 @@ northeast_industries_supp_series_sp12m_mlok_handguard,"Northeast Industries Supp
 northeast_industries_supp_series_sp15m_mlok_handguard,"Northeast Industries Suppressor Series SP15M MLOK 15""",7,0.38,-11,-18,,,,,,,1500,19
 northeast_industries_supp_series_sp18m_mlok_handguard,"Northeast Industries Suppressor Series SP18M MLOK 18""",5,0.42,-12,-20,,,,,,,1600,18.2
 ,,,,,,,,,,,,,0
-mk10_bottom_adapter_large,MK10RL Large,-1,0.1,2,2,,,,,,,0,-5.8
-mk10_bottom_adapter_small,MK10RL Small,-1,0.04,2,2,,,,,,,0,-4.6
-mk10_side_adapter_large,MK10RL Large,-1,0.1,,,,,,,,,0,-3
-mk10_side_adapter_small,MK10RL Small,-1,0.04,,,,,,,,,0,-1.8
-mk10_top_adapter_large,MK10RL Large,-1,0.1,,,,,,,,,0,-3
+mk10_bottom_adapter_large,MK10RL Large,-0.5,0.1,2,2,,,,,,,0,-5.8
+mk10_bottom_adapter_small,MK10RL Small,-0.5,0.04,2,2,,,,,,,0,-4.6
+mk10_side_adapter_large,MK10RL Large,-0.5,0.1,,,,,,,,,0,-3
+mk10_side_adapter_small,MK10RL Small,-0.5,0.04,,,,,,,,,0,-1.8
+mk10_top_adapter_large,MK10RL Large,-0.5,0.1,,,,,,,,,0,-3
 ,,,,,,,,,,,,,0
-fab_defense_upr_16_4_bottom,FAB Defense UPR 16/4 Picatinny Rail,-3,0.06,2,2,,,,,,,400,-7
-ncstar_marsv2_bottom,NcStar MARSV2 Picatinny Rail,-2,0.07,1,5,,,,,,,300,-7.2
-fab_defense_upr_16_4_top,FAB Defense UPR 16/4 Picatinny Rail,-3,0.06,,,,,,,,,400,-4.2
-ncstar_marsv2_top,NcStar MARSV2 Picatinny Rail,-2,0.07,,,,,,,,,300,-3.4
+pro_tactical_upr_16_4_bottom,P.R.O Tactical UPR 16/4 Picatinny Rail,-3,0.06,2,2,,,,,,,400,-7
+cosmotac_marsv2_bottom,CosmoTac MARSV2 Picatinny Rail,-2,0.07,1,5,,,,,,,300,-7.2
+pro_tactical_upr_16_4_top,P.R.O Tactical UPR 16/4 Picatinny Rail,-3,0.06,,,,,,,,,400,-4.2
+cosmotac_marsv2_top,CosmoTac MARSV2 Picatinny Rail,-2,0.07,,,,,,,,,300,-3.4
 ,,,,,,,,,,,,,0
-warsport_handguard_long_accessory_rail_bottom,Warsport Long Accessory Rail,-2,0.07,,,,,,,,,700,-3.4
-warsport_handguard_long_accessory_rail_side,Warsport Long Accessory Rail,-2,0.07,,,,,,,,,700,-3.4
-warsport_handguard_short_accessory_rail_bottom,Warsport Short Accessory Rail,-1,0.04,,,,,,,,,300,-1.8
-warsport_handguard_short_accessory_rail_side,Warsport Short Accessory Rail,-1,0.04,,,,,,,,,300,-1.8
+calsport_handguard_long_accessory_rail_bottom,Cal Sport Long Accessory Rail,-2,0.07,,,,,,,,,700,-3.4
+calsport_handguard_long_accessory_rail_side,Cal Sport Long Accessory Rail,-2,0.07,,,,,,,,,700,-3.4
+calsport_handguard_short_accessory_rail_bottom,Cal Sport Short Accessory Rail,-1,0.04,,,,,,,,,300,-1.8
+calsport_handguard_short_accessory_rail_side,Cal Sport Short Accessory Rail,-1,0.04,,,,,,,,,300,-1.8
 ,,,,,,,,,,,,,0
 ad_m4a1_raf_3_9.5_handguard,AD M4A1 RAF 3 9.5,11,0.29,-10,-10,,,,,,,1200,19.2
-ad_m4a1_raf_3_10.5_handguard ,AD M4A1 RAF 3 10.5,10,0.3,-11,-11,,,,,,,1250,19.4
+ad_m4a1_raf_3_10.5_handguard,AD M4A1 RAF 3 10.5,10,0.3,-11,-11,,,,,,,1250,19.4
 ad_m4a1_raf_3_12.5_handguard,AD M4A1 RAF 3 12.5,9,0.35,-12,-13,,,,,,,1300,19.4
 ad_m4a1_raf_3_13_fsp_handguard,AD M4A1 RAF 3 13 FSP,9,0.34,-12,-12,,,,,,,1300,19

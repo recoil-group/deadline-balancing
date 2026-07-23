@@ -1,4 +1,4 @@
-﻿0.25.3,Sat Jul 18 23:52:35 2026,,,,,,,,,,,,,,
+﻿0.25.3,Wed Jul 22 19:59:59 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -560,6 +560,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pac_urx_4_mlok_10.75inch_handguard,"PAC URX 4 MLOK 10.75""",11,0.28,-9,-11,,,,,,,,1150
 ,,ad_m4a1_fsp_raf_2_12.25_handguard,AD M4A1 FSP RAF 2 12.25,6,0.33,-13,-15,,,,,,,,1100
 ,,ad_m4a1_raf_2_12.25_handguard,AD M4A1 RAF 2 12.25,6,0.35,-13,-16,,,,,,,,1100
+,,ad_m4a1_raf_3_9.5_handguard,AD M4A1 RAF 3 9.5,11,0.29,-10,-10,,,,,,,,1200
+,,ad_m4a1_raf_3_10.5_handguard,AD M4A1 RAF 3 10.5,10,0.3,-11,-11,,,,,,,,1250
+,,ad_m4a1_raf_3_12.5_handguard,AD M4A1 RAF 3 12.5,9,0.35,-12,-13,,,,,,,,1300
+,,ad_m4a1_raf_3_13_fsp_handguard,AD M4A1 RAF 3 13 FSP,9,0.34,-12,-12,,,,,,,,1300
 ,,ad_mk18_fsp_raf_2_9.55_handguard,AD MK18 FSP RAF 2 9.55,8,0.28,-11,-13,,,,,,,,1000
 ,,ad_mk18_raf_2_9.55_handguard,AD Mk18 RAF 2 9.55,8,0.3,-11,-14,,,,,,,,1000
 ,,pac_ras_m4a1_handguard,PAC RAS,10,0.23,-6,-13,,0.03,,,,,,700
@@ -1540,8 +1544,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,sanxian_qbz95_carry_handle,,,,,,,,,,,,,,
 ,,sanxian_qbz95_carry_handle,Sanxian QBZ-95,10,0.17,-1,-3,,,,,,,,0
 ,,li_jiahao_acp95_top_rail_for_qbz,Li Jiahao designed ACP95 Top Rail for QBZ-95,8,0.24,-4,0,,,,,,,,1000
-,,schneider_defense_qbz95_long_bow_picatinny_carry_handle,Schneider Defense QBZ-95 Long Bow Picatinny Carry Handle,10,0.2,-2,-1,,,,,,,,2000
-,,schneider_defense_qbz95_long_bow_mlok_carry_handle,Schneider Defense QBZ-95 Long Bow MLOK Carry Handle,11,0.19,-2,,,,,,,,,2000
+,,qingyuan_defense_qbz95_long_bow_picatinny_carry_handle,Qingyuan Defense QBZ-95 Long Bow Picatinny Carry Handle,10,0.2,-2,-1,,,,,,,,2000
+,,qingyuan_defense_qbz95_long_bow_mlok_carry_handle,Qingyuan Defense QBZ-95 Long Bow MLOK Carry Handle,11,0.19,-2,,,,,,,,,2000
 ,qbz_carryhandle_optic,,,,,,,,,,,,,,
 ,,sanxian_qbz95_yma95_3x_scope,Sanxian YMA-95 QBZ-95 3X,-4,0.12,,,,,,,,,,800
 ,,yma95_eye_cup,YMA-95 Scope,2,0.03,,,,,,,,,,
@@ -2506,10 +2510,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,mk10_top_adapter_large,MK10RL Large,-0.5,0.1,,,,,,,,,,0
 ,,mk10_top_adapter_small,MK10RL Small,-0.5,0.06,,,,,,,,,,0
 ,warsport_handguard_accessory_rail,,,,,,,,,,,,,,
-,,calsport_handguard_long_accessory_rail_bottom,Cal Sport Long Accessory Rail,-0.5,0.07,,,,,,,,,,700
-,,calsport_handguard_long_accessory_rail_side,Cal Sport Long Accessory Rail,-0.5,0.07,,,,,,,,,,700
-,,calsport_handguard_short_accessory_rail_bottom,Cal Sport Short Accessory Rail,-0.5,0.04,,,,,,,,,,300
-,,calsport_handguard_short_accessory_rail_side,Cal Sport Short Accessory Rail,-0.5,0.04,,,,,,,,,,300
+,,calsport_handguard_long_accessory_rail_bottom,Cal Sport Long Accessory Rail,-2,0.07,,,,,,,,,,700
+,,calsport_handguard_long_accessory_rail_side,Cal Sport Long Accessory Rail,-2,0.07,,,,,,,,,,700
+,,calsport_handguard_short_accessory_rail_bottom,Cal Sport Short Accessory Rail,-1,0.04,,,,,,,,,,300
+,,calsport_handguard_short_accessory_rail_side,Cal Sport Short Accessory Rail,-1,0.04,,,,,,,,,,300
 ,oss_bpr_supp,,,,,,,,,,,,,,
 ,,spiderweb_bpr_suppressor_system_srm_6,Spiderweb BPR System SRM-6,-3,0.14,-3,-3,,-0.08,0.03,130,,,,1000
 ,prs_adjustment,,,,,,,,,,,,,,

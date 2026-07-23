@@ -1537,8 +1537,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,sanxian_qbz95_carry_handle,,,,,,,,,,,,,
 754,,sanxian_qbz95_carry_handle,Norinco QBZ-95,10,0.17,-1,-3,,,,,,,0
 755,,li_jiahao_acp95_top_rail_for_qbz,Li Jiahao designed ACP95 Top Rail for QBZ-95,8,0.24,-4,0,,,,,,,1000
-,,schneider_defense_qbz95_long_bow_picatinny_carry_handle,Shenzhen Defender QBZ95 Long Bow Picatinny Carry Handle,10,0.2,-2,-1,,,,,,,2000
-,,schneider_defense_qbz95_long_bow_mlok_carry_handle,Shenzhen Defender QBZ95 Long Bow MLOK Carry Handle,11,0.19,-2,,,,,,,,2000
+,,qingyuan_defense_qbz95_long_bow_picatinny_carry_handle,Qingyuan Defense QBZ-95 Long Bow Picatinny Carry Handle,10,0.2,-2,-1,,,,,,,2000
+,,qingyuan_defense_qbz95_long_bow_mlok_carry_handle,Qingyuan Defense QBZ-95 Long Bow MLOK Carry Handle,11,0.19,-2,,,,,,,,2000
 ,qbz_carryhandle_optic,,,,,,,,,,,,,
 ,,sanxian_qbz95_yma95_3x_scope,Norinco QBZ95 YMA95 3x Scope,-4,0.12,,,,,,,,,800
 ,,yma95_eye_cup,YMA95 Eye Cup,2,0.03,,,,,,,,,

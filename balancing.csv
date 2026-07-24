@@ -860,9 +860,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,lingle_mag_release,,,,,,,,,,,,,,
 ,,m4a1_std_mag_release_scar,Hart M4A1,0,0.03,,,,,,,,,,0
 ,fn_scar_h_upper_receiver,,,,,,,,,,,,,,
-,,aft_mk_17_upper_receiver,AFT MK-17 Standard,0,0.6,0,0,,,,,,,,0
+,,aft_mk_17_upper_receiver,AFT MK-17 Standard,-6,0.6,0,0,,,,,,,,0
 ,,aft_mk20_upper_receiver,AFT Mk20,5,0.85,3,4,,,,,,,,4000
-,,monarch_ballistics_cypher_x_standard_scar_h_upper_receiver,Monarch Ballistics CypherX Standard SCAR-H,3,0.62,0,1,,,,,,,,3000
+,,monarch_ballistics_cypher_x_standard_scar_h_upper_receiver,Monarch Ballistics CypherX Standard SCAR-H,-3,0.62,0,1,,,,,,,,3000
 ,fn_scar_l_barrel,,,,,,,,,,,,,,
 ,,aft_mk_16_254mm_barrel,AFT MK-16 254mm,2,0.47,1,1,,0.2,-0.08,-135,,,,1200
 ,,aft_mk_16_355mm_barrel,AFT MK-16 355mm,0,0.6,0,0,,0.02,0.02,17,,,,0

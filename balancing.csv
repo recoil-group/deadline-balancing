@@ -81,7 +81,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,strauss_deltapoint_pro_ar_dloc,Strauss DeltaPoint PRO DLOC,-1,0.05,,,,,,,,,,250
 ,,magtap_afg_2_grip,Magtap AFG-2,4,0.09,-4,-3,,,,,,,,600
 ,,magtap_mbus_gen2_base,Magtap MBUS Gen2,0,0.02,,,,,,,,,,400
-,,magtap_rvg_mag412_foregrip,Magtap RVG MAG412,4,0.08,-2,-5,,,,,,,,300
+,,magtap_rcp_mag412_foregrip,Magtap RCP MAG412,4,0.08,-2,-5,,,,,,,,300
 ,,xtm_2_piece,Magtap XTM 2-Piece Panel,1,0.04,,,,,,,,,,200
 ,,xtm_4_piece,Magtap XTM 4-Piece Panel,1.75,0.07,,,,,,,,,,400
 ,,magtap_xtm_enhanced_handstop_1,Magtap XTM Enhanced Handstop Piece,6,0.03,-1,0,,,,,,,,50
@@ -214,9 +214,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,cosmotac_vism_micro_green_dot_red_laser_vdgrlb,CosmoTac VISM Micro Green Dot w/ Red Laser VDGRLB,-3,0.06,,,,,,,,,,700
 ,,cosmotac_vism_carry_handle_front_sight,CosmoTac VISM Carry Handle,1,0.01,,,,,,,,,,0
 ,,cosmotac_vism_carry_handle_front_sight_folded,CosmoTac VISM Carry Handle Folded,1,0.01,,,,,,,,,,0
-,,holotec_ogl_tactical_laser_module,HOLOTEC OGL Tactical,-2,0.06,,,,,,,,,,2500
-,,holotec_ogl_access_point_cap,HOLOTEC OGL,0,0.01,,,,,,,,,,0
-,,holotec_ogl_lens_caps,HOLOTEC OGL,1,0.01,,,,,,,,,,0
+,,holotec_owl_tactical_laser_module,HOLOTEC OWL Tactical,-2,0.06,,,,,,,,,,2500
+,,holotec_owl_access_point_cap,HOLOTEC OWL,0,0.01,,,,,,,,,,0
+,,holotec_owl_lens_caps,HOLOTEC OWL,1,0.01,,,,,,,,,,0
 ,,whitehouse_raid_xe_g18_high_power_laser_aiming_device,Whitehouse RAID Xe G18 High Power,-2,0.06,,,,,,,,,,4500
 ,,whitehouse_raid_xe_g14_high_power_laser_aiming_device,Whitehouse RAID Xe G14 High Power,-2,0.06,,,,,,,,,,4000
 ,,whitehouse_raid_xe_junction_box_legacy_crane_connector,Whitehouse RAID Xe Legacy Crane Connector,0,0.01,,,,,,,,,,0
@@ -259,7 +259,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,lmt_sopmod,LMT Sopmod,18,0.24,-5,-13,,,,,,,,700
 ,,whtnls_xm177_car,Whitnalls XM177 CAR,16,0.14,-6,-11,,,,,,,,500
 ,,thordsen_frs15_cover_stock,Thordsen FRS-15 Cover,5,0.1,0,0,,,,,,,,600
-,,magtap_str_carbine_stock,Magtap STR Carbine,17,0.23,-9,-9,,,,,,,,900
+,,magtap_rts_carbine_stock,Magtap RTS Carbine,17,0.23,-9,-9,,,,,,,,900
 ,,magtap_moe_sl_k_carbine_stock,Magtap MOE SL-K Carbine,18,0.17,-7,-8,,,,,,,,800
 ,,axtell_defense_collapsible_milspec_buttstock,Axtell Defense Collapsible Milspec,16,0.18,-8,-10,,,,,,,,900
 ,,axtell_defense_concave_buttpad,Axtell Defense Concave,1,0.02,-1,-1,,,,,,,,0
@@ -292,8 +292,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,magtap_zhukov_s_extendable_part,Magtap ZHUKOV-S Extendable Part,0,0.11,,,,,,,,,,0
 ,,magtap_zhukov_s_press_part,Magtap ZHUKOV-S Press Part,0,0.05,,,,,,,,,,0
 ,ak_moe_stock,,,,,,,,,,,,,,
-,,magtap_moe_a_frame_fixed_ak_stock,Magtap MOE A-Frame Fixed AK,17,0.24,-8,-7,,,,,,,,1200
-,,magtap_moe_a_frame_stock_buttpad,Magtap MOE A-Frame Stock,1,0.05,-1,-1,,,,,,,,0
+,,magtap_moa_a_frame_fixed_ak_stock,Magtap MOA A-Frame Fixed AK,17,0.24,-8,-7,,,,,,,,1200
+,,magtap_moa_a_frame_stock_buttpad,Magtap MOA A-Frame Stock,1,0.05,-1,-1,,,,,,,,0
 ,ak_hera_stock,,,,,,,,,,,,,,
 ,,hera_arms_cqr_gen1_ak_stock,Eris Arms CQR Gen1 AK,10,0.42,-15,-20,,,,,,,,2000
 ,,hera_arms_cqr_ak_buttpad,Eris Arms CQR Gen1 AK,1,0.03,-1,-1,,,,,,,,0
@@ -426,7 +426,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,magtap_mlok_1.6_bottom,Magtap mlok 1.6,-0.5,0.02,,,,,,,,,,100
 ,,magtap_mlok_1.6_top,Magtap mlok 1.6,-0.5,0.02,,,,,,,,,,100
 ,,magtap_mlok_1.6_side,Magtap mlok 1.6,-0.5,0.02,,,,,,,,,,100
-,,magtap_mvg_mag597_foregrip,Magtap MVG MAG597,4,0.05,-5,0,,,,,,,,300
+,,magtap_mcp_mag597_foregrip,Magtap MCP MAG597,4,0.05,-5,0,,,,,,,,300
 ,,okb_crazy_romanian_mlok_full_grip,OKB Crazy Romanian MLOK Full,1,0.11,-5,-4,,,,,,,,800
 ,,okb_crazy_romanian_mlok_half_grip,OKB Crazy Romanian MLOK Half,4,0.07,-2,-4,,,,,,,,600
 ,,railscales_rsb_vg,RailScales RSB Vertical Grip,4,0.07,-4,-2,,,,,,,,800
@@ -477,7 +477,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,leupold_deltapoint_footprint,,,,,,,,,,,,,,
 ,,strauss_deltapoint_reflex_sight,Strauss DeltaPoint Reflex,-2,0.04,,,,,,,,,,800
 ,,strauss_deltapoint_pro_sight,Strauss DeltaPoint Pro,-2,0.05,,,,,,,,,,1200
-,,holotec_eflx_mini_red_dot,HOLOTEC HELX Mini Red Dot,-2,0.05,,,,,,,,,,1100
+,,holotec_helx_mini_red_dot,HOLOTEC HELX Mini Red Dot,-2,0.05,,,,,,,,,,1100
 ,aim_sport_low_profile_sight,,,,,,,,,,,,,,
 ,,target_sports_front_sight,Target Sports Low Profile 45 Degree,1,0.02,,,,,,,,,,0
 ,,target_sports_rear_sight_folded,Target Sports Low Profile 45 Degree Folded,1,0.02,,,,,,,,,,0
@@ -685,10 +685,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,hart_a1_pistol_grip,Hart A1,5,0.07,-3,-4,,,,,,,,500
 ,,hart_a1_chopped_pistol_grip,Hart A1 Chopped,3,0.04,-2,-3,,,,,,,,550
 ,,thordsen_frs_15_stock,Thordsen FRS-15,14,0.26,-6,-8,,,,,,,,1500
-,,magtap_moe_ar15_pistol_grip,Magtap MOE AR-15,7,0.1,-3,-4,,,,,,,,800
-,,magtap_moe_k2_ar15_pistol_grip,Magtap MOE-K2,7,0.1,-4,-3,,,,,,,,800
-,,magtap_moe_k2_scar_pistol_grip,Magtap MOE-K2 Modified,7,0.11,-4,-3,,,,,,,,800
-,,magtap_moe_scar_pistol_grip,Magtap MOE AR-15,7,0.11,-3,-4,,,,,,,,800
+,,magtap_moa_ar15_pistol_grip,Magtap MOA AR-15,7,0.1,-3,-4,,,,,,,,800
+,,magtap_moa_k2_ar15_pistol_grip,Magtap MOA-K2,7,0.1,-4,-3,,,,,,,,800
+,,magtap_moa_k2_scar_pistol_grip,Magtap MOA-K2 Modified,7,0.11,-4,-3,,,,,,,,800
+,,magtap_moa_scar_pistol_grip,Magtap MOA AR-15,7,0.11,-3,-4,,,,,,,,800
 ,,hera_arms_cqr_gen2_pistol_grip,Eris Arms CQR Gen2,3,0.14,-1,-6,,,,,,,,1200
 ,,aeroknox_ax15_orion_pistol_grip,Arrow AX // 15 ORION AR-15,9,0.09,-2,-1,,,,,,,,1000
 ,,bcm_gunfighter_mod3_ar15_pistol_grip,BCM Gunfighter Mod 3 AR-15,8,0.09,-3,-2,,,,,,,,750
@@ -719,7 +719,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,nowa_marked_vyctor_mur1s_ar15_upper_receiver,Nowa Marked VYCTOR MUR1S AR-15,2,0.26,-1,-1,,,,,,,,2500
 ,,vyctor_mur1s_ar15_upper_receiver,VYCTOR MUR1S AR-15,1,0.25,-1,-2,,,,,,,,2000
 ,,ardian_weapons_ar15_model_1_m1curgh_upper_receiver,Ardian Weapons AR-15 Model 1 M1CURGH,4,0.34,-1,-1,,-0.05,,,,,,4000
-,,axtell_defense_ddm4v7_upper_receiver,Axtell Defense DDM4V7,1,0.23,-1,-1,,,,,,,,1000
+,,axtell_defense_adm4v7_upper_receiver,Axtell Defense ADM4V7,1,0.23,-1,-1,,,,,,,,1000
 ,,axtell_defense_m4a1_upper_receiver,Axtell Defense M4A1,0,0.24,-2,-2,,,,,,,,1500
 ,,axtell_defense_mk12_upper_receiver,Axtell Defense MK12,4,0.25,1,2,,-0.1,,100,,,,2000
 ,,axtell_defense_mk18_upper_receiver,Axtell Defense MK18,3,0.23,0,-1,,0.15,,-100,,,,2500
@@ -1175,7 +1175,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,agr_870_pistol_grip,P.R.O Tactical AGR-870,1,0.17,-3,-4,,,,,,,,1000
 ,,magtap_moe_870_sga_polymer_stock,Magtap MOE 870 SGA Polymer,22,0.32,-7,-9,,,,,,,,1200
 ,r870_top_mount,,,,,,,,,,,,,,
-,,asm_1_mount,Optech ASM-1,-3,0.1,,,,,,,,,,1200
+,,optech_asm_1_mount,Optech ASM-1,-3,0.1,,,,,,,,,,1200
 ,,hg_shortrail_ghost_ring_rear_sight,HG Shortrail Ghost Ring,-1,0.06,,,,,,,,,,1000
 ,,leopard_atg_pro_mtu_028sg_mount,Leopard ATG PRO MTU-028SG,-0.5,0.05,,,,,,,,,,900
 ,r870_trigger,,,,,,,,,,,,,,
@@ -1442,7 +1442,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,mg47,KGB MG-47,5,0.05,-3,-5,,,,,,,,750
 ,,kazarov_pp-19-01_vityaz_pistol_grip,Kazarov PP-19-01 Vityaz Polymer,6,0.09,-4,-4,,,,,,,,300
 ,,us_pine_ak_pistol_grip,US Pine AK,6,0.08,-3,-5,,,,,,,,900
-,,magtap_moe_k2_ak_pistol_grip,Magtap MOE-K2 AK,7,0.1,-4,-3,,,,,,,,800
+,,magtap_moa_k2_ak_pistol_grip,Magtap MOA-K2 AK,7,0.1,-4,-3,,,,,,,,800
 ,ak_handguard_retainer,,,,,,,,,,,,,,
 ,,kazarov_ak_handguard_retainer,Kazarov AK-74,1,0.01,,,,,,,,,,0
 ,ak_carbine_hanguard_retainer,,,,,,,,,,,,,,
@@ -1691,10 +1691,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,glock20_slide_release,,,,,,,,,,,,,,
 ,,glock20_std_slide_release,Glock Standard,0,0,,,,,,,,,,0
 ,glock_adapter,,,,,,,,,,,,,,
-,,amp_1ts,AMP 1TS,-0.5,0.04,,,,,,,,,,750
-,,um_tactical_um_3_mount,UM3,-9,0.06,,,,,,,,,,800
-,,amp_1r,AMP 1R,-0.5,0.03,,,,,,,,,,750
-,,wasatch_arms_comp_weight_compensator_10mm,Wasatch Arms Comp Weight 10mm Compensator for Glock 20,-3,0.11,-5,-7,,0,0,-100,,,,1000
+,,optech_kosch_semi_auto_mount,Optech KOSCH Semi-Auto,-0.5,0.04,,,,,,,,,,750
+,,ug_tactical_ug3_mount,UG Tactical UG3,-9,0.06,,,,,,,,,,800
+,,optech_amp_1r_kosch_mount,Optech AMP-1R KOSCH,-0.5,0.03,,,,,,,,,,750
+,,watcher_armory_kosch_10mm_comp_weight_compensator,Watcher Armory KOSCH 10mm Comp Weight,-3,0.11,-5,-7,,0,0,-100,,,,1000
 ,glock_underbarrel_picatinny,,,,,,,,,,,,,,
 ,,rail,Additional attachment,0,0,,,,,,,,,,0
 ,glock_barrel,,,,,,,,,,,,,,

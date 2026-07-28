@@ -1,4 +1,4 @@
-﻿0.25.3,Wed Jul 22 19:59:59 2026,,,,,,,,,,,,,,
+﻿0.25.3,Tue Jul 28 11:36:58 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -561,15 +561,17 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ad_m4a1_fsp_raf_2_12.25_handguard,AD M4A1 FSP RAF 2 12.25,6,0.33,-13,-15,,,,,,,,1100
 ,,ad_m4a1_raf_2_12.25_handguard,AD M4A1 RAF 2 12.25,6,0.35,-13,-16,,,,,,,,1100
 ,,ad_m4a1_raf_3_9.5_handguard,AD M4A1 RAF 3 9.5,11,0.29,-10,-10,,,,,,,,1200
-,,ad_m4a1_raf_3_10.5_handguard,AD M4A1 RAF 3 10.5,10,0.3,-11,-11,,,,,,,,1250
+,,ad_m4a1_raf_3_10.5_handguard,AD M4A1 RAF 3 10.5,10,0.32,-11,-11,,,,,,,,1250
 ,,ad_m4a1_raf_3_12.5_handguard,AD M4A1 RAF 3 12.5,9,0.35,-12,-13,,,,,,,,1300
 ,,ad_m4a1_raf_3_13_fsp_handguard,AD M4A1 RAF 3 13 FSP,9,0.34,-12,-12,,,,,,,,1300
 ,,ad_mk18_fsp_raf_2_9.55_handguard,AD MK18 FSP RAF 2 9.55,8,0.28,-11,-13,,,,,,,,1000
 ,,ad_mk18_raf_2_9.55_handguard,AD Mk18 RAF 2 9.55,8,0.3,-11,-14,,,,,,,,1000
 ,,pac_ras_m4a1_handguard,PAC RAS,10,0.23,-6,-13,,0.03,,,,,,700
-,,vallais_smr_mk16_mlok_urg_i_13.5inch,"Vallais Super Modular Rail MK16 M-LOK URG-I 13.5""",8,0.33,-13,-12,,,,,,,,1100
-,,vallais_smr_mk16_mlok_urg_i_15inch,"Vallais Super Modular Rail MK16 M-LOK URG-I 15""",7,0.36,-15,-12,,,,,,,,1200
-,,vallais_smr_mk16_mlok_urg_i_9.3inch,"Vallais Super Modular Rail MK16 M-LOK URG-I 9.3""",11,0.26,-11,-8,,,,,,,,1000
+,,vallais_smr_mk16_mlok_urg_i_13.5inch,"Schmidt Super Modular Rail MK16 M-LOK URG-I 13.5""",8,0.33,-13,-12,,,,,,,,1100
+,,vallais_smr_mk16_mlok_urg_i_15inch,"Schmidt Super Modular Rail MK16 M-LOK URG-I 15""",7,0.36,-15,-12,,,,,,,,1200
+,,vallais_smr_mk16_mlok_urg_i_9.3inch,"Schmidt Super Modular Rail MK16 M-LOK URG-I 9.3""",11,0.26,-11,-8,,,,,,,,1000
+,,vallais_smr_mk16_mlok_urg_i_10.5inch,"Schmidt Super Modular Rail MK16 M-LOK URG-I 10.5""",10,0.29,-12,-9,,,,,,,,1050
+,,vallais_smr_mk4_federal_mlok_10inch,"Schmidt Super Modular Rail MK4 Federal M-LOK 10""",10,0.31,-12,-10,,,,,,,,1100
 ,,pac_m5_ras_lower_handguard,"PAC M5 RAS 11.5"" Lower",,,,,,,,,,,,0
 ,,pac_m5_ras_upper_handguard,"PAC M5 RAS 11.5"" Upper",8,0.34,-13,-13,,0.03,,,,,,1200
 ,,pac_mre_free_float_ras_rifle_12inch_handguard,"PAC MRE RAS Free Float 12""",7,0.27,-11,-14,,,,,,,,1400
@@ -593,8 +595,6 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,stngr_lvnc_10i,"STRYKR Lvnc 10""",11,0.28,-7,-12,,,,,,,,950
 ,,stngr_hwk_15i,"STRYKR Hkw 15""",8,0.34,-10,-15,,,,,,,,900
 ,,hart_a2_std_rifle_plastic_handguard,Hart M16A2 Rifle Length Plastic,12,0.29,-11,-16,,0.03,,,,,,500
-,,vallais_smr_mk16_mlok_urg_i_10.5inch,"Vallais Super Modular Rail MK16 M-LOK URG-I 10.5""",10,0.29,-12,-9,,,,,,,,1050
-,,vallais_smr_mk4_federal_mlok_10inch,"Vallais Super Modular Rail MK4 Federal M-LOK 10""",10,0.31,-12,-10,,,,,,,,1100
 ,,pac_urx_6_mlok_13inch_handguard,"PAC URX 6 MLOK 13""",9,0.33,-10,-15,,,,,,,,1500
 ,,pac_urx_4_mlok_8.5inch_handguard,"PAC URX 4 MLOK 8.5""",13,0.24,-7,-9,,,,,,,,1100
 ,,pac_urx_4_mlok_13inch_handguard,"PAC URX 4 MLOK 13""",9,0.32,-11,-13,,,,,,,,1250
@@ -2510,10 +2510,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,mk10_top_adapter_large,MK10RL Large,-0.5,0.1,,,,,,,,,,0
 ,,mk10_top_adapter_small,MK10RL Small,-0.5,0.06,,,,,,,,,,0
 ,warsport_handguard_accessory_rail,,,,,,,,,,,,,,
-,,calsport_handguard_long_accessory_rail_bottom,Cal Sport Long Accessory Rail,-2,0.07,,,,,,,,,,700
-,,calsport_handguard_long_accessory_rail_side,Cal Sport Long Accessory Rail,-2,0.07,,,,,,,,,,700
-,,calsport_handguard_short_accessory_rail_bottom,Cal Sport Short Accessory Rail,-1,0.04,,,,,,,,,,300
-,,calsport_handguard_short_accessory_rail_side,Cal Sport Short Accessory Rail,-1,0.04,,,,,,,,,,300
+,,calsport_handguard_long_accessory_rail_bottom,Cal Sport Long Accessory Rail,-0.5,0.07,,,,,,,,,,700
+,,calsport_handguard_long_accessory_rail_side,Cal Sport Long Accessory Rail,-0.5,0.07,,,,,,,,,,700
+,,calsport_handguard_short_accessory_rail_bottom,Cal Sport Short Accessory Rail,-0.5,0.04,,,,,,,,,,300
+,,calsport_handguard_short_accessory_rail_side,Cal Sport Short Accessory Rail,-0.5,0.04,,,,,,,,,,300
 ,oss_bpr_supp,,,,,,,,,,,,,,
 ,,spiderweb_bpr_suppressor_system_srm_6,Spiderweb BPR System SRM-6,-3,0.14,-3,-3,,-0.08,0.03,130,,,,1000
 ,prs_adjustment,,,,,,,,,,,,,,

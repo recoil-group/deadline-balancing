@@ -1,4 +1,4 @@
-﻿0.25.3,Thu Jul 30 02:50:43 2026,,,,,,,,,,,,,,
+﻿0.25.3,Thu Jul 30 02:57:37 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -1660,8 +1660,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kosch_default_9x19_mag_plate,KOSCH Default 9x19 Magazine Plate,0,0.02,,,,,,,,,,0
 ,,9x19_kriss_magex2_glock,9x19 KRISS MagEx2 For Glock (+23 Rounds),-8,0.3,,,23,,,,,,,1000
 ,glock_lower_receiver,,,,,,,,,,,,,,
-,,kosch_mk1_frame,KOSCH MK1 Frame,13,0.13,-2,-9,,,,,,,,1000
-,,kosch_mk2_frame,KOSCH MK2 Frame,11,0.11,-3,-9,,,,,,,,0
+,,kosch_mk1_frame,KOSCH MK1 Frame,0,0.13,0,0,,,,,,,,0
+,,kosch_mk2_frame,KOSCH MK2 Frame,-2,0.11,-1,-1,,,,,,,,1000
 ,glock_17_trigger,,,,,,,,,,,,,,
 ,,kosch_default_trigger,KOSCH Default Trigger,0,0.02,,,,,,,,,,0
 ,,kosch_default_trigger_safety,KOSCH Default Trigger Safety,1,0.01,,,,,,,,,,0
@@ -2919,7 +2919,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,Makarov,Pistolet Makarova,75,0,25,25,0,1,1,800,,,1,2000
 ,,TT33,Tokarev TT-33,45,0,40,40,0,1.2,0.98,1100,,,1,5000
 ,,EDC_X9,Whitner Defense EDC X9,80,0,25,25,0,0.9,1,1000,,,1,40000
-,,KOSCH,KOSCH,50,0,35,65,0,1.2,1,1000,,,1,0
+,,KOSCH,KOSCH,65,0,30,50,0,1.2,1,1000,,,1,0
 ,,Glock20,Glock 20,60,0.4,40,70,0,1.1,1,1000,,,1,10000
 ,,P320,Sic Stürmer P320,70,0,20,30,0,1,1,1000,,,1,25000
 ,rifle,,,,,,,,,,,,,,

@@ -1,4 +1,4 @@
-﻿0.25.3,Thu Jul 30 02:33:34 2026,,,,,,,,,,,,,,
+﻿0.25.3,Thu Jul 30 02:50:43 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -802,7 +802,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ar9_bolt,,,,,,,,,,,,,,
 ,,ar9_bolt,CmmG MK9,0,0.07,,,,,,,,,,0
 ,mk9_barrel,,,,,,,,,,,,,,
-,,bnb_value_line_light_tapered_melonite_ar9_76mm_9x19_barrel,"KAK Value Line Light Tapered Melonite AR9 3"" 9x19",9,0.14,8,8,,0.25,-0.15,-300,,,,750
+,,bnb_value_line_light_tapered_melonite_ar9_76mm_9x19_barrel,"KAK Value Line Light Tapered Melonite AR9 3"" 9x19",9,0.14,8,8,,0.25,-0.03,-300,,,,750
 ,,cmmg_mk9_216mm_9x19_barrel,"CmmG Mk9 8.5"" 9x19",3,0.3,3,2,,0.07,0.03,-90,,,,900
 ,,cmmg_mk9_229mm_9x19_barrel,"CmmG Mk9 9"" 9x19",2,0.31,2,2,,0.05,0.04,-70,,,,950
 ,,cmmg_mk9_406mm_9x19_c_barrel,"CmmG Mk9 16"" 9x19 Carbine Length",-3,0.51,-2,-2,,0,0.09,200,,,,0
@@ -1681,7 +1681,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,vector_17r_plate,Magazine,0,0.02,,,,,,,,,,1000
 ,,9x19_kriss_magex2_vector,9x19 KALIS MagEx2 For PF940 (+23 Rounds),-8,0.3,,,23,,,,,,,1000
 ,glock20_barrel,,,,,,,,,,,,,,
-,,kosch_10mm_114mm_barrel,KOSCH 10mm 114mm Barrel,-10,0.17,5,5,,0,0,0,,,,2000
+,,kosch_10mm_114mm_barrel,KOSCH 10mm 114mm Barrel,-10,0.11,5,5,,0.1,0,0,,,,2000
 ,glock20_magazine_bottom_plate,,,,,,,,,,,,,,
 ,,kosch_default_10mm_mag_plate,KOSCH Default 10mm Magazine Plate,1,0.015,,,,,,,,,,0
 ,glock20_magazine_release,,,,,,,,,,,,,,
@@ -1700,7 +1700,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,glock_underbarrel_picatinny,,,,,,,,,,,,,,
 ,,rail,Additional attachment,0,0,,,,,,,,,,0
 ,glock_barrel,,,,,,,,,,,,,,
-,,kosch_9x19_114mm_barrel,KOSCH 9x19 114mm Barrel,2,0.13,-9,-12,,0,0,-61,,,,0
+,,kosch_9x19_114mm_barrel,KOSCH 9x19 114mm Barrel,0,0.1,0,0,,0,0,-61,,,,0
 ,,sai_match_threaded_9x19_barrel,SAI Match Threaded G17 9x19,0,0.13,-7,-10,,0.05,0,-57,,,,1200
 ,,glock17l_ported_153mm_9x19_barrel,Glock 17L Ported 153mm 9x19 Barrel,-1,0.17,-12,-15,,-0.1,0.03,-14,,,,1500
 ,,igb_austria_match_grade_polygonal_406mm_9x19_barrel,IGB Austria Match Grade Polygonal 406mm 9x19 Barrel,-25,0.4,-10,-15,,-0.2,0.09,140,,,,3000
@@ -1746,8 +1746,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,edc_x9_hammer,,,,,,,,,,,,,,
 ,,whitner_defense_edc_x9_hammer,Whitner Defense EDC X9 Std.,0,0.02,,,,,,,,,,0
 ,edc_x9_barrel,,,,,,,,,,,,,,
-,,whitner_defense_edc_x9_102mm_9x19_barrel,Whitner Defense EDC X9 102mm 9x19,0,0.15,0,0,,0,0,-78,,,,0
-,,whitner_defense_edc_x9_127mm_threaded_9x19_barrel,Whitner Defense EDC X9 127mm Threaded 9x19,-1,0.16,2,2,,0.1,0,-44,,,,750
+,,whitner_defense_edc_x9_102mm_9x19_barrel,Whitner Defense EDC X9 102mm 9x19,0,0.1,0,0,,0,0,-78,,,,0
+,,whitner_defense_edc_x9_127mm_threaded_9x19_barrel,Whitner Defense EDC X9 127mm Threaded 9x19,-1,0.12,2,2,,0.1,0,-44,,,,750
 ,edc_x9_bottomplate,,,,,,,,,,,,,,
 ,,whitner_defense_edc_x9_mag_bottomplate,Whitner Defense EDC X9 Magazine,0,0.02,,,,,,,,,,0
 ,edc_x9_grip,,,,,,,,,,,,,,
@@ -2875,10 +2875,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sig_sauer_p320_mag_short_sleeve,Sic Stürmer P320 Short,1,0.06,,,,,,,,,,500
 ,,sig_sauer_p320_mag_long_sleeve,Sic Stürmer P320 Long,1.5,0.08,,,,,,,,,,1000
 ,sig_sauer_p320_barrel,,,,,,,,,,,,,,
-,,sig_sauer_p320_compact_3.9inch_9x19_barrel,"Sic Stürmer Compact-Size 3.9"" 9x19",4,0.13,3,3,,0.1,-0.03,-80,,,,1000
-,,sig_sauer_p320_compact_4.6inch_threaded_9x19_barrel,"Sic Stürmer Compact-Size 4.6"" Threaded 9x19",1,0.15,1,1,,0.05,0,-50,,,,3000
-,,sig_sauer_p320_full_4.7inch_9x19_barrel,"Sic Stürmer Full-Size 4.7"" 9x19",0,0.14,0,0,,0,0.01,-45,,,,0
-,,sig_sauer_p320_full_5.5inch_threaded_9x19_barrel,"Sic Stürmer Full-Size 5.5"" Threaded 9x19",-3,0.16,-1,-1,,-0.1,0.04,-10,,,,1500
+,,sig_sauer_p320_compact_3.9inch_9x19_barrel,"Sic Stürmer Compact-Size 3.9"" 9x19",4,0.09,3,3,,0.1,-0.02,-80,,,,1000
+,,sig_sauer_p320_compact_4.6inch_threaded_9x19_barrel,"Sic Stürmer Compact-Size 4.6"" Threaded 9x19",1,0.11,1,1,,0.05,0,-50,,,,3000
+,,sig_sauer_p320_full_4.7inch_9x19_barrel,"Sic Stürmer Full-Size 4.7"" 9x19",0,0.11,0,0,,0,0,-45,,,,0
+,,sig_sauer_p320_full_5.5inch_threaded_9x19_barrel,"Sic Stürmer Full-Size 5.5"" Threaded 9x19",-3,0.13,-1,-1,,-0.1,0.02,-10,,,,1500
 ,sig_sauer_p320_grip_module,,,,,,,,,,,,,,
 ,,sig_sauer_p320_xfull_grip_module,Sic Stürmer P320 XFULL,0,0.11,-2,-2,,,,,,,,0
 ,,sig_sauer_p320_xcarry_grip_module,Sic Stürmer P320 XCARRY,2,0.09,0,0,,,,,,,,2000

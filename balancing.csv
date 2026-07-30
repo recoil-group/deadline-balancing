@@ -1,4 +1,4 @@
-﻿0.25.3,Tue Jul 28 11:36:58 2026,,,,,,,,,,,,,,
+﻿0.25.3,Thu Jul 30 00:19:41 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -1669,17 +1669,17 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kosch_default_extractor,KOSCH Default Extractor,0,0.01,,,,,,,,,,0
 ,glock_17_slide_release,,,,,,,,,,,,,,
 ,,kosch_default_slide_catch,KOSCH Default Slide Catch,0,0.01,,,,,,,,,,0
-,,kosch_ambidextrous_slide_catch,KOSCH Ambidextrous Slide Catch,0,0.01,,,,,,,,,,0
+,,kosch_ambidextrous_slide_catch,KOSCH Ambidextrous Slide Catch,1,0.03,,,,,,,,,,200
 ,glock_17_mag_release,,,,,,,,,,,,,,
 ,,kosch_default_mag_catch,KOSCH Default Magazine Catch,0,0.01,,,,,,,,,,0
-,,kosch_ambidextrous_mag_catch,KOSCH Ambidextrous Magazine Catch,0,0.01,,,,,,,,,,0
+,,kosch_ambidextrous_mag_catch,KOSCH Ambidextrous Magazine Catch,0.5,0.02,,,,,,,,,,200
 ,glock_mag_13r_45acp_plate,,,,,,,,,,,,,,
 ,,45acp_kriss_magex2_pf940,.45 ACP KALIS MagEx2 For PF940 (+17 Rounds),-8,0.33,,,17,,,,,,,1000
 ,,pf940_13r_plate,Magazine,0,0.02,,,,,,,,,,0
 ,,vector_17r_plate,Magazine,0,0.02,,,0,,,,,,,1000
 ,,9x19_kriss_magex2_vector,9x19 KALIS MagEx2 For PF940 (+23 Rounds),-8,0.3,,,23,,,,,,,1000
 ,glock20_barrel,,,,,,,,,,,,,,
-,,kosch_10mm_114mm_barrel,KOSCH 10mm 114mm Barrel,0,0.17,-5,-5,,0,0,0,,,,0
+,,kosch_10mm_114mm_barrel,KOSCH 10mm 114mm Barrel,-10,0.17,5,5,,0,0,0,,,,2000
 ,glock20_magazine_bottom_plate,,,,,,,,,,,,,,
 ,,kosch_default_10mm_mag_plate,KOSCH Default 10mm Magazine Plate,1,0.015,,,,,,,,,,0
 ,glock20_magazine_release,,,,,,,,,,,,,,

@@ -217,10 +217,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,holotec_owl_tactical_laser_module,HOLOTEC OWL Tactical,-2,0.06,,,,,,,,,,2500
 ,,holotec_owl_access_point_cap,HOLOTEC OWL,0,0.01,,,,,,,,,,0
 ,,holotec_owl_lens_caps,HOLOTEC OWL,1,0.01,,,,,,,,,,0
-,,whitehouse_raid_xe_g18_high_power_laser_aiming_device,Whitehouse RAID Xe G18 High Power,-2,0.06,,,,,,,,,,4500
-,,whitehouse_raid_xe_g14_high_power_laser_aiming_device,Whitehouse RAID Xe G14 High Power,-2,0.06,,,,,,,,,,4000
-,,whitehouse_raid_xe_junction_box_legacy_crane_connector,Whitehouse RAID Xe Legacy Crane Connector,0,0.01,,,,,,,,,,0
-,,whitehouse_raid_xe_front_caps,Whitehouse RAID Xe Front,0,0.01,,,,,,,,,,0
+,,whitehouse_rush_qe_g18_high_power_laser_aiming_device,Whitehouse RUSH Qe G18 High Power,-2,0.06,,,,,,,,,,4500
+,,whitehouse_rush_qe_g14_high_power_laser_aiming_device,Whitehouse RUSH Qe G14 High Power,-2,0.06,,,,,,,,,,4000
+,,whitehouse_rush_qe_junction_box_legacy_crane_connector,Whitehouse RUSH Qe Legacy Crane Connector,0,0.01,,,,,,,,,,0
+,,whitehouse_rush_qe_front_caps,Whitehouse RUSH Qe Front,0,0.01,,,,,,,,,,0
 ,,pac_azimuth_micro_nvg_high_rise_picatinny_mount,PAC Azimuth Micro NVG High Rise Picatinny Mount,-2,0.1,,,,,,,,,,1300
 ,,sig_sauer_foxtrot1_flashlight,Sic Stürmer FOXTROT1,0,0.05,,,,,,,,,,900
 ,,npz_pso_1_4x24_picatinny_scope,NPZ PSO-1 4x24 Picatinny,-3,0.21,,-1,,,,,,,,1200
@@ -2716,11 +2716,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,r700_bolt_handle,,,,,,,,,,,,,,
 ,,r700_std_bolt_handle,Remington Std.,0,0.1,,,,,,,,,,0
 ,r700_mcs_tac21,,,,,,,,,,,,,,
-,,mcs_tac21_gen2_15inch_r700_mlok_handguard,MCS TAC21 Gen II,7,0.24,-5,-5,,,,,,,,1000
-,,mcs_tac21_gen2_r700_buffer_tube_adapter,MCS TAC21 Gen II,1,0.06,,,,,,,,,,600
-,,mcs_tac21_gen2_r700_lower_receiver,MCS TAC21 Gen II,3,0.18,-2,-3,,,,,,,,2000
-,,mcs_tac21_gen2_r700_upper_receiver,MCS TAC21 Gen II,3,0.21,-4,-5,,,,,,,,1000
-,,mcs_tac21_gen2_r700_mag_release,MCS TAC21 Gen II,1,0.02,,,,,,,,,,0
+,,mcs_rev21_gen2_15inch_r700_mlok_handguard,MCS REV21 Gen II,7,0.24,-5,-5,,,,,,,,1000
+,,mcs_rev21_gen2_r700_buffer_tube_adapter,MCS REV21 Gen II,1,0.06,,,,,,,,,,600
+,,mcs_rev21_gen2_r700_lower_receiver,MCS REV21 Gen II,3,0.18,-2,-3,,,,,,,,2000
+,,mcs_rev21_gen2_r700_upper_receiver,MCS REV21 Gen II,3,0.21,-4,-5,,,,,,,,1000
+,,mcs_rev21_gen2_r700_mag_release,MCS REV21 Gen II,1,0.02,,,,,,,,,,0
 ,r700_bolt_face,,,,,,,,,,,,,,
 ,,roosevelt_model_700_.308_bolt_face,Roosevelt Model 700 .308,0,0.1,,,,,,,,,,0
 ,r700_bolt_plug,,,,,,,,,,,,,,

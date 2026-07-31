@@ -632,7 +632,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ar15_buffer,,,,,,,,,,,,,,
 ,,sb_tactical_vector_brace,SB Tactical Vector Brace,18,0.28,-4,-4,,,,,,,,500
 ,,starsurp_starsurp_apex_m4_socom_gen4_stock,StarSurp APEX M4 SOCOM Gen4,14,0.32,-9,-9,,,,,,,,1000
-,,kf_416_enhanced_buffer_tube,KF416 Enhanced,-1,0.15,,-3,,-0.1,,,,,,400
+,,kf_416_enhanced_buffer_tube,KF416 Enhanced,-1,0.15,,-3,,,,,,,,400
 ,,si_ar_are_t7_buffer_tube,Smite Industries Advanced Receiver Extension T7,-1,0.13,-1,-1,,,,,,,,600
 ,,hart_buffer_tube,Hart,-2,0.15,-2,-2,,,,,,,,0
 ,ar15_castlenut,,,,,,,,,,,,,,

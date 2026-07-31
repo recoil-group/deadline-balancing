@@ -22,6 +22,10 @@ The root balancing CSVs are authoritative for the stats and fields they define; 
 - `demos/`: small HTML balancing visualizations/tools.
 - `renaming/`: temporary renaming helpers.
 
+## Git Workflow
+
+- Prefer working directly on `main` unless the user specifies a different branch or workflow.
+
 ## Balancing Repo Notes
 
 - `name` is the primary key used to match items across CSVs and Studio.

@@ -1,4 +1,4 @@
-﻿0.25.3,Sat Aug 01 03:19:29 2026,,,,,,,,,,,,,,
+﻿0.25.3,Sat Aug 01 04:05:21 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -1768,15 +1768,15 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,5.56x45_appalachian_m855_62gr_fmj,Appalachian M855 62gr FMJ,0,0.03,1,0,,0.05,,-100,,,,1000
 ,,5.56x45_appalachian_m855a1_62gr_epr,Appalachian M855A1 62gr EPR,-1,0.03,1,2,,-0.15,,-50,,,,4000
 ,ammo_762x51,,,,,,,,,,,,,,
-,,7.62x51_hawthorne_sub_x_200gr_subsonic,Hawthorne Sub X 200gr Subsonic,0,0.04,0,0,,0,,0,,,,0
-,,7.62x51_federal_gold_medal_168gr_hpbt,Federal Gold Medal 168gr HPBT,0,0.04,0,0,,0,,0,,,,0
-,,7.62x51_appalachian_m80a1_130gr_epr,Appalachian M80A1 130gr EPR,0,0.04,0,0,,0,,0,,,,0
-,,7.62x51_cae_l59a1_155gr_enhanced_performance,CAe L59A1 155gr Enhanced Performance,0,0.04,0,0,,0,,0,,,,0
-,,7.82x51_laccio_308app_extrema_leadless_168gr_tipped_tsx_bt,Laccio .308 Appalachian Extrema Leadless 168gr Tipped TSX-BT,0,0.04,0,0,,0,,0,,,,0
-,,7.62x51_emmeo_m993_129gr_ap,Emmeo M993 129gr AP,0,0.02,1,0,,0.05,,100,,,,3000
-,,7.62x51_appalachian_m62_142gr_red_tracer,Appalachian M62 142gr Red Tracer,0,0.03,-1,-1,,0.07,,50,,,,1000
-,,7.62x51_federal_m118lr_175gr_otm,Federal M118LR 175gr OTM,0,0.07,3,2,,-0.1,,-50,,,,2000
-,,7.62x51_appalachian_m80_149gr_fmj,Appalachian M80 149gr FMJ,0,0.04,0,0,,0,,0,,,,0
+,,7.62x51_hawthorne_sub_x_200gr_subsonic,Hawthorne Sub X 200gr Subsonic,3,0.11,-3,-3,,0.20,,-900,,-0.03,,2500
+,,7.62x51_federal_gold_medal_168gr_hpbt,MK319,1,-0.05,1,2,,-0.05,,200,,,,3500
+,,7.62x51_appalachian_m80a1_130gr_epr,Appalachian M80A1 130gr EPR,-1,-0.04,1,2,,-0.10,,150,,,,2500
+,,7.62x51_cae_l59a1_155gr_enhanced_performance,CAe L59A1 155gr Enhanced Performance,-1,0.03,2,1,,-0.10,,0,,,,2500
+,,7.82x51_laccio_308app_extrema_leadless_168gr_tipped_tsx_bt,Laccio .308 Appalachian Extrema Leadless 168gr Tipped TSX-BT,0,0.05,2,2,,-0.15,,-50,,,,1000
+,,7.62x51_emmeo_m993_129gr_ap,Emmeo M993 129gr AP,-1,-0.06,2,3,,-0.05,,150,,,,4000
+,,7.62x51_appalachian_m62_142gr_red_tracer,Appalachian M62 142gr Red Tracer,2,-0.01,-2,-1,,0.10,,0,,,,500
+,,7.62x51_federal_m118lr_175gr_otm,Federal M118LR 175gr OTM,-1,0.08,3,4,,-0.20,,-150,,,,3000
+,,7.62x51_appalachian_m80_149gr_fmj,Appalachian M80 149gr FMJ,0,0.00,0,0,,0.00,,0,,,,0
 ,ammo_7.62x54r,,,,,,,,,,,,,,
 ,,7.62x54r_norilsk_7n1_151gr_ps,7.62x54R Norilsk 7N1 151gr PS,0,0.1,,,,,,,,,,0
 ,,7.62x54r_zim_rifle_150gr_spbt,7.62x54R ZiM Rifle Line 150gr SPBT,0,0.1,1,1,,0.1,,100,,,,2000

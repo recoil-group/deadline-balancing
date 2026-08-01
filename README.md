@@ -33,6 +33,10 @@ Master balancing sheet. Should always be up to date with the latest changes.
 
 Testing sheet. Gets imported into dev branch when updated.
 
+### weapon_names.json
+
+Dynamic weapon display-name rules keyed by weapon code. Each rule lists the attachments required for that name; nested attachment arrays are interchangeable options.
+
 ### /changes
 
 Folder containing all change sheets. These are used to balance groups of attachments to then be ported into `balancing.csv`.

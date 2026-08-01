@@ -1,4 +1,4 @@
-﻿0.25.3,Sat Aug 01 04:05:21 2026,,,,,,,,,,,,,,
+﻿0.25.3,Sat Aug 01 15:15:53 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -1768,7 +1768,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,5.56x45_appalachian_m855_62gr_fmj,Appalachian M855 62gr FMJ,0,0.03,1,0,,0.05,,-100,,,,1000
 ,,5.56x45_appalachian_m855a1_62gr_epr,Appalachian M855A1 62gr EPR,-1,0.03,1,2,,-0.15,,-50,,,,4000
 ,ammo_762x51,,,,,,,,,,,,,,
-,,7.62x51_hawthorne_sub_x_200gr_subsonic,Hawthorne Sub X 200gr Subsonic,3,0.11,-3,-3,,0.20,,-900,,-0.03,,2500
+,,7.62x51_hawthorne_sub_x_200gr_subsonic,Hawthorne Sub X 200gr Subsonic,3,0.11,-3,-3,,0.20,,-900,,-0.03,-0.70,2500
 ,,7.62x51_federal_gold_medal_168gr_hpbt,MK319,1,-0.05,1,2,,-0.05,,200,,,,3500
 ,,7.62x51_appalachian_m80a1_130gr_epr,Appalachian M80A1 130gr EPR,-1,-0.04,1,2,,-0.10,,150,,,,2500
 ,,7.62x51_cae_l59a1_155gr_enhanced_performance,CAe L59A1 155gr Enhanced Performance,-1,0.03,2,1,,-0.10,,0,,,,2500
@@ -1795,7 +1795,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,5.45x39_hawthorne_black_60gr_vmax,Hawthorne BLACK 60gr V-MAX,-1,0.03,2,1,,-0.20,,-100,,,,2500
 ,,5.45x39_kazarov_7n40_64gr,Kazarov 7N40 64gr FMJ,-1,0.04,2,2,,-0.15,,-100,,,,4000
 ,,5.45x39_tsniiitekhmash_7n39_63gr,TsNIITekhMash 7N39 63gr Igolnik,-1,0.04,2,0,,-0.10,,-100,,,,4000
-,,5.45x39_lugansk_7u1_79gr_us,Lugansk 7U1 79gr US,3,0.10,-2,-3,,0.25,,-1200,,-0.02,,2000
+,,5.45x39_lugansk_7u1_79gr_us,Lugansk 7U1 79gr US,3,0.10,-2,-3,,0.25,,-1200,,-0.02,-0.70,2000
 ,ammo_9x18,,,,,,,,,,,,,,
 ,,9x18_norilsk_57n181s_92gr_pst,9x18 Norilsk 57-N-181S 92gr Pst,0,0.02,,,,,,,,,,0
 ,,9x18_zim_handgun_93gr_fmj,9x18 ZiM Handgun Line 93gr FMJ,1,0,,,,,,,,,,500

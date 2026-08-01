@@ -1018,7 +1018,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,magazine_10mm_glock20,,,,,,,,,,,,,,
 ,,glock20_10mm_15r,Glock Standard 15R 10mm,0,0.18,,,15,,,,,,,500
 ,magazine_10mm_kosch,,,,,,,,,,,,,,
-,,kosch_10mm_15r_magazine,KOSCH 10mm Auto 15R,16,0.26,,,29,,,,,,,1000
+,,kosch_10mm_15r_magazine,KOSCH 10mm Auto 15R,0,0.18,,,15,,,,,,,1000
 ,magazine_ar9_adapter,,,,,,,,,,,,,,
 ,,nbs_ar15_9x19_hart_mag_adapter,NBS AR-15 9x19 Hart,0,0.07,,,,,,,,,,1000
 ,magazine_9x19_ar9,,,,,,,,,,,,,,

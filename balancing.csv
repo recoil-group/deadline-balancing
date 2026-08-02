@@ -1720,7 +1720,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,glock17l_front_sight,Glock 17L Front Sight,1,0.01,,,,,,,,,,100
 ,,kosch_default_front_sight,KOSCH Default Front Sight,1,0.01,,,,,,,,,,0
 ,glock_rear_sight,,,,,,,,,,,,,,
-,,virticon_rm44_rear_sight_mount,Virticon RM44 RMR Rear,-1,0.03,,,,,,,,,,500
+,,virticon_rm44_rear_sight_mount,Virticon RM44 RMR Rear,0,0.03,,,,,,,,,,500
 ,,truglo_glock_tfx_rs,Truglo TFX,1,0.03,,,,,,,,,,500
 ,,glock20_lf_rear_sight,PF940 20 Factory Large Frame,1,0.02,,,,,,,,,,0
 ,,virticon_glock_supp_height_rear_sights_wh_sf,Virticon Suppressor / Optic Height White Outline Std. Frame,1,0.04,,,,,,,,,,300

@@ -1797,11 +1797,6 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,5.45x39_tsniiitekhmash_7n39_63gr,TsNIITekhMash 7N39 63gr Igolnik,-1,0.04,2,0,,-0.10,,-100,,,,4000
 ,,5.45x39_lugansk_7u1_79gr_us,Lugansk 7U1 79gr US,3,0.10,-2,-3,,0.25,,-1200,,-0.02,-0.70,2000
 ,ammo_9x18,,,,,,,,,,,,,,
-,,9x18_norilsk_57n181s_92gr_pst,9x18 Norilsk 57-N-181S 92gr Pst,0,0.02,,,,,,,,,,0
-,,9x18_zim_handgun_93gr_fmj,9x18 ZiM Handgun Line 93gr FMJ,1,0,,,,,,,,,,500
-,,9x18_hornet_xtp_95gr_jhpfb,9x18 Hornet XTP 95gr JHPFB,-3,0.03,5,3,,0.4,,-100,,,,1000
-,,9x18_norilsk_57t181_56gr_red_tracer,9x18 Norilsk 57-T-181 56gr Red Tracer,,0.02,-1,1,,0.1,,20,,,,750
-,,9x18_underwood_xtreme_95gr_sm,9x18 Underwood Xtreme Penetrator 95gr SM,,0.05,-2,2,,0.1,,50,,,,1000
 ,,9x18_novosibirsk_57_n_181s_92gr_pst,9x18 Novosibirsk 57-N-181S 92gr PST,0,0.02,,,,,,,,,,0
 ,,9x18_hawthorne_xtp_95gr_jhpfb,9x18 Hawthorne XTP 95gr JHPFB,-3,0.03,5,3,,0.4,,-100,,,,1000
 ,,9x18_novosibirsk_57_t_181_56gr_red_tracer,9x18 Novosibirsk 57-T-181 56gr Red Tracer,,0.02,-1,1,,0.1,,20,,,,750

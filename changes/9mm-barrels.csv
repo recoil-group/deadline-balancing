@@ -1,40 +1,40 @@
-﻿,,new,,,,,,,,,,,,,,,,,,
-name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price,strength,,base,length,mod,,dmg,irl price
-kosch_9x19_114mm_barrel,KOSCH 9x19 114mm Barrel,0,0.1,0,0,,0,0,-61,,,0,-2.203333333,,0,4.48819,,0.11,0,
-kosch_10mm_114mm_barrel,KOSCH 10mm 114mm Barrel,-10,0.11,5,5,,0.1,0,0,,,2000,,,,,,,,
-,,,,,,,,,,,,,0,,,,,0,-0.04,
-sig_sauer_p320_compact_3.9inch_9x19_barrel,"Sic Stürmer Compact-Size 3.9"" 9x19",4,0.09,3,3,,0.1,-0.02,-80,,,1000,-3.316666667,,0,3.9,,0.09,-0.01,
-sig_sauer_p320_compact_4.6inch_threaded_9x19_barrel,"Sic Stürmer Compact-Size 4.6"" Threaded 9x19",1,0.11,1,1,,0.05,0,-50,,,3000,-3.141666667,,0,4.6,,0.11,0,
-sig_sauer_p320_full_4.7inch_9x19_barrel,"Sic Stürmer Full-Size 4.7"" 9x19",0,0.11,0,0,,0,0,-45,,,0,-2.35,,0,4.7,,0.11,0,
-sig_sauer_p320_full_5.5inch_threaded_9x19_barrel,"Sic Stürmer Full-Size 5.5"" Threaded 9x19",-3,0.13,-1,-1,,-0.1,0.02,-10,,,1500,-3.533333333,,0,5.5,,0.13,0,
-,,,,,,,,,,,,,0,,,,,0,-0.04,
-whitner_defense_edc_x9_102mm_9x19_barrel,Whitner Defense EDC X9 102mm 9x19,0,0.1,0,0,,0,0,-78,,,0,-2.26,,0,4.01575,,0.1,-0.01,
-whitner_defense_edc_x9_127mm_threaded_9x19_barrel,Whitner Defense EDC X9 127mm Threaded 9x19,-1,0.12,2,2,,0.1,0,-44,,,750,-6.846666667,,0,5,,0.12,0,
-,,,,,,,,,,,,,0,,,,,0,-0.04,
-hk_mp5_9x19_225mm_barrel,MPi-54 225mm 9x19,0,0.31,-3,-7,,0,0.03,47,,,0,0.856666667,,0.04,8.85827,,0.25,0.03,
-hk_mp5sd_9x19_146mm_barrel,MPi-54SD 146mm 9x19,2,0.22,-1,-4,,0.05,0,80,,,1000,0.816666667,,0.04,5.74803,,0.18,0.01,
-,,,,,,,,,,,,,0,,,,,0,-0.04,
-bnb_value_line_light_tapered_melonite_ar9_76mm_9x19_barrel,"KAK Value Line Light Tapered Melonite AR9 3"" 9x19",9,0.14,8,8,,0.25,-0.03,-300,,,750,-8.325,,0.04,3,,0.11,-0.02,
-cmmg_mk9_127mm_9x19_barrel,"CmmG Mk9 5"" 9x19",7,0.2,6,6,,0.2,0,-225,,,800,-7.65,,0.04,5,,0.16,0,
-cmmg_mk9_216mm_9x19_barrel,"CmmG Mk9 8.5"" 9x19",3,0.3,3,2,,0.07,0.03,-90,,,900,-6.975,,0.04,8.5,,0.24,0.03,
-cmmg_mk9_229mm_9x19_barrel,"CmmG Mk9 9"" 9x19",2,0.31,2,2,,0.05,0.04,-70,,,950,-7.008333333,,0.04,9,,0.26,0.03,
-cmmg_mk9_406mm_9x19_c_barrel,"CmmG Mk9 16"" 9x19 Carbine Length",-3,0.51,-2,-2,,0,0.09,200,,,0,-8.383333333,,0.04,16,,0.42,0.09,
-cmmg_mk9_406mm_9x19_m_barrel,"CmmG Mk9 16"" 9x19 Mid Length",-4,0.52,-3,-3,,0,0.09,200,,,1200,-8.183333333,,0.04,16,0.01,0.43,0.09,
-cmmg_mk9_406mm_9x19_r_barrel,"CmmG Mk9 16"" 9x19 Rifle Length",-5,0.53,-4,-4,,0,0.09,200,,,1200,-7.983333333,,0.04,16,0.02,0.44,0.09,
-,,,,,,,,,,,,,0,,,,,0,-0.04,
-kazarov_pp-19-01_238mm_9x19_barrel,Kazarov PP-19-01 Vityaz 238mm 9x19,0,0.32,0,0,,0.05,0.04,50,,,0,-6.008333333,,0.04,9.37008,,0.26,0.04,
-kazarov_saiga_9_345mm_9x19_barrel,Kazarov Saiga-9 345mm 9x19,-2,0.44,-2,-2,,0,0.07,90,,,500,-6.65,,0.04,13.5827,,0.37,0.07,
-,,,,,,,,,,,,,0,,,,,0,-0.04,
-steyr_aug_para_9x19_420mm_barrel,Löwenherz AUG Para 9x19 420mm,3,0.52,-12,-14,,0,0.09,145,,,2000,12.43333333,,0.04,16.5354,,0.44,0.09,
-steyr_aug_para_9x19_325mm_threaded_barrel,Löwenherz AUG Para 9x19 325mm Threaded,4,0.42,-9,-8,,0.1,0.06,105,,,3000,8.1,,0.04,12.7953,,0.35,0.06,
-,,,,,,,,,,,,,0,,,,,0,-0.04,
-hk_ump9_200mm_flanged_barrel,UMC-9 200mm 9x19 Flanged,0,0.28,-1,0,,0,,-15,,,500,-4.85,,0.04,8,,0.23,0.02,
-hk_ump9_200mm_trilug_threaded_barrel,UMC-9 200mm 9x19 Tri-Lug Threaded,-2,0.28,1,1,,0.05,,-20,,,1000,-9.441666667,,0.04,8,,0.23,0.02,
-,,,,,,,,,,,,,0,,,,,0,-0.04,
-vector_9mm_140mm_barrel,KALIS Scalar 9x19 140mm,0,0.23,0,0,,0,0,-28,0,,800,-4.693333333,,0.04,5.51181,,0.17,0,
-vector_9mm_170mm_barrel,KALIS Scalar 9x19 170mm,-1,0.26,-1,-1,,-0.05,0.02,2,-0.1,,750,-4.118333333,,0.04,6.69291,,0.2,0.01,
-,,,,,,,,,,,,,0,,,,,0,-0.04,
-radian_weapons_glock17_ramjet_barrel,Radian Weapons Glock 17 Gen5 RAMJET 9x19,1,0.12,-10,-10,,0.1,0,-57,,,1500,11.66,,0.03,,,0.03,-0.04,
-sai_match_threaded_9x19_barrel,SAI Match Threaded G17 9x19,0,0.13,-7,-10,,0.05,0,-57,,,1200,8.435,,0.03,4.5,,0.14,0,
-glock17l_ported_153mm_9x19_barrel,Glock 17L Ported 153mm 9x19 Barrel,-1,0.17,-12,-15,,-0.1,0.03,-14,,,1500,15.35333333,,0.03,6.02362,,0.17,0.01,
-igb_austria_match_grade_polygonal_406mm_9x19_barrel,IGB Austria Match Grade Polygonal 406mm 9x19 Barrel,-25,0.4,-10,-15,,-0.2,0.09,140,,,3000,-12.68333333,,0.03,15.984252,,0.41,0.09,
+﻿,,new,,,,,,,,,,,,,,,,,,,,
+name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price,strength,,base,length,mod,,dmg,irl price,,
+kosch_9x19_114mm_barrel,KOSCH 9x19 114mm Barrel,0,0.1,0,0,,0,0,-50,,,0,-2.166666667,,0,4.48819,,0.11,0,,-53,1147
+kosch_10mm_114mm_barrel,KOSCH 10mm 114mm Barrel,-10,0.11,5,5,,0.1,0,0,,,2000,,,,,,,,,-210,990
+,,,,,,,,,,,,,0,,,,,0,-0.04,,-210,990
+sig_sauer_p320_compact_3.9inch_9x19_barrel,"Sic Stürmer Compact-Size 3.9"" 9x19",4,0.09,3,3,,0.1,-0.02,-70,,,1000,-3.283333333,,0,3.9,,0.09,-0.01,,-74,1127
+sig_sauer_p320_compact_4.6inch_threaded_9x19_barrel,"Sic Stürmer Compact-Size 4.6"" Threaded 9x19",1,0.11,1,1,,0.05,0,-50,,,3000,-3.141666667,,0,4.6,,0.11,0,,-49,1151
+sig_sauer_p320_full_4.7inch_9x19_barrel,"Sic Stürmer Full-Size 4.7"" 9x19",0,0.11,0,0,,0,0,-46,,,0,-2.353333333,,0,4.7,,0.11,0,,-46,1155
+sig_sauer_p320_full_5.5inch_threaded_9x19_barrel,"Sic Stürmer Full-Size 5.5"" Threaded 9x19",-3,0.13,-1,-1,,-0.1,0.02,-20,,,1500,-3.566666667,,0,5.5,,0.13,0,,-18,1183
+,,,,,,,,,,,,,0,,,,,0,-0.04,,-210,990
+whitner_defense_edc_x9_102mm_9x19_barrel,Whitner Defense EDC X9 102mm 9x19,0,0.1,0,0,,0,0,-70,,,0,-2.233333333,,0,4.01575,,0.1,-0.01,,-69,1131
+whitner_defense_edc_x9_127mm_threaded_9x19_barrel,Whitner Defense EDC X9 127mm Threaded 9x19,-1,0.12,2,2,,0.1,0,-40,,,750,-6.833333333,,0,5,,0.12,0,,-35,1165
+,,,,,,,,,,,,,0,,,,,0,-0.04,,-210,990
+hk_mp5_9x19_225mm_barrel,MPi-54 225mm 9x19,0,0.31,-3,-7,,0,0.03,100,,,0,1.033333333,,0.04,8.85827,,0.25,0.03,,100,1300
+hk_mp5sd_9x19_146mm_barrel,MPi-54SD 146mm 9x19,2,0.22,-1,-4,,0.05,0,80,,,1000,0.816666667,,0.04,5.74803,,0.18,0.01,,-9,1191
+,,,,,,,,,,,,,0,,,,,0,-0.04,,-210,990
+bnb_value_line_light_tapered_melonite_ar9_76mm_9x19_barrel,"KAK Value Line Light Tapered Melonite AR9 3"" 9x19",9,0.14,8,8,,0.25,-0.03,-100,,,750,-7.658333333,,0.04,3,,0.11,-0.02,,-105,1095
+cmmg_mk9_127mm_9x19_barrel,"CmmG Mk9 5"" 9x19",7,0.2,6,6,,0.2,0,-40,,,800,-7.033333333,,0.04,5,,0.16,0,,-35,1165
+cmmg_mk9_216mm_9x19_barrel,"CmmG Mk9 8.5"" 9x19",3,0.3,3,2,,0.07,0.03,90,,,900,-6.375,,0.04,8.5,,0.24,0.03,,88,1288
+cmmg_mk9_229mm_9x19_barrel,"CmmG Mk9 9"" 9x19",2,0.31,2,2,,0.05,0.04,110,,,950,-6.408333333,,0.04,9,,0.26,0.03,,105,1305
+cmmg_mk9_406mm_9x19_c_barrel,"CmmG Mk9 16"" 9x19 Carbine Length",-3,0.51,-2,-2,,0,0.09,200,,,0,-8.383333333,,0.04,16,,0.42,0.09,,350,1550
+cmmg_mk9_406mm_9x19_m_barrel,"CmmG Mk9 16"" 9x19 Mid Length",-4,0.52,-3,-3,,0,0.09,200,,,1200,-8.183333333,,0.04,16,0.01,0.43,0.09,,350,1550
+cmmg_mk9_406mm_9x19_r_barrel,"CmmG Mk9 16"" 9x19 Rifle Length",-5,0.53,-4,-4,,0,0.09,200,,,1200,-7.983333333,,0.04,16,0.02,0.44,0.09,,350,1550
+,,,,,,,,,,,,,0,,,,,0,-0.04,,-210,990
+kazarov_pp-19-01_238mm_9x19_barrel,Kazarov PP-19-01 Vityaz 238mm 9x19,0,0.32,0,0,,0.05,0.04,120,,,0,-5.775,,0.04,9.37008,,0.26,0.04,,118,1318
+kazarov_saiga_9_345mm_9x19_barrel,Kazarov Saiga-9 345mm 9x19,-2,0.44,-2,-2,,0,0.07,170,,,500,-6.383333333,,0.04,13.5827,,0.37,0.07,,265,1465
+,,,,,,,,,,,,,0,,,,,0,-0.04,,-210,990
+steyr_aug_para_9x19_420mm_barrel,Löwenherz AUG Para 9x19 420mm,3,0.52,-12,-14,,0,0.09,200,,,2000,12.61666667,,0.04,16.5354,,0.44,0.09,,369,1569
+steyr_aug_para_9x19_325mm_threaded_barrel,Löwenherz AUG Para 9x19 325mm Threaded,4,0.42,-9,-8,,0.1,0.06,160,,,3000,8.283333333,,0.04,12.7953,,0.35,0.06,,238,1438
+,,,,,,,,,,,,,0,,,,,0,-0.04,,-210,990
+hk_ump9_200mm_flanged_barrel,UMC-9 200mm 9x19 Flanged,0,0.28,-1,0,,0,,70,,,500,-4.566666667,,0.04,8,,0.23,0.02,,70,1270
+hk_ump9_200mm_trilug_threaded_barrel,UMC-9 200mm 9x19 Tri-Lug Threaded,-2,0.28,1,1,,0.05,,70,,,1000,-9.141666667,,0.04,8,,0.23,0.02,,70,1270
+,,,,,,,,,,,,,0,,,,,0,-0.04,,-210,990
+vector_9mm_140mm_barrel,KALIS Scalar 9x19 140mm,0,0.23,0,0,,0,0,-20,0,,800,-4.666666667,,0.04,5.51181,,0.17,0,,-17,1183
+vector_9mm_170mm_barrel,KALIS Scalar 9x19 170mm,-1,0.26,-1,-1,,-0.05,0.02,20,-0.1,,750,-4.058333333,,0.04,6.69291,,0.2,0.01,,24,1224
+,,,,,,,,,,,,,0,,,,,0,-0.04,,-210,990
+radian_weapons_glock17_ramjet_barrel,Radian Weapons Glock 17 Gen5 RAMJET 9x19,1,0.12,-10,-10,,0.1,0,-57,,,1500,11.66,,0.03,,,0.03,-0.04,,-210,990
+sai_match_threaded_9x19_barrel,SAI Match Threaded G17 9x19,0,0.13,-7,-10,,0.05,0,-57,,,1200,8.435,,0.03,4.5,,0.14,0,,-53,1148
+glock17l_ported_153mm_9x19_barrel,Glock 17L Ported 153mm 9x19 Barrel,-1,0.17,-12,-15,,-0.1,0.03,-14,,,1500,15.35333333,,0.03,6.02362,,0.17,0.01,,1,1201
+igb_austria_match_grade_polygonal_406mm_9x19_barrel,IGB Austria Match Grade Polygonal 406mm 9x19 Barrel,-25,0.4,-10,-15,,-0.2,0.09,140,,,3000,-12.68333333,,0.03,15.984252,,0.41,0.09,,349,1549

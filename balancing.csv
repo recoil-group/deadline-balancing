@@ -1,4 +1,4 @@
-﻿0.25.3,Sat Aug 01 15:15:53 2026,,,,,,,,,,,,,,
+﻿0.25.3,Sat Aug 01 20:58:12 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -802,13 +802,13 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ar9_bolt,,,,,,,,,,,,,,
 ,,ar9_bolt,CmmG MK9,0,0.07,,,,,,,,,,0
 ,mk9_barrel,,,,,,,,,,,,,,
-,,bnb_value_line_light_tapered_melonite_ar9_76mm_9x19_barrel,"KAK Value Line Light Tapered Melonite AR9 3"" 9x19",9,0.14,8,8,,0.25,-0.03,-300,,,,750
-,,cmmg_mk9_216mm_9x19_barrel,"CmmG Mk9 8.5"" 9x19",3,0.3,3,2,,0.07,0.03,-90,,,,900
-,,cmmg_mk9_229mm_9x19_barrel,"CmmG Mk9 9"" 9x19",2,0.31,2,2,,0.05,0.04,-70,,,,950
+,,bnb_value_line_light_tapered_melonite_ar9_76mm_9x19_barrel,"KAK Value Line Light Tapered Melonite AR9 3"" 9x19",9,0.14,8,8,,0.25,-0.03,-100,,,,750
+,,cmmg_mk9_216mm_9x19_barrel,"CmmG Mk9 8.5"" 9x19",3,0.3,3,2,,0.07,0.03,90,,,,900
+,,cmmg_mk9_229mm_9x19_barrel,"CmmG Mk9 9"" 9x19",2,0.31,2,2,,0.05,0.04,110,,,,950
 ,,cmmg_mk9_406mm_9x19_c_barrel,"CmmG Mk9 16"" 9x19 Carbine Length",-3,0.51,-2,-2,,0,0.09,200,,,,0
 ,,cmmg_mk9_406mm_9x19_r_barrel,"CmmG Mk9 16"" 9x19 Rifle Length",-5,0.53,-4,-4,,0,0.09,200,,,,1200
 ,,cmmg_mk9_406mm_9x19_m_barrel,"CmmG Mk9 16"" 9x19 Mid Length",-4,0.52,-3,-3,,0,0.09,200,,,,1200
-,,cmmg_mk9_127mm_9x19_barrel,"CmmG Mk9 5"" 9x19",7,0.2,6,6,,0.2,0,-225,,,,800
+,,cmmg_mk9_127mm_9x19_barrel,"CmmG Mk9 5"" 9x19",7,0.2,6,6,,0.2,0,-40,,,,800
 ,fn_rear_sight,,,,,,,,,,,,,,
 ,,aft_rear_sight,AFT Standard,1,0.01,,,,,,,,,,0
 ,,aft_rear_sight_folded,AFT Standard Folded,1,0.01,,,,,,,,,,0
@@ -934,7 +934,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kriss_vector_gen2_folding_stock,KALIS Scalar Gen2,16,0.26,-7,-9,,,,,,,,0
 ,,kriss_vector_non_folding_stock_adapter,KALIS Scalar Non-Folding Stock Adapter,0,0.08,0,0,,,,,,,,800
 ,vector_upper_receiver,,,,,,,,,,,,,,
-,,vector_9mm_upper_receiver,KALIS Scalar 9mm,3,0.39,-10,-10,,,,200,,,,3000
+,,vector_9mm_upper_receiver,KALIS Scalar 9mm,3,0.39,-10,-10,,,,300,,,,3000
 ,,vector_45acp_upper_receiver,KALIS Scalar .45ACP,0,0.41,0,0,,,,,,,,0
 ,vector_trigger,,,,,,,,,,,,,,
 ,,vector_std_trigger,KALIS Scalar Std.,0,0.03,,,,,,,,,,0
@@ -965,8 +965,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,vector_45acp_bolt,,,,,,,,,,,,,,
 ,,vector_45acp_bolt,KALIS Scalar .45ACP,0,0.05,,,,,,,,,,0
 ,vector_9mm_barrel,,,,,,,,,,,,,,
-,,vector_9mm_170mm_barrel,KALIS Scalar 9x19 170mm,-1,0.26,-1,-1,,-0.05,0.02,2,-0.1,,,750
-,,vector_9mm_140mm_barrel,KALIS Scalar 9x19 140mm,0,0.23,0,0,,0,0,-28,0,,,800
+,,vector_9mm_170mm_barrel,KALIS Scalar 9x19 170mm,-1,0.26,-1,-1,,-0.05,0.02,20,-0.1,,,750
+,,vector_9mm_140mm_barrel,KALIS Scalar 9x19 140mm,0,0.23,0,0,,0,0,-20,0,,,800
 ,vector_45acp_barrel,,,,,,,,,,,,,,
 ,,vector_45acp_170mm_barrel,KALIS Scalar .45ACP 170mm,-1,0.27,-1,-1,,-0.02,0.03,-72,-0.1,,,750
 ,,vector_45acp_140mm_barrel,KALIS Scalar .45ACP 140mm,0,0.23,0,0,,0,0,-99,0,,,800
@@ -1700,7 +1700,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,glock_underbarrel_picatinny,,,,,,,,,,,,,,
 ,,rail,Additional attachment,0,0,,,,,,,,,,0
 ,glock_barrel,,,,,,,,,,,,,,
-,,kosch_9x19_114mm_barrel,KOSCH 9x19 114mm Barrel,0,0.1,0,0,,0,0,-61,,,,0
+,,kosch_9x19_114mm_barrel,KOSCH 9x19 114mm Barrel,0,0.1,0,0,,0,0,-50,,,,0
 ,,sai_match_threaded_9x19_barrel,SAI Match Threaded G17 9x19,0,0.13,-7,-10,,0.05,0,-57,,,,1200
 ,,glock17l_ported_153mm_9x19_barrel,Glock 17L Ported 153mm 9x19 Barrel,-1,0.17,-12,-15,,-0.1,0.03,-14,,,,1500
 ,,igb_austria_match_grade_polygonal_406mm_9x19_barrel,IGB Austria Match Grade Polygonal 406mm 9x19 Barrel,-25,0.4,-10,-15,,-0.2,0.09,140,,,,3000
@@ -1746,8 +1746,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,edc_x9_hammer,,,,,,,,,,,,,,
 ,,whitner_defense_edc_x9_hammer,Whitner Defense EDC X9 Std.,0,0.02,,,,,,,,,,0
 ,edc_x9_barrel,,,,,,,,,,,,,,
-,,whitner_defense_edc_x9_102mm_9x19_barrel,Whitner Defense EDC X9 102mm 9x19,0,0.1,0,0,,0,0,-78,,,,0
-,,whitner_defense_edc_x9_127mm_threaded_9x19_barrel,Whitner Defense EDC X9 127mm Threaded 9x19,-1,0.12,2,2,,0.1,0,-44,,,,750
+,,whitner_defense_edc_x9_102mm_9x19_barrel,Whitner Defense EDC X9 102mm 9x19,0,0.1,0,0,,0,0,-70,,,,0
+,,whitner_defense_edc_x9_127mm_threaded_9x19_barrel,Whitner Defense EDC X9 127mm Threaded 9x19,-1,0.12,2,2,,0.1,0,-40,,,,750
 ,edc_x9_bottomplate,,,,,,,,,,,,,,
 ,,whitner_defense_edc_x9_mag_bottomplate,Whitner Defense EDC X9 Magazine,0,0.02,,,,,,,,,,0
 ,edc_x9_grip,,,,,,,,,,,,,,
@@ -1810,17 +1810,17 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,9x18_bison_caliber_115gr_hcfn,9x18 Bison Caliber 115gr HCFN +P,1,0,,,,,,,,,,500
 ,,9x18_tsniitekhmash_sp7_gzh_80gr,9x18 TsNIITekhMash SP7 gzh 80gr,-3,0.03,5,3,,0.4,,-100,,,,1000
 ,ammo_9x19,,,,,,,,,,,,,,
-,,9x19_roosevelt_umc_115gr_fmj,Roosevelt UMC 115gr FMJ,1,0.02,0,0,,0,0.02,0,,,,0
-,,9x19_appalachian_mk254_mod0_90gr_frangible,Appalachian Mk.254 Mod0 90gr Frangible,1,0,-6,-3,,-0.1,-0.04,0,,,,600
-,,9x19_appalachian_xm1153_147gr_jhp,Appalachian XM1153 147gr JHP,-1,0.02,14,14,,0.3,,-100,,,,2000
-,,9x19_appalachian_m882_124gr_fmj,Appalachian M882 124gr FMJ +P,0,0.04,1,-1,,-0.05,0.19,-150,,,,1500
-,,9x19_appalachian_m1152_115gr_fmjfn,Appalachian M1152 115gr FMJ-FN +P+,1,0.02,0,0,,0,0.02,0,,,,0
-,,9x19_zfm_luger_154gr_fmjfp_subsonic,ZFM Luger 154gr FMJ-FP Subsonic,2,0.06,-8,-11,,0.2,-0.04,-300,,,,1200
-,,9x19_pulsar_119gr_green_tracer,Pulsar 119gr Green Tracer,0,0.03,-3,-5,,0.05,0.02,-150,,,,750
-,,9x19_novosibirsk_7n21_80gr_pst,Novosibirsk 7N21 80gr PST,1,0.02,0,0,,0,0.02,0,,,,0
-,,9x19_s2_research_9mm_rip_92gr_fhp,S2 Research RIP 92gr FHP,1,0.02,0,0,,0,0.02,0,,,,0
-,,9x19_kazarov_7n31_pbp_gzh_64gr,Kazarov 7N31 PBP gzh 64gr +P+,1,0.02,0,0,,0,0.02,0,,,,0
-,,9x19_btv_scorpio_nato_115gr_fmj,BVT Scorpio NATO 115gr FMJ +P,1,0.02,0,0,,0,0.02,0,,,,0
+,,9x19_roosevelt_umc_115gr_fmj,Roosevelt UMC 115gr FMJ ,0,0.00,0,0,,0.00,,0,,,,0
+,,9x19_appalachian_mk254_mod0_90gr_frangible,Appalachian Mk.254 Mod0 90gr Frangible,0,-0.06,-3,-2,,0.00,,100,,,,750
+,,9x19_appalachian_xm1153_147gr_jhp,Appalachian XM1153 147gr JHP,-1,0.08,2,3,,-0.10,,-100,,,-0.2,3500
+,,9x19_appalachian_m882_124gr_fmj,Appalachian M882 124gr FMJ +P,0,0.02,2,1,,-0.05,,50,,,,1250
+,,9x19_appalachian_m1152_115gr_fmjfn,Appalachian M1152 115gr FMJ-FN +P+,-2,0.00,3,2,,-0.20,,200,,,,3000
+,,9x19_zfm_luger_154gr_fmjfp_subsonic,ZFM Luger 154gr FMJ-FP Subsonic,3,0.10,0,0,,0.05,,-250,,,-0.7,2750
+,,9x19_pulsar_119gr_green_tracer,Pulsar 119gr Green Tracer,2,0.01,-1,-1,,0.10,,0,,,,500
+,,9x19_novosibirsk_7n21_80gr_pst,Novosibirsk 7N21 80gr PST,-1,-0.09,-1,-1,,-0.10,,300,,,,2000
+,,9x19_s2_research_9mm_rip_92gr_fhp,S2 Research RIP 92gr FHP,1,-0.06,0,-2,,0.05,,100,,,,1500
+,,9x19_kazarov_7n31_pbp_gzh_64gr,Kazarov 7N31 PBP gzh 64gr +P+,-2,-0.12,-1,0,,-0.15,,500,,,,2500
+,,9x19_btv_scorpio_nato_115gr_fmj,BVT Scorpio NATO 115gr FMJ +P,-1,0.00,1,1,,-0.10,,100,,,,1000
 ,ammo_10mm,,,,,,,,,,,,,,
 ,,10mm_phoenix_aluminum_200gr_fmj,10mm Auto Phoenix Aluminum 200gr FMJ,0,0.03,,0,,0,,100,,,,0
 ,,10mm_roosevelt_umc_180gr_fmj,10mm Auto Roosevelt UMC 180gr FMJ,0,0.04,,0,,0.05,,50,,,,1000
@@ -1848,7 +1848,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,12g_foxhill_275_mean_bean_bag,"12G Fox Hill 2.75"" Mean Bean Bag",10,,-15,-10,,0.4,,-400,,,,100
 ,ump_upper_receiver,,,,,,,,,,,,,,
 ,,hk_ump45_upper_receiver,UMC-45 .45 ACP,0,0.39,,,,,,,,,,
-,,hk_ump9_upper_receiver,UMC-9 9x19,7,0.37,-25,-23,,,,200,,0.25,,4000
+,,hk_ump9_upper_receiver,UMC-9 9x19,7,0.37,-25,-23,,,,300,,0.25,,4000
 ,ump_trigger,,,,,,,,,,,,,,
 ,,hk_ump_trigger,UMC,1,0.02,,,,,,,,,,0
 ,ump_top_rail,,,,,,,,,,,,,,
@@ -1884,8 +1884,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ump9_bcg,,,,,,,,,,,,,,
 ,,hk_ump9_bcg,UMC-9,0,0.15,0,0,0,0,0,0,,0,,500
 ,ump9_barrel,,,,,,,,,,,,,,
-,,hk_ump9_200mm_flanged_barrel,UMC-9 200mm 9x19 Flanged,0,0.28,-1,0,,0,,-15,,,,500
-,,hk_ump9_200mm_trilug_threaded_barrel,UMC-9 200mm 9x19 Tri-Lug Threaded,-2,0.28,1,1,,0.05,,-20,,,,1000
+,,hk_ump9_200mm_flanged_barrel,UMC-9 200mm 9x19 Flanged,0,0.28,-1,0,,0,,70,,,,500
+,,hk_ump9_200mm_trilug_threaded_barrel,UMC-9 200mm 9x19 Tri-Lug Threaded,-2,0.28,1,1,,0.05,,70,,,,1000
 ,ump45_bcg,,,,,,,,,,,,,,
 ,,hk_ump45_bcg,UMC-45,0,0.16,0,0,0,0,0,0,,,,0
 ,ump_bolt_catch,,,,,,,,,,,,,,
@@ -2117,8 +2117,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,aug_a3_stock_buttpad,,,,,,,,,,,,,,
 ,,aug_a3_stock_buttpad,AUG A3 Factory Stock,1,0.06,,,,,,,,,,0
 ,aug_para_9x19_barrel,,,,,,,,,,,,,,
-,,steyr_aug_para_9x19_420mm_barrel,Löwenherz AUG Para 9x19 420mm,3,0.52,-12,-14,,0,0.09,145,,,,2000
-,,steyr_aug_para_9x19_325mm_threaded_barrel,Löwenherz AUG Para 9x19 325mm Threaded,4,0.42,-9,-8,,0.1,0.06,105,,,,3000
+,,steyr_aug_para_9x19_420mm_barrel,Löwenherz AUG Para 9x19 420mm,3,0.52,-12,-14,,0,0.09,200,,,,2000
+,,steyr_aug_para_9x19_325mm_threaded_barrel,Löwenherz AUG Para 9x19 325mm Threaded,4,0.42,-9,-8,,0.1,0.06,160,,,,3000
 ,aug_para_9x19_bolt_carrier,,,,,,,,,,,,,,
 ,,steyr_aug_para_9x19_std_bolt_carrier,AUG Para 9x19 Std.,0,0.2,,,,,,,,,,0
 ,aug_a1_receiver_top_sights,,,,,,,,,,,,,,
@@ -2231,8 +2231,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,mosin_carbine_stock,Mosin Std. Carbine,3,0.8,0,-3,,,,,,,,500
 ,,mosin_standard_stock,Mosin Std. Sniper,5,0.9,-1,-5,,,,,,,,0
 ,pp19_barrel,,,,,,,,,,,,,,
-,,kazarov_pp-19-01_238mm_9x19_barrel,Kazarov PP-19-01 Vityaz 238mm 9x19,0,0.32,0,0,,0.05,0.04,50,,,,0
-,,kazarov_saiga_9_345mm_9x19_barrel,Kazarov Saiga-9 345mm 9x19,-2,0.44,-2,-2,,0,0.07,90,,,,500
+,,kazarov_pp-19-01_238mm_9x19_barrel,Kazarov PP-19-01 Vityaz 238mm 9x19,0,0.32,0,0,,0.05,0.04,120,,,,0
+,,kazarov_saiga_9_345mm_9x19_barrel,Kazarov Saiga-9 345mm 9x19,-2,0.44,-2,-2,,0,0.07,170,,,,500
 ,pp19_fs_block,,,,,,,,,,,,,,
 ,,kazarov_pp-19-01_vityaz_front_sight_block,Kazarov PP-19-01 Vityaz,0,0.04,,,,,,,,,,0
 ,pp19_front_trunnion,,,,,,,,,,,,,,
@@ -2775,7 +2775,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,hk_mp5a3_early_gen_stock_endplate,MPi-54A3 Early Gen,0,0.1,,,,,,,,,,1500
 ,,hk_mp5a3_early_gen_collapsible_stock,MPi-54A3 Early Gen Collapsible,12,0.2,-9,-9,,,,,,,,0
 ,mp5_barrel,,,,,,,,,,,,,,
-,,hk_mp5_9x19_225mm_barrel,MPi-54 225mm 9x19,0,0.31,-3,-7,,0,0.03,47,,,,0
+,,hk_mp5_9x19_225mm_barrel,MPi-54 225mm 9x19,0,0.31,-3,-7,,0,0.03,100,,,,0
 ,hk_claw_mount,,,,,,,,,,,,,,
 ,,mfi_hk_universal_low_profile_scope_mount,MFI Universal Low Profile Scope,-1,0.07,,,,,,,,,,750
 ,,mfi_hk_universal_low_profile_scope_mount_flipped,MFI Universal Low Profile Scope Flipped,-1,0.07,,,,,,,,,,750
@@ -2891,10 +2891,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sig_sauer_p320_mag_short_sleeve,Sic Stürmer P320 Short,1,0.06,,,,,,,,,,500
 ,,sig_sauer_p320_mag_long_sleeve,Sic Stürmer P320 Long,1.5,0.08,,,,,,,,,,1000
 ,sig_sauer_p320_barrel,,,,,,,,,,,,,,
-,,sig_sauer_p320_compact_3.9inch_9x19_barrel,"Sic Stürmer Compact-Size 3.9"" 9x19",4,0.09,3,3,,0.1,-0.02,-80,,,,1000
+,,sig_sauer_p320_compact_3.9inch_9x19_barrel,"Sic Stürmer Compact-Size 3.9"" 9x19",4,0.09,3,3,,0.1,-0.02,-70,,,,1000
 ,,sig_sauer_p320_compact_4.6inch_threaded_9x19_barrel,"Sic Stürmer Compact-Size 4.6"" Threaded 9x19",1,0.11,1,1,,0.05,0,-50,,,,3000
-,,sig_sauer_p320_full_4.7inch_9x19_barrel,"Sic Stürmer Full-Size 4.7"" 9x19",0,0.11,0,0,,0,0,-45,,,,0
-,,sig_sauer_p320_full_5.5inch_threaded_9x19_barrel,"Sic Stürmer Full-Size 5.5"" Threaded 9x19",-3,0.13,-1,-1,,-0.1,0.02,-10,,,,1500
+,,sig_sauer_p320_full_4.7inch_9x19_barrel,"Sic Stürmer Full-Size 4.7"" 9x19",0,0.11,0,0,,0,0,-46,,,,0
+,,sig_sauer_p320_full_5.5inch_threaded_9x19_barrel,"Sic Stürmer Full-Size 5.5"" Threaded 9x19",-3,0.13,-1,-1,,-0.1,0.02,-20,,,,1500
 ,sig_sauer_p320_grip_module,,,,,,,,,,,,,,
 ,,sig_sauer_p320_xfull_grip_module,Sic Stürmer P320 XFULL,0,0.11,-2,-2,,,,,,,,0
 ,,sig_sauer_p320_xcarry_grip_module,Sic Stürmer P320 XCARRY,2,0.09,0,0,,,,,,,,2000
@@ -2934,10 +2934,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,pistol,,,,,,,,,,,,,,
 ,,Makarov,Pistolet Makarova,75,0,25,25,0,1,1,800,,,1,2000
 ,,TT33,Tokarev TT-33,45,0,40,40,0,1.2,0.98,1100,,,1,5000
-,,EDC_X9,Whitner Defense EDC X9,80,0,25,25,0,0.9,1,1000,,,1,40000
-,,KOSCH,KOSCH,65,0,25,40,0,1.2,1,1000,,,1,0
+,,EDC_X9,Whitner Defense EDC X9,80,0,25,25,0,0.9,1,1200,,,1,40000
+,,KOSCH,KOSCH,65,0,25,40,0,1.2,1,1200,,,1,0
 ,,Glock20,Glock 20,60,0.4,40,70,0,1.1,1,1000,,,1,10000
-,,P320,Sic Stürmer P320,70,0,20,30,0,1,1,1000,,,1,25000
+,,P320,Sic Stürmer P320,70,0,20,30,0,1,1,1200,,,1,25000
 ,rifle,,,,,,,,,,,,,,
 ,,KF416,KF 416,25,0,70,80,0,0.55,1,2450,,,1,30000
 ,,AUG_A3,Löwenherz AUG A3,40,0,55,65,0,0.5,1,2450,,,1,42000
@@ -2959,11 +2959,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,Remington870,Roosevelt M870 Express,25,0,90,90,1,0.8,1,1000,2.5,,1,20000
 ,,MP133,Ladoga MP133,25,0,60,70,1,0.6,1,1000,2.5,,1,9000
 ,smg,,,,,,,,,,,,,,
-,,MP5,KF MPi-54,40,0,45,55,0,1.05,1,1000,,,1,5000
-,,Vector,KALIS Scalar Gen II,25,0,60,60,0,1.2,1,700,,,1,90000
-,,MK9,AR-9,30,0,55,70,0,1.05,1,1000,,,1,20000
-,,UMP,KF UMC-45,60,0,80,90,0,1.05,1,700,,,1,15000
-,,AK_9,Kazarov Group PP-19-01,30,0,50,65,0,0.9,1,1000,,,1,11000
+,,MP5,KF MPi-54,40,0,45,55,0,1.05,1,1200,,,1,5000
+,,Vector,KALIS Scalar Gen II,25,0,60,60,0,1.2,1,900,,,1,90000
+,,MK9,AR-9,30,0,55,70,0,1.05,1,1200,,,1,20000
+,,UMP,KF UMC-45,60,0,80,90,0,1.05,1,900,,,1,15000
+,,AK_9,Kazarov Group PP-19-01,30,0,50,65,0,0.9,1,1200,,,1,11000
 ,turret,,,,,,,,,,,,,,
 ,,Turret,Handheld turret,30,3,60,40,200,1.6,1,600,,,1,100
 ,placer,,,,,,,,,,,,,,

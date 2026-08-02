@@ -1,4 +1,4 @@
-﻿0.25.3,Sun Aug 02 16:02:27 2026,,,,,,,,,,,,,,
+﻿0.25.3,Sun Aug 02 16:24:04 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -1797,13 +1797,13 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,5.45x39_tsniiitekhmash_7n39_63gr,TsNIITekhMash 7N39 63gr Igolnik,-1,0.04,2,0,,-0.10,,-100,,,,4000
 ,,5.45x39_lugansk_7u1_79gr_us,Lugansk 7U1 79gr US,3,0.10,-2,-3,,0.25,,-1200,,-0.02,-0.60,2000
 ,ammo_9x18,,,,,,,,,,,,,,
-,,9x18_novosibirsk_57_n_181s_92gr_pst,9x18 Novosibirsk 57-N-181S 92gr PST,0,0.02,,,,,,,,,,0
-,,9x18_hawthorne_xtp_95gr_jhpfb,9x18 Hawthorne XTP 95gr JHPFB,-3,0.03,5,3,,0.4,,-100,,,,1000
-,,9x18_novosibirsk_57_t_181_56gr_red_tracer,9x18 Novosibirsk 57-T-181 56gr Red Tracer,,0.02,-1,1,,0.1,,20,,,,750
-,,9x18_underworld_xtreme_penetrator_95gr_sm,9x18 Underworld Xtreme Penetrator 95gr SM,,0.05,-2,2,,0.1,,50,,,,1000
-,,9x18_kazarov_7n25_pbm_56gr_ap,9x18 Kazarov 7N25 PBM 56gr AP,0,0.02,,,,,,,,,,0
-,,9x18_bison_caliber_115gr_hcfn,9x18 Bison Caliber 115gr HCFN +P,1,0,,,,,,,,,,500
-,,9x18_tsniitekhmash_sp7_gzh_80gr,9x18 TsNIITekhMash SP7 gzh 80gr,-3,0.03,5,3,,0.4,,-100,,,,1000
+,,9x18_novosibirsk_57_n_181s_92gr_pst,Novosibirsk 57-N-181S 92gr PST,0,0.00,0,0,,0.00,,0,,,,0
+,,9x18_hawthorne_xtp_95gr_jhpfb,Hawthorne XTP 95gr JHPFB,-1,0.01,2,2,,0.00,,50,,,,1500
+,,9x18_novosibirsk_57_t_181_56gr_red_tracer,Novosibirsk 57-T-181 56gr Red Tracer,1,-0.04,-1,-1,,0.10,,100,,,,500
+,,9x18_underworld_xtreme_penetrator_95gr_sm,Underworld Xtreme Penetrator 95gr SM,-1,0.01,1,1,,-0.05,,50,,,,1000
+,,9x18_kazarov_7n25_pbm_56gr_ap,Kazarov 7N25 PBM 56gr AP,1,-0.04,1,-1,,-0.10,,600,,,0.1,2000
+,,9x18_bison_caliber_115gr_hcfn,Bison Caliber 115gr HCFN +P,-2,0.03,1,2,,0.05,,150,,,,1500
+,,9x18_tsniitekhmash_sp7_gzh_80gr,TsNIITekhMash SP7 gzh 80gr,-1,-0.02,3,1,,0.10,,400,,,0.1,2000
 ,ammo_9x19,,,,,,,,,,,,,,
 ,,9x19_roosevelt_umc_115gr_fmj,Roosevelt UMC 115gr FMJ ,0,0.00,0,0,,0.00,,0,,,,0
 ,,9x19_appalachian_mk254_mod0_90gr_frangible,Appalachian Mk.254 Mod0 90gr Frangible,0,-0.06,-3,-2,,0.00,,100,,,,750

@@ -34,6 +34,13 @@ The root balancing CSVs are authoritative for the stats and fields they define; 
 - Empty cells in change sheets are significant: `port.py` can overwrite target cells with empty strings.
 - For CSV work, check `git status --short`, read `README.md`, and sample the first three lines (`sed -n '1,3p' <file>.csv` or `Get-Content <file>.csv -TotalCount 3`).
 
+## XLSX Inspection
+
+- Before trying to understand an `.xlsx` or `.xlsm` change sheet, run `python inspect_xlsx.py <workbook>`. It provides fast, read-only, agent-oriented output for all worksheets, including populated cells, header cues, formulas and cached results, tables, merged ranges, comments, hyperlinks, and hidden regions.
+- Use `--sheet` and `--range` for focused follow-up inspection, especially when the default output is truncated. Use `--show-formulas` when exact formula expressions are needed inline.
+- Treat formula results as saved Excel caches whose freshness is unknown. The inspector does not recalculate formulas or modify the workbook.
+- Prefer this textual inspection over general spreadsheet import or rendering unless the task specifically depends on visual layout, formatting, charts, or other appearance details.
+
 ## Related Source and Studio Context
 
 The general data flow is:

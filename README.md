@@ -75,6 +75,36 @@ to a UTF-8 CSV. Reports formula cells with cached or missing results.
 python xlsx_to_csv.py "changes/changes.xlsx" [output.csv]
 ```
 
+### inspect_xlsx.py
+
+Prints a compact, read-only view of an Excel change sheet for coding agents. It
+shows every worksheet, populated cells and coordinates, cached formula results,
+repeated formula patterns, tables, merged ranges, comments, hyperlinks, and
+hidden regions without rendering or modifying the workbook. Conservative
+header cues identify likely table and section headers, including multiple
+sections in one worksheet, while leaving interpretation to the reader.
+
+Recommended agent workflow:
+
+1. Run `inspect_xlsx.py` before using a general spreadsheet importer or renderer.
+2. If the output is truncated or the task is focused, rerun it with `--sheet`
+   and `--range`.
+3. Use `--show-formulas` when exact expressions are needed inline.
+4. Only render the workbook when the task depends on layout, formatting,
+   charts, or other visual details.
+
+```bash
+python inspect_xlsx.py "changes/m4-stocks.xlsx"
+python inspect_xlsx.py "changes/308-ammo-super.xlsx" --sheet Model --range A1:C39
+python inspect_xlsx.py "changes/m4-stocks.xlsx" --sheet m4-stocks --range N3:Q5 --show-formulas
+```
+
+Use `--max-cells` and `--max-formula-patterns` to control output size, and
+remember that formula results are cached values saved by Excel. The script does
+not recalculate them or guarantee that they are current. Displayed floats are
+rounded to remove unhelpful binary floating-point noise; workbook values are
+never changed.
+
 ### update_xlsx_from_csv.py
 
 Updates shared columns in an existing workbook from a CSV, matching rows by

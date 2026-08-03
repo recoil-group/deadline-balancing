@@ -1681,7 +1681,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,vector_17r_plate,Magazine,0,0.02,,,,,,,,,,1000
 ,,9x19_kriss_magex2_vector,9x19 KALIS MagEx2 For PF940 (+23 Rounds),-8,0.3,,,23,,,,,,,1000
 ,glock20_barrel,,,,,,,,,,,,,,
-,,kosch_10mm_114mm_barrel,KOSCH 10mm 114mm Barrel,-10,0.11,5,5,,0.1,0,0,,,,2000
+,,kosch_10mm_114mm_barrel,KOSCH 10mm Auto 114mm,-10,0.11,10,10,,0.1,0,0,,,,2000
 ,glock20_magazine_bottom_plate,,,,,,,,,,,,,,
 ,,kosch_default_10mm_mag_plate,KOSCH Default 10mm Magazine Plate,1,0.015,,,,,,,,,,0
 ,glock20_magazine_release,,,,,,,,,,,,,,

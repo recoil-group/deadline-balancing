@@ -1,4 +1,4 @@
-﻿0.25.3,Sun Aug 02 16:38:43 2026,,,,,,,,,,,,,,
+﻿0.25.3,Sun Aug 02 18:23:52 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -973,8 +973,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,magazine_45acp_vector,,,,,,,,,,,,,,
 ,,pf940_std_13r_vector_remodel,STD 13R .45 ACP,15,0.23,,,13,,,,,,,0
 ,magazine_556x45,,,,,,,,,,,,,,
-,,5.56x45_magtap_pmag_60r,Magtap PMAG D60 60R Drum,-12,1.12,,,60,0.1,,,,,,4000
-,,5.56x45_x15m_drum_50r,X-15M Drum,-8,1.05,,,50,,,,,,,3000
+,,5.56x45_magtap_pmag_60r,Magtap PMAG D60 60R Drum,-10,1.12,,,60,,,,,,,4000
+,,5.56x45_x15m_drum_50r,X-15M Drum,-5,1.05,,,50,,,,,,,3000
 ,,5.56x45_magtap_pmag_m3_10r,Magtap PMAG M3 5.56x45 10R,11,0.15,,,10,,,,,,,500
 ,,5.56x45_magtap_pmag_m3_20r,Magtap PMAG M3 5.56x45 20R,6,0.28,,,20,,,,,,,750
 ,,5.56x45_hart_ar15_stanag_30r,Hart STANAG AR-15 30R,0,0.39,,,30,,,,,,,500
@@ -990,8 +990,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,5.56x45_kf_416_gen_3_magazine,KF-416 30R Gen 3,1,0.41,,,30,,,,,,,1500
 ,,5.56x45_hk_polymer_transparent_30r,Polymer 30R Transparent Mag,1,0.43,,,30,,,,,,,1300
 ,,5.56x45_aft_30r,AF Tournai 30R,1,0.42,,,30,,,,,,,1200
-,,5.56x45_centrefire_mag560_60r_mag,Centrefire MAG560 60R,-17,0.87,,,60,0.1,,,,,,4000
-,,5.56x45_centrefire_mag5100_100r_mag,Centrefire MAG5100 100R,-25,1.29,,,100,0.15,,,,,,5500
+,,5.56x45_centrefire_mag560_60r_mag,Centrefire MAG560 60R,-17,0.87,,,60,,,,,,,4000
+,,5.56x45_centrefire_mag5100_100r_mag,Centrefire MAG5100 100R,-25,1.29,,,100,,,,,,,5500
 ,,5.56x45_dragoon_systems_l5awm_gen2_30r_opaque_mag,Dragoon Systems L5AWM Gen2 Opaque 5.56x45 30R,-1.5,0.28,,,30,,,,,,,1500
 ,,5.56x45_dragoon_systems_l5awm_gen2_30r_translucent_mag,Dragoon Systems L5AWM Gen2 Translucent 5.56x45 30R,-1.5,0.28,,,30,,,,,,,1700
 ,magazine_762x39_akm,,,,,,,,,,,,,,
@@ -1001,9 +1001,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,7.62x39_promag_ak47_polymer_mag_30r,ProClip AK-47 7.62x39 Polymer 30R,0.5,0.6,,,30,,,,,,,1000
 ,,7.62x39_promag_ak47_polymer_mag_40r,ProClip AK-47 7.62x39 Polymer 40R,-6,0.78,,,40,,,,,,,1500
 ,,7.62x39_kazarov_akm_ribbed_1955_30r_mag,Kazarov AKM Ribbed 1955 7.62x39 30R,1,0.65,,,30,,,,,,,500
-,,7.62x39_ati_schmeisser_ak47_windowed_60r_mag,ATI Schmeisser AK47 Windowed 7.62x39 60R,-10,1.09,,,60,,,,,,,3500
-,,7.62x39_rwb_ak47_75r_drum_mag,RWB AK47 7.62x39 75R Drum,-13,1.51,,,75,0.15,,,,,,5000
-,,7.62x39_rwb_ak47_100r_drum_mag,RWB AK47 7.62x39 100R Drum,-17,1.86,,,100,0.23,,,,,,6000
+,,7.62x39_ati_schmeisser_ak47_windowed_60r_mag,ATI Schmeisser AK47 Windowed 7.62x39 60R,-8,1.09,,,60,,,,,,,3500
+,,7.62x39_rwb_ak47_75r_drum_mag,RWB AK47 7.62x39 75R Drum,-11,1.51,,,75,,,,,,,5000
+,,7.62x39_rwb_ak47_100r_drum_mag,RWB AK47 7.62x39 100R Drum,-15,1.86,,,100,,,,,,,6000
 ,magazine_762x51_ak308,,,,,,,,,,,,,,
 ,,7.62x51_kazarov_group_ak308_20r_mag,Kazarov Group 7.62x51 AK-308 20R,0,0.59,,,20,,,,,,,0
 ,,springfield_armory_m14_7.62x51_modified_30r_mag,Springfield Armory M14/M1A 7.62x51 Modified 30R,-6,0.93,,,30,,,,,,,1000
@@ -1029,13 +1029,13 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,hart_smg_extension,,,,,,,,,,,,,,
 ,,tyler_freelance_hart_smg_10r_mag_extension,Tyler Freelance Hart SMG 10R Mag Extension,-6,0.12,,,10,,,,,,,1000
 ,hart_50_more,,,,,,,,,,,,,,
-,,custom_hart_smg_9x19_50r_extension,Custom Hart SMG 9x19 50R Extension,-40,0.57,,,50,,,,,,,5000
+,,custom_hart_smg_9x19_50r_extension,Custom Hart SMG 9x19 50R Extension,-45,0.57,,,50,,,,,,,5000
 ,,custom_hart_smg_mag_coupler,Custom Hart SMG 9x19,-2,0.1,,,,,,,,,,0
 ,magazine_762x25mm_tt33,,,,,,,,,,,,,,
 ,,tt33_std_8rnd,TT-33 Std. Single Stack 8R,27,0.09,,,8,,,,,,,0
 ,,tt33_extended_16r_mag,TT-33 Custom Welded Single Stack Extended 16R,10,0.18,,,16,,,,,,,1000
 ,magazine_9x18,,,,,,,,,,,,,,
-,,custom_pm_ppsh_9x18_84r_drum_mag,Custom PM/PPSH 9x18 84R Drum,-12,0.88,4,-1,84,0.05,,,,,,5000
+,,custom_pm_ppsh_9x18_84r_drum_mag,Custom PM/PPSH 9x18 84R Drum,-12,0.88,4,-1,84,,,,,,,5000
 ,,izhevsk_pm_9x18_8r_magazine,Izhevsk PM 9x18 8R,0,0.09,,,8,,,,,,,0
 ,magazine_9x19_edc_x9,,,,,,,,,,,,,,
 ,,whitner_defense_edc_x9_18r_magazine,Whitner Defense EDC X9 Std. 18r,0,0.22,,,18,,,,,,,1000
@@ -1087,13 +1087,13 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,magazine_9x19_mp5,,,,,,,,,,,,,,
 ,,hk_mp5_std_curved_30r_9x19_magazine,MPi-54 Std. Curved 9x19 30R Mag,0,0.35,,,30,,,,,,,0
 ,,hk_mp5_straight_30r_9x19_magazine,MPi-54 Straight 9x19 30R Mag,1,0.37,,,30,,,,,,,500
-,,cartesia_productions_mp5_50r_9x19_drum,Cartesia Productions MPi-54 9x19 50R Drum,-9,0.83,,,50,,,,,,,3000
+,,cartesia_productions_mp5_50r_9x19_drum,Cartesia Productions MPi-54 9x19 50R Drum,-6,0.83,,,50,,,,,,,3000
 ,mp5_magazine_bottom_plate,,,,,,,,,,,,,,
 ,,hk_mp5_std_mag_plate,MPi-54 Std. Curved Mag,0,0.02,,,,,,,,,,0
 ,magazine_9x19_pp19,,,,,,,,,,,,,,
 ,,kazarov_pp-19-01_vityaz_9x19_30r_mag,Kazarov PP-19-01 Vityaz 9x19 30R,0,0.34,,,30,,,,,,,0
 ,,kazarov_saiga_9_9x19_pinned_10r_mag,Kazarov Saiga-9 9x19 Pinned 10R,9,0.15,,,10,,,,,,,200
-,,kalashnikov_usa_kp9_9x19_50r_drum_mag,Kazarov USA KP9 9x19 50R Drum,-9,0.85,,,50,,,,,,,3000
+,,kalashnikov_usa_kp9_9x19_50r_drum_mag,Kazarov USA KP9 9x19 50R Drum,-6,0.85,,,50,,,,,,,3000
 ,pp19_bottom_plate,,,,,,,,,,,,,,
 ,,kazarov_pp-19-01_mag_bottom_plate,Kazarov PP-19-01,0,0.02,,,,,,,,,,0
 ,magazine_45acp_ump45,,,,,,,,,,,,,,
@@ -1113,9 +1113,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,rsa_sa58_fal_metric_polymer_magazine_20r,RSA FAL SA-58 U.S. Made Polymer Metric 20R,-3,0.48,,,20,,,,,,,1000
 ,,enfield_l1a1_slr_pattern_mag_30r,Sheffield L4 Pattern 30R,-6,0.94,,,30,,,,,,,2500
 ,,nm_fal_polymer_mag_20r,Noah Magazines Polymer 20R,-1,0.55,,,20,,,,,,,1500
-,,cartesia_productions_x_fal_drum_mag_50r,Cartesia Productions X-FAL .308 50R Drum,-15,1.49,,,50,0.1,,,,,,4000
+,,cartesia_productions_x_fal_drum_mag_50r,Cartesia Productions X-FAL .308 50R Drum,,,,,,,,,,,,
 ,magazine_7.62x51_nato_scarh,,,,,,,,,,,,,,
-,,promag_scar17_7.62x51_50r_drum,ProClip AF Tournai 17 .308 50R Drum,-15,1.46,,,50,0.1,,,,,,4500
+,,promag_scar17_7.62x51_50r_drum,ProClip AF Tournai 17 .308 50R Drum,-15,1.46,,,50,,,,,,,4500
 ,,aft_mk_17_7.62x51_10r,AFT MK-17 7.62x51 NATO 10R,7,0.32,,,10,,,,,,,500
 ,,carpe_diem_industries_scar_7.62x51_polymer_15r,Carpe Diem Industries SCAR-H 7.62x51 Polymer 15R,2,0.43,,,15,,,,,,,1500
 ,,carpe_diem_industries_scar_7.62x51_polymer_20r,Carpe Diem Industries SCAR-H 7.62x51 Polymer 20R,-1,0.57,,,20,,,,,,,1250
@@ -1123,8 +1123,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,carpe_diem_industries_scar_7.62x51_polymer_10r,Carpe Diem Industries SCAR-H 7.62x51 Polymer 10R,6.5,0.29,,,10,,,,,,,750
 ,,aft_mk_17_7.62x51_20r,AFT MK-17 7.62x51 NATO 20R,0,0.63,,,20,,,,,,,0
 ,magazine_7.62x51_nato_sr25,,,,,,,,,,,,,,
-,,cartesia_productions_x25_7.62x51_drum_50r,Cartesia Productions X-25 .308 50R Drum,-14,1.5,,,50,0.1,,,,,,5000
-,,magtap_pmag_d50_lr_sr_gen_m3_7.62x51_50r,Magtap PMAG D-50 LR/SR Gen M3 .308 50R Drum,-15,1.45,,,50,0.1,,,,,,4500
+,,cartesia_productions_x25_7.62x51_drum_50r,Cartesia Productions X-25 .308 50R Drum,-14,1.5,,,50,,,,,,,5000
+,,magtap_pmag_d50_lr_sr_gen_m3_7.62x51_50r,Magtap PMAG D-50 LR/SR Gen M3 .308 50R Drum,-15,1.45,,,50,,,,,,,4500
 ,,dragoon_systems_l7awm_translucent_7.62x51_25r,Dragoon Systems L7AWM Translucent 7.62x51 25R,-3.5,0.73,,,25,,,,,,,1500
 ,,dragoon_systems_l7awm_7.62x51_25r,Dragoon Systems L7AWM 7.62x51 25R,-4,0.72,,,25,,,,,,,1500
 ,,dragoon_systems_l7awm_translucent_7.62x51_20r,Dragoon Systems L7AWM Translucent 7.62x51 20R,0.5,0.59,,,20,,,,,,,1250
@@ -1132,7 +1132,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,l7awm_mag_assist,,,,,,,,,,,,,,
 ,,magtap_223_mag_assist_l7awm,Magtap 223,1,0.03,,,,,,,,,,200
 ,magazine_9mm_vector,,,,,,,,,,,,,,
-,,9x19_sgmt_drum50r_vector,SGMT 9x19 50R Drum,-10,0.9,,,50,,,,,,,3000
+,,9x19_sgmt_drum50r_vector,SGMT 9x19 50R Drum,-6,0.9,,,50,,,,,,,3000
 ,,9x19_pf940_std_17r_vector,PF940 9x19 17R,0,0.21,,,17,,,,,,,500
 ,magazine_7.62x51_g3,,,,,,,,,,,,,,
 ,,hk_g3_std_20r_magazine,KG-31 Standard 20R,0,0.64,,,20,,,,,,,1000

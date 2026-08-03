@@ -2140,7 +2140,6 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 1019,,corvus_defension_m1_aug_receiver_rail,Corvus Defensio M1 AUG Receiver Rail,-1,0.14,-1,-1,,,,,,,750
 ,,steyr_aug_a3sf_60mm_3x_scope,Steyr AUG A3SF 60mm 3x,2,0.26,0,-1,,,,,,,3000
 ,,steyr_aug_a3sf_60mm_1.5x_scope,Steyr AUG A3SF 60mm 1.5x,2,0.26,0,-1,,,,,,,2000
-,,steyr_aug_a3_m1_extended_factory_rail,Steyr AUG A3 M1 Extended Factory Top Rail,-2,0.13,-1,-2,,,,,,,800
 ,aug_a3_trigger,,,,,,,,,,,,,
 1020,,aug_a3_std_trigger,AUG A3 Std.,1,0.06,,,,,,,,,0
 1021,,arid_concepts_aug_improved_trigger,Arid Concepts AUG Improved Trigger,2,0.08,,,,,,,,,600

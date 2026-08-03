@@ -51,11 +51,12 @@ Folder containing all balancing sheets from previous versions. These are used to
 
 ### port.py
 
-Script to port changes from a change sheet into `balancing.csv` or `testing.csv`. Usage:
+Script to port changes from a CSV or Excel change sheet into `balancing.csv` or `testing.csv`. Usage:
 
 ```bash
 python port.py (change sheet) (target sheet) (header row)
 python port.py "changes/changes.csv" "testing.csv" 2
+python port.py "changes/changes.xlsx" "balancing.csv" 2
 ```
 
 - Updates the date in the target sheet automatically.
@@ -63,6 +64,37 @@ python port.py "changes/changes.csv" "testing.csv" 2
 - Order of columns in the change sheet does not matter.
 - Empty cells will overwrite existing data. Be careful.
 - `[header row]` is the row # of the column headers in the change sheet. Useful for extra labels or dates above the headers.
+- Warns when source names or columns are not present in the target.
+
+### xlsx_to_csv.py
+
+Exports cached values from the first worksheet of an `.xlsx` or `.xlsm` workbook
+to a UTF-8 CSV. Reports formula cells with cached or missing results.
+
+```bash
+python xlsx_to_csv.py "changes/changes.xlsx" [output.csv]
+```
+
+### update_xlsx_from_csv.py
+
+Updates shared columns in an existing workbook from a CSV, matching rows by
+`name` and skipping formulas by default. The workbook is updated in place.
+
+```bash
+python update_xlsx_from_csv.py "balancing.csv" "changes/changes.xlsx" 2
+```
+
+Use `--dry-run` to preview changes. Saving with `openpyxl` may clear cached
+formula results. CSV names absent from the workbook are expected and are not
+reported.
+
+### fix_calibers.py
+
+Lowercases `TRUE`/`FALSE` cells in `calibers.csv`, or in a supplied CSV.
+
+```bash
+python fix_calibers.py [calibers.csv]
+```
 
 ### changelog.py
 
@@ -76,6 +108,7 @@ python changelog.py "archive/old-sheet.csv" "balancing.csv"
 - Outputs a changelog to `changelogs/version-changelog.md`.
 - Matches rows by `name` column.
 - Uses the `pretty_name` column for display in the changelog, falling back to `name`.
+- Reports changed and new entries.
 
 ### diff.py
 
@@ -89,3 +122,4 @@ python diff.py "old-sheet.csv" "changes/new-sheet.csv"
 - Outputs a changelog to `diffs/new-sheet.md`.
 - Matches rows by `name` column.
 - Uses the `pretty_name` column for display in the changelog, falling back to `name`.
+- Reports changed, new, and removed entries.

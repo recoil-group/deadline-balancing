@@ -2134,7 +2134,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,wfortungsten_3d_printed_aug_nato_magwell,WforTungsten's 3D Printed AUG NATO,2,0.03,,,,,,,,,,750
 ,aug_a3_charging_handle,,,,,,,,,,,,,,
 ,,aug_a1_std_charging_handle,AUG A1 Std.,0,0.02,,,,,,,,,,0
-,,aug_a3_std_charging_handle,AUG A3 Std.,0,0.02,,,,,,,,,,0
+,,aug_a3_std_charging_handle,AUG A3 Std.,0,0.02,,,,,,,,,,400
 ,,cerberus_arms_aug_raptor_charging_handle,Cerberus Arms AUG Raptor,2,0.06,,,,,,,,,,600
 ,,corvus_defensio_aug_charging_handle,Corvus Defensio AUG,1,0.03,,,,,,,,,,500
 ,,arid_concepts_charging_handle_mount,Arid Concepts AUG Adjustable Charging Handle,1.5,0.02,,,,,,,,,,500

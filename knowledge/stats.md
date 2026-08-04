@@ -117,6 +117,8 @@ For example, a muzzle device with `-0.70` normally produces a completed multipli
 
 `price` is the attachment's cost in credits. Price affects accessibility but does not offset an item's combat strength.
 
+Price is not a primary balancing knob and does not justify a large strength gap. More expensive attachments can trend slightly better to support progression, but a class should not spread widely on price alone.
+
 ## Ammunition stats: `calibers.csv`
 
 `calibers.csv` defines ammunition behavior. The selected ammunition supplies the damage curve, spread behavior, velocity loss, penetration, suppression, and other projectile properties.

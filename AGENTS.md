@@ -44,6 +44,7 @@ The root balancing CSVs are authoritative for the stats and fields they define; 
 - A dry run of `port.py` is the authoritative validation and mechanical diff for a proposed port.
 - Prefer these textual tools over spreadsheet rendering unless the task depends on visual layout, formatting, charts, or other appearance details.
 - Running `port.py` without `--dry-run` writes the changes. Do so only when the user asks to port them.
+- A row with a blank `name` is usually intentional, not a missing name. Authors add combination or reference rows.
 
 ## Related Source and Studio Context
 

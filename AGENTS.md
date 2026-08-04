@@ -16,7 +16,7 @@ The root balancing CSVs are authoritative for the stats and fields they define; 
 - `balancing.csv`: primary attachment stats sheet.
 - `testing.csv`: testing/dev import sheet; ignore unless specifically asked to use it.
 - Root CSVs loaded into Studio include `calibers.csv`, `optics.csv`, `lasers.csv`, `flashlights.csv`, `camo.csv`, and `progression.csv`.
-- `changes/`: focused one-time change sheets, usually paired `.csv` and `.xlsx`. The `.xlsx` files are the human-editing source of truth; Python scripts read the `.csv` files.
+- `changes/`: focused one-time change sheets, usually paired `.csv` and `.xlsx`. The `.xlsx` files are the human-editing source of truth; `.csv` is simply a temporary file for porting.
 - `archive/`: historical balancing CSVs for changelog generation.
 - `changelogs/` and `diffs/`: generated Markdown changelog outputs.
 - `demos/`: small HTML balancing visualizations/tools.
@@ -29,14 +29,14 @@ The root balancing CSVs are authoritative for the stats and fields they define; 
 ## Balancing Repo Notes
 
 - `name` is the primary key used to match items across CSVs and Studio.
-- `fire_rate` and `bullet_damage` are fractional modifiers applied to base weapon or ammo stats.
+- `fire_rate`, `bullet_damage`, `muzzle_loudness` are fractional modifiers applied to base weapon or ammo stats. so `0.1` damage means increase damage by 10% of the gun's base damage.
 - The scripts use `utf-8-sig` CSV handling. This standard should apply to all CSVs.
 - Empty cells in change sheets are significant: `port.py` can overwrite target cells with empty strings.
-- For CSV work, check `git status --short`, read `README.md`, and sample the first three lines (`sed -n '1,3p' <file>.csv` or `Get-Content <file>.csv -TotalCount 3`).
+- For CSV work, check `git status --short`, read `README.md`, and potentially sample the first three lines (`sed -n '1,3p' <file>.csv` or `Get-Content <file>.csv -TotalCount 3`).
 
 ## XLSX Inspection
 
-- Before trying to understand an `.xlsx` or `.xlsm` change sheet, run `python inspect_xlsx.py <workbook>`. It provides fast, read-only, agent-oriented output for all worksheets, including populated cells, header cues, formulas and cached results, tables, merged ranges, comments, hyperlinks, and hidden regions.
+- Before trying to understand an `.xlsx` change sheet, run `python inspect_xlsx.py <workbook>`. It provides fast, read-only, agent-oriented output for all worksheets, including populated cells, header cues, formulas and cached results, tables, merged ranges, comments, hyperlinks, and hidden regions. This should be sufficient for many tasks.
 - Use `--sheet` and `--range` for focused follow-up inspection, especially when the default output is truncated. Use `--show-formulas` when exact formula expressions are needed inline.
 - Treat formula results as saved Excel caches whose freshness is unknown. The inspector does not recalculate formulas or modify the workbook.
 - Prefer this textual inspection over general spreadsheet import or rendering unless the task specifically depends on visual layout, formatting, charts, or other appearance details.

@@ -57,6 +57,8 @@ Script to port changes from a CSV or Excel change sheet into `balancing.csv` or 
 python port.py (change sheet) (target sheet) (header row)
 python port.py "changes/changes.csv" "testing.csv" 2
 python port.py "changes/changes.xlsx" "balancing.csv" 2
+python port.py "changes/changes.xlsx" "balancing.csv" 2 --dry-run
+python port.py "changes/changes.xlsx" "balancing.csv" 2 --dry-run --format json
 ```
 
 - Updates the date in the target sheet automatically.
@@ -65,6 +67,18 @@ python port.py "changes/changes.xlsx" "balancing.csv" 2
 - Empty cells will overwrite existing data. Be careful.
 - `[header row]` is the row # of the column headers in the change sheet. Useful for extra labels or dates above the headers.
 - Warns when source names or columns are not present in the target.
+- `--dry-run` prints every proposed old-to-new value without writing and
+  identifies blank overwrites. Exact textual differences such as `5` and `5.0`
+  remain effective complete-state changes.
+- Rows without a `name`, names absent from the target, and unknown source
+  columns are ignored. The latter two are warnings in the preview.
+- The preview also warns about blank overwrites, `pretty_name` changes, and
+  source names or headers with surrounding whitespace. Warnings never stop a
+  port. In text output, `!` marks warned change lines; JSON contains a complete
+  structured warning list.
+- An uncached formula in a cell that would be imported stops the port because
+  its unknown result would otherwise be exported as a blank override.
+- Writes are atomic, and the target date is updated only when cells change.
 
 ### xlsx_to_csv.py
 

@@ -13,7 +13,7 @@ from __future__ import annotations
 import argparse
 import csv
 import sys
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 
 
@@ -21,6 +21,7 @@ from pathlib import Path
 class ConversionSummary:
     formula_cells: int
     cached_formula_results: int
+    missing_formula_cells: frozenset[tuple[int, int]] = field(default_factory=frozenset)
 
     @property
     def missing_formula_results(self) -> int:
@@ -83,6 +84,7 @@ def convert(input_path: Path, output_path: Path) -> ConversionSummary:
     output_path.parent.mkdir(parents=True, exist_ok=True)
     workbook = load_workbook(input_path, read_only=True, data_only=True)
     cached_formula_results = 0
+    cached_formula_positions: set[tuple[int, int]] = set()
     try:
         worksheet = workbook.worksheets[0]
         with open(output_path, "w", newline="", encoding="utf-8-sig") as output_file:
@@ -95,12 +97,17 @@ def convert(input_path: Path, output_path: Path) -> ConversionSummary:
                         and cell.value is not None
                     ):
                         cached_formula_results += 1
+                        cached_formula_positions.add((row_index, column_index))
                     values.append(csv_value(cell.value))
                 writer.writerow(values)
     finally:
         workbook.close()
 
-    return ConversionSummary(len(formula_cells), cached_formula_results)
+    missing_formula_cells = frozenset(
+        position for position in formula_cells
+        if position not in cached_formula_positions
+    )
+    return ConversionSummary(len(formula_cells), cached_formula_results, missing_formula_cells)
 
 
 def print_formula_summary(summary: ConversionSummary) -> None:

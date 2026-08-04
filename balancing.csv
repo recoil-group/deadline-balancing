@@ -1,4 +1,4 @@
-﻿0.25.3,Mon Aug 03 18:12:42 2026,,,,,,,,,,,,,,
+﻿0.25.3,Tue Aug 04 03:04:03 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -2402,18 +2402,18 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,rsa_sg58_saw_style,RSA SG58 SAW Style,0,0.1,-1,-2,,,,,,,,750
 ,,protac_ergonomic_ag_fal_pistol_grip,PRO Tactical Ergonomic AG-FAL,2,0.1,0,0,,,,,,,,1500
 ,sa58_handguard,,,,,,,,,,,,,,
-,,rsa_sa58_belgian_style_full_length_handguard,RSA SA-58 Belgian Style Full Length,8,0.3,-16,-16,,0.03,,,,,,0
-,,rsa_sa58_wood_full_length_handguard,SA-58 Wood Full Length,9,0.5,-18,-18,,0.03,,,,,,1000
-,,rsa_sa58_belgian_style_mid_length_handguard,RSA SA-58 Belgian Style Mid Length,10,0.21,-13,-13,,0.03,,,,,,750
-,,target_sports_universal_11.3inch_mlok_hg_lower,"Target Sports Universal MLOK 11.3""",6,0.15,-10,-10,,,,,,,,1500
-,,rsa_metric_short_quadrail_handguard,RSA Metric Short Quad Rail,9,0.22,-8,-12,,,,,,,,1000
-,,rsa_sa58_metric_mlok_full_length_bottom_handguard,RSA SA58 Metric MLOK Full Length,5,0.14,-12,-10,,,,,,,,1750
-,,rsa_sa58_metric_mlok_full_length_top_handguard,RSA SA58 Metric MLOK Full Length Picatinny,2,0.12,-1,-1,,,,,,,,250
-,,rsa_sa58_metric_mlok_mid_length_bottom_handguard,RSA SA58 Metric MLOK Mid Length,8,0.11,-9,-7,,,,,,,,1500
-,,rsa_sa58_metric_mlok_mid_length_top_handguard,RSA SA58 Metric MLOK Mid Length Picatinny,2,0.09,-1,-1,,,,,,,,200
-,,rsa_sa58_metric_mlok_pistol_length_bottom_handguard,RSA SA58 Metric MLOK Pistol Length,11,0.08,-5,-5,,,,,,,,1200
-,,rsa_sa58_metric_mlok_pistol_length_top_handguard,RSA SA58 Metric MLOK Pistol Length Picatinny,2,0.06,0,0,,,,,,,,150
-,,rsa_sa58_tactical_pistol_v2_handguard,RSA SA-58 Tactical Pistol V2,14,0.15,-8,-8,,0.03,,,,,,2000
+,,rsa_sa58_belgian_style_full_length_handguard,RSA SA-58 Belgian Style Full Length,8,0.3,-16,-17,,0.03,,,,,,0
+,,rsa_sa58_wood_full_length_handguard,SA-58 Wood Full Length,9,0.5,-18,-19,,0.03,,,,,,1000
+,,rsa_sa58_belgian_style_mid_length_handguard,RSA SA-58 Belgian Style Mid Length,10,0.21,-13,-14,,0.03,,,,,,750
+,,target_sports_universal_11.3inch_mlok_hg_lower,"Target Sports Universal MLOK 11.3""",6,0.14,-9,-10,,,,,,,,1500
+,,rsa_metric_short_quadrail_handguard,RSA Metric Short Quad Rail,9,0.22,-10,-12,,,,,,,,1000
+,,rsa_sa58_metric_mlok_full_length_bottom_handguard,RSA SA58 Metric MLOK Full Length,4,0.14,-10,-9,,,,,,,,1750
+,,rsa_sa58_metric_mlok_full_length_top_handguard,RSA SA58 Metric MLOK Full Length Picatinny,3,0.12,-3,-3,,,,,,,,250
+,,rsa_sa58_metric_mlok_mid_length_bottom_handguard,RSA SA58 Metric MLOK Mid Length,10,0.11,-7,-6,,,,,,,,1500
+,,rsa_sa58_metric_mlok_mid_length_top_handguard,RSA SA58 Metric MLOK Mid Length Picatinny,2,0.09,-2,-2,,,,,,,,200
+,,rsa_sa58_metric_mlok_pistol_length_bottom_handguard,RSA SA58 Metric MLOK Pistol Length,12,0.08,-4,-4,,,,,,,,1200
+,,rsa_sa58_metric_mlok_pistol_length_top_handguard,RSA SA58 Metric MLOK Pistol Length Picatinny,1,0.06,-1,-1,,,,,,,,150
+,,rsa_sa58_tactical_pistol_v2_handguard,RSA SA-58 Tactical Pistol V2,14,0.15,-8,-9,,0.03,,,,,,2000
 ,sa58_lower_receiver,,,,,,,,,,,,,,
 ,,sa58_std_lower_receiver,RSA SA-58 7.62x51,0,0.37,,,,,,,,,,0
 ,sa58_rear_sight,,,,,,,,,,,,,,
@@ -2452,8 +2452,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,adapter_omega45k,,,,,,,,,,,,,,
 ,,suppressors_inc_omega45k_45acp_suppressor,Suppressors Inc. Omega45K,-4,0.13,-9,-8,,-0.1,0.1,80,,,,1200
 ,aimsports_fn_fal_universal_mlok_handguard_upper,,,,,,,,,,,,,,
-,,target_sports_universal_11.3inch_hg_mlok,Target Sports Universal MLOK,2,0.1,-1,-1,,,,,,,,500
-,,target_sports_universal_11.3inch_hg_picatinny,Target Sports Universal Picatinny,1,0.13,0,0,,,,,,,,300
+,,target_sports_universal_11.3inch_hg_mlok,Target Sports Universal MLOK,2,0.1,-2,-3,,,,,,,,500
+,,target_sports_universal_11.3inch_hg_picatinny,Target Sports Universal Picatinny,2,0.12,-2,-3,,,,,,,,300
 ,amrs_picatinny,,,,,,,,,,,,,,
 ,,picatinny_section,Air for mounting picatinny attachments,0,0,,,,,,,,,,0
 ,hart_sight,,,,,,,,,,,,,,

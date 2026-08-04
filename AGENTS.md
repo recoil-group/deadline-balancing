@@ -4,6 +4,8 @@
 
 This public repo is Deadline's balancing/data workspace. It contains game CSVs, focused change sheets, generated changelogs/diffs, and balancing-team tools.
 
+Read `README.md` before working in this repository. It documents the available scripts, their usage, and the repository's common workflows.
+
 This is not the main game source repo. When available, sibling `../deadline` is a roblox-ts project whose `src/` compiles to `out/`, which Rojo syncs into Studio. Read `../deadline/AGENTS.md` or `../deadline/CLAUDE.md` before working there.
 
 A connected Roblox Studio place may contain attachment, weapon, and other game data that is not represented in this repo or the main source repo.
@@ -32,14 +34,14 @@ The root balancing CSVs are authoritative for the stats and fields they define; 
 - `fire_rate`, `bullet_damage`, `muzzle_loudness` are fractional modifiers applied to base weapon or ammo stats. so `0.1` damage means increase damage by 10% of the gun's base damage.
 - The scripts use `utf-8-sig` CSV handling. This standard should apply to all CSVs.
 - Empty cells in change sheets are significant: `port.py` can overwrite target cells with empty strings.
-- For CSV work, check `git status --short`, read `README.md`, and potentially sample the first three lines (`sed -n '1,3p' <file>.csv` or `Get-Content <file>.csv -TotalCount 3`).
+- For CSV work, check `git status --short` and potentially sample the first three lines (`sed -n '1,3p' <file>.csv` or `Get-Content <file>.csv -TotalCount 3`).
 
-## XLSX Inspection
+## Change Sheet Tools
 
-- Before trying to understand an `.xlsx` change sheet, run `python inspect_xlsx.py <workbook>`. It provides fast, read-only, agent-oriented output for all worksheets, including populated cells, header cues, formulas and cached results, tables, merged ranges, comments, hyperlinks, and hidden regions. This should be sufficient for many tasks.
-- Use `--sheet` and `--range` for focused follow-up inspection, especially when the default output is truncated. Use `--show-formulas` when exact formula expressions are needed inline.
-- Treat formula results as saved Excel caches whose freshness is unknown. The inspector does not recalculate formulas or modify the workbook.
-- Prefer this textual inspection over general spreadsheet import or rendering unless the task specifically depends on visual layout, formatting, charts, or other appearance details.
+- `inspect_xlsx.py` provides a read-only, agent-oriented view of workbook structure and content. Formula results are saved Excel caches whose freshness is unknown; the script does not recalculate formulas.
+- A dry run of `port.py` is the authoritative validation and mechanical diff for a proposed port.
+- Prefer these textual tools over spreadsheet rendering unless the task depends on visual layout, formatting, charts, or other appearance details.
+- Running `port.py` without `--dry-run` writes the changes. Do so only when the user asks to port them.
 
 ## Related Source and Studio Context
 

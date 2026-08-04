@@ -18,6 +18,11 @@ Contains information about stats, gameplay, mechanics, and more.
 
 <https://github.com/recoil-group/deadline-balancing/wiki>
 
+## balancing knowledge base
+
+- [Balancing guide](knowledge/balancing.md): goals and design priorities.
+- [Stat reference](knowledge/stats.md): stat behavior, units, formulas, and interactions.
+
 ## demos
 
 - [Shotgun spread demo](demos/shotgun-spread/)

@@ -15,6 +15,8 @@ The root balancing CSVs are authoritative for the stats and fields they define; 
 ## Repo Map
 
 - `README.md`: quick overview and local script usage.
+- `knowledge/balancing.md`: balancing goals and design priorities. Read before proposing or reviewing balance changes.
+- `knowledge/stats.md`: balance-facing stat behavior, units, formulas, and interactions. Read when a task changes or compares stats.
 - `balancing.csv`: primary attachment stats sheet.
 - `testing.csv`: testing/dev import sheet; ignore unless specifically asked to use it.
 - Root CSVs loaded into Studio include `calibers.csv`, `optics.csv`, `lasers.csv`, `flashlights.csv`, `camo.csv`, and `progression.csv`.

@@ -1,4 +1,4 @@
-﻿0.25.3,Tue Aug 04 03:09:11 2026,,,,,,,,,,,,,,
+﻿0.25.3,Tue Aug 04 03:25:04 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -2385,7 +2385,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,sa58_folding_stock,,,,,,,,,,,,,,
 ,,rsa_sa58_metric_para_folding_stock,RSA SA-58 Metric Para Folding,13,0.32,-7,-11,,,,,,,,500
 ,,rsa_metric_para_buffer_tube_adapter,RSA Para Metric Buffer Tube,-3,0.05,1,2,,0.05,,,,,,1000
-,,rsa_sa58_folding_spr_para_stock_body,RSA SA58 Folding Para SPR,13,0.26,-10,-7,,-0.05,,,,,,3000
+,,rsa_sa58_folding_spr_para_stock_body,RSA SA58 Folding Para SPR,14,0.26,-10,-7,,-0.05,,,,,,3000
 ,,rsa_sa58_folding_spr_para_stock_extendable_part,RSA SA58 Folding Para SPR,,0.04,,,,,,,,,,0
 ,,rsa_sa58_folding_spr_para_stock_buttpad_mount,RSA SA58 Folding Para SPR,,0.03,,,,,,,,,,0
 ,,rsa_sa58_folding_spr_para_stock_cheek_riser,RSA SA58 Folding Para SPR,1,0.06,,,,,,,,,,0

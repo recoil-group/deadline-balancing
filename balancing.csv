@@ -1,4 +1,4 @@
-﻿0.25.3,Sun Aug 02 18:23:52 2026,,,,,,,,,,,,,,
+﻿0.25.3,Mon Aug 03 18:12:42 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -2093,7 +2093,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,steyr_aug_407mm_barrel,Löwenherz AUG A3 5.56x45 407mm,0,0.65,-1,-1,,-0.06,0.1,79,,,,0
 ,,steyr_aug_508mm_barrel,Löwenherz AUG A3 5.56x45 508mm,-4,0.8,-5,-5,,-0.24,0.21,179,,,,1000
 ,,steyr_aug_350mm_barrel,Löwenherz AUG A3 5.56x45 350mm,2,0.57,0,0,,0.03,0.01,10,,,,600
-,,steyr_aug_hbar_620mm_heavy_barrel,Löwenherz AUG HBAR 5.56x45 620mm Heavy LMG,-10,1.01,-8,-8,,0.1,0.21,269,,,,2000
+,,steyr_aug_hbar_620mm_heavy_barrel,Löwenhurz 24.4in AUG HBAR,-10,1.15,-9,-9,,-0.12,0.21,269,,,,2000
 ,,steyr_aug_457mm_barrel,Löwenherz AUG A3 5.56x45 457mm,-2,0.72,-3,-3,,-0.15,0.15,131,,,,750
 ,aug_a3_bolt_carrier,,,,,,,,,,,,,,
 ,,aug_a3_std_bolt_carrier,AUG A3 Std.,0,0.2,,,,,,,,,,0
@@ -2565,7 +2565,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,smite_industries_oppressor_blast_shield,Smite Industries Oppressor Blast Shield,0,0.17,-13,-14,,0,0.02,20,,,,1000
 ,bipod,,,,,,,,,,,,,,
 ,,harrison_pra_adapter,Harrison PRA,0,0.04,,,,,,,,,,300
-,,harrison_hbr_base,Harrison HBR,0,0.2,,,,,,,,,,1000
+,,harrison_hbr_base,Harrison HBR,-4,0.2,,-2,,,,,,,,1000
 ,tailhook_brace,,,,,,,,,,,,,,
 ,,gxw_tailhook_mod1_brace_small,GXW Tailhook MOD 1,11,0.09,-5,-5,,,,,,,,400
 ,,gxw_tailhook_mod1_brace_big,GXW Tailhook MOD 1,11,0.09,-5,-5,,,,,,,,400

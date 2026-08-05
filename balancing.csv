@@ -1,4 +1,4 @@
-﻿0.25.3,Tue Aug 04 09:51:30 2026,,,,,,,,,,,,,,
+﻿0.25.3,Tue Aug 04 19:47:09 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -2094,7 +2094,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,steyr_aug_407mm_barrel,Löwenherz AUG A3 5.56x45 407mm,0,0.65,-1,-1,,-0.06,0.1,79,,,,0
 ,,steyr_aug_457mm_barrel,Löwenherz AUG A3 5.56x45 457mm,-2,0.72,-3,-3,,-0.15,0.15,131,,,,750
 ,,steyr_aug_508mm_barrel,Löwenherz AUG A3 5.56x45 508mm,-4,0.8,-5,-5,,-0.24,0.21,179,,,,1000
-,,lowenhurz_aug_hbar_620mm_heavy_barrel,"Löwenhurz AUG HBAR 24.4""",-8,1.02,-10,-10,,-0.12,0.21,269,,,,2000
+,,lowenhurz_aug_hbar_620mm_heavy_barrel,Löwenhurz AUG HBAR 620mm,-8,1.02,-10,-10,,-0.12,0.21,269,,,,2000
 ,aug_hbar_bipod,,,,,,,,,,,,,,
 ,,lowenhurz_aug_hbar_folding_bipod,Löwenherz AUG HBAR Folding Bipod,-3,0.16,,-1,,,,,,,,1000
 ,aug_a3_bolt_carrier,,,,,,,,,,,,,,

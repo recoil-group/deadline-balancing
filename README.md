@@ -137,12 +137,14 @@ Use `--dry-run` to preview changes. Saving with `openpyxl` may clear cached
 formula results. CSV names absent from the workbook are expected and are not
 reported.
 
-### fix_calibers.py
+### fix_booleans.py
 
-Lowercases `TRUE`/`FALSE` cells in `calibers.csv`, or in a supplied CSV.
+Lowercases `TRUE`/`FALSE` cells in any CSV. Accepts multiple files and rewrites
+them in place, leaving all other cells untouched.
 
 ```bash
-python fix_calibers.py [calibers.csv]
+python fix_booleans.py calibers.csv
+python fix_booleans.py balancing.csv optics.csv --dry-run
 ```
 
 ### changelog.py

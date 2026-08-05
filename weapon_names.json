@@ -49,6 +49,78 @@
 		{
 			"name": "KF MPi-54SD",
 			"required_attachments": ["hk_mp5sd_upper_receiver"]
+		},
+		{
+			"name": "KF MPi-54A2",
+			"required_attachments": [
+				"hk_mp5a2_plastic_fixed_stock",
+				[
+					"hk_mp5_sef_polymer_contoured_trigger_housing",
+					"hk_mp5_hk94_sef_metal_trigger_housing"
+				]
+			]
+		},
+		{
+			"name": "KF MPi-54A3",
+			"required_attachments": [
+				"hk_mp5a3_early_gen_collapsible_stock",
+				[
+					"hk_mp5_sef_polymer_contoured_trigger_housing",
+					"hk_mp5_hk94_sef_metal_trigger_housing"
+				]
+			]
+		},
+		{
+			"name": "KF MPi-54A4",
+			"required_attachments": [
+				"hk_mp5a2_plastic_fixed_stock",
+				"hk_mp5_plastic_4_position_trigger_housing"
+			]
+		},
+		{
+			"name": "KF MPi-54A5",
+			"required_attachments": [
+				"hk_mp5a3_early_gen_collapsible_stock",
+				"hk_mp5_plastic_4_position_trigger_housing"
+			]
+		},
+		{
+			"name": "KF MPi-54SD2",
+			"required_attachments": [
+				"hk_mp5sd_upper_receiver",
+				"hk_mp5a2_plastic_fixed_stock",
+				[
+					"hk_mp5_sef_polymer_contoured_trigger_housing",
+					"hk_mp5_hk94_sef_metal_trigger_housing"
+				]
+			]
+		},
+		{
+			"name": "KF MPi-54SD3",
+			"required_attachments": [
+				"hk_mp5sd_upper_receiver",
+				"hk_mp5a3_early_gen_collapsible_stock",
+				[
+					"hk_mp5_sef_polymer_contoured_trigger_housing",
+					"hk_mp5_hk94_sef_metal_trigger_housing"
+				]
+			]
+		},
+		{
+			"name": "KF MPi-54SD5",
+			"required_attachments": [
+				"hk_mp5sd_upper_receiver",
+				"hk_mp5a2_plastic_fixed_stock",
+				"hk_mp5_plastic_4_position_trigger_housing"
+			]
+		},
+		{
+			"name": "KF MPi-54SD6",
+			"required_attachments": [
+				"hk_mp5sd_upper_receiver",
+				"hk_mp5a3_early_gen_collapsible_stock",
+				"hk_mp5_plastic_4_position_trigger_housing"
+			]
 		}
 	],
 	"KOSCH": [
@@ -85,10 +157,84 @@
 			]
 		}
 	],
+	"SA58": [
+		{
+			"name": "RSA SG-58 Para",
+			"required_attachments": [
+				[
+					"rsa_sa58_metric_para_folding_stock",
+					"rsa_sa58_folding_spr_para_stock_body"
+				]
+			]
+		}
+	],
+	"Vector": [
+		{
+			"name": "KALIS Scalar Gen II 9mm",
+			"required_attachments": ["vector_9mm_upper_receiver"]
+		}
+	],
+	"SCARH": [
+		{
+			"name": "AFT MK-20 SSR",
+			"required_attachments": ["aft_mk20_upper_receiver"]
+		}
+	],
+	"UMP": [
+		{
+			"name": "KF UMC-9",
+			"required_attachments": ["hk_ump9_upper_receiver"]
+		}
+	],
+	"KF416": [
+		{
+			"name": "KF M27 IAR",
+			"required_attachments": ["kf_m27_iar_upper_receiver"]
+		},
+		{
+			"name": "KF416C",
+			"required_attachments": [
+				"kf_416c_lower_receiver",
+				"kf_416c_9.0i_barrel"
+			]
+		},
+		{
+			"name": "KF416A5",
+			"required_attachments": ["kf_416a5_upper_receiver"]
+		}
+	],
+	"AK_545": [
+		{
+			"name": "Kazarov AK-74N",
+			"required_attachments": ["kazarov_ak74_lower_receiver"]
+		},
+		{
+			"name": "Kazarov AK-74M",
+			"required_attachments": [
+				"kazarov_ak100_series_lower_receiver",
+				"kazarov_ak100_series_front_trunnion",
+				"kazarov_ak100_series_rear_trunnion"
+			]
+		},
+		{
+			"name": "Kazarov AK-105",
+			"required_attachments": [
+				"kazarov_ak100_series_lower_receiver",
+				"kazarov_ak100_series_front_trunnion",
+				"kazarov_ak100_series_rear_trunnion",
+				"kazarov_ak105_314mm_5.45x39_barrel",
+				"kazarov_ak105_gasblock"
+			]
+		}
+	],
 	"AK12": [
 		{
 			"name": "AK-12K",
 			"required_attachments": ["kazarov_group_ak12k_314mm_barrel"]
+		},
+		{
+			"name": "RPK-16",
+			"required_attachments": ["kazarov_group_std_rpk16_559mm_barrel"]
 		}
 	]
 }

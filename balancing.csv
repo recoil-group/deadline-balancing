@@ -1817,10 +1817,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,9x19_kazarov_7n31_pbp_gzh_64gr,Kazarov 7N31 PBP gzh 64gr +P+,-2,-0.12,-1,0,,-0.15,,500,,,,2500
 ,,9x19_btv_scorpio_nato_115gr_fmj,BVT Scorpio NATO 115gr FMJ +P,-1,0.00,1,1,,-0.10,,100,,,,1000
 ,ammo_10mm,,,,,,,,,,,,,,
-,,10mm_phoenix_aluminum_200gr_fmj,10mm Auto Phoenix Aluminum 200gr FMJ,0,0.03,,0,,0,,100,,,,0
+,,10mm_phoenix_aluminum_200gr_fmj,10mm Auto Phoenix Aluminum 200gr FMJ,0,0,,0,,0,,100,,,,0
 ,,10mm_roosevelt_umc_180gr_fmj,10mm Auto Roosevelt UMC 180gr FMJ,0,0.04,,0,,0.05,,50,,,,1000
-,,10mm_winchester_silvertip_175gr_jhp,10mm Auto Winchester Silvertip 175gr JHP,-1,0.04,,10,,0.1,,-100,,,,2000
-,,10mm_liberty_civil_defense_60gr_hplf,10mm Auto Liberty Civil Defense 60gr HPLF,-1.5,0.01,30,30,,0.5,,300,,,,800
+,,10mm_winchester_silvertip_175gr_jhp,10mm Auto Winchester Silvertip 175gr JHP,-1,0.04,,10,,0.05,,-100,,,,2000
+,,10mm_liberty_civil_defense_60gr_hplf,10mm Auto Liberty Civil Defense 60gr HPLF,-1.5,0.01,30,30,,0.1,,300,,,,800
 ,ammo_45acp,,,,,,,,,,,,,,
 ,,45acp_phoenix_brass_230gr_fmj,.45 ACP Phoenix Brass 230gr FMJ,0,0,0,0,,0,0.03,80,,,,0
 ,,45acp_winchester_service_grade_230gr_fmj,.45 ACP Winchester Service Grade 230gr FMJ,0,0,0,-1,,0.1,0.06,80,,,,1500

@@ -1,9 +1,87 @@
 {
 	"AUG_A3": [
 		{
-			"name": "Aug Para 9x19 Conversion",
+			"name": "Löwenherz AUG Para",
+			"required_attachments": ["steyr_aug_a3_para_9x19_stock"]
+		},
+		{
+			"name": "Löwenherz AUG HBAR",
 			"required_attachments": [
-				"steyr_aug_a3_para_9x19_stock"
+				"lowenhurz_aug_hbar_620mm_heavy_barrel",
+				"lowenhurz_aug_hbar_folding_bipod"
+			]
+		}
+	],
+	"G3": [
+		{
+			"name": "CTR-32",
+			"required_attachments": ["ptr_32_7.62x39_upper_receiver"]
+		},
+		{
+			"name": "KF SKG-31",
+			"required_attachments": [
+				["hk_psg1_upper_receiver", "hk_psg1_upper_receiver_modified"]
+			]
+		},
+		{
+			"name": "KG-51K",
+			"required_attachments": ["ferro_ordnance_mc51k_upper_receiver"]
+		},
+		{
+			"name": "KG-51C",
+			"required_attachments": ["ferro_ordnance_mc51_upper_receiver"]
+		},
+		{
+			"name": "KG-51SD",
+			"required_attachments": ["ferro_ordnance_mc51sd_upper_receiver"]
+		}
+	],
+	"MosinNagant": [
+		{
+			"name": "Mosin Nagant Obrez",
+			"required_attachments": [
+				"mosin_sawn_off_stock",
+				["mosin_sawn_off_200mm_barrel", "mosin_sawn_off_220mm_barrel"]
+			]
+		}
+	],
+	"MP5": [
+		{
+			"name": "KF MPi-54SD",
+			"required_attachments": ["hk_mp5sd_upper_receiver"]
+		}
+	],
+	"KOSCH": [
+		{
+			"name": "KOSCH KP20",
+			"required_attachments": ["kosch_10mm_114mm_barrel"]
+		}
+	],
+	"M4A1": [
+		{
+			"name": "STRIKON SCR",
+			"required_attachments": ["strikon_scr_rifle_lower_receiver"]
+		}
+	],
+	"Remington870": [
+		{
+			"name": "Roosevelt Tampa Shorty",
+			"required_attachments": ["r870_serbu_shorty_receiver"]
+		}
+	],
+	"P320": [
+		{
+			"name": "Sic Stürmer M17X",
+			"required_attachments": [
+				"sig_sauer_m17x_9x19_slide",
+				"sig_sauer_p320_xfull_grip_module"
+			]
+		},
+		{
+			"name": "Sic Stürmer M18X",
+			"required_attachments": [
+				"sig_sauer_m18x_9x19_slide",
+				"sig_sauer_p320_xcarry_grip_module"
 			]
 		}
 	]

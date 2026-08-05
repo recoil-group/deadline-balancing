@@ -1,4 +1,4 @@
-﻿0.25.3,Tue Aug 04 19:47:09 2026,,,,,,,,,,,,,,
+﻿0.25.3,Tue Aug 04 22:58:04 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -2021,7 +2021,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ferro_ordnance_mc51_upper_receiver,Ferro Ordnance Group KG-51C Upper,3,0.55,4,5,,,,,,,,5000
 ,,ferro_ordnance_mc51k_upper_receiver,Ferro Ordnance Group KG-51K Upper,6,0.5,10,5,,,,,,,,2000
 ,,ferro_ordnance_mc51sd_upper_receiver,Ferro Ordnance Group KG-51SD Upper,1,0.55,3,3,,,,,,,,4000
-,,ptr_32_7.62x39_upper_receiver,CTR-32 7.62x39 Upper,15,0.62,-20,-35,,,,,,,,10000
+,,ptr_32_7.62x39_upper_receiver,CTR-32 7.62x39 Upper,15,0.65,-15,-30,,,,,,,,10000
 ,hk_upper_receiver_mounts,,,,,,,,,,,,,,
 ,,addon_hk_upper_receiver_picatinny_rail,Custom Addon Upper Receiver Picatinny,-0.5,0.07,0,0,,,,,,,,0
 ,hk_g3_stock,,,,,,,,,,,,,,
@@ -2051,12 +2051,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ferro_ordnance_mc51sd_125mm_7.62x51_barrel,Ferro Ordnance Group KG-51SD 125mm 7.62x51,14,0.39,13,13,,0.6,-0.17,-652,,,,2500
 ,,hk_psg1_bull_650mm_barrel,SKG-31 Bull 650mm 7.62x51,-5,1.17,-1,-1,,-0.35,0.14,509,,,,4500
 ,ptr_32_barrel,,,,,,,,,,,,,,
-,,ptr_32_7.62x39_457mm_m14x1lh_barrel,CTR-32 457mm 7.62x39,-3,0.81,-2,-2,,-0.05,0.02,-25,,,,3000
-,,ptr_32_7.62x39_457mm_5-8x24_barrel,CTR-32 457mm 7.62x39 5/8x24 Thread,-4,0.81,-2,-2,,-0.05,0.02,-25,,,,3250
+,,ptr_32_7.62x39_457mm_m14x1lh_barrel,CTR-32 457mm 7.62x39,-3,0.81,-2,-2,,-0.1,0.02,-25,,,,3000
+,,ptr_32_7.62x39_457mm_5-8x24_barrel,CTR-32 457mm 7.62x39 5/8x24 Thread,-4,0.81,-2,-2,,-0.1,0.02,-25,,,,3250
 ,,ptr_32_7.62x39_406mm_m14x1lh_barrel,CTR-32 406mm 7.62x39,0,0.74,0,0,,0,0,-59,,,,2000
 ,,ptr_32_7.62x39_406mm_5-8x24_barrel,CTR-32 406mm 7.62x39 5/8x24 Thread,-1,0.74,0,0,,0,0,-59,,,,2250
 ,mc51sd_suppressor,,,,,,,,,,,,,,
-,,ferro_ordnance_mc51sd_suppressor,Ferro Ordnance Group KG-51SD,-6,0.26,-8,-8,,-0.15,0.15,90,,,,5000
+,,ferro_ordnance_mc51sd_suppressor,Ferro Ordnance Group KG-51SD,-6,0.26,-8,-8,,-0.15,0.13,90,,,,
 ,hk_g3_rear_sight_assembly_top,,,,,,,,,,,,,,
 ,,hk_g3_rear_sight_assembly_top,KG-31 Rear Sight Assembly,0,0.02,,,,,,,,,,0
 ,,hk_mp5_g3_rear_sight_rmr_mount,MPi54/KG-31 Rear Sight RMR,-1,0.05,,,,,,,,,,600

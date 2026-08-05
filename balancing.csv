@@ -677,7 +677,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,gral_s_pistol_grip,Gral-S,3,0.07,-4,-5,,,,,,,,500
 ,,fit_deluxe_ar15_suregrip,FIT Deluxe AR-15 Suregrip,7,0.08,-1,0,,,,,,,,1500
 ,,fit_deluxe_suregrip_palm_shelf,FIT Deluxe Suregrip,3,0.06,0,0,,,,,,,,200
-,,pmm_scar_modified_grip_rogue,Everetts Machining SCAR Modified Rogue Non-Beavertail,6,0.08,-2,-6,,,,,,,,600
+,,pmm_scar_modified_grip_rogue,Everetts Machining FANG Modified Rogue Non-Beavertail,6,0.08,-2,-6,,,,,,,,600
 ,,mcs_premier_avp_grip,MCS Premier AVP,9,0.06,0,-1,,,,,,,,700
 ,,kf_ar15_battlegrip,KF AR-15 Battlegrip,5,0.08,-5,-4,,,,,,,,800
 ,,kf_ar15_battlegrip_beavertail,KF AR-15 Battlegrip Beavertail,6,0.09,-4,-4,,,,,,,,800
@@ -692,7 +692,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,hera_arms_cqr_gen2_pistol_grip,Eris Arms CQR Gen2,3,0.14,-1,-6,,,,,,,,1200
 ,,aeroknox_ax15_orion_pistol_grip,Arrow AX // 15 ORION AR-15,9,0.09,-2,-1,,,,,,,,1000
 ,,bcm_gunfighter_mod3_ar15_pistol_grip,BCM Gunfighter Mod 3 AR-15,8,0.09,-3,-2,,,,,,,,750
-,,pmm_bcm_gunfighter_mod3_scar_pistol_grip,Everetts Machining BCM Gunfighter Mod 3 SCAR,8,0.1,-3,-2,,,,,,,,800
+,,pmm_bcm_gunfighter_mod3_scar_pistol_grip,Everetts Machining BCM Gunfighter Mod 3 FANG,8,0.1,-3,-2,,,,,,,,800
 ,,axtell_defense_pistol_grip_with_trigger_guard,Axtell Defense w/ Trigger Guard,10,0.13,-2,-4,,,,,,,,900
 ,ar15_trigger,,,,,,,,,,,,,,
 ,,hart_m4a1_std_trigger,M4 Standard,2,0.04,0,0,,0,,,,,,0
@@ -818,30 +818,30 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,fn_scar_h_gasblock,,,,,,,,,,,,,,
 ,,aft_mk20_gas_block,AFT Mk20,3,0.15,2,2,,-0.05,,100,,,,1000
 ,,aft_mk_17_gasblock,AFT MK-17 Standard,0,0.12,0,0,,,,,,,,0
-,,hi_dog_hdd_tactical_scarh_hitorque_gasblock,Hi-Dog HDD Tactical SCAR-H HI-TORQUE,2,0.16,-1,0,,,,,,,,400
+,,hi_dog_hdd_tactical_scarh_hitorque_gasblock,Hi-Dog HDD Tactical FANG-H HI-TORQUE,2,0.16,-1,0,,,,,,,,400
 ,fn_front_sight_base,,,,,,,,,,,,,,
 ,,aft_front_sight_base,AFT Standard,0,0.01,,,,,,,,,,0
-,,dynamic_development_group_scar_fs_replacement_rail,Dynamic Development Group SCAR Front Sight Replacement Rail,0,0.02,,,,,,,,,,
+,,dynamic_development_group_scar_fs_replacement_rail,Dynamic Development Group FANG Front Sight Replacement Rail,0,0.02,,,,,,,,,,
 ,fn_front_sight,,,,,,,,,,,,,,
 ,,aft_front_sight_folded,AFT Standard Folded,1,0.01,,,,,,,,,,0
 ,,aft_front_sight,AFT Standard,1,0.01,,,,,,,,,,0
 ,fn_scar_bolt_release,,,,,,,,,,,,,,
 ,,aft_bolt_release,AFT MK-17 Standard,0,0.03,,,,,,,,,,
-,,pmm_scar_battery_control_bolt_release,Everetts Machining SCAR Battery Control,2,0.06,,,,,,,,,,500
+,,pmm_scar_battery_control_bolt_release,Everetts Machining FANG Battery Control,2,0.06,,,,,,,,,,500
 ,fn_scar_trigger,,,,,,,,,,,,,,
 ,,aft_trigger,AF Tournai Standard,0,0.03,,,,,,,,,,0
 ,,vallais_super_fang_trigger,Vallais Super FANG,2,0.05,,,,-0.05,,,,,,750
 ,fn_scar_bottom_rail_mount,,,,,,,,,,,,,,
 ,,aft_mk20_bottom_rail_mount,AF Tournai Mk20,4,0.15,,,,,,,,,,400
 ,,aft_bottom_rail_mount,AF Tournai,2.5,0.1,,,,,,,,,,0
-,,pmm_scar_heavy_duty_mlok_bottom_panel,Everetts Machining SCAR Heavy Duty MLOK Bottom Panel,2,0.08,,,,,,,,,,300
+,,pmm_scar_heavy_duty_mlok_bottom_panel,Everetts Machining FANG Heavy Duty MLOK Bottom Panel,2,0.08,,,,,,,,,,300
 ,fn_scar_charging_handle,,,,,,,,,,,,,,
 ,,aft_charging_handle,AFT MK-16 Standard,1,0.02,,,,,,,,,,0
-,,apex_bolt_handle_for_scar,Apex Bolt Handle for SCAR,1.5,0.03,,,,,,,,,,500
-,,dynamic_development_group_ambi_scarging_handle,Dynamic Development Group Ambi SCARGING Bolt Handle,2,0.04,,,,,,,,,,500
+,,apex_bolt_handle_for_scar,Apex Bolt Handle for FANG,1.5,0.03,,,,,,,,,,500
+,,dynamic_development_group_ambi_scarging_handle,Dynamic Development Group Ambi FANGING Bolt Handle,2,0.04,,,,,,,,,,500
 ,fn_scar_fire_selector,,,,,,,,,,,,,,
 ,,aft_fire_selector,AFT MK-17 Standard,0,0.02,,,,,,,,,,0
-,,dynamic_development_group_talon_ambi_scar_45_90_safety_selector,Dynamic Development Group Talon Ambi SCAR 45/90,1.5,0.02,,,,,,,,,,300
+,,dynamic_development_group_talon_ambi_scar_45_90_safety_selector,Dynamic Development Group Talon Ambi FANG 45/90,1.5,0.02,,,,,,,,,,300
 ,fn_scar_h_barrel,,,,,,,,,,,,,,
 ,,aft_mk20_508mm_barrel,AFT Mk20 508mm,-4,1.01,2,2,,-0.3,0.09,308,,,,1500
 ,,barreltech_scar20_spiral_508mm_threaded_barrel,"Barreltech AFT 20 Spiral 20"" Threaded",-7,0.94,-4,-2,,-0.15,0.07,358,,,,2000
@@ -849,20 +849,20 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,barreltech_scar20_spiral_406mm_threaded_barrel,"Barreltech AFT 20 Spiral 16"" Threaded",-1,0.79,-1,1,,-0.05,0.01,171,,,,1500
 ,,aft_mk_17_406mm_barrel,AFT MK-17 406mm,0,0.81,0,0,,0,0,70,,,,0
 ,,aft_mk_17_330mm_barrel,AFT MK-17 330mm,6,0.69,3,4,,0.1,-0.04,-57,,,,1200
-,,hi_dog_hdd_tactical_scarh_267mm_7.62x51_barrel,Hi-Dog HDD Tactical SCAR-H 7.62x51 267mm,12,0.6,7,7,,0.25,-0.07,-187,,0.05,,1500
+,,hi_dog_hdd_tactical_scarh_267mm_7.62x51_barrel,Hi-Dog HDD Tactical FANG-H 7.62x51 267mm,12,0.6,7,7,,0.25,-0.07,-187,,0.05,,1500
 ,fn_scar_h_bolt,,,,,,,,,,,,,,
 ,,aft_mk_17_bolt_carrier,AFT MK-17 Bolt,0,0.2,,,,,,,,,,0
-,,monarch_ballistics_buffered_scar_bolt_carrier,Monarch Ballistics Buffered SCAR,-1,0.22,-2,-2,,,,,,,,500
+,,monarch_ballistics_buffered_scar_bolt_carrier,Monarch Ballistics Buffered FANG,-1,0.22,-2,-2,,,,,,,,500
 ,fn_scar_h_lower_receiver,,,,,,,,,,,,,,
-,,cartesia_productions_scar_h_x17_trigger_module_lower_receiver,Cartesia Productions X-17 SCAR-H Trigger Module,1,0.34,,,,,,,,,,2000
+,,cartesia_productions_scar_h_x17_trigger_module_lower_receiver,Cartesia Productions X-17 FANG-H Trigger Module,1,0.34,,,,,,,,,,2000
 ,,aft_mk_17_lower_receiver,AF Tournai-H Standard,0,0.35,,,,,,,,,,0
-,,lingle_industries_ar17_scar_h_lower,Lingle Industries AR17 SCAR-H Lower,1,0.37,,,,,,,,,,2500
+,,lingle_industries_ar17_scar_h_lower,Lingle Industries AR17 FANG-H Lower,1,0.37,,,,,,,,,,2500
 ,lingle_mag_release,,,,,,,,,,,,,,
 ,,m4a1_std_mag_release_scar,Hart M4A1,0,0.03,,,,,,,,,,0
 ,fn_scar_h_upper_receiver,,,,,,,,,,,,,,
 ,,aft_mk_17_upper_receiver,AFT MK-17 Standard,0,0.6,0,0,,,,,,,,0
 ,,aft_mk20_upper_receiver,AFT Mk20,5,0.85,3,4,,,,,,,,4000
-,,monarch_ballistics_cypher_x_standard_scar_h_upper_receiver,Monarch Ballistics CypherX Standard SCAR-H,3,0.62,0,1,,,,,,,,3000
+,,monarch_ballistics_cypher_x_standard_scar_h_upper_receiver,Monarch Ballistics CypherX Standard FANG-H,3,0.62,0,1,,,,,,,,3000
 ,fn_scar_l_barrel,,,,,,,,,,,,,,
 ,,aft_mk_16_254mm_barrel,AFT MK-16 254mm,2,0.47,1,1,,0.2,-0.08,-135,,,,1200
 ,,aft_mk_16_355mm_barrel,AFT MK-16 355mm,0,0.6,0,0,,0.02,0.02,17,,,,0
@@ -879,7 +879,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,aft_mk_16_upper_receiver,AFT MK-16 Standard,0,0.5,,,,,,,,,,0
 ,fn_scar_mag_release,,,,,,,,,,,,,,
 ,,aft_mag_release,AFT MK-17 Standard,0,0.03,,,,,,,,,,0
-,,pmm_scar_oversized_mag_release_button,Everetts Machining SCAR Oversized Button,1,0.05,,,,,,,,,,500
+,,pmm_scar_oversized_mag_release_button,Everetts Machining FANG Oversized Button,1,0.05,,,,,,,,,,500
 ,fn_scar_side_rail_mount,,,,,,,,,,,,,,
 ,,aft_side_rail_1,AF Tournai,-0.5,0.04,,,,,,,,,,0
 ,,aft_mk20_side_rail_2,AF Tournai Mk20,-1,0.07,,,,,,,,,,500
@@ -891,7 +891,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,aft_stock_connector,AFT,0,0.07,0,0,,,,,,,,0
 ,,aft_ssr_stock_assembly,AFT SSR,18,0.51,-3,-4,,-0.05,,,,,,600
 ,,dynamic_development_group_sas_acr_stock_scar_adapter,Dynamic Development Group SAS Adaptive ACR,-1,0.07,0,0,,,,,,,,300
-,,mesa_tactical_faro_scar_buffer_tube_adapter,Canyon Tactical FARO SCAR Buffer Tube,-5,0.14,0,0,,,,,,,,450
+,,mesa_tactical_faro_scar_buffer_tube_adapter,Canyon Tactical FARO FANG Buffer Tube,-5,0.14,0,0,,,,,,,,450
 ,,aft_sc_stock_adapter,AFT SC Rear,1,0.08,0,0,,,,,,,,1500
 ,scar_sc_stock,,,,,,,,,,,,,,
 ,,aft_sc_stock_adjustment_lever,AFT SC Stock,2,0.02,,,,,,,,,,
@@ -901,35 +901,35 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,fn_scar_stock_shoulder_piece,,,,,,,,,,,,,,
 ,,aft_stock_shoulder_piece,AFT,7,0.19,-9,-12,,,,,,,,0
 ,scar47_barrel,,,,,,,,,,,,,,
-,,hilt_defense_scar47_394mm_barrel,HILT DEFENSE SCAR 47 394mm,0,0.77,0,0,,0,0,0,,,,0
+,,hilt_defense_scar47_394mm_barrel,HILT DEFENSE FANG 47 394mm,0,0.77,0,0,,0,0,0,,,,0
 ,scar47_lower_receiver,,,,,,,,,,,,,,
-,,scar47_lower_receiver,HILT DEFENSE SCAR 47,0,0.38,,,,,,,,,,0
+,,scar47_lower_receiver,HILT DEFENSE FANG 47,0,0.38,,,,,,,,,,0
 ,scar47_mag_release,,,,,,,,,,,,,,
-,,scar47_mag_release,HILT DEFENSE SCAR 47,0,0.02,,,,,,,,,,0
+,,scar47_mag_release,HILT DEFENSE FANG 47,0,0.02,,,,,,,,,,0
 ,scar47_pistol_grip,,,,,,,,,,,,,,
-,,scar47_pistol_grip,HILT DEFENSE SCAR 47,7,0.07,-2,-2,,,,,,,,0
+,,scar47_pistol_grip,HILT DEFENSE FANG 47,7,0.07,-2,-2,,,,,,,,0
 ,scar47_upper_receiver,,,,,,,,,,,,,,
 ,,aft_mk_17_upper_receiver_for_scar47,AFT MK-17 Standard,0,0.6,0,0,,,,,,,,0
 ,,aft_mk20_upper_receiver_for_scar47,AFT Mk20,5,0.85,3,4,,,,,,,,4000
-,,monarch_ballistics_cypher_x_standard_scar_h_upper_receiver_for_scar47,Monarch Ballistics CypherX Standard SCAR-H,3,0.65,0,0,,,,,,,,3000
+,,monarch_ballistics_cypher_x_standard_scar_h_upper_receiver_for_scar47,Monarch Ballistics CypherX Standard FANG-H,3,0.65,0,0,,,,,,,,3000
 ,scar_handguard,,,,,,,,,,,,,,
-,,hilt_defense_scar47_mlok_handguard,Hilt Defense SCAR47 MLOK,2,0.22,-1,-4,,,,,,,,1200
-,,pmm_scar_mlok_xl_rail_extension_mre_xl,Everetts Machining SCAR MLOK XL Rail Extension (MRE XL),2,0.12,0,-1,,,,,,,,900
+,,hilt_defense_scar47_mlok_handguard,Hilt Defense FANG47 MLOK,2,0.22,-1,-4,,,,,,,,1200
+,,pmm_scar_mlok_xl_rail_extension_mre_xl,Everetts Machining FANG MLOK XL Rail Extension (MRE XL),2,0.12,0,-1,,,,,,,,900
 ,,madbull_pws_srx_5inch_rail_handguard,"Madbull PWS SRX 5""",1,0.15,-1,-2,,,,,,,,800
-,,dynamic_development_group_scar_mrex_mlok_6.5inch_gen1_handguard,"Dynamic Development Group SCAR MREX MLOK 6.5"" Gen 1",3,0.25,-3,-1,,,,,,,,1750
-,,northeast_industries_scar_socom_extended_mlok_handguard,Northeast Industries SCAR SOCOM Extended MLOK,4,0.26,-2,-1,,,,,,,,1600
-,,northeast_industries_scar_quad_rail_handguard,Northeast Industries SCAR Quad Rail Extension,3,0.3,-2,-4,,,,,,,,1500
-,,chillset_scar_rail_extension,Chillset SCAR Rail Extension,1,0.2,-2,-2,,,,,,,,1300
-,,dynamic_development_group_scar_mrex_mk2_mlok_2.2inch_handguard,"Dynamic Development Group SCAR MREX MkII MLOK 2.2""",4,0.19,-1,0,,,,,,,,1250
-,,dynamic_development_group_scar_mrex_mk2_mlok_4.25inch_handguard,"Dynamic Development Group SCAR MREX MkII MLOK 4.25""",3,0.23,-2,-2,,,,,,,,1750
-,,dynamic_development_group_scar_mrex_mk2_mlok_6.5inch_handguard,"Dynamic Development Group SCAR MREX MkII MLOK 6.5""",2,0.27,-4,-2,,,,,,,,2000
+,,dynamic_development_group_scar_mrex_mlok_6.5inch_gen1_handguard,"Dynamic Development Group FANG MREX MLOK 6.5"" Gen 1",3,0.25,-3,-1,,,,,,,,1750
+,,northeast_industries_scar_socom_extended_mlok_handguard,Northeast Industries FANG SOCOM Extended MLOK,4,0.26,-2,-1,,,,,,,,1600
+,,northeast_industries_scar_quad_rail_handguard,Northeast Industries FANG Quad Rail Extension,3,0.3,-2,-4,,,,,,,,1500
+,,chillset_scar_rail_extension,Chillset FANG Rail Extension,1,0.2,-2,-2,,,,,,,,1300
+,,dynamic_development_group_scar_mrex_mk2_mlok_2.2inch_handguard,"Dynamic Development Group FANG MREX MkII MLOK 2.2""",4,0.19,-1,0,,,,,,,,1250
+,,dynamic_development_group_scar_mrex_mk2_mlok_4.25inch_handguard,"Dynamic Development Group FANG MREX MkII MLOK 4.25""",3,0.23,-2,-2,,,,,,,,1750
+,,dynamic_development_group_scar_mrex_mk2_mlok_6.5inch_handguard,"Dynamic Development Group FANG MREX MkII MLOK 6.5""",2,0.27,-4,-2,,,,,,,,2000
 ,fn_scar_gas_selector,,,,,,,,,,,,,,
-,,edinburg_engineering_scarburator_gen3,Edinburg Engineering SCARburator Gen3,0,0.04,0,-2,,,,,,,,400
+,,edinburg_engineering_scarburator_gen3,Edinburg Engineering FANGburator Gen3,0,0.04,0,-2,,,,,,,,400
 ,,aft_oem_gas_selector,AFT OEM,0,0.02,0,0,,,,,,,,0
 ,scar_magwell,,,,,,,,,,,,,,
-,,pmm_scar_17_magwell_type1,Everetts Machining SCAR 17 Type 1,2,0.06,0,-2,,,,,,,,750
-,,pmm_scar_17_magwell_type2,Everetts Machining SCAR 17 Type 2,2.5,0.08,-1,,,,,,,,,700
-,,pmm_scar_16_magwell,Everetts Machining SCAR 16,2,0.05,-1,,,,,,,,,700
+,,pmm_scar_17_magwell_type1,Everetts Machining FANG 17 Type 1,2,0.06,0,-2,,,,,,,,750
+,,pmm_scar_17_magwell_type2,Everetts Machining FANG 17 Type 2,2.5,0.08,-1,,,,,,,,,700
+,,pmm_scar_16_magwell,Everetts Machining FANG 16,2,0.05,-1,,,,,,,,,700
 ,vector_folding_stock,,,,,,,,,,,,,,
 ,,kriss_vector_gen2_folding_stock,KALIS Scalar Gen2,16,0.26,-7,-9,,,,,,,,0
 ,,kriss_vector_non_folding_stock_adapter,KALIS Scalar Non-Folding Stock Adapter,0,0.08,0,0,,,,,,,,800
@@ -1117,10 +1117,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,magazine_7.62x51_nato_scarh,,,,,,,,,,,,,,
 ,,promag_scar17_7.62x51_50r_drum,ProClip AF Tournai 17 .308 50R Drum,-15,1.46,,,50,,,,,,,4500
 ,,aft_mk_17_7.62x51_10r,AFT MK-17 7.62x51 NATO 10R,7,0.32,,,10,,,,,,,500
-,,carpe_diem_industries_scar_7.62x51_polymer_15r,Carpe Diem Industries SCAR-H 7.62x51 Polymer 15R,2,0.43,,,15,,,,,,,1500
-,,carpe_diem_industries_scar_7.62x51_polymer_20r,Carpe Diem Industries SCAR-H 7.62x51 Polymer 20R,-1,0.57,,,20,,,,,,,1250
-,,carpe_diem_industries_scar_7.62x51_polymer_30r,Carpe Diem Industries SCAR-H 7.62x51 Polymer 30R,-7,0.86,,,30,,,,,,,3000
-,,carpe_diem_industries_scar_7.62x51_polymer_10r,Carpe Diem Industries SCAR-H 7.62x51 Polymer 10R,6.5,0.29,,,10,,,,,,,750
+,,carpe_diem_industries_scar_7.62x51_polymer_15r,Carpe Diem Industries FANG-H 7.62x51 Polymer 15R,2,0.43,,,15,,,,,,,1500
+,,carpe_diem_industries_scar_7.62x51_polymer_20r,Carpe Diem Industries FANG-H 7.62x51 Polymer 20R,-1,0.57,,,20,,,,,,,1250
+,,carpe_diem_industries_scar_7.62x51_polymer_30r,Carpe Diem Industries FANG-H 7.62x51 Polymer 30R,-7,0.86,,,30,,,,,,,3000
+,,carpe_diem_industries_scar_7.62x51_polymer_10r,Carpe Diem Industries FANG-H 7.62x51 Polymer 10R,6.5,0.29,,,10,,,,,,,750
 ,,aft_mk_17_7.62x51_20r,AFT MK-17 7.62x51 NATO 20R,0,0.63,,,20,,,,,,,0
 ,magazine_7.62x51_nato_sr25,,,,,,,,,,,,,,
 ,,cartesia_productions_x25_7.62x51_drum_50r,Cartesia Productions X-25 .308 50R Drum,-14,1.5,,,50,,,,,,,5000
@@ -1374,7 +1374,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak_carbine_lower,,,,,,,,,,,,,,
 ,,kazarov_aks74u_lower_receiver,Kazarov AKS-74U,1,0.32,2,2,,,,,,,,0
 ,aks74u_barrel,,,,,,,,,,,,,,
-,,kazarov_aks74u_210mm_5.45x39_barrel,Kazarov AKS-74U 210mm 5.45x39,8,0.29,1,0,,0.25,-0.08,-200,,,,0
+,,kazarov_aks74u_210mm_5.45x39_barrel,Kazarov AKS-74U 210mm 5.45x39,8,0.29,1,0,,0.20,-0.08,-200,,,,0
 ,aks74u_bolt,,,,,,,,,,,,,,
 ,,kazarov_aks74u_5.45x39_bolt,Kazarov AKS-74U,0,0.05,,,,,,,,,,0
 ,aks74u_bolt_carrier,,,,,,,,,,,,,,
@@ -2654,7 +2654,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,dynamic_development_group_sas_acr_stock_cheek_pad,Dynamic Development Group SAS Adaptive ACR Stock,4,0.04,,,,,,,,,,0
 ,acr_stock_moving_part,,,,,,,,,,,,,,
 ,,dynamic_development_group_sas_acr_stock,Dynamic Development Group SAS Adaptive ACR Stock,10,0.16,-10,-7,,,,,,,,1000
-,,haga_defense_scar_acr_tailhook_adapter,Haga Defense SCAR ACR Tailhook,0,0.06,,,,,,,,,,600
+,,haga_defense_scar_acr_tailhook_adapter,Haga Defense FANG ACR Tailhook,0,0.06,,,,,,,,,,600
 ,acr_stock_retractor,,,,,,,,,,,,,,
 ,,dynamic_development_group_sas_acr_stock_retractor,Dynamic Development Group SAS Adaptive ACR Retractor,0,0.11,,,,,,,,,,0
 ,ar_tr2_stock_pad,,,,,,,,,,,,,,
@@ -2938,7 +2938,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,rifle,,,,,,,,,,,,,,
 ,,KF416,KF 416,25,0,70,80,0,0.55,1,2450,,,1,30000
 ,,AUG_A3,Löwenherz AUG A3,40,0,55,65,0,0.5,1,2450,,,1,42000
-,,AK12,Kazarov Group AK-12,30,0,50,55,0,0.3,1,2300,,,1,25000
+,,AK12,Kazarov Group AK-12,30,0,50,55,0,0.4,1,2300,,,1,25000
 ,,AK308,Kazarov Group AK-308,20,0,80,100,0,0.75,1,1900,,,1,65000
 ,,M4A1,AR-15,15,0,65,85,0,0.6,1,2450,,,1,0
 ,,QBZ95,Sanxian QBZ-95,50,0,50,50,0,0.4,0.92,2500,,,1,25000
@@ -2949,8 +2949,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,G3,KF KG-31,25,0,70,100,0,0.55,1,1900,,,1,30000
 ,,Remington700,Roosevelt M700,30,0,80,90,0,0.2,1.2,2200,,,1,42000
 ,,AK_762,Kazarov Group AK 7.62,20,0,70,85,0,0.55,1,1800,,,1,15000
-,,AK_545,Kazarov Group AK 5.45,15,0,65,70,0,0.3,1,2300,,,1,5000
-,,AK_545_Carbine,Kazarov Group AK 5.45 Carbine,15,0,65,70,0,0.3,1,2300,,,1,30000
+,,AK_545,Kazarov Group AK 5.45,15,0,65,70,0,0.4,1,2300,,,1,5000
+,,AK_545_Carbine,Kazarov Group AK 5.45 Carbine,15,0,65,70,0,0.4,1,2300,,,1,30000
 ,,MosinNagant,Mosin Nagant M91/30 PU,65,0,80,90,0,0.2,1,1900,,,1,14000
 ,shotgun,,,,,,,,,,,,,,
 ,,Remington870,Roosevelt M870 Express,25,0,90,90,1,0.8,1,1000,2.5,,1,20000

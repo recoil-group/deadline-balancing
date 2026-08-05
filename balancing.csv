@@ -1113,7 +1113,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,rsa_sa58_fal_metric_polymer_magazine_20r,RSA FAL SA-58 U.S. Made Polymer Metric 20R,-3,0.48,,,20,,,,,,,1000
 ,,enfield_l1a1_slr_pattern_mag_30r,Sheffield L4 Pattern 30R,-6,0.94,,,30,,,,,,,2500
 ,,nm_fal_polymer_mag_20r,Noah Magazines Polymer 20R,-1,0.55,,,20,,,,,,,1500
-,,cartesia_productions_x_fal_drum_mag_50r,Cartesia Productions X-FAL .308 50R Drum,,,,,,,,,,,,
+,,cartesia_productions_x_fal_drum_mag_50r,Cartesia Productions X-FAL .308 50R Drum,-14,1.5,,,50,,,,,,,4500
 ,magazine_7.62x51_nato_scarh,,,,,,,,,,,,,,
 ,,promag_scar17_7.62x51_50r_drum,ProClip AF Tournai 17 .308 50R Drum,-15,1.46,,,50,,,,,,,4500
 ,,aft_mk_17_7.62x51_10r,AFT MK-17 7.62x51 NATO 10R,7,0.32,,,10,,,,,,,500

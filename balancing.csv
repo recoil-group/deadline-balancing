@@ -1,4 +1,4 @@
-﻿0.25.3,Wed Aug 05 16:45:18 2026,,,,,,,,,,,,,,
+﻿0.25.3,Wed Aug 05 16:49:48 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -1205,7 +1205,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kazarov_ak74_rear_sight_block,Kazarov AK-74,0,0.09,,,,,,,,,,0
 ,,kazarov_akm_rear_sight_block,Kazarov AKM,0,0.1,,,,,,,,,,0
 ,ak_barrel_mount,,,,,,,,,,,,,,
-,,rs_regulate_bm_1_akm_spec_.59_accessory_mount,RS Regulate BM-1 AKM Spec .59 Accessory,-1,0.04,,,,,,,,,,500
+,,rs_regulate_bm_1_akm_spec_.59_accessory_mount,RS Regulate BM-1 AKM Spec .59 Accessory,-0.5,0.04,,,,,,,,,,500
 ,ak_dovetail_mount,,,,,,,,,,,,,,
 ,,adron_kobra_ekp_8_02_mount,Adron Kobra EKP-8-02 Dovetail,0,0.12,,,,,,,,,,100
 ,,veles_chelomo_dovetail_mount_pkas,Veles ChelOMO PK-AS,0,0.08,,,,,,,,,,600
@@ -1249,8 +1249,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,archient_technologies_elysium_laser_module,Archient Technologies Elysium Laser,-2,0.15,-1,-3,,,,,,,,1000
 ,ak12_barrel,,,,,,,,,,,,,,
 ,,ak12_std_415mm_barrel,AK-12 415mm 5.45x39,0,1,0,0,,0,0,43,,,,0
-,,kazarov_group_std_rpk16_559mm_barrel,Kazarov Group RPK-16 559mm 5.45x39,-8,1.18,-5,-4,,0.1,0.1,185,,,,1000
-,,kazarov_group_ak12k_314mm_barrel,Kazarov Group AK-12K 314mm 5.45x39,5,0.9,3,4,,0.15,-0.05,-90,,,,1500
+,,kazarov_group_std_rpk16_559mm_barrel,Kazarov Group RPK-16 559mm 5.45x39,-8,1.18,-5,-4,,-0.1,0.1,185,,,,1000
+,,kazarov_group_ak12k_314mm_barrel,Kazarov Group AK-12K 314mm 5.45x39,5,0.81,3,2,,0.1,-0.05,-90,,,,1500
 ,ak12_bolt,,,,,,,,,,,,,,
 ,,ak12_std_5.45x39_bolt,AK-12 5.45x39,0,0.33,,,,,,,,,,0
 ,ak12_dust_cover,,,,,,,,,,,,,,
@@ -1277,11 +1277,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kazarov_group_rpk16_handguard,Kazarov Group RPK-16 Std.,3,0.22,-4,-4,,,,,,,,1500
 ,,russian_tuning_ak12_megatron_handguard,Russian Tuning AK-12 Megatron,6,0.31,-3,-4,,,,,,,,2500
 ,ak12_lower_receiver,,,,,,,,,,,,,,
-,,ak12_gen2_lower_receiver,Kazarov Group AK-12 Gen 2,5,0.46,3,1,,-0.05,,,,,,1500
+,,ak12_gen2_lower_receiver,Kazarov Group AK-12 Gen 2,4,0.46,3,1,,-0.05,,,,,,1500
 ,,ak12_gen1_lower_receiver,Kazarov Group AK-12 Gen 1,0,0.42,0,0,,0,,,,,,500
 ,ak12_upper_handguard,,,,,,,,,,,,,,
 ,,ak12_std_upper_handguard,Kazarov Group AK-12 Std.,0,0.06,0,0,,,,,,,,0
-,,kazarov_group_ak12_std_handguard_side_rail,Kazarov Group AK-12 Std. Side Rail,-0.5,0.02,,,,,,,,,,300
+,,kazarov_group_ak12_std_handguard_side_rail,Kazarov Group AK-12 Std. Side Rail,0,0.02,,,,,,,,,,300
 ,ak308_barrel,,,,,,,,,,,,,,
 ,,ak308_std_415mm_barrel,AK-308 415mm 7.62x51,0,1.45,0,0,,0,0,0,,,,0
 ,,custom_ak308_7.62x51_415mm_threaded_barrel,Custom AK-308 415mm Threaded 7.62x51,-1,1.45,1,1,,0.1,0,0,,,,1000
@@ -2332,7 +2332,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ak12_std_muzzle_device,Kazarov Group AK-12 Std.,0,0.09,-12,-14,,0.1,0,20,,,,0
 ,,kazarov_group_6ch60_ak12_suppressor,Kazarov Group 6Ch60 AK-12,-5,0.3,-15,-17,,-0.15,0.14,120,,,,1000
 ,,fireline_bayonet_thread_adapter_for_ak12,Fireline AK-12 Bayonet,0,0.03,0,0,,0,0,0,,,,1500
-,,kazarov_group_ak12k_5.45x39_flash_hider,Kazarov Group AK-12K 5.45x39,2,0.06,-10,-12,,0.1,0,10,,,,500
+,,kazarov_group_ak12k_5.45x39_flash_hider,Kazarov Group AK-12K 5.45x39,3,0.06,-10,-12,,0.1,0,10,,,,500
 ,7.62x51nato_m15x1rh_muzzle_device,,,,,,,,,,,,,,
 ,,tubewerx_m15x1rh_to_5_8x24_thread_adapter,Tubewerx M15x1RH to 5/8x24 Thread,-1,0.05,1,1,,0.1,0,-50,,,,1000
 ,,hk_bird_cage_flash_hider_m15x1rh,Bird Cage Style M15x1RH 7.62x51 NATO,1,0.05,-11,-9,,0,0,50,,,,0
@@ -2938,7 +2938,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,rifle,,,,,,,,,,,,,,
 ,,KF416,KF 416,25,0,65,80,0,0.55,1,2450,,,1,30000
 ,,AUG_A3,Löwenherz AUG A3,40,0,55,65,0,0.5,1,2450,,,1,42000
-,,AK12,Kazarov Group AK-12,30,0,50,55,0,0.4,1,2300,,,1,25000
+,,AK12,Kazarov Group AK-12,35,0,50,55,0,0.4,1,2300,,,1,25000
 ,,AK308,Kazarov Group AK-308,20,0,80,100,0,0.75,1,1900,,,1,65000
 ,,M4A1,AR-15,15,0,65,85,0,0.6,1,2450,,,1,0
 ,,QBZ95,Sanxian QBZ-95,50,0,50,50,0,0.4,0.92,2500,,,1,25000

@@ -1,4 +1,4 @@
-﻿0.25.3,Wed Aug 05 16:41:18 2026,,,,,,,,,,,,,,
+﻿0.25.3,Wed Aug 05 16:45:18 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -217,8 +217,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,holotec_owl_tactical_laser_module,HOLOTEC OWL Tactical,0,0.12,,-1,,,,,,,,2500
 ,,holotec_owl_access_point_cap,HOLOTEC OWL,0,0.01,,,,,,,,,,0
 ,,holotec_owl_lens_caps,HOLOTEC OWL,1,0.01,,,,,,,,,,0
-,,whitehouse_rush_qe_g18_high_power_laser_aiming_device,Whitehouse RUSH Qe G18 High Power,0,0.1,,0,,,,,,,,4500
-,,whitehouse_rush_qe_g14_high_power_laser_aiming_device,Whitehouse RUSH Qe G14 High Power,0,0.1,,0,,,,,,,,4000
+,,whitehouse_rush_qe_g18_high_power_laser_aiming_device,Whitehouse RUSH Qe G18 High Power,0,0.1,,-1,,,,,,,,4500
+,,whitehouse_rush_qe_g14_high_power_laser_aiming_device,Whitehouse RUSH Qe G14 High Power,0,0.1,,-1,,,,,,,,4000
 ,,whitehouse_rush_qe_junction_box_legacy_crane_connector,Whitehouse RUSH Qe Legacy Crane Connector,0,0.01,,,,,,,,,,0
 ,,whitehouse_rush_qe_front_caps,Whitehouse RUSH Qe Front,0,0.01,,,,,,,,,,0
 ,,pac_azimuth_micro_nvg_high_rise_picatinny_mount,PAC Azimuth Micro NVG High Rise Picatinny Mount,-1,0.1,,,,,,,,,,1300

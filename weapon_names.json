@@ -84,5 +84,11 @@
 				"sig_sauer_p320_xcarry_grip_module"
 			]
 		}
+	],
+	"AK12": [
+		{
+			"name": "AK-12K",
+			"required_attachments": ["kazarov_group_ak12k_314mm_barrel"]
+		}
 	]
 }

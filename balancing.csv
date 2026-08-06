@@ -1,4 +1,4 @@
-﻿0.25.3,Tue Aug 04 22:58:04 2026,,,,,,,,,,,,,,
+﻿0.25.3,Wed Aug 05 16:49:48 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -16,7 +16,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,azimuth_amm_dovetail_11mm_mount,Azimuth AMM Dovetail Groove 11mm,0,0.02,,,,,,,,,,200
 ,,azimuth_electronic_g2_red_dot,Azimuth Electronic G2,0,0.17,,,,,,,,,,500
 ,,azimuth_micro_lrp_qd_mount,Azimuth Micro LRP QD,0,0.03,,,,,,,,,,300
-,,be_meyers_mawl_c1+,B.E. Meyers MAWL-C1+,-1,0.07,,,,,,,,,,3000
+,,be_meyers_mawl_c1+,B.E. Meyers MAWL-C1+,0,0.16,,-2,,,,,,,,3000
 ,,corvus_mounts_comm_30mm_mount_body,"Corvus Mounts C.O.M.M. 30mm 1.54"" Height",-0.5,0.06,,,,,,,,,,1000
 ,,corvus_mounts_comm_34mm_mount_body,"Corvus Mounts C.O.M.M. 34mm 1.54"" Height",-0.5,0.07,,,,,,,,,,1000
 ,,alistair_ar_prb_mount,Alistair AR PRB,0,0.06,,,,,,,,,,400
@@ -56,10 +56,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,gbrs_group_azimuth_hydra_mount_kit,GBRS Group Hydra Mount Kit For Azimuth,-1,0.17,,,,,,,,,,1000
 ,,grip_pod_gps_02_body,Grip Pod Systems GPS-02,0,0.15,0,0,,,,,,,,1100
 ,,holosun_hs401g5,HoloStar HS401G5,-2,0.2,,,,,,,,,,800
-,,holosun_ls321g,HoloStar LS321G,-1,0.06,,,,,,,,,,800
-,,insight_technology_an_peq_5_cvl,Percept Technology CVL AN/PEQ-5,-1,0.07,,,,,,,,,,600
-,,insight_technology_an_peq_2a_tpial,Percept Technology TPIAL AN/PEQ-2A,-1.5,0.08,,,,,,,,,,750
-,,insight_technology_wmx200_fixed_mount_tactical_illuminator,Percept Technology WMX200 Tactical Illuminator w/ Fixed Non-Rotating Mount,-1,0.06,,,,,,,,,,1200
+,,holosun_ls321g,HoloStar LS321G,-1,0.13,,-1,,,,,,,,800
+,,insight_technology_an_peq_5_cvl,Percept Technology CVL AN/PEQ-5,-2,0.07,,,,,,,,,,600
+,,insight_technology_an_peq_2a_tpial,Percept Technology TPIAL AN/PEQ-2A,-1,0.11,,-1,,,,,,,,750
+,,insight_technology_wmx200_fixed_mount_tactical_illuminator,Percept Technology WMX200 Tactical Illuminator w/ Fixed Non-Rotating Mount,0,0.1,,,,,,,,,,1200
 ,,pac_11rib_railpanel,PAC 11 Rib,1.75,0.07,,,,,,,,,,600
 ,,pac_2rib_railpanel,PAC 2 Rib,0.5,0.02,,,,,,,,,,100
 ,,pac_4rib_railpanel,PAC 4 Rib,0.75,0.03,,,,,,,,,,200
@@ -72,10 +72,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pac_rear_sight_base,PAC Rear Base,0,0.02,,,,,,,,,,200
 ,,pac_vpg,PAC VPG,2,0.09,-6,-3,,,,,,,,700
 ,,khf_34mm_iea,KHF I-E-A 34mm,-1,0.11,,,,,,,,,,500
-,,l3harrison_atpial_an_peq_15,N4 Harrison ATPIAL AN/PEQ-15,-1,0.06,,,,,,,,,,1200
-,,l3harrison_mipim_an_peq_16b,N4 Harrison MIPIM AN/PEQ-16B,-1,0.07,,,,,,,,,,2000
+,,l3harrison_atpial_an_peq_15,N4 Harrison ATPIAL AN/PEQ-15,-0.5,0.11,,-1,,,,,,,,1200
+,,l3harrison_mipim_an_peq_16b,N4 Harrison MIPIM AN/PEQ-16B,-0.5,0.15,,-2,,,,,,,,2000
 ,,leroux_qd_lt_101,LeRoux QD LT-101,-0.5,0.04,,,,,,,,,,1000
-,,las_tac_2,LAS/TAC 2,-0.5,0.05,,,,,,,,,,750
+,,las_tac_2,LAS/TAC 2,0,0.05,,,,,,,,,,750
 ,,strauss_deltapoint_pro_ar,Strauss DeltaPoint PRO AR,-1,0.07,,,,,,,,,,300
 ,,strauss_deltapoint_pro_cross_slot,Strauss DeltaPoint Pro Cross Slot,0,0.02,,,,,,,,,,200
 ,,strauss_deltapoint_pro_ar_dloc,Strauss DeltaPoint PRO DLOC,-1,0.05,,,,,,,,,,250
@@ -97,7 +97,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,target_sports_mt012h_riser_mount,"Target Sports MT012H 1""",-1,0.06,,,,,,,,,,400
 ,,target_sports_mt012l_riser_mount,"Target Sports MT012L 0.5""",-1,0.06,,,,,,,,,,200
 ,,target_sports_mt012m_riser_mount,"Target Sports MT012M 0.83""",-1,0.06,,,,,,,,,,300
-,,cosmotac_blue_lam_module,CosmoTac Blue LAM Module,-1,0.08,,,,,,,,,,750
+,,cosmotac_blue_lam_module,CosmoTac Blue LAM Module,-2,0.05,,,,,,,,,,750
 ,,cosmotac_mark_3_tactical_gen2_3_9x42,CosmoTac Mark III Tactical Gen 2 3-9x42,-5,0.26,,-2,,,,,,,,2000
 ,,cosmotac_mpr45_offset_mount,CosmoTac Mpr45 Offset,-0.5,0.03,,,,,,,,,,200
 ,,npz_1p78_kashtan_p1_picatinny_adapter,NPZ 1P78 Kashtan P-1 Picatinny Adapter,0,0.06,,,,,,,,,,300
@@ -128,8 +128,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sig_sauer_romeo4_low,Sic Stürmer Romeo4 Low,0,0.03,,,,,,,,,,200
 ,,sig_sauer_romeo4t_1/3_cowitness_mount,Sic Stürmer Romeo4T Lower Hex Bolt 1/3 Co-witness,-0.5,0.05,,,,,,,,,,300
 ,,sig_sauer_romeo5_low_mount,Sic Stürmer Romeo5 Low,0,0.02,,,,,,,,,,200
-,,sightmark_lopro_combo,Sightmark Lopro Combo,-0.5,0.06,,,,,,,,,,500
-,,sightmark_lopro_mini_combo,Sightmark Lopro Mini Combo,-0.5,0.05,,,,,,,,,,600
+,,sightmark_lopro_combo,Sightmark Lopro Combo,-1,0.2,,-2,,,,,,,,500
+,,sightmark_lopro_mini_combo,Sightmark Lopro Mini Combo,-1,0.11,,,,,,,,,,600
 ,,stark_se_5_express_forward_grip,Stark SE-5 Express Forward,2,0.1,-5,-5,,,,,,,,400
 ,,swampfox_picatinny_rmr_footprint_mount,Swampfox Picatinny RMR,0,0.02,,,,,,,,,,200
 ,,swampfox_trihawk_3x30_prism_scope,Swampfox Trihawk 3x30 Prism,-3,0.22,,-1,,,,,,,,1000
@@ -159,8 +159,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,veles_chelomo_pk06_kobra_sight,Veles ChelOMO PK-06 Kobra,-2.5,0.06,,,,,,,,,,1000
 ,,veles_chelomo_prc_red_dot,Veles ChelOMO PRC,-1,0.16,,,,,,,,,,1200
 ,,veles_chelomo_picatinny_mount_pkas,Veles ChelOMO PK-AS,0,0.05,,,,,,,,,,300
-,,veles_klesch_2p_lcu,Veles Klesch-2P + LCU,-0.5,0.08,,,,,,,,,,1000
-,,veles_perst_3_classic_gen4_green,"Veles Perst-3 ""Classic"" gen 4.0 (GREEN+)",-1,0.07,,,,,,,,,,1000
+,,veles_klesch_2p_lcu,Veles Klesch-2P + LCU,0,0.1,,,,,,,,,,1000
+,,veles_perst_3_classic_gen4_green,"Veles Perst-3 ""Classic"" gen 4.0 (GREEN+)",-0.5,0.16,,-2,,,,,,,,1000
 ,,primary_arms_slx_1x_microprism_acss_g2_scope_alt,,-1,0.08,,,,,,,,,,1300
 ,,primary_arms_slx_1.53inch_straight_spacer_alt,,0,0.05,,,,,,,,,,100
 ,,gbrs_group_lerna_picatinny_holotec_mount,GBRS Group Lerna Picatinny HOLOTEC,-1,0.07,,,,,,,,,,900
@@ -214,11 +214,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,cosmotac_vism_micro_green_dot_red_laser_vdgrlb,CosmoTac VISM Micro Green Dot w/ Red Laser VDGRLB,-3,0.06,,,,,,,,,,700
 ,,cosmotac_vism_carry_handle_front_sight,CosmoTac VISM Carry Handle,1,0.01,,,,,,,,,,0
 ,,cosmotac_vism_carry_handle_front_sight_folded,CosmoTac VISM Carry Handle Folded,1,0.01,,,,,,,,,,0
-,,holotec_owl_tactical_laser_module,HOLOTEC OWL Tactical,-2,0.06,,,,,,,,,,2500
+,,holotec_owl_tactical_laser_module,HOLOTEC OWL Tactical,0,0.12,,-1,,,,,,,,2500
 ,,holotec_owl_access_point_cap,HOLOTEC OWL,0,0.01,,,,,,,,,,0
 ,,holotec_owl_lens_caps,HOLOTEC OWL,1,0.01,,,,,,,,,,0
-,,whitehouse_rush_qe_g18_high_power_laser_aiming_device,Whitehouse RUSH Qe G18 High Power,-2,0.06,,,,,,,,,,4500
-,,whitehouse_rush_qe_g14_high_power_laser_aiming_device,Whitehouse RUSH Qe G14 High Power,-2,0.06,,,,,,,,,,4000
+,,whitehouse_rush_qe_g18_high_power_laser_aiming_device,Whitehouse RUSH Qe G18 High Power,0,0.1,,-1,,,,,,,,4500
+,,whitehouse_rush_qe_g14_high_power_laser_aiming_device,Whitehouse RUSH Qe G14 High Power,0,0.1,,-1,,,,,,,,4000
 ,,whitehouse_rush_qe_junction_box_legacy_crane_connector,Whitehouse RUSH Qe Legacy Crane Connector,0,0.01,,,,,,,,,,0
 ,,whitehouse_rush_qe_front_caps,Whitehouse RUSH Qe Front,0,0.01,,,,,,,,,,0
 ,,pac_azimuth_micro_nvg_high_rise_picatinny_mount,PAC Azimuth Micro NVG High Rise Picatinny Mount,-1,0.1,,,,,,,,,,1300
@@ -381,7 +381,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,stellartac_saturn_4x_red_scope,StellarTAC SATURN 4x Red Fiber Scope,-3,0.2,,-1,,,,,,,,1000
 ,,stellartac_saturn_4x_green_scope,StellarTAC SATURN 4x Green Fiber Scope,-3,0.2,,-1,,,,,,,,1200
 ,insight_tech_anpaq4a,,,,,,,,,,,,,,
-,,insight_technology_an_paq_4a_ir_laser,Percept Technology AN/PAQ-4A,1,0.08,-1,-1,,,,,,,,1000
+,,insight_technology_an_paq_4a_ir_laser,Percept Technology AN/PAQ-4A,-1,0.14,,-2,,,,,,,,1000
 ,magtap_mbus_frontsight_post,,,,,,,,,,,,,,
 ,,magtap_mbus_gen2_frontsight_post,Magtap MBUS Gen2 Sight,0,0.005,,,,,,,,,,0
 ,magtap_mbus_rearsight_post,,,,,,,,,,,,,,
@@ -517,20 +517,20 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,single_ring_30mm_sight_mount,,,,,,,,,,,,,,
 ,,azimuth_compm2_sight,Azimuth CompM2,-1,0.11,,,,,,,,,,800
 ,25mm_ring_mount,,,,,,,,,,,,,,
-,,armytek_predator_prov3_xhp35_hi,Armytek Predator Pro v3 XHP35 HI,-2,0.16,,,,,,,,,,750
-,,ultrafire_wf501b_flashlight,Ultrafire WF-501B,-1,0.12,,,,,,,,,,500
+,,armytek_predator_prov3_xhp35_hi,Armytek Predator Pro v3 XHP35 HI,0,0.05,,,,,,,,,,750
+,,ultrafire_wf501b_flashlight,Ultrafire WF-501B,0,0.15,,,,,,,,,,500
 ,nariakira_mount,,,,,,,,,,,,,,
-,,nariakira_inline_scout_mlok_mount,Nariakira Inline Scout MLOK,-0.5,0.03,,,,,,,,,,250
-,,nariakira_inline_scout_picatinny_mount,Nariakira Inline Scout Picatinny,-1,0.03,,,,,,,,,,250
+,,nariakira_inline_scout_mlok_mount,Nariakira Inline Scout MLOK,0,0.03,,,,,,,,,,250
+,,nariakira_inline_scout_picatinny_mount,Nariakira Inline Scout Picatinny,0,0.03,,,,,,,,,,250
 ,surefire_300_body,,,,,,,,,,,,,,
-,,nariakira_300_series_light_body,Nariakira 300 Series,-0.5,0.03,,,,,,,,,,500
-,,nariakira_18650_series_light_body,Nariakira 18650 Series,-1,0.04,,,,,,,,,,750
+,,nariakira_300_series_light_body,Nariakira 300 Series,0,0.04,,,,,,,,,,500
+,,nariakira_18650_series_light_body,Nariakira 18650 Series,0,0.07,,,,,,,,,,750
 ,surefire_scoutlight_head,,,,,,,,,,,,,,
-,,wepmod_plhv2_light_head,Wepmod PLHV2,-1,0.03,,,,,,,,,,500
+,,wepmod_plhv2_light_head,Wepmod PLHV2,0,0.03,,,,,,,,,,500
 ,,centrefire_km1_e_ir_scout_light_head,Centrefire KM1-E Visible Light & IR Scout Light,0,0.02,,,,,,,,,,250
 ,surefire_tailcap,,,,,,,,,,,,,,
-,,nariakira_momentary_tailcap,Nariakira Momentary Tailcap,1,0.01,,,,,,,,,,100
-,,centrefire_z68_clicky_tailcap,Centrefire Z68 Clicky Tailcap,1.5,0.02,,,,,,,,,,250
+,,nariakira_momentary_tailcap,Nariakira Momentary Tailcap,0,0.01,,,,,,,,,,100
+,,centrefire_z68_clicky_tailcap,Centrefire Z68 Clicky Tailcap,0,0.02,,,,,,,,,,250
 ,carry_handle_scope_mount,,,,,,,,,,,,,,
 ,,hart_retro_a1_4x21_scope,Hart Retro A1 4x21,-3,0.17,,,,,,,,,,0
 ,,ultracross_electro_4x20_bdc_scope,UltraCROSS Electro 4x20 BDC Turret,-3,0.18,,,,,,,,,,1000
@@ -1113,7 +1113,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,rsa_sa58_fal_metric_polymer_magazine_20r,RSA FAL SA-58 U.S. Made Polymer Metric 20R,-3,0.48,,,20,,,,,,,1000
 ,,enfield_l1a1_slr_pattern_mag_30r,Sheffield L4 Pattern 30R,-6,0.94,,,30,,,,,,,2500
 ,,nm_fal_polymer_mag_20r,Noah Magazines Polymer 20R,-1,0.55,,,20,,,,,,,1500
-,,cartesia_productions_x_fal_drum_mag_50r,Cartesia Productions X-FAL .308 50R Drum,,,,,,,,,,,,
+,,cartesia_productions_x_fal_drum_mag_50r,Cartesia Productions X-FAL .308 50R Drum,-14,1.5,,,50,,,,,,,4500
 ,magazine_7.62x51_nato_scarh,,,,,,,,,,,,,,
 ,,promag_scar17_7.62x51_50r_drum,ProClip AF Tournai 17 .308 50R Drum,-15,1.46,,,50,,,,,,,4500
 ,,aft_mk_17_7.62x51_10r,AFT MK-17 7.62x51 NATO 10R,7,0.32,,,10,,,,,,,500
@@ -1205,7 +1205,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kazarov_ak74_rear_sight_block,Kazarov AK-74,0,0.09,,,,,,,,,,0
 ,,kazarov_akm_rear_sight_block,Kazarov AKM,0,0.1,,,,,,,,,,0
 ,ak_barrel_mount,,,,,,,,,,,,,,
-,,rs_regulate_bm_1_akm_spec_.59_accessory_mount,RS Regulate BM-1 AKM Spec .59 Accessory,-1,0.04,,,,,,,,,,500
+,,rs_regulate_bm_1_akm_spec_.59_accessory_mount,RS Regulate BM-1 AKM Spec .59 Accessory,-0.5,0.04,,,,,,,,,,500
 ,ak_dovetail_mount,,,,,,,,,,,,,,
 ,,adron_kobra_ekp_8_02_mount,Adron Kobra EKP-8-02 Dovetail,0,0.12,,,,,,,,,,100
 ,,veles_chelomo_dovetail_mount_pkas,Veles ChelOMO PK-AS,0,0.08,,,,,,,,,,600
@@ -1246,11 +1246,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,archient_technologies_ak_gastube_mount_type1,Archient Technologies AK Gastube Type 1,1.5,0.05,,,,,,,,,,200
 ,,archient_technologies_ak_gastube_mount_type2,Archient Technologies AK Gastube Type 2,1,0.03,,,,,,,,,,200
 ,,archient_technologies_elysium_flashlight_module,Archient Technologies Elysium Flashlight,-1,0.1,,-1,,,,,,,,500
-,,archient_technologies_elysium_laser_module,Archient Technologies Elysium Laser,-3,0.15,-2,-1,,-0.1,,,,,,1000
+,,archient_technologies_elysium_laser_module,Archient Technologies Elysium Laser,-2,0.15,-1,-3,,,,,,,,1000
 ,ak12_barrel,,,,,,,,,,,,,,
 ,,ak12_std_415mm_barrel,AK-12 415mm 5.45x39,0,1,0,0,,0,0,43,,,,0
-,,kazarov_group_std_rpk16_559mm_barrel,Kazarov Group RPK-16 559mm 5.45x39,-8,1.18,-5,-4,,0.1,0.1,185,,,,1000
-,,kazarov_group_ak12k_314mm_barrel,Kazarov Group AK-12K 314mm 5.45x39,5,0.9,3,4,,0.15,-0.05,-90,,,,1500
+,,kazarov_group_std_rpk16_559mm_barrel,Kazarov Group RPK-16 559mm 5.45x39,-8,1.18,-5,-4,,-0.1,0.1,185,,,,1000
+,,kazarov_group_ak12k_314mm_barrel,Kazarov Group AK-12K 314mm 5.45x39,5,0.81,3,2,,0.1,-0.05,-90,,,,1500
 ,ak12_bolt,,,,,,,,,,,,,,
 ,,ak12_std_5.45x39_bolt,AK-12 5.45x39,0,0.33,,,,,,,,,,0
 ,ak12_dust_cover,,,,,,,,,,,,,,
@@ -1277,11 +1277,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kazarov_group_rpk16_handguard,Kazarov Group RPK-16 Std.,3,0.22,-4,-4,,,,,,,,1500
 ,,russian_tuning_ak12_megatron_handguard,Russian Tuning AK-12 Megatron,6,0.31,-3,-4,,,,,,,,2500
 ,ak12_lower_receiver,,,,,,,,,,,,,,
-,,ak12_gen2_lower_receiver,Kazarov Group AK-12 Gen 2,5,0.46,3,1,,-0.05,,,,,,1500
+,,ak12_gen2_lower_receiver,Kazarov Group AK-12 Gen 2,4,0.46,3,1,,-0.05,,,,,,1500
 ,,ak12_gen1_lower_receiver,Kazarov Group AK-12 Gen 1,0,0.42,0,0,,0,,,,,,500
 ,ak12_upper_handguard,,,,,,,,,,,,,,
 ,,ak12_std_upper_handguard,Kazarov Group AK-12 Std.,0,0.06,0,0,,,,,,,,0
-,,kazarov_group_ak12_std_handguard_side_rail,Kazarov Group AK-12 Std. Side Rail,-0.5,0.02,,,,,,,,,,300
+,,kazarov_group_ak12_std_handguard_side_rail,Kazarov Group AK-12 Std. Side Rail,0,0.02,,,,,,,,,,300
 ,ak308_barrel,,,,,,,,,,,,,,
 ,,ak308_std_415mm_barrel,AK-308 415mm 7.62x51,0,1.45,0,0,,0,0,0,,,,0
 ,,custom_ak308_7.62x51_415mm_threaded_barrel,Custom AK-308 415mm Threaded 7.62x51,-1,1.45,1,1,,0.1,0,0,,,,1000
@@ -1601,7 +1601,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,tt33_trigger,TT33,0,0.02,,,,,,,,,,0
 ,tt33_underbarrel,,,,,,,,,,,,,,
 ,,3d_printed_triggerguard_rail_mount,3D Printed Trigger Guard,-1,0.03,,,,,,,,,,800
-,,tt_virginia_gear_tactical_lam_module_tt33,TT Virginia Gear Tactical Precision LAM-module,-2,0.08,,,,,,,,,,600
+,,tt_virginia_gear_tactical_lam_module_tt33,TT Virginia Gear Tactical Precision LAM-module,-2,0.05,,,,,,,,,,600
 ,tt33_upper_rail_adapter,,,,,,,,,,,,,,
 ,,tt_c_optic_rail,TT-C Optic,-0.5,0.04,,,,,,,,,,1000
 ,pm_makarov_mag_bottomplate,,,,,,,,,,,,,,
@@ -2332,7 +2332,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ak12_std_muzzle_device,Kazarov Group AK-12 Std.,0,0.09,-12,-14,,0.1,0,20,,,,0
 ,,kazarov_group_6ch60_ak12_suppressor,Kazarov Group 6Ch60 AK-12,-5,0.3,-15,-17,,-0.15,0.14,120,,,,1000
 ,,fireline_bayonet_thread_adapter_for_ak12,Fireline AK-12 Bayonet,0,0.03,0,0,,0,0,0,,,,1500
-,,kazarov_group_ak12k_5.45x39_flash_hider,Kazarov Group AK-12K 5.45x39,2,0.06,-10,-12,,0.1,0,10,,,,500
+,,kazarov_group_ak12k_5.45x39_flash_hider,Kazarov Group AK-12K 5.45x39,3,0.06,-10,-12,,0.1,0,10,,,,500
 ,7.62x51nato_m15x1rh_muzzle_device,,,,,,,,,,,,,,
 ,,tubewerx_m15x1rh_to_5_8x24_thread_adapter,Tubewerx M15x1RH to 5/8x24 Thread,-1,0.05,1,1,,0.1,0,-50,,,,1000
 ,,hk_bird_cage_flash_hider_m15x1rh,Bird Cage Style M15x1RH 7.62x51 NATO,1,0.05,-11,-9,,0,0,50,,,,0
@@ -2820,10 +2820,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,mp5sd_suppressor,,,,,,,,,,,,,,
 ,,hk_mp5sd_9x19_suppressor,MPi54SD 9x19,-5,0.26,-12,-16,,-0.1,0.15,-950,,,,3000
 ,surefire_mp5_flashlight,,,,,,,,,,,,,,
-,,centrefire_lm1_bk_flashlight,Centrefire LM1-BK Visible Light Flashlight,-1,0.03,,,,,,,,,,200
-,,centrefire_lm1_b_bk_flashlight,Centrefire LM1-B-BK Visible Light Flashlight,-1,0.04,,,,,,,,,,300
-,,centrefire_lm2_bk_flashlight,Centrefire LM2-BK Visible Light Flashlight,-1,0.05,,,,,,,,,,500
-,,centrefire_lm2_b_bk_flashlight,Centrefire LM2-B-BK Visible Light Flashlight,-1,0.06,,,,,,,,,,600
+,,centrefire_lm1_bk_flashlight,Centrefire LM1-BK Visible Light Flashlight,0,0.03,,,,,,,,,,200
+,,centrefire_lm1_b_bk_flashlight,Centrefire LM1-B-BK Visible Light Flashlight,0,0.04,,,,,,,,,,300
+,,centrefire_lm2_bk_flashlight,Centrefire LM2-BK Visible Light Flashlight,0,0.05,,,,,,,,,,500
+,,centrefire_lm2_b_bk_flashlight,Centrefire LM2-B-BK Visible Light Flashlight,0,0.06,,,,,,,,,,600
 ,ptr_handguard_rails,,,,,,,,,,,,,,
 ,,ptr_mp5_hg_bottom_rail,CTR MPi-54 Bottom,0,0.02,,,,,,,,,,0
 ,,ptr_mp5_hg_left_rail,CTR MPi-54 Left,0,0.02,,,,,,,,,,0
@@ -2938,7 +2938,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,rifle,,,,,,,,,,,,,,
 ,,KF416,KF 416,25,0,65,80,0,0.55,1,2450,,,1,30000
 ,,AUG_A3,Löwenherz AUG A3,40,0,55,65,0,0.5,1,2450,,,1,42000
-,,AK12,Kazarov Group AK-12,30,0,50,55,0,0.4,1,2300,,,1,25000
+,,AK12,Kazarov Group AK-12,35,0,50,55,0,0.4,1,2300,,,1,25000
 ,,AK308,Kazarov Group AK-308,20,0,80,100,0,0.75,1,1900,,,1,65000
 ,,M4A1,AR-15,15,0,65,85,0,0.6,1,2450,,,1,0
 ,,QBZ95,Sanxian QBZ-95,50,0,50,50,0,0.4,0.92,2500,,,1,25000

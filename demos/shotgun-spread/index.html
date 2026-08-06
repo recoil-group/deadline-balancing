@@ -17,6 +17,7 @@
       --blue: #65d8ff;
       --yellow: #ffd166;
       --red: #ff6b6b;
+      --green: #6bdba0;
     }
 
     * {
@@ -35,12 +36,12 @@
     }
 
     main {
-      width: min(1220px, calc(100vw - 28px));
+      width: min(1280px, calc(100vw - 28px));
       min-height: 100vh;
       margin: 0 auto;
       padding: 18px 0;
       display: grid;
-      grid-template-columns: 340px 1fr;
+      grid-template-columns: 400px 1fr;
       gap: 16px;
     }
 
@@ -154,11 +155,35 @@
       border-color: color-mix(in srgb, var(--blue), var(--line) 30%);
     }
 
+    .segmented {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 6px;
+    }
+
+    .segmented button {
+      margin-top: 0;
+      padding: 8px 6px;
+      border-color: var(--line);
+      background: var(--panel-soft);
+      font-size: 12px;
+      text-align: center;
+    }
+
+    .segmented button[aria-pressed="true"] {
+      border-color: color-mix(in srgb, var(--green), var(--line) 35%);
+      background: linear-gradient(135deg, #1d6a51, #23413c);
+    }
+
     .hint {
       margin-top: 5px;
       color: var(--muted);
       font-size: 12px;
       line-height: 1.35;
+    }
+
+    .hint+h2 {
+      margin-top: 16px;
     }
 
     .formula {
@@ -176,8 +201,10 @@
 
     .stage {
       display: grid;
-      grid-template-rows: auto 1fr auto;
-      min-height: calc(100vh - 36px);
+      /* Content-sized rows. A 1fr canvas row would take the canvas element's own
+         intrinsic size as its minimum and inflate the pane to a few thousand pixels. */
+      grid-template-rows: auto auto auto;
+      align-self: start;
     }
 
     .top {
@@ -189,13 +216,9 @@
       align-items: start;
     }
 
-    .top p {
-      margin-bottom: 0;
-    }
-
     .metrics {
       display: grid;
-      grid-template-columns: repeat(2, 150px);
+      grid-template-columns: repeat(4, 132px);
       gap: 10px;
     }
 
@@ -222,7 +245,8 @@
 
     .canvas-wrap {
       position: relative;
-      min-height: 560px;
+      /* Definite height, so the canvas never drives the layout. */
+      height: min(660px, max(340px, calc(100vh - 300px)));
       background:
         linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
         linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
@@ -262,6 +286,10 @@
       background: var(--yellow);
     }
 
+    .hit {
+      background: var(--green);
+    }
+
     .center {
       background: var(--blue);
     }
@@ -276,6 +304,12 @@
       background: rgba(255, 255, 255, 0.14);
     }
 
+    .target {
+      border: 1px solid rgba(107, 219, 160, 0.9);
+      border-radius: 1px;
+      background: rgba(107, 219, 160, 0.16);
+    }
+
     .bottom {
       padding: 13px 18px 16px;
       border-top: 1px solid var(--line);
@@ -284,13 +318,52 @@
       line-height: 1.45;
     }
 
+    .bottom p {
+      margin-bottom: 0;
+      font-size: 13px;
+    }
+
+    .hit-metrics {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(148px, 1fr));
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .breakdown {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 11px;
+    }
+
+    .chip {
+      padding: 5px 10px;
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.04);
+      font-size: 12px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .chip b {
+      color: var(--yellow);
+      font-weight: 600;
+    }
+
+    .chip.on {
+      border-color: color-mix(in srgb, var(--green), var(--line) 40%);
+      background: rgba(107, 219, 160, 0.12);
+      color: var(--text);
+    }
+
+    .chip.on b {
+      color: var(--green);
+    }
+
     @media (max-width: 900px) {
       main {
         grid-template-columns: 1fr;
-      }
-
-      .stage {
-        min-height: 690px;
       }
 
       .top {
@@ -298,7 +371,7 @@
       }
 
       .metrics {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
       }
     }
   </style>
@@ -308,23 +381,22 @@
   <main>
     <section class="card controls">
       <h1>Shotgun spread</h1>
-      <p>
-        A small interactive demo of Deadline 0.25.2-style shotgun spread math. Defaults are the stock R870
-        00 buck setup using <code>buck_barrel_deviation = 2.55</code>, <code>spread_multiplier = 1.5</code>,
-        <code>spread_factor = 0.8</code>, and 9 projectiles.
-      </p>
+      <p>Deadline 0.25.2 spread math, defaulting to the stock R870 00 buck setup.</p>
 
-      <h2>Current ammo presets</h2>
+      <h2>Ammo presets</h2>
       <div class="preset-grid" id="presetGrid"></div>
-      <div class="hint" id="presetNote">Current preset: 12g 00 buck, 9× 00_buck_piece.</div>
+      <div class="hint" id="presetNote">12g 00 buck, 9× 00_buck_piece.</div>
+
+      <h2>Hit region</h2>
+      <div class="segmented" id="regionGrid"></div>
+      <div class="hint">Flat frontal silhouette, so each pellet counts once against one part.</div>
 
       <div class="field">
         <label for="deviation">
           <span>barrel_deviation</span>
           <span class="value" id="deviationValue"></span>
         </label>
-        <input id="deviation" type="range" min="0" max="5" step="0.01" value="0.85" />
-        <div class="hint">The ordinary built weapon deviation stat.</div>
+        <input id="deviation" type="range" min="0" max="4" step="0.01" value="0.85" />
       </div>
 
       <div class="field">
@@ -333,7 +405,6 @@
           <span class="value" id="buckDeviationValue"></span>
         </label>
         <input id="buckDeviation" type="range" min="0" max="8" step="0.01" value="2.55" />
-        <div class="hint">The buckshot-specific built weapon deviation stat used by 0.25.2-style buck projectiles.</div>
       </div>
 
       <div class="field">
@@ -342,7 +413,6 @@
           <span class="value" id="useBuckDeviationValue"></span>
         </label>
         <input id="useBuckDeviation" type="checkbox" checked />
-        <div class="hint">Toggle which raw stat feeds the firing formula.</div>
       </div>
 
       <div class="field">
@@ -351,7 +421,6 @@
           <span class="value" id="spreadMultiplierValue"></span>
         </label>
         <input id="spreadMultiplier" type="range" min="0" max="5" step="0.01" value="1.5" />
-        <div class="hint">Scales the maximum cone radius.</div>
       </div>
 
       <div class="field">
@@ -360,7 +429,7 @@
           <span class="value" id="spreadFactorValue"></span>
         </label>
         <input id="spreadFactor" type="range" min="0.05" max="6" step="0.01" value="0.8" />
-        <div class="hint">Higher values pull pellets toward center; lower values push them toward the edge.</div>
+        <div class="hint">Higher pulls pellets toward center, lower toward the edge.</div>
       </div>
 
       <div class="field">
@@ -368,7 +437,7 @@
           <span>Target distance</span>
           <span class="value" id="distanceValue"></span>
         </label>
-        <input id="distance" type="range" min="5" max="250" step="1" value="100" />
+        <input id="distance" type="range" min="5" max="1000" step="1" value="100" />
       </div>
 
       <div class="field">
@@ -382,7 +451,6 @@
       <div class="field">
         <label for="seed">
           <span>Seed</span>
-          <span class="value">repeatable pattern</span>
         </label>
         <input id="seed" type="number" value="12345" step="1" />
         <button id="reroll" type="button">Reroll spread</button>
@@ -394,34 +462,37 @@
         dir = Vector2(rand(-1, 1), rand(-1, 1)).Unit
         vec = dir * max * (rand(0, 1) ^ spread_factor)
         final = (barrelCFrame * CFrame.Angles(vec.X, vec.Y, 0)).LookVector</div>
+
+      <h2>Hit probability</h2>
+      <div class="formula">F(r) = (r / max) ^ (1 / spread_factor)
+        theta = atan(t) + k*pi/2, t ~ U(-1, 1)
+        P(part) = E_theta[F(r_out) - F(r_in)]
+        P(hit) = sum P(part) over region
+        E[hits] = n * P(hit)
+        P(1+ hit) = 1 - (1 - P(hit)) ^ n</div>
+      <div class="hint">Integrated exactly, not sampled. Verified against a 4,000,000 pellet Monte Carlo run.</div>
     </section>
 
     <section class="card stage">
       <div class="top">
-        <div>
-          <h1>Impact pattern at target distance</h1>
-          <p>
-            Yellow dots are simulated projectiles. The red outline is the exact maximum boundary for the current
-            cone on a flat target plane.
-          </p>
-        </div>
+        <h1>Impact pattern</h1>
 
         <div class="metrics">
-          <div class="metric">
-            <small>Max angle</small>
-            <strong id="maxAngle"></strong>
-          </div>
           <div class="metric">
             <small>Max radius</small>
             <strong id="maxRadius"></strong>
           </div>
-          <div class="metric">
-            <small>Mean radius scale</small>
-            <strong id="meanScale"></strong>
+          <div class="metric" title="max / (spread_factor + 1), the editor's average">
+            <small>Avg radius</small>
+            <strong id="avgRadius"></strong>
           </div>
           <div class="metric">
-            <small>Median radius scale</small>
-            <strong id="medianScale"></strong>
+            <small>Max angle</small>
+            <strong id="maxAngle"></strong>
+          </div>
+          <div class="metric" title="max / (spread_factor + 1), the editor's average">
+            <small>Avg angle</small>
+            <strong id="avgAngle"></strong>
           </div>
         </div>
       </div>
@@ -429,14 +500,37 @@
       <div class="canvas-wrap">
         <canvas id="canvas"></canvas>
         <div class="legend">
-          <div><span class="swatch impact"></span>projectile impact</div>
-          <div><span class="swatch center"></span>barrel forward center</div>
-          <div><span class="swatch boundary"></span>maximum boundary</div>
-          <div><span class="swatch character"></span>Roblox character parts scale</div>
+          <div><span class="swatch hit"></span>hit</div>
+          <div><span class="swatch impact"></span>miss</div>
+          <div><span class="swatch center"></span>aim center</div>
+          <div><span class="swatch boundary"></span>max cone</div>
+          <div><span class="swatch target"></span>hit region</div>
+          <div><span class="swatch character"></span>character parts</div>
         </div>
       </div>
 
-      <div class="bottom" id="sampleStats"></div>
+      <div class="bottom">
+        <div class="hit-metrics">
+          <div class="metric">
+            <small>Hit chance per pellet</small>
+            <strong id="hitChance"></strong>
+          </div>
+          <div class="metric">
+            <small>Expected hits</small>
+            <strong id="expectedHits"></strong>
+          </div>
+          <div class="metric">
+            <small>Chance of 1+ hit</small>
+            <strong id="atLeastOne"></strong>
+          </div>
+          <div class="metric">
+            <small>This seed</small>
+            <strong id="seedHits"></strong>
+          </div>
+        </div>
+        <div class="breakdown" id="breakdown"></div>
+        <p id="sampleStats"></p>
+      </div>
     </section>
   </main>
 
@@ -454,7 +548,7 @@
       },
       {
         label: "04 birdshot",
-        note: "12g_federal_game_load_275_4shot_152x: current ammo_mixing has 31× 04_buck_piece",
+        note: "12g_federal_game_load_275_4shot_152x: 31× 04_buck_piece",
         deviation: 0.85,
         buckDeviation: 2.45,
         useBuckDeviation: true,
@@ -484,7 +578,7 @@
       },
       {
         label: "DB 00 piece",
-        note: "12g_phoenix_hellfire_300_dragons_breath component: 3× 00_buck_piece",
+        note: "12g_phoenix_hellfire_300_dragons_breath: 3× 00_buck_piece",
         deviation: 0.85,
         buckDeviation: 2.45,
         useBuckDeviation: true,
@@ -494,7 +588,7 @@
       },
       {
         label: "DB 02 piece",
-        note: "12g_phoenix_hellfire_300_dragons_breath component: 2× 02_buck_piece",
+        note: "12g_phoenix_hellfire_300_dragons_breath: 2× 02_buck_piece",
         deviation: 0.85,
         buckDeviation: 2.45,
         useBuckDeviation: true,
@@ -504,7 +598,7 @@
       },
       {
         label: "DB fragment",
-        note: "12g_phoenix_hellfire_300_dragons_breath component: 12× dragon_breath_fragment",
+        note: "12g_phoenix_hellfire_300_dragons_breath: 12× dragon_breath_fragment",
         deviation: 0.85,
         buckDeviation: 2.45,
         useBuckDeviation: true,
@@ -513,6 +607,25 @@
         projectiles: 12
       }
     ];
+
+    // Roblox R6 frontal silhouette, in studs, aim point at the torso center.
+    // Stored in world orientation: +y is up, and the canvas flips it when drawing.
+    const bodyParts = [
+      { key: "head", label: "Head", x0: -0.5, x1: 0.5, y0: 1, y1: 2 },
+      { key: "torso", label: "Torso", x0: -1, x1: 1, y0: -1, y1: 1 },
+      { key: "leftArm", label: "L Arm", x0: -2, x1: -1, y0: -1, y1: 1 },
+      { key: "rightArm", label: "R Arm", x0: 1, x1: 2, y0: -1, y1: 1 },
+      { key: "leftLeg", label: "L Leg", x0: -1, x1: 0, y0: -3, y1: -1 },
+      { key: "rightLeg", label: "R Leg", x0: 0, x1: 1, y0: -3, y1: -1 }
+    ];
+
+    const regions = [
+      { key: "torso", label: "Torso", parts: ["torso"] },
+      { key: "torsoHead", label: "Torso + head", parts: ["torso", "head"] },
+      { key: "full", label: "Full body", parts: bodyParts.map((part) => part.key) }
+    ];
+
+    let activeRegion = regions[1];
 
     const ids = {
       deviation: document.getElementById("deviation"),
@@ -592,17 +705,123 @@
       return { ...point, radius: Math.hypot(point.x, point.y) };
     }
 
-    function getBoundary(config) {
-      const max = Math.tan(selectedDeviation(config) / 100) * config.spreadMultiplier;
+    function coneRing(angle, distance) {
       const points = [];
       let radius = 0;
       for (let i = 0; i < 240; i++) {
-        const angle = (i / 240) * Math.PI * 2;
-        const point = projectToTarget(Math.cos(angle) * max, Math.sin(angle) * max, config.distance);
+        const step = (i / 240) * Math.PI * 2;
+        const point = projectToTarget(Math.cos(step) * angle, Math.sin(step) * angle, distance);
         points.push(point);
         radius = Math.max(radius, Math.hypot(point.x, point.y));
       }
-      return { max, points, radius };
+      return { points, radius };
+    }
+
+    function getBoundary(config) {
+      const max = Math.tan(selectedDeviation(config) / 100) * config.spreadMultiplier;
+      // The editor's "avg" is the mean radius multiplier E[rand(0, 1) ^ spread_factor],
+      // which is 1 / (spread_factor + 1). It is a mean distance from center, not a
+      // circle containing half the pellets.
+      const avg = max / (config.spreadFactor + 1);
+      const outer = coneRing(max, config.distance);
+      return { max, avg, points: outer.points, radius: outer.radius, avgRadius: coneRing(avg, config.distance).radius };
+    }
+
+    function inPart(point, part) {
+      return point.x >= part.x0 && point.x <= part.x1 && point.y >= part.y0 && point.y <= part.y1;
+    }
+
+    // Closed form of projectToTarget along a ray of angle-space direction (c, s):
+    // xAngle = r * c and yAngle = r * s, so y = d * tan(r * c) and x = -d * tan(r * s) / cos(r * c).
+    // Both coordinates are monotone in r, so a part's ray segment is a single interval.
+    function rayX(r, c, s, distance) {
+      return (-distance * Math.tan(r * s)) / Math.cos(r * c);
+    }
+
+    function rayY(r, c, distance) {
+      return distance * Math.tan(r * c);
+    }
+
+    // Interval of r in [0, max] where a monotone coordinate g (with g(0) = 0) stays inside [low, high].
+    function solveRange(atMax, solve, low, high, max) {
+      if (Math.abs(atMax) < 1e-15) {
+        return low <= 0 && 0 <= high ? { lo: 0, hi: max } : null;
+      }
+      const bound = (target) => {
+        if (atMax > 0) {
+          if (target > atMax) return Infinity;
+          if (target < 0) return -Infinity;
+        } else {
+          if (target < atMax) return Infinity;
+          if (target > 0) return -Infinity;
+        }
+        return solve(target);
+      };
+      const a = bound(low);
+      const b = bound(high);
+      const lo = Math.max(0, Math.min(a, b));
+      const hi = Math.min(max, Math.max(a, b));
+      return hi > lo ? { lo, hi } : null;
+    }
+
+    function partSpan(part, c, s, distance, max) {
+      const vertical = Math.abs(c) < 1e-12
+        ? (part.y0 <= 0 && 0 <= part.y1 ? { lo: 0, hi: max } : null)
+        : solveRange(rayY(max, c, distance), (y) => Math.atan(y / distance) / c, part.y0, part.y1, max);
+      if (!vertical) return null;
+
+      const horizontal = Math.abs(s) < 1e-12
+        ? (part.x0 <= 0 && 0 <= part.x1 ? { lo: 0, hi: max } : null)
+        : solveRange(rayX(max, c, s, distance), (x) => {
+          // tan(r * s) = k * cos(r * c) has no closed form, but it contracts hard on [0, max].
+          const k = -x / distance;
+          let r = Math.min(max, Math.max(0, Math.atan(k) / s));
+          for (let i = 0; i < 8; i++) {
+            r = Math.min(max, Math.max(0, Math.atan(k * Math.cos(r * c)) / s));
+          }
+          return r;
+        }, part.x0, part.x1, max);
+      if (!horizontal) return null;
+
+      const lo = Math.max(vertical.lo, horizontal.lo);
+      const hi = Math.min(vertical.hi, horizontal.hi);
+      return hi > lo ? { lo, hi } : null;
+    }
+
+    // Exact per-part hit chance for one projectile.
+    // The sampled radius is max * rand(0, 1) ^ spread_factor, so its CDF is F(r) = (r / max) ^ (1 / spread_factor).
+    // The direction comes from normalizing a uniform square sample, which makes the angle exactly
+    // atan(t) + k * pi/2 with t uniform on (-1, 1), so equal-weight nodes in t integrate the direction exactly.
+    function partProbabilities(config, nodesPerSector = 240) {
+      const max = Math.tan(selectedDeviation(config) / 100) * config.spreadMultiplier;
+      const result = {};
+
+      if (!(max > 1e-12)) {
+        for (const part of bodyParts) {
+          result[part.key] = inPart({ x: 0, y: 0 }, part) ? 1 : 0;
+        }
+        return result;
+      }
+
+      for (const part of bodyParts) result[part.key] = 0;
+      const inverseFactor = 1 / config.spreadFactor;
+      const cdf = (r) => Math.pow(r / max, inverseFactor);
+      const weight = 1 / (4 * nodesPerSector);
+
+      for (let node = 0; node < nodesPerSector; node++) {
+        const t = -1 + ((node + 0.5) * 2) / nodesPerSector;
+        const base = Math.atan(t);
+        for (let quadrant = 0; quadrant < 4; quadrant++) {
+          const theta = base + (quadrant * Math.PI) / 2;
+          const c = Math.cos(theta);
+          const s = Math.sin(theta);
+          for (const part of bodyParts) {
+            const span = partSpan(part, c, s, config.distance, max);
+            if (span) result[part.key] += weight * (cdf(span.hi) - cdf(span.lo));
+          }
+        }
+      }
+      return result;
     }
 
     function drawGrid(ctx, width, height, scale, origin) {
@@ -638,38 +857,30 @@
       ctx.restore();
     }
 
-    function drawCharacterScale(ctx, scale) {
-      const parts = [
-        { label: "Head", x: -0.5, y: -2, width: 1, height: 1 },
-        { label: "Torso", x: -1, y: -1, width: 2, height: 2 },
-        { label: "L Arm", x: -2, y: -1, width: 1, height: 2 },
-        { label: "R Arm", x: 1, y: -1, width: 1, height: 2 },
-        { label: "L Leg", x: -1, y: 1, width: 1, height: 2 },
-        { label: "R Leg", x: 0, y: 1, width: 1, height: 2 }
-      ];
-
-      ctx.fillStyle = "rgba(255,255,255,0.10)";
-      ctx.strokeStyle = "rgba(255,255,255,0.72)";
+    function drawCharacterScale(ctx, scale, targeted) {
       ctx.lineWidth = 1.5;
-      for (const part of parts) {
-        const x = part.x * scale;
-        const y = part.y * scale;
-        const width = part.width * scale;
-        const height = part.height * scale;
+      for (const part of bodyParts) {
+        const isTarget = targeted.has(part.key);
+        ctx.fillStyle = isTarget ? "rgba(107,219,160,0.16)" : "rgba(255,255,255,0.07)";
+        ctx.strokeStyle = isTarget ? "rgba(107,219,160,0.9)" : "rgba(255,255,255,0.45)";
+        const x = part.x0 * scale;
+        const y = -part.y1 * scale;
+        const width = (part.x1 - part.x0) * scale;
+        const height = (part.y1 - part.y0) * scale;
         ctx.fillRect(x, y, width, height);
         ctx.strokeRect(x, y, width, height);
       }
 
       if (scale >= 17) {
-        ctx.fillStyle = "rgba(238,244,251,0.88)";
         ctx.font = "12px ui-sans-serif, system-ui";
         ctx.textAlign = "center";
         ctx.textBaseline = "middle";
-        for (const part of parts) {
+        for (const part of bodyParts) {
+          ctx.fillStyle = targeted.has(part.key) ? "rgba(107,219,160,0.95)" : "rgba(238,244,251,0.7)";
           ctx.fillText(
             part.label,
-            (part.x + part.width / 2) * scale,
-            (part.y + part.height / 2) * scale
+            ((part.x0 + part.x1) / 2) * scale,
+            (-(part.y0 + part.y1) / 2) * scale
           );
         }
       }
@@ -694,6 +905,13 @@
       const random = mulberry32(config.seed);
       const impacts = Array.from({ length: config.projectiles }, () => sampleProjectile(random, config));
 
+      const targeted = new Set(activeRegion.parts);
+      const targetParts = bodyParts.filter((part) => targeted.has(part.key));
+      for (const impact of impacts) {
+        impact.hit = targetParts.some((part) => inPart(impact, part));
+      }
+      const seedHits = impacts.reduce((count, impact) => count + (impact.hit ? 1 : 0), 0);
+
       const farthestImpact = impacts.reduce((max, impact) => Math.max(max, impact.radius), 0);
       const characterRadius = Math.hypot(4 / 2, 5 / 2);
       const visibleRadius = Math.max(boundary.radius, farthestImpact, characterRadius, 0.25);
@@ -709,7 +927,7 @@
       ctx.save();
       ctx.translate(origin.x, origin.y);
 
-      drawCharacterScale(ctx, scale);
+      drawCharacterScale(ctx, scale, targeted);
 
       ctx.strokeStyle = "rgba(255,107,107,0.95)";
       ctx.lineWidth = 2;
@@ -725,14 +943,15 @@
       ctx.stroke();
       ctx.setLineDash([]);
 
+      const dotRadius = impacts.length > 600 ? 1.8 : impacts.length > 150 ? 3 : 4.5;
+      ctx.lineWidth = 1;
       for (const impact of impacts) {
-        ctx.fillStyle = "rgba(255,209,102,0.8)";
-        ctx.strokeStyle = "rgba(255,255,255,0.62)";
-        ctx.lineWidth = 1;
+        ctx.fillStyle = impact.hit ? "rgba(107,219,160,0.85)" : "rgba(255,209,102,0.8)";
+        ctx.strokeStyle = impact.hit ? "rgba(255,255,255,0.75)" : "rgba(255,255,255,0.62)";
         ctx.beginPath();
-        ctx.arc(impact.x * scale, -impact.y * scale, 4.5, 0, Math.PI * 2);
+        ctx.arc(impact.x * scale, -impact.y * scale, dotRadius, 0, Math.PI * 2);
         ctx.fill();
-        ctx.stroke();
+        if (dotRadius >= 3) ctx.stroke();
       }
 
       ctx.restore();
@@ -740,26 +959,43 @@
       const meanSampleRadius = impacts.reduce((sum, impact) => sum + impact.radius, 0) / Math.max(1, impacts.length);
       const sorted = impacts.map((impact) => impact.radius).sort((a, b) => a - b);
       const medianSampleRadius = sorted[Math.floor((sorted.length - 1) / 2)] || 0;
-      const meanScale = 1 / (config.spreadFactor + 1);
-      const medianScale = Math.pow(0.5, config.spreadFactor);
 
-      document.getElementById("maxAngle").textContent = `${number(boundary.max * 180 / Math.PI, 3)}°`;
+      const probabilities = partProbabilities(config);
+      const hitChance = activeRegion.parts.reduce((sum, key) => sum + probabilities[key], 0);
+      const expectedHits = hitChance * config.projectiles;
+      const atLeastOne = 1 - Math.pow(1 - hitChance, config.projectiles);
+
+      document.getElementById("hitChance").textContent = `${number(hitChance * 100, 2)}%`;
+      document.getElementById("expectedHits").textContent =
+        `${number(expectedHits, 2)} / ${config.projectiles}`;
+      document.getElementById("atLeastOne").textContent = `${number(atLeastOne * 100, 2)}%`;
+      document.getElementById("seedHits").textContent =
+        `${seedHits} / ${config.projectiles} hit`;
+
+      const breakdown = document.getElementById("breakdown");
+      breakdown.replaceChildren(...bodyParts.map((part) => {
+        const chip = document.createElement("span");
+        chip.className = targeted.has(part.key) ? "chip on" : "chip";
+        chip.innerHTML =
+          `${part.label} <b>${number(probabilities[part.key] * 100, 2)}%</b> ` +
+          `<span style="opacity:0.65">${number(probabilities[part.key] * config.projectiles, 2)} pellets</span>`;
+        return chip;
+      }));
+
       document.getElementById("maxRadius").textContent = `${number(boundary.radius, 2)} st`;
-      document.getElementById("meanScale").textContent = number(meanScale, 3);
-      document.getElementById("medianScale").textContent = number(medianScale, 3);
+      document.getElementById("avgRadius").textContent = `${number(boundary.avgRadius, 2)} st`;
+      document.getElementById("maxAngle").textContent = `${number(boundary.max * 180 / Math.PI, 3)}°`;
+      document.getElementById("avgAngle").textContent = `${number(boundary.avg * 180 / Math.PI, 3)}°`;
       document.getElementById("sampleStats").textContent =
-        `This seed produced mean impact radius ${number(meanSampleRadius, 2)} studs, ` +
-        `median impact radius ${number(medianSampleRadius, 2)} studs, and farthest impact ` +
-        `${number(farthestImpact, 2)} studs at ${config.distance} studs. ` +
-        `Selected raw deviation is ${number(selectedDeviation(config), 2)}. ` +
-        `The random direction is normalized from a square sample, matching the game code's Vector2(...).Unit step.`;
+        `Seed impact radius: mean ${number(meanSampleRadius, 2)} st, ` +
+        `median ${number(medianSampleRadius, 2)} st, farthest ${number(farthestImpact, 2)} st.`;
     }
 
     for (const [name, input] of Object.entries(ids)) {
       if (input instanceof HTMLInputElement) {
         input.addEventListener("input", () => {
           if (["deviation", "buckDeviation", "useBuckDeviation", "spreadMultiplier", "spreadFactor", "projectiles"].includes(name)) {
-            document.getElementById("presetNote").textContent = "Current preset: custom slider values.";
+            document.getElementById("presetNote").textContent = "Custom slider values.";
           }
           draw();
         });
@@ -769,6 +1005,22 @@
     document.getElementById("reroll").addEventListener("click", () => {
       ids.seed.value = Math.floor(Math.random() * 1_000_000_000);
       draw();
+    });
+
+    const regionButtons = regions.map((region) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.textContent = region.label;
+      button.setAttribute("aria-pressed", String(region === activeRegion));
+      button.addEventListener("click", () => {
+        activeRegion = region;
+        for (const other of regionButtons) {
+          other.setAttribute("aria-pressed", String(other === button));
+        }
+        draw();
+      });
+      document.getElementById("regionGrid").appendChild(button);
+      return button;
     });
 
     for (const preset of presets) {
@@ -782,7 +1034,7 @@
         ids.spreadMultiplier.value = preset.spreadMultiplier;
         ids.spreadFactor.value = preset.spreadFactor;
         ids.projectiles.value = preset.projectiles;
-        document.getElementById("presetNote").textContent = `Current preset: ${preset.note}.`;
+        document.getElementById("presetNote").textContent = `${preset.note}.`;
         draw();
       });
       document.getElementById("presetGrid").appendChild(button);

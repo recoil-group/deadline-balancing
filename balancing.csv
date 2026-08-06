@@ -551,6 +551,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,axtell_defense_mk12_low_profile_gasblock,Axtell Defense MK12 Low Profile,0,0.06,-1,-1,,,,,,,,1200
 ,,windsor_armory_railed_ar15_gasblock,Windsor Armory AR-15 Railed,0,0.1,0,-1,,,,,,,,1000
 ,,hart_m4fs_gasblock,Hart M4 Standard,3,0.11,0,0,,,,,,,,0
+,ar15_front_sight_post,,,,,,,,,,,,,,
+,,hart_front_ironsight_post,Hart Standard,0,0.005,,,,,,,,,,0
+,,virticon_ar15_night_fighter_front_sight_post,Virticon AR-15 Night Fighter,0,0.005,,,,,,,,,,200
 ,m4a1_handguard,,,,,,,,,,,,,,
 ,,freedom_arms_builder_series_gen1_10inch_handguard,"Freedom Arms Builder Series Gen 1 10""",13,0.25,-8,-7,,,,,,,,750
 ,,freedom_arms_builder_series_gen1_12inch_handguard,"Freedom Arms Builder Series Gen 1 12""",11,0.28,-10,-9,,,,,,,,800
@@ -2401,7 +2404,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,fnb_precision_fal_crosshair_front_sight,F&B Precision FAL Crosshair,1,0.01,,,,,,,,,,200
 ,sa58_grip,,,,,,,,,,,,,,
 ,,sa58_std_grip,RSA SA-58 Standard,1,0.09,-5,-5,,,,,,,,0
-,,rsa_sg58_saw_style,RSA SG58 SAW Style,0,0.1,-6,-7,,,,,,,,750
+,,rsa_sg58_m249_saw_style_pistol_grip,RSA SG58 SAW Style,0,0.1,-6,-7,,,,,,,,750
 ,,protac_ergonomic_ag_fal_pistol_grip,PRO Tactical Ergonomic AG-FAL,3,0.1,-5,-4,,,,,,,,1500
 ,sa58_handguard,,,,,,,,,,,,,,
 ,,rsa_sa58_belgian_style_full_length_handguard,RSA SA-58 Belgian Style Full Length,8,0.3,-16,-17,,0.03,,,,,,0
@@ -2460,7 +2463,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,picatinny_section,Air for mounting picatinny attachments,0,0,,,,,,,,,,0
 ,hart_sight,,,,,,,,,,,,,,
 ,,hart_rear_ironsight_200m,Hart 200m,1,0.005,,,,,,,,,,0
-,,hart_rear_ironsight_600m,Hart 600m,0,0.005,,,,,,,,,,0
+,,hart_rear_ironsight_600m,Hart 600m,1,0.005,,,,,,,,,,0
+,,virticon_ar15_night_fighter_rear_sight_aperture,Virticon AR-15 Night Fighter,1,0.005,,,,,,,,,,200
 ,ddw,,,,,,,,,,,,,,
 ,,adw_qd,Axtell Defence Wave QD,-6,0.28,-17,-19,,-0.2,0.1,90,,,,1200
 ,starsurp_ace_recoil_pad,,,,,,,,,,,,,,

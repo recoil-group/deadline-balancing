@@ -205,11 +205,11 @@
 	],
 	"AK_545": [
 		{
-			"name": "Kazarov AK-74N",
+			"name": "Kazarov Group AK-74N",
 			"required_attachments": ["kazarov_ak74_lower_receiver"]
 		},
 		{
-			"name": "Kazarov AK-74M",
+			"name": "Kazarov Group AK-74M",
 			"required_attachments": [
 				"kazarov_ak100_series_lower_receiver",
 				"kazarov_ak100_series_front_trunnion",
@@ -217,7 +217,7 @@
 			]
 		},
 		{
-			"name": "Kazarov AK-105",
+			"name": "Kazarov Group AK-105",
 			"required_attachments": [
 				"kazarov_ak100_series_lower_receiver",
 				"kazarov_ak100_series_front_trunnion",
@@ -227,13 +227,21 @@
 			]
 		}
 	],
+	"AK_9": [
+		{
+			"name": "Kazarov Group PP-19-01 Vityaz-SN",
+			"required_attachments": [
+				"kazarov_pp-19-01_vityaz_sn_picatinny_dust_cover"
+			]
+		}
+	],
 	"AK12": [
 		{
-			"name": "AK-12K",
+			"name": "Kazarov Group AK-12K",
 			"required_attachments": ["kazarov_group_ak12k_314mm_barrel"]
 		},
 		{
-			"name": "RPK-16",
+			"name": "Kazarov Group RPK-16",
 			"required_attachments": ["kazarov_group_std_rpk16_559mm_barrel"]
 		}
 	]

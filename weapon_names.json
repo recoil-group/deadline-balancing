@@ -197,15 +197,15 @@
 			]
 		},
 		{
-			"name": "KG-51K",
+			"name": "Ferro Ordnance Group KG-51K",
 			"required_attachments": ["ferro_ordnance_mc51k_upper_receiver"]
 		},
 		{
-			"name": "KG-51C",
+			"name": "Ferro Ordnance Group KG-51C",
 			"required_attachments": ["ferro_ordnance_mc51_upper_receiver"]
 		},
 		{
-			"name": "KG-51SD",
+			"name": "Ferro Ordnance Group KG-51SD",
 			"required_attachments": ["ferro_ordnance_mc51sd_upper_receiver"]
 		}
 	],

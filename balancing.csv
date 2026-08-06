@@ -1051,7 +1051,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,9x19_sgmt_50r_drum,SGMT 9x19 50R Drum,-7,0.7,,,50,,,,,,,3000
 ,,9x19_glock_stick_31r_vector,PF940 9x19 31R Stick,16,0.26,,,29,,,,,,,1000
 ,magazine_9x19_ump9,,,,,,,,,,,,,,
-,,hk_ump9_9x19_30r_mag,UMC-9 9x19 30R,0,0.38,,,30,,,,,,,500
+,,hk_ump9_9x19_30r_mag,UMK-9 9x19 30R,0,0.38,,,30,,,,,,,500
 ,magazine_12g_r870,,,,,,,,,,,,,,
 ,,dragoon_systems_lsx_2rnd_extension,Dragoon Systems LSX +2,9,0.07,,,,,,,,,,550
 ,,dragoon_systems_lsx_3rnd_extension,Dragoon Systems LSX +3,8,0.1,,,,,,,,,,750
@@ -1097,7 +1097,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,pp19_bottom_plate,,,,,,,,,,,,,,
 ,,kazarov_pp-19-01_mag_bottom_plate,Kazarov PP-19-01,0,0.02,,,,,,,,,,0
 ,magazine_45acp_ump45,,,,,,,,,,,,,,
-,,hk_ump45_45acp_25r_mag,UMC45 .45 ACP 25R,0,0.43,,,25,,,,,,,0
+,,hk_ump45_45acp_25r_mag,UMK45 .45 ACP 25R,0,0.43,,,25,,,,,,,0
 ,magazine_5.8x42mm_qbz95,,,,,,,,,,,,,,
 ,,magazine_5.8x42mm_qbz95,Sanxian QBZ-95 5.8x42mm 30R,,0.4,,,30,,,,,,,500
 ,magazine_9x19_aug_para,,,,,,,,,,,,,,
@@ -1842,61 +1842,61 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,12g_federal_game_load_275_4shot_152x,"12G Federal Game Load 2.75"" 4-Shot (152 Pellets)",5,,,,,,,,0,,,1000
 ,,12g_foxhill_275_mean_bean_bag,"12G Fox Hill 2.75"" Mean Bean Bag",10,,-15,-10,,0.4,,-400,,,,100
 ,ump_upper_receiver,,,,,,,,,,,,,,
-,,hk_ump45_upper_receiver,UMC-45 .45 ACP,0,0.39,,,,,,,,,,
-,,hk_ump9_upper_receiver,UMC-9 9x19,7,0.37,-25,-23,,,,300,,0.25,,4000
+,,hk_ump45_upper_receiver,UMK-45 .45 ACP,0,0.39,,,,,,,,,,
+,,hk_ump9_upper_receiver,UMK-9 9x19,7,0.37,-25,-23,,,,300,,0.25,,4000
 ,ump_trigger,,,,,,,,,,,,,,
-,,hk_ump_trigger,UMC,1,0.02,,,,,,,,,,0
+,,hk_ump_trigger,UMK,1,0.02,,,,,,,,,,0
 ,ump_top_rail,,,,,,,,,,,,,,
-,,hk_ump_top_rail,UMC,-1,0.06,,,,,,,,,,1000
+,,hk_ump_top_rail,UMK,-1,0.06,,,,,,,,,,1000
 ,ump_stock_block,,,,,,,,,,,,,,
-,,hk_ump_stock_block,UMC,0,0.08,,,,,,,,,,0
+,,hk_ump_stock_block,UMK,0,0.08,,,,,,,,,,0
 ,ump_stock,,,,,,,,,,,,,,
-,,hk_ump_polymer_stock,UMC Polymer Folding,10,0.21,-9,-12,,,,,,,,0
+,,hk_ump_polymer_stock,UMK Polymer Folding,10,0.21,-9,-12,,,,,,,,0
 ,,tommybuilt_ump_tailhook_brace_adapter,Tommy Built UMP Tailhook Brace Adapter,0,0.13,0,0,,,,,,,,800
 ,,bt_mp5/ump_folding_stock,B&T MP5 Folding Stock,15,0.2,-10,-7,,,,,,,,600
 ,,rogue_ump_buffer_tube_adapter,rogue UMP Buffer Tube Adapter,-3,0.08,2,2,,,,,,,,1000
 ,ump_rs,,,,,,,,,,,,,,
-,,hk_ump_rear_sight,UMC 25M,1,0.01,,,,,,,,,,0
+,,hk_ump_rear_sight,UMK 25M,1,0.01,,,,,,,,,,0
 ,ump_rear_sight_base,,,,,,,,,,,,,,
-,,hk_ump_rear_sight_base,UMC,0,0.03,,,,,,,,,,0
+,,hk_ump_rear_sight_base,UMK,0,0.03,,,,,,,,,,0
 ,ump_mag_release,,,,,,,,,,,,,,
-,,hk_ump_paddle_mag_release,UMC Paddle,0,0.02,,,,,,,,,,0
+,,hk_ump_paddle_mag_release,UMK Paddle,0,0.02,,,,,,,,,,0
 ,ump_lower_receiver,,,,,,,,,,,,,,
-,,hk_ump_01_navy_lower_receiver,UMC 0-1 Navy,4,0.28,-2,-2,,,,,,,,500
-,,hk_ump_012_navy_lower_receiver,UMC 0-1-2 Navy,3,0.3,-2,-2,,,,,,,,1000
-,,hk_ump_01d_navy_lower_receiver,UMC 0-1-D Navy,0,0.3,,,,,,,,,,0
-,,hk_ump_012d_navy_lower_receiver,UMC 0-1-2-D Navy,0,0.32,1,,,,,,,,,1500
+,,hk_ump_01_navy_lower_receiver,UMK 0-1 Navy,4,0.28,-2,-2,,,,,,,,500
+,,hk_ump_012_navy_lower_receiver,UMK 0-1-2 Navy,3,0.3,-2,-2,,,,,,,,1000
+,,hk_ump_01d_navy_lower_receiver,UMK 0-1-D Navy,0,0.3,,,,,,,,,,0
+,,hk_ump_012d_navy_lower_receiver,UMK 0-1-2-D Navy,0,0.32,1,,,,,,,,,1500
 ,ump_handstop,,,,,,,,,,,,,,
 ,,hk_ump_handstop,UMP,2,0.04,-1,,,,,,,,,500
 ,ump_handguard_rail,,,,,,,,,,,,,,
 ,,hk_ump_bottom_handguard_rail,UMP Bottom Handguard,-0.5,0.04,,,,,,,,,,500
-,,hk_ump_left_handguard_rail,UMC Left Handguard,-0.5,0.04,,,,,,,,,,400
-,,hk_ump_right_handguard_rail,UMC Right Handguard,-0.5,0.04,,,,,,,,,,400
+,,hk_ump_left_handguard_rail,UMK Left Handguard,-0.5,0.04,,,,,,,,,,400
+,,hk_ump_right_handguard_rail,UMK Right Handguard,-0.5,0.04,,,,,,,,,,400
 ,ump_handguard_extension,,,,,,,,,,,,,,
 ,,haga_defense_usc_extended_handguard,Haga Defense USC,3,0.25,-3,-6,,,,,,,,2000
 ,ump_fs,,,,,,,,,,,,,,
-,,hk_ump_front_sight,UMC,1,0.02,,,,,,,,,,0
+,,hk_ump_front_sight,UMK,1,0.02,,,,,,,,,,0
 ,ump9_bcg,,,,,,,,,,,,,,
-,,hk_ump9_bcg,UMC-9,0,0.15,0,0,0,0,0,0,,0,,500
+,,hk_ump9_bcg,UMK-9,0,0.15,0,0,0,0,0,0,,0,,500
 ,ump9_barrel,,,,,,,,,,,,,,
-,,hk_ump9_200mm_flanged_barrel,UMC-9 200mm 9x19 Flanged,0,0.28,-1,0,,0,,70,,,,500
-,,hk_ump9_200mm_trilug_threaded_barrel,UMC-9 200mm 9x19 Tri-Lug Threaded,-2,0.28,1,1,,0.05,,70,,,,1000
+,,hk_ump9_200mm_flanged_barrel,UMK-9 200mm 9x19 Flanged,0,0.28,-1,0,,0,,70,,,,500
+,,hk_ump9_200mm_trilug_threaded_barrel,UMK-9 200mm 9x19 Tri-Lug Threaded,-2,0.28,1,1,,0.05,,70,,,,1000
 ,ump45_bcg,,,,,,,,,,,,,,
-,,hk_ump45_bcg,UMC-45,0,0.16,0,0,0,0,0,0,,,,0
+,,hk_ump45_bcg,UMK-45,0,0.16,0,0,0,0,0,0,,,,0
 ,ump_bolt_catch,,,,,,,,,,,,,,
-,,hk_ump_bolt_catch,UMC,0,0.02,,,,,,,,,,0
+,,hk_ump_bolt_catch,UMK,0,0.02,,,,,,,,,,0
 ,ump_charging_handle,,,,,,,,,,,,,,
-,,hk_ump_charging_handle,UMC,0,0.02,,,,,,,,,,0
+,,hk_ump_charging_handle,UMK,0,0.02,,,,,,,,,,0
 ,ump_cocking_tube,,,,,,,,,,,,,,
-,,hk_ump_cocking_tube,UMC,0,0.07,,,,,,,,,,0
+,,hk_ump_cocking_tube,UMK,0,0.07,,,,,,,,,,0
 ,ump_fire_selector,,,,,,,,,,,,,,
-,,hk_ump_fire_selector,UMC,0,0.02,,,,,,,,,,0
+,,hk_ump_fire_selector,UMK,0,0.02,,,,,,,,,,0
 ,hk_mp5k_handguard,,,,,,,,,,,,,,
 ,,hk_mp5k_polymer_handguard,MP5K Polymer,15,0.15,-7,-5,,,,,,,,1500
 ,ump45_barrel,,,,,,,,,,,,,,
-,,hk_ump45_200mm_flanged_barrel,UMC45 200mm .45ACP Flanged,0,0.3,-2,-1,,0,0.06,-15,,,,0
-,,hdts_ump45_200mm_threaded_barrel,HDTS UMC45 200mm .45ACP Threaded,-2,0.31,1,0,,0.08,0.06,-21,,,,750
-,,omega_ump45_200mm_trilug_barrel,OMEGA UMC45 200mm .45ACP Tri-Lug,-1,0.3,0,-2,,0.05,0.06,-18,,,,300
+,,hk_ump45_200mm_flanged_barrel,UMK45 200mm .45ACP Flanged,0,0.3,-2,-1,,0,0.06,-15,,,,0
+,,hdts_ump45_200mm_threaded_barrel,HDTS UMK45 200mm .45ACP Threaded,-2,0.31,1,0,,0.08,0.06,-21,,,,750
+,,omega_ump45_200mm_trilug_barrel,OMEGA UMK45 200mm .45ACP Tri-Lug,-1,0.3,0,-2,,0.05,0.06,-18,,,,300
 ,kf_416_barrel_sight,,,,,,,,,,,,,,
 ,,33mm_open_front_folding_iron_sight,33mm Open Front,1,0.02,,,,,,,,,,0
 ,,33mm_open_front_folding_iron_sight_folded,33mm Open Front Folded,1,0.02,,,,,,,,,,0

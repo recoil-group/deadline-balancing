@@ -1,4 +1,84 @@
 {
+	"AK_545": [
+		{
+			"name": "Kazarov Group AK-74N",
+			"required_attachments": ["kazarov_ak74_lower_receiver"]
+		},
+		{
+			"name": "Kazarov Group AK-74M",
+			"required_attachments": [
+				"kazarov_ak100_series_lower_receiver",
+				"kazarov_ak100_series_front_trunnion",
+				"kazarov_ak100_series_rear_trunnion"
+			]
+		},
+		{
+			"name": "Kazarov Group AK-105",
+			"required_attachments": [
+				"kazarov_ak100_series_lower_receiver",
+				"kazarov_ak100_series_front_trunnion",
+				"kazarov_ak100_series_rear_trunnion",
+				"kazarov_ak105_314mm_5.45x39_barrel",
+				"kazarov_ak105_gasblock"
+			]
+		}
+	],
+	"AK_545_Carbine": [
+		{
+			"name": "Kazarov Group AKS-74U",
+			"required_attachments": ["kazarov_aks74u_lower_receiver"]
+		}
+	],
+	"AK_9": [
+		{
+			"name": "Kazarov Group PP-19-01 Vityaz-SN",
+			"required_attachments": [
+				"kazarov_pp-19-01_vityaz_sn_picatinny_dust_cover"
+			]
+		}
+	],
+	"AK12": [
+		{
+			"name": "Kazarov Group AK-12 Gen 1",
+			"required_attachments": [
+				"ak12_gen1_lower_receiver",
+				"ak12_gen1_dustcover",
+				"ak12_std_415mm_barrel"
+			]
+		},
+		{
+			"name": "Kazarov Group AK-12 Gen 2",
+			"required_attachments": [
+				"ak12_gen2_lower_receiver",
+				"ak12_gen2_dustcover",
+				"ak12_std_415mm_barrel"
+			]
+		},
+		{
+			"name": "Kazarov Group AK-12K Gen 1",
+			"required_attachments": [
+				"ak12_gen1_lower_receiver",
+				"ak12_gen1_dustcover",
+				"kazarov_group_ak12k_314mm_barrel"
+			]
+		},
+		{
+			"name": "Kazarov Group AK-12K Gen 2",
+			"required_attachments": [
+				"ak12_gen2_lower_receiver",
+				"ak12_gen2_dustcover",
+				"kazarov_group_ak12k_314mm_barrel"
+			]
+		},
+		{
+			"name": "Kazarov Group AK-12K",
+			"required_attachments": ["kazarov_group_ak12k_314mm_barrel"]
+		},
+		{
+			"name": "Kazarov Group RPK-16",
+			"required_attachments": ["kazarov_group_std_rpk16_559mm_barrel"]
+		}
+	],
 	"AUG_A3": [
 		{
 			"name": "Löwenherz AUG Para",
@@ -13,6 +93,24 @@
 		}
 	],
 	"G3": [
+		{
+			"name": "KF KG-31A3",
+			"required_attachments": [
+				"hk_g3_std_upper_receiver",
+				"hk_g3_endplate",
+				"hk_g3_std_fixed_plastic_stock",
+				["hk_g3_406mm_barrel", "hk_g3_457mm_barrel"]
+			]
+		},
+		{
+			"name": "KF KG-31A4",
+			"required_attachments": [
+				"hk_g3_std_upper_receiver",
+				"hk_g3a3_stock_endplate",
+				"hk_g3a3_stock_extendable_part",
+				["hk_g3_406mm_barrel", "hk_g3_457mm_barrel"]
+			]
+		},
 		{
 			"name": "CTR-32",
 			"required_attachments": ["ptr_32_7.62x39_upper_receiver"]
@@ -34,6 +132,39 @@
 		{
 			"name": "KG-51SD",
 			"required_attachments": ["ferro_ordnance_mc51sd_upper_receiver"]
+		}
+	],
+	"KF416": [
+		{
+			"name": "KF M27 IAR",
+			"required_attachments": ["kf_m27_iar_upper_receiver"]
+		},
+		{
+			"name": "KF 416C",
+			"required_attachments": [
+				"kf_416c_lower_receiver",
+				"kf_416c_9.0i_barrel"
+			]
+		},
+		{
+			"name": "KF 416A5",
+			"required_attachments": ["kf_416a5_upper_receiver"]
+		}
+	],
+	"KOSCH": [
+		{
+			"name": "KOSCH KP17",
+			"required_attachments": ["kosch_9x19_114mm_barrel"]
+		},
+		{
+			"name": "KOSCH KP20",
+			"required_attachments": ["kosch_10mm_114mm_barrel"]
+		}
+	],
+	"M4A1": [
+		{
+			"name": "STRIKON SCR",
+			"required_attachments": ["strikon_scr_rifle_lower_receiver"]
 		}
 	],
 	"MosinNagant": [
@@ -123,38 +254,34 @@
 			]
 		}
 	],
-	"KOSCH": [
-		{
-			"name": "KOSCH KP20",
-			"required_attachments": ["kosch_10mm_114mm_barrel"]
-		}
-	],
-	"M4A1": [
-		{
-			"name": "STRIKON SCR",
-			"required_attachments": ["strikon_scr_rifle_lower_receiver"]
-		}
-	],
-	"Remington870": [
-		{
-			"name": "Roosevelt Tampa Shorty",
-			"required_attachments": ["r870_serbu_shorty_receiver"]
-		}
-	],
 	"P320": [
 		{
 			"name": "Sic Stürmer M17X",
 			"required_attachments": [
 				"sig_sauer_m17x_9x19_slide",
-				"sig_sauer_p320_xfull_grip_module"
+				"sig_sauer_p320_xfull_grip_module",
+				[
+					"sig_sauer_p320_full_4.7inch_9x19_barrel",
+					"sig_sauer_p320_full_5.5inch_threaded_9x19_barrel"
+				]
 			]
 		},
 		{
 			"name": "Sic Stürmer M18X",
 			"required_attachments": [
 				"sig_sauer_m18x_9x19_slide",
-				"sig_sauer_p320_xcarry_grip_module"
+				"sig_sauer_p320_xcarry_grip_module",
+				[
+					"sig_sauer_p320_compact_3.9inch_9x19_barrel",
+					"sig_sauer_p320_compact_4.6inch_threaded_9x19_barrel"
+				]
 			]
+		}
+	],
+	"Remington870": [
+		{
+			"name": "Roosevelt Tampa Shorty",
+			"required_attachments": ["r870_serbu_shorty_receiver"]
 		}
 	],
 	"SA58": [
@@ -168,12 +295,6 @@
 			]
 		}
 	],
-	"Vector": [
-		{
-			"name": "KALIS Scalar Gen II 9mm",
-			"required_attachments": ["vector_9mm_upper_receiver"]
-		}
-	],
 	"SCARH": [
 		{
 			"name": "AFT MK-20 SSR",
@@ -182,67 +303,18 @@
 	],
 	"UMP": [
 		{
-			"name": "KF UMC-9",
+			"name": "KF UMK-45",
+			"required_attachments": ["hk_ump45_upper_receiver"]
+		},
+		{
+			"name": "KF UMK-9",
 			"required_attachments": ["hk_ump9_upper_receiver"]
 		}
 	],
-	"KF416": [
+	"Vector": [
 		{
-			"name": "KF M27 IAR",
-			"required_attachments": ["kf_m27_iar_upper_receiver"]
-		},
-		{
-			"name": "KF 416C",
-			"required_attachments": [
-				"kf_416c_lower_receiver",
-				"kf_416c_9.0i_barrel"
-			]
-		},
-		{
-			"name": "KF 416A5",
-			"required_attachments": ["kf_416a5_upper_receiver"]
-		}
-	],
-	"AK_545": [
-		{
-			"name": "Kazarov Group AK-74N",
-			"required_attachments": ["kazarov_ak74_lower_receiver"]
-		},
-		{
-			"name": "Kazarov Group AK-74M",
-			"required_attachments": [
-				"kazarov_ak100_series_lower_receiver",
-				"kazarov_ak100_series_front_trunnion",
-				"kazarov_ak100_series_rear_trunnion"
-			]
-		},
-		{
-			"name": "Kazarov Group AK-105",
-			"required_attachments": [
-				"kazarov_ak100_series_lower_receiver",
-				"kazarov_ak100_series_front_trunnion",
-				"kazarov_ak100_series_rear_trunnion",
-				"kazarov_ak105_314mm_5.45x39_barrel",
-				"kazarov_ak105_gasblock"
-			]
-		}
-	],
-	"AK_9": [
-		{
-			"name": "Kazarov Group PP-19-01 Vityaz-SN",
-			"required_attachments": [
-				"kazarov_pp-19-01_vityaz_sn_picatinny_dust_cover"
-			]
-		}
-	],
-	"AK12": [
-		{
-			"name": "Kazarov Group AK-12K",
-			"required_attachments": ["kazarov_group_ak12k_314mm_barrel"]
-		},
-		{
-			"name": "Kazarov Group RPK-16",
-			"required_attachments": ["kazarov_group_std_rpk16_559mm_barrel"]
+			"name": "KALIS Scalar Gen II 9mm",
+			"required_attachments": ["vector_9mm_upper_receiver"]
 		}
 	]
 }

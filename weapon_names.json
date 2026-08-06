@@ -192,14 +192,14 @@
 			"required_attachments": ["kf_m27_iar_upper_receiver"]
 		},
 		{
-			"name": "KF416C",
+			"name": "KF 416C",
 			"required_attachments": [
 				"kf_416c_lower_receiver",
 				"kf_416c_9.0i_barrel"
 			]
 		},
 		{
-			"name": "KF416A5",
+			"name": "KF 416A5",
 			"required_attachments": ["kf_416a5_upper_receiver"]
 		}
 	],

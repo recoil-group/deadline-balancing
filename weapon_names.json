@@ -165,6 +165,12 @@
 		{
 			"name": "STRIKON SCR",
 			"required_attachments": ["strikon_scr_rifle_lower_receiver"]
+		},
+		{
+			"name": "Ardian Weapons Pattern 1",
+			"required_attachments": [
+				"ardian_weapons_ar15_model_1_m1curgh_upper_receiver"
+			]
 		}
 	],
 	"MosinNagant": [
@@ -292,6 +298,13 @@
 					"rsa_sa58_metric_para_folding_stock",
 					"rsa_sa58_folding_spr_para_stock_body"
 				]
+			]
+		},
+		{
+			"name": "RSA SG-58 Pistol",
+			"required_attachments": [
+				"rsa_sa58_pistol_gas_piston",
+				"rsa_sa58_210mm_premium_pistol_barrel"
 			]
 		}
 	],

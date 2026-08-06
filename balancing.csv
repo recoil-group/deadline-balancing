@@ -2945,7 +2945,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,SA58,RSA SG-58,15,0,85,105,0,0.75,1,1900,,,1,20000
 ,,SCAR47,HILT Defense MK-76,40,0,55,60,0,0.5,1,1800,,,1,60000
 ,,SCARH,AFT MK-17,5,0,75,80,0,0.6,1,1900,,,1,75000
-,,SCARL,AFT MK-16,40,0,60,65,0,0.45,1,2450,,,1,40000
+,,SCARL,AFT MK-16,35,0,60,65,0,0.45,1,2450,,,1,40000
 ,,G3,KF KG-31,25,0,70,100,0,0.55,1,1900,,,1,30000
 ,,Remington700,Roosevelt M700,30,0,80,90,0,0.2,1.2,2200,,,1,42000
 ,,AK_762,Kazarov Group AK 7.62,20,0,70,85,0,0.55,1,1800,,,1,15000

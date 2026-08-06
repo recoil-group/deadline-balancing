@@ -81,12 +81,87 @@
 	],
 	"AUG_A3": [
 		{
-			"name": "Löwenherz AUG Para",
-			"required_attachments": ["steyr_aug_a3_para_9x19_stock"]
+			"name": "Löwenherz AUG A1",
+			"required_attachments": ["steyr_aug_a1_stg77_1_5x_scoped_receiver"]
+		},
+		{
+			"name": "Löwenherz AUG A3",
+			"required_attachments": ["steyr_aug_a3_sa_receiver"]
+		},
+		{
+			"name": "Löwenherz AUG A3M1",
+			"required_attachments": ["steyr_aug_a3_m1_receiver"]
+		},
+		{
+			"name": "STG77A1 MOD",
+			"required_attachments": [
+				"steyr_aug_a3_m1_receiver",
+				[
+					"steyr_aug_a3sf_60mm_1.5x_scope",
+					"steyr_aug_a3sf_60mm_3x_scope"
+				],
+				"steyr_aug_a3_austrian_stock"
+			]
+		},
+		{
+			"name": "Löwenherz AUG 9mm Para",
+			"required_attachments": [
+				"steyr_aug_a3_para_9x19_stock",
+				[
+					"steyr_aug_para_9x19_420mm_barrel",
+					"steyr_aug_para_9x19_325mm_threaded_barrel"
+				],
+				"steyr_aug_para_9x19_std_bolt_carrier"
+			]
+		},
+		{
+			"name": "Löwenherz AUG A3 CQC",
+			"required_attachments": [
+				"steyr_aug_a3_sa_receiver",
+				"ihs_aug_a3_sa_cqc_top_rail",
+				"ihs_aug_a3_sa_cqc_handguard"
+			]
+		},
+		{
+			"name": "Löwenherz AUG Commando XS",
+			"required_attachments": [
+				"steyr_aug_a3_sa_receiver",
+				"steyr_aug_a3_sa_xs_top_rail",
+				"steyr_aug_a3_xs_bottom_accessory_rail",
+				"steyr_aug_350mm_barrel"
+			]
+		},
+		{
+			"name": "Löwenherz AUG 9mm Para XS",
+			"required_attachments": [
+				"steyr_aug_a3_sa_receiver",
+				"steyr_aug_a3_sa_xs_top_rail",
+				"steyr_aug_a3_xs_bottom_accessory_rail",
+				"steyr_aug_para_9x19_325mm_threaded_barrel",
+				"steyr_aug_z_9x19_gasblock",
+				"steyr_aug_a3_para_9x19_stock"
+			]
 		},
 		{
 			"name": "Löwenherz AUG HBAR",
 			"required_attachments": [
+				"steyr_aug_a1_stg77_1_5x_scoped_receiver",
+				"lowenhurz_aug_hbar_620mm_heavy_barrel",
+				"lowenhurz_aug_hbar_folding_bipod"
+			]
+		},
+		{
+			"name": "Löwenherz AUG A3 HBAR",
+			"required_attachments": [
+				"steyr_aug_a3_sa_receiver",
+				"lowenhurz_aug_hbar_620mm_heavy_barrel",
+				"lowenhurz_aug_hbar_folding_bipod"
+			]
+		},
+		{
+			"name": "Löwenherz AUG A3M1 HBAR",
+			"required_attachments": [
+				"steyr_aug_a3_m1_receiver",
 				"lowenhurz_aug_hbar_620mm_heavy_barrel",
 				"lowenhurz_aug_hbar_folding_bipod"
 			]

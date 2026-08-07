@@ -224,6 +224,31 @@
 		{
 			"name": "KF 416A5",
 			"required_attachments": ["kf_416a5_upper_receiver"]
+		},
+		{
+			"name": "BARRET MB2",
+			"required_attachments": [
+				"kf_416a5_upper_receiver",
+				"kf_416a5_lower_receiver",
+				"ardian_weapons_raptor_ambi_ar15_charging_handle",
+				"kf_416a5_20i_barrel",
+				"kf_416_dmr_extra_long_handguard",
+				"las_tac_2",
+				"insight_technology_an_peq_2a_tpial",
+				"pac_vpg",
+				"ss_combo_mount",
+				"ss_lrs1_suppressor",
+				"56x45_magtap_pmag_60r",
+				"cosmotac_mpr45_offset_mount",
+				"virticon_rm33_mount",
+				"virticon_rmr_rm06_type2_adj_led_reflex",
+				"khf_34mm_iea",
+				"nightforce_atacr7_35x56_f1",
+				"kf_416c_endplate",
+				"whtnls_xm177_car",
+				"behemoth_tacticals_featureless_grip",
+				"kf_416a5_trigger_guard"
+			]
 		}
 	],
 	"KOSCH": [

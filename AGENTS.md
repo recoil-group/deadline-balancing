@@ -107,6 +107,18 @@ The connected Studio most likely has place ID `7452050927`, though other Deadlin
 
 In Studio, start with the narrowest relevant service/folder and inspect an Instance before reading its script. Large broad tree dumps are slow and noisy.
 
+## Superthread MCP
+
+Superthread hosts the balancing team's task tracking. Treat it as read-only by default, as with Studio.
+
+- Work happens on board `Deadline Balancing (im so sorry)` (id `5`) in space `balancing` (id `2`). Assume it and skip `space_list` and `board_list` discovery.
+- Lists as of 2026-08-08: `refactor-specific` (31), `Backlog` (25), `doing` (27), `under review` (26), `cancelled` (29), and version-named completed columns such as `0.25.3` (28) and `0.25.4` (33). Each release adds a completed column, so re-read `board_get` rather than trusting these ids. Assume the latest release column is the active one.
+- Names resolve per call: pass `list_id: "doing"` directly instead of looking up ids first.
+- `find_tasks` for filtered discovery, `task_list` to enumerate a known board or list, `search` only for text spanning pages, comments, and notes.
+- `getMe` and `getTeamMembers` are deprecated aliases for `member_me` and `member_list`.
+- `content` is an HTML fragment; image-only cards carry everything in `<st-image>` tags, so no prose does not mean empty.
+- Tasks name people by opaque `user_id`. Resolve actual names and info through `member_list`.
+
 ## Other Notes
 
 - Keep private source code, server-only implementation details, credentials, unreleased content, and proprietary Studio data out of this public repo unless the user explicitly requests publication.

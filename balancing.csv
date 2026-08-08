@@ -1,4 +1,4 @@
-﻿0.25.3,Wed Aug 05 16:49:48 2026,,,,,,,,,,,,,,
+﻿0.25.3,Sat Aug 08 01:42:08 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -892,17 +892,17 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,aft_stock_cheek_piece,AFT,3,0.16,,,,,,,,,,0
 ,fn_scar_stock_connector,,,,,,,,,,,,,,
 ,,aft_stock_connector,AFT,0,0.07,0,0,,,,,,,,0
-,,aft_ssr_stock_assembly,AFT SSR,18,0.51,-3,-4,,-0.05,,,,,,600
+,,aft_ssr_stock_assembly,AFT SSR,18,0.51,-4,-4,,-0.05,,,,,,600
 ,,dynamic_development_group_sas_acr_stock_scar_adapter,Dynamic Development Group SAS Adaptive ACR,-1,0.07,0,0,,,,,,,,300
-,,mesa_tactical_faro_scar_buffer_tube_adapter,Canyon Tactical FARO FANG Buffer Tube,-5,0.14,0,0,,,,,,,,450
-,,aft_sc_stock_adapter,AFT SC Rear,1,0.08,0,0,,,,,,,,1500
+,,mesa_tactical_faro_scar_buffer_tube_adapter,Canyon Tactical FARO FANG Buffer Tube,-4,0.14,0,0,,,,,,,,450
+,,aft_sc_stock_adapter,AFT SC Rear,0,0.08,0,0,,,,,,,,1500
 ,scar_sc_stock,,,,,,,,,,,,,,
-,,aft_sc_stock_adjustment_lever,AFT SC Stock,2,0.02,,,,,,,,,,
+,,aft_sc_stock_adjustment_lever,AFT SC Stock,1,0.02,,,,,,,,,,
 ,,aft_sc_stock_cheekpad,AFT SC Stock,4,0.04,,,,,,,,,,
-,,aft_sc_stock_buttpad,AFT SC Stock,7,0.11,-7,-7,,,,,,,,
+,,aft_sc_stock_buttpad,AFT SC Stock,10,0.11,-8,-8,,,,,,,,
 ,,aft_sc_stock_adjustment_rail,AFT SC,0,0.08,,,,,,,,,,
 ,fn_scar_stock_shoulder_piece,,,,,,,,,,,,,,
-,,aft_stock_shoulder_piece,AFT,7,0.19,-9,-12,,,,,,,,0
+,,aft_stock_shoulder_piece,AFT,8,0.19,-10,-13,,,,,,,,0
 ,scar47_barrel,,,,,,,,,,,,,,
 ,,hilt_defense_scar47_394mm_barrel,HILT DEFENSE FANG 47 394mm,0,0.77,0,0,,0,0,0,,,,0
 ,scar47_lower_receiver,,,,,,,,,,,,,,
@@ -1987,7 +1987,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kf_416c_type_1_buttstock,KF416C Type 1,21,0.16,-7,-7,,,,,,,,250
 ,,kf_416c_type_2_buttstock,KF416C Type 2,22,0.19,-7,-7,,,,,,,,500
 ,hk_stock_extendable_part,,,,,,,,,,,,,,
-,,hk_g3a3_stock_extendable_part,KG-31a3 Stock Extendable Part,14,0.2,-7,-10,,,,,,,,0
+,,hk_g3a3_stock_extendable_part,KG-31a3 Stock Extendable Part,16,0.3,-7,-11,,,,,,,,0
 ,hk_g3_button_mag_release,,,,,,,,,,,,,,
 ,,hk_g3_button_mag_release,KG-31 Button,0,0.01,,,,,,,,,,0
 ,hk_g3_charging_handle,,,,,,,,,,,,,,
@@ -1995,8 +1995,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,hk_g3_cocking_support,,,,,,,,,,,,,,
 ,,hk_g3_cocking_support,KG-31 Cocking Support,0,0.02,,,,,,,,,,0
 ,hk_g3_endplate,,,,,,,,,,,,,,
-,,hk_g3_endplate,KG-31 Endplate,0,0.08,,,,,,,,,,0
-,,hk_g3a3_stock_endplate,KG-31a3 Stock Endplate,0,0.1,,,,,,,,,,0
+,,hk_g3_endplate,KG-31 Endplate,0,0.1,,,,,,,,,,0
+,,hk_g3a3_stock_endplate,KG-31a3 Stock Endplate,0,0.14,,,,,,,,,,0
 ,hk_g3_fire_selector,,,,,,,,,,,,,,
 ,,hk_g3_fire_selector,KG-31 Fire Selector,0,0.02,,,,,,,,,,0
 ,hk_g3_front_sight_assembly,,,,,,,,,,,,,,
@@ -2028,16 +2028,16 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,hk_upper_receiver_mounts,,,,,,,,,,,,,,
 ,,addon_hk_upper_receiver_picatinny_rail,Custom Addon Upper Receiver Picatinny,-0.5,0.07,0,0,,,,,,,,0
 ,hk_g3_stock,,,,,,,,,,,,,,
-,,hk_g3_std_fixed_plastic_stock,KG-31 Standard Fixed Plastic,9,0.26,-12,-12,,,,,,,,0
-,,haga_defense_hk_g3_acr_stock_adapter,HAGA Defense KG-31 ACR,1,0.06,-1,-1,,,,,,,,1000
-,,ptr_hk_g3_milspec_ar15_buffer_tube_adapter,CTR KG-31 Milspec AR-15 Buffer Tube,-1,0.07,1,1,,0.1,,,,,,1200
+,,hk_g3_std_fixed_plastic_stock,KG-31 Standard Fixed Plastic,11,0.3,-12,-12,,,,,,,,0
+,,haga_defense_hk_g3_acr_stock_adapter,HAGA Defense KG-31 ACR,0,0.05,0,0,,,,,,,,1000
+,,ptr_hk_g3_milspec_ar15_buffer_tube_adapter,CTR KG-31 Milspec AR-15 Buffer Tube,-2,0.06,0,0,,,,,,,,1200
 ,,spuhr_g3_r410_stock_assembly_adapter,Spuhr KG-31 R-410 Stock Assembly,-2,0.09,0,0,,,,,,,,1000
 ,hk_psg1_stock_assembly,,,,,,,,,,,,,,
 ,,hk_psg1_stock_buttpad,SKG-31 Stock,2,0.07,,,,,,,,,,0
 ,,hk_psg1_stock_cheek_rest,SKG-31 Stock,4,0.08,,,,,,,,,,0
-,,hk_psg1_stock_base,Sniper SKG-31 Version 2,15,0.26,-4,-6,,-0.05,,,,,,2000
+,,hk_psg1_stock_base,Sniper SKG-31 Version 2,14,0.35,-4,-6,,-0.05,,,,,,2000
 ,spuhr_stock,,,,,,,,,,,,,,
-,,spuhr_g3_r410_stock_assembly_stock,Spuhr KG-31 R-410,8,0.18,-10,-18,,,,,,,,0
+,,spuhr_g3_r410_stock_assembly_stock,Spuhr KG-31 R-410,12,0.25,-10,-15,,,,,,,,0
 ,,spuhr_g3_r410_stock_assembly_cheek_pad,Spuhr KG-31 R-410 Stock Assembly,2,0.04,,,,,,,,,,0
 ,hk_psg1_plunger,,,,,,,,,,,,,,
 ,,hk_psg1_fa_plunger,SKG-31 Receiver Bolt FA,0,0.01,0,0,,,,,,,,0
@@ -2079,10 +2079,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ferro_ordnance_mc51_bolt_assembly,Ferro Ordnance Group KG-51C Bolt,0,0.24,,,,,,,,,,0
 ,,hk_psg1_bolt_assembly,SKG-31 Bolt,0,0,,,,,,,,,,1500
 ,hk_g3_trigger_housing,,,,,,,,,,,,,,
-,,hk_g3_sef_metal_trigger_housing,KG-31 SEF Metal Trigger,0,0.55,0,0,,,,,,,,0
-,,hk_psg1_metal_trigger_housing,SKG-31 Metal Trigger,2,0.58,1,1,,,,,,,,2000
-,,aeroknox_ax_mp5_modified_trigger_housing,Arrow AX // MPi-54 Modified Trigger,-3,0.5,0,0,,,,,,,,1250
-,,ptr_32_sef_metal_trigger_housing,CTR-32 SEF Metal Trigger,-1,0.53,-1,0,,,,,,,,500
+,,hk_g3_sef_metal_trigger_housing,KG-31 SEF Metal Trigger,0,0.5,0,0,,,,,,,,0
+,,hk_psg1_metal_trigger_housing,SKG-31 Metal Trigger,2,0.53,1,1,,,,,,,,2000
+,,aeroknox_ax_mp5_modified_trigger_housing,Arrow AX // MPi-54 Modified Trigger,-3,0.45,0,0,,,,,,,,1250
+,,ptr_32_sef_metal_trigger_housing,CTR-32 SEF Metal Trigger,-1,0.48,-1,0,,,,,,,,500
 ,hk_psg_trigger,,,,,,,,,,,,,,
 ,,hk_psg1_trigger,SKG-31,0,0.05,0,1,,-0.05,,,,,,500
 ,hk_psg_trigger_shoe,,,,,,,,,,,,,,
@@ -2573,8 +2573,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,harrison_pra_adapter,Harrison PRA,0,0.04,,,,,,,,,,300
 ,,harrison_hbr_base,Harrison HBR,-4,0.2,,-2,,,,,,,,1000
 ,tailhook_brace,,,,,,,,,,,,,,
-,,gxw_tailhook_mod1_brace_small,GXW Tailhook MOD 1,11,0.09,-5,-5,,,,,,,,400
-,,gxw_tailhook_mod1_brace_big,GXW Tailhook MOD 1,11,0.09,-5,-5,,,,,,,,400
+,,gxw_tailhook_mod1_brace_small,GXW Tailhook MOD 1,11,0.09,-6,-6,,,,,,,,400
+,,gxw_tailhook_mod1_brace_big,GXW Tailhook MOD 1,11,0.09,-6,-6,,,,,,,,400
 ,thunderbeast_ultra,,,,,,,,,,,,,,
 ,,tb_5,Thunder Beast Ultra 5,-1,0.12,-14,-12,,-0.05,0.04,50,,,,1200
 ,,tb_7,Thunder Beast Ultra 7,-3,0.15,-15,-14,,-0.1,0.06,70,,,,1300
@@ -2657,7 +2657,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,acr_stock_cheek_pad,,,,,,,,,,,,,,
 ,,dynamic_development_group_sas_acr_stock_cheek_pad,Dynamic Development Group SAS Adaptive ACR Stock,4,0.04,,,,,,,,,,0
 ,acr_stock_moving_part,,,,,,,,,,,,,,
-,,dynamic_development_group_sas_acr_stock,Dynamic Development Group SAS Adaptive ACR Stock,10,0.16,-10,-7,,,,,,,,1000
+,,dynamic_development_group_sas_acr_stock,Dynamic Development Group SAS Adaptive ACR Stock,11,0.16,-11,-8,,,,,,,,1000
 ,,haga_defense_scar_acr_tailhook_adapter,Haga Defense FANG ACR Tailhook,0,0.06,,,,,,,,,,600
 ,acr_stock_retractor,,,,,,,,,,,,,,
 ,,dynamic_development_group_sas_acr_stock_retractor,Dynamic Development Group SAS Adaptive ACR Retractor,0,0.11,,,,,,,,,,0
@@ -2796,9 +2796,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,tas_hx5_mp5_picatinny_handguard,TAS HX-5 MP5,8,0.18,-7,-6,,,,,,,,2500
 ,mp5_lower_receiver,,,,,,,,,,,,,,
 ,,hk_mp5_plastic_4_position_trigger_housing,MPi-54 Plastic 4-Position Trigger,0,0.34,0,0,,,,,,,,0
-,,aeroknox_ax_mp5_trigger_housing,Arrow AX // MPi-54 Trigger,-4,0.32,3,3,,,,,,,,1000
-,,hk_mp5_sef_polymer_contoured_trigger_housing,MPi-54 SEF Polymer Contoured Trigger,2,0.3,0,1,,,,,,,,1500
-,,hk_mp5_hk94_sef_metal_trigger_housing,MP5/HK94 SEF Metal Trigger,-1,0.34,2,4,,,,,,,,1750
+,,aeroknox_ax_mp5_trigger_housing,Arrow AX // MPi-54 Trigger,-5,0.32,3,2,,,,,,,,1000
+,,hk_mp5_sef_polymer_contoured_trigger_housing,MPi-54 SEF Polymer Contoured Trigger,1,0.3,0,1,,,,,,,,1500
+,,hk_mp5_hk94_sef_metal_trigger_housing,MP5/HK94 SEF Metal Trigger,-2,0.34,2,4,,,,,,,,1750
 ,mp5_stock,,,,,,,,,,,,,,
 ,,hk_mp5a2_plastic_fixed_stock,MPi-54A2 Standard Fixed Plastic,8,0.25,-10,-12,,,,,,,,0
 ,hk_mp5_hk94_choate_stock,,,,,,,,,,,,,,

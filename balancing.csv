@@ -979,7 +979,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,5.56x45_x15m_drum_50r,X-15M Drum,-5,1.05,,,50,,,,,,,3000
 ,,5.56x45_magtap_pmag_m3_10r,Magtap PMAG M3 5.56x45 10R,11,0.15,,,10,,,,,,,500
 ,,5.56x45_magtap_pmag_m3_20r,Magtap PMAG M3 5.56x45 20R,6,0.28,,,20,,,,,,,750
-,,5.56x45_hart_ar15_stanag_30r,Hart STANAG AR-15 30R,0,0.39,,,30,,,,,,,500
+,,5.56x45_hart_ar15_stanag_30r,Hart STANAG AR-15 30R,0,0.39,,,30,,,,,,,0
 ,,5.56x45_whtnls_stanag_25r,Whitnalls STANAG Mag 5.56x45 25R,3,0.34,,,25,,,,,,,750
 ,,5.56x45_whtnls_stanag_ss_20r,Whitnalls STANAG SS Mag 5.56x45 20R,5,0.25,,,20,,,,,,,600
 ,,5.56x45_magtap_pmag_m3_windowed_30r,Magtap PMAG M3 5.56x45 Windowed 30R,1,0.4,,,30,,,,,,,1500

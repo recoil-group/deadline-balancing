@@ -1841,7 +1841,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ammo_12g,,,,,,,,,,,,,,
 ,,12g_roosevelt_accutip_275_slug,"12G Roosevelt Accutip 2.75"" Slug",4,0.04,3,3,,0,,600,,,,2000
 ,,12g_mili_275_00buck_9x,"12G MILI 2.75"" #00 Buckshot (9 Pellets)",-3,,,,,,,182,0,,,0
-,,12g_phoenix_hellfire_300_dragons_breath,12G Phoenix Rising Hellfire 3” Dragon's Breath,,,,,,,,0,,4000,,
+,,12g_phoenix_hellfire_300_dragons_breath,12G Phoenix Rising Hellfire 3” Dragon's Breath,,,,,,,,0,,,,4000
 ,,12g_federal_game_load_275_4shot_152x,"12G Federal Game Load 2.75"" 4-Shot (152 Pellets)",5,,,,,,,,0,,,1000
 ,,12g_foxhill_275_mean_bean_bag,"12G Fox Hill 2.75"" Mean Bean Bag",10,,-15,-10,,0.4,,-400,,,,100
 ,ump_upper_receiver,,,,,,,,,,,,,,

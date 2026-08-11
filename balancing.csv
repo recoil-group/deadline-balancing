@@ -2157,7 +2157,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,arid_concepts_aug_mag_release_std_paddle,Arid Concepts Standard Paddle,0.5,0.01,,,,,,,,,,0
 ,,arid_concepts_aug_mag_release_large_paddle,Arid Concepts Large Paddle,1,0.02,,,,,,,,,,100
 ,aug_a3_stock,,,,,,,,,,,,,,
-,,steyr_aug_a3_para_9x19_stock,Löwenherz AUG Para 9x19,40,0.34,-21,-28,,0.35,,-1245,,,,2000
+,,steyr_aug_a3_para_9x19_stock,Löwenherz AUG Para 9x19,40,0.39,-15,-25,,0.35,,-1245,,,,2000
 ,,fbt_aug_carbon_fiber_stock,Fine Ballistic Tools AUG Carbon Fiber,22,0.39,-6,-6,,,,,,,,4000
 ,,steyr_aug_a3_nato_stock,AUG A3 NATO,16,0.3,-5,-8,,,,,,,,1000
 ,,steyr_aug_a3_austrian_stock,AUG A3 Austrian,17,0.3,-7,-7,,,,,,,,0

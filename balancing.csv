@@ -1,4 +1,4 @@
-﻿0.25.3,Mon Aug 10 02:25:14 2026,,,,,,,,,,,,,,
+0.25.3,Mon Aug 10 02:25:14 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -161,8 +161,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,veles_chelomo_picatinny_mount_pkas,Veles ChelOMO PK-AS,0,0.05,,,,,,,,,,300
 ,,veles_klesch_2p_lcu,Veles Klesch-2P + LCU,0,0.1,,,,,,,,,,1000
 ,,veles_perst_3_classic_gen4_green,"Veles Perst-3 ""Classic"" gen 4.0 (GREEN+)",-0.5,0.16,,-2,,,,,,,,1000
-,,primary_arms_slx_1x_microprism_acss_g2_scope_alt,,-1,0.08,,,,,,,,,,1300
-,,primary_arms_slx_1.53inch_straight_spacer_alt,,0,0.05,,,,,,,,,,100
+,,paramount_arms_slx_1x_microprism_acss_g2_scope_alt,,-1,0.08,,,,,,,,,,1300
+,,paramount_arms_slx_1.53inch_straight_spacer_alt,,0,0.05,,,,,,,,,,100
 ,,gbrs_group_lerna_picatinny_holotec_mount,GBRS Group Lerna Picatinny HOLOTEC,-1,0.07,,,,,,,,,,900
 ,,smite_industries_ar_picatinny_bipod_foregrip,Smite Industries AR Picatinny,0,0.1,0,0,,,,,,,,700
 ,,smite_industries_bipod_foregrip_collapsed_legs,Smite Industries Bipod Foregrip Collapsed,-1,0.06,-3,-4,,,,,,,,0
@@ -187,14 +187,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,volhov_zt310_picatinny_mount,Valday JSC Optics ZT-310 Picatinny,0,0.03,,,,,,,,,,100
 ,,arbalet_patriot_k_pu_20mm_picatinny_mount,Arbalet Patriot K-PU 20mm Picatinny,0,0.06,,,,,,,,,,400
 ,,virticon_rm34_ac12036_mount,Virticon RM34 AC12036,-0.5,0.04,,,,,,,,,,400
-,,troy_battlesight_round_aperture,Troy Battlesight Round Rear Aperture,0,0.005,,,,,,,,,,0
-,,troy_battlesight_round_aperture_for_folded,Troy Battlesight Round Rear Aperture,0,0.005,,,,,,,,,,0
-,,troy_battlesight_std_front_post,Troy Battlesight Std. Front Post,0,0.005,,,,,,,,,,0
-,,troy_front_hk_battlesight,Troy Front Battlesight,1,0.01,,,,,,,,,,0
-,,troy_front_hk_battlesight_folded,Troy Front Battlesight Folded,1,0.01,,,,,,,,,,0
-,,troy_rear_battlesight,Troy Rear Battlesight,1,0.01,,,,,,,,,,0
-,,troy_rear_battlesight_folded,Troy Rear Battlesight Folded,1,0.01,,,,,,,,,,0
-,,troy_battlesight_picatinny_base,Troy Battlesight Base,0,0.02,,,,,,,,,,400
+,,talvern_battlesight_round_aperture,Troy Battlesight Round Rear Aperture,0,0.005,,,,,,,,,,0
+,,talvern_battlesight_round_aperture_for_folded,Troy Battlesight Round Rear Aperture,0,0.005,,,,,,,,,,0
+,,talvern_battlesight_std_front_post,Troy Battlesight Std. Front Post,0,0.005,,,,,,,,,,0
+,,talvern_front_hk_battlesight,Troy Front Battlesight,1,0.01,,,,,,,,,,0
+,,talvern_front_hk_battlesight_folded,Troy Front Battlesight Folded,1,0.01,,,,,,,,,,0
+,,talvern_rear_battlesight,Troy Rear Battlesight,1,0.01,,,,,,,,,,0
+,,talvern_rear_battlesight_folded,Troy Rear Battlesight Folded,1,0.01,,,,,,,,,,0
+,,talvern_battlesight_picatinny_base,Troy Battlesight Base,0,0.02,,,,,,,,,,400
 ,,axtell_defense_rock_lock_rail_mounted_fixed_front_sight,Axtell Defense Rock & Lock Rail Mounted Fixed,0,0.02,,,,,,,,,,700
 ,,axtell_defense_rock_lock_a1.5_fixed_rear_sight,Axtell Defense Rock & Lock A1.5 Fixed,0,0.03,,,,,,,,,,700
 ,,axtell_defense_fixed_sight_front_post,Axtell Defense Fixed,1,0.005,,,,,,,,,,0
@@ -217,7 +217,6 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,holotec_owl_tactical_laser_module,HOLOTEC OWL Tactical,0,0.12,,-1,,,,,,,,2500
 ,,holotec_owl_access_point_cap,HOLOTEC OWL,0,0.01,,,,,,,,,,0
 ,,holotec_owl_lens_caps,HOLOTEC OWL,1,0.01,,,,,,,,,,0
-,,whitehouse_rush_qe_g18_high_power_laser_aiming_device,Whitehouse RUSH Qe G18 High Power,0,0.1,,-1,,,,,,,,4500
 ,,whitehouse_rush_qe_g14_high_power_laser_aiming_device,Whitehouse RUSH Qe G14 High Power,0,0.1,,-1,,,,,,,,4000
 ,,whitehouse_rush_qe_junction_box_legacy_crane_connector,Whitehouse RUSH Qe Legacy Crane Connector,0,0.01,,,,,,,,,,0
 ,,whitehouse_rush_qe_front_caps,Whitehouse RUSH Qe Front,0,0.01,,,,,,,,,,0
@@ -671,7 +670,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,aeroknox_ax15_endplate,Arrow AX // 15 AR-15 Receiver Endplate,0,0.01,,,,,,,,,,0
 ,,hart_607_car15_buffer_tube,Hart 607 CAR-15,-2,0.13,-1,-1,,,,,,,,500
 ,,hart_607_car15_stock,Hart 607 CAR-15,16,0.23,-8,-14,,,,,,,,500
-,,troy_m7a1_pdw_base_stock,Troy M7A1 PDW Base,-2,0.12,0,0,,,,,,,,1000
+,,talvern_m7a1_pdw_base_stock,Troy M7A1 PDW Base,-2,0.12,0,0,,,,,,,,1000
 ,ar15_pistol_grip,,,,,,,,,,,,,,
 ,,timber_creek_enforcer_pistol_grip,Lumber River Enforcer,4,0.07,-1,-7,,,,,,,,900
 ,,tactical_dynamics_anodized_skeletonized_ar15_pistol_grip,Tactical Dynamics Anodized Skeletonized AR-15,3,0.04,-3,-5,,,,,,,,700
@@ -709,7 +708,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,strikon_scr_ar15_frt_trigger,STRIKON SCR Rifle Forced-Reset,2,0.06,0,0,,0.15,,,,,,2250
 ,ar15_trigger_guard,,,,,,,,,,,,,,
 ,,magtap_enhanced_ar15_mag1186_polymer_trigger_guard,Magtap Enhanced AR-15 MAG1186 Polymer,2,0.02,,,,,,,,,,200
-,,troy_enhanced_ar15_trigger_guard,Troy Enhanced AR-15,2.5,0.04,,,,,,,,,,200
+,,talvern_enhanced_ar15_trigger_guard,Troy Enhanced AR-15,2.5,0.04,,,,,,,,,,200
 ,,hart_m4a1_trigger_guard,Hart M4 standard,2,0.02,,,,,,,,,,0
 ,,smite_industries_polyflex_ar15_trigger_guard,Smite Industries PolyFlex AR-15,3,0.08,,,,,,,,,,400
 ,m4a1_upper_receiver,,,,,,,,,,,,,,
@@ -754,7 +753,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,strikon_scr_rifle_bcg,STRIKON SCR Rifle BCG,3,0.07,2,5,,,,,,,,750
 ,,ews_bufferless_system_ar15_bcg,EWS Bufferless System AR-15 BCG,4,0.08,4,4,,,,,,,,500
 ,,ardian_weapons_ar15_enhanced_bcg,Ardian Weapons AR-15 Enhanced BCG,2,0.16,0,0,,,,,,,,1000
-,,troy_m7a1_pdw_ar15_bcg,Troy M7A1 PDW AR-15 BCG,1,0.11,0,1,,,,,,,,300
+,,talvern_m7a1_pdw_ar15_bcg,Troy M7A1 PDW AR-15 BCG,1,0.11,0,1,,,,,,,,300
 ,m4a1_5.56x45_barrel,,,,,,,,,,,,,,
 ,,cmmg_ar_15_5.56x45_610mm_fluted_r_barrel,"CmmG 24"" Fluted AR-15 Rifle Length Gastube 5.56x45",-12,0.97,-16,-16,,-0.32,0.3,262,,-0.06,,5000
 ,,whtnls_a1_m4a1_5.56x45_508mm_govt_r_barrel,"Whitnalls A1 Government 20"" Rifle Length Gastube 5.56x45",-9,0.84,-10,-10,,-0.24,0.21,179,,-0.06,,1600
@@ -980,7 +979,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,5.56x45_x15m_drum_50r,X-15M Drum,-5,1.05,,,50,,,,,,,3000
 ,,5.56x45_magtap_pmag_m3_10r,Magtap PMAG M3 5.56x45 10R,11,0.15,,,10,,,,,,,500
 ,,5.56x45_magtap_pmag_m3_20r,Magtap PMAG M3 5.56x45 20R,6,0.28,,,20,,,,,,,750
-,,5.56x45_hart_ar15_stanag_30r,Hart STANAG AR-15 30R,0,0.39,,,30,,,,,,,500
+,,5.56x45_hart_ar15_stanag_30r,Hart STANAG AR-15 30R,0,0.39,,,30,,,,,,,0
 ,,5.56x45_whtnls_stanag_25r,Whitnalls STANAG Mag 5.56x45 25R,3,0.34,,,25,,,,,,,750
 ,,5.56x45_whtnls_stanag_ss_20r,Whitnalls STANAG SS Mag 5.56x45 20R,5,0.25,,,20,,,,,,,600
 ,,5.56x45_magtap_pmag_m3_windowed_30r,Magtap PMAG M3 5.56x45 Windowed 30R,1,0.4,,,30,,,,,,,1500
@@ -1707,7 +1706,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sai_match_threaded_9x19_barrel,SAI Match Threaded G17 9x19,0,0.13,-7,-10,,0.05,0,-57,,,,1200
 ,,glock17l_ported_153mm_9x19_barrel,Glock 17L Ported 153mm 9x19 Barrel,-1,0.17,-12,-15,,-0.1,0.03,-14,,,,1500
 ,,igb_austria_match_grade_polygonal_406mm_9x19_barrel,IGB Austria Match Grade Polygonal 406mm 9x19 Barrel,-25,0.4,-10,-15,,-0.2,0.09,140,,,,3000
-,,radian_weapons_glock17_ramjet_barrel,Radian Weapons Glock 17 Gen5 RAMJET 9x19,1,0.12,-10,-10,,0.1,0,-57,,,,1500
+,,ardian_weapons_glock17_ramjet_barrel,Radian Weapons Glock 17 Gen5 RAMJET 9x19,1,0.12,-10,-10,,0.1,0,-57,,,,1500
 ,glock_spring,,,,,,,,,,,,,,
 ,,kosch_default_recoil_spring,KOSCH Default Recoil Spring,0,0.02,,,,,,,,,,0
 ,glock_grip,,,,,,,,,,,,,,
@@ -2272,7 +2271,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kazarov_pp-19-01_vityaz_rear_sight,Kazarov PP-19-01 Vityaz,1,0.01,,,,,,,,,,0
 ,5.56x45_muzzle_device,,,,,,,,,,,,,,
 ,,tb_mount_223_mb,BPAC 223CB,0,0.08,-14,-12,,0.1,0,0,,,,400
-,,troy_claymore556,Glenn & Harris Claymore 5.56x45,2,0.1,-10,-15,,0.05,0,0,,,,500
+,,talvern_claymore_5.56x45_muzzle_brake,Glenn & Harris Claymore 5.56x45,2,0.1,-10,-15,,0.05,0,0,,,,500
 ,,onyx_adapter,Onyx One,0,0.06,-7,-8,,0.05,0.02,20,,,,300
 ,,adw_adapter,Axtell Defence Wave MB,0,0.08,-16,-10,,0.1,0,0,,,,500
 ,,strelets_st_6012,Strelets ST-6012 5.56x45,-1,0.09,-18,-10,,0.1,0,0,,,,400
@@ -2315,7 +2314,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ips_9x19_1inch_barrel_extension,"IPS 1"" 9x19",-1,0.03,1,1,,0.06,0.01,30,,,,500
 ,,resiliant_suppressors_obsidian_9_9x19_piston,Resiliant Suppressors Obsidian9 9x19 Piston,0,0.03,0,0,,0,0,0,,,,300
 ,,resiliant_suppressors_obsidian_9_3lug_piston,Resiliant Suppressors Obsidian9 3-Lug Piston,0,0.03,0,0,,0,0,0,,,,300
-,,radian_weapons_glock17_afterburner_micro_compensator,Radian Weapons Glock 17 Gen5 AFTERBURNER Micro Compensator,0,0.04,-5,-5,,0,0,20,,,,1000
+,,ardian_weapons_glock17_afterburner_micro_compensator,Radian Weapons Glock 17 Gen5 AFTERBURNER Micro Compensator,0,0.04,-5,-5,,0,0,20,,,,1000
 ,resiliant_suppressors_obsidian_9,,,,,,,,,,,,,,
 ,,resiliant_suppressors_obsidian_9_body,Resiliant Suppressors Obsidian9 9x19 Body,-4,0.09,-9,-8,,-0.08,0.09,70,,,,1500
 ,,resiliant_suppressors_obsidian_9_extension,Resiliant Suppressors Obsidian9 9x19 Extension,-3,0.07,-3,-2,,-0.04,0.05,50,,,,1000
@@ -2580,7 +2579,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,tb_7,Thunder Beast Ultra 7,-3,0.15,-15,-14,,-0.1,0.06,70,,,,1300
 ,,tb_9,Thunder Beast Ultra 9,-5,0.18,-17,-14,,-0.2,0.08,90,,,,1400
 ,troy_m7a1_pdw_extendable_stock,,,,,,,,,,,,,,
-,,troy_m7a1_pdw_extendable_stock,Troy M7A1 PDW Extendable,21,0.15,-6,-7,,,,,,,,800
+,,talvern_m7a1_pdw_extendable_stock,Troy M7A1 PDW Extendable,21,0.15,-6,-7,,,,,,,,800
 ,ubr_stock,,,,,,,,,,,,,,
 ,,ubr_gen2_stock,Magtap UBR GEN2,14,0.29,-14,-8,,,,,,,,700
 ,unity_fast_30mm_offset_mount,,,,,,,,,,,,,,
@@ -2943,7 +2942,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,KF416,KF 416,25,0,65,80,0,0.55,1,2450,,,1,30000
 ,,AUG_A3,Löwenherz AUG A3,40,0,55,65,0,0.5,1,2450,,,1,42000
 ,,AK12,Kazarov Group AK-12,35,0,50,55,0,0.4,1,2300,,,1,25000
-,,AK308,Kazarov Group AK-308,20,0,80,100,0,0.75,1,1900,,,1,65000
+,,AK308,Kazarov Group AK-308,20,0,80,100,0,0.75,1,2100,,,1,65000
 ,,M4A1,AR-15,15,0,65,85,0,0.6,1,2450,,,1,0
 ,,QBZ95,Sanxian QBZ-95,50,0,50,50,0,0.4,0.92,2500,,,1,25000
 ,,SA58,RSA SG-58,15,0,85,105,0,0.75,1,1900,,,1,20000

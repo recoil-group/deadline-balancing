@@ -1,4 +1,4 @@
-0.25.3,Mon Aug 10 02:25:14 2026,,,,,,,,,,,,,,
+﻿0.25.3,Wed Aug 12 12:58:31 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -934,7 +934,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pmm_scar_17_magwell_type2,Everetts Machining FANG 17 Type 2,2.5,0.08,-1,,,,,,,,,700
 ,,pmm_scar_16_magwell,Everetts Machining FANG 16,2,0.05,-1,,,,,,,,,700
 ,vector_folding_stock,,,,,,,,,,,,,,
-,,kriss_vector_gen2_folding_stock,KALIS Scalar Gen2,16,0.26,-7,-9,,,,,,,,0
+,,kriss_vector_gen2_folding_stock,KALIS Scalar Gen2,18,0.26,-7,-9,,,,,,,,0
 ,,kriss_vector_non_folding_stock_adapter,KALIS Scalar Non-Folding Stock Adapter,0,0.08,0,0,,,,,,,,800
 ,vector_upper_receiver,,,,,,,,,,,,,,
 ,,vector_9mm_upper_receiver,KALIS Scalar 9mm,3,0.39,-10,-10,,,,300,,,,3000
@@ -974,7 +974,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,vector_45acp_170mm_barrel,KALIS Scalar .45ACP 170mm,-1,0.27,-1,-1,,-0.02,0.03,-72,-0.1,,,750
 ,,vector_45acp_140mm_barrel,KALIS Scalar .45ACP 140mm,0,0.23,0,0,,0,0,-99,0,,,800
 ,magazine_45acp_vector,,,,,,,,,,,,,,
-,,pf940_std_13r_vector_remodel,STD 13R .45 ACP,15,0.23,,,13,,,,,,,0
+,,pf940_std_13r_vector_remodel,STD 13R .45 ACP,0,0.23,,,13,,,,,,,0
 ,magazine_556x45,,,,,,,,,,,,,,
 ,,5.56x45_magtap_pmag_60r,Magtap PMAG D60 60R Drum,-10,1.12,,,60,,,,,,,4000
 ,,5.56x45_x15m_drum_50r,X-15M Drum,-5,1.05,,,50,,,,,,,3000
@@ -1047,7 +1047,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,magazine_9x19_kosch,,,,,,,,,,,,,,
 ,,kosch_9x19_31r_stick_magazine,KOSCH 9x19 31R Stick,-6,0.39,,,31,,,,,,,1000
 ,,kosch_9x19_17r_magazine,KOSCH 9x19 17R,0,0.21,,,17,,,,,,,1000
-,,fst_kosch_9x19_50r_drum_magazine,SGM Tactical PF940 17 50R 9x19 Drum,-10,0.9,,,50,,,,,,,3000
+,,fst_kosch_9x19_50r_drum_magazine,SGM Tactical PF940 17 50R 9x19 Drum,-6,0.85,,,50,,,,,,,3000
 ,magazine_9x19,,,,,,,,,,,,,,
 ,,9x19_glock_stick_31r,Glock 9x19 31R Stick,-3,0.35,,,31,,,,,,,1000
 ,,pf940_gen5_9x19_17r_magazine,PF940 17 Gen5 17R 9x19,0,0.2,,,17,,,,,,,500
@@ -1135,7 +1135,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,l7awm_mag_assist,,,,,,,,,,,,,,
 ,,magtap_223_mag_assist_l7awm,Magtap 223,1,0.03,,,,,,,,,,200
 ,magazine_9mm_vector,,,,,,,,,,,,,,
-,,9x19_sgmt_drum50r_vector,SGMT 9x19 50R Drum,-6,0.9,,,50,,,,,,,3000
+,,9x19_sgmt_drum50r_vector,SGMT 9x19 50R Drum,-6,0.85,,,50,,,,,,,3000
 ,,9x19_pf940_std_17r_vector,PF940 9x19 17R,0,0.21,,,17,,,,,,,500
 ,magazine_7.62x51_g3,,,,,,,,,,,,,,
 ,,hk_g3_std_20r_magazine,KG-31 Standard 20R,0,0.64,,,20,,,,,,,1000
@@ -2961,7 +2961,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,MP133,Ladoga MP133,25,0,60,70,1,0.6,1,1000,2,,1,9000
 ,smg,,,,,,,,,,,,,,
 ,,MP5,KF MPi-54,40,0,45,55,0,1.05,1,1200,,,1,5000
-,,Vector,KALIS Scalar Gen II,25,0,60,60,0,1.2,1,900,,,1,90000
+,,Vector,KALIS Scalar Gen II,45,0,60,60,0,1.2,1,900,,,1,90000
 ,,MK9,AR-9,30,0,55,70,0,1.05,1,1200,,,1,20000
 ,,UMP,KF UMC-45,60,0,80,90,0,1.05,1,900,,,1,15000
 ,,AK_9,Kazarov Group PP-19-01,30,0,50,65,0,0.9,1,1200,,,1,11000

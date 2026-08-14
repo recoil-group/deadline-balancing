@@ -139,7 +139,7 @@ id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black
 137,elcan_specterdr_1_4x_dfov14_t1,not_magnified,5,0.33,6,false,false
 138,tristar_compact_carry_handle,not_magnified, , , ,false,false
 139,squadsight_orion_3x_gen1_plus_nv_scope,22,1,1,5.5,true,false
-140,unity_fast_micro_mount,not_magnified, , , ,false,false
+140,harmony_fast_micro_mount,not_magnified, , , ,false,false
 141,virticon_srs02,not_magnified,10,0.33, ,false,false
 142,veles_chelomo_prc_red_dot,not_magnified,6,4, ,false,false
 143,sig_sauer_bravo4_4x30,22,10,0.33,6,true,false

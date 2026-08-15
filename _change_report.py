@@ -86,16 +86,19 @@ def compare_rows(
         if old == new:
             continue
         try:
-            color = (
-                "green"
-                if (float(new) > float(old)) == STAT_DIRECTIONS[column]
-                else "red"
-            )
-            changes.append(
-                f'{format_header(column)}: `{old}` -> <code class="{color}">{new}</code>'
-            )
+            old_value = float(old)
+            new_value = float(new)
         except (TypeError, ValueError):
             changes.append(f"{format_header(column)}: `{old}` -> `{new}`")
+            continue
+
+        # Ignore pure formatting differences such as `0.00` -> `0`.
+        if old_value == new_value:
+            continue
+        color = "green" if (new_value > old_value) == STAT_DIRECTIONS[column] else "red"
+        changes.append(
+            f'{format_header(column)}: `{old}` -> <code class="{color}">{new}</code>'
+        )
     return changes
 
 

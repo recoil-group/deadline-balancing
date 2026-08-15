@@ -4,6 +4,8 @@ Attachment stats and other stuff for [Deadline](https://www.roblox.com/games/383
 
 ## changelogs
 
+- [0.25.4](changelogs/0-25-4.md)
+- [0.25.3](changelogs/0-25-3.md)
 - [0.24.2](changelogs/0-24-2.md)
 - [0.24.1](changelogs/0-24-1.md)
 - [0.24.0](changelogs/0-24-0.md)
@@ -53,6 +55,24 @@ Folder containing all generated changelog markdown files.
 ### /archive
 
 Folder containing all balancing sheets from previous versions. These are used to generate changelogs.
+
+Each version has up to two files:
+
+- `x-y-z.csv` — a frozen snapshot of `balancing.csv` at release. Never apply
+  renames to it. Only fix genuine errors in the snapshot itself, such as a
+  shifted column or a dropped row.
+- `x-y-z-renamed.csv` — the same snapshot with every rename made *since* that
+  release applied forward. This is the base for the next version's changelog.
+  Create it the first time a rename lands after the release, and keep applying
+  later renames to it.
+
+Renaming the frozen snapshot in place breaks changelog regeneration for that
+version: its base sheet still uses the old names, so every renamed attachment
+shows up as removed-and-new. Keeping the two files separate means old
+changelogs stay reproducible while new diffs stay clean.
+
+Cut the archive and generate the changelog in the same pass. If the snapshot is
+taken days after the changelog, the two disagree by whatever landed in between.
 
 ### port.py
 

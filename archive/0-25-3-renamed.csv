@@ -146,7 +146,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,true_view_rap4_offset_picatinny_mount_flipped,TRUE VIEW RAP4 45 Degree Flipped,-1,0.08,,,,,,,,,,500
 ,,um_3_wilson,UM3,-1,0.06,,,,,,,,,,300
 ,,unity_fast_lpvo_30mm_mount,Harmony FAST LPVO 30mm,-1.5,0.1,,,,,,,,,,750
-,,unity_fast_micro_mount,Harmony Fast Micro,-1,0.06,,,,,,,,,,500
+,,harmony_fast_micro_mount,Harmony Fast Micro,-1,0.06,,,,,,,,,,500
 ,,unity_fast_optics_riser,Harmony FAST Optics,-1,0.04,,,,,,,,,,500
 ,,atg_ms_qd_foregrip,ATG MS QD,4,0.15,-6,-1,,,,,,,,500
 ,,atg_super_slim_vertical_foregrip,ATG Super Slim Vertical,5,0.1,-1,-5,,,,,,,,300

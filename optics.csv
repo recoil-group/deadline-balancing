@@ -13,7 +13,7 @@ id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black
 11,hg_shortrail_ghost_ring_rear_sight,not_magnified, , , ,false,false
 12,r870_std_rear_sight,not_magnified, , , ,false,false
 13,npz_pk1_1p63_obzor,70,5,0.2, ,false,false
-14,npz_usp_1_4x_1p29_tulip,22,5,0.2,9,true,false
+14,npz_usp_1_4x_1p29_tulip,22,5,0.2,5,true,false
 15,priceli_narod_okp_7_dovetail,not_magnified,10,0.333, ,false,false
 16,veles_chelomo_pso1,22,5,0.1,4.5,true,false
 17,geiss_zfk_4x25_scope,22,5,0.2,5,true,false

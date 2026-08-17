@@ -1334,7 +1334,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,magtap_zhukov_s_hinge_part,Magtap ZHUKOV-S Hinge Part,0,0.07,,,,,,,,,,600
 ,ak_cleaning_rod,,,,,,,,,,,,,,
 ,,kazarov_ak_cleaning_rod,Kazarov AK-74,0,0.02,,-1,,0.02,,,,,,0
-,,kazarov_ak_short_cleaning_rod,Kazarov AK-105,0,0.02,,,,0.02,,,,,,50
+,,kazarov_ak_short_cleaning_rod,Kazarov AK-105,0,0.01,,-1,,0.01,,,,,,50
 ,ak_lower_receiver,,,,,,,,,,,,,,
 ,,kazarov_ak74_lower_receiver,Kazarov AK-74,0,0.3,,,,,,,,,,0
 ,,kazarov_ak100_series_lower_receiver,Kazarov AK-100 series,1,0.32,,,,,,,,,,5000

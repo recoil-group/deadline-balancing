@@ -40,6 +40,10 @@ Master balancing sheet. Should always be up to date with the latest changes.
 
 Testing sheet. Gets imported into dev branch when updated.
 
+### renames.csv
+
+The running list of attachment renames, as `old_name,new_name` pairs. Chains resolve to their final name.
+
 ### weapon_names.json
 
 Dynamic weapon display-name rules keyed by weapon code. Each rule lists the attachments required for that name; nested attachment arrays are interchangeable options.
@@ -63,8 +67,8 @@ Each version has up to two files:
   shifted column or a dropped row.
 - `x-y-z-renamed.csv` — the same snapshot with every rename made *since* that
   release applied forward. This is the base for the next version's changelog.
-  Create it the first time a rename lands after the release, and keep applying
-  later renames to it.
+  Create it the first time a rename lands after the release; `rename.py` keeps
+  it current from then on.
 
 Renaming the frozen snapshot in place breaks changelog regeneration for that
 version: its base sheet still uses the old names, so every renamed attachment
@@ -104,6 +108,32 @@ python port.py "changes/changes.xlsx" "balancing.csv" 2 --dry-run --format json
 - An uncached formula in a cell that would be imported stops the port because
   its unknown result would otherwise be exported as a blank override.
 - Writes are atomic, and the target date is updated only when cells change.
+
+### rename.py
+
+Applies `renames.csv` to the `name` column of CSV and Excel sheets. Usage:
+
+```bash
+python rename.py (sheets...) [--dry-run]
+python rename.py *.csv archive/*-renamed.csv changes/* --dry-run
+python rename.py balancing.csv "changes/m4-handguards.xlsx"
+```
+
+- Add the rename to `renames.csv` first, then run this against the sheets it
+  should reach. Never include the frozen `archive/x-y-z.csv` snapshots.
+- Rename chains are resolved to the final name, and a loop or a conflicting
+  pair is an error.
+- A rename is skipped when the new name already exists in that sheet, since it
+  would create a duplicate. Skips are marked with `!`.
+- Names in the list that no target sheet uses are reported, which usually means
+  a typo or a rename that has already been applied.
+- Sheets with no `name` column are ignored, as are extra worksheets inside a
+  workbook.
+- Only the renamed cells are rewritten. CSV quoting, line endings, and encoding
+  are preserved byte for byte, and workbooks keep their formulas, cached
+  results, and formatting.
+
+Renaming does not touch `pretty_name`. Update display names in the sheet.
 
 ### xlsx_to_csv.py
 

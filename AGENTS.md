@@ -24,7 +24,8 @@ The root balancing CSVs are authoritative for the stats and fields they define; 
 - `archive/`: historical balancing CSVs for changelog generation.
 - `changelogs/` and `diffs/`: generated Markdown changelog outputs.
 - `demos/`: small HTML balancing visualizations/tools.
-- `renaming/`: temporary renaming helpers.
+- `renames.csv`: running `old_name,new_name` rename list, applied by
+  `rename.py`. Append renames there instead of editing name cells by hand.
 
 ## Git Workflow
 

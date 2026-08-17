@@ -9,8 +9,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,alpha_four_tactical_angled_foregrip,Alpha Four Tactical Angled,1,0.16,-1,-7,,,,,,,,900
 ,,abom_cnc_works_picatinny_susat_adapter,Abom's CNC Works Picatinny SUSAT Adapter,0,0.06,,,,,,,,,,300
 ,,virticon_ac32062_mount,Virticon AC32062 RMR Mount,-1,0.05,,,,,,,,,,350
-,,aeroknox_ax15_front_sight_base,Arrow AX // 15 Base,0,0.02,,,,,,,,,,400
-,,aeroknox_ax15_rear_sight_base,Arrow AX // 15 Base,0,0.02,,,,,,,,,,400
+,,equinox_ex15_front_sight_base,Arrow AX // 15 Base,0,0.02,,,,,,,,,,400
+,,equinox_ex15_rear_sight_base,Arrow AX // 15 Base,0,0.02,,,,,,,,,,400
 ,,target_sports_low_profile_45_degree_sight_base,Target Sports Low Profile 45 Degree,0,0.02,,,,,,,,,,400
 ,,azimuth_30mm_low_ring_mount,Azimuth 30mm Low Ring,0,0.03,,,,,,,,,,200
 ,,azimuth_amm_dovetail_11mm_mount,Azimuth AMM Dovetail Groove 11mm,0,0.02,,,,,,,,,,200
@@ -346,10 +346,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,magtap_mbus_gen2_front_top,Magtap MBUS Gen2 FS,1,0.01,,,,,,,,,,0
 ,,magtap_mbus_gen2_front_top_folded,Magtap MBUS Gen2 FS Folded,1,0.01,,,,,,,,,,0
 ,aeroknox_iron_sight,,,,,,,,,,,,,,
-,,aeroknox_ax15_front_sight,Arrow AX // 15,1,0.01,,,,,,,,,,0
-,,aeroknox_ax15_front_sight_folded,Arrow AX // 15 Folded,1,0.01,,,,,,,,,,0
-,,aeroknox_ax15_rear_sight,Arrow AX // 15,1,0.01,,,,,,,,,,0
-,,aeroknox_ax15_rear_sight_folded,Arrow AX // 15 Folded,1,0.01,,,,,,,,,,0
+,,equinox_ex15_front_sight,Arrow AX // 15,1,0.01,,,,,,,,,,0
+,,equinox_ex15_front_sight_folded,Arrow AX // 15 Folded,1,0.01,,,,,,,,,,0
+,,equinox_ex15_rear_sight,Arrow AX // 15,1,0.01,,,,,,,,,,0
+,,equinox_ex15_rear_sight_folded,Arrow AX // 15 Folded,1,0.01,,,,,,,,,,0
 ,fab_tech_rear_aperture,,,,,,,,,,,,,,
 ,,fab_tech_usgi_rear_buis_aperture_folded,FabTech USGI Rear BUIS Folded,1,0.01,,,,,,,,,,0
 ,,fab_tech_usgi_rear_buis_aperture,MaTech USGI Rear BUIS,1,0.01,,,,,,,,,,0
@@ -393,9 +393,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,stanag_30r_bottom_plate,,,,,,,,,,,,,,
 ,,stanag_30r_plate,STANAG 30R Mag,0,0.02,,,,,,,,,,0
 ,mlok,,,,,,,,,,,,,,
-,,aeroknox_ax_mlok_cover,Arrow AX,0.5,0.01,,,,,,,,,,100
-,,aeroknox_ax_mlok_cover_flipped,Arrow AX Flipped,0.5,0.01,,,,,,,,,,100
-,,aeroknox_ax_mlok_grip,Arrow AX MLOK Grip,6,0.04,-1,-2,,,,,,,,700
+,,equinox_ex_mlok_cover,Arrow AX,0.5,0.01,,,,,,,,,,100
+,,equinox_ex_mlok_cover_flipped,Arrow AX Flipped,0.5,0.01,,,,,,,,,,100
+,,equinox_ex_mlok_grip,Arrow AX MLOK Grip,6,0.04,-1,-2,,,,,,,,700
 ,,bcm_gunfighter_kag,BCM Gunfighter KAG MLOK,6,0.04,0,-3,,,,,,,,300
 ,,bcm_gunfighter_mod3_mlok_foregrip,BCM Gunfighter Mod 3 MLOK,5,0.07,-3,-2,,,,,,,,300
 ,,bcm_gunfighter_mod3_mlok_foregrip_flipped,BCM Gunfighter Mod 3 MLOK Flipped,5,0.07,-3,-2,,,,,,,,300
@@ -452,7 +452,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,magtap_ranger_m3_bottom_plate,Magtap Ranger M3,1,0.05,,,,,,,,,,200
 ,,magtap_ranger_ak74/akm_bottom_plate,Magtap Ranger AK74/AKM,1,0.05,,,,,,,,,,200
 ,,magtap_pmag_ak74/akm_bottom_plate,Magtap PMAG AK74/AKM,0,0.02,,,,,,,,,,0
-,,aeroknox_plus_5_pmag_mag_extension,Arrow PLUS // 5 PMAG Extension,-2,0.08,,,5,,,,,,,400
+,,equinox_plus_5_pmag_mag_extension,Arrow PLUS // 5 PMAG Extension,-2,0.08,,,5,,,,,,,400
 ,kazarov_ak74_bottomplate,,,,,,,,,,,,,,
 ,,kazarov_ak74_mag_bottomplate,Kazarov AK74,0,0.02,,,,,,,,,,
 ,,fireline_5_rnd_545_223_ak_mag_extension,FireLine +5 5.45 / .223 AK Mag Extension,-2,0.08,,,5,,,,,,,750
@@ -603,9 +603,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pac_urx_4_mlok_13inch_handguard,"PAC URX 4 MLOK 13""",9,0.32,-11,-13,,,,,,,,1250
 ,,pac_urx_4_mlok_14.5inch_handguard,"PAC URX 4 MLOK 14.5""",8,0.35,-12,-14,,,,,,,,1300
 ,,hart_m4_std_carbine_plastic_handguard,Hart M4 Standard Carbine Length Plastic,14,0.2,-10,-10,,0.03,,,,,,0
-,,aeroknox_ax15_10.5inch_handguard,"Arrow AX // 15 AR-15 10.5""",14,0.24,-5,-9,,,,,,,,800
+,,equinox_ex15_10.5inch_handguard,"Arrow AX // 15 AR-15 10.5""",14,0.24,-5,-9,,,,,,,,800
 ,,ardian_weapons_ar15_model_1_m1curgh_10inch_handguard,"Ardian Weapons AR-15 Model 1 M1CURGH 10""",12,0.28,-9,-11,,,,,,,,1500
-,,nowa_n4_nsr_gen3_handguard_9.15inch,"Nowa N4 NSR Gen3 AR-15 9.15""",12,0.24,-8,-10,,,,,,,,1100
+,,novacek_n4_nsr_gen3_handguard_9.15inch,"Nowa N4 NSR Gen3 AR-15 9.15""",12,0.24,-8,-10,,,,,,,,1100
 ,,northeast_industries_supp_series_sp7m_mlok_handguard,"Northeast Industries Suppressor Series SP7M MLOK 7.25""",14,0.24,-5,-10,,,,,,,,1300
 ,,northeast_industries_supp_series_sp9m_mlok_handguard,"Northeast Industries Suppressor Series SP9M MLOK 9.25""",12,0.27,-6,-13,,,,,,,,1350
 ,,northeast_industries_supp_series_sp10m_mlok_handguard,"Northeast Industries Suppressor Series SP10M MLOK 10.5""",11,0.3,-7,-15,,,,,,,,1400
@@ -663,12 +663,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,tc_enforcer_charging_handle,Lumber River Enforcer,3.5,0.05,,,,,,,,,,300
 ,,tactispec_victory_charging_handle,Tactispec Victory,4,0.06,,,,,,,,,,500
 ,,hart_m4a1_charging_handle,Hart M4 Standard,2,0.03,,,,,,,,,,0
-,,nowa_love_ar15_charging_handle,Nowa Love AR-15,4,0.05,,,,,,,,,,650
+,,novacek_love_ar15_charging_handle,Nowa Love AR-15,4,0.05,,,,,,,,,,650
 ,,kf_416_e1_ambi_charging_handle,KF416 E1 Ambi,3,0.04,,,,,,,,,,500
 ,ar15_endplate,,,,,,,,,,,,,,
 ,,hart_m4a1_receiver_endplate,Hart M4A1 Receiver Endplate,0,0.01,,,,,,,,,,0
 ,,thorsden_frs15_gen3_ar15_endplate,Thorsden FRS-15 Gen3 AR-15 Endplate,2,0.06,9,9,,0.55,,,,,,600
-,,aeroknox_ax15_endplate,Arrow AX // 15 AR-15 Receiver Endplate,0,0.01,,,,,,,,,,0
+,,equinox_ex15_endplate,Arrow AX // 15 AR-15 Receiver Endplate,0,0.01,,,,,,,,,,0
 ,,hart_607_car15_buffer_tube,Hart 607 CAR-15,-2,0.13,-1,-1,,,,,,,,500
 ,,hart_607_car15_stock,Hart 607 CAR-15,16,0.23,-8,-14,,,,,,,,500
 ,,talvern_m7a1_pdw_base_stock,Troy M7A1 PDW Base,-2,0.12,0,0,,,,,,,,1000
@@ -693,7 +693,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,magtap_moa_k2_scar_pistol_grip,Magtap MOA-K2 Modified,7,0.11,-4,-3,,,,,,,,800
 ,,magtap_moa_scar_pistol_grip,Magtap MOA AR-15,7,0.11,-3,-4,,,,,,,,800
 ,,hera_arms_cqr_gen2_pistol_grip,Eris Arms CQR Gen2,3,0.14,-1,-6,,,,,,,,1200
-,,aeroknox_ax15_orion_pistol_grip,Arrow AX // 15 ORION AR-15,9,0.09,-2,-1,,,,,,,,1000
+,,equinox_ex15_orion_pistol_grip,Arrow AX // 15 ORION AR-15,9,0.09,-2,-1,,,,,,,,1000
 ,,bcm_gunfighter_mod3_ar15_pistol_grip,BCM Gunfighter Mod 3 AR-15,8,0.09,-3,-2,,,,,,,,750
 ,,pmm_bcm_gunfighter_mod3_scar_pistol_grip,Everetts Machining BCM Gunfighter Mod 3 FANG,8,0.1,-3,-2,,,,,,,,800
 ,,axtell_defense_pistol_grip_with_trigger_guard,Axtell Defense w/ Trigger Guard,10,0.13,-2,-4,,,,,,,,900
@@ -714,12 +714,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,smite_industries_polyflex_ar15_trigger_guard,Smite Industries PolyFlex AR-15,3,0.08,,,,,,,,,,400
 ,m4a1_upper_receiver,,,,,,,,,,,,,,
 ,,hart_m4a1_std_upper_receiver,Hart M4 Standard,0,0.2,0,0,,,,,,,,0
-,,aeroknox_ax15_upper_receiver,Arrow AX // 15 AR-15,0,0.13,0,-1,,,,,,,,1000
+,,equinox_ex15_upper_receiver,Arrow AX // 15 AR-15,0,0.13,0,-1,,,,,,,,1000
 ,,hart_m16a2_carry_handle_upper_receiver,Hart M16A2 Carry Handle,6,0.32,0,0,,,,,,,,750
 ,,lone_star_armory_tx15_light_ar15_upper_receiver,Lone Star Armory TX-15 Light AR-15,2,0.16,0,1,,,,,,,,3000
 ,,lone_star_armory_tx15_regular_ar15_upper_receiver,Lone Star Armory TX-15 Regular AR-15,5,0.3,1,1,,-0.1,,,,,,3500
-,,nowa_gen3_ar15_upper_receiver,Nowa N4 Gen3 AR-15,3,0.27,-1,0,,,,,,,,3000
-,,nowa_marked_vyctor_mur1s_ar15_upper_receiver,Nowa Marked VYCTOR MUR1S AR-15,2,0.26,-1,-1,,,,,,,,2500
+,,novacek_gen3_ar15_upper_receiver,Nowa N4 Gen3 AR-15,3,0.27,-1,0,,,,,,,,3000
+,,novacek_marked_vyctor_mur1s_ar15_upper_receiver,Nowa Marked VYCTOR MUR1S AR-15,2,0.26,-1,-1,,,,,,,,2500
 ,,vyctor_mur1s_ar15_upper_receiver,VYCTOR MUR1S AR-15,1,0.25,-1,-2,,,,,,,,2000
 ,,ardian_weapons_ar15_model_1_m1curgh_upper_receiver,Ardian Weapons AR-15 Model 1 M1CURGH,4,0.34,-1,-1,,-0.05,,,,,,4000
 ,,axtell_defense_adm4v7_upper_receiver,Axtell Defense ADM4V7,1,0.23,-1,-1,,,,,,,,1000
@@ -739,8 +739,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,hart_m4a1_std_lower_receiver,Hart M4A1,0,0.3,,,,,,,,,,0
 ,,strikon_scr_rifle_lower_receiver,STRIKON SCR Rifle,6,0.26,-6,12,,,,,,,,3000
 ,,ardian_weapons_ax556_adac15_lower_receiver,Ardian Weapons AX556 ADAC-15,6,0.42,-2,-3,,,,,,,,4000
-,,nowa_n4_gen3_ar15_lower_receiver,Nowa N4 Gen3 AR-15,5,0.35,-2,-1,,,,,,,,2000
-,,aeroknox_ax15_lower_receiver,Arrow AX // 15 AR-15,3,0.25,-1,0,,,,,,,,1500
+,,novacek_n4_gen3_ar15_lower_receiver,Nowa N4 Gen3 AR-15,5,0.35,-2,-1,,,,,,,,2000
+,,equinox_ex15_lower_receiver,Arrow AX // 15 AR-15,3,0.25,-1,0,,,,,,,,1500
 ,,axtell_defense_m4_carbine_lower_receiver,Axtell Defense M4 Carbine,3,0.33,,,,,,,,,,1000
 ,m4a1_mag_release,,,,,,,,,,,,,,
 ,,m4a1_std_mag_release,Hart M4A1,0,0.01,,,,,,,,,,0
@@ -796,10 +796,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,cmmg_mk9_upper_receiver,CmmG MK9,0,0.14,0,0,,,,,,,,0
 ,mk9_lower_receiver,,,,,,,,,,,,,,
 ,,cmmg_mk9_lower_receiver,CmmG MK9,1,0.26,,,,,,,,,,0
-,,aeroknox_ax15_lower_receiver_ar9,Arrow AX // 15 AR-15,3,0.25,-1,0,,,,,,,,1500
+,,equinox_ex15_lower_receiver_ar9,Arrow AX // 15 AR-15,3,0.25,-1,0,,,,,,,,1500
 ,,hart_m4a1_std_lower_receiver_ar9,Hart M4A1,0,0.3,,,,,,,,,,0
 ,,axtell_defense_m4_carbine_lower_receiver_ar9,Axtell Defense M4 Carbine,3,0.33,,,,,,,,,,1000
-,,nowa_n4_gen3_ar15_lower_receiver_ar9,Nowa N4 Gen3 AR-15,5,0.35,-2,-1,,,,,,,,2000
+,,novacek_n4_gen3_ar15_lower_receiver_ar9,Nowa N4 Gen3 AR-15,5,0.35,-2,-1,,,,,,,,2000
 ,mk9_dust_cover,,,,,,,,,,,,,,
 ,,cmmg_mk9_dust_cover,CmmG MK9,1,0.03,0,0,,,,,,,,0
 ,ar9_bolt,,,,,,,,,,,,,,
@@ -2081,7 +2081,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,hk_g3_trigger_housing,,,,,,,,,,,,,,
 ,,hk_g3_sef_metal_trigger_housing,KG-31 SEF Metal Trigger,0,0.5,0,0,,,,,,,,0
 ,,hk_psg1_metal_trigger_housing,SKG-31 Metal Trigger,2,0.53,1,1,,,,,,,,2000
-,,aeroknox_ax_mp5_modified_trigger_housing,Arrow AX // MPi-54 Modified Trigger,-3,0.45,0,0,,,,,,,,1250
+,,equinox_ex_mp5_modified_trigger_housing,Arrow AX // MPi-54 Modified Trigger,-3,0.45,0,0,,,,,,,,1250
 ,,ptr_32_sef_metal_trigger_housing,CTR-32 SEF Metal Trigger,-1,0.48,-1,0,,,,,,,,500
 ,hk_psg_trigger,,,,,,,,,,,,,,
 ,,hk_psg1_trigger,SKG-31,0,0.05,0,1,,-0.05,,,,,,500
@@ -2292,7 +2292,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,centrefire_socom556_sfmb_muzzle_brake,Centrefire SOCOM 5.56 SFMB,-1,0.09,-17,-11,,0.05,0,0,,,,700
 ,,centrefire_warden_blast_regulator,Centrefire Warden Fast-Attach,0,0.15,-15,-11,,0,0.02,40,,,,1000
 ,,pac_qdc_3prong_flash_5.56x45_eliminator,PAC QDC 3-Prong 5.56x45,2,0.07,-12,-12,,0.05,0,0,,,,600
-,,aeroknox_ae01_muzzle_brake,Arrow AE // 01 AR-15,-1,0.1,-16,-13,,0.1,0,0,,,,600
+,,equinox_ae01_muzzle_brake,Arrow AE // 01 AR-15,-1,0.1,-16,-13,,0.1,0,0,,,,600
 ,,smite_industries_jcomp_gen2_5.56x45_muzzle_brake,Smite Industries JCOMP Gen2 5.56x45,-1,0.08,-13,-16,,0.05,0,0,,,,500
 ,,hart_607_car15_3.5inch_flash_moderator,"Hart 607 CAR-15 3.5"" Flash Moderator",2,0.12,-11,-12,,0.1,0,0,,,,500
 ,,ewc_5.56x45_blackout_18_tooth_flash_hider,EWC 5.56x45 Blackout 18-Teeth,2,0.04,-11,-13,,0.05,0,0,,,,500
@@ -2796,7 +2796,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,tas_hx5_mp5_picatinny_handguard,TAS HX-5 MP5,8,0.18,-7,-6,,,,,,,,2500
 ,mp5_lower_receiver,,,,,,,,,,,,,,
 ,,hk_mp5_plastic_4_position_trigger_housing,MPi-54 Plastic 4-Position Trigger,0,0.34,0,0,,,,,,,,0
-,,aeroknox_ax_mp5_trigger_housing,Arrow AX // MPi-54 Trigger,-5,0.32,3,2,,,,,,,,1000
+,,equinox_ex_mp5_trigger_housing,Arrow AX // MPi-54 Trigger,-5,0.32,3,2,,,,,,,,1000
 ,,hk_mp5_sef_polymer_contoured_trigger_housing,MPi-54 SEF Polymer Contoured Trigger,1,0.3,0,1,,,,,,,,1500
 ,,hk_mp5_hk94_sef_metal_trigger_housing,MP5/HK94 SEF Metal Trigger,-2,0.34,2,4,,,,,,,,1750
 ,mp5_stock,,,,,,,,,,,,,,

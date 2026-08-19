@@ -1,4 +1,4 @@
-﻿0.25.4,Tue Aug 18 21:50:34 2026,,,,,,,,,,,,,,
+﻿0.25.4,Tue Aug 18 22:25:58 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -868,8 +868,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,monarch_ballistics_cypher_x_standard_scar_h_upper_receiver,Monarch Ballistics CypherX Standard FANG-H,3,0.62,0,1,,,,,,,,3000
 ,fn_scar_l_barrel,,,,,,,,,,,,,,
 ,,aft_mk_16_254mm_barrel,AFT MK-16 254mm,2,0.47,1,1,,0.2,-0.08,-135,,,,1200
-,,aft_mk_16_355mm_barrel,AFT MK-16 355mm,0,0.6,0,0,,0.02,0.02,17,,,,0
-,,aft_mk_16_457mm_barrel,AFT MK-16 457mm,-5,0.73,-4,-4,,-0.15,0.16,131,,,,1500
+,,aft_mk_16_355mm_barrel,AFT MK-16 355mm,0,0.6,0,0,,0.04,0.02,17,,,,0
+,,aft_mk_16_457mm_barrel,AFT MK-16 457mm,-5,0.73,-4,-4,,-0.13,0.16,131,,,,1500
 ,fn_scar_l_bolt,,,,,,,,,,,,,,
 ,,aft_mk_16_bolt_carrier,AFT MK-16 Bolt,2,0.1,,,,,,,,,,0
 ,fn_scar_l_gasblock,,,,,,,,,,,,,,
@@ -2949,7 +2949,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,SA58,RSA SG-58,15,0,85,105,0,0.75,1,1900,,,1,20000
 ,,SCAR47,HILT Defense MK-76,40,0,55,60,0,0.5,1,1800,,,1,60000
 ,,SCARH,AFT MK-17,5,0,75,80,0,0.6,1,1900,,,1,75000
-,,SCARL,AFT MK-16,35,0,60,65,0,0.45,1,2450,,,1,40000
+,,SCARL,AFT MK-16,35,0,60,65,0,0.55,1,2450,,,1,40000
 ,,G3,KF KG-31,25,0,70,100,0,0.55,1,1900,,,1,30000
 ,,Remington700,Roosevelt M700,30,0,80,90,0,0.2,1.2,2200,,,1,42000
 ,,AK_762,Kazarov Group AK 7.62,20,0,70,85,0,0.55,1,1800,,,1,15000

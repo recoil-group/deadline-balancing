@@ -1,15 +1,15 @@
 ﻿,,NEW,,,,,,,,,,,,,,
 name,pretty_name_old,ergonomics,weight,horizontal_recoil,vertical_recoil,barrel_deviation,bullet_damage,bullet_velocity,muzzle_loudness,price,ss,,irl weight (oz),converted weight,irl price ($),converted price
-talvern_claymore_5.56x45_muzzle_brake,Troy Claymore,2,0.1,-10,-15,0,0,0,0.1,500,16.50,,4.8,0.102,59,459
-tb_mount_223_mb,Thunder Beast,0,0.08,-14,-12,0,0,0,0.06,400,16.50,,3.8,0.087,137,537
+talvern_claymore_5.56x45_muzzle_brake,Troy Claymore,2,0.1,-10,-15,0,0,0,0.03,500,16.85,,4.8,0.102,59,459
+tb_mount_223_mb,Thunder Beast,0,0.08,-14,-12,0,0,0,0.04,400,16.60,,3.8,0.087,137,537
 tb_5,Ultra 5,-1,0.12,-14,-12,-0.04,0.04,50,-0.11,1200,17.00,,6,0.12,945,1345
 tb_7,Ultra 7,-3,0.15,-15,-14,-0.08,0.06,60,-0.15,1300,17.45,,8,0.15,1055,1455
 tb_9,Ultra 9,-5,0.18,-17,-14,-0.12,0.08,70,-0.19,1400,17.50,,10,0.18,1165,1565
 centrefire_warcomp_5.56x45_flash_hider,Surefire WC,1,0.09,-13,-13,0,0,0,0,700,17.40,,3.8,0.087,169,569
-centrefire_socom556_sfmb_muzzle_brake,Surefire SOCOM,-1,0.09,-17,-11,0,0,0,0.09,700,16.95,,3.9,0.0885,169,569
+centrefire_socom556_sfmb_muzzle_brake,Surefire SOCOM,-1,0.09,-17,-11,0,0,0,0.07,700,17.05,,3.9,0.0885,169,569
 centrefire_warden_blast_regulator,Surefire Warden,1,0.15,-15,-11,0,0.02,20,0,1000,17.10,,7.8,0.147,250,650
 centrefire_socom556_rc2_suppressor,Socom556,-4,0.28,-18,-16,-0.08,0.08,60,-0.17,1500,17.95,,17,0.285,1199,1599
-ss_combo_mount,Spike TCM,-1,0.1,-10,-16,0,0.02,20,0.05,500,14.85,,4.6,0.099,138,538
+ss_combo_mount,Spike TCM,-1,0.1,-10,-16,0,0.02,20,0.01,500,15.05,,4.6,0.099,138,538
 ss_lrs1_suppressor,Spike Lrs,-5,0.33,-12,-22,-0.15,0.1,80,-0.18,1200,16.00,,22,0.36,999,1399
 kaleva_corvette_556,Corvette,0,0.08,-15,-11,0,0,0,0,400,17.00,,3.2,0.078,47.45,447.45
 pac_qdc_m4qd_5.56x56_flash_suppressor,KAC QDC M4QD,2,0.07,-9,-15,0,0,0,0,500,16.80,,2.4,0.066,114.35,514.35
@@ -17,32 +17,32 @@ pac_qdss_nt4_5.56x45_suppressor,KAC QDSS,-5,0.33,-16,-20,-0.12,0.1,70,-0.15,1900
 pac_qdc_3prong_flash_5.56x45_eliminator,KAC QDC 3-Prong,2,0.07,-12,-12,0,0,0,0,600,17.40,,2.3,0.0645,123.75,523.75
 pac_qdc_mcq_prt_5.56x45_suppressor,KAC QDC/MCQ-PRT,-1,0.23,-15,-15,-0.06,0.04,50,-0.06,1800,17.35,,13.9,0.2385,1650,2050
 pac_qdc_crs_prt_5.56x45_suppressor,KAC QDC/CRS-PRT,-5,0.31,-18,-18,-0.1,0.08,70,-0.14,2000,17.65,,19.2,0.318,1800,2200
-jt_5.5inch_flashsuppressor,JT 5.5 Flash,1,0.13,-8,-18,0,0.02,40,0.03,300,16.05,,7.2,0.138,25.95,425.95
+jt_5.5inch_flashsuppressor,JT 5.5 Flash,1,0.13,-8,-18,0,0.02,40,0.01,300,16.15,,7.2,0.138,25.95,425.95
 jg_usgi_a2_birdcage_m4a1_flash_hider,JG Birdcage,2,0.06,-9,-9,0,0,0,0,0,13.40,,1.9,0.0585,8.99,408.99
 onyx_gmt_halo,Gemtech GMT,-5,0.22,-15,-16,-0.12,0.1,80,-0.16,1300,16.60,,12.8,0.222,999,1399
 onyx_adapter,Gemtech One,0,0.06,-4,-5,0,0.01,10,0,300,5.25,,,0.03,,400
 onyx_1_762,Gemtech 7.62,-5,0.27,-19,-14,-0.08,0.06,70,-0.18,1400,16.45,,17.4,0.291,1099,1499
-adw_adapter,DD Wave MB,0,0.08,-16,-10,0,0,0,0.08,500,16.80,,3.84,0.0876,151,551
+adw_adapter,DD Wave MB,0,0.08,-16,-10,0,0,0,0.06,500,16.90,,3.84,0.0876,151,551
 adw_qd,DD Wave QD,-6,0.28,-17,-19,-0.1,0.1,70,-0.17,1200,17.60,,16.76,0.2814,899.99,1299.99
 strelets_st_6012,Bulletec ST,-1,0.09,-18,-10,0,0,0,0.07,400,17.25,,4.4,0.096,,400
-annihilator_556,Annihilator,1,0.1,-11,-16,0,0,0,0.02,500,17.30,,4.8,0.102,64.99,464.99
+annihilator_556,Annihilator,1,0.1,-11,-16,0,0,0,0.01,500,17.35,,4.8,0.102,64.99,464.99
 zetac_cqbm_suppressor,AMTAC Short,-1,0.3,-13,-19,-0.04,0.04,40,-0.08,1500,16.60,,,0.03,,400
 zetac_cqb_suppressor,AMTAC Long,-4,0.35,-15,-20,-0.08,0.08,60,-0.14,1600,16.40,,22.2,0.363,797.99,1197.99
-aeroknox_ae01_muzzle_brake,Aeroknox AE/01,-1,0.1,-16,-13,0,0,0,0.09,600,17.15,,3.8,0.087,200,600
-smite_industries_jcomp_gen2_5.56x45_muzzle_brake,Strike Industries JCOMP Gen2 5.56x45 Muzzle Brake,-1,0.08,-13,-16,0,0,0,0.08,500,17.00,,3.6,0.084,43.95,443.95
+aeroknox_ae01_muzzle_brake,Aeroknox AE/01,-1,0.1,-16,-13,0,0,0,0.05,600,17.35,,3.8,0.087,200,600
+smite_industries_jcomp_gen2_5.56x45_muzzle_brake,Strike Industries JCOMP Gen2 5.56x45 Muzzle Brake,-1,0.08,-13,-16,0,0,0,0.04,500,17.20,,3.6,0.084,43.95,443.95
 smite_industries_oppressor_blast_shield,Strike Industries Oppressor Blast Shield,1,0.17,-13,-14,0,0.02,20,0,1000,16.90,,9.5,0.1725,,
 hart_607_car15_3.5inch_flash_moderator,"Colt 607 CAR-15 3.5"" Flash Moderator",2,0.12,-11,-12,0,0,0,0,500,15.60,,6.5,0.1275,,
 ewc_5.56x45_blackout_18_tooth_flash_hider,EWC 5.56x45 Blackout 18-Teeth,2,0.04,-11,-13,0,0,0,0,500,17.80,,,0,,
 ,,,,,,,,,,,0.00,,,,,
 steyr_aug_a1_tulip_5.56x45_closed_flash_hider,AUG A1 Tulip,1,0.08,-13,-11,0,0.02,50,0,,17.05,,,0,,400
 steyr_aug_a3_5.56x45_closed_flash_hider,AUG A3 Closed,1,0.09,-12,-13,0,0,60,0,500,16.90,,,0,,400
-steyr_aug_a3_5.56x45_original_closed_muzzle_brake,AUG A3 Original,0,0.1,-13,-14,0,0,0,0.06,750,16.50,,,0,,400
+steyr_aug_a3_5.56x45_original_closed_muzzle_brake,AUG A3 Original,0,0.1,-13,-14,0,0,0,0.04,750,16.60,,,0,,400
 steyr_breezer_ums_5.56x45_aug_suppressor,Steyr Breezer UMS 5.56x45 AUG Suppressor,-3,0.29,-16,-17,-0.08,0.06,50,-0.13,1800,17.10,,,,,
 rat_worx_aug_5.56x45_supp_adapter,Rat Worx Adapter,0,0.06,0,0,0.05,0.01,30,0,1500,-1.35,,,0,,400
 ,,,,,,,,,,,0.00,,,,,
-ips_5.56x45_4inch_barrel_extension,IPS 4,-3,0.17,0,0,0.2,0.03,80,0.03,600,-7.55,,,0,59.99,459.99
-ips_5.56x45_2inch_barrel_extension,IPS 2,-2,0.09,0,0,0.1,0.02,40,0.02,500,-4.30,,,0,44.99,444.99
-ips_5.56x45_1inch_barrel_extension,IPS 1,-1,0.05,0,0,0.05,0.01,20,0.01,400,-2.25,,,0,29.99,429.99
+ips_5.56x45_4inch_barrel_extension,IPS 4,-3,0.17,0,0,0.2,0.03,80,-0.02,600,-7.30,,,0,59.99,459.99
+ips_5.56x45_2inch_barrel_extension,IPS 2,-2,0.09,0,0,0.1,0.02,40,-0.01,500,-4.15,,,0,44.99,444.99
+ips_5.56x45_1inch_barrel_extension,IPS 1,-1,0.05,0,0,0.05,0.01,20,0,400,-2.20,,,0,29.99,429.99
 ips_1_2x28_to_5_8x24_knurled_thread_adapter,ISP 1/2x28 to 5/8x24 Knurled Thread Adapter,-1,0.06,2,2,0.2,,-200,0,1000,-8.00,,,,,
 ,,,,,,,,,,,0.00,,,,,
 pac_mcq_prt_suppressor_cover,PAC MCQ-PRT,1,0.03,,,,,,,500,0.40,,,0,,400

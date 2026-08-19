@@ -1,4 +1,4 @@
-﻿0.25.4,Tue Aug 18 22:37:58 2026,,,,,,,,,,,,,,
+﻿0.25.4,Tue Aug 18 22:46:58 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -1798,7 +1798,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,5.45x39_hawthorne_black_60gr_vmax,Hawthorne BLACK 60gr V-MAX,-1,0.03,2,1,,-0.2,,-100,,,,2500
 ,,5.45x39_kazarov_7n40_64gr,Kazarov 7N40 64gr FMJ,-1,0.04,2,2,,-0.15,,-100,,,,4000
 ,,5.45x39_tsniiitekhmash_7n39_63gr,TsNIITekhMash 7N39 63gr Igolnik,-1,0.04,2,0,,-0.1,,-100,,,,4000
-,,5.45x39_lugansk_7u1_79gr_us,Lugansk 7U1 79gr US,3,0.1,-4,-4,,0.2,,-1100,,-0.02,-0.7,2000
+,,5.45x39_lugansk_7u1_79gr_us,Lugansk 7U1 79gr US,3,0.1,-4,-4,,0.2,,-1100,,-0.02,-0.65,2000
 ,ammo_9x18,,,,,,,,,,,,,,
 ,,9x18_novosibirsk_57_n_181s_92gr_pst,Novosibirsk 57-N-181S 92gr PST,0,0.00,0,0,,0.00,,0,,,,0
 ,,9x18_hawthorne_xtp_95gr_jhpfb,Hawthorne XTP 95gr JHPFB,-1,0.01,2,2,,0.00,,50,,,,1500

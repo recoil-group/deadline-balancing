@@ -1,4 +1,4 @@
-﻿0.25.4,Tue Aug 18 21:04:01 2026,,,,,,,,,,,,,,
+﻿0.25.4,Tue Aug 18 21:32:45 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -505,9 +505,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,susat_backup_sights,,,,,,,,,,,,,,
 ,,susat_backup_sights,SUSAT,0,0,,,,,,,,,,0
 ,asr_mounts,,,,,,,,,,,,,,
-,,suppressors_inc_qd_asr_mount,Suppressors Inc. QD ASR Mount,0,0.03,,,,,,,,,,200
+,,suppressors_inc_qd_asr_mount,Suppressors Inc. QD ASR Mount,0,0.03,,,,,,,,,0,200
 ,asr_suppressors,,,,,,,,,,,,,,
-,,suppressors_inc_omega_300_suppressor,Suppressors Inc. OMEGA 300,-6,0.18,-13,-13,,-0.15,0.04,150,,,,1000
+,,suppressors_inc_omega_300_suppressor,Suppressors Inc. OMEGA 300,-6,0.18,-13,-13,,-0.12,0.04,150,,,-0.17,1000
 ,hetzel_zf_6x42_scope_eye_cup,,,,,,,,,,,,,,
 ,,hetzel_zf_6x42_eye_cup,Hetzel AG ZF 6x42,4.5,0.05,0,0,,,,,,,,0
 ,dual_ring_30mm_sight_mount,,,,,,,,,,,,,,
@@ -2290,7 +2290,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ips_5.56x45_4inch_barrel_extension,"IPS 4"" 5.56x45",-3,0.17,0,0,,0.2,0.03,80,,,-0.02,600
 ,,ips_1_2x28_to_5_8x24_knurled_thread_adapter,IPS 1/2x28 to 5/8x24 Knurled,-1,0.06,2,2,,0.2,,-200,,,0,1000
 ,,centrefire_socom556_sfmb_muzzle_brake,Centrefire SOCOM 5.56 SFMB,-1,0.09,-17,-11,,0,0,0,,,0.07,700
-,,centrefire_warden_blast_regulator,Centrefire Warden Fast-Attach,1,0.15,-15,-11,,0,0.02,20,,,0,1000
+,,centrefire_warden_blast_regulator,Centrefire Warden Fast-Attach,1,0.15,-15,-11,,0,0.01,20,,,0,1000
 ,,pac_qdc_3prong_flash_5.56x45_eliminator,PAC QDC 3-Prong 5.56x45,2,0.07,-12,-12,,0,0,0,,,0,600
 ,,equinox_ae01_muzzle_brake,Arrow AE // 01 AR-15,-1,0.1,-16,-13,,0.1,0,0,,,,600
 ,,smite_industries_jcomp_gen2_5.56x45_muzzle_brake,Smite Industries JCOMP Gen2 5.56x45,-1,0.08,-13,-16,,0,0,0,,,0.04,500
@@ -2337,33 +2337,33 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,fireline_bayonet_thread_adapter_for_ak12,Fireline AK-12 Bayonet,0,0.03,0,0,,0,0,0,,,,1500
 ,,kazarov_group_ak12k_5.45x39_flash_hider,Kazarov Group AK-12K 5.45x39,3,0.06,-10,-12,,0.1,0,10,,,,500
 ,7.62x51nato_m15x1rh_muzzle_device,,,,,,,,,,,,,,
-,,tubewerx_m15x1rh_to_5_8x24_thread_adapter,Tubewerx M15x1RH to 5/8x24 Thread,-1,0.05,1,1,,0.1,0,-50,,,,1000
-,,hk_bird_cage_flash_hider_m15x1rh,Bird Cage Style M15x1RH 7.62x51 NATO,1,0.05,-11,-9,,0,0,50,,,,0
+,,tubewerx_m15x1rh_to_5_8x24_thread_adapter,Tubewerx M15x1RH to 5/8x24 Thread,-1,0.03,0,0,,0.05,0,0,,,,1000
+,,hk_bird_cage_flash_hider_m15x1rh,Bird Cage Style M15x1RH 7.62x51 NATO,1,0.05,-11,-10,,0,0,50,,,,0
 ,7.62x51nato_muzzle_device,,,,,,,,,,,,,,
 ,,ak308_7.62x51_muzzle_brake,Kazarov Group AK-308,-1,0.06,-11,-14,,0.05,0,50,,,,0
-,,tiger_rock_ar10_7.62x51_barrett_style_muzzle_brake_with_jam_nut,Panther Rock AR-10 .308 Barrett Style Muzzle Brake with Jam Nut,-6,0.17,8,-35,,0.15,-0.01,-20,,,,1500
-,,rsa_3prong_trident_7.62x51_flash_hider,RSA 3-Prong Trident 7.62x51,1,0.06,-10,-12,,0,0,0,,,,0
-,,fn_fal_7.62x51_belgian_flash_hider,RSA SA-58 Belgian Style 7.62x51,0,0.08,-13,-11,,0,0,25,,,,500
-,,fn_fal_austrian_7.62x51_stg58_flash_hider,RSA SA-58 Austrian STG58 7.62x51,1,0.12,-10,-14,,0,0,50,,,,500
-,,rsa_warz_series_7.62x51_flash_hider,RSA WarZ Series 7.62x51,2,0.05,-9,-11,,0,0,0,,,,600
-,,sig_srd762ti_suppressor,SRD762Ti,-6,0.26,-11,-13,,-0.12,0.05,200,,,,2000
-,,spiderweb_bpr_suppressor_system_bpr_1425,Spiderweb BPR System BPR-1425,-4,0.16,-10,-10,,-0.1,0.03,150,,,,2500
-,,aft17_7.62x51_3prong_european_flash_hider,AF Tournai Mk17 .308 3-Prong European,1,0.09,-11,-12,,0,0,25,,,,0
-,,ewc_scar_sd_blackout_51_tooth_flashhider_supp_mount,EWC AFT-SD Blackout 51-Tooth Flash Hider,1,0.1,-14,-10,,0,0,25,,,,750
-,,suppressors_inc_osprey45_gen1_45acp_suppressor_7.62x51_piston,Suppressors Inc. Osprey 45 Gen 1 .45ACP w/ 7.62x51 Piston,-5,0.21,-9,-14,,-0.1,0.05,100,,,,1500
-,,suppressors_inc_osprey45_gen1_45acp_suppressor_7.62x51_piston_flipped,Suppressors Inc. Osprey 45 Gen 1 .45ACP w/ 7.62x51 Piston Flipped,-5,0.21,-9,-14,,-0.1,0.05,100,,,,1500
-,,lantac_dgn762b_asr_muzzle_brake,PGTac DGN762B-ASR,-1,0.09,-15,-13,,0.05,0,0,,,,1000
-,,ips_7.62x51_1inch_barrel_extension,"IPS 1"" 7.62x51",-1,0.05,0,-1,,0.05,0,20,,,,500
-,,ips_7.62x51_2inch_barrel_extension,"IPS 2"" 7.62x51",-2,0.09,0,-2,,0.1,0,40,,,,750
-,,ips_7.62x51_4inch_barrel_extension,"IPS 4"" 7.62x51",-3,0.17,0,-4,,0.2,0,80,,,,1000
-,,centrefire_socom762_sfmb_muzzle_brake,Centrefire SOCOM 7.62 SFMB,-2,0.09,-17,-12,,0.05,0,0,,,,900
-,,odin_works_tiduro_thread_adapter_module,Odin Works Tiduro Thread Adapter Module,-1,0.04,-9,-9,,0,0,-30,,,,300
-,,odin_works_tiduro_.338_modular_no_baffle_suppressor,Odin Works Tiduro .338 Modular No Baffle,-3,0.12,-10,-8,,-0.06,0.04,120,,,,1500
-,,odin_works_tiduro_.338_modular_3_baffle_suppressor,Odin Works Tiduro .338 Modular 3 Baffle,-5,0.15,-11,-9,,-0.11,0.05,160,,,,2000
-,,odin_works_tiduro_.338_modular_5_baffle_suppressor,Odin Works Tiduro .338 Modular 5 Baffle,-7,0.18,-12,-10,,-0.15,0.06,200,,,,3000
-,,smite_industries_jcomp_gen2_7.62x51_muzzle_brake,Smite Industries JCOMP Gen2 7.62x51,-1,0.08,-13,-15,,0.05,0,0,,,,500
+,,tiger_rock_ar10_7.62x51_barrett_style_muzzle_brake_with_jam_nut,Panther Rock AR-10 .308 Barrett Style Muzzle Brake with Jam Nut,-6,0.17,8,-35,,0.1,0,-20,,,0.15,1500
+,,rsa_3prong_trident_7.62x51_flash_hider,RSA 3-Prong Trident 7.62x51,1,0.06,-10,-12,,0,0,0,,,0,0
+,,fn_fal_7.62x51_belgian_flash_hider,RSA SA-58 Belgian Style 7.62x51,0,0.08,-13,-11,,0,0,10,,,0,500
+,,fn_fal_austrian_7.62x51_stg58_flash_hider,RSA SA-58 Austrian STG58 7.62x51,1,0.12,-10,-14,,0,0,20,,,0,500
+,,rsa_warz_series_7.62x51_flash_hider,RSA WarZ Series 7.62x51,2,0.05,-9,-11,,0,0,0,,,0.01,600
+,,sig_srd762ti_suppressor,SRD762Ti,-6,0.26,-11,-13,,-0.1,0.05,200,,,-0.18,2000
+,,spiderweb_bpr_suppressor_system_bpr_1425,Spiderweb BPR System BPR-1425,-4,0.16,-10,-10,,-0.08,0.03,150,,,-0.1,2500
+,,aft17_7.62x51_3prong_european_flash_hider,AF Tournai Mk17 .308 3-Prong European,1,0.09,-11,-12,,0,0,10,,,0,0
+,,ewc_scar_sd_blackout_51_tooth_flashhider_supp_mount,EWC AFT-SD Blackout 51-Tooth Flash Hider,1,0.1,-14,-10,,0,0,10,,,0,750
+,,suppressors_inc_osprey45_gen1_45acp_suppressor_7.62x51_piston,Suppressors Inc. Osprey 45 Gen 1 .45ACP w/ 7.62x51 Piston,-5,0.21,-9,-14,,-0.08,0.05,100,,,-0.12,1500
+,,suppressors_inc_osprey45_gen1_45acp_suppressor_7.62x51_piston_flipped,Suppressors Inc. Osprey 45 Gen 1 .45ACP w/ 7.62x51 Piston Flipped,-5,0.21,-9,-14,,-0.08,0.05,100,,,-0.12,1500
+,,lantac_dgn762b_asr_muzzle_brake,PGTac DGN762B-ASR,-1,0.09,-15,-12,,0,0,0,,,0.05,1000
+,,ips_7.62x51_1inch_barrel_extension,"IPS 1"" 7.62x51",-1,0.05,0,-1,,0.05,0,20,,,0,500
+,,ips_7.62x51_2inch_barrel_extension,"IPS 2"" 7.62x51",-2,0.09,0,-2,,0.1,0,40,,,-0.01,750
+,,ips_7.62x51_4inch_barrel_extension,"IPS 4"" 7.62x51",-3,0.17,0,-4,,0.2,0,80,,,-0.02,1000
+,,centrefire_socom762_sfmb_muzzle_brake,Centrefire SOCOM 7.62 SFMB,-2,0.09,-16,-13,,0,0,0,,,0.07,900
+,,odin_works_tiduro_thread_adapter_module,Odin Works Tiduro Thread Adapter Module,-1,0.04,-9,-9,,0,0,-30,,,0,300
+,,odin_works_tiduro_.338_modular_no_baffle_suppressor,Odin Works Tiduro .338 Modular No Baffle,-3,0.12,-10,-8,,-0.06,0.04,120,,,-0.11,1500
+,,odin_works_tiduro_.338_modular_3_baffle_suppressor,Odin Works Tiduro .338 Modular 3 Baffle,-5,0.15,-11,-9,,-0.09,0.05,160,,,-0.14,2000
+,,odin_works_tiduro_.338_modular_5_baffle_suppressor,Odin Works Tiduro .338 Modular 5 Baffle,-7,0.18,-12,-10,,-0.12,0.06,200,,,-0.17,3000
+,,smite_industries_jcomp_gen2_7.62x51_muzzle_brake,Smite Industries JCOMP Gen2 7.62x51,-1,0.08,-13,-14,,0,0,0,,,0.04,500
 ,odin_mount,,,,,,,,,,,,,,
-,,odin_works_tiduro_modular_compensator,Odin Works Tiduro Modular,-1,0.05,-5,-5,,0.05,-0.01,-30,,,,700
+,,odin_works_tiduro_modular_compensator,Odin Works Tiduro Modular,-1,0.05,-5,-5,,0.05,-0.01,-30,,,0,700
 ,45acp_muzzle_device,,,,,,,,,,,,,,
 ,,direct_thread_adapter_omega45k,.45ACP Direct thread adapter for Omega 45K suppressor,0,0.03,0,0,,0.05,0,5,,,,200
 ,,suppressors_inc_osprey45_gen1_45acp_suppressor,Suppressors Inc. Osprey 45 Gen 1 .45ACP,-6,0.19,-8,-12,,-0.15,0.15,150,,,,1500
@@ -2473,7 +2473,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,rsa_sa58_enhanced_bumper_magazine_bottom_plate,RSA FAL SA-58 Enhanced Bumper Magazine,1,0.03,,,,,,,,,,500
 ,,rsa_sa58_mag_bottom_plate,RSA FAL SA-58 Magazine,0,0.02,,,,,,,,,,0
 ,fn_fal_halbek,,,,,,,,,,,,,,
-,,rhodesian_halbek_muzzle_device,Rhodesian Reproduction Halbek,-3,0.07,12,-22,,0.1,-0.01,0,,,,1200
+,,rhodesian_halbek_muzzle_device,Rhodesian Reproduction Halbek,-3,0.07,10,-22,,0.05,0,0,,,0.06,1200
 ,onyx_adapter,,,,,,,,,,,,,,
 ,,onyx_1_762,Onyx One 7.62,-5,0.27,-19,-14,,-0.08,0.06,70,,,-0.18,1400
 ,hk_mag_plate,,,,,,,,,,,,,,
@@ -2534,7 +2534,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,calsport_handguard_short_accessory_rail_bottom,Cal Sport Short Accessory Rail,-0.5,0.04,,,,,,,,,,300
 ,,calsport_handguard_short_accessory_rail_side,Cal Sport Short Accessory Rail,-0.5,0.04,,,,,,,,,,300
 ,oss_bpr_supp,,,,,,,,,,,,,,
-,,spiderweb_bpr_suppressor_system_srm_6,Spiderweb BPR System SRM-6,-3,0.14,-3,-3,,-0.08,0.03,130,,,,1000
+,,spiderweb_bpr_suppressor_system_srm_6,Spiderweb BPR System SRM-6,-3,0.14,-3,-3,,-0.06,0.03,130,,,-0.16,1000
 ,prs_adjustment,,,,,,,,,,,,,,
 ,,prs_adjustable_piece,Magtap PRS Gen3,0,0.05,,,,,,,,,,0
 ,pso_cup,,,,,,,,,,,,,,
@@ -2568,7 +2568,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pac_qdc_mcq_prt_5.56x45_suppressor,PAC QDC/MCQ-PRT 5.56x45,-1,0.23,-15,-15,,-0.06,0.04,50,,,-0.06,1800
 ,,pac_mcq_prt_suppressor_cover,PAC MCQ-PRT,1,0.03,,,,,,,,,,500
 ,strike_oppressor,,,,,,,,,,,,,,
-,,smite_industries_oppressor_blast_shield,Smite Industries Oppressor Blast Shield,1,0.17,-13,-14,,0,0.02,20,,,0,1000
+,,smite_industries_oppressor_blast_shield,Smite Industries Oppressor Blast Shield,1,0.17,-13,-14,,0,0.01,20,,,0,1000
 ,bipod,,,,,,,,,,,,,,
 ,,harrison_pra_adapter,Harrison PRA,0,0.04,,,,,,,,,,300
 ,,harrison_hbr_base,Harrison HBR,-4,0.2,,-2,,,,,,,,1000

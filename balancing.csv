@@ -1,4 +1,4 @@
-﻿0.25.4,Tue Aug 18 20:39:11 2026,,,,,,,,,,,,,,
+﻿0.25.4,Tue Aug 18 20:41:02 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -1396,25 +1396,25 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,st_dpmn_fh,Sigma-Tek DPMN,2,0.12,-13,-12,,0.05,0,20,,,,750
 ,,st_dtkai_mb,Sigma-Tek DTK AK IPSC,-1.5,0.1,-18,-11,,0.1,0,20,,,,750
 ,,st_dtm_fh,Sigma-Tek DPM,1,0.12,-13,-13,,0.1,0,20,,,,750
-,,dtk_2,Veles Dtk-2,-2,0.09,-16,-14,,0.15,0,10,,,,1000
-,,v762_vr04_mb,Vector VR-04,-1.5,0.11,-15,-15,,0.1,0,20,,,,750
-,,v762_vr05_mb,Vector VR-05,-1,0.1,-15,-14,,0.1,0,20,,,,750
-,,v762_vr05t_mb,Vector VR-05T,-1,0.09,-15,-14,,0.1,0,20,,,,750
-,,v762_vr10m_mb,Vector VR-10M,-0.5,0.12,-12,-16,,0.05,0,20,,,,750
-,,v762_vrdtl_fh,Vector VR-DTL,3,0.15,-10,-14,,0.05,0,10,,,,750
-,,vs_05,VS-05,-0.5,0.1,-14,-14,,0.1,0,20,,,,750
+,,dtk_2,Veles Dtk-2,-2,0.09,-16,-14,,0,0,0,,,0.09,1000
+,,v762_vr04_mb,Vector VR-04,-1.5,0.11,-15,-15,,0,0,10,,,0.08,750
+,,v762_vr05_mb,Vector VR-05,-1,0.1,-15,-14,,0,0,10,,,0.06,750
+,,v762_vr05t_mb,Vector VR-05T,-1,0.09,-15,-14,,0,0,10,,,0.06,750
+,,v762_vr10m_mb,Vector VR-10M,-0.5,0.12,-12,-16,,0,0,10,,,0.05,750
+,,v762_vrdtl_fh,Vector VR-DTL,3,0.15,-10,-14,,0,0,0,,,0,750
+,,vs_05,VS-05,-0.5,0.1,-14,-14,,0,0,10,,,0.06,750
 ,,kazarov_ak105_6p44_020_compensator,Kazarov AK-105 6P44 0-20,0,0.06,-11,-14,,0.1,0,10,,0.05,,700
 ,,kazarov_ak74m_6p20_020_compensator,Kazarov AK-74M 6P20 0-20,0,0.08,-11,-15,,0.1,0,20,,,,250
 ,,kazarov_ak74_6p20_020_compensator,Kazarov AK-74 6P20 0-20,0,0.08,-11,-15,,0.1,0,20,,,,500
 ,,kazarov_aks74u_5.45x39_6p26_020_muzzle_brake,Kazarov AKS-74U 5.45x39mm (6P26 0-20),0,0.07,-11,-14,,0.1,0,20,,0.123,,400
 ,,gt_24_1/2,Gryphon Tactical 24-1/2,-1,0.04,1,1,,0.1,0,10,,,,1000
-,,i_24_14_ta,Infinite 24mm-1/2mm,-1,0.06,0,2,,0.1,0,10,,,,1000
-,,tsniitochmash_pbs_4_5.45x39_suppressor,TochMash PBS-4 5.45x39,-5,0.32,-14,-18,,-0.2,0.16,100,,,,2000
+,,i_24_14_ta,Infinite 24mm-1/2mm,-1,0.06,0,2,,0.05,0,10,,,0,1000
+,,tsniitochmash_pbs_4_5.45x39_suppressor,TochMash PBS-4 5.45x39,-5,0.32,-14,-18,,-0.12,0.12,80,,,-0.18,2000
 ,,hexagon_545,Hex. Tactical 5.45,-4,0.3,-16,-15,,-0.15,0.12,90,,,,2000
-,,hexagon_dtkp_ak74_5.45x39_suppressor,Hex Tactical DTKP AK74 5.45x39,-3,0.27,-17,-13,,-0.1,0.1,70,,,,3000
-,,hexagon_dtkp_ak12_5.45x39_suppressor,Hex Tactical DTKP AK12 5.45x39,-3,0.28,-17,-13,,-0.1,0.1,70,,,,3000
-,,hexagon_dtkp_ak74_shortened_5.45x39_suppressor,Hex Tactical DTKP AK74 Shortened 5.45x39,-2,0.22,-16,-12,,-0.05,0.06,50,,,,3500
-,,hexagon_dtkp_ak12_shortened_5.45x39_suppressor,Hex Tactical DTKP AK12 Shortened 5.45x39,-2,0.23,-16,-12,,-0.05,0.06,50,,,,3500
+,,hexagon_dtkp_ak74_5.45x39_suppressor,Hex Tactical DTKP AK74 5.45x39,-3,0.27,-17,-13,,-0.08,0.1,60,,,-0.16,3000
+,,hexagon_dtkp_ak12_5.45x39_suppressor,Hex Tactical DTKP AK12 5.45x39,-3,0.28,-17,-13,,-0.08,0.1,60,,,-0.16,3000
+,,hexagon_dtkp_ak74_shortened_5.45x39_suppressor,Hex Tactical DTKP AK74 Shortened 5.45x39,-2,0.22,-16,-12,,-0.05,0.06,40,,,-0.11,3500
+,,hexagon_dtkp_ak12_shortened_5.45x39_suppressor,Hex Tactical DTKP AK12 Shortened 5.45x39,-2,0.23,-16,-12,,-0.05,0.06,40,,,-0.11,3500
 ,,veles_dtk_1_muzzle_brake,Veles DTK-1,-2,0.1,-17,-14,,0.15,0,20,,,,1000
 ,ak_handguard_top_cover,,,,,,,,,,,,,,
 ,,kazarov_ak74_wooden_6p20_sb6_upper_handguard,Kazarov AK-74 Wooden 6P20 Sb.6,0,0.05,-1,-1,,,,,,,,0
@@ -2332,7 +2332,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,jmac_laf_14_1lh_muzzle_brake,JMAC Customs LAF 14-1LH,-4,0.15,-19,-10,,0.15,-0.02,0,,,,1000
 ,,veles_dtk_1l_muzzle_brake,Veles DTK-1L,-2,0.12,-16,-14,,0.05,0,0,,,,1000
 ,ak12_5.45x39_muzzle_device,,,,,,,,,,,,,,
-,,ak12_std_muzzle_device,Kazarov Group AK-12 Std.,0,0.09,-12,-14,,0.1,0,20,,,,0
+,,ak12_std_muzzle_device,Kazarov Group AK-12 Std.,0,0.09,-12,-14,,0,0,10,,,0,0
 ,,kazarov_group_6ch60_ak12_suppressor,Kazarov Group 6Ch60 AK-12,-5,0.3,-15,-17,,-0.15,0.14,120,,,,1000
 ,,fireline_bayonet_thread_adapter_for_ak12,Fireline AK-12 Bayonet,0,0.03,0,0,,0,0,0,,,,1500
 ,,kazarov_group_ak12k_5.45x39_flash_hider,Kazarov Group AK-12K 5.45x39,3,0.06,-10,-12,,0.1,0,10,,,,500

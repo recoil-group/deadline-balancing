@@ -1,4 +1,4 @@
-﻿0.25.4,Tue Aug 18 21:32:45 2026,,,,,,,,,,,,,,
+﻿0.25.4,Tue Aug 18 21:50:34 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -699,11 +699,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,axtell_defense_pistol_grip_with_trigger_guard,Axtell Defense w/ Trigger Guard,10,0.13,-2,-4,,,,,,,,900
 ,ar15_trigger,,,,,,,,,,,,,,
 ,,hart_m4a1_std_trigger,M4 Standard,2,0.04,0,0,,0,,,,,,0
-,,fort_worth_manufacturing_trigger,Fort Worth Manufacturing Triggers drop-in,3,0.03,-1,0,,-0.05,,,,0.03,,300
-,,tsa_custom_trigger,TSA custom,3.5,0.04,0,-1,,-0.05,,,,0.03,,400
-,,rise_blitz_trigger,Ascend Armament Blitz,4,0.05,-1,0,,-0.1,,,,0.05,,1000
-,,lockwood_trigger,Lockwood drop-in,2.5,0.02,0,-1,,-0.15,,,,0.03,,400
-,,ardian_weapons_ar15_flat_vertex_fb_trigger,Ardian Weapons AR-15 Flat Vertex-FB,3,0.06,-1,-1,,-0.1,,,,0,,750
+,,fort_worth_manufacturing_trigger,Fort Worth Manufacturing Triggers drop-in,3,0.03,-1,0,,-0.02,,,,0.03,,300
+,,tsa_custom_trigger,TSA custom,3.5,0.04,0,-1,,-0.02,,,,0.03,,400
+,,rise_blitz_trigger,Ascend Armament Blitz,4,0.05,0,-1,,-0.04,,,,0.05,,1000
+,,lockwood_trigger,Lockwood drop-in,2.5,0.02,0,-1,,-0.06,,,,0.03,,400
+,,ardian_weapons_ar15_flat_vertex_fb_trigger,Ardian Weapons AR-15 Flat Vertex-FB,3,0.06,-1,-1,,-0.04,,,,0,,750
 ,scr_trigger,,,,,,,,,,,,,,
 ,,strikon_scr_ar15_trigger,STRIKON SCR Rifle,0,0.06,-2,-2,,,,,,,,250
 ,,strikon_scr_ar15_frt_trigger,STRIKON SCR Rifle Forced-Reset,2,0.06,0,0,,0.15,,,,,,2250

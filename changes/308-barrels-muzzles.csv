@@ -13,9 +13,9 @@ hk_psg1_bull_650mm_barrel,SKG-31 Bull 650mm 7.62x51,-5,1.17,-1,-1,,-0.35,0.14,50
 ferro_ordnance_mc51_211mm_7.62x51_barrel,Ferro Ordnance Group KG-51C 211mm 7.62x51,5,0.51,9,9,,0.45,-0.09,-331,,,,3500,-29.81,,,,,0.1,8.30709,,0.41566942
 ferro_ordnance_mc51k_145mm_7.62x51_barrel,Ferro Ordnance Group KG-51C 145mm 7.62x51,20,0.42,10,10,,0.55,-0.15,-561,,,,1500,-19.46,,,,,0.1,5.70866,,0.31692908
 ferro_ordnance_mc51sd_125mm_7.62x51_barrel,Ferro Ordnance Group KG-51SD 125mm 7.62x51,14,0.39,13,13,,0.6,-0.17,-652,,,,2500,-31.06,,,,,0.1,4.92126,,0.28700788
-ferro_ordnance_mc51sd_suppressor,Ferro Ordnance Group KG-51SD,-6,0.26,-8,-8,,-0.15,0.13,90,,,,,7.90,,,,,,,,0
+ferro_ordnance_mc51sd_suppressor,Ferro Ordnance Group KG-51SD,-6,0.26,-8,-8,,-0.15,0.13,90,,,-0.19,,8.85,,,,,,,,0
 tubewerx_m15x1rh_to_5_8x24_thread_adapter,Tubewerx M15x1RH to 5/8x24 Thread,-1,0.03,0,0,,0.05,0,0,,,,1000,-2.35,,,,,,,,0
-hk_bird_cage_flash_hider_m15x1rh,Bird Cage Style M15x1RH 7.62x51 NATO,1,0.05,-11,-10,,0,0,50,,,,0,15.05,,,,,,,,0
+hk_bird_cage_flash_hider_m15x1rh,Bird Cage Style M15x1RH 7.62x51 NATO,1,0.05,-11,-10,,0,0,50,,,0,0,15.05,,,,,,,,0
 ,,,,,,,,,,,,,,0.00,,,,,,,,0
 SA58,RSA SG-58,15,0,85,105,0,0.75,1,1900,,,1,20000,-82.75,,,,,,,,0
 rsa_sa58_210mm_premium_pistol_barrel,"RSA SA-58 8.25"" Premium Pistol",13,0.49,9,9,,0.35,-0.09,-158,,,,1000,-19.04,,,,,0.16,8.25,,0.4735

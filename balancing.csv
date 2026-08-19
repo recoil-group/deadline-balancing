@@ -1,4 +1,4 @@
-﻿0.25.4,Tue Aug 18 22:25:58 2026,,,,,,,,,,,,,,
+﻿0.25.4,Tue Aug 18 22:37:58 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -2059,7 +2059,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ptr_32_7.62x39_406mm_m14x1lh_barrel,CTR-32 406mm 7.62x39,0,0.74,0,0,,0,0,-59,,,,2000
 ,,ptr_32_7.62x39_406mm_5-8x24_barrel,CTR-32 406mm 7.62x39 5/8x24 Thread,-1,0.74,0,0,,0,0,-59,,,,2250
 ,mc51sd_suppressor,,,,,,,,,,,,,,
-,,ferro_ordnance_mc51sd_suppressor,Ferro Ordnance Group KG-51SD,-6,0.26,-8,-8,,-0.15,0.13,90,,,,
+,,ferro_ordnance_mc51sd_suppressor,Ferro Ordnance Group KG-51SD,-6,0.26,-8,-8,,-0.15,0.13,90,,,-0.19,
 ,hk_g3_rear_sight_assembly_top,,,,,,,,,,,,,,
 ,,hk_g3_rear_sight_assembly_top,KG-31 Rear Sight Assembly,0,0.02,,,,,,,,,,0
 ,,hk_mp5_g3_rear_sight_rmr_mount,MPi54/KG-31 Rear Sight RMR,-1,0.05,,,,,,,,,,600
@@ -2338,7 +2338,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kazarov_group_ak12k_5.45x39_flash_hider,Kazarov Group AK-12K 5.45x39,3,0.06,-10,-12,,0.1,0,10,,,,500
 ,7.62x51nato_m15x1rh_muzzle_device,,,,,,,,,,,,,,
 ,,tubewerx_m15x1rh_to_5_8x24_thread_adapter,Tubewerx M15x1RH to 5/8x24 Thread,-1,0.03,0,0,,0.05,0,0,,,,1000
-,,hk_bird_cage_flash_hider_m15x1rh,Bird Cage Style M15x1RH 7.62x51 NATO,1,0.05,-11,-10,,0,0,50,,,,0
+,,hk_bird_cage_flash_hider_m15x1rh,Bird Cage Style M15x1RH 7.62x51 NATO,1,0.05,-11,-10,,0,0,50,,,0,0
 ,7.62x51nato_muzzle_device,,,,,,,,,,,,,,
 ,,ak308_7.62x51_muzzle_brake,Kazarov Group AK-308,-1,0.06,-11,-14,,0.05,0,50,,,,0
 ,,tiger_rock_ar10_7.62x51_barrett_style_muzzle_brake_with_jam_nut,Panther Rock AR-10 .308 Barrett Style Muzzle Brake with Jam Nut,-6,0.17,8,-35,,0.1,0,-20,,,0.15,1500

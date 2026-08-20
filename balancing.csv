@@ -249,7 +249,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kf_416_slim_line_stock,KF416 Slim Line,16,0.26,-5,-19,,,,,,,,1000
 ,,kf_416_e1_stock,KF416 E1,17,0.3,-7,-16,,,,,,,,1200
 ,,si_viper_mod1_stock,Smite Industries Viper MOD1,18,0.14,-6,-7,,,,,,,,500
-,,magtap_moe_carbine_stock,Magtap MOE Carbine,17,0.19,-9,-8,,,,,,,,800
+,,magtap_moa_carbine_stock,Magtap MOE Carbine,17,0.19,-9,-8,,,,,,,,800
 ,,ar_tr2_stock,AR TR2,16,0.22,-7,-12,,,,,,,,800
 ,,vyctor_emod_stock,VLtor Emod,14,0.26,-10,-11,,,,,,,,700
 ,,magtap_prs_gen3_stock,Magtap PRS Gen3,18,0.33,-4,-16,,-0.05,,,,,,1500
@@ -260,7 +260,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,whtnls_xm177_car,Whitnalls XM177 CAR,16,0.14,-6,-11,,,,,,,,500
 ,,thordsen_frs15_cover_stock,Thordsen FRS-15 Cover,5,0.1,0,0,,,,,,,,600
 ,,magtap_rts_carbine_stock,Magtap RTS Carbine,17,0.23,-9,-9,,,,,,,,900
-,,magtap_moe_sl_k_carbine_stock,Magtap MOE SL-K Carbine,18,0.17,-7,-8,,,,,,,,800
+,,magtap_moa_sl_k_carbine_stock,Magtap MOE SL-K Carbine,18,0.17,-7,-8,,,,,,,,800
 ,,axtell_defense_collapsible_milspec_buttstock,Axtell Defense Collapsible Milspec,16,0.18,-8,-10,,,,,,,,900
 ,,axtell_defense_concave_buttpad,Axtell Defense Concave,1,0.02,-1,-1,,,,,,,,0
 ,ak_rear_trunnions,,,,,,,,,,,,,,
@@ -2639,13 +2639,13 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,prs_3_stock_pad,,,,,,,,,,,,,,
 ,,prs_gen3_buttpad,Magtap PRS Gen3,1,0.04,-1,-1,,,,,,,,0
 ,moe_stock_buttpad,,,,,,,,,,,,,,
-,,magtap_moe_butt_pad,Magtap MOE,1,0.02,-1,-1,,,,,,,,0
+,,magtap_moa_butt_pad,Magtap MOE,1,0.02,-1,-1,,,,,,,,0
 ,str_butt_pad,,,,,,,,,,,,,,
 ,,magtap_str_butt_pad,Magtap MOE,1,0.02,-1,-1,,,,,,,,0
 ,moe_old_stock_pad,,,,,,,,,,,,,,
 ,,moe_stock_pad,MOE Stock Pad,2,0.02,0,0,,,,,,,,0
 ,slk_butt_pad,,,,,,,,,,,,,,
-,,magtap_moe_sl_k_carbine_stock_buttpad,Magtap MOE SL-K,1,0.02,-1,-1,,,,,,,,0
+,,magtap_moa_sl_k_carbine_stock_buttpad,Magtap MOE SL-K,1,0.02,-1,-1,,,,,,,,0
 ,lmt_stock_pad,,,,,,,,,,,,,,
 ,,lmt_pad,LMT,1,0.02,-1,-1,,,,,,,,0
 ,emod_stock_pad,,,,,,,,,,,,,,

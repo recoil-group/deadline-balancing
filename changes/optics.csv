@@ -165,7 +165,7 @@ burris_ar_pepr_30mm_mount,Burris AR-P.E.P.R.™,-1,0.11,,,,,,,,,800,-3.2,,8.7,0.
 unity_fast_lpvo_30mm_mount,Unity FAST LPVO 30mm,-1.5,0.1,,,,,,,,,750,-3.5,,7.5,0.1175,,
 vortex_optics_sport_cantilever_cm_102_30mm_2inch_offset,"Vortex Optics Sport Cantilever 30mm CM-102 2"" Offset",-1,0.09,,,,,,,,,500,-2.8,,6.7,0.1071,,
 vortex_optics_sport_cantilever_cm_203_30mm_3inch_offset,"Vortex Optics Sport Cantilever 30mm CM-203 3"" Offset",-1,0.1,,,,,,,,,500,-3,,,0.02,,
-eotech_vudu_1_6x24,EOTech Vudu 1-6x24,-5,0.27,,-2,,,,,,,4000,-9.2,,20.1,0.2813,,
+eotech_vudu_1_6x24,EOTech Vudu 1-6x24,-6,0.27,,-2,,,,,,,4000,-9.2,,20.1,0.2813,,
 ,,,,,,,,,,,,,0,,,0.02,,
 badger_ordnance_comm_34mm_mount_body,"Badger Ordnance C.O.M.M. 34mm 1.54"" Height",-0.5,0.07,,,,,,,,,1000,-1.9,,6.6,0.1058,,
 badger_ordnance_comm_34mm_ring_half,Badger Ordnance C.O.M.M. 34mm Half Tube Ring,0,0.01,,,,,,,,,0,-0.2,,,0.02,,

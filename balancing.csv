@@ -136,7 +136,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,targetdown_bgv_mk46k_grip,Targetdown BGV-MK46K,3,0.08,-4,-4,,,,,,,,600
 ,,timber_creek_enforcer_foregrip,Lumber River Enforcer,3,0.1,-3,-5,,,,,,,,700
 ,,timber_creek_enforcer_handstop,Lumber River Enforcer,6,0.05,-1,-2,,,,,,,,700
-,,virticon_compact_acog_ac12041_mount,Virticon Compact ACOG AC12041 w/ Q-LOC Technology,0,0.03,,,,,,,,,,350
+,,virticon_compact_arcs_ac12041_mount,Virticon Compact ACOG AC12041 w/ Q-LOC Technology,0,0.03,,,,,,,,,,350
 ,,virticon_rmr_ac32066_offset,Virticon RMR AC32066 45 degree,-0.5,0.03,,,,,,,,,,200
 ,,virticon_rx14_mount,Virticon RX14,-0.5,0.06,,,,,,,,,,200
 ,,virticon_srs02,Virticon SRS-02,-1,0.16,,,,,,,,,,1000
@@ -318,9 +318,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,virticon_rmr_rm01_type2_auto_led_reflex,Virticon RM01 RMR Type2 Auto LED Reflex,-2,0.04,,,,,,,,,,1000
 ,,swampfox_kingslayer_micro_reflex_sight,Swampfox Kingslayer Micro Reflex,-2,0.04,,,,,,,,,,800
 ,acog_compact_mount,,,,,,,,,,,,,,
-,,virticon_compact_acog_3x24_ta50c_red,Virticon Compact ACOG 3x24 TA50-C Red Reticle Version,-3,0.1,,,,,,,,,,1200
+,,virticon_compact_arcs_3x24_ta50c_red,Virticon Compact ACOG 3x24 TA50-C Red Reticle Version,-3,0.1,,,,,,,,,,1200
 ,,virticon_compact_acog_3x24_ta50c_red_alt,Trijicon Compact ACOG 3x24 TA50-C Red Reticle Version,-3,0.1,,,,,,,,,,1200
-,,virticon_compact_acog_3x24_ta50c_green,Virticon Compact ACOG 3x24 TA50-C Red Reticle Version,-3,0.1,,,,,,,,,,1500
+,,virticon_compact_arcs_3x24_ta50c_green,Virticon Compact ACOG 3x24 TA50-C Red Reticle Version,-3,0.1,,,,,,,,,,1500
 ,,virticon_compact_acog_3x24_ta50c_green_alt,Trijicon Compact ACOG 3x24 TA50-C Red Reticle Version,-3,0.1,,,,,,,,,,1500
 ,,virticon_rm34_rmr_adapter,Virticon RM34 RMR Adapter,-0.5,0.02,,,,,,,,,,200
 ,virticon_retro_reflex_sight,,,,,,,,,,,,,,
@@ -358,22 +358,22 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,thumbscrew_flattop_mount,,,,,,,,,,,,,,
 ,,alistair_ar332_prism_3x_sight,Alistair AR-332 Prism 3x,-3,0.18,,-1,,,,,,,,1500
 ,,alistair_ar536_prism_5x_sight,Alistair AR-536 Prism 5x,-3,0.2,,-2,,,,,,,,3000
-,,virticon_acog_ta11d_bac,Virticon ACOG TA11D BAC,-3,0.2,,-2,,,,,,,,1900
-,,virticon_acog_ta01_4x_scope,Virticon ACOG TA01 4x Scope,-3,0.16,,-1,,,,,,,,1500
-,,virticon_acog_ta31_comspec_4x_scope,Virticon ACOG TA31 Comspec 4x Scope,-3,0.16,,-1,,,,,,,,1800
-,,virticon_acog_ta31_milspec_4x_scope,Virticon ACOG TA31 Milspec 4x Scope,-3,0.16,,-1,,,,,,,,1600
+,,virticon_arcs_ta11d_bac,Virticon ACOG TA11D BAC,-3,0.2,,-2,,,,,,,,1900
+,,virticon_arcs_ta01_4x_scope,Virticon ACOG TA01 4x Scope,-3,0.16,,-1,,,,,,,,1500
+,,virticon_arcs_ta31_comspec_4x_scope,Virticon ACOG TA31 Comspec 4x Scope,-3,0.16,,-1,,,,,,,,1800
+,,virticon_arcs_ta31_milspec_4x_scope,Virticon ACOG TA31 Milspec 4x Scope,-3,0.16,,-1,,,,,,,,1600
 ,carry_handle_mount,,,,,,,,,,,,,,
 ,,firm_#02_m16_scope_mount,F.I.R.M. #02 M16,-1,0.08,,,,,,,,,,500
-,,virticon_acog_ta01_4x_scope_carry_handle,Virticon ACOG TA01 4x Scope,-3,0.16,,-1,,,,,,,,1500
-,,virticon_acog_ta31_comspec_4x_scope_carry_handle,Virticon ACOG TA31 Comspec 4x Scope,-3,0.16,,-1,,,,,,,,1800
-,,virticon_acog_ta31_milspec_4x_scope_carry_handle,Virticon ACOG TA31 Milspec 4x Scope,-3,0.16,,-1,,,,,,,,1600
+,,virticon_arcs_ta01_4x_scope_carry_handle,Virticon ACOG TA01 4x Scope,-3,0.16,,-1,,,,,,,,1500
+,,virticon_arcs_ta31_comspec_4x_scope_carry_handle,Virticon ACOG TA31 Comspec 4x Scope,-3,0.16,,-1,,,,,,,,1800
+,,virticon_arcs_ta31_milspec_4x_scope_carry_handle,Virticon ACOG TA31 Milspec 4x Scope,-3,0.16,,-1,,,,,,,,1600
 ,,alistair_ar332_prism_3x_sight_carry_handle,Alistair AR-332 Prism 3x,-3,0.18,,-1,,,,,,,,1300
 ,,alistair_ar536_prism_5x_sight_carry_handle,Alistair AR-536 Prism 5x,-3,0.2,,-1,,,,,,,,2700
 ,,pri_ar15_std_carry_handle_mount,PRI AR-15 Standard Carry Handle,-4,0.11,,,,,,,,,,300
 ,,m16_m4_carryhandle_z_rail,M16/M4 Carry Handle Z-Rail,-4.5,0.13,,,,,,,,,,200
 ,,virticon_rx10_gooseneck_mount,Virticon RX10 Gooseneck,-1,0.07,,,,,,,,,,200
 ,,strauss_mark_4_carry_handle_mount,Strauss Mark 4 Carry Handle Mount,-2,0.06,,,,,,,,,,300
-,,virticon_acog_ta11d_bac_carry_handle,Virticon ACOG TA11D BAC,-3,0.2,,-2,,,,,,,,1900
+,,virticon_arcs_ta11d_bac_carry_handle,Virticon ACOG TA11D BAC,-3,0.2,,-2,,,,,,,,1900
 ,,hart_retro_a1_scope_carry_handle_mount,Hart Retro A1 Scope Carry Handle,-1,0.05,,,,,,,,,,0
 ,,ultracross_4x20_scope_carry_handle_mount,UltraCROSS 4x20 Scope Carry Handle,-1,0.05,,,,,,,,,,300
 ,,insight_technology_an_paq_4a_carry_handle_mount,Percept Technology AN/PAQ-4A Carry Handle,0,0.08,,,,,,,,,,200
@@ -2452,7 +2452,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,acog_fs,,,,,,,,,,,,,,
 ,,acog_fs,Acog Front Backup Sight,1,0.01,,,,,,,,,,0
 ,acog_rs,,,,,,,,,,,,,,
-,,virticon_rm35_acog_mount,Virticon RM35 ACOG,-1,0.03,,,,,,,,,,200
+,,virticon_rm35_arcs_mount,Virticon RM35 ACOG,-1,0.03,,,,,,,,,,200
 ,,acog_rs,Acog Rear Backup Sight,1,0.03,,,,,,,,,,0
 ,adapter_omega45k,,,,,,,,,,,,,,
 ,,suppressors_inc_omega45k_45acp_suppressor,Suppressors Inc. Omega45K,-4,0.13,-9,-8,,-0.1,0.1,80,,,,1200

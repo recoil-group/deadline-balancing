@@ -884,10 +884,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,aft_mag_release,AFT MK-17 Standard,0,0.03,,,,,,,,,,0
 ,,pmm_scar_oversized_mag_release_button,Everetts Machining FANG Oversized Button,1,0.05,,,,,,,,,,500
 ,fn_scar_side_rail_mount,,,,,,,,,,,,,,
-,,aft_side_rail_1,AF Tournai,-0.5,0.04,,,,,,,,,,0
-,,aft_mk20_side_rail_2,AF Tournai Mk20,-1,0.07,,,,,,,,,,500
-,,aft_mk20_side_rail_1,AF Tournai Mk20,-1,0.07,,,,,,,,,,500
-,,aft_side_rail_2,AF Tournai,-0.5,0.04,,,,,,,,,,0
+,,aft_side_rail_1,AF Tournai,0,0.04,,,,,,,,,,0
+,,aft_mk20_side_rail_2,AF Tournai Mk20,0,0.07,,,,,,,,,,500
+,,aft_mk20_side_rail_1,AF Tournai Mk20,0,0.07,,,,,,,,,,500
+,,aft_side_rail_2,AF Tournai,0,0.04,,,,,,,,,,0
 ,fn_scar_stock_cheek_piece,,,,,,,,,,,,,,
 ,,aft_stock_cheek_piece,AFT,3,0.16,,,,,,,,,,0
 ,fn_scar_stock_connector,,,,,,,,,,,,,,

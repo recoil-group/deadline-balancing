@@ -1870,11 +1870,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,hk_ump_01d_navy_lower_receiver,UMK 0-1-D Navy,0,0.3,,,,,,,,,,0
 ,,hk_ump_012d_navy_lower_receiver,UMK 0-1-2-D Navy,0,0.32,1,,,,,,,,,1500
 ,ump_handstop,,,,,,,,,,,,,,
-,,hk_ump_handstop,UMP,2,0.04,-1,,,,,,,,,500
+,,hk_ump_handstop,UMK Handstop,6,0.04,-1,,,,,,,,,500
 ,ump_handguard_rail,,,,,,,,,,,,,,
-,,hk_ump_bottom_handguard_rail,UMP Bottom Handguard,-0.5,0.04,,,,,,,,,,500
-,,hk_ump_left_handguard_rail,UMK Left Handguard,-0.5,0.04,,,,,,,,,,400
-,,hk_ump_right_handguard_rail,UMK Right Handguard,-0.5,0.04,,,,,,,,,,400
+,,hk_ump_bottom_handguard_rail,UMK Bottom Handguard,-0.5,0.04,,,,,,,,,,500
+,,hk_ump_left_handguard_rail,UMK Left Handguard,0,0.04,,,,,,,,,,400
+,,hk_ump_right_handguard_rail,UMK Right Handguard,0,0.04,,,,,,,,,,400
 ,ump_handguard_extension,,,,,,,,,,,,,,
 ,,haga_defense_usc_extended_handguard,Haga Defense USC,3,0.25,-3,-6,,,,,,,,2000
 ,ump_fs,,,,,,,,,,,,,,

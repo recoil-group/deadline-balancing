@@ -2936,7 +2936,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,Makarov,Pistolet Makarova,75,0,25,25,0,1,1,900,,,1,2000
 ,,TT33,Tokarev TT-33,45,0,40,40,0,1,0.98,1100,,,1,5000
 ,,EDC_X9,Whitner Defense EDC X9,80,0,25,25,0,0.9,1,1200,,,1,40000
-,,KOSCH,KOSCH,65,0,25,40,0,1,1,1200,,,1,0
+,,KOSCH,KOSCH,65,0,25,30,0,1,1,1200,,,1,0
 ,,Glock20,Glock 20,60,0.4,40,70,0,1.1,1,1000,,,1,10000
 ,,P320,Sic Stürmer P320,70,0,20,30,0,1,1,1200,,,1,25000
 ,rifle,,,,,,,,,,,,,,

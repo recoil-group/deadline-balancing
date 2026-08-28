@@ -1128,9 +1128,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,magazine_7.62x51_nato_sr25,,,,,,,,,,,,,,
 ,,cartesia_productions_x25_7.62x51_drum_50r,Cartesia Productions X-25 .308 50R Drum,-14,1.5,,,50,,,,,,,5000
 ,,magtap_pmag_d50_lr_sr_gen_m3_7.62x51_50r,Magtap PMAG D-50 LR/SR Gen M3 .308 50R Drum,-15,1.45,,,50,,,,,,,4500
-,,dragoon_systems_l7awm_translucent_7.62x51_25r,Dragoon Systems L7AWM Translucent 7.62x51 25R,-3.5,0.73,,,25,,,,,,,1500
+,,dragoon_systems_l7awm_translucent_7.62x51_25r,Dragoon Systems L7AWM Translucent 7.62x51 25R,-4,0.72,,,25,,,,,,,1500
 ,,dragoon_systems_l7awm_7.62x51_25r,Dragoon Systems L7AWM 7.62x51 25R,-4,0.72,,,25,,,,,,,1500
-,,dragoon_systems_l7awm_translucent_7.62x51_20r,Dragoon Systems L7AWM Translucent 7.62x51 20R,0.5,0.59,,,20,,,,,,,1250
+,,dragoon_systems_l7awm_translucent_7.62x51_20r,Dragoon Systems L7AWM Translucent 7.62x51 20R,0,0.58,,,20,,,,,,,1250
 ,,dragoon_systems_l7awm_7.62x51_20r,Dragoon Systems L7AWM 7.62x51 20R,0,0.58,,,20,,,,,,,1250
 ,l7awm_mag_assist,,,,,,,,,,,,,,
 ,,magtap_223_mag_assist_l7awm,Magtap 223,1,0.03,,,,,,,,,,200
@@ -2479,7 +2479,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,hk_mag_plate,,,,,,,,,,,,,,
 ,,hk_mag_plate,Mag,0,0.02,,,,,,,,,,0
 ,l7awm_bottom_plate,,,,,,,,,,,,,,
-,,dragoon_systems_l7awm_bottom_plate,Dragoon Systems L7AWM,0.5,0.02,,,,,,,,,,0
+,,dragoon_systems_l7awm_bottom_plate,Dragoon Systems L7AWM,1,0.02,,,,,,,,,,0
 ,l5awm_bottom_plate,,,,,,,,,,,,,,
 ,,dragoon_systems_l5awm_gen2_bottom_plate,Dragoon Systems L5AWM Gen2,0,0.02,,,,,,,,,,0
 ,1p29_cup,,,,,,,,,,,,,,

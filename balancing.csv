@@ -1079,14 +1079,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,5.45x39_kazarov_ak12_magazine_30r,Kazarov AK-12 Windowed Polymer 30R,0,0.42,,,30,,,,,,,1200
 ,,banan_magazine,Banana Magazine,0,0.39,,,30,,,,,,,5000
 ,magazine_7.62x51_roosevelt700,,,,,,,,,,,,,,
-,,scrubs_outdoors_roosevelt_700_.308_5r_mag,Scrubs' Outdoors .308 5R,-2,0.22,,,5,,,,,,,0
-,,magtap_pmag_ac_5r,Magtap PMAG AC .308 5R,-2,0.18,,,5,,,,,,,
-,,magtap_pmag_ac_10r,Magtap PMAG AC .308 10R,-6,0.32,,,10,,,,,,,
-,,scrubs_outdoors_roosevelt_700_.308_10r_mag,Scrubs' Outdoors .308 10R,-6,0.36,,,10,,,,,,,1000
+,,scrubs_outdoors_roosevelt_700_.308_5r_mag,Scrubs' Outdoors .308 5R,0,0.22,,,5,,,,,,,0
+,,magtap_pmag_ac_5r,Magtap PMAG AC .308 5R,0,0.18,,,5,,,,,,,
+,,magtap_pmag_ac_10r,Magtap PMAG AC .308 10R,-5,0.32,,,10,,,,,,,
+,,scrubs_outdoors_roosevelt_700_.308_10r_mag,Scrubs' Outdoors .308 10R,-5,0.36,,,10,,,,,,,1000
 ,magazine_7.62x54_mosin,,,,,,,,,,,,,,
 ,,7.62x54_promag_10r,ProClip AA762R 02 10R,-4,0.33,,,10,,,,,,,1000
 ,,7.62x54_promag_5r,ProClip AA762R 01 5R,0,0.19,,,5,,,,,,,500
-,,7.62x54_mosin_5r,Mosin Standard 5R,0,0.24,,,5,,,,,,,0
+,,7.62x54_mosin_5r,Mosin Standard 5R,3,0.24,,,5,,,,,,,0
 ,magazine_9x19_mp5,,,,,,,,,,,,,,
 ,,hk_mp5_std_curved_30r_9x19_magazine,MPi-54 Std. Curved 9x19 30R Mag,0,0.35,,,30,,,,,,,0
 ,,hk_mp5_straight_30r_9x19_magazine,MPi-54 Straight 9x19 30R Mag,1,0.37,,,30,,,,,,,500
@@ -2703,7 +2703,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,hunter_cheekrest_.5_sga,Hunter SGA .5,1,0.04,,,,,,,,,,0
 ,hunter700_magwell,,,,,,,,,,,,,,
 ,,magtap_hunter_ac_magwell,Magtap Hunter AC AICS Roosevelt 700 .308,0,0.08,,,,,,,,,,0
-,,corvus_mounts_m4_trigger_guard,Badger Ordnance M4 R700 Bottom Plate,3,0.21,,,5,,,,,,,600
+,,corvus_mounts_m4_trigger_guard,Badger Ordnance M4 R700 Bottom Plate,7,0.21,,,5,,,,,,,600
 ,hunter700_pad,,,,,,,,,,,,,,
 ,,hunterstock_lop_0.5_1,Hunter 700 Stock 0.5,0.5,0.04,0,0,,,,,,,,0
 ,,hunterstock_lop_0.5_2,Hunter 700 Stock 0.5,0.5,0.04,0,0,,,,,,,,0

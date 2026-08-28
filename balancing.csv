@@ -1041,11 +1041,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,custom_pm_ppsh_9x18_84r_drum_mag,Custom PM/PPSH 9x18 84R Drum,-12,0.88,4,-1,84,,,,,,,5000
 ,,izhevsk_pm_9x18_8r_magazine,Izhevsk PM 9x18 8R,0,0.09,,,8,,,,,,,0
 ,magazine_9x19_edc_x9,,,,,,,,,,,,,,
-,,whitner_defense_edc_x9_18r_magazine,Whitner Defense EDC X9 Std. 18r,0,0.22,,,18,,,,,,,1000
-,,whitner_defense_edc_x9_15r_magazine,Whitner Defense EDC X9 Std. 15r,2,0.19,,,15,,,,,,,500
-,,whitner_defense_edc_x9_10r_magazine,Whitner Defense EDC X9 Std. 10r,5,0.14,,,10,,,,,,,0
+,,whitner_defense_edc_x9_18r_magazine,Whitner Defense EDC X9 Std. 18r,-3,0.22,,,18,,,,,,,1000
+,,whitner_defense_edc_x9_15r_magazine,Whitner Defense EDC X9 Std. 15r,-2,0.19,,,15,,,,,,,500
+,,whitner_defense_edc_x9_10r_magazine,Whitner Defense EDC X9 Std. 10r,0,0.14,,,10,,,,,,,0
 ,magazine_9x19_kosch,,,,,,,,,,,,,,
-,,kosch_9x19_31r_stick_magazine,KOSCH 9x19 31R Stick,-6,0.39,,,31,,,,,,,1000
+,,kosch_9x19_31r_stick_magazine,KOSCH 9x19 31R Stick,-8,0.39,,,31,,,,,,,1000
 ,,kosch_9x19_17r_magazine,KOSCH 9x19 17R,0,0.21,,,17,,,,,,,1000
 ,,fst_kosch_9x19_50r_drum_magazine,SGM Tactical PF940 17 50R 9x19 Drum,-6,0.85,,,50,,,,,,,3000
 ,magazine_9x19,,,,,,,,,,,,,,
@@ -1684,7 +1684,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,vector_17r_plate,Magazine,0,0.02,,,,,,,,,,1000
 ,,9x19_kriss_magex2_vector,9x19 KALIS MagEx2 For PF940 (+23 Rounds),-8,0.3,,,23,,,,,,,1000
 ,glock20_barrel,,,,,,,,,,,,,,
-,,kosch_10mm_114mm_barrel,KOSCH 10mm Auto 114mm,-10,0.11,10,10,,0.1,0,0,,,,2000
+,,kosch_10mm_114mm_barrel,KOSCH 10mm Auto 114mm,0,0.11,10,20,,0.1,0,0,,,,2000
 ,glock20_magazine_bottom_plate,,,,,,,,,,,,,,
 ,,kosch_default_10mm_mag_plate,KOSCH Default 10mm Magazine Plate,1,0.015,,,,,,,,,,0
 ,glock20_magazine_release,,,,,,,,,,,,,,
@@ -2887,7 +2887,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sig_sauer_p320_mag_bottom_plate,Sic Stürmer P320 Mag,0,0.02,,,,,,,,,,0
 ,,sig_sauer_p320_9x19_17r_mag,Sic Stürmer P320 9x19 17R,0,0.22,,,17,,,,,,,0
 ,,sig_sauer_p320_9x19_21r_mag,Sic Stürmer P320 9x19 21R,-2,0.28,,,21,,,,,,,2000
-,,sig_sauer_p320_9x19_30r_mag,Sic Stürmer P320 9x19 30R,-6,0.4,,,30,,,,,,,4000
+,,sig_sauer_p320_9x19_30r_mag,Sic Stürmer P320 9x19 30R,-8,0.4,,,30,,,,,,,4000
 ,sig_sauer_p320_mag_sleeve,,,,,,,,,,,,,,
 ,,sig_sauer_p320_mag_short_sleeve,Sic Stürmer P320 Short,1,0.06,,,,,,,,,,500
 ,,sig_sauer_p320_mag_long_sleeve,Sic Stürmer P320 Long,1.5,0.08,,,,,,,,,,1000
@@ -2935,10 +2935,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,pistol,,,,,,,,,,,,,,
 ,,Makarov,Pistolet Makarova,75,0,25,25,0,1,1,900,,,1,2000
 ,,TT33,Tokarev TT-33,45,0,40,40,0,1,0.98,1100,,,1,5000
-,,EDC_X9,Whitner Defense EDC X9,80,0,25,25,0,0.9,1,1200,,,1,40000
-,,KOSCH,KOSCH,65,0,25,30,0,1,1,1200,,,1,0
+,,EDC_X9,Whitner Defense EDC X9,85,0,25,45,0,0.9,1,1200,,,1,40000
+,,KOSCH,KOSCH,65,0,20,30,0,1,1,1200,,,1,0
 ,,Glock20,Glock 20,60,0.4,40,70,0,1.1,1,1000,,,1,10000
-,,P320,Sic Stürmer P320,70,0,20,30,0,1,1,1200,,,1,25000
+,,P320,Sic Stürmer P320,70,0,25,35,0,1,1,1200,,,1,25000
 ,rifle,,,,,,,,,,,,,,
 ,,KF416,KF 416,25,0,65,80,0,0.55,1,2450,,,1,30000
 ,,AUG_A3,Löwenherz AUG A3,40,0,55,65,0,0.5,1,2450,,,1,42000

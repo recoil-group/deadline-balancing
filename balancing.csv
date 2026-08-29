@@ -772,8 +772,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,quix_tacticals_ar15_127mm_5.56_nitride_barrel_custom_gastube,"Quix Tacticals AR-15 Nitride 5"" Custom Length Gastube 5.56x45",5,0.24,0,1,,0.4,-0.18,-450,,0.063,,1400
 ,,custom_2inch_ar15_barrel,"Custom 2"" AR-15 5.56x45",6,0.12,5,5,,5,-0.4,-866,,0.125,,2000
 ,m4_gasblock_mount,,,,,,,,,,,,,,
-,,target_sports_mt026_mount,Target Sports MT026 Tri-Rail,-3,0.1,,,,,,,,,,400
-,,diemaco_tri_ad_i_mount,Diemaco TRI-AD I,-1,0.06,,,,,,,,,,600
+,,target_sports_mt026_mount,Target Sports MT026 Tri-Rail,0,0.1,,,,,,,,,,400
+,,diemaco_tri_ad_i_mount,Diemaco TRI-AD I,0,0.06,,,,,,,,,,600
 ,,hart_m4a1_front_side_sling_swivel,Hart Front Side Sling Swivel,2,0.05,,,,,,,,,,300
 ,,fit_m4_forward_picatinny_rail,FIT M4 Forward Picatinny,-5,0.21,-2,-2,,0.05,,,,,,800
 ,windham_weaponry_mount,,,,,,,,,,,,,,
@@ -1208,7 +1208,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kazarov_ak74_rear_sight_block,Kazarov AK-74,0,0.09,,,,,,,,,,0
 ,,kazarov_akm_rear_sight_block,Kazarov AKM,0,0.1,,,,,,,,,,0
 ,ak_barrel_mount,,,,,,,,,,,,,,
-,,rs_regulate_bm_1_akm_spec_.59_accessory_mount,RS Regulate BM-1 AKM Spec .59 Accessory,-0.5,0.04,,,,,,,,,,500
+,,rs_regulate_bm_1_akm_spec_.59_accessory_mount,RS Regulate BM-1 AKM Spec .59 Accessory,0,0.04,,,,,,,,,,500
 ,ak_dovetail_mount,,,,,,,,,,,,,,
 ,,adron_kobra_ekp_8_02_mount,Adron Kobra EKP-8-02 Dovetail,0,0.12,,,,,,,,,,100
 ,,veles_chelomo_dovetail_mount_pkas,Veles ChelOMO PK-AS,0,0.08,,,,,,,,,,600
@@ -2111,7 +2111,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,steyr_aug_a3_sa_receiver,Löwenherz AUG A3 Standard,0,0.37,-1,-2,,,,,,,,500
 ,,steyr_aug_a1_stg77_1_5x_scoped_receiver,Löwenherz AUG A1 Swarovski Optik 1.5x Scoped,2,0.64,0,-4,,,,,,,,0
 ,aug_a3_side_rail_mount,,,,,,,,,,,,,,
-,,aug_a3_std_side_rail_mount,AUG A3 Side,-0.5,0.04,,,,,,,,,,0
+,,aug_a3_std_side_rail_mount,AUG A3 Side,0,0.04,,,,,,,,,,0
 ,aug_a3_sling_mount,,,,,,,,,,,,,,
 ,,aug_a3_sling_mount,AUG A3 M1,3,0.03,,,,,,,,,,0
 ,aug_a3_stock_buttpad,,,,,,,,,,,,,,

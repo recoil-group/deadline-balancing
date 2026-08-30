@@ -1948,7 +1948,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kf_416_14.5i_qd_mlok_handguard,"KF416 14.5"" QD MLOK",7,0.37,-16,-12,,,,,,,,1500
 ,kf_416_handguard_sight,,,,,,,,,,,,,,
 ,,handguard_flip_up_sight,KF416 Handguard,1,0.02,,,,,,,,,,0
-,,handguard_flip_up_sight_folded,KF416 Handguard (Folded),0,0.02,,,,,,,,,,0
+,,handguard_flip_up_sight_folded,KF416 Handguard (Folded),1,0.02,,,,,,,,,,0
 ,kf_416_bcg,,,,,,,,,,,,,,
 ,,kf_416_bolt_carrier_group,KF416,0,0.11,,,,,,,,,,0
 ,,kf_416a5_bolt_carrier_group,KF416A5,0,0.11,,,,,,,,,,0

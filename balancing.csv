@@ -1,4 +1,4 @@
-﻿0.25.4,Sun Aug 30 20:06:47 2026,,,,,,,,,,,,,,
+﻿0.25.4,Sun Aug 30 20:37:40 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -1785,15 +1785,15 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,7.62x54r_zim_rifle_150gr_spbt,7.62x54R ZiM Rifle Line 150gr SPBT,0,0.1,1,1,,0.1,,100,,,,2000
 ,,7.62x54r_norilsk_7t2_149gr_green_tracer,7.62x54R Norilsk 7T2 149gr Green Tracer,1,0.13,3,3,,0.2,,200,,,,1000
 ,ammo_762x39,,,,,,,,,,,,,,
-,,7.62x39_kazarov_57n231_ps_gzh_123gr,Kazarov 57-N-231 PS gzh 123gr,0,0,0,0,,0,,0,,,,0
-,,7.62x39_pga_rifle_123gr_jsp,Prva Garda Rifle Line 123gr JSP,-2,0.03,3,3,,0.1,,-50,,,,2000
+,,7.62x39_kazarov_57n231_ps_gzh_123gr,Kazarov 57-N-231 PS gzh 123gr,0,0,0,0,,0,,0,,,0,0
+,,7.62x39_pga_rifle_123gr_jsp,Prva Garda Rifle Line 123gr JSP,-1,0.01,2,4,,0.05,,75,,,0,1000
 ,,7.62x39_s&b_sv43_123gr_red_tracer,Serrano & Belmonte Sv43 123gr Red Tracer,2,0.01,-1,-2,,0.1,,-75,,,0,1000
-,,7.62x39_tsniitekhmash_8m3_124gr_hp,TsNIITekhMash 8M3 Effect 124gr Hollow Point,2,0.01,-1,-2,,0.1,,-75,,,0,1000
-,,7.62x39_underworld_controlled_chase_123gr_hunting,Underworld Controlled Chase 123gr Monolithic Hunting,2,0.01,-1,-2,,0.1,,-75,,,0,1000
-,,7.62x39_hawthorne_sub_x_255gr_subsonic,Hawthorne Sub X 255gr Subsonic,2,0.01,-1,-2,,0.1,,-75,,,0,1000
-,,7.62x39_laukaa_s405_123gr_fmj,Laukaa S405 123gr FMJ,2,0.01,-1,-2,,0.1,,-75,,,0,1000
-,,7.62x39_kazarov_7n27_pp_gzh_122gr,Kazarov 7N27 PP gzh 122gr,2,0.01,-1,-2,,0.1,,-75,,,0,1000
-,,7.62x39_kazarov_7n23_bp_gzh_122gr,Kazarov 7N23 BP gzh 122gr,2,0.01,-1,-2,,0.1,,-75,,,0,1000
+,,7.62x39_tsniitekhmash_8m3_124gr_hp,TsNIITekhMash 8M3 Effect 124gr Hollow Point,-2,0.02,3,5,,0.1,,-50,,,0,2000
+,,7.62x39_underworld_controlled_chase_123gr_hunting,Underworld Controlled Chase 123gr Monolithic Hunting,0,0.01,2,1,,-0.05,,125,,,0,1500
+,,7.62x39_hawthorne_sub_x_255gr_subsonic,Hawthorne Sub X 255gr Subsonic,1,0.11,-3,-4,,0.05,,-1000,,,-0.6,1500
+,,7.62x39_laukaa_s405_123gr_fmj,Laukaa S405 123gr FMJ,-1,0,1,3,,-0.15,,-50,,,0,4000
+,,7.62x39_kazarov_7n27_pp_gzh_122gr,Kazarov 7N27 PP gzh 122gr,0,-0.02,1,2,,-0.05,,100,,,0,3000
+,,7.62x39_kazarov_7n23_bp_gzh_122gr,Kazarov 7N23 BP gzh 122gr,-2,-0.05,2,1,,-0.1,,100,,,0,5000
 ,ammo_5.45x39,,,,,,,,,,,,,,
 ,,5.45x39_kazarov_7n6_53gr_ps,Kazarov 7N6 53gr PS,0,0,0,0,,0,,0,,,,0
 ,,5.45x39_kazarov_7t3_49gr_red_tracer,Kazarov 7T3 49gr Red Tracer,2,-0.02,-1,-1,,0.15,,25,,,,500

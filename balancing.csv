@@ -2375,8 +2375,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,suppressors_inc_osprey45_gen1_45acp_suppressor,Suppressors Inc. Osprey 45 Gen 1 .45ACP,-6,0.19,-8,-12,,-0.15,0.15,150,,,,1500
 ,,suppressors_inc_osprey45_gen1_45acp_suppressor_flipped,Suppressors Inc. Osprey 45 Gen 1 .45ACP Flipped,-6,0.19,-8,-12,,-0.15,0.15,150,,,,1500
 ,5.8x42_muzzle_device,,,,,,,,,,,,,,
-,,sanxian_qbz95_factory_type1_bird_cage_flash_hider,Sanxian QBZ-95 Factory Type 1 Bird Cage,6,0.06,-9,-4,,0,0,45,,,,300
-,,sanxian_qbz95_factory_type2_bird_cage_flash_hider,Sanxian QBZ-95 Factory Type 2 Bird Cage,6,0.07,-6,-7,,0,0,45,,,,300
+,,sanxian_qbz95_factory_type1_bird_cage_flash_hider,Sanxian QBZ-95 Factory Type 1 Bird Cage,2,0.06,-9,-4,,0,0,45,,,,300
+,,sanxian_qbz95_factory_type2_bird_cage_flash_hider,Sanxian QBZ-95 Factory Type 2 Bird Cage,2,0.07,-6,-7,,0,0,45,,,,300
 ,,sanxian_qbz95_5.8x42mm_suppressor,Sanxian QBZ-95 5.8x42mm,-4,0.24,-8,-12,,-0.05,0.06,100,,,,2000
 ,sa58_upper_receiver,,,,,,,,,,,,,,
 ,,sa58_type1_upper_receiver,RSA SA-58 Type 1,0,0.5,-2,-2,,,,,,,,500
@@ -2951,7 +2951,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,AK12,Kazarov Group AK-12,35,0,50,55,0,0.4,1,2300,,,1,25000
 ,,AK308,Kazarov Group AK-308,20,0,80,100,0,0.75,1,2100,,,1,65000
 ,,M4A1,AR-15,15,0,65,85,0,0.6,1,2450,,,1,0
-,,QBZ95,Sanxian QBZ-95,45,0,55,55,0,0.4,1,2500,,,1,25000
+,,QBZ95,Sanxian QBZ-95,49,0,55,55,0,0.4,1,2500,,,1,25000
 ,,SA58,RSA SG-58,15,0,85,105,0,0.75,1,1900,,,1,20000
 ,,SCAR47,HILT Defense MK-76,40,0,55,60,0,0.5,1,1800,,,1,60000
 ,,SCARH,AFT MK-17,5,0,75,80,0,0.6,1,1900,,,1,75000

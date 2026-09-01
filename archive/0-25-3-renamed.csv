@@ -1108,15 +1108,15 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,steyr_mpi_69_81_9x19_32r_mag,Löwenherz MPi 69/81 9x19 32R,-4,0.39,,,32,,,,,,,750
 ,,roch_custom_steyr_aug_9x19_40r_mag,Roch Custom Löwenherz AUG Para 9x19 40R,-8,0.5,,,40,,,,,,,1000
 ,magazine_7.62x51_fn_fal,,,,,,,,,,,,,,
-,,rsa_sa58_fal_metric_magazine_5r,RSA FAL SA-58 U.S. Made Metric 5R,11,0.16,,,5,,,,,,,200
-,,rsa_sa58_fal_metric_magazine_10r,RSA FAL SA-58 U.S. Made Metric 10R,7,0.32,,,10,,,,,,,500
-,,rsa_sa58_fal_metric_magazine_20r,RSA FAL SA-58 U.S. Made Metric 20R,0,0.61,,,20,,,,,,,0
-,,rsa_sa58_fal_metric_magazine_30r,RSA FAL SA-58 U.S. Made Metric 30R,-7,0.92,,,30,,,,,,,2000
-,,rsa_sa58_fal_metric_polymer_magazine_10r,RSA FAL SA-58 U.S. Made Polymer Metric 10R,5,0.28,,,10,,,,,,,800
-,,rsa_sa58_fal_metric_polymer_magazine_20r,RSA FAL SA-58 U.S. Made Polymer Metric 20R,-3,0.48,,,20,,,,,,,1000
+,,rsa_sg58_far_metric_magazine_5r,RSA FAR SG58 U.S. Made Metric 5R,11,0.16,,,5,,,,,,,200
+,,rsa_sg58_far_metric_magazine_10r,RSA FAR SG58 U.S. Made Metric 10R,7,0.32,,,10,,,,,,,500
+,,rsa_sg58_far_metric_magazine_20r,RSA FAR SG58 U.S. Made Metric 20R,0,0.61,,,20,,,,,,,0
+,,rsa_sg58_far_metric_magazine_30r,RSA FAR SG58 U.S. Made Metric 30R,-7,0.92,,,30,,,,,,,2000
+,,rsa_sg58_far_metric_polymer_magazine_10r,RSA FAR SG58 U.S. Made Polymer Metric 10R,5,0.28,,,10,,,,,,,800
+,,rsa_sg58_far_metric_polymer_magazine_20r,RSA FAR SG58 U.S. Made Polymer Metric 20R,-3,0.48,,,20,,,,,,,1000
 ,,enfield_l1a1_slr_pattern_mag_30r,Sheffield L4 Pattern 30R,-6,0.94,,,30,,,,,,,2500
-,,nm_fal_polymer_mag_20r,Noah Magazines Polymer 20R,-1,0.55,,,20,,,,,,,1500
-,,cartesia_productions_x_fal_drum_mag_50r,Cartesia Productions X-FAL .308 50R Drum,-14,1.5,,,50,,,,,,,4500
+,,nm_far_polymer_mag_20r,Noah Magazines Polymer 20R,-1,0.55,,,20,,,,,,,1500
+,,cartesia_productions_x_far_drum_mag_50r,Cartesia Productions X-FAR .308 50R Drum,-14,1.5,,,50,,,,,,,4500
 ,magazine_7.62x51_nato_scarh,,,,,,,,,,,,,,
 ,,promag_scar17_7.62x51_50r_drum,ProClip AF Tournai 17 .308 50R Drum,-15,1.46,,,50,,,,,,,4500
 ,,aft_mk_17_7.62x51_10r,AFT MK-17 7.62x51 NATO 10R,7,0.32,,,10,,,,,,,500
@@ -2343,8 +2343,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ak308_7.62x51_muzzle_brake,Kazarov Group AK-308,-1,0.06,-11,-14,,0.05,0,50,,,,0
 ,,tiger_rock_ar10_7.62x51_barrett_style_muzzle_brake_with_jam_nut,Panther Rock AR-10 .308 Barrett Style Muzzle Brake with Jam Nut,-6,0.17,8,-35,,0.15,-0.01,-20,,,,1500
 ,,rsa_3prong_trident_7.62x51_flash_hider,RSA 3-Prong Trident 7.62x51,1,0.06,-10,-12,,0,0,0,,,,0
-,,fn_fal_7.62x51_belgian_flash_hider,RSA SA-58 Belgian Style 7.62x51,0,0.08,-13,-11,,0,0,25,,,,500
-,,fn_fal_austrian_7.62x51_stg58_flash_hider,RSA SA-58 Austrian STG58 7.62x51,1,0.12,-10,-14,,0,0,50,,,,500
+,,af_far_7.62x51_belgian_flash_hider,RSA SG58 Belgian Style 7.62x51,0,0.08,-13,-11,,0,0,25,,,,500
+,,af_far_austrian_7.62x51_stg58_flash_hider,RSA SG58 Austrian STG58 7.62x51,1,0.12,-10,-14,,0,0,50,,,,500
 ,,rsa_warz_series_7.62x51_flash_hider,RSA WarZ Series 7.62x51,2,0.05,-9,-11,,0,0,0,,,,600
 ,,sig_srd762ti_suppressor,SRD762Ti,-6,0.26,-11,-13,,-0.12,0.05,200,,,,2000
 ,,spiderweb_bpr_suppressor_system_bpr_1425,Spiderweb BPR System BPR-1425,-4,0.16,-10,-10,,-0.1,0.03,150,,,,2500
@@ -2373,77 +2373,77 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sanxian_qbz95_factory_type2_bird_cage_flash_hider,Sanxian QBZ-95 Factory Type 2 Bird Cage,1,0.1,-1,-3,,0,0,45,,,,300
 ,,sanxian_qbz95_5.8x42mm_suppressor,Sanxian QBZ-95 5.8x42mm,-4,0.24,-4,-6,,-0.05,0.12,100,,,,2000
 ,sa58_upper_receiver,,,,,,,,,,,,,,
-,,sa58_type1_upper_receiver,RSA SA-58 Type 1,0,0.5,-2,-2,,,,,,,,500
-,,sa58_type1_upper_receiver_with_carry_handle,RSA SA-58 Type 1 (w/ Carry Handle Mount),0,0.49,0,0,,,,,,,,0
+,,sg58_type1_upper_receiver,RSA SG58 Type 1,0,0.5,-2,-2,,,,,,,,500
+,,sg58_type1_upper_receiver_with_carry_handle,RSA SG58 Type 1 (w/ Carry Handle Mount),0,0.49,0,0,,,,,,,,0
 ,sa58_bolt,,,,,,,,,,,,,,
-,,rsa_sa58_7.62x51_bolt,RSA SA-58 7.62x51,0,0.24,,,,,,,,,,0
+,,rsa_sg58_7.62x51_bolt,RSA SG58 7.62x51,0,0.24,,,,,,,,,,0
 ,sa58_carry_handle,,,,,,,,,,,,,,
-,,fn_fal_long_carry_handle,RSA SA-58 Long,3,0.07,,,,,,,,,,0
-,,sa58_stg58_carry_handle,STG58,2,0.04,,,,,,,,,,200
+,,af_far_long_carry_handle,RSA SG58 Long,3,0.07,,,,,,,,,,0
+,,sg58_stg58_carry_handle,STG58,2,0.04,,,,,,,,,,200
 ,sa58_charging_handle,,,,,,,,,,,,,,
-,,sa58_std_charging_handle,RSA SA-58,1,0.04,,,,,,,,,,0
+,,sg58_std_charging_handle,RSA SG58,1,0.04,,,,,,,,,,0
 ,sa58_dust_cover,,,,,,,,,,,,,,
-,,fn_fal_std_dust_cover,RSA SA-58 Std.,4,0.08,0,0,,,,,,,,0
+,,af_far_std_dust_cover,RSA SG58 Std.,4,0.08,0,0,,,,,,,,0
 ,,rsa_extreme_duty_extended_dust_cover,RSA Extreme Duty Extended Rail,3,0.22,-3,-2,,,,,,,,1000
 ,sa58_fire_selector,,,,,,,,,,,,,,
-,,sa58_std_fire_selector,RSA SA-58,0,0.04,,,,,,,,,,0
+,,sg58_std_fire_selector,RSA SG58,0,0.04,,,,,,,,,,0
 ,sa58_folding_stock,,,,,,,,,,,,,,
-,,rsa_sa58_metric_para_folding_stock,RSA SA-58 Metric Para Folding,13,0.32,-7,-11,,,,,,,,500
+,,rsa_sg58_metric_para_folding_stock,RSA SG58 Metric Para Folding,13,0.32,-7,-11,,,,,,,,500
 ,,rsa_metric_para_buffer_tube_adapter,RSA Para Metric Buffer Tube,-3,0.05,1,2,,0.05,,,,,,1000
-,,rsa_sa58_folding_spr_para_stock_body,RSA SA58 Folding Para SPR,14,0.26,-10,-7,,-0.05,,,,,,3000
-,,rsa_sa58_folding_spr_para_stock_extendable_part,RSA SA58 Folding Para SPR,,0.04,,,,,,,,,,0
-,,rsa_sa58_folding_spr_para_stock_buttpad_mount,RSA SA58 Folding Para SPR,,0.03,,,,,,,,,,0
-,,rsa_sa58_folding_spr_para_stock_cheek_riser,RSA SA58 Folding Para SPR,1,0.06,,,,,,,,,,0
-,,rsa_sa58_folding_spr_para_stock_buttpad,RSA SA58 Folding Para SPR,1,0.04,,,,,,,,,,0
+,,rsa_sg58_folding_spr_para_stock_body,RSA SG58 Folding Para SPR,14,0.26,-10,-7,,-0.05,,,,,,3000
+,,rsa_sg58_folding_spr_para_stock_extendable_part,RSA SG58 Folding Para SPR,,0.04,,,,,,,,,,0
+,,rsa_sg58_folding_spr_para_stock_buttpad_mount,RSA SG58 Folding Para SPR,,0.03,,,,,,,,,,0
+,,rsa_sg58_folding_spr_para_stock_cheek_riser,RSA SG58 Folding Para SPR,1,0.06,,,,,,,,,,0
+,,rsa_sg58_folding_spr_para_stock_buttpad,RSA SG58 Folding Para SPR,1,0.04,,,,,,,,,,0
 ,sa58_front_sight,,,,,,,,,,,,,,
-,,fnb_precision_fal_duplex_front_sight,F&B Precision FAL Duplex,1,0.01,,,,,,,,,,200
+,,fnb_precision_far_duplex_front_sight,F&B Precision FAR Duplex,1,0.01,,,,,,,,,,200
 ,,rsa_metric_front_sight_size4,RSA Metric Size 4,1,0.01,,,,,,,,,,0
 ,,rsa_metric_front_sight_size2,RSA Metric Size 2,1,0.01,,,,,,,,,,0
 ,,rsa_metric_front_sight_size3,RSA Metric Size 3,1,0.01,,,,,,,,,,0
 ,,rsa_metric_front_sight_size1,RSA Metric Size 1,1,0.01,,,,,,,,,,0
-,,fnb_precision_fal_crosshair_front_sight,F&B Precision FAL Crosshair,1,0.01,,,,,,,,,,200
+,,fnb_precision_far_crosshair_front_sight,F&B Precision FAR Crosshair,1,0.01,,,,,,,,,,200
 ,sa58_grip,,,,,,,,,,,,,,
-,,sa58_std_grip,RSA SA-58 Standard,1,0.09,-5,-5,,,,,,,,0
+,,sg58_std_grip,RSA SG58 Standard,1,0.09,-5,-5,,,,,,,,0
 ,,rsa_sg58_m249_saw_style_pistol_grip,RSA SG58 SAW Style,0,0.1,-6,-7,,,,,,,,750
-,,protac_ergonomic_ag_fal_pistol_grip,PRO Tactical Ergonomic AG-FAL,3,0.1,-5,-4,,,,,,,,1500
+,,protac_ergonomic_ag_far_pistol_grip,PRO Tactical Ergonomic AG-FAR,3,0.1,-5,-4,,,,,,,,1500
 ,sa58_handguard,,,,,,,,,,,,,,
-,,rsa_sa58_belgian_style_full_length_handguard,RSA SA-58 Belgian Style Full Length,8,0.3,-16,-17,,0.03,,,,,,0
-,,rsa_sa58_wood_full_length_handguard,SA-58 Wood Full Length,9,0.5,-18,-19,,0.03,,,,,,1000
-,,rsa_sa58_belgian_style_mid_length_handguard,RSA SA-58 Belgian Style Mid Length,10,0.21,-13,-14,,0.03,,,,,,750
+,,rsa_sg58_belgian_style_full_length_handguard,RSA SG58 Belgian Style Full Length,8,0.3,-16,-17,,0.03,,,,,,0
+,,rsa_sg58_wood_full_length_handguard,SG58 Wood Full Length,9,0.5,-18,-19,,0.03,,,,,,1000
+,,rsa_sg58_belgian_style_mid_length_handguard,RSA SG58 Belgian Style Mid Length,10,0.21,-13,-14,,0.03,,,,,,750
 ,,target_sports_universal_11.3inch_mlok_hg_lower,"Target Sports Universal MLOK 11.3""",6,0.14,-9,-10,,,,,,,,1500
 ,,rsa_metric_short_quadrail_handguard,RSA Metric Short Quad Rail,9,0.22,-10,-12,,,,,,,,1000
-,,rsa_sa58_metric_mlok_full_length_bottom_handguard,RSA SA58 Metric MLOK Full Length,4,0.14,-10,-9,,,,,,,,1750
-,,rsa_sa58_metric_mlok_full_length_top_handguard,RSA SA58 Metric MLOK Full Length Picatinny,3,0.12,-3,-3,,,,,,,,250
-,,rsa_sa58_metric_mlok_mid_length_bottom_handguard,RSA SA58 Metric MLOK Mid Length,10,0.11,-7,-6,,,,,,,,1500
-,,rsa_sa58_metric_mlok_mid_length_top_handguard,RSA SA58 Metric MLOK Mid Length Picatinny,2,0.09,-2,-2,,,,,,,,200
-,,rsa_sa58_metric_mlok_pistol_length_bottom_handguard,RSA SA58 Metric MLOK Pistol Length,12,0.08,-4,-4,,,,,,,,1200
-,,rsa_sa58_metric_mlok_pistol_length_top_handguard,RSA SA58 Metric MLOK Pistol Length Picatinny,1,0.06,-1,-1,,,,,,,,150
-,,rsa_sa58_tactical_pistol_v2_handguard,RSA SA-58 Tactical Pistol V2,14,0.15,-8,-9,,0.03,,,,,,2000
+,,rsa_sg58_metric_mlok_full_length_bottom_handguard,RSA SG58 Metric MLOK Full Length,4,0.14,-10,-9,,,,,,,,1750
+,,rsa_sg58_metric_mlok_full_length_top_handguard,RSA SG58 Metric MLOK Full Length Picatinny,3,0.12,-3,-3,,,,,,,,250
+,,rsa_sg58_metric_mlok_mid_length_bottom_handguard,RSA SG58 Metric MLOK Mid Length,10,0.11,-7,-6,,,,,,,,1500
+,,rsa_sg58_metric_mlok_mid_length_top_handguard,RSA SG58 Metric MLOK Mid Length Picatinny,2,0.09,-2,-2,,,,,,,,200
+,,rsa_sg58_metric_mlok_pistol_length_bottom_handguard,RSA SG58 Metric MLOK Pistol Length,12,0.08,-4,-4,,,,,,,,1200
+,,rsa_sg58_metric_mlok_pistol_length_top_handguard,RSA SG58 Metric MLOK Pistol Length Picatinny,1,0.06,-1,-1,,,,,,,,150
+,,rsa_sg58_tactical_pistol_v2_handguard,RSA SG58 Tactical Pistol V2,14,0.15,-8,-9,,0.03,,,,,,2000
 ,sa58_lower_receiver,,,,,,,,,,,,,,
-,,sa58_std_lower_receiver,RSA SA-58 7.62x51,0,0.37,,,,,,,,,,0
+,,sg58_std_lower_receiver,RSA SG58 7.62x51,0,0.37,,,,,,,,,,0
 ,sa58_rear_sight,,,,,,,,,,,,,,
-,,rsa_sa58_holland_type_sight,RSA SA-58 Holland Type,1,0.02,,,,,,,,,,200
-,,rsa_sa58_para_rear_sight,RSA SA-58 Metric PARA,1,0.02,,,,,,,,,,0
-,,rsa_sa58_rear_sight_picatinny_mount,RSA SA-58 Rear Sight Picatinny,0.5,0.02,,,,,,,,,,500
+,,rsa_sg58_holland_type_sight,RSA SG58 Holland Type,1,0.02,,,,,,,,,,200
+,,rsa_sg58_para_rear_sight,RSA SG58 Metric PARA,1,0.02,,,,,,,,,,0
+,,rsa_sg58_rear_sight_picatinny_mount,RSA SG58 Rear Sight Picatinny,0.5,0.02,,,,,,,,,,500
 ,sa58_stock,,,,,,,,,,,,,,
-,,rsa_sa58_para_fold_assembly,RSA SA-58 Para Fold Assembly,0,0.06,0,0,,,,,,,,500
-,,rsa_sa58_polymer_humpback_stock,RSA Humpback Polymer Fixed,10,0.36,-10,-10,,,,,,,,0
-,,rsa_sa58_x_series_stock,RSA SA58 FAL X-Series,12,0.29,-8,-8,,,,,,,,500
-,,rsa_sa58_buttpad,RSA SA58 FAL X-Series,1,0.05,,,,,,,,,,0
-,,rsa_sa58_wood_humpback_stock,SA58 Humpback Wood Fixed,9,0.39,-11,-11,,,,,,,,1200
-,,sa58_wood_stock_buttpad,SA58 Wood,1,0.03,,,,,,,,,,0
-,,rsa_sa58_pistol_qd_sling_endplate,RSA SA-58 Pistol QD Sling,5,0.05,8,8,,0.5,,,,,,1000
+,,rsa_sg58_para_fold_assembly,RSA SG58 Para Fold Assembly,0,0.06,0,0,,,,,,,,500
+,,rsa_sg58_polymer_humpback_stock,RSA Humpback Polymer Fixed,10,0.36,-10,-10,,,,,,,,0
+,,rsa_sg58_x_series_stock,RSA SG58 FAR X-Series,12,0.29,-8,-8,,,,,,,,500
+,,rsa_sg58_buttpad,RSA SG58 FAR X-Series,1,0.05,,,,,,,,,,0
+,,rsa_sg58_wood_humpback_stock,SG58 Humpback Wood Fixed,9,0.39,-11,-11,,,,,,,,1200
+,,sg58_wood_stock_buttpad,SG58 Wood,1,0.03,,,,,,,,,,0
+,,rsa_sg58_pistol_qd_sling_endplate,RSA SG58 Pistol QD Sling,5,0.05,8,8,,0.5,,,,,,1000
 ,sa58_barrel,,,,,,,,,,,,,,
-,,rsa_sa58_210mm_premium_pistol_barrel,"RSA SA-58 8.25"" Premium Pistol",13,0.49,9,9,,0.35,-0.09,-158,,,,1000
-,,rsa_sa58_305mm_barrel,"RSA SA-58 12""",8,0.67,6,6,,0.15,-0.06,-131,,,,750
-,,rsa_sa58_330mm_barrel,"RSA SA-58 13""",5,0.72,4,4,,0.1,-0.04,-81,,,,500
-,,rsa_sa58_406mm_barrel,"RSA SA-58 16""",0,0.93,0,0,,0,0,71,,,,0
-,,rsa_sa58_457mm_barrel,"RSA SA-58 18""",-5,1.03,-4,-5,,-0.1,0.03,143,,,,750
-,,rsa_sa58_533mm_barrel,"RSA SA-58 21""",-10,1.13,-7,-8,,-0.25,0.08,238,,,,1000
-,,rsa_sa58_406mm_fluted_barrel,"RSA SA-58 16"" Fluted",2,0.86,1,2,,0,0,46,,,,400
+,,rsa_sg58_210mm_premium_pistol_barrel,"RSA SG58 8.25"" Premium Pistol",13,0.49,9,9,,0.35,-0.09,-158,,,,1000
+,,rsa_sg58_305mm_barrel,"RSA SG58 12""",8,0.67,6,6,,0.15,-0.06,-131,,,,750
+,,rsa_sg58_330mm_barrel,"RSA SG58 13""",5,0.72,4,4,,0.1,-0.04,-81,,,,500
+,,rsa_sg58_406mm_barrel,"RSA SG58 16""",0,0.93,0,0,,0,0,71,,,,0
+,,rsa_sg58_457mm_barrel,"RSA SG58 18""",-5,1.03,-4,-5,,-0.1,0.03,143,,,,750
+,,rsa_sg58_533mm_barrel,"RSA SG58 21""",-10,1.13,-7,-8,,-0.25,0.08,238,,,,1000
+,,rsa_sg58_406mm_fluted_barrel,"RSA SG58 16"" Fluted",2,0.86,1,2,,0,0,46,,,,400
 ,sa58_gas_piston,,,,,,,,,,,,,,
-,,rsa_sa58_pistol_gas_piston,RSA SA-58 Pistol Length,2,0.01,-1,-2,,,,,,,,100
-,,rsa_sa58_rifle_gas_piston,RSA SA-58 Rifle Length,0,0.03,-2,-3,,,,,,,,0
+,,rsa_sg58_pistol_gas_piston,RSA SG58 Pistol Length,2,0.01,-1,-2,,,,,,,,100
+,,rsa_sg58_rifle_gas_piston,RSA SG58 Rifle Length,0,0.03,-2,-3,,,,,,,,0
 ,z_rail_mount,,,,,,,,,,,,,,
 ,,z_rail_side_mount2,Z-Rail Side,-1,0.04,,,,,,,,,,0
 ,,z_rail_side_mount1,Z-Rail Side,-1,0.04,,,,,,,,,,0
@@ -2470,8 +2470,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,starsurp_ace_recoil_pad,,,,,,,,,,,,,,
 ,,starsurp_starsurp_apex_0.5_recoil_pad,StarSurp APEX M4 SOCOM Gen4,2,0.03,-1,-1,,,,,,,,0
 ,rsa_sa58_mag_plate,,,,,,,,,,,,,,
-,,rsa_sa58_enhanced_bumper_magazine_bottom_plate,RSA FAL SA-58 Enhanced Bumper Magazine,1,0.03,,,,,,,,,,500
-,,rsa_sa58_mag_bottom_plate,RSA FAL SA-58 Magazine,0,0.02,,,,,,,,,,0
+,,rsa_sg58_enhanced_bumper_magazine_bottom_plate,RSA FAR SG58 Enhanced Bumper Magazine,1,0.03,,,,,,,,,,500
+,,rsa_sg58_mag_bottom_plate,RSA FAR SG58 Magazine,0,0.02,,,,,,,,,,0
 ,fn_fal_halbek,,,,,,,,,,,,,,
 ,,rhodesian_halbek_muzzle_device,Rhodesian Reproduction Halbek,-3,0.07,12,-22,,0.1,-0.01,0,,,,1200
 ,onyx_adapter,,,,,,,,,,,,,,
@@ -2946,7 +2946,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,AK308,Kazarov Group AK-308,20,0,80,100,0,0.75,1,1900,,,1,65000
 ,,M4A1,AR-15,15,0,65,85,0,0.6,1,2450,,,1,0
 ,,QBZ95,Sanxian QBZ-95,50,0,50,50,0,0.4,0.92,2500,,,1,25000
-,,SA58,RSA SG-58,15,0,85,105,0,0.75,1,1900,,,1,20000
+,,SG58,RSA SG58,15,0,85,105,0,0.75,1,1900,,,1,20000
 ,,SCAR47,HILT Defense MK-76,40,0,55,60,0,0.5,1,1800,,,1,60000
 ,,SCARH,AFT MK-17,5,0,75,80,0,0.6,1,1900,,,1,75000
 ,,SCARL,AFT MK-16,35,0,60,65,0,0.45,1,2450,,,1,40000

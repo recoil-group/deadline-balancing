@@ -97,8 +97,8 @@ id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black
 95,virticon_rx01/06_series_1x24_reflex_sight,not_magnified,10,0.33, ,false,false
 96,virticon_rx01/06_series_1x24_reflex_sight_ch,not_magnified,10,0.33, ,false,false
 97,sno_vulkan_rpg_7_rear_sight,60, , , ,false,false
-98,rsa_sa58_holland_type_sight,not_magnified, , , ,false,false
-99,rsa_sa58_para_rear_sight,not_magnified, , , ,false,false
+98,rsa_sg58_holland_type_sight,not_magnified, , , ,false,false
+99,rsa_sg58_para_rear_sight,not_magnified, , , ,false,false
 100,hart_rear_ironsight_200m,not_magnified, , , ,false,false
 101,strauss_cq_deltapoint_pro_rear_ironsight,not_magnified, , , ,false,false
 102,dams_mangonel_rear_sight,not_magnified, , , ,false,false

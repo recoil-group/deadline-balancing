@@ -36,6 +36,7 @@ The root balancing CSVs are authoritative for the stats and fields they define; 
 - `name` is the primary key used to match items across CSVs and Studio.
 - `fire_rate`, `bullet_damage`, `muzzle_loudness` are fractional modifiers applied to base weapon or ammo stats. so `0.1` damage means increase damage by 10% of the gun's base damage.
 - The scripts use `utf-8-sig` CSV handling. This standard should apply to all CSVs.
+- The game only accepts lowercase `true`/`false` in the root CSVs (`calibers.csv`, `balancing.csv`, etc.). Excel round-trips uppercase booleans to `TRUE`/`FALSE`; after editing in Excel, run `python fix_booleans.py <file>.csv` to lowercase them before the sheet is imported.
 - Empty cells in change sheets are significant: `port.py` can overwrite target cells with empty strings.
 - For CSV work, check `git status --short` and potentially sample the first three lines (`sed -n '1,3p' <file>.csv` or `Get-Content <file>.csv -TotalCount 3`).
 

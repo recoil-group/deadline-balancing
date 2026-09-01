@@ -1,4 +1,4 @@
-﻿0.25.4,Sun Aug 30 20:37:40 2026,,,,,,,,,,,,,,
+﻿0.25.4,Mon Aug 31 22:39:42 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -1781,9 +1781,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,7.62x51_federal_m118lr_175gr_otm,Federal M118LR 175gr OTM,-1,0.08,3,4,,-0.2,,-150,,,,3000
 ,,7.62x51_appalachian_m80_149gr_fmj,Appalachian M80 149gr FMJ,0,0,0,0,,0,,0,,,,0
 ,ammo_7.62x54r,,,,,,,,,,,,,,
-,,7.62x54r_norilsk_7n1_151gr_ps,7.62x54R Norilsk 7N1 151gr PS,0,0.1,,,,,,,,,,0
-,,7.62x54r_zim_rifle_150gr_spbt,7.62x54R ZiM Rifle Line 150gr SPBT,0,0.1,1,1,,0.1,,100,,,,2000
-,,7.62x54r_norilsk_7t2_149gr_green_tracer,7.62x54R Norilsk 7T2 149gr Green Tracer,1,0.13,3,3,,0.2,,200,,,,1000
+,,7.62x54r_norilsk_7n1_151gr_ps,Norilsk 7N1 Snaiperskye 151gr PS,-1,0.01,1,2,,-0.2,,-50,,,0,2500
+,,7.62x54r_pga_rifle_150gr_spbt,Prva Garda Rifle Line 150gr SP-BT,1,0,0,-2,,-0.05,,-100,,,0,1000
+,,7.62x54r_norilsk_7t2m_149gr_green_tracer,Norilsk 7T2M 149gr Green Tracer,2,0,-3,-3,,0.1,,100,,,0,1000
+,,7.62x54r_tsniitekhmash_57_n_323s_148gr_lps,TsNIITekhMash 57-N-323S 148gr LPS,0,0,0,0,,0,,0,,,0,0
+,,7.62x54r_s&b_174gr_hpbt,Serrano & Belmonte 174gr HPBT,1,0.08,-2,-1,,-0.15,,-150,,,0,1500
+,,7.62x54r_norilsk_7n14_152gr_snb,Norilsk 7N14 Snaiperskaya 152gr SNB,-1,0.01,2,2,,-0.15,,-50,,,0,4000
+,,7.62x54r_tsniitekhmash_7n37_182gr_bs,TsNIITekhMash 7N37 Chórnoye Górlyshko 182gr BS,-2,0.08,3,7,,-0.1,,200,,,0,5000
+,,7.62x54r_norilsk_b32m_164gr_api,Norilsk B-32M 162gr API,-2,0.02,2,3,,0.05,,0,,,0,3000
 ,ammo_762x39,,,,,,,,,,,,,,
 ,,7.62x39_kazarov_57n231_ps_gzh_123gr,Kazarov 57-N-231 PS gzh 123gr,0,0,0,0,,0,,0,,,0,0
 ,,7.62x39_pga_rifle_123gr_jsp,Prva Garda Rifle Line 123gr JSP,-1,0.01,2,4,,0.05,,75,,,0,1000

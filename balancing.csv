@@ -2409,9 +2409,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,rsa_metric_front_sight_size1,RSA Metric Size 1,1,0.01,,,,,,,,,,0
 ,,fnb_precision_fal_crosshair_front_sight,F&B Precision FAL Crosshair,1,0.01,,,,,,,,,,200
 ,sa58_grip,,,,,,,,,,,,,,
-,,sa58_std_grip,RSA SA-58 Standard,1,0.09,-5,-5,,,,,,,,0
-,,rsa_sg58_m249_saw_style_pistol_grip,RSA SG58 SAW Style,1,0.1,-6,-7,,,,,,,,750
-,,protac_ergonomic_ag_fal_pistol_grip,PRO Tactical Ergonomic AG-FAL,3,0.1,-5,-4,,,,,,,,1500
+,,sa58_std_grip,RSA SA-58 Standard,1,0.08,-5,-5,,,,,,,,0
+,,rsa_sg58_m249_saw_style_pistol_grip,RSA SG58 SAW Style,3,0.1,-5,-4,,,,,,,,1500
+,,protac_ergonomic_ag_fal_pistol_grip,PRO Tactical Ergonomic AG-FAL,1,0.1,-7,-5,,,,,,,,750
+,,rsa_sg58_wooden_grip,RSA SG-58 Wooden,0,0.11,-8,-6,,,,,,,,750
 ,sa58_handguard,,,,,,,,,,,,,,
 ,,rsa_sa58_belgian_style_full_length_handguard,RSA SA-58 Belgian Style Full Length,8,0.3,-16,-17,,0.03,,,,,,0
 ,,rsa_sa58_wood_full_length_handguard,SA-58 Wood Full Length,9,0.5,-18,-19,,0.03,,,,,,1000

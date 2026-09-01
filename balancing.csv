@@ -613,6 +613,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,northeast_industries_supp_series_sp15m_mlok_handguard,"Northeast Industries Suppressor Series SP15M MLOK 15""",7,0.38,-11,-18,,,,,,,,1500
 ,,northeast_industries_supp_series_sp18m_mlok_handguard,"Northeast Industries Suppressor Series SP18M MLOK 18""",5,0.42,-12,-20,,,,,,,,1600
 ,,hart_607_car15_triangle_7inch_handguard,"Hart 607 CAR-15 Triangle 7""",16,0.19,-8,-10,,0.03,,,,,,550
+,,hart_xm177_handguard_bottom_part,XM177 Carbine,17,0.2,-9,-9,,0.03,,,,,,750
+,,hart_xm177e1_slim_plastic_handguard,XM177E1 Slim Plastic,,,,,,,,,,,,0
+,,hart_xm177e2_slim_plastic_handguard,XM177E2 Slim Plastic,,,,,,,,,,,,0
 ,modtac_mounting_coupler,,,,,,,,,,,,,,
 ,,taclite_mrac_gen2_mounting_coupler,TACLITE M-RAC Gen2,0,0.08,,,,,,,,,,300
 ,,taclite_mrac_gen3_mounting_coupler,TACLITE M-RAC Gen3,0,0.08,,,,,,,,,,500

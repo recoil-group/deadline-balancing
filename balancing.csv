@@ -1110,7 +1110,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,magazine_7.62x51_fn_fal,,,,,,,,,,,,,,
 ,,rsa_sa58_fal_metric_magazine_5r,RSA FAL SA-58 U.S. Made Metric 5R,11,0.16,,,5,,,,,,,200
 ,,rsa_sa58_fal_metric_magazine_10r,RSA FAL SA-58 U.S. Made Metric 10R,7,0.32,,,10,,,,,,,500
-,,rsa_sa58_fal_metric_magazine_20r,RSA FAL SA-58 U.S. Made Metric 20R,0,0.61,,,20,,,,,,,0
+,,rsa_sa58_fal_metric_magazine_20r,RSA FAL SA-58 U.S. Made Metric 20R,0,0.63,,,20,,,,,,,0
 ,,rsa_sa58_fal_metric_magazine_30r,RSA FAL SA-58 U.S. Made Metric 30R,-7,0.92,,,30,,,,,,,2000
 ,,rsa_sa58_fal_metric_polymer_magazine_10r,RSA FAL SA-58 U.S. Made Polymer Metric 10R,5,0.28,,,10,,,,,,,800
 ,,rsa_sa58_fal_metric_polymer_magazine_20r,RSA FAL SA-58 U.S. Made Polymer Metric 20R,-3,0.48,,,20,,,,,,,1000

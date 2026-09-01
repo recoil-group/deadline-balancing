@@ -1782,8 +1782,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,7.62x51_appalachian_m80_149gr_fmj,Appalachian M80 149gr FMJ,0,0,0,0,,0,,0,,,,0
 ,ammo_7.62x54r,,,,,,,,,,,,,,
 ,,7.62x54r_norilsk_7n1_151gr_ps,7.62x54R Norilsk 7N1 151gr PS,0,0.1,,,,,,,,,,0
-,,7.62x54r_zim_rifle_150gr_spbt,7.62x54R ZiM Rifle Line 150gr SPBT,0,0.1,1,1,,0.1,,100,,,,2000
-,,7.62x54r_norilsk_7t2_149gr_green_tracer,7.62x54R Norilsk 7T2 149gr Green Tracer,1,0.13,3,3,,0.2,,200,,,,1000
+,,7.62x54r_pga_rifle_150gr_spbt,7.62x54R ZiM Rifle Line 150gr SPBT,0,0.1,1,1,,0.1,,100,,,,2000
+,,7.62x54r_norilsk_7t2m_149gr_green_tracer,7.62x54R Norilsk 7T2 149gr Green Tracer,1,0.13,3,3,,0.2,,200,,,,1000
 ,ammo_762x39,,,,,,,,,,,,,,
 ,,7.62x39_tula_57n231_122gr_ps,7.62x39 Tula 57-N-231 123gr PS,0,0,0,0,,0,,0,,,,0
 ,,7.62x39_zim_rifle_123gr_jsp,7.62x39 ZiM Rifle Line 123gr JSP,-2,0.03,3,3,,0.1,,-50,,,,2000

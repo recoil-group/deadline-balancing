@@ -1,0 +1,297 @@
+﻿category,old_name,new_name,status,used_for,notes
+weapon manufacturers,Colt,Hart,done,"M4/CAR-15/XM177 platform, SMG mags",Renamed ~Jul 2025 via short-lived interim 'Camarillo'. M4A1 weapon itself absorbed into KF416D.
+weapon manufacturers,Kalashnikov Concern (Izhmash),Kazarov / Kazarov Group,done,AK-74/AKM/AK-12/AK-308/RPK-16 and all AK furniture/mags,"Izhmash -> Kazarov, Kalashnikov Concern -> Kazarov Group. 'Izhevsk' (PM pistol parts) kept as-is (factory/city name)."
+weapon manufacturers,Heckler & Koch (HK),KF (Kepler & Forst),partial,"HK416/M27, G3, PSG-1, MP5, UMP platforms","Weapons rebranded under KF: HK416 -> KF416 (Colt M4A1 is KF416D), M27 -> KF M27 IAR, G3 -> KG-31, PSG-1 -> SKG-31, MP5 -> MPi-54, HK94 -> KF-94, UMP -> UMK. A few 'MP5/HK94' display names remain."
+weapon manufacturers,FN Herstal,AF Tournai / AFT,partial,"SCAR/FAL platforms, mags, ammo","Company -> AF Tournai (Tournai echoes Herstal, Belgium); SCAR weapons -> AFT MK-16/MK-17/Mk20; aftermarket 'SCAR' -> 'FANG'; FN FAL -> RSA SA-58 (moved under DSA's fictional brand)."
+weapon manufacturers,Sig Sauer,Sic Stürmer,done,"P320, Romeo optics, Foxtrot lights",Internal ids keep sig_sauer_ prefix.
+weapon manufacturers,Steyr Arms,Löwenherz,done,AUG A1/A3 platform,Internal ids keep steyr_aug_ prefix.
+weapon manufacturers,Remington,Roosevelt,partial,"Model 700/870 platform, ammo",Internal ids r700_/r870_. Product: Remington 700 -> Rem700 interim -> Roosevelt 700. Caliber .223 Remington -> '.223Rose'.
+weapon manufacturers,Glock,KOSCH,partial,"Glock 17/20 platform, slides, mags",In progress: kosch_ items live alongside many rows still displaying 'Glock'. Generic glock-pattern mags rebranded 'PF940' (Polymer80 reference). CmmG mag adapters reference 'Colt' -> 'Hart SMG' mags.
+weapon manufacturers,KRISS USA,KALIS,partial,Vector platform,Vector -> KALIS Scalar. One '9x19 KRISS MagEx2' display name remains.
+weapon manufacturers,DSA (DSArms),RSA,done,FAL/SA-58 platform,Product SA-58 -> SG-58 (Jul 2026). Also absorbed FN FAL items.
+weapon manufacturers,Norinco,Sanxian,done,QBZ-95 platform,
+weapon manufacturers,Zenitco,Veles,done,"AK aftermarket (B-series rails, Klesch, Perst)",companies.csv proposed 'Veles' for velesCo; in practice Veles replaced Zenitco. Zenit-BelOMO -> Veles ChelOMO.
+weapon manufacturers,Enfield (RSAF),Sheffield,done,L1A1 SLR,L1A1 SLR -> Sheffield L4.
+weapon manufacturers,Noveske Rifleworks,Nowa (display) / Novacek (internal),done,N4 rifle parts,"Display 'Nowa'; internal ids renamed nowa_ -> novacek_ (renames.csv), display unchanged."
+weapon manufacturers,PTR Industries,CTR,done,G3-pattern barrels/parts,HK G3 clone parts -> CTR 91.
+weapon manufacturers,Shenzhen Defender,Qingyuan Defense,done,QBZ-95 aftermarket,companies.csv proposed 'Schneider Defense'; applied name is Qingyuan Defense.
+weapon manufacturers,Airtronic USA,LaunchTron USA,done,RPG-7 (PSRL),
+weapon manufacturers,NPO Bazalt,SNO Vulkan,done,RPG-7 parts,
+"optics, lasers & lights",Aimpoint,Azimuth,done,"CompM2/M4, Micro T-1/T-2, ACRO, 3X-C",Was lowercase 'azimuth' until 0.25.3.
+"optics, lasers & lights",EOTech,HOLOTEC,done,"553/512/EXPS/XPS holographics, G33, Vudu",EFLX -> HELX; OGL laser -> OWL.
+"optics, lasers & lights",Trijicon,Virticon,partial,"ACOG, RMR, iron sights",Product ACOG -> ARCS (renames.csv); 3 display leftovers still say 'Trijicon'.
+"optics, lasers & lights",Elcan (Raytheon),RECAN,partial,"C79A2, Specter OS4X, SpecterDR",
+"optics, lasers & lights",Holosun,HoloStar,done,"HS510C, HE510C-GR, HS401G5, LS321G",companies.csv placeholder said 'har'; applied name is HoloStar.
+"optics, lasers & lights",Vortex Optics,Cyclone Optics,done,"Razor AMG UH-1, mounts",
+"optics, lasers & lights",Leupold & Stevens,Strauss & Double,done,"DeltaPoint PRO, scopes, mounts",
+"optics, lasers & lights",Burris,Alistair,done,"AR-332/AR-536 prisms, AR PRB mounts",
+"optics, lasers & lights",NcStar / VISM,CosmoTac,done,"budget optics, mounts, LAM modules",
+"optics, lasers & lights",BelOMO,ChelOMO,done,"PSO-1, PK-A, PK-AS, PK-06 Kobra",'Chelyabinsk Optical Mechanical Holding'.
+"optics, lasers & lights",VOMZ (Pilad),NOMZ,done,Pilad P3.5x20,'Novgorod Optical Manufacturing Plant'.
+"optics, lasers & lights",Valday,Volhov,partial,"1P87/1P90, ZT-310 mounts",Internal ids renamed valday->volhov; display still says 'Valday JSC Optics'.
+"optics, lasers & lights",NPZ,,kept,1P78 Kashtan etc.,Real name kept.
+"optics, lasers & lights",Hensoldt,Hetzel AG,done,"6x42 scope, eye cup",Proposal history: 'Hartmann' then Hetzel.
+"optics, lasers & lights",Zeiss,Geiss,done,ZFK eye cups,companies.csv proposed 'Geass'; applied spelling is Geiss.
+"optics, lasers & lights",Armasight,Squadsight,done,Orion 3x night vision,
+"optics, lasers & lights",Insight Technology,Percept Technology,done,"AN/PEQ-2A, AN/PEQ-5, AN/PAQ-4A, WMX200",
+"optics, lasers & lights",L3Harris,N4 Harrison,done,ATPIAL AN/PEQ-15 lasers,Interim 'L3Harrison' until 0.25.3.
+"optics, lasers & lights",Wilcox Industries,Whitehouse Products,done,"RAID Xe lasers, COMP-M mount",Product RAID Xe -> RUSH Qe (renames.csv). sheet.csv misattributed Whitehouse to Steiner eOptics.
+"optics, lasers & lights",Steiner eOptics,,note,,sheet.csv proposed 'Whitehouse' but that name went to Wilcox; no Steiner items found in current sheet.
+"optics, lasers & lights",Surefire,Centrefire,partial,"Scout lights, suppressors",One 'Surefire' display leftover.
+"optics, lasers & lights",Modlite Systems,WepMod Systems,done,PLHV2 light heads,
+"optics, lasers & lights",Malkoff,Hoffman,unverified,flashlight heads,
+"optics, lasers & lights",Arisaka Defense,Nariakira Defense,done,"Inline Scout mounts, 300/18650 light bodies",
+"optics, lasers & lights",B.E. Meyers,,not_renamed,MAWL-C1+ laser,Real name still used; no proposal recorded.
+"optics, lasers & lights",Laser Devices Inc,,not_renamed,LAS/TAC 2 laser,Display shows only the product name; real maker Laser Devices not named.
+"optics, lasers & lights",Firefield,EmberField,done,lasers,
+"optics, lasers & lights",Ultrafire,Hyperbeam,not_renamed,flashlights,
+"optics, lasers & lights",Armytek,Lumatech,not_renamed,flashlights,
+"optics, lasers & lights",Aimtech,Optech,done,shotgun saddle mounts,
+"optics, lasers & lights",Sightmark,,not_renamed,budget optics,Proposed 'Total-Zero Optics'; 'Sightmark' still in current sheet.
+"optics, lasers & lights",Barska,UltraCROSS,done,4x20 carry-handle scopes,
+"optics, lasers & lights",Nightforce,,not_renamed,scopes,Proposed 'Nighthawk'; not applied in current sheet.
+"optics, lasers & lights",Monstrum Tactical,,not_renamed,budget scopes,Proposed 'Abomination Military Supply'; 'Monstrum' still in current sheet.
+"optics, lasers & lights",Axion,Adron,done,Kobra-style dovetail collimators,
+"optics, lasers & lights",Scalarworks,Vectorworks,done,"LEAP/01 mounts, PEAK/01 irons",
+"optics, lasers & lights",Badger Ordnance,Corvus Mounts,partial,"scope mounts, rings",Distinct from Corvus Defensio (-> Aquila proposal).
+"optics, lasers & lights",SC Irregulars,AT Refine,done,OMM optic mounts,A few 'SC Irregulars' display names remain.
+"optics, lasers & lights",,Priceli Narod,unidentified,OKP-7 collimator,Single fictional brand (possibly later shortened to 'Narod'); real-world OKP-7 maker never named in this repo.
+ammunition,Hornady,Hawthorne,done,"BLACK, V-MAX, XTP, Sub-X lines",Interim 'Hornet' (Jul 2026) then Hawthorne.
+ammunition,Fiocchi,Laccio,done,"Field Dynamics, Extrema lines",Identification inferred: 'Field Dynamics' and 'Extrema' are real Fiocchi lines; both Italian words.
+ammunition,Lapua,Laukaa,done,S405 7.62x39,Laukaa is Lapua's real hometown.
+ammunition,Wolf Performance Ammunition,Fox Performance Ammunition,done,5.45x39 HPBT,
+ammunition,Wolf Hill,Fox Hill,done,12G bean bag rounds,
+ammunition,Barnaul (Silver Bear),Birsk (Polar Bear),done,5.45x39 Silver Bear,
+ammunition,PPU (Prvi Partizan),Zlatni Meci (ZiM),unverified,Rifle Line / Handgun Line,Early sheet.csv proposal 'Prva Garda' unused.
+ammunition,Sellier & Bellot,,not_renamed,Sv43 123gr tracer,Proposals 'Serrano & Belmonte' / 'Joshua & Danny' not applied; internal ids still s&b_.
+ammunition,Novosibirsk Cartridge Plant,Norilsk Ammunition Factory,partial,"7.62x54R 7N1/7T2, 9x18 Pst",
+ammunition,TsNIITochMash,TochMash,partial,SP-series 9x18,
+ammunition,Nammo,Emmeo,done,M993/M995 AP,
+ammunition,Norma,Traviata,unverified,MLE RHT Frangible,
+ammunition,NovX,NewQ,unverified,Pentagon MCHP,
+ammunition,Blazer (CCI),Phoenix,done,.45 ACP / 10mm Auto FMJ,Also 'Phoenix Hellfire' dragon's breath.
+ammunition,Armscor,Ammocor,unverified,9x19 subsonic FMJ,Display still shows 'ARMSCOR USA'; internal caliber keys unchanged.
+ammunition,"Ammo, Inc.",Munitions Incorporated,done,.45 ACP,
+ammunition,CBC (Magtech),Rio Caliber Group,unverified,5.56x45 M196 tracer,
+ammunition,Underwood Ammo,Underworld,done,"Xtreme Penetrator, Controlled Chase",
+ammunition,Lake City AAP,Appalachian,done,M855/M855A1/M856A1/Mk.318 military lots,Identification inferred from military designations; proposed 'Bayhou Borough' unused. Some M193/M856A1/M118LR still branded 'Federal'.
+ammunition,Federal (incl. Premium),,not_renamed,"M193, M856A1, M118LR, shotshells",Proposed 'Homeland Defense Munitions'; still real in current sheet.
+ammunition,Winchester,,not_renamed,"Silvertip, Service Grade, M80, M882",Proposed 'Alchaplin'; still real in current sheet.
+ammunition,Speer,,not_renamed,Gold Dot,Proposed 'Pike'; still real in current sheet.
+ammunition,Liberty Ammunition,,not_renamed,Civil Defense,"Proposed 'Freedom Ammunition'; unclear, 'Freedom' hits are Freedom Arms (2A Armament)."
+ammunition,TsNIITekhMash,,not_renamed,8M3 Effect 124gr HP,Real name kept; distinct company from TsNIITochMash -> TochMash.
+ammunition,Bulletec,Strelets,done,9x19 ammo,
+ammunition,Radway Green (BAE),CAe,done,L31A1 7.62x51,From sheet.csv; low confidence.
+ammunition,Target Sports USA,,note,,Fictional name 'Target Sports' actually replaced AIM Sports; real Target Sports USA unrelated.
+aftermarket & accessories,Magpul,Magtap,done,"PMAG, MOE, CTR, UBR, AFG, MBUS, everything","Product MOE -> MOA, RVG -> RCP, STR -> RTS (renames.csv)."
+aftermarket & accessories,Daniel Defense,Axtell Defence,done,"RIS II rails, grips, M4 receivers",Abbrev DD -> AD; RIS II -> RAF 2.
+aftermarket & accessories,Knight's Armament (KAC),Paladin's Armament (PAC),done,"RAS rails, rib sights, QDC",
+aftermarket & accessories,Geissele Automatics,Schmidt / Vallais,done,"Super Modular Rails, triggers","Both applied: rails 'Schmidt', some items 'Vallais' (Vallais Super FANG); Vallais partially consolidated into Schmidt Jul 2026."
+aftermarket & accessories,Midwest Industries,Northeast Industries,done,"SCAR extended rails, Supp Series handguards",
+aftermarket & accessories,Strike Industries,Smite Industries,done,"Viper MOD1, LINK, foregrips",Earlier proposal 'Assault Industries' unused.
+aftermarket & accessories,Kinetic Development Group,Dynamic Development Group,done,"SCAR/FANG rails, Sidelok",A few rows use misspelling 'Kinect Development Group'.
+aftermarket & accessories,Manticore Arms,Cerberus Arms,done,AUG aftermarket,
+aftermarket & accessories,Corvus Defensio,,unverified,AUG aftermarket,Proposed 'Aquila Defensio'; current sheet still shows Corvus Defensio items under 'Corvus'.
+aftermarket & accessories,Arid USA (Arid Concepts),,not_renamed,"AUG charging handles, case deflector","Displays say 'Arid Concepts'; believed to be the real company (Arid USA), not an intentional rename."
+aftermarket & accessories,Hera Arms,Eris Arms,partial,"CQR stocks, CCS",CCS -> CSS.
+aftermarket & accessories,CAA (Command Arms),TAS,done,"RS47 handguards, buffer tubes, HX-5",'TactiCore Armament Systems'.
+aftermarket & accessories,FAB Defense,P.R.O. Tactical,done,"UAS stocks, PR870, vertical grips",'Precision Rifle Optics'. One 'FAB Defense' display leftover.
+aftermarket & accessories,UTG (Leapers),ATG (Leopard),done,"PRO stocks, foregrips, mounts","Leapers -> Leopard, UTG -> ATG ('Applicable Tactical Gear')."
+aftermarket & accessories,Mission First Tactical,,not_renamed,grips,Proposed 'Operation Last Tactical'; still real if present.
+aftermarket & accessories,VLTOR,VYCTOR,partial,"EMOD stock, MUR upper",
+aftermarket & accessories,Bravo Company (BCM),,not_renamed,"Gunfighter grips, stock",Proposed 'Echo Company Machineworks'; 'BCM' still in current sheet.
+aftermarket & accessories,2A Armament,Freedom Arms,done,Builder Series handguards,
+aftermarket & accessories,A3 Tactical,Alpha Four Tactical,done,angled grips,
+aftermarket & accessories,AAC (Advanced Armament),EWC (Evolved Weaponries),done,SCAR-SD suppressor,
+aftermarket & accessories,ACE Ltd (DoubleStar),APEX Ltd,not_renamed,"stocks, recoil pads, AK grips",
+aftermarket & accessories,Accuracy International,Precision Intercontinental,done,AICS/AT chassis for R700,
+aftermarket & accessories,Aeroknox,Arrow (display) / Equinox (internal),done,"AX//15 receivers, handguards, sights","Proposed 'Aeontex' unused; display 'Arrow', internal ids equinox_ (renames.csv)."
+aftermarket & accessories,AIM Sports,Target Sports,partial,"AK mounts, riser bases",One 'Aimsports Mosin Tri-Rail' display leftover.
+aftermarket & accessories,Alpha Dog Silencers,Alpha Fox Silencers,not_renamed,9x19 suppressor,
+aftermarket & accessories,American Tactical Imports,Freedom Tactical Imports,not_renamed,,Proposed; verify in Studio.
+aftermarket & accessories,AMTAC Suppressors,ZETAC Suppressors,done,"5.56 suppressors, CQB",
+aftermarket & accessories,Apex Tactical,Nexa Tactical,unverified,triggers/parts,
+aftermarket & accessories,Arbalet,Luchnik,not_renamed,AK parts,Marked awaiting logo; verify applied state in Studio.
+aftermarket & accessories,A.R.M.S.,F.I.R.M.,done,"#40 iron sights, M16 scope mount",'Firearm Innovations & Research Manufacturing'.
+aftermarket & accessories,Arms RTG,Russian Tuning,done,AK-12 Megatron handguard,
+aftermarket & accessories,Armaspec,Tactispec,done,Stealth recoil springs etc.,
+aftermarket & accessories,AKademia,,not_renamed,AK parts,Proposed 'MarkAKachestva'; not applied.
+aftermarket & accessories,Ballistic Advantage,PrimaBarrels,done,AR barrels,Earlier proposal 'Kinetic Advantage' unused.
+aftermarket & accessories,BAR-STO,VAL-BOR,unverified,match barrels,
+aftermarket & accessories,Battle Arms Development,Combat Arms,done,"BAD lever, rack",companies.csv proposed lowercase 'apex'; applied name is Combat Arms.
+aftermarket & accessories,BHSpringSolutions,AllPistolSprings,done,TT-33 +1 mags,
+aftermarket & accessories,Boyds Gunstocks,Hunter,done,R700 Hunter stock,From sheet.csv: real Boyds 'Hunter' line kept as the brand.
+aftermarket & accessories,Brownells,Whitnalls,done,"XM177/CAR retro parts, BRN mags",sheet.csv misattributed Whitnalls to Colt.
+aftermarket & accessories,C&H Precision,D&L Precision,unverified,optic plates,
+aftermarket & accessories,Carlson's Choke Tubes,Wesson Choke Specialists,done,"chokes, cantilever slug barrel",
+aftermarket & accessories,Chefur Custom,Hahn Precision Works,done,PM threaded barrel,
+aftermarket & accessories,Choate Machine & Tool,Cartman Tool&Die,done,MP5 stocks,
+aftermarket & accessories,CMC Triggers,Fort Worth Manufacturing,done,drop-in triggers,
+aftermarket & accessories,CMMG,CmmG,done,"MK9, barrels, mag adapters",Stylization change only.
+aftermarket & accessories,CNC Warrior,CNC Arms,done,AK muzzle devices,
+aftermarket & accessories,Cosmic Tactical,StellarTAC,done,fiber scopes,
+aftermarket & accessories,CRH Customs,Ellipse 30,done,fixed AK triangle stock,
+aftermarket & accessories,Custom Gun Rails,CGR,done,novelty/skull rails and covers,Abbreviation of the real name kept as brand.
+aftermarket & accessories,Deadshot Barrels,Barreltech CNC Mfg,done,SCAR spiral barrels,
+aftermarket & accessories,Delta-Tek,Sigma-Tek,done,"DPMN, DTK muzzle devices",
+aftermarket & accessories,Diemaco,,kept,"C7/C8 parts, TRI-AD mount",Real name kept.
+aftermarket & accessories,DLP Tactical,Virginia Gear Tactical,done,TT-33 LAM module,Display 'TT Virginia Gear Tactical'.
+aftermarket & accessories,DoubleStar Corp,StarSurp Corp,done,"grip adapters, SOCOM stocks",
+aftermarket & accessories,Dozor,Khorovod,done,PM grip,
+aftermarket & accessories,DPMS Panther Arms,DAMS Mangonel,done,AR-15 iron sights,'Defense Acquisition Machining Services'.
+aftermarket & accessories,DURAMAG,EVERMAG,done,AR mags,
+aftermarket & accessories,Emissary Development,Courier DEV,unverified,handstops,companies.csv: models not found; verify Studio.
+aftermarket & accessories,ERGO Grips,FIT,done,"Suregrips, rail covers",Proposed 'DEXGRIP' unused; applied name is FIT.
+aftermarket & accessories,Fightlite Industries,STRIKON,done,SCR stocks,sheet.csv misattributed STRIKON to Standard Manufacturing (SCR is a Fightlite product).
+aftermarket & accessories,Fine Ballistic Tools,Refined Ballistic Machineworks,unverified,,Proposed; verify Studio.
+aftermarket & accessories,Fortis Manufacturing,Validus Defense,done,"LA grips, Shift",
+aftermarket & accessories,FR Ordnance,Ferro Ordnance Group,done,MC51 -> KG-51C uppers/barrels,
+aftermarket & accessories,GBRS Group,WARS Group,not_renamed,Hydra mount,'GBRS' still in current sheet (Hydra).
+aftermarket & accessories,GCT (Gun Custom Tuning),TrueLock Custom,done,PM tactic kit,
+aftermarket & accessories,Gear Head Works,GXW,done,"Tailhook braces, GLR-16/17",'Gear X Works'.
+aftermarket & accessories,Gemtech,Onyx,done,suppressors,
+aftermarket & accessories,GRAYGUNS,ASHGUNS,unverified,P-series parts,
+aftermarket & accessories,Griffin Armament,Gryphon Tactical,done,muzzle devices,
+aftermarket & accessories,Grip Pod Systems,GripPod Co.,not_renamed,bipod grips,Proposed; 'Grip Pod' style still present.
+aftermarket & accessories,Haga Defense,,not_renamed,G3 ACR stock adaptor,Proposed 'Skadi Armory'; real name still used (HAGA Defense).
+aftermarket & accessories,HANDL Defense,HILT Defense,done,"SCAR/FANG lowers, parts",
+aftermarket & accessories,Harris Engineering,Harrison Technical Solutions,partial,HBR bipods,
+aftermarket & accessories,HDPS,HDTS,done,UMP threaded barrels,
+aftermarket & accessories,Hexagon,Hex Tactical,done,DTKP muzzle brakes,Proposed 'HexTac'; applied as 'Hex Tactical'.
+aftermarket & accessories,Hi-Desert Dog,Hi-Dog,done,"SCAR/FANG gasblocks, barrels",'HDD Tactical' kept in display.
+aftermarket & accessories,Hogue,Rogue,done,"grips, grip gloves",
+aftermarket & accessories,HRF Concepts,HPF Concepts,done,RCM magwell,
+aftermarket & accessories,Hughes Precision,Tubewerx,done,suppressors,
+aftermarket & accessories,HUXWRX (OSS Suppressors),Spiderweb Suppressors,done,BPR suppressors,
+aftermarket & accessories,Imperial Arms Co,Monarch Ballistics,done,CypherX SCAR/FANG parts,
+aftermarket & accessories,Infinite Product Solutions,Apex Infinity Solutions,not_renamed,MP5 parts,Display shows 'IPS' abbrev; verify.
+aftermarket & accessories,Iron Claw Tactical,,not_renamed,AK magwell,Proposed 'Steel Talon Tactical'; not applied in current sheet.
+aftermarket & accessories,JMAC Customs,,not_renamed,AK parts,Proposed 'AJMM Customs'; verify Studio.
+aftermarket & accessories,JP Enterprises,,not_renamed,,Proposed 'DS Enterprises'; verify Studio.
+aftermarket & accessories,Juggernaut Tactical,Behemoth Tactical,done,featureless grips,
+aftermarket & accessories,KAK Industry,BNB Industries,not_renamed,AR9 barrels,
+aftermarket & accessories,Khyber Customs,,not_renamed,AK parts,Proposed 'Karakoram Customs'; not applied.
+aftermarket & accessories,KNS Precision,F&B Precision,done,FAL front sights,
+aftermarket & accessories,KSD Grips,ADD Grips,done,ivory pistol grips,
+aftermarket & accessories,L.A.C. (Lac-Custom),,not_renamed,PM/TT parts,Proposed 'Laika Gun Tuning'; not applied.
+aftermarket & accessories,Lancer Systems,Dragoon Systems,done,L5AWM/L7AWM mags,
+aftermarket & accessories,Lantac,PGTac,done,Dragon muzzle brakes,
+aftermarket & accessories,LaRue Tactical,LeRoux Tactical,done,QD LT-101 mounts,
+aftermarket & accessories,LayLax,ChillSet,done,FANG rail extension,
+aftermarket & accessories,Legal Arsenal,FireLine,done,bayonets etc.,
+aftermarket & accessories,Lewis Machine & Tool,,not_renamed,,Proposed 'Smith Machine & Tool'; 'LMT' presence unverified.
+aftermarket & accessories,Lingle Industries,,not_renamed,AR17 mag release,Item appears folded into Hart M4A1 naming; original brand gone.
+aftermarket & accessories,Lone Star Armory,,not_renamed,,Proposed 'Metroplex Armory'; not applied.
+aftermarket & accessories,Madbull Airsoft,,not_renamed,airsoft-sourced models,Proposed 'West Crane Airsoft'; not applied.
+aftermarket & accessories,MaTech,FabTech,partial,USGI rear BUIS,"Inconsistent: internal ids fab_tech_, displays mixed 'MaTech'/'FabTech'."
+aftermarket & accessories,MDT,MCS,done,LSS/TAC21 chassis,'Modular Component Systems'.
+aftermarket & accessories,Mechanix,Technix,done,gloves,Internal id technix_; the row has no display name.
+aftermarket & accessories,Mesa Tactical,Canyon Tactical,done,870 stocks/rails,
+aftermarket & accessories,MFI,,not_renamed,scope mounts,Proposed 'MJI'; not applied.
+aftermarket & accessories,MODTAC,TACLITE Armory,done,"M-RAC/U-RAC mounting couplers, suppressor shields",
+aftermarket & accessories,Molon Labe Industries,Carpe Diem Industries,done,FANG-H polymer mags,
+aftermarket & accessories,Molot,Kuvalda,done,RPK 6L18 45R mags,"Molot='hammer', Kuvalda='sledgehammer'."
+aftermarket & accessories,Moses Mag Works,Noah Magazines,done,FAL polymer mags,
+aftermarket & accessories,Moto-Tech Engineering,Edinburg Engineering,done,SCARburator,
+aftermarket & accessories,NBS,HTF (Hit The Fan),not_renamed,9x19 Colt mag adapter,
+aftermarket & accessories,Nordic Components,Kaleva Components,done,Corvette comp,
+aftermarket & accessories,Odin Works,,not_renamed,grips etc.,Proposed 'Allfather Customs'; not applied.
+aftermarket & accessories,OKB,,not_renamed,Soviet experimental parts,Proposed 'KEP'; real generic designation kept.
+aftermarket & accessories,Omega,,not_renamed,flashlights?,Proposed 'Q-LITE'; not applied.
+aftermarket & accessories,Pachmayr,,not_renamed,grip gloves,Proposed 'Bocheneks'; not applied.
+aftermarket & accessories,Palmetto State Armory,Tarheel State Arms (TSA),done,custom trigger,Display 'TSA G' trigger.
+aftermarket & accessories,Parker Mountain Machine (PMM),Everetts Machining,done,"FANG grips, bolt release",Display FANG items.
+aftermarket & accessories,Phoenix Rising,,not_renamed,shotgun ammo?,"Proposed 'Hellhound Rising'; 'Phoenix' now used by Blazer replacement, distinct."
+aftermarket & accessories,PJS,IHS,done,AUG A3 SA CQC rails,
+aftermarket & accessories,Primary Arms,Paramount Arms,done,SLx risers/mounts,Second proposal 'Secarm' unused.
+aftermarket & accessories,Primary Weapons Systems,,not_renamed,,Proposed 'Authentic Firearms Systems'; models not found.
+aftermarket & accessories,ProMag,ProClip,done,AK/archangel polymer mags,
+aftermarket & accessories,PTS,,not_renamed,airsoft-sourced,Proposed 'KTI'; verify Studio.
+aftermarket & accessories,PuP Light,,not_renamed,flashlight,Proposed 'BULLFLASH'; not applied.
+aftermarket & accessories,Radian Weapons,Ardian Weapons,partial,"Raptor handles, Model 1, RAMJET",Two display leftovers say 'Radian'.
+aftermarket & accessories,RailScales,,not_renamed,rail scales,Proposed 'RailSnakes'; not applied.
+aftermarket & accessories,Rat Worx,,not_renamed,,Proposed 'Mouse Wrks'; not applied.
+aftermarket & accessories,Razor Arms,,not_renamed,grips,Proposed 'Grip Arms'; not applied.
+aftermarket & accessories,Retro Arms,Retrospect,done,CNC AK parts,
+aftermarket & accessories,Rifle Dynamics,Weapon Dynamics,done,AK-to-M4 adapter,
+aftermarket & accessories,Rock Solid Industries,Resolute Industries,done,Mosin parts,Display 'ResoluteInd'. Second proposal 'Steadfast' unused.
+aftermarket & accessories,Rotor 43,,not_renamed,muzzle devices,Proposed 'Bunker 47'; not applied.
+aftermarket & accessories,RS Regulate,,not_renamed,AK optic mounts,Proposed 'GS Direct'; real name kept.
+aftermarket & accessories,RTM,,not_renamed,,Proposed 'Drummond Modular'; not applied.
+aftermarket & accessories,Rugged Suppressors,Resiliant Suppressors,done,Obsidian9,
+aftermarket & accessories,RWB,,not_renamed,,Proposed 'Tripo (Tri Poloski)'; not applied.
+aftermarket & accessories,SAG (Sureshot Armament),,not_renamed,AK chassis,Proposed 'Tempus Weapons Group'; not applied.
+aftermarket & accessories,Salient Arms International,,unverified,,Proposed 'SaBre'; sheet.csv claude zone guessed 'SAI' kept; unverified.
+aftermarket & accessories,Schmeisser GmbH,,not_renamed,60R quad mag?,Proposed 'Pfalzgraff GmbH'; not applied.
+aftermarket & accessories,Scout Scopes,,not_renamed,,Proposed 'Long-Flex Scopes'; not applied.
+aftermarket & accessories,SGM Tactical,,not_renamed,Saiga/KOSCH 50R mags,Proposed 'Fractured Segment Tac'; display 'SGMT' partially applied.
+aftermarket & accessories,Shockwave Technologies,Earthquake Tech,done,Raptor grip,
+aftermarket & accessories,SilencerCo,Suppressors Inc.,done,"Osprey, Sparrow",
+aftermarket & accessories,SLR Rifleworks,ALR Rifleworks,done,"SR47 brakes, handguards",'Auto-Loading-Rifle'. sheet.csv wrongly lists ALR as a real name.
+aftermarket & accessories,SOF Industries,,not_renamed,,Proposed 'FFG (Free Fire Group)'; not applied.
+aftermarket & accessories,Spike's Tactical,,not_renamed,combo mounts,Proposed 'Jackson's Tactical'; not applied.
+aftermarket & accessories,Springfield Armory,,not_renamed,,Proposed 'Salem Armory'; not applied.
+aftermarket & accessories,Spuhr,,not_renamed,scope mounts,Proposed 'Sture'; not applied.
+aftermarket & accessories,Stark Equipment,,not_renamed,grips,Proposed 'Bolt Equipment'; not applied.
+aftermarket & accessories,STNGR,STRYKR,done,handguards,
+aftermarket & accessories,Supernova,,not_renamed,,Proposed 'Nova'; not applied.
+aftermarket & accessories,Tactical Dynamics,,not_renamed,skeletonized grips,Proposed 'Ergo-Tec'; display now spells out 'Tactical Dynamics' (was 'TD').
+aftermarket & accessories,TALON Grips,,not_renamed,grip tape,Proposed 'MAUL Grips'; not applied.
+aftermarket & accessories,Tristar Arms,,not_renamed,Compact carry handle,Real name; no proposal recorded.
+aftermarket & accessories,TangoDown,TargetDown,done,BGV-MK46K grip,
+aftermarket & accessories,Taylor Freelance,Tyler Freelance,done,Hart SMG mag extension,
+aftermarket & accessories,Thordsen Customs,,not_renamed,featureless stocks,Proposed 'Tungsten Customs'; not applied. One display misspelled 'Thorsden'.
+aftermarket & accessories,Thunder Beast Arms,BPAC,partial,suppressors,"'Black Prince Arms Corporation'; partial, 'Thunder Beast' still present."
+aftermarket & accessories,Tiger Rock,Panther Rock,done,AR parts,
+aftermarket & accessories,Timber Creek Outdoors,Lumber River Outdoors,done,Enforcer grips/handstops,
+aftermarket & accessories,Timney,Lockwood,done,Impact 700 triggers,sheet.csv claude zone misattributed Lockwood to TriggerTech.
+aftermarket & accessories,TommyBuilt Tactical,,not_renamed,UMP Tailhook brace adapter,Proposed 'Taq & Built'; verify Studio.
+aftermarket & accessories,Troy Industries,Talvern Industries,partial,"Battlesights, M7A1 PDW stock, Claymore",Internal ids renamed troy_ -> talvern_ (renames.csv); displays still say 'Troy'.
+aftermarket & accessories,Truglo,,not_renamed,fiber sights,Proposed 'Trubright'; not applied.
+aftermarket & accessories,TSS Custom,,not_renamed,AK parts,Proposed 'FSS Industrial'; not applied.
+aftermarket & accessories,Type 97.ca,T97.ca,done,QBZ-95 Canada parts,Proposed 'X97.ca'; applied as T97.ca.
+aftermarket & accessories,UltiMAK,,not_renamed,AK optic rails,Proposed 'UltrAK'; not applied.
+aftermarket & accessories,UM Tactical,,not_renamed,UM3 sight riser,Displayed as the product name 'UM3'.
+aftermarket & accessories,United Scientific Industries,,not_renamed,SUSAT,Proposed 'British Scientific Manufacturing'; not applied.
+aftermarket & accessories,Unity Tactical,Harmony Tactical,done,FAST mounts,
+aftermarket & accessories,US Palm,US Pine,done,AK grips,
+aftermarket & accessories,velesCo,Veles,unverified,PM parts,Proposed 'Veles' but that brand went to Zenitco; velesCo items unverified.
+aftermarket & accessories,Veriforce Tactical,Quix Tacticals,done,AR handguards/gastubes,
+aftermarket & accessories,Viking Tactics (VTAC),,not_renamed,slings,Proposed 'Aesir Gear'; not applied.
+aftermarket & accessories,Wasatch Arms,Watcher Armory,done,KOSCH 10mm compensator,
+aftermarket & accessories,WAS Woodworks,,not_renamed,wood furniture,Proposed 'IS Joineries'; not applied.
+aftermarket & accessories,Weaver Optics,Spinner Optics,done,multi-slot rail bases,
+aftermarket & accessories,Wilson Combat,Whitner Defense,done,"EDC X9 parts, mounts",
+aftermarket & accessories,Windham Weaponry,Windsor Armory,done,"slings, railed gasblocks",
+aftermarket & accessories,Wyatt's Outdoors,Scrubs' Outdoors,done,hunting accessories,
+aftermarket & accessories,X Products,Cartesia Productions,done,"X-25/X-FAL drums, FANG trigger module",
+aftermarket & accessories,X-Caliber,Ex-Call,done,.223 Wylde barrels,
+aftermarket & accessories,XS Sights,HG Sights,unverified,870 ghost rings,HG Shortrail Ghost Ring.
+aftermarket & accessories,ZEV Technologies,Zvetech,done,"Z17 slides, KOSCH slide parts",Interim 'ZVE Technologies' (companies.csv); final applied name is Zvetech.
+aftermarket & accessories,Zenit-BelOMO,Veles ChelOMO,done,"PK-AS, PRC combos",Covered by Zenitco + BelOMO rows.
+aftermarket & accessories,,Hughnitions Company,unidentified,cheek pads,Real-world origin not recorded.
+aftermarket & accessories,,Abom's CNC Works,unidentified,Picatinny SUSAT adapter,Possibly Monstrum Tactical: companies.csv proposed 'Abomination Military Supply'.
+aftermarket & accessories,,Roch Custom,unidentified,Löwenherz AUG Para 9x19 40R mag,Real-world origin not recorded.
+aftermarket & accessories,,KHF,unidentified,I-E-A 34mm rings,Real-world origin not recorded.
+"fictional, origin unknown",,Archient Technologies,unidentified,,Real-world origin not recorded.
+"fictional, origin unknown",,EST,unidentified,,Real-world origin not recorded.
+"fictional, origin unknown",,UG Tactical,unidentified,,Real-world origin not recorded.
+"fictional, origin unknown",,PM-Laser LTsU,unidentified,PM laser module,LTsU = Russian for laser designator; origin unclear.
+"fictional, origin unknown",,Gral-S,unidentified,GP-25 style sight?,Possibly a real Russian designation; unverified.
+"fictional, origin unknown",,Ascend Armament,unidentified,,Real-world origin not recorded.
+"fictional, origin unknown",,EWS,unidentified,,Real-world origin not recorded.
+kept / notes,Adron,,note,,Fictional (ex-Axion) - listed in sheet.csv 'not renamed' by mistake.
+kept / notes,B&T,,kept,GHM9/APC parts,Real name kept.
+kept / notes,Baikal / Izhevsk Mech. Plant,,kept,PM pistol parts,Real factory/city name 'Izhevsk' used.
+kept / notes,German Democratic Republic (GDR),,kept,East German AK furniture,Historical origin label kept as-is.
+kept / notes,FujiFilm,,not_renamed,X-T20 camera prop,Real non-firearms brand still used (internal id stupid_camera).
+kept / notes,Ops-Core,,not_renamed,FAST SF helmet gear rows,Gear rows carry internal ids only (ops_core_fast_sf); no display name in this sheet.
+kept / notes,Buck Knives,,kept,bayonet/knife,Real name kept.
+kept / notes,Dynamic Development Group,,note,,This IS the fictional name for KDG; sheet.csv listed it as real by mistake.
+kept / notes,5.45 Design,,kept,AK furniture,Real name kept.
+kept / notes,IGB Austria,,kept,barrels,Real name kept.
+kept / notes,Northeast Industries,,note,,Fictional (ex-Midwest); sheet.csv listed as real by mistake.
+kept / notes,Ontario Knife Company,,kept,M9 bayonet,Real name kept.
+kept / notes,SB Tactical,,kept,pistol braces,Real name kept.
+kept / notes,Swampfox,,kept,optics,Real name kept.
+kept / notes,TDI Arms,,kept,AK furniture,Real name kept.

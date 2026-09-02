@@ -408,19 +408,19 @@
 	],
 	"SA58": [
 		{
-			"name": "RSA SG-58 Para",
+			"name": "RSA SG58 Para",
 			"required_attachments": [
 				[
-					"rsa_sa58_metric_para_folding_stock",
-					"rsa_sa58_folding_spr_para_stock_body"
+					"rsa_sg58_metric_para_folding_stock",
+					"rsa_sg58_folding_spr_para_stock_body"
 				]
 			]
 		},
 		{
-			"name": "RSA SG-58 Pistol",
+			"name": "RSA SG58 Pistol",
 			"required_attachments": [
-				"rsa_sa58_pistol_gas_piston",
-				"rsa_sa58_210mm_premium_pistol_barrel"
+				"rsa_sg58_pistol_gas_piston",
+				"rsa_sg58_210mm_premium_pistol_barrel"
 			]
 		}
 	],

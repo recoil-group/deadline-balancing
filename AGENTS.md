@@ -36,6 +36,7 @@ The root balancing CSVs are authoritative for the stats and fields they define; 
 - `name` is the primary key used to match items across CSVs and Studio.
 - `fire_rate`, `bullet_damage`, `muzzle_loudness` are fractional modifiers applied to base weapon or ammo stats. so `0.1` damage means increase damage by 10% of the gun's base damage.
 - The scripts use `utf-8-sig` CSV handling. This standard should apply to all CSVs.
+- The game only accepts lowercase `true`/`false` in the root CSVs (`calibers.csv`, `balancing.csv`, etc.). Excel round-trips uppercase booleans to `TRUE`/`FALSE`; after editing in Excel, run `python fix_booleans.py <file>.csv` to lowercase them before the sheet is imported.
 - Empty cells in change sheets are significant: `port.py` can overwrite target cells with empty strings.
 - For CSV work, check `git status --short` and potentially sample the first three lines (`sed -n '1,3p' <file>.csv` or `Get-Content <file>.csv -TotalCount 3`).
 
@@ -46,6 +47,15 @@ The root balancing CSVs are authoritative for the stats and fields they define; 
 - Prefer these textual tools over spreadsheet rendering unless the task depends on visual layout, formatting, charts, or other appearance details.
 - Running `port.py` without `--dry-run` writes the changes. Do so only when the user asks to port them.
 - A row with a blank `name` is usually intentional, not a missing name. Authors add combination or reference rows.
+
+## Renames
+
+When the user gives `old_name -> new_name` pairs or asks for renames:
+
+- Append the pairs to `renames.csv`.
+- Apply them with `rename.py`, which rewrites only the `name` column; leave `pretty_name` alone. `README.md` documents its usage.
+- Grep the old names and pass every ROOT level sheet keyed by them (ignore /changes), plus the latest /archive *-renamed.csv for changelog generation.
+- Dry run first: the script applies the whole list, so rows beyond the requested pairs are sheets that missed an earlier rename. Report those and any `!` collisions.
 
 ## Related Source and Studio Context
 

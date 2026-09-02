@@ -1,0 +1,299 @@
+﻿real_name,ingame_name,status,proposed_name,products,notes
+
+WEAPON MANUFACTURERS,,,,,
+Airtronic USA,LaunchTron USA,renamed,,RPG-7 (PSRL),
+Colt,Hart,renamed,,"M4/CAR-15/XM177 platform, SMG mags",The M4A1 weapon itself is branded KF416D.
+DSA (DSArms),RSA,renamed,,FAL/SA-58 platform,SA-58 product is branded SG-58. Also covers ex-FN FAL items.
+Enfield (RSAF),Sheffield,renamed,,L1A1 SLR,L1A1 SLR -> Sheffield L4.
+Kalashnikov Concern (Izhmash),Kazarov / Kazarov Group,renamed,,AK-74/AKM/AK-12/AK-308/RPK-16 and all AK furniture/mags,"Izhmash -> Kazarov, Kalashnikov Concern -> Kazarov Group. 'Izhevsk' (PM pistol parts) keeps the real factory/city name."
+Norinco,Sanxian,renamed,,QBZ-95 platform,
+Noveske Rifleworks,Nowa,renamed,,N4 rifle parts,Display 'Nowa'; internal ids novacek_.
+NPO Bazalt,SNO Vulkan,renamed,,RPG-7 parts,
+Shenzhen Defender,Qingyuan Defense,renamed,,QBZ-95 aftermarket,
+Sig Sauer,Sic Stürmer,renamed,,"P320, Romeo optics, Foxtrot lights",Internal ids keep sig_sauer_ prefix.
+Steyr Arms,Löwenherz,renamed,,AUG A1/A3 platform,Internal ids keep steyr_aug_ prefix.
+FN Herstal,AF Tournai / AFT,in progress,,"SCAR/FAL platforms, mags, ammo",Company -> AF Tournai; SCAR weapons -> AFT MK-16/MK-17/Mk20; aftermarket 'SCAR' parts -> 'FANG'; FN FAL items sit under RSA as the SA-58.
+Glock,KOSCH,in progress,,"Glock 17/20 platform, slides, mags",KOSCH items live alongside rows still displaying 'Glock'. Generic glock-pattern mags are branded 'PF940'.
+Heckler & Koch (HK),KF (Kepler & Forst),in progress,,"HK416/M27, G3, PSG-1, MP5, UMP platforms","Weapons rebranded under KF: HK416 -> KF416 (Colt M4A1 is KF416D), M27 -> KF M27 IAR, G3 -> KG-31, PSG-1 -> SKG-31, MP5 -> MPi-54, HK94 -> KF-94, UMP -> UMK. A few 'MP5/HK94' display names remain."
+KRISS USA,KALIS,in progress,,Vector platform,Vector -> KALIS Scalar. One '9x19 KRISS MagEx2' display name remains.
+Remington,Roosevelt,in progress,,"Model 700/870 platform, ammo",Internal ids r700_/r870_. The .223 Remington caliber is '.223Rose'.
+
+OPTICS & SIGHTS,,,,,
+A.R.M.S.,F.I.R.M.,renamed,,"#40 iron sights, M16 scope mount",'Firearm Innovations & Research Manufacturing'.
+Aimpoint,Azimuth,renamed,,"CompM2/M4, Micro T-1/T-2, ACRO, 3X-C",
+Aimtech,Optech,renamed,,shotgun saddle mounts,
+Armasight,Squadsight,renamed,,Orion 3x night vision,
+Axion,Adron,renamed,,Kobra-style dovetail collimators,
+Barska,UltraCROSS,renamed,,4x20 carry-handle scopes,
+BelOMO,ChelOMO,renamed,,"PSO-1, PK-A, PK-AS, PK-06 Kobra",'Chelyabinsk Optical Mechanical Holding'.
+Burris,Alistair,renamed,,"AR-332/AR-536 prisms, AR PRB mounts",
+Cosmic Tactical,StellarTAC,renamed,,fiber scopes,
+DPMS Panther Arms,DAMS Mangonel,renamed,,AR-15 iron sights,'Defense Acquisition Machining Services'.
+Hensoldt,Hetzel AG,renamed,,"6x42 scope, eye cup",
+Holosun,HoloStar,renamed,,"HS510C, HE510C-GR, HS401G5, LS321G",
+Insight Technology,Percept Technology,renamed,,"AN/PEQ-2A, AN/PEQ-5, AN/PAQ-4A, WMX200",
+KNS Precision,F&B Precision,renamed,,FAL front sights,
+Leupold & Stevens,Strauss & Double,renamed,,"DeltaPoint PRO, scopes, mounts",
+NcStar / VISM,CosmoTac,renamed,,"budget optics, mounts, LAM modules",
+SC Irregulars,AT Refine,renamed,,OMM optic mounts,A few 'SC Irregulars' display names remain.
+Scalarworks,Vectorworks,renamed,,"LEAP/01 mounts, PEAK/01 irons",
+VOMZ (Pilad),NOMZ,renamed,,Pilad P3.5x20,'Novgorod Optical Manufacturing Plant'.
+Vortex Optics,Cyclone Optics,renamed,,"Razor AMG UH-1, mounts",
+Zeiss,Geiss,renamed,,ZFK eye cups,
+Badger Ordnance,Corvus Mounts,in progress,,"scope mounts, rings",Not the same company as Corvus Defensio.
+Elcan (Raytheon),RECAN,in progress,,"C79A2, Specter OS4X, SpecterDR",
+Trijicon,Virticon,in progress,,"ACOG, RMR, iron sights",ACOG product line -> ARCS. 3 display names still say 'Trijicon'.
+Troy Industries,Talvern Industries,in progress,,"Battlesights, M7A1 PDW stock, Claymore",Internal ids talvern_; display names still say 'Troy'.
+Valday,Volhov,in progress,,"1P87/1P90, ZT-310 mounts",Internal ids volhov_; display names still say 'Valday JSC Optics'.
+MFI,,not renamed,MJI,scope mounts,
+Monstrum Tactical,,not renamed,Abomination Military Supply,budget scopes,
+Nightforce,,not renamed,Nighthawk,scopes,
+RS Regulate,,not renamed,GS Direct,AK optic mounts,
+Scout Scopes,,not renamed,Long-Flex Scopes,,
+Sightmark,,not renamed,Total-Zero Optics,budget optics,
+Spuhr,,not renamed,Sture,scope mounts,
+Truglo,,not renamed,Trubright,fiber sights,
+UltiMAK,,not renamed,UltrAK,AK optic rails,
+NPZ,,keeping real name,,1P78 Kashtan etc.,
+Swampfox,,keeping real name,,optics,
+,Gral-S,origin unknown,,GP-25 style sight?,Possibly a real Russian designation.
+,Priceli Narod,origin unknown,,OKP-7 collimator,Single fictional brand (possibly later shortened to 'Narod'); item is the OKP-7 collimator.
+
+"LASERS, LIGHTS & ELECTRONICS",,,,,
+Arisaka Defense,Nariakira Defense,renamed,,"Inline Scout mounts, 300/18650 light bodies",
+EOTech,HOLOTEC,renamed,,"553/512/EXPS/XPS holographics, G33, Vudu",EFLX -> HELX; OGL laser -> OWL.
+Firefield,EmberField,renamed,,lasers,
+L3Harris,N4 Harrison,renamed,,ATPIAL AN/PEQ-15 lasers,
+Modlite Systems,WepMod Systems,renamed,,PLHV2 light heads,
+Wilcox Industries,Whitehouse Products,renamed,,"RAID Xe lasers, COMP-M mount",RAID Xe product line -> RUSH Qe.
+Surefire,Centrefire,in progress,,"Scout lights, suppressors",One 'Surefire' display leftover.
+Armytek,,not renamed,Lumatech,flashlights,
+B.E. Meyers,,not renamed,,MAWL-C1+ laser,
+Laser Devices Inc,,not renamed,,LAS/TAC 2 laser,Display shows only the product name.
+Omega,,not renamed,Q-LITE,flashlights?,
+PuP Light,,not renamed,BULLFLASH,flashlight,
+Ultrafire,,not renamed,Hyperbeam,flashlights,
+,PM-Laser LTsU,origin unknown,,PM laser module,'LTsU' is the Russian term for a laser designator.
+
+AMMUNITION,,,,,
+"Ammo, Inc.",Munitions Incorporated,renamed,,.45 ACP,
+Barnaul (Silver Bear),Birsk (Polar Bear),renamed,,5.45x39 Silver Bear,
+Blazer (CCI),Phoenix,renamed,,.45 ACP / 10mm Auto FMJ,Also 'Phoenix Hellfire' dragon's breath.
+Bulletec,Strelets,renamed,,9x19 ammo,
+Fiocchi,Laccio,renamed,,"Field Dynamics, Extrema lines",
+Hornady,Hawthorne,renamed,,"BLACK, V-MAX, XTP, Sub-X lines",
+Lake City AAP,Appalachian,renamed,,M855/M855A1/M856A1/Mk.318 military lots,"Some rounds (M193, M856A1, M118LR) are still branded 'Federal'."
+Lapua,Laukaa,renamed,,S405 7.62x39,Laukaa is Lapua's real hometown.
+Nammo,Emmeo,renamed,,M993/M995 AP,
+Radway Green (BAE),CAe,renamed,,L31A1 7.62x51,
+Underwood Ammo,Underworld,renamed,,"Xtreme Penetrator, Controlled Chase",
+Wolf Hill,Fox Hill,renamed,,12G bean bag rounds,
+Wolf Performance Ammunition,Fox Performance Ammunition,renamed,,5.45x39 HPBT,
+Novosibirsk Cartridge Plant,Norilsk Ammunition Factory,in progress,,"7.62x54R 7N1/7T2, 9x18 Pst",
+TsNIITochMash,TochMash,in progress,,SP-series 9x18,
+Federal (incl. Premium),,not renamed,Homeland Defense Munitions,"M193, M856A1, M118LR, shotshells",
+Liberty Ammunition,,not renamed,Freedom Ammunition,Civil Defense,
+Sellier & Bellot,,not renamed,,Sv43 123gr tracer,Internal ids s&b_; display 'Sellier & Bellot' on 7.62x25.
+Speer,,not renamed,Pike,Gold Dot,
+TsNIITekhMash,,not renamed,,8M3 Effect 124gr HP,Distinct company from TsNIITochMash (TochMash).
+Winchester,,not renamed,Alchaplin,"Silvertip, Service Grade, M80, M882",
+
+MAGAZINES & DRUMS,,,,,
+BHSpringSolutions,AllPistolSprings,renamed,,TT-33 +1 mags,
+DURAMAG,EVERMAG,renamed,,AR mags,
+HRF Concepts,HPF Concepts,renamed,,RCM magwell,
+Lancer Systems,Dragoon Systems,renamed,,L5AWM/L7AWM mags,
+LayLax,ChillSet,renamed,,FANG rail extension,
+Molon Labe Industries,Carpe Diem Industries,renamed,,FANG-H polymer mags,
+Molot,Kuvalda,renamed,,RPK 6L18 45R mags,"Molot = 'hammer', Kuvalda = 'sledgehammer'."
+Moses Mag Works,Noah Magazines,renamed,,FAL polymer mags,
+ProMag,ProClip,renamed,,AK/archangel polymer mags,
+Taylor Freelance,Tyler Freelance,renamed,,Hart SMG mag extension,
+X Products,Cartesia Productions,renamed,,"X-25/X-FAL drums, FANG trigger module",
+Iron Claw Tactical,,not renamed,Steel Talon Tactical,AK magwell,
+Lingle Industries,,not renamed,,AR17 mag release,
+NBS,,not renamed,HTF (Hit The Fan),9x19 Colt mag adapter,
+RTM,,not renamed,Drummond Modular,,
+Schmeisser GmbH,,not renamed,Pfalzgraff GmbH,60R quad mag?,
+SGM Tactical,,not renamed,Fractured Segment Tac,Saiga/KOSCH 50R mags,
+,Roch Custom,origin unknown,,Löwenherz AUG Para 9x19 40R mag,Real-world origin not recorded.
+
+SUPPRESSORS & MUZZLE DEVICES,,,,,
+AAC (Advanced Armament),EWC (Evolved Weaponries),renamed,,SCAR-SD suppressor,
+AMTAC Suppressors,ZETAC Suppressors,renamed,,"5.56 suppressors, CQB",
+Carlson's Choke Tubes,Wesson Choke Specialists,renamed,,"chokes, cantilever slug barrel",
+CNC Warrior,CNC Arms,renamed,,AK muzzle devices,
+Delta-Tek,Sigma-Tek,renamed,,"DPMN, DTK muzzle devices",
+Gemtech,Onyx,renamed,,suppressors,
+Griffin Armament,Gryphon Tactical,renamed,,muzzle devices,
+Hexagon,Hex Tactical,renamed,,DTKP muzzle brakes,
+Hughes Precision,Tubewerx,renamed,,suppressors,
+HUXWRX (OSS Suppressors),Spiderweb Suppressors,renamed,,BPR suppressors,
+Lantac,PGTac,renamed,,Dragon muzzle brakes,
+MODTAC,TACLITE Armory,renamed,,"M-RAC/U-RAC mounting couplers, suppressor shields",
+Nordic Components,Kaleva Components,renamed,,Corvette comp,
+SLR Rifleworks,ALR Rifleworks,renamed,,"SR47 brakes, handguards",'Auto-Loading-Rifle'.
+Wasatch Arms,Watcher Armory,renamed,,KOSCH 10mm compensator,
+Thunder Beast Arms,BPAC,in progress,,suppressors,'Black Prince Arms Corporation'. Some 'Thunder Beast' displays remain.
+Alpha Dog Silencers,,not renamed,Alpha Fox Silencers,9x19 suppressor,
+Rotor 43,,not renamed,Bunker 47,muzzle devices,
+
+"STOCKS, GRIPS & FURNITURE",,,,,
+A3 Tactical,Alpha Four Tactical,renamed,,angled grips,
+Accuracy International,Precision Intercontinental,renamed,,AICS/AT chassis for R700,
+Boyds Gunstocks,Hunter,renamed,,R700 Hunter stock,"The real Boyds 'Hunter' line kept as the brand (Hunter 700, Hunter SGA)."
+CAA (Command Arms),TAS,renamed,,"RS47 handguards, buffer tubes, HX-5",'TactiCore Armament Systems'.
+Choate Machine & Tool,Cartman Tool&Die,renamed,,MP5 stocks,
+CRH Customs,Ellipse 30,renamed,,fixed AK triangle stock,
+DoubleStar Corp,StarSurp Corp,renamed,,"grip adapters, SOCOM stocks",
+Dozor,Khorovod,renamed,,PM grip,
+ERGO Grips,FIT,renamed,,"Suregrips, rail covers",
+FAB Defense,P.R.O. Tactical,renamed,,"UAS stocks, PR870, vertical grips",'Precision Rifle Optics'. One 'FAB Defense' display leftover.
+Fightlite Industries,STRIKON,renamed,,SCR stocks,
+Fortis Manufacturing,Validus Defense,renamed,,"LA grips, Shift",
+Gear Head Works,GXW,renamed,,"Tailhook braces, GLR-16/17",'Gear X Works'.
+Hogue,Rogue,renamed,,"grips, grip gloves",
+Juggernaut Tactical,Behemoth Tactical,renamed,,featureless grips,
+KSD Grips,ADD Grips,renamed,,ivory pistol grips,
+Magpul,Magtap,renamed,,"PMAG, MOE, CTR, UBR, AFG, MBUS, everything",
+MDT,MCS,renamed,,LSS/TAC21 chassis,'Modular Component Systems'.
+Mesa Tactical,Canyon Tactical,renamed,,870 stocks/rails,
+Parker Mountain Machine (PMM),Everetts Machining,renamed,,"FANG grips, bolt release",
+Shockwave Technologies,Earthquake Tech,renamed,,Raptor grip,
+Strike Industries,Smite Industries,renamed,,"Viper MOD1, LINK, foregrips",
+TangoDown,TargetDown,renamed,,BGV-MK46K grip,
+Timber Creek Outdoors,Lumber River Outdoors,renamed,,Enforcer grips/handstops,
+US Palm,US Pine,renamed,,AK grips,
+UTG (Leapers),ATG (Leopard),renamed,,"PRO stocks, foregrips, mounts","Leapers -> Leopard, UTG -> ATG ('Applicable Tactical Gear')."
+Hera Arms,Eris Arms,in progress,,"CQR stocks, CCS",CCS -> CSS.
+VLTOR,VYCTOR,in progress,,"EMOD stock, MUR upper",
+ACE Ltd (DoubleStar),,not renamed,APEX Ltd,"stocks, recoil pads, AK grips",
+Bravo Company (BCM),,not renamed,Echo Company Machineworks,"Gunfighter grips, stock",
+Grip Pod Systems,,not renamed,GripPod Co.,bipod grips,
+Haga Defense,,not renamed,Skadi Armory,G3 ACR stock adaptor,
+Mission First Tactical,,not renamed,Operation Last Tactical,grips,
+Odin Works,,not renamed,Allfather Customs,grips etc.,
+Pachmayr,,not renamed,Bocheneks,grip gloves,
+Razor Arms,,not renamed,Grip Arms,grips,
+Stark Equipment,,not renamed,Bolt Equipment,grips,
+Tactical Dynamics,,not renamed,Ergo-Tec,skeletonized grips,
+TALON Grips,,not renamed,MAUL Grips,grip tape,
+Thordsen Customs,,not renamed,Tungsten Customs,featureless stocks,One display spelled 'Thorsden'.
+TommyBuilt Tactical,,not renamed,Taq & Built,UMP Tailhook brace adapter,Displayed as 'Tommy Built'.
+Viking Tactics (VTAC),,not renamed,Aesir Gear,slings,Displayed as 'Viking Tactical' (UVG grip).
+WAS Woodworks,,not renamed,IS Joineries,wood furniture,
+5.45 Design,,keeping real name,,AK furniture,
+German Democratic Republic (GDR),,keeping real name,,East German AK furniture,Historical origin label on East German AK furniture.
+SB Tactical,,keeping real name,,pistol braces,
+TDI Arms,,keeping real name,,AK furniture,
+,Hughnitions Company,origin unknown,,cheek pads,Real-world origin not recorded.
+
+"RAILS, MOUNTS & HANDGUARDS",,,,,
+2A Armament,Freedom Arms,renamed,,Builder Series handguards,
+Arms RTG,Russian Tuning,renamed,,AK-12 Megatron handguard,
+Custom Gun Rails,CGR,renamed,,novelty/skull rails and covers,The real company's abbreviation kept as the brand.
+Daniel Defense,Axtell Defence,renamed,,"RIS II rails, grips, M4 receivers",Abbreviation DD -> AD; RIS II rails -> RAF 2.
+Geissele Automatics,Schmidt / Vallais,renamed,,"Super Modular Rails, triggers","Items appear under both 'Schmidt' (rails, triggers) and 'Vallais'."
+Hi-Desert Dog,Hi-Dog,renamed,,"SCAR/FANG gasblocks, barrels",'HDD Tactical' kept in display.
+Kinetic Development Group,Dynamic Development Group,renamed,,"SCAR/FANG rails, Sidelok",A few rows use the spelling 'Kinect Development Group'.
+Knight's Armament (KAC),Paladin's Armament (PAC),renamed,,"RAS rails, rib sights, QDC",
+LaRue Tactical,LeRoux Tactical,renamed,,QD LT-101 mounts,
+Midwest Industries,Northeast Industries,renamed,,"SCAR extended rails, Supp Series handguards",
+PJS,IHS,renamed,,AUG A3 SA CQC rails,
+Primary Arms,Paramount Arms,renamed,,SLx risers/mounts,
+Rifle Dynamics,Weapon Dynamics,renamed,,AK-to-M4 adapter,
+STNGR,STRYKR,renamed,,handguards,
+Unity Tactical,Harmony Tactical,renamed,,FAST mounts,
+Veriforce Tactical,Quix Tacticals,renamed,,AR handguards/gastubes,
+Weaver Optics,Spinner Optics,renamed,,multi-slot rail bases,
+Wilson Combat,Whitner Defense,renamed,,"EDC X9 parts, mounts",
+Windham Weaponry,Windsor Armory,renamed,,"slings, railed gasblocks",
+Zenitco,Veles,renamed,,"AK aftermarket (B-series rails, Klesch, Perst)",Zenit-BelOMO combo optics -> Veles ChelOMO.
+AIM Sports,Target Sports,in progress,,"AK mounts, riser bases",One 'Aimsports Mosin Tri-Rail' display leftover.
+Harris Engineering,Harrison Technical Solutions,in progress,,HBR bipods,
+GBRS Group,,not renamed,WARS Group,Hydra mount,The Hydra mount still displays 'GBRS'.
+RailScales,,not renamed,RailSnakes,rail scales,
+Spike's Tactical,,not renamed,Jackson's Tactical,combo mounts,
+UM Tactical,,not renamed,,UM3 sight riser,Displayed as the product name 'UM3'.
+Diemaco,,keeping real name,,"C7/C8 parts, TRI-AD mount",
+,Abom's CNC Works,origin unknown,,Picatinny SUSAT adapter,Possibly Monstrum Tactical.
+
+"BARRELS, RECEIVERS & INTERNALS",,,,,
+Aeroknox,Arrow,renamed,,"AX//15 receivers, handguards, sights",Display 'Arrow'; internal ids equinox_.
+Armaspec,Tactispec,renamed,,Stealth recoil springs etc.,
+Ballistic Advantage,PrimaBarrels,renamed,,AR barrels,
+Battle Arms Development,Combat Arms,renamed,,"BAD lever, rack",
+Brownells,Whitnalls,renamed,,"XM177/CAR retro parts, BRN mags",
+Chefur Custom,Hahn Precision Works,renamed,,PM threaded barrel,
+CMC Triggers,Fort Worth Manufacturing,renamed,,drop-in triggers,
+CMMG,CmmG,renamed,,"MK9, barrels, mag adapters",Stylization change only.
+Deadshot Barrels,Barreltech CNC Mfg,renamed,,SCAR spiral barrels,
+FR Ordnance,Ferro Ordnance Group,renamed,,MC51 -> KG-51C uppers/barrels,
+HANDL Defense,HILT Defense,renamed,,"SCAR/FANG lowers, parts",
+HDPS,HDTS,renamed,,UMP threaded barrels,
+Palmetto State Armory,Tarheel State Arms (TSA),renamed,,custom trigger,Display 'TSA G' trigger.
+PTR Industries,CTR,renamed,,G3-pattern barrels/parts,G3-clone parts are branded CTR 91.
+Timney,Lockwood,renamed,,Impact 700 triggers,
+X-Caliber,Ex-Call,renamed,,.223 Wylde barrels,
+ZEV Technologies,Zvetech,renamed,,"Z17 slides, KOSCH slide parts",
+MaTech,FabTech,in progress,,USGI rear BUIS,Displays are mixed 'MaTech'/'FabTech'; internal ids fab_tech_.
+Arid USA (Arid Concepts),,not renamed,,"AUG charging handles, case deflector","Displays say 'Arid Concepts'; believed to be the real company (Arid USA), not an intentional rename."
+Infinite Product Solutions,,not renamed,Apex Infinity Solutions,MP5 parts,Displays show the real 'IPS' abbreviation.
+KAK Industry,,not renamed,BNB Industries,AR9 barrels,
+IGB Austria,,keeping real name,,barrels,
+
+OTHER ACCESSORIES,,,,,
+DLP Tactical,Virginia Gear Tactical,renamed,,TT-33 LAM module,Display 'TT Virginia Gear Tactical'.
+GCT (Gun Custom Tuning),TrueLock Custom,renamed,,PM tactic kit,
+Imperial Arms Co,Monarch Ballistics,renamed,,CypherX SCAR/FANG parts,
+Manticore Arms,Cerberus Arms,renamed,,AUG aftermarket,
+Moto-Tech Engineering,Edinburg Engineering,renamed,,SCARburator,
+Retro Arms,Retrospect,renamed,,CNC AK parts,
+Rock Solid Industries,Resolute Industries,renamed,,Mosin parts,Display 'ResoluteInd'.
+Rugged Suppressors,Resiliant Suppressors,renamed,,Obsidian9,
+SilencerCo,Suppressors Inc.,renamed,,"Osprey, Sparrow",
+Tiger Rock,Panther Rock,renamed,,AR parts,
+Type 97.ca,T97.ca,renamed,,QBZ-95 Canada parts,
+Wyatt's Outdoors,Scrubs' Outdoors,renamed,,hunting accessories,
+Radian Weapons,Ardian Weapons,in progress,,"Raptor handles, Model 1, RAMJET",Two display leftovers say 'Radian'.
+AKademia,,not renamed,MarkAKachestva,AK parts,
+American Tactical Imports,,not renamed,Freedom Tactical Imports,,
+Arbalet,,not renamed,Luchnik,AK parts,
+JMAC Customs,,not renamed,AJMM Customs,AK parts,
+JP Enterprises,,not renamed,DS Enterprises,,
+Khyber Customs,,not renamed,Karakoram Customs,AK parts,
+L.A.C. (Lac-Custom),,not renamed,Laika Gun Tuning,PM/TT parts,
+Lewis Machine & Tool,,not renamed,Smith Machine & Tool,,
+Lone Star Armory,,not renamed,Metroplex Armory,,
+Madbull Airsoft,,not renamed,West Crane Airsoft,airsoft-sourced models,
+OKB,,not renamed,KEP,Soviet experimental parts,
+Phoenix Rising,,not renamed,Hellhound Rising,shotgun ammo?,
+Primary Weapons Systems,,not renamed,Authentic Firearms Systems,,
+PTS,,not renamed,KTI,airsoft-sourced,
+Rat Worx,,not renamed,Mouse Wrks,,
+RWB,,not renamed,Tripo (Tri Poloski),,
+SAG (Sureshot Armament),,not renamed,Tempus Weapons Group,AK chassis,
+SOF Industries,,not renamed,FFG (Free Fire Group),,
+Springfield Armory,,not renamed,Salem Armory,,
+Supernova,,not renamed,Nova,,
+Tristar Arms,,not renamed,,Compact carry handle,
+TSS Custom,,not renamed,FSS Industrial,AK parts,
+United Scientific Industries,,not renamed,British Scientific Manufacturing,SUSAT,
+B&T,,keeping real name,,GHM9/APC parts,
+Baikal / Izhevsk Mech. Plant,,keeping real name,,PM pistol parts,Real factory/city name 'Izhevsk' used on PM pistol parts.
+,KHF,origin unknown,,I-E-A 34mm rings,Real-world origin not recorded.
+
+GEAR & MISC,,,,,
+Legal Arsenal,FireLine,renamed,,bayonets etc.,
+Mechanix,Technix,renamed,,gloves,Internal id technix_; the row has no display name.
+FujiFilm,,not renamed,,X-T20 camera prop,Camera prop; internal id stupid_camera.
+Ops-Core,,not renamed,,FAST SF helmet gear rows,Gear rows carry internal ids only (ops_core_fast_sf).
+Buck Knives,,keeping real name,,bayonet/knife,
+Ontario Knife Company,,keeping real name,,M9 bayonet,
+
+"FICTIONAL BRANDS, ORIGIN UNKNOWN",,,,,
+,Archient Technologies,origin unknown,,,Real-world origin not recorded.
+,Ascend Armament,origin unknown,,,Real-world origin not recorded.
+,EST,origin unknown,,,Real-world origin not recorded.
+,EWS,origin unknown,,,Real-world origin not recorded.
+,UG Tactical,origin unknown,,,Real-world origin not recorded.

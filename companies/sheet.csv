@@ -1,0 +1,189 @@
+,,
+optics companies,,
+original ,rename,products & renames
+Aimpoint,Azimuth,comp m2 -> fuckass m2
+,,
+,,
+ammunition companies,,
+Sellier & Bellot,Serrano & Belmonte,Sv43 123gr Red Tracer
+PPU (Prvi Partizan),Prva Garda,Rifle Line 123gr JSP
+Lapua,Laukaa,
+,,
+other,,
+"Kalashnikov, Tula",Kazarov ,
+DSA/DSArms,RSA,
+,,
+the claude zone,,
+Kalashnikov Concern (Izhmash),Kazarov / Kazarov Group,High — AK-74/AKM/AK-12/AK-308/RPK-16 model numbers match exactly
+Sig Sauer,Sic Stürmer,"High — internal IDs use sig_sauer_ prefix; P320, Romeo, Foxtrot lines"
+Steyr Arms,Löwenherz,High — AUG A1/A3 platform; internal IDs use steyr_aug_ prefix
+Remington,Roosevelt / Roosevelt-Walker,High — Model 700 / 870; internal IDs r700_/r870_
+Trijicon,Virticon,High — same item shows both names (compact ACOG entries)
+Glock,KOSCH,"High — internal glock_ prefix; MOS, G17L, slide variants"
+EOTech,HOLOTEC,"High — 553, 512, EXPS2/3, XPS2/3 are real EOTech model names"
+Heckler & Koch,UMK,"High — internal hk_ prefix; MP5, UMP, G3, PSG1"
+Heckler & Koch,KF / KF416,"High — HK416/M27 IAR pattern; internal kf_416, kf_m27_iar"
+KRISS USA,KALIS / KALIS Scalar,"High — internal kriss_vector; ""KRISS"" appears verbatim once"
+Radian Weapons,Ardian Weapons,High — same item shows both names (Glock 17 RAMJET barrel)
+Hera Arms,Eris Arms,High — internal hera_arms_ prefix; CQR product line
+PTR Industries,CTR,High — internal ptr_ prefix; G3/MP5 clone parts
+Noveske Rifleworks,Nowa / Novacek,"High — ""N4"" rifle designation; internal novacek_n4"
+Accuracy International,Precision Intercontinental,High — AICS chassis system
+Scalarworks,Vectorworks,High — PEAK/01 is an exact real Scalarworks product name
+Scalarworks,AT Refine / OMM,High — OMM (Optic Mount Module) is a real Scalarworks line
+Aimpoint,Azimuth,"High — T-1, CompM4, ACRO P-2 are real Aimpoint model names"
+ProMag,ProClip,High — internal promag_ prefix
+Holosun,HoloStar,"High — HS510C, HE510C-GR, HS401G5 are real Holosun model numbers"
+Insight Technology,Percept Technology,"High — AN/PEQ-2A, AN/PEQ-5, AN/PAQ-4A are real designations"
+Hornady,Hawthorne,High — BLACK and V-MAX are real Hornady product lines
+Underwood Ammo,Underworld,"High — ""Xtreme Penetrator"" is a real Underwood Ammo line"
+Elcan (Raytheon),RECAN,"High — C79A2, Specter OS4X, SpecterDR are real Elcan products"
+Vortex Optics,Cyclone Optics,"High — Razor AMG UH-1, Sport Cantilever are real Vortex products"
+MDT (Modular Driven Technologies),MCS,High — LSS / LSS-XL chassis are real MDT product names
+X Products,Cartesia Productions,High — X-25 / X-FAL drum magazines are real X Products items
+Rugged Suppressors,Resiliant Suppressors,"High — ""Obsidian9"" is a real Rugged Suppressors product"
+Gear Head Works,GXW (Tailhook brace),"High — ""Tailhook"" is the real Gear Head Works brace"
+Gear Head Works,GLR,Medium-High — GLR-16/17 is a real Gear Head Works brace line
+Lancer Systems,Dragoon Systems,High — L5AWM / L7AWM are real Lancer Systems magazines
+Airtronic USA,LaunchTron USA,High — PSRL is the real Airtronic USA product name
+Boyds Gunstocks,Hunter (700 stock),"High — ""Hunter"" is a real Boyds stock line"
+Primary Arms,Paramount Arms,"Medium-High — ""SLx"" is a real Primary Arms product line"
+Colt,Whitnalls,Medium — XM177/CAR-15 and A1 Government barrel patterns
+FN Herstal,AFT / AF Tournai,"Medium — SCAR MK16/17/20 platform; Tournai echoes Herstal, Belgium"
+Standard Manufacturing,STRIKON,"Medium — ""SCR"" is a real Standard Mfg product name"
+Steiner eOptics,Whitehouse,"Medium — ""RUSH"" is a real Steiner eOptics laser series"
+Geissele Automatics,Cal Sport,"Medium — ""LVOA"" is a real Geissele rail product"
+Geissele Automatics,Schmidt,"Medium — ""Super Modular Rail""/MK16 URG-I are real Geissele products"
+NcStar / VISM,CosmoTac,"Medium — ""VISM"" is a real NcStar sub-brand"
+Manticore Arms,TACLITE,"Medium — ""M-RAC"" is a real Manticore Arms product line"
+Wilson Combat,Whitner Defense,"Medium — ""EDC X9"" is a real Wilson Combat pistol"
+ZEV Technologies,Zvetech,"Medium — letters rearranged from ""ZEV Tech"""
+Norinco,Sanxian,Medium — manufacturer of the real QBZ-95 platform
+Salient Arms International,SAI,"Medium — ""SAI"" matches the real SAI abbreviation"
+TriggerTech,Lockwood,"Medium — ""Impact"" is a real TriggerTech trigger line"
+Custom Gun Rails,CGR,Medium — CGR is a real novelty/skull-themed muzzle device brand
+Bazalt JSC,SNO Vulkan,"Low-Medium — real RPG-7 manufacturer; ""Vulkan"" is speculative"
+Radway Green (BAE Systems),CAe,Low-Medium — L31A1/L59A1 are real UK military ammunition designations
+PMM,Everetts Machining (FANG),"Low — internal pmm_scar_ prefix, real-world company unclear"
+"— Renamed, real-world company unclear —",,
+,Ferro Ordnance Group,Unidentified real-world equivalent
+,HILT Defense,Unidentified real-world equivalent
+,Corvus Mounts / Corvus Defensio,Unidentified real-world equivalent
+,Hart,Unidentified real-world equivalent
+,ATG,Unidentified real-world equivalent
+,Archient Technologies,Unidentified real-world equivalent
+,Cerberus Arms,Unidentified real-world equivalent
+,Smite Industries,Unidentified real-world equivalent
+,Centrefire,Unidentified real-world equivalent
+,CGR (novelty variants),Unidentified real-world equivalent
+,IHS,Unidentified real-world equivalent
+,F.I.R.M.,Unidentified real-world equivalent
+,Arid Concepts,Unidentified real-world equivalent
+,Freedom Arms,Unidentified real-world equivalent
+,Cartesia Productions (non-mag items),Unidentified real-world equivalent
+,Carpe Diem Industries,Unidentified real-world equivalent
+,StellarTAC,Unidentified real-world equivalent
+,Monarch Ballistics,Unidentified real-world equivalent
+,Scrubs' Outdoors,Unidentified real-world equivalent
+,GLR-17 (pistol variant),Unidentified real-world equivalent
+,TSA G,Unidentified real-world equivalent
+,Emmeo,Unidentified real-world equivalent
+,Laccio,Unidentified real-world equivalent
+,Onyx,Unidentified real-world equivalent
+,Rogue,Unidentified real-world equivalent
+,Barreltech,Unidentified real-world equivalent
+,RWB,Unidentified real-world equivalent
+,TT Virginia Gear Tactical,Unidentified real-world equivalent
+,AllPistolSprings,Unidentified real-world equivalent
+,Hahn Precision Works,Unidentified real-world equivalent
+,TrueLock Custom,Unidentified real-world equivalent
+,Khorovod,Unidentified real-world equivalent
+,PM-Laser LTsU,Unidentified real-world equivalent
+,EST,Unidentified real-world equivalent
+,UG Tactical,Unidentified real-world equivalent
+,5.45 DESIGN,Unidentified real-world equivalent
+,Russian Tuning,Unidentified real-world equivalent
+,L.A.C.,Unidentified real-world equivalent
+,Khyber Customs,Unidentified real-world equivalent
+,German Democratic Republic / GDR,Unidentified real-world equivalent
+,Iron Claw Tactical,Unidentified real-world equivalent
+,Retrospect,Unidentified real-world equivalent
+,TSS Custom,Unidentified real-world equivalent
+,Gral-S,Unidentified real-world equivalent
+,Fort Worth Manufacturing,Unidentified real-world equivalent
+,Ascend Armament,Unidentified real-world equivalent
+,EWS,Unidentified real-world equivalent
+,ResoluteInd,Unidentified real-world equivalent
+,Tactispec,Unidentified real-world equivalent
+,Windsor Armory,Unidentified real-world equivalent
+,Quix Tacticals,Unidentified real-world equivalent
+,STRYKR,Unidentified real-world equivalent
+,Combat Arms,Unidentified real-world equivalent
+,Alistair,Unidentified real-world equivalent
+,DAMS Mangonel,Unidentified real-world equivalent
+,Kinect Development Group,Unidentified real-world equivalent
+,Nariakira,Unidentified real-world equivalent
+,FireLine,Unidentified real-world equivalent
+,Lumber River Enforcer,Unidentified real-world equivalent
+,Harmony,Unidentified real-world equivalent
+,Priceli,Unidentified real-world equivalent
+,RTM,Unidentified real-world equivalent
+,Squadsight,Unidentified real-world equivalent
+,Appalachian,Unidentified real-world equivalent
+,Watcher Armory,Unidentified real-world equivalent
+,TSA,Unidentified real-world equivalent
+,Sigma-Tek,Unidentified real-world equivalent
+,Hex Tactical,Unidentified real-world equivalent
+,OKB,Unidentified real-world equivalent
+— Not renamed (real company name used directly) —,,
+Adron,,
+AIM Sports (Aimsports),,
+ALR Rifleworks,,
+Arbalet,,
+B&T,,
+Baikal,,
+BCM / Bravo Company,,
+Buck Knives,,
+CmmG (CMMG),,
+Diemaco,,
+Dynamic Development Group,,
+F&B Precision,,
+Federal,,
+GBRS Group,,
+Glock,,
+Haga Defense,,
+Hi-Dog (HDD Tactical),,
+IGB Austria,,
+KRISS USA,,
+LMT,,
+Lone Star Armory,,
+MaTech,,
+MFI,,
+Monstrum Tactical,,
+Northeast Industries,,
+Novosibirsk (factory),,
+NPZ,,
+Odin Works,,
+Ontario Knife Company,,
+Optech,,
+Pachmayr,,
+Qingyuan Defense,,
+Radian Weapons,,
+RS Regulate,,
+SB Tactical,,
+SGM Tactical,,
+Sightmark,,
+Spike's Tactical,,
+Springfield Armory,,
+Spuhr,,
+Swampfox,,
+TALON Grips,,
+Target Sports (USA),,
+TDI Arms,,
+Thordsen,,
+Thunder Beast Arms,,
+Trijicon,,
+Troy Industries,,
+Truglo,,
+TsNIITekhMash / TsNIITochMash,,
+Valday JSC Optics,,

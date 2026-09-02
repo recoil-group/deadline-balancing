@@ -46,11 +46,11 @@ id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black
 44,mosin_rear_sight,not_magnified, , , ,false,false
 45,npz_1p78_1_2.8x_kashtan_scope,40,5,0.2,4.5,true,false
 46,paramount_arms_slx_1x_microprism_acss_g2_scope,not_magnified,5,0.2,2,false,false
-47,virticon_compact_acog_3x24_ta50c_green,35,5,0.2,6,true,false
-48,virticon_compact_acog_3x24_ta50c_red,35,5,0.2,6,true,false
+47,virticon_compact_arcs_3x24_ta50c_green,35,5,0.2,6,true,false
+48,virticon_compact_arcs_3x24_ta50c_red,35,5,0.2,6,true,false
 49,monstrum_tactical_s232p_2x32_prism_scope,40,8,0.2,6,false,false
-50,aeroknox_ax15_rear_sight,not_magnified, , , ,false,false
-51,aeroknox_ax15_rear_sight_folded,not_magnified, , , ,false,false
+50,equinox_ex15_rear_sight,not_magnified, , , ,false,false
+51,equinox_ex15_rear_sight_folded,not_magnified, , , ,false,false
 52,target_sports_rear_sight,not_magnified, , , ,false,false
 53,azimuth_acro_p2_reflex_sight,not_magnified,10,0.2, ,false,false
 54,azimuth_compm4_sight,not_magnified,13,0.15, ,false,false
@@ -61,10 +61,10 @@ id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black
 59,azimuth_micro_t2_sight,not_magnified,10,0.2, ,false,false
 60,alistair_ar536_prism_5x_sight_carry_handle,16,5,0.2,3.5,true,false
 61,alistair_ar332_prism_3x_sight_carry_handle,30,5,0.2,3.5,true,false
-62,virticon_acog_ta31_milspec_4x_scope_carry_handle,23,8,0.2,3.5,true,false
-63,virticon_acog_ta01_4x_scope_carry_handle,23,8,0.2,3.5,false,false
-64,virticon_acog_ta31_comspec_4x_scope_carry_handle,23,8,0.2,3.5,true,false
-65,virticon_acog_ta11d_bac_carry_handle,30,8,0.2,3.5,true,false
+62,virticon_arcs_ta31_milspec_4x_scope_carry_handle,23,8,0.2,3.5,true,false
+63,virticon_arcs_ta01_4x_scope_carry_handle,23,8,0.2,3.5,false,false
+64,virticon_arcs_ta31_comspec_4x_scope_carry_handle,23,8,0.2,3.5,true,false
+65,virticon_arcs_ta11d_bac_carry_handle,30,8,0.2,3.5,true,false
 66,hart_retro_a1_4x21_scope,22,5,0.1,4.5,true,false
 67,ultracross_electro_4x20_bdc_scope,22,5,0.1,3,true,false
 68,elcan_alt_view,not_magnified, , , ,false,false
@@ -90,15 +90,15 @@ id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black
 88,usi_l12a1_susat_combat_optic,25,5,0.1,7,true,false
 89,alistair_ar536_prism_5x_sight,16,5,0.2,3.5,true,false
 90,alistair_ar332_prism_3x_sight,30,5,0.2,3.5,true,false
-91,virticon_acog_ta31_milspec_4x_scope,23,5,0.2,3.5,true,false
-92,virticon_acog_ta01_4x_scope,23,8,0.2,3.5,false,false
-93,virticon_acog_ta31_comspec_4x_scope,23,5,0.2,3.5,true,false
-94,virticon_acog_ta11d_bac,30,5,0.2,3.5,true,false
+91,virticon_arcs_ta31_milspec_4x_scope,23,5,0.2,3.5,true,false
+92,virticon_arcs_ta01_4x_scope,23,8,0.2,3.5,false,false
+93,virticon_arcs_ta31_comspec_4x_scope,23,5,0.2,3.5,true,false
+94,virticon_arcs_ta11d_bac,30,5,0.2,3.5,true,false
 95,virticon_rx01/06_series_1x24_reflex_sight,not_magnified,10,0.33, ,false,false
 96,virticon_rx01/06_series_1x24_reflex_sight_ch,not_magnified,10,0.33, ,false,false
 97,sno_vulkan_rpg_7_rear_sight,60, , , ,false,false
-98,rsa_sa58_holland_type_sight,not_magnified, , , ,false,false
-99,rsa_sa58_para_rear_sight,not_magnified, , , ,false,false
+98,rsa_sg58_holland_type_sight,not_magnified, , , ,false,false
+99,rsa_sg58_para_rear_sight,not_magnified, , , ,false,false
 100,hart_rear_ironsight_200m,not_magnified, , , ,false,false
 101,strauss_cq_deltapoint_pro_rear_ironsight,not_magnified, , , ,false,false
 102,dams_mangonel_rear_sight,not_magnified, , , ,false,false
@@ -117,7 +117,7 @@ id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black
 115,vism_pro_rear_600m,not_magnified, , , ,false,false
 116,vectorworks_peak01_rear_aperture,not_magnified, , , ,false,false
 117,volhov_jsc_optics_1p90_zt310_3x_magnifier,30,5,0.1,4.5,false,false
-118,troy_battlesight_round_aperture,not_magnified, , , ,false,false
+118,talvern_battlesight_round_aperture,not_magnified, , , ,false,false
 119,axtell_defense_fixed_sight_rear_aperture,not_magnified, , , ,false,false
 120,steyr_aug_z_rail_rear_sight,not_magnified, , , ,false,false
 121,firm_#40_rear_sight_aperture,not_magnified, , , ,false,false

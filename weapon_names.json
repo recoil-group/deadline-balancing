@@ -27,6 +27,22 @@
 		{
 			"name": "Kazarov Group AKS-74U",
 			"required_attachments": ["kazarov_aks74u_lower_receiver"]
+		},
+		{
+			"name": "Kazarov Group AKS-74UN",
+			"required_attachments": [
+				"kazarov_aks74u_lower_receiver",
+				["kazarov_rmp3_dovetail_mount", "kazarov_rmp5_dovetail_mount"]
+			]
+		},
+		{
+			"name": "Kazarov Group AKS-74UB",
+			"required_attachments": [
+				"kazarov_aks74u_lower_receiver",
+				"tsniitochmash_pbs_4_5.45x39_suppressor",
+				"5.45x39_lugansk_7u1_79gr_us",
+				["kazarov_rmp3_dovetail_mount", "kazarov_rmp5_dovetail_mount"]
+			]
 		}
 	],
 	"AK_9": [

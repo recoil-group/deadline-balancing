@@ -1199,10 +1199,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,northeast_industries_alpha_ak_series_railed_top_cover,Northeast Industries ALPHA AK Series Railed Top Cover,5,0.24,-4,-3,,,,,,,,2000
 ,ak_carbine_dust_cover,,,,,,,,,,,,,,
 ,,kazarov_aks74u_6p26_sb7_dust_cover,Kazarov AKS-74U 6P26 Sb.7,8,0.13,-2,-3,,,,,,,,0
-,,fireline_pilgrim_aksu_dust_cover,FireLine Pilgrim AKSU Railed,5,0.15,-1,-1,,,,,,,,1500
+,,fireline_pilgrim_aksu_dust_cover,FireLine Pilgrim AKSU Railed,7,0.16,-2,-3,,,,,,,,1500
 ,ak_rear_sight,,,,,,,,,,,,,,
-,,scout_scopes_ak_drop_on_rail,Scout Scopes AK,-2,0.12,,,,,,,,,,1000
-,,si_ak_drop_on_rail,Smite Industries AK,-2,0.06,,,,,,,,,,1000
+,,scout_scopes_ak_drop_on_rail,Scout Scopes AK,-1,0.12,,,,,,,,,,1000
+,,si_ak_drop_on_rail,Smite Industries AK,-1,0.06,,,,,,,,,,1000
 ,,akm_rear_sight_6p1_sb2_1,6P1 Sb.2-1,1,0.03,,0,,,,,,,,0
 ,,kazarov_ak74_6p1_sb2_rear_sight,Kazarov AK-74 6P1 Sb.2,1,0.01,,,,,,,,,,0
 ,ak_carbine_rear_sight,,,,,,,,,,,,,,
@@ -2277,7 +2277,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kazarov_pp-19-01_vityaz_bolt_piston,Kazarov PP-19-01 Vityaz,0,0.03,,,,,,,,,,0
 ,pp19_dustcover,,,,,,,,,,,,,,
 ,,kazarov_pp-19-01_vityaz_std_dust_cover,Kazarov PP-19-01 Vityaz Standard,6,0.07,-3,-3,,,,,,,,0
-,,kazarov_pp-19-01_vityaz_sn_picatinny_dust_cover,Kazarov PP-19-01 Vityaz-SN Picatinny,3,0.1,-2,-2,,,,,,,,2000
+,,kazarov_pp-19-01_vityaz_sn_picatinny_dust_cover,Kazarov PP-19-01 Vityaz-SN Picatinny,5,0.11,-3,-3,,,,,,,,2000
 ,pp19_gastube,,,,,,,,,,,,,,
 ,,kazarov_pp-19-01_vityaz_gastube,Kazarov PP-19-01 Vityaz,0,0.05,,,,,,,,,,0
 ,pp19_rs_block,,,,,,,,,,,,,,
@@ -2969,7 +2969,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,Remington700,Roosevelt M700,30,0,80,90,0,0.2,1.2,2200,,,1,42000
 ,,AK_762,Kazarov Group AK 7.62,20,0,70,85,0,0.55,1,1800,,,1,15000
 ,,AK_545,Kazarov Group AK 5.45,15,0,65,70,0,0.4,1,2300,,,1,5000
-,,AK_545_Carbine,Kazarov Group AK 5.45 Carbine,15,0,65,70,0,0.4,1,2300,,,1,30000
+,,AK_545_Carbine,Kazarov Group AK 5.45 Carbine,20,0,65,70,0,0.4,1,2300,,,1,30000
 ,,MosinNagant,Mosin Nagant M91/30 PU,65,0,80,90,0,0.2,1,1900,,,1,14000
 ,shotgun,,,,,,,,,,,,,,
 ,,Remington870,Roosevelt M870 Express,25,0,90,90,1,0.8,1,1000,2,,1,20000
@@ -2979,7 +2979,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,Vector,KALIS Scalar Gen II,45,0,60,60,0,1.2,1,900,,,1,90000
 ,,MK9,AR-9,30,0,55,70,0,1.05,1,1200,,,1,20000
 ,,UMP,KF UMC-45,60,0,80,90,0,1.05,1,900,,,1,15000
-,,AK_9,Kazarov Group PP-19-01,30,0,50,65,0,0.9,1,1200,,,1,11000
+,,AK_9,Kazarov Group PP-19-01,30,0,50,50,0,0.9,1,1200,,,1,11000
 ,turret,,,,,,,,,,,,,,
 ,,Turret,Handheld turret,30,3,60,40,200,1.6,1,600,,,1,100
 ,placer,,,,,,,,,,,,,,

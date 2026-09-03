@@ -1,4 +1,4 @@
-﻿0.25.4,Mon Aug 31 22:39:42 2026,,,,,,,,,,,,,,
+﻿0.25.4,Thu Sep 03 15:47:07 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -1845,9 +1845,16 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,45acp_speer_golddot_230gr_bjhp,.45 ACP Speer Gold Dot 230gr BJHP,1,0,0,1,,0.1,0.14,100,,,,1200
 ,,45acp_supernova_225gr_red_tracer,.45 ACP Supernova 225gr Red Tracer,-1,0,0,0,,0.1,-0.12,170,,,,1000
 ,ammo_5.8x42,,,,,,,,,,,,,,
-,,5.8x42_sanxian_dbp95_64gr_fmj,5.8x42mm Sanxian DBP95 64gr FMJ,0,0.15,0,0,,0,,,,,,0
-,,5.8x42_sanxian_dbx95_64gr_green_tracer,5.8x42mm Sanxian DBX95 64gr Green Tracer,-1,0.15,-1,-1,,0.05,,-50,,,,1000
-,,5.8x42_sanxian_dbp10_71gr_fmj,5.8x42mm Sanxian DBP10 71gr FMJ,2,0.18,2,2,,0.1,,-100,,,,2000
+,,5.8x42_sanxian_dbp95_64gr_fmj,Sanxian DBP95 64gr FMJ,0,0,0,0,,0,,0,,,0,0
+,,5.8x42_sanxian_dbx95_64gr_green_tracer,Sanxian DBX95 64gr Green Tracer,3,0,-2,-3,,0.1,,0,,,0,500
+,,5.8x42_sanxian_dbp10_71gr_fmj,Sanxian DBP10 71gr FMJ,-1,0.05,0,1,,-0.05,,-50,,,0,1500
+,,5.8x42_sanxian_dbx10_71gr_tracer_apbt,Sanxian DBX10 71gr Tracer APBT,1,0.05,-2,-2,,0.05,,-50,,,0,2000
+,,5.8x42_sanxian_dbp191_74gr_fmj,Sanxian DBP191 74gr FMJ,1,0.07,-1,0,,-0.1,,-75,,,0,3500
+,,5.8x42_sanxian_dbp88_77gr_heavy_ball,Sanxian DBP88 77gr Heavy Ball,0,0.09,-1,-2,,0,,-150,,,0,1750
+,,5.8x42_sanxian_dbu141_86gr_match,Sanxian DBU141 86gr Match Grade,-1,0.13,3,7,,-0.2,,-125,,,0,4000
+,,5.8x42_sanxian_dvp88_81gr_ap,Sanxian DVP88 81gr AP,-1,0.11,-1,0,,0.05,,-175,,,0,1250
+,,5.8x42_sanxian_dvc12_85gr_ap,Sanxian DVC12 85gr AP,-2,0.12,2,1,,-0.1,,-125,,,0,5000
+,,5.8x42_sanxian_dfv18_76gr_hp,Sanxian DVF18 76gr HP,1,0.08,0,1,,-0.05,,-100,,,0,2500
 ,ammo_762x25,,,,,,,,,,,,,,
 ,,7.62x25_s&b_85gr_fmj,7.62x25 Sellier & Bellot 85gr FMJ,0,0.01,,0,,0,,0,,,,0
 ,,7.62x25_tula_57t133_90gr_red_tracer,7.62x25 Tula 57-T-133 90gr Red Tracer,0,0.01,,1,,0.05,,-100,,,,1000

@@ -145,9 +145,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,true_view_rap4_offset_picatinny_mount,TRUE VIEW RAP4 45 Degree,-1,0.08,,,,,,,,,,500
 ,,true_view_rap4_offset_picatinny_mount_flipped,TRUE VIEW RAP4 45 Degree Flipped,-1,0.08,,,,,,,,,,500
 ,,um_3_wilson,UM3,-1,0.06,,,,,,,,,,300
-,,unity_fast_lpvo_30mm_mount,Harmony FAST LPVO 30mm,-1.5,0.1,,,,,,,,,,750
+,,harmony_fast_lpvo_30mm_mount,Harmony FAST LPVO 30mm,-1.5,0.1,,,,,,,,,,750
 ,,harmony_fast_micro_mount,Harmony Fast Micro,-1,0.06,,,,,,,,,,500
-,,unity_fast_optics_riser,Harmony FAST Optics,-1,0.04,,,,,,,,,,500
+,,harmony_fast_optics_riser,Harmony FAST Optics,-1,0.04,,,,,,,,,,500
 ,,atg_ms_qd_foregrip,ATG MS QD,4,0.15,-6,-1,,,,,,,,500
 ,,atg_super_slim_vertical_foregrip,ATG Super Slim Vertical,5,0.1,-1,-5,,,,,,,,300
 ,,volhov_1p87,Valday JSC optics PK-120 (1P87),-2,0.16,,,,,,,,,,1000
@@ -2584,9 +2584,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ubr_stock,,,,,,,,,,,,,,
 ,,ubr_gen2_stock,Magtap UBR GEN2,14,0.29,-14,-8,,,,,,,,700
 ,unity_fast_30mm_offset_mount,,,,,,,,,,,,,,
-,,unity_fast_offset_optic_base,Harmony Fast LPVO Offset,-0.5,0.05,,,,,,,,,,200
+,,harmony_fast_offset_optic_base,Harmony Fast LPVO Offset,-0.5,0.05,,,,,,,,,,200
 ,unity_offset_base_adapter,,,,,,,,,,,,,,
-,,unity_offset_optic_rmr_adapter_plate,Harmony Offset Optic RMR Adapter Plate,-0.5,0.03,,,,,,,,,,200
+,,harmony_offset_optic_rmr_adapter_plate,Harmony Offset Optic RMR Adapter Plate,-0.5,0.03,,,,,,,,,,200
 ,usgi_a2_extension,,,,,,,,,,,,,,
 ,,onyx_gmt_halo,Onyx GMT Halo,-5,0.22,-15,-16,,-0.1,0.1,100,,,,1300
 ,vism_sight,,,,,,,,,,,,,,

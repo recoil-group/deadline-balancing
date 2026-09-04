@@ -115,7 +115,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,rk_b25_angled_mount,Rk B25 angled,-1,0.03,0,0,,,,,,,,500
 ,,rk_foregrip_mount,Rk foregrip,-0.5,0.03,0,0,,,,,,,,200
 ,,rk_short_foregrip_mount,Rk short foregrip,-0.5,0.02,0,0,,,,,,,,200
-,,virticon_rm33_mount,Virticon RM33 RMR,0,0.02,,,,,,,,,,300
+,,virticon_dr33_mount,Virticon RM33 RMR,0,0.02,,,,,,,,,,300
 ,,rtm_pillau_tactical_grip,RTM Pillau Tactical,4,0.07,-3,-3,,,,,,,,300
 ,,vectorworks_leap01_swo100_1.42_mount,"Vectorworks LEAP/01 SWO100 1.42""",0,0.04,,,,,,,,,,500
 ,,vectorworks_leap01_swo110_1.57_mount,"Vectorworks LEAP/01 SWO110 1.57"" Mount",0,0.05,,,,,,,,,,550
@@ -131,7 +131,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sightmark_lopro_combo,Sightmark Lopro Combo,-1,0.2,,-2,,,,,,,,500
 ,,sightmark_lopro_mini_combo,Sightmark Lopro Mini Combo,-1,0.11,,,,,,,,,,600
 ,,stark_se_5_express_forward_grip,Stark SE-5 Express Forward,2,0.1,-5,-5,,,,,,,,400
-,,swampfox_picatinny_rmr_footprint_mount,Swampfox Picatinny RMR,0,0.02,,,,,,,,,,200
+,,swampfox_picatinny_drd_footprint_mount,Swampfox Picatinny RMR,0,0.02,,,,,,,,,,200
 ,,swampfox_trihawk_3x30_prism_scope,Swampfox Trihawk 3x30 Prism,-3,0.22,,-1,,,,,,,,1000
 ,,targetdown_bgv_mk46k_grip,Targetdown BGV-MK46K,3,0.08,-4,-4,,,,,,,,600
 ,,timber_creek_enforcer_foregrip,Lumber River Enforcer,3,0.1,-3,-5,,,,,,,,700
@@ -139,7 +139,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,virticon_compact_arcs_ac12041_mount,Virticon Compact ACOG AC12041 w/ Q-LOC Technology,0,0.03,,,,,,,,,,350
 ,,virticon_rmr_ac32066_offset,Virticon RMR AC32066 45 degree,-0.5,0.03,,,,,,,,,,200
 ,,virticon_rx14_mount,Virticon RX14,-0.5,0.06,,,,,,,,,,200
-,,virticon_srs02,Virticon SRS-02,-1,0.16,,,,,,,,,,1000
+,,virticon_sps02,Virticon SRS-02,-1,0.16,,,,,,,,,,1000
 ,,virticon_ta51_flattop_mount,Virticon TA51 Thumbscrew Flattop,0,0.06,,,,,,,,,,400
 ,,tristar_compact_carry_handle,Tristar Compact,4,0.3,,,,,,,,,,1200
 ,,true_view_rap4_offset_picatinny_mount,TRUE VIEW RAP4 45 Degree,-1,0.08,,,,,,,,,,500
@@ -186,7 +186,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sc_irregulars_omm_pic_mount,AT Refine OMM PIC Mount,0,0.08,,,,,,,,,,1500
 ,,volhov_zt310_picatinny_mount,Valday JSC Optics ZT-310 Picatinny,0,0.03,,,,,,,,,,100
 ,,arbalet_patriot_k_pu_20mm_picatinny_mount,Arbalet Patriot K-PU 20mm Picatinny,0,0.06,,,,,,,,,,400
-,,virticon_rm34_ac12036_mount,Virticon RM34 AC12036,0,0.04,,,,,,,,,,400
+,,virticon_dr34_ac12036_mount,Virticon RM34 AC12036,0,0.04,,,,,,,,,,400
 ,,talvern_battlesight_round_aperture,Troy Battlesight Round Rear Aperture,0,0.005,,,,,,,,,,0
 ,,talvern_battlesight_round_aperture_for_folded,Troy Battlesight Round Rear Aperture,0,0.005,,,,,,,,,,0
 ,,talvern_battlesight_std_front_post,Troy Battlesight Std. Front Post,0,0.005,,,,,,,,,,0
@@ -312,17 +312,17 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,npz_picatinny_bracket_mount_427,NPZ Picatinny Bracket #427,-1,0.04,,,,,,,,,,300
 ,rmr_mount,,,,,,,,,,,,,,
 ,,zt_ap_cap,ZT AP,5,0.03,,,,,,,,,,0
-,,virticon_sro_reflex_sight,Virticon SRO Reflex,-2,0.04,,,,,,,,,,800
-,,virticon_rmr_rm06_type2_adj_led_reflex,Virticon RM06 RMR Type2 Adjustable LED Reflex,-2,0.04,,,,,,,,,,1100
-,,virticon_rmr_rm05_dual_illuminated_reflex,Virticon RM05 RMR Dual Illuminated Reflex,-2,0.04,,,,,,,,,,1200
-,,virticon_rmr_rm01_type2_auto_led_reflex,Virticon RM01 RMR Type2 Auto LED Reflex,-2,0.04,,,,,,,,,,1000
+,,virticon_cro_reflex_sight,Virticon SRO Reflex,-2,0.04,,,,,,,,,,800
+,,virticon_drd_dr06_type2_adj_led_reflex,Virticon RM06 RMR Type2 Adjustable LED Reflex,-2,0.04,,,,,,,,,,1100
+,,virticon_drd_dr05_dual_illuminated_reflex,Virticon RM05 RMR Dual Illuminated Reflex,-2,0.04,,,,,,,,,,1200
+,,virticon_drd_dr01_type2_auto_led_reflex,Virticon RM01 RMR Type2 Auto LED Reflex,-2,0.04,,,,,,,,,,1000
 ,,swampfox_kingslayer_micro_reflex_sight,Swampfox Kingslayer Micro Reflex,-2,0.04,,,,,,,,,,800
 ,acog_compact_mount,,,,,,,,,,,,,,
 ,,virticon_compact_arcs_3x24_ta50c_red,Virticon Compact ACOG 3x24 TA50-C Red Reticle Version,-3,0.1,,,,,,,,,,1200
 ,,virticon_compact_acog_3x24_ta50c_red_alt,Trijicon Compact ACOG 3x24 TA50-C Red Reticle Version,-3,0.1,,,,,,,,,,1200
 ,,virticon_compact_arcs_3x24_ta50c_green,Virticon Compact ACOG 3x24 TA50-C Red Reticle Version,-3,0.1,,,,,,,,,,1500
 ,,virticon_compact_acog_3x24_ta50c_green_alt,Trijicon Compact ACOG 3x24 TA50-C Red Reticle Version,-3,0.1,,,,,,,,,,1500
-,,virticon_rm34_rmr_adapter,Virticon RM34 RMR Adapter,-0.5,0.02,,,,,,,,,,200
+,,virticon_dr34_rmr_adapter,Virticon RM34 RMR Adapter,-0.5,0.02,,,,,,,,,,200
 ,virticon_retro_reflex_sight,,,,,,,,,,,,,,
 ,,virticon_rx01/06_series_1x24_reflex_sight,Virticon RX01/06 Series 1x24 Reflex,-1,0.08,,,,,,,,,,900
 ,,virticon_rx01/06_series_1x24_reflex_sight_ch,Virticon RX01/06 Series 1x24 Reflex,-1,0.08,,,,,,,,,,900
@@ -2969,7 +2969,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,M4A1,AR-15,15,0,65,85,0,0.6,1,2450,,,1,0
 ,,QBZ95,Sanxian QBZ-95,49,0,55,55,0,0.4,1,2500,,,1,25000
 ,,SG58,RSA SG58,15,0,85,105,0,0.75,1,1900,,,1,20000
-,,SCAR47,HILT Defense MK-76,40,0,55,70,0,0.65,1,1800,,,1,60000
+,,SCAR47,HILT Defense MK-76,40,0,55,60,0,0.5,1,1800,,,1,60000
 ,,SCARH,AFT MK-17,5,0,75,80,0,0.6,1,1900,,,1,75000
 ,,SCARL,AFT MK-16,35,0,60,65,0,0.55,1,2450,,,1,40000
 ,,G3,KF KG-31,25,0,70,100,0,0.55,1,1900,,,1,30000

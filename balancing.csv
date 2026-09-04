@@ -2974,7 +2974,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,SCARL,AFT MK-16,35,0,60,65,0,0.55,1,2450,,,1,40000
 ,,G3,KF KG-31,25,0,70,100,0,0.55,1,1900,,,1,30000
 ,,Remington700,Roosevelt M700,30,0,80,90,0,0.2,1.2,2200,,,1,42000
-,,AK_762,Kazarov Group AK 7.62,20,0,70,85,0,0.55,1,1800,,,1,15000
+,,AK_762,Kazarov Group AK 7.62,17,0,70,85,0,0.65,1,1800,,,1,15000
 ,,AK_545,Kazarov Group AK 5.45,15,0,65,70,0,0.4,1,2300,,,1,5000
 ,,AK_545_Carbine,Kazarov Group AK 5.45 Carbine,20,0,65,70,0,0.4,1,2300,,,1,30000
 ,,MosinNagant,Mosin Nagant M91/30 PU,65,0,80,90,0,0.2,1,1900,,,1,14000

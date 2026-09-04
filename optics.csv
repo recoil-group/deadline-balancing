@@ -79,11 +79,11 @@ id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black
 77,holotec_eflx_mini_red_dot,not_magnified,10,0.333, ,false,false
 78,magtap_mbus_gen2_rear_top,not_magnified, , , ,false,false
 79,fab_tech_usgi_rear_buis_aperture,not_magnified, , , ,false,false
-80,virticon_rmr_rm01_type2_auto_led_reflex,not_magnified,10,0.25, ,false,false
-81,virticon_rmr_rm06_type2_adj_led_reflex,not_magnified,10,0.25, ,false,false
-82,virticon_rmr_rm05_dual_illuminated_reflex,not_magnified,10,0.25, ,false,false
+80,virticon_drd_dr01_type2_auto_led_reflex,not_magnified,10,0.25, ,false,false
+81,virticon_drd_dr06_type2_adj_led_reflex,not_magnified,10,0.25, ,false,false
+82,virticon_drd_dr05_dual_illuminated_reflex,not_magnified,10,0.25, ,false,false
 83,swampfox_kingslayer_micro_reflex_sight,not_magnified,10,0.333, ,false,false
-84,virticon_sro_reflex_sight,not_magnified,10,0.25, ,false,false
+84,virticon_cro_reflex_sight,not_magnified,10,0.25, ,false,false
 85,stellartac_saturn_4x_red_scope,23,5,0.2,3.5,true,false
 86,stellartac_saturn_4x_green_scope,23,5,0.2,3.5,true,false
 87,susat_backup_sights,not_magnified, , , ,false,false
@@ -140,7 +140,7 @@ id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black
 138,tristar_compact_carry_handle,not_magnified, , , ,false,false
 139,squadsight_orion_3x_gen1_plus_nv_scope,22,1,1,5.5,true,false
 140,harmony_fast_micro_mount,not_magnified, , , ,false,false
-141,virticon_srs02,not_magnified,10,0.33, ,false,false
+141,virticon_sps02,not_magnified,10,0.33, ,false,false
 142,veles_chelomo_prc_red_dot,not_magnified,6,4, ,false,false
 143,sig_sauer_bravo4_4x30,22,10,0.33,6,true,false
 144,cosmotac_mark_3_tactical_gen2_3_9x42,not_magnified,10,0.1,7,true,false

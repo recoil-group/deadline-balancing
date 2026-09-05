@@ -48,8 +48,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,holotec_exps3_hood,HOLOTEC EXPS3 Hood,0,0,,,,,,,,,,0
 ,,holotec_exps2_green_hood,HOLOTEC EXPS2 Green Hood,0,0,,,,,,,,,,0
 ,,holotec_553_hood,HOLOTEC 553 Hood,0,0,,,,,,,,,,0
-,,holosun_hs510c_sight,HoloStar HS510C,-2,0.08,,,,,,,,,,1500
-,,holosun_he510c-gr_sight,HoloStar HE510C-GR,-2,0.08,,,,,,,,,,1700
+,,holostar_hx510c_reflex,HoloStar HS510C,-2,0.08,,,,,,,,,,1500
+,,holostar_hx510c_gr_reflex,HoloStar HE510C-GR,-2,0.08,,,,,,,,,,1700
 ,,pro_tactical_tactical_lightweight_vertical_grip,P.R.O Tactical Lightweight Vertical,5,0.11,-4,-1,,,,,,,,400
 ,,emberfield_mg_kemper_xl_reflex_sight,EmberField MG Kemper XL Reflex,-7,0.19,,-1,,0.25,,,,,,2000
 ,,aft_rear_sight_base,AFT Standard,0,0.02,,,,,,,,,,200

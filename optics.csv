@@ -155,6 +155,6 @@ id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black
 153,holotec_xps2_holo_sight,not_magnified,10,2.5, ,false,false
 154,holotec_xps3_holo_sight,not_magnified,10,0.2, ,false,false
 155,kazarov_group_ak12_gen1_rear_sight,60, , , ,false,false
-156,holosun_hs510c_sight,not_magnified,7,0.4, ,false,false
-157,holosun_he510c-gr_sight,not_magnified,7,0.4, ,false,false
+156,holostar_hx510c_reflex,not_magnified,7,0.4, ,false,false
+157,holostar_hx510c_gr_reflex,not_magnified,7,0.4, ,false,false
 158,kf_416_2mm_flip_up_sight_aperture,not_magnified, , , ,false,false

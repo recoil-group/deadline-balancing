@@ -2638,7 +2638,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,zenitco_pt_buttpad,,,,,,,,,,,,,,
 ,,veles_pt_1_klassika_buttpad,"Veles PT-1 ""Klassika""",13,0.08,-13,-14,,,,,,,,800
 ,,veles_pt_3_buttpad,Veles PT-3 Buttpad,22,0.2,-8,-7,,,,,,,,700
-,,isle_mfg_veles_pt_1_tailhook_adapter,Isle MFG Veles PT-1,6,0.03,-1,-1,,,,,,,,750
+,,isle_mfg_veles_pt_1_tailhook_adapter,Isle MFG Veles PT-1,6,0.03,-4,-5,,,,,,,,750
 ,zenitco_pt_cheekpad,,,,,,,,,,,,,,
 ,,veles_pt_1_klassika_cheekpad,"Veles PT-1 ""Klassika"" Cheekpad",0,0.06,,,,,,,,,,0
 ,,veles_pt_3_cheekpad,Veles PT-3 Cheekpad,0,0.08,,,,,,,,,,0
@@ -3009,4 +3009,3 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,temp_gpnvg,temp_gpnvg,,,,,,,,,,,,
 ,,temp_othernvg,temp_othernvg,,,,,,,,,,,,
 ,,dovetail_nvg_mount,ops_core_fast_sf,,,,,,,,,,,,
-,,isle_mfg_veles_pt_1_tailhook_adapter,Isle MFG Veles PT-1,6,0.03,-4,-5,,,,,,,,750

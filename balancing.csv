@@ -1014,10 +1014,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,7.62x51_kazarov_group_ak308_20r_mag,Kazarov Group 7.62x51 AK-308 20R,0,0.59,,,20,,,,,,,0
 ,,springfield_armory_m14_7.62x51_modified_30r_mag,Springfield Armory M14/M1A 7.62x51 Modified 30R,-6,0.93,,,30,,,,,,,1000
 ,,springfield_armory_m14_7.62x51_modified_20r_mag,Springfield Armory M14/M1A 7.62x51 Modified 20R,0.5,0.62,,,20,,,,,,,750
-,,sgm_tactical_saiga308_15r_mag,SGM Tactical Saiga .308 15R,5,0.42,,,15,,,,,,,700
+,,sgm_tactical_saiga308_15r_mag,SGM Tactical Saiga .308 15R,2.5,0.42,,,15,,,,,,,700
 ,,sgm_tactical_saiga308_20r_mag,SGM Tactical Saiga .308 20R,-0.5,0.57,,,20,,,,,,,750
 ,,sgm_tactical_saiga308_25r_mag,SGM Tactical Saiga .308 25R,-3,0.69,,,25,,,,,,,950
-,,sgm_tactical_saiga308_10r_mag,SGM Tactical Saiga .308 10R,7,0.28,,,10,,,,,,,500
+,,sgm_tactical_saiga308_10r_mag,SGM Tactical Saiga .308 10R,6.5,0.28,,,10,,,,,,,500
 ,,sgm_tactical_saiga308_3r_mag,SGM Tactical Saiga .308 3R,19,0.09,,,3,,,,,,,100
 ,,sgm_tactical_saiga308_5r_mag,SGM Tactical Saiga .308 5R,13,0.14,,,5,,,,,,,300
 ,,promag_saiga308_sai_a5_polymer_mag_24r,ProClip Saiga 308 7.62x51 SAI-A5 Polymer 24R,-2.5,0.68,,,24,,,,,,,900

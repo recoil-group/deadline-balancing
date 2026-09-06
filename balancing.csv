@@ -2572,7 +2572,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,romeo4t_lens_caps,Romeo4T Lens,1,0.02,,,,,,,,,,0
 ,,romeo4t_folded_lens_caps,Romeo4T Folded Lens,2,0.02,,,,,,,,,,0
 ,saiqd,,,,,,,,,,,,,,
-,,sai_jailbrake_handguard_extension,SAI JailBrake Extension,-1,0.14,-1,-4,,0.05,0,0,,,,800
+,,sai_jailbrake_handguard_extension,SAI JailBrake Extension,-1,0.14,-1,-4,,,0,0,,,,800
 ,sling_mount,,,,,,,,,,,,,,
 ,,sling_mount_ar,Sling,1,0.01,,,,,,,,,,0
 ,stanag_plate,,,,,,,,,,,,,,

@@ -104,7 +104,7 @@ id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black
 102,dams_mangonel_rear_sight,not_magnified, , , ,false,false
 103,pu_3.5x_scope,27, , ,5,true,false
 104,nomz_pilad_p3.5x20c_scope,27, , ,5,true,false
-105,hetzel_z24_fero_4x24,20,5,0.1,5,true,false
+105,hetzel_z24_fero_4x24,20,5,0.1,4.75,true,false
 106,sig_sauer_romeo3,not_magnified,10,0.333, ,false,false
 107,glock20_lf_rear_sight,not_magnified, , , ,false,false
 108,glock17_gen4_sf_rear_sight,not_magnified, , , ,false,false

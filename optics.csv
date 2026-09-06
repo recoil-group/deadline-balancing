@@ -87,7 +87,7 @@ id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black
 85,stellartac_saturn_4x_red_scope,23,5,0.2,3.5,true,false
 86,stellartac_saturn_4x_green_scope,23,5,0.2,3.5,true,false
 87,susat_backup_sights,not_magnified, , , ,false,false
-88,usi_l12a1_susat_combat_optic,25,5,0.1,7,true,false
+88,usi_l12a1_susat_combat_optic,25,5,0.1,5,true,false
 89,alistair_ar536_prism_5x_sight,16,5,0.2,3.5,true,false
 90,alistair_ar332_prism_3x_sight,30,5,0.2,3.5,true,false
 91,virticon_arcs_ta31_milspec_4x_scope,23,5,0.2,3.5,true,false

@@ -46,8 +46,8 @@ id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black
 44,mosin_rear_sight,not_magnified, , , ,false,false
 45,npz_1p78_1_2.8x_kashtan_scope,40,5,0.2,4.5,true,false
 46,paramount_arms_slx_1x_microprism_acss_g2_scope,not_magnified,5,0.2,2,false,false
-47,virticon_compact_arcs_3x24_ta50c_green,35,5,0.2,6,true,false
-48,virticon_compact_arcs_3x24_ta50c_red,35,5,0.2,6,true,false
+47,virticon_compact_arcs_3x24_ta50c_green,35,5,0.2,5,true,false
+48,virticon_compact_arcs_3x24_ta50c_red,35,5,0.2,5,true,false
 49,monstrum_tactical_s232p_2x32_prism_scope,40,8,0.2,6,false,false
 50,equinox_ex15_rear_sight,not_magnified, , , ,false,false
 51,equinox_ex15_rear_sight_folded,not_magnified, , , ,false,false

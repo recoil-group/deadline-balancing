@@ -2458,6 +2458,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,rsa_sg58_wood_humpback_stock,SG58 Humpback Wood Fixed,9,0.39,-11,-11,,,,,,,,1200
 ,,sg58_wood_stock_buttpad,SG58 Wood,1,0.03,,,,,,,,,,0
 ,,rsa_sg58_pistol_qd_sling_endplate,RSA SG58 Pistol QD Sling,5,0.05,8,8,,0.5,,,,,,1000
+,sa58_cheekrest,,,,,,,,,,,,,,
+,,ntc_cr140a_fal_tubular_stock_cheekrest,NTC CR140A FAL Tubular Stock Cheekrest,1,0.05,-1,-1,,,,,,,,800
 ,sa58_barrel,,,,,,,,,,,,,,
 ,,rsa_sg58_210mm_premium_pistol_barrel,"RSA SG58 8.25"" Premium Pistol",13,0.49,9,9,,0.35,-0.09,-158,,,,1000
 ,,rsa_sg58_305mm_barrel,"RSA SG58 12""",8,0.67,6,6,,0.15,-0.06,-131,,,,750
@@ -2574,6 +2576,19 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,romeo4t_cap,,,,,,,,,,,,,,
 ,,romeo4t_lens_caps,Romeo4T Lens,1,0.02,,,,,,,,,,0
 ,,romeo4t_folded_lens_caps,Romeo4T Folded Lens,2,0.02,,,,,,,,,,0
+,holostar_aero_reflex,,,,,,,,,,,,,,
+,,holostar_aero_reflex,Holostar Aero Reflex,-2,0.07,,,,,,,,,,800
+,holostar_aero_mount,,,,,,,,,,,,,,
+,,holostar_aero_low_mount,Holostar Aero Low Mount,0,0.03,,,,,,,,,,100
+,,holostar_aero_std_mount,Holostar Aero Standard Mount,0,0.06,,,,,,,,,,150
+,holostar_aero_cap,,,,,,,,,,,,,,
+,,holostar_aero_front_cover,Holostar Aero Front Cover,0.5,0.01,,,,,,,,,,100
+,,holostar_aero_front_cover_folded,Holostar Aero Front Cover Folded,1,0.01,,,,,,,,,,100
+,,holostar_aero_rear_cover,Holostar Aero Rear Cover,0.5,0.01,,,,,,,,,,100
+,,holostar_aero_rear_cover_folded,Holostar Aero Rear Cover Folded,1,0.01,,,,,,,,,,100
+,holostar_hx508t_reflex,,,,,,,,,,,,,,
+,,holostar_hx508t_rd_x2_reflex,Holostar HX508T-RD X2 Reflex,-2,0.04,,,,,,,,,,500
+,,holostar_hx508t_gr_x2_reflex,Holostar HX508T-GR X2 Reflex,-2,0.04,,,,,,,,,,500
 ,saiqd,,,,,,,,,,,,,,
 ,,sai_jailbrake_handguard_extension,SAI JailBrake Extension,-1,0.14,-1,-4,,,0,0,,,,800
 ,sling_mount,,,,,,,,,,,,,,

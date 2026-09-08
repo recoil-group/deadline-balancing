@@ -394,6 +394,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,stanag_30r_plate,STANAG 30R Mag,0,0.02,,,,,,,,,,0
 ,mlok,,,,,,,,,,,,,,
 ,,equinox_ex_mlok_cover,Arrow AX,0.5,0.01,,,,,,,,,,100
+,,ecm_ecmr_1_slot_mlok_rail_panel,ECM ECMR 1 Slot,0.5,0.01,,,,,,,,,,200
+,,ecm_ecmr_3_slot_mlok_rail_panel,ECM ECMR 3 Slot,1,0.03,,,,,,,,,,600
+,,ecm_ecmr_7_slot_mlok_rail_panel,ECM ECMR 7 Slot,2,0.06,,,,,,,,,,1000
 ,,equinox_ex_mlok_cover_flipped,Arrow AX Flipped,0.5,0.01,,,,,,,,,,100
 ,,equinox_ex_mlok_grip,Arrow AX MLOK Grip,6,0.04,-1,-2,,,,,,,,700
 ,,bcm_gunfighter_kag,BCM Gunfighter KAG MLOK,6,0.04,0,-3,,,,,,,,300

@@ -1133,7 +1133,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,carpe_diem_industries_scar_7.62x51_polymer_20r,Carpe Diem Industries FANG-H 7.62x51 Polymer 20R,-1,0.57,,,20,,,,,,,1250
 ,,carpe_diem_industries_scar_7.62x51_polymer_30r,Carpe Diem Industries FANG-H 7.62x51 Polymer 30R,-7,0.86,,,30,,,,,,,3000
 ,,carpe_diem_industries_scar_7.62x51_polymer_10r,Carpe Diem Industries FANG-H 7.62x51 Polymer 10R,6.5,0.29,,,10,,,,,,,750
-,,aft_mk_17_7.62x51_20r,AFT MK-17 7.62x51 NATO 20R,0,0.62,,,20,,,,,,,0
+,,aft_mk_17_7.62x51_20r,AFT MK-17 7.62x51 NATO 20R,1,0.65,,,20,,,,,,,0
 ,magazine_7.62x51_nato_sr25,,,,,,,,,,,,,,
 ,,cartesia_productions_x25_7.62x51_drum_50r,Cartesia Productions X-25 .308 50R Drum,-14,1.5,,,50,,,,,,,5000
 ,,magtap_pmag_d50_lr_sr_gen_m3_7.62x51_50r,Magtap PMAG D-50 LR/SR Gen M3 .308 50R Drum,-15,1.45,,,50,,,,,,,4500

@@ -2393,8 +2393,13 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,odin_works_tiduro_modular_compensator,Odin Works Tiduro Modular,-1,0.05,-5,-5,,0.05,-0.01,-30,,,0,700
 ,45acp_muzzle_device,,,,,,,,,,,,,,
 ,,direct_thread_adapter_omega45k,.45ACP Direct thread adapter for Omega 45K suppressor,0,0.03,0,0,,0.05,0,5,,,,200
+,,45acp_thread_protector,.45ACP Thread Protector,3,0.01,0,0,,0,0,,,,,200
 ,,suppressors_inc_osprey45_gen1_45acp_suppressor,Suppressors Inc. Osprey 45 Gen 1 .45ACP,-6,0.19,-8,-12,,-0.15,0.15,150,,,,1500
 ,,suppressors_inc_osprey45_gen1_45acp_suppressor_flipped,Suppressors Inc. Osprey 45 Gen 1 .45ACP Flipped,-6,0.19,-8,-12,,-0.15,0.15,150,,,,1500
+,10mm_muzzle_device,,,,,,,,,,,,,,
+,,10mm_thread_protector,10mm Thread Protector,3,0.01,0,0,,0,0,,,,,200
+,40sw_muzzle_device,,,,,,,,,,,,,,
+,,40sw_thread_protector,.40S&V Thread Protector,3,0.01,0,0,,0,0,,,,,200
 ,5.8x42_muzzle_device,,,,,,,,,,,,,,
 ,,sanxian_qbz95_factory_type1_bird_cage_flash_hider,Sanxian QBZ-95 Factory Type 1 Bird Cage,2,0.06,-9,-4,,0,0,45,,,,300
 ,,sanxian_qbz95_factory_type2_bird_cage_flash_hider,Sanxian QBZ-95 Factory Type 2 Bird Cage,2,0.07,-6,-7,,0,0,45,,,,300

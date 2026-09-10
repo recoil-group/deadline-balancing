@@ -1014,7 +1014,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,7.62x39_ati_schmeisser_ak47_windowed_60r_mag,ATI Schmeisser AK47 Windowed 7.62x39 60R,-8,1.09,,,60,,,,,,,3500
 ,,7.62x39_rwb_ak47_75r_drum_mag,RWB AK47 7.62x39 75R Drum,-11,1.51,,,75,,,,,,,5000
 ,,7.62x39_rwb_ak47_100r_drum_mag,RWB AK47 7.62x39 100R Drum,-15,1.86,,,100,,,,,,,6000
-,,7.62x39_veg_amd65_hungarian_20r_mag,Hungarian AMD65 20R,3.5,0.5,,,20,,,,,,,600
+,,7.62x39_veg_amd65_hungarian_20r_mag,Hungarian AMD65 20R,4.5,0.5,,,20,,,,,,,600
 ,,7.62x39_rkm_korean_ak_10r_mag,ProClip AK-47 7.62x39 Polymer 40R,9,0.36,,,10,,,,,,,500
 ,magazine_762x51_ak308,,,,,,,,,,,,,,
 ,,7.62x51_kazarov_group_ak308_20r_mag,Kazarov Group 7.62x51 AK-308 20R,0,0.59,,,20,,,,,,,0

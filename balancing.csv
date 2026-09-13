@@ -1386,7 +1386,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak_carbine_lower,,,,,,,,,,,,,,
 ,,kazarov_aks74u_lower_receiver,Kazarov AKS-74U,1,0.32,2,2,,,,,,,,0
 ,aks74u_barrel,,,,,,,,,,,,,,
-,,kazarov_aks74u_210mm_5.45x39_barrel,Kazarov AKS-74U 210mm 5.45x39,8,0.29,1,0,,0.20,-0.08,-200,,,,0
+,,kazarov_aks74u_210mm_5.45x39_barrel,Kazarov AKS-74U 210mm 5.45x39,8,0.29,1,0,,0.2,-0.08,-200,,,,0
 ,aks74u_bolt,,,,,,,,,,,,,,
 ,,kazarov_aks74u_5.45x39_bolt,Kazarov AKS-74U,0,0.05,,,,,,,,,,0
 ,aks74u_bolt_carrier,,,,,,,,,,,,,,
@@ -1820,25 +1820,25 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,5.45x39_tsniiitekhmash_7n39_63gr,TsNIITekhMash 7N39 63gr Igolnik,-1,0.04,2,0,,-0.1,,-100,,,,4000
 ,,5.45x39_lugansk_7u1_79gr_us,Lugansk 7U1 79gr US,3,0.1,-4,-4,,0.2,,-1100,,-0.02,-0.65,2000
 ,ammo_9x18,,,,,,,,,,,,,,
-,,9x18_novosibirsk_57_n_181s_92gr_pst,Novosibirsk 57-N-181S 92gr PST,0,0.00,0,0,,0.00,,0,,,,0
-,,9x18_hawthorne_xtp_95gr_jhpfb,Hawthorne XTP 95gr JHPFB,-1,0.01,2,2,,0.00,,50,,,,1500
-,,9x18_novosibirsk_57_t_181_56gr_red_tracer,Novosibirsk 57-T-181 56gr Red Tracer,1,-0.04,-1,-1,,0.10,,100,,,,500
+,,9x18_novosibirsk_57_n_181s_92gr_pst,Novosibirsk 57-N-181S 92gr PST,0,0,0,0,,0,,0,,,,0
+,,9x18_hawthorne_xtp_95gr_jhpfb,Hawthorne XTP 95gr JHPFB,-1,0.01,2,2,,0,,50,,,,1500
+,,9x18_novosibirsk_57_t_181_56gr_red_tracer,Novosibirsk 57-T-181 56gr Red Tracer,1,-0.04,-1,-1,,0.1,,100,,,,500
 ,,9x18_underworld_xtreme_penetrator_95gr_sm,Underworld Xtreme Penetrator 95gr SM,-1,0.01,1,1,,-0.05,,50,,,,1000
-,,9x18_kazarov_7n25_pbm_56gr_ap,Kazarov 7N25 PBM 56gr AP,1,-0.04,1,-1,,-0.10,,600,,,0.1,2000
+,,9x18_kazarov_7n25_pbm_56gr_ap,Kazarov 7N25 PBM 56gr AP,1,-0.04,1,-1,,-0.1,,600,,,0.1,2000
 ,,9x18_bison_caliber_115gr_hcfn,Bison Caliber 115gr HCFN +P,-2,0.03,1,2,,0.05,,150,,,,1500
-,,9x18_tsniitekhmash_sp7_gzh_80gr,TsNIITekhMash SP7 gzh 80gr,-1,-0.02,3,1,,0.10,,400,,,0.1,2000
+,,9x18_tsniitekhmash_sp7_gzh_80gr,TsNIITekhMash SP7 gzh 80gr,-1,-0.02,3,1,,0.1,,400,,,0.1,2000
 ,ammo_9x19,,,,,,,,,,,,,,
-,,9x19_roosevelt_umc_115gr_fmj,Roosevelt UMC 115gr FMJ ,0,0.00,0,0,,0.00,,0,,,,0
-,,9x19_appalachian_mk254_mod0_90gr_frangible,Appalachian Mk.254 Mod0 90gr Frangible,0,-0.06,-3,-2,,0.00,,100,,,,750
-,,9x19_appalachian_xm1153_147gr_jhp,Appalachian XM1153 147gr JHP,-1,0.08,2,3,,-0.10,,-100,,,-0.2,3500
+,,9x19_roosevelt_umc_115gr_fmj,Roosevelt UMC 115gr FMJ ,0,0,0,0,,0,,0,,,,0
+,,9x19_appalachian_mk254_mod0_90gr_frangible,Appalachian Mk.254 Mod0 90gr Frangible,0,-0.06,-3,-2,,0,,100,,,,750
+,,9x19_appalachian_xm1153_147gr_jhp,Appalachian XM1153 147gr JHP,-1,0.08,2,3,,-0.1,,-100,,,-0.2,3500
 ,,9x19_appalachian_m882_124gr_fmj,Appalachian M882 124gr FMJ +P,0,0.02,2,1,,-0.05,,50,,,,1250
-,,9x19_appalachian_m1152_115gr_fmjfn,Appalachian M1152 115gr FMJ-FN +P+,-2,0.00,3,2,,-0.20,,200,,,,3000
-,,9x19_zfm_luger_154gr_fmjfp_subsonic,ZFM Luger 154gr FMJ-FP Subsonic,3,0.10,0,0,,0.05,,-250,,,-0.6,2750
-,,9x19_pulsar_119gr_green_tracer,Pulsar 119gr Green Tracer,2,0.01,-1,-1,,0.10,,0,,,,500
-,,9x19_novosibirsk_7n21_80gr_pst,Novosibirsk 7N21 80gr PST,-1,-0.09,-1,-1,,-0.10,,300,,,,2000
+,,9x19_appalachian_m1152_115gr_fmjfn,Appalachian M1152 115gr FMJ-FN +P+,-2,0,3,2,,-0.2,,200,,,,3000
+,,9x19_zfm_luger_154gr_fmjfp_subsonic,ZFM Luger 154gr FMJ-FP Subsonic,3,0.1,0,0,,0.05,,-250,,,-0.6,2750
+,,9x19_pulsar_119gr_green_tracer,Pulsar 119gr Green Tracer,2,0.01,-1,-1,,0.1,,0,,,,500
+,,9x19_novosibirsk_7n21_80gr_pst,Novosibirsk 7N21 80gr PST,-1,-0.09,-1,-1,,-0.1,,300,,,,2000
 ,,9x19_s2_research_9mm_rip_92gr_fhp,S2 Research RIP 92gr FHP,1,-0.06,0,-2,,0.05,,100,,,,1500
 ,,9x19_kazarov_7n31_pbp_gzh_64gr,Kazarov 7N31 PBP gzh 64gr +P+,-2,-0.12,-1,0,,-0.15,,500,,,,2500
-,,9x19_btv_scorpio_nato_115gr_fmj,BVT Scorpio NATO 115gr FMJ +P,-1,0.00,1,1,,-0.10,,100,,,,1000
+,,9x19_btv_scorpio_nato_115gr_fmj,BVT Scorpio NATO 115gr FMJ +P,-1,0,1,1,,-0.1,,100,,,,1000
 ,ammo_10mm,,,,,,,,,,,,,,
 ,,10mm_phoenix_aluminum_200gr_fmj,10mm Auto Phoenix Aluminum 200gr FMJ,0,0,,0,,0,,100,,,,0
 ,,10mm_roosevelt_umc_180gr_fmj,10mm Auto Roosevelt UMC 180gr FMJ,0,0.04,,0,,0.05,,50,,,,1000
@@ -2326,26 +2326,26 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,9x19_muzzle_device,,,,,,,,,,,,,,
 ,,custom4port,CUSTOM4PORT,-2,0.07,-10,-2,,0,0,10,,,,500
 ,,fd917,FD917,-8,0.25,-6,-14,,-0.15,0.14,200,,,,2000
-,,mp5_nowa_style_muzzle_brake_th,MPi-54 Nowa Style,-1,0.06,-8,-6,,0,0,20,,,,600
-,,alphadog_alpha9_flipped,Alpha Dog Alpha 9 9x19 Flipped,-7,0.22,-7,-9,,-0.15,0.14,150,,,,1000
-,,alphadog_alpha9,Alpha Dog Alpha 9 9x19,-8,0.22,-7,-9,,-0.15,0.14,150,,,,1000
-,,kazarov_pp-19-01_vityaz_9x19_suppressor,Kazarov PP-19-01 Vityaz 9x19,-5,0.23,-10,-10,,-0.2,0.13,150,,,,1200
-,,kazarov_pp-19-01_vityaz_std_muzzle_brake_compensator,Kazarov PP-19-01 Vityaz Std.,-1,0.04,-6,-7,,0,0,0,,,,100
-,,sig_srd9_9x19,SIC SRD 9 9x19mm,-4,0.23,-10,-9,,-0.1,0.12,90,,,,1500
-,,9x19_rotor43_8chamber_pf940_suppressor,Rotor 43 8 Chambered 9x19 PF940,-5,0.24,-9,-11,,-0.12,0.14,100,,,,1000
-,,9x19_naughty_9,Naughty-9,-2,0.18,-8,-8,,-0.05,0.06,50,,,,900
+,,mp5_nowa_style_muzzle_brake_th,MPi-54 Nowa Style,-1,0.06,-8,-6,,0,0,20,,,0.07,600
+,,alphadog_alpha9_flipped,Alpha Dog Alpha 9 9x19 Flipped,-7,0.22,-7,-9,,-0.15,0.14,150,,,-0.13,1000
+,,alphadog_alpha9,Alpha Dog Alpha 9 9x19,-8,0.22,-7,-9,,-0.15,0.14,150,,,-0.13,1000
+,,kazarov_pp-19-01_vityaz_9x19_suppressor,Kazarov PP-19-01 Vityaz 9x19,-5,0.23,-10,-10,,-0.2,0.13,150,,,-0.2,1200
+,,kazarov_pp-19-01_vityaz_std_muzzle_brake_compensator,Kazarov PP-19-01 Vityaz Std.,-1,0.04,-6,-7,,0,0,0,,,0.03,100
+,,sig_srd9_9x19,SIC SRD 9 9x19mm,-4,0.23,-10,-9,,-0.1,0.12,90,,,-0.15,1500
+,,9x19_rotor43_8chamber_pf940_suppressor,Rotor 43 8 Chambered 9x19 PF940,-5,0.24,-9,-11,,-0.12,0.14,100,,,-0.18,1000
+,,9x19_naughty_9,Naughty-9,-2,0.18,-8,-8,,-0.05,0.06,50,,,-0.05,900
 ,,whitner_defense_9x19_thread_protector,Whitner Defense 9x19,3,0.01,0,0,,0,0,0,,,,100
 ,,9x19_thread_protector,Generic 9x19,3,0.01,0,0,,0,0,0,,,,100
-,,suppressors_inc_osprey9_gen1_9x19_suppressor,Suppressors Inc. Osprey 9 Gen 1 9x19,-6,0.19,-8,-12,,-0.15,0.15,150,,,,1500
-,,suppressors_inc_osprey9_gen1_9x19_suppressor_flipped,Suppressors Inc. Osprey 9 Gen 1 9x19 Flipped,-6,0.19,-8,-12,,-0.15,0.15,150,,,,1500
-,,vyctor_vc9_9x19_compensator,VYCTOR VC-9 9x19,-2,0.05,-7,-9,,0,0,20,,,,1800
+,,suppressors_inc_osprey9_gen1_9x19_suppressor,Suppressors Inc. Osprey 9 Gen 1 9x19,-6,0.19,-8,-12,,-0.15,0.15,150,,,-0.1,1500
+,,suppressors_inc_osprey9_gen1_9x19_suppressor_flipped,Suppressors Inc. Osprey 9 Gen 1 9x19 Flipped,-6,0.19,-8,-12,,-0.15,0.15,150,,,-0.1,1500
+,,vyctor_vc9_9x19_compensator,VYCTOR VC-9 9x19,-2,0.05,-7,-9,,0,0,20,,,0.03,1800
 ,,ips_9x19_1inch_barrel_extension,"IPS 1"" 9x19",-1,0.03,1,1,,0.06,0.01,30,,,,500
 ,,resiliant_suppressors_obsidian_9_9x19_piston,Resiliant Suppressors Obsidian9 9x19 Piston,0,0.03,0,0,,0,0,0,,,,300
 ,,resiliant_suppressors_obsidian_9_3lug_piston,Resiliant Suppressors Obsidian9 3-Lug Piston,0,0.03,0,0,,0,0,0,,,,300
-,,ardian_weapons_glock17_afterburner_micro_compensator,Radian Weapons Glock 17 Gen5 AFTERBURNER Micro Compensator,0,0.04,-5,-5,,0,0,20,,,,1000
+,,ardian_weapons_glock17_afterburner_micro_compensator,Radian Weapons Glock 17 Gen5 AFTERBURNER Micro Compensator,0,0.04,-5,-5,,0,0,20,,,0.04,1000
 ,resiliant_suppressors_obsidian_9,,,,,,,,,,,,,,
-,,resiliant_suppressors_obsidian_9_body,Resiliant Suppressors Obsidian9 9x19 Body,-4,0.09,-9,-8,,-0.08,0.09,70,,,,1500
-,,resiliant_suppressors_obsidian_9_extension,Resiliant Suppressors Obsidian9 9x19 Extension,-3,0.07,-3,-2,,-0.04,0.05,50,,,,1000
+,,resiliant_suppressors_obsidian_9_body,Resiliant Suppressors Obsidian9 9x19 Body,-4,0.09,-9,-8,,-0.08,0.09,70,,,-0.08,1500
+,,resiliant_suppressors_obsidian_9_extension,Resiliant Suppressors Obsidian9 9x19 Extension,-3,0.07,-3,-2,,-0.04,0.05,50,,,-0.04,1000
 ,,resiliant_suppressors_obsidian_9_cap,Resiliant Suppressors Obsidian9 9x19 Cap,0,0.02,,,,,,,,,,0
 ,7.62x39_muzzle_device,,,,,,,,,,,,,,
 ,,kazarov_akm_6p1_0_14_compensator,Kazarov AKM 6P1 0-14,0,0.04,-10,-13,,0,0,0,,,,0
@@ -2741,11 +2741,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,precision_intercontinental_at_aics_gen2_thumbhole_backstrap,Precision Intercontinental AT AICS 2.0 Thumbhole,3,0.07,,,,,,,,,,500
 ,hunter700_cheek,,,,,,,,,,,,,,
 ,,hunter_cheekrest_flat,Hunter 700 Stock Flat,0,0.02,,,,,,,,,,0
-,,hunter_cheekrest_.25,Hunter 700 Stock .25,.5,0.03,,,,,,,,,,0
+,,hunter_cheekrest_.25,Hunter 700 Stock .25,0.5,0.03,,,,,,,,,,0
 ,,hunter_cheekrest_.5,Hunter 700 Stock .5,1,0.04,,,,,,,,,,0
 ,,hunter_cheekrest_.75,Hunter 700 Stock .75,1.5,0.05,,,,,,,,,,0
 ,hunter700_cheek_sga,,,,,,,,,,,,,,
-,,hunter_cheekrest_.25_sga,Hunter SGA .25,.5,0.03,,,,,,,,,,0
+,,hunter_cheekrest_.25_sga,Hunter SGA .25,0.5,0.03,,,,,,,,,,0
 ,,hunter_cheekrest_flat_sga,Hunter SGA Flat,0,0.02,,,,,,,,,,0
 ,,hunter_cheekrest_.75_sga,Hunter SGA .75,1.5,0.05,,,,,,,,,,0
 ,,hunter_cheekrest_.5_sga,Hunter SGA .5,1,0.04,,,,,,,,,,0
@@ -2870,7 +2870,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,mp5sd_barrel,,,,,,,,,,,,,,
 ,,hk_mp5sd_9x19_146mm_barrel,MPi-54SD 146mm 9x19,2,0.22,-1,-4,,0.05,0,80,,,,1000
 ,mp5sd_suppressor,,,,,,,,,,,,,,
-,,hk_mp5sd_9x19_suppressor,MPi54SD 9x19,-5,0.26,-12,-16,,-0.1,0.15,-950,,,,3000
+,,hk_mp5sd_9x19_suppressor,MPi54SD 9x19,-5,0.26,-12,-16,,-0.1,0.15,-950,,,-0.25,3000
 ,surefire_mp5_flashlight,,,,,,,,,,,,,,
 ,,centrefire_lm1_bk_flashlight,Centrefire LM1-BK Visible Light Flashlight,0,0.03,,,,,,,,,,200
 ,,centrefire_lm1_b_bk_flashlight,Centrefire LM1-B-BK Visible Light Flashlight,0,0.04,,,,,,,,,,300

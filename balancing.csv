@@ -2544,8 +2544,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,mcs_buttpad,,,,,,,,,,,,,,
 ,,mcs_buttpad,MCS V5,1,0.05,-1,-1,,,,,,,,0
 ,mcs_hood,,,,,,,,,,,,,,
-,,mcs_lss_nv_hood,MCS LSS Night Vision,0,0.04,,,,,,,,,,500
-,,mcs_lss_xl_nv_hood_oversize,MCS LSS-XL Gen II Night Vision,0,0.06,,,,,,,,,,750
+,,mcs_lss_nv_hood,MCS LSS Night Vision,-2,0.04,,,,,,,,,,500
+,,mcs_lss_xl_nv_hood_oversize,MCS LSS-XL Gen II Night Vision,-2,0.06,,,,,,,,,,750
 ,mcs_stock,,,,,,,,,,,,,,
 ,,mcs_v5_skeleton_rifle_stock,MCS Skeleton V5,22,0.32,0,0,,-0.05,,,,,,1200
 ,,mcs_v5_skeleton_rifle_stock_short,MCS Skeleton V5 Short,22,0.3,0,0,,-0.05,,,,,,1200

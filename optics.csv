@@ -2,7 +2,7 @@
 id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black_in_night_vision,disable_when_not_alone
 1,holotec_vudu_1_6x24,not_magnified,10,0.1,4.5,true,false
 2,nightforce_atacr7_35x56_f1,not_magnified,5,500, ,true,false
-3,azimuth_compm2_sight,not_magnified,5,0.2, ,false,false
+3,azimuth_duty2_sight,not_magnified,5,0.2, ,false,false
 4,izhevsk_pm_std_rear_sight,not_magnified, , , ,false,false
 5,rtm_pm1_makarov_rear_sight,not_magnified, , , ,false,false
 6,aft_rear_sight_200m_aperture,not_magnified, , , ,false,false
@@ -53,11 +53,11 @@ id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black
 51,equinox_ex15_rear_sight_folded,not_magnified, , , ,false,false
 52,target_sports_rear_sight,not_magnified, , , ,false,false
 53,azimuth_acro_p2_reflex_sight,not_magnified,10,0.2, ,false,false
-54,azimuth_compm4_sight,not_magnified,13,0.15, ,false,false
+54,azimuth_duty4_sight,not_magnified,13,0.15, ,false,false
 55,sic_sturmer_scipio4b_sight,not_magnified,10,0.33, ,false,false
 56,sic_sturmer_scipio4t_sight,not_magnified,10,0.2, ,false,false
 57,azimuth_micro_t1_sight,not_magnified,10,0.5, ,false,false
-58,azimuth_compm5_sight,not_magnified,10,0.2, ,false,false
+58,azimuth_duty5_sight,not_magnified,10,0.2, ,false,false
 59,azimuth_micro_t2_sight,not_magnified,10,0.2, ,false,false
 60,alistair_ar536_prism_5x_sight_carry_handle,16,5,0.2,3.5,true,false
 61,alistair_ar332_prism_3x_sight_carry_handle,30,5,0.2,3.5,true,false

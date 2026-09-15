@@ -108,10 +108,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 84,,pts_validus_shift_tactical_grip,Pts Fortis Shift Tactical Grip,3,0.09,-5,-3,,,,,,,600
 85,,azimuth_qrp1_30mm_mount,azimuth QRP 30mm,-0.5,0.07,,,,,,,,,300
 ,,azimuth_qrp1_30mm_mount_w_spacer,azimuth QRP 30mm w 39mm Spacer,-1,0.09,,,,,,,,,400
-,,whitehouse_compm_30mm_mount,Wilcox COMP-M 30mm,-1,0.06,,,,,,,,,600
+,,whitehouse_duty_30mm_mount,Wilcox Duty 30mm,-1,0.06,,,,,,,,,600
 ,,azimuth_qrp2_modular_base_mount,azimuth QRP2 Modular Base Mount,0,0.03,,,,,,,,,300
 ,,azimuth_ar15_spacer,azimuth AR-15 Spacer,-1,0.02,,,,,,,,,200
-,,azimuth_compm4_sight,azimuth CompM4,-1,0.14,,,,,,,,,1000
+,,azimuth_duty4_sight,azimuth DutyM4,-1,0.14,,,,,,,,,1000
 86,,rk_b25_angled_mount,Rk B25 angled,-1,0.03,0,0,,,,,,,500
 87,,rk_foregrip_mount,Rk foregrip,-0.5,0.03,0,0,,,,,,,200
 88,,rk_short_foregrip_mount,Rk short foregrip,-0.5,0.02,0,0,,,,,,,200
@@ -489,14 +489,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 237,,azimuth_micro_spacer_low_30mm,azimuth Micro Spacer Low 30mm,-0.5,0.02,,,,,,,,,200
 238,,azimuth_micro_t1_sight,azimuth Micro T1,-1.5,0.06,,,,,,,,,1200
 239,,azimuth_micro_t2_sight,azimuth Micro T2,-1.5,0.06,,,,,,,,,1300
-,,azimuth_compm5_sight,azimuth CompM5,-1,0.09,,,,,,,,,1400
+,,azimuth_duty5_sight,azimuth DutyM5,-1,0.09,,,,,,,,,1400
 240,,sic_sturmer_scipio5_sight,Sic Stürmer Scipio5 1x20 Sight,-1.5,0.06,,,,,,,,,700
 ,azimuth_t2_caps,,,,,,,,,,,,,
 241,,azimuth_micro_t2_lens_caps,azimuth Micro T2 Lens Caps,1,0.01,,,,,,,,,0
 ,azimuth_t2_wrap,,,,,,,,,,,,,
 ,,azimuth_t2_cordura_fabric_wrap,azimuth Micro T-2 / H-2 Cordura Fabric Wrap,0,0.005,,,,,,,,,1000
 ,compm5_caps,,,,,,,,,,,,,
-,,azimuth_compm5_lens_caps,azimuth CompM5 Lens Caps,1,0.01,,,,,,,,,0
+,,azimuth_duty5_lens_caps,azimuth DutyM5 Lens Caps,1,0.01,,,,,,,,,0
 ,acro_footprint,,,,,,,,,,,,,
 ,,azimuth_acro_p2_reflex_sight,azimuth ACRO P-2 Reflex,-2,0.05,,,,,,,,,1200
 ,susat_scope_footprint,,,,,,,,,,,,,
@@ -514,7 +514,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,dual_ring_34mm_sight_mount,,,,,,,,,,,,,
 248,,nightforce_atacr7_35x56_f1,Nightforce ATACR 7-35x56 F1,-7,0.42,,-4,,,,,,,5000
 ,single_ring_30mm_sight_mount,,,,,,,,,,,,,
-249,,azimuth_compm2_sight,azimuth CompM2,-1,0.11,,,,,,,,,800
+249,,azimuth_duty2_sight,azimuth DutyM2,-1,0.11,,,,,,,,,800
 ,25mm_ring_mount,,,,,,,,,,,,,
 250,,armytek_predator_prov3_xhp35_hi,Armytek Predator Pro v3 XHP35 HI Flashlight,-2,0.16,,,,,,,,,750
 251,,ultrafire_wf501b_flashlight,Ultrafire WF-501B Flashlight,-1,0.12,,,,,,,,,500

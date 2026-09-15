@@ -127,7 +127,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sig_sauer_romeo4_mount,Sic Stürmer Romeo4,0,0.04,,,,,,,,,,200
 ,,sig_sauer_romeo4_low,Sic Stürmer Romeo4 Low,0,0.03,,,,,,,,,,200
 ,,sig_sauer_romeo4t_1/3_cowitness_mount,Sic Stürmer Romeo4T Lower Hex Bolt 1/3 Co-witness,0,0.05,,,,,,,,,,300
-,,sig_sauer_romeo5_low_mount,Sic Stürmer Romeo5 Low,0,0.02,,,,,,,,,,200
+,,sic_sturmer_scipio5_low_mount,Sic Stürmer Scipio5 Low,0,0.02,,,,,,,,,,200
 ,,sightmark_lopro_combo,Sightmark Lopro Combo,-1,0.2,,-2,,,,,,,,500
 ,,sightmark_lopro_mini_combo,Sightmark Lopro Mini Combo,-1,0.11,,,,,,,,,,600
 ,,stark_se_5_express_forward_grip,Stark SE-5 Express Forward,2,0.1,-5,-5,,,,,,,,400
@@ -488,14 +488,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,target_sports_front_sight_folded,Target Sports Low Profile 45 Degree Folded Folded,1,0.02,,,,,,,,,,0
 ,,target_sports_rear_sight,Target Sports Low Profile 45 Degree,1,0.02,,,,,,,,,,0
 ,azimuth_micro_footprint,,,,,,,,,,,,,,
-,,sig_sauer_romeo4b_sight,Sic Stürmer Romeo4B,-1.5,0.08,,,,,,,,,,1000
-,,sig_sauer_romeo4t_sight,Sic Stürmer Romeo4T,-1.5,0.08,,,,,,,,,,1100
+,,sic_sturmer_scipio4b_sight,Sic Stürmer Scipio4B,-1.5,0.08,,,,,,,,,,1000
+,,sic_sturmer_scipio4t_sight,Sic Stürmer Scipio4T,-1.5,0.08,,,,,,,,,,1100
 ,,azimuth_micro_spacer_high_39mm,Azimuth Micro Spacer High 39mm,0,0.03,,,,,,,,,,200
 ,,azimuth_micro_spacer_low_30mm,Azimuth Micro Spacer Low 30mm,0,0.02,,,,,,,,,,200
 ,,azimuth_micro_t1_sight,Azimuth Micro T1,-1.5,0.06,,,,,,,,,,1200
 ,,azimuth_micro_t2_sight,Azimuth Micro T2,-1.5,0.06,,,,,,,,,,1300
 ,,azimuth_compm5_sight,Azimuth CompM5,-1,0.09,,,,,,,,,,1400
-,,sig_sauer_romeo5_1x20_sight,Sic Stürmer Romeo5 1x20,-1.5,0.06,,,,,,,,,,700
+,,sic_sturmer_scipio5_sight,Sic Stürmer Scipio5 1x20,-1.5,0.06,,,,,,,,,,700
 ,azimuth_t2_caps,,,,,,,,,,,,,,
 ,,azimuth_micro_t2_lens_caps,Azimuth Micro T2,1,0.01,,,,,,,,,,0
 ,azimuth_t2_wrap,,,,,,,,,,,,,,
@@ -2580,10 +2580,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,z24_scope,,,,,,,,,,,,,,
 ,,hetzel_z24_fero_4x24,Hetzel AG Z24 Fero 4x24mm,-2,0.16,,,,,,,,,,750
 ,romeo3_mount,,,,,,,,,,,,,,
-,,sig_sauer_romeo3,Sic Stürmer Romeo3 Sight,-2,0.05,,,,,,,,,,900
+,,sic_sturmer_romeo3,Sic Stürmer Scipio3 Sight,-2,0.05,,,,,,,,,,900
 ,romeo4t_cap,,,,,,,,,,,,,,
-,,romeo4t_lens_caps,Romeo4T Lens,1,0.02,,,,,,,,,,0
-,,romeo4t_folded_lens_caps,Romeo4T Folded Lens,2,0.02,,,,,,,,,,0
+,,scipio4t_lens_caps,Sic Stürmer Scipio4T Lens,1,0.02,,,,,,,,,,0
+,,scipio4t_folded_lens_caps,Sic Stürmer Scipio4T Folded Lens,2,0.02,,,,,,,,,,0
 ,holostar_aero_reflex,,,,,,,,,,,,,,
 ,,holostar_aero_reflex,Holostar Aero Reflex,-2,0.07,,,,,,,,,,800
 ,holostar_aero_mount,,,,,,,,,,,,,,

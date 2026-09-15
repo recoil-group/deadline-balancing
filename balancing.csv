@@ -949,13 +949,13 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,vector_trigger,,,,,,,,,,,,,,
 ,,vector_std_trigger,KALIS Scalar Std.,0,0.03,,,,,,,,,,0
 ,vector_right_rail,,,,,,,,,,,,,,
-,,vector_right_rail,KALIS Scalar Std.,-1,0.04,,,,,,,,,,0
+,,vector_right_rail,KALIS Scalar Std.,0,0.04,,,,,,,,,,0
 ,vector_magazine_eject,,,,,,,,,,,,,,
 ,,vector_std_mag_eject,KALIS Scalar Std.,0,0.01,,,,,,,,,,0
 ,vector_lower_receiver,,,,,,,,,,,,,,
 ,,vector_lower_receiver,KALIS Scalar Gen2,0,0.57,,,,,,,,,,0
 ,vector_left_rail,,,,,,,,,,,,,,
-,,vector_left_rail,KALIS Scalar Std.,-1,0.04,,,,,,,,,,0
+,,vector_left_rail,KALIS Scalar Std.,0,0.04,,,,,,,,,,0
 ,vector_handguard_mount,,,,,,,,,,,,,,
 ,,vector_mk5_side_rail,Vector Mk5 Side Rail,0,0.03,0,0,,,,,,,,0
 ,,mlok_spot,Mlok Attach Point,0,0,,,,,,,,,,0

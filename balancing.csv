@@ -121,7 +121,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,vectorworks_leap01_swo110_1.57_mount,"Vectorworks LEAP/01 SWO110 1.57"" Mount",0,0.05,,,,,,,,,,550
 ,,vectorworks_leap01_swo120_1.93_mount,"Vectorworks LEAP/01 SWO120 1.93"" Mount",0,0.06,,,,,,,,,,600
 ,,sic_sturmer_gaius4_4x30,Sic Stürmer GAIUS4 4X30,-2.5,0.27,,-2,,,,,,,,2000
-,,sic_sturmer_qd_1.41_cowitness_scipio3_riser,Sic Stürmer QD 1.41 co-witness Scipio 3,0,0.04,,,,,,,,,,300
+,,sic_sturmer_qd_1.41_cowitness_scipio3_riser,Sic Stürmer QD 1.41 co-witness Scipio3,0,0.04,,,,,,,,,,300
 ,,sic_sturmer_scipio3_low_rise_mount,Sic Stürmer Scipio3 Low-Rise,0,0.02,,,,,,,,,,200
 ,,sic_sturmer_scipio_cowitness_qd_mount,Sic Stürmer Scipio Co-witness QD Mount,0,0.05,,,,,,,,,,400
 ,,sic_sturmer_scipio4_mount,Sic Stürmer Scipio4,0,0.04,,,,,,,,,,200

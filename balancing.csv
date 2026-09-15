@@ -128,6 +128,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sic_sturmer_scipio4_low,Sic Stürmer Scipio4 Low,0,0.03,,,,,,,,,,200
 ,,sic_sturmer_scipio4t_1/3_cowitness_mount,Sic Stürmer Scipio4T Lower Hex Bolt 1/3 Co-witness,0,0.05,,,,,,,,,,300
 ,,sic_sturmer_scipio5_low_mount,Sic Stürmer Scipio5 Low,0,0.02,,,,,,,,,,200
+,,sic_sturmer_i_beam_1.41inch_mount,Sic Stürmer I-Beam 1.41",0,0.03,,,,,,,,,,400
+,,sic_sturmer_i_beam_1.93inch_mount,Sic Stürmer I-Beam 1.93",0,0.04,,,,,,,,,,500
 ,,sightmark_lopro_combo,Sightmark Lopro Combo,-1,0.2,,-2,,,,,,,,500
 ,,sightmark_lopro_mini_combo,Sightmark Lopro Mini Combo,-1,0.11,,,,,,,,,,600
 ,,stark_se_5_express_forward_grip,Stark SE-5 Express Forward,2,0.1,-5,-5,,,,,,,,400
@@ -496,6 +498,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,azimuth_micro_t2_sight,Azimuth Micro T2,-1.5,0.06,,,,,,,,,,1300
 ,,azimuth_compm5_sight,Azimuth CompM5,-1,0.09,,,,,,,,,,1400
 ,,sic_sturmer_scipio5_sight,Sic Stürmer Scipio5 1x20,-1.5,0.06,,,,,,,,,,700
+,,sic_sturmer_scipio5_gen2_sight,Sic Stürmer Scipio5 Gen2 1x20,-1.5,0.06,,,,,,,,,,800
+,,sic_sturmer_scipio5_gen2_elite_sight,Sic Stürmer Scipio5 Gen2 Elite 1x20,-1.5,0.06,,,,,,,,,,1000
+,,sic_sturmer_scipio5x_gen2_sight,Sic Stürmer Scipio5X Gen2 1x20,-1,0.08,,,,,,,,,,1100
+,,sic_sturmer_scipio5xdr_gen2_sight,Sic Stürmer Scipio5XDR Gen2 1x20,-1,0.08,,,,,,,,,,1300
 ,azimuth_t2_caps,,,,,,,,,,,,,,
 ,,azimuth_micro_t2_lens_caps,Azimuth Micro T2,1,0.01,,,,,,,,,,0
 ,azimuth_t2_wrap,,,,,,,,,,,,,,

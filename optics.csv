@@ -35,8 +35,8 @@ id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black
 33,tt33_mod_postwar_slide,not_magnified, , , ,false,false
 34,sanxian_qbz95_rear_aperture,not_magnified, , , ,false,false
 35,sanxian_qbz95_yma95_3x_scope,30,5,0.1,4.5,true,false
-36,sic_sturmer_xray3_night_rear_sight,not_magnified, , , ,false,false
-37,sic_sturmer_m17_sicplate_rear_sight,not_magnified, , , ,false,false
+36,sig_sauer_xray3_night_rear_sight,not_magnified, , , ,false,false
+37,sig_sauer_m17_sigplate_rear_sight,not_magnified, , , ,false,false
 38,whitner_defense_1911_tab_rear_battlesight,not_magnified, , , ,false,false
 39,steyr_aug_a1_stg77_1_5x_scoped_receiver,50,5,5,4,true,false
 40,aug_a1_receiver_top_backup_sights,not_magnified, , , ,false,false
@@ -105,7 +105,7 @@ id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black
 103,pu_3.5x_scope,27, , ,5,true,false
 104,nomz_pilad_p3.5x20c_scope,27, , ,5,true,false
 105,hetzel_z24_fero_4x24,20,5,0.1,4.75,true,false
-106,sic_sturmer_scipio3,not_magnified,10,0.333, ,false,false
+106,sig_sauer_romeo3,not_magnified,10,0.333, ,false,false
 107,glock20_lf_rear_sight,not_magnified, , , ,false,false
 108,glock17_gen4_sf_rear_sight,not_magnified, , , ,false,false
 109,truglo_glock_tfx_rs,not_magnified, , , ,false,false
@@ -142,7 +142,7 @@ id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black
 140,harmony_fast_micro_mount,not_magnified, , , ,false,false
 141,virticon_sps02,not_magnified,10,0.33, ,false,false
 142,veles_chelomo_prc_red_dot,not_magnified,6,4, ,false,false
-143,sic_sturmer_gaius4_4x30,22,10,0.33,4,true,false
+143,sig_sauer_bravo4_4x30,22,10,0.33,4,true,false
 144,cosmotac_mark_3_tactical_gen2_3_9x42,not_magnified,10,0.1,7,true,false
 145,elcan_specter_os4x_sfov4,22,5,0.33,5.5,false,false
 146,emberfield_mg_kemper_xl_reflex_sight,not_magnified,10,0.5, ,false,false

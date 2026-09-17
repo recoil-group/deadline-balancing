@@ -380,22 +380,22 @@
 		{
 			"name": "Sic Stürmer M17X",
 			"required_attachments": [
-				"sic_sturmer_m17x_9x19_slide",
-				"sic_sturmer_p320_xfull_grip_module",
+				"sig_sauer_m17x_9x19_slide",
+				"sig_sauer_p320_xfull_grip_module",
 				[
-					"sic_sturmer_p320_full_4.7inch_9x19_barrel",
-					"sic_sturmer_p320_full_5.5inch_threaded_9x19_barrel"
+					"sig_sauer_p320_full_4.7inch_9x19_barrel",
+					"sig_sauer_p320_full_5.5inch_threaded_9x19_barrel"
 				]
 			]
 		},
 		{
 			"name": "Sic Stürmer M18X",
 			"required_attachments": [
-				"sic_sturmer_m18x_9x19_slide",
-				"sic_sturmer_p320_xcarry_grip_module",
+				"sig_sauer_m18x_9x19_slide",
+				"sig_sauer_p320_xcarry_grip_module",
 				[
-					"sic_sturmer_p320_compact_3.9inch_9x19_barrel",
-					"sic_sturmer_p320_compact_4.6inch_threaded_9x19_barrel"
+					"sig_sauer_p320_compact_3.9inch_9x19_barrel",
+					"sig_sauer_p320_compact_4.6inch_threaded_9x19_barrel"
 				]
 			]
 		}

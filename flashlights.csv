@@ -23,4 +23,4 @@ id,name,ir_compatible,ir_angle,ir_brightness,ir_flare_distance,ir_flare_strength
 21,holotec_ogl_tactical_laser_module,true,60,0.4,0.6,0.15,false,,,,,,
 22,whitehouse_raid_xe_g18_high_power_laser_aiming_device,true,45,0.6,0.6,0.15,false,,,,,,
 23,whitehouse_raid_xe_g14_high_power_laser_aiming_device,true,45,0.6,0.6,0.15,false,,,,,,
-24,sic_sturmer_ricimer1_flashlight,false,,,,,true,60,3,0.7,0.19,20,4
+24,sig_sauer_foxtrot1_flashlight,false,,,,,true,60,3,0.7,0.19,20,4

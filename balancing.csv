@@ -2621,8 +2621,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,holostar_aero_reflex,,,,,,,,,,,,,,
 ,,holostar_aero_reflex,Holostar Aero Reflex,-2,0.07,,,,,,,,,,800
 ,holostar_aero_mount,,,,,,,,,,,,,,
-,,holostar_aero_low_mount,Holostar Aero Low Mount,0,0.03,,,,,,,,,,100
-,,holostar_aero_std_mount,Holostar Aero Standard Mount,0,0.06,,,,,,,,,,150
+,,holostar_aero_low_mount,Holostar Aero Low Mount,0,0.02,,,,,,,,,,100
+,,holostar_aero_std_mount,Holostar Aero Standard Mount,0,0.03,,,,,,,,,,150
 ,holostar_aero_cap,,,,,,,,,,,,,,
 ,,holostar_aero_front_cover,Holostar Aero Front Cover,0.5,0.01,,,,,,,,,,100
 ,,holostar_aero_front_cover_folded,Holostar Aero Front Cover Folded,1,0.01,,,,,,,,,,100

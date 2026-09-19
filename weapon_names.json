@@ -443,7 +443,7 @@
 	"Vector": [
 		{
 			"name": "KALIS Scalar Gen II 9mm",
-			"required_attachments": ["vector_9mm_upper_receiver"]
+			"required_attachments": ["kalis_scalar_gen2_early_9x19_upper_receiver"]
 		}
 	]
 }

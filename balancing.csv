@@ -1,4 +1,4 @@
-﻿0.25.4,Thu Sep 03 15:47:07 2026,,,,,,,,,,,,,,
+﻿0.25.4,Sat Sep 19 15:02:25 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -1856,6 +1856,18 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,45acp_munitions_incorporated_230gr_subsonic_tmj,.45 ACP Munitions Incorporated 230gr Subsonic TMJ,2,0,-2,0,,0,-0.13,0,,,,1200
 ,,45acp_speer_golddot_230gr_bjhp,.45 ACP Speer Gold Dot 230gr BJHP,1,0,0,1,,0.1,0.14,100,,,,1200
 ,,45acp_supernova_225gr_red_tracer,.45 ACP Supernova 225gr Red Tracer,-1,0,0,0,,0.1,-0.12,170,,,,1000
+,ammo_40sv,,,,,,,,,,,,,,
+,,40sv_federal_american_eagle_180gr_fmj,Federal American Eagle 180gr FMJ,0,0,0,0,,0,,0.02,,,,0
+,,40sv_federal_streak_180gr_tmj_tracer,Federal STREAK 180gr TMJ Tracer,3,0,-1,0,,0.05,,-50,,,,1250
+,,40sv_federal_cartridge_mk309_mod0_155gr_ball,Federal Cartridge Mk.309 Mod 0 155gr Ball,1,-0.05,0,1,,-0.05,,120,,,,3000
+,,40sv_lance_lawman_125gr_rht,Lance Lawman 125gr RHT,1,-0.1,-2,-3,,-0.1,,30,,,,1000
+,,40sv_s2_research_rip_115gr_fhp,S2 Research RIP 115gr FHP,1,-0.12,-1,-1,,0.05,,70,,,,1500
+,,40sv_lance_gold_dot_180gr_gdhp,Lance Gold Dot 180gr GDHP,0,0.01,1,2,,0.05,,20,,,,1750
+,,40sv_federal_premium_180gr_hst,Federal Premium 180gr HST,-1,0,2,2,,0.1,,0.02,,,,2250
+,,40sv_appalachian_ranger_tseries_180gr_jhp,Appalachian Ranger T-Series 180gr JHP,-1,-0.01,2,3,,0.05,,-20,,,,2500
+,,40sv_federal_cartridge_mk308_mod0_155gr_jhp,Federal Cartridge Mk.308 Mod 0 155gr JHP,-2,-0.05,2,4,,0.05,,140,,,,3500
+,,40sv_sierra9_woodsman_130gr_monolithic_solid_copper,Sierra 9 Woodsman 130gr Monolithic Solid Copper,-1,-0.08,2,3,,-0.15,,270,,,,2500
+,,40sv_sierra9_barrier_blind_77gr_apc,Sierra 9 Barrier Blind 77gr APC,-1,-0.14,-3,-3,,-0.05,,600,,,,1500
 ,ammo_5.8x42,,,,,,,,,,,,,,
 ,,5.8x42_sanxian_dbp95_64gr_fmj,Sanxian DBP95 64gr FMJ,0,0,0,0,,0,,0,,,0,0
 ,,5.8x42_sanxian_dbx95_64gr_green_tracer,Sanxian DBX95 64gr Green Tracer,3,0,-2,-3,,0.1,,0,,,0,500

@@ -957,6 +957,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kalis_scalar_ambi_folding_stock_hinge,KALIS Scalar Ambi Folding Stock Hinge,0,0.04,0,0,,,,,,,,800
 ,,kalis_scalar_gen2_late_folding_stock_mount,KALIS Scalar Gen II Late Folding Stock Mount,0,0.05,0,0,,,,,,,,0
 ,,kalis_scalar_gen2_late_folding_stock,KALIS Scalar Gen II Late Folding Stock,20,0.20,-6,-11,,,,,,,,1250
+,,kalis_scalar_pistol_pqdbl00_qd_sling_swivel,KALIS Scalar Pistol QD Sling Swivel,5,0.06,7,7,,0.50,,,,,,500
 ,vector_gen3_stock,,,,,,,,,,,,,,
 ,,kalis_scalar_gen3_picatinny_stock_rail,KALIS Scalar Gen III Picatinny,0,0.03,0,0,,,,,,,,100
 ,,kalis_scalar_gen3_folding_stock_hinge,KALIS Scalar Gen III Folding Stock,0,0.04,0,0,,,,,,,,500
@@ -1039,11 +1040,19 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,vector_handguard_mount,,,,,,,,,,,,,,
 ,,kalis_scalar_mk5_handguard_bottom_rail,Vector Mk5 Side Rail,0,0.03,0,0,,,,,,,,0
 ,,mlok_spot,Mlok Attach Point,0,0,,,,,,,,,,0
+,,kalis_scalar_mk3_handguard_bottom_rail,KALIS Scalar Mk3 Handguard,0,0.07,-1,-1,,,,,,,,0
+,,kalis_scalar_mk3_handguard_top_rail,KALIS Scalar Mk3 Handguard,0,0.07,-1,-1,,,,,,,,0
+,,kalis_scalar_mk1_handguard_top_rail,KALIS Scalar Mk1 Handguard,0,0.04,-1,,,,,,,,,0
 ,vector_handguard,,,,,,,,,,,,,,
 ,,kalis_scalar_mk1_handguard,KALIS Scalar Mk1 Modular,2,0.2,-4,-4,,,,,,,,1000
 ,,kalis_scalar_mk5_handguard,Vector Mk5 M-Lok ModularRail,2,0.17,-2,-4,,,,,,,,2000
 ,,kalis_scalar_mk11_handguard,Vector Mk.1 Round Shroud 11" Modular,3,0.24,-2,-6,,,,,,,,2000
 ,,kalis_scalar_mk9_handguard,Vector Mk.1 Round Shroud 9" Modular,3,0.19,-1,-5,,,,,,,,1500
+,,kalis_scalar_mk3_handguard,KALIS Scalar Mk3,3,0.14,-3,-4,,,,,,,,1000
+,vector_gen3_handguard,,,,,,,,,,,,,,
+,,kalis_scalar_gen3_5.5inch_mlok_handguard,KALIS Scalar Gen III 5.5",1,0.06,-1,-1,,,,,,,,0
+,,kalis_scalar_gen3_10inch_mlok_handguard,KALIS Scalar Gen III 10",4,0.16,-4,-4,,,,,,,,1000
+,,kalis_scalar_gen3_16inch_mlok_barrel_shroud,KALIS Scalar Gen III 16",6,0.29,-6,-7,,,,,,,,1250
 ,vector_charging_handle,,,,,,,,,,,,,,
 ,,kalis_scalar_std_charging_handle,KALIS Scalar Std.,1,0.03,,,,,,,,,,0
 ,,kalis_scalar_std_charging_handle_support,KALIS Scalar Std. Charging Handle Support,0,0.02,,,,,,,,,,0
@@ -1074,6 +1083,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kalis_scalar_406mm_10mm_barrel,KALIS Scalar 10mm 16",-7,0.47,-7,-7,,-0.17,0.10,200,,,,1250
 ,,kalis_scalar_165mm_10mm_threaded_barrel,KALIS Scalar 10mm 6.5" Threaded,-1,0.27,-1,-1,,-0.04,0.03,-72,,,,900
 ,,kalis_scalar_140mm_10mm_threaded_barrel,KALIS Scalar 10mm 5.5" Threaded,0,0.23,0,0,,0,0,-99,,,,800
+,vector_barrel_shroud,,,,,,,,,,,,,,
+,,kalis_scalar_gen1_barrel_shroud,KALIS Scalar Gen I,3,0.12,-1,-3,,,,,,,,750
+,,kalis_scalar_gen2_early_barrel_shroud,KALIS Scalar Gen II Early,3,0.14,-2,-3,,,,,,,,1000
+,,kalis_scalar_gen2_late_barrel_shroud,KALIS Scalar Gen II Late,3,0.16,-2,-4,,,,,,,,1250
 ,magazine_556x45,,,,,,,,,,,,,,
 ,,5.56x45_magtap_pmag_60r,Magtap PMAG D60 60R Drum,-10,1.12,,,60,,,,,,,4000
 ,,5.56x45_x15m_drum_50r,X-15M Drum,-5,1.05,,,50,,,,,,,3000

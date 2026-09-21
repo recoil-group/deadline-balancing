@@ -966,7 +966,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 471,,kalis_scalar_165mm_45acp_threaded_barrel,Kriss Vector .45ACP 170mm,-1,0.27,-1,-1,,-0.02,0.03,-72,-0.1,,750
 472,,kalis_scalar_140mm_45acp_threaded_barrel,Kriss Vector .45ACP 140mm,0,0.23,0,0,,0,0,-99,0,,800
 ,magazine_45acp_vector,,,,,,,,,,,,,
-473,,pf940_std_13r_vector_remodel,STD 13R .45 ACP,15,0.23,,,13,,,,,,0
+473,,kosch_45acp_13r_magazine,STD 13R .45 ACP,15,0.23,,,13,,,,,,0
 ,magazine_556x45,,,,,,,,,,,,,
 474,,5.56x45_magtap_pmag_60r,Magpul PMAG D60 60R Drum,-12,1.12,,,60,0.1,,,,,4000
 475,,5.56x45_x15m_drum_50r,X-15M Drum,-8,1.05,,,50,,,,,,3000
@@ -1020,7 +1020,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 507,,evermag_hart_ar9_10r_mag,Duramag Hart AR-9 10Rnd,12,0.12,,,10,,,,,,200
 ,,custom_hart_smg_9x19_50r_mag,Custom Hart SMG 9x19 50rnd Magazine,-20,0.6,,,50,0.05,,,,,5000
 ,hart_smg_extension,,,,,,,,,,,,,
-,,tyler_freelance_hart_smg_10r_mag_extension,Taylor Freelance Hart SMG 10r Mag Extension,-6,0.11,,,10,,,,,,1000
+,,dante_freelance_hart_smg_10r_mag_extension,Taylor Freelance Hart SMG 10r Mag Extension,-6,0.11,,,10,,,,,,1000
 ,hart_50_more,,,,,,,,,,,,,
 ,,custom_hart_smg_9x19_50r_extension,Custom Hart SMG 50rnd Magazine Extension,-45,0.57,20,20,50,0.05,,,,,5000
 ,,custom_hart_smg_mag_coupler,Custom Hart SMG Mag Coupler,-2,0.1,,,,,,,,,0
@@ -1123,8 +1123,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,magtap_223_mag_assist_l7awm,Magpul 223 Mag Assist L7AWM,1,0.04,,,,,,,,,200
 ,magazine_9mm_vector,,,,,,,,,,,,,
 574,,9x19_glock_stick_31r_vector,PF940 9x19 31R Stick,16,0.26,,,29,,,,,,1000
-575,,9x19_sgmt_drum50r_vector,PF940 9x19 50R Drum,6,0.55,,,50,,,,,,3000
-576,,9x19_pf940_std_17r_vector,PF940 9x19 17R,20,0.15,,,17,,,,,,500
+575,,fst_kosch_9x19_50r_drum_magazine,PF940 9x19 50R Drum,6,0.55,,,50,,,,,,3000
+576,,kosch_9x19_17r_magazine,PF940 9x19 17R,20,0.15,,,17,,,,,,500
 ,magazine_7.62x51_g3,,,,,,,,,,,,,
 577,,hk_g3_std_20r_magazine,HK G3 Standard 20R,0,0.64,,,20,,,,,,1000
 578,,custom_g3_welded_30r_magazine,Custom G3 Welded 30R,-7,0.94,,,30,,,,,,2000
@@ -1649,7 +1649,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,zevtech_g17_slide_backplate,Zevtech Glock 17 Blackplate,0,0.01,,,,,,,,,100
 ,glock_17r_mag_plate,,,,,,,,,,,,,
 797,,glock17_17r_magazine_bottom_plate,Glock 17R Magazine Bottom Plate,0,0.02,,,,,,,,,0
-798,,9x19_kriss_magex2_glock,9x19 KRISS MagEx2 For Glock (+23 Rounds),-8,0.3,,,23,,,,,,1000
+798,,kalis_kosch_9x19_23r_magex2,9x19 KRISS MagEx2 For Glock (+23 Rounds),-8,0.3,,,23,,,,,,1000
 ,glock_lower_receiver,,,,,,,,,,,,,
 ,,glock17_gen4_receiver,Glock 17 Gen4 Receiver,13,0.13,-2,-9,,,,,,,1000
 ,,glock17_gen5_receiver,Glock 17 Gen5 Receiver,11,0.11,-3,-9,,,,,,,0
@@ -1664,7 +1664,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,glock_17_mag_release,,,,,,,,,,,,,
 ,,glock17_gen5_mag_release,Glock 17 Gen5 Magazine Release,0,0.01,,,,,,,,,0
 ,glock_mag_13r_45acp_plate,,,,,,,,,,,,,
-801,,45acp_kriss_magex2_pf940,.45 ACP KRISS MagEx2 For Glock (+17 Rounds),-8,0.33,,,17,,,,,,1000
+801,,kalis_kosch_45acp_17r_magex2,.45 ACP KRISS MagEx2 For Glock (+17 Rounds),-8,0.33,,,17,,,,,,1000
 802,,pf940_13r_plate,Magazine,0,0.02,,,,,,,,,0
 803,,vector_17r_plate,Magazine,0,0.02,,,0,,,,,,1000
 804,,9x19_kriss_magex2_vector,9x19 KRISS MagEx2 For PF940 (+23 Rounds),-8,0.3,,,23,,,,,,1000

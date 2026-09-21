@@ -974,7 +974,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kalis_scalar_165mm_45acp_threaded_barrel,KALIS Scalar .45ACP 170mm,-1,0.27,-1,-1,,-0.02,0.03,-72,-0.1,,,750
 ,,kalis_scalar_140mm_45acp_threaded_barrel,KALIS Scalar .45ACP 140mm,0,0.23,0,0,,0,0,-99,0,,,800
 ,magazine_45acp_vector,,,,,,,,,,,,,,
-,,pf940_std_13r_vector_remodel,STD 13R .45 ACP,15,0.23,,,13,,,,,,,0
+,,kosch_45acp_13r_magazine,STD 13R .45 ACP,15,0.23,,,13,,,,,,,0
 ,magazine_556x45,,,,,,,,,,,,,,
 ,,5.56x45_magtap_pmag_60r,Magtap PMAG D60 60R Drum,-10,1.12,,,60,,,,,,,4000
 ,,5.56x45_x15m_drum_50r,X-15M Drum,-5,1.05,,,50,,,,,,,3000
@@ -1030,7 +1030,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,evermag_hart_ar9_10r_mag,EVERMAG Hart AR-9 10Rnd,10,0.13,,,10,,,,,,,200
 ,,custom_hart_smg_9x19_50r_mag,Custom Hart SMG 9x19 50rnd Magazine,-15,0.77,,,50,,,,,,,5000
 ,hart_smg_extension,,,,,,,,,,,,,,
-,,tyler_freelance_hart_smg_10r_mag_extension,Tyler Freelance Hart SMG 10R Mag Extension,-6,0.12,,,10,,,,,,,1000
+,,dante_freelance_hart_smg_10r_mag_extension,Tyler Freelance Hart SMG 10R Mag Extension,-6,0.12,,,10,,,,,,,1000
 ,hart_50_more,,,,,,,,,,,,,,
 ,,custom_hart_smg_9x19_50r_extension,Custom Hart SMG 9x19 50R Extension,-45,0.57,,,50,,,,,,,5000
 ,,custom_hart_smg_mag_coupler,Custom Hart SMG 9x19,-2,0.1,,,,,,,,,,0
@@ -1660,8 +1660,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kosch_default_slide_backplate,KOSCH Default Slide Backplate,0,0.01,,,,,,,,,,0
 ,,zvetech_kosch_slide_backplate,Zvetech KOSCH,0,0.01,,,,,,,,,,100
 ,glock_17r_mag_plate,,,,,,,,,,,,,,
-,,kosch_default_9x19_mag_plate,KOSCH Default 9x19 Magazine Plate,0,0.02,,,,,,,,,,0
-,,9x19_kriss_magex2_glock,9x19 KRISS MagEx2 For Glock (+23 Rounds),-8,0.3,,,23,,,,,,,1000
+,,kosch_default_small_mag_plate,KOSCH Default 9x19 Magazine Plate,0,0.02,,,,,,,,,,0
+,,kalis_kosch_9x19_23r_magex2,9x19 KRISS MagEx2 For Glock (+23 Rounds),-8,0.3,,,23,,,,,,,1000
 ,glock_lower_receiver,,,,,,,,,,,,,,
 ,,kosch_mk1_frame,KOSCH MK1 Frame,0,0.13,0,0,,,,,,,,0
 ,,kosch_mk2_frame,KOSCH MK2 Frame,-2,0.11,-1,-1,,,,,,,,1000
@@ -1679,14 +1679,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kosch_default_mag_catch,KOSCH Default Magazine Catch,0,0.01,,,,,,,,,,0
 ,,kosch_ambidextrous_mag_catch,KOSCH Ambidextrous Magazine Catch,0.5,0.02,,,,,,,,,,200
 ,glock_mag_13r_45acp_plate,,,,,,,,,,,,,,
-,,45acp_kriss_magex2_pf940,.45 ACP KALIS MagEx2 For PF940 (+17 Rounds),-8,0.33,,,17,,,,,,,1000
+,,kalis_kosch_45acp_17r_magex2,.45 ACP KALIS MagEx2 For PF940 (+17 Rounds),-8,0.33,,,17,,,,,,,1000
 ,,pf940_13r_plate,Magazine,0,0.02,,,,,,,,,,0
 ,,vector_17r_plate,Magazine,0,0.02,,,,,,,,,,1000
 ,,9x19_kriss_magex2_vector,9x19 KALIS MagEx2 For PF940 (+23 Rounds),-8,0.3,,,23,,,,,,,1000
 ,glock20_barrel,,,,,,,,,,,,,,
 ,,kosch_10mm_114mm_barrel,KOSCH 10mm Auto 114mm,-10,0.11,10,10,,0.1,0,0,,,,2000
 ,glock20_magazine_bottom_plate,,,,,,,,,,,,,,
-,,kosch_default_10mm_mag_plate,KOSCH Default 10mm Magazine Plate,1,0.015,,,,,,,,,,0
+,,kosch_default_large_mag_plate,KOSCH Default 10mm Magazine Plate,1,0.015,,,,,,,,,,0
 ,glock20_magazine_release,,,,,,,,,,,,,,
 ,,glock20_std_magazine_release,Glock Standard,0,0,,,,,,,,,,0
 ,glock20_receiver,,,,,,,,,,,,,,

@@ -710,10 +710,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,bcm_gunfighter_mod3_ar15_pistol_grip,BCM Gunfighter Mod 3 AR-15,8,0.09,-3,-2,,,,,,,,750
 ,,pmm_bcm_gunfighter_mod3_scar_pistol_grip,Everetts Machining BCM Gunfighter Mod 3 FANG,8,0.1,-3,-2,,,,,,,,800
 ,,axtell_defense_pistol_grip_with_trigger_guard,Axtell Defense w/ Trigger Guard,10,0.13,-2,-4,,,,,,,,900
-,,kalis_scalar_gen3_ar15_pistol_grip,KALIS Scalar Gen3 AR-15,6.5,0.07,-5,-2,,,,,,,,800
+,,kalis_scalar_gen3_ar15_pistol_grip,KALIS Scalar Gen3 AR-15,5.5,0.07,-5,-2,,,,,,,,800
 ,vector_gen3_grip_core,,,,,,,,,,,,,,
-,,kalis_scalar_gen3_grip_core,KALIS Scalar Gen3 Grip Core,0.5,0.03,,,,,,,,,,200
-,,kalis_scalar_gen3_open_grip_core,KALIS Scalar Gen3 Open Grip Core,0,0.02,,,,,,,,,,0
+,,kalis_scalar_gen3_grip_core,KALIS Scalar Gen3 Grip Core,1.5,0.03,,,,,,,,,,200
+,,kalis_scalar_gen3_open_grip_core,KALIS Scalar Gen3 Open Grip Core,1,0.02,,,,,,,,,,0
 ,ar15_trigger,,,,,,,,,,,,,,
 ,,hart_m4a1_std_trigger,M4 Standard,2,0.04,0,0,,0,,,,,,0
 ,,fort_worth_manufacturing_trigger,Fort Worth Manufacturing Triggers drop-in,3,0.03,-1,0,,-0.02,,,,0.03,,300
@@ -953,25 +953,47 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,vector_folding_stock,,,,,,,,,,,,,,
 ,,kalis_scalar_gen1_fsbl00_hinged_folding_stock,KALIS Scalar Gen I FSBL00 Hinged Folding,18,0.26,-7,-9,,,,,,,,0
 ,,kalis_scalar_gen1_sabl00_hinged_buffer_tube_adapter,KALIS Scalar Non-Folding Stock Adapter,0,0.08,0,0,,,,,,,,800
+,,kalis_scalar_gen2_late_folding_buffer_tube_adapter,KALIS Scalar Gen II Late Folding Stock Adapter,0,0.04,0,0,,,,,,,,400
+,,kalis_scalar_ambi_folding_stock_hinge,KALIS Scalar Ambi Folding Stock Hinge,0,0.04,0,0,,,,,,,,800
+,,kalis_scalar_gen2_late_folding_stock_mount,KALIS Scalar Gen II Late Folding Stock Mount,0,0.05,0,0,,,,,,,,0
+,,kalis_scalar_gen2_late_folding_stock,KALIS Scalar Gen II Late Folding Stock,20,0.20,-6,-11,,,,,,,,1250
+,vector_gen3_stock,,,,,,,,,,,,,,
+,,kalis_scalar_gen3_picatinny_stock_rail,KALIS Scalar Gen III Picatinny,0,0.03,0,0,,,,,,,,100
+,,kalis_scalar_gen3_folding_stock_hinge,KALIS Scalar Gen III Folding Stock,0,0.04,0,0,,,,,,,,500
+,,kalis_scalar_gen3_folding_stock_mount,KALIS Scalar Gen III Folding Stock,0,0.05,0,0,,,,,,,,0
+,,kalis_scalar_gen3_folding_stock,KALIS Scalar Gen III Folding,21,0.12,-7,-8,,,,,,,,1750
+,,kalis_scalar_gen3_buffer_tube_adapter,KALIS Scalar Gen III Buffer Tube,0,0.07,0,0,,,,,,,,800
 ,vector_receiver_frame,,,,,,,,,,,,,,
 ,,kalis_scalar_receiver_metal_frame,KALIS Scalar Receiver,0,0.18,,,,,,,,,,0
+,vector_trunnion,,,,,,,,,,,,,,
+,,kalis_scalar_std_front_trunnion,KALIS Scalar Standard Front,0,0.06,,,,,,,,,,0
+,vector_ejection_port,,,,,,,,,,,,,,
+,,kalis_scalar_std_small_ejection_port,KALIS Scalar Standard Small,0,0.03,,,,,,,,,,0
+,,kalis_scalar_std_large_ejection_port,KALIS Scalar Standard Large,0,0.04,,,,,,,,,,0
 ,vector_45acp_upper_receiver,,,,,,,,,,,,,,
 ,,kalis_scalar_gen1_45acp_upper_receiver,KALIS Scalar Gen I .45ACP,0,0.44,0,0,,,,,,,,0
 ,,kalis_scalar_gen2_early_45acp_upper_receiver,KALIS Scalar Gen II .45ACP,0,0.41,1,1,,,,,,,,1500
-,,kalis_scalar_gen2_late_45acp_upper_receiver,KALIS Scalar Gen II .45ACP,0,0.42,1,0,,,,,,,,2000
+,,kalis_scalar_gen2_late_45acp_upper_receiver,KALIS Scalar Gen II .45ACP,0,0.40,1,0,,,,,,,,2000
 ,,kalis_scalar_gen3_45acp_upper_receiver,KALIS Scalar Gen III .45ACP,-3,0.29,3,5,,,,,,,,3000
 ,vector_10mm_upper_receiver,,,,,,,,,,,,,,
 ,,kalis_scalar_gen2_early_10mm_upper_receiver,KALIS Scalar Gen II 10mm Auto,-1,0.41,4,4,,,,500,,,,1500
-,,kalis_scalar_gen2_late_10mm_upper_receiver,KALIS Scalar Gen II 10mm Auto,-1,0.42,5,4,,,,500,,,,2000
+,,kalis_scalar_gen2_late_10mm_upper_receiver,KALIS Scalar Gen II 10mm Auto,-1,0.40,4,3,,,,500,,,,2000
 ,,kalis_scalar_gen3_10mm_upper_receiver,KALIS Scalar Gen III 10mm Auto,-4,0.29,6,8,,,,500,,,,3000
 ,vector_40sv_upper_receiver,,,,,,,,,,,,,,
 ,,kalis_scalar_gen2_early_40sv_upper_receiver,KALIS Scalar Gen II 40S&V,4,0.40,-10,-10,,,,300,,,,1500
-,,kalis_scalar_gen2_late_40sv_upper_receiver,KALIS Scalar Gen II 40S&V,4,0.41,-9,-10,,,,300,,,,2000
+,,kalis_scalar_gen2_late_40sv_upper_receiver,KALIS Scalar Gen II 40S&V,4,0.39,-10,-11,,,,300,,,,2000
 ,,kalis_scalar_gen3_40sv_upper_receiver,KALIS Scalar Gen III 40S&V,1,0.28,-7,-5,,,,300,,,,3000
 ,vector_9x19_upper_receiver,,,,,,,,,,,,,,
 ,,kalis_scalar_gen2_early_9x19_upper_receiver,KALIS Scalar Gen II 9mm,3,0.39,-10,-10,,,,300,,,,1500
-,,kalis_scalar_gen2_late_9x19_upper_receiver,KALIS Scalar Gen II 9mm,3,0.40,-9,-10,,,,300,,,,2000
+,,kalis_scalar_gen2_late_9x19_upper_receiver,KALIS Scalar Gen II 9mm,3,0.38,-10,-11,,,,300,,,,2000
 ,,kalis_scalar_gen3_9x19_upper_receiver,KALIS Scalar Gen III 9mm,0,0.27,-7,-5,,,,300,,,,3000
+,vector_upper_receiver_rail,,,,,,,,,,,,,,
+,,kalis_scalar_gen1_upper_receiver_rail,KALIS Scalar Gen I Upper Receiver,0,0.10,,,,,,,,,,0
+,,kalis_scalar_gen2_early_upper_receiver_rail,KALIS Scalar Gen II Early Upper Receiver,0,0.10,,,,,,,,,,0
+,,kalis_scalar_gen2_late_upper_receiver_rail,KALIS Scalar Gen II Late Upper Receiver,0,0.12,,,,,,,,,,0
+,,kalis_scalar_gen3_upper_receiver_rail,KALIS Scalar Gen III Upper Receiver,0,0.10,,,,,,,,,,0
+,vector_grip_bottom_plate,,,,,,,,,,,,,,
+,,kalis_scalar_std_grip_bottom_plate,KALIS Scalar Standard Grip,0,0.02,,,,,,,,,,0
 ,vector_trigger,,,,,,,,,,,,,,
 ,,kalis_scalar_gen1_trigger,KALIS Scalar Gen I Std.,0,0.03,,,,,,,,,,0
 ,,kalis_scalar_gen2_trigger,KALIS Scalar Gen II Std.,0,0.03,,,,,,,,,,0
@@ -1010,6 +1032,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kalis_scalar_gen1_rear_fire_selector,KALIS Scalar Standard Bolt Carrier,1,0.02,,,,,,,,,,0
 ,,kalis_scalar_gen2_3_front_fire_selector,KALIS Scalar Standard Bolt Carrier,1,0.02,,,,,,,,,,0
 ,,kalis_scalar_gen2_3_rear_fire_selector,KALIS Scalar Standard Bolt Carrier,1,0.02,,,,,,,,,,0
+,,kalis_scalar_std_fire_control_group,KALIS Scalar Standard,0,0.04,,,,,,,,,,0
 ,vector_left_rail,,,,,,,,,,,,,,
 ,,kalis_scalar_7_slot_left_side_rail,KALIS Scalar 7 Slot,0,0.04,,,,,,,,,,0
 ,,kalis_scalar_9_slot_left_side_rail,KALIS Scalar 9 Slot,0,0.05,,,,,,,,,,200
@@ -1023,6 +1046,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kalis_scalar_mk9_handguard,Vector Mk.1 Round Shroud 9" Modular,3,0.19,-1,-5,,,,,,,,1500
 ,vector_charging_handle,,,,,,,,,,,,,,
 ,,kalis_scalar_std_charging_handle,KALIS Scalar Std.,1,0.03,,,,,,,,,,0
+,,kalis_scalar_std_charging_handle_support,KALIS Scalar Std. Charging Handle Support,0,0.02,,,,,,,,,,0
+,vector_front_cover,,,,,,,,,,,,,,
+,,kalis_scalar_std_front_cover,KALIS Scalar Standard Front,0,0.02,,,,,,,,,,0
+,,kalis_scalar_gen3_front_cover,KALIS Scalar Gen III Front,0,0.02,,,,,,,,,,0
 ,vector_bottom_rail,,,,,,,,,,,,,,
 ,,kalis_scalar_gen2_receiver_bottom_rail,KALIS Scalar Std.,0,0.04,,,,,,,,,,0
 ,vector_bolt_release,,,,,,,,,,,,,,
@@ -1095,7 +1122,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,magazine_10mm_glock20,,,,,,,,,,,,,,
 ,,glock20_10mm_15r,Glock Standard 15R 10mm,0,0.18,,,15,,,,,,,500
 ,magazine_10mm_kosch,,,,,,,,,,,,,,
-,,kosch_10mm_15r_magazine,KOSCH 10mm Auto 15R,0,0.18,,,15,,,,,,,1000
+,,kosch_10mm_15r_magazine,KOSCH 10mm Auto 15R,0,0.22,,,15,,,,,,,1000
+,magazine_plate_10mm_kosch,,,,,,,,,,,,,,
+,,kosch_default_large_mag_plate,KOSCH Default Large,0,0.02,,,,,,,,,,0
+,magazine_extension_10mm_kosch,,,,,,,,,,,,,,
+,,kalis_kosch_10mm_18r_magex2,KALIS KOSCH 10mm Auto 18R MagEx2,-8,0.31,,,18,,,,,,,1000
 ,magazine_ar9_adapter,,,,,,,,,,,,,,
 ,,nbs_ar15_9x19_hart_mag_adapter,NBS AR-15 9x19 Hart,0,0.07,,,,,,,,,,1000
 ,magazine_9x19_ar9,,,,,,,,,,,,,,
@@ -1104,7 +1135,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,evermag_hart_ar9_10r_mag,EVERMAG Hart AR-9 10Rnd,10,0.13,,,10,,,,,,,200
 ,,custom_hart_smg_9x19_50r_mag,Custom Hart SMG 9x19 50rnd Magazine,-15,0.77,,,50,,,,,,,5000
 ,hart_smg_extension,,,,,,,,,,,,,,
-,,tyler_freelance_hart_smg_10r_mag_extension,Tyler Freelance Hart SMG 10R Mag Extension,-6,0.12,,,10,,,,,,,1000
+,,dante_freelance_hart_smg_10r_mag_extension,Dante Freelance Hart SMG 10R Mag Extension,-6,0.12,,,10,,,,,,,1000
 ,hart_50_more,,,,,,,,,,,,,,
 ,,custom_hart_smg_9x19_50r_extension,Custom Hart SMG 9x19 50R Extension,-45,0.57,,,50,,,,,,,5000
 ,,custom_hart_smg_mag_coupler,Custom Hart SMG 9x19,-2,0.1,,,,,,,,,,0
@@ -1122,12 +1153,21 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kosch_9x19_31r_stick_magazine,KOSCH 9x19 31R Stick,-8,0.39,,,31,,,,,,,1000
 ,,kosch_9x19_17r_magazine,KOSCH 9x19 17R,0,0.21,,,17,,,,,,,1000
 ,,fst_kosch_9x19_50r_drum_magazine,SGM Tactical PF940 17 50R 9x19 Drum,-6,0.85,,,50,,,,,,,3000
+,magazine_plate_9x19_kosch,,,,,,,,,,,,,,
+,,kosch_default_small_mag_plate,KOSCH Default Small,0,0.02,,,,,,,,,,0
+,magazine_extensions_9x19_kosch,,,,,,,,,,,,,,
+,,kalis_kosch_9x19_23r_magex2,KALIS KOSCH 9x19 23R MagEx2,-10,0.31,,,23,,,,,,,1000
 ,magazine_40sv_kosch,,,,,,,,,,,,,,
-,,kosch_40sv_10r_magazine,KOSCH 40SV 10R,4,0.17,,,10,,,,,,,1000
-,,kosch_40sv_15r_magazine,KOSCH 40SV 15R,0,0.22,,,15,,,,,,,1000
+,,kosch_40sv_10r_magazine,KOSCH 40SV 10R,2.5,0.14,,,10,,,,,,,1000
+,,kosch_40sv_15r_magazine,KOSCH 40SV 15R,0,0.19,,,15,,,,,,,1000
+,magazine_extensions_40sv_kosch,,,,,,,,,,,,,,
+,,dante_freelance_kosch_40sv_10r_pistol_magex,Dante Freelance KOSCH .40S&V 10R Pistol,-3.5,0.16,,,10,,,,,,,800
+,,dante_freelance_kosch_40sv_10r_carbine_magex,Dante Freelance KOSCH .40S&V 10R Carbine,-3,0.18,,,10,,,,,,,800
 ,magazine_45acp_kosch,,,,,,,,,,,,,,
 ,,kosch_45acp_10r_magazine,KOSCH 45ACP 10R,1.5,0.18,,,10,,,,,,,1000
 ,,kosch_45acp_13r_magazine,KOSCH 45ACP 13R,0,0.22,,,13,,,,,,,1000
+,magazine_extensions_45acp_kosch,,,,,,,,,,,,,,
+,,kalis_kosch_45acp_17r_magex2,KALIS KOSCH .45ACP 17R MagEx2,-8,0.31,,,17,,,,,,,1000
 ,magazine_9x19,,,,,,,,,,,,,,
 ,,9x19_glock_stick_31r,Glock 9x19 31R Stick,-3,0.35,,,31,,,,,,,1000
 ,,pf940_gen5_9x19_17r_magazine,PF940 17 Gen5 17R 9x19,0,0.2,,,17,,,,,,,500
@@ -1736,9 +1776,6 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,glock_slide_backplate,,,,,,,,,,,,,,
 ,,kosch_default_slide_backplate,KOSCH Default Slide Backplate,0,0.01,,,,,,,,,,0
 ,,zvetech_kosch_slide_backplate,Zvetech KOSCH,0,0.01,,,,,,,,,,100
-,glock_17r_mag_plate,,,,,,,,,,,,,,
-,,kosch_default_9x19_mag_plate,KOSCH Default 9x19 Magazine Plate,0,0.02,,,,,,,,,,0
-,,9x19_kriss_magex2_glock,9x19 KRISS MagEx2 For Glock (+23 Rounds),-8,0.3,,,23,,,,,,,1000
 ,glock_lower_receiver,,,,,,,,,,,,,,
 ,,kosch_mk1_frame,KOSCH MK1 Frame,0,0.13,0,0,,,,,,,,0
 ,,kosch_mk2_frame,KOSCH MK2 Frame,-2,0.11,-1,-1,,,,,,,,1000
@@ -1756,13 +1793,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kosch_default_mag_catch,KOSCH Default Magazine Catch,0,0.01,,,,,,,,,,0
 ,,kosch_ambidextrous_mag_catch,KOSCH Ambidextrous Magazine Catch,0.5,0.02,,,,,,,,,,200
 ,glock_mag_13r_45acp_plate,,,,,,,,,,,,,,
-,,45acp_kriss_magex2_pf940,.45 ACP KALIS MagEx2 For PF940 (+17 Rounds),-8,0.33,,,17,,,,,,,1000
 ,,pf940_13r_plate,Magazine,0,0.02,,,,,,,,,,0
 ,,9x19_kriss_magex2_vector,9x19 KALIS MagEx2 For PF940 (+23 Rounds),-8,0.3,,,23,,,,,,,1000
 ,glock20_barrel,,,,,,,,,,,,,,
 ,,kosch_10mm_114mm_barrel,KOSCH 10mm Auto 114mm,0,0.11,10,20,,0.1,0,0,,,,2000
-,glock20_magazine_bottom_plate,,,,,,,,,,,,,,
-,,kosch_default_10mm_mag_plate,KOSCH Default 10mm Magazine Plate,1,0.015,,,,,,,,,,0
 ,glock20_magazine_release,,,,,,,,,,,,,,
 ,,glock20_std_magazine_release,Glock Standard,0,0,,,,,,,,,,0
 ,glock20_receiver,,,,,,,,,,,,,,

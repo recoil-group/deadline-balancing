@@ -3135,7 +3135,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,MP133,Ladoga MP133,25,0,60,70,1,0.6,1,1000,2,,1,9000
 ,smg,,,,,,,,,,,,,,
 ,,MP5,KF MPi-54,40,0,45,55,0,1.05,1,1200,,,1,5000
-,,Vector,KALIS Scalar Gen II,45,0,60,60,0,1.2,1,900,,,1,90000
+,,SCALAR,KALIS Scalar Gen II,45,0,60,60,0,1.2,1,900,,,1,90000
 ,,MK9,AR-9,30,0,55,70,0,1.05,1,1200,,,1,20000
 ,,UMP,KF UMC-45,60,0,80,90,0,1.05,1,900,,,1,15000
 ,,AK_9,Kazarov Group PP-19-01,30,0,50,50,0,0.9,1,1200,,,1,11000

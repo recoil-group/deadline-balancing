@@ -953,10 +953,25 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,vector_folding_stock,,,,,,,,,,,,,,
 ,,kalis_scalar_gen1_fsbl00_hinged_folding_stock,KALIS Scalar Gen I FSBL00 Hinged Folding,18,0.26,-7,-9,,,,,,,,0
 ,,kalis_scalar_gen1_sabl00_hinged_buffer_tube_adapter,KALIS Scalar Non-Folding Stock Adapter,0,0.08,0,0,,,,,,,,800
-,vector_upper_receiver,,,,,,,,,,,,,,
-,,kalis_scalar_gen2_early_45acp_upper_receiver,KALIS Scalar Gen II .45ACP,0,0.41,0,0,,,,,,,,0
-,,kalis_scalar_gen2_early_9x19_upper_receiver,KALIS Scalar Gen II 9mm,3,0.39,-10,-10,,,,300,,,,3000
-,,kalis_scalar_gen2_early_45acp_upper_receiver,KALIS Scalar Gen II .45ACP,0,0.41,0,0,,,,,,,,0
+,vector_receiver_frame,,,,,,,,,,,,,,
+,,kalis_scalar_receiver_metal_frame,KALIS Scalar Receiver,0,0.18,,,,,,,,,,0
+,vector_45acp_upper_receiver,,,,,,,,,,,,,,
+,,kalis_scalar_gen1_45acp_upper_receiver,KALIS Scalar Gen I .45ACP,0,0.44,0,0,,,,,,,,0
+,,kalis_scalar_gen2_early_45acp_upper_receiver,KALIS Scalar Gen II .45ACP,0,0.41,1,1,,,,,,,,1500
+,,kalis_scalar_gen2_late_45acp_upper_receiver,KALIS Scalar Gen II .45ACP,0,0.42,1,0,,,,,,,,2000
+,,kalis_scalar_gen3_45acp_upper_receiver,KALIS Scalar Gen III .45ACP,-3,0.29,3,5,,,,,,,,3000
+,vector_10mm_upper_receiver,,,,,,,,,,,,,,
+,,kalis_scalar_gen2_early_10mm_upper_receiver,KALIS Scalar Gen II 10mm Auto,-1,0.41,4,4,,,,500,,,,1500
+,,kalis_scalar_gen2_late_10mm_upper_receiver,KALIS Scalar Gen II 10mm Auto,-1,0.42,5,4,,,,500,,,,2000
+,,kalis_scalar_gen3_10mm_upper_receiver,KALIS Scalar Gen III 10mm Auto,-4,0.29,6,8,,,,500,,,,3000
+,vector_40sv_upper_receiver,,,,,,,,,,,,,,
+,,kalis_scalar_gen2_early_40sv_upper_receiver,KALIS Scalar Gen II 40S&V,4,0.40,-10,-10,,,,300,,,,1500
+,,kalis_scalar_gen2_late_40sv_upper_receiver,KALIS Scalar Gen II 40S&V,4,0.41,-9,-10,,,,300,,,,2000
+,,kalis_scalar_gen3_40sv_upper_receiver,KALIS Scalar Gen III 40S&V,1,0.28,-7,-5,,,,300,,,,3000
+,vector_9x19_upper_receiver,,,,,,,,,,,,,,
+,,kalis_scalar_gen2_early_9x19_upper_receiver,KALIS Scalar Gen II 9mm,3,0.39,-10,-10,,,,300,,,,1500
+,,kalis_scalar_gen2_late_9x19_upper_receiver,KALIS Scalar Gen II 9mm,3,0.40,-9,-10,,,,300,,,,2000
+,,kalis_scalar_gen3_9x19_upper_receiver,KALIS Scalar Gen III 9mm,0,0.27,-7,-5,,,,300,,,,3000
 ,vector_trigger,,,,,,,,,,,,,,
 ,,kalis_scalar_gen1_trigger,KALIS Scalar Gen I Std.,0,0.03,,,,,,,,,,0
 ,,kalis_scalar_gen2_trigger,KALIS Scalar Gen II Std.,0,0.03,,,,,,,,,,0
@@ -966,6 +981,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kalis_scalar_9_slot_misc_rail,KALIS Scalar 9 Slot,0,0.05,,,,,,,,,,200
 ,vector_magazine_eject,,,,,,,,,,,,,,
 ,,kalis_scalar_std_mag_release,KALIS Scalar Std.,0,0.01,,,,,,,,,,0
+,,kalis_scalar_gen3_mag_release,KALIS Scalar Gen III,0.5,0.01,,,,,,,,,,0
+,,kalis_scalar_gen3_mag_release_cover,KALIS Scalar Gen III Cover,0.5,0.01,,,,,,,,,,0
 ,vector_45acp_lower_receiver,,,,,,,,,,,,,,
 ,,kalis_scalar_gen1_45acp_lower_receiver,KALIS Scalar Gen I .45ACP,0,0.57,,,,,,,,,,0
 ,,kalis_scalar_gen2_early_45acp_lower_receiver,KALIS Scalar Gen II Early .45ACP,0,0.55,,,,,,,,,,2000
@@ -983,6 +1000,16 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kalis_scalar_gen2_early_9x19_lower_receiver,KALIS Scalar Gen II Early 9x19,0,0.55,,,,,,,,,,2000
 ,,kalis_scalar_gen2_late_9x19_lower_receiver,KALIS Scalar Gen II Late 9x19,0,0.54,,,,,,,,,,2500
 ,,kalis_scalar_gen3_9x19_lower_receiver,KALIS Scalar Gen III 9x19,0,0.52,,,,,,,,,,4000
+,vector_bcg,,,,,,,,,,,,,,
+,,kalis_scalar_std_recoil_spring,KALIS Scalar Standard.,0,0.02,,,,,,,,,,0
+,,kalis_scalar_std_bolt_carrier_guide_shaft,KALIS Scalar Standard Bolt Carrier,0,0.01,,,,,,,,,,0
+,,kalis_scalar_std_bolt_carrier_slider,KALIS Scalar Standard Bolt Carrier,0,0.03,,,,,,,,,,0
+,,kalis_scalar_std_bcg_bottom_plate,KALIS Scalar Standard Bolt Carrier Group,0,0.03,,,,,,,,,,0
+,vector_fire_selector,,,,,,,,,,,,,,
+,,kalis_scalar_gen1_front_fire_selector,KALIS Scalar Standard Bolt Carrier,1,0.02,,,,,,,,,,0
+,,kalis_scalar_gen1_rear_fire_selector,KALIS Scalar Standard Bolt Carrier,1,0.02,,,,,,,,,,0
+,,kalis_scalar_gen2_3_front_fire_selector,KALIS Scalar Standard Bolt Carrier,1,0.02,,,,,,,,,,0
+,,kalis_scalar_gen2_3_rear_fire_selector,KALIS Scalar Standard Bolt Carrier,1,0.02,,,,,,,,,,0
 ,vector_left_rail,,,,,,,,,,,,,,
 ,,kalis_scalar_7_slot_left_side_rail,KALIS Scalar 7 Slot,0,0.04,,,,,,,,,,0
 ,,kalis_scalar_9_slot_left_side_rail,KALIS Scalar 9 Slot,0,0.05,,,,,,,,,,200
@@ -999,9 +1026,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,vector_bottom_rail,,,,,,,,,,,,,,
 ,,kalis_scalar_gen2_receiver_bottom_rail,KALIS Scalar Std.,0,0.04,,,,,,,,,,0
 ,vector_bolt_release,,,,,,,,,,,,,,
-,,kalis_scalar_std_bolt_catch,KALIS Scalar Std.,0,0.01,,,,,,,,,,0
+,,kalis_scalar_std_bolt_catch,KALIS Scalar Standard,0,0.01,,,,,,,,,,0
+,,kalis_scalar_std_bolt_catch_block,KALIS Scalar Standard Bolt Catch,0,0.01,,,,,,,,,,0
+,,kalis_scalar_gen3_bolt_catch,KALIS Scalar Gen III,0,0.01,,,,,,,,,,0
 ,vector_9mm_bolt,,,,,,,,,,,,,,
-,,kalis_scalar_std_bcg,KALIS Scalar .45ACP,0,0.04,,,,,,,,,,0
+,,kalis_scalar_std_bcg,KALIS Scalar Standard,0,0.04,,,,,,,,,,0
 ,vector_9mm_barrel,,,,,,,,,,,,,,
 ,,kalis_scalar_406mm_9x19_barrel,KALIS Scalar 9x19 16",-7,0.46,-7,-7,,-0.15,0.10,200,,,,1250
 ,,kalis_scalar_165mm_9x19_threaded_barrel,KALIS Scalar 9x19 6.5" Threaded,-1,0.26,-1,-1,,-0.05,0.02,20,,,,900

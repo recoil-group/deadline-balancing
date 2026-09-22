@@ -108,10 +108,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pts_validus_shift_tactical_grip,Pts Validus Shift Tactical,3,0.09,-5,-3,,,,,,,,600
 ,,azimuth_qrp1_30mm_mount,Azimuth QRP 30mm,0,0.07,,,,,,,,,,300
 ,,azimuth_qrp1_30mm_mount_w_spacer,Azimuth QRP 30mm w 39mm Spacer,0,0.09,,,,,,,,,,400
-,,whitehouse_compm_30mm_mount,Whitehouse COMP-M 30mm,0,0.06,,,,,,,,,,600
+,,whitehouse_duty_30mm_mount,Whitehouse COMP-M 30mm,0,0.06,,,,,,,,,,600
 ,,azimuth_qrp2_modular_base_mount,Azimuth QRP2 Modular Base,0,0.03,,,,,,,,,,300
 ,,azimuth_ar15_spacer,Azimuth AR-15 Spacer,0,0.02,,,,,,,,,,200
-,,azimuth_compm4_sight,Azimuth CompM4,-1,0.14,,,,,,,,,,1000
+,,azimuth_duty4_sight,Azimuth Duty4,-1,0.14,,,,,,,,,,1000
+,,azimuth_duty4s_sight,Azimuth Duty4S,-1,0.14,,,,,,,,,,1000
 ,,rk_b25_angled_mount,Rk B25 angled,-1,0.03,0,0,,,,,,,,500
 ,,rk_foregrip_mount,Rk foregrip,-0.5,0.03,0,0,,,,,,,,200
 ,,rk_short_foregrip_mount,Rk short foregrip,-0.5,0.02,0,0,,,,,,,,200
@@ -120,6 +121,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,vectorworks_leap01_swo100_1.42_mount,"Vectorworks LEAP/01 SWO100 1.42""",0,0.04,,,,,,,,,,500
 ,,vectorworks_leap01_swo110_1.57_mount,"Vectorworks LEAP/01 SWO110 1.57"" Mount",0,0.05,,,,,,,,,,550
 ,,vectorworks_leap01_swo120_1.93_mount,"Vectorworks LEAP/01 SWO120 1.93"" Mount",0,0.06,,,,,,,,,,600
+,,vectorworks_leap13_sw1510_1.57_mount,"Vectorworks LEAP/13 SW1510 1.57"" Mount",0,0.04,,,,,,,,,,500
+,,vectorworks_leap13_sw1520_1.93_mount,"Vectorworks LEAP/13 SW1520 1.93"" Mount",0,0.05,,,,,,,,,,600
 ,,sig_sauer_bravo4_4x30,Sic Stürmer GAIUS4 4X30,-2.5,0.27,,-2,,,,,,,,2000
 ,,sig_sauer_qd_1.41_cowitness_romeo3_riser,Sic Stürmer QD 1.41 co-witness Scipio3,0,0.04,,,,,,,,,,300
 ,,sig_sauer_romeo3_low_rise_mount,Sic Stürmer Scipio3 Low-Rise,0,0.02,,,,,,,,,,200

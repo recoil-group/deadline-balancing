@@ -402,6 +402,13 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ecm_ecmr_1_slot_mlok_rail_panel,ECM ECMR 1 Slot,0.5,0.01,,,,,,,,,,200
 ,,ecm_ecmr_3_slot_mlok_rail_panel,ECM ECMR 3 Slot,1,0.03,,,,,,,,,,600
 ,,ecm_ecmr_7_slot_mlok_rail_panel,ECM ECMR 7 Slot,2,0.06,,,,,,,,,,1000
+,,magtap_type_1_1slot_mlok_cover,Magtap Type 1 MLOK Single Panel,0.5,0.01,,,,,,,,,,100
+,,magtap_type_1_3_slot_mlok_cover,Magtap Type 1 MLOK 3 Panel,1,0.03,,,,,,,,,,300
+,,magtap_type_1_6slot_mlok_cover,Magtap Type 1 MLOK 6 Panel,2,0.06,,,,,,,,,,500
+,,magtap_type_2_mlok_cover,Magtap Type 2 MLOK Half Panel,0.5,0.01,,,,,,,,,,100
+,,magtap_type_2_cover,Magtap Type 2 Half Cover,0,0,,,,,,,,,,0
+,,magtap_type_2_half_mlok_cover,Magtap Type 2 MLOK Panel,1,0.03,,,,,,,,,,125
+,,magtap_type_2_half_cover,Magtap Type 2 Cover,0,0,,,,,,,,,,0
 ,,equinox_ex_mlok_cover_flipped,Arrow AX Flipped,0.5,0.01,,,,,,,,,,100
 ,,equinox_ex_mlok_grip,Arrow AX MLOK Grip,6,0.04,-1,-2,,,,,,,,700
 ,,bcm_gunfighter_kag,BCM Gunfighter KAG MLOK,6,0.04,0,-3,,,,,,,,300
@@ -440,6 +447,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,railscales_rsb_vg,RailScales RSB Vertical Grip,4,0.07,-4,-2,,,,,,,,800
 ,,si_link_curved_mlok_fg,Smite Industries LINK Curved MLOK,5,0.06,-2,-3,,,,,,,,500
 ,,magtap_mlok_afg_grip,Magtap MLOK AFG,4,0.05,-3,-3,,,,,,,,500
+,,magtap_mlok_hand_stop,Magtap MLOK Hand Stop,6,0.03,-2,0,,,,,,,,600
+,,magtap_mlok_index_panel,Magtap MLOK Index Panel,6,0.02,0,-1,,,,,,,,500
+,,magtap_mlok_index_panel_flipped,Magtap MLOK Index Panel Flipped,6,0.02,0,-1,,,,,,,,500
 ,,pac_mlok_3inch_5_slot_rail_section_bottom,PAC MLOK 3 Inch 5-Slot Rail Section,-0.5,0.05,,,,,,,,,,500
 ,,pac_mlok_3inch_5_slot_rail_section_side,PAC MLOK 3 Inch 5-Slot Rail Section,-0.5,0.05,,,,,,,,,,500
 ,,pac_mlok_3inch_5_slot_rail_section_top,PAC MLOK 3 Inch 5-Slot Rail Section,-0.5,0.05,,,,,,,,,,500

@@ -1007,22 +1007,22 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kalis_scalar_gen3_mag_release,KALIS Scalar Gen III,0.5,0.01,,,,,,,,,,0
 ,,kalis_scalar_gen3_mag_release_cover,KALIS Scalar Gen III Cover,0.5,0.01,,,,,,,,,,0
 ,vector_45acp_lower_receiver,,,,,,,,,,,,,,
-,,kalis_scalar_gen1_45acp_lower_receiver,KALIS Scalar Gen I .45ACP,0,0.57,,,,,,,,,,0
-,,kalis_scalar_gen2_early_45acp_lower_receiver,KALIS Scalar Gen II Early .45ACP,0,0.55,,,,,,,,,,2000
-,,kalis_scalar_gen2_late_45acp_lower_receiver,KALIS Scalar Gen II Late .45ACP,0,0.54,,,,,,,,,,2500
-,,kalis_scalar_gen3_45acp_lower_receiver,KALIS Scalar Gen III .45ACP,0,0.52,,,,,,,,,,4000
+,,kalis_scalar_gen1_45acp_lower_receiver,KALIS Scalar Gen I .45ACP,0,0.37,,,,,,,,,,0
+,,kalis_scalar_gen2_early_45acp_lower_receiver,KALIS Scalar Gen II Early .45ACP,0,0.35,,,,,,,,,,2000
+,,kalis_scalar_gen2_late_45acp_lower_receiver,KALIS Scalar Gen II Late .45ACP,0,0.34,,,,,,,,,,2500
+,,kalis_scalar_gen3_45acp_lower_receiver,KALIS Scalar Gen III .45ACP,0,0.32,,,,,,,,,,4000
 ,vector_10mm_lower_receiver,,,,,,,,,,,,,,
-,,kalis_scalar_gen2_early_10mm_lower_receiver,KALIS Scalar Gen II Early 10mm Auto,0,0.55,,,,,,,,,,2000
-,,kalis_scalar_gen2_late_10mm_lower_receiver,KALIS Scalar Gen II Late 10mm Auto,0,0.54,,,,,,,,,,2500
-,,kalis_scalar_gen3_10mm_lower_receiver,KALIS Scalar Gen III 10mm Auto,0,0.52,,,,,,,,,,4000
+,,kalis_scalar_gen2_early_10mm_lower_receiver,KALIS Scalar Gen II Early 10mm Auto,0,0.35,,,,,,,,,,2000
+,,kalis_scalar_gen2_late_10mm_lower_receiver,KALIS Scalar Gen II Late 10mm Auto,0,0.34,,,,,,,,,,2500
+,,kalis_scalar_gen3_10mm_lower_receiver,KALIS Scalar Gen III 10mm Auto,0,0.32,,,,,,,,,,4000
 ,vector_40sv_lower_receiver,,,,,,,,,,,,,,
-,,kalis_scalar_gen2_early_40sv_lower_receiver,KALIS Scalar Gen II Early .40S&V,0,0.55,,,,,,,,,,2000
-,,kalis_scalar_gen2_late_40sv_lower_receiver,KALIS Scalar Gen II Late .40S&V,0,0.54,,,,,,,,,,2500
-,,kalis_scalar_gen3_40sv_lower_receiver,KALIS Scalar Gen III .40S&V,0,0.52,,,,,,,,,,4000
+,,kalis_scalar_gen2_early_40sv_lower_receiver,KALIS Scalar Gen II Early .40S&V,0,0.35,,,,,,,,,,2000
+,,kalis_scalar_gen2_late_40sv_lower_receiver,KALIS Scalar Gen II Late .40S&V,0,0.34,,,,,,,,,,2500
+,,kalis_scalar_gen3_40sv_lower_receiver,KALIS Scalar Gen III .40S&V,0,0.32,,,,,,,,,,4000
 ,vector_9mm_lower_receiver,,,,,,,,,,,,,,
-,,kalis_scalar_gen2_early_9x19_lower_receiver,KALIS Scalar Gen II Early 9x19,0,0.55,,,,,,,,,,2000
-,,kalis_scalar_gen2_late_9x19_lower_receiver,KALIS Scalar Gen II Late 9x19,0,0.54,,,,,,,,,,2500
-,,kalis_scalar_gen3_9x19_lower_receiver,KALIS Scalar Gen III 9x19,0,0.52,,,,,,,,,,4000
+,,kalis_scalar_gen2_early_9x19_lower_receiver,KALIS Scalar Gen II Early 9x19,0,0.35,,,,,,,,,,2000
+,,kalis_scalar_gen2_late_9x19_lower_receiver,KALIS Scalar Gen II Late 9x19,0,0.34,,,,,,,,,,2500
+,,kalis_scalar_gen3_9x19_lower_receiver,KALIS Scalar Gen III 9x19,0,0.32,,,,,,,,,,4000
 ,vector_bcg,,,,,,,,,,,,,,
 ,,kalis_scalar_std_recoil_spring,KALIS Scalar Standard.,0,0.02,,,,,,,,,,0
 ,,kalis_scalar_std_bolt_carrier_guide_shaft,KALIS Scalar Standard Bolt Carrier,0,0.01,,,,,,,,,,0

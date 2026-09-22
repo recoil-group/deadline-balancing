@@ -1,4 +1,4 @@
-﻿0.25.4,Thu Sep 03 15:47:07 2026,,,,,,,,,,,,,,
+﻿0.25.4,Sat Sep 19 15:02:25 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -120,14 +120,16 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,vectorworks_leap01_swo100_1.42_mount,"Vectorworks LEAP/01 SWO100 1.42""",0,0.04,,,,,,,,,,500
 ,,vectorworks_leap01_swo110_1.57_mount,"Vectorworks LEAP/01 SWO110 1.57"" Mount",0,0.05,,,,,,,,,,550
 ,,vectorworks_leap01_swo120_1.93_mount,"Vectorworks LEAP/01 SWO120 1.93"" Mount",0,0.06,,,,,,,,,,600
-,,sig_sauer_bravo4_4x30,Sic Stürmer BRAVO4 4X30,-2.5,0.27,,-2,,,,,,,,2000
-,,sig_sauer_qd_1.41_cowitness_romeo3_riser,Sic Stürmer QD 1.41 co-witness Romeo 3,0,0.04,,,,,,,,,,300
-,,sig_sauer_romeo3_low_rise_mount,Sic Stürmer Romeo 3 Low-Rise,0,0.02,,,,,,,,,,200
-,,sig_sauer_romeo_cowitness_qd_mount,Sic Stürmer Romeo Co-witness QD Mount,0,0.05,,,,,,,,,,400
-,,sig_sauer_romeo4_mount,Sic Stürmer Romeo4,0,0.04,,,,,,,,,,200
-,,sig_sauer_romeo4_low,Sic Stürmer Romeo4 Low,0,0.03,,,,,,,,,,200
-,,sig_sauer_romeo4t_1/3_cowitness_mount,Sic Stürmer Romeo4T Lower Hex Bolt 1/3 Co-witness,0,0.05,,,,,,,,,,300
-,,sig_sauer_romeo5_low_mount,Sic Stürmer Romeo5 Low,0,0.02,,,,,,,,,,200
+,,sig_sauer_bravo4_4x30,Sic Stürmer GAIUS4 4X30,-2.5,0.27,,-2,,,,,,,,2000
+,,sig_sauer_qd_1.41_cowitness_romeo3_riser,Sic Stürmer QD 1.41 co-witness Scipio3,0,0.04,,,,,,,,,,300
+,,sig_sauer_romeo3_low_rise_mount,Sic Stürmer Scipio3 Low-Rise,0,0.02,,,,,,,,,,200
+,,sig_sauer_romeo_cowitness_qd_mount,Sic Stürmer Scipio Co-witness QD Mount,0,0.05,,,,,,,,,,400
+,,sig_sauer_romeo4_mount,Sic Stürmer Scipio4,0,0.04,,,,,,,,,,200
+,,sig_sauer_romeo4_low,Sic Stürmer Scipio4 Low,0,0.03,,,,,,,,,,200
+,,sig_sauer_romeo4t_1/3_cowitness_mount,Sic Stürmer Scipio4T Lower Hex Bolt 1/3 Co-witness,0,0.05,,,,,,,,,,300
+,,sic_sturmer_scipio5_low_mount,Sic Stürmer Scipio5 Low,0,0.02,,,,,,,,,,200
+,,sic_sturmer_i_beam_1.41inch_mount,"Sic Stürmer I-Beam 1.41""",0,0.03,,,,,,,,,,400
+,,sic_sturmer_i_beam_1.93inch_mount,"Sic Stürmer I-Beam 1.93""",0,0.04,,,,,,,,,,500
 ,,sightmark_lopro_combo,Sightmark Lopro Combo,-1,0.2,,-2,,,,,,,,500
 ,,sightmark_lopro_mini_combo,Sightmark Lopro Mini Combo,-1,0.11,,,,,,,,,,600
 ,,stark_se_5_express_forward_grip,Stark SE-5 Express Forward,2,0.1,-5,-5,,,,,,,,400
@@ -222,7 +224,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,whitehouse_rush_qe_junction_box_legacy_crane_connector,Whitehouse RUSH Qe Legacy Crane Connector,0,0.01,,,,,,,,,,0
 ,,whitehouse_rush_qe_front_caps,Whitehouse RUSH Qe Front,0,0.01,,,,,,,,,,0
 ,,pac_azimuth_micro_nvg_high_rise_picatinny_mount,PAC Azimuth Micro NVG High Rise Picatinny Mount,0,0.1,,,,,,,,,,1300
-,,sig_sauer_foxtrot1_flashlight,Sic Stürmer FOXTROT1,0,0.05,,,,,,,,,,900
+,,sig_sauer_foxtrot1_flashlight,Sic Stürmer RICIMER1,0,0.05,,,,,,,,,,900
 ,,npz_pso_1_4x24_picatinny_scope,NPZ PSO-1 4x24 Picatinny,-3,0.21,,-1,,,,,,,,1200
 ,,npz_pso_rear_cup,NPZ PSO,2,0.02,,,,,,,,,,0
 ,,npz_pso_front_cup,NPZ PSO Front Cup,1,0.02,,,,,,,,,,0
@@ -488,20 +490,24 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,target_sports_front_sight_folded,Target Sports Low Profile 45 Degree Folded Folded,1,0.02,,,,,,,,,,0
 ,,target_sports_rear_sight,Target Sports Low Profile 45 Degree,1,0.02,,,,,,,,,,0
 ,azimuth_micro_footprint,,,,,,,,,,,,,,
-,,sig_sauer_romeo4b_sight,Sic Stürmer Romeo4B,-1.5,0.08,,,,,,,,,,1000
-,,sig_sauer_romeo4t_sight,Sic Stürmer Romeo4T,-1.5,0.08,,,,,,,,,,1100
+,,sic_sturmer_scipio4b_sight,Sic Stürmer Scipio4B,-1.5,0.08,,,,,,,,,,1000
+,,sic_sturmer_scipio4t_sight,Sic Stürmer Scipio4T,-1.5,0.08,,,,,,,,,,1100
 ,,azimuth_micro_spacer_high_39mm,Azimuth Micro Spacer High 39mm,0,0.03,,,,,,,,,,200
 ,,azimuth_micro_spacer_low_30mm,Azimuth Micro Spacer Low 30mm,0,0.02,,,,,,,,,,200
 ,,azimuth_micro_t1_sight,Azimuth Micro T1,-1.5,0.06,,,,,,,,,,1200
 ,,azimuth_micro_t2_sight,Azimuth Micro T2,-1.5,0.06,,,,,,,,,,1300
-,,azimuth_compm5_sight,Azimuth CompM5,-1,0.09,,,,,,,,,,1400
-,,sig_sauer_romeo5_1x20_sight,Sic Stürmer Romeo5 1x20,-1.5,0.06,,,,,,,,,,700
+,,azimuth_duty5_sight,Azimuth DutyM5,-1,0.09,,,,,,,,,,1400
+,,sic_sturmer_scipio5_sight,Sic Stürmer Scipio5 1x20,-1.5,0.06,,,,,,,,,,700
+,,sic_sturmer_scipio5_gen2_sight,Sic Stürmer Scipio5 Gen2 1x20,-1.5,0.06,,,,,,,,,,800
+,,sic_sturmer_scipio5_gen2_elite_sight,Sic Stürmer Scipio5 Gen2 Elite 1x20,-1.5,0.06,,,,,,,,,,1000
+,,sic_sturmer_scipio5x_gen2_sight,Sic Stürmer Scipio5X Gen2 1x20,-1,0.08,,,,,,,,,,1100
+,,sic_sturmer_scipio5xdr_gen2_sight,Sic Stürmer Scipio5XDR Gen2 1x20,-1,0.08,,,,,,,,,,1300
 ,azimuth_t2_caps,,,,,,,,,,,,,,
 ,,azimuth_micro_t2_lens_caps,Azimuth Micro T2,1,0.01,,,,,,,,,,0
 ,azimuth_t2_wrap,,,,,,,,,,,,,,
 ,,azimuth_t2_cordura_fabric_wrap,Azimuth Micro T-2 / H-2 Cordura Fabric Wrap,0,0.005,,,,,,,,,,1000
 ,compm5_caps,,,,,,,,,,,,,,
-,,azimuth_compm5_lens_caps,Azimuth CompM5,1,0.01,,,,,,,,,,0
+,,azimuth_duty5_lens_caps,Azimuth DutyM5,1,0.01,,,,,,,,,,0
 ,acro_footprint,,,,,,,,,,,,,,
 ,,azimuth_acro_p2_reflex_sight,Azimuth ACRO P-2 Reflex,-2,0.05,,,,,,,,,,1200
 ,susat_scope_footprint,,,,,,,,,,,,,,
@@ -519,7 +525,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,dual_ring_34mm_sight_mount,,,,,,,,,,,,,,
 ,,nightforce_atacr7_35x56_f1,Nightforce ATACR 7-35x56 F1,-7,0.42,,-4,,,,,,,,5000
 ,single_ring_30mm_sight_mount,,,,,,,,,,,,,,
-,,azimuth_compm2_sight,Azimuth CompM2,-1,0.11,,,,,,,,,,800
+,,azimuth_duty2_sight,Azimuth DutyM2,-1,0.11,,,,,,,,,,800
 ,25mm_ring_mount,,,,,,,,,,,,,,
 ,,armytek_predator_prov3_xhp35_hi,Armytek Predator Pro v3 XHP35 HI,0,0.05,,,,,,,,,,750
 ,,ultrafire_wf501b_flashlight,Ultrafire WF-501B,0,0.15,,,,,,,,,,500
@@ -704,6 +710,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,bcm_gunfighter_mod3_ar15_pistol_grip,BCM Gunfighter Mod 3 AR-15,8,0.09,-3,-2,,,,,,,,750
 ,,pmm_bcm_gunfighter_mod3_scar_pistol_grip,Everetts Machining BCM Gunfighter Mod 3 FANG,8,0.1,-3,-2,,,,,,,,800
 ,,axtell_defense_pistol_grip_with_trigger_guard,Axtell Defense w/ Trigger Guard,10,0.13,-2,-4,,,,,,,,900
+,,kalis_scalar_gen3_ar15_pistol_grip,KALIS Scalar Gen3 AR-15,5.5,0.07,-5,-2,,,,,,,,800
+,vector_gen3_grip_core,,,,,,,,,,,,,,
+,,kalis_scalar_gen3_grip_core,KALIS Scalar Gen3 Grip Core,1.5,0.03,,,,,,,,,,200
+,,kalis_scalar_gen3_open_grip_core,KALIS Scalar Gen3 Open Grip Core,1,0.02,,,,,,,,,,0
 ,ar15_trigger,,,,,,,,,,,,,,
 ,,hart_m4a1_std_trigger,M4 Standard,2,0.04,0,0,,0,,,,,,0
 ,,fort_worth_manufacturing_trigger,Fort Worth Manufacturing Triggers drop-in,3,0.03,-1,0,,-0.02,,,,0.03,,300
@@ -941,47 +951,142 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pmm_scar_17_magwell_type2,Everetts Machining FANG 17 Type 2,2.5,0.08,-1,,,,,,,,,700
 ,,pmm_scar_16_magwell,Everetts Machining FANG 16,2,0.05,-1,,,,,,,,,700
 ,vector_folding_stock,,,,,,,,,,,,,,
-,,kriss_vector_gen2_folding_stock,KALIS Scalar Gen2,18,0.26,-7,-9,,,,,,,,0
-,,kriss_vector_non_folding_stock_adapter,KALIS Scalar Non-Folding Stock Adapter,0,0.08,0,0,,,,,,,,800
-,vector_upper_receiver,,,,,,,,,,,,,,
-,,vector_9mm_upper_receiver,KALIS Scalar 9mm,3,0.39,-10,-10,,,,300,,,,3000
-,,vector_45acp_upper_receiver,KALIS Scalar .45ACP,0,0.41,0,0,,,,,,,,0
+,,kalis_scalar_gen1_fsbl00_hinged_folding_stock,KALIS Scalar Gen I FSBL00 Hinged Folding,18,0.26,-7,-9,,,,,,,,0
+,,kalis_scalar_gen1_sabl00_hinged_buffer_tube_adapter,KALIS Scalar Non-Folding Stock Adapter,0,0.08,0,0,,,,,,,,800
+,,kalis_scalar_gen2_late_folding_buffer_tube_adapter,KALIS Scalar Gen II Late Folding Stock Adapter,0,0.04,0,0,,,,,,,,400
+,,kalis_scalar_ambi_folding_stock_hinge,KALIS Scalar Ambi Folding Stock Hinge,0,0.04,0,0,,,,,,,,800
+,,kalis_scalar_gen2_late_folding_stock_mount,KALIS Scalar Gen II Late Folding Stock Mount,0,0.05,0,0,,,,,,,,0
+,,kalis_scalar_gen2_late_folding_stock,KALIS Scalar Gen II Late Folding Stock,20,0.20,-6,-11,,,,,,,,1250
+,,kalis_scalar_pistol_pqdbl00_qd_sling_swivel,KALIS Scalar Pistol QD Sling Swivel,5,0.06,7,7,,0.50,,,,,,500
+,vector_gen3_stock,,,,,,,,,,,,,,
+,,kalis_scalar_gen3_picatinny_stock_rail,KALIS Scalar Gen III Picatinny,0,0.03,0,0,,,,,,,,100
+,,kalis_scalar_gen3_folding_stock_hinge,KALIS Scalar Gen III Folding Stock,0,0.04,0,0,,,,,,,,500
+,,kalis_scalar_gen3_folding_stock_mount,KALIS Scalar Gen III Folding Stock,0,0.05,0,0,,,,,,,,0
+,,kalis_scalar_gen3_folding_stock,KALIS Scalar Gen III Folding,21,0.12,-7,-8,,,,,,,,1750
+,,kalis_scalar_gen3_buffer_tube_adapter,KALIS Scalar Gen III Buffer Tube,0,0.07,0,0,,,,,,,,800
+,vector_receiver_frame,,,,,,,,,,,,,,
+,,kalis_scalar_receiver_metal_frame,KALIS Scalar Receiver,0,0.18,,,,,,,,,,0
+,vector_trunnion,,,,,,,,,,,,,,
+,,kalis_scalar_std_front_trunnion,KALIS Scalar Standard Front,0,0.06,,,,,,,,,,0
+,vector_ejection_port,,,,,,,,,,,,,,
+,,kalis_scalar_std_small_ejection_port,KALIS Scalar Standard Small,0,0.03,,,,,,,,,,0
+,,kalis_scalar_std_large_ejection_port,KALIS Scalar Standard Large,0,0.04,,,,,,,,,,0
+,vector_45acp_upper_receiver,,,,,,,,,,,,,,
+,,kalis_scalar_gen1_45acp_upper_receiver,KALIS Scalar Gen I .45ACP,0,0.44,0,0,,,,,,,,0
+,,kalis_scalar_gen2_early_45acp_upper_receiver,KALIS Scalar Gen II .45ACP,0,0.41,1,1,,,,,,,,1500
+,,kalis_scalar_gen2_late_45acp_upper_receiver,KALIS Scalar Gen II .45ACP,0,0.40,1,0,,,,,,,,2000
+,,kalis_scalar_gen3_45acp_upper_receiver,KALIS Scalar Gen III .45ACP,-3,0.29,3,5,,,,,,,,3000
+,vector_10mm_upper_receiver,,,,,,,,,,,,,,
+,,kalis_scalar_gen2_early_10mm_upper_receiver,KALIS Scalar Gen II 10mm Auto,-1,0.41,4,4,,,,500,,,,1500
+,,kalis_scalar_gen2_late_10mm_upper_receiver,KALIS Scalar Gen II 10mm Auto,-1,0.40,4,3,,,,500,,,,2000
+,,kalis_scalar_gen3_10mm_upper_receiver,KALIS Scalar Gen III 10mm Auto,-4,0.29,6,8,,,,500,,,,3000
+,vector_40sv_upper_receiver,,,,,,,,,,,,,,
+,,kalis_scalar_gen2_early_40sv_upper_receiver,KALIS Scalar Gen II 40S&V,4,0.40,-10,-10,,,,300,,,,1500
+,,kalis_scalar_gen2_late_40sv_upper_receiver,KALIS Scalar Gen II 40S&V,4,0.39,-10,-11,,,,300,,,,2000
+,,kalis_scalar_gen3_40sv_upper_receiver,KALIS Scalar Gen III 40S&V,1,0.28,-7,-5,,,,300,,,,3000
+,vector_9x19_upper_receiver,,,,,,,,,,,,,,
+,,kalis_scalar_gen2_early_9x19_upper_receiver,KALIS Scalar Gen II 9mm,3,0.39,-10,-10,,,,300,,,,1500
+,,kalis_scalar_gen2_late_9x19_upper_receiver,KALIS Scalar Gen II 9mm,3,0.38,-10,-11,,,,300,,,,2000
+,,kalis_scalar_gen3_9x19_upper_receiver,KALIS Scalar Gen III 9mm,0,0.27,-7,-5,,,,300,,,,3000
+,vector_upper_receiver_rail,,,,,,,,,,,,,,
+,,kalis_scalar_gen1_upper_receiver_rail,KALIS Scalar Gen I Upper Receiver,0,0.10,,,,,,,,,,0
+,,kalis_scalar_gen2_early_upper_receiver_rail,KALIS Scalar Gen II Early Upper Receiver,0,0.10,,,,,,,,,,0
+,,kalis_scalar_gen2_late_upper_receiver_rail,KALIS Scalar Gen II Late Upper Receiver,0,0.12,,,,,,,,,,0
+,,kalis_scalar_gen3_upper_receiver_rail,KALIS Scalar Gen III Upper Receiver,0,0.10,,,,,,,,,,0
+,vector_grip_bottom_plate,,,,,,,,,,,,,,
+,,kalis_scalar_std_grip_bottom_plate,KALIS Scalar Standard Grip,0,0.02,,,,,,,,,,0
 ,vector_trigger,,,,,,,,,,,,,,
-,,vector_std_trigger,KALIS Scalar Std.,0,0.03,,,,,,,,,,0
+,,kalis_scalar_gen1_trigger,KALIS Scalar Gen I Std.,0,0.03,,,,,,,,,,0
+,,kalis_scalar_gen2_trigger,KALIS Scalar Gen II Std.,0,0.03,,,,,,,,,,0
+,,kalis_scalar_gen3_trigger,KALIS Scalar Gen III Std.,1,0.02,,,,,,,,,,300
 ,vector_right_rail,,,,,,,,,,,,,,
-,,vector_right_rail,KALIS Scalar Std.,-1,0.04,,,,,,,,,,0
+,,kalis_scalar_7_slot_misc_rail,KALIS Scalar 7 Slot,0,0.04,,,,,,,,,,0
+,,kalis_scalar_9_slot_misc_rail,KALIS Scalar 9 Slot,0,0.05,,,,,,,,,,200
 ,vector_magazine_eject,,,,,,,,,,,,,,
-,,vector_std_mag_eject,KALIS Scalar Std.,0,0.01,,,,,,,,,,0
-,vector_lower_receiver,,,,,,,,,,,,,,
-,,vector_lower_receiver,KALIS Scalar Gen2,0,0.57,,,,,,,,,,0
+,,kalis_scalar_std_mag_release,KALIS Scalar Std.,0,0.01,,,,,,,,,,0
+,,kalis_scalar_gen3_mag_release,KALIS Scalar Gen III,0.5,0.01,,,,,,,,,,0
+,,kalis_scalar_gen3_mag_release_cover,KALIS Scalar Gen III Cover,0.5,0.01,,,,,,,,,,0
+,vector_45acp_lower_receiver,,,,,,,,,,,,,,
+,,kalis_scalar_gen1_45acp_lower_receiver,KALIS Scalar Gen I .45ACP,0,0.37,,,,,,,,,,0
+,,kalis_scalar_gen2_early_45acp_lower_receiver,KALIS Scalar Gen II Early .45ACP,0,0.35,,,,,,,,,,2000
+,,kalis_scalar_gen2_late_45acp_lower_receiver,KALIS Scalar Gen II Late .45ACP,0,0.34,,,,,,,,,,2500
+,,kalis_scalar_gen3_45acp_lower_receiver,KALIS Scalar Gen III .45ACP,0,0.32,,,,,,,,,,4000
+,vector_10mm_lower_receiver,,,,,,,,,,,,,,
+,,kalis_scalar_gen2_early_10mm_lower_receiver,KALIS Scalar Gen II Early 10mm Auto,0,0.35,,,,,,,,,,2000
+,,kalis_scalar_gen2_late_10mm_lower_receiver,KALIS Scalar Gen II Late 10mm Auto,0,0.34,,,,,,,,,,2500
+,,kalis_scalar_gen3_10mm_lower_receiver,KALIS Scalar Gen III 10mm Auto,0,0.32,,,,,,,,,,4000
+,vector_40sv_lower_receiver,,,,,,,,,,,,,,
+,,kalis_scalar_gen2_early_40sv_lower_receiver,KALIS Scalar Gen II Early .40S&V,0,0.35,,,,,,,,,,2000
+,,kalis_scalar_gen2_late_40sv_lower_receiver,KALIS Scalar Gen II Late .40S&V,0,0.34,,,,,,,,,,2500
+,,kalis_scalar_gen3_40sv_lower_receiver,KALIS Scalar Gen III .40S&V,0,0.32,,,,,,,,,,4000
+,vector_9mm_lower_receiver,,,,,,,,,,,,,,
+,,kalis_scalar_gen2_early_9x19_lower_receiver,KALIS Scalar Gen II Early 9x19,0,0.35,,,,,,,,,,2000
+,,kalis_scalar_gen2_late_9x19_lower_receiver,KALIS Scalar Gen II Late 9x19,0,0.34,,,,,,,,,,2500
+,,kalis_scalar_gen3_9x19_lower_receiver,KALIS Scalar Gen III 9x19,0,0.32,,,,,,,,,,4000
+,vector_bcg,,,,,,,,,,,,,,
+,,kalis_scalar_std_recoil_spring,KALIS Scalar Standard.,0,0.02,,,,,,,,,,0
+,,kalis_scalar_std_bolt_carrier_guide_shaft,KALIS Scalar Standard Bolt Carrier,0,0.01,,,,,,,,,,0
+,,kalis_scalar_std_bolt_carrier_slider,KALIS Scalar Standard Bolt Carrier,0,0.03,,,,,,,,,,0
+,,kalis_scalar_std_bcg_bottom_plate,KALIS Scalar Standard Bolt Carrier Group,0,0.03,,,,,,,,,,0
+,vector_fire_selector,,,,,,,,,,,,,,
+,,kalis_scalar_gen1_front_fire_selector,KALIS Scalar Standard Bolt Carrier,1,0.02,,,,,,,,,,0
+,,kalis_scalar_gen1_rear_fire_selector,KALIS Scalar Standard Bolt Carrier,1,0.02,,,,,,,,,,0
+,,kalis_scalar_gen2_3_front_fire_selector,KALIS Scalar Standard Bolt Carrier,1,0.02,,,,,,,,,,0
+,,kalis_scalar_gen2_3_rear_fire_selector,KALIS Scalar Standard Bolt Carrier,1,0.02,,,,,,,,,,0
+,,kalis_scalar_std_fire_control_group,KALIS Scalar Standard,0,0.04,,,,,,,,,,0
 ,vector_left_rail,,,,,,,,,,,,,,
-,,vector_left_rail,KALIS Scalar Std.,-1,0.04,,,,,,,,,,0
+,,kalis_scalar_7_slot_left_side_rail,KALIS Scalar 7 Slot,0,0.04,,,,,,,,,,0
+,,kalis_scalar_9_slot_left_side_rail,KALIS Scalar 9 Slot,0,0.05,,,,,,,,,,200
 ,vector_handguard_mount,,,,,,,,,,,,,,
-,,vector_mk5_side_rail,Vector Mk5 Side Rail,0,0.03,0,0,,,,,,,,0
+,,kalis_scalar_mk5_handguard_bottom_rail,Vector Mk5 Side Rail,0,0.03,0,0,,,,,,,,0
 ,,mlok_spot,Mlok Attach Point,0,0,,,,,,,,,,0
+,,kalis_scalar_mk3_handguard_bottom_rail,KALIS Scalar Mk3 Handguard,0,0.07,-1,-1,,,,,,,,0
+,,kalis_scalar_mk3_handguard_top_rail,KALIS Scalar Mk3 Handguard,0,0.07,-1,-1,,,,,,,,0
+,,kalis_scalar_mk1_handguard_top_rail,KALIS Scalar Mk1 Handguard,0,0.04,-1,,,,,,,,,0
 ,vector_handguard,,,,,,,,,,,,,,
-,,vector_mk1_modular_rail,KALIS Scalar Mk1 Modular,2,0.2,-4,-4,,,,,,,,1000
-,,vector_mk5_mlok_rail,Vector Mk5 M-Lok ModularRail,2,0.17,-2,-4,,,,,,,,2000
-,,vector_round_shroud_mk1_11inch_modular,"Vector Mk.1 Round Shroud 11"" Modular",3,0.24,-2,-6,,,,,,,,2000
-,,vector_round_shroud_mk1_9inch_modular,"Vector Mk.1 Round Shroud 9"" Modular",3,0.19,-1,-5,,,,,,,,1500
+,,kalis_scalar_mk1_handguard,KALIS Scalar Mk1 Modular,2,0.2,-4,-4,,,,,,,,1000
+,,kalis_scalar_mk5_handguard,Vector Mk5 M-Lok ModularRail,2,0.17,-2,-4,,,,,,,,2000
+,,kalis_scalar_mk11_handguard,"Vector Mk.1 Round Shroud 11"" Modular",3,0.24,-2,-6,,,,,,,,2000
+,,kalis_scalar_mk9_handguard,"Vector Mk.1 Round Shroud 9"" Modular",3,0.19,-1,-5,,,,,,,,1500
+,,kalis_scalar_mk3_handguard,KALIS Scalar Mk3,3,0.14,-3,-4,,,,,,,,1000
+,vector_gen3_handguard,,,,,,,,,,,,,,
+,,kalis_scalar_gen3_5.5inch_mlok_handguard,"KALIS Scalar Gen III 5.5""",1,0.06,-1,-1,,,,,,,,0
+,,kalis_scalar_gen3_10inch_mlok_handguard,"KALIS Scalar Gen III 10""",4,0.16,-4,-4,,,,,,,,1000
+,,kalis_scalar_gen3_16inch_mlok_barrel_shroud,"KALIS Scalar Gen III 16""",6,0.29,-6,-7,,,,,,,,1250
 ,vector_charging_handle,,,,,,,,,,,,,,
-,,vector_charging_handle,KALIS Scalar Std.,1,0.03,,,,,,,,,,0
+,,kalis_scalar_std_charging_handle,KALIS Scalar Std.,1,0.03,,,,,,,,,,0
+,,kalis_scalar_std_charging_handle_support,KALIS Scalar Std. Charging Handle Support,0,0.02,,,,,,,,,,0
+,vector_front_cover,,,,,,,,,,,,,,
+,,kalis_scalar_std_front_cover,KALIS Scalar Standard Front,0,0.02,,,,,,,,,,0
+,,kalis_scalar_gen3_front_cover,KALIS Scalar Gen III Front,0,0.02,,,,,,,,,,0
 ,vector_bottom_rail,,,,,,,,,,,,,,
-,,vector_bottom_rail,KALIS Scalar Std.,0,0.04,,,,,,,,,,0
+,,kalis_scalar_gen2_receiver_bottom_rail,KALIS Scalar Std.,0,0.04,,,,,,,,,,0
 ,vector_bolt_release,,,,,,,,,,,,,,
-,,vector_bolt_release,KALIS Scalar Std.,0,0.01,,,,,,,,,,0
+,,kalis_scalar_std_bolt_catch,KALIS Scalar Standard,0,0.01,,,,,,,,,,0
+,,kalis_scalar_std_bolt_catch_block,KALIS Scalar Standard Bolt Catch,0,0.01,,,,,,,,,,0
+,,kalis_scalar_gen3_bolt_catch,KALIS Scalar Gen III,0,0.01,,,,,,,,,,0
 ,vector_9mm_bolt,,,,,,,,,,,,,,
-,,vector_9mm_bolt,KALIS Scalar .45ACP,0,0.04,,,,,,,,,,0
-,vector_45acp_bolt,,,,,,,,,,,,,,
-,,vector_45acp_bolt,KALIS Scalar .45ACP,0,0.05,,,,,,,,,,0
+,,kalis_scalar_std_bcg,KALIS Scalar Standard,0,0.04,,,,,,,,,,0
 ,vector_9mm_barrel,,,,,,,,,,,,,,
-,,vector_9mm_170mm_barrel,KALIS Scalar 9x19 170mm,-1,0.26,-1,-1,,-0.05,0.02,20,-0.1,,,750
-,,vector_9mm_140mm_barrel,KALIS Scalar 9x19 140mm,0,0.23,0,0,,0,0,-20,0,,,800
+,,kalis_scalar_406mm_9x19_barrel,"KALIS Scalar 9x19 16""",-7,0.46,-7,-7,,-0.15,0.10,200,,,,1250
+,,kalis_scalar_165mm_9x19_threaded_barrel,"KALIS Scalar 9x19 6.5"" Threaded",-1,0.26,-1,-1,,-0.05,0.02,20,,,,900
+,,kalis_scalar_140mm_9x19_threaded_barrel,"KALIS Scalar 9x19 5.5"" Threaded",0,0.23,0,0,,0,0,-20,,,,800
 ,vector_45acp_barrel,,,,,,,,,,,,,,
-,,vector_45acp_170mm_barrel,KALIS Scalar .45ACP 170mm,-1,0.27,-1,-1,,-0.02,0.03,-72,-0.1,,,750
-,,vector_45acp_140mm_barrel,KALIS Scalar .45ACP 140mm,0,0.23,0,0,,0,0,-99,0,,,800
-,magazine_45acp_vector,,,,,,,,,,,,,,
-,,pf940_std_13r_vector_remodel,STD 13R .45 ACP,0,0.23,,,13,,,,,,,0
+,,kalis_scalar_406mm_45acp_barrel,"KALIS Scalar .45ACP 16""",-7,0.47,-7,-7,,-0.13,0.10,150,,,,1250
+,,kalis_scalar_165mm_45acp_threaded_barrel,"KALIS Scalar .45ACP 6.5"" Threaded",-1,0.27,-1,-1,,-0.02,0.03,-72,,,,900
+,,kalis_scalar_140mm_45acp_threaded_barrel,"KALIS Scalar .45ACP 5.5"" Threaded",0,0.23,0,0,,0,0,-99,,,,800
+,vector_40sv_barrel,,,,,,,,,,,,,,
+,,kalis_scalar_406mm_40sv_barrel,"KALIS Scalar .40S&V 16""",-7,0.46,-7,-7,,-0.15,0.10,200,,,,1250
+,,kalis_scalar_165mm_40sv_threaded_barrel,"KALIS Scalar .40S&V 6.5"" Threaded",-1,0.26,-1,-1,,-0.05,0.02,20,,,,900
+,,kalis_scalar_140mm_40sv_threaded_barrel,"KALIS Scalar .40S&V 5.5"" Threaded",0,0.23,0,0,,0,0,-20,,,,800
+,vector_10mm_barrel,,,,,,,,,,,,,,
+,,kalis_scalar_406mm_10mm_barrel,"KALIS Scalar 10mm 16""",-7,0.47,-7,-7,,-0.17,0.10,200,,,,1250
+,,kalis_scalar_165mm_10mm_threaded_barrel,"KALIS Scalar 10mm 6.5"" Threaded",-1,0.27,-1,-1,,-0.04,0.03,-72,,,,900
+,,kalis_scalar_140mm_10mm_threaded_barrel,"KALIS Scalar 10mm 5.5"" Threaded",0,0.23,0,0,,0,0,-99,,,,800
+,vector_barrel_shroud,,,,,,,,,,,,,,
+,,kalis_scalar_gen1_barrel_shroud,KALIS Scalar Gen I,3,0.12,-1,-3,,,,,,,,750
+,,kalis_scalar_gen2_early_barrel_shroud,KALIS Scalar Gen II Early,3,0.14,-2,-3,,,,,,,,1000
+,,kalis_scalar_gen2_late_barrel_shroud,KALIS Scalar Gen II Late,3,0.16,-2,-4,,,,,,,,1250
 ,magazine_556x45,,,,,,,,,,,,,,
 ,,5.56x45_magtap_pmag_60r,Magtap PMAG D60 60R Drum,-10,1.12,,,60,,,,,,,4000
 ,,5.56x45_x15m_drum_50r,X-15M Drum,-5,1.05,,,50,,,,,,,3000
@@ -1030,7 +1135,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,magazine_10mm_glock20,,,,,,,,,,,,,,
 ,,glock20_10mm_15r,Glock Standard 15R 10mm,0,0.18,,,15,,,,,,,500
 ,magazine_10mm_kosch,,,,,,,,,,,,,,
-,,kosch_10mm_15r_magazine,KOSCH 10mm Auto 15R,0,0.18,,,15,,,,,,,1000
+,,kosch_10mm_15r_magazine,KOSCH 10mm Auto 15R,0,0.22,,,15,,,,,,,1000
+,magazine_plate_10mm_kosch,,,,,,,,,,,,,,
+,,kosch_default_large_mag_plate,KOSCH Default Large,0,0.02,,,,,,,,,,0
+,magazine_extension_10mm_kosch,,,,,,,,,,,,,,
+,,kalis_kosch_10mm_18r_magex2,KALIS KOSCH 10mm Auto 18R MagEx2,-8,0.31,,,18,,,,,,,1000
 ,magazine_ar9_adapter,,,,,,,,,,,,,,
 ,,nbs_ar15_9x19_hart_mag_adapter,NBS AR-15 9x19 Hart,0,0.07,,,,,,,,,,1000
 ,magazine_9x19_ar9,,,,,,,,,,,,,,
@@ -1039,7 +1148,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,evermag_hart_ar9_10r_mag,EVERMAG Hart AR-9 10Rnd,10,0.13,,,10,,,,,,,200
 ,,custom_hart_smg_9x19_50r_mag,Custom Hart SMG 9x19 50rnd Magazine,-15,0.77,,,50,,,,,,,5000
 ,hart_smg_extension,,,,,,,,,,,,,,
-,,tyler_freelance_hart_smg_10r_mag_extension,Tyler Freelance Hart SMG 10R Mag Extension,-6,0.12,,,10,,,,,,,1000
+,,dante_freelance_hart_smg_10r_mag_extension,Dante Freelance Hart SMG 10R Mag Extension,-6,0.12,,,10,,,,,,,1000
 ,hart_50_more,,,,,,,,,,,,,,
 ,,custom_hart_smg_9x19_50r_extension,Custom Hart SMG 9x19 50R Extension,-45,0.57,,,50,,,,,,,5000
 ,,custom_hart_smg_mag_coupler,Custom Hart SMG 9x19,-2,0.1,,,,,,,,,,0
@@ -1057,6 +1166,21 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kosch_9x19_31r_stick_magazine,KOSCH 9x19 31R Stick,-8,0.39,,,31,,,,,,,1000
 ,,kosch_9x19_17r_magazine,KOSCH 9x19 17R,0,0.21,,,17,,,,,,,1000
 ,,fst_kosch_9x19_50r_drum_magazine,SGM Tactical PF940 17 50R 9x19 Drum,-6,0.85,,,50,,,,,,,3000
+,magazine_plate_9x19_kosch,,,,,,,,,,,,,,
+,,kosch_default_small_mag_plate,KOSCH Default Small,0,0.02,,,,,,,,,,0
+,magazine_extensions_9x19_kosch,,,,,,,,,,,,,,
+,,kalis_kosch_9x19_23r_magex2,KALIS KOSCH 9x19 23R MagEx2,-10,0.31,,,23,,,,,,,1000
+,magazine_40sv_kosch,,,,,,,,,,,,,,
+,,kosch_40sv_10r_magazine,KOSCH 40SV 10R,2.5,0.14,,,10,,,,,,,1000
+,,kosch_40sv_15r_magazine,KOSCH 40SV 15R,0,0.19,,,15,,,,,,,1000
+,magazine_extensions_40sv_kosch,,,,,,,,,,,,,,
+,,dante_freelance_kosch_40sv_10r_pistol_magex,Dante Freelance KOSCH .40S&V 10R Pistol,-3.5,0.16,,,10,,,,,,,800
+,,dante_freelance_kosch_40sv_10r_carbine_magex,Dante Freelance KOSCH .40S&V 10R Carbine,-3,0.18,,,10,,,,,,,800
+,magazine_45acp_kosch,,,,,,,,,,,,,,
+,,kosch_45acp_10r_magazine,KOSCH 45ACP 10R,1.5,0.18,,,10,,,,,,,1000
+,,kosch_45acp_13r_magazine,KOSCH 45ACP 13R,0,0.22,,,13,,,,,,,1000
+,magazine_extensions_45acp_kosch,,,,,,,,,,,,,,
+,,kalis_kosch_45acp_17r_magex2,KALIS KOSCH .45ACP 17R MagEx2,-8,0.31,,,17,,,,,,,1000
 ,magazine_9x19,,,,,,,,,,,,,,
 ,,9x19_glock_stick_31r,Glock 9x19 31R Stick,-3,0.35,,,31,,,,,,,1000
 ,,pf940_gen5_9x19_17r_magazine,PF940 17 Gen5 17R 9x19,0,0.2,,,17,,,,,,,500
@@ -1143,9 +1267,6 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,dragoon_systems_l7awm_7.62x51_20r,Dragoon Systems L7AWM 7.62x51 20R,0,0.58,,,20,,,,,,,1250
 ,l7awm_mag_assist,,,,,,,,,,,,,,
 ,,magtap_223_mag_assist_l7awm,Magtap 223,1,0.03,,,,,,,,,,200
-,magazine_9mm_vector,,,,,,,,,,,,,,
-,,9x19_sgmt_drum50r_vector,SGMT 9x19 50R Drum,-6,0.85,,,50,,,,,,,3000
-,,9x19_pf940_std_17r_vector,PF940 9x19 17R,0,0.21,,,17,,,,,,,500
 ,magazine_7.62x51_g3,,,,,,,,,,,,,,
 ,,hk_g3_std_20r_magazine,KG-31 Standard 20R,0,0.64,,,20,,,,,,,1000
 ,,custom_g3_welded_30r_magazine,Custom KG-31 Welded 30R,-7,0.94,,,30,,,,,,,2000
@@ -1668,9 +1789,6 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,glock_slide_backplate,,,,,,,,,,,,,,
 ,,kosch_default_slide_backplate,KOSCH Default Slide Backplate,0,0.01,,,,,,,,,,0
 ,,zvetech_kosch_slide_backplate,Zvetech KOSCH,0,0.01,,,,,,,,,,100
-,glock_17r_mag_plate,,,,,,,,,,,,,,
-,,kosch_default_9x19_mag_plate,KOSCH Default 9x19 Magazine Plate,0,0.02,,,,,,,,,,0
-,,9x19_kriss_magex2_glock,9x19 KRISS MagEx2 For Glock (+23 Rounds),-8,0.3,,,23,,,,,,,1000
 ,glock_lower_receiver,,,,,,,,,,,,,,
 ,,kosch_mk1_frame,KOSCH MK1 Frame,0,0.13,0,0,,,,,,,,0
 ,,kosch_mk2_frame,KOSCH MK2 Frame,-2,0.11,-1,-1,,,,,,,,1000
@@ -1688,14 +1806,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kosch_default_mag_catch,KOSCH Default Magazine Catch,0,0.01,,,,,,,,,,0
 ,,kosch_ambidextrous_mag_catch,KOSCH Ambidextrous Magazine Catch,0.5,0.02,,,,,,,,,,200
 ,glock_mag_13r_45acp_plate,,,,,,,,,,,,,,
-,,45acp_kriss_magex2_pf940,.45 ACP KALIS MagEx2 For PF940 (+17 Rounds),-8,0.33,,,17,,,,,,,1000
 ,,pf940_13r_plate,Magazine,0,0.02,,,,,,,,,,0
-,,vector_17r_plate,Magazine,0,0.02,,,,,,,,,,1000
 ,,9x19_kriss_magex2_vector,9x19 KALIS MagEx2 For PF940 (+23 Rounds),-8,0.3,,,23,,,,,,,1000
 ,glock20_barrel,,,,,,,,,,,,,,
 ,,kosch_10mm_114mm_barrel,KOSCH 10mm Auto 114mm,0,0.11,10,20,,0.1,0,0,,,,2000
-,glock20_magazine_bottom_plate,,,,,,,,,,,,,,
-,,kosch_default_10mm_mag_plate,KOSCH Default 10mm Magazine Plate,1,0.015,,,,,,,,,,0
 ,glock20_magazine_release,,,,,,,,,,,,,,
 ,,glock20_std_magazine_release,Glock Standard,0,0,,,,,,,,,,0
 ,glock20_receiver,,,,,,,,,,,,,,
@@ -1850,6 +1964,18 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,45acp_munitions_incorporated_230gr_subsonic_tmj,.45 ACP Munitions Incorporated 230gr Subsonic TMJ,2,0,-2,0,,0,-0.13,0,,,,1200
 ,,45acp_speer_golddot_230gr_bjhp,.45 ACP Speer Gold Dot 230gr BJHP,1,0,0,1,,0.1,0.14,100,,,,1200
 ,,45acp_supernova_225gr_red_tracer,.45 ACP Supernova 225gr Red Tracer,-1,0,0,0,,0.1,-0.12,170,,,,1000
+,ammo_40sv,,,,,,,,,,,,,,
+,,40sv_federal_american_eagle_180gr_fmj,Federal American Eagle 180gr FMJ,0,0,0,0,,0,,0.02,,,,0
+,,40sv_federal_streak_180gr_tmj_tracer,Federal STREAK 180gr TMJ Tracer,3,0,-1,0,,0.05,,-50,,,,1250
+,,40sv_federal_cartridge_mk309_mod0_155gr_ball,Federal Cartridge Mk.309 Mod 0 155gr Ball,1,-0.05,0,1,,-0.05,,120,,,,3000
+,,40sv_lance_lawman_125gr_rht,Lance Lawman 125gr RHT,1,-0.1,-2,-3,,-0.1,,30,,,,1000
+,,40sv_s2_research_rip_115gr_fhp,S2 Research RIP 115gr FHP,1,-0.12,-1,-1,,0.05,,70,,,,1500
+,,40sv_lance_gold_dot_180gr_gdhp,Lance Gold Dot 180gr GDHP,0,0.01,1,2,,0.05,,20,,,,1750
+,,40sv_federal_premium_180gr_hst,Federal Premium 180gr HST,-1,0,2,2,,0.1,,0.02,,,,2250
+,,40sv_appalachian_ranger_tseries_180gr_jhp,Appalachian Ranger T-Series 180gr JHP,-1,-0.01,2,3,,0.05,,-20,,,,2500
+,,40sv_federal_cartridge_mk308_mod0_155gr_jhp,Federal Cartridge Mk.308 Mod 0 155gr JHP,-2,-0.05,2,4,,0.05,,140,,,,3500
+,,40sv_sierra9_woodsman_130gr_monolithic_solid_copper,Sierra 9 Woodsman 130gr Monolithic Solid Copper,-1,-0.08,2,3,,-0.15,,270,,,,2500
+,,40sv_sierra9_barrier_blind_77gr_apc,Sierra 9 Barrier Blind 77gr APC,-1,-0.14,-3,-3,,-0.05,,600,,,,1500
 ,ammo_5.8x42,,,,,,,,,,,,,,
 ,,5.8x42_sanxian_dbp95_64gr_fmj,Sanxian DBP95 64gr FMJ,0,0,0,0,,0,,0,,,0,0
 ,,5.8x42_sanxian_dbx95_64gr_green_tracer,Sanxian DBX95 64gr Green Tracer,3,0,-2,-3,,0.1,,0,,,0,500
@@ -2398,8 +2524,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,suppressors_inc_osprey45_gen1_45acp_suppressor_flipped,Suppressors Inc. Osprey 45 Gen 1 .45ACP Flipped,-6,0.19,-8,-12,,-0.15,0.15,150,,,,1500
 ,10mm_muzzle_device,,,,,,,,,,,,,,
 ,,10mm_thread_protector,10mm Thread Protector,3,0.01,0,0,,0,0,,,,,200
-,40sw_muzzle_device,,,,,,,,,,,,,,
-,,40sw_thread_protector,.40S&V Thread Protector,3,0.01,0,0,,0,0,,,,,200
+,40sv_muzzle_device,,,,,,,,,,,,,,
+,,40sv_thread_protector,.40S&V Thread Protector,3,0.01,0,0,,0,0,,,,,200
 ,5.8x42_muzzle_device,,,,,,,,,,,,,,
 ,,sanxian_qbz95_factory_type1_bird_cage_flash_hider,Sanxian QBZ-95 Factory Type 1 Bird Cage,2,0.06,-9,-4,,0,0,45,,,,300
 ,,sanxian_qbz95_factory_type2_bird_cage_flash_hider,Sanxian QBZ-95 Factory Type 2 Bird Cage,2,0.07,-6,-7,,0,0,45,,,,300
@@ -2580,15 +2706,15 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,z24_scope,,,,,,,,,,,,,,
 ,,hetzel_z24_fero_4x24,Hetzel AG Z24 Fero 4x24mm,-2,0.16,,,,,,,,,,750
 ,romeo3_mount,,,,,,,,,,,,,,
-,,sig_sauer_romeo3,Sic Stürmer Romeo3 Sight,-2,0.05,,,,,,,,,,900
-,romeo4t_cap,,,,,,,,,,,,,,
-,,romeo4t_lens_caps,Romeo4T Lens,1,0.02,,,,,,,,,,0
-,,romeo4t_folded_lens_caps,Romeo4T Folded Lens,2,0.02,,,,,,,,,,0
+,,sig_sauer_romeo3,Sic Stürmer Scipio3 Sight,-2,0.05,,,,,,,,,,900
+,scipio4t_cap,,,,,,,,,,,,,,
+,,scipio4t_lens_caps,Sic Stürmer Scipio4T Lens,1,0.02,,,,,,,,,,0
+,,scipio4t_folded_lens_caps,Sic Stürmer Scipio4T Folded Lens,2,0.02,,,,,,,,,,0
 ,holostar_aero_reflex,,,,,,,,,,,,,,
 ,,holostar_aero_reflex,Holostar Aero Reflex,-2,0.07,,,,,,,,,,800
 ,holostar_aero_mount,,,,,,,,,,,,,,
-,,holostar_aero_low_mount,Holostar Aero Low Mount,0,0.03,,,,,,,,,,100
-,,holostar_aero_std_mount,Holostar Aero Standard Mount,0,0.06,,,,,,,,,,150
+,,holostar_aero_low_mount,Holostar Aero Low Mount,0,0.02,,,,,,,,,,100
+,,holostar_aero_std_mount,Holostar Aero Standard Mount,0,0.03,,,,,,,,,,150
 ,holostar_aero_cap,,,,,,,,,,,,,,
 ,,holostar_aero_front_cover,Holostar Aero Front Cover,0.5,0.01,,,,,,,,,,100
 ,,holostar_aero_front_cover_folded,Holostar Aero Front Cover Folded,1,0.01,,,,,,,,,,100
@@ -2963,7 +3089,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,sig_sauer_p320_sight,,,,,,,,,,,,,,
 ,,sig_sauer_xray3_night_front_sight,Sic Stürmer X-RAY3 Day/Night,1,0.01,,,,,,,,,,0
 ,,sig_sauer_xray3_night_rear_sight,Sic Stürmer X-RAY3 Day/Night,1,0.01,,,,,,,,,,0
-,,sig_sauer_m17_sigplate_rear_sight,Sic Stürmer M17 Sigplate,0,0.02,,,,,,,,,,0
+,,sig_sauer_m17_sigplate_rear_sight,Sic Stürmer M17 Sicplate,0,0.02,,,,,,,,,,0
 ,sig_sauer_p320_misc_parts,,,,,,,,,,,,,,
 ,,sig_sauer_p320_fcu,Sic Stürmer P320,0,0.05,,,,,,,,,,0
 ,,sig_sauer_p320_extractor,Sic Stürmer P320,0,0.01,,,,,,,,,,0
@@ -3009,7 +3135,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,MP133,Ladoga MP133,25,0,60,70,1,0.6,1,1000,2,,1,9000
 ,smg,,,,,,,,,,,,,,
 ,,MP5,KF MPi-54,40,0,45,55,0,1.05,1,1200,,,1,5000
-,,Vector,KALIS Scalar Gen II,45,0,60,60,0,1.2,1,900,,,1,90000
+,,SCALAR,KALIS Scalar Gen II,45,0,60,60,0,1.2,1,900,,,1,90000
 ,,MK9,AR-9,30,0,55,70,0,1.05,1,1200,,,1,20000
 ,,UMP,KF UMC-45,60,0,80,90,0,1.05,1,900,,,1,15000
 ,,AK_9,Kazarov Group PP-19-01,30,0,50,50,0,0.9,1,1200,,,1,11000

@@ -10,7 +10,7 @@ Norinco,Sanxian,renamed,,QBZ-95 platform,
 Noveske Rifleworks,Nowa,renamed,,N4 rifle parts,Display 'Nowa'; internal ids novacek_.
 NPO Bazalt,SNO Vulkan,renamed,,RPG-7 parts,
 Shenzhen Defender,Qingyuan Defense,renamed,,QBZ-95 aftermarket,
-Sig Sauer,Sic Stürmer,renamed,,"P320, Romeo optics, Foxtrot lights",Internal ids keep sig_sauer_ prefix.
+Sig Sauer,Sic Stürmer,renamed,,"P320, Scipio optics, Ricimer lights",Internal ids renamed sig_sauer_ -> sic_sturmer_ (renames.csv). Products: Romeo -> Scipio, Bravo4 -> Gaius4, Foxtrot1 -> Ricimer1.
 Steyr Arms,Löwenherz,renamed,,AUG A1/A3 platform,Internal ids keep steyr_aug_ prefix.
 FN Herstal,AF Tournai / AFT,in progress,,"SCAR/FAL platforms, mags, ammo",Company -> AF Tournai; SCAR weapons -> AFT MK-16/MK-17/Mk20; aftermarket 'SCAR' parts -> 'FANG'; FN FAL items sit under RSA as the SA-58.
 Glock,KOSCH,in progress,,"Glock 17/20 platform, slides, mags",KOSCH items live alongside rows still displaying 'Glock'. Generic glock-pattern mags are branded 'PF940'.

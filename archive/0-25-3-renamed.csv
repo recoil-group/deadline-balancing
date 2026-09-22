@@ -108,10 +108,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pts_validus_shift_tactical_grip,Pts Validus Shift Tactical,3,0.09,-5,-3,,,,,,,,600
 ,,azimuth_qrp1_30mm_mount,Azimuth QRP 30mm,-0.5,0.07,,,,,,,,,,300
 ,,azimuth_qrp1_30mm_mount_w_spacer,Azimuth QRP 30mm w 39mm Spacer,-1,0.09,,,,,,,,,,400
-,,whitehouse_compm_30mm_mount,Whitehouse COMP-M 30mm,-1,0.06,,,,,,,,,,600
+,,whitehouse_duty_30mm_mount,Whitehouse Duty 30mm,-1,0.06,,,,,,,,,,600
 ,,azimuth_qrp2_modular_base_mount,Azimuth QRP2 Modular Base,0,0.03,,,,,,,,,,300
 ,,azimuth_ar15_spacer,Azimuth AR-15 Spacer,-1,0.02,,,,,,,,,,200
-,,azimuth_compm4_sight,Azimuth CompM4,-1,0.14,,,,,,,,,,1000
+,,azimuth_duty4_sight,Azimuth DutyM4,-1,0.14,,,,,,,,,,1000
 ,,rk_b25_angled_mount,Rk B25 angled,-1,0.03,0,0,,,,,,,,500
 ,,rk_foregrip_mount,Rk foregrip,-0.5,0.03,0,0,,,,,,,,200
 ,,rk_short_foregrip_mount,Rk short foregrip,-0.5,0.02,0,0,,,,,,,,200
@@ -120,14 +120,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,vectorworks_leap01_swo100_1.42_mount,"Vectorworks LEAP/01 SWO100 1.42""",-1,0.04,,,,,,,,,,500
 ,,vectorworks_leap01_swo110_1.57_mount,"Vectorworks LEAP/01 SWO110 1.57"" Mount",-1,0.05,,,,,,,,,,550
 ,,vectorworks_leap01_swo120_1.93_mount,"Vectorworks LEAP/01 SWO120 1.93"" Mount",-1,0.06,,,,,,,,,,600
-,,sig_sauer_bravo4_4x30,Sic Stürmer BRAVO4 4X30,-2.5,0.27,,-2,,,,,,,,2000
-,,sig_sauer_qd_1.41_cowitness_romeo3_riser,Sic Stürmer QD 1.41 co-witness Romeo 3,-1,0.04,,,,,,,,,,300
-,,sig_sauer_romeo3_low_rise_mount,Sic Stürmer Romeo 3 Low-Rise,0,0.02,,,,,,,,,,200
-,,sig_sauer_romeo_cowitness_qd_mount,Sic Stürmer Romeo Co-witness QD Mount,-0.5,0.05,,,,,,,,,,400
-,,sig_sauer_romeo4_mount,Sic Stürmer Romeo4,-1,0.04,,,,,,,,,,200
-,,sig_sauer_romeo4_low,Sic Stürmer Romeo4 Low,0,0.03,,,,,,,,,,200
-,,sig_sauer_romeo4t_1/3_cowitness_mount,Sic Stürmer Romeo4T Lower Hex Bolt 1/3 Co-witness,-0.5,0.05,,,,,,,,,,300
-,,sig_sauer_romeo5_low_mount,Sic Stürmer Romeo5 Low,0,0.02,,,,,,,,,,200
+,,sig_sauer_bravo4_4x30,Sic Stürmer GAIUS4 4X30,-2.5,0.27,,-2,,,,,,,,2000
+,,sig_sauer_qd_1.41_cowitness_romeo3_riser,Sic Stürmer QD 1.41 co-witness Scipio 3,-1,0.04,,,,,,,,,,300
+,,sig_sauer_romeo3_low_rise_mount,Sic Stürmer Scipio 3 Low-Rise,0,0.02,,,,,,,,,,200
+,,sig_sauer_romeo_cowitness_qd_mount,Sic Stürmer Scipio Co-witness QD Mount,-0.5,0.05,,,,,,,,,,400
+,,sig_sauer_romeo4_mount,Sic Stürmer Scipio4,-1,0.04,,,,,,,,,,200
+,,sig_sauer_romeo4_low,Sic Stürmer Scipio4 Low,0,0.03,,,,,,,,,,200
+,,sig_sauer_romeo4t_1/3_cowitness_mount,Sic Stürmer Scipio4T Lower Hex Bolt 1/3 Co-witness,-0.5,0.05,,,,,,,,,,300
+,,sic_sturmer_scipio5_low_mount,Sic Stürmer Scipio5 Low,0,0.02,,,,,,,,,,200
 ,,sightmark_lopro_combo,Sightmark Lopro Combo,-1,0.2,,-2,,,,,,,,500
 ,,sightmark_lopro_mini_combo,Sightmark Lopro Mini Combo,-1,0.11,,,,,,,,,,600
 ,,stark_se_5_express_forward_grip,Stark SE-5 Express Forward,2,0.1,-5,-5,,,,,,,,400
@@ -222,7 +222,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,whitehouse_rush_qe_junction_box_legacy_crane_connector,Whitehouse RUSH Qe Legacy Crane Connector,0,0.01,,,,,,,,,,0
 ,,whitehouse_rush_qe_front_caps,Whitehouse RUSH Qe Front,0,0.01,,,,,,,,,,0
 ,,pac_azimuth_micro_nvg_high_rise_picatinny_mount,PAC Azimuth Micro NVG High Rise Picatinny Mount,-1,0.1,,,,,,,,,,1300
-,,sig_sauer_foxtrot1_flashlight,Sic Stürmer FOXTROT1,0,0.05,,,,,,,,,,900
+,,sig_sauer_foxtrot1_flashlight,Sic Stürmer RICIMER1,0,0.05,,,,,,,,,,900
 ,,npz_pso_1_4x24_picatinny_scope,NPZ PSO-1 4x24 Picatinny,-3,0.21,,-1,,,,,,,,1200
 ,,npz_pso_rear_cup,NPZ PSO,2,0.02,,,,,,,,,,0
 ,,npz_pso_front_cup,NPZ PSO Front Cup,1,0.02,,,,,,,,,,0
@@ -484,20 +484,20 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,target_sports_front_sight_folded,Target Sports Low Profile 45 Degree Folded Folded,1,0.02,,,,,,,,,,0
 ,,target_sports_rear_sight,Target Sports Low Profile 45 Degree,1,0.02,,,,,,,,,,0
 ,azimuth_micro_footprint,,,,,,,,,,,,,,
-,,sig_sauer_romeo4b_sight,Sic Stürmer Romeo4B,-1.5,0.08,,,,,,,,,,1000
-,,sig_sauer_romeo4t_sight,Sic Stürmer Romeo4T,-1.5,0.08,,,,,,,,,,1100
+,,sic_sturmer_scipio4b_sight,Sic Stürmer Scipio4B,-1.5,0.08,,,,,,,,,,1000
+,,sic_sturmer_scipio4t_sight,Sic Stürmer Scipio4T,-1.5,0.08,,,,,,,,,,1100
 ,,azimuth_micro_spacer_high_39mm,Azimuth Micro Spacer High 39mm,-1,0.03,,,,,,,,,,200
 ,,azimuth_micro_spacer_low_30mm,Azimuth Micro Spacer Low 30mm,-0.5,0.02,,,,,,,,,,200
 ,,azimuth_micro_t1_sight,Azimuth Micro T1,-1.5,0.06,,,,,,,,,,1200
 ,,azimuth_micro_t2_sight,Azimuth Micro T2,-1.5,0.06,,,,,,,,,,1300
-,,azimuth_compm5_sight,Azimuth CompM5,-1,0.09,,,,,,,,,,1400
-,,sig_sauer_romeo5_1x20_sight,Sic Stürmer Romeo5 1x20,-1.5,0.06,,,,,,,,,,700
+,,azimuth_duty5_sight,Azimuth DutyM5,-1,0.09,,,,,,,,,,1400
+,,sic_sturmer_scipio5_sight,Sic Stürmer Scipio5 1x20,-1.5,0.06,,,,,,,,,,700
 ,azimuth_t2_caps,,,,,,,,,,,,,,
 ,,azimuth_micro_t2_lens_caps,Azimuth Micro T2,1,0.01,,,,,,,,,,0
 ,azimuth_t2_wrap,,,,,,,,,,,,,,
 ,,azimuth_t2_cordura_fabric_wrap,Azimuth Micro T-2 / H-2 Cordura Fabric Wrap,0,0.005,,,,,,,,,,1000
 ,compm5_caps,,,,,,,,,,,,,,
-,,azimuth_compm5_lens_caps,Azimuth CompM5,1,0.01,,,,,,,,,,0
+,,azimuth_duty5_lens_caps,Azimuth DutyM5,1,0.01,,,,,,,,,,0
 ,acro_footprint,,,,,,,,,,,,,,
 ,,azimuth_acro_p2_reflex_sight,Azimuth ACRO P-2 Reflex,-2,0.05,,,,,,,,,,1200
 ,susat_scope_footprint,,,,,,,,,,,,,,
@@ -515,7 +515,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,dual_ring_34mm_sight_mount,,,,,,,,,,,,,,
 ,,nightforce_atacr7_35x56_f1,Nightforce ATACR 7-35x56 F1,-7,0.42,,-4,,,,,,,,5000
 ,single_ring_30mm_sight_mount,,,,,,,,,,,,,,
-,,azimuth_compm2_sight,Azimuth CompM2,-1,0.11,,,,,,,,,,800
+,,azimuth_duty2_sight,Azimuth DutyM2,-1,0.11,,,,,,,,,,800
 ,25mm_ring_mount,,,,,,,,,,,,,,
 ,,armytek_predator_prov3_xhp35_hi,Armytek Predator Pro v3 XHP35 HI,0,0.05,,,,,,,,,,750
 ,,ultrafire_wf501b_flashlight,Ultrafire WF-501B,0,0.15,,,,,,,,,,500
@@ -934,47 +934,47 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pmm_scar_17_magwell_type2,Everetts Machining FANG 17 Type 2,2.5,0.08,-1,,,,,,,,,700
 ,,pmm_scar_16_magwell,Everetts Machining FANG 16,2,0.05,-1,,,,,,,,,700
 ,vector_folding_stock,,,,,,,,,,,,,,
-,,kriss_vector_gen2_folding_stock,KALIS Scalar Gen2,16,0.26,-7,-9,,,,,,,,0
-,,kriss_vector_non_folding_stock_adapter,KALIS Scalar Non-Folding Stock Adapter,0,0.08,0,0,,,,,,,,800
+,,kalis_scalar_gen1_fsbl00_hinged_folding_stock,KALIS Scalar Gen2,16,0.26,-7,-9,,,,,,,,0
+,,kalis_scalar_gen1_sabl00_hinged_buffer_tube_adapter,KALIS Scalar Non-Folding Stock Adapter,0,0.08,0,0,,,,,,,,800
 ,vector_upper_receiver,,,,,,,,,,,,,,
-,,vector_9mm_upper_receiver,KALIS Scalar 9mm,3,0.39,-10,-10,,,,300,,,,3000
-,,vector_45acp_upper_receiver,KALIS Scalar .45ACP,0,0.41,0,0,,,,,,,,0
+,,kalis_scalar_gen2_early_9x19_upper_receiver,KALIS Scalar 9mm,3,0.39,-10,-10,,,,300,,,,3000
+,,kalis_scalar_gen2_early_45acp_upper_receiver,KALIS Scalar .45ACP,0,0.41,0,0,,,,,,,,0
 ,vector_trigger,,,,,,,,,,,,,,
-,,vector_std_trigger,KALIS Scalar Std.,0,0.03,,,,,,,,,,0
+,,kalis_scalar_gen1_trigger,KALIS Scalar Std.,0,0.03,,,,,,,,,,0
 ,vector_right_rail,,,,,,,,,,,,,,
-,,vector_right_rail,KALIS Scalar Std.,-1,0.04,,,,,,,,,,0
+,,kalis_scalar_7_slot_misc_rail,KALIS Scalar Std.,-1,0.04,,,,,,,,,,0
 ,vector_magazine_eject,,,,,,,,,,,,,,
-,,vector_std_mag_eject,KALIS Scalar Std.,0,0.01,,,,,,,,,,0
+,,kalis_scalar_std_mag_release,KALIS Scalar Std.,0,0.01,,,,,,,,,,0
 ,vector_lower_receiver,,,,,,,,,,,,,,
-,,vector_lower_receiver,KALIS Scalar Gen2,0,0.57,,,,,,,,,,0
+,,kalis_scalar_gen1_45acp_lower_receiver,KALIS Scalar Gen2,0,0.57,,,,,,,,,,0
 ,vector_left_rail,,,,,,,,,,,,,,
-,,vector_left_rail,KALIS Scalar Std.,-1,0.04,,,,,,,,,,0
+,,kalis_scalar_7_slot_left_side_rail,KALIS Scalar Std.,-1,0.04,,,,,,,,,,0
 ,vector_handguard_mount,,,,,,,,,,,,,,
-,,vector_mk5_side_rail,Vector Mk5 Side Rail,0,0.03,0,0,,,,,,,,0
+,,kalis_scalar_mk5_handguard_bottom_rail,Vector Mk5 Side Rail,0,0.03,0,0,,,,,,,,0
 ,,mlok_spot,Mlok Attach Point,0,0,,,,,,,,,,0
 ,vector_handguard,,,,,,,,,,,,,,
-,,vector_mk1_modular_rail,KALIS Scalar Mk1 Modular,2,0.2,-4,-4,,,,,,,,1000
-,,vector_mk5_mlok_rail,Vector Mk5 M-Lok ModularRail,2,0.17,-2,-4,,,,,,,,2000
-,,vector_round_shroud_mk1_11inch_modular,"Vector Mk.1 Round Shroud 11"" Modular",3,0.24,-2,-6,,,,,,,,2000
-,,vector_round_shroud_mk1_9inch_modular,"Vector Mk.1 Round Shroud 9"" Modular",3,0.19,-1,-5,,,,,,,,1500
+,,kalis_scalar_mk1_handguard,KALIS Scalar Mk1 Modular,2,0.2,-4,-4,,,,,,,,1000
+,,kalis_scalar_mk5_handguard,Vector Mk5 M-Lok ModularRail,2,0.17,-2,-4,,,,,,,,2000
+,,kalis_scalar_mk11_handguard,"Vector Mk.1 Round Shroud 11"" Modular",3,0.24,-2,-6,,,,,,,,2000
+,,kalis_scalar_mk9_handguard,"Vector Mk.1 Round Shroud 9"" Modular",3,0.19,-1,-5,,,,,,,,1500
 ,vector_charging_handle,,,,,,,,,,,,,,
-,,vector_charging_handle,KALIS Scalar Std.,1,0.03,,,,,,,,,,0
+,,kalis_scalar_std_charging_handle,KALIS Scalar Std.,1,0.03,,,,,,,,,,0
 ,vector_bottom_rail,,,,,,,,,,,,,,
-,,vector_bottom_rail,KALIS Scalar Std.,0,0.04,,,,,,,,,,0
+,,kalis_scalar_gen2_receiver_bottom_rail,KALIS Scalar Std.,0,0.04,,,,,,,,,,0
 ,vector_bolt_release,,,,,,,,,,,,,,
-,,vector_bolt_release,KALIS Scalar Std.,0,0.01,,,,,,,,,,0
+,,kalis_scalar_std_bolt_catch,KALIS Scalar Std.,0,0.01,,,,,,,,,,0
 ,vector_9mm_bolt,,,,,,,,,,,,,,
-,,vector_9mm_bolt,KALIS Scalar .45ACP,0,0.04,,,,,,,,,,0
+,,kalis_scalar_std_bcg,KALIS Scalar .45ACP,0,0.04,,,,,,,,,,0
 ,vector_45acp_bolt,,,,,,,,,,,,,,
 ,,vector_45acp_bolt,KALIS Scalar .45ACP,0,0.05,,,,,,,,,,0
 ,vector_9mm_barrel,,,,,,,,,,,,,,
-,,vector_9mm_170mm_barrel,KALIS Scalar 9x19 170mm,-1,0.26,-1,-1,,-0.05,0.02,20,-0.1,,,750
-,,vector_9mm_140mm_barrel,KALIS Scalar 9x19 140mm,0,0.23,0,0,,0,0,-20,0,,,800
+,,kalis_scalar_165mm_9x19_threaded_barrel,KALIS Scalar 9x19 170mm,-1,0.26,-1,-1,,-0.05,0.02,20,-0.1,,,750
+,,kalis_scalar_140mm_9x19_threaded_barrel,KALIS Scalar 9x19 140mm,0,0.23,0,0,,0,0,-20,0,,,800
 ,vector_45acp_barrel,,,,,,,,,,,,,,
-,,vector_45acp_170mm_barrel,KALIS Scalar .45ACP 170mm,-1,0.27,-1,-1,,-0.02,0.03,-72,-0.1,,,750
-,,vector_45acp_140mm_barrel,KALIS Scalar .45ACP 140mm,0,0.23,0,0,,0,0,-99,0,,,800
+,,kalis_scalar_165mm_45acp_threaded_barrel,KALIS Scalar .45ACP 170mm,-1,0.27,-1,-1,,-0.02,0.03,-72,-0.1,,,750
+,,kalis_scalar_140mm_45acp_threaded_barrel,KALIS Scalar .45ACP 140mm,0,0.23,0,0,,0,0,-99,0,,,800
 ,magazine_45acp_vector,,,,,,,,,,,,,,
-,,pf940_std_13r_vector_remodel,STD 13R .45 ACP,15,0.23,,,13,,,,,,,0
+,,kosch_45acp_13r_magazine,STD 13R .45 ACP,15,0.23,,,13,,,,,,,0
 ,magazine_556x45,,,,,,,,,,,,,,
 ,,5.56x45_magtap_pmag_60r,Magtap PMAG D60 60R Drum,-10,1.12,,,60,,,,,,,4000
 ,,5.56x45_x15m_drum_50r,X-15M Drum,-5,1.05,,,50,,,,,,,3000
@@ -1030,7 +1030,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,evermag_hart_ar9_10r_mag,EVERMAG Hart AR-9 10Rnd,10,0.13,,,10,,,,,,,200
 ,,custom_hart_smg_9x19_50r_mag,Custom Hart SMG 9x19 50rnd Magazine,-15,0.77,,,50,,,,,,,5000
 ,hart_smg_extension,,,,,,,,,,,,,,
-,,tyler_freelance_hart_smg_10r_mag_extension,Tyler Freelance Hart SMG 10R Mag Extension,-6,0.12,,,10,,,,,,,1000
+,,dante_freelance_hart_smg_10r_mag_extension,Tyler Freelance Hart SMG 10R Mag Extension,-6,0.12,,,10,,,,,,,1000
 ,hart_50_more,,,,,,,,,,,,,,
 ,,custom_hart_smg_9x19_50r_extension,Custom Hart SMG 9x19 50R Extension,-45,0.57,,,50,,,,,,,5000
 ,,custom_hart_smg_mag_coupler,Custom Hart SMG 9x19,-2,0.1,,,,,,,,,,0
@@ -1660,8 +1660,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kosch_default_slide_backplate,KOSCH Default Slide Backplate,0,0.01,,,,,,,,,,0
 ,,zvetech_kosch_slide_backplate,Zvetech KOSCH,0,0.01,,,,,,,,,,100
 ,glock_17r_mag_plate,,,,,,,,,,,,,,
-,,kosch_default_9x19_mag_plate,KOSCH Default 9x19 Magazine Plate,0,0.02,,,,,,,,,,0
-,,9x19_kriss_magex2_glock,9x19 KRISS MagEx2 For Glock (+23 Rounds),-8,0.3,,,23,,,,,,,1000
+,,kosch_default_small_mag_plate,KOSCH Default 9x19 Magazine Plate,0,0.02,,,,,,,,,,0
+,,kalis_kosch_9x19_23r_magex2,9x19 KRISS MagEx2 For Glock (+23 Rounds),-8,0.3,,,23,,,,,,,1000
 ,glock_lower_receiver,,,,,,,,,,,,,,
 ,,kosch_mk1_frame,KOSCH MK1 Frame,0,0.13,0,0,,,,,,,,0
 ,,kosch_mk2_frame,KOSCH MK2 Frame,-2,0.11,-1,-1,,,,,,,,1000
@@ -1679,14 +1679,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kosch_default_mag_catch,KOSCH Default Magazine Catch,0,0.01,,,,,,,,,,0
 ,,kosch_ambidextrous_mag_catch,KOSCH Ambidextrous Magazine Catch,0.5,0.02,,,,,,,,,,200
 ,glock_mag_13r_45acp_plate,,,,,,,,,,,,,,
-,,45acp_kriss_magex2_pf940,.45 ACP KALIS MagEx2 For PF940 (+17 Rounds),-8,0.33,,,17,,,,,,,1000
+,,kalis_kosch_45acp_17r_magex2,.45 ACP KALIS MagEx2 For PF940 (+17 Rounds),-8,0.33,,,17,,,,,,,1000
 ,,pf940_13r_plate,Magazine,0,0.02,,,,,,,,,,0
 ,,vector_17r_plate,Magazine,0,0.02,,,,,,,,,,1000
 ,,9x19_kriss_magex2_vector,9x19 KALIS MagEx2 For PF940 (+23 Rounds),-8,0.3,,,23,,,,,,,1000
 ,glock20_barrel,,,,,,,,,,,,,,
 ,,kosch_10mm_114mm_barrel,KOSCH 10mm Auto 114mm,-10,0.11,10,10,,0.1,0,0,,,,2000
 ,glock20_magazine_bottom_plate,,,,,,,,,,,,,,
-,,kosch_default_10mm_mag_plate,KOSCH Default 10mm Magazine Plate,1,0.015,,,,,,,,,,0
+,,kosch_default_large_mag_plate,KOSCH Default 10mm Magazine Plate,1,0.015,,,,,,,,,,0
 ,glock20_magazine_release,,,,,,,,,,,,,,
 ,,glock20_std_magazine_release,Glock Standard,0,0,,,,,,,,,,0
 ,glock20_receiver,,,,,,,,,,,,,,
@@ -2545,10 +2545,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,z24_scope,,,,,,,,,,,,,,
 ,,hetzel_z24_fero_4x24,Hetzel AG Z24 Fero 4x24mm,-2,0.16,,,,,,,,,,750
 ,romeo3_mount,,,,,,,,,,,,,,
-,,sig_sauer_romeo3,Sic Stürmer Romeo3 Sight,-2,0.05,,,,,,,,,,900
-,romeo4t_cap,,,,,,,,,,,,,,
-,,romeo4t_lens_caps,Romeo4T Lens,1,0.02,,,,,,,,,,0
-,,romeo4t_folded_lens_caps,Romeo4T Folded Lens,2,0.02,,,,,,,,,,0
+,,sig_sauer_romeo3,Sic Stürmer Scipio3 Sight,-2,0.05,,,,,,,,,,900
+,scipio4t_cap,,,,,,,,,,,,,,
+,,scipio4t_lens_caps,Scipio4T Lens,1,0.02,,,,,,,,,,0
+,,scipio4t_folded_lens_caps,Scipio4T Folded Lens,2,0.02,,,,,,,,,,0
 ,saiqd,,,,,,,,,,,,,,
 ,,sai_jailbrake_handguard_extension,SAI JailBrake Extension,-1,0.14,-1,-4,,0.05,0,0,,,,800
 ,sling_mount,,,,,,,,,,,,,,
@@ -2915,7 +2915,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,sig_sauer_p320_sight,,,,,,,,,,,,,,
 ,,sig_sauer_xray3_night_front_sight,Sic Stürmer X-RAY3 Day/Night,1,0.01,,,,,,,,,,0
 ,,sig_sauer_xray3_night_rear_sight,Sic Stürmer X-RAY3 Day/Night,1,0.01,,,,,,,,,,0
-,,sig_sauer_m17_sigplate_rear_sight,Sic Stürmer M17 Sigplate,0,0.02,,,,,,,,,,0
+,,sig_sauer_m17_sigplate_rear_sight,Sic Stürmer M17 Sicplate,0,0.02,,,,,,,,,,0
 ,sig_sauer_p320_misc_parts,,,,,,,,,,,,,,
 ,,sig_sauer_p320_fcu,Sic Stürmer P320,0,0.05,,,,,,,,,,0
 ,,sig_sauer_p320_extractor,Sic Stürmer P320,0,0.01,,,,,,,,,,0

@@ -108,10 +108,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pts_validus_shift_tactical_grip,Pts Validus Shift Tactical,3,0.09,-5,-3,,,,,,,,600
 ,,azimuth_qrp1_30mm_mount,Azimuth QRP 30mm,0,0.07,,,,,,,,,,300
 ,,azimuth_qrp1_30mm_mount_w_spacer,Azimuth QRP 30mm w 39mm Spacer,0,0.09,,,,,,,,,,400
-,,whitehouse_compm_30mm_mount,Whitehouse COMP-M 30mm,0,0.06,,,,,,,,,,600
+,,whitehouse_duty_30mm_mount,Whitehouse COMP-M 30mm,0,0.06,,,,,,,,,,600
 ,,azimuth_qrp2_modular_base_mount,Azimuth QRP2 Modular Base,0,0.03,,,,,,,,,,300
 ,,azimuth_ar15_spacer,Azimuth AR-15 Spacer,0,0.02,,,,,,,,,,200
-,,azimuth_compm4_sight,Azimuth CompM4,-1,0.14,,,,,,,,,,1000
+,,azimuth_duty4_sight,Azimuth CompM4,-1,0.14,,,,,,,,,,1000
 ,,rk_b25_angled_mount,Rk B25 angled,-1,0.03,0,0,,,,,,,,500
 ,,rk_foregrip_mount,Rk foregrip,-0.5,0.03,0,0,,,,,,,,200
 ,,rk_short_foregrip_mount,Rk short foregrip,-0.5,0.02,0,0,,,,,,,,200
@@ -580,11 +580,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ad_mk18_fsp_raf_2_9.55_handguard,AD MK18 FSP RAF 2 9.55,8,0.28,-11,-13,,,,,,,,1000
 ,,ad_mk18_raf_2_9.55_handguard,AD Mk18 RAF 2 9.55,8,0.3,-11,-14,,,,,,,,1000
 ,,pac_ras_m4a1_handguard,PAC RAS,10,0.23,-6,-13,,0.03,,,,,,700
-,,vallais_smr_mk16_mlok_urg_i_13.5inch,"Schmidt Super Modular Rail MK16 M-LOK URG-I 13.5""",8,0.33,-13,-12,,,,,,,,1100
-,,vallais_smr_mk16_mlok_urg_i_15inch,"Schmidt Super Modular Rail MK16 M-LOK URG-I 15""",7,0.36,-15,-12,,,,,,,,1200
-,,vallais_smr_mk16_mlok_urg_i_9.3inch,"Schmidt Super Modular Rail MK16 M-LOK URG-I 9.3""",11,0.26,-11,-8,,,,,,,,1000
-,,vallais_smr_mk16_mlok_urg_i_10.5inch,"Schmidt Super Modular Rail MK16 M-LOK URG-I 10.5""",10,0.29,-12,-9,,,,,,,,1050
-,,vallais_smr_mk4_federal_mlok_10inch,"Schmidt Super Modular Rail MK4 Federal M-LOK 10""",10,0.31,-12,-10,,,,,,,,1100
+,,vallais_mfh_mk16_mlok_urgi_13.5inch,"Schmidt Super Modular Rail MK16 M-LOK URG-I 13.5""",8,0.33,-13,-12,,,,,,,,1100
+,,vallais_mfh_mk16_mlok_urgi_15inch,"Schmidt Super Modular Rail MK16 M-LOK URG-I 15""",7,0.36,-15,-12,,,,,,,,1200
+,,vallais_mfh_mk16_mlok_urgi_9.3inch,"Schmidt Super Modular Rail MK16 M-LOK URG-I 9.3""",11,0.26,-11,-8,,,,,,,,1000
+,,vallais_mfh_mk16_mlok_urgi_10.5inch,"Schmidt Super Modular Rail MK16 M-LOK URG-I 10.5""",10,0.29,-12,-9,,,,,,,,1050
+,,vallais_mfh_mk4_federal_mlok_10inch,"Schmidt Super Modular Rail MK4 Federal M-LOK 10""",10,0.31,-12,-10,,,,,,,,1100
 ,,pac_m5_ras_lower_handguard,"PAC M5 RAS 11.5"" Lower",,,,,,,,,,,,0
 ,,pac_m5_ras_upper_handguard,"PAC M5 RAS 11.5"" Upper",8,0.34,-13,-13,,0.03,,,,,,1200
 ,,pac_mre_free_float_ras_rifle_12inch_handguard,"PAC MRE RAS Free Float 12""",7,0.27,-11,-14,,,,,,,,1400

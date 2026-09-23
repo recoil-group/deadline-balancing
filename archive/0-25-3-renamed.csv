@@ -1,4 +1,4 @@
-0.25.3,Mon Aug 10 02:25:14 2026,,,,,,,,,,,,,,
+﻿0.25.3,Mon Aug 10 02:25:14 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -570,11 +570,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ad_mk18_fsp_raf_2_9.55_handguard,AD MK18 FSP RAF 2 9.55,8,0.28,-11,-13,,,,,,,,1000
 ,,ad_mk18_raf_2_9.55_handguard,AD Mk18 RAF 2 9.55,8,0.3,-11,-14,,,,,,,,1000
 ,,pac_ras_m4a1_handguard,PAC RAS,10,0.23,-6,-13,,0.03,,,,,,700
-,,vallais_smr_mk16_mlok_urg_i_13.5inch,"Schmidt Super Modular Rail MK16 M-LOK URG-I 13.5""",8,0.33,-13,-12,,,,,,,,1100
-,,vallais_smr_mk16_mlok_urg_i_15inch,"Schmidt Super Modular Rail MK16 M-LOK URG-I 15""",7,0.36,-15,-12,,,,,,,,1200
-,,vallais_smr_mk16_mlok_urg_i_9.3inch,"Schmidt Super Modular Rail MK16 M-LOK URG-I 9.3""",11,0.26,-11,-8,,,,,,,,1000
-,,vallais_smr_mk16_mlok_urg_i_10.5inch,"Schmidt Super Modular Rail MK16 M-LOK URG-I 10.5""",10,0.29,-12,-9,,,,,,,,1050
-,,vallais_smr_mk4_federal_mlok_10inch,"Schmidt Super Modular Rail MK4 Federal M-LOK 10""",10,0.31,-12,-10,,,,,,,,1100
+,,vallais_mfh_mk16_mlok_urgi_13.5inch,"Schmidt Super Modular Rail MK16 M-LOK URG-I 13.5""",8,0.33,-13,-12,,,,,,,,1100
+,,vallais_mfh_mk16_mlok_urgi_15inch,"Schmidt Super Modular Rail MK16 M-LOK URG-I 15""",7,0.36,-15,-12,,,,,,,,1200
+,,vallais_mfh_mk16_mlok_urgi_9.3inch,"Schmidt Super Modular Rail MK16 M-LOK URG-I 9.3""",11,0.26,-11,-8,,,,,,,,1000
+,,vallais_mfh_mk16_mlok_urgi_10.5inch,"Schmidt Super Modular Rail MK16 M-LOK URG-I 10.5""",10,0.29,-12,-9,,,,,,,,1050
+,,vallais_mfh_mk4_federal_mlok_10inch,"Schmidt Super Modular Rail MK4 Federal M-LOK 10""",10,0.31,-12,-10,,,,,,,,1100
 ,,pac_m5_ras_lower_handguard,"PAC M5 RAS 11.5"" Lower",,,,,,,,,,,,0
 ,,pac_m5_ras_upper_handguard,"PAC M5 RAS 11.5"" Upper",8,0.34,-13,-13,,0.03,,,,,,1200
 ,,pac_mre_free_float_ras_rifle_12inch_handguard,"PAC MRE RAS Free Float 12""",7,0.27,-11,-14,,,,,,,,1400
@@ -965,8 +965,6 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kalis_scalar_std_bolt_catch,KALIS Scalar Std.,0,0.01,,,,,,,,,,0
 ,vector_9mm_bolt,,,,,,,,,,,,,,
 ,,kalis_scalar_std_bcg,KALIS Scalar .45ACP,0,0.04,,,,,,,,,,0
-,vector_45acp_bolt,,,,,,,,,,,,,,
-,,vector_45acp_bolt,KALIS Scalar .45ACP,0,0.05,,,,,,,,,,0
 ,vector_9mm_barrel,,,,,,,,,,,,,,
 ,,kalis_scalar_165mm_9x19_threaded_barrel,KALIS Scalar 9x19 170mm,-1,0.26,-1,-1,,-0.05,0.02,20,-0.1,,,750
 ,,kalis_scalar_140mm_9x19_threaded_barrel,KALIS Scalar 9x19 140mm,0,0.23,0,0,,0,0,-20,0,,,800
@@ -1134,9 +1132,6 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,dragoon_systems_l7awm_7.62x51_20r,Dragoon Systems L7AWM 7.62x51 20R,0,0.58,,,20,,,,,,,1250
 ,l7awm_mag_assist,,,,,,,,,,,,,,
 ,,magtap_223_mag_assist_l7awm,Magtap 223,1,0.03,,,,,,,,,,200
-,magazine_9mm_vector,,,,,,,,,,,,,,
-,,9x19_sgmt_drum50r_vector,SGMT 9x19 50R Drum,-6,0.9,,,50,,,,,,,3000
-,,9x19_pf940_std_17r_vector,PF940 9x19 17R,0,0.21,,,17,,,,,,,500
 ,magazine_7.62x51_g3,,,,,,,,,,,,,,
 ,,hk_g3_std_20r_magazine,KG-31 Standard 20R,0,0.64,,,20,,,,,,,1000
 ,,custom_g3_welded_30r_magazine,Custom KG-31 Welded 30R,-7,0.94,,,30,,,,,,,2000

@@ -2102,9 +2102,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,aug_a3_gasblock_right_mount,,,,,,,,,,,,,,
 ,,pup_light_25mm_flashlight_mount,PuP Light 25mm Flashlight,-0.5,0.02,,,,,,,,,,750
 ,aug_a3_receiver,,,,,,,,,,,,,,
-,,steyr_aug_a3_m1_receiver,Löwenherz AUG A3 M1,1,0.39,0,-3,,,,,,,,1000
-,,steyr_aug_a3_sa_receiver,Löwenherz AUG A3 Standard,0,0.37,-1,-2,,,,,,,,500
-,,steyr_aug_a1_stg77_1_5x_scoped_receiver,Löwenherz AUG A1 Swarovski Optik 1.5x Scoped,2,0.64,0,-4,,,,,,,,0
+,,lowenherz_aug_a3_m1_receiver,Löwenherz AUG A3 M1,1,0.39,0,-3,,,,,,,,1000
+,,lowenherz_aug_a3_sa_receiver,Löwenherz AUG A3 Standard,0,0.37,-1,-2,,,,,,,,500
+,,lowenherz_aug_a1_stg77_1_5x_scoped_receiver,Löwenherz AUG A1 Swarovski Optik 1.5x Scoped,2,0.64,0,-4,,,,,,,,0
 ,aug_a3_side_rail_mount,,,,,,,,,,,,,,
 ,,aug_a3_std_side_rail_mount,AUG A3 Side,-0.5,0.04,,,,,,,,,,0
 ,aug_a3_sling_mount,,,,,,,,,,,,,,
@@ -2127,7 +2127,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,steyr_aug_austrian_mag_bottom_plates,,,,,,,,,,,,,,
 ,,steyr_aug_austrian_mag_bottom_plate,Löwenherz AUG A3 Austrian Mag,0,0.02,,,,,,,,,,0
 ,aug_case_deflector,,,,,,,,,,,,,,
-,,corvus_defensio_aug_case_deflector,Corvus Defensio AUG,2.5,0.07,,,,,,,,,,1000
+,,aquila_defensio_aug_case_deflector,Corvus Defensio AUG,2.5,0.07,,,,,,,,,,1000
 ,,arid_concepts_aug_low_profile_case_deflector,Arid Concepts AUG Low Profile,1,0.02,,,,,,,,,,600
 ,,steyr_aug_case_deflector,Löwenherz AUG Factory,2,0.05,,,,,,,,,,500
 ,aug_magwell,,,,,,,,,,,,,,
@@ -2136,7 +2136,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,aug_a1_std_charging_handle,AUG A1 Std.,0,0.02,,,,,,,,,,0
 ,,aug_a3_std_charging_handle,AUG A3 Std.,0,0.02,,,,,,,,,,400
 ,,cerberus_arms_aug_raptor_charging_handle,Cerberus Arms AUG Raptor,2,0.06,,,,,,,,,,600
-,,corvus_defensio_aug_charging_handle,Corvus Defensio AUG,1,0.03,,,,,,,,,,500
+,,aquila_defensio_aug_charging_handle,Corvus Defensio AUG,1,0.03,,,,,,,,,,500
 ,,arid_concepts_charging_handle_mount,Arid Concepts AUG Adjustable Charging Handle,1.5,0.02,,,,,,,,,,500
 ,,arid_concepts_aug_90d_adjustable_charging_handle,Arid Concepts AUG 90 Degree Adjustable,0,0.02,,,,,,,,,,500
 ,,arid_concepts_aug_45d_adjustable_charging_handle,Arid Concepts AUG 45 Degree Adjustable,0,0.02,,,,,,,,,,500
@@ -2144,10 +2144,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,aug_a3_std_foregrip,AUG A3 Std.,2,0.1,-5,-4,,,,,,,,0
 ,,aug_a3_std_foregrip_folded,AUG A3 Std. Folded,7,0.1,2,0,,0.2,,,,,,0
 ,,steyr_aug_a3_xs_bottom_accessory_rail,Löwenherz AUG A3 XS Bottom Accessory Rail,0,0.07,0,0,,,,,,,,1000
-,,corvus_defensio_aug_forward_accessory_rail,Corvus Defensio AUG Forward Accessory Rail,-1,0.06,-1,0,,,,,,,,1200
+,,aquila_defensio_aug_forward_accessory_rail,Corvus Defensio AUG Forward Accessory Rail,-1,0.06,-1,0,,,,,,,,1200
 ,aug_a3_mag_release,,,,,,,,,,,,,,
 ,,aug_a3_std_mag_release,AUG A3 Std.,0,0.02,,,,,,,,,,0
-,,corvus_defensio_aug_enhanced_release_button,Corvus Defensio AUG Enhanced Button,1,0.03,,,,,,,,,,400
+,,aquila_defensio_aug_enhanced_release_button,Corvus Defensio AUG Enhanced Button,1,0.03,,,,,,,,,,400
 ,,arid_concepts_aug_improved_mag_release,Arid Concepts AUG Improved,1,0.03,,,,,,,,,,600
 ,,arid_concepts_aug_mag_release_std_paddle,Arid Concepts Standard Paddle,0.5,0.01,,,,,,,,,,0
 ,,arid_concepts_aug_mag_release_large_paddle,Arid Concepts Large Paddle,1,0.02,,,,,,,,,,100
@@ -2163,7 +2163,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,steyr_aug_a3_sa_top_rail,Löwenherz AUG A3 Standard,1,0.14,-1,0,,,,,,,,400
 ,,ihs_aug_a3_sa_cqc_top_rail,IHS AUG A3 SA CQC Top Rail,3,0.15,0,-1,,,,,,,,600
 ,,steyr_aug_a3_sa_xs_top_rail,Löwenherz AUG A3 SA XS Top Rail,5,0.13,1,2,,,,,,,,1000
-,,corvus_defensio_aug_a3_mlok_top_rail,Corvus Defensio AUG A3 MLOK Top Rail,2,0.17,-1,-2,,,,,,,,750
+,,aquila_defensio_aug_a3_mlok_top_rail,Corvus Defensio AUG A3 MLOK Top Rail,2,0.17,-1,-2,,,,,,,,750
 ,,steyr_aug_z_subcompact_swat_keymod_top_rail,Löwenherz AUG-Z Subcompact SWAT Keymod Top Rail,1,0.16,-3,-1,,,,,,,,1200
 ,steyr_aug_z_rail_irons,,,,,,,,,,,,,,
 ,,steyr_aug_z_rail_front_sight,Löwenherz AUG-Z Rail,1,0.02,,,,,,,,,,0
@@ -2175,7 +2175,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,steyr_aug_a3_m1_extended_factory_rail,Löwenherz AUG A3 M1 Extended Factory Top Rail,-2,0.13,-1,-2,,,,,,,,800
 ,,cerberus_arms_aug_cantiliver_forend_top_rail,Cerberus Arms AUG Forend Top Rail,1,0.17,-1,-3,,,,,,,,600
 ,,cerberus_arms_30mm_talon_scope_mount,Cerberus Arms 30mm Talon,-3,0.15,0,-1,,,,,,,,800
-,,corvus_defension_m1_aug_receiver_rail,Corvus Defensio M1 AUG Receiver Rail,-1,0.14,-1,-1,,,,,,,,750
+,,aquila_defension_m1_aug_receiver_rail,Corvus Defensio M1 AUG Receiver Rail,-1,0.14,-1,-1,,,,,,,,750
 ,,steyr_aug_a3sf_60mm_3x_scope,Löwenherz AUG A3SF 60mm 3x,0,0.26,0,-1,,,,,,,,3000
 ,,steyr_aug_a3sf_60mm_1.5x_scope,Löwenherz AUG A3SF 60mm 1.5x,0,0.26,0,-1,,,,,,,,2000
 ,aug_a3_trigger,,,,,,,,,,,,,,

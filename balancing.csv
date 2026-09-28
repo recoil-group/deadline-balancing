@@ -449,6 +449,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pac_mlok_3inch_5_slot_rail_section_top,PAC MLOK 3 Inch 5-Slot Rail Section,-0.5,0.05,,,,,,,,,,500
 ,,nariakira_mlok_fingerstop,Nariakira MLOK Fingerstop,6,0.02,-1,0,,,,,,,,500
 ,,overlord_halo_mlok_handstop,Overlord HALO MLOK Handstop,6,0.03,-1,-1,,,,,,,,600
+,,magtap_mlok_hand_stop,Magtap MLOK Handstop,6,0.03,-2,1,,,,,,,,400
+,,magtap_mlok_index_panel,Magtap MLOK Index Panel,6,0.02,0,-2,,,,,,,,300
+,,magtap_mlok_index_panel_flipped,Magtap MLOK Index Panel Flipped,6,0.02,0,-2,,,,,,,,300
 ,zenit_basis,,,,,,,,,,,,,,
 ,,veles_npn_2_rail_cover,Veles NPN-2,1,0.03,,,,,,,,,,750
 ,,veles_npn_2_half_rail_cover,Veles NPN-2 Half,0.66,0.02,,,,,,,,,,300

@@ -2480,6 +2480,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,resiliant_suppressors_obsidian_9_9x19_piston,Resiliant Suppressors Obsidian9 9x19 Piston,0,0.03,0,0,,0,0,0,,,,300
 ,,resiliant_suppressors_obsidian_9_3lug_piston,Resiliant Suppressors Obsidian9 3-Lug Piston,0,0.03,0,0,,0,0,0,,,,300
 ,,ardian_weapons_glock17_afterburner_micro_compensator,Radian Weapons Glock 17 Gen5 AFTERBURNER Micro Compensator,0,0.04,-5,-5,,0,0,20,,,0.04,1000
+,,egs_orthocone_45_9x19_piston,EGS Orthocone 45 9x19 Piston,0,0.03,0,0,,,,,,,,400
 ,resiliant_suppressors_obsidian_9,,,,,,,,,,,,,,
 ,,resiliant_suppressors_obsidian_9_body,Resiliant Suppressors Obsidian9 9x19 Body,-4,0.09,-9,-8,,-0.03,0.09,35,,,-0.08,1500
 ,,resiliant_suppressors_obsidian_9_extension,Resiliant Suppressors Obsidian9 9x19 Extension,-3,0.07,-3,-2,,-0.02,0.05,25,,,-0.04,1000
@@ -2533,6 +2534,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,45acp_thread_protector,.45ACP Thread Protector,3,0.01,0,0,,0,0,,,,,200
 ,,suppressors_inc_osprey45_gen1_45acp_suppressor,Suppressors Inc. Osprey 45 Gen 1 .45ACP,-6,0.19,-8,-12,,-0.15,0.15,150,,,,1500
 ,,suppressors_inc_osprey45_gen1_45acp_suppressor_flipped,Suppressors Inc. Osprey 45 Gen 1 .45ACP Flipped,-6,0.19,-8,-12,,-0.15,0.15,150,,,,1500
+,,egs_orthocone_45_piston,EGS Orthocone Piston,0,0.03,0,0,,,,,,,,400
+,,egs_orthocone_suppressor,EGS Orthocone Suppressor,-5,0.14,-10,-10,,-0.07,0.10,75,,,-0.15,2600
 ,10mm_muzzle_device,,,,,,,,,,,,,,
 ,,10mm_thread_protector,10mm Thread Protector,3,0.01,0,0,,0,0,,,,,200
 ,40sv_muzzle_device,,,,,,,,,,,,,,

@@ -2106,7 +2106,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kf_416c_handguard,KF416C,11,0.26,-9,-10,,,,,,,,1000
 ,,kf_416_standard_length_quad_rail_handguard,Standard Length Quad Rail,9,0.31,-10,-14,,,,,,,,0
 ,,kf_416_extended_length_quad_rail_handguard,Extended Length Quad Rail,7,0.34,-12,-16,,,,,,,,500
-,,kf_416_dmr_extra_long_handguard,DMR Extra Long,6,0.43,-15,-15,,,,,,,,1000
+,,kf_416_dmr_extra_long_handguard,DMR Extra Long,6,0.43,-15,-15,,-0.05,,,,,,1000
 ,,kf_416_9i_quad_rail_handguard,"9"" Quad Rail",8,0.32,-12,-14,,,,,,,,500
 ,,kf_416_9i_quad_rail_handguard_with_flip_up_sight,"9"" Quad Rail w/ Flip Up Sight",8,0.33,-12,-14,,,,,,,,750
 ,,kf_416_short_hkey_handguard,KF416 Short H-Key,9,0.3,-9,-16,,,,,,,,1000
@@ -2114,6 +2114,16 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kf_416_11.5i_qd_mlok_handguard,"KF416 11.5"" QD MLOK",10,0.3,-13,-9,,,,,,,,1000
 ,,kf_416_12.5i_qd_mlok_handguard,"KF416 12.5"" QD MLOK",9,0.32,-14,-10,,,,,,,,1250
 ,,kf_416_14.5i_qd_mlok_handguard,"KF416 14.5"" QD MLOK",7,0.37,-16,-12,,,,,,,,1500
+,,northeast_industries_416_mlok_9inch_handguard,"Northeast Industries 416 MLOK 9""",10,0.24,-10,-11,,,,,,,,1250
+,,northeast_industries_416_mlok_13.5inch_handguard,"Northeast Industries 416 MLOK 13.5""",7,0.34,-12,-16,,,,,,,,1750
+,,vallais_mfh_kf_mlok_10.5inch_handguard,"Vallais MFH KF MLOK 10.5""",6,0.31,-17,-10,,,,,,,,1500
+,,vallais_mfh_kf_mlok_14.5inch_handguard ,"Vallais MFH KF MLOK 14.5""",5,0.39,-18,-13,,,,,,,,2000
+,vallais_accessories ,,,,,,,,,,,,,,
+,,vallais_2_hole_misc_rail,Vallais 2 Hole Accessory,,0.03,,,,,,,,,,100
+,,vallais_2_hole_grip_compat_rail,Vallais 2 Hole Accessory,,0.03,,,,,,,,,,100
+,,vallais_3_hole_misc_rail,Vallais 3 Hole Accessory,,0.05,,,,,,,,,,150
+,,vallais_3_hole_grip_compat_rail,Vallais 3 Hole Accessory,,0.05,,,,,,,,,,150
+,,nariakira_vallais_kf_rail_indexer,Nariakira Vallais KF Rail ,5,0.02,0,-2,,,,,,,,250
 ,kf_416_handguard_sight,,,,,,,,,,,,,,
 ,,handguard_flip_up_sight,KF416 Handguard,1,0.02,,,,,,,,,,0
 ,,handguard_flip_up_sight_folded,KF416 Handguard (Folded),1,0.02,,,,,,,,,,0

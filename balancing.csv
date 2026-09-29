@@ -2500,6 +2500,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,resiliant_suppressors_obsidian_9_3lug_piston,Resiliant Suppressors Obsidian9 3-Lug Piston,0,0.03,0,0,,0,0,0,,,,300
 ,,ardian_weapons_glock17_afterburner_micro_compensator,Radian Weapons Glock 17 Gen5 AFTERBURNER Micro Compensator,0,0.04,-5,-5,,0,0,20,,,0.04,1000
 ,,egs_orthocone_45_9x19_piston,EGS Orthocone 45 9x19 Piston,0,0.03,0,0,,,,,,,,400
+,,axom_a2_9x19_flashhider,AXOM A2 9x19,1,0.05,-5,-6,,0,0,0,,,0,150
 ,resiliant_suppressors_obsidian_9,,,,,,,,,,,,,,
 ,,resiliant_suppressors_obsidian_9_body,Resiliant Suppressors Obsidian9 9x19 Body,-4,0.09,-9,-8,,-0.03,0.09,35,,,-0.08,1500
 ,,resiliant_suppressors_obsidian_9_extension,Resiliant Suppressors Obsidian9 9x19 Extension,-3,0.07,-3,-2,,-0.02,0.05,25,,,-0.04,1000

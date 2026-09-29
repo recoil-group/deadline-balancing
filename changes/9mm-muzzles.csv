@@ -7,6 +7,7 @@ custom4port,CUSTOM4PORT,-2,0.07,-10,-2,,0,0,10,,,,500,5.85
 mp5_nowa_style_muzzle_brake_th,MPi-54 Nowa Style,-1,0.06,-8,-6,,0,0,20,,,0.07,600,7.55
 vyctor_vc9_9x19_compensator,VYCTOR VC-9 9x19,-2,0.05,-7,-9,,0,0,20,,,0.04,1800,7.9
 kazarov_pp-19-01_vityaz_std_muzzle_brake_compensator,Kazarov PP-19-01 Vityaz Std.,-1,0.04,-6,-7,,0,0,0,,,0.03,100,7.05
+axom_a2_9x19_flashhider,AXOM A2 9x19,1,0.05,-5,-6,,0,0,0,,,0,150,
 ardian_weapons_glock17_afterburner_micro_compensator,Radian Weapons Glock 17 Gen5 AFTERBURNER Micro Compensator,0,0.04,-5,-5,,0,0,20,,,0.04,1000,6.1
 wasatch_arms_comp_weight_compensator_10mm,Wasatch Arms Comp Weight 10mm Compensator for Glock 20,-3,0.11,-5,-7,,0,0,-100,,,0.04,1000,2.3
 9x19_naughty_9,Naughty-9,-2,0.18,-8,-8,,-0.02,0.06,25,,,-0.05,900,7.075

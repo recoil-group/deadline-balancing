@@ -1,4 +1,4 @@
-﻿0.25.4,Tue Sep 29 13:10:46 2026,,,,,,,,,,,,,,
+﻿0.25.4,Tue Sep 29 13:37:20 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -60,12 +60,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,insight_technology_an_peq_5_cvl,Percept Technology CVL AN/PEQ-5,-2,0.07,,,,,,,,,,600
 ,,insight_technology_an_peq_2a_tpial,Percept Technology TPIAL AN/PEQ-2A,-1,0.11,,-1,,,,,,,,750
 ,,insight_technology_wmx200_fixed_mount_tactical_illuminator,Percept Technology WMX200 Tactical Illuminator w/ Fixed Non-Rotating Mount,0,0.1,,,,,,,,,,1200
-,,pac_11rib_railpanel,PAC 11 Rib,2.33,0.07,,,,,,,,,,600
-,,pac_2rib_railpanel,PAC 2 Rib,0.66,0.02,,,,,,,,,,100
-,,pac_4rib_railpanel,PAC 4 Rib,1,0.03,,,,,,,,,,200
-,,pac_5rib_railpanel,PAC 5 Rib,1.33,0.04,,,,,,,,,,300
-,,pac_6rib_railpanel,PAC 6 Rib,1.66,0.05,,,,,,,,,,400
-,,pac_9rib_railpanel,PAC 9 Rib,2,0.06,,,,,,,,,,500
+,,pac_11rib_railpanel,PAC 11 Rib,1.75,0.07,,,,,,,,,,600
+,,pac_2rib_railpanel,PAC 2 Rib,0.5,0.02,,,,,,,,,,100
+,,pac_4rib_railpanel,PAC 4 Rib,0.75,0.03,,,,,,,,,,200
+,,pac_5rib_railpanel,PAC 5 Rib,1,0.04,,,,,,,,,,300
+,,pac_6rib_railpanel,PAC 6 Rib,1.25,0.05,,,,,,,,,,400
+,,pac_9rib_railpanel,PAC 9 Rib,1.5,0.06,,,,,,,,,,500
 ,,pac_front_sight_base,PAC Front Base,0,0.02,,,,,,,,,,200
 ,,pac_micro_front_sight_base,PAC Micro Front Base,0,0.01,,,,,,,,,,200
 ,,pac_micro_rear_sight_base,PAC Micro Rear Base,0,0.01,,,,,,,,,,200
@@ -82,11 +82,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,magtap_afg_2_grip,Magtap AFG-2,4,0.09,-4,-3,,,,,,,,600
 ,,magtap_mbus_gen2_base,Magtap MBUS Gen2,0,0.02,,,,,,,,,,400
 ,,magtap_rcp_mag412_foregrip,Magtap RCP MAG412,4,0.08,-2,-5,,,,,,,,300
-,,xtm_2_piece,Magtap XTM 2-Piece Panel,1.33,0.04,,,,,,,,,,200
-,,xtm_4_piece,Magtap XTM 4-Piece Panel,2.33,0.07,,,,,,,,,,400
+,,xtm_2_piece,Magtap XTM 2-Piece Panel,1,0.04,,,,,,,,,,200
+,,xtm_4_piece,Magtap XTM 4-Piece Panel,1.75,0.07,,,,,,,,,,400
 ,,magtap_xtm_enhanced_handstop_1,Magtap XTM Enhanced Handstop Piece,6,0.03,-1,0,,,,,,,,50
-,,magtap_xtm_enhanced_half_panel_1,Magtap XTM Enhanced Modular Half Panel Piece,0.33,0.01,,,,,,,,,,50
-,,magtap_xtm_enhanced_panel_1,Magtap XTM Enhanced Modular Panel Piece,0.66,0.02,,,,,,,,,,50
+,,magtap_xtm_enhanced_half_panel_1,Magtap XTM Enhanced Modular Half Panel Piece,0.25,0.01,,,,,,,,,,50
+,,magtap_xtm_enhanced_panel_1,Magtap XTM Enhanced Modular Panel Piece,0.5,0.02,,,,,,,,,,50
 ,,magtap_xtm_enhanced_short_handstop_1,Magtap XTM Enhanced Short Handstop Piece,6,0.02,0,-2,,,,,,,,50
 ,,xtm_full_handstop,Magtap XTM Full Handstop,6,0.09,-2,-2,,,,,,,,500
 ,,fab_tech_usgi_rear_buis_base,MaTech USGI Rear BUIS Base,0,0.03,,,,,,,,,,200
@@ -177,9 +177,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ecm_gunslinger_mod3_picatinny_foregrip_flipped,BCM Gunfighter Mod 3 Picatinny Flipped,5,0.07,-3,-2,,,,,,,,300
 ,,ecm_gunslinger_mod3_picatinny_shortened_foregrip,BCM Gunfighter Mod 3 Picatinny Shortened,6,0.05,-2,-1,,,,,,,,300
 ,,ecm_gunslinger_mod3_picatinny_shortened_foregrip_flipped,BCM Gunfighter Mod 3 Picatinny Shortened Flipped,6,0.05,-2,-1,,,,,,,,300
-,,axtell_defense_3inch_picatinny_rail_panel,Axtell Defense 3 inch Picatinny,1.33,0.04,,,,,,,,,,300
-,,axtell_defense_5inch_picatinny_rail_panel,Axtell Defense 5 inch Picatinny,2,0.06,,,,,,,,,,500
-,,axtell_defense_7inch_picatinny_rail_panel,Axtell Defense 7 inch Picatinny,2.66,0.08,,,,,,,,,,700
+,,axtell_defense_3inch_picatinny_rail_panel,Axtell Defense 3 inch Picatinny,1,0.04,,,,,,,,,,300
+,,axtell_defense_5inch_picatinny_rail_panel,Axtell Defense 5 inch Picatinny,1.5,0.06,,,,,,,,,,500
+,,axtell_defense_7inch_picatinny_rail_panel,Axtell Defense 7 inch Picatinny,2,0.08,,,,,,,,,,700
 ,,axtell_defense_rubber_overmolding_vertical_foregrip,Axtell Defense Soft Touch Rubber Overmolding Vertical,4,0.09,-3,-4,,,,,,,,500
 ,,bt_qd_nar_ecro_22mm_mount,B&T QD NAR ACRO 22mm,0,0.03,,,,,,,,,,500
 ,,bt_qd_nar_ecro_30mm_mount,B&T QD NAR ACRO 30mm,0,0.04,,,,,,,,,,550
@@ -229,20 +229,20 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,npz_pso_rear_cup,NPZ PSO,2,0.02,,,,,,,,,,0
 ,,npz_pso_front_cup,NPZ PSO Front Cup,1,0.02,,,,,,,,,,0
 ,,stupid_camera,FujiFilm X-T20,-10,0.3,,,,,,,,,,4000
-,,cgr_klra,CGR Klra,0.25,0.01,,,,,,,,,,1000
-,,cgr_klra_flipped,CGR Klra Flipped,0.25,0.01,,,,,,,,,,1000
-,,cgr_jolly_roger,CGR Jolly Roger,0.25,0.01,,,,,,,,,,1000
-,,cgr_jolly_roger_flipped,CGR Jolly Roger Flipped,0.25,0.01,,,,,,,,,,1000
-,,cgr_ace,CGR Ace Negev,0.25,0.01,,,,,,,,,,1000
-,,cgr_ace_flipped,CGR Ace Negev Flipped,0.25,0.01,,,,,,,,,,1000
-,,cgr_abomination,CGR Abomination,0.25,0.01,,,,,,,,,,1000
-,,cgr_abomination_flipped,CGR Abomination Flipped,0.25,0.01,,,,,,,,,,1000
-,,cgr_punisher,CGR Punisher,0.25,0.01,,,,,,,,,,1000
-,,cgr_punisher_flipped,CGR Punisher Flipped,0.25,0.01,,,,,,,,,,1000
-,,cgr_dingler,CGR Dingler,0.25,0.01,,,,,,,,,,1000
-,,cgr_dingler_flipped,CGR Dingler Flipped,0.25,0.01,,,,,,,,,,1000
-,,cgr_aeon,CGR Aeon,0.25,0.01,,,,,,,,,,1000
-,,cgr_aeon_flipped,CGR Aeon Flipped,0.25,0.01,,,,,,,,,,1000
+,,cgr_klra,CGR Klra,0.5,0.02,,,,,,,,,,1000
+,,cgr_klra_flipped,CGR Klra Flipped,0.5,0.02,,,,,,,,,,1000
+,,cgr_jolly_roger,CGR Jolly Roger,0.5,0.02,,,,,,,,,,1000
+,,cgr_jolly_roger_flipped,CGR Jolly Roger Flipped,0.5,0.02,,,,,,,,,,1000
+,,cgr_ace,CGR Ace Negev,0.5,0.02,,,,,,,,,,1000
+,,cgr_ace_flipped,CGR Ace Negev Flipped,0.5,0.02,,,,,,,,,,1000
+,,cgr_abomination,CGR Abomination,0.5,0.02,,,,,,,,,,1000
+,,cgr_abomination_flipped,CGR Abomination Flipped,0.5,0.02,,,,,,,,,,1000
+,,cgr_punisher,CGR Punisher,0.5,0.02,,,,,,,,,,1000
+,,cgr_punisher_flipped,CGR Punisher Flipped,0.5,0.02,,,,,,,,,,1000
+,,cgr_dingler,CGR Dingler,0.5,0.02,,,,,,,,,,1000
+,,cgr_dingler_flipped,CGR Dingler Flipped,0.5,0.02,,,,,,,,,,1000
+,,cgr_aeon,CGR Aeon,0.5,0.02,,,,,,,,,,1000
+,,cgr_aeon_flipped,CGR Aeon Flipped,0.5,0.02,,,,,,,,,,1000
 ,,kf_416_2mm_flip_up_sight,KF416 2mm Flip Up,0,0.02,,,,,,,,,,0
 ,,kf_416_2mm_flip_up_sight_aperture,Default,1,0.01,,,,,,,,,,0
 ,,kf_416_2mm_flip_up_sight_aperture_folded,Folded,1,0.01,,,,,,,,,,0
@@ -395,18 +395,18 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,stanag_30r_bottom_plate,,,,,,,,,,,,,,
 ,,stanag_30r_plate,STANAG 30R Mag,0,0.02,,,,,,,,,,0
 ,mlok,,,,,,,,,,,,,,
-,,equinox_ex_mlok_cover,Arrow AX,0.66,0.02,,,,,,,,,,100
-,,equinox_ex_mlok_cover_flipped,Arrow AX Flipped,0.66,0.02,,,,,,,,,,100
-,,magtap_type_1_1slot_mlok_cover,Magtap Type1 1 Slot MLOK,0.66,0.02,,,,,,,,,,100
-,,magtap_type_1_3_slot_mlok_cover,Magtap Type1 3 Slot MLOK,1.66,0.05,,,,,,,,,,300
-,,magtap_type_1_6slot_mlok_cover,Magtap Type1 6 Slot MLOK,3,0.09,,,,,,,,,,900
-,,magtap_type_2_mlok_cover,Magtap Type2 Cover,0.66,0.02,,,,,,,,,,200
-,,magtap_type_2_half_mlok_cover,Magtap Type2 Half Cover,0.33,0.01,,,,,,,,,,100
+,,equinox_ex_mlok_cover,Arrow AX,0.75,0.03,,,,,,,,,,200
+,,equinox_ex_mlok_cover_flipped,Arrow AX Flipped,0.75,0.03,,,,,,,,,,200
+,,magtap_type_1_1slot_mlok_cover,Magtap Type1 1 Slot MLOK,0.5,0.02,,,,,,,,,,100
+,,magtap_type_1_3_slot_mlok_cover,Magtap Type1 3 Slot MLOK,1.25,0.05,,,,,,,,,,300
+,,magtap_type_1_6slot_mlok_cover,Magtap Type1 6 Slot MLOK,2.25,0.09,,,,,,,,,,600
+,,magtap_type_2_mlok_cover,Magtap Type2 Cover,0.5,0.02,,,,,,,,,,200
+,,magtap_type_2_half_mlok_cover,Magtap Type2 Half Cover,0.25,0.01,,,,,,,,,,100
 ,,magtap_type_2_cover,Magtap Type2 Cover,0,0,,,,,,,,,,0
 ,,magtap_type_2_half_cover,Magtap Type2 Half Cover,0,0,,,,,,,,,,0
-,,ecm_ecmr_1_slot_mlok_rail_panel,ECM ECMR 1 Slot,0.33,0.01,,,,,,,,,,200
-,,ecm_ecmr_3_slot_mlok_rail_panel,ECM ECMR 3 Slot,1,0.03,,,,,,,,,,600
-,,ecm_ecmr_7_slot_mlok_rail_panel,ECM ECMR 7 Slot,2,0.06,,,,,,,,,,1000
+,,ecm_ecmr_1_slot_mlok_rail_panel,ECM ECMR 1 Slot,0.25,0.01,,,,,,,,,,200
+,,ecm_ecmr_3_slot_mlok_rail_panel,ECM ECMR 3 Slot,0.75,0.03,,,,,,,,,,400
+,,ecm_ecmr_7_slot_mlok_rail_panel,ECM ECMR 7 Slot,1.5,0.06,,,,,,,,,,800
 ,,equinox_ex_mlok_grip,Arrow AX MLOK Grip,6,0.04,-1,-2,,,,,,,,700
 ,,ecm_gunslinger_kag,BCM Gunfighter KAG MLOK,6,0.04,0,-3,,,,,,,,300
 ,,ecm_gunslinger_mod3_mlok_foregrip,BCM Gunfighter Mod 3 MLOK,5,0.07,-3,-2,,,,,,,,300
@@ -453,8 +453,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,magtap_mlok_index_panel,Magtap MLOK Index Panel,6,0.02,0,-2,,,,,,,,300
 ,,magtap_mlok_index_panel_flipped,Magtap MLOK Index Panel Flipped,6,0.02,0,-2,,,,,,,,300
 ,zenit_basis,,,,,,,,,,,,,,
-,,veles_npn_2_rail_cover,Veles NPN-2,1,0.03,,,,,,,,,,750
-,,veles_npn_2_half_rail_cover,Veles NPN-2 Half,0.66,0.02,,,,,,,,,,300
+,,veles_npn_2_rail_cover,Veles NPN-2,1,0.04,,,,,,,,,,750
+,,veles_npn_2_half_rail_cover,Veles NPN-2 Half,0.5,0.02,,,,,,,,,,300
 ,,veles_b_2l_34mm_rail_side,Veles B-2L 34mm Rail,-0.5,0.03,,,,,,,,,,100
 ,,veles_b_2l_34mm_rail_top,Veles B-2L 34mm Rail,-0.5,0.03,,,,,,,,,,100
 ,,veles_b_2l_34mm_rail_grips,Veles B-2L 34mm Rail,-0.5,0.03,,,,,,,,,,100

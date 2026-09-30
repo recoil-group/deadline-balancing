@@ -1672,7 +1672,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,mp133_stock,,,,,,,,,,,,,,
 ,,mp133_153_wooden_stock,MP-133/153 Wooden,21,0.38,-12,-13,,,,,,,,0
 ,,mp133_153_plastic_stock,MP-133/153 Plastic,22,0.33,-9,-10,,,,,,,,600
-,,sigma_tek_plank,Sigma-Tek,-2,0.05,0,0,,,,,,,,600
+,,sigma_tek_plank,Sigma-Tek,-0.5,0.05,0,0,,,,,,,,600
 ,,mp133_153_plastic_pistol_grip,MP-133/153 Plastic,14,0.07,5,5,,,,,,,,1000
 ,mp133_handguard,,,,,,,,,,,,,,
 ,,mp133_beechwood_handguard,MP-133 Beechwood,4,0.19,-4,-6,,,,,,,,0

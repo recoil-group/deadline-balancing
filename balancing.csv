@@ -1787,10 +1787,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,est_pm_laser_sight,EST PM-Laser,-1,0.04,,,,,,,,,,700
 ,glock_slide,,,,,,,,,,,,,,
 ,,kosch_mk1_sight_cutout_slide,KOSCH MK1 Sight Cutout Slide,3,0.24,-2,-3,,,,,,,,600
-,,kosch_mk2_sight_cutout_slide,KOSCH MK2 Sight Cutout Slide,2,0.23,-3,-4,,,,,,,,0
+,,kosch_mk2_sight_cutout_slide,KOSCH MK2 Sight Cutout Slide,2,0.23,-3,-4,,,,,,,,1500
 ,,glock17l_slide,Glock 17L Slide,2,0.26,-4,-5,,,,,,,,1500
-,,kosch_mk2_flat_top_slide,KOSCH MK2 Flat Top Slide,1,0.22,-3,-4,,,,,,,,1500
-,,kosch_mk1_flat_top_slide,KOSCH MK1 Flat Top Slide,2,0.21,-2,-3,,,,,,,,1200
+,,kosch_mk2_flat_top_slide,KOSCH MK2 Flat Top Slide,1,0.22,-3,-4,,,,,,,,1000
+,,kosch_mk1_flat_top_slide,KOSCH MK1 Flat Top Slide,2,0.21,-2,-3,,,,,,,,0
 ,,zvetech_z17_cryo_rmr_cut_kosch_slide,Zvetech Z17 Cryo RMR Cut KOSCH,2,0.2,-3,-2,,,,,,,,2000
 ,glock_mos,,,,,,,,,,,,,,
 ,,kosch_default_slide_cover_plate,KOSCH Default Slide Cover Plate,0,0.03,,,,,,,,,,0

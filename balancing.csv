@@ -1,4 +1,4 @@
-﻿0.25.4,Tue Sep 29 13:37:20 2026,,,,,,,,,,,,,,
+﻿0.25.4,Sat Oct 10 12:18:56 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -1970,10 +1970,19 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,9x19_kazarov_7n31_pbp_gzh_64gr,Kazarov 7N31 PBP gzh 64gr +P+,-2,-0.12,-1,0,,-0.15,,500,,,,2500
 ,,9x19_btv_scorpio_nato_115gr_fmj,BVT Scorpio NATO 115gr FMJ +P,-1,0,1,1,,-0.1,,100,,,,1000
 ,ammo_10mm,,,,,,,,,,,,,,
-,,10mm_phoenix_aluminum_200gr_fmj,10mm Auto Phoenix Aluminum 200gr FMJ,0,0,,0,,0,,100,,,,0
-,,10mm_roosevelt_umc_180gr_fmj,10mm Auto Roosevelt UMC 180gr FMJ,0,0.04,,0,,0.05,,50,,,,1000
-,,10mm_winchester_silvertip_175gr_jhp,10mm Auto Winchester Silvertip 175gr JHP,-1,0.04,,10,,0.05,,-100,,,,2000
-,,10mm_liberty_civil_defense_60gr_hplf,10mm Auto Liberty Civil Defense 60gr HPLF,-1.5,0.01,30,30,,0.1,,300,,,,800
+,,10mm_roosevelt_umc_180gr_fmj,10mm Roosevelt UMC 180gr FMJ,0,0,0,0,,0,,0.02,,,,0
+,,10mm_phoenix_aluminum_200gr_fmj,10mm Phoenix Aluminum 200gr FMJ,0,0.05,-1,1,,-0.05,,-75,,,,500
+,,10mm_appalachian_silvertip_175gr_jhp,10mm Appalachian Silvertip 175gr JHP,-1,-0.02,3,4,,0.05,,50,,,,2000
+,,10mm_freedom_civil_defense_60gr_hplf,10mm Freedom Civil Defense 60gr HPLF,-2,-0.16,-2,-3,,0.1,,600,,,,2500
+,,10mm_federal_fusion_200gr_bsp,10mm Federal Fusion 200gr BSP,0,0.05,2,2,,0.05,,-50,,,,2500
+,,10mm_polar_cartridge_220gr_hcfp,10mm Polar Cartridge 220gr HCFP,-3,0.11,3,5,,0.05,,0.02,,,,3250
+,,10mm_copperhead_honey_badger_115gr_ehp,10mm Copperhead Honey Badger 115gr EHP,-1,-0.13,-1,-2,,0,,125,,,,2000
+,,10mm_federal_hst_175gr_jhp,10mm Federal HST 200gr JHP,-2,0.05,4,5,,0.05,,-50,,,,4000
+,,10mm_underworld_xtp_180gr_jhp,10mm Underworld 180gr XTP JHP,-2,0,3,4,,0.05,,50,,,,3500
+,,10mm_chicago_ammunition_220gr_rnfp,10mm Chicago Ammunition 220gr RNFP,1,0.11,-4,-2,,0.1,,-125,,,-0.6,1750
+,,10mm_hawthorne_flexlock_critical_duty_175gr_jhp_ft,10mm Hawthorne FlexLock Critical Duty 175gr JHP-FT,0,-0.02,-1,-2,,0,,-25,,,,1250
+,,10mm_federal_premium_125gr_rht,10mm Federal Premium 125gr RHT,1,-0.11,-2,-3,,-0.1,,75,,,,1000
+,,10mm_roosevelt_trailblazer_135gr_green_tracer,10mm Roosevelt Trailblazer 135gr Green Tracer,2,-0.09,-3,-3,,0.15,,25,,,,750
 ,ammo_45acp,,,,,,,,,,,,,,
 ,,45acp_phoenix_brass_230gr_fmj,.45 ACP Phoenix Brass 230gr FMJ,0,0,0,0,,0,0.03,80,,,,0
 ,,45acp_winchester_service_grade_230gr_fmj,.45 ACP Winchester Service Grade 230gr FMJ,0,0,0,-1,,0.1,0.06,80,,,,1500

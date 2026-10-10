@@ -1052,14 +1052,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kalis_scalar_7_slot_left_side_rail,KALIS Scalar 7 Slot,0,0.04,,,,,,,,,,0
 ,,kalis_scalar_9_slot_left_side_rail,KALIS Scalar 9 Slot,0,0.05,,,,,,,,,,200
 ,vector_handguard_mount,,,,,,,,,,,,,,
-,,kalis_scalar_mk5_handguard_bottom_rail,Vector Mk5 Side Rail,0,0.03,0,0,,,,,,,,0
+,,kalis_scalar_mk5_handguard_bottom_rail,Vector Mk5 Side Rail,0,0.05,0,0,,,,,,,,0
 ,,mlok_spot,Mlok Attach Point,0,0,,,,,,,,,,0
 ,,kalis_scalar_mk3_handguard_bottom_rail,KALIS Scalar Mk3 Handguard,0,0.07,-1,-1,,,,,,,,0
 ,,kalis_scalar_mk3_handguard_top_rail,KALIS Scalar Mk3 Handguard,0,0.07,-1,-1,,,,,,,,0
 ,,kalis_scalar_mk1_handguard_top_rail,KALIS Scalar Mk1 Handguard,0,0.04,-1,,,,,,,,,0
 ,vector_handguard,,,,,,,,,,,,,,
 ,,kalis_scalar_mk1_handguard,KALIS Scalar Mk1 Modular,2,0.2,-4,-4,,,,,,,,1000
-,,kalis_scalar_mk5_handguard,Vector Mk5 M-Lok ModularRail,2,0.17,-2,-4,,,,,,,,2000
+,,kalis_scalar_mk5_handguard,Vector Mk5 M-Lok ModularRail,2,0.15,-2,-4,,,,,,,,2000
 ,,kalis_scalar_mk11_handguard,"Vector Mk.1 Round Shroud 11"" Modular",3,0.24,-2,-6,,,,,,,,2000
 ,,kalis_scalar_mk9_handguard,"Vector Mk.1 Round Shroud 9"" Modular",3,0.19,-1,-5,,,,,,,,1500
 ,,kalis_scalar_mk3_handguard,KALIS Scalar Mk3,3,0.14,-3,-4,,,,,,,,1000

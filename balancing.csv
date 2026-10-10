@@ -1977,7 +1977,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,10mm_federal_fusion_200gr_bsp,10mm Federal Fusion 200gr BSP,0,0.05,2,2,,0.05,,-50,,,,2500
 ,,10mm_polar_cartridge_220gr_hcfp,10mm Polar Cartridge 220gr HCFP,-3,0.11,3,5,,0.05,,0.02,,,,3250
 ,,10mm_copperhead_honey_badger_115gr_ehp,10mm Copperhead Honey Badger 115gr EHP,-1,-0.13,-1,-2,,0,,125,,,,2000
-,,10mm_federal_hst_175gr_jhp,10mm Federal HST 200gr JHP,-2,0.05,4,5,,0.05,,-50,,,,4000
+,,10mm_federal_hst_200gr_jhp,10mm Federal HST 200gr JHP,-2,0.05,4,5,,0.05,,-50,,,,4000
 ,,10mm_underworld_xtp_180gr_jhp,10mm Underworld 180gr XTP JHP,-2,0,3,4,,0.05,,50,,,,3500
 ,,10mm_chicago_ammunition_220gr_rnfp,10mm Chicago Ammunition 220gr RNFP,1,0.11,-4,-2,,0.1,,-125,,,-0.6,1750
 ,,10mm_hawthorne_flexlock_critical_duty_175gr_jhp_ft,10mm Hawthorne FlexLock Critical Duty 175gr JHP-FT,0,-0.02,-1,-2,,0,,-25,,,,1250

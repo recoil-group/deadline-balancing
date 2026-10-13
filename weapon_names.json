@@ -593,5 +593,19 @@
 			"name": "KALIS Scalar Gen II 9mm",
 			"required_attachments": ["kalis_scalar_gen2_early_9x19_upper_receiver"]
 		}
+	],
+	"P226": [
+		{
+			"name": "Sic Stürmer P229",
+			"required_attachments": [
+				[
+					"sic_sturmer_p229_std_9x19_slide",
+					"sic_sturmer_p229_rxp_9x19_slide",
+					"sic_sturmer_p229_legacy_9x19_slide",
+					"sic_sturmer_p229_elite_legacy_9x19_slide",
+					"sic_sturmer_p229_elite_9x19_slide"
+				]
+			]
+		}
 	]
 }

@@ -1835,7 +1835,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,glock20_std_slide_release,Glock Standard,0,0,,,,,,,,,,0
 ,glock_adapter,,,,,,,,,,,,,,
 ,,optech_kosch_semi_auto_mount,Optech KOSCH Semi-Auto,-0.5,0.04,,,,,,,,,,750
-,,ug_tactical_ug3_mount,UG Tactical UG3,-9,0.06,,,,,,,,,,800
+,,ug_tactical_ug3_mount,UG Tactical UG3,-2,0.06,,,,,,,,,,800
 ,,optech_amp_1r_kosch_mount,Optech AMP-1R KOSCH,-0.5,0.03,,,,,,,,,,750
 ,,watcher_armory_kosch_10mm_comp_weight_compensator,Watcher Armory KOSCH 10mm Comp Weight,-3,0.11,-5,-7,,0,0,-100,,,,1000
 ,glock_underbarrel_picatinny,,,,,,,,,,,,,,

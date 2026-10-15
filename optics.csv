@@ -76,7 +76,7 @@ id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black
 74,pac_rear_sight,not_magnified, , , ,false,false
 75,strauss_deltapoint_reflex_sight,not_magnified,10,0.25, ,false,false
 76,strauss_deltapoint_pro_sight,not_magnified,10,0.25, ,false,false
-77,holotec_eflx_mini_red_dot,not_magnified,10,0.333, ,false,false
+77,holotec_helx_mini_red_dot,not_magnified,10,0.333, ,false,false
 78,magtap_mbus_gen2_rear_top,not_magnified, , , ,false,false
 79,fab_tech_usgi_rear_buis_aperture,not_magnified, , , ,false,false
 80,virticon_drd_dr01_type2_auto_led_reflex,not_magnified,10,0.25, ,false,false

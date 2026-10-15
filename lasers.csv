@@ -20,3 +20,5 @@ id,name,ir_compatible,ir_fade_start,ir_fade_end,ir_flare_distance,ir_flare_stren
 18,holotec_ogl_tactical_laser_module,true,580,770,1,0.12,true,0,255,0,190,310,1.5,0.2
 19,whitehouse_raid_xe_g18_high_power_laser_aiming_device,true,680,870,1,0.12,true,0,255,0,250,400,2,0.4
 20,whitehouse_raid_xe_g14_high_power_laser_aiming_device,true,680,870,1,0.12,true,255,0,0,250,400,2,0.4
+21,lasevex_p226_green_laser_guide_rod,false,,,,,true,34,255,0,70,120,0.2,0.05
+22,lasevex_p229_green_laser_guide_rod,false,,,,,true,34,255,0,70,120,0.2,0.05

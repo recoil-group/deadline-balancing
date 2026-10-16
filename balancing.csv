@@ -1977,7 +1977,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,10mm_federal_fusion_200gr_bsp,10mm Federal Fusion 200gr BSP,0,0.05,2,2,,0.05,,-50,,,,2500
 ,,10mm_polar_cartridge_220gr_hcfp,10mm Polar Cartridge 220gr HCFP,-3,0.11,3,5,,0.05,,0.02,,,,3250
 ,,10mm_copperhead_honey_badger_115gr_ehp,10mm Copperhead Honey Badger 115gr EHP,-1,-0.13,-1,-2,,0,,125,,,,2000
-,,10mm_federal_hst_200gr_jhp,10mm Federal HST 200gr JHP,-2,0.05,4,5,,0.05,,-50,,,,4000
+,,10mm_federal_hst_175gr_jhp,10mm Federal HST 200gr JHP,-2,0.05,4,5,,0.05,,-50,,,,4000
 ,,10mm_underworld_xtp_180gr_jhp,10mm Underworld 180gr XTP JHP,-2,0,3,4,,0.05,,50,,,,3500
 ,,10mm_chicago_ammunition_220gr_rnfp,10mm Chicago Ammunition 220gr RNFP,1,0.11,-4,-2,,0.1,,-125,,,-0.6,1750
 ,,10mm_hawthorne_flexlock_critical_duty_175gr_jhp_ft,10mm Hawthorne FlexLock Critical Duty 175gr JHP-FT,0,-0.02,-1,-2,,0,,-25,,,,1250
@@ -2570,8 +2570,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,egs_orthocone_suppressor,EGS Orthocone Suppressor,-5,0.14,-10,-10,,-0.07,0.1,75,,,-0.15,2600
 ,10mm_muzzle_device,,,,,,,,,,,,,,
 ,,10mm_thread_protector,10mm Thread Protector,3,0.01,0,0,,0,0,,,,,200
-,40sv_muzzle_device,,,,,,,,,,,,,,
-,,40sv_thread_protector,.40S&V Thread Protector,3,0.01,0,0,,0,0,,,,,200
+,40sw_muzzle_device,,,,,,,,,,,,,,
+,,40sw_thread_protector,.40S&V Thread Protector,3,0.01,0,0,,0,0,,,,,200
 ,5.8x42_muzzle_device,,,,,,,,,,,,,,
 ,,sanxian_qbz95_factory_type1_bird_cage_flash_hider,Sanxian QBZ-95 Factory Type 1 Bird Cage,2,0.06,-9,-4,,0,0,45,,,,300
 ,,sanxian_qbz95_factory_type2_bird_cage_flash_hider,Sanxian QBZ-95 Factory Type 2 Bird Cage,2,0.07,-6,-7,,0,0,45,,,,300
@@ -3163,7 +3163,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sic_sturmer_p226_procut_9x19_slide,Sic Stürmer P226 PRO-CUT 9x19,4,0.2,0,0,,,,,,,,750
 ,,sic_sturmer_p226_rxp_9x19_slide,Sic Stürmer P226 RXP 9x19,3,0.19,-1,-1,,,,,,,,400
 ,,sic_sturmer_p226_mk25_9x19_slide,Sic Stürmer P226 MK25 9x19,2,0.22,-2,-1,,,,,,,,1000
-,,sic_sturmer_p229_std_9x19_slide ,Sic Stürmer P229 Standard 9x19,3,0.18,0,0,,,,,,,,600
+,,sic_sturmer_p229_std_9x19_slide,Sic Stürmer P229 Standard 9x19,3,0.18,0,0,,,,,,,,600
 ,,sic_sturmer_p229_elite_9x19_slide,Sic Stürmer P229 Elite 9x19,4,0.2,0,0,,,,,,,,1200
 ,,sic_sturmer_p229_elite_legacy_9x19_slide,Sic Stürmer P229 Elite Legacy 9x19,3,0.19,0,-1,,,,,,,,900
 ,,sic_sturmer_p229_legacy_9x19_slide,Sic Stürmer P229 Legacy 9x19,2,0.19,-1,-1,,,,,,,,300
@@ -3173,7 +3173,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sic_sturmer_p226_sight_plate_cover,Sic Stürmer P226 Sight Plate,0.25,0.04,,,,,,,,,,150
 ,,sic_sturmer_p229_flush_sight_plate_cover,Sic Stürmer P229 Flush Sight Plate,0,0.03,,,,,,,,,,225
 ,,dl_precision_p226_229_drd_filler_plate,D&L Precision P226/P229 DRD Filler Plate,0,0.03,,,,,,,,,,300
-,,sic_sturmer_p226_drd_sight_plate_cover ,Sic Stürmer P226 Flush Sight Plate,0,0.03,,,,,,,,,,225
+,,sic_sturmer_p226_drd_sight_plate_cover,Sic Stürmer P226 Flush Sight Plate,0,0.03,,,,,,,,,,225
 ,,sic_sturmer_p226_flush_drd_sight_plate_cover,Sic Stürmer P226 Sight Plate,0.25,0.04,,,,,,,,,,100
 ,p226_takedown_lever,,,,,,,,,,,,,,
 ,,sic_sturmer_sic_p_series_oem_takedown_lever,Sic Stürmer P-Series OEM,1,0.01,,,,,,,,,,0

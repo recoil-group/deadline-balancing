@@ -3136,11 +3136,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sic_sturmer_xvis3_night_rear_sight,Sic Stürmer X-VIS3 Day/Night,1,0.01,,,,,,,,,,0
 ,,sic_sturmer_xvis3_night_front_sight,Sic Stürmer X-VIS3 Day/Night,1,0.01,,,,,,,,,,0
 ,,sic_sturmer_m17_sicplate_rear_sight,Sic Stürmer M17 Sicplate,0,0.02,,,,,,,,,,0
-,,sic_sturmer_siclite_suppressor_night_rear_sight,,,,,,,,,,,,,
-,,sic_sturmer_siclite_suppressor_night_front_sight,,,,,,,,,,,,,
-,,sic_sturmer_siclite_night_rear_sight,,,,,,,,,,,,,
-,,sic_sturmer_siclite_night_front_sight,,,,,,,,,,,,,
-,,sic_sturmer_von_stavenhagen_contrast_rear_sight,,,,,,,,,,,,,
+,,sic_sturmer_siclite_suppressor_night_rear_sight,Sic Stürmer SCLITE Suppressor Night,1,0.01,,,,,,,,,,
+,,sic_sturmer_siclite_suppressor_night_front_sight,Sic Stürmer SCLITE Suppressor Night,1,0.01,,,,,,,,,,
+,,sic_sturmer_siclite_night_rear_sight,Sic Stürmer SCLITE Night,1,0.01,,,,,,,,,,
+,,sic_sturmer_siclite_night_front_sight,Sic Stürmer SCLITE Night,1,0.01,,,,,,,,,,
+,,sic_sturmer_von_stavenhagen_contrast_rear_sight,Sic Stürmer Von Stavenhagen Contrast,1,0.01,,,,,,,,,,
 ,sig_sauer_p320_misc_parts,,,,,,,,,,,,,,
 ,,sig_sauer_p320_fcu,Sic Stürmer P320,0,0.05,,,,,,,,,,0
 ,,sig_sauer_p320_extractor,Sic Stürmer P320,0,0.01,,,,,,,,,,0
@@ -3158,16 +3158,16 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sic_sturmer_p226_elite_frame,Sic Stürmer P226 Elite,2,0.38,-3,-2,,,,,,,,1000
 ,p226_slide,,,,,,,,,,,,,,
 ,,sic_sturmer_p226_std_9x19_slide,Sic Stürmer P226 Standard 9x19,2,0.19,-1,-1,,,,,,,,0
-,,ashguns_p226_elite_drd_cut_9x19_slide,Sic Stürmer P226 Elite DRD Optics Cut 9x19,2,0.23,-2,-2,,,,,,,,1500
+,,ashguns_p226_elite_drd_cut_9x19_slide,Sic Stürmer P226 Elite DRD Optics Cut 9x19,1,0.23,-2,-2,,,,,,,,1500
 ,,sic_sturmer_p226_elite_9x19_slide,Sic Stürmer P226 Elite 9x19,1,0.23,-2,-2,,,,,,,,1200
-,,sic_sturmer_p226_procut_9x19_slide,Sic Stürmer P226 PRO-CUT 9x19,4,0.2,0,0,,,,,,,,750
-,,sic_sturmer_p226_rxp_9x19_slide,Sic Stürmer P226 RXP 9x19,3,0.19,-1,-1,,,,,,,,400
+,,sic_sturmer_p226_procut_9x19_slide,Sic Stürmer P226 PRO-CUT 9x19,3,0.2,0,0,,,,,,,,750
+,,sic_sturmer_p226_rxp_9x19_slide,Sic Stürmer P226 RXP 9x19,2,0.19,-1,-1,,,,,,,,400
 ,,sic_sturmer_p226_mk25_9x19_slide,Sic Stürmer P226 MK25 9x19,2,0.22,-2,-1,,,,,,,,1000
 ,,sic_sturmer_p229_std_9x19_slide,Sic Stürmer P229 Standard 9x19,3,0.18,0,0,,,,,,,,600
 ,,sic_sturmer_p229_elite_9x19_slide,Sic Stürmer P229 Elite 9x19,4,0.2,0,0,,,,,,,,1200
 ,,sic_sturmer_p229_elite_legacy_9x19_slide,Sic Stürmer P229 Elite Legacy 9x19,3,0.19,0,-1,,,,,,,,900
 ,,sic_sturmer_p229_legacy_9x19_slide,Sic Stürmer P229 Legacy 9x19,2,0.19,-1,-1,,,,,,,,300
-,,sic_sturmer_p229_rxp_9x19_slide,Sic Stürmer P229 RXP 9x19,4,0.18,0,0,,,,,,,,800
+,,sic_sturmer_p229_rxp_9x19_slide,Sic Stürmer P229 RXP 9x19,3,0.18,0,0,,,,,,,,800
 ,p226_slide_cover,,,,,,,,,,,,,,
 ,,sic_sturmer_p226_flush_sight_plate_cover,Sic Stürmer P226 Flush Sight Plate,0,0.03,,,,,,,,,,225
 ,,sic_sturmer_p226_sight_plate_cover,Sic Stürmer P226 Sight Plate,0.25,0.04,,,,,,,,,,150
@@ -3200,20 +3200,20 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sic_sturmer_p_series_oem_mag_release,Sic Stürmer P-Series OEM,0,0.01,,,,,,,,,,0
 ,,ravaryn_arms_sic_p_series_extended_mag_release,Ravaryn Arms SIC P-Series Extended ,1,0.02,,,,,,,,,,650
 ,p226_magazine,,,,,,,,,,,,,,
-,,sic_sturmer_p226_9x19_15r_mag,Sic Stürmer P226 9x19 15R,0,0.23,,,,,,,,,,0
+,,sic_sturmer_p226_9x19_15r_mag,Sic Stürmer P226 9x19 15R,0,0.23,,,15,,,,,,,0
 ,,sic_sturmer_p226_mag_bottom_plate,Sic Stürmer P226 Mag,0,0.02,,,,,,,,,,0
 ,,nexa_tactical_p226_4r_mag_extension,Nexa Tactical P226 4R Extension,-2,0.06,,,4,,,,,,,450
 ,p226_misc_parts,,,,,,,,,,,,,,
 ,,sic_sturmer_p_series_oem_decocking_lever,Sic Stürmer P-Series OEM,,0.01,,,,,,,,,,0
 ,,sic_sturmer_p_series_oem_slide_release,Sic Stürmer P-Series OEM,,0.01,,,,,,,,,,0
-,,everetts_sic_226_229_duty_compensator,Everetts Machining SIC 226/229 Duty,-2,0.12,-12,-12,,,,,,,0.05,1200
+,,everetts_sic_226_229_duty_compensator,Everetts Machining SIC 226/229 Duty,0,0.12,-7,-9,,,,,,,0.05,1200
 ,p226_barrel,,,,,,,,,,,,,,
-,,sic_sturmer_p229_oem_3.9inch_9x19_barrel,"Sic Stürmer P229 OEM 3.9"" 9x19",2,0.07,2,3,,0.1,-0.02,,,,,300
-,,sic_sturmer_p229_oem_4.4inch_threaded_9x19_barrel,"Sic Stürmer P229 OEM 4.4"" Threaded 9x19",-1,0.09,0,0,,0.07,,,,,,1000
-,,val_bor_p229_4.4inch_threaded_9x19_barrel,"VAL-BOR P229 4.4"" Threaded Match Grade 9x19",-1,0.1,0,0,,0.05,,,,,,1500
-,,sic_sturmer_p226_oem_4.4inch_9x19_barrel,"Sic Stürmer P226 OEM 4.4"" 9x19",0,0.09,0,0,,0.02,,,,,,0
-,,sic_sturmer_p226_oem_5inch_threaded_9x19_barrel,"Sic Stürmer P226 OEM 5"" 9x19",-2,0.12,-1,-1,,0.06,0.01,,,,,1200
-,,suppressors_inc_p226_5inch_threaded_9x19_barrel,"Suppressors Inc. P226 5"" Threaded 9x19",-2,0.13,-1,-1,,0.02,0.01,,,,,1800
+,,sic_sturmer_p229_oem_3.9inch_9x19_barrel,"Sic Stürmer P229 OEM 3.9"" 9x19",2,0.07,3,4,,0.1,-0.02,-70,,,,300
+,,sic_sturmer_p229_oem_4.4inch_threaded_9x19_barrel,"Sic Stürmer P229 OEM 4.4"" Threaded 9x19",-1,0.09,2,1,,0.07,,-50,,,,1000
+,,val_bor_p229_4.4inch_threaded_9x19_barrel,"VAL-BOR P229 4.4"" Threaded Match Grade 9x19",-1,0.1,2,2,,0.05,,-50,,,,1500
+,,sic_sturmer_p226_oem_4.4inch_9x19_barrel,"Sic Stürmer P226 OEM 4.4"" 9x19",0,0.09,0,0,,0.02,,-50,,,,0
+,,sic_sturmer_p226_oem_5inch_threaded_9x19_barrel,"Sic Stürmer P226 OEM 5"" 9x19",-2,0.12,-1,-1,,0.06,0.01,-20,,,,1200
+,,suppressors_inc_p226_5inch_threaded_9x19_barrel,"Suppressors Inc. P226 5"" Threaded 9x19",-2,0.13,-1,-1,,0.02,0.01,-20,,,,1800
 ,throwable,,,,,,,,,,,,,,
 ,,F1,F1 Grenade,,0.2,,,,,,,,,,10000
 ,,M67,M67 Grenade,,0.2,,,,,,,,,,0

@@ -3136,11 +3136,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sic_sturmer_xvis3_night_rear_sight,Sic Stürmer X-VIS3 Day/Night,1,0.01,,,,,,,,,,0
 ,,sic_sturmer_xvis3_night_front_sight,Sic Stürmer X-VIS3 Day/Night,1,0.01,,,,,,,,,,0
 ,,sic_sturmer_m17_sicplate_rear_sight,Sic Stürmer M17 Sicplate,0,0.02,,,,,,,,,,0
-,,sic_sturmer_siclite_suppressor_night_rear_sight,Sic Stürmer SCLITE Suppressor Night,1,0.01,,,,,,,,,,
-,,sic_sturmer_siclite_suppressor_night_front_sight,Sic Stürmer SCLITE Suppressor Night,1,0.01,,,,,,,,,,
-,,sic_sturmer_siclite_night_rear_sight,Sic Stürmer SCLITE Night,1,0.01,,,,,,,,,,
-,,sic_sturmer_siclite_night_front_sight,Sic Stürmer SCLITE Night,1,0.01,,,,,,,,,,
-,,sic_sturmer_von_stavenhagen_contrast_rear_sight,Sic Stürmer Von Stavenhagen Contrast,1,0.01,,,,,,,,,,
+,,sic_sturmer_siclite_suppressor_night_rear_sight,Sic Stürmer SCLITE Suppressor Night,1,0.01,,,,,,,,,,500
+,,sic_sturmer_siclite_suppressor_night_front_sight,Sic Stürmer SCLITE Suppressor Night,1,0.01,,,,,,,,,,500
+,,sic_sturmer_siclite_night_rear_sight,Sic Stürmer SCLITE Night,1,0.01,,,,,,,,,,250
+,,sic_sturmer_siclite_night_front_sight,Sic Stürmer SCLITE Night,1,0.01,,,,,,,,,,250
+,,sic_sturmer_von_stavenhagen_contrast_rear_sight,Sic Stürmer Von Stavenhagen Contrast,1,0.01,,,,,,,,,,400
 ,sig_sauer_p320_misc_parts,,,,,,,,,,,,,,
 ,,sig_sauer_p320_fcu,Sic Stürmer P320,0,0.05,,,,,,,,,,0
 ,,sig_sauer_p320_extractor,Sic Stürmer P320,0,0.01,,,,,,,,,,0

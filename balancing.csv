@@ -2502,8 +2502,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,9x19_naughty_9,Naughty-9,-2,0.18,-8,-8,,-0.02,0.06,25,,,-0.05,900
 ,,whitner_defense_9x19_thread_protector,Whitner Defense 9x19,3,0.01,0,0,,0,0,0,,,,100
 ,,9x19_thread_protector,Generic 9x19,3,0.01,0,0,,0,0,0,,,,100
-,,suppressors_inc_9x19_thread_protector,Suppressors Inc. 9x19,3,0.01,0,0,,0,0,0,,,,
-,,sic_sturmer_p_series_9x19_thread_protector,Sic Stürmer P-Series 9x19,3,0.01,0,0,,0,0,0,,,,
+,,suppressors_inc_9x19_thread_protector,Suppressors Inc. 9x19,3,0.01,0,0,,0,0,0,,,,100
+,,sic_sturmer_p_series_9x19_thread_protector,Sic Stürmer P-Series 9x19,3,0.01,0,0,,0,0,0,,,,100
 ,,suppressors_inc_osprey9_gen1_9x19_suppressor,Suppressors Inc. Osprey 9 Gen 1 9x19,-6,0.19,-8,-12,,-0.06,0.15,75,,,-0.1,1500
 ,,suppressors_inc_osprey9_gen1_9x19_suppressor_flipped,Suppressors Inc. Osprey 9 Gen 1 9x19 Flipped,-6,0.19,-8,-12,,-0.06,0.15,75,,,-0.1,1500
 ,,vyctor_vc9_9x19_compensator,VYCTOR VC-9 9x19,-2,0.05,-7,-9,,0,0,20,,,0.03,1800
@@ -3171,10 +3171,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,p226_slide_cover,,,,,,,,,,,,,,
 ,,sic_sturmer_p226_flush_sight_plate_cover,Sic Stürmer P226 Flush Sight Plate,0,0.03,,,,,,,,,,225
 ,,sic_sturmer_p226_sight_plate_cover,Sic Stürmer P226 Sight Plate,0.25,0.04,,,,,,,,,,150
-,,sic_sturmer_p229_flush_sight_plate_cover,Sic Stürmer P229 Flush Sight Plate,0,0.03,,,,,,,,,,225
+,,sic_sturmer_p229_flush_sight_plate_cover,Sic Stürmer P229 Flush Sight Plate,0,0.03,,,,,,,,,,150
 ,,dl_precision_p226_229_drd_filler_plate,D&L Precision P226/P229 DRD Filler Plate,0,0.03,,,,,,,,,,300
 ,,sic_sturmer_p226_drd_sight_plate_cover,Sic Stürmer P226 Flush Sight Plate,0,0.03,,,,,,,,,,225
-,,sic_sturmer_p226_flush_drd_sight_plate_cover,Sic Stürmer P226 Sight Plate,0.25,0.04,,,,,,,,,,100
+,,sic_sturmer_p226_flush_drd_sight_plate_cover,Sic Stürmer P226 Sight Plate,0.25,0.04,,,,,,,,,,150
 ,p226_takedown_lever,,,,,,,,,,,,,,
 ,,sic_sturmer_sic_p_series_oem_takedown_lever,Sic Stürmer P-Series OEM,1,0.01,,,,,,,,,,0
 ,,lasevex_sic_p_series_takedown_lever,LaseVex SIC P-Series,-2,0.01,,,,,,,,,,200
@@ -3227,7 +3227,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,KOSCH,KOSCH,70,0,25,35,0,1,1,1200,,,1,0
 ,,Glock20,Glock 20,60,0.4,40,70,0,1.1,1,1000,,,1,10000
 ,,P320,Sic Stürmer P320,70,0,25,35,0,1,1,1200,,,1,25000
-,,P226,Sic Stürmer P226,65,0,20,30,0,1,1,1200,,,1,30000
+,,P226,Sic Stürmer P226,60,0,20,30,0,1,1,1200,,,1,30000
 ,rifle,,,,,,,,,,,,,,
 ,,KF416,KF 416,25,0,65,80,0,0.55,1,2450,,,1,30000
 ,,AUG_A3,Löwenherz AUG A3,40,0,55,65,0,0.5,1,2450,,,1,42000

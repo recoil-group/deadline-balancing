@@ -2514,6 +2514,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,resiliant_suppressors_obsidian_9_9x19_piston,Resiliant Suppressors Obsidian9 9x19 Piston,0,0.03,0,0,,0,0,0,,,,300
 ,,resiliant_suppressors_obsidian_9_3lug_piston,Resiliant Suppressors Obsidian9 3-Lug Piston,0,0.03,0,0,,0,0,0,,,,300
 ,,ardian_kosch_catalyst_micro_compensator,Ardian KOSCH Catalyst Micro,0,0.04,-7,-7,,0,0,20,,,0.04,500
+,,everetts_sic_226_229_duty_compensator,Everetts Machining SIC 226/229 Duty,0,0.12,-7,-9,,,,,,,0.05,1200
 ,,egs_orthocone_45_9x19_piston,EGS Orthocone 45 9x19 Piston,0,0.03,0,0,,,,,,,,400
 ,,axom_a2_9x19_flashhider,AXOM A2 9x19,1,0.05,-5,-6,,0,0,0,,,0,150
 ,resiliant_suppressors_obsidian_9,,,,,,,,,,,,,,
@@ -3210,7 +3211,6 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,p226_misc_parts,,,,,,,,,,,,,,
 ,,sic_sturmer_p_series_oem_decocking_lever,Sic Stürmer P-Series OEM,,0.01,,,,,,,,,,0
 ,,sic_sturmer_p_series_oem_slide_release,Sic Stürmer P-Series OEM,,0.01,,,,,,,,,,0
-,,everetts_sic_226_229_duty_compensator,Everetts Machining SIC 226/229 Duty,0,0.12,-7,-9,,,,,,,0.05,1200
 ,p226_barrel,,,,,,,,,,,,,,
 ,,sic_sturmer_p229_oem_3.9inch_9x19_barrel,"Sic Stürmer P229 OEM 3.9"" 9x19",2,0.07,3,4,,0.1,-0.02,-70,,,,300
 ,,sic_sturmer_p229_oem_4.4inch_threaded_9x19_barrel,"Sic Stürmer P229 OEM 4.4"" Threaded 9x19",-1,0.09,2,1,,0.07,,-50,,,,1000

@@ -2,18 +2,22 @@
 name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_bullet_deviation,fire_rate,muzzle_loudness,price,strength
 whitner_defense_9x19_thread_protector,Whitner Defense 9x19,3,0.01,0,0,,0,0,0,,,,100,2.8
 9x19_thread_protector,9x19 Thread Protector,3,0.01,0,0,,0,0,0,,,,100,2.8
+suppressors_inc_9x19_thread_protector,Suppressors Inc. 9x19,3,0.01,0,0,,0,0,0,,,,100,2.8
+sic_sturmer_p_series_9x19_thread_protector,Sic Stürmer P-Series 9x19,3,0.01,0,0,,0,0,0,,,,100,2.8
+vai_9x19_thread_protector,VAI 9x19,3,0.01,0,0,,0,0,0,,,,100,2.8
 ips_9x19_1inch_barrel_extension,"IPS 1"" 9x19",-1,0.03,1,1,,0.06,0,30,,,,500,-3.45
 custom4port,CUSTOM4PORT,-2,0.07,-10,-2,,0,0,10,,,,500,5.85
 mp5_nowa_style_muzzle_brake_th,MPi-54 Nowa Style,-1,0.06,-8,-6,,0,0,20,,,0.07,600,7.55
 vyctor_vc9_9x19_compensator,VYCTOR VC-9 9x19,-2,0.05,-7,-9,,0,0,20,,,0.04,1800,7.9
 kazarov_pp-19-01_vityaz_std_muzzle_brake_compensator,Kazarov PP-19-01 Vityaz Std.,-1,0.04,-6,-7,,0,0,0,,,0.03,100,7.05
-axom_a2_9x19_flashhider,AXOM A2 9x19,1,0.05,-5,-6,,0,0,0,,,0,150,
-ardian_weapons_glock17_afterburner_micro_compensator,Radian Weapons Glock 17 Gen5 AFTERBURNER Micro Compensator,0,0.04,-5,-5,,0,0,20,,,0.04,1000,6.1
+axom_a2_9x19_flashhider,AXOM A2 9x19,1,0.05,-5,-6,,0,0,0,,,0,150,7.6
+ardian_kosch_catalyst_micro_compensator,Ardian KOSCH Catalyst Micro,0,0.04,-7,-7,,0,0,20,,,0.04,500,8.9
+everetts_sic_226_229_duty_compensator,Everetts Machining SIC 226/229 Duty,0,0.12,-7,-9,,,,,,,0.05,1200,8.35
 wasatch_arms_comp_weight_compensator_10mm,Wasatch Arms Comp Weight 10mm Compensator for Glock 20,-3,0.11,-5,-7,,0,0,-100,,,0.04,1000,2.3
 9x19_naughty_9,Naughty-9,-2,0.18,-8,-8,,-0.02,0.06,25,,,-0.05,900,7.075
 sig_srd9_9x19,SIC SRD 9 9x19mm,-4,0.23,-10,-9,,-0.04,0.12,50,,,-0.15,1500,8
-alphadog_alpha9_flipped,Alpha Dog Alpha 9 9x19 Flipped,-5,0.22,-5,-9,,-0.08,0.14,75,,,-0.13,1000,3.925
-alphadog_alpha9,Alpha Dog Alpha 9 9x19,-6,0.22,-6,-9,,-0.08,0.14,75,,,-0.13,1000,3.725
+alphadog_alpha9_flipped,Alpha Dog Alpha 9 9x19 Flipped,-5,0.22,-7,-9,,-0.08,0.14,75,,,-0.13,1000,5.525
+alphadog_alpha9,Alpha Dog Alpha 9 9x19,-6,0.22,-7,-9,,-0.08,0.14,75,,,-0.13,1000,4.525
 kazarov_pp-19-01_vityaz_9x19_suppressor,Kazarov PP-19-01 Vityaz 9x19,-5,0.23,-10,-10,,-0.08,0.13,25,,,-0.2,1200,8.275
 9x19_rotor43_8chamber_pf940_suppressor,Rotor 43 8 Chambered 9x19 PF940,-5,0.24,-9,-11,,-0.05,0.14,100,,,-0.18,1000,8
 suppressors_inc_osprey9_gen1_9x19_suppressor,Suppressors Inc. Osprey 9 Gen 1 9x19,-6,0.19,-8,-12,,-0.06,0.15,75,,,-0.1,1500,7.525

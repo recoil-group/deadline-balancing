@@ -181,9 +181,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,axtell_defense_5inch_picatinny_rail_panel,Axtell Defense 5 inch Picatinny,1.5,0.06,,,,,,,,,,500
 ,,axtell_defense_7inch_picatinny_rail_panel,Axtell Defense 7 inch Picatinny,2,0.08,,,,,,,,,,700
 ,,axtell_defense_rubber_overmolding_vertical_foregrip,Axtell Defense Soft Touch Rubber Overmolding Vertical,4,0.09,-3,-4,,,,,,,,500
-,,bt_qd_nar_ecro_22mm_mount,B&T QD NAR ACRO 22mm,0,0.03,,,,,,,,,,500
-,,bt_qd_nar_ecro_30mm_mount,B&T QD NAR ACRO 30mm,0,0.04,,,,,,,,,,550
-,,bt_qd_nar_ecro_39mm_mount,B&T QD NAR ACRO 39mm,0,0.05,,,,,,,,,,600
+,,bd_qd_nar_ecro_22mm_mount,B&T QD NAR ACRO 22mm,0,0.03,,,,,,,,,,500
+,,bd_qd_nar_ecro_30mm_mount,B&T QD NAR ACRO 30mm,0,0.04,,,,,,,,,,550
+,,bd_qd_nar_ecro_39mm_mount,B&T QD NAR ACRO 39mm,0,0.05,,,,,,,,,,600
 ,,sc_irregulars_omm_micro_mount,AT Refine OMM MICRO,0,0.13,,,,,,,,,,2000
 ,,sc_irregulars_omm_pic_mount,AT Refine OMM PIC Mount,0,0.08,,,,,,,,,,1500
 ,,volhov_zt310_picatinny_mount,Valday JSC Optics ZT-310 Picatinny,0,0.03,,,,,,,,,,100

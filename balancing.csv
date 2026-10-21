@@ -1825,6 +1825,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,9x19_kriss_magex2_vector,9x19 KALIS MagEx2 For PF940 (+23 Rounds),-8,0.3,,,23,,,,,,,1000
 ,glock20_barrel,,,,,,,,,,,,,,
 ,,kosch_10mm_114mm_barrel,KOSCH 10mm Auto 114mm,0,0.11,10,20,,0.1,0,0,,,,2000
+,,krn_10mm_117mm_kosch_match_barrel,KRN Precision 10mm Auto 117mm KOSCH Match Grade,-1,0.13,10,20,,0.8,0,0,,,,4000
+,,krn_10mm_132mm_kosch_match_threaded_barrel,KRN Precision 10mm Auto 132mm KOSCH Match Threaded,-2,0.15,12,22,,0.13,0,20,,,,5000
 ,glock20_magazine_release,,,,,,,,,,,,,,
 ,,glock20_std_magazine_release,Glock Standard,0,0,,,,,,,,,,0
 ,glock20_receiver,,,,,,,,,,,,,,
@@ -1842,10 +1844,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,rail,Additional attachment,0,0,,,,,,,,,,0
 ,glock_barrel,,,,,,,,,,,,,,
 ,,kosch_9x19_114mm_barrel,KOSCH 9x19 114mm Barrel,0,0.1,0,0,,0,0,-50,,,,0
-,,sai_match_threaded_9x19_barrel,SAI Match Threaded G17 9x19,0,0.13,-7,-10,,0.05,0,-57,,,,1200
-,,glock17l_ported_153mm_9x19_barrel,Glock 17L Ported 153mm 9x19 Barrel,-1,0.17,-12,-15,,-0.1,0.03,-14,,,,1500
-,,igb_austria_match_grade_polygonal_406mm_9x19_barrel,IGB Austria Match Grade Polygonal 406mm 9x19 Barrel,-25,0.4,-10,-15,,-0.2,0.09,140,,,,3000
-,,ardian_weapons_glock17_ramjet_barrel,Radian Weapons Glock 17 Gen5 RAMJET 9x19,1,0.12,-10,-10,,0.1,0,-57,,,,1500
+,,vai_9x19_114mm_kosch_match_grade_fluted_barrel,VAI 9x19 114mm KOSCH Match Grade Fluted,-1,0.12,0,0,,-0.02,0,-35,,,,1000
+,,vai_9x19_127mm_kosch_match_grade_fluted_threaded_barrel,VAI 9x19 127mm KOSCH Match Grade Fluted Threaded,-2,0.15,2,2,,0.03,0,-20,,,,1500
+,,ardian_9x19_127mm_kosch_scramjet_barrel,Ardian 9x19 127mm KOSCH Scramjet,-1,0.12,2,2,,0,0,-30,,,,2000
+,,krb_9x19_406mm_kosch_match_grade_polygonal_threaded_barrel,KRB Austria 9x19 406mm KOSCH Match Grade Polygonal Threaded,-5,0.29,-6,-6,,-0.05,0.05,100,,,,3000
 ,glock_spring,,,,,,,,,,,,,,
 ,,kosch_default_recoil_spring,KOSCH Default Recoil Spring,0,0.02,,,,,,,,,,0
 ,glock_grip,,,,,,,,,,,,,,
@@ -2504,13 +2506,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,9x19_thread_protector,Generic 9x19,3,0.01,0,0,,0,0,0,,,,100
 ,,suppressors_inc_9x19_thread_protector,Suppressors Inc. 9x19,3,0.01,0,0,,0,0,0,,,,100
 ,,sic_sturmer_p_series_9x19_thread_protector,Sic Stürmer P-Series 9x19,3,0.01,0,0,,0,0,0,,,,100
+,,vai_9x19_thread_protector,VAI 9x19,3,0.01,0,0,,0,0,0,,,,100
 ,,suppressors_inc_osprey9_gen1_9x19_suppressor,Suppressors Inc. Osprey 9 Gen 1 9x19,-6,0.19,-8,-12,,-0.06,0.15,75,,,-0.1,1500
 ,,suppressors_inc_osprey9_gen1_9x19_suppressor_flipped,Suppressors Inc. Osprey 9 Gen 1 9x19 Flipped,-6,0.19,-8,-12,,-0.06,0.15,75,,,-0.1,1500
 ,,vyctor_vc9_9x19_compensator,VYCTOR VC-9 9x19,-2,0.05,-7,-9,,0,0,20,,,0.03,1800
 ,,ips_9x19_1inch_barrel_extension,"IPS 1"" 9x19",-1,0.03,1,1,,0.06,0.01,30,,,,500
 ,,resiliant_suppressors_obsidian_9_9x19_piston,Resiliant Suppressors Obsidian9 9x19 Piston,0,0.03,0,0,,0,0,0,,,,300
 ,,resiliant_suppressors_obsidian_9_3lug_piston,Resiliant Suppressors Obsidian9 3-Lug Piston,0,0.03,0,0,,0,0,0,,,,300
-,,ardian_weapons_glock17_afterburner_micro_compensator,Radian Weapons Glock 17 Gen5 AFTERBURNER Micro Compensator,0,0.04,-5,-5,,0,0,20,,,0.04,1000
+,,ardian_kosch_catalyst_micro_compensator,Ardian KOSCH Catalyst Micro,0,0.04,-7,-7,,0,0,20,,,0.04,500
 ,,egs_orthocone_45_9x19_piston,EGS Orthocone 45 9x19 Piston,0,0.03,0,0,,,,,,,,400
 ,,axom_a2_9x19_flashhider,AXOM A2 9x19,1,0.05,-5,-6,,0,0,0,,,0,150
 ,resiliant_suppressors_obsidian_9,,,,,,,,,,,,,,
@@ -2570,6 +2573,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,egs_orthocone_suppressor,EGS Orthocone Suppressor,-5,0.14,-10,-10,,-0.07,0.1,75,,,-0.15,2600
 ,10mm_muzzle_device,,,,,,,,,,,,,,
 ,,10mm_thread_protector,10mm Thread Protector,3,0.01,0,0,,0,0,,,,,200
+,,krn_10mm_kosch_thread_protector,KRN Precision 10mm Auto KOSCH,3,0.01,0,0,,0,0,,,,,200
 ,40sw_muzzle_device,,,,,,,,,,,,,,
 ,,40sw_thread_protector,.40S&V Thread Protector,3,0.01,0,0,,0,0,,,,,200
 ,5.8x42_muzzle_device,,,,,,,,,,,,,,

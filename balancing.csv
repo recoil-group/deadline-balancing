@@ -1799,8 +1799,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,zvetech_kosch_slide_cover,Zvetech KOSCH Slide Cover,0,0.02,,,,,,,,,,0
 ,,azimuth_ecro_kosch_adapter_plate,Azimuth ACRO KOSCH Adapter Plate,0,0.02,,,,,,,,,,500
 ,glock_sear,,,,,,,,,,,,,,
-,,kosch_metal_auto_sear,KOSCH Metal Auto Sear,-5,0.05,4,10,,0.15,,,,,,10000
-,,kosch_3d_printed_auto_sear,KOSCH 3D Printed Auto Sear,-4,0.03,3,8,,0.2,,,,,,1000
+,,kosch_metal_auto_sear,KOSCH Metal Auto Sear,-5,0.05,4,10,,0.15,,,,0.71,,10000
+,,kosch_3d_printed_auto_sear,KOSCH 3D Printed Auto Sear,-4,0.03,3,8,,0.2,,,,0.71,,1000
 ,glock_slide_backplate,,,,,,,,,,,,,,
 ,,kosch_default_slide_backplate,KOSCH Default Slide Backplate,0,0.01,,,,,,,,,,0
 ,,zvetech_kosch_slide_backplate,Zvetech KOSCH,0,0.01,,,,,,,,,,100
@@ -1847,7 +1847,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,vai_9x19_114mm_kosch_match_grade_fluted_barrel,VAI 9x19 114mm KOSCH Match Grade Fluted,-1,0.12,0,0,,-0.02,0,-35,,,,1000
 ,,vai_9x19_127mm_kosch_match_grade_fluted_threaded_barrel,VAI 9x19 127mm KOSCH Match Grade Fluted Threaded,-2,0.15,2,2,,0.03,0,-20,,,,1500
 ,,ardian_9x19_127mm_kosch_scramjet_barrel,Ardian 9x19 127mm KOSCH Scramjet,-1,0.12,2,2,,0,0,-30,,,,2000
-,,krb_9x19_406mm_kosch_match_grade_polygonal_threaded_barrel,KRB Austria 9x19 406mm KOSCH Match Grade Polygonal Threaded,-5,0.29,-6,-6,,-0.05,0.05,100,,,,3000
+,,krb_9x19_406mm_kosch_match_grade_polygonal_threaded_barrel,KRB Austria 9x19 406mm KOSCH Match Grade Polygonal Threaded,-5,0.29,-3,-3,,-0.05,0.03,100,,,,3000
 ,glock_spring,,,,,,,,,,,,,,
 ,,kosch_default_recoil_spring,KOSCH Default Recoil Spring,0,0.02,,,,,,,,,,0
 ,glock_grip,,,,,,,,,,,,,,

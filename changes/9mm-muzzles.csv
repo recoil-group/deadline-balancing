@@ -27,3 +27,6 @@ resiliant_suppressors_obsidian_9_extension,Resiliant Suppressors Obsidian9 9x19 
 resiliant_suppressors_obsidian_9_cap,Resiliant Suppressors Obsidian9 9x19 Cap,0,0.02,,,,,,,,,,0,-0.4
 ,,,,,,,,,,,,,,
 hk_mp5sd_9x19_suppressor,MPi54SD 9x19,-5,0.26,-12,-16,,-0.1,0.15,-180,,,-0.25,3000,12.6
+,,,,,,,,,,,,,,
+egs_orthocone_45_9x19_piston,EGS Orthocone 45 9x19 Piston,0,0.03,0,0,,,,,,,,400,-0.6
+egs_orthocone_suppressor,EGS Orthocone Suppressor,-5,0.14,-10,-10,,-0.07,0.1,75,,,-0.15,2600,9.525

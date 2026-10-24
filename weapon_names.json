@@ -319,7 +319,10 @@
 		},
 		{
 			"name": "Equinox EX // 15",
-			"required_attachments": ["equinox_ex15_upper_receiver"]
+			"required_attachments": [
+				"equinox_ex15_lower_receiver",
+				"equinox_ex15_upper_receiver"
+			]
 		},
 		{
 			"name": "Hart M4A1",

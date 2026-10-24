@@ -1,7 +1,7 @@
 bipods,,,,,,,,,,,
 id,name,traverse,elevation,prone_traverse,prone_elevation,deploy_sway_penalty,recoil_reduction,stamina_bonus,mounted_sway_multiplier,mounting_allowed,mounted_leaning_allowed
-1,grip_pod_gps_02_legs_ext,45,30,20,30,0,0.1,0.8,0.6,1,0
-2,smite_industries_bipod_foregrip_extended_legs,45,30,20,30,0,0.1,0.8,0.6,1,0
+1,grip_pod_gps_02_legs_ext,45,30,20,30,0,-0.1,0.8,0.6,1,0
+2,smite_industries_bipod_foregrip_extended_legs,45,30,20,30,0,-0.1,0.8,0.6,1,0
 3,harrison_hbr_base,40,30,30,30,0.2,0.4,0.8,0.5,1,1
 4,lowenherz_aug_hbar_folding_bipod,30,30,30,30,0.2,0.4,0.8,0.5,1,1
 5,M4A1,60,30,30,30,0,0.3,0.5,0.7,1,1

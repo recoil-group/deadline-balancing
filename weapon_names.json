@@ -446,18 +446,6 @@
 			]
 		},
 		{
-			"name": "Mk12 Mod 1",
-			"required_attachments": [
-				"hart_m4a1_std_lower_receiver",
-				"hart_m4a1_std_upper_receiver",
-				"ex_call_ar_15_.223wylde_457mm_spiral_6groove_m_barrel",
-				[
-					"pac_free_float_ras_rifle_12inch_handguard",
-					"pac_mre_free_float_ras_rifle_12inch_handguard"
-				]
-			]
-		},
-		{
 			"name": "Hart M4",
 			"required_attachments": [
 				"hart_m4a1_std_lower_receiver",

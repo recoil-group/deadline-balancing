@@ -82,7 +82,7 @@ id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black
 80,virticon_drd_dr01_type2_auto_led_reflex,not_magnified,10,0.25, ,false,false
 81,virticon_drd_dr06_type2_adj_led_reflex,not_magnified,10,0.25, ,false,false
 82,virticon_drd_dr05_dual_illuminated_reflex,not_magnified,10,0.25, ,false,false
-83,swampfox_kingslayer_micro_reflex_sight,not_magnified,10,0.333, ,false,false
+83,swampfox_kingslayer_micro_reflex_sight,not_magnified,2,0.333, ,false,false
 84,virticon_cro_reflex_sight,not_magnified,10,0.25, ,false,false
 85,stellartac_saturn_4x_red_scope,23,5,0.2,3.5,true,false
 86,stellartac_saturn_4x_green_scope,23,5,0.2,3.5,true,false

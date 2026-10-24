@@ -287,6 +287,13 @@
 			"required_attachments": [
 				"ardian_weapons_ar15_model_1_m1curgh_upper_receiver"
 			]
+		},
+		{
+			"name": "Hart M4A1",
+			"required_attachments": [
+				"hart_m4a1_std_lower_receiver",
+				"hart_m4a1_std_upper_receiver"
+			]
 		}
 	],
 	"MosinNagant": [
@@ -430,10 +437,10 @@
 				"sg58_type1_upper_receiver_with_carry_handle",
 				"af_far_7.62x51_belgian_flash_hider",
 				[
-					"rsa_sg58_metric_para_folding_stock",
+					"rsa_sg58_metric_para_folding_stock"
 				],
 				[
-					"rsa_sg58_belgian_style_full_length_handguard",
+					"rsa_sg58_belgian_style_full_length_handguard"
 				]
 			]
 		},
@@ -444,10 +451,10 @@
 				"sg58_type1_upper_receiver_with_carry_handle",
 				"af_far_7.62x51_belgian_flash_hider",
 				[
-					"rsa_sg58_metric_para_folding_stock",
+					"rsa_sg58_metric_para_folding_stock"
 				],
 				[
-					"rsa_sg58_belgian_style_full_length_handguard",
+					"rsa_sg58_belgian_style_full_length_handguard"
 				]
 			]
 		},
@@ -461,10 +468,10 @@
 					"rsa_sg58_406mm_barrel"
 				],
 				[
-					"rsa_sg58_metric_para_folding_stock",
+					"rsa_sg58_metric_para_folding_stock"
 				],
 				[
-					"rsa_sg58_belgian_style_full_length_handguard",
+					"rsa_sg58_belgian_style_full_length_handguard"
 				]
 			]
 		},
@@ -475,10 +482,10 @@
 				"af_far_7.62x51_belgian_flash_hider",
 				"rsa_sg58_533mm_barrel",
 				[
-					"rsa_sg58_metric_para_folding_stock",
+					"rsa_sg58_metric_para_folding_stock"
 				],
 				[
-					"rsa_sg58_belgian_style_full_length_handguard",
+					"rsa_sg58_belgian_style_full_length_handguard"
 				]
 			]
 		},
@@ -489,10 +496,10 @@
 				"sg58_type1_upper_receiver_with_carry_handle",
 				"af_far_7.62x51_belgian_flash_hider",
 				[
-					"rsa_sg58_metric_para_folding_stock",
+					"rsa_sg58_metric_para_folding_stock"
 				],
 				[
-					"rsa_sg58_belgian_style_full_length_handguard",
+					"rsa_sg58_belgian_style_full_length_handguard"
 				]
 			]
 		},
@@ -501,7 +508,7 @@
 			"required_attachments": [
 				"af_far_7.62x51_belgian_flash_hider",
 				[
-					"rsa_sg58_metric_para_folding_stock",
+					"rsa_sg58_metric_para_folding_stock"
 				],
 				[
 					"rsa_sg58_belgian_style_full_length_handguard",
@@ -520,7 +527,7 @@
 				"af_far_7.62x51_belgian_flash_hider",
 				[
 					"rsa_sg58_polymer_humpback_stock",
-					"rsa_sg58_wood_humpback_stock",
+					"rsa_sg58_wood_humpback_stock"
 				],
 				[
 					"rsa_sg58_belgian_style_full_length_handguard",

@@ -285,14 +285,238 @@
 		{
 			"name": "Ardian Weapons Pattern 1",
 			"required_attachments": [
+				"ardian_weapons_ax556_adac15_lower_receiver",
 				"ardian_weapons_ar15_model_1_m1curgh_upper_receiver"
+			]
+		},
+		{
+			"name": "Axtell Defense ADM4V7",
+			"required_attachments": [
+				"axtell_defense_m4_carbine_lower_receiver",
+				"axtell_defense_adm4v7_upper_receiver"
+			]
+		},
+		{
+			"name": "Axtell Defense M4A1",
+			"required_attachments": [
+				"axtell_defense_m4_carbine_lower_receiver",
+				"axtell_defense_m4a1_upper_receiver"
+			]
+		},
+		{
+			"name": "Axtell Defense MK18",
+			"required_attachments": [
+				"axtell_defense_m4_carbine_lower_receiver",
+				"axtell_defense_mk18_upper_receiver"
+			]
+		},
+		{
+			"name": "Axtell Defense MK12",
+			"required_attachments": [
+				"axtell_defense_m4_carbine_lower_receiver",
+				"axtell_defense_mk12_upper_receiver"
+			]
+		},
+		{
+			"name": "Novacek N4 Gen3",
+			"required_attachments": [
+				"novacek_n4_gen3_ar15_lower_receiver",
+				"novacek_gen3_ar15_upper_receiver"
+			]
+		},
+		{
+			"name": "Equinox EX // 15",
+			"required_attachments": [
+				"equinox_ex15_lower_receiver",
+				"equinox_ex15_upper_receiver"
 			]
 		},
 		{
 			"name": "Hart M4A1",
 			"required_attachments": [
 				"hart_m4a1_std_lower_receiver",
-				"hart_m4a1_std_upper_receiver"
+				"hart_m4a1_std_upper_receiver",
+				[
+					"hart_m4a1_5.56x45_368mm_govt_c_barrel",
+					"hart_m4a1_5.56x45_368mm_socom_c_barrel"
+				]
+			]
+		},
+		{
+			"name": "Hart M16A4",
+			"required_attachments": [
+				"hart_m4a1_std_lower_receiver",
+				"hart_m4a1_std_upper_receiver",
+				[
+					"whtnls_a1_m4a1_5.56x45_508mm_govt_r_barrel",
+					"whtnls_m4a1_5.56x45_508mm_hbar_r_barrel"
+				]
+			]
+		},
+		{
+			"name": "Hart CQBR",
+			"required_attachments": [
+				"hart_m4a1_std_lower_receiver",
+				"hart_m4a1_std_upper_receiver",
+				"hart_m4a1_5.56x45_267mm_govt_c_barrel"
+			]
+		},
+		{
+			"name": "Hart M16A2",
+			"required_attachments": [
+				"hart_m4a1_std_lower_receiver",
+				"hart_m16a2_carry_handle_upper_receiver",
+				[
+					"whtnls_a1_m4a1_5.56x45_508mm_govt_r_barrel",
+					"whtnls_m4a1_5.56x45_508mm_hbar_r_barrel"
+				]
+			]
+		},
+		{
+			"name": "Hart Model 727",
+			"required_attachments": [
+				"hart_m4a1_std_lower_receiver",
+				"hart_m16a2_carry_handle_upper_receiver",
+				[
+					"hart_m4a1_5.56x45_368mm_govt_c_barrel",
+					"hart_m4a1_5.56x45_368mm_socom_c_barrel"
+				]
+			]
+		},
+		{
+			"name": "Hart Model 733",
+			"required_attachments": [
+				"hart_m4a1_std_lower_receiver",
+				"hart_m16a2_carry_handle_upper_receiver",
+				"primabarrels_ar15_modern_series_5.56x45_292mm_govt_c_barrel"
+			]
+		},
+		{
+			"name": "Hart M4A1 SOPMOD Block II",
+			"required_attachments": [
+				"hart_m4a1_std_lower_receiver",
+				"hart_m4a1_std_upper_receiver",
+				[
+					"hart_m4a1_5.56x45_368mm_govt_c_barrel",
+					"hart_m4a1_5.56x45_368mm_socom_c_barrel"
+				],
+				[
+					"ad_m4a1_raf_2_12.25_handguard",
+					"ad_m4a1_fsp_raf_2_12.25_handguard"
+				]
+			]
+		},
+		{
+			"name": "Hart M4A1 URG-I",
+			"required_attachments": [
+				"hart_m4a1_std_lower_receiver",
+				"hart_m4a1_std_upper_receiver",
+				[
+					"hart_m4a1_5.56x45_368mm_govt_c_barrel",
+					"hart_m4a1_5.56x45_368mm_socom_c_barrel"
+				],
+				"vallais_mfh_mk16_mlok_urgi_13.5inch"
+			]
+		},
+		{
+			"name": "Mk18 Mod 0",
+			"required_attachments": [
+				"hart_m4a1_std_lower_receiver",
+				"hart_m4a1_std_upper_receiver",
+				"hart_m4a1_5.56x45_267mm_govt_c_barrel",
+				"pac_ras_m4a1_handguard"
+			]
+		},
+		{
+			"name": "Mk18 Mod 1",
+			"required_attachments": [
+				[
+					"hart_m4a1_std_lower_receiver",
+					"axtell_defense_m4_carbine_lower_receiver"
+				],
+				[
+					"hart_m4a1_std_upper_receiver",
+					"axtell_defense_mk18_upper_receiver"
+				],
+				"hart_m4a1_5.56x45_267mm_govt_c_barrel",
+				[
+					"ad_mk18_raf_2_9.55_handguard",
+					"ad_mk18_fsp_raf_2_9.55_handguard"
+				]
+			]
+		},
+		{
+			"name": "Hart M4",
+			"required_attachments": [
+				"hart_m4a1_std_lower_receiver",
+				"hart_m16a2_carry_handle_upper_receiver",
+				[
+					"hart_m4a1_5.56x45_368mm_govt_c_barrel",
+					"hart_m4a1_5.56x45_368mm_socom_c_barrel"
+				],
+				"hart_m4_std_carbine_plastic_handguard"
+			]
+		},
+		{
+			"name": "Hart M16A1",
+			"required_attachments": [
+				"hart_m4a1_std_lower_receiver",
+				"hart_m16a2_carry_handle_upper_receiver",
+				[
+					"whtnls_a1_m4a1_5.56x45_508mm_govt_r_barrel",
+					"whtnls_m4a1_5.56x45_508mm_hbar_r_barrel"
+				],
+				"usgi_m16a1_triangle_handguard"
+			]
+		},
+		{
+			"name": "Hart XM177E1",
+			"required_attachments": [
+				"hart_m4a1_std_lower_receiver",
+				"hart_m16a2_carry_handle_upper_receiver",
+				"hart_m4a1_5.56x45_267mm_govt_c_barrel",
+				"hart_xm177e1_slim_plastic_handguard"
+			]
+		},
+		{
+			"name": "Hart XM177E2",
+			"required_attachments": [
+				"hart_m4a1_std_lower_receiver",
+				"hart_m16a2_carry_handle_upper_receiver",
+				"primabarrels_ar15_modern_series_5.56x45_292mm_govt_c_barrel",
+				"hart_xm177e2_slim_plastic_handguard"
+			]
+		},
+		{
+			"name": "Hart 607",
+			"required_attachments": [
+				"hart_m4a1_std_lower_receiver",
+				"hart_m16a2_carry_handle_upper_receiver",
+				"hart_607_car15_triangle_7inch_handguard",
+				"hart_607_car15_stock"
+			]
+		},
+		{
+			"name": "Diemaco C7A2",
+			"required_attachments": [
+				"hart_m4a1_std_lower_receiver",
+				"hart_m4a1_std_upper_receiver",
+				"diemaco_c7_ambi_charging_handle",
+				"diemaco_tri_ad_i_mount",
+				[
+					"whtnls_a1_m4a1_5.56x45_508mm_govt_r_barrel",
+					"whtnls_m4a1_5.56x45_508mm_hbar_r_barrel"
+				]
+			]
+		},
+		{
+			"name": "Diemaco C8A3",
+			"required_attachments": [
+				"hart_m4a1_std_lower_receiver",
+				"hart_m4a1_std_upper_receiver",
+				"diemaco_c7_ambi_charging_handle",
+				"diemaco_tri_ad_i_mount",
+				"whtnls_m4a1_5.56x45_406mm_socom_c_barrel"
 			]
 		}
 	],

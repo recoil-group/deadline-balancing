@@ -121,7 +121,7 @@ id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black
 119,axtell_defense_fixed_sight_rear_aperture,not_magnified, , , ,false,false
 120,steyr_aug_z_rail_rear_sight,not_magnified, , , ,false,false
 121,firm_#40_rear_sight_aperture,not_magnified, , , ,false,false
-122,veles_chelomo_pk_as,38,10,0.2,4.5,false,false
+122,veles_chelomo_pk_as,not_magnified,10,0.2,4.5,false,false
 123,adron_kobra_ekp_8_sight,not_magnified,10,0.333, ,false,false
 124,hk_ump_rear_sight,not_magnified, , , ,false,false
 125,hk_g3_rear_drum_sight,not_magnified, , , ,false,false

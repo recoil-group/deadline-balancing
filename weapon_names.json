@@ -508,6 +508,16 @@
 					"whtnls_m4a1_5.56x45_508mm_hbar_r_barrel"
 				]
 			]
+		},
+		{
+			"name": "Diemaco C8A3",
+			"required_attachments": [
+				"hart_m4a1_std_lower_receiver",
+				"hart_m4a1_std_upper_receiver",
+				"diemaco_c7_ambi_charging_handle",
+				"diemaco_tri_ad_i_mount",
+				"whtnls_m4a1_5.56x45_406mm_socom_c_barrel"
+			]
 		}
 	],
 	"MosinNagant": [

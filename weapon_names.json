@@ -380,6 +380,9 @@
 			"required_attachments": [
 				"hart_m4a1_std_lower_receiver",
 				"hart_m16a2_carry_handle_upper_receiver",
+				"leopard_atg_model_15_fixed_a2_ar15_stock",
+				"hart_a2_std_rifle_plastic_handguard",
+				"hart_a2_pistol_grip",
 				[
 					"whtnls_a1_m4a1_5.56x45_508mm_govt_r_barrel",
 					"whtnls_m4a1_5.56x45_508mm_hbar_r_barrel"
@@ -476,11 +479,17 @@
 			"required_attachments": [
 				"hart_m4a1_std_lower_receiver",
 				"hart_m16a2_carry_handle_upper_receiver",
+				"leopard_atg_model_15_fixed_a2_ar15_stock",
+				"usgi_m16a1_triangle_handguard",
 				[
 					"whtnls_a1_m4a1_5.56x45_508mm_govt_r_barrel",
 					"whtnls_m4a1_5.56x45_508mm_hbar_r_barrel"
 				],
-				"usgi_m16a1_triangle_handguard"
+				[
+					"hart_a1_pistol_grip",
+					"hart_a1_chopped_pistol_grip"
+				]
+				
 			]
 		},
 		{

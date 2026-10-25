@@ -1227,8 +1227,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,banan_magazine,Banana Magazine,0,0.39,,,30,,,,,,,5000
 ,magazine_7.62x51_roosevelt700,,,,,,,,,,,,,,
 ,,scrubs_outdoors_roosevelt_700_.308_5r_mag,Scrubs' Outdoors .308 5R,0,0.22,,,5,,,,,,,0
-,,magtap_pmag_ac_5r,Magtap PMAG AC .308 5R,0,0.18,,,5,,,,,,,
-,,magtap_pmag_ac_10r,Magtap PMAG AC .308 10R,-5,0.32,,,10,,,,,,,
+,,magtap_pmag_ac_5r,Magtap PMAG AC .308 5R,0,0.18,,,5,,,,,,,500
+,,magtap_pmag_ac_10r,Magtap PMAG AC .308 10R,-5,0.32,,,10,,,,,,,1250
 ,,scrubs_outdoors_roosevelt_700_.308_10r_mag,Scrubs' Outdoors .308 10R,-5,0.36,,,10,,,,,,,1000
 ,magazine_7.62x54_mosin,,,,,,,,,,,,,,
 ,,7.62x54_promag_10r,ProClip AA762R 02 10R,-4,0.33,,,10,,,,,,,1000

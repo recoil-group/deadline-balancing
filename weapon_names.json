@@ -881,7 +881,7 @@
 		},
 		{
 			"name": "KALIS Scalar Gen III 9x19",
-			"required_attachments": ["kalis_scalar_gen3_45acp_lower_receiver"]
+			"required_attachments": ["kalis_scalar_gen3_9x19_lower_receiver"]
 		},
 		{
 			"name": "KALIS Scalar Gen II 10mm Auto Early",
@@ -920,7 +920,7 @@
 			"required_attachments": ["kalis_scalar_gen3_40sv_lower_receiver"]
 		},
 		{
-			"name":"KALIS Scalar GEN II .45 ACP",
+			"name":"KALIS Scalar Gen II .45 ACP",
 			"required_attachments": [
 				[
 					"kalis_scalar_gen2_early_45acp_lower_receiver",

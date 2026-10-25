@@ -842,10 +842,118 @@
 			"required_attachments": ["hk_ump9_upper_receiver"]
 		}
 	],
-	"Vector": [
+	"SCALAR": [
 		{
-			"name": "KALIS Scalar Gen II 9mm",
-			"required_attachments": ["kalis_scalar_gen2_early_9x19_upper_receiver"]
+			"name": "KALIS Scalar Gen I .45 ACP",
+			"required_attachments": ["kalis_scalar_gen1_45acp_lower_receiver"]
+		},
+		{
+			"name": "KALIS Scalar Gen II .45 ACP Early",
+			"required_attachments": [
+				"kalis_scalar_gen2_early_45acp_lower_receiver",
+				"kalis_scalar_gen2_early_45acp_upper_receiver"
+			]
+		},
+		{
+			"name": "KALIS Scalar Gen II .45 ACP Late",
+			"required_attachments": [
+				"kalis_scalar_gen2_late_45acp_lower_receiver",
+				"kalis_scalar_gen2_late_45acp_upper_receiver"
+			]
+		},
+		{
+			"name": "KALIS Scalar Gen III .45 ACP",
+			"required_attachments": ["kalis_scalar_gen3_45acp_lower_receiver"]
+		},
+		{
+			"name": "KALIS Scalar Gen II 9x19 Early",
+			"required_attachments": [
+				"kalis_scalar_gen2_early_9x19_lower_receiver",
+				"kalis_scalar_gen2_early_9x19_upper_receiver"
+			]
+		},
+		{
+			"name": "KALIS Scalar Gen II 9x19 Late",
+			"required_attachments": [
+				"kalis_scalar_gen2_late_9x19_lower_receiver",
+				"kalis_scalar_gen2_late_9x19_upper_receiver"
+			]
+		},
+		{
+			"name": "KALIS Scalar Gen III 9x19",
+			"required_attachments": ["kalis_scalar_gen3_45acp_lower_receiver"]
+		},
+		{
+			"name": "KALIS Scalar Gen II 10mm Auto Early",
+			"required_attachments": [
+				"kalis_scalar_gen2_early_10mm_lower_receiver",
+				"kalis_scalar_gen2_early_10mm_upper_receiver"
+			]
+		},
+		{
+			"name": "KALIS Scalar Gen II 10mm Auto Late",
+			"required_attachments": [
+				"kalis_scalar_gen2_late_10mm_lower_receiver",
+				"kalis_scalar_gen2_late_10mm_upper_receiver"
+			]
+		},
+		{
+			"name": "KALIS Scalar Gen III 10mm Auto",
+			"required_attachments": ["kalis_scalar_gen3_10mm_lower_receiver"]
+		},
+		{
+			"name": "KALIS Scalar Gen II .40 S&V Early",
+			"required_attachments": [
+				"kalis_scalar_gen2_early_40sv_lower_receiver",
+				"kalis_scalar_gen2_early_40sv_upper_receiver"
+			]
+		},
+		{
+			"name": "KALIS Scalar Gen II .40 S&V Late",
+			"required_attachments": [
+				"kalis_scalar_gen2_late_40sv_lower_receiver",
+				"kalis_scalar_gen2_late_40sv_upper_receiver"
+			]
+		},
+		{
+			"name": "KALIS Scalar Gen III .40 S&V",
+			"required_attachments": ["kalis_scalar_gen3_40sv_lower_receiver"]
+		},
+		{
+			"name":"KALIS Scalar GEN II .45 ACP",
+			"required_attachments": [
+				[
+					"kalis_scalar_gen2_early_45acp_lower_receiver",
+					"kalis_scalar_gen2_late_45acp_lower_receiver"
+				]
+			]
+		},
+		{
+			"name":"KALIS Scalar Gen II 9x19",
+			"required_attachments": [
+				[
+					"kalis_scalar_gen2_early_9x19_lower_receiver",
+					"kalis_scalar_gen2_late_9x19_lower_receiver"
+				]
+			]
+		},
+		{
+			"name":"KALIS Scalar Gen II 10mm Auto",
+			"required_attachments": [
+				[
+					"kalis_scalar_gen2_early_10mm_lower_receiver",
+					"kalis_scalar_gen2_late_10mm_lower_receiver"
+				]
+			]
+		},
+		{
+			"name":"KALIS Scalar Gen II .40 S&V Auto",
+			"required_attachments": [
+				[
+					"kalis_scalar_gen2_early_40sv_lower_receiver",
+					"kalis_scalar_gen2_late_40sv_lower_receiver"
+				]
+			]
 		}
 	],
 	"P226": [

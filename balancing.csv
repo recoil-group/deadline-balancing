@@ -1825,8 +1825,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,9x19_kriss_magex2_vector,9x19 KALIS MagEx2 For PF940 (+23 Rounds),-8,0.3,,,23,,,,,,,1000
 ,glock20_barrel,,,,,,,,,,,,,,
 ,,kosch_10mm_114mm_barrel,KOSCH 10mm Auto 114mm,0,0.11,10,20,,0.1,0,0,,,,2000
-,,krn_10mm_117mm_kosch_match_barrel,KRN Precision 10mm Auto 117mm KOSCH Match Grade,-1,0.13,10,20,,0.8,0,0,,,,4000
-,,krn_10mm_132mm_kosch_match_threaded_barrel,KRN Precision 10mm Auto 132mm KOSCH Match Threaded,-2,0.15,12,22,,0.13,0,20,,,,5000
+,,krn_10mm_117mm_kosch_match_barrel,KRN Precision 10mm Auto 117mm KOSCH Match Grade,-1,0.13,10,20,,0.08,0,0,,,,3000
+,,krn_10mm_132mm_kosch_match_threaded_barrel,KRN Precision 10mm Auto 132mm KOSCH Match Threaded,-2,0.15,12,22,,0.13,0,20,,,,3500
 ,glock20_magazine_release,,,,,,,,,,,,,,
 ,,glock20_std_magazine_release,Glock Standard,0,0,,,,,,,,,,0
 ,glock20_receiver,,,,,,,,,,,,,,

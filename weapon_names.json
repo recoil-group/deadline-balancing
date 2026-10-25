@@ -270,11 +270,25 @@
 	"KOSCH": [
 		{
 			"name": "KOSCH KP17",
-			"required_attachments": ["kosch_9x19_114mm_barrel"]
+			"required_attachments": [
+				[
+					"kosch_9x19_114mm_barrel",
+					"vai_9x19_114mm_kosch_match_grade_fluted_barrel",
+					"vai_9x19_127mm_kosch_match_grade_fluted_threaded_barrel",
+					"ardian_9x19_127mm_kosch_scramjet_barrel",
+					"krb_9x19_406mm_kosch_match_grade_polygonal_threaded_barrel"
+				]
+			]
 		},
 		{
 			"name": "KOSCH KP20",
-			"required_attachments": ["kosch_10mm_114mm_barrel"]
+			"required_attachments": [
+				[
+					"kosch_10mm_114mm_barrel",
+					"krn_10mm_117mm_kosch_match_barrel",
+					"krn_10mm_132mm_kosch_match_threaded_barrel"
+				]
+			]
 		}
 	],
 	"M4A1": [

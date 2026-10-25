@@ -2942,7 +2942,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,roosevelt_model_700_short_action_receiver,Roosevelt Model 700 Short Action,0,0.4,,,,,,,,,,0
 ,r700_trigger,,,,,,,,,,,,,,
 ,,roosevelt_walker_model_700_trigger,Roosevelt-Walker Model 700,0,0.02,,,,,,,,,,0
-,,lockwood_impact_700_trigger,Lockwood Impact 700,1,0.02,,,,,,,,,,0
+,,lockwood_impact_700_trigger,Lockwood Impact 700,1,0.02,,,,,,,,,,750
 ,r700_trigger_housing,,,,,,,,,,,,,,
 ,,roosevelt_walker_model_700_trigger_housing,Roosevelt-Walker Model 700,0,0.03,,,,,,,,,,0
 ,,lockwood_impact_700_trigger_housing,Lockwood Impact 700,0,0.03,,,,,,,,,,0

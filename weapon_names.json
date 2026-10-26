@@ -366,6 +366,10 @@
 				[
 					"whtnls_a1_m4a1_5.56x45_508mm_govt_r_barrel",
 					"whtnls_m4a1_5.56x45_508mm_hbar_r_barrel"
+				],
+				[
+					"pac_free_float_ras_rifle_12inch_handguard",
+					"pac_m5_ras_upper_handguard"
 				]
 			]
 		},
@@ -379,6 +383,10 @@
 				[
 					"whtnls_a1_m4a1_5.56x45_508mm_govt_r_barrel",
 					"whtnls_m4a1_5.56x45_508mm_hbar_r_barrel"
+				],
+				[
+					"pac_free_float_ras_rifle_12inch_handguard",
+					"pac_m5_ras_upper_handguard"
 				]
 			]
 		},
@@ -482,11 +490,12 @@
 			"required_attachments": [
 				"hart_m4a1_std_lower_receiver",
 				"hart_m16a2_carry_handle_upper_receiver",
+				"hart_m4_std_carbine_plastic_handguard",
+				"hart_a2_pistol_grip",
 				[
 					"hart_m4a1_5.56x45_368mm_govt_c_barrel",
 					"hart_m4a1_5.56x45_368mm_socom_c_barrel"
-				],
-				"hart_m4_std_carbine_plastic_handguard"
+				]
 			]
 		},
 		{
@@ -513,7 +522,11 @@
 				"hart_m4a1_std_lower_receiver",
 				"hart_m16a2_carry_handle_upper_receiver",
 				"hart_m4a1_5.56x45_267mm_govt_c_barrel",
-				"hart_xm177e1_slim_plastic_handguard"
+				"hart_xm177e1_slim_plastic_handguard",
+				[
+					"hart_a1_pistol_grip",
+					"hart_a1_chopped_pistol_grip"
+				]
 			]
 		},
 		{
@@ -522,7 +535,11 @@
 				"hart_m4a1_std_lower_receiver",
 				"hart_m16a2_carry_handle_upper_receiver",
 				"primabarrels_ar15_modern_series_5.56x45_292mm_govt_c_barrel",
-				"hart_xm177e2_slim_plastic_handguard"
+				"hart_xm177e2_slim_plastic_handguard",
+				[
+					"hart_a1_pistol_grip",
+					"hart_a1_chopped_pistol_grip"
+				]
 			]
 		},
 		{
@@ -531,7 +548,11 @@
 				"hart_m4a1_std_lower_receiver",
 				"hart_m16a2_carry_handle_upper_receiver",
 				"hart_607_car15_triangle_7inch_handguard",
-				"hart_607_car15_stock"
+				"hart_607_car15_stock",
+				[
+					"hart_a1_pistol_grip",
+					"hart_a1_chopped_pistol_grip"
+				]
 			]
 		},
 		{
@@ -540,6 +561,7 @@
 				"hart_m4a1_std_lower_receiver",
 				"hart_m4a1_std_upper_receiver",
 				"diemaco_c7_ambi_charging_handle",
+				"hart_a2_std_rifle_plastic_handguard",
 				"diemaco_tri_ad_i_mount",
 				[
 					"whtnls_a1_m4a1_5.56x45_508mm_govt_r_barrel",
@@ -553,6 +575,7 @@
 				"hart_m4a1_std_lower_receiver",
 				"hart_m4a1_std_upper_receiver",
 				"diemaco_c7_ambi_charging_handle",
+				"hart_m4_std_carbine_plastic_handguard",
 				"diemaco_tri_ad_i_mount",
 				"whtnls_m4a1_5.56x45_406mm_socom_c_barrel"
 			]

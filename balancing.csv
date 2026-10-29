@@ -924,8 +924,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,fn_scar_stock_connector,,,,,,,,,,,,,,
 ,,aft_stock_connector,AFT,0,0.07,0,0,,,,,,,,0
 ,,aft_ssr_stock_assembly,AFT SSR,18,0.36,-4,-4,,-0.05,,,,,,600
-,,aft_ssr_stock_cheek_rest,AFT SSR,,0.08,,,,,,,,,,0
-,,aft_ssr_stock_buttpad,AFT SSR,,0.07,,,,,,,,,,0
+,,aft_ssr_std_stock_riser,AFT SSR,,0.08,,,,,,,,,,0
+,,aft_ssr_std_stock_buttpad,AFT SSR,,0.07,,,,,,,,,,0
 ,,dynamic_development_group_sas_acr_stock_scar_adapter,Dynamic Development Group SAS Adaptive ACR,-1,0.07,0,0,,,,,,,,300
 ,,mesa_tactical_faro_scar_buffer_tube_adapter,Canyon Tactical FARO FANG Buffer Tube,-4,0.14,0,0,,,,,,,,450
 ,,aft_sc_stock_adapter,AFT SC Rear,0,0.08,0,0,,,,,,,,1500

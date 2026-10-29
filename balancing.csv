@@ -2225,9 +2225,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ptr_hk_g3_milspec_ar15_buffer_tube_adapter,CTR KG-31 Milspec AR-15 Buffer Tube,-2,0.06,0,0,,,,,,,,1200
 ,,spuhr_g3_r410_stock_assembly_adapter,Spuhr KG-31 R-410 Stock Assembly,-2,0.09,0,0,,,,,,,,1000
 ,hk_psg1_stock_assembly,,,,,,,,,,,,,,
-,,hk_psg1_stock_buttpad,SKG-31 Stock,2,0.07,,,,,,,,,,0
-,,hk_psg1_stock_cheek_rest,SKG-31 Stock,4,0.08,,,,,,,,,,0
-,,hk_psg1_stock_base,Sniper SKG-31 Version 2,14,0.35,-4,-6,,-0.05,,,,,,2000
+,,hk_psg1_stock_buttpad,SKG-31 Stock,,0.07,,,,,,,,,,0
+,,hk_psg1_stock_cheek_rest,SKG-31 Stock,,0.08,,,,,,,,,,0
+,,hk_psg1_stock_base,Sniper SKG-31 Version 2,20,0.35,-4,-6,,-0.05,,,,,,2000
 ,spuhr_stock,,,,,,,,,,,,,,
 ,,spuhr_g3_r410_stock_assembly_stock,Spuhr KG-31 R-410,12,0.25,-10,-15,,,,,,,,0
 ,,spuhr_g3_r410_stock_assembly_cheek_pad,Spuhr KG-31 R-410 Stock Assembly,2,0.04,,,,,,,,,,0
@@ -2601,10 +2601,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,sa58_folding_stock,,,,,,,,,,,,,,
 ,,rsa_sg58_metric_para_folding_stock,RSA SG58 Metric Para Folding,13,0.32,-7,-11,,,,,,,,500
 ,,rsa_metric_para_buffer_tube_adapter,RSA Para Metric Buffer Tube,-3,0.05,1,2,,0.05,,,,,,1000
-,,rsa_sg58_folding_spr_para_stock_body,RSA SG58 Folding Para SPR,14,0.26,-10,-7,,-0.05,,,,,,3000
+,,rsa_sg58_folding_spr_para_stock_body,RSA SG58 Folding Para SPR,15,0.26,-10,-7,,-0.05,,,,,,3000
 ,,rsa_sg58_folding_spr_para_stock_extendable_part,RSA SG58 Folding Para SPR,,0.04,,,,,,,,,,0
 ,,rsa_sg58_folding_spr_para_stock_buttpad_mount,RSA SG58 Folding Para SPR,,0.03,,,,,,,,,,0
-,,rsa_sg58_folding_spr_para_stock_cheek_riser,RSA SG58 Folding Para SPR,1,0.06,,,,,,,,,,0
+,,rsa_sg58_folding_spr_para_stock_cheek_riser,RSA SG58 Folding Para SPR,,0.06,,,,,,,,,,0
 ,,rsa_sg58_folding_spr_para_stock_buttpad,RSA SG58 Folding Para SPR,1,0.04,,,,,,,,,,0
 ,sa58_front_sight,,,,,,,,,,,,,,
 ,,fnb_precision_far_duplex_front_sight,F&B Precision FAR Duplex,1,0.01,,,,,,,,,,200

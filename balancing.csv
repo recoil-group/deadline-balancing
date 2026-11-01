@@ -284,7 +284,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ellipse_30_fixed_ak_triangle_stock,Ellipse 30 Fixed AK Triangle,13,0.21,-10,-10,,,,,,,,750
 ,,custom_3d_printed_fixed_acr_stock_adapter,Custom 3D Printed Fixed ACR,5,0.16,1,1,,,,,,,,1000
 ,,weapon_dynamics_ak_to_m4_gen2_stock_adapter,Weapon Dynamics AK to M4 Gen2,0,0.1,0,0,,,,,,,,1200
-,,al_qadissiya_tabuk_sniper_wooden_stock,,21,0.32,-6,-6,,-0.05,,,,,,600
+,,al_qadissiya_tabuk_sniper_wooden_stock,,21,0.32,-6,-6,,,,,,,,600
 ,ak_stock_pad,,,,,,,,,,,,,,
 ,,al_qadissiya_tabuk_sniper_buttpad,Al-Qadissiya Tabuk Sniper,,0.05,,,,,,,,,,0
 ,,al_qadissiya_tabuk_sniper_cloth,Stock,,0.01,,,,,,,,,,0
@@ -432,12 +432,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,generic_9_slot_mlok_rail_bottom,Generic 9 Slot MLOK,-0.5,0.09,,,,,,,,,,400
 ,,generic_9_slot_mlok_rail_side,Generic 9 Slot MLOK,-0.5,0.09,,,,,,,,,,400
 ,,generic_9_slot_mlok_rail_top,Generic 9 Slot MLOK,-0.5,0.09,,,,,,,,,,400
-,,kinect_development_group_qd_3slot_rail_bottom,Kinect Development Group QD 3-Slot MLOK,-0.5,0.04,,,,,,,,,,300
-,,kinect_development_group_qd_3slot_rail_side,Kinect Development Group QD 3-Slot MLOK,-0.5,0.04,,,,,,,,,,300
-,,kinect_development_group_qd_3slot_rail_top,Kinect Development Group QD 3-Slot MLOK,-0.5,0.04,,,,,,,,,,300
-,,kinect_development_group_qd_7slot_rail_top,Kinect Development Group QD 7-Slot MLOK,-0.5,0.08,,,,,,,,,,500
-,,kinect_development_group_qd_7slot_rail_bottom,Kinect Development Group QD 7-Slot MLOK,-0.5,0.08,,,,,,,,,,500
-,,kinect_development_group_qd_7slot_rail_side,Kinect Development Group QD 7-Slot MLOK,-0.5,0.08,,,,,,,,,,500
+,,ddg_qd_3slot_rail_bottom,Kinect Development Group QD 3-Slot MLOK,-0.5,0.04,,,,,,,,,,300
+,,ddg_qd_3slot_rail_side,Kinect Development Group QD 3-Slot MLOK,-0.5,0.04,,,,,,,,,,300
+,,ddg_qd_3slot_rail_top,Kinect Development Group QD 3-Slot MLOK,-0.5,0.04,,,,,,,,,,300
+,,ddg_qd_7slot_rail_top,Kinect Development Group QD 7-Slot MLOK,-0.5,0.08,,,,,,,,,,500
+,,ddg_qd_7slot_rail_bottom,Kinect Development Group QD 7-Slot MLOK,-0.5,0.08,,,,,,,,,,500
+,,ddg_qd_7slot_rail_side,Kinect Development Group QD 7-Slot MLOK,-0.5,0.08,,,,,,,,,,500
 ,,magtap_mlok_1.6_bottom,Magtap mlok 1.6,-0.5,0.02,,,,,,,,,,100
 ,,magtap_mlok_1.6_top,Magtap mlok 1.6,-0.5,0.02,,,,,,,,,,100
 ,,magtap_mlok_1.6_side,Magtap mlok 1.6,-0.5,0.02,,,,,,,,,,100
@@ -477,6 +477,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,akm_steel_bottom_plate,,,,,,,,,,,,,,
 ,,kazarov_akm_steel_magazine_bottom_plate,Kazarov AKM Steel,0,0.02,,,,,,,,,,0
 ,,veg_amd65_hungarian_20r_magazine_bottom_plate,Kazarov AKM Steel,0,0.02,,,,,,,,,,0
+,holotec_eolad,,,,,,,,,,,,,,
+,,holotec_eolad_2_civilian_sighting_system,Holotec EOLAD 2 Civilian Sighting System ,0,0.13,,,,,,,,,,2500
+,,holotec_eolad_2vi_socom_sighting_system,Holotec EOLAD 2VI SOCOM Sighting System,0,0.14,,,,,,,,,,3250
 ,g33_magnifier_riser,,,,,,,,,,,,,,
 ,,holotec_magn_7mm_riser_1,HOLOTEC Magnifier 7mm Riser,-0.5,0.01,,,,,,,,,,50
 ,,holotec_magn_7mm_riser_2,HOLOTEC Magnifier 7mm Riser,-0.5,0.01,,,,,,,,,,50
@@ -850,8 +853,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,aft_rear_sight,AFT Standard,1,0.01,,,,,,,,,,0
 ,,aft_rear_sight_folded,AFT Standard Folded,1,0.01,,,,,,,,,,0
 ,fn_scar_rear_sight_apertures,,,,,,,,,,,,,,
-,,aft_rear_sight_600m_aperture,AFT 600m Aperture,0,0.005,,,,,,,,,,0
-,,aft_rear_sight_200m_aperture,AFT 200m Aperture,0,0.005,,,,,,,,,,0
+,,aft_rear_sight_rifle_aperture,AFT Rifle Aperture,0,,,,,,,,,,,0
 ,fn_scar_h_gasblock,,,,,,,,,,,,,,
 ,,aft_mk20_gas_block,AFT Mk20,3,0.15,2,2,,-0.05,,100,,,,1000
 ,,aft_mk_17_gasblock,AFT MK-17 Standard,0,0.12,0,0,,,,,,,,0
@@ -955,13 +957,13 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,hilt_defense_scar47_mlok_handguard,Hilt Defense FANG47 MLOK,2,0.22,-1,-4,,,,,,,,1200
 ,,pmm_scar_mlok_xl_rail_extension_mre_xl,Everetts Machining FANG MLOK XL Rail Extension (MRE XL),2,0.12,0,-1,,,,,,,,900
 ,,madbull_pws_srx_5inch_rail_handguard,"Madbull PWS SRX 5""",1,0.15,-1,-2,,,,,,,,800
-,,dynamic_development_group_scar_mrex_mlok_6.5inch_gen1_handguard,"Dynamic Development Group FANG MREX MLOK 6.5"" Gen 1",3,0.25,-3,-1,,,,,,,,1750
-,,northeast_industries_scar_socom_extended_mlok_handguard,Northeast Industries FANG SOCOM Extended MLOK,4,0.26,-2,-1,,,,,,,,1600
-,,northeast_industries_scar_quad_rail_handguard,Northeast Industries FANG Quad Rail Extension,3,0.3,-2,-4,,,,,,,,1500
+,,ddg_scar_mrex_mlok_6.5inch_gen1_handguard,"Dynamic Development Group FANG MREX MLOK 6.5"" Gen 1",3,0.25,-3,-1,,,,,,,,1750
+,,northpoint_industries_fang_socom_extended_mlok_handguard,Northeast Industries FANG SOCOM Extended MLOK,4,0.26,-2,-1,,,,,,,,1600
+,,northpoint_industries_fang_quad_rail_handguard,Northeast Industries FANG Quad Rail Extension,3,0.3,-2,-4,,,,,,,,1500
 ,,chillset_scar_rail_extension,Chillset FANG Rail Extension,1,0.2,-2,-2,,,,,,,,1300
-,,dynamic_development_group_scar_mrex_mk2_mlok_2.2inch_handguard,"Dynamic Development Group FANG MREX MkII MLOK 2.2""",4,0.19,-1,0,,,,,,,,1250
-,,dynamic_development_group_scar_mrex_mk2_mlok_4.25inch_handguard,"Dynamic Development Group FANG MREX MkII MLOK 4.25""",3,0.23,-2,-2,,,,,,,,1750
-,,dynamic_development_group_scar_mrex_mk2_mlok_6.5inch_handguard,"Dynamic Development Group FANG MREX MkII MLOK 6.5""",2,0.27,-4,-2,,,,,,,,2000
+,,ddg_scar_mrex_mk2_mlok_2.2inch_handguard,"Dynamic Development Group FANG MREX MkII MLOK 2.2""",4,0.19,-1,0,,,,,,,,1250
+,,ddg_scar_mrex_mk2_mlok_4.25inch_handguard,"Dynamic Development Group FANG MREX MkII MLOK 4.25""",3,0.23,-2,-2,,,,,,,,1750
+,,ddg_scar_mrex_mk2_mlok_6.5inch_handguard,"Dynamic Development Group FANG MREX MkII MLOK 6.5""",2,0.27,-4,-2,,,,,,,,2000
 ,fn_scar_gas_selector,,,,,,,,,,,,,,
 ,,edinburg_engineering_scarburator_gen3,Edinburg Engineering FANGburator Gen3,0,0.04,0,-2,,,,,,,,400
 ,,aft_oem_gas_selector,AFT OEM,0,0.02,0,0,,,,,,,,0
@@ -1494,8 +1496,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,gdr_zvn_64_night_rear_sight_ak74,German Democratic Republic ZVN-64 Rear Night Shooting,1,0.02,,,,,,,,,,200
 ,,gdr_zvn_64_night_rear_sight_akm,German Democratic Republic ZVN-64 Rear Night Shooting,1,0.02,,,,,,,,,,200
 ,akm_barrel,,,,,,,,,,,,,,
-,,kazarov_akm_415mm_7.62x39_barrel,Kazarov AKM 415mm 7.62x39,-6,0.55,-7,-8,,0,0,43,,,,0
-,,al_qadissiya_tabuk_sniper_600mm_7.62x39_barrel,,-8,0.96,-9,-10,,-0.3,0.02,120,,,,1000
+,,kazarov_akm_415mm_7.62x39_barrel,Kazarov AKM 415mm 7.62x39,-6,0.55,-7,-8,,0,,43,,,,0
+,,al_qadissiya_tabuk_sniper_600mm_7.62x39_barrel,,-8,0.96,-9,-10,,-0.3,,120,,,,1000
 ,akm_gasblock,,,,,,,,,,,,,,
 ,,kazarov_akm_gasblock,Kazarov AKM,0,0.06,,,,,,,,,,0
 ,akm_fs_block,,,,,,,,,,,,,,
@@ -2359,7 +2361,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,arid_concepts_aug_mag_release_large_paddle,Arid Concepts Large Paddle,1,0.02,,,,,,,,,,100
 ,aug_a3_stock,,,,,,,,,,,,,,
 ,,lowenherz_aug_a3_para_9x19_stock,Löwenherz AUG Para 9x19,40,0.39,-15,-25,,0.35,,-1245,,,,2000
-,,fbt_aug_carbon_fiber_stock,Fine Ballistic Tools AUG Carbon Fiber,22,0.39,-6,-6,,,,,,,,4000
+,,rbm_aug_carbon_fiber_stock,RBM AUG Carbon Fiber,22,0.39,-6,-6,,,,,,,,4000
 ,,lowenherz_aug_a3_nato_stock,AUG A3 NATO,16,0.3,-5,-8,,,,,,,,1000
 ,,lowenherz_aug_a3_austrian_stock,AUG A3 Austrian,17,0.3,-7,-7,,,,,,,,0
 ,talon_aug_grip_wrap,,,,,,,,,,,,,,
@@ -2391,6 +2393,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,aug_safety,,,,,,,,,,,,,,
 ,,steyr_aug_a3_std_safety,Löwenherz AUG A3 Standard,0,0.02,0,0,,,,,,,,0
 ,,arid_concepts_aug_improved_safety,Arid Concepts AUG Improved,0.5,0.03,0,0,,,,,,,,300
+,aug_bayonet_lug,,,,,,,,,,,,,,
+,,goliath_tactical_aug_bayonet_lug,Goliath Tactical AUG,-1,0.03,,,,,,,,,,500
 ,mosin_barrel,,,,,,,,,,,,,,
 ,,mosin_730mm_barrel,Mosin 730mm,-5,1.5,-2,-10,,-0.2,0.1,348,,,,0
 ,,mosin_sawn_off_200mm_barrel,Mosin Sawn Off 200mm,25,0.4,5,10,,0.8,-0.27,-128,,,,1200
@@ -2530,7 +2534,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,7.62x39_muzzle_device,,,,,,,,,,,,,,
 ,,kazarov_akm_6p1_0_14_compensator,Kazarov AKM 6P1 0-14,0,0.04,-10,-13,,0,0,0,,,,0
 ,,izmash_akml_flash_hider,Kazarov AKML System,2,0.1,-11,-11,,0,0,20,,,,500
-,,tsniitochmash_pbs_1_7.62x39_suppressor,TSNIITochMash PBS-1 7.62x39,-5,0.29,-13,-15,,-0.05,0.06,120,,,,1200
+,,tsniitochmash_pbs_1_7.62x39_suppressor,TSNIITochMash PBS-1 7.62x39,-5,0.29,-13,-15,,-0.05,0.06,120,,,-0.09,1200
 ,,cnc_warrior_m14x1lh_to_5_8x24rh_muzzle_thread_adapter,CNC Arms M14x1LH to 5/8x24RH Thread,-1,0.03,2,2,,0.15,0,-30,,,,1500
 ,,lantac_dgnak47b_7.62x39_muzzle_brake,PGTac DGNAK47B 7.62x39,-2,0.09,-14,-15,,0.05,0,20,,,,900
 ,,smite_industries_jcomp_gen2_7.62x39_muzzle_brake,Smite Industries JCOMP Gen2 7.62x39,-1,0.08,-11,-17,,0.05,0,0,,,,500

@@ -477,6 +477,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,akm_steel_bottom_plate,,,,,,,,,,,,,,
 ,,kazarov_akm_steel_magazine_bottom_plate,Kazarov AKM Steel,0,0.02,,,,,,,,,,0
 ,,veg_amd65_hungarian_20r_magazine_bottom_plate,Kazarov AKM Steel,0,0.02,,,,,,,,,,0
+,holotec_eolad,,,,,,,,,,,,,,
+,,holotec_eolad_2_civilian_sighting_system,Holotec EOLAD 2 Civilian Sighting System ,0,0.13,,,,,,,,,,2500
+,,holotec_eolad_2vi_socom_sighting_system,Holotec EOLAD 2VI SOCOM Sighting System,0,0.14,,,,,,,,,,3250
 ,g33_magnifier_riser,,,,,,,,,,,,,,
 ,,holotec_magn_7mm_riser_1,HOLOTEC Magnifier 7mm Riser,-0.5,0.01,,,,,,,,,,50
 ,,holotec_magn_7mm_riser_2,HOLOTEC Magnifier 7mm Riser,-0.5,0.01,,,,,,,,,,50

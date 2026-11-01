@@ -2534,7 +2534,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,7.62x39_muzzle_device,,,,,,,,,,,,,,
 ,,kazarov_akm_6p1_0_14_compensator,Kazarov AKM 6P1 0-14,0,0.04,-10,-13,,0,0,0,,,,0
 ,,izmash_akml_flash_hider,Kazarov AKML System,2,0.1,-11,-11,,0,0,20,,,,500
-,,tsniitochmash_pbs_1_7.62x39_suppressor,TSNIITochMash PBS-1 7.62x39,-5,0.29,-13,-15,,-0.05,0.03,120,,,,1200
+,,tsniitochmash_pbs_1_7.62x39_suppressor,TSNIITochMash PBS-1 7.62x39,-5,0.29,-13,-15,,-0.05,0.06,120,,,-0.09,1200
 ,,cnc_warrior_m14x1lh_to_5_8x24rh_muzzle_thread_adapter,CNC Arms M14x1LH to 5/8x24RH Thread,-1,0.03,2,2,,0.15,0,-30,,,,1500
 ,,lantac_dgnak47b_7.62x39_muzzle_brake,PGTac DGNAK47B 7.62x39,-2,0.09,-14,-15,,0.05,0,20,,,,900
 ,,smite_industries_jcomp_gen2_7.62x39_muzzle_brake,Smite Industries JCOMP Gen2 7.62x39,-1,0.08,-11,-17,,0.05,0,0,,,,500

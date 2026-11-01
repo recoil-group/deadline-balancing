@@ -2391,6 +2391,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,aug_safety,,,,,,,,,,,,,,
 ,,steyr_aug_a3_std_safety,Löwenherz AUG A3 Standard,0,0.02,0,0,,,,,,,,0
 ,,arid_concepts_aug_improved_safety,Arid Concepts AUG Improved,0.5,0.03,0,0,,,,,,,,300
+,aug_bayonet_lug,,,,,,,,,,,,,,
+,,goliath_tactical_aug_bayonet_lug,Goliath Tactical AUG,-1,0.03,,,,,,,,,,500
 ,mosin_barrel,,,,,,,,,,,,,,
 ,,mosin_730mm_barrel,Mosin 730mm,-5,1.5,-2,-10,,-0.2,0.1,348,,,,0
 ,,mosin_sawn_off_200mm_barrel,Mosin Sawn Off 200mm,25,0.4,5,10,,0.8,-0.27,-128,,,,1200

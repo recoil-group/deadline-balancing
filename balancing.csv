@@ -1497,8 +1497,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,gdr_zvn_64_night_rear_sight_ak74,German Democratic Republic ZVN-64 Rear Night Shooting,1,0.02,,,,,,,,,,200
 ,,gdr_zvn_64_night_rear_sight_akm,German Democratic Republic ZVN-64 Rear Night Shooting,1,0.02,,,,,,,,,,200
 ,akm_barrel,,,,,,,,,,,,,,
-,,kazarov_akm_415mm_7.62x39_barrel,Kazarov AKM 415mm 7.62x39,-6,0.55,-7,-8,,0,0,43,,,,0
-,,al_qadissiya_tabuk_sniper_600mm_7.62x39_barrel,,-8,0.96,-9,-10,,-0.3,0.02,120,,,,1000
+,,kazarov_akm_415mm_7.62x39_barrel,Kazarov AKM 415mm 7.62x39,-6,0.55,-7,-8,,0,,43,,,,0
+,,al_qadissiya_tabuk_sniper_600mm_7.62x39_barrel,,-8,0.96,-9,-10,,-0.3,,120,,,,1000
 ,akm_gasblock,,,,,,,,,,,,,,
 ,,kazarov_akm_gasblock,Kazarov AKM,0,0.06,,,,,,,,,,0
 ,akm_fs_block,,,,,,,,,,,,,,
@@ -2535,7 +2535,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,7.62x39_muzzle_device,,,,,,,,,,,,,,
 ,,kazarov_akm_6p1_0_14_compensator,Kazarov AKM 6P1 0-14,0,0.04,-10,-13,,0,0,0,,,,0
 ,,izmash_akml_flash_hider,Kazarov AKML System,2,0.1,-11,-11,,0,0,20,,,,500
-,,tsniitochmash_pbs_1_7.62x39_suppressor,TSNIITochMash PBS-1 7.62x39,-5,0.29,-13,-15,,-0.05,0.06,120,,,,1200
+,,tsniitochmash_pbs_1_7.62x39_suppressor,TSNIITochMash PBS-1 7.62x39,-5,0.29,-13,-15,,-0.05,0.03,120,,,,1200
 ,,cnc_warrior_m14x1lh_to_5_8x24rh_muzzle_thread_adapter,CNC Arms M14x1LH to 5/8x24RH Thread,-1,0.03,2,2,,0.15,0,-30,,,,1500
 ,,lantac_dgnak47b_7.62x39_muzzle_brake,PGTac DGNAK47B 7.62x39,-2,0.09,-14,-15,,0.05,0,20,,,,900
 ,,smite_industries_jcomp_gen2_7.62x39_muzzle_brake,Smite Industries JCOMP Gen2 7.62x39,-1,0.08,-11,-17,,0.05,0,0,,,,500

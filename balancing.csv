@@ -284,7 +284,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ellipse_30_fixed_ak_triangle_stock,Ellipse 30 Fixed AK Triangle,13,0.21,-10,-10,,,,,,,,750
 ,,custom_3d_printed_fixed_acr_stock_adapter,Custom 3D Printed Fixed ACR,5,0.16,1,1,,,,,,,,1000
 ,,weapon_dynamics_ak_to_m4_gen2_stock_adapter,Weapon Dynamics AK to M4 Gen2,0,0.1,0,0,,,,,,,,1200
+,,al_qadissiya_tabuk_sniper_wooden_stock,,21,0.32,-6,-6,,-0.05,,,,,,600
 ,ak_stock_pad,,,,,,,,,,,,,,
+,,al_qadissiya_tabuk_sniper_buttpad,Al-Qadissiya Tabuk Sniper,,0.05,,,,,,,,,,0
+,,al_qadissiya_tabuk_sniper_cloth,Stock,,0.01,,,,,,,,,,0
 ,,kazarov_ak74m_metallic_stock_buttpad,Kazarov AK Metallic Stock,0,0.05,,,,,,,,,,0
 ,,kazarov_ak_metallic_stock_buttpad,Kazarov AK Metallic Stock,0,0.05,,,,,,,,,,0
 ,,atg_ak_rb_k7btp01_combat_rubber_stock_buttpad_ak74,ATG AK RB-K7BTP01 Combat Rubber Stock,1,0.09,-1,-1,,,,,,,,600
@@ -1492,6 +1495,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,gdr_zvn_64_night_rear_sight_akm,German Democratic Republic ZVN-64 Rear Night Shooting,1,0.02,,,,,,,,,,200
 ,akm_barrel,,,,,,,,,,,,,,
 ,,kazarov_akm_415mm_7.62x39_barrel,Kazarov AKM 415mm 7.62x39,-6,0.55,-7,-8,,0,0,43,,,,0
+,,al_qadissiya_tabuk_sniper_600mm_7.62x39_barrel,,-8,0.96,-9,-10,,-0.3,0.02,120,,,,1000
 ,akm_gasblock,,,,,,,,,,,,,,
 ,,kazarov_akm_gasblock,Kazarov AKM,0,0.06,,,,,,,,,,0
 ,akm_fs_block,,,,,,,,,,,,,,

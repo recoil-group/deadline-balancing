@@ -23,6 +23,16 @@
 			]
 		}
 	],
+	"AK_762":[
+		{
+			"name": "Al-Qadissiya Tabuk Sniper",
+			"required_attachments":[
+				"al_qadissiya_tabuk_sniper_600mm_7.62x39_barrel",
+				"al_qadissiya_tabuk_sniper_wooden_stock",
+				"veles_chelomo_pso1"
+			]
+		}
+	],
 	"AK_545_Carbine": [
 		{
 			"name": "Kazarov Group AKS-74U",

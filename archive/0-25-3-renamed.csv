@@ -179,9 +179,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,axtell_defense_5inch_picatinny_rail_panel,Axtell Defense 5 inch Picatinny,1.5,0.06,,,,,,,,,,500
 ,,axtell_defense_7inch_picatinny_rail_panel,Axtell Defense 7 inch Picatinny,2,0.08,,,,,,,,,,700
 ,,axtell_defense_rubber_overmolding_vertical_foregrip,Axtell Defense Soft Touch Rubber Overmolding Vertical,4,0.09,-3,-4,,,,,,,,500
-,,bt_qd_nar_ecro_22mm_mount,B&T QD NAR ACRO 22mm,0,0.03,,,,,,,,,,500
-,,bt_qd_nar_ecro_30mm_mount,B&T QD NAR ACRO 30mm,-0.5,0.04,,,,,,,,,,550
-,,bt_qd_nar_ecro_39mm_mount,B&T QD NAR ACRO 39mm,-1,0.05,,,,,,,,,,600
+,,bd_qd_nar_ecro_22mm_mount,B&T QD NAR ACRO 22mm,0,0.03,,,,,,,,,,500
+,,bd_qd_nar_ecro_30mm_mount,B&T QD NAR ACRO 30mm,-0.5,0.04,,,,,,,,,,550
+,,bd_qd_nar_ecro_39mm_mount,B&T QD NAR ACRO 39mm,-1,0.05,,,,,,,,,,600
 ,,sc_irregulars_omm_micro_mount,AT Refine OMM MICRO,-1,0.13,,,,,,,,,,2000
 ,,sc_irregulars_omm_pic_mount,AT Refine OMM PIC Mount,-1,0.08,,,,,,,,,,1500
 ,,volhov_zt310_picatinny_mount,Valday JSC Optics ZT-310 Picatinny,0,0.03,,,,,,,,,,100
@@ -417,12 +417,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,generic_9_slot_mlok_rail_bottom,Generic 9 Slot MLOK,-0.5,0.09,,,,,,,,,,400
 ,,generic_9_slot_mlok_rail_side,Generic 9 Slot MLOK,-0.5,0.09,,,,,,,,,,400
 ,,generic_9_slot_mlok_rail_top,Generic 9 Slot MLOK,-0.5,0.09,,,,,,,,,,400
-,,kinect_development_group_qd_3slot_rail_bottom,Kinect Development Group QD 3-Slot MLOK,-0.5,0.04,,,,,,,,,,300
-,,kinect_development_group_qd_3slot_rail_side,Kinect Development Group QD 3-Slot MLOK,-0.5,0.04,,,,,,,,,,300
-,,kinect_development_group_qd_3slot_rail_top,Kinect Development Group QD 3-Slot MLOK,-0.5,0.04,,,,,,,,,,300
-,,kinect_development_group_qd_7slot_rail_top,Kinect Development Group QD 7-Slot MLOK,-0.5,0.08,,,,,,,,,,500
-,,kinect_development_group_qd_7slot_rail_bottom,Kinect Development Group QD 7-Slot MLOK,-0.5,0.08,,,,,,,,,,500
-,,kinect_development_group_qd_7slot_rail_side,Kinect Development Group QD 7-Slot MLOK,-0.5,0.08,,,,,,,,,,500
+,,ddg_qd_3slot_rail_bottom,Kinect Development Group QD 3-Slot MLOK,-0.5,0.04,,,,,,,,,,300
+,,ddg_qd_3slot_rail_side,Kinect Development Group QD 3-Slot MLOK,-0.5,0.04,,,,,,,,,,300
+,,ddg_qd_3slot_rail_top,Kinect Development Group QD 3-Slot MLOK,-0.5,0.04,,,,,,,,,,300
+,,ddg_qd_7slot_rail_top,Kinect Development Group QD 7-Slot MLOK,-0.5,0.08,,,,,,,,,,500
+,,ddg_qd_7slot_rail_bottom,Kinect Development Group QD 7-Slot MLOK,-0.5,0.08,,,,,,,,,,500
+,,ddg_qd_7slot_rail_side,Kinect Development Group QD 7-Slot MLOK,-0.5,0.08,,,,,,,,,,500
 ,,magtap_mlok_1.6_bottom,Magtap mlok 1.6,-0.5,0.02,,,,,,,,,,100
 ,,magtap_mlok_1.6_top,Magtap mlok 1.6,-0.5,0.02,,,,,,,,,,100
 ,,magtap_mlok_1.6_side,Magtap mlok 1.6,-0.5,0.02,,,,,,,,,,100
@@ -606,12 +606,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,equinox_ex15_10.5inch_handguard,"Arrow AX // 15 AR-15 10.5""",14,0.24,-5,-9,,,,,,,,800
 ,,ardian_weapons_ar15_model_1_m1curgh_10inch_handguard,"Ardian Weapons AR-15 Model 1 M1CURGH 10""",12,0.28,-9,-11,,,,,,,,1500
 ,,novacek_n4_nsr_gen3_handguard_9.15inch,"Nowa N4 NSR Gen3 AR-15 9.15""",12,0.24,-8,-10,,,,,,,,1100
-,,northeast_industries_supp_series_sp7m_mlok_handguard,"Northeast Industries Suppressor Series SP7M MLOK 7.25""",14,0.24,-5,-10,,,,,,,,1300
-,,northeast_industries_supp_series_sp9m_mlok_handguard,"Northeast Industries Suppressor Series SP9M MLOK 9.25""",12,0.27,-6,-13,,,,,,,,1350
-,,northeast_industries_supp_series_sp10m_mlok_handguard,"Northeast Industries Suppressor Series SP10M MLOK 10.5""",11,0.3,-7,-15,,,,,,,,1400
-,,northeast_industries_supp_series_sp12m_mlok_handguard,"Northeast Industries Suppressor Series SP12M MLOK 12.625""",9,0.34,-9,-17,,,,,,,,1450
-,,northeast_industries_supp_series_sp15m_mlok_handguard,"Northeast Industries Suppressor Series SP15M MLOK 15""",7,0.38,-11,-18,,,,,,,,1500
-,,northeast_industries_supp_series_sp18m_mlok_handguard,"Northeast Industries Suppressor Series SP18M MLOK 18""",5,0.42,-12,-20,,,,,,,,1600
+,,northpoint_industries_supp_series_sp7m_mlok_handguard,"Northeast Industries Suppressor Series SP7M MLOK 7.25""",14,0.24,-5,-10,,,,,,,,1300
+,,northpoint_industries_supp_series_sp9m_mlok_handguard,"Northeast Industries Suppressor Series SP9M MLOK 9.25""",12,0.27,-6,-13,,,,,,,,1350
+,,northpoint_industries_supp_series_sp10m_mlok_handguard,"Northeast Industries Suppressor Series SP10M MLOK 10.5""",11,0.3,-7,-15,,,,,,,,1400
+,,northpoint_industries_supp_series_sp12m_mlok_handguard,"Northeast Industries Suppressor Series SP12M MLOK 12.625""",9,0.34,-9,-17,,,,,,,,1450
+,,northpoint_industries_supp_series_sp15m_mlok_handguard,"Northeast Industries Suppressor Series SP15M MLOK 15""",7,0.38,-11,-18,,,,,,,,1500
+,,northpoint_industries_supp_series_sp18m_mlok_handguard,"Northeast Industries Suppressor Series SP18M MLOK 18""",5,0.42,-12,-20,,,,,,,,1600
 ,,hart_607_car15_triangle_7inch_handguard,"Hart 607 CAR-15 Triangle 7""",16,0.19,-8,-10,,0.03,,,,,,550
 ,modtac_mounting_coupler,,,,,,,,,,,,,,
 ,,taclite_mrac_gen2_mounting_coupler,TACLITE M-RAC Gen2,0,0.08,,,,,,,,,,300
@@ -817,7 +817,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,aft_rear_sight_folded,AFT Standard Folded,1,0.01,,,,,,,,,,0
 ,fn_scar_rear_sight_apertures,,,,,,,,,,,,,,
 ,,aft_rear_sight_600m_aperture,AFT 600m Aperture,0,0.005,,,,,,,,,,0
-,,aft_rear_sight_200m_aperture,AFT 200m Aperture,0,0.005,,,,,,,,,,0
+,,aft_rear_sight_rifle_aperture,AFT 200m Aperture,0,0.005,,,,,,,,,,0
 ,fn_scar_h_gasblock,,,,,,,,,,,,,,
 ,,aft_mk20_gas_block,AFT Mk20,3,0.15,2,2,,-0.05,,100,,,,1000
 ,,aft_mk_17_gasblock,AFT MK-17 Standard,0,0.12,0,0,,,,,,,,0
@@ -919,13 +919,13 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,hilt_defense_scar47_mlok_handguard,Hilt Defense FANG47 MLOK,2,0.22,-1,-4,,,,,,,,1200
 ,,pmm_scar_mlok_xl_rail_extension_mre_xl,Everetts Machining FANG MLOK XL Rail Extension (MRE XL),2,0.12,0,-1,,,,,,,,900
 ,,madbull_pws_srx_5inch_rail_handguard,"Madbull PWS SRX 5""",1,0.15,-1,-2,,,,,,,,800
-,,dynamic_development_group_scar_mrex_mlok_6.5inch_gen1_handguard,"Dynamic Development Group FANG MREX MLOK 6.5"" Gen 1",3,0.25,-3,-1,,,,,,,,1750
-,,northeast_industries_scar_socom_extended_mlok_handguard,Northeast Industries FANG SOCOM Extended MLOK,4,0.26,-2,-1,,,,,,,,1600
-,,northeast_industries_scar_quad_rail_handguard,Northeast Industries FANG Quad Rail Extension,3,0.3,-2,-4,,,,,,,,1500
+,,ddg_scar_mrex_mlok_6.5inch_gen1_handguard,"Dynamic Development Group FANG MREX MLOK 6.5"" Gen 1",3,0.25,-3,-1,,,,,,,,1750
+,,northpoint_industries_fang_socom_extended_mlok_handguard,Northeast Industries FANG SOCOM Extended MLOK,4,0.26,-2,-1,,,,,,,,1600
+,,northpoint_industries_fang_quad_rail_handguard,Northeast Industries FANG Quad Rail Extension,3,0.3,-2,-4,,,,,,,,1500
 ,,chillset_scar_rail_extension,Chillset FANG Rail Extension,1,0.2,-2,-2,,,,,,,,1300
-,,dynamic_development_group_scar_mrex_mk2_mlok_2.2inch_handguard,"Dynamic Development Group FANG MREX MkII MLOK 2.2""",4,0.19,-1,0,,,,,,,,1250
-,,dynamic_development_group_scar_mrex_mk2_mlok_4.25inch_handguard,"Dynamic Development Group FANG MREX MkII MLOK 4.25""",3,0.23,-2,-2,,,,,,,,1750
-,,dynamic_development_group_scar_mrex_mk2_mlok_6.5inch_handguard,"Dynamic Development Group FANG MREX MkII MLOK 6.5""",2,0.27,-4,-2,,,,,,,,2000
+,,ddg_scar_mrex_mk2_mlok_2.2inch_handguard,"Dynamic Development Group FANG MREX MkII MLOK 2.2""",4,0.19,-1,0,,,,,,,,1250
+,,ddg_scar_mrex_mk2_mlok_4.25inch_handguard,"Dynamic Development Group FANG MREX MkII MLOK 4.25""",3,0.23,-2,-2,,,,,,,,1750
+,,ddg_scar_mrex_mk2_mlok_6.5inch_handguard,"Dynamic Development Group FANG MREX MkII MLOK 6.5""",2,0.27,-4,-2,,,,,,,,2000
 ,fn_scar_gas_selector,,,,,,,,,,,,,,
 ,,edinburg_engineering_scarburator_gen3,Edinburg Engineering FANGburator Gen3,0,0.04,0,-2,,,,,,,,400
 ,,aft_oem_gas_selector,AFT OEM,0,0.02,0,0,,,,,,,,0
@@ -1448,7 +1448,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak_carbine_hanguard_retainer,,,,,,,,,,,,,,
 ,,kazarov_aks74u_handguard_retainer,Kazarov AKS-74U,1,0.01,,,,,,,,,,
 ,ak_handguard,,,,,,,,,,,,,,
-,,caf_wasr_10_63_wooden_bottom_handguard,Wooden CAF WASR 10-63 Bottom,13,0.2,-9,-12,,,,,,,,300
+,,cugir_pm_md63_wooden_bottom_handguard,Wooden CAF WASR 10-63 Bottom,13,0.2,-9,-12,,,,,,,,300
 ,,tdiarms_ak_akm_l_lower_handguard,TDI Arms AKM-L,12,0.09,-6,-5,,,,,,,,1000
 ,,northeast_industries_ak74_extended_gen1_handguard,Northeast Industries AK74 Extended Gen 1,7,0.24,-10,-12,,,,,,,,1600
 ,,northeast_industries_ak74_gen1_handguard,Northeast Industries AK74 Gen 1,10,0.17,-7,-9,,,,,,,,1200
@@ -1465,7 +1465,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,veles_b_10l_sport_lower_handguard,"Veles B-10L ""Sport"" Lower",11,0.09,-7,-6,,,,,,,,1100
 ,,northeast_industries_alpha_ak_series_6inch_mlok_lower_handguard,Northeast Industries ALPHA AK Series 6 Inch MLOK Lower,12,0.15,-8,-4,,,,,,,,1200
 ,,northeast_industries_alpha_ak_series_10inch_mlok_lower_handguard,Northeast Industries ALPHA AK Series 10 Inch MLOK Lower,9,0.21,-11,-7,,,,,,,,1600
-,,was_woodworks_lower_ak_handguard_with_handstop,WAS Woodworks Lower AK w/ Handstop and MLOK,16,0.15,-8,-7,,,,,,,,1000
+,,cugir_pm_md63_wooden_sharkfin_mlok_bottom_handguard,WAS Woodworks Lower AK w/ Handstop and MLOK,16,0.15,-8,-7,,,,,,,,1000
 ,,tas_rs47_lower_handguard,TAS RS47 Lower,10,0.14,-7,-7,,,,,,,,750
 ,zenitco_leader_kit,,,,,,,,,,,,,,
 ,,veles_dl_leader_handguard_extension,"Veles DL ""Leader"" Handguard",0,0.07,-1,-1,,,,,,,,600
@@ -1699,10 +1699,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,rail,Additional attachment,0,0,,,,,,,,,,0
 ,glock_barrel,,,,,,,,,,,,,,
 ,,kosch_9x19_114mm_barrel,KOSCH 9x19 114mm Barrel,0,0.1,0,0,,0,0,-50,,,,0
-,,sai_match_threaded_9x19_barrel,SAI Match Threaded G17 9x19,0,0.13,-7,-10,,0.05,0,-57,,,,1200
+,,vai_9x19_127mm_kosch_match_grade_fluted_threaded_barrel,SAI Match Threaded G17 9x19,0,0.13,-7,-10,,0.05,0,-57,,,,1200
 ,,glock17l_ported_153mm_9x19_barrel,Glock 17L Ported 153mm 9x19 Barrel,-1,0.17,-12,-15,,-0.1,0.03,-14,,,,1500
-,,igb_austria_match_grade_polygonal_406mm_9x19_barrel,IGB Austria Match Grade Polygonal 406mm 9x19 Barrel,-25,0.4,-10,-15,,-0.2,0.09,140,,,,3000
-,,ardian_weapons_glock17_ramjet_barrel,Radian Weapons Glock 17 Gen5 RAMJET 9x19,1,0.12,-10,-10,,0.1,0,-57,,,,1500
+,,krb_9x19_406mm_kosch_match_grade_polygonal_threaded_barrel,IGB Austria Match Grade Polygonal 406mm 9x19 Barrel,-25,0.4,-10,-15,,-0.2,0.09,140,,,,3000
+,,ardian_9x19_127mm_kosch_scramjet_barrel,Radian Weapons Glock 17 Gen5 RAMJET 9x19,1,0.12,-10,-10,,0.1,0,-57,,,,1500
 ,glock_spring,,,,,,,,,,,,,,
 ,,kosch_default_recoil_spring,KOSCH Default Recoil Spring,0,0.02,,,,,,,,,,0
 ,glock_grip,,,,,,,,,,,,,,
@@ -2153,7 +2153,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,arid_concepts_aug_mag_release_large_paddle,Arid Concepts Large Paddle,1,0.02,,,,,,,,,,100
 ,aug_a3_stock,,,,,,,,,,,,,,
 ,,lowenherz_aug_a3_para_9x19_stock,Löwenherz AUG Para 9x19,40,0.34,-21,-28,,0.35,,-1245,,,,2000
-,,fbt_aug_carbon_fiber_stock,Fine Ballistic Tools AUG Carbon Fiber,22,0.39,-6,-6,,,,,,,,4000
+,,rbm_aug_carbon_fiber_stock,Fine Ballistic Tools AUG Carbon Fiber,22,0.39,-6,-6,,,,,,,,4000
 ,,lowenherz_aug_a3_nato_stock,AUG A3 NATO,16,0.3,-5,-8,,,,,,,,1000
 ,,lowenherz_aug_a3_austrian_stock,AUG A3 Austrian,17,0.3,-7,-7,,,,,,,,0
 ,talon_aug_grip_wrap,,,,,,,,,,,,,,
@@ -2310,7 +2310,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ips_9x19_1inch_barrel_extension,"IPS 1"" 9x19",-1,0.03,1,1,,0.06,0.01,30,,,,500
 ,,resiliant_suppressors_obsidian_9_9x19_piston,Resiliant Suppressors Obsidian9 9x19 Piston,0,0.03,0,0,,0,0,0,,,,300
 ,,resiliant_suppressors_obsidian_9_3lug_piston,Resiliant Suppressors Obsidian9 3-Lug Piston,0,0.03,0,0,,0,0,0,,,,300
-,,ardian_weapons_glock17_afterburner_micro_compensator,Radian Weapons Glock 17 Gen5 AFTERBURNER Micro Compensator,0,0.04,-5,-5,,0,0,20,,,,1000
+,,ardian_kosch_catalyst_micro_compensator,Radian Weapons Glock 17 Gen5 AFTERBURNER Micro Compensator,0,0.04,-5,-5,,0,0,20,,,,1000
 ,resiliant_suppressors_obsidian_9,,,,,,,,,,,,,,
 ,,resiliant_suppressors_obsidian_9_body,Resiliant Suppressors Obsidian9 9x19 Body,-4,0.09,-9,-8,,-0.08,0.09,70,,,,1500
 ,,resiliant_suppressors_obsidian_9_extension,Resiliant Suppressors Obsidian9 9x19 Extension,-3,0.07,-3,-2,,-0.04,0.05,50,,,,1000
@@ -2786,7 +2786,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,bt_bt401003_tl99_3x_nar_mp5_handguard,B&T BT-401003 TL99 3x NAR MP5,8,0.16,-6,-8,,,,,,,,600
 ,,hk_mp5_slim_checkered_handguard,MPi-54 Slim Checkered,13,0.15,-7,-6,,,,,,,,1500
 ,,centrefire_628lmf_b_mp5_handguard,Centrefire 628LMF-B MPi-54,8,0.2,-9,-9,,,,,,,,1200
-,,northeast_industries_mp5_mlok_handguard,Northeast Industries MPi-54 MLOK,9,0.14,-6,-7,,,,,,,,1000
+,,northpoint_industries_mp5_mlok_handguard,Northeast Industries MPi-54 MLOK,9,0.14,-6,-7,,,,,,,,1000
 ,,ptr_mp5_trirail_handguard,CTR Tri-Rail MP5,7,0.11,-8,-6,,,,,,,,900
 ,,tas_hx5_mp5_picatinny_handguard,TAS HX-5 MP5,8,0.18,-7,-6,,,,,,,,2500
 ,mp5_lower_receiver,,,,,,,,,,,,,,

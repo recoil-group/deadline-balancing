@@ -1499,8 +1499,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,gdr_zvn_64_night_rear_sight_akm,German Democratic Republic ZVN-64 Rear Night Shooting,1,0.02,,,,,,,,,,200
 ,akm_barrel,,,,,,,,,,,,,,
 ,,kazarov_akm_415mm_7.62x39_barrel,Kazarov AKM 415mm 7.62x39,-6,0.55,-7,-8,,0,,43,,,,0
-,,cjam_ak_318mm_7.62x39_barrel,CJAM AK 318mm 7.62x39,0,0.4,1,0,,0.2,-0.06,-103,,,,0
-,,cjam_ak_368mm_7.62x39_barrel,CJAM AK 368mm 7.62x39,-3,0.47,-3,-4,,0.1,-0.03,-30,,,,0
+,,cjam_ak_318mm_7.62x39_barrel,CJAM AK 318mm 7.62x39,0,0.36,-3,-4,,0.16,-0.1,-151,,,,1500
+,,cjam_ak_368mm_7.62x39_barrel,CJAM AK 368mm 7.62x39,-4,0.41,-5,-6,,0.08,-0.05,-54,,,,1200
 ,,al_qadissiya_tabuk_sniper_600mm_7.62x39_barrel,Al-Qadissiya Tabuk Sniper 600mm 7.62x39,-8,0.96,-9,-10,,-0.3,,120,,,,1000
 ,akm_gasblock,,,,,,,,,,,,,,
 ,,kazarov_akm_gasblock,Kazarov AKM,0,0.06,,,,,,,,,,0

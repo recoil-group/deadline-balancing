@@ -1,0 +1,31 @@
+name: Sync main from upstream
+
+on:
+  schedule:
+    - cron: '23 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-upstream
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.repository_owner != 'recoil-group'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Merge upstream main
+        run: |
+          git config user.name "${{ github.repository_owner }}"
+          git config user.email "306224463+johnbachspec@users.noreply.github.com"
+          git remote add upstream https://github.com/recoil-group/deadline-balancing.git
+          git fetch upstream main
+          git merge --no-edit upstream/main
+          git push origin HEAD:main

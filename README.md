@@ -65,10 +65,11 @@ Each version has up to two files:
 - `x-y-z.csv` — a frozen snapshot of `balancing.csv` at release. Never apply
   renames to it. Only fix genuine errors in the snapshot itself, such as a
   shifted column or a dropped row.
-- `x-y-z-renamed.csv` — the same snapshot with every rename made *since* that
-  release applied forward. This is the base for the next version's changelog.
-  Create it the first time a rename lands after the release; `rename.py` keeps
-  it current from then on.
+- `x-y-z-renamed.csv` — an older copy of the snapshot with renames applied
+  forward, kept as a changelog base.
+
+Do not apply renames to any file in `archive/`, including the `-renamed.csv`
+copies. Renames go to root sheets only.
 
 Renaming the frozen snapshot in place breaks changelog regeneration for that
 version: its base sheet still uses the old names, so every renamed attachment
@@ -115,12 +116,12 @@ Applies `renames.csv` to the `name` column of CSV and Excel sheets. Usage:
 
 ```bash
 python rename.py (sheets...) [--dry-run]
-python rename.py *.csv archive/*-renamed.csv changes/* --dry-run
+python rename.py *.csv changes/* --dry-run
 python rename.py balancing.csv "changes/m4-handguards.xlsx"
 ```
 
 - Add the rename to `renames.csv` first, then run this against the sheets it
-  should reach. Never include the frozen `archive/x-y-z.csv` snapshots.
+  should reach. Never include anything under `archive/`.
 - Rename chains are resolved to the final name, and a loop or a conflicting
   pair is an error.
 - A rename is skipped when the new name already exists in that sheet, since it

@@ -54,7 +54,8 @@ When the user gives `old_name -> new_name` pairs or asks for renames:
 
 - Append the pairs to `renames.csv`.
 - Apply them with `rename.py`, which rewrites only the `name` column; leave `pretty_name` alone. `README.md` documents its usage.
-- Grep the old names and pass every ROOT level sheet keyed by them (ignore /changes), plus the latest /archive *-renamed.csv for changelog generation.
+- Grep the old names and pass every ROOT level sheet keyed by them (ignore /changes).
+- Never touch names in `archive/`, including the `*-renamed.csv` files.
 - Dry run first: the script applies the whole list, so rows beyond the requested pairs are sheets that missed an earlier rename. Report those and any `!` collisions.
 
 ## Related Source and Studio Context

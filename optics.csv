@@ -159,3 +159,5 @@ id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black
 157,holostar_hx510c_gr_reflex,not_magnified,7,0.4, ,false,false
 158,kf_416_2mm_flip_up_sight_aperture,not_magnified, , , ,false,false
 159,azimuth_duty4s_sight,not_magnified,13,0.15, ,false,false
+160,veles_chelomo_pk_aw_1x20_red_dot,not_magnified,6,4, ,false,false
+161,kf_std_picatinny_rear_diopter_sight,not_magnified, , , ,false,false

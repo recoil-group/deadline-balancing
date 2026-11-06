@@ -1381,6 +1381,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sag_bit_rail,SAG Bit Low Profile Dovetail Mount,,,,,,,,,,,,0
 ,,geiss_zfk_4x25_scope,Geiss ZFK 4x25 Scope,-3,0.27,0,-1,,,,,,,,1300
 ,,chelomo_pk_a_1x20_dovetail_scope,ChelOMO PK-A 1x20 Scope,-2,0.19,,,,,,,,,,1000
+,,veles_chelomo_pk_aw_1x20_red_dot,Veles ChelOMO PK-AW 1x20,-1,0.16,,,,,,,,,,1200
 ,,npz_nspu_m_3.5x_1pn58,NPZ NSPU-M 3.5x (1PN58),-7,0.45,0,-2,,,,,,,,2500
 ,ak_gas_tube,,,,,,,,,,,,,,
 ,,kazarov_akm_6p1_sb1_2_gastube,Kazarov AKM 6P1 Sb.1-2,0,0.08,,,,,,,,,,0
@@ -2246,7 +2247,11 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,hk_psg1_plunger,,,,,,,,,,,,,,
 ,,hk_psg1_fa_plunger,SKG-31 Receiver Bolt FA,0,0.01,0,0,,,,,,,,0
 ,hk_pattern_front_sight,,,,,,,,,,,,,,
-,,hk_pattern_regular_front_sight,Pattern Regular,1,0.01,,,,,,,,,,0
+,,kf_pattern_round_front_sight_post,Pattern Round,1,0.01,,,,,,,,,,0
+,,kf_pattern_half_front_sight_post,Pattern Half,1,0.01,,,,,,,,,,0
+,,kf_std_picatinny_front_sight_base,KF Std. Picatinny Front Base,0,0.02,,,,,,,,,,200
+,,kf_std_picatinny_rear_diopter_sight_base,KF Std. Picatinny Rear Diopter Base,0,0.02,,,,,,,,,,200
+,,kf_std_picatinny_rear_diopter_sight,KF Std. Picatinny Rear Diopter,1,0.02,,,,,,,,,,0
 ,hk_g3/mp5_trigger,,,,,,,,,,,,,,
 ,,hk_g3_std_trigger,KG-31 Standard,0,0.04,,,,,,,,,,0
 ,hk_g3_barrel,,,,,,,,,,,,,,
@@ -2510,6 +2515,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ewc_5.56x45_blackout_18_tooth_flash_hider,EWC 5.56x45 Blackout 18-Teeth,2,0.04,-11,-13,,0,0,0,,,0,500
 ,,hel_e4a_m16a1_5.56x45_suppressor,HEL E4A M16A1 5.56x45,-5,0.38,-16,-18,,-0.1,0.09,60,,,-0.18,1700
 ,,hallen_engineering_m4_delta_5.56x45_suppressor,Hallen Engineering M4 Delta 5.56x45,-5,0.42,-16,-19,,-0.13,0.09,70,,,-0.2,2000
+,,noxtec_5.56x45_qd_flash_hider,Noxtec 5.56x45 QD,2,0.07,-9,-15,,0,0,0,,,0,500
+,,noxtec_stream_556k_suppressor,Noxtec Stream 556K,-3,0.23,-12,-14,,-0.11,0.1,30,,,-0.05,2500
+,,felix_defense_rumbler_muzzle_brake,Felix Defense Rumbler,-1,0.11,-13,-18,,0,0,0,,,0.06,1000
 ,9x19_muzzle_device,,,,,,,,,,,,,,
 ,,custom4port,CUSTOM4PORT,-2,0.07,-10,-2,,0,0,10,,,,500
 ,,fd917,FD917,-8,0.25,-6,-14,,-0.08,0.14,200,,,,2000
@@ -2623,6 +2631,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,rsa_sg58_folding_spr_para_stock_buttpad_mount,RSA SG58 Folding Para SPR,,0.03,,,,,,,,,,0
 ,,rsa_sg58_folding_spr_para_stock_cheek_riser,RSA SG58 Folding Para SPR,,0.06,,,,,,,,,,0
 ,,rsa_sg58_folding_spr_para_stock_buttpad,RSA SG58 Folding Para SPR,1,0.04,,,,,,,,,,0
+,,rsa_sg58_adjustable_brs_stock_mount,RSA SG58 Adjustable BRS,12,0.08,-10,-15,,,,,,,,1000
+,,rsa_sg58_adjustable_brs_stock_body,RSA SG58 Adjustable BRS,,0.18,,,,,,,,,,0
+,,rsa_sg58_adjustable_brs_cheek_rest,RSA SG58 Adjustable BRS,,0.04,,,,,,,,,,0
+,,rsa_sg58_adjustable_brs_extendable,RSA SG58 Adjustable BRS,,0.08,,,,,,,,,,0
 ,sa58_front_sight,,,,,,,,,,,,,,
 ,,fnb_precision_far_duplex_front_sight,F&B Precision FAR Duplex,1,0.01,,,,,,,,,,200
 ,,rsa_metric_front_sight_size4,RSA Metric Size 4,1,0.01,,,,,,,,,,0

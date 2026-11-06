@@ -2631,7 +2631,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,rsa_sg58_folding_spr_para_stock_buttpad_mount,RSA SG58 Folding Para SPR,,0.03,,,,,,,,,,0
 ,,rsa_sg58_folding_spr_para_stock_cheek_riser,RSA SG58 Folding Para SPR,,0.06,,,,,,,,,,0
 ,,rsa_sg58_folding_spr_para_stock_buttpad,RSA SG58 Folding Para SPR,1,0.04,,,,,,,,,,0
-,,rsa_sg58_adjustable_brs_stock_mount,RSA SG58 Adjustable BRS,12,0.08,-10,-15,,,,,,,,1000
+,,rsa_sg58_adjustable_brs_stock_mount,RSA SG58 Adjustable BRS,14,0.08,-10,-11,,,,,,,,1000
 ,,rsa_sg58_adjustable_brs_stock_body,RSA SG58 Adjustable BRS,,0.18,,,,,,,,,,0
 ,,rsa_sg58_adjustable_brs_cheek_rest,RSA SG58 Adjustable BRS,,0.04,,,,,,,,,,0
 ,,rsa_sg58_adjustable_brs_extendable,RSA SG58 Adjustable BRS,,0.08,,,,,,,,,,0

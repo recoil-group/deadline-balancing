@@ -18,7 +18,7 @@ id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black
 16,veles_chelomo_pso1,22,5,0.1,4.5,true,false
 17,geiss_zfk_4x25_scope,22,5,0.2,5,true,false
 18,chelomo_pk_a_1x20_dovetail_scope,70,5,0.2, ,false,false
-19,npz_nspu_m_3.5x_1pn58,22,5,0.1,5.5,true,false
+19,npz_nspu_m_3.5x_1pn58,22,5,0.1,1,true,false
 20,adron_kobra_ekp_8_02_mount,not_magnified, , , ,false,false
 21,npz_po1x20_1p76_rakurs_a,70,5,0.1,4.5,true,false
 22,ak12_gen2_dustcover,not_magnified, , , ,false,true

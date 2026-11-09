@@ -1124,7 +1124,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,5.56x45_steyr_aug_austrian_42r,Löwenherz AUG A3 Austrian 5.56x45 42R,-6,0.58,,,42,,,,,,,1600
 ,,5.56x45_steyr_aug_austrian_30r,Löwenherz AUG A3 Austrian 5.56x45 30R,1.5,0.44,,,30,,,,,,,0
 ,,5.56x45_magtap_pmag_m3_30r,Magtap PMAG M3 5.56x45 30R,1,0.41,,,30,,,,,,,1000
-,,5.56x45_adapt2_mod3_30r,ADAPT2 MOD3 5.56x45 30R,1,0.41,,,30,,,,,,,1000
+,,5.56x45_adapt2_mod3_30r,ADAPT2 MOD3 5.56x45 30R,2,0.45,,,30,,,,,,,2000
 ,,5.56x45_kf_416_gen_3_magazine,KF-416 30R Gen 3,1,0.41,,,30,,,,,,,1500
 ,,5.56x45_hk_polymer_transparent_30r,Polymer 30R Transparent Mag,1,0.41,,,30,,,,,,,1300
 ,,5.56x45_aft_30r,AF Tournai 30R,1,0.42,,,30,,,,,,,1200

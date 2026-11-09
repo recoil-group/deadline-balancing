@@ -18,7 +18,7 @@ id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black
 16,veles_chelomo_pso1,22,5,0.1,4.5,true,false
 17,geiss_zfk_4x25_scope,22,5,0.2,5,true,false
 18,chelomo_pk_a_1x20_dovetail_scope,70,5,0.2, ,false,false
-19,npz_nspu_m_3.5x_1pn58,22,5,0.1,5.5,true,false
+19,npz_nspu_m_3.5x_1pn58,22,5,0.1,1,true,false
 20,adron_kobra_ekp_8_02_mount,not_magnified, , , ,false,false
 21,npz_po1x20_1p76_rakurs_a,70,5,0.1,4.5,true,false
 22,ak12_gen2_dustcover,not_magnified, , , ,false,true
@@ -61,9 +61,9 @@ id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black
 59,azimuth_micro_t2_sight,not_magnified,10,0.2, ,false,false
 60,alistair_ar536_prism_5x_sight_carry_handle,16,5,0.2,3.5,true,false
 61,alistair_ar332_prism_3x_sight_carry_handle,30,5,0.2,3.5,true,false
-62,virticon_arcs_ta31_milspec_4x_scope_carry_handle,23,8,0.2,3.5,true,false
-63,virticon_arcs_ta01_4x_scope_carry_handle,23,8,0.2,3.5,false,false
-64,virticon_arcs_ta31_comspec_4x_scope_carry_handle,23,8,0.2,3.5,true,false
+62,virticon_arcs_ta31_milspec_4x_scope_carry_handle,23,8,0.2,4,true,false
+63,virticon_arcs_ta01_4x_scope_carry_handle,23,8,0.2,4,false,false
+64,virticon_arcs_ta31_comspec_4x_scope_carry_handle,23,8,0.2,4,true,false
 65,virticon_arcs_ta11d_bac_carry_handle,30,8,0.2,3.5,true,false
 66,hart_retro_a1_4x21_scope,22,5,0.1,4.5,true,false
 67,ultracross_electro_4x20_bdc_scope,22,5,0.1,4,true,false
@@ -90,9 +90,9 @@ id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black
 88,usi_l12a1_susat_combat_optic,25,5,0.1,5,true,false
 89,alistair_ar536_prism_5x_sight,16,5,0.2,3.5,true,false
 90,alistair_ar332_prism_3x_sight,30,5,0.2,3.5,true,false
-91,virticon_arcs_ta31_milspec_4x_scope,23,5,0.2,3.5,true,false
-92,virticon_arcs_ta01_4x_scope,23,8,0.2,3.5,false,false
-93,virticon_arcs_ta31_comspec_4x_scope,23,5,0.2,3.5,true,false
+91,virticon_arcs_ta31_milspec_4x_scope,23,5,0.2,4,true,false
+92,virticon_arcs_ta01_4x_scope,23,8,0.2,4,false,false
+93,virticon_arcs_ta31_comspec_4x_scope,23,5,0.2,4,true,false
 94,virticon_arcs_ta11d_bac,30,5,0.2,3.5,true,false
 95,virticon_rx01/06_series_1x24_reflex_sight,not_magnified,10,0.33, ,false,false
 96,virticon_rx01/06_series_1x24_reflex_sight_ch,not_magnified,10,0.33, ,false,false
@@ -143,7 +143,7 @@ id,name,aim_fov,brightness_default,brightness_nv,eye_relief_sensitivity,is_black
 141,virticon_sps02,not_magnified,10,0.33, ,false,false
 142,veles_chelomo_prc_red_dot,not_magnified,6,4, ,false,false
 143,sig_sauer_bravo4_4x30,22,10,0.33,4,true,false
-144,cosmotac_mark_3_tactical_gen2_3_9x42,not_magnified,10,0.1,7,true,false
+144,cosmotac_mark_3_tactical_gen2_3_9x42,not_magnified,10,0.1,6,true,false
 145,elcan_specter_os4x_sfov4,22,5,0.33,5.5,false,false
 146,emberfield_mg_kemper_xl_reflex_sight,not_magnified,10,0.5, ,false,false
 147,vortex_optics_razor_amg_uh1_gen1_sight,not_magnified,5,0.2, ,false,false

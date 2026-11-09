@@ -977,8 +977,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kalis_scalar_gen1_sabl00_hinged_buffer_tube_adapter,KALIS Scalar Gen I SABL00 Hinged Buffer Tube Adapter,0,0.08,0,0,,,,,,,,800
 ,,kalis_scalar_gen2_late_folding_buffer_tube_adapter,KALIS Scalar Gen II Late Folding Stock Adapter,0,0.04,0,0,,,,,,,,400
 ,,kalis_scalar_ambi_folding_stock_hinge,KALIS Scalar Ambi Folding Stock Hinge,0,0.04,0,0,,,,,,,,800
-,,kalis_scalar_gen2_late_folding_stock_mount,KALIS Scalar Gen II Late Folding Stock Mount,0,0.05,0,0,,,,,,,,0
-,,kalis_scalar_gen2_late_folding_stock,KALIS Scalar Gen II Late Folding Stock,20,0.2,-6,-11,,,,,,,,1250
+,,kalis_scalar_gen2_late_folding_stock_mount,KALIS Scalar Gen II Late Folding Stock Mount,20,0.05,-6,-11,,,,,,,,0
+,,kalis_scalar_gen2_late_folding_stock,KALIS Scalar Gen II Late Folding Stock,0,0.2,0,0,,,,,,,,1250
 ,,kalis_scalar_pistol_pqdbl00_qd_sling_swivel,KALIS Scalar Pistol QD Sling Swivel,5,0.06,7,7,,0.5,,,,,,500
 ,vector_gen3_stock,,,,,,,,,,,,,,
 ,,kalis_scalar_gen3_picatinny_stock_rail,KALIS Scalar Gen III Picatinny,0,0.03,0,0,,,,,,,,100

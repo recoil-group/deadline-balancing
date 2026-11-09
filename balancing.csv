@@ -2520,9 +2520,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,ewc_5.56x45_blackout_18_tooth_flash_hider,EWC 5.56x45 Blackout 18-Teeth,2,0.04,-11,-13,,0,0,0,,,0,500
 ,,hel_e4a_m16a1_5.56x45_suppressor,HEL E4A M16A1 5.56x45,-5,0.38,-16,-18,,-0.1,0.09,60,,,-0.18,1700
 ,,hallen_engineering_m4_delta_5.56x45_suppressor,Hallen Engineering M4 Delta 5.56x45,-5,0.42,-16,-19,,-0.13,0.09,70,,,-0.2,2000
-,,noxtec_5.56x45_qd_flash_hider,Noxtec 5.56x45 QD,2,0.07,-9,-15,,0,0,0,,,0,500
+,,noxtec_5.56x45_qd_flash_hider,Noxtec 5.56x45 QD,2,0.07,-10,-13,,0,0,0,,,0,500
 ,,noxtec_stream_556k_suppressor,Noxtec Stream 556K,-3,0.23,-12,-14,,-0.11,0.1,30,,,-0.05,2500
-,,felix_defense_rumbler_muzzle_brake,Felix Defense Rumbler,-1,0.11,-13,-18,,0,0,0,,,0.06,1000
+,,felix_defense_rumbler_muzzle_brake,Felix Defense Rumbler,-1,0.11,-12,-18,,0,0,0,,,0.06,1000
 ,9x19_muzzle_device,,,,,,,,,,,,,,
 ,,custom4port,CUSTOM4PORT,-2,0.07,-10,-2,,0,0,10,,,,500
 ,,fd917,FD917,-8,0.25,-6,-14,,-0.08,0.14,200,,,,2000

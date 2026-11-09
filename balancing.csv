@@ -1176,8 +1176,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,custom_hart_smg_9x19_50r_extension,Custom Hart SMG 9x19 50R Extension,-45,0.57,,,50,,,,,,,5000
 ,,custom_hart_smg_mag_coupler,Custom Hart SMG 9x19,-2,0.1,,,,,,,,,,0
 ,magazine_762x25mm_tt33,,,,,,,,,,,,,,
-,,tt33_std_8rnd,TT-33 Std. Single Stack 8R,27,0.09,,,8,,,,,,,0
-,,tt33_extended_16r_mag,TT-33 Custom Welded Single Stack Extended 16R,10,0.18,,,16,,,,,,,1000
+,,tt33_std_8rnd,TT-33 Std. Single Stack 8R,0,0.09,,,8,,,,,,,0
+,,tt33_extended_16r_mag,TT-33 Custom Welded Single Stack Extended 16R,-7,0.18,,,16,,,,,,,1000
 ,magazine_9x18,,,,,,,,,,,,,,
 ,,custom_pm_ppsh_9x18_84r_drum_mag,Custom PM/PPSH 9x18 84R Drum,-12,0.88,4,-1,84,,,,,,,5000
 ,,izhevsk_pm_9x18_8r_magazine,Izhevsk PM 9x18 8R,0,0.09,,,8,,,,,,,0
@@ -1733,7 +1733,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,acp95_side_rail,ACP95 Side Rail,-0.5,0.03,0,0,,,,,,,,0
 ,tt33_barrel,,,,,,,,,,,,,,
 ,,tt33_116mm_barrel,TT33 116mm,0,0.16,-5,-5,,0,0,0,,,,0
-,,tt33_124mm_threaded_barrel,TT33 124mm Threaded,-1,0.17,-2,-4,,0.05,,30,,,,2000
+,,tt33_124mm_threaded_barrel,TT33 124mm Threaded,-1,0.17,-2,-4,,0.02,,30,,,,2000
 ,tt33_barrel_bushing,,,,,,,,,,,,,,
 ,,tt33_barrel_bushing,TT33,0,0.02,,,,,,,,,,0
 ,,tt_pmlaser_dtk_compensator,TT PM-Laser DTK-TT,-1,0.05,-3,-10,,0,0,-100,,,,500
@@ -1743,20 +1743,20 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,tt33_grip,,,,,,,,,,,,,,
 ,,add_ivory_lanyard_grip,ADD Ivory Lanyard,4,0.06,0,1,,,,,,,,2000
 ,,razor_arms_g02,Razor Arms G02,6,0.08,1,2,,,,,,,,1000
-,,tt33_std_grip,TT33 Std.,3,0.06,,,,,,,,,,0
+,,tt33_std_grip,TT33 Std.,0,0.06,,,,,,,,,,0
 ,tt33_hammer,,,,,,,,,,,,,,
 ,,tt33_hammer,TT33,0,0.03,,,,,,,,,,0
 ,tt33_hammer_group,,,,,,,,,,,,,,
 ,,tt33_hammer_group,TT33,0,0.04,,,,,,,,,,0
 ,tt33_mag_bottomplate,,,,,,,,,,,,,,
-,,tt33_std_mag_btmplt,TT-33 Std. Mag,1,0.01,,,,,,,,,,0
-,,allpistolsprings_tt33_+1r_mag_extension,AllPistolSprings TT-33 (+1 Round),0,0.03,,,1,,,,,,,750
+,,tt33_std_mag_btmplt,TT-33 Std. Mag,0,0.01,,,,,,,,,,0
+,,allpistolsprings_tt33_+1r_mag_extension,AllPistolSprings TT-33 (+1 Round),-1,0.03,,,1,,,,,,,750
 ,tt33_mag_release,,,,,,,,,,,,,,
 ,,tt33_mag_release,TT33,0,0.01,,,,,,,,,,0
 ,tt33_slide,,,,,,,,,,,,,,
-,,tt33_postwar_slide,TT33 Post-war 1949,1,0.16,0,0.5,,,,,,,,0
-,,tt33_prewar_slide,TT33 Pre-war 1935,0,0.15,0,0,,,,,,,,0
-,,tt33_mod_postwar_slide,TT33 Modified Full-Auto Post-war 1949,0,0.16,7,10,,0.1,,,,,,4000
+,,tt33_postwar_slide,TT33 Post-war 1949,0,0.16,0,0.5,,,,,,,,0
+,,tt33_prewar_slide,TT33 Pre-war 1935,-1,0.15,0,0,,,,,,,,0
+,,tt33_mod_postwar_slide,TT33 Modified Full-Auto Post-war 1949,-1,0.16,7,10,,0.1,,,,,,4000
 ,tt33_slide_catch,,,,,,,,,,,,,,
 ,,tt33_slide_catch,TT33,0,0.01,,,,,,,,,,0
 ,tt33_trigger,,,,,,,,,,,,,,
@@ -1765,7 +1765,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,3d_printed_triggerguard_rail_mount,3D Printed Trigger Guard,-1,0.03,,,,,,,,,,800
 ,,tt_virginia_gear_tactical_lam_module_tt33,TT Virginia Gear Tactical Precision LAM-module,-2,0.05,,,,,,,,,,600
 ,tt33_upper_rail_adapter,,,,,,,,,,,,,,
-,,tt_c_optic_rail,TT-C Optic,-0.5,0.04,,,,,,,,,,1000
+,,tt_c_optic_rail,TT-C Optic,0,0.03,,,,,,,,,,1000
 ,pm_makarov_mag_bottomplate,,,,,,,,,,,,,,
 ,,izhevsk_pm_mag_bottomplate,Izhevsk PM Magazine,0,0.01,,,,,,,,,,0
 ,,fireline_+2r_ext_pm_mag_plate,FireLine PM Makarov (+2 Round),-2,0.04,,,2,,,,,,,1000
@@ -3262,7 +3262,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,TestSmoke,TestSmoke,,,,,,,,,,,,2000
 ,pistol,,,,,,,,,,,,,,
 ,,Makarov,Pistolet Makarova,75,0,25,25,0,1,1,900,,,1,2000
-,,TT33,Tokarev TT-33,45,0,40,40,0,1,0.98,1100,,,1,5000
+,,TT33,Tokarev TT-33,77,0,40,40,0,1,0.98,1100,,,1,5000
 ,,EDC_X9,Whitner Defense EDC X9,85,0,25,45,0,0.9,1,1200,,,1,40000
 ,,KOSCH,KOSCH,70,0,25,35,0,1,1,1200,,,1,0
 ,,Glock20,Glock 20,60,0.4,40,70,0,1.1,1,1000,,,1,10000

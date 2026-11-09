@@ -87,7 +87,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,magtap_xtm_enhanced_handstop_1,Magtap XTM Enhanced Handstop Piece,6,0.03,-1,0,,,,,,,,50
 ,,magtap_xtm_enhanced_half_panel_1,Magtap XTM Enhanced Modular Half Panel Piece,0.25,0.01,,,,,,,,,,50
 ,,magtap_xtm_enhanced_panel_1,Magtap XTM Enhanced Modular Panel Piece,0.5,0.02,,,,,,,,,,50
-,,magtap_xtm_enhanced_short_handstop_1,Magtap XTM Enhanced Short Handstop Piece,6,0.02,0,-2,,,,,,,,50
+,,magtap_xtm_enhanced_short_handstop_1,Magtap XTM Enhanced Short Handstop Piece,0.5,0.02,,,,,,,,,,50
 ,,xtm_full_handstop,Magtap XTM Full Handstop,6,0.09,-2,-2,,,,,,,,500
 ,,fab_tech_usgi_rear_buis_base,MaTech USGI Rear BUIS Base,0,0.03,,,,,,,,,,200
 ,,maxwell_grip,Legally Distinct Feline,,4,,,,,,,,,,10000
@@ -1869,7 +1869,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pachmayr_tactical_glock_grip_glove,Pachmayr Tactical Glock Grip,3,0.05,0,0,,,,,,,,750
 ,,pachmayr_rubber_grip_for_g20,Pachmayr Rubber,3,0.05,0,0,,,,,,,,750
 ,glock_stock,,,,,,,,,,,,,,
-,,glr_17,GLR-17,-5,0.15,-2,-8,,-0.15,,,,,,1500
+,,glr_17,GLR-17,-5,0.15,-2,-8,,-0.05,,,,,,1500
 ,,tsa_g,TSA G,-15,0.14,7,7,,,,,,,,2000
 ,glock_front_sight,,,,,,,,,,,,,,
 ,,truglo_glock_tfx_fs,Truglo TFX,1,0.03,,,,,,,,,,500

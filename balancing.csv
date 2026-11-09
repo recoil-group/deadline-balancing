@@ -2631,14 +2631,14 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,sa58_folding_stock,,,,,,,,,,,,,,
 ,,rsa_sg58_metric_para_folding_stock,RSA SG58 Metric Para Folding,13,0.32,-7,-11,,,,,,,,500
 ,,rsa_metric_para_buffer_tube_adapter,RSA Para Metric Buffer Tube,-3,0.05,1,2,,,,,,,,1000
-,,rsa_sg58_folding_spr_para_stock_body,RSA SG58 Folding Para SPR,15,0.26,-10,-7,,-0.05,,,,,,3000
+,,rsa_sg58_folding_spr_para_stock_body,RSA SG58 Folding Para SPR,16,0.26,-10,-7,,-0.05,,,,,,3000
 ,,rsa_sg58_folding_spr_para_stock_extendable_part,RSA SG58 Folding Para SPR,,0.04,,,,,,,,,,0
 ,,rsa_sg58_folding_spr_para_stock_buttpad_mount,RSA SG58 Folding Para SPR,,0.03,,,,,,,,,,0
 ,,rsa_sg58_folding_spr_para_stock_cheek_riser,RSA SG58 Folding Para SPR,,0.06,,,,,,,,,,0
-,,rsa_sg58_folding_spr_para_stock_buttpad,RSA SG58 Folding Para SPR,1,0.04,,,,,,,,,,0
-,,rsa_sg58_adjustable_brs_stock_mount,RSA SG58 Adjustable BRS,14,0.08,-10,-11,,,,,,,,1000
-,,rsa_sg58_adjustable_brs_stock_body,RSA SG58 Adjustable BRS,,0.18,,,,,,,,,,0
-,,rsa_sg58_adjustable_brs_cheek_rest,RSA SG58 Adjustable BRS,,0.04,,,,,,,,,,0
+,,rsa_sg58_folding_spr_para_stock_buttpad,RSA SG58 Folding Para SPR,,0.04,,,,,,,,,,0
+,,rsa_sg58_adjustable_brs_stock_mount,RSA SG58 Adjustable BRS,14,0.08,-10,-14,,,,,,,,1750
+,,rsa_sg58_adjustable_brs_stock_body,RSA SG58 Adjustable BRS,,0.36,,,,,,,,,,0
+,,rsa_sg58_adjustable_brs_cheek_rest,RSA SG58 Adjustable BRS,,0.08,,,,,,,,,,0
 ,,rsa_sg58_adjustable_brs_extendable,RSA SG58 Adjustable BRS,,0.08,,,,,,,,,,0
 ,sa58_front_sight,,,,,,,,,,,,,,
 ,,fnb_precision_far_duplex_front_sight,F&B Precision FAR Duplex,1,0.01,,,,,,,,,,200

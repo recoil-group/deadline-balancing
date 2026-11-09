@@ -983,8 +983,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,vector_gen3_stock,,,,,,,,,,,,,,
 ,,kalis_scalar_gen3_picatinny_stock_rail,KALIS Scalar Gen III Picatinny,0,0.03,0,0,,,,,,,,100
 ,,kalis_scalar_gen3_folding_stock_hinge,KALIS Scalar Gen III Folding Stock,0,0.04,0,0,,,,,,,,500
-,,kalis_scalar_gen3_folding_stock_mount,KALIS Scalar Gen III Folding Stock,0,0.05,0,0,,,,,,,,0
-,,kalis_scalar_gen3_folding_stock,KALIS Scalar Gen III Folding,21,0.12,-7,-8,,,,,,,,1750
+,,kalis_scalar_gen3_folding_stock_mount,KALIS Scalar Gen III Folding Stock,21,0.05,-7,-8,,,,,,,,0
+,,kalis_scalar_gen3_folding_stock,KALIS Scalar Gen III Folding,0,0.12,0,0,,,,,,,,1750
 ,,kalis_scalar_gen3_buffer_tube_adapter,KALIS Scalar Gen III Buffer Tube,0,0.07,0,0,,,,,,,,800
 ,vector_receiver_frame,,,,,,,,,,,,,,
 ,,kalis_scalar_receiver_metal_frame,KALIS Scalar Receiver,0,0.18,,,,,,,,,,0

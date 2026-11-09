@@ -58,6 +58,7 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 57,worn_wood,Worn Wood,#4f4339,default,experience_based,5000,,tabuk wood
 58,beach_wood,Beach Wood,#4f4339,default,experience_based,6000,,wood
 59,walnut_wood,Walnut Wood,#4f4339,default,experience_based,8000,,wood
+59,walnut,Walnut Wood,#4f4339,default,experience_based,8000,,p226 wood
 60,ak_wood,AK Wood,#4f4339,default,experience_based,10000,,crazy romanian grip
 61,tan_painted,Tan Painted,#736a61,default,experience_based,3000,,wood painted
 62,kac_od_painted,PAC OD Painted,#4a5045,default,experience_based,5000,,wood painted

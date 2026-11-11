@@ -634,7 +634,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,taclite_mrac_picatinny_rail_mounting_plates,TACLITE M-RAC Picatinny Rail,-0.5,0.04,,,,,,,,,,400
 ,ar15_buffer,,,,,,,,,,,,,,
 ,,sb_tactical_vector_brace,SB Tactical Vector Brace,18,0.28,-4,-4,,,,,,,,500
-,,starsurp_starsurp_apex_m4_socom_gen4_stock,StarSurp APEX M4 SOCOM Gen4,14,0.32,-9,-9,,,,,,,,1000
+,,starsurp_apex_m4_socom_gen4_stock,StarSurp APEX M4 SOCOM Gen4,14,0.32,-9,-9,,,,,,,,1000
 ,,kf_416_enhanced_buffer_tube,KF416 Enhanced,-1,0.15,,-3,,,,,,,,400
 ,,si_ar_are_t7_buffer_tube,Smite Industries Advanced Receiver Extension T7,-1,0.13,-1,-1,,,,,,,,600
 ,,hart_buffer_tube,Hart,-2,0.15,-2,-2,,,,,,,,0
@@ -1780,8 +1780,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,7.62x54r_pga_rifle_150gr_spbt,7.62x54R ZiM Rifle Line 150gr SPBT,0,0.1,1,1,,0.1,,100,,,,2000
 ,,7.62x54r_norilsk_7t2m_149gr_green_tracer,7.62x54R Norilsk 7T2 149gr Green Tracer,1,0.13,3,3,,0.2,,200,,,,1000
 ,ammo_762x39,,,,,,,,,,,,,,
-,,7.62x39_tula_57n231_122gr_ps,7.62x39 Tula 57-N-231 123gr PS,0,0,0,0,,0,,0,,,,0
-,,7.62x39_zim_rifle_123gr_jsp,7.62x39 ZiM Rifle Line 123gr JSP,-2,0.03,3,3,,0.1,,-50,,,,2000
+,,7.62x39_kazarov_57n231_ps_gzh_123gr,7.62x39 Tula 57-N-231 123gr PS,0,0,0,0,,0,,0,,,,0
+,,7.62x39_pga_rifle_123gr_jsp,7.62x39 ZiM Rifle Line 123gr JSP,-2,0.03,3,3,,0.1,,-50,,,,2000
 ,,7.62x39_s&b_sv43_123gr_red_tracer,7.62x39 Sellier & Bellot Sv43 123gr Red Tracer,1,-0.01,-1,0,,0.05,,20,,,,1000
 ,ammo_5.45x39,,,,,,,,,,,,,,
 ,,5.45x39_kazarov_7n6_53gr_ps,Kazarov 7N6 53gr PS,0,0.00,0,0,,0.00,,0,,,,0
@@ -2037,7 +2037,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,hk_psg1_plunger,,,,,,,,,,,,,,
 ,,hk_psg1_fa_plunger,SKG-31 Receiver Bolt FA,0,0.01,0,0,,,,,,,,0
 ,hk_pattern_front_sight,,,,,,,,,,,,,,
-,,hk_pattern_regular_front_sight,Pattern Regular,1,0.01,,,,,,,,,,0
+,,kf_pattern_round_front_sight_post,Pattern Regular,1,0.01,,,,,,,,,,0
 ,hk_g3/mp5_trigger,,,,,,,,,,,,,,
 ,,hk_g3_std_trigger,KG-31 Standard,0,0.04,,,,,,,,,,0
 ,hk_g3_barrel,,,,,,,,,,,,,,
@@ -2941,7 +2941,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,AK308,Kazarov Group AK-308,20,0,80,100,0,0.75,1,1900,,,1,65000
 ,,M4A1,AR-15,15,0,65,85,0,0.6,1,2450,,,1,0
 ,,QBZ95,Sanxian QBZ-95,50,0,50,50,0,0.4,0.92,2500,,,1,25000
-,,SG58,RSA SG58,15,0,85,105,0,0.75,1,1900,,,1,20000
+,,SA58,RSA SG58,15,0,85,105,0,0.75,1,1900,,,1,20000
 ,,SCAR47,HILT Defense MK-76,40,0,55,60,0,0.5,1,1800,,,1,60000
 ,,SCARH,AFT MK-17,5,0,75,80,0,0.6,1,1900,,,1,75000
 ,,SCARL,AFT MK-16,35,0,60,65,0,0.45,1,2450,,,1,40000
@@ -2956,7 +2956,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,MP133,Ladoga MP133,25,0,60,70,1,0.6,1,1000,2,,1,9000
 ,smg,,,,,,,,,,,,,,
 ,,MP5,KF MPi-54,40,0,45,55,0,1.05,1,1200,,,1,5000
-,,Vector,KALIS Scalar Gen II,25,0,60,60,0,1.2,1,900,,,1,90000
+,,SCALAR,KALIS Scalar Gen II,25,0,60,60,0,1.2,1,900,,,1,90000
 ,,MK9,AR-9,30,0,55,70,0,1.05,1,1200,,,1,20000
 ,,UMP,KF UMC-45,60,0,80,90,0,1.05,1,900,,,1,15000
 ,,AK_9,Kazarov Group PP-19-01,30,0,50,65,0,0.9,1,1200,,,1,11000

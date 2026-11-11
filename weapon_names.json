@@ -105,6 +105,16 @@
 			"required_attachments": ["kazarov_group_std_rpk16_559mm_barrel"]
 		}
 	],
+	"AK308": [
+		{
+			"name": "Kazarov Group AK-308 Gen 1",
+			"required_attachments": ["ak308_gen1_lower_receiver", "ak12_gen1_dustcover"]
+		},
+		{
+			"name": "Kazarov Group AK-308 Gen 2",
+			"required_attachments": ["ak308_gen2_lower_receiver", "ak12_gen2_dustcover"]
+		}
+	],
 	"AUG_A3": [
 		{
 			"name": "Löwenherz AUG A1",

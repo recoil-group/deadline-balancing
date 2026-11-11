@@ -767,6 +767,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,m4a1_bolt_catch,,,,,,,,,,,,,,
 ,,m4a1_std_bolt_catch,Hart M4 Standard,0,0.01,,,,,,,,,,0
 ,,ardian_weapons_ar15_extended_bolt_catch,Ardian Weapons AR-15 Extended,1,0.03,,,,,,,,,,300
+,,magtap_ar15_bar_lever,Magtap AR-15 B.A.R. Lever,1,0.06,,-1,,,,,,,,500
 ,m4a1_dust_cover,,,,,,,,,,,,,,
 ,,m4a1_std_dust_cover,Hart M4 Standard,1,0.04,,,,,,,,,,0
 ,m4a1_fire_selector,,,,,,,,,,,,,,

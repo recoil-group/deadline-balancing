@@ -44,10 +44,10 @@ order,name,display_name,color,pbr_material,unlock_type,unlock_value,gamepass_id,
 43,dd_fde_alt,DD FDE Alt,#736a61,default,experience_based,2000,,dd handguard
 44,dd_fde_worn,DD FDE Worn,#736a61,default,experience_based,3000,,dd handguard
 45,dd_fde_worn_alt,DD FDE Alt Worn,#736a61,default,experience_based,4000,,dd handguard
-46,aeroflake_desert,Aeroflake Desert,#736a61,default,experience_based,2000,,aeroknox
-47,aeroflake_forest,Aeroflake Forest,#709954,default,experience_based,4000,,aeroknox
-48,aeroflake_tundra,Aeroflake Tundra,#EEEEEE,default,experience_based,6000,,aeroknox
-49,aeroflake_urban,Aeroflake Urban,#161616,default,experience_based,8000,,aeroknox
+46,equishard_desert,Equishard Desert,#736a61,default,experience_based,2000,,aeroknox
+47,equishard_forest,Equishard Forest,#709954,default,experience_based,4000,,aeroknox
+48,equishard_tundra,Equishard Tundra,#EEEEEE,default,experience_based,6000,,aeroknox
+49,equishard_urban,Equishard Urban,#161616,default,experience_based,8000,,aeroknox
 50,radian_brown,Radian Brown,#4f4339,default,experience_based,2000,,radian
 51,radian_od,Radian OD,#3F603D,default,experience_based,4000,,radian
 52,radian_grey,Radian Grey,#3a3a39,default,experience_based,6000,,radian

@@ -1821,10 +1821,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,10mm_freedom_civil_defense_60gr_hplf,10mm Auto Liberty Civil Defense 60gr HPLF,-1.5,0.01,30,30,,0.1,,300,,,,800
 ,ammo_45acp,,,,,,,,,,,,,,
 ,,45acp_phoenix_brass_230gr_fmj,.45 ACP Phoenix Brass 230gr FMJ,0,0,0,0,,0,0.03,80,,,,0
-,,45acp_winchester_service_grade_230gr_fmj,.45 ACP Winchester Service Grade 230gr FMJ,0,0,0,-1,,0.1,0.06,80,,,,1500
+,,45acp_appalachian_service_grade_230gr_fmj,.45 ACP Winchester Service Grade 230gr FMJ,0,0,0,-1,,0.1,0.06,80,,,,1500
 ,,45acp_munitions_incorporated_230gr_subsonic_tmj,.45 ACP Munitions Incorporated 230gr Subsonic TMJ,2,0,-2,0,,0,-0.13,0,,,,1200
-,,45acp_speer_golddot_230gr_bjhp,.45 ACP Speer Gold Dot 230gr BJHP,1,0,0,1,,0.1,0.14,100,,,,1200
-,,45acp_supernova_225gr_red_tracer,.45 ACP Supernova 225gr Red Tracer,-1,0,0,0,,0.1,-0.12,170,,,,1000
+,,45acp_lance_gold_dot_230gr_bjhp,.45 ACP Speer Gold Dot 230gr BJHP,1,0,0,1,,0.1,0.14,100,,,,1200
+,,45acp_pulsar_225gr_red_tracer,.45 ACP Supernova 225gr Red Tracer,-1,0,0,0,,0.1,-0.12,170,,,,1000
 ,ammo_5.8x42,,,,,,,,,,,,,,
 ,,5.8x42_sanxian_dbp95_64gr_fmj,5.8x42mm Sanxian DBP95 64gr FMJ,0,0.15,0,0,,0,,,,,,0
 ,,5.8x42_sanxian_dbx95_64gr_green_tracer,5.8x42mm Sanxian DBX95 64gr Green Tracer,-1,0.15,-1,-1,,0.05,,-50,,,,1000

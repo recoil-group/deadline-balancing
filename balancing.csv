@@ -246,6 +246,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,kf_416_2mm_flip_up_sight,KF416 2mm Flip Up,0,0.02,,,,,,,,,,0
 ,,kf_416_2mm_flip_up_sight_aperture,Default,1,0.01,,,,,,,,,,0
 ,,kf_416_2mm_flip_up_sight_aperture_folded,Folded,1,0.01,,,,,,,,,,0
+,,centrefire_r300u_b_flashlight,Centrefire R300U-B,0,0.07,,,,,,,,,,2000
 ,stock,,,,,,,,,,,,,,
 ,,validus_la_stock,Validus LA,17,0.2,-12,-6,,,,,,,,900
 ,,kf_416_slim_line_stock,KF416 Slim Line,16,0.26,-5,-19,,,,,,,,1000

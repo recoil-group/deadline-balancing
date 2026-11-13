@@ -25,4 +25,4 @@ id,name,ir_compatible,ir_angle,ir_brightness,ir_flare_distance,ir_flare_strength
 23,whitehouse_raid_xe_g14_high_power_laser_aiming_device,true,45,0.6,0.6,0.15,false,,,,,,
 24,sig_sauer_foxtrot1_flashlight,false,,,,,true,60,3,0.7,0.19,20,4
 25,holotec_eolad_2vi_socom_sighting_system,true,30,0.6,0.8,0.15,false,,,,,,
-26,centrefire_r300u_b_flashlight,false,,,,,true,40,4.5,0.8,0.19,50,5
+26,centrefire_r300u_b_flashlight,false,,,,,true,30,3.5,0.8,0.19,50,3

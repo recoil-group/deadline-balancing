@@ -1,35 +1,35 @@
 ﻿,,NEW,,,,,,,,,,,,,,,,,,,
 name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,price,muzzle_loudness,score,,irl weight (oz),converted weight,,,,
-izhmash_ak74_6p20_020_compensator,Izhmash AK-74 6P20 0-20 Compensator,0,0.08,-11,-15,,0,0,10,,,500,0,16.25,,3.5,0.0825,unsure,,,
-izhmash_ak74m_6p20_020_compensator,Izhmash AK-74M 6P20 0-20 Compensator,0,0.08,-11,-15,,0,0,10,,,250,0,16.25,,,0.03,,,,
-izhmash_ak105_6p44_020_compensator,Izhmash AK-105 6P44 0-20 Compensator,0,0.06,-11,-14,,0,0,0,,0.05,700,0.02,16.15,,,0.03,,,,
-izhmash_aks74u_5.45x39_6p26_020_muzzle_brake,Izhmash AKS74U 6P26 0-20 Muzzle Booster,0,0.07,-11,-14,,0,0,10,,0.123,400,0.04,16.265,,3.4,0.081,unsure,,,
+kazarov_ak74_6p20_020_compensator,Izhmash AK-74 6P20 0-20 Compensator,0,0.08,-11,-15,,0,0,10,,,500,0,16.25,,3.5,0.0825,unsure,,,
+kazarov_ak74m_6p20_020_compensator,Izhmash AK-74M 6P20 0-20 Compensator,0,0.08,-11,-15,,0,0,10,,,250,0,16.25,,,0.03,,,,
+kazarov_ak105_6p44_020_compensator,Izhmash AK-105 6P44 0-20 Compensator,0,0.06,-11,-14,,0,0,0,,0.05,700,0.02,16.15,,,0.03,,,,
+kazarov_aks74u_5.45x39_6p26_020_muzzle_brake,Izhmash AKS74U 6P26 0-20 Muzzle Booster,0,0.07,-11,-14,,0,0,10,,0.123,400,0.04,16.265,,3.4,0.081,unsure,,,
 ak12_std_muzzle_device,Kazarov Group AK-12 Std.,0,0.09,-12,-14,,0,0,10,,,0,0,16.25,,,0.03,,,,
-kalashnikov_concern_ak12k_5.45x39_flash_hider,Kalashnikov Concern AK12K Flash Hider,2,0.06,-10,-12,,0,0,0,,,500,,16,,,0.03,,,,
+kazarov_group_ak12k_5.45x39_flash_hider,Kalashnikov Concern AK12K Flash Hider,2,0.06,-10,-12,,0,0,0,,,500,,16,,,0.03,,,,
 ,,,,,,,,,,,,,,0,,,0.03,,,,
 v762_vrdtl_fh,Vector VR-DTL,3,0.15,-10,-14,,0,0,0,,,750,0,16.4,,7.68972,0.1453458,steel version (not titanium),,,
-dt_dtm_fh,Delta-Tek DPM,1,0.12,-13,-13,,0,0,10,,,750,0,16.85,,6.34931,0.12523965,,,,
-dt_dpmn_fh,Delta-Tek DPMN,2,0.12,-13,-11,,0,0,10,,,750,0,16.65,,6.34931,0.12523965,,,,
+st_dtm_fh,Delta-Tek DPM,1,0.12,-13,-13,,0,0,10,,,750,0,16.85,,6.34931,0.12523965,,,,
+st_dpmn_fh,Delta-Tek DPMN,2,0.12,-13,-11,,0,0,10,,,750,0,16.65,,6.34931,0.12523965,,,,
 ,,,,,,,,,,,,,,0,,,0.03,,,,
 v762_vr04_mb,Vector VR-04,-1.5,0.11,-15,-15,,0,0,10,,,750,0.06,17.05,,4.58562,0.0987843,,,,
 vs_05,VS-05,-0.5,0.1,-14,-14,,0,0,10,,,750,0.04,16.95,,5.60856,0.1141284,unsure,,,
 v762_vr05_mb,Vector VR-05,-1,0.1,-15,-14,,0,0,10,,,750,0.04,17.25,,4.58562,0.0987843,,,,
 v762_vr05t_mb,Vector VR-05T,-1,0.09,-15,-14,,0,0,10,,,750,0.04,17.45,,4.05651,0.09084765,,,,
 v762_vr10m_mb,Vector VR-10M,-0.5,0.12,-12,-16,,0,0,10,,,750,0.03,16.2,,5.64,0.1146,,,,
-dt_dtkai_mb,Delta-Tek DTK AK IPSC,-1.5,0.1,-18,-11,,0,0,10,,,750,0.05,17.3,,4.40925,0.09613875,,,,
-zenitco_dtk_1_muzzle_brake,Zenitco Dtk-1,-2,0.1,-17,-14,,0,0,10,,,1000,0.06,17.75,,4.515067,0.097726005,,,,
+st_dtkai_mb,Delta-Tek DTK AK IPSC,-1.5,0.1,-18,-11,,0,0,10,,,750,0.05,17.3,,4.40925,0.09613875,,,,
+veles_dtk_1_muzzle_brake,Zenitco Dtk-1,-2,0.1,-17,-14,,0,0,10,,,1000,0.06,17.75,,4.515067,0.097726005,,,,
 dtk_2,Veles Dtk-2,-2,0.09,-16,-14,,0,0,0,,,1000,0.07,17.05,,3.703766,0.08555649,,,,
 ,,,,,,,,,,,,,,0,,,0.03,tarkov,tarkov converted,other source,
 tsniitochmash_pbs_4_5.45x39_suppressor,TochMash PBS-4 5.45x39,-5,0.32,-14,-18,,-0.12,0.12,80,,,2000,-0.18,15.5,,,0.03,700,0.400377,610,0.3527571
-hexagon545,Hexagon 5.45,-4,0.3,-16,-15,,-0.1,0.1,70,,,2000,-0.16,15.95,,,0.03,462,0.27444882,,0.03
+hexagon_545,Hexagon 5.45,-4,0.3,-16,-15,,-0.1,0.1,70,,,2000,-0.16,15.95,,,0.03,462,0.27444882,,0.03
 hexagon_dtkp_ak74_5.45x39_suppressor,Hex Tactical DTKP AK74 5.45x39,-3,0.27,-17,-13,,-0.08,0.1,60,,,3000,-0.16,16.9,,,0.03,412,0.24799332,513,0.30143343
 hexagon_dtkp_ak12_5.45x39_suppressor,Hex Tactical DTKP AK12 5.45x39,-3,0.28,-17,-13,,-0.08,0.1,60,,,3000,-0.16,16.7,,,0.03,,0.03,,0.03
 hexagon_dtkp_ak74_shortened_5.45x39_suppressor,Hex Tactical DTKP AK74 Shortened 5.45x39,-2,0.22,-16,-12,,-0.05,0.06,40,,,3500,-0.11,16.05,,,0.03,,0.03,428,0.25645908
 hexagon_dtkp_ak12_shortened_5.45x39_suppressor,Hex Tactical DTKP AK12 Shortened 5.45x39,-2,0.23,-16,-12,,-0.05,0.06,40,,,3500,-0.11,15.85,,,0.03,,0.03,,0.03
-kalashnikov_concern_6ch60_ak12_suppressor,Kalashnikov Concern 6Ch60 AK-12,-5,0.3,-15,-17,,-0.12,0.12,80,,,1000,-0.19,16.15,,,0.03,450,0.2680995,,0.03
+kazarov_group_6ch60_ak12_suppressor,Kalashnikov Concern 6Ch60 AK-12,-5,0.3,-15,-17,,-0.12,0.12,80,,,1000,-0.19,16.15,,,0.03,450,0.2680995,,0.03
 ,,,,,,,,,,,,,,0,,,0.03,,,,
-legal_arsenal_bayonet_thread_adapter_for_ak12,Legal Arsenal Bayonet Thread Adapter for AK-12,0,0.03,0,0,,0,0,0,,,1500,0,-0.6,,,0.03,,,,
-ga_24_1/2,Griffin Armaments 24-1/2,-1,0.04,1,1,,0.05,0,10,,,1000,0,-3.65,,,0.03,,,,
+fireline_bayonet_thread_adapter_for_ak12,Legal Arsenal Bayonet Thread Adapter for AK-12,0,0.03,0,0,,0,0,0,,,1500,0,-0.6,,,0.03,,,,
+gt_24_1/2,Griffin Armaments 24-1/2,-1,0.04,1,1,,0.05,0,10,,,1000,0,-3.65,,,0.03,,,,
 i_24_14_ta,Infinite 24mm-1/2mm,-1,0.06,0,2,,0.05,0,10,,,1000,0,-3.85,,,0.03,,,,
 ,,,,,,,,,,,,,,0,,,0.03,,,,
 ,Surefire SOCOM556 SFMB Muzzle Break,-1,0.09,-17,-11,,0,0,0,,,700,,17.4,,3.9,0.0885,,,,

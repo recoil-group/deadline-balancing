@@ -2425,8 +2425,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,goliath_tactical_aug_bayonet_lug,Goliath Tactical AUG,-1,0.03,,,,,,,,,,500
 ,mosin_barrel,,,,,,,,,,,,,,
 ,,mosin_730mm_barrel,Mosin 730mm,-5,1.5,-2,-10,,-0.2,0.1,348,,,,0
-,,mosin_sawn_off_200mm_barrel,Mosin Sawn Off 200mm,25,0.4,5,10,,0.8,-0.27,-128,,,,1200
-,,mosin_sawn_off_220mm_barrel,Mosin Sawn Off 220mm w/ front sight,22,0.42,4,9,,0.7,-0.27,-93,,,,1200
+,,mosin_sawn_off_200mm_barrel,Mosin Sawn Off 200mm,25,0.4,5,10,,0.8,-0.13,-128,,,,1200
+,,mosin_sawn_off_220mm_barrel,Mosin Sawn Off 220mm w/ front sight,22,0.42,4,9,,0.7,-0.13,-93,,,,1200
 ,,mosin_514mm_barrel,Mosin Regular 514mm,7,1,0,-2,,0.15,0,219,,,,1000
 ,,uk_vz59_546mm_straight_profile_barrel,UK VZ59 546mm Straight Profile,6,1.06,1,-1,,0.1,0.02,240,,,,3000
 ,mosin_barrel_end,,,,,,,,,,,,,,

@@ -276,8 +276,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,ak_fixed_stock,,,,,,,,,,,,,,
 ,,pro_tactical_uas_akn_p,P.R.O Tactical UAS AKN P,16,0.33,-7,-14,,,,,,,,700
 ,,kazarov_ak74_polymer_6p20_sb7,Kazarov AK-74 Polymer 6P20 Sb.7,15,0.22,-8,-11,,,,,,,,600
-,,kazarov_ak74_wooden_6p20_sb5,Kazarov AK-74 Wooden 6P20 Sb.5,15,0.29,-8,-13,,,,,,,,0
-,,kazarov_akm_wooden_6p1_sb5,Kazarov AKM Wooden 6P1 Sb.5,15,0.29,-8,-13,,,,,,,,0
+,,kazarov_ak74_wooden_6p20_sb5,Kazarov AK-74 Wooden 6P20 Sb.5,15,0.29,-9,-12,,,,,,,,0
+,,kazarov_akm_wooden_6p1_sb5,Kazarov AKM Wooden 6P1 Sb.5,15,0.29,-9,-12,,,,,,,,0
 ,,veles_akm_ak74_pt_lock,Veles AKM/AK74 PT Lock,0,0.04,,,,,,,,,,700
 ,,me_adapter,ME Adapter,0,0.13,0,0,,,,,,,,400
 ,,tas_akts_akm_ak74_buffer_tube,TAS AKTS AKM/AK74 Buffer Tube,0,0.13,0,0,,,,,,,,750
@@ -2888,7 +2888,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,veles_pt_3_base_part,Veles PT-3 Adjustable,0,0.11,,,,,,,,,,0
 ,zenitco_pt_buttpad,,,,,,,,,,,,,,
 ,,veles_pt_1_klassika_buttpad,"Veles PT-1 ""Klassika""",13,0.08,-13,-14,,,,,,,,800
-,,veles_pt_3_buttpad,Veles PT-3 Buttpad,22,0.2,-8,-7,,,,,,,,700
+,,veles_pt_3_buttpad,Veles PT-3 Buttpad,22,0.2,-5,-7,,,,,,,,700
 ,,isle_mfg_veles_pt_1_tailhook_adapter,Isle MFG Veles PT-1,6,0.03,-4,-5,,,,,,,,750
 ,zenitco_pt_cheekpad,,,,,,,,,,,,,,
 ,,veles_pt_1_klassika_cheekpad,"Veles PT-1 ""Klassika"" Cheekpad",0,0.06,,,,,,,,,,0

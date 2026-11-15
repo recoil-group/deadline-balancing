@@ -283,7 +283,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,tas_akts_akm_ak74_buffer_tube,TAS AKTS AKM/AK74 Buffer Tube,0,0.13,0,0,,,,,,,,750
 ,,tas_cbs_ar15_stock,TAS CBS AR-15,18,0.23,-9,-8,,,,,,,,700
 ,,ellipse_30_fixed_ak_triangle_stock,Ellipse 30 Fixed AK Triangle,13,0.21,-10,-10,,,,,,,,750
-,,custom_3d_printed_fixed_acr_stock_adapter,Custom 3D Printed Fixed ACR,5,0.16,1,1,,,,,,,,1000
+,,custom_3d_printed_fixed_acr_stock_adapter,Custom 3D Printed Fixed ACR,4,0.16,1,2,,,,,,,,1000
 ,,weapon_dynamics_ak_to_m4_gen2_stock_adapter,Weapon Dynamics AK to M4 Gen2,0,0.1,0,0,,,,,,,,1200
 ,,al_qadissiya_tabuk_sniper_wooden_stock,Al-Qadissiya Tabuk Sniper Wooden,21,0.32,-6,-6,,,,,,,,600
 ,ak_stock_pad,,,,,,,,,,,,,,

@@ -1974,8 +1974,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,9x18_novosibirsk_57_t_181_56gr_red_tracer,Novosibirsk 57-T-181 56gr Red Tracer,1,-0.04,-1,-1,,0.1,,100,,,,500
 ,,9x18_underworld_xtreme_penetrator_95gr_sm,Underworld Xtreme Penetrator 95gr SM,-1,0.01,1,1,,-0.05,,50,,,,1000
 ,,9x18_kazarov_7n25_pbm_56gr_ap,Kazarov 7N25 PBM 56gr AP,1,-0.04,1,-1,,-0.1,,600,,,0.1,2000
-,,9x18_bison_caliber_115gr_hcfn,Bison Caliber 115gr HCFN +P,-2,0.03,1,2,,0.05,,150,,,,1500
-,,9x18_tsniitekhmash_sp7_gzh_80gr,TsNIITekhMash SP7 gzh 80gr,-1,-0.02,3,1,,0.1,,400,,,0.1,2000
+,,9x18_bison_caliber_115gr_hcfn,Bison Caliber 115gr HCFN +P,-2,0.03,55,65,,0.05,,150,,,,1500
+,,9x18_tsniitekhmash_sp7_gzh_80gr,TsNIITekhMash SP7 gzh 80gr,-1,-0.02,66,54,,0.1,,400,,,0.1,2000
 ,ammo_9x19,,,,,,,,,,,,,,
 ,,9x19_roosevelt_umc_115gr_fmj,Roosevelt UMC 115gr FMJ ,0,0,0,0,,0,,0,,,,0
 ,,9x19_appalachian_mk254_mod0_90gr_frangible,Appalachian Mk.254 Mod0 90gr Frangible,0,-0.06,-3,-2,,0,,100,,,,750

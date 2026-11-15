@@ -3179,9 +3179,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sig_sauer_p320_xfull_recoil_spring,Sic Stürmer P320 XFULL,0,0.03,,,,,,,,,,0
 ,,sig_sauer_p320_xcarry_recoil_spring,Sic Stürmer P320 XCARRY,0,0.02,,,,,,,,,,0
 ,sig_sauer_p320_slide,,,,,,,,,,,,,,
-,,sig_sauer_p320_xfull_9x19_slide,Sic Stürmer P320-XFULL 9x19,1,0.16,-2,-3,,,,,,,,0
-,,sig_sauer_m18x_9x19_slide,Sic Stürmer M18X 9x19,4,0.14,-1,0,,,,,,,,3000
-,,sig_sauer_m17x_9x19_slide,Sic Stürmer M17X 9x19,2,0.16,-3,-2,,,,,,,,2000
+,,sig_sauer_p320_xfull_9x19_slide,Sic Stürmer P320-XFULL 9x19,1,0.26,-2,-3,,,,,,,,0
+,,sig_sauer_m18x_9x19_slide,Sic Stürmer M18X 9x19,4,0.24,-1,0,,,,,,,,3000
+,,sig_sauer_m17x_9x19_slide,Sic Stürmer M17X 9x19,2,0.26,-3,-2,,,,,,,,2000
 ,sig_sauer_p320_slide_cover,,,,,,,,,,,,,,
 ,,sic_sturmer_m17_optic_slide_cover,Sic Stürmer M17,1,0.03,,,,,,,,,,250
 ,,sic_sturmer_p320_optic_slide_cover,Sic Stürmer P320,1,0.03,,,,,,,,,,0

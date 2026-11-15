@@ -582,7 +582,10 @@
 				"hart_m4a1_std_upper_receiver",
 				"diemaco_c7_ambi_charging_handle",
 				"hart_a2_std_rifle_plastic_handguard",
-				"diemaco_tri_ad_i_mount",
+				[
+					"diemaco_tri_ad_i_mount",
+					"elcan_c79a2"
+				],
 				[
 					"whtnls_a1_m4a1_5.56x45_508mm_govt_r_barrel",
 					"whtnls_m4a1_5.56x45_508mm_hbar_r_barrel"
@@ -596,7 +599,10 @@
 				"hart_m4a1_std_upper_receiver",
 				"diemaco_c7_ambi_charging_handle",
 				"hart_m4_std_carbine_plastic_handguard",
-				"diemaco_tri_ad_i_mount",
+				[
+					"diemaco_tri_ad_i_mount",
+					"elcan_c79a2"
+				],
 				"whtnls_m4a1_5.56x45_406mm_socom_c_barrel"
 			]
 		}

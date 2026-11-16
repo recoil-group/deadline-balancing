@@ -3265,9 +3265,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sic_sturmer_p_series_oem_decocking_lever,Sic Stürmer P-Series OEM,,0.01,,,,,,,,,,0
 ,,sic_sturmer_p_series_oem_slide_release,Sic Stürmer P-Series OEM,,0.01,,,,,,,,,,0
 ,p226_barrel,,,,,,,,,,,,,,
-,,sic_sturmer_p229_oem_3.9inch_9x19_barrel,"Sic Stürmer P229 OEM 3.9"" 9x19",2,0.07,3,4,,0.1,-0.02,-70,,,,300
-,,sic_sturmer_p229_oem_4.4inch_threaded_9x19_barrel,"Sic Stürmer P229 OEM 4.4"" Threaded 9x19",-1,0.09,2,1,,0.07,,-50,,,,1000
-,,val_bor_p229_4.4inch_threaded_9x19_barrel,"VAL-BOR P229 4.4"" Threaded Match Grade 9x19",-1,0.1,2,2,,0.05,,-50,,,,1500
+,,sic_sturmer_p229_oem_3.9inch_9x19_barrel,"Sic Stürmer P229 OEM 3.9"" 9x19",2,0.07,6,4,,0.1,-0.02,-70,,,,300
+,,sic_sturmer_p229_oem_4.4inch_threaded_9x19_barrel,"Sic Stürmer P229 OEM 4.4"" Threaded 9x19",-1,0.09,5,1,,0.07,,-50,,,,1000
+,,val_bor_p229_4.4inch_threaded_9x19_barrel,"VAL-BOR P229 4.4"" Threaded Match Grade 9x19",-1,0.1,5,2,,0.05,,-50,,,,1500
 ,,sic_sturmer_p226_oem_4.4inch_9x19_barrel,"Sic Stürmer P226 OEM 4.4"" 9x19",0,0.09,0,0,,0.02,,-50,,,,0
 ,,sic_sturmer_p226_oem_5inch_threaded_9x19_barrel,"Sic Stürmer P226 OEM 5"" 9x19",-2,0.12,-1,-1,,0.06,0.01,-20,,,,1200
 ,,suppressors_inc_p226_5inch_threaded_9x19_barrel,"Suppressors Inc. P226 5"" Threaded 9x19",-2,0.13,-1,-1,,0.02,0.01,-20,,,,1800
@@ -3284,7 +3284,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,KOSCH,KOSCH,70,0,25,35,0,1,1,1200,,,1,0
 ,,Glock20,Glock 20,60,0.4,40,70,0,1.1,1,1000,,,1,10000
 ,,P320,Sic Stürmer P320,70,0,30,35,0,1,1,1200,,,1,25000
-,,P226,Sic Stürmer P226,60,0,20,30,0,1,1,1200,,,1,30000
+,,P226,Sic Stürmer P226,60,0,20,25,0,1,1,1200,,,1,30000
 ,rifle,,,,,,,,,,,,,,
 ,,KF416,KF 416,25,0,65,80,0,0.55,1,2450,,,1,30000
 ,,AUG_A3,Löwenherz AUG A3,40,0,55,65,0,0.5,1,2450,,,1,42000

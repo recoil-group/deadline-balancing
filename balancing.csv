@@ -1,4 +1,4 @@
-﻿0.25.4,Thu Nov 12 19:37:12 2026,,,,,,,,,,,,,,
+﻿0.25.4,Sun Nov 15 20:50:50 2026,,,,,,,,,,,,,,
 id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,magazine_capacity,barrel_deviation,bullet_damage,bullet_velocity,buck_barrel_deviation,fire_rate,muzzle_loudness,price
 ,picatinny,,,,,,,,,,,,,,
 ,,paramount_arms_slx_1x_microprism_acss_g2_scope,Paramount Arms SLx 1x MicroPrism ACSS-G2,-1,0.08,,,,,,,,,,1300
@@ -1946,7 +1946,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,7.62x54r_norilsk_7n14_152gr_snb,Norilsk 7N14 Snaiperskaya 152gr SNB,-1,0.01,2,2,,-0.15,,-50,,,0,4000
 ,,7.62x54r_tsniitekhmash_7n37_182gr_bs,TsNIITekhMash 7N37 Chórnoye Górlyshko 182gr BS,-2,0.08,3,7,,-0.1,,200,,,0,5000
 ,,7.62x54r_norilsk_b32m_164gr_api,Norilsk B-32M 162gr API,-2,0.02,2,3,,0.05,,0,,,0,3000
-,,7.62x54r_subsonic_200gr,Tezu Handloaded 200gr Subsonic,3,0.14,-3,-3,,0.05,,-950,,,-0.6,2500
+,,7.62x54r_tsniitekhmash_bramit_148gr_subsonic,TsNIITekhMash Bramit 148gr Subsonic,3,0,-3,-3,,0.05,,-1200,,,-0.6,2500
 ,ammo_762x39,,,,,,,,,,,,,,
 ,,7.62x39_kazarov_57n231_ps_gzh_123gr,Kazarov 57-N-231 PS gzh 123gr,0,0,0,0,,0,,0,,,0,0
 ,,7.62x39_pga_rifle_123gr_jsp,Prva Garda Rifle Line 123gr JSP,-1,0.01,2,4,,0.05,,75,,,0,1000
@@ -2043,13 +2043,17 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,5.8x42_sanxian_dvf18_76gr_hp,Sanxian DVF18 76gr HP,1,0.08,0,1,,-0.05,,-100,,,0,2500
 ,ammo_762x25,,,,,,,,,,,,,,
 ,,7.62x25_s&b_85gr_fmj,7.62x25 Sellier & Bellot 85gr FMJ,0,0.01,,0,,0,,0,,,,0
-,,7.62x25_tula_57t133_90gr_red_tracer,7.62x25 Tula 57-T-133 90gr Red Tracer,0,0.01,,1,,0,,-50,,,,1000
-,,7.62x25_tula_57n134s_85gr_pst,7.62x25 Tula 57-N-134S 85gr Pst,-1,0.01,,2,,-0.1,,100,,,,1500
+,,7.62x25_tula_57t133_90gr_red_tracer,7.62x25 Tula 57-T-133 90gr Red Tracer,0,0.01,,0,,0,,-50,,,,1000
+,,7.62x25_tula_57n134s_85gr_pst,7.62x25 Tula 57-N-134S 85gr Pst,-1,0.01,,2,,-0.08,,100,,,,1500
 ,,7.62x25_57t132p_85gr_fmj,7.62x25 57-T-132 P 85gr FMJ,0,0.01,,1,,0,,50,,,,500
 ,,7.62x25_ppu_defense_line_85gr_jhp,7.62x25 PPU Defense Line 85gr JHP,0,0.01,,2,,0,,0,,,,1500
-,,7.62x25_57t134s_pts_ap,7.62x25 57-T-134S PTS AP,-1,0.01,,2,,-0.1,,150,,,,2000
-,,7.62x25_z113_ds_k51xg_80gr_ap,7.62x25 Z113 Factory ĐS-K51XG 80gr AP,-1,0.01,,3,,-0.12,,200,,,,2500
-,,7.62x25_type64p_subsonic,7.62x25 Type 64/P Subsonic,2,0.02,,-1,,0.05,,-400,,,-0.6,2000
+,,7.62x25_57t134s_pts_ap,7.62x25 57-T-134S PTS AP,-1,0.01,,3,,-0.1,,175,,,,2000
+,,7.62x25_z113_ds_k51xg_80gr_ap,7.62x25 Z113 Factory ĐS-K51XG 80gr AP,-2,0.01,,4,,-0.12,,200,,,,2500
+,,7.62x25_type64p_subsonic,7.62x25 Type 64/P Subsonic,2,0.02,,-1,,0.03,,-400,,,-0.6,2000
+,,7.62x25_fiocchi_85gr_fmj,7.62x25 Fiocchi 85gr FMJ,2,0.01,,-2,,0,,-75,,,,250
+,,7.62x25_ppu_85gr_fmj,7.62x25 PPU 85gr FMJ,-1,0.01,,2,,0,,100,,,,750
+,,7.62x25_norinco_type51_86gr_fmj,7.62x25 Norinco Type 51 86gr FMJ,0,0.01,,0,,0.04,,-25,,,,250
+,,7.62x25_czech_vz48_85gr_fmj,7.62x25 Czech vz.48 85gr FMJ,-2,0.01,,4,,0,,225,,,0.1,1500
 ,ammo_12g,,,,,,,,,,,,,,
 ,,12g_roosevelt_accutip_275_slug,"12G Roosevelt Accutip 2.75"" Slug",4,0.04,3,3,,0,,600,,,,2000
 ,,12g_mili_275_00buck_9x,"12G MILI 2.75"" #00 Buckshot (9 Pellets)",-3,,,,,,,182,0,,,0
@@ -2616,6 +2620,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,suppressors_inc_osprey45_gen1_45acp_suppressor_flipped,Suppressors Inc. Osprey 45 Gen 1 .45ACP Flipped,-6,0.19,-8,-12,,-0.15,0.15,150,,,,1500
 ,,egs_orthocone_45_piston,EGS Orthocone Piston,0,0.03,0,0,,,,,,,,400
 ,,egs_orthocone_suppressor,EGS Orthocone Suppressor,-5,0.14,-10,-10,,-0.07,0.1,75,,,-0.15,2600
+,,bd_umk45_45acp_flanged_suppressor,B&D UMK-45 .45ACP Flanged,-7,0.28,-12,-15,,-0.05,0.13,175,,,-0.2,2500
 ,10mm_muzzle_device,,,,,,,,,,,,,,
 ,,10mm_thread_protector,10mm Thread Protector,3,0.01,0,0,,0,0,,,,,200
 ,,krn_10mm_kosch_thread_protector,KRN Precision 10mm Auto KOSCH,3,0.01,0,0,,0,0,,,,,200

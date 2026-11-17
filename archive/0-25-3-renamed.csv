@@ -1831,8 +1831,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,5.8x42_sanxian_dbp10_71gr_fmj,5.8x42mm Sanxian DBP10 71gr FMJ,2,0.18,2,2,,0.1,,-100,,,,2000
 ,ammo_762x25,,,,,,,,,,,,,,
 ,,7.62x25_s&b_85gr_fmj,7.62x25 Sellier & Bellot 85gr FMJ,0,0.01,,0,,0,,0,,,,0
-,,7.62x25_tula_57t133_90gr_red_tracer,7.62x25 Tula 57-T-133 90gr Red Tracer,0,0.01,,1,,0.05,,-100,,,,1000
-,,7.62x25_tula_57n134s_85gr_pst,7.62x25 Tula 57-N-134S 85gr Pst,-1,0.01,,3,,-0.1,,100,,,,1500
+,,7.62x25_kazarov_57t133_90gr_red_tracer,7.62x25 Tula 57-T-133 90gr Red Tracer,0,0.01,,1,,0.05,,-100,,,,1000
+,,7.62x25_kazarov_57n134s_85gr_pst,7.62x25 Tula 57-N-134S 85gr Pst,-1,0.01,,3,,-0.1,,100,,,,1500
 ,ammo_12g,,,,,,,,,,,,,,
 ,,12g_roosevelt_accutip_275_slug,"12G Roosevelt Accutip 2.75"" Slug",4,0.04,3,3,,0,,600,,,,2000
 ,,12g_mili_275_00buck_9x,"12G MILI 2.75"" #00 Buckshot (9 Pellets)",-3,,,,,,,182,0,,,0

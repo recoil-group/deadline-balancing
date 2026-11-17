@@ -612,9 +612,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,pac_mre_free_float_ras_rifle_12inch_handguard,"PAC MRE RAS Free Float 12""",7,0.27,-11,-14,,,,,,,,1400
 ,,pac_mre_standard_front_filler_tube,PAC MRE Standard Front Filler Tube,1,0.06,,,,,,,,,,0
 ,,pac_mre_railed_front_filler_tube,PAC MRE Railed Front Filler Tube,1,0.1,,-1,,,,,,,,500
-,,pac_free_float_ras_rifle_12inch_handguard,"PAC Free Float RAS Rifle 12""",7,0.33,-12,-16,,,,,,,,900
-,,pac_free_float_ras_medium_long_10.375inch_handguard,"PAC Free Float RAS Medium Long 10.375""",9,0.28,-9,-15,,,,,,,,1200
-,,pac_free_float_ras_carbine_7inch_handguard,"PAC Free Float RAS Carbine 7""",11,0.21,-7,-11,,,,,,,,750
+,,pac_free_float_ras_rifle_12inch_handguard,"PAC Free Float RAS Rifle 12""",7,0.33,-12,-15,,,,,,,,900
+,,pac_free_float_ras_medium_long_10.375inch_handguard,"PAC Free Float RAS Medium Long 10.375""",9,0.28,-9,-14,,,,,,,,1200
+,,pac_free_float_ras_carbine_7inch_handguard,"PAC Free Float RAS Carbine 7""",11,0.21,-6,-12,,,,,,,,750
 ,,calsport_lvoa_s_13.5inch_handguard,"Cal Sport LVOA-S 13.5""",9,0.32,-9,-14,,,,,,,,900
 ,,calsport_lvoa_c_16.25inch_handguard,"Cal Sport LVOA-C 16.25""",7,0.36,-11,-16,,,,,,,,950
 ,,monstrum_tactical_a_series_free_float_10inch_mlok_handguard,"Monstrum Tactical A Series Free Float 10"" MLOK",10,0.27,-8,-12,,,,,,,,700

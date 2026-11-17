@@ -17,7 +17,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,azimuth_electronic_g2_red_dot,Azimuth Electronic G2,0,0.17,,,,,,,,,,500
 ,,azimuth_micro_lrp_qd_mount,Azimuth Micro LRP QD,0,0.03,,,,,,,,,,300
 ,,be_meyers_mawl_c1+,B.E. Meyers MAWL-C1+,0,0.16,,-2,,,,,,,,3000
-,,corvus_mounts_comm_30mm_mount_body,"Corvus Mounts C.O.M.M. 30mm 1.54"" Height",-0.5,0.06,,,,,,,,,,1000
+,,corvus_mounts_comm_30mm_mount_body,"Corvus Mounts C.O.M.M. 30mm 1.54"" Height",0,0.06,,,,,,,,,,1000
 ,,corvus_mounts_comm_34mm_mount_body,"Corvus Mounts C.O.M.M. 34mm 1.54"" Height",-0.5,0.07,,,,,,,,,,1000
 ,,alistair_ar_prb_mount,Alistair AR PRB,0,0.06,,,,,,,,,,400
 ,,alistair_ar_pepr_30mm_mount,Alistair AR-P.E.P.R.™,0,0.11,,,,,,,,,,800

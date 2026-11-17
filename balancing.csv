@@ -3284,7 +3284,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,KOSCH,KOSCH,70,0,25,35,0,1,1,1200,,,1,0
 ,,Glock20,Glock 20,60,0.4,40,70,0,1.1,1,1000,,,1,10000
 ,,P320,Sic Stürmer P320,70,0,25,35,0,1,1,1200,,,1,25000
-,,P226,Sic Stürmer P226,60,0,20,25,0,1,1,1200,,,1,30000
+,,P226,Sic Stürmer P226,63,0,20,25,0,1,1,1200,,,1,30000
 ,rifle,,,,,,,,,,,,,,
 ,,KF416,KF 416,25,0,65,80,0,0.55,1,2450,,,1,30000
 ,,AUG_A3,Löwenherz AUG A3,40,0,55,65,0,0.5,1,2450,,,1,42000

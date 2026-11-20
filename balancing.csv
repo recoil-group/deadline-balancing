@@ -2003,10 +2003,9 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,10mm_federal_premium_125gr_rht,10mm Federal Premium 125gr RHT,1,-0.11,-2,-3,,-0.1,,75,,,,1000
 ,,10mm_roosevelt_trailblazer_135gr_green_tracer,10mm Roosevelt Trailblazer 135gr Green Tracer,2,-0.09,-3,-3,,0.15,,25,,,,750
 ,ammo_45acp,,,,,,,,,,,,,,
-,,45acp_phoenix_brass_230gr_fmj,.45 ACP Phoenix Brass 230gr FMJ,0,0,0,0,,0,0.03,80,,,,0
 ,,45acp_appalachian_service_grade_230gr_fmj,.45 ACP Appalachian Service Grade 230gr FMJ,0,0,0,0,,0,,0,,,-0.6,0
 ,,45acp_lance_lawman_230gr_tmj,.45 ACP Lance Lawman 230gr TMJ,-1,0,-1,-1,,-0.15,,-35,,,-0.6,2500
-,,45acp_federal_defense_185gr_fmj,.45 ACP Federal Defense 185gr FMJ SWC,-4,-0.09,-1,0,,-0.25,,-95,,,-0.6,3000
+,,45acp_federal_defense_185gr_fmj,.45 ACP Federal Defense 185gr FMJ SWC,-2,-0.09,-1,0,,-0.25,,-95,,,-0.6,3000
 ,,45acp_s2_research_162gr_rip,.45 ACP S2 Research 162gr RIP,1,-0.11,-1,-1,,0.05,,95,,,-0.6,2000
 ,,45acp_lance_gold_dot_230gr_bjhp,.45 ACP Lance Gold Dot 230gr BJHP,-1,0,1,3,,0.05,,25,,,-0.6,3500
 ,,45acp_federal_defense_230gr_hst_jhp,.45 ACP Federal Defense 230gr HST JHP,-2,0,4,5,,0.05,,25,,,-0.6,4500
@@ -2017,7 +2016,6 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,45acp_lance_lawman_155gr_rht_frangible,.45 ACP Lance Lawman 155gr RHT Frangible,1,-0.12,-2,-4,,-0.1,,265,,,-0.6,1000
 ,,45acp_lance_gold_dot_230gr_plus_p,.45 ACP Lance Gold Dot 230gr +P,0,0,1,3,,-0.05,,85,,,-0.6,2000
 ,,45acp_bison_bore_185gr_jhp,.45 ACP Bison Bore 185gr JHP,2,-0.09,2,3,,0.1,,285,,,,1750
-,,45acp_munitions_incorporated_230gr_subsonic_tmj,.45 ACP Munitions Incorporated 230gr Subsonic TMJ,2,0,-2,0,,0,-0.13,0,,,,1200
 ,ammo_40sv,,,,,,,,,,,,,,
 ,,40sv_federal_american_eagle_180gr_fmj,Federal American Eagle 180gr FMJ,0,0,0,0,,0,,0.02,,,,0
 ,,40sv_federal_streak_180gr_tmj_tracer,Federal STREAK 180gr TMJ Tracer,3,0,-1,0,,0.05,,-50,,,,1250

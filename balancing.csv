@@ -2616,8 +2616,8 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,45acp_muzzle_device,,,,,,,,,,,,,,
 ,,direct_thread_adapter_omega45k,.45ACP Direct thread adapter for Omega 45K suppressor,0,0.03,0,0,,0.05,0,5,,,,200
 ,,45acp_thread_protector,.45ACP Thread Protector,3,0.01,0,0,,0,0,,,,,200
-,,suppressors_inc_osprey45_gen1_45acp_suppressor,Suppressors Inc. Osprey 45 Gen 1 .45ACP,-6,0.19,-8,-12,,-0.15,0.15,150,,,,1500
-,,suppressors_inc_osprey45_gen1_45acp_suppressor_flipped,Suppressors Inc. Osprey 45 Gen 1 .45ACP Flipped,-6,0.19,-8,-12,,-0.15,0.15,150,,,,1500
+,,suppressors_inc_osprey45_gen1_45acp_suppressor,Suppressors Inc. Osprey 45 Gen 1 .45ACP,-6,0.19,-8,-12,,-0.15,0.1,150,,,,1500
+,,suppressors_inc_osprey45_gen1_45acp_suppressor_flipped,Suppressors Inc. Osprey 45 Gen 1 .45ACP Flipped,-6,0.19,-8,-12,,-0.15,0.1,150,,,,1500
 ,,egs_orthocone_45_piston,EGS Orthocone Piston,0,0.03,0,0,,,,,,,,400
 ,,egs_orthocone_suppressor,EGS Orthocone Suppressor,-5,0.14,-10,-10,,-0.07,0.1,75,,,-0.15,2600
 ,,bd_umk45_45acp_flanged_suppressor,B&D UMK-45 .45ACP Flanged,-7,0.28,-12,-15,,-0.05,0.13,175,,,-0.2,2500

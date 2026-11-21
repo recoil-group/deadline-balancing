@@ -6,6 +6,9 @@ from pathlib import Path
 
 STAT_DIRECTIONS = {
     "ergonomics": True,
+    "handling": True,
+    "reload_speed": True,
+    "stability": True,
     "weight": False,
     "horizontal_recoil": False,
     "vertical_recoil": False,
@@ -68,12 +71,34 @@ def format_header(header: str) -> str:
     return " ".join(word.capitalize() for word in header.split("_"))
 
 
+# The 0.26 stat rework split ergonomics into these three columns. When an old sheet still has
+# ergonomics and the new one has only the split, show the split on one line.
+ERGONOMICS_SPLIT = ["handling", "reload_speed", "stability"]
+
+
+def split_change(old_row: dict[str, str], new_row: dict[str, str]) -> str | None:
+    old = old_row.get("ergonomics", "") or "0"
+    new = [new_row.get(column, "") or "0" for column in ERGONOMICS_SPLIT]
+    try:
+        if all(float(value) == float(old) for value in new):
+            return None
+    except ValueError:
+        pass
+    parts = " / ".join(f"{format_header(column)} `{value}`" for column, value in zip(ERGONOMICS_SPLIT, new))
+    return f"Ergonomics `{old}` -> {parts}"
+
+
 def compare_rows(
     old_row: dict[str, str] | None,
     new_row: dict[str, str],
     columns: list[str],
+    split: bool = False,
 ) -> list[str]:
     changes = []
+    if split and old_row is not None:
+        line = split_change(old_row, new_row)
+        if line:
+            changes.append(line)
     for column in columns:
         new = new_row.get(column, "")
         if old_row is None:
@@ -120,12 +145,17 @@ def compare_files(
         if column in old_headers and column in new_headers
     ]
     new_columns = [column for column in STAT_DIRECTIONS if column in new_headers]
+    split = (
+        "ergonomics" in old_headers
+        and "ergonomics" not in new_headers
+        and all(column in new_headers for column in ERGONOMICS_SPLIT)
+    )
 
     changed: list[str] = []
     added: list[str] = []
     for name, new_row in new_rows.items():
         if name in old_rows:
-            changes = compare_rows(old_rows[name], new_row, changed_columns)
+            changes = compare_rows(old_rows[name], new_row, changed_columns, split)
             if changes:
                 changed.append(entry(new_row, changes))
         else:

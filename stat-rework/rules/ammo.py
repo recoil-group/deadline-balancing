@@ -1,12 +1,14 @@
-"""Ammunition (cartridges, shotgun shells, RPG warheads): zero on all three new stats.
+"""Ammunition (cartridges, shotgun shells, RPG warheads).
 
-Rule, in plain words: a round does not change how fast the gun comes up (handling), how fast a
-magazine goes in (reload_speed) or how much the gun sways (stability), so every ammunition row
-gets 0 / 0 / 0. Everything a round really does stays where it already is: recoil, deviation,
-velocity, loudness and weight on the sheet; damage, penetration, suppression and tracer in
-calibers.csv. Nothing is moved into recoil.
+MODE = "keep" (the lead's decision for this pass, after the orchestrator's review): each round keeps
+its old value as handling = E, stability = 0.85 * E, reload 0, so EV = E. Soft-shooting loads are
+easier to bring up and hold steady, harsh loads the opposite. The aim of this pass is the stat split,
+not an ammunition rebalance: the team's ammo change sheets score ergonomics and built each calibre's
+parity on it, and zeroing would take 7-13 points of compensation off slugs, birdshot and bean bags.
 
-Why not keep the old ergonomics somewhere (see notes/ammo.md for the numbers):
+MODE = "zero" is the alternative, one edit away: every ammunition row gets 0 / 0 / 0, because a
+round does not change how fast the gun comes up, how fast a magazine goes in or how much the gun
+sways. The case for it, from the agent who re-statted this family (numbers in notes/ammo.md):
 - Old ammo ergo (-4..+3) was a scoring filler in the ammo "super" sheets ("tracer = most ergo,
   unless subsonic is there"; "tracer logic, we gotta undo this at some point"). It ran *with*
   recoil, not against it: soft rounds got less recoil *and* more ergo, harsh rounds got both
@@ -21,6 +23,15 @@ Why not keep the old ergonomics somewhere (see notes/ammo.md for the numbers):
 """
 
 
+
+MODE = "keep"            # "keep" or "zero"
+KEEP_HANDLING, KEEP_STABILITY = 1.0, 0.85
+
+
 def restat(item, ctx, base):
-    return {"handling": 0.0, "reload_speed": 0.0, "stability": 0.0,
-            "_rule": f"ammo: 0/0/0, old ergo {item['ergonomics']:+g} dropped (rounds do not change ADS, reload or sway)"}
+    e = item["ergonomics"]
+    if MODE == "zero":
+        return {"handling": 0.0, "reload_speed": 0.0, "stability": 0.0,
+                "_rule": f"ammo (zero mode): old ergo {e:+g} dropped"}
+    return {"handling": KEEP_HANDLING * e, "reload_speed": 0.0, "stability": KEEP_STABILITY * e,
+            "_rule": f"ammo (keep mode): handling 1.0 x E, stability 0.85 x E, EV kept (soft loads come up and hold steadier)"}

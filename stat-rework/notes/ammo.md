@@ -1,3 +1,8 @@
+> **Lead decision after review (round 2):** this pass keeps each round's old value as handling = E,
+> stability = 0.85·E, reload 0 (EV = E), so calibre parity and shotgun-special compensation
+> survive the split. `rules/ammo.py` `MODE = "zero"` restores the zeroing argued below. The rest of
+> this note is the case for zeroing and its per-round cost.
+
 # Ammunition (134 rows: cartridges, 12g shells, RPG-7 warheads)
 
 ## Decision: 0 / 0 / 0 on every round (lead's default kept, deliberately)

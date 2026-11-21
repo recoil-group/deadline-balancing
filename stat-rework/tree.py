@@ -93,6 +93,9 @@ def sheet_stats(rows):
 
 class Tree:
     def __init__(self, raw=RAW):
+        if not os.path.exists(os.path.join(raw, "attachment_data.json")):
+            self._from_reduced(os.path.join(HERE, "data", "tree.json"))
+            return
         A = json.load(open(os.path.join(raw, "attachment_data.json")))
         W = json.load(open(os.path.join(raw, "weapon_data.json")))
         G = json.load(open(os.path.join(raw, "gun_game_setups.json")))
@@ -157,6 +160,13 @@ class Tree:
                 continue
             p = d.get("preset") or {}
             self.setups.append({"name": g["name"], "weapon": d.get("code"), "map": p.get("map", []) if isinstance(p, dict) else []})
+
+    def _from_reduced(self, path):
+        d = json.load(open(path))
+        self.classes = d["classes"]
+        self.att = {n: dict(a, incompatible_attachments=[]) for n, a in d["attachments"].items()}
+        self.weapons = {n: dict(w, markers=[]) for n, w in d["weapons"].items()}
+        self.setups = d["official_setups"]
 
     @staticmethod
     def _map_entry(m):

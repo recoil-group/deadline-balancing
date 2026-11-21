@@ -166,7 +166,7 @@ class Tree:
     def _from_reduced(self, path):
         d = json.load(open(path))
         self.classes = d["classes"]
-        self.att = {n: dict(a, incompatible_attachments=[]) for n, a in d["attachments"].items()}
+        self.att = {n: dict(a) for n, a in d["attachments"].items()}
         for a in self.att.values():
             a.setdefault("global_flag_values", {})
         self.weapons = {n: dict(w, markers=[]) for n, w in d["weapons"].items()}
@@ -295,14 +295,51 @@ class Tree:
                     tot[k] += s.get(k, 0.0)
         return tot
 
+    # -------------------------------------------------- incompatibility rules
+
+    def violations(self, weapon, names):
+        """Item-level incompatibility rules a build breaks (check_compatibility.ts semantics).
+
+        Covers each mounted item's `incompatible_attachments` patterns. Slot-level
+        `incompatible_with_when_mounted` rules need mount positions and are not checked.
+        """
+        mounted = set(names)
+        cats = set()
+        for n in names:
+            cats.update(self.att.get(n, {}).get("incompatible_category", []))
+
+        def leaf(tok):
+            tok = tok.strip()
+            if tok.startswith("$"):
+                if tok[1:2] == "!":  # the game compares a $! pattern against attachment names
+                    return tok[2:] not in mounted
+                return tok[1:] in cats
+            if tok.startswith("!"):
+                name = tok[1:]
+                if name.startswith("WEAPON_"):
+                    return name != "WEAPON_" + weapon
+                return name not in mounted
+            if tok.startswith("WEAPON_"):
+                return tok == "WEAPON_" + weapon
+            return tok in mounted
+
+        out = []
+        for n in names:
+            for pat in self.att.get(n, {}).get("incompatible_attachments", []):
+                if not isinstance(pat, str):
+                    continue
+                pat = pat.replace("\n", "")
+                if all(any(leaf(t) for t in part.split("|")) for part in pat.split("&")):
+                    out.append(f"{n}: {pat}")
+        return out
+
     # -------------------------------------------------- reduced dump
 
     def reduced(self):
         return {
             "classes": self.classes,
             "attachments": {
-                n: {k: v for k, v in a.items() if k not in ("incompatible_attachments",)} | {"n_incompatible": len(a["incompatible_attachments"])}
-                for n, a in self.att.items()
+                n: a for n, a in self.att.items()
             },
             "weapons": {n: {k: v for k, v in w.items() if k not in ("markers",)} | {"marker_stats": sorted({m["tied_to"] for m in w["markers"]})} for n, w in self.weapons.items()},
             "official_setups": self.setups,

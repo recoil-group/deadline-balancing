@@ -1,0 +1,3 @@
+name,handling,reload_speed,stability,note
+hart_m16a2_carry_handle_upper_receiver,2,0,9,"fixed carry handle is bulk on top (optics sit high): less handling than flat-tops, forged A2 mass steadies"
+kf_m27_iar_upper_receiver,-2,0,1,"heavy IAR upper: slower but a little steadier than the 416D/A5 uppers"

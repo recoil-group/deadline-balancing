@@ -125,6 +125,8 @@ class Tree:
                     "has_mountable_types": "mountable_types" in it,
                     "map": [self._map_entry(m) for m in as_list(it.get("map"))],
                     "global_flags": sorted((it.get("global_flags") or {}).keys()),
+                    "global_flag_values": {k: v for k, v in (it.get("global_flags") or {}).items()
+                                           if k in ("mag_space", "mag_space_add", "shell_size") and isinstance(v, (int, float))},
                     "incompatible_attachments": as_list(it.get("incompatible_attachments")),
                     "incompatible_category": as_list(it.get("incompatible_category")),
                     "has_property_patch": any(c.startswith("property_patch") for c in it.get("__children", [])),
@@ -165,6 +167,8 @@ class Tree:
         d = json.load(open(path))
         self.classes = d["classes"]
         self.att = {n: dict(a, incompatible_attachments=[]) for n, a in d["attachments"].items()}
+        for a in self.att.values():
+            a.setdefault("global_flag_values", {})
         self.weapons = {n: dict(w, markers=[]) for n, w in d["weapons"].items()}
         self.setups = d["official_setups"]
 

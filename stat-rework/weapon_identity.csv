@@ -1,0 +1,54 @@
+name,offset_h,offset_r,offset_s,anchor_handling,anchor_reload_speed,anchor_stability,fixed_handling,fixed_reload_speed,fixed_stability,note
+F1,0,0,0,,,,,,,
+M67,0,0,0,,,,,,,
+ExplosiveRadio,0,0,0,,,,,,,
+TestFlash,0,0,0,,,,,,,
+TestSmoke,0,0,0,,,,,,,
+Makarov,0,0,10,,,,,,,"pistol: removing the hidden barrel-length scaling raises pistol strafe sway to about 3.3x today (code-lead measurement); stability cannot absorb that (100 is only x0.6), so +10 takes part of it and the rest is flagged for the code side"
+TT33,0,0,10,,,,,,,"pistol: removing the hidden barrel-length scaling raises pistol strafe sway to about 3.3x today (code-lead measurement); stability cannot absorb that (100 is only x0.6), so +10 takes part of it and the rest is flagged for the code side"
+EDC_X9,0,0,10,,,,,,,"pistol: removing the hidden barrel-length scaling raises pistol strafe sway to about 3.3x today (code-lead measurement); stability cannot absorb that (100 is only x0.6), so +10 takes part of it and the rest is flagged for the code side"
+KOSCH,0,0,10,,,,,,,"pistol: removing the hidden barrel-length scaling raises pistol strafe sway to about 3.3x today (code-lead measurement); stability cannot absorb that (100 is only x0.6), so +10 takes part of it and the rest is flagged for the code side"
+Glock20,0,0,0,,,,60,60,60,"not in the Studio place: copied from its old ergonomics (60/60), stability 50+10 like the other pistols"
+P320,0,0,10,,,,,,,"pistol: removing the hidden barrel-length scaling raises pistol strafe sway to about 3.3x today (code-lead measurement); stability cannot absorb that (100 is only x0.6), so +10 takes part of it and the rest is flagged for the code side"
+P226,0,0,10,,,,,,,"pistol: removing the hidden barrel-length scaling raises pistol strafe sway to about 3.3x today (code-lead measurement); stability cannot absorb that (100 is only x0.6), so +10 takes part of it and the rest is flagged for the code side"
+KF416,0,0,0,,,,,,,no identity offset: typical build keeps today's feel
+AUG_A3,1,-6,4,,,,,,,bullpup: magazine sits behind the grip and is slower to index (-6 reload); mass at the shoulder steadies the hold (+4 stability); compact (+1 handling)
+AK12,0,0,0,,,,,,,no identity offset: typical build keeps today's feel
+AK308,-2,0,3,,,,,,,"battle rifle: mass steadies the hold (+3 stability), slower onto target (-2 handling)"
+M4A1,0,0,0,,,,,,,no identity offset: typical build keeps today's feel
+QBZ95,1,-6,4,,,,,,,bullpup: magazine behind the grip (-6 reload); mass at the shoulder (+4 stability); compact (+1 handling)
+SA58,-2,0,3,,,,,,,"battle rifle: heavy receiver steadies the hold (+3 stability), slower onto target (-2 handling)"
+SCAR47,0,0,0,,,,,,,no identity offset: typical build keeps today's feel
+SCARH,-2,0,3,,,,,,,"battle rifle: mass steadies the hold (+3 stability), slower onto target (-2 handling)"
+SCARL,0,0,0,,,,,,,no identity offset: typical build keeps today's feel
+G3,-2,0,3,,,,,,,"battle rifle: heavy steel receiver steadies the hold (+3 stability), slower onto target (-2 handling)"
+Remington700,-1,0,3,,,,,,,"precision bolt action: rigid action and chassis built for a steady hold (+3 stability, -1 handling)"
+AK_762,0,0,0,,,,,,,no identity offset: typical build keeps today's feel
+AK_545,0,0,0,,,,,,,no identity offset: typical build keeps today's feel
+AK_545_Carbine,2,0,-4,,,,,,,"short, light carbine on a folding stock: quicker up (+2 handling), less steady (-4 stability)"
+MosinNagant,0,0,0,,,,,,,no identity offset: typical build keeps today's feel
+Remington870,0,0,0,,,,,,,no identity offset: typical build keeps today's feel
+MP133,0,0,0,,,,,,,no identity offset: typical build keeps today's feel
+MP5,0,0,6,,,,,,,"SMG: removing the hidden barrel-length scaling raises SMG strafe sway to about 1.3-1.5x today (code-lead measurement); +6 stability absorbs part of it, the rest is flagged for the code side"
+SCALAR,0,0,6,,,,,,,"SMG: removing the hidden barrel-length scaling raises SMG strafe sway to about 1.3-1.5x today (code-lead measurement); +6 stability absorbs part of it, the rest is flagged for the code side"
+MK9,0,0,6,,,,,,,"SMG: removing the hidden barrel-length scaling raises SMG strafe sway to about 1.3-1.5x today (code-lead measurement); +6 stability absorbs part of it, the rest is flagged for the code side"
+UMP,0,0,6,,,,,,,"SMG: removing the hidden barrel-length scaling raises SMG strafe sway to about 1.3-1.5x today (code-lead measurement); +6 stability absorbs part of it, the rest is flagged for the code side"
+AK_9,0,0,6,,,,,,,"SMG: removing the hidden barrel-length scaling raises SMG strafe sway to about 1.3-1.5x today (code-lead measurement); +6 stability absorbs part of it, the rest is flagged for the code side"
+Turret,0,0,0,,,,,,,no identity offset: typical build keeps today's feel
+PlacingTool,0,0,0,,,,,,,
+RPG7,0,0,0,,,,,,,no identity offset: typical build keeps today's feel
+PSRL,0,0,0,,,,,,,no identity offset: typical build keeps today's feel
+cummerbund_magazine,0,0,0,,,,,,,
+technix_black_gloves,0,0,0,,,,,,,
+military_shirt_01,0,0,0,,,,,,,
+military_shirt_02,0,0,0,,,,,,,
+military_pants_01,0,0,0,,,,,,,
+military_pants_02,0,0,0,,,,,,,
+avs_m4_flap,0,0,0,,,,,,,
+crye_precision_avs,0,0,0,,,,,,,
+rear_platebag,0,0,0,,,,,,,
+ops_core_fast_sf,0,0,0,,,,,,,
+default_cummerbund,0,0,0,,,,,,,
+temp_gpnvg,0,0,0,,,,,,,
+temp_othernvg,0,0,0,,,,,,,
+dovetail_nvg_mount,0,0,0,,,,,,,

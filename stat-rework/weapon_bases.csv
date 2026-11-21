@@ -4,37 +4,37 @@ M67,,,,,
 ExplosiveRadio,,,,,
 TestFlash,,,,,
 TestSmoke,,,,,
-Makarov,74.5,76.0,60.0,typical old ergo 76.0 over 1 reference builds,"pistol: removing the hidden barrel-length scaling raises pistol strafe sway to about 3.3x today (code-lead measurement); stability cannot absorb that (100 is only x0.6), so +10 takes part of it and the rest is flagged for the code side"
-TT33,77.0,77.0,60.0,typical old ergo 77.0 over 1 reference builds,"pistol: removing the hidden barrel-length scaling raises pistol strafe sway to about 3.3x today (code-lead measurement); stability cannot absorb that (100 is only x0.6), so +10 takes part of it and the rest is flagged for the code side"
-EDC_X9,83.5,88.5,59.0,typical old ergo 90.0 over 1 reference builds,"pistol: removing the hidden barrel-length scaling raises pistol strafe sway to about 3.3x today (code-lead measurement); stability cannot absorb that (100 is only x0.6), so +10 takes part of it and the rest is flagged for the code side"
-KOSCH,69.5,72.0,64.5,typical old ergo 73.0 over 1 reference builds,"pistol: removing the hidden barrel-length scaling raises pistol strafe sway to about 3.3x today (code-lead measurement); stability cannot absorb that (100 is only x0.6), so +10 takes part of it and the rest is flagged for the code side"
-Glock20,60,60,60,,"not in the Studio place: copied from its old ergonomics (60/60), stability 50+10 like the other pistols"
-P320,69.0,75.5,59.0,typical old ergo 77.0 over 1 reference builds,"pistol: removing the hidden barrel-length scaling raises pistol strafe sway to about 3.3x today (code-lead measurement); stability cannot absorb that (100 is only x0.6), so +10 takes part of it and the rest is flagged for the code side"
-P226,60.5,71.0,57.0,typical old ergo 74.0 over 1 reference builds,"pistol: removing the hidden barrel-length scaling raises pistol strafe sway to about 3.3x today (code-lead measurement); stability cannot absorb that (100 is only x0.6), so +10 takes part of it and the rest is flagged for the code side"
-KF416,32.5,54.5,26.5,typical old ergo 65.0 over 4 reference builds,no identity offset: typical build keeps today's feel
-AUG_A3,52.0,57.5,25.5,typical old ergo 68.5 over 10 reference builds,bullpup: magazine sits behind the grip and is slower to index (-6 reload); mass at the shoulder steadies the hold (+4 stability); compact (+1 handling)
-AK12,34.0,55.5,25.5,typical old ergo 54.0 over 4 reference builds,no identity offset: typical build keeps today's feel
-AK308,27.5,44.0,20.0,typical old ergo 58.2 over 2 reference builds,"battle rifle: mass steadies the hold (+3 stability), slower onto target (-2 handling)"
-M4A1,23.0,50.5,19.0,typical old ergo 61.8 over 12 reference builds,no identity offset: typical build keeps today's feel
-QBZ95,51.0,61.0,38.0,typical old ergo 70.0 over 1 reference builds,bullpup: magazine behind the grip (-6 reload); mass at the shoulder (+4 stability); compact (+1 handling)
-SA58,21.0,44.5,29.5,typical old ergo 50.0 over 7 reference builds,"battle rifle: heavy receiver steadies the hold (+3 stability), slower onto target (-2 handling)"
-SCAR47,49.0,58.0,22.0,typical old ergo 67.5 over 1 reference builds,no identity offset: typical build keeps today's feel
-SCARH,18.5,24.0,21.0,typical old ergo 40.0 over 2 reference builds,"battle rifle: mass steadies the hold (+3 stability), slower onto target (-2 handling)"
-SCARL,43.5,50.5,27.0,typical old ergo 64.5 over 1 reference builds,no identity offset: typical build keeps today's feel
-G3,28.0,59.5,26.0,typical old ergo 65.0 over 7 reference builds,"battle rifle: heavy steel receiver steadies the hold (+3 stability), slower onto target (-2 handling)"
-Remington700,38.0,60.5,6.5,typical old ergo 70.0 over 5 reference builds,"precision bolt action: rigid action and chassis built for a steady hold (+3 stability, -1 handling)"
-AK_762,23.5,48.5,17.5,typical old ergo 58.8 over 2 reference builds,no identity offset: typical build keeps today's feel
-AK_545,15.0,48.0,26.0,typical old ergo 55.5 over 4 reference builds,no identity offset: typical build keeps today's feel
-AK_545_Carbine,18.5,64.0,23.5,typical old ergo 69.8 over 4 reference builds,"short, light carbine on a folding stock: quicker up (+2 handling), less steady (-4 stability)"
-MosinNagant,68.5,77.0,39.0,typical old ergo 80.0 over 1 reference builds,no identity offset: typical build keeps today's feel
-Remington870,30.5,57.0,34.5,typical old ergo 62.2 over 2 reference builds,no identity offset: typical build keeps today's feel
-MP133,42.5,55.0,21.0,typical old ergo 60.5 over 1 reference builds,no identity offset: typical build keeps today's feel
-MP5,40.5,49.5,48.5,typical old ergo 50.0 over 2 reference builds,"SMG: removing the hidden barrel-length scaling raises SMG strafe sway to about 1.3-1.5x today (code-lead measurement); +6 stability absorbs part of it, the rest is flagged for the code side"
-SCALAR,28.5,59.0,54.5,typical old ergo 45.0 over 7 reference builds,"SMG: removing the hidden barrel-length scaling raises SMG strafe sway to about 1.3-1.5x today (code-lead measurement); +6 stability absorbs part of it, the rest is flagged for the code side"
-MK9,30.5,81.0,13.5,typical old ergo 85.0 over 1 reference builds,"SMG: removing the hidden barrel-length scaling raises SMG strafe sway to about 1.3-1.5x today (code-lead measurement); +6 stability absorbs part of it, the rest is flagged for the code side"
-UMP,57.5,81.0,44.0,typical old ergo 83.5 over 1 reference builds,"SMG: removing the hidden barrel-length scaling raises SMG strafe sway to about 1.3-1.5x today (code-lead measurement); +6 stability absorbs part of it, the rest is flagged for the code side"
-AK_9,23.5,68.0,34.0,typical old ergo 75.0 over 1 reference builds,"SMG: removing the hidden barrel-length scaling raises SMG strafe sway to about 1.3-1.5x today (code-lead measurement); +6 stability absorbs part of it, the rest is flagged for the code side"
-Turret,29.0,29.0,50.0,typical old ergo 29.0 over 1 reference builds,no identity offset: typical build keeps today's feel
+Makarov,74.5,76.0,50.0,typical old ergo 76.0 over 1 reference builds,"no identity offset: typical build keeps today's feel (contract v2 keeps the short-barrel strafe-sway factor in code, so the earlier +10 pistol / +6 SMG compensation is gone)"
+TT33,77.0,77.0,50.0,typical old ergo 77.0 over 1 reference builds,"no identity offset: typical build keeps today's feel (contract v2 keeps the short-barrel strafe-sway factor in code, so the earlier +10 pistol / +6 SMG compensation is gone)"
+EDC_X9,83.5,88.5,49.0,typical old ergo 90.0 over 1 reference builds,"no identity offset: typical build keeps today's feel (contract v2 keeps the short-barrel strafe-sway factor in code, so the earlier +10 pistol / +6 SMG compensation is gone)"
+KOSCH,67.5,72.0,53.0,typical old ergo 73.0 over 1 reference builds,"no identity offset: typical build keeps today's feel (contract v2 keeps the short-barrel strafe-sway factor in code, so the earlier +10 pistol / +6 SMG compensation is gone)"
+Glock20,60,60,50,,"not in the Studio place: copied from its old ergonomics (60/60), stability 50 like every other weapon's typical build"
+P320,69.0,75.5,49.0,typical old ergo 77.0 over 1 reference builds,"no identity offset: typical build keeps today's feel (contract v2 keeps the short-barrel strafe-sway factor in code, so the earlier +10 pistol / +6 SMG compensation is gone)"
+P226,60.5,71.0,47.0,typical old ergo 74.0 over 1 reference builds,"no identity offset: typical build keeps today's feel (contract v2 keeps the short-barrel strafe-sway factor in code, so the earlier +10 pistol / +6 SMG compensation is gone)"
+KF416,34.0,54.5,26.5,typical old ergo 65.0 over 4 reference builds,no identity offset: typical build keeps today's feel
+AUG_A3,52.5,57.5,25.5,typical old ergo 68.5 over 10 reference builds,bullpup: magazine sits behind the grip and is slower to index (-6 reload); mass at the shoulder steadies the hold (+4 stability); compact (+1 handling)
+AK12,32.0,55.5,26.0,typical old ergo 54.0 over 4 reference builds,no identity offset: typical build keeps today's feel
+AK308,28.0,44.0,21.0,typical old ergo 58.2 over 2 reference builds,"battle rifle: mass steadies the hold (+3 stability), slower onto target (-2 handling)"
+M4A1,20.0,50.5,18.5,typical old ergo 61.8 over 12 reference builds,no identity offset: typical build keeps today's feel
+QBZ95,52.0,61.0,35.0,typical old ergo 70.0 over 1 reference builds,bullpup: magazine behind the grip (-6 reload); mass at the shoulder (+4 stability); compact (+1 handling)
+SA58,25.0,44.5,29.5,typical old ergo 50.0 over 7 reference builds,"battle rifle: heavy receiver steadies the hold (+3 stability), slower onto target (-2 handling)"
+SCAR47,52.5,58.0,21.0,typical old ergo 67.5 over 1 reference builds,no identity offset: typical build keeps today's feel
+SCARH,19.0,24.0,21.0,typical old ergo 40.0 over 2 reference builds,"battle rifle: mass steadies the hold (+3 stability), slower onto target (-2 handling)"
+SCARL,43.0,50.5,30.5,typical old ergo 64.5 over 1 reference builds,no identity offset: typical build keeps today's feel
+G3,25.0,59.5,25.5,typical old ergo 65.0 over 7 reference builds,"battle rifle: heavy steel receiver steadies the hold (+3 stability), slower onto target (-2 handling)"
+Remington700,38.0,60.5,10.0,typical old ergo 70.0 over 5 reference builds,"precision bolt action: rigid action and chassis built for a steady hold (+3 stability, -1 handling)"
+AK_762,22.5,48.5,22.5,typical old ergo 58.8 over 2 reference builds,no identity offset: typical build keeps today's feel
+AK_545,16.0,48.0,24.5,typical old ergo 55.5 over 4 reference builds,no identity offset: typical build keeps today's feel
+AK_545_Carbine,17.0,64.0,25.0,typical old ergo 69.8 over 4 reference builds,"short, light carbine on a folding stock: quicker up (+2 handling), less steady (-4 stability)"
+MosinNagant,69.5,77.0,40.0,typical old ergo 80.0 over 1 reference builds,no identity offset: typical build keeps today's feel
+Remington870,32.5,57.0,39.0,typical old ergo 62.2 over 2 reference builds,no identity offset: typical build keeps today's feel
+MP133,46.5,55.0,22.0,typical old ergo 60.5 over 1 reference builds,no identity offset: typical build keeps today's feel
+MP5,40.5,49.5,41.5,typical old ergo 50.0 over 2 reference builds,"no identity offset: typical build keeps today's feel (contract v2 keeps the short-barrel strafe-sway factor in code, so the earlier +10 pistol / +6 SMG compensation is gone)"
+SCALAR,27.5,59.0,50.5,typical old ergo 45.0 over 7 reference builds,"no identity offset: typical build keeps today's feel (contract v2 keeps the short-barrel strafe-sway factor in code, so the earlier +10 pistol / +6 SMG compensation is gone)"
+MK9,28.0,81.0,13.5,typical old ergo 85.0 over 1 reference builds,"no identity offset: typical build keeps today's feel (contract v2 keeps the short-barrel strafe-sway factor in code, so the earlier +10 pistol / +6 SMG compensation is gone)"
+UMP,57.5,81.0,38.0,typical old ergo 83.5 over 1 reference builds,"no identity offset: typical build keeps today's feel (contract v2 keeps the short-barrel strafe-sway factor in code, so the earlier +10 pistol / +6 SMG compensation is gone)"
+AK_9,22.0,68.0,30.0,typical old ergo 75.0 over 1 reference builds,"no identity offset: typical build keeps today's feel (contract v2 keeps the short-barrel strafe-sway factor in code, so the earlier +10 pistol / +6 SMG compensation is gone)"
+Turret,30.0,29.0,51.0,typical old ergo 29.0 over 1 reference builds,no identity offset: typical build keeps today's feel
 PlacingTool,,,,,
 RPG7,38.5,48.0,46.0,typical old ergo 51.0 over 1 reference builds,no identity offset: typical build keeps today's feel
 PSRL,27.5,38.5,43.5,typical old ergo 41.0 over 1 reference builds,no identity offset: typical build keeps today's feel

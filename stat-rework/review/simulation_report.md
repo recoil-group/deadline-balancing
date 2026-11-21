@@ -6,99 +6,127 @@ game's stacking rules. `old` is today's ergonomics of the same build.
 ## Summary
 
 Median of reference builds (official setups + presets; stock if none) against today's ergonomics
-of the same builds, the stock build, and the per-stat range the optimiser finds.
+of the same builds, the stock build, and the per-stat range the optimiser finds. Choice margin:
+over every build tried, the smallest worst-stat gap to the clamped per-stat maxima; the larger,
+the more a build has to give up one stat to reach another (flagged at 10 or less).
 
-| weapon | refs | ref h | ref r | ref s | old ergo | stock h/r/s | max h/r/s | min h/r/s | archetype overlap |
-|---|---|---|---|---|---|---|---|---|---|
-| AK12 | 4 | 54 | 54 | 50 | 54 | 64/62/42 | 98/80/84 | -2/31/12 | 57% |
-| AK308 | 2 | 56 | 58 | 53 | 58 | 56/50/36 | 83/72/76 | 4/32/14 | 43% |
-| AK_545 | 4 | 56 | 56 | 50 | 56 | 55/54/54 | 103/76/112 | -45/24/8 | 48% |
-| AK_545_Carbine | 4 | 72 | 70 | 46 | 70 | 85/71/47 | 120/92/91 | 10/42/21 | 53% |
-| AK_762 | 2 | 59 | 59 | 50 | 59 | 57/54/46 | 102/76/103 | -44/24/-2 | 57% |
-| AK_9 | 1 | 75 | 75 | 56 | 75 | 75/75/56 | 104/88/94 | -2/56/31 | 65% |
-| AUG_A3 | 10 | 70 | 62 | 54 | 68 | 68/62/53 | 124/90/84 | 12/36/28 | 50% |
-| EDC_X9 | 1 | 90 | 90 | 60 | 90 | 90/90/60 | 93/90/62 | 70/82/54 | 60% |
-| G3 | 7 | 63 | 65 | 53 | 65 | 52/64/40 | 108/80/100 | -8/44/-6 | 39% |
-| KF416 | 4 | 65 | 65 | 50 | 65 | 70/62/55 | 92/88/85 | 0/32/14 | 37% |
-| KOSCH | 1 | 73 | 73 | 60 | 73 | 75/73/66 | 80/76/76 | 32/38/46 | 41% |
-| M4A1 | 12 | 62 | 62 | 50 | 62 | 71/57/42 | 122/96/118 | -22/28/-8 | 23% |
-| MK9 | 1 | 85 | 85 | 56 | 85 | 66/91/36 | 74/103/74 | 29/81/0 | 32% |
-| MP133 | 1 | 60 | 60 | 50 | 60 | 60/60/50 | 77/60/56 | 42/52/13 | 50% |
-| MP5 | 2 | 50 | 50 | 56 | 50 | 60/52/62 | 99/57/84 | 24/36/41 | 51% |
-| Makarov | 1 | 76 | 76 | 60 | 76 | 76/76/60 | 81/77/64 | 58/56/58 | 74% |
-| MosinNagant | 1 | 80 | 80 | 50 | 80 | 66/80/48 | 102/84/68 | 34/62/16 | 19% |
-| P226 | 1 | 74 | 74 | 60 | 74 | 70/73/60 | 76/78/67 | 44/68/56 | 38% |
-| P320 | 1 | 77 | 77 | 60 | 77 | 77/77/60 | 87/82/62 | 54/60/56 | 57% |
-| PSRL | 1 | 41 | 41 | 50 | 41 | 41/41/50 | 53/42/66 | 21/40/44 | 80% |
-| QBZ95 | 1 | 71 | 64 | 54 | 70 | 63/61/48 | 100/65/69 | 48/61/38 | 65% |
-| RPG7 | 1 | 51 | 51 | 50 | 51 | 51/51/50 | 57/51/54 | 32/50/46 | 100% |
-| Remington700 | 5 | 69 | 70 | 53 | 70 | 59/69/40 | 110/80/88 | 26/54/-8 | 61% |
-| Remington870 | 2 | 62 | 62 | 50 | 62 | 56/62/62 | 82/62/79 | 10/40/23 | 41% |
-| SA58 | 7 | 48 | 50 | 53 | 50 | 38/49/45 | 109/67/96 | -14/24/4 | 36% |
-| SCALAR | 7 | 45 | 45 | 56 | 45 | 54/65/69 | 78/70/101 | 8/26/29 | 67% |
-| SCAR47 | 1 | 68 | 68 | 50 | 68 | 70/64/36 | 122/82/88 | 24/44/-4 | 45% |
-| SCARH | 2 | 38 | 40 | 53 | 40 | 40/30/36 | 104/60/96 | -17/1/-8 | 42% |
-| SCARL | 1 | 64 | 64 | 50 | 64 | 68/56/44 | 106/90/84 | 11/26/-1 | 53% |
-| TT33 | 1 | 77 | 77 | 60 | 77 | 77/77/60 | 87/80/66 | 58/62/56 | 62% |
-| Turret | 1 | 29 | 29 | 50 | 29 | 29/29/50 | 29/29/50 | 29/29/50 | 100% |
-| UMP | 1 | 84 | 84 | 56 | 84 | 75/84/54 | 104/88/70 | 46/84/50 | 70% |
+| weapon | refs | ref h | ref r | ref s | old ergo | stock h/r/s | max h/r/s | min h/r/s | archetype overlap | choice margin |
+|---|---|---|---|---|---|---|---|---|---|---|
+| AK12 | 4 | 54 | 54 | 50 | 54 | 66/62/40 | 106/80/90 | -6/31/4 | 74% | 12.5 |
+| AK308 | 2 | 56 | 58 | 53 | 58 | 60/50/34 | 106/72/81 | 3/32/6 | 57% | 11.5 |
+| AK_545 | 4 | 56 | 56 | 50 | 56 | 56/54/52 | 110/76/124 | -50/24/10 | 48% | 10.5 |
+| AK_545_Carbine | 4 | 72 | 70 | 46 | 70 | 86/71/46 | 131/92/104 | 8/42/18 | 59% | 5.0 |
+| AK_762 | 2 | 59 | 59 | 50 | 59 | 56/54/50 | 106/76/122 | -52/24/7 | 54% | 11.0 |
+| AK_9 | 1 | 75 | 75 | 50 | 75 | 75/75/50 | 114/88/104 | -8/56/22 | 62% | 6.5 |
+| AUG_A3 | 10 | 70 | 62 | 54 | 68 | 68/62/53 | 128/90/84 | 12/36/26 | 47% | 20.5 |
+| EDC_X9 | 1 | 90 | 90 | 50 | 90 | 90/90/50 | 96/90/54 | 68/82/42 | 60% | 0.0 |
+| G3 | 7 | 63 | 65 | 53 | 65 | 52/64/35 | 109/80/101 | -14/44/2 | 49% | 11.0 |
+| KF416 | 4 | 65 | 65 | 50 | 65 | 70/62/56 | 104/88/98 | -2/32/9 | 33% | 15.0 |
+| KOSCH | 1 | 73 | 73 | 50 | 73 | 73/73/54 | 81/76/66 | 28/38/34 | 52% | 0.0 |
+| M4A1 | 12 | 62 | 62 | 50 | 62 | 72/57/38 | 129/96/132 | -30/28/-10 | 20% | 11.5 |
+| MK9 | 1 | 85 | 85 | 50 | 85 | 65/91/36 | 74/103/82 | 25/81/10 | 19% | 15.0 |
+| MP133 | 1 | 60 | 60 | 50 | 60 | 60/60/50 | 91/60/68 | 42/52/12 | 60% | 5.0 |
+| MP5 | 2 | 50 | 50 | 50 | 50 | 60/52/55 | 110/57/83 | 22/36/29 | 50% | 12.5 |
+| Makarov | 1 | 76 | 76 | 50 | 76 | 76/76/50 | 82/77/56 | 56/56/46 | 74% | 3.0 |
+| MosinNagant | 1 | 80 | 80 | 50 | 80 | 67/80/50 | 106/84/74 | 33/62/16 | 30% | 14.5 |
+| P226 | 1 | 74 | 74 | 50 | 74 | 70/73/50 | 78/78/60 | 42/68/45 | 38% | 2.5 |
+| P320 | 1 | 77 | 77 | 50 | 77 | 77/77/50 | 90/82/55 | 52/60/45 | 57% | 3.0 |
+| PSRL | 1 | 41 | 41 | 50 | 41 | 41/41/50 | 60/42/71 | 21/40/42 | 89% | 13.5 |
+| QBZ95 | 1 | 71 | 64 | 54 | 70 | 64/61/45 | 110/65/76 | 48/61/33 | 79% | 11.5 |
+| RPG7 | 1 | 51 | 51 | 50 | 51 | 51/51/50 | 57/51/56 | 32/50/46 | 100% | 4.5 |
+| Remington700 | 5 | 69 | 70 | 53 | 70 | 59/69/44 | 120/80/104 | 23/54/4 | 65% | 7.0 |
+| Remington870 | 2 | 62 | 62 | 50 | 62 | 54/62/65 | 98/62/96 | 7/40/20 | 41% | 9.0 |
+| SA58 | 7 | 48 | 50 | 53 | 50 | 40/49/47 | 126/67/104 | -15/24/9 | 36% | 22.0 |
+| SCALAR | 7 | 45 | 45 | 50 | 45 | 54/65/65 | 86/70/100 | 4/26/32 | 67% | 14.0 |
+| SCAR47 | 1 | 68 | 68 | 50 | 68 | 73/64/35 | 138/82/94 | 24/44/1 | 39% | 4.0 |
+| SCARH | 2 | 38 | 40 | 53 | 40 | 41/30/36 | 118/60/105 | -20/1/-2 | 36% | 0.0 |
+| SCARL | 1 | 64 | 64 | 50 | 64 | 68/56/48 | 118/90/95 | 8/26/8 | 52% | 1.0 |
+| TT33 | 1 | 77 | 77 | 50 | 77 | 77/77/50 | 89/80/58 | 56/62/44 | 68% | 1.0 |
+| Turret | 1 | 29 | 29 | 50 | 29 | 29/29/50 | 33/29/54 | 29/29/50 | 100% | 0.0 |
+| UMP | 1 | 84 | 84 | 50 | 84 | 75/84/48 | 111/88/68 | 42/84/40 | 67% | 0.0 |
 
 ## Checks
+
+Optimiser builds that break an item-level incompatibility rule: 109 of 288 (marked in the weapon tables; the clamped check below uses legal builds only, for its maxima too). Slot-level `incompatible_with_when_mounted` rules are not checked.
 
 ### Realistic builds (stock, references) outside 0-100: 0
 - none
 
-### Per-stat maximum above 100 (clamped in game): 20
-- AK_545: max handling 103.0
-- AK_545: max stability 111.5
-- AK_545_Carbine: max handling 120.5
-- AK_762: max handling 102.0
-- AK_762: max stability 103.0
-- AK_9: max handling 104.5
-- AUG_A3: max handling 123.5
-- G3: max handling 108.5
-- M4A1: max handling 122.0
-- M4A1: max stability 118.5
+### Per-stat maximum above 100 (clamped in game): 29
+- AK12: max handling 106.5
+- AK308: max handling 106.0
+- AK_545: max handling 109.5
+- AK_545: max stability 124.5
+- AK_545_Carbine: max handling 131.0
+- AK_545_Carbine: max stability 104.5
+- AK_762: max handling 106.5
+- AK_762: max stability 122.5
+- AK_9: max handling 114.5
+- AK_9: max stability 103.5
+- AUG_A3: max handling 128.5
+- G3: max handling 109.0
+- G3: max stability 101.0
+- KF416: max handling 103.5
+- M4A1: max handling 129.0
+- M4A1: max stability 132.0
 - MK9: max reload_speed 103.0
-- MosinNagant: max handling 101.5
-- QBZ95: max handling 100.5
-- Remington700: max handling 110.5
-- SA58: max handling 109.0
-- SCALAR: max stability 101.0
-- SCAR47: max handling 122.0
-- SCARH: max handling 104.0
-- SCARL: max handling 105.5
-- UMP: max handling 103.5
+- MP5: max handling 109.5
+- MosinNagant: max handling 105.5
+- QBZ95: max handling 110.5
+- Remington700: max handling 120.0
+- Remington700: max stability 104.0
+- SA58: max handling 126.0
+- SA58: max stability 104.0
+- SCAR47: max handling 138.5
+- SCARH: max handling 118.0
+- SCARH: max stability 105.0
+- SCARL: max handling 117.5
+- UMP: max handling 111.0
 
-### Per-stat minimum below 0 (clamped in game): 15
-- AK12: min handling -1.5
-- AK_545: min handling -45.0
-- AK_762: min handling -43.5
-- AK_762: min stability -1.5
-- AK_9: min handling -2.5
-- G3: min handling -8.0
-- G3: min stability -5.5
-- M4A1: min handling -22.5
-- M4A1: min stability -8.5
-- Remington700: min stability -8.5
-- SA58: min handling -14.5
-- SCAR47: min stability -3.5
-- SCARH: min handling -17.0
-- SCARH: min stability -8.5
-- SCARL: min stability -1.0
+### Per-stat minimum below 0 (clamped in game): 11
+- AK12: min handling -5.5
+- AK_545: min handling -50.0
+- AK_762: min handling -51.5
+- AK_9: min handling -7.5
+- G3: min handling -14.0
+- KF416: min handling -1.5
+- M4A1: min handling -30.5
+- M4A1: min stability -9.5
+- SA58: min handling -15.0
+- SCARH: min handling -19.5
+- SCARH: min stability -2.5
 
-### A single build within 3 points of every per-stat maximum: 5
-- EDC_X9: handling, all_round, stock within 3 of every per-stat maximum ({'handling': 93.0, 'reload_speed': 90.5, 'stability': 61.5})
-- Makarov: handling, all_round within 3 of every per-stat maximum ({'handling': 81.0, 'reload_speed': 77.0, 'stability': 63.5})
-- TT33: handling, all_round within 3 of every per-stat maximum ({'handling': 87.0, 'reload_speed': 80.0, 'stability': 66.0})
-- Turret: handling, reload, stability, recoil, all_round, reload_speed, handling_min, reload_speed_min, stability_min, stock within 3 of every per-stat maximum ({'handling': 29.0, 'reload_speed': 29.0, 'stability': 50.0})
-- UMP: handling, all_round within 3 of every per-stat maximum ({'handling': 103.5, 'reload_speed': 88.5, 'stability': 70.0})
+### A single build within 3 points of every per-stat maximum: 3
+- EDC_X9: handling, all_round within 3 of every per-stat maximum ({'handling': 96.0, 'reload_speed': 90.5, 'stability': 54.5})
+- TT33: handling, all_round within 3 of every per-stat maximum ({'handling': 89.0, 'reload_speed': 80.0, 'stability': 58.0})
+- Turret: handling, reload, stability, recoil, all_round within 3 of every per-stat maximum ({'handling': 33.0, 'reload_speed': 29.0, 'stability': 53.5})
+
+### A single legal build within 10 points of every clamped per-stat maximum (min(max over legal builds, 100)): 10
+- EDC_X9: `blend 0.333333/1/0.333333` is within 0.0 of every clamped per-stat maximum (h 96 / r 90 / s 54)
+- MP133: `blend 0.666667/1/0.333333` is within 5.0 of every clamped per-stat maximum (h 91 / r 60 / s 68)
+- Makarov: `blend 0.333333/1/0.333333` is within 3.0 of every clamped per-stat maximum (h 82 / r 77 / s 56)
+- P226: `blend 0.333333/1/0.666667` is within 2.5 of every clamped per-stat maximum (h 78 / r 78 / s 60)
+- P320: `handling` is within 3.0 of every clamped per-stat maximum (h 90 / r 79 / s 55)
+- RPG7: `handling` is within 4.5 of every clamped per-stat maximum (h 57 / r 51 / s 56)
+- Remington870: `blend 0.333333/1/0.333333` is within 9.0 of every clamped per-stat maximum (h 98 / r 62 / s 96)
+- TT33: `blend 0.333333/0.333333/1` is within 1.0 of every clamped per-stat maximum (h 89 / r 80 / s 58)
+- Turret: `handling` is within 0.0 of every clamped per-stat maximum (h 33 / r 29 / s 54)
+- UMP: `blend 0.333333/1/0.333333` is within 0.0 of every clamped per-stat maximum (h 100 / r 88 / s 72)
+
+### Inconclusive: near every legal maximum, but the legal maxima fall well short of the optimiser's (illegal) ones: 7
+- AK_545_Carbine: `blend 1/0.333333/0.333333` is within 5.0 of the legal maxima, but the optimiser found no legal build near the stability ceiling (legal h 100 / r 92 / s 58 against h 100 / r 92 / s 100 including illegal builds)
+- AK_9: `reload_speed` is within 6.5 of the legal maxima, but the optimiser found no legal build near the handling, stability ceiling (legal h 75 / r 88 / s 50 against h 100 / r 88 / s 100 including illegal builds)
+- KOSCH: `stock` is within 0.0 of the legal maxima, but the optimiser found no legal build near the stability ceiling (legal h 73 / r 73 / s 54 against h 81 / r 76 / s 66 including illegal builds)
+- Remington700: `all_round` is within 7.0 of the legal maxima, but the optimiser found no legal build near the stability ceiling (legal h 100 / r 80 / s 76 against h 100 / r 80 / s 100 including illegal builds)
+- SCAR47: `reload_speed` is within 4.0 of the legal maxima, but the optimiser found no legal build near the handling, stability ceiling (legal h 74 / r 82 / s 59 against h 100 / r 82 / s 94 including illegal builds)
+- SCARH: `reload_speed` is within 0.0 of the legal maxima, but the optimiser found no legal build near the handling, stability ceiling (legal h 50 / r 60 / s 66 against h 100 / r 60 / s 100 including illegal builds)
+- SCARL: `reload_speed` is within 1.0 of the legal maxima, but the optimiser found no legal build near the handling, stability ceiling (legal h 68 / r 90 / s 71 against h 100 / r 90 / s 95 including illegal builds)
 
 ### Handling, reload and stability builds nearly identical: 2
 - RPG7: handling/reload/stability builds share 100% of parts
 - Turret: handling/reload/stability builds share 100% of parts
 
-### Strict dominations inside competing sets: 145 items dominated by a not-more-expensive like-for-like alternative (old sheet, with ergonomics in all three: 150)
+### Strict dominations inside competing sets: 135 items dominated by a not-more-expensive like-for-like alternative (old sheet, with ergonomics in all three: 150)
 
 Compared on handling, reload, stability, capacity, velocity, damage, weight, recoil, deviation and loudness; items hosting different child slots are not compared.
 - `veles_b_2l_34mm_rail_grips` dominates `veles_b_2u_75mm_rail_grips` in rail:basis:optic#354a8e (price 100 vs 400)
@@ -234,7 +262,6 @@ Compared on handling, reload, stability, capacity, velocity, damage, weight, rec
 - `10mm_appalachian_silvertip_175gr_jhp` dominates `10mm_polar_cartridge_220gr_hcfp` in slot:ammo_10mm|#2b9bbe (price 2000 vs 3250)
 - `10mm_appalachian_silvertip_175gr_jhp` dominates `10mm_underworld_xtp_180gr_jhp` in slot:ammo_10mm|#2b9bbe (price 2000 vs 3500)
 - `10mm_copperhead_honey_badger_115gr_ehp` dominates `10mm_appalachian_silvertip_175gr_jhp` in slot:ammo_10mm|#2b9bbe (price 2000 vs 2000)
-- `10mm_copperhead_honey_badger_115gr_ehp` dominates `10mm_federal_fusion_200gr_bsp` in slot:ammo_10mm|#2b9bbe (price 2000 vs 2500)
 - `10mm_copperhead_honey_badger_115gr_ehp` dominates `10mm_federal_hst_175gr_jhp` in slot:ammo_10mm|#2b9bbe (price 2000 vs 4000)
 - `10mm_copperhead_honey_badger_115gr_ehp` dominates `10mm_polar_cartridge_220gr_hcfp` in slot:ammo_10mm|#2b9bbe (price 2000 vs 3250)
 - `10mm_copperhead_honey_badger_115gr_ehp` dominates `10mm_underworld_xtp_180gr_jhp` in slot:ammo_10mm|#2b9bbe (price 2000 vs 3500)
@@ -251,49 +278,38 @@ Compared on handling, reload, stability, capacity, velocity, damage, weight, rec
 - `10mm_roosevelt_umc_180gr_fmj` dominates `10mm_federal_hst_175gr_jhp` in slot:ammo_10mm|#2b9bbe (price 0 vs 4000)
 - `10mm_roosevelt_umc_180gr_fmj` dominates `10mm_polar_cartridge_220gr_hcfp` in slot:ammo_10mm|#2b9bbe (price 0 vs 3250)
 - `10mm_underworld_xtp_180gr_jhp` dominates `10mm_federal_hst_175gr_jhp` in slot:ammo_10mm|#2b9bbe (price 3500 vs 4000)
-- `12g_mili_275_00buck_9x` dominates `12g_federal_game_load_275_4shot_152x` in slot:ammo_12g|#c63274 (price 0 vs 1000)
-- `12g_mili_275_00buck_9x` dominates `12g_phoenix_hellfire_300_dragons_breath` in slot:ammo_12g|#c63274 (price 0 vs 4000)
+- `12g_federal_game_load_275_4shot_152x` dominates `12g_phoenix_hellfire_300_dragons_breath` in slot:ammo_12g|#c63274 (price 1000 vs 4000)
 - `40sv_federal_american_eagle_180gr_fmj` dominates `40sv_federal_premium_180gr_hst` in slot:ammo_40sv|#2f802b (price 0 vs 2250)
 - `40sv_lance_lawman_125gr_rht` dominates `40sv_appalachian_ranger_tseries_180gr_jhp` in slot:ammo_40sv|#2f802b (price 1000 vs 2500)
 - `40sv_lance_lawman_125gr_rht` dominates `40sv_federal_premium_180gr_hst` in slot:ammo_40sv|#2f802b (price 1000 vs 2250)
-- `40sv_lance_lawman_125gr_rht` dominates `40sv_federal_streak_180gr_tmj_tracer` in slot:ammo_40sv|#2f802b (price 1000 vs 1250)
 - `40sv_lance_lawman_125gr_rht` dominates `40sv_lance_gold_dot_180gr_gdhp` in slot:ammo_40sv|#2f802b (price 1000 vs 1750)
 - `40sv_s2_research_rip_115gr_fhp` dominates `40sv_appalachian_ranger_tseries_180gr_jhp` in slot:ammo_40sv|#2f802b (price 1500 vs 2500)
 - `40sv_s2_research_rip_115gr_fhp` dominates `40sv_federal_premium_180gr_hst` in slot:ammo_40sv|#2f802b (price 1500 vs 2250)
 - `40sv_s2_research_rip_115gr_fhp` dominates `40sv_lance_gold_dot_180gr_gdhp` in slot:ammo_40sv|#2f802b (price 1500 vs 1750)
 - `40sv_sierra9_barrier_blind_77gr_apc` dominates `40sv_appalachian_ranger_tseries_180gr_jhp` in slot:ammo_40sv|#2f802b (price 1500 vs 2500)
 - `40sv_sierra9_barrier_blind_77gr_apc` dominates `40sv_federal_cartridge_mk308_mod0_155gr_jhp` in slot:ammo_40sv|#2f802b (price 1500 vs 3500)
-- `40sv_sierra9_barrier_blind_77gr_apc` dominates `40sv_federal_cartridge_mk309_mod0_155gr_ball` in slot:ammo_40sv|#2f802b (price 1500 vs 3000)
 - `40sv_sierra9_barrier_blind_77gr_apc` dominates `40sv_federal_premium_180gr_hst` in slot:ammo_40sv|#2f802b (price 1500 vs 2250)
-- `40sv_sierra9_barrier_blind_77gr_apc` dominates `40sv_lance_gold_dot_180gr_gdhp` in slot:ammo_40sv|#2f802b (price 1500 vs 1750)
-- `40sv_sierra9_barrier_blind_77gr_apc` dominates `40sv_s2_research_rip_115gr_fhp` in slot:ammo_40sv|#2f802b (price 1500 vs 1500)
 - `40sv_sierra9_woodsman_130gr_monolithic_solid_copper` dominates `40sv_appalachian_ranger_tseries_180gr_jhp` in slot:ammo_40sv|#2f802b (price 2500 vs 2500)
 - `40sv_sierra9_woodsman_130gr_monolithic_solid_copper` dominates `40sv_federal_cartridge_mk308_mod0_155gr_jhp` in slot:ammo_40sv|#2f802b (price 2500 vs 3500)
 - `45acp_lance_gold_dot_230gr_bjhp` dominates `45acp_federal_defense_230gr_hst_jhp` in slot:ammo_45acp|#7382db (price 3500 vs 4500)
 - `45acp_lance_lawman_155gr_rht_frangible` dominates `45acp_federal_defense_230gr_hst_jhp` in slot:ammo_45acp|#7382db (price 1000 vs 4500)
 - `45acp_lance_lawman_155gr_rht_frangible` dominates `45acp_lance_gold_dot_230gr_bjhp` in slot:ammo_45acp|#7382db (price 1000 vs 3500)
 - `45acp_lance_lawman_155gr_rht_frangible` dominates `45acp_levi_defense_200gr_xtreme_penetrator` in slot:ammo_45acp|#7382db (price 1000 vs 4000)
-- `45acp_lance_lawman_155gr_rht_frangible` dominates `45acp_pulsar_225gr_red_tracer` in slot:ammo_45acp|#7382db (price 1000 vs 1500)
 - `45acp_lance_lawman_155gr_rht_frangible` dominates `45acp_s2_research_162gr_rip` in slot:ammo_45acp|#7382db (price 1000 vs 2000)
 - `45acp_levi_defense_200gr_xtreme_penetrator` dominates `45acp_federal_defense_230gr_hst_jhp` in slot:ammo_45acp|#7382db (price 4000 vs 4500)
 - `45acp_s2_research_162gr_rip` dominates `45acp_federal_defense_230gr_hst_jhp` in slot:ammo_45acp|#7382db (price 2000 vs 4500)
 - `45acp_s2_research_162gr_rip` dominates `45acp_lance_gold_dot_230gr_bjhp` in slot:ammo_45acp|#7382db (price 2000 vs 3500)
 - `5.45x39_fox_performance_55gr_hpbt` dominates `5.45x39_tsniiitekhmash_7n39_63gr` in slot:ammo_5.45x39|#3352fa (price 2000 vs 4000)
 - `5.45x39_hawthorne_black_60gr_vmax` dominates `5.45x39_kazarov_7n40_64gr` in slot:ammo_5.45x39|#3352fa (price 2500 vs 4000)
-- `5.45x39_kazarov_7n10_56gr` dominates `5.45x39_polar_bear_60gr_fmj` in slot:ammo_5.45x39|#3352fa (price 750 vs 1000)
 - `5.45x39_kazarov_7n6_53gr_ps` dominates `5.45x39_barnaul_7n22_57gr_bp` in slot:ammo_5.45x39|#3352fa (price 0 vs 1250)
 - `5.45x39_kazarov_7n6_53gr_ps` dominates `5.45x39_polar_bear_60gr_fmj` in slot:ammo_5.45x39|#3352fa (price 0 vs 1000)
-- `5.8x42_sanxian_dbp10_71gr_fmj` dominates `5.8x42_sanxian_dvf18_76gr_hp` in slot:ammo_5.8x42|#2050ca (price 1500 vs 2500)
 - `5.8x42_sanxian_dbp191_74gr_fmj` dominates `5.8x42_sanxian_dvc12_85gr_ap` in slot:ammo_5.8x42|#2050ca (price 3500 vs 5000)
 - `5.56x45_federal_m193_55gr_fmjbt` dominates `5.56x45_appalachian_m855_62gr_fmj` in slot:ammo_556x45|#4274bb (price 0 vs 1000)
-- `5.69x44_laccio_223rose_field_dynamics_40gr_vmax` dominates `5.56x45_anhalt_patrone_dm51_dea_55gr` in slot:ammo_556x45|#4274bb (price 1250 vs 3000)
 - `5.69x44_laccio_223rose_field_dynamics_40gr_vmax` dominates `5.56x45_appalachian_mk318_mod0_62gr_sost` in slot:ammo_556x45|#4274bb (price 1250 vs 2750)
 - `5.69x44_laccio_223rose_field_dynamics_40gr_vmax` dominates `5.56x45_emmeo_m995_52gr_ap` in slot:ammo_556x45|#4274bb (price 1250 vs 3500)
-- `5.69x44_laccio_223rose_field_dynamics_40gr_vmax` dominates `5.56x45_federal_m856a1_64gr_red_tracer` in slot:ammo_556x45|#4274bb (price 1250 vs 1500)
 - `5.69x44_laccio_223rose_field_dynamics_40gr_vmax` dominates `5.56x45_jgsdf_j3_62gr` in slot:ammo_556x45|#4274bb (price 1250 vs 2000)
 - `7.62x54r_norilsk_7n1_151gr_ps` dominates `7.62x54r_norilsk_7n14_152gr_snb` in slot:ammo_7.62x54r|#e6c91d (price 2500 vs 4000)
 - `7.62x54r_tsniitekhmash_57_n_323s_148gr_lps` dominates `7.62x54r_norilsk_b32m_164gr_api` in slot:ammo_7.62x54r|#e6c91d (price 0 vs 3000)
-- `7.62x25_kazarov_57n134s_85gr_pst` dominates `7.62x25_pga_defense_line_85gr_jhp` in slot:ammo_762x25|#c7561b (price 1500 vs 1500)
 - `7.62x25_kazarov_57t132p_85gr_fmj` dominates `7.62x25_pga_defense_line_85gr_jhp` in slot:ammo_762x25|#c7561b (price 500 vs 1500)
 - `7.62x25_s&b_85gr_fmj` dominates `7.62x25_kazarov_57t133_90gr_red_tracer` in slot:ammo_762x25|#c7561b (price 0 vs 1000)
 - `7.62x25_s&b_85gr_fmj` dominates `7.62x25_pga_defense_line_85gr_jhp` in slot:ammo_762x25|#c7561b (price 0 vs 1500)
@@ -302,8 +318,6 @@ Compared on handling, reload, stability, capacity, velocity, damage, weight, rec
 - `7.62x39_underworld_controlled_chase_123gr_hunting` dominates `7.62x39_tsniitekhmash_8m3_124gr_hp` in slot:ammo_762x39|#04cd60 (price 1500 vs 2000)
 - `9x18_kazarov_7n25_pbm_56gr_ap` dominates `9x18_tsniitekhmash_sp7_gzh_80gr` in slot:ammo_9x18|#be18e8 (price 2000 vs 2000)
 - `9x18_underworld_xtreme_penetrator_95gr_sm` dominates `9x18_hawthorne_xtp_95gr_jhpfb` in slot:ammo_9x18|#be18e8 (price 1000 vs 1500)
-- `9x19_appalachian_mk254_mod0_90gr_frangible` dominates `9x19_s2_research_9mm_rip_92gr_fhp` in slot:ammo_9x19|G17#7696db (price 750 vs 1500)
-- `9x19_btv_scorpio_nato_115gr_fmj` dominates `9x19_appalachian_m882_124gr_fmj` in slot:ammo_9x19|G17#7696db (price 1000 vs 1250)
 - `equinox_ex15_endplate` dominates `kf_416a5_sling_eyelet_endplate` in slot:ar15_endplate|#13d665 (price 0 vs 200)
 - `hart_m4a1_receiver_endplate` dominates `kf_416a5_sling_eyelet_endplate` in slot:ar15_endplate|#13d665 (price 0 vs 200)
 - `kf_416c_endplate` dominates `kf_416a5_sling_eyelet_endplate` in slot:ar15_endplate|#13d665 (price 100 vs 200)
@@ -405,372 +419,372 @@ Compared on handling, reload, stability, capacity, velocity, damage, weight, rec
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 64.5 | 61.5 | 42.5 | 3.17 | 20/30 | 64.0 |
-| setup:rpk16 | 31.0 | 40.5 | 46.5 | 4.46 | 7/4 | 32.0 |
-| preset:kazarov_group_ak12_gen2 | 67.0 | 67.5 | 53.5 | 3.18 | 25/33 | 73.0 |
-| preset:kazarov_group_ak12k_gen2 | 76.0 | 67.5 | 59.0 | 2.96 | 30/37 | 81.0 |
-| preset:kazarov_group_rpk16 | 41.5 | 36.5 | 38.5 | 4.14 | 10/21 | 35.0 |
-| opt:handling | 97.5 | 74.5 | 56.5 | 3.61 | 33/34 | 97.5 |
-| opt:reload | 83.0 | 80.0 | 83.5 | 3.90 | 25/29 | 106.5 |
-| opt:stability | 77.0 | 52.0 | 84.5 | 4.36 | 27/34 | 86.0 |
-| opt:recoil | 35.0 | 78.0 | 57.5 | 4.22 | 1/3 | 63.0 |
-| opt:all_round | 86.5 | 80.0 | 83.0 | 3.87 | 26/32 | 108.5 |
-| opt:reload_speed | 71.5 | 80.0 | 48.5 | 2.83 | 39/48 | 81.0 |
-| opt:handling_min | -1.5 | 31.0 | 25.0 | 4.76 | 22/22 | -4.0 |
-| opt:reload_speed_min | 44.5 | 31.0 | 29.0 | 3.51 | 50/53 | 27.0 |
-| opt:stability_min | 20.0 | 40.5 | 12.0 | 4.20 | 54/14 | 14.0 |
+| stock | 65.5 | 61.5 | 39.5 | 3.17 | 20/30 | 64.0 |
+| setup:rpk16 | 30.0 | 40.5 | 50.0 | 4.46 | 7/4 | 32.0 |
+| preset:kazarov_group_ak12_gen2 | 68.0 | 67.5 | 50.5 | 3.18 | 25/33 | 73.0 |
+| preset:kazarov_group_ak12k_gen2 | 77.0 | 67.5 | 56.0 | 2.96 | 30/37 | 81.0 |
+| preset:kazarov_group_rpk16 | 40.5 | 36.5 | 42.0 | 4.14 | 10/21 | 35.0 |
+| opt:handling (breaks 1 incompatibility rule) | 106.5 | 74.5 | 48.0 | 3.56 | 30/32 | 100.5 |
+| opt:reload (breaks 1 incompatibility rule) | 81.0 | 80.0 | 88.0 | 3.87 | 25/29 | 106.0 |
+| opt:stability (breaks 1 incompatibility rule) | 75.5 | 52.0 | 89.5 | 4.31 | 24/32 | 89.0 |
+| opt:recoil | 33.0 | 78.0 | 62.5 | 4.19 | 1/3 | 62.2 |
+| opt:all_round (breaks 1 incompatibility rule) | 87.5 | 80.0 | 84.5 | 3.87 | 26/32 | 108.5 |
+| opt:reload_speed | 72.0 | 80.0 | 44.5 | 2.83 | 39/48 | 81.0 |
+| opt:handling_min | -5.5 | 31.0 | 26.0 | 4.76 | 22/22 | -4.0 |
+| opt:reload_speed_min | 45.0 | 31.0 | 24.0 | 3.51 | 50/53 | 27.0 |
+| opt:stability_min | 46.5 | 43.0 | 3.5 | 3.74 | 57/18 | 29.0 |
 
 ## AK308
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 56.5 | 50.0 | 36.5 | 3.90 | 59/80 | 48.0 |
-| setup:ak308 | 53.5 | 59.5 | 58.0 | 4.39 | 58/81 | 58.5 |
-| preset:kazarov_group_ak308_gen2 | 59.0 | 57.0 | 48.0 | 3.91 | 65/85 | 58.0 |
-| opt:handling | 83.0 | 65.0 | 47.0 | 4.19 | 70/84 | 85.8 |
-| opt:reload | 61.0 | 71.5 | 71.0 | 4.75 | 67/56 | 90.8 |
-| opt:stability | 65.0 | 57.0 | 75.5 | 4.98 | 65/86 | 72.5 |
-| opt:recoil | 34.5 | 69.5 | 52.5 | 4.39 | 58/38 | 64.0 |
-| opt:all_round | 71.0 | 71.5 | 73.5 | 4.77 | 58/79 | 97.8 |
-| opt:reload_speed | 65.0 | 71.5 | 43.5 | 3.35 | 78/100 | 77.0 |
-| opt:handling_min | 4.5 | 31.5 | 29.0 | 4.73 | 63/72 | 3.0 |
-| opt:reload_speed_min | 41.0 | 31.5 | 23.5 | 3.87 | 88/103 | 24.0 |
-| opt:stability_min | 25.0 | 44.5 | 14.0 | 4.44 | 95/62 | 15.0 |
+| stock | 60.0 | 50.0 | 34.0 | 3.90 | 59/80 | 48.0 |
+| setup:ak308 | 50.5 | 59.5 | 60.5 | 4.39 | 58/81 | 58.5 |
+| preset:kazarov_group_ak308_gen2 | 62.5 | 57.0 | 45.5 | 3.91 | 65/85 | 58.0 |
+| opt:handling | 106.0 | 65.0 | 39.5 | 4.26 | 65/80 | 89.8 |
+| opt:reload | 73.5 | 71.5 | 76.0 | 4.73 | 67/56 | 90.5 |
+| opt:stability | 67.5 | 57.0 | 81.0 | 5.05 | 60/82 | 76.5 |
+| opt:recoil | 46.5 | 69.5 | 58.5 | 4.37 | 58/38 | 63.5 |
+| opt:all_round | 86.0 | 71.5 | 76.0 | 4.77 | 58/79 | 97.8 |
+| opt:reload_speed | 78.0 | 71.5 | 40.0 | 3.35 | 78/100 | 77.0 |
+| opt:handling_min | 3.0 | 31.5 | 30.5 | 4.73 | 63/72 | 3.0 |
+| opt:reload_speed_min | 44.0 | 31.5 | 19.0 | 3.87 | 88/103 | 24.0 |
+| opt:stability_min | 54.0 | 47.0 | 6.0 | 3.98 | 98/66 | 30.0 |
 
 ## AK_545
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 55.0 | 53.5 | 54.0 | 2.94 | 23/17 | 56.0 |
-| setup:veles_ak74m_leader | 44.5 | 55.5 | 48.5 | 3.31 | 23/35 | 46.0 |
-| preset:ak105 | 68.0 | 55.5 | 57.0 | 2.79 | 28/23 | 66.0 |
-| preset:ak74m | 64.5 | 55.5 | 52.0 | 2.97 | 24/18 | 62.0 |
-| preset:veles_ak74m_leader | 46.5 | 55.5 | 48.5 | 3.16 | 22/33 | 49.0 |
-| opt:handling | 103.0 | 68.0 | 56.0 | 5.06 | 32/36 | 95.2 |
-| opt:reload | 76.5 | 76.0 | 92.0 | 5.57 | 1/-1 | 99.2 |
-| opt:stability | 42.0 | 40.5 | 111.5 | 6.63 | 14/11 | 65.0 |
-| opt:recoil | 18.0 | 73.0 | 82.5 | 6.15 | -15/-33 | 55.5 |
-| opt:all_round | 82.5 | 75.5 | 104.0 | 5.51 | 12/8 | 108.2 |
-| opt:reload_speed | 57.5 | 76.5 | 48.5 | 2.56 | 43/39 | 65.5 |
-| opt:handling_min | -45.0 | 23.5 | 33.0 | 5.58 | 23/13 | -37.5 |
-| opt:reload_speed_min | 25.5 | 23.5 | 35.5 | 3.12 | 48/47 | 10.0 |
-| opt:stability_min | 17.5 | 33.0 | 8.0 | 4.70 | 63/28 | 1.0 |
+| stock | 56.0 | 53.5 | 52.5 | 2.94 | 23/17 | 56.0 |
+| setup:veles_ak74m_leader | 43.0 | 55.5 | 48.5 | 3.31 | 23/35 | 46.0 |
+| preset:ak105 | 69.0 | 55.5 | 55.5 | 2.79 | 28/23 | 66.0 |
+| preset:ak74m | 65.5 | 55.5 | 50.5 | 2.97 | 24/18 | 62.0 |
+| preset:veles_ak74m_leader | 46.0 | 55.5 | 49.5 | 3.16 | 22/33 | 49.0 |
+| opt:handling (breaks 3 incompatibility rules) | 109.5 | 68.0 | 52.0 | 5.01 | 29/34 | 98.2 |
+| opt:reload (breaks 5 incompatibility rules) | 68.5 | 76.0 | 105.5 | 5.52 | 1/-1 | 98.5 |
+| opt:stability (breaks 7 incompatibility rules) | 36.0 | 40.5 | 124.5 | 6.58 | 11/9 | 68.0 |
+| opt:recoil (breaks 12 incompatibility rules) | 2.0 | 73.0 | 106.0 | 6.07 | -15/-33 | 54.5 |
+| opt:all_round (breaks 5 incompatibility rules) | 79.5 | 75.5 | 112.0 | 5.51 | 12/8 | 108.2 |
+| opt:reload_speed | 58.5 | 76.5 | 45.5 | 2.56 | 43/39 | 65.5 |
+| opt:handling_min (breaks 2 incompatibility rules) | -50.0 | 26.5 | 62.0 | 5.87 | 12/-4 | -24.5 |
+| opt:reload_speed_min | 24.5 | 23.5 | 34.5 | 3.12 | 48/47 | 10.0 |
+| opt:stability_min | 37.0 | 35.5 | 10.5 | 3.99 | 68/30 | 17.0 |
 
 ## AK_545_Carbine
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 85.0 | 71.0 | 47.0 | 2.48 | 36/32 | 76.0 |
-| setup:veles_aks74u | 58.5 | 69.0 | 54.5 | 3.02 | 32/42 | 64.5 |
-| preset:aks74ub | 79.0 | 71.0 | 45.5 | 2.86 | 29/24 | 75.0 |
-| preset:aks74un | 86.0 | 71.0 | 47.0 | 2.51 | 36/32 | 77.0 |
-| preset:veles_aks74u_upgrade | 64.5 | 69.0 | 41.0 | 2.47 | 39/46 | 60.0 |
-| opt:handling | 120.5 | 85.0 | 58.5 | 3.11 | 42/36 | 111.0 |
-| opt:reload | 83.5 | 92.0 | 89.5 | 4.15 | 8/2 | 108.0 |
-| opt:stability | 70.5 | 57.0 | 91.0 | 4.62 | 20/7 | 78.5 |
-| opt:recoil | 73.5 | 92.0 | 87.5 | 4.56 | 8/-2 | 101.0 |
-| opt:all_round | 102.5 | 92.0 | 91.5 | 4.00 | 18/8 | 122.0 |
-| opt:reload_speed | 83.5 | 92.5 | 44.0 | 2.15 | 56/53 | 84.5 |
-| opt:handling_min | 10.0 | 41.5 | 33.5 | 4.37 | 43/38 | 5.0 |
-| opt:reload_speed_min | 53.5 | 41.5 | 33.0 | 2.80 | 61/61 | 32.0 |
-| opt:stability_min | 29.0 | 51.0 | 21.0 | 3.29 | 73/29 | 22.0 |
+| stock | 86.0 | 71.0 | 45.5 | 2.48 | 36/32 | 76.0 |
+| setup:veles_aks74u | 60.0 | 69.0 | 58.5 | 3.02 | 32/42 | 64.5 |
+| preset:aks74ub | 83.0 | 71.0 | 46.5 | 2.86 | 29/24 | 75.0 |
+| preset:aks74un | 87.0 | 71.0 | 45.5 | 2.51 | 36/32 | 77.0 |
+| preset:veles_aks74u_upgrade | 61.0 | 69.0 | 45.0 | 2.47 | 39/46 | 60.0 |
+| opt:handling | 131.0 | 85.0 | 51.5 | 3.18 | 36/31 | 115.0 |
+| opt:reload (breaks 1 incompatibility rule) | 77.5 | 92.0 | 103.0 | 4.11 | 8/2 | 107.0 |
+| opt:stability (breaks 2 incompatibility rules) | 66.0 | 57.0 | 104.5 | 4.69 | 14/2 | 82.5 |
+| opt:recoil (breaks 1 incompatibility rule) | 67.5 | 92.0 | 101.0 | 4.52 | 8/-2 | 100.0 |
+| opt:all_round (breaks 1 incompatibility rule) | 105.5 | 92.0 | 94.0 | 4.04 | 18/7 | 122.0 |
+| opt:reload_speed | 85.0 | 92.5 | 39.5 | 2.15 | 56/53 | 84.5 |
+| opt:handling_min | 7.5 | 41.5 | 34.0 | 4.37 | 43/38 | 5.0 |
+| opt:reload_speed_min | 53.0 | 41.5 | 30.5 | 2.80 | 61/61 | 32.0 |
+| opt:stability_min | 42.5 | 53.5 | 18.0 | 3.32 | 74/28 | 31.0 |
 
 ## AK_762
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 57.0 | 54.0 | 45.5 | 3.25 | 29/34 | 55.0 |
-| setup:magtap_akmn | 62.5 | 56.5 | 45.0 | 3.39 | 32/48 | 56.0 |
-| setup:tabuk | 55.5 | 61.5 | 55.0 | 3.90 | 30/42 | 61.5 |
-| opt:handling | 102.0 | 68.0 | 47.5 | 5.21 | 35/54 | 93.2 |
-| opt:reload | 77.0 | 75.5 | 95.5 | 5.99 | 12/18 | 101.2 |
-| opt:stability | 43.0 | 54.0 | 103.0 | 6.53 | 17/29 | 70.0 |
-| opt:recoil | 15.5 | 73.0 | 67.5 | 6.86 | 2/-41 | 47.5 |
-| opt:all_round | 81.5 | 75.5 | 95.5 | 5.81 | 15/24 | 104.2 |
-| opt:reload_speed | 52.5 | 76.0 | 55.0 | 3.04 | 53/63 | 67.5 |
-| opt:handling_min | -43.5 | 24.0 | 25.5 | 6.57 | 23/22 | -35.5 |
-| opt:reload_speed_min | 28.0 | 24.0 | 27.0 | 3.90 | 51/61 | 12.0 |
-| opt:stability_min | 20.0 | 46.5 | -1.5 | 5.02 | 63/35 | 6.0 |
+| stock | 56.0 | 54.0 | 50.5 | 3.25 | 29/34 | 55.0 |
+| setup:magtap_akmn | 63.5 | 56.5 | 42.0 | 3.39 | 32/48 | 56.0 |
+| setup:tabuk | 54.0 | 61.5 | 58.5 | 3.90 | 30/42 | 61.5 |
+| opt:handling (breaks 2 incompatibility rules) | 106.5 | 68.0 | 50.0 | 5.22 | 34/52 | 95.2 |
+| opt:reload (breaks 4 incompatibility rules) | 67.5 | 75.5 | 113.0 | 5.94 | 12/18 | 100.5 |
+| opt:stability (breaks 6 incompatibility rules) | 35.0 | 54.0 | 122.5 | 6.54 | 16/27 | 72.0 |
+| opt:recoil (breaks 12 incompatibility rules) | -3.5 | 73.0 | 97.0 | 6.78 | 2/-41 | 46.5 |
+| opt:all_round (breaks 4 incompatibility rules) | 76.5 | 75.5 | 110.0 | 5.71 | 17/26 | 105.2 |
+| opt:reload_speed | 52.5 | 76.0 | 59.5 | 3.04 | 53/63 | 67.5 |
+| opt:handling_min (breaks 2 incompatibility rules) | -51.5 | 27.0 | 60.5 | 6.81 | 14/6 | -24.5 |
+| opt:reload_speed_min | 26.0 | 24.0 | 33.5 | 3.90 | 51/61 | 12.0 |
+| opt:stability_min | 36.5 | 49.0 | 7.0 | 4.26 | 70/38 | 20.0 |
 
 ## AK_9
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 75.0 | 75.0 | 56.0 | 2.16 | 22/17 | 75.0 |
-| opt:handling | 104.5 | 88.0 | 67.0 | 3.43 | 29/35 | 104.5 |
-| opt:reload | 80.0 | 88.0 | 95.5 | 4.11 | 0/-7 | 103.8 |
-| opt:stability | 57.0 | 62.0 | 94.5 | 5.13 | 4/1 | 73.5 |
-| opt:recoil | 52.0 | 88.0 | 91.5 | 4.27 | -9/-20 | 83.5 |
-| opt:all_round | 87.5 | 88.0 | 96.5 | 4.08 | 3/-1 | 108.8 |
-| opt:reload_speed | 68.5 | 88.5 | 52.0 | 1.93 | 38/36 | 76.0 |
-| opt:handling_min | -2.5 | 56.0 | 45.0 | 4.01 | 23/14 | 11.5 |
-| opt:reload_speed_min | 41.0 | 56.0 | 41.0 | 2.36 | 43/44 | 38.0 |
-| opt:stability_min | 18.0 | 56.0 | 31.0 | 3.56 | 33/30 | 20.0 |
+| stock | 75.0 | 75.0 | 50.0 | 2.16 | 22/17 | 75.0 |
+| opt:handling (breaks 1 incompatibility rule) | 114.5 | 88.0 | 55.5 | 3.45 | 27/32 | 108.5 |
+| opt:reload (breaks 2 incompatibility rules) | 70.0 | 88.0 | 102.0 | 4.07 | 0/-7 | 103.0 |
+| opt:stability (breaks 2 incompatibility rules) | 37.5 | 62.0 | 103.5 | 5.10 | 1/-14 | 67.5 |
+| opt:recoil (breaks 3 incompatibility rules) | 41.5 | 88.0 | 98.5 | 4.21 | -9/-20 | 82.5 |
+| opt:all_round (breaks 2 incompatibility rules) | 84.0 | 88.0 | 102.0 | 4.24 | 6/1 | 111.8 |
+| opt:reload_speed | 69.0 | 88.5 | 43.5 | 1.93 | 38/36 | 76.0 |
+| opt:handling_min | -7.5 | 56.0 | 41.0 | 3.93 | 24/13 | 10.5 |
+| opt:reload_speed_min | 39.5 | 56.0 | 34.5 | 2.36 | 43/44 | 38.0 |
+| opt:stability_min | 35.0 | 58.5 | 22.5 | 3.53 | 34/32 | 31.0 |
 
 ## AUG_A3
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 67.5 | 62.0 | 53.0 | 2.71 | 29/38 | 65.5 |
-| setup:aug_a3_cqc | 69.5 | 71.0 | 62.0 | 3.90 | 20/28 | 74.0 |
-| setup:aug_a3 | 77.5 | 68.0 | 61.0 | 3.29 | 32/37 | 75.0 |
-| setup:stg77a1_mod | 70.0 | 63.0 | 54.5 | 2.82 | 29/35 | 68.5 |
-| preset:aug_9mm_para_xs | 97.5 | 61.0 | 59.0 | 2.25 | 31/32 | 87.0 |
-| preset:aug_a1_9mm_para | 91.0 | 69.5 | 64.5 | 2.43 | 23/18 | 89.0 |
-| preset:aug_a3_cqc | 65.5 | 62.0 | 53.5 | 2.96 | 21/32 | 65.0 |
-| preset:aug_a3m1 | 68.5 | 63.0 | 53.0 | 2.64 | 29/37 | 66.5 |
-| preset:aug_a3sa | 68.0 | 62.0 | 50.0 | 2.62 | 27/40 | 64.5 |
-| preset:aug_commando_xs | 76.0 | 62.0 | 48.5 | 2.50 | 35/47 | 68.5 |
-| preset:lowenherz_aug_hbar | 53.0 | 46.5 | 48.0 | 3.41 | 19/27 | 48.0 |
-| opt:handling | 123.5 | 72.5 | 76.5 | 3.60 | 34/25 | 113.8 |
-| opt:reload | 105.5 | 79.5 | 81.0 | 3.59 | 16/7 | 109.2 |
-| opt:stability | 100.0 | 71.0 | 83.5 | 4.11 | 22/14 | 101.5 |
-| opt:recoil | 87.0 | 78.0 | 79.0 | 3.64 | 4/8 | 95.0 |
-| opt:all_round | 120.0 | 79.5 | 79.5 | 3.56 | 25/14 | 117.2 |
-| opt:reload_speed | 72.0 | 90.0 | 52.5 | 2.40 | 43/49 | 83.0 |
-| opt:handling_min | 12.5 | 36.5 | 42.5 | 5.06 | 20/20 | 1.5 |
-| opt:reload_speed_min | 60.5 | 36.5 | 47.0 | 3.24 | 48/53 | 36.0 |
-| opt:stability_min | 44.0 | 42.5 | 28.0 | 4.28 | 47/10 | 29.0 |
+| stock | 68.0 | 62.0 | 53.0 | 2.71 | 29/38 | 65.5 |
+| setup:aug_a3_cqc | 69.0 | 71.0 | 61.0 | 3.90 | 20/28 | 74.0 |
+| setup:aug_a3 | 75.0 | 68.0 | 62.5 | 3.29 | 32/37 | 75.0 |
+| setup:stg77a1_mod | 70.5 | 63.0 | 54.5 | 2.82 | 29/35 | 68.5 |
+| preset:aug_9mm_para_xs | 98.0 | 61.0 | 59.0 | 2.25 | 31/32 | 87.0 |
+| preset:aug_a1_9mm_para | 91.5 | 69.5 | 64.5 | 2.43 | 23/18 | 89.0 |
+| preset:aug_a3_cqc | 66.0 | 62.0 | 53.5 | 2.96 | 21/32 | 65.0 |
+| preset:aug_a3m1 | 69.0 | 63.0 | 53.0 | 2.64 | 29/37 | 66.5 |
+| preset:aug_a3sa | 68.5 | 62.0 | 50.0 | 2.62 | 27/40 | 64.5 |
+| preset:aug_commando_xs | 76.5 | 62.0 | 48.5 | 2.50 | 35/47 | 68.5 |
+| preset:lowenherz_aug_hbar | 54.5 | 46.5 | 49.0 | 3.41 | 19/27 | 48.0 |
+| opt:handling (breaks 3 incompatibility rules) | 128.5 | 72.5 | 77.5 | 3.62 | 32/22 | 117.8 |
+| opt:reload (breaks 1 incompatibility rule) | 107.0 | 79.5 | 80.0 | 3.56 | 16/7 | 109.0 |
+| opt:stability (breaks 4 incompatibility rules) | 95.0 | 71.0 | 84.0 | 4.11 | 18/6 | 98.5 |
+| opt:recoil (breaks 4 incompatibility rules) | 85.5 | 78.0 | 81.0 | 3.60 | 4/8 | 94.0 |
+| opt:all_round (breaks 2 incompatibility rules) | 125.0 | 79.5 | 80.5 | 3.72 | 28/16 | 120.2 |
+| opt:reload_speed | 73.5 | 90.0 | 52.5 | 2.40 | 43/49 | 83.0 |
+| opt:handling_min (breaks 1 incompatibility rule) | 12.0 | 36.5 | 41.5 | 5.09 | 22/21 | 0.5 |
+| opt:reload_speed_min | 61.0 | 36.5 | 47.0 | 3.24 | 48/53 | 36.0 |
+| opt:stability_min | 54.0 | 42.5 | 26.5 | 4.34 | 47/12 | 34.0 |
 
 ## EDC_X9
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 90.0 | 90.0 | 60.0 | 0.78 | 25/45 | 90.0 |
-| opt:handling | 93.0 | 90.0 | 60.5 | 0.89 | 29/50 | 91.0 |
-| opt:reload | 86.5 | 90.5 | 59.5 | 0.81 | 17/36 | 88.0 |
-| opt:stability | 80.0 | 84.0 | 61.5 | 1.24 | 22/41 | 81.2 |
-| opt:recoil | 79.0 | 90.5 | 58.5 | 0.97 | 12/35 | 83.0 |
-| opt:all_round | 90.5 | 90.5 | 61.0 | 0.81 | 19/39 | 91.0 |
-| opt:reload_speed | 87.0 | 90.5 | 61.5 | 0.85 | 27/48 | 88.0 |
-| opt:handling_min | 70.0 | 81.5 | 53.5 | 1.23 | 17/40 | 69.0 |
-| opt:reload_speed_min | 86.0 | 81.5 | 56.5 | 0.89 | 27/48 | 82.0 |
-| opt:stability_min | 76.5 | 81.5 | 53.5 | 1.13 | 22/41 | 75.0 |
+| stock | 90.0 | 90.0 | 50.0 | 0.78 | 25/45 | 90.0 |
+| opt:handling | 96.0 | 90.0 | 53.0 | 0.91 | 27/47 | 95.0 |
+| opt:reload | 86.5 | 90.5 | 49.5 | 0.81 | 17/36 | 88.0 |
+| opt:stability | 83.0 | 84.0 | 54.5 | 1.26 | 20/38 | 85.2 |
+| opt:recoil | 79.0 | 90.5 | 48.5 | 0.97 | 12/35 | 83.0 |
+| opt:all_round | 93.5 | 90.5 | 53.5 | 0.97 | 22/41 | 94.0 |
+| opt:reload_speed | 86.0 | 90.5 | 50.5 | 0.85 | 27/48 | 88.0 |
+| opt:handling_min | 68.0 | 81.5 | 42.0 | 1.15 | 18/39 | 68.0 |
+| opt:reload_speed_min | 85.0 | 81.5 | 45.5 | 0.89 | 27/48 | 82.0 |
+| opt:stability_min | 74.5 | 81.5 | 42.0 | 1.05 | 23/40 | 74.0 |
 
 ## G3
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 52.5 | 64.0 | 40.0 | 3.91 | 29/59 | 48.0 |
-| setup:kg51sd | 67.0 | 65.0 | 53.0 | 3.46 | 58/82 | 68.0 |
-| setup:kf_skg_31 | 49.5 | 77.5 | 73.0 | 4.69 | 56/81 | 68.0 |
-| setup:kf_kg31 | 41.5 | 64.0 | 45.0 | 4.18 | 32/50 | 43.0 |
-| preset:ctr_32 | 63.0 | 64.0 | 52.5 | 3.90 | 14/22 | 62.0 |
-| preset:ferro_ordnance_group_kg_51c | 69.0 | 65.0 | 54.0 | 3.10 | 52/79 | 65.0 |
-| preset:ferro_ordnance_group_kg_51sd | 69.5 | 65.0 | 53.0 | 3.25 | 58/82 | 70.0 |
-| preset:kf_kg_31a4 | 57.0 | 65.0 | 44.0 | 3.65 | 34/60 | 53.0 |
-| opt:handling | 108.5 | 77.0 | 45.5 | 3.21 | 72/96 | 99.0 |
-| opt:reload | 75.0 | 77.0 | 78.5 | 4.71 | 31/1 | 89.0 |
-| opt:stability | 75.0 | 66.0 | 100.0 | 5.15 | 28/37 | 91.0 |
-| opt:recoil | 41.0 | 73.0 | 56.5 | 4.86 | 9/-18 | 56.0 |
-| opt:all_round | 81.5 | 78.0 | 98.5 | 5.08 | 27/33 | 103.0 |
-| opt:reload_speed | 71.5 | 79.5 | 79.0 | 3.18 | 85/111 | 86.0 |
-| opt:handling_min | -8.0 | 44.0 | 20.0 | 5.12 | 30/58 | -9.0 |
-| opt:reload_speed_min | 28.5 | 44.0 | 31.0 | 4.20 | 58/87 | 21.0 |
-| opt:stability_min | 37.5 | 59.5 | -5.5 | 4.81 | 73/51 | 14.0 |
+| stock | 52.5 | 64.0 | 35.0 | 3.91 | 29/59 | 48.0 |
+| setup:kg51sd | 67.0 | 65.0 | 55.0 | 3.46 | 58/82 | 68.0 |
+| setup:kf_skg_31 | 45.5 | 77.5 | 71.5 | 4.69 | 56/81 | 68.0 |
+| setup:kf_kg31 | 39.0 | 64.0 | 42.0 | 4.18 | 32/50 | 43.0 |
+| preset:ctr_32 | 63.0 | 64.0 | 47.5 | 3.90 | 14/22 | 62.0 |
+| preset:ferro_ordnance_group_kg_51c | 66.0 | 65.0 | 53.0 | 3.10 | 52/79 | 65.0 |
+| preset:ferro_ordnance_group_kg_51sd | 69.5 | 65.0 | 55.0 | 3.25 | 58/82 | 70.0 |
+| preset:kf_kg_31a4 | 54.5 | 65.0 | 42.5 | 3.65 | 34/60 | 53.0 |
+| opt:handling | 109.0 | 76.0 | 43.0 | 4.66 | 27/38 | 97.0 |
+| opt:reload | 74.0 | 77.0 | 78.5 | 4.70 | 31/1 | 89.0 |
+| opt:stability | 74.5 | 66.0 | 101.0 | 5.16 | 27/35 | 93.0 |
+| opt:recoil | 27.5 | 73.0 | 71.5 | 4.83 | 9/-18 | 55.2 |
+| opt:all_round | 83.5 | 78.0 | 97.0 | 4.98 | 29/35 | 104.0 |
+| opt:reload_speed | 67.5 | 79.5 | 77.5 | 3.18 | 85/111 | 86.0 |
+| opt:handling_min (breaks 1 incompatibility rule) | -14.0 | 47.0 | 46.0 | 5.41 | 19/41 | 4.0 |
+| opt:reload_speed_min | 24.5 | 44.0 | 29.5 | 4.20 | 58/87 | 21.0 |
+| opt:stability_min | 46.5 | 62.0 | 1.5 | 4.84 | 73/51 | 28.0 |
 
 ## KF416
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 70.5 | 62.5 | 55.0 | 3.15 | 34/34 | 68.0 |
-| setup:kf416a5 | 64.5 | 72.5 | 65.0 | 3.80 | 17/31 | 71.5 |
-| setup:barret_mb2 | 33.5 | 50.0 | 40.5 | 5.17 | 16/14 | 30.0 |
-| preset:kf_416a5 | 74.5 | 70.0 | 58.0 | 3.14 | 35/31 | 75.0 |
-| preset:kf_416c | 66.0 | 60.5 | 42.0 | 2.47 | 46/61 | 58.5 |
-| opt:handling | 91.5 | 78.0 | 52.0 | 3.33 | 39/55 | 87.8 |
-| opt:reload | 68.0 | 86.5 | 82.0 | 4.28 | 20/14 | 91.8 |
-| opt:stability | 58.0 | 49.0 | 85.0 | 5.09 | 19/26 | 66.5 |
-| opt:recoil | 42.0 | 85.0 | 68.0 | 4.45 | 4/3 | 68.0 |
-| opt:all_round | 85.0 | 86.5 | 82.5 | 4.04 | 25/30 | 102.8 |
-| opt:reload_speed | 59.0 | 87.5 | 42.5 | 2.37 | 55/67 | 67.0 |
-| opt:handling_min | 0.5 | 32.0 | 31.5 | 4.62 | 16/36 | -13.0 |
-| opt:reload_speed_min | 39.0 | 32.0 | 35.0 | 3.32 | 49/64 | 13.0 |
-| opt:stability_min | 28.5 | 44.5 | 14.5 | 4.29 | 54/27 | 14.0 |
+| stock | 70.5 | 62.5 | 56.0 | 3.15 | 34/34 | 68.0 |
+| setup:kf416a5 | 60.5 | 72.5 | 69.5 | 3.80 | 17/31 | 71.5 |
+| setup:barret_mb2 | 36.0 | 50.0 | 36.5 | 5.17 | 16/14 | 30.0 |
+| preset:kf_416a5 | 73.5 | 70.0 | 61.0 | 3.14 | 35/31 | 75.0 |
+| preset:kf_416c | 69.5 | 60.5 | 39.0 | 2.47 | 46/61 | 58.5 |
+| opt:handling (breaks 1 incompatibility rule) | 103.5 | 78.0 | 42.5 | 3.33 | 41/56 | 88.8 |
+| opt:reload (breaks 1 incompatibility rule) | 64.0 | 86.5 | 90.0 | 4.26 | 20/14 | 91.5 |
+| opt:stability (breaks 1 incompatibility rule) | 38.5 | 49.5 | 98.0 | 4.79 | 24/32 | 57.0 |
+| opt:recoil (breaks 1 incompatibility rule) | 37.0 | 85.0 | 77.0 | 4.43 | 4/3 | 67.5 |
+| opt:all_round (breaks 1 incompatibility rule) | 87.0 | 86.5 | 85.5 | 4.13 | 26/31 | 103.8 |
+| opt:reload_speed | 60.0 | 87.5 | 44.0 | 2.37 | 55/67 | 67.0 |
+| opt:handling_min | -1.5 | 32.0 | 33.5 | 4.65 | 18/37 | -14.0 |
+| opt:reload_speed_min | 41.0 | 32.0 | 34.0 | 3.32 | 49/64 | 13.0 |
+| opt:stability_min | 55.0 | 48.0 | 9.0 | 4.36 | 60/30 | 28.0 |
 
 ## KOSCH
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 75.0 | 73.0 | 66.0 | 0.81 | 23/32 | 75.0 |
-| setup:__final | 73.0 | 73.0 | 60.0 | 0.84 | 25/39 | 73.0 |
-| opt:handling | 80.0 | 75.5 | 68.5 | 1.11 | 26/38 | 78.5 |
-| opt:reload | 52.5 | 76.0 | 62.0 | 1.29 | 2/2 | 60.5 |
-| opt:stability | 63.0 | 75.0 | 76.0 | 1.23 | 32/47 | 72.2 |
-| opt:recoil | 45.0 | 75.0 | 59.5 | 1.44 | -4/0 | 54.5 |
-| opt:all_round | 75.5 | 76.5 | 71.0 | 1.00 | 15/25 | 78.5 |
-| opt:reload_speed | 72.0 | 76.5 | 69.0 | 0.93 | 25/35 | 74.5 |
-| opt:handling_min | 32.0 | 39.5 | 53.5 | 2.11 | 6/16 | 26.0 |
-| opt:reload_speed_min | 66.0 | 38.0 | 63.0 | 1.33 | 23/33 | 51.0 |
-| opt:stability_min | 53.0 | 73.5 | 46.5 | 1.41 | 12/26 | 51.5 |
+| stock | 73.0 | 73.0 | 54.5 | 0.81 | 23/32 | 75.0 |
+| setup:__final | 73.0 | 73.0 | 50.0 | 0.84 | 25/39 | 73.0 |
+| opt:handling (breaks 2 incompatibility rules) | 81.0 | 75.5 | 59.5 | 1.13 | 24/35 | 82.5 |
+| opt:reload (breaks 2 incompatibility rules) | 50.5 | 76.0 | 50.5 | 1.29 | 2/2 | 60.5 |
+| opt:stability (breaks 1 incompatibility rule) | 55.0 | 75.0 | 66.5 | 1.55 | 16/17 | 69.0 |
+| opt:recoil (breaks 1 incompatibility rule) | 43.0 | 75.0 | 48.0 | 1.44 | -4/0 | 54.5 |
+| opt:all_round (breaks 3 incompatibility rules) | 76.5 | 76.5 | 62.0 | 1.16 | 18/27 | 81.5 |
+| opt:reload_speed (breaks 2 incompatibility rules) | 69.0 | 76.5 | 56.5 | 0.93 | 25/35 | 74.5 |
+| opt:handling_min (breaks 1 incompatibility rule) | 28.0 | 39.5 | 40.5 | 2.03 | 7/15 | 25.0 |
+| opt:reload_speed_min | 63.0 | 38.0 | 50.5 | 1.33 | 23/33 | 51.0 |
+| opt:stability_min (breaks 2 incompatibility rules) | 49.0 | 73.5 | 33.5 | 1.33 | 13/25 | 50.5 |
 
 ## M4A1
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 71.0 | 57.0 | 42.5 | 2.76 | 28/50 | 61.0 |
-| setup:m16a4 | 43.0 | 56.0 | 50.0 | 3.92 | 13/27 | 46.8 |
-| setup:m4a1_sopmod_block_ii | 46.5 | 60.0 | 50.0 | 3.77 | 15/23 | 50.0 |
-| setup:mk18_mod_1 | 57.5 | 63.5 | 59.5 | 3.62 | 18/31 | 61.2 |
-| setup:m4a1_urgi | 57.0 | 60.0 | 48.5 | 3.31 | 24/35 | 54.5 |
-| setup:equinox_ex15 | 86.5 | 68.5 | 50.0 | 2.59 | 27/45 | 78.5 |
-| preset:ardian_weapons_pattern_1 | 74.0 | 77.0 | 65.5 | 2.97 | 21/41 | 81.0 |
-| preset:c7a2 | 56.5 | 58.5 | 34.0 | 3.43 | 22/28 | 48.5 |
-| preset:equinox_ex_15 | 79.0 | 68.5 | 55.5 | 2.48 | 22/48 | 76.5 |
-| preset:hart_607 | 82.0 | 64.0 | 47.5 | 2.22 | 33/44 | 74.0 |
-| preset:m4a1_urg_i | 54.0 | 60.0 | 46.5 | 3.17 | 19/39 | 52.0 |
-| preset:m4a1_usgi | 66.5 | 57.0 | 52.0 | 3.14 | 25/44 | 62.2 |
-| preset:novacek_n4_gen3 | 75.0 | 69.0 | 55.5 | 2.69 | 23/46 | 73.0 |
-| opt:handling | 122.0 | 79.5 | 50.5 | 3.82 | 41/57 | 112.0 |
-| opt:reload | 66.0 | 93.5 | 93.5 | 6.07 | 3/2 | 100.5 |
-| opt:stability | 35.0 | 76.5 | 118.5 | 5.91 | 8/15 | 78.0 |
-| opt:recoil | 33.0 | 90.0 | 92.5 | 6.75 | -18/-19 | 76.5 |
-| opt:all_round | 105.5 | 92.0 | 95.5 | 4.65 | 21/29 | 126.0 |
-| opt:reload_speed | 51.0 | 95.5 | 59.0 | 2.47 | 59/79 | 75.0 |
-| opt:handling_min | -22.5 | 37.5 | 36.5 | 6.05 | 6/23 | -21.5 |
-| opt:reload_speed_min | 19.5 | 28.0 | 22.0 | 2.93 | 52/76 | -5.0 |
-| opt:stability_min | 26.5 | 62.0 | -8.5 | 2.08 | 63/46 | 9.0 |
+| stock | 71.5 | 57.0 | 37.5 | 2.76 | 28/50 | 61.0 |
+| setup:m16a4 | 28.0 | 56.0 | 65.0 | 3.92 | 13/27 | 46.8 |
+| setup:m4a1_sopmod_block_ii | 42.5 | 60.0 | 50.5 | 3.77 | 15/23 | 50.0 |
+| setup:mk18_mod_1 | 51.5 | 63.5 | 61.5 | 3.62 | 18/31 | 61.2 |
+| setup:m4a1_urgi | 52.5 | 60.0 | 50.0 | 3.31 | 24/35 | 54.5 |
+| setup:equinox_ex15 | 88.0 | 68.5 | 43.5 | 2.59 | 27/45 | 78.5 |
+| preset:ardian_weapons_pattern_1 | 72.5 | 77.0 | 62.0 | 2.97 | 21/41 | 81.0 |
+| preset:c7a2 | 60.5 | 58.5 | 25.0 | 3.43 | 22/28 | 48.5 |
+| preset:equinox_ex_15 | 76.5 | 68.5 | 53.5 | 2.48 | 22/48 | 76.5 |
+| preset:hart_607 | 81.0 | 64.0 | 44.0 | 2.22 | 33/44 | 74.0 |
+| preset:m4a1_urg_i | 50.0 | 60.0 | 46.5 | 3.17 | 19/39 | 52.0 |
+| preset:m4a1_usgi | 63.5 | 57.0 | 53.0 | 3.14 | 25/44 | 62.2 |
+| preset:novacek_n4_gen3 | 75.5 | 69.0 | 49.5 | 2.69 | 23/46 | 73.0 |
+| opt:handling (breaks 2 incompatibility rules) | 129.0 | 79.5 | 40.5 | 3.82 | 43/58 | 113.0 |
+| opt:reload (breaks 9 incompatibility rules) | 56.0 | 93.5 | 102.0 | 6.00 | 3/2 | 99.5 |
+| opt:stability (breaks 5 incompatibility rules) | 22.0 | 58.0 | 132.0 | 6.56 | 19/25 | 69.0 |
+| opt:recoil (breaks 4 incompatibility rules) | 11.5 | 90.0 | 115.5 | 6.68 | -18/-19 | 75.5 |
+| opt:all_round (breaks 5 incompatibility rules) | 103.5 | 92.0 | 97.0 | 4.74 | 22/30 | 127.0 |
+| opt:reload_speed (breaks 2 incompatibility rules) | 47.0 | 95.5 | 61.0 | 2.47 | 59/79 | 75.0 |
+| opt:handling_min (breaks 2 incompatibility rules) | -30.5 | 40.5 | 65.0 | 6.35 | -2/8 | -9.5 |
+| opt:reload_speed_min | 16.5 | 28.0 | 21.5 | 2.93 | 52/76 | -5.0 |
+| opt:stability_min (breaks 3 incompatibility rules) | 43.5 | 50.0 | -9.5 | 3.88 | 52/43 | 16.5 |
 
 ## MK9
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 66.5 | 91.0 | 36.5 | 2.38 | 32/43 | 68.0 |
-| setup:ar9 | 85.0 | 85.0 | 56.0 | 2.83 | 28/46 | 85.0 |
-| opt:handling | 74.0 | 91.5 | 14.5 | 0.74 | 51/64 | 65.5 |
-| opt:reload | 65.0 | 101.5 | 52.5 | 1.49 | 33/42 | 80.0 |
-| opt:stability | 50.5 | 94.5 | 74.0 | 1.60 | 39/49 | 79.0 |
-| opt:recoil | 48.0 | 94.5 | 56.5 | 1.63 | 25/30 | 68.0 |
-| opt:all_round | 65.5 | 101.5 | 53.0 | 1.48 | 34/42 | 81.0 |
-| opt:reload_speed | 51.0 | 103.0 | 52.0 | 1.13 | 54/70 | 70.0 |
-| opt:handling_min | 29.0 | 81.0 | 16.0 | 0.69 | 46/65 | 31.0 |
-| opt:reload_speed_min | 30.5 | 81.0 | 14.5 | 0.65 | 48/67 | 31.0 |
-| opt:stability_min | 52.0 | 83.5 | 0.5 | 0.47 | 56/77 | 37.5 |
+| stock | 65.0 | 91.0 | 35.5 | 2.38 | 32/43 | 68.0 |
+| setup:ar9 | 85.0 | 85.0 | 50.0 | 2.83 | 28/46 | 85.0 |
+| opt:handling | 73.5 | 91.5 | 11.5 | 0.74 | 51/64 | 65.5 |
+| opt:reload (breaks 1 incompatibility rule) | 59.0 | 101.5 | 56.5 | 1.49 | 33/42 | 80.0 |
+| opt:stability (breaks 1 incompatibility rule) | 42.5 | 95.0 | 82.0 | 1.30 | 48/58 | 79.0 |
+| opt:recoil (breaks 1 incompatibility rule) | 30.5 | 94.5 | 75.0 | 1.63 | 25/30 | 68.0 |
+| opt:all_round (breaks 1 incompatibility rule) | 59.5 | 101.5 | 57.0 | 1.48 | 34/42 | 81.0 |
+| opt:reload_speed | 46.5 | 103.0 | 54.5 | 1.13 | 54/70 | 70.0 |
+| opt:handling_min | 25.0 | 84.0 | 43.0 | 0.96 | 36/49 | 44.0 |
+| opt:reload_speed_min | 28.0 | 81.0 | 14.5 | 0.65 | 48/67 | 31.0 |
+| opt:stability_min | 55.5 | 87.0 | 10.5 | 0.46 | 62/75 | 48.5 |
 
 ## MP133
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
 | stock | 60.5 | 60.5 | 50.0 | 2.66 | 44/51 | 60.5 |
-| opt:handling | 77.0 | 60.0 | 27.5 | 2.37 | 68/78 | 68.0 |
-| opt:reload | 61.5 | 60.5 | 51.0 | 3.08 | 26/38 | 74.0 |
-| opt:stability | 60.5 | 56.0 | 56.0 | 2.79 | 50/57 | 67.0 |
-| opt:recoil | 51.5 | 60.5 | 45.5 | 3.22 | 22/34 | 65.5 |
-| opt:all_round | 70.0 | 60.5 | 54.5 | 2.64 | 33/47 | 81.0 |
-| opt:reload_speed | 61.5 | 60.5 | 50.0 | 2.72 | 47/54 | 68.0 |
-| opt:handling_min | 41.5 | 53.0 | 41.5 | 3.21 | 40/47 | 47.5 |
-| opt:reload_speed_min | 65.5 | 52.5 | 22.5 | 2.56 | 64/72 | 55.5 |
-| opt:stability_min | 63.0 | 55.5 | 13.0 | 2.66 | 59/69 | 51.0 |
+| opt:handling | 91.0 | 60.0 | 37.0 | 2.33 | 50/65 | 74.0 |
+| opt:reload | 73.5 | 60.5 | 63.0 | 3.06 | 26/38 | 73.5 |
+| opt:stability | 73.5 | 56.0 | 68.0 | 2.75 | 32/44 | 73.0 |
+| opt:recoil | 63.5 | 60.5 | 57.5 | 3.20 | 22/34 | 65.0 |
+| opt:all_round | 83.0 | 60.5 | 65.5 | 2.64 | 33/47 | 81.0 |
+| opt:reload_speed | 68.5 | 60.5 | 56.0 | 2.72 | 47/54 | 68.0 |
+| opt:handling_min | 41.5 | 53.0 | 41.5 | 3.17 | 37/44 | 40.5 |
+| opt:reload_speed_min | 73.5 | 52.5 | 27.0 | 2.56 | 64/72 | 55.5 |
+| opt:stability_min | 64.0 | 55.5 | 11.5 | 2.62 | 56/66 | 44.0 |
 
 ## MP5
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 60.0 | 51.5 | 62.5 | 2.28 | 22/26 | 59.0 |
-| setup:kf_mpi54 | 51.5 | 51.0 | 59.0 | 2.71 | 25/31 | 50.0 |
-| preset:kf_mpi_54sd6 | 49.0 | 49.5 | 53.0 | 2.41 | 23/27 | 50.0 |
-| opt:handling | 99.0 | 54.0 | 60.0 | 2.99 | 49/57 | 83.0 |
-| opt:reload | 65.5 | 56.5 | 75.0 | 3.18 | 11/15 | 68.0 |
-| opt:stability | 57.5 | 53.5 | 84.0 | 3.41 | 23/31 | 65.0 |
-| opt:recoil | 46.5 | 54.5 | 74.0 | 3.20 | 3/5 | 55.0 |
-| opt:all_round | 80.5 | 56.5 | 77.0 | 3.11 | 17/20 | 80.0 |
-| opt:reload_speed | 68.0 | 57.0 | 62.5 | 2.49 | 28/32 | 65.0 |
-| opt:handling_min | 24.0 | 35.5 | 58.5 | 3.43 | 20/24 | 25.0 |
-| opt:reload_speed_min | 72.5 | 35.5 | 45.5 | 2.63 | 45/50 | 53.0 |
-| opt:stability_min | 62.0 | 48.5 | 41.0 | 2.72 | 37/43 | 50.0 |
+| stock | 60.0 | 51.5 | 55.0 | 2.28 | 22/26 | 59.0 |
+| setup:kf_mpi54 | 48.0 | 51.0 | 52.0 | 2.71 | 25/31 | 50.0 |
+| preset:kf_mpi_54sd6 | 52.0 | 49.5 | 48.5 | 2.41 | 23/27 | 50.0 |
+| opt:handling | 109.5 | 54.0 | 46.0 | 3.01 | 47/54 | 87.0 |
+| opt:reload | 60.5 | 56.5 | 73.5 | 3.13 | 11/15 | 67.0 |
+| opt:stability | 57.5 | 53.0 | 83.0 | 3.35 | 20/25 | 68.0 |
+| opt:recoil | 45.0 | 54.5 | 68.5 | 3.17 | 3/5 | 54.2 |
+| opt:all_round | 83.5 | 56.5 | 72.5 | 3.27 | 20/22 | 83.0 |
+| opt:reload_speed | 67.0 | 57.0 | 54.0 | 2.49 | 28/32 | 65.0 |
+| opt:handling_min (breaks 1 incompatibility rule) | 22.0 | 35.5 | 50.0 | 3.35 | 21/23 | 24.0 |
+| opt:reload_speed_min | 72.0 | 35.5 | 36.0 | 2.63 | 45/50 | 53.0 |
+| opt:stability_min | 80.5 | 51.0 | 29.0 | 2.69 | 38/45 | 61.0 |
 
 ## Makarov
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 76.0 | 76.0 | 60.0 | 0.72 | 25/25 | 76.0 |
-| opt:handling | 81.0 | 77.0 | 61.5 | 0.82 | 29/28 | 79.0 |
-| opt:reload | 72.0 | 77.0 | 61.5 | 0.84 | 18/16 | 76.0 |
-| opt:stability | 69.5 | 77.0 | 63.5 | 1.15 | 21/19 | 73.2 |
-| opt:recoil | 64.0 | 76.5 | 58.0 | 1.07 | 12/13 | 69.0 |
-| opt:all_round | 78.5 | 77.0 | 62.0 | 0.83 | 21/20 | 80.0 |
-| opt:reload_speed | 77.5 | 77.0 | 61.5 | 0.79 | 26/26 | 77.0 |
-| opt:handling_min | 58.5 | 55.5 | 57.5 | 1.79 | 21/17 | 53.0 |
-| opt:reload_speed_min | 73.0 | 55.5 | 60.0 | 1.51 | 31/26 | 63.0 |
-| opt:stability_min | 64.5 | 76.0 | 57.5 | 0.98 | 22/19 | 67.0 |
+| stock | 76.0 | 76.0 | 50.0 | 0.72 | 25/25 | 76.0 |
+| opt:handling | 82.5 | 77.0 | 51.5 | 0.77 | 28/25 | 81.0 |
+| opt:reload | 72.5 | 77.0 | 53.5 | 0.84 | 18/16 | 76.0 |
+| opt:stability | 70.0 | 77.0 | 56.0 | 1.10 | 20/16 | 75.2 |
+| opt:recoil | 65.0 | 76.5 | 49.0 | 1.07 | 12/13 | 69.0 |
+| opt:all_round | 80.0 | 77.0 | 52.0 | 0.83 | 21/20 | 80.0 |
+| opt:reload_speed | 76.0 | 77.0 | 51.5 | 0.79 | 26/26 | 77.0 |
+| opt:handling_min | 56.5 | 55.5 | 46.0 | 1.81 | 51/80 | 52.0 |
+| opt:reload_speed_min | 72.0 | 55.5 | 49.0 | 1.51 | 31/26 | 63.0 |
+| opt:stability_min | 67.0 | 77.0 | 45.5 | 1.05 | 52/82 | 69.0 |
 
 ## MosinNagant
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 66.0 | 80.0 | 48.5 | 3.36 | 77/75 | 73.0 |
+| stock | 67.0 | 80.0 | 49.5 | 3.36 | 77/75 | 73.0 |
 | setup:mosin_nagant | 80.0 | 80.0 | 50.0 | 2.79 | 81/87 | 80.0 |
-| opt:handling | 101.5 | 83.0 | 32.0 | 1.87 | 88/102 | 92.0 |
-| opt:reload | 65.0 | 83.5 | 60.0 | 3.30 | 71/44 | 78.5 |
-| opt:stability | 83.0 | 65.5 | 68.0 | 2.97 | 81/93 | 85.5 |
-| opt:recoil | 64.5 | 83.0 | 57.0 | 3.38 | 71/41 | 76.5 |
-| opt:all_round | 98.0 | 83.0 | 65.0 | 2.77 | 80/91 | 104.5 |
+| opt:handling | 105.5 | 83.0 | 35.5 | 1.86 | 84/97 | 96.0 |
+| opt:reload (breaks 2 incompatibility rules) | 68.5 | 83.5 | 64.0 | 3.29 | 71/44 | 79.2 |
+| opt:stability (breaks 1 incompatibility rule) | 87.0 | 65.5 | 73.5 | 2.96 | 77/88 | 89.5 |
+| opt:recoil (breaks 1 incompatibility rule) | 68.0 | 83.0 | 61.0 | 3.37 | 71/41 | 77.2 |
+| opt:all_round (breaks 1 incompatibility rule) | 102.0 | 83.0 | 68.5 | 2.77 | 80/91 | 105.5 |
 | opt:reload_speed | 64.5 | 83.5 | 19.0 | 2.91 | 84/87 | 57.0 |
-| opt:handling_min | 34.0 | 62.5 | 48.5 | 4.13 | 70/69 | 41.5 |
-| opt:reload_speed_min | 59.0 | 62.5 | 19.0 | 2.97 | 84/87 | 45.0 |
-| opt:stability_min | 45.0 | 65.5 | 16.0 | 3.52 | 79/82 | 35.5 |
+| opt:handling_min | 33.0 | 62.5 | 48.0 | 4.20 | 72/74 | 40.5 |
+| opt:reload_speed_min (breaks 1 incompatibility rule) | 59.0 | 62.5 | 19.0 | 2.97 | 84/87 | 45.0 |
+| opt:stability_min (breaks 1 incompatibility rule) | 44.0 | 65.5 | 15.5 | 3.59 | 81/87 | 34.5 |
 
 ## P226
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 69.5 | 73.0 | 59.5 | 0.99 | 19/24 | 71.0 |
-| preset:P229 | 74.0 | 74.0 | 60.0 | 0.95 | 26/29 | 74.0 |
-| opt:handling | 75.5 | 75.5 | 61.0 | 1.04 | 28/33 | 75.0 |
-| opt:reload | 63.5 | 77.5 | 63.5 | 1.30 | 4/9 | 70.0 |
-| opt:stability | 57.5 | 74.0 | 67.0 | 1.53 | 16/17 | 65.2 |
-| opt:recoil | 51.0 | 74.5 | 60.5 | 1.50 | -10/-5 | 60.0 |
-| opt:all_round | 69.0 | 78.5 | 64.0 | 1.12 | 14/14 | 74.0 |
-| opt:reload_speed | 71.0 | 78.5 | 63.0 | 1.06 | 28/33 | 74.0 |
-| opt:handling_min | 43.5 | 67.5 | 60.5 | 1.56 | 4/12 | 50.0 |
-| opt:reload_speed_min | 63.5 | 67.5 | 59.5 | 1.15 | 19/25 | 64.0 |
-| opt:stability_min | 54.5 | 72.5 | 56.5 | 1.35 | 12/16 | 59.0 |
+| stock | 69.5 | 73.0 | 49.5 | 0.99 | 19/24 | 71.0 |
+| preset:P229 | 74.0 | 74.0 | 50.0 | 0.95 | 26/29 | 74.0 |
+| opt:handling | 78.5 | 75.5 | 53.5 | 1.06 | 26/30 | 79.0 |
+| opt:reload (breaks 1 incompatibility rule) | 63.5 | 77.5 | 53.5 | 1.30 | 4/9 | 70.0 |
+| opt:stability | 60.5 | 74.0 | 60.0 | 1.55 | 14/14 | 69.2 |
+| opt:recoil (breaks 1 incompatibility rule) | 51.0 | 74.5 | 50.5 | 1.50 | -10/-5 | 60.0 |
+| opt:all_round (breaks 1 incompatibility rule) | 72.0 | 78.5 | 56.5 | 1.28 | 17/16 | 77.0 |
+| opt:reload_speed | 70.0 | 78.5 | 52.0 | 1.06 | 28/33 | 74.0 |
+| opt:handling_min | 41.5 | 67.5 | 49.0 | 1.48 | 5/11 | 49.0 |
+| opt:reload_speed_min | 62.5 | 67.5 | 48.5 | 1.15 | 19/25 | 64.0 |
+| opt:stability_min | 52.5 | 72.5 | 45.0 | 1.27 | 13/15 | 58.0 |
 
 ## P320
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 77.0 | 77.0 | 60.0 | 0.94 | 23/32 | 77.0 |
-| opt:handling | 87.0 | 76.0 | 61.0 | 1.02 | 29/41 | 81.0 |
-| opt:reload | 79.5 | 81.5 | 59.0 | 0.88 | 15/25 | 79.0 |
-| opt:stability | 64.5 | 76.5 | 62.0 | 1.31 | 17/27 | 68.2 |
-| opt:recoil | 61.0 | 79.0 | 59.0 | 1.11 | 7/21 | 67.0 |
-| opt:all_round | 83.5 | 81.5 | 60.5 | 0.88 | 17/28 | 82.0 |
-| opt:reload_speed | 79.0 | 81.5 | 60.0 | 0.96 | 26/38 | 78.0 |
-| opt:handling_min | 54.0 | 60.0 | 58.0 | 1.44 | 13/25 | 52.0 |
-| opt:reload_speed_min | 69.5 | 60.0 | 61.5 | 1.16 | 23/33 | 64.0 |
-| opt:stability_min | 67.0 | 79.0 | 56.5 | 1.18 | 21/31 | 68.0 |
+| stock | 77.0 | 77.0 | 50.0 | 0.94 | 23/32 | 77.0 |
+| opt:handling | 90.0 | 76.0 | 53.5 | 1.04 | 27/38 | 85.0 |
+| opt:reload (breaks 1 incompatibility rule) | 79.5 | 81.5 | 49.0 | 0.88 | 15/25 | 79.0 |
+| opt:stability | 67.5 | 76.5 | 55.0 | 1.33 | 15/24 | 72.2 |
+| opt:recoil (breaks 1 incompatibility rule) | 61.0 | 79.0 | 49.0 | 1.11 | 7/21 | 67.0 |
+| opt:all_round (breaks 1 incompatibility rule) | 86.5 | 81.5 | 53.0 | 1.04 | 20/30 | 85.0 |
+| opt:reload_speed (breaks 1 incompatibility rule) | 78.0 | 81.5 | 49.0 | 0.96 | 26/38 | 78.0 |
+| opt:handling_min | 52.0 | 60.0 | 46.5 | 1.36 | 14/24 | 51.0 |
+| opt:reload_speed_min | 68.5 | 60.0 | 50.5 | 1.16 | 23/33 | 64.0 |
+| opt:stability_min | 65.0 | 79.0 | 45.0 | 1.10 | 22/30 | 67.0 |
 
 ## PSRL
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
 | stock | 41.0 | 41.0 | 50.0 | 5.38 | 70/90 | 41.0 |
-| opt:handling | 53.0 | 41.5 | 55.5 | 5.59 | 71/93 | 52.0 |
-| opt:reload | 35.0 | 42.0 | 66.0 | 5.96 | 67/87 | 44.0 |
-| opt:stability | 33.0 | 42.0 | 66.0 | 6.04 | 67/87 | 43.0 |
-| opt:recoil | 33.0 | 40.5 | 61.0 | 5.96 | 64/84 | 40.0 |
-| opt:all_round | 47.5 | 42.0 | 65.5 | 5.60 | 71/93 | 53.0 |
-| opt:reload_speed | 34.5 | 42.0 | 51.0 | 4.91 | 73/94 | 39.0 |
+| opt:handling | 59.5 | 41.5 | 47.5 | 5.59 | 71/93 | 52.0 |
+| opt:reload | 30.5 | 42.0 | 71.0 | 5.90 | 67/87 | 43.0 |
+| opt:stability | 30.5 | 42.0 | 71.0 | 6.04 | 67/87 | 43.0 |
+| opt:recoil | 31.0 | 40.5 | 63.0 | 5.90 | 64/84 | 39.0 |
+| opt:all_round | 52.0 | 42.0 | 59.5 | 5.64 | 71/92 | 53.0 |
+| opt:reload_speed | 32.0 | 42.0 | 54.0 | 4.91 | 73/94 | 39.0 |
 | opt:handling_min | 21.0 | 39.5 | 55.0 | 5.55 | 68/82 | 30.0 |
-| opt:reload_speed_min | 31.5 | 39.5 | 44.0 | 4.86 | 73/92 | 33.0 |
-| opt:stability_min | 31.5 | 39.5 | 44.0 | 4.86 | 73/92 | 33.0 |
+| opt:reload_speed_min | 32.0 | 39.5 | 43.0 | 4.86 | 73/92 | 33.0 |
+| opt:stability_min | 38.0 | 41.5 | 42.0 | 4.93 | 71/92 | 37.0 |
 
 ## QBZ95
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 63.0 | 61.0 | 48.0 | 2.64 | 54/52 | 61.0 |
+| stock | 64.0 | 61.0 | 45.0 | 2.64 | 54/52 | 61.0 |
 | setup:qbz_95 | 71.0 | 64.0 | 54.0 | 3.51 | 33/37 | 70.0 |
-| opt:handling | 100.5 | 65.0 | 57.5 | 3.24 | 42/47 | 89.5 |
-| opt:reload | 83.5 | 65.0 | 68.0 | 3.70 | 33/41 | 87.0 |
-| opt:stability | 81.0 | 65.0 | 69.0 | 3.65 | 37/44 | 83.0 |
-| opt:recoil | 69.5 | 63.5 | 59.0 | 3.91 | 28/31 | 74.0 |
-| opt:all_round | 87.0 | 65.0 | 67.5 | 3.67 | 34/44 | 89.0 |
-| opt:reload_speed | 75.5 | 65.0 | 54.5 | 2.85 | 51/50 | 73.0 |
-| opt:handling_min | 48.5 | 61.0 | 37.5 | 3.18 | 43/43 | 48.0 |
-| opt:reload_speed_min | 61.5 | 61.0 | 48.0 | 2.63 | 54/52 | 60.0 |
-| opt:stability_min | 52.5 | 61.0 | 37.5 | 3.06 | 43/43 | 50.0 |
+| opt:handling | 110.5 | 65.0 | 49.5 | 3.24 | 40/44 | 92.5 |
+| opt:reload | 81.0 | 65.0 | 74.5 | 3.65 | 33/41 | 86.0 |
+| opt:stability | 80.5 | 65.0 | 76.0 | 3.65 | 35/41 | 86.0 |
+| opt:recoil | 71.5 | 63.5 | 61.5 | 3.86 | 28/31 | 73.0 |
+| opt:all_round | 88.5 | 65.0 | 70.0 | 3.67 | 34/44 | 89.0 |
+| opt:reload_speed | 78.5 | 65.0 | 48.5 | 2.85 | 51/50 | 73.0 |
+| opt:handling_min | 47.5 | 61.0 | 33.0 | 3.30 | 45/44 | 46.0 |
+| opt:reload_speed_min | 62.5 | 61.0 | 45.0 | 2.63 | 54/52 | 60.0 |
+| opt:stability_min | 51.5 | 61.0 | 33.0 | 3.18 | 45/44 | 48.0 |
 
 ## RPG7
 
@@ -779,7 +793,7 @@ Compared on handling, reload, stability, capacity, velocity, damage, weight, rec
 | stock | 51.0 | 51.0 | 50.0 | 5.80 | 76/86 | 51.0 |
 | opt:handling | 57.0 | 51.0 | 51.0 | 5.91 | 76/85 | 55.0 |
 | opt:reload | 57.0 | 51.0 | 51.0 | 5.91 | 76/85 | 55.0 |
-| opt:stability | 47.0 | 51.0 | 54.5 | 5.88 | 76/85 | 49.0 |
+| opt:stability | 47.0 | 51.0 | 55.5 | 5.88 | 76/85 | 49.0 |
 | opt:recoil | 51.0 | 51.0 | 50.0 | 5.95 | 76/84 | 51.0 |
 | opt:all_round | 57.0 | 51.0 | 51.0 | 5.91 | 76/85 | 55.0 |
 | opt:reload_speed | 46.5 | 51.0 | 50.0 | 5.49 | 76/86 | 48.0 |
@@ -791,157 +805,157 @@ Compared on handling, reload, stability, capacity, velocity, damage, weight, rec
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 59.0 | 69.0 | 40.5 | 2.79 | 78/85 | 64.0 |
-| setup:m700_mcs_lss_xl | 54.5 | 64.5 | 53.0 | 3.61 | 68/77 | 62.5 |
-| preset:magtap_hunter_700 | 54.0 | 70.0 | 57.0 | 2.87 | 75/84 | 70.0 |
-| preset:mcs_lss_xl_gen2 | 74.5 | 75.0 | 52.5 | 2.92 | 76/84 | 79.0 |
-| preset:mcs_rev21_gen2 | 69.0 | 62.0 | 47.5 | 3.27 | 65/72 | 69.0 |
-| preset:pi_at_aics_2 | 76.5 | 76.0 | 63.5 | 3.26 | 72/82 | 85.5 |
-| opt:handling | 110.5 | 72.0 | 32.5 | 3.59 | 59/66 | 92.8 |
-| opt:reload | 92.0 | 72.5 | 62.5 | 3.90 | 52/21 | 96.8 |
-| opt:stability | 88.0 | 73.0 | 88.0 | 3.96 | 55/57 | 102.5 |
-| opt:recoil | 68.5 | 70.5 | 58.0 | 4.79 | 39/4 | 79.8 |
-| opt:all_round | 102.0 | 72.5 | 65.0 | 3.92 | 43/44 | 103.8 |
-| opt:reload_speed | 57.0 | 79.5 | 63.5 | 2.89 | 78/86 | 79.0 |
-| opt:handling_min | 25.5 | 56.5 | 22.5 | 4.05 | 54/57 | 27.0 |
-| opt:reload_speed_min | 51.0 | 53.5 | 18.0 | 2.75 | 66/77 | 40.0 |
-| opt:stability_min | 58.5 | 64.0 | -8.5 | 3.67 | 79/46 | 35.0 |
+| stock | 59.0 | 69.0 | 44.0 | 2.79 | 78/85 | 64.0 |
+| setup:m700_mcs_lss_xl | 55.5 | 64.5 | 52.5 | 3.61 | 68/77 | 62.5 |
+| preset:magtap_hunter_700 | 54.0 | 70.0 | 60.5 | 2.87 | 75/84 | 70.0 |
+| preset:mcs_lss_xl_gen2 | 76.5 | 75.0 | 53.0 | 2.92 | 76/84 | 79.0 |
+| preset:mcs_rev21_gen2 | 69.0 | 62.0 | 51.0 | 3.27 | 65/72 | 69.0 |
+| preset:pi_at_aics_2 | 76.5 | 76.0 | 67.0 | 3.26 | 72/82 | 85.5 |
+| opt:handling | 120.0 | 72.0 | 30.5 | 3.66 | 54/62 | 96.8 |
+| opt:reload | 89.0 | 72.5 | 76.0 | 3.88 | 52/21 | 96.5 |
+| opt:stability (breaks 1 incompatibility rule) | 84.0 | 73.0 | 104.0 | 4.03 | 50/53 | 106.5 |
+| opt:recoil (breaks 1 incompatibility rule) | 56.0 | 70.5 | 85.0 | 4.77 | 39/4 | 79.5 |
+| opt:all_round | 101.5 | 72.5 | 76.0 | 3.92 | 43/44 | 103.8 |
+| opt:reload_speed | 56.0 | 79.5 | 66.0 | 2.89 | 78/86 | 79.0 |
+| opt:handling_min (breaks 1 incompatibility rule) | 23.0 | 59.5 | 53.0 | 4.34 | 43/40 | 40.0 |
+| opt:reload_speed_min | 50.0 | 53.5 | 20.5 | 2.75 | 66/77 | 40.0 |
+| opt:stability_min | 74.0 | 67.5 | 3.5 | 3.69 | 83/45 | 52.0 |
 
 ## Remington870
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 56.0 | 62.5 | 62.0 | 2.65 | 76/77 | 63.5 |
-| preset:magtap_moe_m870 | 62.5 | 62.5 | 63.0 | 2.68 | 81/79 | 67.5 |
-| preset:roosevelt_tampa_shorty | 62.0 | 62.5 | 37.0 | 1.76 | 102/101 | 57.0 |
-| opt:handling | 82.0 | 62.5 | 47.5 | 2.90 | 100/97 | 79.8 |
-| opt:reload | 64.5 | 62.0 | 69.5 | 3.66 | 59/58 | 84.5 |
-| opt:stability | 53.5 | 59.5 | 79.0 | 3.43 | 87/82 | 73.5 |
-| opt:recoil | 51.0 | 62.0 | 62.0 | 3.93 | 55/53 | 72.5 |
-| opt:all_round | 75.5 | 62.5 | 77.5 | 3.05 | 70/71 | 94.2 |
-| opt:reload_speed | 58.5 | 62.5 | 62.0 | 2.03 | 90/91 | 72.0 |
-| opt:handling_min | 10.0 | 40.0 | 34.0 | 3.76 | 85/76 | 19.0 |
-| opt:reload_speed_min | 38.5 | 39.5 | 39.5 | 2.19 | 96/95 | 39.0 |
-| opt:stability_min | 19.5 | 55.0 | 23.0 | 3.27 | 81/76 | 27.0 |
+| stock | 54.5 | 62.5 | 65.0 | 2.65 | 76/77 | 63.5 |
+| preset:magtap_moe_m870 | 63.5 | 62.5 | 62.0 | 2.68 | 81/79 | 67.5 |
+| preset:roosevelt_tampa_shorty | 61.5 | 62.5 | 38.5 | 1.76 | 102/101 | 57.0 |
+| opt:handling | 98.0 | 62.5 | 55.5 | 2.86 | 82/84 | 85.8 |
+| opt:reload | 71.5 | 62.0 | 88.5 | 3.63 | 59/58 | 83.8 |
+| opt:stability (breaks 2 incompatibility rules) | 63.5 | 59.5 | 96.5 | 3.39 | 69/69 | 79.5 |
+| opt:recoil | 58.0 | 62.0 | 81.0 | 3.90 | 55/53 | 71.8 |
+| opt:all_round | 91.0 | 62.5 | 86.0 | 3.05 | 70/71 | 94.2 |
+| opt:reload_speed (breaks 1 incompatibility rule) | 64.0 | 62.5 | 71.0 | 2.03 | 90/91 | 72.0 |
+| opt:handling_min (breaks 1 incompatibility rule) | 7.0 | 40.0 | 38.5 | 3.72 | 82/73 | 12.0 |
+| opt:reload_speed_min (breaks 1 incompatibility rule) | 45.0 | 39.5 | 47.0 | 2.19 | 96/95 | 39.0 |
+| opt:stability_min | 34.5 | 57.5 | 20.0 | 3.47 | 83/78 | 28.5 |
 
 ## SA58
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 37.5 | 49.0 | 45.0 | 3.95 | 35/50 | 35.0 |
-| setup:sg58_para | 48.0 | 53.0 | 64.5 | 4.78 | 42/54 | 50.5 |
-| setup:sg58_osw | 58.5 | 38.5 | 53.0 | 4.62 | 46/66 | 47.5 |
-| preset:far_50_00 | 34.5 | 49.0 | 48.5 | 4.23 | 29/48 | 35.0 |
-| preset:far_50_63_para | 43.5 | 50.0 | 46.0 | 3.83 | 36/51 | 39.0 |
-| preset:sg58_osw | 63.5 | 50.5 | 54.0 | 3.53 | 52/65 | 55.0 |
-| preset:sg58_pistol | 86.0 | 46.5 | 34.0 | 2.76 | 77/93 | 59.0 |
-| preset:sg58_spr | 41.5 | 60.0 | 58.5 | 3.74 | 36/58 | 50.0 |
-| opt:handling | 109.0 | 66.0 | 55.5 | 3.42 | 71/92 | 98.2 |
-| opt:reload | 63.0 | 65.0 | 77.0 | 3.87 | 51/35 | 78.5 |
-| opt:stability | 64.5 | 63.0 | 96.5 | 3.98 | 57/79 | 82.5 |
-| opt:recoil | 23.5 | 63.5 | 50.0 | 4.55 | 28/9 | 41.0 |
-| opt:all_round | 90.0 | 65.5 | 83.0 | 3.89 | 49/72 | 100.2 |
-| opt:reload_speed | 46.5 | 67.0 | 63.0 | 2.87 | 74/93 | 59.0 |
-| opt:handling_min | -14.5 | 23.5 | 25.0 | 5.12 | 36/58 | -21.0 |
-| opt:reload_speed_min | 26.5 | 23.5 | 36.5 | 3.97 | 71/91 | 9.0 |
-| opt:stability_min | 33.0 | 58.0 | 3.5 | 3.72 | 83/57 | 15.0 |
+| stock | 40.0 | 49.0 | 47.0 | 3.95 | 35/50 | 35.0 |
+| setup:sg58_para | 48.0 | 53.0 | 67.0 | 4.78 | 42/54 | 50.5 |
+| setup:sg58_osw | 70.5 | 38.5 | 45.0 | 4.62 | 46/66 | 47.5 |
+| preset:far_50_00 | 35.0 | 49.0 | 53.0 | 4.23 | 29/48 | 35.0 |
+| preset:far_50_63_para | 46.0 | 50.0 | 48.0 | 3.83 | 36/51 | 39.0 |
+| preset:sg58_osw | 67.5 | 50.5 | 54.0 | 3.53 | 52/65 | 55.0 |
+| preset:sg58_pistol | 86.5 | 46.5 | 39.0 | 2.76 | 77/93 | 59.0 |
+| preset:sg58_spr | 43.5 | 60.0 | 61.0 | 3.74 | 36/58 | 50.0 |
+| opt:handling | 126.0 | 66.0 | 48.5 | 3.49 | 66/88 | 102.2 |
+| opt:reload (breaks 1 incompatibility rule) | 69.5 | 65.0 | 82.0 | 3.82 | 51/35 | 77.5 |
+| opt:stability (breaks 1 incompatibility rule) | 68.5 | 63.0 | 104.0 | 4.05 | 52/75 | 86.5 |
+| opt:recoil | 18.0 | 63.5 | 70.5 | 4.53 | 28/9 | 40.5 |
+| opt:all_round (breaks 3 incompatibility rules) | 102.5 | 65.5 | 81.5 | 3.89 | 49/72 | 100.2 |
+| opt:reload_speed (breaks 1 incompatibility rule) | 50.5 | 67.0 | 63.0 | 2.87 | 74/93 | 59.0 |
+| opt:handling_min | -15.0 | 26.5 | 54.5 | 5.41 | 25/41 | -8.0 |
+| opt:reload_speed_min (breaks 1 incompatibility rule) | 28.5 | 23.5 | 36.5 | 3.97 | 71/91 | 9.0 |
+| opt:stability_min (breaks 1 incompatibility rule) | 42.5 | 58.0 | 9.0 | 3.73 | 81/55 | 23.0 |
 
 ## SCALAR
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 54.5 | 65.0 | 69.0 | 2.40 | 53/51 | 66.5 |
-| preset:kalis_scalar_crb_gen1 | 45.0 | 46.0 | 63.0 | 3.08 | 44/40 | 50.0 |
-| preset:kalis_scalar_crb_gen2 | 47.5 | 50.5 | 60.0 | 3.08 | 30/26 | 50.0 |
-| preset:kalis_scalar_crb_gen3 | 37.5 | 42.0 | 50.0 | 2.91 | 50/54 | 36.0 |
-| preset:kalis_scalar_sbr_enhanced_gen2 | 36.0 | 43.5 | 56.0 | 2.67 | 63/60 | 39.0 |
-| preset:kalis_scalar_sbr_gen3 | 44.5 | 40.5 | 55.5 | 2.45 | 57/62 | 44.0 |
-| preset:kalis_scalar_sdp_gen2 | 56.0 | 57.5 | 44.0 | 2.10 | 56/59 | 54.0 |
-| preset:kalis_scalar_sdp_gen3 | 45.0 | 45.0 | 58.0 | 2.32 | 47/52 | 45.0 |
-| opt:handling | 78.5 | 68.5 | 68.0 | 3.52 | 46/42 | 82.2 |
-| opt:reload | 49.5 | 68.5 | 84.5 | 3.72 | 24/17 | 68.8 |
-| opt:stability | 37.5 | 69.5 | 101.0 | 4.44 | 36/32 | 69.0 |
-| opt:recoil | 33.5 | 67.0 | 82.0 | 3.79 | 11/5 | 57.5 |
-| opt:all_round | 67.0 | 68.5 | 85.5 | 3.32 | 32/26 | 81.2 |
-| opt:reload_speed | 44.5 | 70.0 | 82.0 | 2.64 | 47/51 | 66.0 |
-| opt:handling_min | 8.0 | 30.0 | 57.5 | 4.27 | 30/30 | 14.0 |
-| opt:reload_speed_min | 21.5 | 26.5 | 47.5 | 2.62 | 42/49 | 17.0 |
-| opt:stability_min | 43.5 | 55.5 | 29.0 | 2.51 | 60/71 | 34.5 |
+| stock | 53.5 | 65.0 | 65.0 | 2.40 | 53/51 | 66.5 |
+| preset:kalis_scalar_crb_gen1 | 44.0 | 46.0 | 59.0 | 3.08 | 44/40 | 50.0 |
+| preset:kalis_scalar_crb_gen2 | 51.5 | 50.5 | 50.0 | 3.08 | 30/26 | 50.0 |
+| preset:kalis_scalar_crb_gen3 | 38.0 | 42.0 | 44.0 | 2.91 | 50/54 | 36.0 |
+| preset:kalis_scalar_sbr_enhanced_gen2 | 35.0 | 43.5 | 52.0 | 2.67 | 63/60 | 39.0 |
+| preset:kalis_scalar_sbr_gen3 | 45.0 | 40.5 | 49.5 | 2.45 | 57/62 | 44.0 |
+| preset:kalis_scalar_sdp_gen2 | 47.5 | 57.5 | 50.0 | 2.10 | 56/59 | 54.0 |
+| preset:kalis_scalar_sdp_gen3 | 45.5 | 45.0 | 52.0 | 2.32 | 47/52 | 45.0 |
+| opt:handling (breaks 1 incompatibility rule) | 85.5 | 68.5 | 60.5 | 3.55 | 43/41 | 86.2 |
+| opt:reload (breaks 1 incompatibility rule) | 49.5 | 68.5 | 79.5 | 3.71 | 24/17 | 68.5 |
+| opt:stability (breaks 2 incompatibility rules) | 40.5 | 69.5 | 99.5 | 4.30 | 34/29 | 73.0 |
+| opt:recoil | 23.5 | 67.0 | 89.5 | 3.77 | 11/5 | 57.0 |
+| opt:all_round (breaks 1 incompatibility rule) | 76.5 | 68.5 | 74.5 | 3.53 | 34/28 | 84.2 |
+| opt:reload_speed | 40.5 | 70.0 | 79.5 | 2.64 | 47/51 | 66.0 |
+| opt:handling_min (breaks 1 incompatibility rule) | 3.5 | 33.0 | 79.0 | 4.48 | 20/12 | 26.0 |
+| opt:reload_speed_min | 19.5 | 26.5 | 42.5 | 2.62 | 42/49 | 17.0 |
+| opt:stability_min | 54.5 | 57.5 | 31.5 | 2.39 | 59/64 | 48.5 |
 
 ## SCAR47
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 69.5 | 64.5 | 36.0 | 3.39 | 47/54 | 62.5 |
+| stock | 73.0 | 64.5 | 35.0 | 3.39 | 47/54 | 62.5 |
 | setup:mk76 | 67.5 | 67.5 | 50.0 | 4.02 | 39/48 | 67.5 |
-| opt:handling | 122.0 | 81.0 | 44.0 | 5.65 | 45/55 | 111.5 |
-| opt:reload | 86.5 | 81.0 | 59.5 | 5.66 | 31/9 | 93.8 |
-| opt:stability | 75.0 | 64.5 | 87.5 | 6.28 | 40/50 | 89.0 |
-| opt:recoil | 66.5 | 78.5 | 53.5 | 5.49 | 26/-8 | 78.0 |
-| opt:all_round | 101.5 | 81.5 | 84.5 | 5.97 | 37/44 | 115.5 |
-| opt:reload_speed | 69.0 | 82.5 | 57.0 | 3.30 | 55/65 | 83.5 |
-| opt:handling_min | 24.0 | 44.0 | 28.0 | 4.67 | 30/32 | 22.5 |
-| opt:reload_speed_min | 52.5 | 44.0 | 26.0 | 3.15 | 55/63 | 40.5 |
-| opt:stability_min | 60.5 | 56.5 | -3.5 | 4.29 | 69/32 | 34.5 |
+| opt:handling (breaks 4 incompatibility rules) | 138.5 | 80.5 | 40.5 | 5.35 | 41/48 | 114.5 |
+| opt:reload (breaks 3 incompatibility rules) | 79.0 | 81.5 | 82.5 | 5.83 | 35/13 | 96.5 |
+| opt:stability (breaks 4 incompatibility rules) | 77.5 | 64.5 | 94.5 | 6.13 | 39/48 | 91.0 |
+| opt:recoil (breaks 1 incompatibility rule) | 58.5 | 78.5 | 69.0 | 5.42 | 26/-8 | 77.0 |
+| opt:all_round (breaks 5 incompatibility rules) | 111.0 | 81.5 | 80.5 | 5.92 | 38/46 | 116.5 |
+| opt:reload_speed | 70.5 | 82.5 | 59.0 | 3.30 | 55/65 | 83.5 |
+| opt:handling_min | 23.5 | 47.0 | 53.0 | 4.89 | 22/17 | 33.5 |
+| opt:reload_speed_min | 56.5 | 44.0 | 24.0 | 3.15 | 55/63 | 40.5 |
+| opt:stability_min | 74.5 | 58.5 | 1.0 | 4.07 | 68/33 | 45.5 |
 
 ## SCARH
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 40.5 | 30.5 | 35.5 | 3.51 | 51/52 | 28.5 |
-| setup:aft_mk17 | 36.5 | 40.0 | 50.0 | 4.21 | 49/54 | 38.0 |
-| preset:aft_mk20_ssr | 40.0 | 40.5 | 56.5 | 4.22 | 67/71 | 42.0 |
-| opt:handling | 104.0 | 42.5 | 48.5 | 5.75 | 69/72 | 82.0 |
-| opt:reload | 64.0 | 58.0 | 61.5 | 5.61 | 48/25 | 69.8 |
-| opt:stability | 54.5 | 12.5 | 96.0 | 7.09 | 64/67 | 55.0 |
-| opt:recoil | 29.0 | 54.0 | 46.0 | 5.67 | 38/-2 | 39.5 |
-| opt:all_round | 83.5 | 58.5 | 89.0 | 5.86 | 58/62 | 97.5 |
-| opt:reload_speed | 53.5 | 59.5 | 64.0 | 3.25 | 78/84 | 65.5 |
-| opt:handling_min | -17.0 | 3.5 | 23.0 | 5.58 | 43/41 | -28.5 |
-| opt:reload_speed_min | 34.5 | 1.0 | 33.0 | 3.72 | 79/82 | 10.5 |
-| opt:stability_min | 20.0 | 8.5 | -8.5 | 5.46 | 82/41 | -18.5 |
+| stock | 41.0 | 30.5 | 35.5 | 3.51 | 51/52 | 28.5 |
+| setup:aft_mk17 | 38.0 | 40.0 | 49.0 | 4.21 | 49/54 | 38.0 |
+| preset:aft_mk20_ssr | 38.5 | 40.5 | 57.0 | 4.22 | 67/71 | 42.0 |
+| opt:handling (breaks 4 incompatibility rules) | 118.0 | 42.0 | 47.0 | 5.51 | 61/63 | 87.0 |
+| opt:reload (breaks 3 incompatibility rules) | 55.0 | 58.5 | 87.0 | 5.78 | 52/29 | 72.5 |
+| opt:stability (breaks 4 incompatibility rules) | 55.0 | 12.5 | 105.0 | 7.00 | 59/63 | 59.0 |
+| opt:recoil (breaks 1 incompatibility rule) | 19.5 | 54.0 | 64.0 | 5.60 | 38/-2 | 38.5 |
+| opt:all_round (breaks 7 incompatibility rules) | 90.5 | 58.5 | 87.0 | 5.91 | 57/62 | 97.5 |
+| opt:reload_speed | 50.5 | 59.5 | 66.0 | 3.25 | 78/84 | 65.5 |
+| opt:handling_min | -19.5 | 6.5 | 49.5 | 5.85 | 33/25 | -15.5 |
+| opt:reload_speed_min | 34.5 | 1.0 | 31.0 | 3.72 | 79/82 | 10.5 |
+| opt:stability_min | 32.0 | 10.5 | -2.5 | 5.29 | 79/41 | -5.5 |
 
 ## SCARL
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 68.0 | 56.5 | 44.0 | 2.79 | 38/40 | 61.5 |
+| stock | 67.5 | 56.5 | 47.5 | 2.79 | 38/40 | 61.5 |
 | setup:aft_mk16 | 64.5 | 64.5 | 50.0 | 3.57 | 39/43 | 64.5 |
-| opt:handling | 105.5 | 80.5 | 42.0 | 5.03 | 32/38 | 100.0 |
-| opt:reload | 87.0 | 88.0 | 65.0 | 4.86 | 25/24 | 98.0 |
-| opt:stability | 58.0 | 46.0 | 84.0 | 6.28 | 30/35 | 66.5 |
-| opt:recoil | 57.0 | 85.5 | 57.0 | 4.95 | 10/6 | 75.0 |
-| opt:all_round | 94.0 | 88.5 | 82.5 | 4.86 | 34/37 | 112.0 |
-| opt:reload_speed | 68.5 | 89.5 | 64.5 | 2.62 | 58/63 | 89.5 |
-| opt:handling_min | 11.0 | 29.0 | 28.5 | 5.02 | 30/29 | -4.5 |
-| opt:reload_speed_min | 46.0 | 26.5 | 33.5 | 3.04 | 59/61 | 19.5 |
-| opt:stability_min | 50.5 | 38.0 | -1.0 | 4.62 | 69/31 | 19.5 |
+| opt:handling (breaks 5 incompatibility rules) | 117.5 | 80.0 | 42.5 | 4.72 | 31/34 | 102.0 |
+| opt:reload (breaks 5 incompatibility rules) | 72.0 | 88.5 | 94.5 | 5.03 | 29/28 | 100.0 |
+| opt:stability (breaks 4 incompatibility rules) | 55.5 | 46.0 | 95.0 | 6.12 | 32/36 | 67.5 |
+| opt:recoil (breaks 1 incompatibility rule) | 44.5 | 85.5 | 76.0 | 4.88 | 10/6 | 74.0 |
+| opt:all_round (breaks 5 incompatibility rules) | 99.0 | 88.5 | 82.5 | 5.00 | 34/38 | 113.0 |
+| opt:reload_speed | 66.5 | 89.5 | 71.0 | 2.62 | 58/63 | 89.5 |
+| opt:handling_min | 7.5 | 32.0 | 58.5 | 5.32 | 22/14 | 7.5 |
+| opt:reload_speed_min | 46.0 | 26.5 | 36.0 | 3.04 | 59/61 | 19.5 |
+| opt:stability_min | 61.5 | 40.0 | 8.5 | 4.48 | 68/32 | 31.5 |
 
 ## TT33
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 77.0 | 77.0 | 60.0 | 0.92 | 35/36 | 77.0 |
-| opt:handling | 87.0 | 79.5 | 63.5 | 0.96 | 36/38 | 85.5 |
-| opt:reload | 81.5 | 80.0 | 63.0 | 1.21 | 29/18 | 84.5 |
-| opt:stability | 83.0 | 79.0 | 66.0 | 0.97 | 35/36 | 84.2 |
-| opt:recoil | 66.0 | 77.0 | 60.0 | 1.28 | 23/15 | 72.5 |
-| opt:all_round | 85.5 | 80.0 | 64.5 | 1.09 | 31/22 | 85.5 |
-| opt:reload_speed | 84.5 | 80.0 | 62.5 | 0.87 | 36/38 | 84.0 |
-| opt:handling_min | 58.0 | 61.5 | 56.5 | 1.24 | 30/26 | 58.0 |
-| opt:reload_speed_min | 74.5 | 61.5 | 59.0 | 0.93 | 35/35 | 69.0 |
-| opt:stability_min | 63.5 | 76.5 | 56.0 | 0.99 | 23/16 | 67.0 |
+| stock | 77.0 | 77.0 | 50.0 | 0.92 | 35/36 | 77.0 |
+| opt:handling | 89.0 | 79.5 | 55.0 | 1.08 | 36/36 | 87.5 |
+| opt:reload (breaks 1 incompatibility rule) | 83.0 | 80.0 | 55.0 | 1.20 | 29/18 | 84.2 |
+| opt:stability | 85.0 | 79.0 | 58.0 | 1.09 | 35/36 | 86.2 |
+| opt:recoil (breaks 1 incompatibility rule) | 67.5 | 77.0 | 52.0 | 1.27 | 23/15 | 72.2 |
+| opt:all_round (breaks 1 incompatibility rule) | 87.5 | 80.0 | 56.0 | 1.21 | 31/22 | 87.5 |
+| opt:reload_speed | 84.5 | 80.0 | 52.5 | 0.87 | 36/38 | 84.0 |
+| opt:handling_min (breaks 1 incompatibility rule) | 56.0 | 61.5 | 45.0 | 1.24 | 30/30 | 56.0 |
+| opt:reload_speed_min | 74.5 | 61.5 | 49.0 | 0.93 | 35/35 | 69.0 |
+| opt:stability_min (breaks 1 incompatibility rule) | 61.5 | 76.5 | 44.5 | 1.10 | 23/20 | 65.0 |
 
 ## Turret
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
 | stock | 29.0 | 29.0 | 50.0 | 2.94 | 62/43 | 29.0 |
-| opt:handling | 29.0 | 29.0 | 50.0 | 3.03 | 62/41 | 29.0 |
-| opt:reload | 29.0 | 29.0 | 50.0 | 3.10 | 57/37 | 33.0 |
-| opt:stability | 29.0 | 29.0 | 50.0 | 3.03 | 62/41 | 29.0 |
-| opt:recoil | 29.0 | 29.0 | 50.0 | 3.10 | 57/37 | 33.0 |
-| opt:all_round | 29.0 | 29.0 | 50.0 | 3.10 | 57/37 | 33.0 |
+| opt:handling | 33.0 | 29.0 | 53.5 | 3.10 | 57/37 | 33.0 |
+| opt:reload | 33.0 | 29.0 | 53.5 | 3.10 | 57/37 | 33.0 |
+| opt:stability | 33.0 | 29.0 | 53.5 | 3.10 | 57/37 | 33.0 |
+| opt:recoil | 33.0 | 29.0 | 53.5 | 3.10 | 57/37 | 33.0 |
+| opt:all_round | 33.0 | 29.0 | 53.5 | 3.10 | 57/37 | 33.0 |
 | opt:reload_speed | 29.0 | 29.0 | 50.0 | 3.03 | 62/41 | 29.0 |
 | opt:handling_min | 29.0 | 29.0 | 50.0 | 3.03 | 62/41 | 29.0 |
 | opt:reload_speed_min | 29.0 | 29.0 | 50.0 | 3.03 | 62/41 | 29.0 |
@@ -951,15 +965,15 @@ Compared on handling, reload, stability, capacity, velocity, damage, weight, rec
 
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
-| stock | 75.0 | 83.5 | 54.0 | 2.32 | 68/77 | 77.5 |
-| preset:kf_umk_9 | 83.5 | 83.5 | 56.0 | 2.21 | 44/55 | 83.5 |
-| opt:handling | 103.5 | 88.5 | 67.0 | 2.63 | 43/56 | 101.5 |
-| opt:reload | 81.5 | 88.5 | 68.5 | 2.77 | 27/39 | 88.5 |
-| opt:stability | 77.0 | 87.0 | 70.0 | 2.92 | 40/50 | 84.8 |
-| opt:recoil | 73.0 | 88.5 | 67.0 | 2.93 | 23/35 | 82.5 |
-| opt:all_round | 101.0 | 88.5 | 70.5 | 2.51 | 37/50 | 102.5 |
-| opt:reload_speed | 77.5 | 88.5 | 53.5 | 2.00 | 47/57 | 79.0 |
-| opt:handling_min | 46.5 | 83.5 | 56.5 | 2.71 | 58/58 | 57.5 |
-| opt:reload_speed_min | 74.5 | 83.5 | 53.5 | 2.04 | 50/59 | 75.0 |
-| opt:stability_min | 56.0 | 83.5 | 49.5 | 2.26 | 64/65 | 62.0 |
+| stock | 75.0 | 83.5 | 48.0 | 2.32 | 68/77 | 77.5 |
+| preset:kf_umk_9 | 83.5 | 83.5 | 50.0 | 2.21 | 44/55 | 83.5 |
+| opt:handling | 111.0 | 88.5 | 58.0 | 2.65 | 41/53 | 105.5 |
+| opt:reload | 80.0 | 88.5 | 64.0 | 2.74 | 27/39 | 87.8 |
+| opt:stability | 80.0 | 87.0 | 68.0 | 2.94 | 38/47 | 88.8 |
+| opt:recoil | 71.5 | 88.5 | 62.5 | 2.90 | 23/35 | 81.8 |
+| opt:all_round | 111.0 | 88.5 | 58.0 | 2.71 | 40/51 | 105.5 |
+| opt:reload_speed | 76.5 | 88.5 | 46.5 | 2.00 | 47/57 | 79.0 |
+| opt:handling_min | 42.5 | 83.5 | 47.0 | 2.62 | 58/59 | 54.5 |
+| opt:reload_speed_min | 73.5 | 83.5 | 46.5 | 2.04 | 50/59 | 75.0 |
+| opt:stability_min | 52.0 | 83.5 | 40.0 | 2.17 | 64/66 | 59.0 |
 

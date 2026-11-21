@@ -10,8 +10,9 @@ Builds per weapon:
     archetypes  optimiser builds for handling, reload, stability, recoil and all-round play
     pure max    each of handling, reload_speed, stability maximised alone (clamping check)
 
-The optimiser is a dynamic programme over the attachment tree. It ignores incompatibility rules
-and lets each rail mount hold one item, adding the single best foregrip afterwards; the stats of
+The optimiser is a dynamic programme over the attachment tree. It does not respect incompatibility
+rules while searching (each finished build is checked against the item-level rules afterwards and
+marked), and it lets each rail mount hold one item, adding the single best foregrip afterwards; the stats of
 every build it returns are then evaluated exactly with the game's stacking rules. Its builds are
 therefore always legal in stat terms but may occasionally be physically impossible, and it may
 miss the true optimum by a little.
@@ -42,6 +43,20 @@ ARCHETYPES = {
 }
 PURE = {s: {s: 1.0} for s in NEW_STATS}
 PURE_MIN = {s + "_min": {s: -1.0} for s in NEW_STATS}
+
+
+CLAMPED_MARGIN = 10.0
+BLEND_WEIGHTS = sorted({(a / m, b / m, c / m) for a in (1, 2, 3) for b in (1, 2, 3) for c in (1, 2, 3)
+                        for m in [max(a, b, c)]})
+
+
+def blend_builds(tree, st, weapon):
+    """Builds maximising blends of the three stats, to search for one build near every ceiling."""
+    out = []
+    for a, b, c in BLEND_WEIGHTS:
+        obj = {"handling": a, "reload_speed": b, "stability": c}
+        out.append(((a, b, c), Optimizer(tree, st, weapon, obj).run()))
+    return out
 
 
 def item_score(st, name, obj, weight_only=False):
@@ -235,6 +250,7 @@ def report(weapons=None, write=True):
              "game's stacking rules. `old` is today's ergonomics of the same build.", ""]
     problems = defaultdict(list)
     summary = []
+    illegal_counts = {"opt": 0, "illegal": 0}
     for w in sorted(weapons or t.weapons):
         if w not in st:
             continue
@@ -254,7 +270,12 @@ def report(weapons=None, write=True):
             tot = evaluate(t, st, w, names)
             o = t.sum_stats(w, names, old, ["ergonomics"])["ergonomics"]
             opt_tot[name] = (tot, names)
-            lines.append(f"| opt:{name} | {tot['handling']:.1f} | {tot['reload_speed']:.1f} | {tot['stability']:.1f} | {tot['weight']:.2f} | {tot['horizontal_recoil']:.0f}/{tot['vertical_recoil']:.0f} | {o:.1f} |")
+            bad = t.violations(w, names)
+            illegal_counts["opt"] += 1
+            if bad:
+                illegal_counts["illegal"] += 1
+            tag = f" (breaks {len(bad)} incompatibility rule{'s' if len(bad) > 1 else ''})" if bad else ""
+            lines.append(f"| opt:{name}{tag} | {tot['handling']:.1f} | {tot['reload_speed']:.1f} | {tot['stability']:.1f} | {tot['weight']:.2f} | {tot['horizontal_recoil']:.0f}/{tot['vertical_recoil']:.0f} | {o:.1f} |")
         lines.append("")
         # checks
         mx = {s: opt_tot[s][0][s] for s in NEW_STATS}
@@ -270,6 +291,30 @@ def report(weapons=None, write=True):
                 tri.append(name)
         if tri:
             problems["maxes_all_three"].append(f"{w}: {', '.join(tri)} within 3 of every per-stat maximum ({mx})")
+        # clamp-aware: effects read stats clamped to 0-100, so judge against min(max, 100)
+        candidates = list(opt_tot.items()) + [(k, (v[0], None)) for k, v in real.items()]
+        candidates += [(f"blend {a:g}/{b:g}/{c:g}", (evaluate(t, st, w, names_), names_))
+                       for (a, b, c), names_ in blend_builds(t, st, w)]
+        # only legal builds count, for the maxima as well as for the build judged against them
+        candidates = [(n_, v_) for n_, v_ in candidates if v_[1] is None or not t.violations(w, v_[1])]
+        cmx = {k: min(max(v_[0][k] for _, v_ in candidates), 100.0) for k in NEW_STATS}
+        best_name, best_gap = None, 1e9
+        for name, (tot, names_) in candidates:
+            gap = max(cmx[k] - min(tot[k], 100.0) for k in NEW_STATS)
+            if gap < best_gap:
+                best_name, best_gap = name, gap
+        all_cmx = {k: min(mx[k], 100.0) for k in NEW_STATS}
+        short = [k for k in NEW_STATS if cmx[k] < all_cmx[k] - CLAMPED_MARGIN]
+        if best_gap <= CLAMPED_MARGIN and short:
+            problems["maxes_all_three_inconclusive"].append(
+                f"{w}: `{best_name}` is within {best_gap:.1f} of the legal maxima, but the optimiser found no legal "
+                f"build near the {', '.join(short)} ceiling (legal h {cmx['handling']:.0f} / r {cmx['reload_speed']:.0f} / "
+                f"s {cmx['stability']:.0f} against h {all_cmx['handling']:.0f} / r {all_cmx['reload_speed']:.0f} / "
+                f"s {all_cmx['stability']:.0f} including illegal builds)")
+        elif best_gap <= CLAMPED_MARGIN:
+            problems["maxes_all_three_clamped"].append(
+                f"{w}: `{best_name}` is within {best_gap:.1f} of every clamped per-stat maximum "
+                f"(h {cmx['handling']:.0f} / r {cmx['reload_speed']:.0f} / s {cmx['stability']:.0f})")
         arche = [k for k in ARCHETYPES]
         sets = {k: set(opt_tot[k][1]) for k in arche}
         ov = []
@@ -287,7 +332,7 @@ def report(weapons=None, write=True):
             "stock": real["stock"][0],
             "ref_med": {s: statistics.median(x[s] for x in refs_tot) for s in NEW_STATS},
             "ref_old": statistics.median(refs_old),
-            "max": mx, "min": mn, "archetype_overlap": max(ov),
+            "max": mx, "min": mn, "archetype_overlap": max(ov), "choice_margin": best_gap,
         })
     dom = dominance(ctx, st)
     hard = [d for d in dom if d["dominant_cheaper_or_equal"]]
@@ -295,20 +340,27 @@ def report(weapons=None, write=True):
     old_hard = [d for d in dominance(ctx, old3) if d["dominant_cheaper_or_equal"]]
     head = ["## Summary", "",
             "Median of reference builds (official setups + presets; stock if none) against today's ergonomics",
-            "of the same builds, the stock build, and the per-stat range the optimiser finds.", "",
-            "| weapon | refs | ref h | ref r | ref s | old ergo | stock h/r/s | max h/r/s | min h/r/s | archetype overlap |",
-            "|---|---|---|---|---|---|---|---|---|---|"]
+            "of the same builds, the stock build, and the per-stat range the optimiser finds. Choice margin:",
+            "over every build tried, the smallest worst-stat gap to the clamped per-stat maxima; the larger,",
+            "the more a build has to give up one stat to reach another (flagged at 10 or less).", "",
+            "| weapon | refs | ref h | ref r | ref s | old ergo | stock h/r/s | max h/r/s | min h/r/s | archetype overlap | choice margin |",
+            "|---|---|---|---|---|---|---|---|---|---|---|"]
     for s in summary:
         r = s["ref_med"]
         head.append(f"| {s['weapon']} | {s['n_ref']} | {r['handling']:.0f} | {r['reload_speed']:.0f} | {r['stability']:.0f} | {s['ref_old']:.0f} | "
                     f"{s['stock']['handling']:.0f}/{s['stock']['reload_speed']:.0f}/{s['stock']['stability']:.0f} | "
                     f"{s['max']['handling']:.0f}/{s['max']['reload_speed']:.0f}/{s['max']['stability']:.0f} | "
-                    f"{s['min']['handling']:.0f}/{s['min']['reload_speed']:.0f}/{s['min']['stability']:.0f} | {s['archetype_overlap']:.0%} |")
-    head += ["", "## Checks", ""]
+                    f"{s['min']['handling']:.0f}/{s['min']['reload_speed']:.0f}/{s['min']['stability']:.0f} | {s['archetype_overlap']:.0%} | {s['choice_margin']:.1f} |")
+    head += ["", "## Checks", "",
+             f"Optimiser builds that break an item-level incompatibility rule: {illegal_counts['illegal']} of "
+             f"{illegal_counts['opt']} (marked in the weapon tables; the clamped check below uses legal builds "
+             "only, for its maxima too). Slot-level `incompatible_with_when_mounted` rules are not checked.", ""]
     names = {"clamp_realistic": "Realistic builds (stock, references) outside 0-100",
              "clamp_max": "Per-stat maximum above 100 (clamped in game)",
              "clamp_min": "Per-stat minimum below 0 (clamped in game)",
              "maxes_all_three": "A single build within 3 points of every per-stat maximum",
+             "maxes_all_three_clamped": "A single legal build within 10 points of every clamped per-stat maximum (min(max over legal builds, 100))",
+             "maxes_all_three_inconclusive": "Inconclusive: near every legal maximum, but the legal maxima fall well short of the optimiser's (illegal) ones",
              "archetypes_same": "Handling, reload and stability builds nearly identical"}
     for k, title in names.items():
         head.append(f"### {title}: {len(problems[k])}")

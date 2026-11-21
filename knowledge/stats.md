@@ -6,7 +6,7 @@ This document explains the stats relevant to balancing. See [balancing.md](balan
 
 `balancing.csv` contains the base stats for weapons and the general stats for attachments. A completed build starts with the weapon row and adds the stats of its attached parts.
 
-Weight, ergonomics, recoil, capacity, deviation, and velocity are additive. Damage and fire rate are fractional modifiers. For example, `0.1` damage adds 10 percent of the weapon's base damage. Muzzle loudness is an additive adjustment to a multiplier that starts at `1`.
+Weight, handling, reload speed, stability, recoil, capacity, deviation, and velocity are additive. Damage and fire rate are fractional modifiers. For example, `0.1` damage adds 10 percent of the weapon's base damage. Muzzle loudness is an additive adjustment to a multiplier that starts at `1`.
 
 An empty attachment stat contributes no change. In a change sheet, however, an empty cell can overwrite an existing value when ported.
 
@@ -24,7 +24,9 @@ Some attachment types also have behavior defined outside `balancing.csv`, includ
 | Stat | Better direction | Unit or meaning |
 | --- | --- | --- |
 | `weight` | lower | Deadline weight units |
-| `ergonomics` | higher | handling scale, normally 0 to 100 |
+| `handling` | higher | ADS and minor-animation scale, 0 to 100 |
+| `reload_speed` | higher | reload animation scale, 0 to 100 |
+| `stability` | higher | sway scale, 0 to 100, 50 is the old feel |
 | `horizontal_recoil` | lower | recoil scale, normally 0 to 100 |
 | `vertical_recoil` | lower | recoil scale, normally 0 to 100 |
 | `magazine_capacity` | situational | rounds |
@@ -38,7 +40,7 @@ Some attachment types also have behavior defined outside `balancing.csv`, includ
 
 ### Weight
 
-`weight` is measured in arbitrary Deadline weight units (`dw`). Total loadout weight affects movement speed and movement stamina. Weapon weight does not directly affect handling or recoil.
+`weight` is measured in arbitrary Deadline weight units (`dw`). Total loadout weight affects movement speed and movement stamina. The weight of the **held** weapon also sets its mobility, which owns its draw and stow speed, sprint-out time, aimed movement speed, aim-stamina drain and turn lag. Weight does not affect recoil.
 
 Use loaded real-world weight as the starting point. Magazine weight should include ammunition. The normal conversion is:
 
@@ -49,11 +51,46 @@ Use loaded real-world weight as the starting point. Magazine weight should inclu
 
 Weight can deviate from this conversion for gameplay. Common exceptions include SMGs, suppressors, heavy optics, high-capacity magazines, tactical devices, and very small parts that need a meaningful tradeoff. When reliable weight data is unavailable, use the closest comparable item.
 
-### Ergonomics
+Held-weapon mobility, from the stat rework contract (tentative numbers):
 
-`ergonomics` controls weapon handling. Higher ergonomics improves aiming, switching, and reload behavior. It also slows aim-stamina drain and speeds recovery.
+```text
+mobility = map_clamped(held weapon weight, 0.5 dw -> 100, 7.0 dw -> 0)   (about 15 points per dw)
+```
 
-Each weapon maps ergonomics into its own handling ranges, so the same stat change can have different effects across weapons. These mappings normally use a 0 to 100 range.
+| Outcome | mobility 0 -> 100 |
+| --- | --- |
+| Draw animation speed | the weapon's animation-speed range (typically 0.9x -> 1.3x) |
+| Stow animation speed | the same, then x5 |
+| Sprint-out / sprint-in | the weapon's range (typically 0.9 -> 0.6) |
+| Aimed movement speed | today's aimed speed x 0.85 -> 1.15 |
+| Arm stamina drain while aiming | 2/s x 1.5 -> 0.5 |
+| Turn lag, hip / aimed | x 1.20 -> 0.85 / x 1.10 -> 0.925 |
+
+One dw on the held weapon costs about 15 mobility: roughly 6% draw and stow speed, 4.6% aimed movement speed and 15% more aiming stamina drain, on top of about 3.3% travel speed. A part that was once given negative ergonomics only because it was heavy is now charged by its weight directly.
+
+Total weight is `0.7 body + 5.0 placeholder kit + every carried firearm`, and travel speed is `base / (W / 20 + 1)`.
+
+### Handling, reload speed, and stability
+
+These three replaced `ergonomics`, which bundled ADS, reload, draw, sprint-out, arm stamina and minor animations into one number. Each is summed over the weapon row and its parts and read clamped to 0 to 100. The same stacking exceptions apply as for every non-weight stat. Each weapon maps them into its own ranges, so the same change can feel different across weapons.
+
+| Stat | Owns | One point is worth |
+| --- | --- | --- |
+| `handling` | ADS in and out (typically 0.73 s at 0 to 0.22 s at 100, linear), sight switch speed, fire-mode switch, magazine check and other minor animations | about 5 ms of ADS time |
+| `reload_speed` | all reload animations (tactical, empty, quick, per shell), typically 0.9x at 0 to 1.3x at 100 | about 0.4% reload speed |
+| `stability` | idle (breathing) sway at hip and aimed, sway while moving (walk bob and strafe sway), and the breath-hold cost; `1.4x` sway at 0, `1.0x` at 50, `0.6x` at 100 | 0.8% sway and 1% breath-hold cost |
+
+Breath-hold drains the arm-stamina bar (60 for everyone) at `4.5/s` at 0 stability, `3.0/s` at 50 and `1.5/s` at 100, multiplied by `1 + 0.2 x seconds held`. Holding breath removes sway entirely and is impossible at an empty bar. Aiming drains the same bar at a rate set by mobility.
+
+Stability replaced the game's hidden barrel-length scaling of moving sway: long barrels carry worse stability in the sheet instead.
+
+For balancing, the rework prices the three against one old ergonomics point (see `stat-rework/RULES.md`):
+
+```text
+EV = 0.60 * handling + 0.40 * reload_speed + 0.47 * stability     (in old ergonomics points)
+```
+
+A sheet that still has an `ergonomics` column and none of the three loads with all three equal to its ergonomics.
 
 ### Recoil
 
@@ -106,6 +143,8 @@ completed RPM = base RPM * (1 + fire_rate)
 ```
 
 For example, `0.05` increases RPM by 5 percent and `-0.05` reduces it by 5 percent. Property patches can replace RPM or fire modes instead of modifying them.
+
+Completed RPM also sets bolt and pump cycling speed on manually cycled weapons, so a `fire_rate` value on a part of a bolt-action rifle or pump shotgun speeds up or slows down its cycling. Pump shotguns use code-supplied base RPMs chosen to match their old cycle speed.
 
 ### Muzzle loudness
 

@@ -443,8 +443,8 @@ Compared on handling, reload, stability, capacity, velocity, damage, weight, rec
 |---|---|---|---|---|---|---|
 | stock | 55.0 | 53.5 | 54.0 | 2.94 | 23/17 | 56.0 |
 | setup:veles_ak74m_leader | 44.5 | 55.5 | 48.5 | 3.31 | 23/35 | 46.0 |
-| preset:ak74m | 64.5 | 55.5 | 52.0 | 2.97 | 24/18 | 62.0 |
 | preset:ak105 | 68.0 | 55.5 | 57.0 | 2.79 | 28/23 | 66.0 |
+| preset:ak74m | 64.5 | 55.5 | 52.0 | 2.97 | 24/18 | 62.0 |
 | preset:veles_ak74m_leader | 46.5 | 55.5 | 48.5 | 3.16 | 22/33 | 49.0 |
 | opt:handling | 103.0 | 68.0 | 56.0 | 5.06 | 32/36 | 95.2 |
 | opt:reload | 76.5 | 76.0 | 92.0 | 5.57 | 1/-1 | 99.2 |
@@ -462,9 +462,9 @@ Compared on handling, reload, stability, capacity, velocity, damage, weight, rec
 |---|---|---|---|---|---|---|
 | stock | 85.0 | 71.0 | 47.0 | 2.48 | 36/32 | 76.0 |
 | setup:veles_aks74u | 58.5 | 69.0 | 54.5 | 3.02 | 32/42 | 64.5 |
+| preset:aks74ub | 79.0 | 71.0 | 45.5 | 2.86 | 29/24 | 75.0 |
 | preset:aks74un | 86.0 | 71.0 | 47.0 | 2.51 | 36/32 | 77.0 |
 | preset:veles_aks74u_upgrade | 64.5 | 69.0 | 41.0 | 2.47 | 39/46 | 60.0 |
-| preset:aks74ub | 79.0 | 71.0 | 45.5 | 2.86 | 29/24 | 75.0 |
 | opt:handling | 120.5 | 85.0 | 58.5 | 3.11 | 42/36 | 111.0 |
 | opt:reload | 83.5 | 92.0 | 89.5 | 4.15 | 8/2 | 108.0 |
 | opt:stability | 70.5 | 57.0 | 91.0 | 4.62 | 20/7 | 78.5 |
@@ -516,12 +516,12 @@ Compared on handling, reload, stability, capacity, velocity, damage, weight, rec
 | setup:aug_a3 | 77.5 | 68.0 | 61.0 | 3.29 | 32/37 | 75.0 |
 | setup:stg77a1_mod | 70.0 | 63.0 | 54.5 | 2.82 | 29/35 | 68.5 |
 | preset:aug_9mm_para_xs | 97.5 | 61.0 | 59.0 | 2.25 | 31/32 | 87.0 |
-| preset:lowenherz_aug_hbar | 53.0 | 46.5 | 48.0 | 3.41 | 19/27 | 48.0 |
-| preset:aug_a3m1 | 68.5 | 63.0 | 53.0 | 2.64 | 29/37 | 66.5 |
-| preset:aug_commando_xs | 76.0 | 62.0 | 48.5 | 2.50 | 35/47 | 68.5 |
-| preset:aug_a3_cqc | 65.5 | 62.0 | 53.5 | 2.96 | 21/32 | 65.0 |
 | preset:aug_a1_9mm_para | 91.0 | 69.5 | 64.5 | 2.43 | 23/18 | 89.0 |
+| preset:aug_a3_cqc | 65.5 | 62.0 | 53.5 | 2.96 | 21/32 | 65.0 |
+| preset:aug_a3m1 | 68.5 | 63.0 | 53.0 | 2.64 | 29/37 | 66.5 |
 | preset:aug_a3sa | 68.0 | 62.0 | 50.0 | 2.62 | 27/40 | 64.5 |
+| preset:aug_commando_xs | 76.0 | 62.0 | 48.5 | 2.50 | 35/47 | 68.5 |
+| preset:lowenherz_aug_hbar | 53.0 | 46.5 | 48.0 | 3.41 | 19/27 | 48.0 |
 | opt:handling | 123.5 | 72.5 | 76.5 | 3.60 | 34/25 | 113.8 |
 | opt:reload | 105.5 | 79.5 | 81.0 | 3.59 | 16/7 | 109.2 |
 | opt:stability | 100.0 | 71.0 | 83.5 | 4.11 | 22/14 | 101.5 |
@@ -555,9 +555,9 @@ Compared on handling, reload, stability, capacity, velocity, damage, weight, rec
 | setup:kg51sd | 67.0 | 65.0 | 53.0 | 3.46 | 58/82 | 68.0 |
 | setup:kf_skg_31 | 49.5 | 77.5 | 73.0 | 4.69 | 56/81 | 68.0 |
 | setup:kf_kg31 | 41.5 | 64.0 | 45.0 | 4.18 | 32/50 | 43.0 |
-| preset:ferro_ordnance_group_kg_51sd | 69.5 | 65.0 | 53.0 | 3.25 | 58/82 | 70.0 |
 | preset:ctr_32 | 63.0 | 64.0 | 52.5 | 3.90 | 14/22 | 62.0 |
 | preset:ferro_ordnance_group_kg_51c | 69.0 | 65.0 | 54.0 | 3.10 | 52/79 | 65.0 |
+| preset:ferro_ordnance_group_kg_51sd | 69.5 | 65.0 | 53.0 | 3.25 | 58/82 | 70.0 |
 | preset:kf_kg_31a4 | 57.0 | 65.0 | 44.0 | 3.65 | 34/60 | 53.0 |
 | opt:handling | 108.5 | 77.0 | 45.5 | 3.21 | 72/96 | 99.0 |
 | opt:reload | 75.0 | 77.0 | 78.5 | 4.71 | 31/1 | 89.0 |
@@ -576,8 +576,8 @@ Compared on handling, reload, stability, capacity, velocity, damage, weight, rec
 | stock | 70.5 | 62.5 | 55.0 | 3.15 | 34/34 | 68.0 |
 | setup:kf416a5 | 64.5 | 72.5 | 65.0 | 3.80 | 17/31 | 71.5 |
 | setup:barret_mb2 | 33.5 | 50.0 | 40.5 | 5.17 | 16/14 | 30.0 |
-| preset:kf_416c | 66.0 | 60.5 | 42.0 | 2.47 | 46/61 | 58.5 |
 | preset:kf_416a5 | 74.5 | 70.0 | 58.0 | 3.14 | 35/31 | 75.0 |
+| preset:kf_416c | 66.0 | 60.5 | 42.0 | 2.47 | 46/61 | 58.5 |
 | opt:handling | 91.5 | 78.0 | 52.0 | 3.33 | 39/55 | 87.8 |
 | opt:reload | 68.0 | 86.5 | 82.0 | 4.28 | 20/14 | 91.8 |
 | opt:stability | 58.0 | 49.0 | 85.0 | 5.09 | 19/26 | 66.5 |
@@ -615,11 +615,11 @@ Compared on handling, reload, stability, capacity, velocity, damage, weight, rec
 | setup:m4a1_urgi | 57.0 | 60.0 | 48.5 | 3.31 | 24/35 | 54.5 |
 | setup:equinox_ex15 | 86.5 | 68.5 | 50.0 | 2.59 | 27/45 | 78.5 |
 | preset:ardian_weapons_pattern_1 | 74.0 | 77.0 | 65.5 | 2.97 | 21/41 | 81.0 |
-| preset:m4a1_usgi | 66.5 | 57.0 | 52.0 | 3.14 | 25/44 | 62.2 |
-| preset:equinox_ex_15 | 79.0 | 68.5 | 55.5 | 2.48 | 22/48 | 76.5 |
-| preset:m4a1_urg_i | 54.0 | 60.0 | 46.5 | 3.17 | 19/39 | 52.0 |
-| preset:hart_607 | 82.0 | 64.0 | 47.5 | 2.22 | 33/44 | 74.0 |
 | preset:c7a2 | 56.5 | 58.5 | 34.0 | 3.43 | 22/28 | 48.5 |
+| preset:equinox_ex_15 | 79.0 | 68.5 | 55.5 | 2.48 | 22/48 | 76.5 |
+| preset:hart_607 | 82.0 | 64.0 | 47.5 | 2.22 | 33/44 | 74.0 |
+| preset:m4a1_urg_i | 54.0 | 60.0 | 46.5 | 3.17 | 19/39 | 52.0 |
+| preset:m4a1_usgi | 66.5 | 57.0 | 52.0 | 3.14 | 25/44 | 62.2 |
 | preset:novacek_n4_gen3 | 75.0 | 69.0 | 55.5 | 2.69 | 23/46 | 73.0 |
 | opt:handling | 122.0 | 79.5 | 50.5 | 3.82 | 41/57 | 112.0 |
 | opt:reload | 66.0 | 93.5 | 93.5 | 6.07 | 3/2 | 100.5 |
@@ -793,10 +793,10 @@ Compared on handling, reload, stability, capacity, velocity, damage, weight, rec
 |---|---|---|---|---|---|---|
 | stock | 59.0 | 69.0 | 40.5 | 2.79 | 78/85 | 64.0 |
 | setup:m700_mcs_lss_xl | 54.5 | 64.5 | 53.0 | 3.61 | 68/77 | 62.5 |
-| preset:mcs_rev21_gen2 | 69.0 | 62.0 | 47.5 | 3.27 | 65/72 | 69.0 |
-| preset:mcs_lss_xl_gen2 | 74.5 | 75.0 | 52.5 | 2.92 | 76/84 | 79.0 |
-| preset:pi_at_aics_2 | 76.5 | 76.0 | 63.5 | 3.26 | 72/82 | 85.5 |
 | preset:magtap_hunter_700 | 54.0 | 70.0 | 57.0 | 2.87 | 75/84 | 70.0 |
+| preset:mcs_lss_xl_gen2 | 74.5 | 75.0 | 52.5 | 2.92 | 76/84 | 79.0 |
+| preset:mcs_rev21_gen2 | 69.0 | 62.0 | 47.5 | 3.27 | 65/72 | 69.0 |
+| preset:pi_at_aics_2 | 76.5 | 76.0 | 63.5 | 3.26 | 72/82 | 85.5 |
 | opt:handling | 110.5 | 72.0 | 32.5 | 3.59 | 59/66 | 92.8 |
 | opt:reload | 92.0 | 72.5 | 62.5 | 3.90 | 52/21 | 96.8 |
 | opt:stability | 88.0 | 73.0 | 88.0 | 3.96 | 55/57 | 102.5 |
@@ -831,11 +831,11 @@ Compared on handling, reload, stability, capacity, velocity, damage, weight, rec
 | stock | 37.5 | 49.0 | 45.0 | 3.95 | 35/50 | 35.0 |
 | setup:sg58_para | 48.0 | 53.0 | 64.5 | 4.78 | 42/54 | 50.5 |
 | setup:sg58_osw | 58.5 | 38.5 | 53.0 | 4.62 | 46/66 | 47.5 |
-| preset:sg58_osw | 63.5 | 50.5 | 54.0 | 3.53 | 52/65 | 55.0 |
-| preset:far_50_63_para | 43.5 | 50.0 | 46.0 | 3.83 | 36/51 | 39.0 |
-| preset:sg58_spr | 41.5 | 60.0 | 58.5 | 3.74 | 36/58 | 50.0 |
-| preset:sg58_pistol | 86.0 | 46.5 | 34.0 | 2.76 | 77/93 | 59.0 |
 | preset:far_50_00 | 34.5 | 49.0 | 48.5 | 4.23 | 29/48 | 35.0 |
+| preset:far_50_63_para | 43.5 | 50.0 | 46.0 | 3.83 | 36/51 | 39.0 |
+| preset:sg58_osw | 63.5 | 50.5 | 54.0 | 3.53 | 52/65 | 55.0 |
+| preset:sg58_pistol | 86.0 | 46.5 | 34.0 | 2.76 | 77/93 | 59.0 |
+| preset:sg58_spr | 41.5 | 60.0 | 58.5 | 3.74 | 36/58 | 50.0 |
 | opt:handling | 109.0 | 66.0 | 55.5 | 3.42 | 71/92 | 98.2 |
 | opt:reload | 63.0 | 65.0 | 77.0 | 3.87 | 51/35 | 78.5 |
 | opt:stability | 64.5 | 63.0 | 96.5 | 3.98 | 57/79 | 82.5 |
@@ -851,13 +851,13 @@ Compared on handling, reload, stability, capacity, velocity, damage, weight, rec
 | build | handling | reload | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|
 | stock | 54.5 | 65.0 | 69.0 | 2.40 | 53/51 | 66.5 |
-| preset:kalis_scalar_sdp_gen3 | 45.0 | 45.0 | 58.0 | 2.32 | 47/52 | 45.0 |
-| preset:kalis_scalar_sdp_gen2 | 56.0 | 57.5 | 44.0 | 2.10 | 56/59 | 54.0 |
 | preset:kalis_scalar_crb_gen1 | 45.0 | 46.0 | 63.0 | 3.08 | 44/40 | 50.0 |
+| preset:kalis_scalar_crb_gen2 | 47.5 | 50.5 | 60.0 | 3.08 | 30/26 | 50.0 |
+| preset:kalis_scalar_crb_gen3 | 37.5 | 42.0 | 50.0 | 2.91 | 50/54 | 36.0 |
 | preset:kalis_scalar_sbr_enhanced_gen2 | 36.0 | 43.5 | 56.0 | 2.67 | 63/60 | 39.0 |
 | preset:kalis_scalar_sbr_gen3 | 44.5 | 40.5 | 55.5 | 2.45 | 57/62 | 44.0 |
-| preset:kalis_scalar_crb_gen3 | 37.5 | 42.0 | 50.0 | 2.91 | 50/54 | 36.0 |
-| preset:kalis_scalar_crb_gen2 | 47.5 | 50.5 | 60.0 | 3.08 | 30/26 | 50.0 |
+| preset:kalis_scalar_sdp_gen2 | 56.0 | 57.5 | 44.0 | 2.10 | 56/59 | 54.0 |
+| preset:kalis_scalar_sdp_gen3 | 45.0 | 45.0 | 58.0 | 2.32 | 47/52 | 45.0 |
 | opt:handling | 78.5 | 68.5 | 68.0 | 3.52 | 46/42 | 82.2 |
 | opt:reload | 49.5 | 68.5 | 84.5 | 3.72 | 24/17 | 68.8 |
 | opt:stability | 37.5 | 69.5 | 101.0 | 4.44 | 36/32 | 69.0 |

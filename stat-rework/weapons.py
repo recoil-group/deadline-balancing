@@ -32,7 +32,7 @@ def reference_builds(tree, weapon):
     for s in tree.setups:
         if s["weapon"] == weapon:
             refs.append([n for _, n in tree.resolve(weapon, s["map"])])
-    for pm in tree.weapons[weapon]["presets"].values():
+    for _, pm in sorted(tree.weapons[weapon]["presets"].items()):
         b = [n for _, n in tree.resolve(weapon, pm)]
         if b not in refs:
             refs.append(b)

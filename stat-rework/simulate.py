@@ -137,7 +137,7 @@ def weapon_builds(tree, st, weapon):
     for s in tree.setups:
         if s["weapon"] == weapon:
             refs["setup:" + s["name"]] = [n for _, n in tree.resolve(weapon, s["map"])]
-    for pn, pm in tree.weapons[weapon]["presets"].items():
+    for pn, pm in sorted(tree.weapons[weapon]["presets"].items()):
         names = [n for _, n in tree.resolve(weapon, pm)]
         if names not in refs.values():
             refs["preset:" + pn] = names
@@ -190,7 +190,7 @@ def write_dominations(ctx, st, hard, old_hard, write):
                         "bullet_damage", "barrel_deviation", "muzzle_loudness", "fire_rate"]
     in_old = {(d["dominant"], d["dominated"]) for d in old_hard}
     rows, seen = [], set()
-    for d in hard:
+    for d in sorted(hard, key=lambda d: (d["dominant"], d["dominated"], d["set"])):
         a, b = d["dominant"], d["dominated"]
         if (a, b) in seen:
             continue
@@ -206,7 +206,7 @@ def write_dominations(ctx, st, hard, old_hard, write):
         rows.append({"family": fam, "set": d["set"], "dominant": a, "dominated": b, "category": cat,
                      "also_dominated_in_old_sheet": (a, b) in in_old, "differs_in": "+".join(diff),
                      "price_dominant": d["price_dominant"], "price_dominated": d["price_dominated"]})
-    rows.sort(key=lambda r: (r["category"], r["family"], r["dominated"]))
+    rows.sort(key=lambda r: (r["category"], r["family"], r["dominated"], r["dominant"]))
     if write and rows:
         with open(os.path.join(HERE, "review", "dominations.csv"), "w", newline="") as f:
             w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))

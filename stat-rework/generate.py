@@ -111,12 +111,17 @@ class Context:
 
 
 def generate(ctx=None, families=None):
-    """Return (ctx, new_values, log). new_values: name -> dict of NEW_COLUMNS[4:] (floats or raw strings)."""
+    """Return (ctx, new_values, log). new_values: name -> dict of NEW_COLUMNS[4:] (floats or raw strings).
+
+    Order: weapon bases and family rules, then the lead's lean pass (lean.py), then overrides.
+    """
+    import lean
+
     ctx = ctx or Context()
     overrides = load_overrides()
     bases = load_weapon_bases()
     out = {}
-    log = []
+    rules_of = {}
     for n, it in ctx.items.items():
         if families and it["family"] not in families:
             continue
@@ -144,6 +149,21 @@ def generate(ctx=None, families=None):
             for k, v in res.items():  # rule modules may also return other columns (with a reason in _rule)
                 if k in OTHER_COLUMNS:
                     vals[k] = v
+        out[n] = vals
+        rules_of[n] = rule
+
+    lean_input = {n: {"handling": v["handling"], "stability": v["stability"]} for n, v in out.items()
+                  if ctx.items[n]["family"] != "weapon" and v["handling"] is not None and v["stability"] is not None}
+    lean_notes = lean.steepen(ctx, lean_input)
+    for n, note in lean_notes.items():
+        out[n]["handling"] = lean_input[n]["handling"]
+        out[n]["stability"] = lean_input[n]["stability"]
+        rules_of[n] += "; " + note
+
+    log = []
+    for n, vals in out.items():
+        raw = ctx.items[n]["raw"]
+        rule = rules_of[n]
         o = overrides.get(n)
         note = ""
         if o:
@@ -156,7 +176,6 @@ def generate(ctx=None, families=None):
                 log.append({"name": n, "column": k, "old": raw.get(k, ""), "new": vals[k], "why": note or rule})
         vals["_rule"] = rule
         vals["_note"] = note
-        out[n] = vals
     return ctx, out, log
 
 

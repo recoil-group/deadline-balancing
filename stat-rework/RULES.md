@@ -115,9 +115,16 @@ base = anchor + identity offset − median part contribution over the weapon's r
 
 ## 9. Ammunition
 
-See `rules/ammo.py`. Ammunition rows carried small ergonomics values (±1–4, tracers positive, hot
-loads negative). Ammunition does not plausibly change ADS, reload or sway, so the default is zero
-on all three new stats; the weapon base calibration absorbs the average.
+Ammunition rows carried small ergonomics values (−4 to +3, more on shotgun specials) that track soft
+versus harsh shooting: tracers and subsonics positive with less recoil, hot, +P and AP loads
+negative with more recoil. The team's ammo change sheets score them, so each calibre's parity and
+the shotgun specials' compensation are built on them.
+
+This pass keeps that value: handling = E, stability = 0.85·E, reload 0, so EV = E. Soft-shooting
+loads are easier to bring up and hold steady, harsh loads the opposite. `rules/ammo.py` has
+`MODE = "keep"`; setting it to `"zero"` drops ammunition to 0/0/0 in one edit, which is
+the physically tidier choice argued in `notes/ammo.md` (with the per-round cost of doing so). The
+aim of this pass is the stat split, not an ammunition rebalance, so the team decides that later.
 
 ## 10. Split rules per family
 
@@ -128,9 +135,9 @@ ergonomics; EV is kept equal to E unless stated.
   constant moves into the weapon base). Larger than standard: reload 2.125·E, handling 0.25·E;
   past −15 only half the rest counts and reload never goes below −25; drums, quads and caskets never
   reload faster than the slowest stick they compete with. Smaller than standard: reload takes the
-  first 6 points, then a third of the rest, capped at +12; handling 0.25·E capped at +2.5 (short mags
-  lose about half their old value on purpose: their old bonus was capacity compensation, and +28
-  reload on a 3-round mag would be absurd). Polymer/ribbed +0.5 reload, straight-wall −0.5;
+  first 6 points, then a third of the rest, capped at +12; handling takes enough of the rest that the
+  mag keeps two thirds of its old value (less bulk on the gun). The last third was pure capacity
+  compensation and is dropped; +28 reload on a 3-round mag would be absurd. Polymer/ribbed +0.5 reload, straight-wall −0.5;
   translucent equals opaque. Stability 0. Shotgun tubes (R870, MP133): reload 1.5·E, handling 0.5·E
   from the stock cap, since reload points already scale every shell.
 - **Mag controls**: releases, paddles, magwells, mag assists, loop plates: reload 2.5·E only.
@@ -170,9 +177,7 @@ ergonomics; EV is kept equal to E unless stated.
 - **Internals**: selectors and safeties handling; charging handles, bolt catches/releases, Mosin
   bolt and R700 bottom metal reload; triggers stability (a lighter, steadier pull; about 0.77 of
   their old EV); takedown levers +1 stability; springs, rods, hammers, pins zero.
-- **Ammunition**: zero on all three (section 9). The cost to each round is in `notes/ammo.md`;
-  subsonics (−3 old points) lose the most, shotgun slugs, birdshot and bean bags the most in
-  absolute terms.
+- **Ammunition**: handling E, stability 0.85·E, reload 0 (section 9; one switch to zero).
 - **Tactical devices**: handling 1.6·E only.
 - **Bayonets**: handling 0.8·A and stability 1.0·A of the whole assembly's value A (front mass
   and length make it sway more); grips and slings 0.
@@ -186,3 +191,22 @@ ergonomics; EV is kept equal to E unless stated.
   a middle option between handstops and verticals (`overrides/lead.csv`).
 - Items filed in the wrong family were re-statted by the rules of the family they really belong
   to, inside the owning family's module; `notes/*.md` list them.
+
+## 12. Steepened lean in the choice slots
+
+Typical builds sit at today's feel, but many weapons have enough positive parts that one build can
+sit near the 0–100 ceiling of all three stats. Effects read stats clamped to 0–100, so the check
+that builds must choose is judged against `min(max, 100)` (`simulate.py`, "choice margin").
+
+`lean.py` steepens, EV-neutrally, the handling-versus-stability lean of stocks, handguards, pistol
+grips and foregrips: inside each item's main competing set, its handling share of value is spread
+away from the set's median share by a factor of 2, clamped so the other stat goes at most a quarter
+of the value negative, and no stat beyond ±25 (stocks, handguards), ±15 (pistol grips) or ±12
+(foregrips) unless the item already was. Reload, zero-value parts, penalty parts, full gun bodies
+and overrides are untouched. Result in the AR stock set: minimal stocks (Viper, MOA SL-K, XM177)
+about h 25 / s 0–3, carbine stocks h 13–15 / s 12–15, the PRS Gen3 h 7.5 / s 25.
+
+Barrels and muzzle devices are not steepened: length moves handling and stability the same way and
+their trade is recoil and velocity. Factor 2 is where it stops making sense: at 2.5 and 3 the
+check gains one weapon each while the number of parts pushed to the share limit grows from 15 to
+37. Setting the factors to 1 switches the pass off.

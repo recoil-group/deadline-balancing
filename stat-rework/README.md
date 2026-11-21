@@ -51,8 +51,9 @@ Pipeline:
 1. `data/source_balancing.csv` (main at `ec0e059`) is the input and is never edited.
 2. `rules/__init__.py` holds the pricing and the default split vector of each family.
 3. `rules/<family>.py` refines the split per item from what the part physically is.
-4. `overrides/<family>.csv` sets hand-tuned values; every row has a note.
-5. `weapon_identity.csv` holds each weapon's anchor and identity offsets; `--calibrate` turns them
+4. `lean.py` steepens the handling-versus-stability lean in stocks, handguards and grips (EV kept).
+5. `overrides/<family>.csv` sets hand-tuned values; every row has a note.
+6. `weapon_identity.csv` holds each weapon's anchor and identity offsets; `--calibrate` turns them
    into `weapon_bases.csv`, which is what the weapon rows get.
 
 To retune: change a family's rule or add an override row with a note, run `--write`, and check
@@ -77,7 +78,7 @@ Stability c` when comparing an old sheet with a new one.
 ## What to tune first
 
 See the end of `review/simulation_report.md` and the balancing report for the current list. In
-short: (1) the pistol and SMG stability bases, which absorb a code-side change to strafe sway;
-(2) the stock and barrel handling-versus-stability trades, which carry most of the "builds must
-choose" effect; (3) magazine reload values against capacity; (4) the EV weights themselves
-(`rules.W_H/W_R/W_S`) once the team has a feel for what a stability point is worth.
+short: (1) the stock, handguard and grip handling-versus-stability trades (`lean.py`), which carry
+most of the "builds must choose" effect; (2) weapons whose parts can still reach the ceiling of all
+three stats; (3) magazine reload values against capacity; (4) ammunition (kept, one switch to zero);
+(5) the EV weights themselves (`rules.W_H/W_R/W_S`) once the team has a feel for a stability point.

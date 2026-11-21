@@ -13,9 +13,9 @@ Rules, in plain words (E = old ergonomics, no weight credit):
 3. Drums, quads, caskets and couplers never reload faster than the slowest stick mag they compete
    with (the old sheet under-charged light-ergo drums because their weight did the work).
 4. Below standard (E_rel > 0): the old bonus was mostly compensation for capacity. Reload takes
-   the first 6 points in full, a third of the rest, at most 12 (about 5% faster); handling gets
-   0.25 * E_rel, at most 2.5 (a short mag is a little less bulk under the gun). EV of 3R-10R mags
-   falls well below the old value on purpose.
+   the first 6 points in full, a third of the rest, at most 12 (about 5% faster). Handling takes
+   enough of the rest that the mag keeps two thirds of its old value (a short mag is less bulk
+   on the gun; at least 0.25 * E_rel). The last third was pure capacity compensation and is dropped.
 5. Material, relative to the default: polymer +0.5 reload, ribbed/tapered steel +0.5, straight-wall
    -0.5. Translucent and windowed variants equal their opaque twin.
 6. Stability is 0: a magazine does not steady the gun.
@@ -35,7 +35,8 @@ RELOAD_FLOOR = -25.0          # ... then half the rest, never below this
 SHORT_FULL = 6.0              # short mags: reload taken in full up to here
 SHORT_REST = 1 / 3            # ... then this share of the rest
 SHORT_RELOAD_CAP = 12.0
-SHORT_HANDLING_CAP = 2.5
+SHORT_KEEP = 2 / 3            # short mags keep at least this share of their old value ...
+SHORT_HANDLING_MIN = 0.25     # ... with handling taking the rest of it (less bulk on the gun)
 TUBE_RELOAD_PER_E, TUBE_HANDLING_PER_E = 1.5, 0.5
 
 MATERIAL = [  # (regex on name + pretty name, reload delta); first match wins
@@ -86,7 +87,9 @@ def box_split(e_rel):
         r = RELOAD_PER_E * e_rel
         if r > SHORT_FULL:
             r = SHORT_FULL + SHORT_REST * (r - SHORT_FULL)
-        return min(HANDLING_PER_E * e_rel, SHORT_HANDLING_CAP), min(r, SHORT_RELOAD_CAP)
+        r = min(r, SHORT_RELOAD_CAP)
+        h = max(SHORT_HANDLING_MIN * e_rel, (SHORT_KEEP * e_rel - 0.40 * r) / 0.60)
+        return h, r
     r = RELOAD_PER_E * e_rel
     if r < RELOAD_KNEE:
         r = RELOAD_KNEE + 0.5 * (r - RELOAD_KNEE)
@@ -123,7 +126,7 @@ def restat(item, ctx, base):
     h, r, e_rel, std_cap = mag_values(item, ctx)
     why = f"mag E{e_rel:+g} vs default"
     if e_rel > 0 and RELOAD_PER_E * e_rel > SHORT_FULL:
-        why += ", short-mag reload capped (rest was capacity compensation)"
+        why += ", short mag: reload capped, handling takes the rest of 2/3 of the old value"
     if RELOAD_PER_E * e_rel < RELOAD_KNEE:
         why += ", reload past -15 halved, floor -25 (weight now charges the rest)"
     if is_bulky(item, std_cap):

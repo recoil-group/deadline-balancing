@@ -1,3 +1,7 @@
+> **Lead change after review (round 2):** short magazines keep two thirds of their old value.
+> Reload is still capped as below; handling takes the rest of the two thirds (less bulk on the gun),
+> instead of the earlier 0.25·E capped at +2.5. Larger magazines are unchanged.
+
 # magazine: notes
 
 Rules live in `rules/magazine.py` (docstring has the full list). No weight credit (RULES.md section 3).

@@ -1,0 +1,341 @@
+name,profile,role,role_strength,value,handling,stability,counterpart,confidence,why,flags
+5.45_design_aggressor_ak_handguard_rails,zero,,,,,,5.45 Design Aggressor handguard rail sections,medium,Rail container for the Aggressor handguard; no own value,
+5.45_design_aggressor_ak_lower_handguard,even,,,,,,5.45 Design Aggressor AK handguard,medium,Standard-length AK lower with flared front; even,
+5.45_design_aggressor_ak_upper_handguard,zero,,,,,,5.45 Design Aggressor upper handguard,medium,Upper cover hosting rails; no own value,
+6p20_polymer_sb9_upper_piece,even,,,,,,AK-74 6P20 Sb.9 polymer upper handguard (gas tube cover),high,Standard AK-74 polymer gas tube cover; V is 0 so even gives nothing,
+acp95_side_rail,handling,,,,,,QBZ-95 side accessory rail,medium,"Bolt-on side rail; small negative is bulk/clutter, a handling cost","special: only-choice part, value effectively base"
+ad_m4a1_fsp_raf_2_12.25_handguard,even,,,,,,Daniel Defense RIS II 12.25in FSP,high,Long quad rail; not clearly longest in set; even,
+ad_m4a1_raf_2_12.25_handguard,even,,,,,,Daniel Defense RIS II 12.25in,high,Long quad rail; even,
+ad_m4a1_raf_3_10.5_handguard,even,,,,,,Daniel Defense RIS III 10.5in,high,General-purpose free-float rail; even,
+ad_m4a1_raf_3_12.5_handguard,even,,,,,,Daniel Defense RIS III 12.5in,high,Long free-float rail; even,
+ad_m4a1_raf_3_13_fsp_handguard,even,,,,,,Daniel Defense RIS III 13in FSP,high,Long free-float rail; even,
+ad_m4a1_raf_3_9.5_handguard,even,,,,,,Daniel Defense RIS III 9.5in,high,General-purpose free-float rail; even,
+ad_mk18_fsp_raf_2_9.55_handguard,even,,,,,,Daniel Defense MK18 RIS II 9.5in (FSB),high,MK18 quad rail; CQB upper rail but handguard length already carries it; even,
+ad_mk18_raf_2_9.55_handguard,even,,,,,,Daniel Defense MK18 RIS II 9.5in,high,"MK18 quad rail; general CQB rail, length already priced; even",
+addon_hk_upper_receiver_picatinny_rail,mount,,,,,,generic HK claw-to-Picatinny receiver rail,medium,"Optic rail on HK receiver; mount, handling only",misfiled: mount
+aft_bottom_rail_mount,even,,,,,,FN SCAR-L/H lower Picatinny rail,medium,SCAR lower rail acts as the gripping surface; nothing favours one stat,
+aft_mk20_bottom_rail_mount,even,,,,,,FN SCAR-H Mk20 SSR lower rail,medium,"Mk20 lower rail, gripping surface; even, marksman role belongs on the Mk20 upper not here","special: only-choice, comes with Mk20 upper; do not stack a marksman swing here if the upper gets one"
+aft_mk20_side_rail_1,zero,,,,,,FN SCAR Mk20 side rail,high,"Side accessory rail, container with no own value",
+aft_mk20_side_rail_2,zero,,,,,,FN SCAR Mk20 side rail,high,"Side accessory rail, container with no own value",
+aft_side_rail_1,zero,,,,,,FN SCAR side Picatinny rail,high,"Side accessory rail, container with no own value",
+aft_side_rail_2,zero,,,,,,FN SCAR side Picatinny rail,high,"Side accessory rail, container with no own value",
+ak12_std_lower_handguard,handguard_short,,,,,,Kalashnikov AK-12 (6P70) standard lower handguard,medium,Standard-length AK-12 handguard; clearly shortest and lightest vs RPK-16 and extended aftermarket rails,special: only member that needs separate ak12_upper_handguard; others replace both halves
+ak12_std_upper_handguard,zero,,,,,,Kalashnikov AK-12 upper handguard,high,Upper half hosting rails; no own value,
+aquila_defensio_aug_a3_mlok_top_rail,mount,,,,,,aftermarket AUG A3 M-LOK top rail,low,Top rail optic mount with M-LOK; handling only,misfiled: mount
+aquila_defension_m1_aug_receiver_rail,mount,,,,,,aftermarket AUG A3 M1 receiver rail,low,Top rail optic mount; handling only,misfiled: mount
+ardian_weapons_ar15_model_1_m1curgh_10inch_handguard,even,,,,,,Radian Weapons Model 1 M-LOK handguard 10in,high,"Premium general-purpose free-float rail; only choice in its slot, even","special: only choice in slot:m4a1_handguard|radian_model1, so its value is effectively a baseline"
+aug_a3_std_side_rail_mount,zero,,,,,,generic AUG A3 receiver side rail,medium,Zero-value accessory rail; no effect,misfiled: mount (rail); special: only-choice
+aug_a3sf_left_rail,zero,,,,,,generic AUG A3 SF scope-rail segment,medium,No stats; accessory rail segment,misfiled: mount; special: only-choice
+aug_a3sf_right_rail_1,zero,,,,,,generic AUG A3 SF scope-rail segment,medium,No stats; accessory rail segment,misfiled: mount; special: only-choice
+aug_a3sf_right_rail_2,zero,,,,,,generic AUG A3 SF scope-rail segment,medium,No stats; accessory rail segment,misfiled: mount; special: only-choice
+aug_a3sf_top_rail_1,zero,,,,,,generic AUG A3 SF scope-rail segment,medium,No stats; accessory rail segment,misfiled: mount; special: only-choice
+axtell_defense_3inch_picatinny_rail_panel,even,,,,,,BCM-style picatinny rail panel,low,"Picatinny rail panel; grip texture, even by family default.",
+axtell_defense_5inch_picatinny_rail_panel,even,,,,,,BCM-style picatinny rail panel,low,"Picatinny rail panel; grip texture, even by family default.",
+axtell_defense_7inch_picatinny_rail_panel,even,,,,,,BCM-style picatinny rail panel,low,"Picatinny rail panel; grip texture, even by family default.",
+bt_bt21343_3x_nar_mp5sd_handguard,even,,,,,,B&T MP5SD handguard with 3 rails,high,"Railed MP5SD handguard, same length; even",
+bt_bt401003_tl99_3x_nar_mp5_handguard,even,,,,,,B&T TL-99 MP5 handguard with 3 rails,high,Standard-length railed MP5 handguard; even,
+caf_wasr_10_63_wooden_bottom_handguard_alt,even,,,,,,Century Arms WASR-10/63 (Cugir) wood lower handguard,high,Standard-length wood lower; even,
+caf_wasr_10_63_wooden_upper_piece,zero,,,,,,Century Arms WASR-10/63 wood upper handguard,high,"Factory upper, no own value",
+calsport_lvoa_c_16.25inch_handguard,handguard_long,,,,,,War Sport LVOA-C 16.25in,high,Muzzle-length shrouded rail; among the clearly longest of the set,
+calsport_lvoa_s_13.5inch_handguard,even,,,,,,War Sport LVOA-S 13.5in,high,Shrouded long rail; long but below the 16-18in group; even,
+centrefire_628lmf_b_mp5_handguard,even,,,,,,SureFire 628LMF-B MP5 weaponlight forend,high,Dedicated MP5 light handguard; no set to compare so even,special: has an integrated weaponlight but no set or weapons listed; lights normally cost handling
+cerberus_arms_aug_cantiliver_forend_handguard,even,,,,,,aftermarket AUG cantilever M-LOK forend,low,"Small add-on AUG forend; no set to compare, even",special: only-choice
+cgr_abomination,even,,,,,,unidentified decorative picatinny rail panel,none,"Decorative picatinny rail panel; same function as plain panels, even.",other: price 1000 vs 50-300 for functionally identical panels; fine if cosmetic premium is intended
+cgr_abomination_flipped,even,,,,,,unidentified decorative picatinny rail panel,none,"Decorative picatinny rail panel; same function as plain panels, even.",
+cgr_ace,even,,,,,,unidentified decorative picatinny rail panel,none,"Decorative picatinny rail panel; same function as plain panels, even.",
+cgr_ace_flipped,even,,,,,,unidentified decorative picatinny rail panel,none,"Decorative picatinny rail panel; same function as plain panels, even.",
+cgr_aeon,even,,,,,,unidentified decorative picatinny rail panel,none,"Decorative picatinny rail panel; same function as plain panels, even.",
+cgr_aeon_flipped,even,,,,,,unidentified decorative picatinny rail panel,none,"Decorative picatinny rail panel; same function as plain panels, even.",
+cgr_dingler,even,,,,,,unidentified decorative picatinny rail panel,none,"Decorative picatinny rail panel; same function as plain panels, even.",
+cgr_dingler_flipped,even,,,,,,unidentified decorative picatinny rail panel,none,"Decorative picatinny rail panel; same function as plain panels, even.",
+cgr_jolly_roger,even,,,,,,unidentified decorative picatinny rail panel,none,"Decorative picatinny rail panel; same function as plain panels, even.",
+cgr_jolly_roger_flipped,even,,,,,,unidentified decorative picatinny rail panel,none,"Decorative picatinny rail panel; same function as plain panels, even.",
+cgr_klra,even,,,,,,unidentified decorative picatinny rail panel,none,"Decorative picatinny rail panel; same function as plain panels, even.",
+cgr_klra_flipped,even,,,,,,unidentified decorative picatinny rail panel,none,"Decorative picatinny rail panel; same function as plain panels, even.",
+cgr_punisher,even,,,,,,unidentified decorative picatinny rail panel,none,"Decorative picatinny rail panel; same function as plain panels, even.",
+cgr_punisher_flipped,even,,,,,,unidentified decorative picatinny rail panel,none,"Decorative picatinny rail panel; same function as plain panels, even.",
+chillset_scar_rail_extension,even,,,,,,unidentified SCAR Picatinny rail extension,low,Picatinny rail extension of unknown length; family default even,
+cugir_pm_md63_wooden_bottom_handguard,even,,,,,,Romanian PM md.63 wooden lower handguard,high,Plain issue-style wooden AK lower; even,
+cugir_pm_md63_wooden_sharkfin_bottom_handguard,even,,,,,,Romanian PM md.63 wooden lower with integral vertical fin,high,"Standard-length lower with molded finger fin; comfort, not a role",
+cugir_pm_md63_wooden_sharkfin_mlok_bottom_handguard,even,,,,,,"Romanian PM md.63 sharkfin lower, M-LOK modified",medium,Same as sharkfin lower plus M-LOK; even,
+ddg_qd_3slot_rail_bottom,even,,,,,,Daniel Defense M-LOK QD rail section,medium,"Bare M-LOK picatinny section; small comfort penalty affects whole hold, no stat lean.","special: hosts picatinny child; its -0.5 is grip comfort, not front bulk, so even rather than handling"
+ddg_qd_3slot_rail_side,even,,,,,,Daniel Defense M-LOK QD rail section,medium,"Bare M-LOK picatinny section; small comfort penalty affects whole hold, no stat lean.","special: hosts picatinny child; its -0.5 is grip comfort, not front bulk, so even rather than handling"
+ddg_qd_3slot_rail_top,even,,,,,,Daniel Defense M-LOK QD rail section,medium,"Bare M-LOK picatinny section; small comfort penalty affects whole hold, no stat lean.","special: hosts picatinny child; its -0.5 is grip comfort, not front bulk, so even rather than handling"
+ddg_qd_7slot_rail_bottom,even,,,,,,Daniel Defense M-LOK QD rail section,medium,"Bare M-LOK picatinny section; small comfort penalty affects whole hold, no stat lean.","special: hosts picatinny child; its -0.5 is grip comfort, not front bulk, so even rather than handling"
+ddg_qd_7slot_rail_side,even,,,,,,Daniel Defense M-LOK QD rail section,medium,"Bare M-LOK picatinny section; small comfort penalty affects whole hold, no stat lean.","special: hosts picatinny child; its -0.5 is grip comfort, not front bulk, so even rather than handling"
+ddg_qd_7slot_rail_top,even,,,,,,Daniel Defense M-LOK QD rail section,medium,"Bare M-LOK picatinny section; small comfort penalty affects whole hold, no stat lean.","special: hosts picatinny child; its -0.5 is grip comfort, not front bulk, so even rather than handling"
+ddg_scar_mrex_mk2_mlok_2.2inch_handguard,handguard_short,,,,,,KDG MREX MkII SCAR M-LOK 2.2in,high,Shortest SCAR extension; made for SCAR 16 10in SBR builds and stops before the gas block,
+ddg_scar_mrex_mk2_mlok_4.25inch_handguard,even,,,,,,KDG MREX MkII SCAR M-LOK 4.25in,high,Mid-length MREX; neither extreme,
+ddg_scar_mrex_mk2_mlok_6.5inch_handguard,handguard_long,,,,,,KDG MREX MkII SCAR M-LOK 6.5in,high,Full-size 6.5in extension; among the clearly longest in the SCAR set,
+ddg_scar_mrex_mlok_6.5inch_gen1_handguard,handguard_long,,,,,,KDG MREX (Gen 1) SCAR M-LOK 6.5in,high,Full-size 6.5in extension; among the clearly longest in the SCAR set,
+ecm_ecmr_1_slot_mlok_rail_panel,even,,,,,,unidentified M-LOK rail panel,none,"M-LOK rail panel; grip texture and hand protection, no reason to lean.",
+ecm_ecmr_3_slot_mlok_rail_panel,even,,,,,,unidentified M-LOK rail panel,none,"M-LOK rail panel; grip texture and hand protection, no reason to lean.",
+ecm_ecmr_7_slot_mlok_rail_panel,even,,,,,,unidentified M-LOK rail panel,none,"M-LOK rail panel; grip texture and hand protection, no reason to lean.",
+equinox_ex15_10.5inch_handguard,even,,,,,,unidentified,none,Mid-length M-LOK free-float rail; family default even,
+equinox_ex_mlok_cover,even,,,,,,unidentified M-LOK cover,none,"M-LOK cover panel; grip texture, even by family default.",
+equinox_ex_mlok_cover_flipped,even,,,,,,unidentified M-LOK cover,none,"M-LOK cover panel; grip texture, even by family default.",
+fit_m4_forward_picatinny_rail,mount,,,,,,gas-block forward Picatinny rail for M4,low,Forward rail on gas block; bulk on handling,misfiled: mount
+freedom_arms_builder_series_gen1_10inch_handguard,even,,,,,,2A Armament Builder Series 10in,high,General-purpose free-float rail; even,
+freedom_arms_builder_series_gen1_12inch_handguard,even,,,,,,2A Armament Builder Series 12in,high,General-purpose free-float rail; even,
+freedom_arms_builder_series_gen1_15inch_handguard,even,,,,,,2A Armament Builder Series 15in,high,Full-length free-float rail; 15in tier sits below the 16-18in outliers; even,
+freedom_arms_builder_series_gen1_7inch_handguard,even,,,,,,2A Armament Builder Series 7in,high,"Short budget M-LOK free-float rail; carbine-length group, not the clearly shortest in set","special: 7in carbine-length group, next tier above the clearly shortest (Quix 4in, XM177 slims in another chunk); kept even"
+generic_11_slot_mlok_rail_bottom,even,,,,,,generic,high,"Bare M-LOK picatinny section; small comfort penalty affects whole hold, no stat lean.","special: hosts picatinny child; its -0.5 is grip comfort, not front bulk, so even rather than handling"
+generic_11_slot_mlok_rail_side,even,,,,,,generic,high,"Bare M-LOK picatinny section; small comfort penalty affects whole hold, no stat lean.","special: hosts picatinny child; its -0.5 is grip comfort, not front bulk, so even rather than handling"
+generic_11_slot_mlok_rail_top,even,,,,,,generic,high,"Bare M-LOK picatinny section; small comfort penalty affects whole hold, no stat lean.","special: hosts picatinny child; its -0.5 is grip comfort, not front bulk, so even rather than handling"
+generic_13_slot_mlok_rail_bottom,even,,,,,,generic,high,"Bare M-LOK picatinny section; small comfort penalty affects whole hold, no stat lean.","special: hosts picatinny child; its -0.5 is grip comfort, not front bulk, so even rather than handling"
+generic_13_slot_mlok_rail_side,even,,,,,,generic,high,"Bare M-LOK picatinny section; small comfort penalty affects whole hold, no stat lean.","special: hosts picatinny child; its -0.5 is grip comfort, not front bulk, so even rather than handling"
+generic_13_slot_mlok_rail_top,even,,,,,,generic,high,"Bare M-LOK picatinny section; small comfort penalty affects whole hold, no stat lean.","special: hosts picatinny child; its -0.5 is grip comfort, not front bulk, so even rather than handling"
+generic_5_slot_mlok_rail_bottom,even,,,,,,generic,high,"Bare M-LOK picatinny section; small comfort penalty affects whole hold, no stat lean.","special: hosts picatinny child; its -0.5 is grip comfort, not front bulk, so even rather than handling"
+generic_5_slot_mlok_rail_side,even,,,,,,generic,high,"Bare M-LOK picatinny section; small comfort penalty affects whole hold, no stat lean.","special: hosts picatinny child; its -0.5 is grip comfort, not front bulk, so even rather than handling"
+generic_5_slot_mlok_rail_top,even,,,,,,generic,high,"Bare M-LOK picatinny section; small comfort penalty affects whole hold, no stat lean.","special: hosts picatinny child; its -0.5 is grip comfort, not front bulk, so even rather than handling"
+generic_7_slot_mlok_rail_bottom,even,,,,,,generic,high,"Bare M-LOK picatinny section; small comfort penalty affects whole hold, no stat lean.","special: hosts picatinny child; its -0.5 is grip comfort, not front bulk, so even rather than handling"
+generic_7_slot_mlok_rail_side,even,,,,,,generic,high,"Bare M-LOK picatinny section; small comfort penalty affects whole hold, no stat lean.","special: hosts picatinny child; its -0.5 is grip comfort, not front bulk, so even rather than handling"
+generic_7_slot_mlok_rail_top,even,,,,,,generic,high,"Bare M-LOK picatinny section; small comfort penalty affects whole hold, no stat lean.","special: hosts picatinny child; its -0.5 is grip comfort, not front bulk, so even rather than handling"
+generic_9_slot_mlok_rail_bottom,even,,,,,,generic,high,"Bare M-LOK picatinny section; small comfort penalty affects whole hold, no stat lean.","special: hosts picatinny child; its -0.5 is grip comfort, not front bulk, so even rather than handling"
+generic_9_slot_mlok_rail_side,even,,,,,,generic,high,"Bare M-LOK picatinny section; small comfort penalty affects whole hold, no stat lean.","special: hosts picatinny child; its -0.5 is grip comfort, not front bulk, so even rather than handling"
+generic_9_slot_mlok_rail_top,even,,,,,,generic,high,"Bare M-LOK picatinny section; small comfort penalty affects whole hold, no stat lean.","special: hosts picatinny child; its -0.5 is grip comfort, not front bulk, so even rather than handling"
+haga_defense_usc_extended_handguard,even,,,,,,unidentified extended handguard for HK USC,low,Extended USC handguard; no set to compare so even,special: no set or weapons listed; may be unused
+handguard_flip_up_sight,handling,,,,,,generic HK416 handguard-mounted flip-up front sight,medium,Iron sight; sight picture only,misfiled: iron sight
+handguard_flip_up_sight_folded,handling,,,,,,generic HK416 handguard flip-up front sight (folded),medium,Folded iron sight; handling only,"misfiled: iron sight; special: folded state has the same E as deployed, arguably should be 0"
+hart_607_car15_triangle_7inch_handguard,even,,,,,,Colt Model 607 CAR-15 triangle handguard,high,Carbine-length (7in) triangle handguard; not clearly shortest in set,
+hart_a2_std_rifle_plastic_handguard,even,,,,,,Colt M16A2 rifle-length handguard,high,Issue rifle-length plastic handguard; long but not clearly longest; even,
+hart_m4_std_carbine_plastic_handguard,even,,,,,,Colt M4 carbine plastic handguard,high,"Standard issue carbine handguard; carbine-length group, even","special: 7in carbine-length group, next tier above the clearly shortest (Quix 4in, XM177 slims in another chunk); kept even"
+hart_xm177_handguard_bottom_part,even,,,,,,Colt XM177 carbine handguard (lower half),high,Standard short carbine handguard and the only choice; even split,special: only-choice part in a set of 1 so no length lean
+hart_xm177e1_slim_plastic_handguard,zero,,,,,,Colt XM177E1 slim handguard,high,Container; stats live on the bottom-half sub-part,
+hart_xm177e2_slim_plastic_handguard,zero,,,,,,Colt XM177E2 slim handguard,high,Container; stats live on the bottom-half sub-part,
+hilt_defense_scar47_mlok_handguard,even,,,,,,unidentified SCAR 47 M-LOK handguard,low,M-LOK handguard for the SCAR 47; no clear length extreme,
+hk_g3_wide_tropical_handguard,even,,,,,,HK G3 wide tropical handguard,high,Issue G3 polymer handguard; set default,
+hk_mp5_slim_checkered_handguard,even,,,,,,HK MP5 slimline handguard,high,"Slim issue MP5 handguard, same length; nicer, not a role",
+hk_mp5_wide_tropical_handguard,even,,,,,,HK MP5 wide tropical handguard,high,Issue MP5 handguard; set default,
+hk_mp5sd_polymer_handguard,even,,,,,,HK MP5SD polymer handguard,high,Issue MP5SD handguard; even,
+hk_psg1_msg90_handguard,even,,,,,,HK PSG1/MSG90 handguard,high,Precision-rifle handguard but only choice; role would not steer anything,special: only-choice
+hk_ump_bottom_handguard_rail,handling,,,,,,HK UMP bottom rail,medium,Bolt-on rail whose small penalty is bulk under the gun; handling only,
+hk_ump_left_handguard_rail,zero,,,,,,HK UMP side rail,medium,Rail section with zero ergonomics; no effect,
+hk_ump_right_handguard_rail,zero,,,,,,HK UMP side rail,medium,Rail section with zero ergonomics; no effect,
+ihs_aug_a3_sa_cqc_left_rail,mount,,,,,,generic AUG side accessory rail,low,Small accessory rail; bulk on handling,misfiled: mount; special: only-choice
+ihs_aug_a3_sa_cqc_right_rail,mount,,,,,,generic AUG side accessory rail,low,Small accessory rail; bulk on handling,misfiled: mount; special: only-choice
+kalis_scalar_7_slot_left_side_rail,zero,,,,,,KRISS Vector side picatinny rail,medium,Plain side rail with no value of its own; value sits on mounted child parts.,"special: 0 ergonomics, container for picatinny child"
+kalis_scalar_7_slot_misc_rail,zero,,,,,,KRISS Vector Picatinny rail section,medium,"Accessory rail container, no own value",
+kalis_scalar_9_slot_left_side_rail,zero,,,,,,KRISS Vector side Picatinny rail section,medium,"Accessory rail container, no own value; children carry effect",
+kalis_scalar_9_slot_misc_rail,zero,,,,,,KRISS Vector Picatinny rail section,medium,"Accessory rail container, no own value",
+kalis_scalar_gen1_upper_receiver_rail,zero,,,,,,KRISS Vector Gen I upper rail,medium,Fixed receiver top rail with zero ergonomics; only-choice and no effect,
+kalis_scalar_gen2_early_upper_receiver_rail,zero,,,,,,KRISS Vector Gen II early upper rail,medium,Fixed receiver top rail with zero ergonomics; only-choice and no effect,
+kalis_scalar_gen2_late_upper_receiver_rail,zero,,,,,,KRISS Vector Gen II late upper rail,medium,Fixed receiver top rail with zero ergonomics; only-choice and no effect,
+kalis_scalar_gen2_receiver_bottom_rail,zero,,,,,,KRISS Vector Gen II receiver bottom rail,medium,Receiver rail with zero ergonomics; no effect,
+kalis_scalar_gen3_10inch_mlok_handguard,even,,,,,,KRISS Vector Gen III 10in M-LOK handguard,medium,Longer Gen III handguard but third set member unknown; even unless it is the longest,special: third member of the Gen III set is outside this chunk; if it is shorter this one could be handguard_long
+kalis_scalar_gen3_5.5inch_mlok_handguard,handguard_short,,,,,,KRISS Vector Gen III 5.5in M-LOK handguard,medium,Short SBR/SDP-length Gen III handguard; clearly shortest of its set,
+kalis_scalar_gen3_upper_receiver_rail,zero,,,,,,KRISS Vector Gen III upper rail,medium,Fixed receiver top rail with zero ergonomics; only-choice and no effect,
+kalis_scalar_mk11_handguard,handguard_long,,,,,,KRISS Vector 11in round barrel shroud,low,11in shroud is the longest visible option in its set,special: set has 2 members outside this chunk; confirm Mk11 is clearly the longest before leaning
+kalis_scalar_mk1_handguard,even,,,,,,KRISS Vector modular rail handguard,low,Gen I modular rail; no clear length extreme in a set of 2,
+kalis_scalar_mk1_handguard_top_rail,zero,,,,,,KRISS Vector handguard top rail,medium,Rail section with zero ergonomics; no effect,
+kalis_scalar_mk3_handguard,even,,,,,,KRISS Vector aftermarket handguard,low,One of two Gen I handguards; no clear length extreme in a set of 2,
+kalis_scalar_mk3_handguard_bottom_rail,zero,,,,,,KRISS Vector handguard bottom rail,medium,Rail section with zero ergonomics; no effect,
+kalis_scalar_mk3_handguard_top_rail,zero,,,,,,KRISS Vector handguard top rail,medium,Rail section with zero ergonomics; no effect,
+kalis_scalar_mk5_handguard,even,,,,,,KRISS Vector M-LOK handguard,low,Mid option in its set of 5; even,
+kalis_scalar_mk5_handguard_bottom_rail,zero,,,,,,KRISS Vector handguard bottom rail,medium,Rail section with zero ergonomics; no effect,
+kalis_scalar_mk9_handguard,even,,,,,,KRISS Vector 9in round barrel shroud,low,9in shroud is mid-length within the set; even,
+kazarov_ak100_series_polymer_railed_lower_handguard,even,,,,,,AK-100 series railed polymer lower handguard,high,"Factory railed lower, standard length; even",
+kazarov_ak100_series_polymer_railed_lower_handguard_alt,even,,,,,,AK-100 series railed polymer lower handguard,high,"Factory railed polymer lower, standard length; even",
+kazarov_ak74_6p20_sb1_2_gastube,zero,,,,,,AK-74 6P20 Sb.1-2 gas tube,high,Gas tube container hosting handguard slots; no own value,
+kazarov_ak74_gastube_retainer,zero,,,,,,AK-74 gas tube lock lever,high,"Gas tube lever, no effect",
+kazarov_ak74_polymer_6p20_sb9_lower_handguard,even,,,,,,AK-74 polymer 6P20 Sb.9 lower handguard,high,Factory standard AK-74 lower; even,
+kazarov_ak74_polymer_6p20_sb9_lower_handguard_alt,even,,,,,,AK-74 polymer 6P20 Sb.9 lower handguard,high,Factory standard AK-74 polymer lower; even,
+kazarov_ak74_polymer_6p20_sb9_upper_handguard,zero,,,,,,AK-74 polymer 6P20 Sb.9 upper handguard,high,"Factory upper, no own value",
+kazarov_ak74_wooden_6p20_sb6_lower_handguard,even,,,,,,AK-74 wooden 6P20 Sb.6 lower handguard,high,"Factory wood lower, standard length; even",
+kazarov_ak74_wooden_6p20_sb6_lower_handguard_alt,even,,,,,,AK-74 wooden 6P20 Sb.6 lower handguard,high,"Factory wood lower, standard length; set default; even",
+kazarov_ak74_wooden_6p20_sb6_upper_handguard,zero,,,,,,AK-74 wooden 6P20 Sb.6 upper handguard,high,"Factory upper, no own value",
+kazarov_ak_handguard_retainer,zero,,,,,,AK-74 handguard retainer,high,Retainer has no physical effect,special: old E 1 should move to weapon base
+kazarov_akm_6p1_sb1_2_gastube,zero,,,,,,AKM 6P1 Sb.1-2 gas tube,high,Gas tube container hosting handguard slots; no own value,
+kazarov_akm_gastube_retainer,zero,,,,,,AKM gas tube lock lever,high,"Gas tube lever, no effect",
+kazarov_akm_wooden_6p1_sb6_1_lower_handguard,even,,,,,,Izhmash AKM wooden lower handguard 6P1 Sb.6-1,high,"Issue standard-length AK lower; set default, no reason to lean",
+kazarov_akm_wooden_6p1_sb6_1_lower_handguard_alt,even,,,,,,AKM wooden 6P1 Sb.6-1 lower handguard,high,"Factory wood AKM lower, standard length; even",
+kazarov_akm_wooden_6p1_sb6_1_upper_handguard,zero,,,,,,AKM wooden 6P1 Sb.6-1 upper handguard,high,"Factory upper, no own value",
+kazarov_aks74u_6p26_sb1_2_gastube,zero,,,,,,AKS-74U 6P26 Sb.1-2 gas tube,high,"Gas tube container, no own value",
+kazarov_aks74u_handguard_retainer,zero,,,,,,AKS-74U handguard retainer,high,Retainer has no physical effect,special: old E 1 should move to weapon base
+kazarov_aks74u_wooden_6p26_sb6_lower_handguard,even,,,,,,Izhmash AKS-74U wooden lower 6P26 Sb.6,high,Issue AKS-74U lower; set default,
+kazarov_aks74u_wooden_6p26_sb6_upper_handguard,zero,,,,,,AKS-74U wooden 6P26 Sb.6 upper handguard,high,"Factory upper, no own value",
+kazarov_group_ak12_std_handguard_side_rail,zero,,,,,,Kalashnikov AK-12 handguard side rail,high,"Side accessory rail, container with no own value",
+kazarov_group_rpk16_handguard,even,,,,,,Kalashnikov RPK-16 handguard,high,"Longer RPK-16 handguard; longer than std, but not clearly the longest of the aftermarket set",
+kazarov_pp-19-01_vityaz_gastube,zero,,,,,,PP-19-01 Vityaz gas tube,high,"Gas tube container, no own value",
+kf_416_11.5i_qd_mlok_handguard,even,,,,,,HK416 11.5in M-LOK handguard,medium,Mid-length; even,
+kf_416_12.5i_qd_mlok_handguard,even,,,,,,HK416 12.5in M-LOK handguard,medium,Mid-length; even,
+kf_416_14.5i_qd_mlok_handguard,handguard_long,,,,,,HK416 14.5in M-LOK handguard,medium,Full-length 14.5in rail; among the clearly longest,
+kf_416_9i_quad_rail_handguard,even,,,,,,HK416 9in quad rail (issue),high,Issue rail; set default,
+kf_416_9i_quad_rail_handguard_with_flip_up_sight,even,,,,,,HK416 9in quad rail with front flip-up sight,high,Default rail plus sight slot; even,special: sight value belongs on the hosted flip-up sight part
+kf_416_dmr_extra_long_handguard,even,marksman,,,,,HK417/MR-style extra-long DMR quad rail for 416,medium,DMR-length rail: even plus the marksman role (lead: no double lean),
+kf_416_extended_length_quad_rail_handguard,even,,,,,,HK416 extended quad rail,medium,Longer than default but not clearly longest; even,
+kf_416_long_qd_hkey_handguard,handguard_long,,,,,,"HK416 HKey handguard (long, about 14.5in)",medium,Long HKey rail; among the clearly longest,
+kf_416_short_hkey_handguard,even,,,,,,HK416 HKey handguard (short),medium,Mid-length HKey; even,
+kf_416_standard_length_quad_rail_handguard,even,,,,,,HK416 standard quad rail,high,Standard quad rail; even,
+kf_416c_handguard,even,compact,,,,,HK416C handguard,high,short carbine handguard built for CQB: even plus the compact role (lead: no double lean),
+khyber_customs_swiss_cheese_grater,even,,,,,,unidentified (vented AK gas tube cover),low,"Vented upper cover, tiny negative; no reason to favour one stat",
+lac_akvilon15,even,,,,,,unidentified (extended M-LOK AK-12 handguard),low,"Aftermarket extended M-LOK handguard; length vs Megatron unverified, default even","special: length unverified; if Megatron/Akvilon confirmed clearly longest, consider handguard_long"
+launchtron_psrl_front_bottom_rail,zero,,,,,,AirTronic PSRL picatinny rail section,high,"Fixed rail segment on the PSRL launcher; only choice, no stat effect","special: only-choice fixed rail, no stats"
+launchtron_psrl_front_side_rail,zero,,,,,,AirTronic PSRL picatinny rail section,high,"Fixed rail segment on the PSRL launcher; only choice, no stat effect","special: only-choice fixed rail, no stats"
+launchtron_psrl_front_top_rail,zero,,,,,,AirTronic PSRL picatinny rail section,high,"Fixed rail segment on the PSRL launcher; only choice, no stat effect","special: only-choice fixed rail, no stats"
+launchtron_psrl_rear_bottom_rail,zero,,,,,,AirTronic PSRL picatinny rail section,high,"Fixed rail segment on the PSRL launcher; only choice, no stat effect","special: only-choice fixed rail, no stats"
+launchtron_psrl_rear_side_rail,zero,,,,,,Airtronic USA PSRL side rail,medium,Bare launcher rail with no ergonomics value; nothing to split,
+launchtron_psrl_rear_top_rail,zero,,,,,,Airtronic USA PSRL top rail,medium,Bare launcher rail with no ergonomics value; nothing to split,
+li_jiahao_acp95_top_rail_for_qbz,mount,,,,,,aftermarket ACP95 top rail for QBZ-95,low,Top optic rail replacing the carry handle; mount so handling only,misfiled: optic mount / top rail (sight competitor) not handguard
+lm2,mount,,,,,,unidentified SureFire rail/light mount,low,Bare rail section whose small penalty is bulk and sharp edges; handling only,special: no set or weapons listed; may be unused
+madbull_pws_srx_5inch_rail_handguard,even,,,,,,PWS SCAR SRX 5in rail extension,medium,5in Picatinny extension; mid length in the SCAR set,
+magtap_ak_moe_lower_handguard,even,,,,,,Magpul MOE AK hand guard,high,Standard-length polymer AK lower; ordinary comfort part,
+magtap_ak_moe_lower_handguard_alt,even,,,,,,Magpul MOE AK handguard,high,"Polymer standard-length AK lower, comfort part; even",
+magtap_ak_moe_top_cover,even,,,,,,Magpul MOE AK gas tube cover,medium,"Polymer upper, small comfort value; even",
+magtap_ak_zhukov_u_lower_handguard,even,,,,,,Magpul Zhukov-U AK hand guard,high,Standard-length polymer one-piece AK handguard; even,
+magtap_ak_zhukov_u_lower_handguard_alt,even,,,,,,Magpul Zhukov-U AK handguard,high,Standard-length one-piece polymer AK handguard; even,
+magtap_mlok_1.6_bottom,even,,,,,,Magpul M-LOK Polymer Rail Section,medium,"Bare M-LOK picatinny section; small comfort penalty affects whole hold, no stat lean.","special: hosts picatinny child; its -0.5 is grip comfort, not front bulk, so even rather than handling"
+magtap_mlok_1.6_side,even,,,,,,Magpul M-LOK Polymer Rail Section,medium,"Bare M-LOK picatinny section; small comfort penalty affects whole hold, no stat lean.","special: hosts picatinny child; its -0.5 is grip comfort, not front bulk, so even rather than handling"
+magtap_mlok_1.6_top,even,,,,,,Magpul M-LOK Polymer Rail Section,medium,"Bare M-LOK picatinny section; small comfort penalty affects whole hold, no stat lean.","special: hosts picatinny child; its -0.5 is grip comfort, not front bulk, so even rather than handling"
+magtap_moe_sl_carbine_handguard,even,,,,,,Magpul MOE SL carbine-length,high,"Polymer drop-in carbine handguard; ordinary option, even","special: 7in carbine-length group, next tier above the clearly shortest (Quix 4in, XM177 slims in another chunk); kept even"
+magtap_moe_sl_mid_handguard,even,,,,,,Magpul MOE SL mid-length,high,Polymer drop-in mid-length handguard; even,
+magtap_type_1_1slot_mlok_cover,even,,,,,,Magpul M-LOK Rail Cover Type 1/Type 2,high,"Polymer M-LOK rail cover; grip texture, even by family default.",
+magtap_type_1_3_slot_mlok_cover,even,,,,,,Magpul M-LOK Rail Cover Type 1/Type 2,high,"Polymer M-LOK rail cover; grip texture, even by family default.",
+magtap_type_1_6slot_mlok_cover,even,,,,,,Magpul M-LOK Rail Cover Type 1/Type 2,high,"Polymer M-LOK rail cover; grip texture, even by family default.",
+magtap_type_2_cover,zero,,,,,,Magpul M-LOK Rail Cover Type 2 (full),high,Rail cover with zero ergonomics; no effect,
+magtap_type_2_half_cover,zero,,,,,,Magpul M-LOK Rail Cover Type 2 (half),high,Rail cover with zero ergonomics; no effect,
+magtap_type_2_half_mlok_cover,even,,,,,,Magpul M-LOK Rail Cover Type 1/Type 2,high,"Polymer M-LOK rail cover; grip texture, even by family default.",
+magtap_type_2_mlok_cover,even,,,,,,Magpul M-LOK Rail Cover Type 1/Type 2,high,"Polymer M-LOK rail cover; grip texture, even by family default.",
+magtap_xtm_enhanced_half_panel_1,even,,,,,,Magpul XTM Enhanced Rail Panels,high,"Picatinny rail panel; grip texture and heat protection, even by family default.",
+magtap_xtm_enhanced_half_panel_2,zero,,,,,,Magpul XTM Enhanced rail panel (half),high,Rail panel with no ergonomics value; no effect,
+magtap_xtm_enhanced_handstop_2,zero,,,,,,Magpul XTM Enhanced handstop panel,high,Panel piece with no ergonomics value; a handstop would be grip_angled if it ever got a value,special: if given a value later it is a handstop and should take grip_angled
+magtap_xtm_enhanced_panel_1,even,,,,,,Magpul XTM Enhanced Rail Panels,high,"Picatinny rail panel; grip texture and heat protection, even by family default.",
+magtap_xtm_enhanced_panel_2,zero,,,,,,Magpul XTM Enhanced rail panel,high,Rail panel with no ergonomics value; no effect,
+magtap_xtm_enhanced_short_handstop_1,grip_angled,,,,,,Magpul XTM Enhanced Hand Stop piece,medium,"Rail panel with a hand stop ridge; functions as a handstop, so angled/handstop profile.","misfiled: rail panel that is really a handstop (foregrip, grip_angled); tiny V so impact small"
+magtap_xtm_enhanced_short_handstop_2,zero,,,,,,Magpul XTM Enhanced short handstop panel,high,Panel piece with no ergonomics value; a handstop would be grip_angled if it ever got a value,special: if given a value later it is a handstop and should take grip_angled
+mcs_r700_long_rail,mount,,,,,,long Picatinny scope rail for Remington 700,medium,Receiver scope base competing with the other R700 base; penalty is bulk so handling only,misfiled: optic mount (receiver scope base) not handguard
+mcs_rev21_gen2_15inch_r700_mlok_handguard,even,marksman,,,,,MDT TAC21 Gen2 chassis 15in forend,medium,Precision chassis forend for a bolt rifle built to shoot from setup,"special: only choice on Remington700; marksman role only shifts the gun baseline, drop it if the lead wants only-choice parts neutral"
+mk10_rl_handguard,even,,,,,,unidentified,none,Modular rail with top/side/bottom panels; family default even,
+mlok_spot,zero,,,,,,generic,high,M-LOK attach point placeholder; no effect,
+monstrum_tactical_a_series_free_float_10inch_mlok_handguard,even,,,,,,Monstrum Tactical A Series 10in (budget brand),medium,Budget free-float M-LOK rail; even,
+monstrum_tactical_a_series_free_float_12inch_mlok_handguard,even,,,,,,Monstrum Tactical A Series 12in (budget brand),medium,Budget free-float M-LOK rail; even,
+monstrum_tactical_a_series_free_float_15inch_mlok_handguard,even,,,,,,Monstrum Tactical A Series 15in (budget brand),medium,"Full-length budget rail; 15in tier, even",
+monstrum_tactical_a_series_free_float_16.5inch_mlok_handguard,handguard_long,,,,,,Monstrum Tactical A Series 16.5in (budget brand),medium,Rifle-length rail past carbine muzzle; among the clearly longest of the set,
+northeast_industries_416_mlok_13.5inch_handguard,even,,,,,,Midwest Industries HK416 M-LOK 13.5in handguard,medium,Long but below the 14.5in and DMR group; even,
+northeast_industries_416_mlok_9inch_handguard,even,,,,,,Midwest Industries HK416 M-LOK 9in handguard,medium,"Same length as the 9in default, lighter; even",
+northeast_industries_ak74_extended_gen1_handguard,handguard_long,,,,,,Midwest Industries AK74 Extended Gen 1 handguard,medium,Extended-length railed AK lower; clearly among the longest in the set,
+northeast_industries_ak74_gen1_30mm_topcover,mount,,,,,,Midwest Industries AK74 top cover with 30mm ring mount,high,Top cover with integrated 30mm ring; sight height costs handling,misfiled: optic mount (mount)
+northeast_industries_ak74_gen1_handguard,even,,,,,,Midwest Industries AK74 Gen 1 handguard,medium,Standard-length railed AK lower; even,
+northeast_industries_ak74_gen1_railed_topcover,zero,,,,,,Midwest Industries AK74 handguard railed top cover,high,"Railed top cover, container for optics; no own value",
+northeast_industries_ak74_gen1_t1_mount_topcover,mount,,,,,,Midwest Industries AK74 top cover with Aimpoint T-1 mount,high,Top cover with integrated micro-dot mount; sight height costs handling,misfiled: optic mount (mount)
+northeast_industries_alpha_ak_series_10inch_mlok_lower_handguard,handguard_long,,,,,,"Midwest Industries ALPHA AK M-LOK lower, extended 10in",medium,Extends past the gas block; among the clearly longest AK lowers,
+northeast_industries_alpha_ak_series_10inch_mlok_upper_handguard,zero,,,,,,Midwest Industries Alpha AK extended M-LOK top cover,high,"Upper half of Alpha handguard, rail container; no own value",
+northeast_industries_alpha_ak_series_6inch_mlok_lower_handguard,even,,,,,,Midwest Industries ALPHA AK M-LOK lower (standard 6in),medium,Standard-length M-LOK AK lower; even,
+northeast_industries_alpha_ak_series_6inch_mlok_upper_handguard,zero,,,,,,Midwest Industries Alpha AK M-LOK top cover,high,"Upper half of Alpha handguard, rail container; no own value",
+northpoint_industries_fang_quad_rail_handguard,even,,,,,,Midwest Industries SCAR quad rail extension,low,Heavy Picatinny quad extension; length not clearly the longest,special: if this extends as far as the 6.5in KDG rails it could join handguard_long
+northpoint_industries_fang_socom_extended_mlok_handguard,even,,,,,,Midwest Industries SCAR SOCOM Extended M-LOK,high,Adds about 6in of rail; long but just short of the 6.5in KDG options,
+northpoint_industries_mp5_mlok_handguard,even,,,,,,Midwest Industries MP5 M-LOK handguard,medium,Standard-length M-LOK MP5 handguard; even,
+northpoint_industries_supp_series_sp10m_mlok_handguard,even,,,,,,Midwest Industries SP10M Suppressor Series,high,Large-ID free-float rail for suppressor clearance; even,
+northpoint_industries_supp_series_sp12m_mlok_handguard,even,,,,,,Midwest Industries SP12M Suppressor Series,high,Large-ID free-float rail for suppressor clearance; even,
+northpoint_industries_supp_series_sp15m_mlok_handguard,even,,,,,,Midwest Industries SP15M Suppressor Series,high,"Full-length large-ID rail; 15in tier, even",
+northpoint_industries_supp_series_sp18m_mlok_handguard,handguard_long,,,,,,Midwest Industries SP-series 18in,medium,Longest rail in the set by length and weight; rifle-length on a carbine,
+northpoint_industries_supp_series_sp7m_mlok_handguard,even,,,,,,Midwest Industries SP7M Suppressor Series,high,"7in large-ID free-float rail for suppressor clearance; carbine group, even","special: 7in carbine-length group, next tier above the clearly shortest (Quix 4in, XM177 slims in another chunk); kept even"
+northpoint_industries_supp_series_sp9m_mlok_handguard,even,,,,,,Midwest Industries SP9M Suppressor Series,high,Large-ID free-float rail for suppressor clearance; even,
+novacek_n4_nsr_gen3_handguard_9.15inch,even,,,,,,Noveske NSR Gen3 9in,high,General-purpose mid-length free-float rail; even,
+pac_11rib_railpanel,even,,,,,,ribbed picatinny rail cover (Ergo-style),low,"Ribbed picatinny rail cover; grip texture, even by family default.",
+pac_2rib_railpanel,even,,,,,,ribbed picatinny rail cover (Ergo-style),low,"Ribbed picatinny rail cover; grip texture, even by family default.",
+pac_4rib_railpanel,even,,,,,,ribbed picatinny rail cover (Ergo-style),low,"Ribbed picatinny rail cover; grip texture, even by family default.",
+pac_5rib_railpanel,even,,,,,,ribbed picatinny rail cover (Ergo-style),low,"Ribbed picatinny rail cover; grip texture, even by family default.",
+pac_6rib_railpanel,even,,,,,,ribbed picatinny rail cover (Ergo-style),low,"Ribbed picatinny rail cover; grip texture, even by family default.",
+pac_9rib_railpanel,even,,,,,,ribbed picatinny rail cover (Ergo-style),low,"Ribbed picatinny rail cover; grip texture, even by family default.",
+pac_free_float_ras_carbine_7inch_handguard,even,,,,,,Knight's Armament Free Float RAS carbine 7in,high,"Short quad rail; carbine-length group, even","special: 7in carbine-length group, next tier above the clearly shortest (Quix 4in, XM177 slims in another chunk); kept even"
+pac_free_float_ras_medium_long_10.375inch_handguard,even,,,,,,Knight's Armament Free Float RAS medium-long,high,Mid-length quad rail; even,
+pac_free_float_ras_rifle_12inch_handguard,even,,,,,,Knight's Armament Free Float RAS rifle 12in,high,Rifle-length quad rail; even,
+pac_long_ras_g3_modular_rail_handguard,handguard_long,,,,,,long RAS-style modular rail for G3,low,"Long quad-rail G3 forend; clearly long, heaviest in set",
+pac_m5_ras_lower_handguard,zero,,,,,,Knight's Armament M5 RAS lower,high,Container lower half of M5 RAS; value sits on the upper and children,"special: only choice, pairs with pac_m5_ras_upper_handguard"
+pac_m5_ras_upper_handguard,even,,,,,,Knight's Armament M5 RAS upper,high,Rifle-length two-piece quad rail upper half; carries the pair's value; even,"special: pairs with pac_m5_ras_lower_handguard (container, zero), stats live on this upper"
+pac_mlok_3inch_5_slot_rail_section_bottom,even,,,,,,M-LOK 3in 5-slot rail section,medium,"Bare M-LOK picatinny section; small comfort penalty affects whole hold, no stat lean.","special: hosts picatinny child; its -0.5 is grip comfort, not front bulk, so even rather than handling"
+pac_mlok_3inch_5_slot_rail_section_side,even,,,,,,M-LOK 3in 5-slot rail section,medium,"Bare M-LOK picatinny section; small comfort penalty affects whole hold, no stat lean.","special: hosts picatinny child; its -0.5 is grip comfort, not front bulk, so even rather than handling"
+pac_mlok_3inch_5_slot_rail_section_top,even,,,,,,M-LOK 3in 5-slot rail section,medium,"Bare M-LOK picatinny section; small comfort penalty affects whole hold, no stat lean.","special: hosts picatinny child; its -0.5 is grip comfort, not front bulk, so even rather than handling"
+pac_mre_free_float_ras_rifle_12inch_handguard,even,,,,,,Knight's Armament Free Float RAS / MRE 12in,medium,"Long quad free-float rail with extension mount; mid-long, not clearly longest; even",
+pac_ras_m4a1_handguard,even,,,,,,Knight's Armament M4 RAS,high,"Issue M4A1 drop-in quad rail; general purpose, even",
+pac_urx_4_mlok_10.75inch_handguard,even,,,,,,Knight's Armament URX 4 10.75in,high,General-purpose free-float rail; even,
+pac_urx_4_mlok_13inch_handguard,even,,,,,,Knight's Armament URX 4 13in,high,General-purpose free-float rail; even,
+pac_urx_4_mlok_14.5inch_handguard,even,,,,,,Knight's Armament URX 4 14.5in,high,Long free-float rail; even,
+pac_urx_4_mlok_8.5inch_handguard,even,,,,,,Knight's Armament URX 4 8in,high,General-purpose free-float rail; even,
+pac_urx_6_mlok_13inch_handguard,even,,,,,,Knight's Armament URX 6 13in,high,General-purpose free-float rail; even,
+pmm_scar_mlok_xl_rail_extension_mre_xl,even,,,,,,Parker Mountain Machine SCAR 16/17 MRE HD XL (4in M-LOK),high,Light 4in low-profile rail extension; mid length in the SCAR set,
+pro_tactical_g3_rs_handguard,even,,,,,,standard-length railed G3 handguard,low,Standard-length railed G3 handguard; even,
+ptr_mp5_hg_bottom_rail,zero,,,,,,PTR 9 / MP5 handguard bottom rail,medium,Bolt-on rail section with zero ergonomics; no effect,
+ptr_mp5_hg_left_rail,zero,,,,,,PTR 9 / MP5 handguard side rail,medium,Bolt-on rail section with zero ergonomics; no effect,
+ptr_mp5_hg_right_rail,zero,,,,,,PTR 9 / MP5 handguard side rail,medium,Bolt-on rail section with zero ergonomics; no effect,
+ptr_mp5_trirail_handguard,even,,,,,,PTR MP5 tri-rail handguard,medium,Standard-length railed MP5 handguard; even,
+qingyuan_defense_qbz95_long_bow_mlok_carry_handle,mount,,,,,,aftermarket QBZ-95/Type 97 extended carry-handle rail (M-LOK),low,Replaces the carry handle sight to host optics; value is sight/mount handling,misfiled: optic mount / top rail (sight competitor) not handguard
+qingyuan_defense_qbz95_long_bow_picatinny_carry_handle,mount,,,,,,aftermarket QBZ-95/Type 97 extended carry-handle rail (Picatinny),low,Same carry-handle rail in Picatinny form; optic mount so handling only,misfiled: optic mount / top rail (sight competitor) not handguard
+quix_tacticals_ar15_4inch_ultralight_mlok_freefloat_hg,even,compact,,,,,unidentified 4in ultralight free-float M-LOK AR handguard,low,ultralight 4in rail built for SBRs: even plus the compact role (lead: no double lean),
+railscales_rsb_vg,grip_vertical,,,,,,RailScales rail scale with integral vertical grip,low,Rail cover with a built-in vertical grip; held like a vertical foregrip,misfiled: foregrip (vertical) not handguard
+resolute_ind_mi24c_mount,mount,,,,,,unidentified Mosin 91/30 rear-sight scout/optic rail (MI-24C extended model),low,Picatinny rail replacing Mosin rear sight for optics; bulk costs handling only,"misfiled: optic mount (Rail System on mosin_mount), not a handguard"
+rsa_metric_short_quadrail_handguard,even,,,,,,DSA SA58 short quad rail,medium,Short carbine quad rail but longer than pistol options; not clearly the shortest,
+rsa_sg58_belgian_style_full_length_handguard,handguard_long,,,,,,DSA SA58 Belgian-style full-length handguard,medium,Standard full-length rifle handguard and set default; in the longest tier,
+rsa_sg58_belgian_style_mid_length_handguard,even,,,,,,DSA SA58 Belgian-style mid-length handguard,medium,Mid-length Belgian-style handguard; not an extreme,
+rsa_sg58_metric_mlok_full_length_bottom_handguard,handguard_long,,,,,,DSA SA58 full-length M-LOK handguard,medium,Full rifle-length M-LOK handguard; in the longest tier of the SA58 set,
+rsa_sg58_metric_mlok_full_length_top_handguard,handguard_long,,,,,,DSA SA58 full-length M-LOK handguard top half,medium,Top half of the full-length DSA M-LOK handguard; matches its long lower half,special: forced by the full-length lower (sub-tagged set of 1); profile mirrors the lower so the combined handguard leans consistently
+rsa_sg58_metric_mlok_mid_length_bottom_handguard,even,,,,,,DSA SA58 mid-length M-LOK handguard,medium,Mid-length option; neither extreme of the set,
+rsa_sg58_metric_mlok_mid_length_top_handguard,even,,,,,,DSA SA58 mid-length M-LOK handguard top half,medium,Top half of the mid-length DSA handguard; mid length so even,special: forced by the mid-length lower; profile mirrors the lower
+rsa_sg58_metric_mlok_pistol_length_bottom_handguard,handguard_short,,,,,,DSA SA58 pistol-length M-LOK handguard,medium,Pistol-length FAL handguard; one of the two clearly shortest in the SA58 set,
+rsa_sg58_metric_mlok_pistol_length_top_handguard,handguard_short,,,,,,DSA SA58 pistol-length M-LOK handguard top half,medium,Top half of the pistol-length DSA handguard; matches its short lower half,special: forced by the pistol-length lower (sub-tagged set of 1); profile mirrors the lower so the combined handguard leans consistently
+rsa_sg58_tactical_pistol_v2_handguard,handguard_short,,,,,,DSA SA58 Tactical Pistol handguard,medium,Pistol-length handguard for short-barrel SA58; one of the clearly shortest in set,
+rsa_sg58_wood_full_length_handguard,handguard_long,,,,,,FAL/SA58 full-length wood handguard,medium,Full-length wood rifle handguard; in the longest tier of the set,
+russian_tuning_ak12_megatron_handguard,even,,,,,,unidentified (Russian Tuning extended AK-12 rail),low,"Heaviest AK-12 option, probably long; length unverified so default even",special: likely longest of set by weight but unconfirmed; handguard_long candidate
+sai_ar15_qd_10inch_handguard,even,,,,,,Salient Arms QD rail 10in,medium,Quick-detach free-float rail with extension slot; even,
+sai_ar15_qd_14.5inch_handguard,even,,,,,,Salient Arms QD rail 14.5in,medium,"Long QD free-float rail; 15in tier, even",
+sc_irregulars_omm_3_slot_board_front,zero,,,,,,Irregular Defense OMM board (OMM rail add-on),medium,Add-on picatinny board for a modular mount; no stat effect (E 0),"misfiled: mount accessory (rail board), not a handguard"
+sc_irregulars_omm_3_slot_board_rear,zero,,,,,,Irregular Defense OMM board (OMM rail add-on),medium,Add-on picatinny board for a modular mount; no stat effect (E 0),"misfiled: mount accessory (rail board), not a handguard"
+sc_irregulars_omm_4_slot_board_front,zero,,,,,,Irregular Defense OMM board (OMM rail add-on),medium,Add-on picatinny board for a modular mount; no stat effect (E 0),"misfiled: mount accessory (rail board), not a handguard"
+sc_irregulars_omm_4_slot_board_rear,zero,,,,,,Irregular Defense OMM board (OMM rail add-on),medium,Add-on picatinny board for a modular mount; no stat effect (E 0),"misfiled: mount accessory (rail board), not a handguard"
+sc_irregulars_omm_6_slot_board_front,zero,,,,,,Irregular Defense OMM board (OMM rail add-on),medium,Add-on picatinny board for a modular mount; no stat effect (E 0),"misfiled: mount accessory (rail board), not a handguard"
+sc_irregulars_omm_6_slot_board_rear,zero,,,,,,Irregular Defense OMM board (OMM rail add-on),medium,Add-on picatinny board for a modular mount; no stat effect (E 0),"misfiled: mount accessory (rail board), not a handguard"
+sc_irregulars_omm_8_slot_board_front,zero,,,,,,Irregular Defense OMM board (OMM rail add-on),medium,Add-on picatinny board for a modular mount; no stat effect (E 0),"misfiled: mount accessory (rail board), not a handguard"
+sc_irregulars_omm_8_slot_board_rear,zero,,,,,,Irregular Defense OMM board (OMM rail add-on),medium,Add-on picatinny board for a modular mount; no stat effect (E 0),"misfiled: mount accessory (rail board), not a handguard"
+spinner_extended_multislot_rail_base,mount,,,,,,generic extended Picatinny scope base for Remington 700,medium,Receiver scope base; its small penalty is sight clutter/height so handling only,misfiled: optic mount (receiver scope base) not handguard
+steyr_aug_a3_m1_extended_factory_rail,mount,,,,,,Steyr AUG A3 M1 extended Picatinny rail,high,Top rail optic mount; bulk on handling,misfiled: mount
+steyr_aug_a3_m1_high_sight_mount,mount,,,,,,Steyr AUG A3 M1 high Picatinny rail,high,Top rail optic mount; height is a sight-picture cost,misfiled: mount
+steyr_aug_a3_sa_top_rail,mount,,,,,,Steyr AUG A3 SA standard top rail,high,Standard top rail optic mount; handling only,misfiled: mount
+steyr_aug_a3_sa_xs_top_rail,mount,,,,,,Steyr AUG A3 SA (USA) short top rail,medium,Top rail optic mount for the SA receiver; handling only,misfiled: mount
+steyr_aug_z_subcompact_swat_keymod_top_rail,mount,,,,,,Steyr AUG Z subcompact/SWAT KeyMod top rail,medium,"Top rail with integral sight slot; mount, handling only",misfiled: mount
+stngr_hwk_15i,even,,,,,,unidentified,none,15in M-LOK free-float rail; family default even,
+stngr_lvnc_10i,even,,,,,,unidentified,none,10in M-LOK free-float rail; family default even,
+target_sports_extended_g3_mmh94_mlok_handguard,handguard_long,,,,,,extended M-LOK G3/HK91 handguard,low,Extended free-hand G3 forend; one of the two clearly long options,
+target_sports_universal_11.3inch_hg_mlok,even,,,,,,Aim Sports universal FAL 11.3in handguard top half,medium,Top half of a mid-length universal FAL handguard; no clear length extreme so even,special: top half paired with the Target Sports 11.3in lower; keep profile matched to the lower (even)
+target_sports_universal_11.3inch_hg_picatinny,even,,,,,,Aim Sports universal FAL 11.3in handguard top half (Picatinny),medium,Picatinny variant of the same top half; no reason to lean,special: top half paired with the Target Sports 11.3in lower; keep profile matched to the lower (even)
+target_sports_universal_11.3inch_mlok_hg_lower,even,,,,,,Aim Sports universal FAL 11.3in M-LOK handguard,medium,Mid-length universal FAL rail; not an extreme of the set,
+tas_hx5_mp5_picatinny_handguard,even,,,,,,CAA HX-5 MP5 rail handguard,medium,Standard-length railed MP5 handguard; even,
+tas_rs47_handguard_side_rails,even,,,,,,unidentified AK side rail set,low,Small rail with a minor grip-texture bonus; rail parts default to even,
+tas_rs47_lower_handguard,even,,,,,,CAA RS47 AK rail system lower,medium,Standard-length railed AK lower; no length extreme,
+tas_rs47_lower_handguard_alt,even,,,,,,unidentified (two-piece AK rail system),low,"Railed AK lower, standard length; family default even",
+tas_rs47_upper_handguard,zero,,,,,,unidentified (two-piece AK rail system upper),low,"Railed upper, container; no own value",
+tdiarms_ak_akm_l_lower_handguard,even,,,,,,TDI Arms AKM-L handguard,high,Standard-length lightweight M-LOK AK lower; set has longer options elsewhere,
+tdiarms_ak_akm_l_lower_handguard_alt,even,,,,,,TDI Arms AKM-L handguard,high,Standard-length lightweight M-LOK AK lower; no length extreme in set,
+tdiarms_ak_x47_rail_system,handguard_long,,,,,,TDI Arms X47 AK rail system,medium,Full-length heavy extended rail system; clearly the longest AK option,
+tt_c_optic_rail,zero,,,,,,generic TT-33 optic rail adapter,low,Mount with zero ergonomics; no effect,other: price 1000 for a zero-effect only-choice rail looks odd
+ultimak_m1_b_gastube,zero,,,,,,UltiMAK M1-B gas tube optic mount,high,"Gas tube with scout optic rail; value 0, effect sits on mounted optic",misfiled: really a scout optic mount (mount); harmless at V=0
+usgi_m16a1_triangle_handguard,even,,,,,,USGI M16A1 triangular handguard,high,Vintage rifle-length plastic handguard; even,
+vallais_2_hole_grip_compat_rail,zero,,,,,,M-LOK Picatinny rail section (HK416 handguard),medium,"2-slot accessory rail, container with no own value",
+vallais_2_hole_misc_rail,zero,,,,,,M-LOK Picatinny rail section (HK416 handguard),medium,Accessory rail container with no own value,
+vallais_3_hole_grip_compat_rail,zero,,,,,,M-LOK Picatinny rail section (HK416 handguard),medium,"3-slot accessory rail, container with no own value",
+vallais_3_hole_misc_rail,zero,,,,,,M-LOK Picatinny rail section (HK416 handguard),medium,Accessory rail container with no own value,
+vallais_amr_kf416_10.5inch_handguard,even,,,,,,Geissele-style HK416 10.5in M-LOK rail,low,Mid-length rail; even,
+vallais_amr_kf416_14.5inch_handguard,handguard_long,,,,,,Geissele-style HK416 14.5in M-LOK rail,low,Full-length 14.5in rail; among the clearly longest,
+vallais_mfh_mk16_mlok_urgi_10.5inch,even,,,,,,Geissele SMR MK16 10.5in,high,General-purpose free-float rail; even,
+vallais_mfh_mk16_mlok_urgi_13.5inch,even,,,,,,Geissele SMR MK16 13.5in,high,Long free-float rail; even,
+vallais_mfh_mk16_mlok_urgi_15inch,even,,,,,,Geissele SMR MK16 15in,high,"Full-length free-float rail; 15in tier, even",
+vallais_mfh_mk16_mlok_urgi_9.3inch,even,,,,,,Geissele SMR MK16 URG-I 9.3in,high,"SOCOM URG-I free-float rail; general purpose, even",
+vallais_mfh_mk4_federal_mlok_10inch,even,,,,,,Geissele Super Modular MK4 10in,high,General-purpose free-float rail; even,
+veles_b_10l_sport_lower_handguard,even,,,,,,Zenitco B-10 lower handguard (sport variant),medium,Standard-length railed AK lower; even,
+veles_b_10l_sport_lower_handguard_alt,even,,,,,,Zenitco B-10 lower handguard (sport variant),medium,Standard-length AK lower with rail; even,
+veles_b_10m_gen1_lower_handguard,even,,,,,,Zenitco B-10M lower handguard,high,Standard-length aluminium railed AK lower; even,
+veles_b_10m_gen1_lower_handguard_alt,even,,,,,,Zenitco B-10M handguard,high,Standard-length AK railed lower; even,
+veles_b_11_lower_handguard,even,,,,,,Zenitco B-11 AKS-74U handguard,high,"AKS-74U railed lower, marginally longer; not a clear length extreme",
+veles_b_11u_lower_handguard,even,,,,,,Zenitco B-11U lower (short-stroke AKSU/Krink),medium,AKS-74U railed lower; three-item set of near-equal length,
+veles_b_19_rail_mount,zero,,,,,,Zenitco B-19 upper rail mount,medium,"Upper rail for optics, no own value",
+veles_b_19n_rail_mount,zero,,,,,,Zenitco B-19 upper rail mount,medium,"Upper rail for optics, no own value",
+veles_b_30_gen1_lower_handguard,even,,,,,,Zenitco B-30 lower handguard,high,Slightly longer railed lower (about 10in) but not clearly the longest; even,special: borderline long; excluded from AK_9 like the long options
+veles_b_31_leader_rail_mount,even,,,,,,Zenitco B-31 upper handguard rail,medium,Railed upper with small comfort value; even,
+veles_b_31lv_sport_rail_mount,even,,,,,,Zenitco B-31 upper handguard rail (sport variant),medium,Railed upper with small comfort value; even,
+veles_b_31s_gen1_rail_mount,zero,,,,,,Zenitco B-31S upper handguard rail,high,"Railed upper, container; no own value",
+veles_b_32_klassika_rail_mount,handling,,,,,,unidentified (Zenitco-style extra-long top rail),low,"Extra-long top rail over the barrel; negative is front bulk, a handling cost","special: do not use handguard_long here, negative V would invert it into a stability penalty"
+veles_npn_2_half_rail_cover,even,,,,,,Zenitco-style AK rail cover,low,"Rail cover for AK handguard rails; grip texture only, no lean.",
+veles_npn_2_rail_cover,even,,,,,,Zenitco-style AK rail cover,low,"Rail cover for AK handguard rails; grip texture only, no lean.",
+was_woodworks_lower_ak_handguard_with_handstop_alt,even,,,,,,"unidentified (wood AK lower with handstop, M-LOK)",low,Standard-length wood lower with integral handstop; even,
+xtm_2_piece,even,,,,,,Magpul XTM Enhanced Rail Panels,high,"Picatinny rail panel; grip texture and heat protection, even by family default.",
+xtm_4_piece,even,,,,,,Magpul XTM Enhanced Rail Panels,high,"Picatinny rail panel; grip texture and heat protection, even by family default.",

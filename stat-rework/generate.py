@@ -25,6 +25,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 
 import cycling  # noqa: E402
+import profiles  # noqa: E402
 import reload_scope  # noqa: E402
 import rules  # noqa: E402
 from analysis import WEAPON_CLASSES, slot_groups  # noqa: E402
@@ -156,6 +157,7 @@ def generate(ctx=None, families=None):
             for s in NEW_STATS:
                 v = res.pop(s)
                 vals[s] = None if (blank and abs(v) < 1e-9) else v
+            vals["_v"] = res.pop("_v", None)
             for k, v in res.items():  # rule modules may also return other columns (with a reason in _rule)
                 if k in OTHER_COLUMNS:
                     vals[k] = v
@@ -164,10 +166,12 @@ def generate(ctx=None, families=None):
 
     lean_input = {n: {"handling": v["handling"], "stability": v["stability"]} for n, v in out.items()
                   if ctx.items[n]["family"] != "weapon" and v["handling"] is not None and v["stability"] is not None}
-    lean_notes = lean.steepen(ctx, lean_input)
+    lean_notes = lean.steepen(ctx, lean_input)  # switched off since round 7 (lean.FAMILIES is empty)
     for n, note in lean_notes.items():
         out[n]["handling"] = lean_input[n]["handling"]
         out[n]["stability"] = lean_input[n]["stability"]
+        rules_of[n] += "; " + note
+    for n, note in profiles.finalize(ctx, out).items():  # stockless options, once every stock is known
         rules_of[n] += "; " + note
 
     log = []
@@ -224,6 +228,7 @@ def write_outputs(ctx, out, log):
             w.writerow([r.get(c, "") for c in NEW_COLUMNS])
     write_review(ctx, out)
     check_reload_scope(ctx, out)
+    write_research_flags(ctx)
     with open(os.path.join(HERE, "review", "other_column_changes.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=["name", "column", "old", "new", "why"])
         w.writeheader()
@@ -250,6 +255,7 @@ def review_rows(ctx, out, fam):
         gi = ctx.groups.get(g, {})
         for it in sorted(by_group[g], key=lambda x: (x["weight"], x["name"])):
             v = out[it["name"]]
+            pr = profiles.row(it["name"]) or {}
             h, r, s = (rnd(k, v[k]) if v[k] is not None else 0.0 for k in NEW_STATS)
             rows.append({
                 "set": g, "set_size": len(gi.get("items", [])), "only_choice": gi.get("only_choice", ""),
@@ -260,7 +266,10 @@ def review_rows(ctx, out, fam):
                 "old_strength": round(strength(it["ergonomics"], it), 1),
                 "new_strength": round(strength(rules.ev(h, r, s) + cycling.ev(it["name"]), it), 1),
                 "weight": it["raw"].get("weight", ""), "h_recoil": v["horizontal_recoil"], "v_recoil": v["vertical_recoil"],
-                "price": v["price"], "n_weapons": len(it["weapons"]), "rule": v["_rule"], "note": v["_note"],
+                "price": v["price"], "n_weapons": len(it["weapons"]),
+                "profile": profiles.profile_of(it), "role": (pr.get("role") or "") + (" (strong)" if pr.get("role_strength") == "strong" else ""),
+                "counterpart": pr.get("counterpart", ""), "confidence": pr.get("confidence", ""), "why": pr.get("why", ""),
+                "flags": pr.get("flags", ""), "rule": v["_rule"], "note": v["_note"],
             })
     return rows
 
@@ -274,6 +283,26 @@ def check_reload_scope(ctx, out):
         want = reload_scope.reload_of(it, ctx)[0] or 0.0
         if abs(rt - want) > 1e-9:
             print(f"warning: {n} holds reload_time {rt:+.3f}, its kind gives {want:+.3f}", file=sys.stderr)
+
+
+def write_research_flags(ctx):
+    """review/research_flags.csv: what the round-7 item review found outside handling and stability
+    (other columns, misfiled items, reload and cycling questions), for the team; nothing is changed."""
+    rows = []
+    for n, r in sorted(profiles.rows().items()):
+        if n not in ctx.items:
+            continue
+        for f in (r.get("flags") or "").split(";"):
+            f = f.strip()
+            kind = f.split(":", 1)[0]
+            if kind in ("other", "reload", "cycling", "misfiled"):
+                rows.append({"family": ctx.items[n]["family"], "name": n, "kind": kind,
+                             "flag": f.split(":", 1)[1].strip() if ":" in f else f, "counterpart": r.get("counterpart", "")})
+    rows.sort(key=lambda r: (r["kind"], r["family"], r["name"]))
+    with open(os.path.join(HERE, "review", "research_flags.csv"), "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=["kind", "family", "name", "counterpart", "flag"])
+        w.writeheader()
+        w.writerows(rows)
 
 
 def write_review(ctx, out):

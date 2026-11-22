@@ -1,0 +1,225 @@
+name,profile,role,role_strength,value,handling,stability,counterpart,confidence,why,flags
+aft_sc_stock_adapter,stock_compact,,,,,,FN SCAR-SC rear stock assembly,medium,Carries the SC subcompact minimal stock value; built for PDW-length SCAR,special: value of the SC stock sits here; children are blank
+aft_sc_stock_adjustment_rail,zero,,,,,,FN SCAR-SC stock adjustment rail,medium,Structural host for the SC buttpad; no own value,
+aft_sc_stock_buttpad,zero,,,,,,FN SCAR-SC stock buttpad,medium,No value; would be buttpad if ever valued,special: blank E only-choice sub-part
+aft_sc_stock_cheekpad,zero,,,,,,FN SCAR-SC stock cheekpad,medium,No value; would be cheek_riser if ever valued,special: blank E only-choice sub-part
+aft_ssr_std_stock_buttpad,zero,,,,,,FN SCAR SSR precision stock buttpad,medium,Sub-part of the SSR stock with no value; would be buttpad if ever valued,special: blank E only-choice sub-part
+aft_ssr_std_stock_riser,zero,,,,,,FN SCAR SSR precision stock cheek riser,medium,Sub-part of the SSR stock with no value; would be cheek_riser if ever valued,special: blank E only-choice sub-part
+aft_ssr_stock_assembly,stock_precision,,,,,,FN SCAR SSR (Mk20) precision stock,high,Adjustable LOP and cheek precision stock of the Mk20 SSR sniper SCAR; precision type covers it.,special: hosts its own buttpad and riser children
+aft_stock_cheek_piece,zero,,,,,,FN SCAR standard stock cheek piece,medium,Sub-part host with no value; SCAR stock value sits on the connector,
+aft_stock_connector,stock_adjustable,,,,,,FN SCAR standard folding telescoping stock,high,"Carries the whole standard SCAR stock value: folding, telescoping, adjustable cheek",special: value of the whole SCAR stock assembly sits on this connector; set default
+aft_stock_shoulder_piece,zero,,,,,,FN SCAR standard stock buttplate/shoulder piece,medium,Sub-part of the standard SCAR stock; value sits on the stock connector,special: SCAR standard stock value lives on aft_stock_connector
+agr_870_buffer_tube,zero,,,,,,unidentified (Remington 870 buffer tube adapter),medium,Buffer tube host; value sits on the child stock,special: set default agr_870_protection_cap is presumably the stockless option for this host
+ak12_gen1_buffer_tube,even,,,,,,Kalashnikov AK-12 early buffer tube,medium,Buffer tube host with a small negative value for length and joints; no lean.,
+ak12_gen1_std_stock,stock_adjustable,,,,,,AK-12 telescoping stock,high,Standard telescoping carbine stock,
+ak12_gen2_stock,stock_adjustable,,,,,,Kalashnikov AK-12 telescoping folding stock,high,Ordinary collapsible/folding service carbine stock.,
+al_qadissiya_tabuk_sniper_buttpad,zero,,,,,,Al-Qadissiya Tabuk sniper rifle buttplate,high,Only-choice pad with blank value,
+al_qadissiya_tabuk_sniper_cloth,zero,,,,,,Tabuk stock cloth wrap,medium,Cosmetic cloth wrap; no effect,
+al_qadissiya_tabuk_sniper_wooden_stock,stock_precision,,,,,,Al-Qadissiya Tabuk DMR thumbhole wooden stock,high,Thumbhole marksman stock with cheek rest; precision type covers it.,
+ar_tr2_pad,buttpad,,,,,,unidentified,low,Rubber butt pad; shoulder contact only,
+ar_tr2_stock,stock_adjustable,,,,,,XLR Tactical Revision 2 buttstock,medium,Adjustable-LOP carbine stock,
+atg_ak_rb_k7btp01_combat_rubber_stock_buttpad_ak74,buttpad,,,,,,UTG/Leapers AK combat rubber buttpad,medium,Rubber recoil pad; shoulder contact only.,
+atg_ak_rb_k7btp01_combat_rubber_stock_buttpad_pp19,buttpad,,,,,,UTG/Leapers AK combat rubber buttpad,medium,Rubber recoil pad; shoulder contact only.,
+aug_a3_stock_buttpad,buttpad,,,,,,Steyr AUG A3 factory butt plate,high,Factory butt plate; shoulder contact only,special: only-choice part
+axtell_defense_collapsible_milspec_buttstock,stock_adjustable,,,,,,Daniel Defense collapsible buttstock,high,Ordinary collapsible carbine stock,
+axtell_defense_concave_buttpad,buttpad,,,,,,Daniel Defense buttpad,medium,Concave rubber butt pad; shoulder contact only,
+bt_mp5/ump_folding_stock,stock_compact,,,,,,B&T MP5 folding stock with adapter,high,"Fixed-length polymer side-folder, shorter LOP than the UMP stock; folding-minimal compact type",special: no slot and no weapons (orphan row)
+cf_rubber_buttpad,buttpad,,,,,,Colt XM177 / CAR-15 rubber buttpad,medium,Shoulder pad; stability only,
+custom_3d_printed_fixed_acr_stock_adapter,stock_adjustable,,,,,,Custom ACR stock adapter (Remington ACR stock body),low,Acts as the ACR stock body hosting LOP and cheek parts; ACR stock is an ordinary adjustable stock.,special: carries value 4 while hosting acr_stock_moving_part and cheek pad; check value is not double-counted with children
+dynamic_development_group_sas_acr_stock,stock_adjustable,,,,,,Kinetic Development Group SAS (ACR folding/collapsible stock),high,Ordinary ACR-style collapsible carbine stock with cheek riser child,
+dynamic_development_group_sas_acr_stock_cheek_pad,stock_adjustable,,,,,,KDG SAS / ACR stock cheek riser,high,"the ACR stock's whole value sits on this cheek-pad row (the stock body is blank), so it takes the stock's profile, not a cheek riser's (lead)",
+dynamic_development_group_sas_acr_stock_retractor,zero,,,,,,KDG SAS ACR stock base/retractor,high,Host for cheek pad and stock extension; no own value,
+dynamic_development_group_sas_acr_stock_scar_adapter,even,,,,,,Kinetic Development Group SAS SCAR adapter plate,high,Adapter whose small negative value is joint/length cost; keep it in both stats,special: negative adapter cost; zero would erase it
+ellipse_30_fixed_ak_triangle_stock,stock_compact,,,,,,Circle 10 / CRH Customs AK fixed triangle stock,high,Short 8.75in billet skeleton triangle stock; minimal skeleton type.,
+emod_pad,buttpad,,,,,,EMOD carbine stock butt pad,low,Stock butt pad; shoulder contact only,
+equinox_ex15_endplate,zero,,,,,,unidentified AR-15 receiver end plate,low,Receiver end plate host; no effect.,
+ews_bufferless_system_ar15_castlenut,stockless,,,,,,unidentified bufferless AR end cap (CMMG Dissent / Bear Creek style),medium,"Bufferless conversion cap with no tube, so no stock can mount; a no-stock option.",special: stockless option in castlenut set; hosts no children
+glr_17,even,marksman,strong,,,,FAB Defense GLR-17 Glock stock,high,"Shoulder stock on a pistol: steadier, much slower; negative V needs even plus marksman to get that","special: old E is negative so every stock profile cuts stability; even plus strong marksman reproduces h about -10.7, s about +3; optional slot, alternative is no stock"
+gxw_tailhook_mod1_brace_big,stock_compact,,,,,,Gear Head Works Tailhook Mod 1 brace,high,Minimal pistol brace; brace goes to compact type,special: only choice in its slot; competes with stocks through its host
+gxw_tailhook_mod1_brace_small,stock_compact,,,,,,Gear Head Works Tailhook Mod 1 brace,high,Minimal pistol brace; brace goes to compact type,special: only choice in its slot; competes with stocks through its host
+haga_defense_hk_g3_acr_stock_adapter,zero,,,,,,HAGA Defense G3 ACR stock adapter,high,Adapter host; value sits on the ACR stock child,
+haga_defense_scar_acr_tailhook_adapter,zero,,,,,,generic tailhook adapter for KDG SAS/ACR stock (maker unidentified),low,Adapter replacing the ACR stock extension; brace value belongs on its tailhook_brace child,"special: brace stand-in for the SAS ACR stock; value sits on tailhook_brace child, which should be stock_compact"
+hart_607_car15_buffer_tube,stock_compact,,,,,,Colt 607 CAR-15 buffer tube / sliding stock,medium,Early minimal two-position sliding CAR-15 stock assembly; minimal type,special: value sits on the tube while it hosts hart_607_stock; check the child is not double-counted
+hart_607_car15_stock,zero,,,,,,Colt 607 CAR-15 sliding stock,medium,Early two-position sliding CAR stock with no value; stock_compact if ever valued,"special: blank E only-choice part, price 500; if valued it is stock_compact"
+hart_a2_buffer,even,,,,,,Colt A2 rifle buffer tube,high,Rifle-length buffer tube host with small negative value; no lean.,
+hart_buffer_tube,even,,,,,,Colt carbine buffer tube,high,Standard carbine buffer tube host with small negative value; no lean.,
+hart_m4ss_stock,stock_adjustable,,,,,,Colt M4 carbine stock,high,"Standard M4 collapsible stock, the baseline",
+hera_arms_ccs_stock,stock_adjustable,,,,,,Hera Arms HRS CCS stock,medium,Ordinary collapsible carbine stock,
+hera_arms_cqr_ak_15mm_spacer,buttpad,,,,,,Hera Arms CQR AK 15mm LOP spacer,high,Length-of-pull spacer; shoulder fit only,
+hera_arms_cqr_ak_30mm_spacer,buttpad,,,,,,Hera Arms CQR AK 30mm LOP spacer,high,Length-of-pull spacer; shoulder fit only,
+hera_arms_cqr_ak_45mm_spacer,buttpad,,,,,,Hera Arms CQR AK 45mm LOP spacer,high,Length-of-pull spacer; shoulder fit only,
+hera_arms_cqr_ak_buttpad,buttpad,,,,,,Hera Arms CQR AK buttpad,high,CQR butt pad; shoulder contact only,
+hera_arms_cqr_gen1_ak_stock,stock_fixed,,,,,,Hera Arms CQR AK one-piece grip-stock,high,One-piece fixed polymer pistol grip and stock; solid fixed type.,"special: occupies the ak_grip slot and replaces the pistol grip, so its value also stands in for a grip"
+hera_arms_cqr_gen1_pistol_grip_stock,stock_fixed,,,,,,Hera Arms CQR Gen1 (stock with integrated grip),high,One-piece fixed stock and pistol grip; fixed type,special: occupies the pistol grip slot and replaces the grip
+hera_arms_cqr_gen2_buttpad,zero,,,,,,Hera Arms CQR Gen 2 buttstock (pad),medium,No value; only-choice sub-part of the CQR stock,special: blank E only-choice sub-part
+hera_arms_cqr_gen2_stock,stock_fixed,,,,,,Hera Arms CQR Gen2 stock,high,Fixed-length polymer CQR stock with spacer LOP; fixed type,
+hera_hrs_light_stock,stock_fixed,,,,,,Hera Arms HRS Light fixed A2 buttstock,high,Lightweight A2-style fixed rifle stock,
+hk_g3_endplate,zero,,,,,,HK G3 receiver endplate,high,Host for the fixed/precision stock slot; no value of its own,
+hk_g3_std_fixed_plastic_stock,stock_fixed,,,,,,HK G3 standard fixed polymer stock,high,Standard fixed rifle stock,
+hk_g3a3_stock_endplate,stock_compact,,,,,,HK G3 retractable (A4-style) stock,medium,"Two-position sliding metal-rail retractable stock; minimal, less steady than fixed",special: value sits on the endplate while it hosts hk_stock_extendable_part; check the child
+hk_g3a3_stock_extendable_part,zero,,,,,,HK G3 retractable stock extendable part,medium,Structural sub-part with no value,special: blank E only-choice sub-part
+hk_mp5_endcap_sling_swivel,stockless,,,,,,HK MP5 endcap with sling swivel,high,"No-stock option: endcap where a stock would go; handy, unsteady",special: stockless option for MP5; competes with the Cartman stock base
+hk_mp5_hk94_cartman_stock,stock_compact,,,,,,unidentified,low,Light minimal MP5 stock on an endcap base; minimal type,
+hk_mp5_hk94_cartman_stock_base,zero,,,,,,unidentified,low,Stock base host; value sits on the Cartman stock child,
+hk_mp5_hk94_stock_endcap,zero,,,,,,HK MP5/HK94 stock endcap,high,Host for the endcap/Cartman slot; no value of its own,
+hk_mp5a2_plastic_fixed_stock,stock_fixed,,,,,,HK MP5A2 fixed polymer stock,high,Standard fixed SMG stock; fixed type,
+hk_mp5a3_early_gen_collapsible_stock,stock_compact,,,,,,HK MP5A3 retractable stock,high,"Two-position sliding strut stock, minimal shoulder contact: handier, less steady","special: only choice on MP5, so this sets the gun baseline"
+hk_mp5a3_early_gen_stock_endplate,zero,,,,,,HK MP5A3 retractable stock endplate,high,Host for the A3 retractable stock; value sits on the child,
+hk_psg1_stock_base,stock_precision,,,,,,HK PSG1 stock assembly,high,Adjustable precision sniper stock; precision type,special: carries the value of its zero pad and cheek rest children
+hk_psg1_stock_buttpad,zero,,,,,,HK PSG1 adjustable butt plate,high,No value; part of the PSG1 stock assembly which carries it,"special: only-choice, no old E; buttpad profile if it ever gets a value"
+hk_psg1_stock_cheek_rest,zero,,,,,,HK PSG1 adjustable cheek rest,high,No value; part of the PSG1 stock assembly which carries it,"special: only-choice, no old E; cheek_riser profile if it ever gets a value"
+hk_ump_polymer_stock,stock_compact,,,,,,HK UMP factory side-folding polymer stock,medium,"Fixed-length skeletonized side-folding SMG stock; folding skeleton, compact type",special: only choice in ump_stock; alternatives come through buffer tube or Tailhook adapters
+hk_ump_stock_block,zero,,,,,,HK UMP stock block,high,Stock host; value sits on child stock,
+hunter_cheekrest_.25,cheek_riser,,,,,,Magpul Hunter 700 0.25in cheek riser,high,Cheek riser; cheek weld,
+hunter_cheekrest_.25_sga,cheek_riser,,,,,,Magpul SGA 0.25in cheek riser,high,Cheek riser; cheek weld,
+hunter_cheekrest_.5,cheek_riser,,,,,,Magpul Hunter 700 0.50in cheek riser,high,Cheek riser; cheek weld,
+hunter_cheekrest_.5_sga,cheek_riser,,,,,,Magpul SGA 0.50in cheek riser,high,Cheek riser; cheek weld,
+hunter_cheekrest_.75,cheek_riser,,,,,,Magpul Hunter 700 0.75in cheek riser,high,Cheek riser; cheek weld,
+hunter_cheekrest_.75_sga,cheek_riser,,,,,,Magpul SGA 0.75in cheek riser,high,Cheek riser; cheek weld,
+hunter_cheekrest_flat,cheek_riser,,,,,,Magpul Hunter 700 cheek riser (flat/none),high,"Flat riser, zero value; cheek riser family",
+hunter_cheekrest_flat_sga,cheek_riser,,,,,,Magpul SGA cheek riser (flat/none),high,"Flat riser, zero value; cheek riser family",
+hunter_stock_buttpad,buttpad,,,,,,Magpul Hunter 700 butt pad,high,Butt pad; shoulder contact only,
+isle_mfg_veles_pt_1_tailhook_adapter,stock_compact,,,,,,tailhook brace adapter for Zenitco PT lock (maker unidentified),low,Tailhook brace in place of a stock: brace counts as compact,special: hosts tailhook_brace child; check combined value with the child brace
+kalis_scalar_ambi_folding_stock_hinge,zero,,,,,,KRISS Vector ambidextrous folding stock hinge,high,Folding hinge host; value sits on the stock.,
+kalis_scalar_gen1_fsbl00_hinged_folding_stock,stock_compact,,,,,,KRISS Vector Gen I folding stock,high,"Fixed-length skeletal side-folding SMG stock; folding-minimal, compact type",
+kalis_scalar_gen1_sabl00_hinged_buffer_tube_adapter,zero,,,,,,KRISS Vector Gen I hinged buffer tube adapter,high,Stock host adapter; value sits on child stock,
+kalis_scalar_gen2_late_folding_buffer_tube_adapter,zero,,,,,,KRISS Vector Gen II folding buffer tube adapter,high,Stock host adapter; value sits on child stock,
+kalis_scalar_gen2_late_folding_stock,stock_compact,,,,,,KRISS Vector Gen 2.1 ambidextrous folding stock,medium,"Slim folding 3-position SMG stock: folding-minimal, handling first",special: only choice on its Vector receiver
+kalis_scalar_gen3_buffer_tube_adapter,zero,,,,,,KRISS Vector Gen III M4 buffer tube adapter,high,Stock host adapter; value sits on child stock,
+kalis_scalar_gen3_folding_stock,stock_compact,,,,,,KRISS Vector Gen 3 folding stock,medium,"Light slim folding adjustable SMG stock: folding-minimal, handling first",special: only choice on its Vector receiver
+kalis_scalar_gen3_folding_stock_hinge,zero,,,,,,KRISS Vector Gen 3 Picatinny folding stock hinge,high,Hinge host for the Gen 3 stock; no own value,
+kalis_scalar_gen3_picatinny_stock_rail,zero,,,,,,KRISS Vector Gen III picatinny stock adapter,high,Stock host rail; value sits on child stock,
+kalis_scalar_pistol_pqdbl00_qd_sling_swivel,stockless,,,,,,KRISS Vector SDP pistol QD sling swivel end cap,high,The no-stock option for the Vector: a QD swivel cap where the stock would go.,special: stockless option in castlenut set
+kazarov_ak74_polymer_6p20_sb7,stock_fixed,,,,,,Kalashnikov AK-74 polymer fixed stock (6P20 Sb.7),high,Standard solid fixed rifle stock.,
+kazarov_ak74_wooden_6p20_sb5,stock_fixed,,,,,,Kalashnikov AK-74 wooden fixed stock (6P20 Sb.5),high,Wood fixed rifle stock.,
+kazarov_ak74m_metallic_stock_buttpad,zero,,,,,,Kalashnikov AK-74M steel butt plate,high,Stock's base butt plate hosting the rubber pad slot; value 0.,special: host for ak_buttpads
+kazarov_ak74m_polymer_6p34_sb15,stock_fixed,,,,,,Kalashnikov AK-74M polymer side-folding stock (6P34 Sb.15),high,"Solid polymer side folder, same shape as the fixed AK-74 stock; fixed type.",special: round 6 leaned it as folding toward handling; it is a full solid stock
+kazarov_ak_metallic_stock_buttpad,zero,,,,,,Kalashnikov AK steel butt plate,high,Stock's base butt plate hosting the rubber pad slot; value 0.,special: host for ak_buttpads
+kazarov_akm_wooden_6p1_sb5,stock_fixed,,,,,,Kalashnikov AKM wooden fixed stock (6P1 Sb.5),high,Wood fixed rifle stock.,
+kazarov_aks74_stock_lock,zero,,,,,,Kalashnikov AKS-74U stock lock,high,Folding stock latch; no effect.,special: only-choice part
+kazarov_aks74u_6p26_sb5_skeletonized_stock,stock_compact,,,,,,Kalashnikov AKS-74U skeleton folding stock (6P26 Sb.5),high,Minimal stamped skeleton folder of the Krinkov; compact type.,
+kazarov_group_ak12_gen3_stock_cheekpad,cheek_riser,,,,,,Kalashnikov AK-12 (2020) stock cheek pad,high,Cheek pad on the AK-12 stock; cheek weld.,
+kazarov_group_ak12_gen3_stock_cheekpad_extended,cheek_riser,,,,,,Kalashnikov AK-12 (2020) stock extended/raised cheek pad,high,Taller cheek pad for optics; cheek weld.,
+kazarov_group_rpl_20_stock,stock_adjustable,,,,,,Kalashnikov RPL-20 folding telescoping stock,medium,"Folding, length-adjustable LMG stock with cheek rest, AK-12/AK-19 derived; ordinary adjustable, not fixed.",special: round 6 treated it as fixed; real part telescopes
+kazarov_pp-19-01_vityaz_folding_stock,stock_fixed,,,,,,Kalashnikov PP-19-01 Vityaz side-folding stock,medium,"AK-74M-style solid polymer side folder, fixed length when open; behaves as a fixed stock.",special: round 6 leaned it as folding toward handling; it is a full solid stock
+kf_416_e1_stock,stock_adjustable,,,,,,HK E1 stock,high,Ordinary collapsible carbine stock,
+kf_416_enhanced_buffer_tube,even,,,,,,HK416 enhanced receiver extension,high,Buffer tube host with small negative value; no lean.,
+kf_416_slim_line_stock,stock_adjustable,,,,,,HK Slim Line stock,high,Ordinary collapsible carbine stock,
+kf_416a5_extended_castlenut,even,,,,,,HK416A5 extended castle nut,high,Tiny rigid hardware value; no reason to lean.,
+kf_416a5_sling_eyelet_endplate,zero,,,,,,HK416A5 sling eyelet end plate,high,End plate with sling loop host; no effect.,
+kf_416c_endplate,zero,,,,,,HK416C receiver end plate,high,Receiver end plate host; no effect.,
+kf_416c_stock_body,even,,,,,,HK416C collapsible stock housing,medium,Stock body host with small negative value; value sits on the buttstock.,
+kf_416c_type_1_buttstock,stock_compact,,,,,,HK416C collapsible stock,high,Very short compact-carbine stock made for the 416C: handling over stability,
+kf_416c_type_2_buttstock,stock_compact,,,,,,HK416C collapsible stock (variant),medium,"Same short 416C compact stock, heavier variant",
+kf_416d_endplate,zero,,,,,,HK416D receiver end plate,high,Receiver end plate host; no effect.,
+leopard_atg_model_15_fixed_a2_ar15_stock,stock_fixed,,,,,,UTG Model 4/15 fixed A2 stock,high,A2-style fixed rifle stock.,special: sits in the castlenut slot with an integral tube
+lmt_pad,buttpad,,,,,,LMT stock butt pad,high,Butt pad; shoulder contact only,
+lmt_sopmod,stock_adjustable,,,,,,LMT SOPMOD stock,high,Collapsible carbine stock with battery tubes and cheek weld,
+lowenherz_aug_a3_austrian_stock,even,,,,,,Steyr AUG A3 stock (Steyr-magazine housing),high,"Whole bullpup housing (stock, grip, trigger group, magwell); treated like a receiver","special: whole gun body; any lean shifts the entire AUG, stock_fixed would be the alternative if the lead wants AUG bodies treated as stocks"
+lowenherz_aug_a3_nato_stock,even,,,,,,Steyr AUG A3 NATO stock (STANAG housing),high,Whole bullpup housing differing only by STANAG magwell; even like a receiver,special: whole gun body and set default; same treatment as the Austrian housing
+lowenherz_aug_a3_para_9x19_stock,even,compact,,,,,Steyr AUG Para 9x19 conversion,high,9mm SMG conversion housing built for close range; whole body with compact role,special: whole gun body with its own barrel and carrier; role carries the SMG character instead of a weight lean
+magtap_hunter700_short_action,stock_precision,,,,,,Magpul Hunter 700 stock (short action),high,Fixed precision stock with adjustable cheek riser and LOP spacers; precision type covers it,special: whole gun body; hosts cheek riser pad mlok magwell and receiver mount
+magtap_moa_a_frame_fixed_ak_stock,stock_fixed,,,,,,Magpul MOE AK fixed stock,high,Solid fixed polymer AK stock.,
+magtap_moa_a_frame_stock_buttpad,buttpad,,,,,,Magpul MOE AK stock buttpad,medium,Butt pad for the MOE AK stock; shoulder contact only,
+magtap_moa_butt_pad,buttpad,,,,,,Magpul MOE butt pad,high,Butt pad; shoulder contact only,
+magtap_moa_carbine_stock,stock_adjustable,,,,,,Magpul MOE carbine stock,high,Ordinary collapsible carbine stock,
+magtap_moa_sl_k_carbine_stock,stock_compact,,,,,,Magpul MOE SL-K carbine stock,high,Shortened slim compact carbine stock,
+magtap_moa_sl_k_carbine_stock_buttpad,buttpad,,,,,,Magpul MOE SL-K butt pad,high,Butt pad; shoulder contact only,
+magtap_moe_870_sga_polymer_stock,stock_fixed,,,,,,Magpul SGA stock for Remington 870,high,Fixed polymer shotgun stock with LOP spacers and riser slot; fixed type fits,
+magtap_prs_gen2_stock,stock_precision,,,,,,Magpul PRS Gen2,high,Fixed adjustable-cheek precision stock,
+magtap_prs_gen3_stock,stock_precision,,,,,,Magpul PRS Gen3,high,Adjustable precision stock for marksman builds; type already carries the trade,"special: proposal lists it as marksman; stock_precision already carries that trade, a role would double it"
+magtap_rts_carbine_stock,stock_adjustable,,,,,,Magpul STR carbine stock,high,Collapsible carbine stock with storage cells,
+magtap_str_butt_pad,buttpad,,,,,,Magpul STR butt pad,high,Butt pad; shoulder contact only,
+magtap_ubr_gen2_buffer,zero,,,,,,Magpul UBR Gen2 receiver extension,high,Integral tube of the UBR stock; value sits on the UBR stock child.,special: old ergonomics blank
+magtap_zhukov_s_extendable_part,zero,,,,,,Magpul Zhukov-S folding stock extendable part,high,Host for the press part; no own value,
+magtap_zhukov_s_hinge_part,zero,,,,,,Magpul Zhukov-S stock hinge,high,Stock hinge host; value sits on the stock body.,
+magtap_zhukov_s_main_body,stock_adjustable,,,,,,Magpul Zhukov-S AK stock,high,Folding collapsible AK carbine stock; ordinary adjustable,special: value sits on the main body while it hosts the extending part; check the child
+magtap_zhukov_s_press_part,zero,,,,,,Magpul Zhukov-S release part,high,Sub-part of the Zhukov-S; no value,
+mcs_buttpad,buttpad,,,,,,MDT Skeleton Rifle Stock V5 butt pad,high,Butt pad; shoulder contact only,
+mcs_lss_stock_adapter,even,,,,,,Remington/MCS LSS stock adapter,low,Stock adapter host with small negative value; no lean.,
+mcs_rev21_gen2_r700_buffer_tube_adapter,even,,,,,,MDT chassis buffer tube adapter (model unclear),low,"Small rigid adapter for an R700 chassis; tiny value, no reason to lean",
+mcs_v5_skeleton_rifle_stock,stock_precision,,,,,,MDT Skeleton Rifle Stock V5,high,Billet precision chassis stock with adjustable LOP and cheek; precision type,
+mcs_v5_skeleton_rifle_stock_short,stock_precision,,,,,,MDT Skeleton Rifle Stock V5 Short,high,Billet precision chassis stock with adjustable LOP and cheek; skeleton look but precision type,
+me_adapter,zero,,,,,,unidentified AK buffer tube adapter,low,AR buffer tube mount host; value sits on children.,
+mesa_tactical_faro_scar_buffer_tube_adapter,even,,,,,,Mesa Tactical Faro SCAR buffer tube adapter,high,Adapter whose negative value is extra length and joints; keep in both stats,special: negative adapter cost; hosts ar15_endplate so the AR stockless/stock choice lives downstream
+moe_stock_pad,buttpad,,,,,,Magpul MOE stock butt pad,medium,Buttpad by name filed as a stock; stability only,misfiled: buttpad not stock; special: no slot and no weapons (orphan row)
+mosin_carbine_stock,stock_fixed,compact,,,,,Mosin-Nagant M38/M44 carbine stock,high,"Cut-down wooden carbine stock, a whole gun body; built for the short carbine, so compact role over fixed",special: whole gun body (one-piece wood stock); without the role it is strictly worse than the sniper stock at both stats
+mosin_promag_archangel_stock,stock_precision,marksman,,,,,ProMag Archangel OPFOR Mosin-Nagant precision stock,high,"Polymer precision chassis with adjustable comb and LOP; built for a set-up shooter, V=1 makes the type alone a no-op",other: old E 1 so stock_precision gives almost nothing; the marksman swing is what carries its identity
+mosin_sawn_off_full_stock,even,compact,strong,,,,Cut-down Mosin full stock (shortened furniture),medium,"Shortened one-piece stock keeping a buttstock: handier, much less steady; negative V needs even plus compact","special: whole gun body; old E -5 so stock profiles cut both stats; even plus strong compact gives h about +1.4, s about -12"
+mosin_sawn_off_stock,stockless,,,,,,Mosin-Nagant obrez (sawn-off) stock,high,"Obrez: buttstock cut off, whole one-piece body; the no-stock option",special: whole gun body and the Mosin stockless option; old E -10 so lead sets values
+mosin_standard_stock,stock_fixed,,,,,,Mosin-Nagant 91/30 full-length stock,high,Full-length wooden fixed rifle stock and set default; the steady reference,special: whole gun body (one-piece wood stock)
+mp133_153_plastic_stock,stock_fixed,,,,,,Baikal MP-133/153 factory polymer stock,high,Factory fixed polymer shotgun stock,
+mp133_153_wooden_stock,stock_fixed,,,,,,Baikal MP-133/153 factory wood stock,high,Factory fixed wood shotgun stock and set default,
+ntc_cr140a_fal_tubular_stock_cheekrest,cheek_riser,,,,,,FAL tubular stock cheek rest (CR140A),medium,Cheek rest on FAL tube stock; cheek weld,
+precision_intercontinental_at_aics_gen2_10mm_spacer,cheek_riser,,,,,,Accuracy International AT AICS 2.0 cheekpiece spacer,medium,Spacer stacked under the cheek rest to raise cheek height; behaves as a cheek riser.,
+precision_intercontinental_at_aics_gen2_buttpad,buttpad,,,,,,Accuracy International AT AICS 2.0 buttpad,high,Base butt pad of the AT chassis stock; value 0.,special: only-choice part
+precision_intercontinental_at_aics_gen2_cheekrest,cheek_riser,,,,,,Accuracy International AT AICS 2.0 cheek rest,high,Cheek rest of the AT chassis; cheek weld is stability.,special: only-choice part
+precision_intercontinental_at_aics_gen2_stock_hinge,zero,,,,,,Accuracy International AT AICS 2.0 folding hinge,high,Folding chassis hinge host; value sits on the stock.,special: only-choice host
+precision_intercontinental_at_aics_gen2_stock_hinge_body,zero,,,,,,Accuracy International AT AICS 2.0 folding hinge body,high,Folding chassis hinge host; value sits on the stock.,special: only-choice host
+precision_intercontinental_roosevelt_700_sa_at_aics_gen2_folding_chassis_standard_stock,stock_precision,,,,,,Accuracy International AT AICS 2.0 folding chassis standard stock,high,Sniper chassis stock with adjustable cheek and LOP; precision type.,
+precision_intercontinental_roosevelt_700_sa_at_aics_gen2_folding_chassis_thumbhole_stock,stock_precision,,,,,,Accuracy International AT AICS 2.0 folding chassis thumbhole stock,medium,AICS thumbhole buttstock: the precision stock type carries the trade; no extra role (lead),special: proposal lists the AT AICS thumbhole as a marksman candidate; drop the role if the type trade is deemed enough
+pro_tactical_uas_akn_p,stock_adjustable,,,,,,FAB Defense UAS-AKP folding buttstock with cheekpiece,medium,Folding collapsible AK stock with adjustable cheek; ordinary adjustable.,
+prs_adjustable_piece,zero,,,,,,Magpul PRS Gen3 adjustment module,high,Host for the PRS buttpad; no own value,
+prs_gen3_buttpad,buttpad,,,,,,Magpul PRS Gen3 buttpad,high,Shoulder pad; stability only,
+ptr_hk_g3_milspec_ar15_buffer_tube_adapter,even,,,,,,PTR G3 mil-spec AR-15 buffer tube adapter,high,Adapter whose small penalty is extra length and joints; no reason to lean,
+r870_mesa_tactical_leo_stock_adapter,even,,,,,,Mesa Tactical LEO Remington 870 stock adapter,high,"Receiver adapter for AR pistol grip and stock; negative value is extra length and joints, affects both",special: container with its own negative value; children carry the stock and grip
+r870_sps_polymer_stock,stock_fixed,,,,,,Remington 870 SPS synthetic stock,high,Factory fixed synthetic shotgun stock,
+rbm_aug_carbon_fiber_stock,even,,,,,,Custom carbon AUG stock (likely FBT),low,"Premium carbon bullpup housing; simply nicer, even like a receiver",special: whole gun body
+rogue_roosevelt_model_700_overmolded_bdl_full_bed_block_stock,stock_fixed,,,,,,Hogue Overmolded Remington 700 BDL full bed block stock,high,"Fixed sporter stock, whole gun body and default; plain fixed rifle stock",special: whole gun body; hosts magwell receiver mount and pad
+rogue_roosevelt_model_700_stock_pad,zero,,,,,,Hogue Remington 700 recoil pad,medium,Only-choice buttpad with zero value; nothing to split,
+rogue_ump_buffer_tube_adapter,even,,,,,,HK UMP buffer tube adapter,medium,"Stock host adapter; negative value is extra length and joints, affects both",special: no slot and no weapons (orphan row)
+rpl_20_cheek_pad_high,cheek_riser,,,,,,Kalashnikov RPL-20 / AK-12 stock cheek pad (high),medium,Cheek weld part; cheek riser profile,
+rpl_20_cheek_pad_low,cheek_riser,,,,,,Kalashnikov RPL-20 / AK-12 stock cheek pad (low),medium,Cheek weld part; cheek riser profile,
+rsa_metric_para_buffer_tube_adapter,even,,,,,,DS Arms FAL Para metric buffer tube adapter,high,"Folding-hinge AR tube adapter; negative value is extra length and joints, affects both",special: container with its own negative value; child castle nut/tube carries the stock
+rsa_sg58_adjustable_brs_cheek_rest,zero,,,,,,DS Arms B.R.S. stock cheek piece,medium,Only-choice cheek piece with blank value; value sits on the BRS mount row,special: if given value it should be cheek_riser
+rsa_sg58_adjustable_brs_extendable,zero,,,,,,DSA SA58 adjustable stock extension,low,Structural sub-part with no value,special: blank E only-choice sub-part
+rsa_sg58_adjustable_brs_stock_body,zero,,,,,,DS Arms B.R.S. stock body,medium,Only-choice container with blank value; value sits on the BRS mount row,
+rsa_sg58_adjustable_brs_stock_mount,stock_adjustable,,,,,,DS Arms SA58 B.R.S. (Battle Rifle Stock) side-folding adjustable,high,"Side-folding stock with adjustable LOP and comb; ordinary adjustable, value carried on this mount row",special: value sits on this mount; stock body and cheek rest children are blank
+rsa_sg58_buttpad,buttpad,,,,,,DS Arms FAL X-Series buttpad,medium,Shoulder pad; stability only,
+rsa_sg58_folding_spr_para_stock_body,stock_adjustable,marksman,,,,,DS Arms SA58 SPR Para adjustable side-folding stock,medium,SPR (SASS-trials marksman rifle) stock with adjustable LOP and cheek riser; built for a marksman FAL,special: cheek riser is a separate child slot and takes cheek_riser
+rsa_sg58_folding_spr_para_stock_buttpad,zero,,,,,,DS Arms SA58 SPR Para stock buttpad,medium,Only-choice pad with blank value; value sits on the stock body,special: if pads on this gun get value it should be buttpad
+rsa_sg58_folding_spr_para_stock_buttpad_mount,zero,,,,,,DS Arms SA58 SPR Para stock buttpad mount,medium,Only-choice mount for the pad with no value,
+rsa_sg58_folding_spr_para_stock_cheek_riser,zero,,,,,,DSA SA58 SPR Para folding stock cheek riser,medium,No value; would be cheek_riser if ever valued,special: blank E only-choice sub-part
+rsa_sg58_folding_spr_para_stock_extendable_part,zero,,,,,,DSA SA58 SPR Para folding stock extension,medium,Structural host for the buttpad mount; no value,
+rsa_sg58_metric_para_folding_stock,stock_compact,,,,,,FAL metric Para side-folding tube stock,high,"Minimal tubular side-folding para stock, notoriously poor cheek weld; folding-minimal compact type",special: existing override (stock.csv) leaned it handier; compact type agrees
+rsa_sg58_para_fold_assembly,zero,,,,,,DS Arms SA58 Para folding stock hinge assembly,medium,Hinge container; value sits on the child folding stock,
+rsa_sg58_pistol_qd_sling_endplate,stockless,,,,,,DS Arms SA58 pistol QD sling endplate,high,Pistol-configuration end plate with sling swivel in place of a stock; the no-stock option,special: stockless option for sa58_stock
+rsa_sg58_polymer_humpback_stock,stock_fixed,,,,,,FAL Type 3 / humpback polymer fixed stock,high,Fixed polymer FAL rifle stock and set default,
+rsa_sg58_wood_humpback_stock,stock_fixed,,,,,,FAL humpback wood fixed stock,high,Fixed wood FAL rifle stock,
+rsa_sg58_x_series_stock,stock_fixed,,,,,,DS Arms FAL X-Series synthetic buttstock,medium,Fixed synthetic FAL rifle stock,
+sb_tactical_vector_brace,stock_compact,,,,,,SB Tactical KRISS Vector pistol stabilizing brace,high,arm brace: the compact stock type carries the trade; no extra role (lead),special: brace is below even minimal stocks in steadiness; round 6 gave it negative stability
+sg58_wood_stock_buttpad,buttpad,,,,,,FAL wood stock buttplate,medium,Shoulder pad; stability only,
+si_ar_are_t7_buffer_tube,even,,,,,,Strike Industries Advanced Receiver Extension T7,high,Buffer tube host with small negative value; no lean.,
+si_viper_mod1_stock,stock_compact,,,,,,Strike Industries Viper Mod 1 stock,medium,Lightweight minimalist collapsible stock,
+sigma_tek_plank,even,,,,,,unidentified (MP-133/153 stock adapter),low,"Adapter hosting a stock and a rail; small negative value is extra length and joints, affects both",special: stock adapter whose value is a joint cost; real stock value sits on the child stock
+spuhr_g3_r410_stock_assembly_adapter,stock_precision,,,,,,Spuhr R-410 stock assembly for HK G3,medium,Adjustable precision stock for G3/PSG1 platform; precision type,special: value sits on the adapter while it hosts spuhr_r410_stock; check the child
+spuhr_g3_r410_stock_assembly_cheek_pad,zero,,,,,,Spuhr R-410 HK G3 stock cheek pad,high,Only-choice cheek pad with blank value; value sits on the stock assembly,special: if given value it should be cheek_riser
+spuhr_g3_r410_stock_assembly_stock,zero,,,,,,Spuhr R-410 adjustable stock for HK G3,high,No own value; would be stock_precision if ever valued,"special: blank E; it is a precision adjustable stock, value may sit on spuhr_r410_cheek_pad child"
+starsurp_apex_m4_socom_gen4_stock,stock_fixed,,,,,,DoubleStar ACE SOCOM Gen4 stock,medium,"Rigid fixed-length foam-filled skeleton stock with full cheek weld; fixed type, not adjustable.",special: round 6 treated it as adjustable; ACE SOCOM is fixed length
+starsurp_starsurp_apex_0.5_recoil_pad,buttpad,,,,,,DoubleStar ACE 0.5in recoil pad,high,Recoil pad for ACE stocks; shoulder contact only.,special: only-choice child of the ACE SOCOM stock
+strikon_scr_high_impact_polymer_stock,stock_fixed,,,,,,unidentified (Remington 870 fixed polymer stock),medium,Fixed polymer shotgun stock with buttpad slot; set default,
+strikon_scr_rubber_buttpad,buttpad,,,,,,unidentified (870 stock rubber recoil pad),medium,Shoulder pad; stability only,
+strikon_scr_wooden_rifle_stock,stock_fixed,,,,,,unidentified (Remington 870 wood stock),medium,Fixed wood shotgun stock,
+t_frs15_pad,buttpad,,,,,,Thordsen FRS-15 butt pad,high,Butt pad of the FRS-15; shoulder contact only,special: only-choice child of the FRS-15
+talvern_m7a1_pdw_base_stock,stock_compact,,,,,,Troy M7A1 PDW stock kit,high,PDW stock (Troy M7A1): the compact stock type carries the trade; no extra role (lead),special: proposal lists it as compact candidate; role on top of type since it is the most collapsed option in the set
+talvern_m7a1_pdw_extendable_stock,zero,,,,,,Troy M7A1 PDW stock (extending part),high,No own value; PDW stock part,"special: proposal gives Talvern M7A1 PDW stock the compact role; put it on the parent carrying the value, not this blank part (fixed role swing would invent stats here)"
+tas_aksfsa_ak74m/ak100_buffer_tube,zero,,,,,,CAA AKS/FSA AK-74M/AK-100 folding buffer tube,medium,Buffer tube adapter host; value sits on the AR stock.,
+tas_akts_akm_ak74_buffer_tube,zero,,,,,,CAA AKTS AKM/AK-74 buffer tube,medium,Buffer tube adapter host; value sits on the AR stock.,
+tas_cbs_ar15_stock,stock_adjustable,,,,,,CAA CBS collapsible buttstock,medium,Ordinary collapsible carbine stock,
+thordsen_frs15_cover_stock,stock_fixed,,,,,,Thordsen Customs FRS-15 buffer tube cover,medium,"Fixed-length featureless stock cover, not a brace: fixed solid shoulder",special: current rule treats it as a brace; it is a fixed featureless stock
+thordsen_frs_15_stock,stock_fixed,,,,,,Thordsen FRS-15 featureless stock,high,Fixed featureless stock with fin grip; fixed rifle stock,special: occupies the pistol grip slot and replaces the grip; its value also covers the grip
+tommybuilt_ump_tailhook_brace_adapter,zero,,,,,,TommyBuilt Tactical UMP Tailhook brace adapter,high,Brace host adapter; value sits on child brace,special: no slot and no weapons (orphan row)
+tsa_g,even,,,,,,unidentified,none,"No slot and unknown counterpart; large negative value reads as an adapter joint cost, affects both",special: no slot and no weapons (orphan row); other: E -15 with worse recoil at 2000 price looks odd for an unknown part
+ubr_gen2_stock,stock_fixed,,,,,,Magpul UBR Gen2 collapsible stock,medium,Heavy rigid collapsible stock built to feel like a solid fixed stock,special: only choice in its slot
+validus_la_stock,stock_adjustable,,,,,,Fortis LA (lever action) stock,high,Aluminum lever-lock collapsible carbine stock,
+veles_ak74m/ak100_pt_lock,zero,,,,,,Zenitco PT Lock (AK-74M/AK-100 folding),high,Stock adapter host; value sits on the mounted stock.,
+veles_akm_ak74_pt_lock,zero,,,,,,Zenitco PT Lock (AKM/AK-74 fixed-stock),high,Stock adapter host; value sits on the mounted stock.,
+veles_pt_1_klassika_base_part,zero,,,,,,Zenit PT-1 Klassika stock lock/base,high,Stock base container; value sits on child stock part,
+veles_pt_1_klassika_buttpad,stock_fixed,,,,,,Zenitco PT-1 Klassika stock,medium,Fixed-length solid AK-profile buttstock on tube,special: category says Buttpad but it is the whole PT-1 stock
+veles_pt_1_klassika_cheekpad,zero,,,,,,Zenit PT-1 Klassika stock cheek pad,high,Only-choice cheek pad with zero value,
+veles_pt_3_buttpad,stock_adjustable,,,,,,Zenitco PT-3 Klassika stock,medium,Slightly adjustable AK-profile stock with cheek rest; ordinary adjustable,special: category says Part/buttpad but it is the whole PT-3 stock body
+veles_pt_3_cheekpad,zero,,,,,,Zenit PT-3 stock cheek pad,high,Only-choice cheek pad with zero value,
+viper_rubber_pad,buttpad,,,,,,unidentified (rubber butt pad),low,Shoulder pad; stability only,
+vyctor_emod_stock,stock_adjustable,,,,,,VLTOR EMOD stock,high,Collapsible carbine stock with enlarged cheek weld,
+weapon_dynamics_ak_to_m4_gen2_stock_adapter,zero,,,,,,AK to M4 Gen2 buffer tube adapter (brand unidentified),medium,AR stock adapter host; value sits on the AR stock.,
+whtnls_xm177_car,stock_compact,,,,,,Colt XM177 two-position CAR stock,high,Early minimal aluminum two-position carbine stock,

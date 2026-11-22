@@ -21,7 +21,9 @@ stability spread would contradict the length rule.
 Set FACTOR to 1 (or empty FAMILIES) to switch this pass off.
 """
 
-FAMILIES = {"stock": 2.0, "handguard": 2.0, "pistol_grip": 2.0, "foregrip": 2.0}
+# Round 7 switched this pass off (SPLIT_PROPOSAL v3: no weight-driven lean, no doubled lean).
+# Round 6 used {"stock": 2.0, "handguard": 2.0, "pistol_grip": 2.0, "foregrip": 2.0}.
+FAMILIES = {}
 SHARE_MIN, SHARE_MAX = -0.25, 1.25   # at most a small negative in the other stat
 # no steepened stat may exceed this magnitude (or the item's own pre-lean value, if larger)
 CAP = {"stock": 25.0, "handguard": 25.0, "pistol_grip": 15.0, "foregrip": 12.0}

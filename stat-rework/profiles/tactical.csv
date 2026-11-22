@@ -1,0 +1,39 @@
+name,profile,role,role_strength,value,handling,stability,counterpart,confidence,why,flags
+archient_technologies_elysium_flashlight_module,handling,,,,,,unidentified (AK handguard-integrated light module),none,Weapon light module on an AK handguard slot; handling only,
+archient_technologies_elysium_laser_module,handling,,,,,,unidentified (AK handguard-integrated laser module),none,Laser module on an AK handguard slot; handling only,
+armytek_predator_prov3_xhp35_hi,handling,,,,,,Armytek Predator Pro v3 XHP35 HI flashlight,high,Handheld flashlight in a scope-ring mount; front bulk costs handling,
+be_meyers_mawl_c1+,handling,,,,,,B.E. Meyers MAWL-C1+,high,Weapon laser; handling only,
+centrefire_km1_e_ir_scout_light_head,handling,,,,,,SureFire KM1 visible/IR Scout light head,high,Weapon-light head; handling only,
+centrefire_lm1_b_bk_flashlight,handling,,,,,,SureFire LM1-B-BK 500 lm LED module,high,Lamp head for dedicated forend light; handling,special: not in any set and reaches no weapon; currently unused
+centrefire_lm1_bk_flashlight,handling,,,,,,SureFire LM1 LED head for 628 forend light,high,Lamp head for dedicated forend light; lights cost handling only,special: not in any set and reaches no weapon; currently unused
+centrefire_lm2_b_bk_flashlight,handling,,,,,,SureFire LM2-B-BK 1000 lm LED module,high,Lamp head for dedicated forend light; handling,special: not in any set and reaches no weapon; currently unused
+centrefire_lm2_bk_flashlight,handling,,,,,,SureFire LM2 6V LED conversion head,high,Lamp head for dedicated forend light; handling,special: not in any set and reaches no weapon; currently unused
+centrefire_r300u_b_flashlight,handling,,,,,,SureFire M300 Mini Scout (Ultra) light,medium,Scout weapon light; handling only,
+cosmotac_blue_lam_module,handling,,,,,,NcSTAR blue laser LAM module,high,Rail laser; front-end bulk only costs getting on target,
+est_pm_laser_sight,handling,,,,,,"Makarov trigger-guard laser (PM-Laser style, e.g. Lasermate LS04 class)",medium,Trigger-guard laser module; lasers cost handling only,special: only choice in an optional slot
+holosun_ls321g,handling,,,,,,Holosun LS321G,high,Compact laser/IR combo; handling only,
+holotec_eolad_2_civilian_sighting_system,handling,,,,,,Laser Devices EOLAD-2 (EOTech 552 hood laser),high,Laser module on a holo sight hood; bulk costs handling,
+holotec_eolad_2vi_socom_sighting_system,handling,,,,,,Laser Devices EOLAD-2VI (visible + IR),high,Laser module on a holo sight hood; bulk costs handling,
+holotec_owl_tactical_laser_module,handling,,,,,,EOTech OGL (On-Gun Laser),medium,Visible/IR aiming laser module; handling only,
+insight_technology_an_paq_4a_ir_laser,handling,,,,,,Insight AN/PAQ-4A IR aiming laser,high,IR aiming laser; front bulk costs handling,
+insight_technology_an_peq_2a_tpial,handling,,,,,,Insight AN/PEQ-2A TPIAL,high,Boxy IR laser/illuminator; handling only,
+insight_technology_an_peq_5_cvl,handling,,,,,,Insight AN/PEQ-5 Carbine Visible Laser,high,Small carbine visible laser; handling only,
+insight_technology_wmx200_fixed_mount_tactical_illuminator,handling,,,,,,Insight WMX200 weapon light,high,Rail weapon light; handling only,
+l3harrison_atpial_an_peq_15,handling,,,,,,L3Harris AN/PEQ-15 ATPIAL,high,IR/visible aiming laser; handling only,
+l3harrison_mipim_an_peq_16b,handling,,,,,,L3Harris AN/PEQ-16B MIPIM,high,Laser plus light combo; handling only,
+las_tac_2,handling,,,,,,EOTech LAS/TAC 2 flashlight,high,Rail weapon light; bulk on the front costs handling only,
+lasevex_p226_green_laser_guide_rod,handling,,,,,,LaserMax LMS-1131G guide rod laser (P226),high,"Internal guide rod laser, no added bulk; handling profile, V empty so 0",special: no old value; 0 is right as it adds no external bulk
+lasevex_p229_green_laser_guide_rod,handling,,,,,,LaserMax guide rod laser (P229),high,"Internal guide rod laser, no added bulk; handling profile, V empty so 0",special: P229 rod offered on the P226 weapon; check it is the P229 variant's slot
+nariakira_18650_series_light_body,handling,,,,,,Modlite 18650 light body,medium,Weapon-light body hosting head and tailcap; light bulk is handling,special: V 0; light value presumably on head/tailcap children
+nariakira_300_series_light_body,handling,,,,,,Modlite-compatible 300-series (Scout) light body,low,Weapon-light body hosting head and tailcap; light bulk is handling,special: V 0; light value presumably on head/tailcap children
+pm_laser_ltsu_pm_laser,even,,,,,,PM-Laser LTsU Makarov laser grip,high,Replacement pistol grip with built-in laser; a pistol grip first,misfiled: pistol grip (laser grip) not tactical
+sig_sauer_foxtrot1_flashlight,handling,,,,,,SIG Sauer FOXTROT1,high,Compact rail weapon light; handling only,
+sightmark_lopro_combo,handling,,,,,,Sightmark LoPro light/laser combo,high,Light-laser combo; handling only,
+sightmark_lopro_mini_combo,handling,,,,,,Sightmark LoPro Mini light/laser combo,high,Compact light-laser combo; handling only,
+tt_virginia_gear_tactical_lam_module_tt33,handling,,,,,,DLP Tactical precision laser module for TT-33 (underbarrel LAM),low,Underbarrel laser module; lasers cost handling only,
+ultrafire_wf501b_flashlight,handling,,,,,,UltraFire WF-501B flashlight,high,Cheap flashlight in a scope-ring mount; handling only,
+veles_klesch_2p_lcu,handling,,,,,,Zenit Klesch-2P flashlight with LCU,high,Weapon light with remote unit; handling only,
+veles_perst_3_classic_gen4_green,handling,,,,,,Zenit Perst-3 laser module,high,Weapon laser; handling only,
+wepmod_plhv2_light_head,handling,,,,,,Modlite PLHv2 light head,high,Weapon-light head; handling only,
+whitehouse_rush_qe_g14_high_power_laser_aiming_device,handling,,,,,,Wilcox RAID Xe High Power (G14),medium,Laser/illuminator aiming device; bulk on front costs handling,special: hosts caps and junction children; check whether any V sits on them
+whitehouse_rush_qe_g18_high_power_laser_aiming_device,handling,,,,,,Wilcox RAID Xe High Power (G18),medium,Laser/illuminator aiming device; same unit as G14 variant,special: pretty name says G14 but id is G18 - pretty name likely a copy-paste error

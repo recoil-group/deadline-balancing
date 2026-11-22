@@ -1,0 +1,244 @@
+name,profile,role,role_strength,value,handling,stability,counterpart,confidence,why,flags
+aft_bolt_release,reload_only,,,,,,FN SCAR 17 standard bolt release,high,"Stock bolt release; value is reload, none here (E 0).",
+aft_charging_handle,handling,,,,,,FN SCAR 16/17 standard reciprocating charging handle,high,Standard charging handle is a control; handling per family default.,"special: set has no default; standard handle carries E1 while enhanced handles go reload_only, so the stock handle ends up handier than the upgrades"
+aft_fire_selector,handling,,,,,,FN SCAR standard safety selector,high,"Stock selector; control, handling (E 0).",
+aft_mk20_gas_block,even,,,,,,FN SCAR 20S / Mk20 SSR low-profile gas block,medium,"Low-profile gas block with no front sight base; gas blocks are even, not a stability part.",other: bullet_velocity +100 and deviation -0.05 on a gas block look like barrel stats borrowed from the Mk20; consider moving them to the Mk20 barrel/upper;special: old override leaned this to handling for its slim front; v3 keeps gas blocks even
+aft_mk_16_bolt_carrier,even,,,,,,FN SCAR 16 (Mk16) bolt carrier,high,Only-choice carrier; even per family default.,special: only-choice part carrying E2 while the Mk17 carrier has E0; this is really SCAR-L base value and could move to the weapon base row
+aft_mk_16_gasblock,even,,,,,,FN SCAR 16 gas block / front sight base,high,Only-choice stock gas block; no effect (E 0).,
+aft_mk_17_bolt_carrier,even,,,,,,FN SCAR 17 (Mk17) bolt carrier,high,Stock carrier; no effect (E 0).,
+aft_mk_17_gasblock,even,,,,,,FN SCAR 17 gas block / front sight base,high,Stock gas block; no effect (E 0).,
+aft_oem_gas_selector,even,,,,,,FN SCAR OEM gas regulator,high,Stock gas regulator; no handling or stability effect (E 0).,
+aft_sc_stock_adjustment_lever,zero,,,,,,FN SCAR stock adjustment lever,high,Hidden sub-part of the SCAR stock with no stats.,
+aft_trigger,even,,,,,,FN SCAR standard trigger,high,Stock trigger; no effect (E 0).,
+ak12_std_5.45x39_bolt,even,,,,,,Kalashnikov AK-12 5.45 bolt,high,Only-choice bolt; no effect (E 0).,
+ak12_std_fire_selector,handling,,,,,,Kalashnikov AK-12 safety selector,high,"Stock selector; control, handling (E 0).",
+ak308_std_7.62x51_bolt,even,,,,,,Kalashnikov AK-308 7.62x51 bolt,high,Only-choice bolt; no effect (E 0).,
+apex_bolt_handle_for_scar,reload_only,,,,,,aftermarket SCAR charging handle (Raptor/PMM style),low,Enhanced SCAR charging handle; value is its reload.,
+aquila_defensio_aug_case_deflector,even,,,,,,unidentified aftermarket AUG case deflector,low,Aftermarket case deflector; no reason to lean,
+aquila_defensio_aug_charging_handle,handling,,,,,,unidentified aftermarket AUG charging handle,low,Aftermarket AUG control with small value and no reload; handling,reload: if this is an enlarged/extended handle it may deserve a small reload bonus like the Cerberus Raptor
+ar9_bolt,zero,,,,,,CMMG Mk9 bolt,high,Hidden carrier with no value.,special: no set or weapons listed; possibly orphaned
+ar_bolt,zero,,,,,,AR-15 bolt,high,Hidden internal with no stats; row has no class or set.,special: row has no studio class or set; possibly orphaned
+ardian_weapons_ar15_enhanced_bcg,even,,,,,,Strike Industries enhanced BCG,medium,"Premium carrier; simply nicer, even split",
+ardian_weapons_ar15_extended_bolt_catch,reload_only,,,,,,Strike Industries extended bolt catch,medium,Extended paddle speeds bolt release on reload; reload only,special: current 0.5 handling goes away under reload_only
+ardian_weapons_ar15_flat_vertex_fb_trigger,even,,,,,,Radian Weapons Vertex-FB flat trigger,high,3.5 lb flat-bow single-stage duty/performance trigger; not a match trigger,
+ardian_weapons_ar15_talon_ambi_2lever_fire_selector,handling,,,,,,Strike Industries Talon ambi 45/90 safety selector,high,"Short-throw ambi selector, faster to operate; handling",
+ardian_weapons_raptor_ambi_ar15_charging_handle,reload_only,,,,,,Radian Weapons Raptor ambidextrous charging handle,high,Large-latch ambi charging handle built for fast manipulation; value is its reload,
+arid_concepts_aug_45d_adjustable_charging_handle,zero,,,,,,Arid Concepts AUG adjustable charging handle (45 degree),medium,No stat value; angle choice is cosmetic,
+arid_concepts_aug_90d_adjustable_charging_handle,zero,,,,,,Arid Concepts AUG adjustable charging handle (90 degree),medium,No stat value; angle choice is cosmetic,
+arid_concepts_aug_improved_safety,handling,,,,,,Arid Concepts AUG improved safety,medium,Easier-to-operate safety; a control so handling,
+arid_concepts_aug_improved_trigger,even,,,,,,Arid Concepts AUG improved trigger,medium,Lighter pull AUG trigger; nicer at both,
+arid_concepts_aug_low_profile_case_deflector,even,,,,,,Arid Concepts AUG low-profile case deflector,medium,Ejection-side cover; small value with no reason to lean,
+ashguns_sic_p_series_modern_heritage_commander_hammer,zero,,,,,,Grayguns P-Series Modern Classic Commander Hammer,high,Hidden hammer; its benefit is in recoil; no ergonomics value.,
+ashguns_sic_p_series_straight_trigger,even,,,,,,Grayguns P-Series adjustable straight trigger,high,Aftermarket trigger; V=0; trigger default even.,
+aug_a1_std_charging_handle,zero,,,,,,Steyr AUG A1 charging handle,high,Standard control with no value,
+aug_a3_std_bolt_carrier,zero,,,,,,Steyr AUG A3 bolt carrier,high,Hidden only-choice internal with no effect,
+aug_a3_std_charging_handle,zero,,,,,,Steyr AUG A3 charging handle,high,Standard control with no value,
+aug_a3_std_gasblock,zero,,,,,,Steyr AUG A3 gas block,high,Only-choice container hosting foregrip and mount children; no own value,special: only-choice container
+aug_a3_std_trigger,even,,,,,,Steyr AUG A3 trigger,high,Factory trigger; family default even,
+axtell_defense_mk12_low_profile_gasblock,even,,,,,,PRI MK12 low-profile gas block,low,Gas block family even; zero value,
+b3nd3rze3_mechanical_advantage_aug_a3_trigger,even,,,,,,B3ND3RZE3 Mechanical Advantage AUG trigger (3D printed),medium,Leverage trigger that lightens the AUG pull; nicer at both,
+cerberus_arms_aug_raptor_charging_handle,reload_only,,,,,,Manticore Arms Raptor charging handle for Steyr AUG,high,Horizontal extended AUG charging handle; value is faster charging on reloads,
+cjam_ak_gbc13_gasblock,even,,,,,,JMAC Customs GBC-13 gas block combo,high,"Copy of East German 74NK front sight gas block combo; no stat reason to lean, even.",
+combat_arms_rack_charging_handle,reload_only,,,,,,unidentified enhanced AR-15 charging handle,low,Enhanced charging handle; value is its reload,
+corvus_mounts_m4_trigger_guard,reload_only,,,,,,Badger Ordnance M5 detachable bottom metal,medium,DBM with flared well and paddle release; exists to speed reload,"misfiled: really magwell/bottom metal (already in magwell set), not a trigger guard; special: old E 7 all leaves handling/stability under reload_only"
+diemaco_c7_ambi_charging_handle,reload_only,,,,,,Colt Canada (Diemaco) C7 ambidextrous charging handle,high,Ambidextrous charging handle; value is its reload,
+dynamic_development_group_ambi_scarging_handle,reload_only,,,,,,Kinetic Development Group (KDG) SCAR ambidextrous charging handle,medium,Ambi enhanced charging handle; value is its reload.,
+dynamic_development_group_talon_ambi_scar_45_90_safety_selector,handling,,,,,,Kinetic Development Group Talon ambi SCAR 45/90 safety selector,high,"Short-throw ambi safety; faster to operate, handling only.",
+ecm_gunslinger_charging_handle,reload_only,,,,,,BCM Gunfighter charging handle,high,Enhanced AR charging handle with larger latch; value is its reload.,
+edinburg_engineering_scarburator_gen3,even,,,,,,Mototech Engineering SCARburator Gen3 gas selector,high,"Adjustable gas regulator for suppressor tuning; value is loudness, E 0.",
+ews_bufferless_system_ar15_bcg,even,,,,,,Law Tactical ARIC bufferless BCG (or similar),low,"Self-contained recoil system BCG; nicer overall, no stat lean justified","special: real part exists to allow folding stocks; compact role possible if paired with folders, lead decides"
+ferro_ordnance_mc51_bolt_assembly,zero,,,,,,FR Ordnance MC51 bolt assembly,medium,Hidden only-choice internal with no effect,
+ferro_ordnance_mc51k_bolt_assembly,zero,,,,,,FR Ordnance MC51K bolt assembly,medium,Hidden only-choice internal with no effect,
+fireline_ak_enhanced_safety_fire_selector,handling,,,,,,AK enhanced safety selector (Krebs Custom / Linemount style),medium,"Enhanced safety with finger tab, faster to operate; handling, not stability.",special: round 6 gave it stability too (old +2 moved to both); v3 treats safeties as handling only
+fireline_pilgrim_aksu_spring_retainer,zero,,,,,,unidentified (aftermarket AKSU spring guide / cover retainer),low,Hidden spring retainer with no effect.,
+fireline_pm_straight_trigger,even,,,,,,unidentified (aftermarket Makarov straight trigger),low,"Aftermarket flat-face trigger; nicer shot break, neither stat favored",
+fort_worth_manufacturing_trigger,even,,,,,,CMC Triggers drop-in (Fort Worth),medium,Drop-in single-stage trigger; family default even,
+goforce_sic_p_series_drive_ledge_takedown_lever,even,,,,,,GoGun USA Gas Pedal CG takedown lever,high,Thumb-rest lever for recoil control; recoil -1/-1 already carries its benefit; V=0.,special: round-6 gave +1 stability from V=0; drop it or lead may add a small thumb-rest stability
+hart_m4a1_charging_handle,handling,,,,,,Colt M4 mil-spec charging handle,high,"Standard mil-spec charging handle; a plain control, no reload reason",
+hart_m4a1_std_trigger,even,,,,,,Colt M4 mil-spec trigger,high,Mil-spec single-stage trigger; family default even,
+hart_m4a1_trigger_guard,even,,,,,,Colt M4 standard trigger guard,high,Standard trigger guard; family default even,
+hera_arms_straight_pull_charging_handle,reload_only,,,,,,Hera Arms non-reciprocating side charging handle,medium,Non-reciprocating side charger; value is quick empty reloads,
+hi_dog_hdd_tactical_scarh_hitorque_gasblock,even,,,,,,unidentified,none,"SCAR-H aftermarket gas block, no real counterpart found; gas block family default even.",
+hk_g3_bolt_assembly,zero,,,,,,HK G3 bolt assembly,high,Hidden only-choice internal with no effect,
+hk_g3_cocking_support,zero,,,,,,HK G3 cocking tube,high,Hidden container hosting the charging handle,
+hk_g3_fire_selector,zero,,,,,,HK G3 fire selector,high,Only-choice control with no value,
+hk_g3_std_trigger,zero,,,,,,HK G3 standard trigger group,high,Standard trigger group with no value,
+hk_mp5_std_9x19_bolt_assembly,zero,,,,,,HK MP5 bolt assembly,high,Hidden only-choice internal with no effect,
+hk_mp5_std_charging_handle,zero,,,,,,HK MP5 cocking handle,high,Standard control with no value,
+hk_mp5_std_cocking_support,zero,,,,,,HK MP5 cocking tube,high,Hidden container hosting the charging handle,
+hk_mp5_std_fire_selector,zero,,,,,,HK MP5 fire selector,high,Only-choice control with no value,
+hk_psg1_bolt_assembly,zero,,,,,,HK PSG1 bolt assembly,high,Hidden only-choice internal with no effect,other: weight 0 while the G3 bolt is 0.3 dw; PSG1 bolt should weigh about the same
+hk_psg1_fa_plunger,zero,,,,,,HK PSG1 receiver bolt plunger,medium,Hidden only-choice internal with no effect,
+hk_psg1_trigger,zero,marksman,,,,,HK PSG1 precision trigger group,high,Adjustable-shoe precision trigger built for a set-up sniper rifle; poor fit on an MP5,special: role placed on this competing parent; its only-choice child hk_psg1_trigger_shoe keeps the even value
+hk_psg1_trigger_shoe,even,,,,,,HK PSG1 adjustable trigger shoe,high,Only-choice child of the PSG1 trigger; trigger family default even,special: only-choice child; the marksman role sits on hk_psg1_trigger
+hk_ump_bolt_catch,reload_only,,,,,,HK UMP bolt catch,high,Bolt catch; value would be reload only; currently zero.,
+hk_ump_charging_handle,handling,,,,,,HK UMP charging handle,high,Standard charging handle; V=0.,
+hk_ump_cocking_tube,zero,,,,,,HK UMP cocking tube,high,Container hosting the charging handle; no value.,special: container part
+hk_ump_fire_selector,zero,,,,,,HK UMP selector,high,Factory selector with no value.,
+hk_ump_trigger,even,,,,,,HK UMP trigger group,high,Only trigger for the UMP; trigger default even.,special: only choice on UMP
+infantry_bolt,zero,,,,,,Mosin-Nagant M91/30 bolt body,high,Container; value sits on the child bolt handle,
+ivan_bolt_handle,handling,,,,,,unidentified (aftermarket Mosin enlarged bolt knob),low,"Enlarged bolt knob, easier to work the action; handling",
+izhevsk_pm_9x18_firing_pin,zero,,,,,,Makarov PM firing pin,high,"Hidden only-choice internal, no value",
+izhevsk_pm_spring_retainer,zero,,,,,,Makarov PM spring retainer,high,"Hidden only-choice internal, no value",
+izhevsk_pm_std_9x18_ejector,zero,,,,,,Makarov PM ejector,high,"Hidden only-choice internal, no value",
+izhevsk_pm_std_hammer,zero,,,,,,Makarov PM hammer,high,"Hidden only-choice internal, no value",
+izhevsk_pm_std_safety,zero,,,,,,Makarov PM slide safety,high,Only-choice control with no value,
+izhevsk_pm_std_trigger,even,,,,,,Makarov PM standard trigger,high,"Trigger family even; set default, no value",special: old E is blank; treat as 0
+izhevsk_pm_trigger_guard,zero,,,,,,Makarov PM trigger guard,high,Only-choice part with no value; hosts the guard mount,
+jp_enterprises_5b_gasblock,even,,,,,,JP Enterprises JPGS-5B adjustable gas block,high,Gas block family even; small negative value,
+kalis_scalar_gen1_front_fire_selector,handling,,,,,,KRISS Vector Gen I selector (front),high,Fire selector you operate; handling.,special: only choice in its slot
+kalis_scalar_gen1_rear_fire_selector,handling,,,,,,KRISS Vector Gen I selector (rear),high,Fire selector you operate; handling.,special: only choice in its slot
+kalis_scalar_gen1_trigger,zero,,,,,,KRISS Vector Gen I trigger,high,Factory trigger with no value.,
+kalis_scalar_gen2_3_front_fire_selector,handling,,,,,,KRISS Vector Gen II/III selector (front),high,Fire selector you operate; handling.,special: only choice in its slot
+kalis_scalar_gen2_3_rear_fire_selector,handling,,,,,,KRISS Vector Gen II/III selector (rear),high,Fire selector you operate; handling.,special: only choice in its slot
+kalis_scalar_gen2_trigger,zero,,,,,,KRISS Vector Gen II trigger,high,Factory trigger with no value.,
+kalis_scalar_gen3_bolt_catch,reload_only,,,,,,KRISS Vector Gen III bolt catch,high,Bolt catch; value would be reload only; currently zero.,
+kalis_scalar_gen3_trigger,zero,,,,,,KRISS Vector Gen III trigger,high,Factory trigger with no value.,other: price 300 on an only-choice zero-stat part looks odd
+kalis_scalar_std_bcg,zero,,,,,,KRISS Vector bolt assembly,high,Hidden carrier with no value.,
+kalis_scalar_std_bolt_catch,reload_only,,,,,,KRISS Vector bolt catch,high,Bolt catch; value would be reload only; currently zero.,
+kalis_scalar_std_bolt_catch_block,zero,,,,,,KRISS Vector bolt catch block,high,Hidden internal part with no effect.,
+kalis_scalar_std_charging_handle,handling,,,,,,KRISS Vector charging handle,high,Standard charging handle; control default is handling.,special: only choice on SCALAR
+kalis_scalar_std_fire_control_group,zero,,,,,,KRISS Vector fire control group,high,Hidden internal with no value.,
+kalis_scalar_std_recoil_spring,zero,,,,,,KRISS Vector recoil spring,high,Hidden internal with no value.,
+kazarov_ak100_series_spring_retainer,zero,,,,,,Kalashnikov AK-100 series recoil spring guide/retainer,high,Hidden spring retainer with no effect.,
+kazarov_ak105_gasblock,even,,,,,,Kalashnikov AK-105 front sight gas block,high,Only-choice gas block hosting muzzle and front sight; even per family default.,special: only-choice part with E1; could fold into the weapon base
+kazarov_ak74_5.45x39_bolt,even,,,,,,Kalashnikov AK-74 bolt,high,Only-choice stock bolt; no effect (E 0).,
+kazarov_ak74_5.45x39_bolt_carrier,even,,,,,,Kalashnikov AK-74 bolt carrier,high,"Only-choice stock carrier; container for bolt and handle, no effect (E 0).",
+kazarov_ak74_bolt_piston,zero,,,,,,Kalashnikov AK-74 gas piston,high,Hidden only-choice sub-part with no effect.,
+kazarov_ak74_fire_selector,handling,,,,,,Kalashnikov AK-74 safety selector,high,Stock selector; handling (E 0).,
+kazarov_ak74_gasblock,even,,,,,,Kalashnikov AK-74 front sight gas block,high,Only-choice gas block; no effect (E 0).,
+kazarov_ak74_spring,zero,,,,,,Kalashnikov AK-74 recoil spring,high,Hidden recoil spring with no effect.,
+kazarov_ak74_spring_retainer,zero,,,,,,Kalashnikov AK-74 recoil spring guide,high,Hidden spring retainer with no effect.,
+kazarov_ak74_trigger,even,,,,,,Kalashnikov AK-74 trigger,high,Stock trigger; even per family default (E 0).,
+kazarov_ak74_trigger_guard,even,,,,,,Kalashnikov AK-74 trigger guard,high,Only-choice trigger guard; even per family default (E 0).,
+kazarov_akm_7.62x39_bolt,even,,,,,,Kalashnikov AKM bolt,high,Only-choice stock bolt; no effect (E 0).,
+kazarov_akm_7.62x39_bolt_carrier,even,,,,,,Kalashnikov AKM bolt carrier,high,"Only-choice stock carrier; container for bolt and handle, no effect (E 0).",
+kazarov_akm_bolt_piston,zero,,,,,,Kalashnikov AKM gas piston,high,Hidden only-choice sub-part with no effect.,
+kazarov_akm_gasblock,even,,,,,,Kalashnikov AKM front sight gas block,high,Only-choice gas block; no effect (E 0).,
+kazarov_akm_spring,zero,,,,,,Kalashnikov AKM recoil spring,high,Hidden recoil spring with no effect.,
+kazarov_akm_spring_retainer,zero,,,,,,Kalashnikov AKM recoil spring guide,high,Hidden spring retainer with no effect.,
+kazarov_akm_trigger,even,,,,,,Kalashnikov AKM trigger,high,Stock trigger; even per family default (E 0).,
+kazarov_akm_trigger_guard,even,,,,,,Kalashnikov AKM trigger guard,high,Only-choice trigger guard; even per family default (E 0).,
+kazarov_aks74_spring,zero,,,,,,Kalashnikov AKS-74 recoil spring,high,Hidden recoil spring with no effect.,
+kazarov_aks74_spring_retainer,zero,,,,,,Kalashnikov AKS-74 recoil spring guide,high,Hidden spring retainer with no effect.,
+kazarov_aks74u_5.45x39_bolt,even,,,,,,Kalashnikov AKS-74U bolt,high,Only-choice stock bolt; no effect (E 0).,
+kazarov_aks74u_5.45x39_bolt_carrier,even,,,,,,Kalashnikov AKS-74U bolt carrier,high,"Only-choice stock carrier; container for bolt and handle, no effect (E 0).",
+kazarov_aks74u_bolt_piston,zero,,,,,,Kalashnikov AKS-74U gas piston,high,Hidden only-choice sub-part with no effect.,
+kazarov_pp-19-01_vityaz_9x19_bolt_carrier,even,,,,,,Kalashnikov PP-19-01 Vityaz bolt carrier,high,"Only-choice stock carrier; container for bolt and handle, no effect (E 0).",
+kazarov_pp-19-01_vityaz_bolt_piston,zero,,,,,,Kalashnikov PP-19-01 Vityaz piston/guide,high,Hidden only-choice sub-part with no effect.,
+kazarov_pp-19-01_vityaz_fire_selector,handling,,,,,,Kalashnikov PP-19-01 Vityaz safety selector,high,Stock selector; handling (E 0).,
+kazarov_pp-19-01_vityaz_spring,zero,,,,,,Kalashnikov PP-19-01 Vityaz recoil spring,high,Hidden recoil spring with no effect.,
+kazarov_pp-19-01_vityaz_spring_retainer,zero,,,,,,Kalashnikov PP-19-01 Vityaz recoil spring guide,high,Hidden spring retainer with no effect.,
+kazarov_pp-19-01_vityaz_trigger,even,,,,,,Kalashnikov PP-19-01 Vityaz trigger,high,Stock trigger; even per family default (E 0).,
+kazarov_pp-19-01_vityaz_trigger_guard,even,,,,,,Kalashnikov PP-19-01 Vityaz trigger guard,high,Only-choice trigger guard; even per family default (E 0).,
+kf_416_bolt_carrier_group,zero,,,,,,HK416 bolt carrier group,high,Hidden only-choice internal with no effect,
+kf_416_default_gas_piston,zero,,,,,,HK416 gas piston,high,"Hidden only-choice internal, no effect",
+kf_416_e1_ambi_charging_handle,reload_only,,,,,,HK416 E1-style ambidextrous charging handle,medium,Ambidextrous charging handle; value is its reload,
+kf_416_forward_assist,zero,,,,,,HK416 forward assist,high,Only-choice control with no value; nothing to split,
+kf_416_trigger,even,,,,,,HK416 factory trigger,high,Mil-spec style factory trigger; family default even,
+kf_416a5_adjustable_gas_block,even,,,,,,HK416A5 adjustable gas regulator block,high,Gas block family even; zero value today,
+kf_416a5_ambi_fire_selector,handling,,,,,,HK416A5 ambi selector,high,"Ambi selector, operated control; handling",
+kf_416a5_bolt_carrier_group,zero,,,,,,HK416A5 bolt carrier group,high,Hidden only-choice internal with no effect,
+kf_416a5_enhanced_ambi_bolt_catch,reload_only,,,,,,HK416A5 ambidextrous bolt catch/release,high,Ambi bolt release speeds reload; reload only,special: current 0.5 handling goes away under reload_only
+kf_416a5_trigger_guard,even,,,,,,HK416A5 enlarged (glove) trigger guard,high,Enlarged glove-friendly guard; simply nicer at both,
+kf_416c_adjustable_gas_block,even,,,,,,HK416C gas block with folding front sight base,medium,Gas block family even; zero value; hosts the folding front sight,
+kf_416c_bolt_carrier_group,zero,,,,,,HK416C bolt carrier group,high,Hidden only-choice internal with no effect,
+kf_416d_bolt_catch,reload_only,,,,,,HK416D bolt catch,high,Bolt catch; value is reload; zero today,
+kf_416d_fire_selector,handling,,,,,,HK416D ambi selector,high,Selector is an operated control; handling; zero today,
+kf_416d_trigger_guard,even,,,,,,HK416D trigger guard,high,Standard trigger guard; no stat reason to lean,
+kfp_knurled_extended_mpi54_charging_handle,reload_only,,,,,,extended knurled MP5 cocking handle,medium,Extended cocking handle to speed the HK slap; value is its reload,
+kosch_3d_printed_auto_sear,even,,,,,,Glock auto sear (printed switch),high,"Full-auto conversion; negative E is a controllability tax, not tied to one stat",special: negative V on both stats; if lead wants the tax mostly on stability (full-auto pistol is unsteady) use a stability-weighted split instead of even
+kosch_ambidextrous_mag_catch,reload_only,,,,,,Glock Gen5 ambidextrous magazine catch,high,Ambi release speeds mag change; value is its reload,special: current 0.2 handling goes away under reload_only
+kosch_default_extractor,zero,,,,,,Glock extractor,high,"Hidden only-choice internal, no effect",
+kosch_default_mag_catch,reload_only,,,,,,Glock standard magazine catch,high,Magazine control; value is reload; zero today,
+kosch_default_recoil_spring,zero,,,,,,Glock recoil spring assembly,high,"Hidden only-choice internal, no effect",
+kosch_default_trigger,even,,,,,,Glock standard trigger,high,Trigger family even; zero value,
+kosch_default_trigger_bar,zero,,,,,,Glock trigger bar,high,"Hidden only-choice internal, no effect",
+kosch_default_trigger_safety,even,,,,,,Glock trigger safety lever (blade),high,Trigger part; triggers are even,"special: only-choice part with E 1, so its value is effectively base; could fold into the KOSCH base row"
+kosch_metal_auto_sear,even,,,,,,Glock auto sear (machined switch),high,"Full-auto conversion; negative E is a controllability tax, not tied to one stat",special: same as printed sear; keep both sears on one profile
+lasevex_sic_p_series_takedown_lever,handling,,,,,,LaserMax SIG P226 guide-rod laser (takedown-lever switch),medium,Laser switch lever; laser default handling; not a thumb rest so drop round-6 stability.,special: round-6 gave +1 stability as thumb rest; real part is a laser switch
+launchtron_psrl_2_hammer,zero,,,,,,AirTronic PSRL-1 hammer,medium,"Hidden only-choice internal, no value",
+launchtron_psrl_2_safety,zero,,,,,,AirTronic PSRL-1 safety,medium,Only-choice control with no value,
+launchtron_psrl_2_trigger,zero,,,,,,AirTronic PSRL-1 trigger,medium,Only-choice part with no value,
+lockwood_impact_700_safety,handling,,,,,,Timney Impact 700 safety,high,Safety lever you operate; control default is handling.,special: only choice on Remington700
+lockwood_impact_700_trigger,even,,,,,,Timney Impact 700 trigger,high,Drop-in precision trigger; trigger default even; only choice so a marksman role would steer nothing.,special: only choice on Remington700; marksman role would only shift base values
+lockwood_trigger,even,,,,,,unidentified AR-15 drop-in trigger,low,Drop-in trigger changes the shot break; neither stat,
+m4a1_556_bolt,even,,,,,,Colt M4 standard BCG,high,"Carrier family even; set default, zero value",
+m4a1_std_bolt_catch,reload_only,,,,,,Colt M4 standard bolt catch,high,Bolt catch; value is reload; zero today,
+m4a1_std_fire_selector,handling,,,,,,Colt M4 standard selector,high,Selector is an operated control; handling; zero today,
+magtap_ar15_bar_lever,reload_only,,,,,,Magpul B.A.D. Lever (Battery Assist Device),high,Bolt catch extension to lock and release the bolt from the grip; pure reload part.,"special: only-choice slot with no default, so it is an optional add-on"
+magtap_enhanced_ar15_mag1186_polymer_trigger_guard,even,,,,,,Magpul MAG1186 Enhanced Trigger Guard (polymer),high,Enlarged polymer trigger guard; comfort part with no lean,
+metrik_precision_sic_p_series_skeletonized_trigger,even,,,,,,unidentified (aftermarket skeletonized SIG P-series trigger),low,Aftermarket trigger; trigger default even.,
+monarch_ballistics_buffered_scar_bolt_carrier,even,,,,,,Imperial Arms Co. Cypher NRCH buffered SCAR 17 bolt carrier,medium,"Hydraulic buffered carrier; benefit is recoil, small E cost split evenly.",
+mosin_default_bolt,handling,,,,,,Mosin-Nagant bolt with integrated handle,medium,"Bolt with integrated handle; operated control, handling like bolt handles",special: no child handle slot so it doubles as the bolt handle
+mosin_infantry_bolt_handle,handling,,,,,,Mosin-Nagant M91/30 straight bolt handle,high,Bolt handle is an operated control; handling,"special: bolt_handle set has no default; V in current note is 4, not old E 3"
+mosin_std_bolt_assembly,zero,,,,,,Mosin-Nagant bolt assembly,high,Only-choice part with no value,
+mp133_bolt,zero,,,,,,Baikal MP-133 bolt,high,Only-choice internal with no value,
+novacek_love_ar15_charging_handle,reload_only,,,,,,unidentified enhanced AR-15 charging handle,low,Enhanced charging handle with a reload bonus; family rule reload only,special: set default is an enhanced handle while a plain mil-spec handle exists in the set
+pmm_scar_battery_control_bolt_release,reload_only,,,,,,PMM (Primary Machine) SCAR battery control bolt release,medium,Enlarged bolt release for faster reloads; reload only.,
+r700_std_bolt_handle,handling,,,,,,Remington 700 standard bolt handle,high,Bolt handle you operate; V=0 so no value.,special: no class or set listed; possibly orphaned
+r870_shell_extractor,zero,,,,,,Remington 870 extractor,high,"Hidden only-choice internal, no effect",
+r870_std_bolt,zero,,,,,,Remington 870 bolt,high,Container hosting handguard and extractor; no own value,
+r870_std_trigger,zero,,,,,,Remington 870 trigger group,high,Only-choice part with no value,
+ravaryn_arms_sic_p_series_skeletonized_hammer,zero,,,,,,unidentified (aftermarket skeletonized SIG P-series hammer),low,Hidden hammer; its benefit is in recoil; no ergonomics value.,
+resolute_bolt,handling,,,,,,"unidentified (aftermarket Mosin bolt, likely bent-handle conversion)",low,Bolt with integrated handle; operated control so handling like bolt handles,"misfiled: really a bolt handle (integrated, no child handle slot); treat as bolt handle"
+retrospect_cnc_ak_model_a_fire_selector,handling,,,,,,"unidentified (CNC enhanced AK selector, possibly airsoft-derived)",low,"Enhanced AK selector, easier to operate; handling per family default.",
+rise_blitz_trigger,even,,,,,,RISE Armament Blitz single-stage trigger,high,3-3.5 lb speed/performance single-stage trigger with fast reset; not a precision trigger,
+roosevelt_model_700_.308_bolt_face,zero,,,,,,Remington 700 bolt body,high,Container for bolt plug and firing pin; no value,
+roosevelt_model_700_bolt_plug,zero,,,,,,Remington 700 bolt shroud,high,"Hidden only-choice internal, no effect",
+roosevelt_model_700_factory_recoil_lug,zero,,,,,,Remington 700 factory recoil lug,high,Hidden action part with no handling or sway effect.,
+roosevelt_model_700_firing_pin,zero,,,,,,Remington 700 firing pin,high,"Hidden only-choice internal, no effect",
+roosevelt_walker_model_700_safety,zero,,,,,,Remington 700 Walker safety,high,Factory safety with no value; nothing to split.,special: only choice on Remington700
+roosevelt_walker_model_700_trigger,zero,,,,,,Remington 700 Walker trigger,high,Factory trigger with no value.,special: only choice on Remington700
+rsa_sg58_7.62x51_bolt,zero,,,,,,DSA SA58 bolt,high,Hidden carrier/bolt with no value; hosts gas piston.,special: container hosting sa58_gas_piston
+rsa_sg58_pistol_gas_piston,even,compact,,,,,DSA SA58 pistol-length gas system,medium,Gas system made for short-barrel SA58 pistols and carbines; a CQB-length build part.,special: only makes sense with a short SA58 barrel; consider tying to barrel choice
+rsa_sg58_rifle_gas_piston,even,,,,,,DSA SA58 rifle-length gas system,high,Default rifle-length gas system; no value.,
+sanxian_qbz95_bolt,zero,,,,,,Norinco QBZ-95 bolt carrier,high,Hidden carrier with no value.,
+sanxian_qbz95_fire_selector,zero,,,,,,Norinco QBZ-95 selector,high,Factory selector with no value.,
+sanxian_qbz95_gasblock,zero,,,,,,Norinco QBZ-95 gas block,high,Gas block with no value; hosts front sight post.,special: container hosting front iron sight post
+sanxian_qbz95_trigger,zero,,,,,,Norinco QBZ-95 trigger,high,Factory trigger with no value.,
+sg58_std_charging_handle,handling,,,,,,DSA SA58 standard charging handle,high,Standard charging handle; control default is handling.,special: only choice on SA58
+sg58_std_fire_selector,zero,,,,,,DSA SA58 selector,high,Factory selector with no value.,
+sic_sturmer_p226_oem_guide_rod,zero,,,,,,SIG P226 guide rod,high,Hidden internal with no value.,
+sic_sturmer_p229_oem_guide_rod,zero,,,,,,SIG P229 guide rod,high,Hidden internal with no value.,
+sic_sturmer_p_series_oem_decocking_lever,zero,,,,,,SIG P-series decocking lever,high,Factory control with no value.,
+sic_sturmer_p_series_oem_hammer,zero,,,,,,SIG P-series hammer,high,Default hammer with no value.,
+sic_sturmer_p_series_oem_trigger,even,,,,,,SIG P-series trigger,high,Default trigger with no value.,
+sic_sturmer_sic_p_series_oem_takedown_lever,handling,,,,,,SIG P-series takedown lever,high,Factory control lever; control default handling.,
+sig_sauer_p320_10mm_takedown_safety_lever,handling,,,,,,SIG P320 takedown safety lever,medium,Filed as a safety control; handling,special: real part is an internal disconnect the shooter never operates; only-choice E 1 could fold into base or zero
+sig_sauer_p320_extractor,zero,,,,,,SIG P320 extractor,high,"Hidden only-choice internal, no effect",
+sig_sauer_p320_flat_trigger,even,,,,,,SIG P320 flat trigger,high,"Trigger family even; set default, zero value",
+sig_sauer_p320_skeletonized_enhanced_trigger,even,,,,,,SIG P320 X-Series skeletonized flat trigger,medium,"Flat performance trigger; changes the break, neither stat favored",
+sig_sauer_p320_takedown_lever,zero,,,,,,SIG P320 takedown lever,high,Only-choice part with no value,
+sig_sauer_p320_xcarry_recoil_spring,zero,,,,,,SIG P320 X-Carry recoil spring,high,"Hidden only-choice internal, no effect",
+sig_sauer_p320_xfull_recoil_spring,zero,,,,,,SIG P320 X-Full recoil spring,high,"Hidden only-choice internal, no effect",
+smite_industries_polyflex_ar15_trigger_guard,even,,,,,,Strike Industries polymer trigger guard,medium,Polymer enhanced trigger guard; comfort part with no lean,other: weight 0.08 dw (about 94 g) looks heavy for a polymer trigger guard
+sno_vulkan_rpg_7_hammer,zero,,,,,,RPG-7 hammer,high,Hidden firing part with no effect.,
+sno_vulkan_rpg_7_safety,zero,,,,,,RPG-7 safety,high,Fixed safety with no value.,
+sno_vulkan_rpg_7_trigger,zero,,,,,,RPG-7 trigger,high,Fixed trigger with no value.,
+sno_vulkan_rpg_7n2_tube_additions,zero,,,,,,RPG-7N2 tube furniture,high,Container hosting mount/grip/rail children; value sits on children.,special: container part
+steyr_aug_a3_std_safety,zero,,,,,,Steyr AUG A3 crossbolt safety,high,Standard control with no value,
+steyr_aug_case_deflector,even,,,,,,Steyr AUG factory case deflector,high,Factory case deflector; small value with no reason to lean,
+steyr_aug_para_9x19_gasblock,zero,,,,,,Steyr AUG Para 9mm barrel/gas block assembly,medium,Container hosting the foregrip; no own value,
+steyr_aug_para_9x19_std_bolt_carrier,zero,,,,,,Steyr AUG Para 9mm bolt,high,Hidden only-choice internal with no effect,
+steyr_aug_z_9x19_gasblock,zero,,,,,,Steyr AUG 9mm shortened barrel/gas block assembly,medium,Container hosting the foregrip; no own value,
+strikon_scr_ar15_frt_trigger,even,,,,,,Rare Breed FRT-15 style forced-reset trigger,medium,Forced-reset trigger; its effect is cadence not handling or sway; trigger default even.,other: real FRT raises fire rate; sheet has none on this auto-capable M4A1 and E=2 looks generous
+strikon_scr_ar15_safety,handling,,,,,,unidentified (AR-15 safety selector),low,Safety selector you operate; handling.,special: only choice on M4A1
+strikon_scr_ar15_trigger,even,,,,,,unidentified (AR-15 mil-spec trigger),low,Default trigger with no value.,
+strikon_scr_rifle_bcg,even,,,,,,FightLite SCR lightweight bufferless carrier,low,"Lightweight carrier, nicer cycling; no reason to favor one stat",special: real SCR carrier only works in the SCR bufferless lower; recoil carries its real benefit
+t97.ca_qbz95_fire_selector,handling,,,,,,T97.ca QBZ-97 selector,medium,Fire selector you operate; handling.,special: only choice on QBZ95
+t97.ca_qbz95_trigger,even,,,,,,T97.ca QBZ-97 trigger upgrade kit,medium,Aftermarket bullpup trigger improvement; trigger default even.,special: only choice on QBZ95
+tactispec_victory_charging_handle,reload_only,,,,,,unidentified enhanced AR-15 charging handle,low,Enhanced charging handle; value is its reload,
+talvern_enhanced_ar15_trigger_guard,even,,,,,,unidentified enhanced AR-15 trigger guard,low,Enhanced trigger guard; family default even,
+talvern_m7a1_pdw_ar15_bcg,even,,,,,,Troy M7A1 PDW proprietary carrier,medium,carrier: no handling or stability effect of its own; role struck (lead),"special: real part only makes sense with the Talvern M7A1 PDW stock; if not linked in game, drop the role"
+tc_enforcer_charging_handle,reload_only,,,,,,Timber Creek Enforcer charging handle,medium,Enhanced extended-latch charging handle; value is its reload,
+tc_enforcer_small_charging_handle,reload_only,,,,,,Timber Creek Enforcer charging handle (small latch),medium,Enhanced extended-latch charging handle; value is faster charging on reloads,
+tsa_custom_trigger,even,,,,,,unidentified custom AR-15 trigger,low,Aftermarket trigger; no evidence of a precision design,
+tss_custom_ak_bolt_on_oversize_gen3_charging_handle,reload_only,,,,,,bolt-on oversize AK charging handle (Kalashnikov USA / TWS Hob Knob style),low,Oversized clamp-on AK charging handle; value is its reload.,"special: set has no default, so a gun with neither handle gets the stock knob; both options go to reload only"
+tt33_hammer,zero,,,,,,Tokarev TT-33 hammer,high,Hidden internal with no value.,
+tt33_hammer_group,zero,,,,,,Tokarev TT-33 hammer group,high,Hidden internal with no value.,
+tt33_trigger,zero,,,,,,Tokarev TT-33 trigger,high,Factory trigger with no value.,
+vallais_super_fang_trigger,even,marksman,,,,,Geissele Super SCAR two-stage trigger,high,"Two-stage SSA-derived precision trigger, stock on SCAR 20S; minor marksman role.",
+veles_rp1_ak_charging_handle,reload_only,,,,,,Zenitco RP-1 charging handle,high,Enlarged AK charging handle; value is its reload.,
+whitner_defense_edc_x9_hammer,zero,,,,,,Wilson Combat EDC X9 hammer,medium,Hidden only-choice internal with no effect,
+windsor_armory_railed_ar15_gasblock,even,,,,,,Windham Weaponry railed gas block,low,Gas block family even; zero value; hosts rail and swivel,

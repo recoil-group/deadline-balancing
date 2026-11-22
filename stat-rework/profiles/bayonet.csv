@@ -1,0 +1,12 @@
+name,profile,role,role_strength,value,handling,stability,counterpart,confidence,why,flags
+buck_knives_m9_phrobis_iii_bayonet_blade,handling,,,,,,Buck M9 Phrobis III bayonet,high,Bayonet on the muzzle: length and front mass cost handling,special: use the net assembly value -2 (blade -3 plus grip +1) as V
+buck_knives_m9_phrobis_iii_bayonet_grip,zero,,,,,,Buck M9 Phrobis III bayonet handle,high,Bayonet sub-part; its +1 is already folded into the blade,special: assembly value lives on the blade; keep at zero
+goliath_tactical_aug_bayonet_lug,handling,,,,,,Steyr AUG barrel bayonet-lug adapter,medium,Muzzle clamp that hosts an M9 bayonet; bayonet hardware costs handling,
+izhevsk_akm_type1_bayonet_blade,handling,,,,,,AKM 6H3 bayonet,high,Bayonet adds length and mass at the muzzle; costs handling,special: V -4 is the whole assembly incl. grip/sling sub-parts' +1s per current note
+izhevsk_akm_type1_bayonet_grip,zero,,,,,,AKM 6H3 bayonet handle,high,Bayonet sub-part; weight only; its +1 already folded into the blade,special: keep zero so the +1 is not counted twice
+izhevsk_akm_type1_bayonet_sling,zero,,,,,,AKM 6H3 scabbard strap,high,Bayonet sub-part; weight only; its +1 already folded into the blade,special: keep zero so the +1 is not counted twice
+izhevsk_akm_type2_bayonet_blade,handling,,,,,,AKM 6H4 bayonet,high,Bayonet adds length and mass at the muzzle; costs handling,special: V -4 is the whole assembly incl. grip/sling sub-parts' +1s per current note
+izhevsk_akm_type2_bayonet_grip,zero,,,,,,AKM 6H4 bayonet handle,high,Bayonet sub-part; weight only; its +1 already folded into the blade,special: keep zero so the +1 is not counted twice
+izhevsk_akm_type2_bayonet_sling,zero,,,,,,AKM 6H4 scabbard strap,high,Bayonet sub-part; weight only; its +1 already folded into the blade,special: keep zero so the +1 is not counted twice
+ontarioknife_m11_eod_knife_blade,handling,,,,,,Ontario Knife M11 EOD utility knife,high,"Fixed-blade EOD utility knife, not a true bayonet; front bulk, handling only",special: real item is a utility knife with no muzzle ring; net V -3 incl. grip;special: not in any set and reaches no weapon; currently unused
+ontarioknife_m11_eod_knife_grip,zero,,,,,,Ontario Knife M11 EOD knife handle,high,Knife sub-part; value folded into the blade,special: sub-part of the M11 blade;special: not in any set and reaches no weapon; currently unused

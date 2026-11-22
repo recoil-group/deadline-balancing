@@ -1,0 +1,78 @@
+name,profile,role,role_strength,value,handling,stability,counterpart,confidence,why,flags
+15mm_cqr,buttpad,,,,,,HERA Arms CQR 15mm buttstock spacer,high,Length-of-pull spacer for the CQR stock; shoulder contact only,misfiled: stock LOP spacer
+30mm_cqr,buttpad,,,,,,HERA Arms CQR 30mm buttstock spacer,high,Length-of-pull spacer for the CQR stock; shoulder contact only,misfiled: stock LOP spacer; special: under buttpad the V 2/4/6 ladder makes the longest spacer strictly best except weight
+45mm_cqr,buttpad,,,,,,HERA Arms CQR 45mm buttstock spacer,high,Length-of-pull spacer for the CQR stock; shoulder contact only,misfiled: stock LOP spacer; special: V 6 at 2.1x gives ~12.6 stability from a spacer - consider flattening the ladder
+9x19_kriss_magex2_vector,magazine,,,,,,KRISS MagEx2 Gen II +23 Glock 17 mag extension (40 rd),high,Capacity extension kit; magazine rule already set,misfiled: magazine;special: not in any set and reaches no weapon; currently unused
+acog_fs,handling,,,,,,Trijicon ACOG backup front sight,medium,Backup iron sight on optic; handling,misfiled: iron sight;special: not in any set and reaches no weapon; currently unused
+acog_rs,handling,,,,,,Trijicon ACOG backup rear sight,medium,Backup iron sight on optic; handling,misfiled: iron sight;special: not in any set and reaches no weapon; currently unused
+adron_kobra_ekp_8_sunshade,handling,,,,,,Kobra EKP-8 sunshade,high,Sight hood on a red dot; affects only the sight picture,misfiled: optic accessory
+akm_rear_sight_6p1_sb2_1,handling,,,,,,AKM rear sight leaf 6P1 Sb.2-1,high,Iron sight; handling,misfiled: iron sight;special: not in any set and reaches no weapon; currently unused
+azimuth_t2_cordura_fabric_wrap,zero,,,,,,Aimpoint Micro T-2/H-2 Cordura cover,high,Cosmetic fabric wrap for a red dot; no effect,misfiled: optic cosmetic
+compact_length_gas_system,zero,,,,,,HK416 gas system (compact),high,Hidden internal set by the barrel; only choice with no effect,
+deltapoint_attachment,zero,,,,,,Leupold DeltaPoint Pro rear cap / cover,medium,Default cosmetic cap on the optic's rear attachment slot; no value,misfiled: optic accessory cover
+fit_deluxe_suregrip_palm_shelf,even,marksman,,,,,Ergo Grip Deluxe SureGrip palm shelf,medium,Palm shelf for a target hold on a pistol grip; built for set-up precision shooting,misfiled: pistol grip accessory
+glock17l_front_sight,handling,,,,,,Glock 17L factory front sight,high,Iron sight; handling,misfiled: iron sight;special: not in any set and reaches no weapon; currently unused
+glock20_front_sight,handling,,,,,,Glock 20 factory front sight,high,Iron sight; handling,misfiled: iron sight;special: not in any set and reaches no weapon; currently unused
+glock20_std_magazine_release,reload_only,,,,,,Glock standard magazine release,high,"Standard mag release, old 0",misfiled: magazine control;special: not in any set and reaches no weapon; currently unused
+hart_rear_ironsight_600m,handling,,,,,,Colt A2 rear sight (600 m drum),medium,Iron sight; handling,misfiled: iron sight;special: not in any set and reaches no weapon; currently unused
+hk_g3_charging_handle,handling,,,,,,HK G3 charging handle,high,Standard non-reciprocating charging handle; a control,misfiled: control; special: V 0 so result is 0 either way
+hk_g3_front_sight_assembly,handling,,,,,,HK G3 front sight hood,high,Iron sight assembly; sight picture only,misfiled: iron sight; special: V 0
+hk_g3_rear_sight_assembly_base,handling,,,,,,HK G3 rear drum sight base,high,Iron sight assembly; sight picture only,misfiled: iron sight; special: V 0
+hk_g3_rear_sight_assembly_top,handling,,,,,,HK G3/MP5 rear drum sight,high,Iron sight; sight picture only,misfiled: iron sight; special: V 0
+hk_mp5_std_front_sight_assembly,handling,,,,,,HK MP5 front sight hood,high,Iron sight assembly; sight picture only,misfiled: iron sight; special: V 0
+hk_ump45_bcg,zero,,,,,,HK UMP45 bolt group,high,"Hidden internal, caliber-specific only choice; no value",misfiled: internals
+hk_ump9_bcg,zero,,,,,,HK UMP9 bolt group,high,"Hidden internal, caliber-specific only choice; no value",misfiled: internals;other: price 500 vs 0 for the UMP45 bolt on an only-choice internal
+hk_ump_top_rail,mount,,,,,,HK UMP top Picatinny rail,high,"Optional optic rail; mount bulk, handling only",misfiled: mount
+hunterstock_lop_0.5_1,buttpad,,,,,,generic Remington 700 hunting-stock LOP spacer,medium,Length-of-pull spacer; shoulder contact only,misfiled: stock LOP spacer; special: stacked chain of four spacers hosting each other
+hunterstock_lop_0.5_2,buttpad,,,,,,generic Remington 700 hunting-stock LOP spacer,medium,Length-of-pull spacer; shoulder contact only,misfiled: stock LOP spacer
+hunterstock_lop_0.5_3,buttpad,,,,,,generic Remington 700 hunting-stock LOP spacer,medium,Length-of-pull spacer; shoulder contact only,misfiled: stock LOP spacer
+hunterstock_lop_0.5_4,buttpad,,,,,,generic Remington 700 hunting-stock LOP spacer,medium,Length-of-pull spacer; shoulder contact only,misfiled: stock LOP spacer
+izhevsk_pm_trigger_connect,zero,,,,,,Makarov PM trigger bar / disconnector,high,"Hidden internal trigger linkage, no old value, only choice",misfiled: internals (trigger part)
+kalis_scalar_gen3_front_cover,zero,,,,,,KRISS Vector Gen III front cover,medium,"Cosmetic receiver cover, only choice, no value",misfiled: receiver cosmetic
+kalis_scalar_gen3_mag_release_cover,zero,,,,,,KRISS Vector Gen III mag release cover,medium,"Cosmetic cover over mag release, no value",misfiled: receiver cosmetic
+kalis_scalar_std_bolt_carrier_guide_shaft,zero,,,,,,KRISS Vector bolt carrier guide rod,high,Hidden internal; no value,misfiled: internals
+kalis_scalar_std_charging_handle_support,zero,,,,,,KRISS Vector charging handle housing,high,Container hosting the charging handle; no value,misfiled: internals container
+kalis_scalar_std_front_cover,zero,,,,,,KRISS Vector front cover (standard),medium,"Cosmetic receiver cover, only choice, no value",misfiled: receiver cosmetic
+kalis_scalar_std_large_ejection_port,zero,,,,,,KRISS Vector ejection port (large),medium,"Cosmetic receiver detail, only choice per variant, no value",misfiled: receiver cosmetic
+kalis_scalar_std_small_ejection_port,zero,,,,,,KRISS Vector ejection port (small),medium,"Cosmetic receiver detail, only choice per variant, no value",misfiled: receiver cosmetic
+kazarov_ak_cleaning_rod,zero,,,,,,Kalashnikov AK-74 cleaning rod,high,Cleaning rod under the barrel; no handling or stability effect,misfiled: barrel accessory/cosmetic; other: v_recoil -1 and deviation +0.02 on a cleaning rod look unjustified
+kazarov_ak_short_cleaning_rod,zero,,,,,,Kalashnikov AK-105 short cleaning rod,high,Cleaning rod under the barrel; no handling or stability effect,misfiled: barrel accessory/cosmetic; other: v_recoil -1 and deviation +0.01 on a cleaning rod look unjustified
+kosch_default_slide_cover_plate,mount,,,,,,Glock MOS slide cover plate,high,Optic-cut cover plate in the sight mounting system; mount family,misfiled: optic mount plate; special: V 0
+launchtron_psrl_2_tube_shoulder_padding,zero,,,,,,AirTronic USA PSRL-1/2 launch tube shoulder pad,medium,"Fixed shoulder rest on launcher tube; no old value, only choice","misfiled: buttpad on a launcher;special: only choice, no value"
+maxwell_grip,zero,,,,,,generic (Maxwell cat meme figurine),high,Pure cosmetic joke cat on a rail; no handling or stability effect,misfiled: cosmetic rail charm not a misc stat part; other: weight 4 dw (4.7 kg) and price 10000 look deliberate joke values - confirm the weight penalty is intended
+mcs_lss_nv_hood,mount,,,,,,MDT LSS chassis night vision hood (forward top rail),medium,"Chassis forend cover extending top Picatinny forward for clip-on NV; a rail mount, handling only","misfiled: mount (rail bridge), not handguard"
+mcs_lss_xl_nv_hood_oversize,mount,,,,,,MDT LSS-XL Gen2 night vision hood oversized,medium,"Larger NV hood with M-LOK and Picatinny; rail mount bulk, handling only","misfiled: mount (rail bridge), not handguard;other: same old E as the small hood despite more weight and an extra M-LOK slot, maybe -2.5"
+mk10_bottom_adapter_large,mount,,,,,,generic M-LOK Picatinny rail section (long),medium,"Longer rail section to host accessories; mount bulk, handling only","misfiled: mount (rail section);other: same E as small at 2.5x weight; +2 h/v recoil on bottom only, check intent"
+mk10_bottom_adapter_small,mount,,,,,,generic M-LOK Picatinny rail section (short),medium,"Short rail section to host accessories; mount bulk, handling only",misfiled: mount (rail section);other: bottom adapters carry +2 h/v recoil while side/top do not; check intent
+mk10_side_adapter_large,mount,,,,,,generic M-LOK Picatinny rail section (long),medium,"Long side rail section; mount bulk, handling only",misfiled: mount (rail section)
+mk10_side_adapter_small,mount,,,,,,generic M-LOK Picatinny rail section (short),medium,"Short side rail section; mount bulk, handling only",misfiled: mount (rail section)
+mk10_top_adapter_large,mount,,,,,,generic M-LOK Picatinny rail section (long),medium,"Long top rail section; mount bulk, handling only",misfiled: mount (rail section)
+mk10_top_adapter_small,mount,,,,,,generic M-LOK Picatinny rail section (short),medium,"Short top rail section; mount bulk, handling only",misfiled: mount (rail section)
+nexa_tactical_p226_4r_mag_extension,magazine,,,,,,P226 +4 magazine base pad (Taran Tactical / Henning style),medium,Capacity extension base pad; magazine rule already set,misfiled: magazine
+normal_length_gas_system_416a5,zero,,,,,,HK416A5 gas system (normal),high,Hidden internal set by the barrel; only choice with no effect,
+normal_length_gas_system_416d,zero,,,,,,HK416D gas system (normal),high,Hidden internal set by the barrel; only choice with no effect,
+pachmayr_rubber_grip_for_g20,even,,,,,,Pachmayr Tactical Grip Glove for Glock 20,high,"Rubber grip sleeve; pistol grips are even (comfort, not form)",misfiled: pistol grip;special: not in any set and reaches no weapon; currently unused
+pachmayr_tactical_glock_grip_glove,even,,,,,,Pachmayr Tactical Grip Glove (Glock),high,Rubber grip sleeve; pistol grips are even,misfiled: pistol grip;special: not in any set and reaches no weapon; currently unused
+paramount_arms_slx_1.53inch_straight_spacer_alt,mount,,,,,,Primary Arms SLx 1.53in straight riser/spacer,high,"Optic riser; mount, handling only",misfiled: mount;special: no pretty name;special: not in any set and reaches no weapon; currently unused
+paramount_arms_slx_1x_microprism_acss_g2_scope_alt,optic_compact,,,,,,Primary Arms SLx 1x MicroPrism ACSS Gen II,high,"1x prism sight; compact optic, handling only",misfiled: optic;special: no pretty name;special: not in any set and reaches no weapon; currently unused
+precision_intercontinental_roosevelt_700_sa_at_aics_gen2_folding_chassis_external_cover,zero,,,,,,Accuracy International AT AICS 2.0 folding chassis cover,medium,Cosmetic external cover on the chassis; no effect,misfiled: chassis cosmetic part
+rail,zero,,,,,,generic,none,Placeholder 'additional attachment' with no stats,special: placeholder; not in any set and reaches no weapon
+scout_scopes_ak_drop_on_rail,mount,,,,,,AK rear-sight-block drop-in Picatinny rail,low,Replaces the rear sight to give an optic rail; a mount,misfiled: optic mount
+si_ak_drop_on_rail,mount,,,,,,AK rear-sight-block drop-in Picatinny rail (Strike Industries style),medium,Replaces the rear sight to give an optic rail; a mount,misfiled: optic mount
+sig_sauer_p320_fcu,zero,,,,,,SIG Sauer P320 Fire Control Unit,high,Serialized chassis container; value sits on its child parts,"misfiled: receiver/frame container;special: only choice, hosts trigger, slide release, frame"
+sig_sauer_p320_x_mag_funnel,reload_only,,,,,,SIG Sauer P320 X-Series magwell,high,Pistol magwell funnel; its value is the faster mag insert,misfiled: magazine control (magwell)
+sno_vulkan_rpg_7_rear_grip,even,,,,,,RPG-7V rear pistol grip / trigger group grip,high,Launcher pistol grip; pistol grips are even,"misfiled: pistol grip;special: only choice, its +4 is effectively base value"
+sno_vulkan_rpg_7_rear_sight_zeroing_rail,handling,,,,,,RPG-7 rear sight (raised),high,"Iron sight; sight picture only, handling",misfiled: iron sight
+sno_vulkan_rpg_7_rear_sight_zeroing_rail_folded,handling,,,,,,RPG-7 rear sight (folded),high,Folded iron sight; handling,misfiled: iron sight;other: folded sight has same +1 as raised one and hosts no sight; consider 0 or a different value
+sno_vulkan_rpg_7_wooden_shoulder_padding,zero,,,,,,RPG-7 wooden heat shield / shoulder guard,high,"Fixed wooden tube furniture; no old value, only choice","misfiled: buttpad/furniture;special: only choice, no value"
+stupid_camera,optic_scope,,,,,,Fujifilm X-T20 mirrorless camera,high,Joke item: a camera mounted as a sight; treat as bulky magnified optic,misfiled: joke optic (camera);special: joke item;special: not in any set and reaches no weapon; currently unused
+truglo_glock_tfx_fs,handling,,,,,,TruGlo TFX Glock front sight,high,Tritium/fiber front sight; handling,misfiled: iron sight;special: not in any set and reaches no weapon; currently unused
+um_3_wilson,mount,,,,,,UM Tactical UM3 pistol sight mount,high,"Rail-clamp mount putting an optic over a pistol slide; mount, handling only","misfiled: mount, not a compact sight;special: not in any set and reaches no weapon; currently unused"
+veles_dl_2_gen2_sport_handguard_extension,even,,,,,,Zenitco DL-2 Gen2 Sport lower handguard extension,medium,"Handguard extension; even default, V=0 so no h/s",misfiled: handguard part
+veles_dl_leader_handguard_extension,even,,,,,,Zenitco Leader lower handguard extension,medium,"Handguard extension; even default, V=0 so no h/s, recoil carries its effect",misfiled: handguard part
+veles_leader_insert_rail_handguard_extension,even,,,,,,Zenitco Leader upper insert rail,medium,Optional rail insert on handguard; rail panels and handguard parts are even,misfiled: handguard rail panel
+veles_pt_1_klassika_adjust_part,zero,,,,,,Zenit PT-1 Klassika stock adjustable assembly,medium,Stock adjuster that only hosts the buttpad and cheekpad; value sits on children,misfiled: stock sub-assembly (host for buttpad/cheek riser) not misc
+veles_pt_3_base_part,zero,,,,,,Zenitco PT-3 stock lock / buttstock body,medium,Stock host whose value sits on its child buttpad; old 0,misfiled: stock container;special: only meaningful with veles_pt_buttpad child
+virticon_glock_supp_height_front_sights_wh_sf,handling,,,,,,"Trijicon suppressor-height night sights (Glock, white outline)",high,Tall iron sight for co-witness over suppressor/optic; handling,misfiled: iron sight;special: not in any set and reaches no weapon; currently unused
+whitehouse_rush_qe_junction_box_legacy_crane_connector,zero,,,,,,"Wilcox RAID Xe junction box, legacy Crane connector",high,"Default cable connector on an aiming laser; no value, child of the RAID",misfiled: laser accessory internals
+zvetech_kosch_slide_cover,zero,,,,,,ZEV Technologies optic-cut slide cover plate,medium,"Cover plate for an empty optic cut: the no-optic option, no value",misfiled: optic cut cover plate;special: the no-optic choice among 8 RMR-cut options

@@ -1,0 +1,67 @@
+name,profile,role,role_strength,value,handling,stability,counterpart,confidence,why,flags
+add_ivory_lanyard_grip,even,,,,,,Tokarev TT ivory-style grips with lanyard loop,low,Decorative TT grip panels; comfort only.,
+agr_870_pistol_grip,even,,,,,,FAB Defense AGR-870 pistol grip kit,high,Pistol grip with buffer-tube adapter; the stock or cap on its child decides stability.,"special: child r870_agr holds the protection cap (stockless, E 14); the cap should take stockless, not this grip"
+ak12_gen1_pistol_grip,even,,,,,,Kalashnikov AK-12 (early) pistol grip,high,Factory AK-12 grip; set default.,
+ak12_gen2_pistol_grip,even,,,,,,Kalashnikov AK-12 (2023) pistol grip,high,Factory AK-12 grip; only choice in its slot.,special: only-choice part
+axtell_defense_pistol_grip_with_trigger_guard,even,,,,,,Daniel Defense pistol grip with integral trigger guard,high,Rubber-overmolded grip with guard; nicer at both.,
+behemoth_tacticals_featureless_grip,even,,,,,,Juggernaut Tactical-style featureless (fin) grip,medium,"State-compliance fin grip; worse thumb wrap, E 0, no role.",
+ecm_gunslinger_mod3_ar15_pistol_grip,even,,,,,,BCM Gunfighter Mod 3 grip,high,"Steeper modern grip; angle helps short stances and precision alike, no role.",
+equinox_ex15_orion_pistol_grip,even,,,,,,AeroKnox Orion aluminium AR grip,medium,"Light aluminium designer grip; no clear role, round-6 support typing was by weight.",
+fit_deluxe_ar15_suregrip,even,,,,,,Ergo Deluxe Tactical SureGrip,medium,Rubber palm-swell grip; nicer at both.,"special: hosts the palm shelf child, which carries the supported-hold value"
+gral_s_pistol_grip,even,,,,,,Naroh Arms GRAL-S AR grip,medium,Ordinary aftermarket AR grip.,
+hart_a1_chopped_pistol_grip,even,compact,,,,,"Colt A1 pistol grip, shortened (chopped)",medium,"Cut-down A1 for short carbines/pistols; quick and light, poor hand fill for steady fire.",
+hart_a1_pistol_grip,even,,,,,,Colt A1 pistol grip,high,Classic early AR grip; era order kept below A2.,
+hart_a2_pistol_grip,even,,,,,,Colt A2 pistol grip,high,Standard AR grip; set default.,
+hera_arms_cqr_gen2_pistol_grip,even,,,,,,Hera Arms CQR Gen 2 (grip part of the CQR set),medium,Grip half of the CQR Gen2 system; bulky hand fill but no clear gun role.,"special: pairs with the separate CQR Gen2 stock in ar15_endplate; it is a real grip, not the stock-grip"
+hk_g3_plastic_pistol_grip,even,,,,,,HK G3 polymer pistol grip,high,Standard G3/MP5 grip.,
+hk_psg1_grip_palm_rest,even,,,,,,HK PSG1 grip palm shelf,high,Palm shelf of the PSG1 grip; sits only on that grip.,special: only-choice child of hk_psg1_wooden_grip; parent carries the role
+hk_psg1_wooden_grip,even,marksman,,,,,HK PSG1 precision pistol grip,high,"Sniper grip with adjustable palm shelf for the PSG1; steady but slow, poor on an MP5.","special: hosts the palm rest child; role only on this grip, not the rest"
+izhevsk_pm_bakelite_grip,even,,,,,,Izhmash PM bakelite grip panels,high,"Factory Makarov grip; default, E 0.",
+kalis_scalar_gen3_ar15_pistol_grip,even,,,,,,KRISS Vector Gen 3 beavertail pistol grip,high,Beavertail grip with swappable cores; not a CQB form despite round-6 typing.,special: hosts grip core child (scalar_grip_bottom_plate)
+kalis_scalar_gen3_grip_core,even,,,,,,KRISS Vector G3 Grip Core,high,Extended grip insert; tiny value.,
+kalis_scalar_gen3_open_grip_core,even,,,,,,KRISS Vector G3 Open Grip Core,high,Grip insert with storage; tiny value.,
+kazarov_ak74_bakelite_6p4_sb8v,even,,,,,,Izhmash AK-74 bakelite grip 6P4 Sb.8v,high,Standard factory bakelite AK grip.,
+kazarov_ak74_polymer_6p1_sb8,even,,,,,,Izhmash AK-74 polymer grip 6P1 Sb.8,high,Standard factory AK-74 polymer grip.,
+kazarov_pp-19-01_vityaz_pistol_grip,even,,,,,,Izhmash PP-19-01 Vityaz polymer grip,high,Factory Vityaz AK-pattern grip; comfort only.,
+kf_ar15_battlegrip,even,,,,,,Tango Down BG-16 Battlegrip,high,Ordinary ergonomic AR grip.,
+kf_ar15_battlegrip_beavertail,even,,,,,,Tango Down BG-16 Battlegrip Beavertail,high,Beavertail variant of the Battlegrip; comfort only.,
+khorovod_pm_pistol_grip,even,,,,,,unidentified,none,Aftermarket Makarov grip; family default.,
+magtap_moa_ar15_pistol_grip,even,,,,,,Magpul MOE AR-15 grip,high,Standard modern AR grip.,
+magtap_moa_k2_ak_pistol_grip,even,,,,,,Magpul MOE-K2 AK grip,high,"Reduced-angle ergonomic grip; angle suits short stance and vertical precision alike, so no role.",
+magtap_moa_k2_ar15_pistol_grip,even,,,,,,Magpul MOE-K2 grip,high,Reduced-angle ergonomic grip; no role.,
+magtap_moa_k2_scar_pistol_grip,even,,,,,,Magpul MOE-K2 (modified for SCAR),medium,SCAR-fit MOE-K2; no role.,
+magtap_moa_scar_pistol_grip,even,,,,,,Magpul MOE (SCAR fit),medium,SCAR-fit MOE; no role.,
+mcs_premier_avp_grip,even,marksman,strong,,,,MDT Vertical Grip Premier (AR compatible),high,"Fully vertical, slim precision-chassis grip for prone/bench bolt guns; awkward for run-and-gun.",special: strong because it is the one fully vertical precision grip in a 21/9-item set and its E 9 made it best everywhere
+mg47,even,,,,,,Command Arms (CAA) MG47 AK grip,medium,"Ordinary aftermarket polymer AK grip; comfort, not form.",
+mp133_153_plastic_pistol_grip,stockless,,,,,,Baikal MP-133/153 pistol grip (no stock),high,"pistol grip fitted in place of the stock (stockless MP-133): handier than every MP-133 stock, clearly unsteady (lead)",misfiled: stock (stockless option in mp133_stock slot);special: stockless option
+pmm_scar_modified_grip_rogue,even,,,,,,Parker Mountain Machine-style modified SCAR/AR grip (non-beavertail),low,"Modified ergonomic grip; comfort, not form.",
+precision_intercontinental_at_aics_gen2_standard_backstrap,even,,,,,,Accuracy International AICS 2.0 folding chassis standard backstrap,high,"Default backstrap of the AICS grip; comfort only, no form difference.",
+precision_intercontinental_at_aics_gen2_thumbhole_backstrap,even,marksman,,,,,Accuracy International AICS 2.0 thumbhole backstrap,medium,"Thumbhole hold for a set-up bolt-gun chassis; built for steady precision fire, slow to operate.",special: competes only with the standard backstrap on the Remington700
+precision_intercontinental_roosevelt_700_sa_at_aics_gen2_folding_chassis_pistol_grip_assembly,even,,,,,,Accuracy International AICS 2.0 folding chassis (Rem 700 SA) grip section,high,"Grip section of the AICS chassis; only choice, so a role would do nothing.",special: only-choice part; hosts hinge body and backstrap slots
+pro_tactical_pm_g_pistol_grip,even,,,,,,FAB Defense PM-G Makarov grip,high,Ergonomic one-piece Makarov grip; comfort only.,
+protac_ergonomic_ag_far_pistol_grip,even,,,,,,FAB Defense AG-FAL ergonomic grip,high,"Ergonomic FAL grip; comfort, not form.",
+pww_ecm_gunslinger_mod3_scar_pistol_grip,even,,,,,,BCM Gunfighter Mod 3 (SCAR fit),medium,SCAR-fit Gunfighter; no role.,
+r870_earthquake_raptor_pistol_grip,stockless,,,,,,Shockwave Raptor birdshead grip,high,"pistol grip fitted in place of the stock (stockless 870): handier than every 870 stock, clearly unsteady (lead)",misfiled: stock (stockless option in r870_stock slot);special: stockless option
+razor_arms_g02,even,,,,,,Razor Arms TT rubber grip,medium,Rubberized TT grip; nicer at both.,
+rogue_p226_smooth_hardwood_grip,even,,,,,,Hogue P226 smooth hardwood grips,high,"Wood grip panels, E 0; no role.",special: round-6 override leaned it; even gives 0/0
+rsa_sg58_m249_saw_style_pistol_grip,even,,,,,,DSA SA58 SAW-style pistol grip,high,Larger M249-style grip; comfort only.,
+rsa_sg58_wooden_grip,even,,,,,,DSA SA58 wooden pistol grip,medium,"Wood FAL grip, E 0; no role.",special: round-6 override leaned it steady-slow; even gives 0/0
+scar47_pistol_grip,even,,,,,,FN SCAR standard pistol grip,high,Factory SCAR grip; set default.,
+sg58_std_grip,even,,,,,,DSA SA58 standard pistol grip,high,Factory FAL grip; set default.,
+sic_sturmer_p226_std_two_piece_grip,even,,,,,,SIG Sauer P226 standard two-piece grips,high,"Factory grip panels; default, E 0.",
+sic_sturmer_p226_std_two_piece_magwell_grip,even,,,,,,SIG Sauer P226 two-piece magwell grips,high,Factory panels with flared magwell; its real benefit is reload.,reload: integrated flared magwell has a real reload reason but reload is 0; consider moving its point to reload
+sig_sauer_p320_xcarry_grip_module,even,,,,,,SIG Sauer P320 X-Carry grip module,high,Pistol frame (grip module); receivers are even.,"misfiled: receiver (frame/grip module), still even;special: hosts slide, mag and controls"
+sig_sauer_p320_xfull_grip_module,even,,,,,,SIG Sauer P320 X-Full grip module,high,Full-size pistol frame; receivers even.,"misfiled: receiver (frame/grip module), still even;special: round-6 override leaned it steady-slow; even gives 0/0"
+sno_vulkan_rpg_7_pistol_grip,even,,,,,,RPG-7 pistol grip,medium,Factory launcher grip; only choice.,special: only-choice part
+ss_apex_ak_ar15_adapter,even,,,,,,AK-to-AR15 pistol grip adapter (e.g. Strike Industries / Apex style),low,"Adapter that lets AR grips fit AKs; its -1 is a small fit cost, value sits on the child grip.",special: container for ar15_pistol_grip child; keep the small -1 as a cost on both stats (or zero it)
+tactical_dynamics_anodized_skeletonized_ar15_pistol_grip,even,compact,,,,,Tactical Dynamics skeletonized aluminium AR-15 grip,medium,"Ultralight skeleton grip for lightweight/speed builds; little palm contact, less steady.",
+talon_aug_foregrip_wrap,even,,,,,,Talon Grips AUG foregrip wrap,high,Adhesive texture wrap; tiny comfort value.,special: only-choice part
+talon_aug_pistol_grip_wrap,even,,,,,,Talon Grips AUG pistol grip wrap,high,Adhesive texture wrap; tiny comfort value.,special: only-choice part
+timber_creek_enforcer_pistol_grip,even,,,,,,Timber Creek Outdoors Enforcer AR grip,high,"Lightweight aluminium AR grip; comfort/weight, not a role.",
+truelock_custom_pm_tactic_kit_pistol_grip,even,,,,,,Makarov PM tactical grip kit with rail,medium,"Grip with accessory rail; value small, rail value on children.",special: hosts picatinny child
+tt33_std_grip,even,,,,,,Tokarev TT-33 standard grip panels,high,Factory grips; E 0.,
+us_pine_ak_pistol_grip,even,,,,,,US Palm AK pistol grip,high,"Rubber-overmolded AK grip; nicer comfort, no role.",
+veles_rk3_ak_pistol_grip,even,,,,,,Zenitco RK-3 AK grip,high,Ergonomic palm-swell AK grip; nicer at both.,
+whitner_defense_edc_x9_aggressive_starburst_g10_grip,even,,,,,,Wilson Combat EDC X9 Starburst G10 grip panels,high,Grip texture panels; only choice.,special: only-choice part
+whitner_defense_edc_x9_backstrap_large,even,,,,,,Wilson Combat EDC X9 large backstrap,medium,"Hand-size fit option; comfort, not form.",
+whitner_defense_edc_x9_backstrap_small,even,,,,,,Wilson Combat EDC X9 small backstrap,medium,"Hand-size fit option; comfort, not form.",

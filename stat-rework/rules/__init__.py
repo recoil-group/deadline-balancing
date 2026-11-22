@@ -144,6 +144,7 @@ def family_module(fam):
 def restat(item, ctx):
     """Return {handling, reload_time, stability, _rule, [other columns]} for one item."""
     import cycling
+    import profiles
     import reload_scope
 
     out = _restat_points(item, ctx)
@@ -153,6 +154,8 @@ def restat(item, ctx):
     note = cycling.apply(item, out)  # round 6: cycling parts of bolt and pump guns carry fire_rate (cycling.py)
     if note:
         out["_rule"] = (out.get("_rule") or "") + "; " + note
+    note = profiles.apply(item, out, ctx)  # round 7: handling and stability from the part's profile (profiles.py)
+    out["_rule"] = (out.get("_rule") or "") + "; " + note
     return out
 
 

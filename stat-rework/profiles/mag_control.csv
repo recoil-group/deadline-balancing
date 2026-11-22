@@ -1,0 +1,92 @@
+name,profile,role,role_strength,value,handling,stability,counterpart,confidence,why,flags
+adapt2_mod3_mag_bottom_plate,zero,,,,,,Amend2 Mod-3 floorplate,high,"Magazine floorplate, cosmetic; no effect",
+aft_mag_release,reload_only,,,,,,FN SCAR 17 standard mag release,high,"Standard mag release; value is reload only, standard is 0",
+aft_mk_16_std_magplate,zero,,,,,,FN SCAR 16 magazine floorplate,high,"Magazine floorplate, cosmetic; no effect",
+allpistolsprings_tt33_+1r_mag_extension,magazine,,,,,,TT-33 +1 base pad extension,medium,Capacity extension; magazine rule,
+aquila_defensio_aug_enhanced_release_button,reload_only,,,,,,Corvus Defensio AUG enhanced mag release button,medium,Enhanced release button speeds mag drop; reload only,
+ardian_weapons_adac15_mag_release,reload_only,,,,,,unidentified (ambidextrous AR-15 mag release for an ADAC15 lower),low,Ambidextrous mag release; reload only,"special: only choice and default on its lower (set adac15), so its -3% reload is a fixed bonus of that lower; fine if intended, otherwise move it to the lower"
+arid_concepts_aug_improved_mag_release,reload_only,,,,,,Arid Defense AUG improved mag release,high,Paddle-style improved release speeds mag drop; reload only,special: hosts the paddle slot; the large paddle adds another -2% on top
+arid_concepts_aug_mag_release_large_paddle,reload_only,,,,,,"Arid Defense AUG improved mag release, large paddle",high,Larger paddle is easier to hit; reload only,
+arid_concepts_aug_mag_release_std_paddle,reload_only,,,,,,"Arid Defense AUG improved mag release, standard paddle",high,"Standard paddle for the improved release; reload only, standard is 0","reload: default paddle with old E0.5 that the current rule moved into handling 1.0; reload_only drops it to 0, which is right for the standard option"
+aug_a3_std_mag_release,reload_only,,,,,,Steyr AUG A3 standard mag release,high,"Standard mag release; reload only, standard is 0",
+cosmotac_blastar_vkarmw_magwell,reload_only,,,,,,VISM Blast AR magwell funnel,medium,Clamp-on AR magwell funnel; reload only,
+dante_freelance_hart_smg_10r_mag_extension,magazine,,,,,,Taylor Freelance Colt 9mm +10 base pad,high,Capacity extension on the Colt 32R; magazine rule,special: no set and no weapons; appears unreachable
+dante_freelance_kosch_40sv_10r_carbine_magex,magazine,,,,,,unidentified (.40 Glock-pattern +10 basepad extension),low,Capacity extension for the .40 mag; magazine rule,
+dante_freelance_kosch_40sv_10r_pistol_magex,magazine,,,,,,unidentified (.40 Glock-pattern +10 basepad extension),low,Capacity extension for the .40 mag; magazine rule,
+dragoon_systems_l5awm_gen2_bottom_plate,zero,,,,,,Lancer L5AWM floorplate,high,"Magazine floorplate, cosmetic; no effect",
+dragoon_systems_l7awm_bottom_plate,zero,,,,,,Lancer L7AWM floorplate,high,"Magazine floorplate, cosmetic; no effect","reload: standard floorplate with old E1, current rule moved it to handling 1.7; should be 0 like every other plate (only choice, so harmless)"
+equinox_plus_5_pmag_mag_extension,magazine,,,,,,PMAG +5 base pad extension (Arredondo/Taran style),medium,Capacity extension; magazine rule,
+fireline_+2r_ext_pm_mag_plate,magazine,,,,,,Makarov PM +2 base pad extension,medium,Capacity extension; magazine rule,
+fireline_5_rnd_545_223_ak_mag_extension,magazine,,,,,,AMRU Designs AK-74 +5/6 mag extension,medium,"Capacity extension baseplate; acts like a longer stick, magazine rule",
+hk_g3_button_mag_release,reload_only,,,,,,HK G3 push-button mag release,high,"Standard mag release; reload only, standard is 0",
+hk_g3_paddle_mag_release,reload_only,,,,,,HK paddle mag release,high,"Standard mag release; reload only, standard is 0",
+hk_g3_us_made_10r_bottom_plate,zero,,,,,,HK G3 10rd magazine floorplate,high,"Magazine floorplate, cosmetic; no effect",
+hk_mag_plate,zero,,,,,,HK magazine floorplate,medium,"Magazine floorplate, cosmetic; no effect",
+hk_mp5_std_mag_plate,zero,,,,,,HK MP5 curved magazine floorplate,high,"Magazine floorplate, cosmetic; no effect",
+hk_mp5_std_mag_release,reload_only,,,,,,HK MP5 standard mag release,high,"Standard mag release; reload only, standard is 0",
+hk_ump_paddle_mag_release,reload_only,,,,,,HK UMP paddle mag release,high,"Standard ambi paddle; reload part, no value",
+hpf_concepts_rcm_ar15_milspec_magwell,reload_only,,,,,,HRF Concepts Rifle Combat Magwell (RCM),high,Clamp-on flared polymer magwell funnel; reload only,
+iron_claw_tactical_gen2_ak_magwell_system,reload_only,,,,,,"unidentified (AK flared magwell funnel, Gen2)",low,Flared AK magwell funnel speeds mag insertion; reload only,
+izhevsk_pm_mag_bottomplate,zero,,,,,,Makarov PM factory floorplate,high,Standard floorplate; no effect,
+izhevsk_pm_mag_release_spring,reload_only,,,,,,Makarov PM magazine release spring,high,Standard heel release; reload part with no value,"special: only-choice standard part, no values set"
+kalis_kosch_10mm_18r_magex2,magazine,,,,,,KRISS MagEx2 10mm +18 (Glock 20),high,Capacity extension sleeve turning a pistol mag into a long stick; magazine rule,
+kalis_kosch_45acp_17r_magex2,magazine,,,,,,"KRISS MagEx2 .45 ACP +17 (Glock 21, 30 total)",high,Capacity extension sleeve turning a pistol mag into a long stick; magazine rule,
+kalis_kosch_9x19_23r_magex2,magazine,,,,,,"KRISS MagEx2 9mm +23 (Glock 17, 40 total)",high,Capacity extension sleeve turning a pistol mag into a long stick; magazine rule,
+kalis_scalar_gen3_mag_release,reload_only,,,,,,Kriss Vector Gen III mag release,high,"Gen III release; reload part, no value",
+kalis_scalar_std_bcg_bottom_plate,zero,,,,,,Kriss Vector standard bottom plate,low,"Standard cover plate; only choice, no effect",special: pretty name says Bolt Carrier Group but category is Bottom Plate; zero either way
+kalis_scalar_std_grip_bottom_plate,zero,,,,,,Kriss Vector standard grip bottom plate,medium,"Cosmetic grip cap; only choice, no effect",
+kalis_scalar_std_mag_release,reload_only,,,,,,Kriss Vector standard mag release,high,"Standard release; reload part, no value",
+kazarov_ak74_mag_bottomplate,magazine,,,,,,AK-74 magazine floorplate,high,"Default of the capacity slot that the +5 extension competes for; standard, no effect",
+kazarov_ak74_mag_release,reload_only,,,,,,AK-74 magazine catch,high,"Standard mag release; reload only, standard is 0",
+kazarov_akm_mag_release,reload_only,,,,,,AKM magazine catch,high,"Standard mag release; reload only, standard is 0",
+kazarov_akm_steel_magazine_bottom_plate,zero,,,,,,AKM steel magazine floorplate,high,"Magazine floorplate, cosmetic; no effect",
+kazarov_pp-19-01_mag_bottom_plate,zero,,,,,,Kalashnikov PP-19-01 Vityaz mag floorplate,high,"Magazine floorplate, cosmetic; no effect",
+kazarov_pp-19-01_vityaz_mag_release,reload_only,,,,,,PP-19-01 Vityaz magazine catch,high,"Standard mag release; reload only, standard is 0",
+kazarov_pp-19-01_vityaz_magwell,zero,,,,,,PP-19-01 Vityaz 9mm magwell,high,Container hosting the mag release and magazine slots; no effect of its own,special: container; value sits on child parts
+kf_416_mag_release,reload_only,,,,,,HK416 standard mag release,high,"Standard mag release; reload only, standard is 0",
+kf_416a5_ambi_mag_release,reload_only,,,,,,HK416A5 ambidextrous mag release,high,Ambi release reachable by either hand; reload only,
+m4a1_std_mag_release,reload_only,,,,,,Colt M4A1 mag release,high,"Standard mag release; reload only, standard is 0",
+m4a1_std_mag_release_scar,reload_only,,,,,,AR-pattern mag release (SCAR fit),high,"Standard mag release; reload only, standard is 0",
+magtap_223_mag_assist_l7awm,reload_only,,,,,,The Original Magpul 5.56 (Lancer L7AWM fit),high,Rubber pull loop for faster mag extraction from a pouch; reload only,
+magtap_223_mag_assist_misc1,reload_only,,,,,,The Original Magpul 5.56 (misc AR mags fit),high,Rubber pull loop for faster mag extraction from a pouch; reload only,
+magtap_223_mag_assist_misc2,reload_only,,,,,,The Original Magpul 5.56 (misc AR mags fit),high,Rubber pull loop for faster mag extraction from a pouch; reload only,
+magtap_223_mag_assist_misc3,reload_only,,,,,,The Original Magpul 5.56 (AK/AUG mags fit),high,Rubber pull loop for faster mag extraction from a pouch; reload only,
+magtap_223_mag_assist_pmag,reload_only,,,,,,The Original Magpul 5.56 (PMAG fit),high,Rubber pull loop for faster mag extraction from a pouch; reload only,
+magtap_223_mag_assist_straightstanag,reload_only,,,,,,The Original Magpul 5.56 (straight STANAG fit),high,Rubber pull loop for faster mag extraction from a pouch; reload only,
+magtap_hunter_ac_magwell,reload_only,,,,,,Magpul Hunter 700 AICS magwell / bottom metal,medium,"Detachable-mag bottom metal hosting the AICS mags; standard, value 0",special: container for the Remington 700 mag slot
+magtap_pmag_ak74/akm_bottom_plate,zero,,,,,,Magpul PMAG AK/AKM floorplate,high,Standard floorplate; no effect,
+magtap_ranger_ak74/akm_bottom_plate,reload_only,,,,,,Magpul Ranger Plate (AK PMAG),high,Pull loop for faster pouch draw; value is reload,
+magtap_ranger_m3_bottom_plate,reload_only,,,,,,Magpul Ranger Plate (AR PMAG GEN M3),high,Pull loop for faster pouch draw; value is reload,
+magtap_std_m3_bottom_plate,zero,,,,,,Magpul PMAG 30 AR/M4 GEN M3 floorplate,high,Standard floorplate; no effect,
+mcs_rev21_gen2_r700_mag_release,reload_only,,,,,,Remington 700 chassis extended AICS paddle release,low,Enhanced mag release; value is reload,"special: only-choice, so its -3% reload is effectively part of the Remington 700 base"
+mp133_+2r_mag_ex,magazine,,,,,,Baikal MP-133 +2 magazine tube extension,high,"Tube capacity extension; front bulk costs handling, shells load the same",other: magazine_capacity is blank for tube extensions; confirm the +2 is applied elsewhere
+mp133_+4r_mag_ex,magazine,,,,,,Baikal MP-133 +4 magazine tube extension,high,"Tube capacity extension; front bulk costs handling, shells load the same",other: magazine_capacity is blank for tube extensions; confirm the +4 is applied elsewhere
+mp133_shell_feeder,zero,,,,,,MP-133 factory shell feeder (internal),medium,"Internal action part; only choice, no effect",
+pf940_13r_plate,zero,,,,,,Polymer80 PF940 floorplate,medium,Standard floorplate; no effect,special: no set and no weapons; appears unreachable
+pmm_scar_16_magwell,reload_only,,,,,,Parker Mountain Machine SCAR 16 magwell,high,Flared magwell; value is reload,"special: only-choice on SCARL, so its -3% reload is effectively SCARL base"
+pmm_scar_17_magwell_type1,reload_only,,,,,,Parker Mountain Machine SCAR 17 magwell (FN mag),high,Flared magwell; value is reload,
+pmm_scar_17_magwell_type2,reload_only,,,,,,Parker Mountain Machine SCAR 17 magwell (SR-25 mag),medium,Flared magwell; value is reload,
+pmm_scar_oversized_mag_release_button,reload_only,,,,,,unidentified (SCAR oversized mag release button),medium,Oversized release button speeds mag drop; reload only,
+precision_intercontinental_at_aics_gen2_mag_release,reload_only,,,,,,Accuracy International AT AICS mag release,high,"Standard chassis mag release; reload only, standard is 0",
+r870_shell_carrier,zero,,,,,,Remington 870 factory shell carrier (internal lifter),medium,"Internal lifter, not a side saddle; only choice, no effect",
+ravaryn_arms_sic_p_series_extended_mag_release,reload_only,,,,,,SIG P-series extended mag release (aftermarket),medium,Extended button; value is reload,
+rsa_sg58_enhanced_bumper_magazine_bottom_plate,reload_only,,,,,,Enhanced bumper FAL mag floorplate,medium,Bumper plate speeds the seat/strip; value is reload,
+rsa_sg58_mag_bottom_plate,zero,,,,,,FN FAL / SA58 factory mag floorplate,high,Standard floorplate; no effect,
+sanxian_qbz95_mag_release,reload_only,,,,,,Norinco QBZ-95 factory mag release,high,"Standard release; reload part, no value","special: only-choice standard part, no values set"
+scar47_mag_release,reload_only,,,,,,FN SCAR 7.62x39 mag release,medium,"Standard release; reload part, no value",
+scrubs_outdoors_roosevelt_700_.308_magwell,reload_only,,,,,,Wyatt's Outdoor Remington 700 detachable bottom metal,medium,"Detachable-mag bottom metal hosting the Wyatt mags; standard, value 0",special: container for the Remington 700 mag slot
+sic_sturmer_p226_mag_bottom_plate,zero,,,,,,SIG P226 factory floorplate,high,Standard floorplate; no effect,
+sic_sturmer_p_series_oem_mag_release,reload_only,,,,,,SIG P-series factory mag release,high,"Standard release; reload part, no value",
+sig_sauer_p320_mag_bottom_plate,zero,,,,,,SIG P320 factory floorplate,high,Standard floorplate; no effect,
+sig_sauer_p320_mag_long_sleeve,even,,,,,,SIG P320 long magazine sleeve,medium,"Grip-filling sleeve on the 30R; fuller grip, no reload role",
+sig_sauer_p320_mag_release,reload_only,,,,,,SIG P320 factory mag release,high,"Standard release; reload part, no value",
+sig_sauer_p320_mag_short_sleeve,even,,,,,,SIG P320 X-series short magazine sleeve,medium,"Grip-filling sleeve on the 21R; fuller grip, no reload role",
+stanag_30r_plate,zero,,,,,,STANAG 30R floorplate,high,Standard floorplate; no effect,
+stanag_bottom_plate,zero,,,,,,STANAG floorplate,high,Standard floorplate; no effect,
+steyr_aug_austrian_mag_bottom_plate,zero,,,,,,Steyr AUG factory mag floorplate,high,Standard floorplate; no effect,
+tactispec_rhino_r23_tactical_magwell,reload_only,,,,,,Armaspec Rhino R-23 magwell grip and funnel,high,"Large 60-degree flared funnel that doubles as a magwell grip; reload only, strongest funnel",special: also sold as a magwell grip for the support hand; still reload_only per family rule
+tt33_mag_release,reload_only,,,,,,Tokarev TT-33 mag release,high,"Standard release; reload part, no value",
+tt33_std_mag_btmplt,zero,,,,,,Tokarev TT-33 factory floorplate,high,Standard floorplate; no effect,
+veg_amd65_hungarian_20r_magazine_bottom_plate,zero,,,,,,AMD-65 Hungarian 20rd mag floorplate,medium,"Magazine floorplate, cosmetic; no effect","special: pretty name duplicates the AKM steel plate (""Kazarov AKM Steel""); should name the AMD-65 20R plate"
+wfortungsten_3d_printed_aug_nato_magwell,reload_only,,,,,,unidentified (3D-printed AUG NATO/STANAG magwell adapter),medium,"Adapter letting the AUG take STANAG mags; not a funnel, so reload 0 is right","reload: reload 0 is correct (conversion, not a flared funnel) but its old E2 sits in handling 3.3; reload_only drops it to 0;special: only item in an optional slot, it gates STANAG mags so it needs no value"
+whitner_defense_edc_x9_mag_bottomplate,zero,,,,,,Wilson Combat EDC X9 mag basepad,high,"Magazine floorplate, cosmetic; no effect",

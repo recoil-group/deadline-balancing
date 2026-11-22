@@ -1,2 +1,0 @@
-name,handling,reload_time,stability,note
-9x19_glock_stick_31r_vector,-1,0.024,0,old +16 is a known anomaly (RULES_MINED 9.9); valued as its twin 9x19_glock_stick_31r (-3); unreachable

@@ -1,0 +1,199 @@
+name,profile,role,role_strength,value,handling,stability,counterpart,confidence,why,flags
+aft_mk20_508mm_barrel,barrel,marksman,,,,,FN Mk20 SSR 20in barrel,high,Mk20 Sniper Support Rifle heavier-contour barrel; built for set-up precision shooting.,
+aft_mk_16_254mm_barrel,barrel,,,,,,FN SCAR-L CQC 10in barrel,high,Short SCAR-L barrel; length handled by barrel rule.,
+aft_mk_16_355mm_barrel,barrel,,,,,,FN SCAR-L 14in standard barrel,high,Standard SCAR-L barrel; length baseline.,
+aft_mk_16_457mm_barrel,barrel,,,,,,FN SCAR-L 18in long barrel,high,Long SCAR-L barrel; length costs handling.,
+aft_mk_17_330mm_barrel,barrel,,,,,,FN SCAR-H CQC 13in barrel,high,Short SCAR-H CQC barrel; length rule covers it.,
+aft_mk_17_406mm_barrel,barrel,,,,,,FN SCAR-H 16in standard barrel,high,Standard SCAR-H barrel; length baseline.,
+aft_mk_17_508mm_barrel,barrel,,,,,,FN Mk17 LB 20in barrel,high,Standard long SCAR-H barrel; plain length trade.,
+ak308_std_415mm_barrel,barrel,,,,,,Kalashnikov AK-308 16.3in barrel,high,Standard AK-308 barrel; length baseline.,
+al_qadissiya_tabuk_sniper_600mm_7.62x39_barrel,barrel,marksman,,,,,Al-Qadissiya Tabuk Sniper Rifle 600mm barrel,high,Iraqi DMR long heavy barrel; built for a rifle you set up and shoot from.,
+ardian_9x19_127mm_kosch_scramjet_barrel,barrel,,,,,,Radian Weapons Ramjet barrel (Afterburner comp mount),medium,"Extended threadless barrel that hosts a taper-lock comp; slightly longer, barrel profile.",special: value of the comp sits on the ardian_scramjet_catalyst_mount child
+barreltech_scar20_spiral_406mm_threaded_barrel,barrel,,,,,,aftermarket spiral-fluted 16in SCAR 20S barrel (Faxon-style),low,Fluted 16in precision-rifle barrel at standard length; nothing beyond length to lean on.,
+barreltech_scar20_spiral_508mm_threaded_barrel,barrel,,,,,,aftermarket spiral-fluted 20in SCAR 20S barrel (Faxon-style),low,"Fluted 20in barrel for SCAR 20S; fluting lightens it, so no marksman role despite precision use.",special: lead may consider marksman if treated as a SCAR 20S precision barrel
+bnb_value_line_light_tapered_melonite_ar9_76mm_9x19_barrel,barrel,,,,,,KAK Industry Value Line 3in AR9 light tapered barrel,medium,"Tiny light-profile AR9 pistol barrel; length already buys handling, compact role not needed.","special: no set, set size 0 and no weapons; possibly unused"
+cjam_ak_318mm_7.62x39_barrel,barrel,,,,,,aftermarket 12.5in AK 7.62x39 barrel,low,Short AKM-pattern barrel; length rule covers handling.,
+cjam_ak_368mm_7.62x39_barrel,barrel,,,,,,aftermarket 14.5in AK 7.62x39 barrel,low,Mid-length AKM-pattern barrel; length rule covers handling.,
+cmmg_ar_15_5.56x45_610mm_fluted_r_barrel,barrel,marksman,,,,,CMMG 24in fluted barrel,medium,"24in fluted varmint/target barrel; only sensible on a precision AR, marksman.",
+cmmg_mk9_127mm_9x19_barrel,barrel,,,,,,CMMG Mk9 5in 9mm barrel,high,Short AR9 pistol barrel; length rule.,"special: no set, set size 0 and no weapons; possibly unused"
+cmmg_mk9_216mm_9x19_barrel,barrel,,,,,,CMMG Mk9 8.5in 9mm barrel,high,Short AR9 barrel; length rule.,"special: no set, set size 0 and no weapons; possibly unused"
+cmmg_mk9_229mm_9x19_barrel,barrel,,,,,,CMMG Mk9 9in 9mm barrel,medium,Short AR9 barrel; length rule.,"special: no set, set size 0 and no weapons; possibly unused"
+cmmg_mk9_406mm_9x19_c_barrel,barrel,,,,,,CMMG Mk9 16in 9mm barrel,medium,Carbine 9mm barrel; length costs handling.,"special: no set, set size 0 and no weapons; possibly unused"
+cmmg_mk9_406mm_9x19_m_barrel,barrel,,,,,,CMMG Mk9 16in 9mm barrel (mid-length handguard fit),low,"16in 9mm barrel; same length as carbine variant, barrel profile.","special: no set, set size 0 and no weapons; possibly unused;other: same 16in length as _c and _r but E -3/-4/-5, the gap only makes sense if handguard length is implied"
+cmmg_mk9_406mm_9x19_r_barrel,barrel,,,,,,CMMG Mk9 16in 9mm barrel (rifle-length handguard fit),low,16in 9mm barrel; barrel profile.,"special: no set, set size 0 and no weapons; possibly unused"
+cnc_warrior_m14x1lh_to_5_8x24rh_muzzle_thread_adapter,handling,,,,,,CNC Warrior M14x1LH to 5/8x24 thread adapter,high,AK-47 to 5/8x24 thread adapter; muzzle hardware costs handling only.,misfiled: muzzle device (thread adapter) filed under barrel; other: velocity -30 and deviation 0.15 are high for a thread adapter
+custom_2inch_ar15_barrel,barrel,,,,,,generic (novelty 2in AR barrel),low,Novelty stub barrel; extreme length rule already makes it the handiest.,"special: no gas block or muzzle child; joke/novelty item, velocity -866 is intentional?"
+custom_ak308_7.62x51_415mm_threaded_barrel,barrel,,,,,,custom threaded AK-308 barrel,medium,Same-length threaded variant; barrel default.,
+diemaco_tri_ad_i_mount,mount,,,,,,Diemaco/Colt Canada TRI-AD gas block rail,high,Clamp-on tri-rail at the front sight base; a mount whose value sits on its picatinny child.,"misfiled: rail mount, mount profile"
+egs_orthocone_45_piston,handling,,,,,,Rugged Suppressors Obsidian 45 piston,medium,Direct-thread suppressor piston for a .45 can; muzzle hardware with no effect beyond handling.,misfiled: muzzle device (suppressor piston) filed under barrel
+egs_orthocone_suppressor,handling,,,,,,unidentified pistol-caliber suppressor,none,"Pistol-caliber suppressor; muzzle mass costs handling, family default.",special: only choice in its slot
+ex_call_ar_15_.223wylde_457mm_spiral_6groove_m_barrel,barrel,marksman,,,,,X-Caliber 18in .223 Wylde spiral fluted barrel,medium,"18in .223 Wylde match barrel for SPR/DMR builds; marksman part, poor on CQB.",
+ferro_ordnance_mc51_211mm_7.62x51_barrel,barrel,,,,,,FR Ordnance MC51 8.3in barrel,high,Short MC51 carbine barrel; only choice for its variant; length gives handling.,special: only-choice part for the MC51 variant
+ferro_ordnance_mc51k_145mm_7.62x51_barrel,barrel,,,,,,FR Ordnance MC51K short barrel,high,Very short MC51K barrel; length rule already gives large handling so no compact role.,
+ferro_ordnance_mc51sd_125mm_7.62x51_barrel,barrel,,,,,,FR Ordnance MC51SD integrally suppressed barrel,medium,Short integrally suppressed barrel; length rule covers it.,special: hosts mc51sd_suppressor; pairs with integral can
+fireline_bayonet_thread_adapter_for_ak12,handling,,,,,,AK-12 bayonet lug / thread adapter,low,AK-12 muzzle adapter with bayonet lug; muzzle hardware is handling only.,misfiled: muzzle device (thread adapter) filed under barrel
+gt_24_1/2,handling,,,,,,Griffin Armament M24x1.5 to 1/2x28 thread adapter,medium,AK-74 thread adapter; front-end muzzle hardware costs handling only.,misfiled: muzzle device (thread adapter) filed under barrel
+hahn_precision_works_pm_9x18_110mm_threaded_barrel,barrel,,,,,,aftermarket Makarov PM threaded barrel,medium,Extended threaded PM barrel; length and muzzle host cost handling.,
+hart_m4a1_5.56x45_190mm_govt_p_barrel,barrel,,,,,,Colt 7.5in pistol-length barrel,medium,Short AR pistol barrel; length rule pays handling.,
+hart_m4a1_5.56x45_267mm_govt_c_barrel,barrel,,,,,,Colt 10.5in carbine barrel (Mk18-length),medium,CQB-length barrel; length already pays handling.,
+hart_m4a1_5.56x45_317mm_govt_c_barrel,barrel,,,,,,Colt 12.5in carbine barrel,medium,Short carbine barrel; barrel profile.,
+hart_m4a1_5.56x45_368mm_govt_c_barrel,barrel,,,,,,Colt M4 14.5in government profile barrel,high,Default M4 barrel; zero value.,
+hart_m4a1_5.56x45_368mm_socom_c_barrel,barrel,,,,,,Colt M4A1 SOCOM-profile 14.5in barrel,high,"Heavier full-auto carbine profile; durability, not precision; barrel profile.",
+hart_m4a1_front_side_sling_swivel,handling,,,,,,Colt M4 side sling swivel / gas block swivel,medium,"Small sling swivel at the gas block; tiny handling item, no stability reason.","misfiled: barrel accessory, really a sling mount; handling"
+hdts_ump45_200mm_threaded_barrel,barrel,,,,,,UMP45 threaded barrel (aftermarket),medium,Threaded barrel; barrel profile.,
+hi_dog_hdd_tactical_scarh_267mm_7.62x51_barrel,barrel,,,,,,aftermarket 10.5in SCAR-H barrel (HDD/Hodge-style),low,Short aftermarket SCAR-H barrel; length rule already gives it handling.,
+hilt_defense_scar47_394mm_barrel,barrel,,,,,,FN SCAR 17/SCAR-H style 7.62 barrel,low,Only barrel for this rifle; zero baseline.,"special: only choice, old E 0"
+hk_g3_406mm_barrel,barrel,,,,,,PTR 91 16in barrel,high,Standard G3-clone barrel; length baseline.,
+hk_g3_457mm_barrel,barrel,,,,,,PTR 91 18in barrel,high,Longer G3-clone barrel; length costs handling.,
+hk_mp5_9x19_225mm_barrel,barrel,,,,,,HK MP5 225mm barrel,high,Standard MP5 barrel; only choice for its variant.,special: only-choice part
+hk_mp5sd_9x19_146mm_barrel,barrel,,,,,,HK MP5SD ported barrel,high,MP5SD ported barrel under integral suppressor; length rule covers it.,special: only-choice part; hosts mp5sd_suppressor
+hk_msg90a1_threaded_600mm_barrel,barrel,marksman,,,,,HK MSG90A1 heavy threaded barrel,high,Military sniper G3-variant barrel; built for set-up precision shooting.,
+hk_psg1_bull_650mm_barrel,barrel,marksman,,,,,HK PSG1 bull barrel,high,PSG1 sniper bull barrel; clearly a marksman part.,
+hk_ump45_200mm_flanged_barrel,barrel,,,,,,HK UMP45 8in flanged barrel,high,Standard UMP barrel; zero baseline.,
+hk_ump9_200mm_flanged_barrel,barrel,,,,,,HK UMP9 8in flanged barrel,high,Standard UMP9 barrel; zero baseline.,
+hk_ump9_200mm_trilug_threaded_barrel,barrel,,,,,,HK UMP9 tri-lug threaded barrel,medium,Tri-lug threaded barrel; barrel profile.,
+i_24_14_ta,handling,,,,,,generic AK-74 24x1.5 to 1/2x28 thread adapter,low,AK-74 thread adapter; front-end muzzle hardware costs handling only.,misfiled: muzzle device (thread adapter) filed under barrel
+ips_1_2x28_to_5_8x24_knurled_thread_adapter,handling,,,,,,generic 1/2x28 to 5/8x24 knurled thread adapter,medium,Thread pitch adapter; muzzle hardware costs handling only.,"misfiled: muzzle device (thread adapter) filed under barrel; other: bullet_velocity -200, recoil +2/+2 and deviation 0.2 look far too large for a thread adapter"
+ips_5.56x45_1inch_barrel_extension,handling,,,,,,generic 1in 5.56 barrel extension (pinned extension),low,Short barrel extension; adds length at the muzzle so costs handling only.,misfiled: muzzle device (barrel extension) filed under barrel
+ips_5.56x45_2inch_barrel_extension,handling,,,,,,generic 2in 5.56 barrel extension,low,Barrel extension; length at the muzzle costs handling only.,misfiled: muzzle device (barrel extension) filed under barrel
+ips_5.56x45_4inch_barrel_extension,handling,,,,,,generic 4in 5.56 barrel extension,low,Barrel extension; length at the muzzle costs handling only.,misfiled: muzzle device (barrel extension) filed under barrel
+ips_7.62x51_1inch_barrel_extension,handling,,,,,,generic 1in 7.62 barrel extension,low,Barrel extension; length at the muzzle costs handling only.,misfiled: muzzle device (barrel extension) filed under barrel
+ips_7.62x51_2inch_barrel_extension,handling,,,,,,generic 2in 7.62 barrel extension,low,Barrel extension; length at the muzzle costs handling only.,misfiled: muzzle device (barrel extension) filed under barrel
+ips_7.62x51_4inch_barrel_extension,handling,,,,,,generic 4in 7.62 barrel extension,low,Barrel extension; length at the muzzle costs handling only.,misfiled: muzzle device (barrel extension) filed under barrel
+izhevsk_pm_9x18_94mm_barrel,barrel,,,,,,Makarov PM factory barrel,high,"Stock PM barrel; default, zero value.",
+kalis_scalar_140mm_10mm_threaded_barrel,barrel,,,,,,KRISS Vector 5.5in threaded 10mm barrel,high,Standard SMG barrel; length rule baseline.,
+kalis_scalar_140mm_40sv_threaded_barrel,barrel,,,,,,KRISS Vector 5.5in threaded .40S&W barrel,high,Standard SMG barrel; length rule baseline.,
+kalis_scalar_140mm_45acp_threaded_barrel,barrel,,,,,,KRISS Vector 5.5in threaded .45ACP barrel,high,Standard SMG barrel; length rule baseline.,
+kalis_scalar_140mm_9x19_threaded_barrel,barrel,,,,,,KRISS Vector 5.5in threaded 9mm barrel,high,Standard SMG barrel; length rule baseline.,
+kalis_scalar_165mm_10mm_threaded_barrel,barrel,,,,,,KRISS Vector 6.5in threaded 10mm barrel,high,Slightly longer SMG barrel; length rule.,
+kalis_scalar_165mm_40sv_threaded_barrel,barrel,,,,,,KRISS Vector 6.5in threaded .40S&W barrel,high,Slightly longer SMG barrel; length rule.,
+kalis_scalar_165mm_45acp_threaded_barrel,barrel,,,,,,KRISS Vector 6.5in threaded .45ACP barrel,high,Slightly longer SMG barrel; length rule.,
+kalis_scalar_165mm_9x19_threaded_barrel,barrel,,,,,,KRISS Vector 6.5in threaded 9mm barrel,high,Slightly longer SMG barrel; length rule.,
+kalis_scalar_406mm_10mm_barrel,barrel,,,,,,KRISS Vector CRB 16in 10mm barrel,high,"Carbine barrel; length costs handling, hosts carbine shroud.",
+kalis_scalar_406mm_40sv_barrel,barrel,,,,,,KRISS Vector CRB 16in .40S&W barrel,high,"Carbine barrel; length costs handling, hosts carbine shroud.",
+kalis_scalar_406mm_45acp_barrel,barrel,,,,,,KRISS Vector CRB 16in .45ACP barrel,high,"Carbine barrel; length costs handling, hosts carbine shroud.",
+kalis_scalar_406mm_9x19_barrel,barrel,,,,,,KRISS Vector CRB 16in 9mm barrel,high,"Carbine barrel; length costs handling, hosts carbine shroud.",
+kalis_scalar_gen1_barrel_shroud,even,,,,,,KRISS Vector CRB Gen I 16in barrel shroud,medium,"Vector carbine shroud is the handguard over the 16in barrel; even, set members are equal length.",misfiled: handguard (barrel shroud is the Vector CRB handguard)
+kalis_scalar_gen2_early_barrel_shroud,even,,,,,,KRISS Vector CRB Gen II early 16in barrel shroud,medium,"Vector carbine handguard; same length as set mates, even.",misfiled: handguard
+kalis_scalar_gen2_late_barrel_shroud,even,,,,,,KRISS Vector CRB Gen II late 16in barrel shroud,medium,"Vector carbine handguard; same length as set mates, even.",misfiled: handguard
+kalis_scalar_gen3_16inch_mlok_barrel_shroud,handguard_long,,,,,,KRISS Vector Gen III 16in M-LOK shroud,medium,Clearly longest of its Gen III set (5.5/10/16in); mild long-handguard lean.,misfiled: handguard
+kazarov_ak105_314mm_5.45x39_barrel,barrel,,,,,,Kalashnikov AK-105 314mm barrel,high,Short AK-100 carbine barrel; length rule covers handling.,
+kazarov_ak74_415mm_5.45x39_barrel,barrel,,,,,,Kalashnikov AK-74 415mm barrel,high,Standard AK-74 barrel; length baseline.,
+kazarov_akm_415mm_7.62x39_barrel,barrel,,,,,,Kalashnikov AKM 415mm barrel,high,Standard AKM barrel; length baseline.,
+kazarov_aks74u_210mm_5.45x39_barrel,barrel,,,,,,Kalashnikov AKS-74U 210mm barrel,high,Only barrel on the AKS-74U; length already gives handling.,special: only-choice part for the AKS-74U variant
+kazarov_pp-19-01_238mm_9x19_barrel,barrel,,,,,,PP-19-01 Vityaz 238mm barrel,high,Standard Vityaz SMG barrel; length baseline.,
+kazarov_saiga_9_345mm_9x19_barrel,barrel,,,,,,Saiga-9 345mm carbine barrel,high,Longer civilian 9mm carbine barrel; length costs handling.,
+kf_416_a5_barrel_nut,even,,,,,,HK416 A5 barrel nut,medium,Barrel nut holding the handguard; no length or reason to lean either way.,misfiled: handguard mounting hardware rather than barrel; special: both options in the set have identical value so zero would also work
+kf_416_barrel_nut,even,,,,,,HK416 barrel nut,medium,Barrel nut holding the handguard; no reason to lean either way.,misfiled: handguard mounting hardware rather than barrel
+kf_416a5_11i_barrel,barrel,,,,,,HK416A5 11in barrel,high,Short 416 barrel; barrel length rule covers it.,
+kf_416a5_12.5i_barrel,barrel,,,,,,HK416 12.5in barrel,medium,Mid-short 416 barrel; barrel profile.,
+kf_416a5_14.5i_barrel,barrel,,,,,,HK416A5 14.5in barrel,high,"Default 416 barrel; reference length, zero value.",
+kf_416a5_16.5i_barrel,barrel,,,,,,HK416A5 16.5in barrel,high,Rifle-length 416 barrel; length costs handling.,
+kf_416a5_20i_barrel,barrel,,,,,,HK416A5 20in barrel,high,"Long 416 barrel (MR223/G28-like length); length cost only, standard profile.",
+kf_416c_9.0i_barrel,barrel,,,,,,HK416C 9in barrel,high,Short HK416C barrel; length rule covers handling.,
+kf_416d_10.4i_barrel,barrel,,,,,,HK416D 10.4in barrel,high,"Short 416 CQB barrel; length already pays handling, no role beyond length.",
+kf_416d_14.5i_barrel,barrel,,,,,,HK416D 14.5in barrel,high,"Older D-model 14.5in barrel; same as default, zero value.",
+kf_416d_16.5i_barrel,barrel,,,,,,HK416D 16.5in barrel,high,Rifle-length 416 barrel; length costs handling.,
+kf_416d_20i_barrel,barrel,,,,,,HK416D 20in barrel,high,"Long 416 barrel; length cost only, standard profile.",
+kosch_10mm_114mm_barrel,barrel,,,,,,Glock 10mm conversion barrel (e.g. Lone Wolf),medium,Caliber conversion barrel at stock length; no ergonomic effect.,special: caliber conversion; value carried by recoil/velocity and the 10mm magazine child
+kosch_9x19_114mm_barrel,barrel,,,,,,Glock 17 factory barrel,high,"Stock Glock 17 barrel; default, zero value.",
+krb_9x19_406mm_kosch_match_grade_polygonal_threaded_barrel,barrel,,,,,,"16in Glock carbine-conversion barrel (polygonal, threaded)",low,16in barrel for a Glock carbine conversion; length costs handling.,special: only sensible inside a carbine chassis/stock; check it is not usable bare on a pistol frame
+krn_10mm_117mm_kosch_match_barrel,barrel,,,,,,KKM Precision Glock 10mm match barrel,medium,"Drop-in 10mm match conversion barrel; barrel profile, no role.",
+krn_10mm_132mm_kosch_match_threaded_barrel,barrel,,,,,,KKM Precision Glock 10mm threaded match barrel,medium,Extended threaded 10mm barrel; length and muzzle device host cost handling.,
+launchtron_psrl_2_tube,zero,,,,,,AirTronic USA PSRL-2 (RPG-7 clone) tube,high,Launcher tube container with no ergonomics value; value sits on children.,special: only-choice container; old ergonomics is empty
+lowenherz_aug_hbar_620mm_heavy_barrel,barrel,marksman,,,,,Steyr AUG HBAR 24.4in heavy barrel,high,LSW/marksman heavy barrel with bipod; built for set-up shooting.,special: hosts aug_hbar_bipod child slot
+mosin_514mm_barrel,barrel,,,,,,Mosin M38/M44 carbine barrel,high,Carbine-length Mosin barrel; length pays handling.,
+mosin_730mm_barrel,barrel,,,,,,Mosin 91/30 barrel,high,Standard 91/30 barrel; default.,
+mosin_bramit_7.62x54r_suppressor,handling,,,,,,Bramit (BraMit) Mosin suppressor,high,"Muzzle suppressor; length and mass at the muzzle cost handling, family default.","special: only choice in its slot; other: round-6 note classed it as flash_hider, should use suppressor treatment"
+mosin_sawn_off_200mm_barrel,barrel,,,,,,Mosin obrez (sawn-off),high,Obrez sawn-off barrel; length rule already pays large handling.,"special: V=25 is very large; with h=V and s=0 it loses its 8 round-6 stability, check the obrez stays unsteady but usable"
+mosin_sawn_off_220mm_barrel,barrel,,,,,,Mosin obrez with front sight,high,Obrez sawn-off barrel; length rule already pays large handling.,"special: V=22, same note as the 200mm obrez"
+mp_133_510mm_barrel,barrel,,,,,,Baikal MP-133 510mm barrel,high,Default short MP-133 barrel; barrel profile.,
+mp_133_510mm_rib_barrel,barrel,,,,,,Baikal MP-133 510mm vent-rib barrel,high,"Vent rib aids sight picture; handling-only gain, barrel profile.",
+mp_133_540mm_barrel,barrel,,,,,,Baikal MP-133 540mm barrel,high,Barrel length variant; barrel profile.,
+mp_133_540mm_rib_barrel,barrel,,,,,,Baikal MP-133 540mm vent-rib barrel,high,Vent-rib barrel; barrel profile.,
+mp_133_610mm_barrel,barrel,,,,,,Baikal MP-133 610mm barrel,high,Barrel length variant; barrel profile.,
+mp_133_610mm_rib_barrel,barrel,,,,,,Baikal MP-133 610mm vent-rib barrel,high,Vent-rib barrel; barrel profile.,
+mp_133_660mm_barrel,barrel,,,,,,Baikal MP-133 660mm barrel,high,Long field barrel; length cost.,
+mp_133_660mm_rib_barrel,barrel,,,,,,Baikal MP-133 660mm vent-rib barrel,high,Long vent-rib field barrel; length cost.,
+mp_133_710mm_barrel,barrel,,,,,,Baikal MP-133 710mm barrel,high,Long field/bird barrel; length cost.,
+mp_133_710mm_rib_barrel,barrel,,,,,,Baikal MP-133 710mm vent-rib barrel,high,Long vent-rib field barrel; length cost.,
+mp_133_750mm_barrel,barrel,,,,,,Baikal MP-133 750mm barrel,high,Longest field barrel; length cost.,
+mp_133_750mm_rib_barrel,barrel,,,,,,Baikal MP-133 750mm vent-rib barrel,high,Longest vent-rib field barrel; length cost.,
+mp_133_sawn_off_340mm_barrel,barrel,,,,,,MP-133 sawn-off barrel,medium,Short sawn-off barrel; length rule pays handling.,
+odin_works_tiduro_modular_compensator,handling,,,,,,Odin Works Tiduro modular muzzle brake module,high,"Add-on brake module; muzzle device, handling.",special: only choice in its slot
+omega_ump45_200mm_trilug_barrel,barrel,,,,,,UMP45 tri-lug barrel (aftermarket),medium,Tri-lug barrel for suppressor mounts; barrel profile.,
+pac_ks1_5.56x45_348mm_heavy_dimpled_m_barrel,barrel,,,,,,Knight's Armament KS-1 (L403A1) 13.7in barrel,high,"General-issue carbine barrel, heavy dimpled for durability, not precision; barrel profile, no role.","special: round-6 'heavy profile +1.5' stability bonus came from the old method; heavy profile here is for sustained fire, not a marksman part"
+primabarrels_ar15_modern_series_5.56x45_292mm_govt_c_barrel,barrel,,,,,,unidentified 11.5in AR barrel (Daniel Defense-style),low,11.5in carbine barrel; barrel profile.,
+ptr_32_7.62x39_406mm_5-8x24_barrel,barrel,,,,,,PTR 32 16in barrel 5/8x24 thread,high,Standard PTR 32 barrel with alt thread; barrel default.,
+ptr_32_7.62x39_406mm_m14x1lh_barrel,barrel,,,,,,PTR 32 16in barrel M14x1LH,high,Standard PTR 32 barrel; length baseline.,
+ptr_32_7.62x39_457mm_5-8x24_barrel,barrel,,,,,,PTR 32 18in barrel 5/8x24 thread,medium,Longer PTR 32 barrel; length costs handling.,
+ptr_32_7.62x39_457mm_m14x1lh_barrel,barrel,,,,,,PTR 32 18in barrel M14x1LH,medium,Longer PTR 32 barrel; length costs handling.,
+quix_tacticals_ar15_127mm_5.56_nitride_barrel_custom_gastube,barrel,,,,,,unidentified 5in nitride AR barrel,low,"Very short AR pistol barrel; length handling, no extra role.",
+r870_211mm_sawn_off,barrel,,,,,,Remington 870 sawn-off barrel,medium,Sawn-off smoothbore; length rule pays handling.,"special: old E ranks it below the 325mm (5 vs 6); with h=V it is less handy than a longer barrel, consider raising V"
+r870_325mm_sawn_off,barrel,,,,,,Remington 870 sawn-off 12.8in smoothbore,medium,"Short shotgun barrel; length already buys handling, no role beyond length.",
+r870_325mm_sawn_off_vent_ribs,barrel,,,,,,Remington 870 sawn-off vent-rib smoothbore,medium,"Short vent-rib barrel; length carries handling, stability neutral.",
+r870_508mm,barrel,,,,,,Remington 870 20in smoothbore,high,Standard default barrel; length rule only.,
+r870_508mm_fixed_sight,barrel,,,,,,Remington 870 20in barrel with bead/rifle sights,high,"20in barrel with integral sights; barrel profile, sights are child slots.",
+r870_660mm_barrel_vent_ribs,barrel,,,,,,Remington 870 26in vent-rib field barrel,high,"Field barrel; length costs handling, stability neutral.",
+r870_711mm_barrel_vent_ribs,barrel,,,,,,Remington 870 28in vent-rib field barrel,high,Long field barrel; length costs handling.,
+r870_762mm_barrel_vent_ribs,barrel,,,,,,Remington 870 30in vent-rib barrel,high,Long field/trap barrel; length costs handling.,
+r870_864mm_barrel_vent_ribs,barrel,,,,,,Remington 870 34in vent-rib barrel,medium,Longest field barrel; length costs handling.,
+rat_worx_aug_5.56x45_supp_adapter,handling,,,,,,Rate Worx / Ratworx AUG 1/2x28 suppressor adapter,medium,AUG muzzle thread adapter for suppressors; muzzle hardware is handling only.,misfiled: muzzle device (thread adapter) filed under barrel; other: bullet_velocity +30 on a thread adapter is odd
+resiliant_suppressors_obsidian_9_body,handling,,,,,,Silencerco Osprey/Obsidian 9-style modular 9mm can body (Obsidian 9),medium,"Modular pistol suppressor body; muzzle mass costs handling, family default.",special: only choice in its slot and hosts the cap/extension child
+resiliant_suppressors_obsidian_9_extension,handling,,,,,,Obsidian 9 extension module,medium,"Suppressor length extension; more muzzle length, handling cost.",
+rhodesian_halbek_muzzle_device,handling,,,,,,FAL Halbek muzzle brake / flash hider (Rhodesian reproduction),medium,Muzzle brake on the FAL; front-end mass costs handling only.,misfiled: muzzle device filed under barrel; special: only-choice slot but weapons list spans many rifles
+roosevelt_model_700_419mm_.308_barrel,barrel,,,,,,Remington 700 16.5in .308,medium,"Short bolt-gun barrel; length rule, no role.",
+roosevelt_model_700_419mm_.308_threaded_barrel,barrel,,,,,,Remington 700 16.5in threaded .308 (SPS Tactical AAC-SD style),medium,"Short threaded bolt-gun barrel; length rule, no role.",
+roosevelt_model_700_508mm_.308_heavy_barrel,barrel,marksman,,,,,Remington 700 20in heavy .308 (SPS Varmint/Tactical),high,Heavy-contour barrel built for precision; named in proposal as marksman.,other: weight 1.0 lighter than 22in standard 1.1; a heavy contour should weigh more
+roosevelt_model_700_508mm_.308_heavy_threaded_barrel,barrel,marksman,,,,,Remington 700 20in heavy threaded .308 (SPS Tactical),high,Heavy-contour tactical barrel for setting up and shooting; named in proposal as marksman.,other: weight 0.99 lighter than 22in standard 1.1; a heavy contour should weigh more
+roosevelt_model_700_559mm_.308_barrel,barrel,,,,,,Remington 700 22in sporter .308,high,Default sporter barrel; zero baseline.,
+roosevelt_model_700_610mm_.308_barrel,barrel,,,,,,Remington 700 24in .308,medium,"Longer barrel; length costs handling, stability neutral.",
+roosevelt_model_700_610mm_.308_threaded_barrel,barrel,,,,,,Remington 700 24in threaded .308,medium,"Longer barrel; length costs handling, stability neutral.",
+roosevelt_model_700_660mm_.308_barrel,barrel,,,,,,Remington 700 26in .308 (Long Range),medium,Longest standard barrel; length costs handling; not labelled heavy so no role.,
+rsa_sg58_210mm_premium_pistol_barrel,barrel,,,,,,DS Arms SA58 8.25in pistol barrel,high,"Very short pistol barrel; length already buys large handling, no extra role.",
+rsa_sg58_305mm_barrel,barrel,,,,,,DS Arms SA58 11-13in short barrel,high,Short FAL barrel; length rule.,
+rsa_sg58_330mm_barrel,barrel,,,,,,DS Arms SA58 13in barrel,high,Short FAL barrel; length rule.,
+rsa_sg58_406mm_barrel,barrel,,,,,,DS Arms SA58 16in carbine barrel,high,Carbine-length FAL barrel; length rule baseline.,
+rsa_sg58_406mm_fluted_barrel,barrel,,,,,,DS Arms SA58 16in fluted barrel,high,"Fluted carbine barrel; lighter, slightly handier, barrel profile.",
+rsa_sg58_457mm_barrel,barrel,,,,,,DS Arms SA58 18in barrel,high,Longer FAL barrel; length costs handling.,
+rsa_sg58_533mm_barrel,barrel,,,,,,DS Arms SA58 21in rifle barrel,high,"Full rifle-length FAL barrel; length costs handling, no heavy contour noted.",
+sanxian_qbz95_463mm_barrel,barrel,,,,,,Norinco QBZ-95 463mm barrel,high,Only barrel for the QBZ-95; no ergonomics value.,"special: only choice, old E empty"
+sic_sturmer_p226_oem_4.4inch_9x19_barrel,barrel,,,,,,SIG Sauer P226 4.4in OEM barrel,high,Default pistol barrel; zero baseline.,
+sic_sturmer_p226_oem_5inch_threaded_9x19_barrel,barrel,,,,,,SIG Sauer P226 5in threaded barrel,high,Threaded slightly longer pistol barrel; length/muzzle bulk costs handling.,
+sic_sturmer_p229_oem_3.9inch_9x19_barrel,barrel,,,,,,SIG Sauer P229 3.9in OEM barrel,high,Compact-frame short barrel; length buys handling.,
+sic_sturmer_p229_oem_4.4inch_threaded_9x19_barrel,barrel,,,,,,SIG Sauer P229 4.4in threaded barrel,high,Threaded compact barrel; barrel profile.,
+sig_sauer_p320_compact_3.9inch_9x19_barrel,barrel,,,,,,SIG P320 Compact 3.9in barrel,high,Compact-length barrel; length pays handling.,
+sig_sauer_p320_compact_4.6inch_threaded_9x19_barrel,barrel,,,,,,SIG P320 Compact threaded barrel,high,Threaded compact barrel; small length and muzzle host cost.,
+sig_sauer_p320_full_4.7inch_9x19_barrel,barrel,,,,,,SIG P320 Full-Size 4.7in barrel,high,Full-size reference barrel; zero value.,
+sig_sauer_p320_full_5.5inch_threaded_9x19_barrel,barrel,,,,,,SIG P320 Full-Size threaded barrel,high,Threaded full-size barrel; length cost.,
+sno_vulkan_rpg_7n2_tube,zero,,,,,,RPG-7 launcher tube,high,Launcher body hosting all RPG parts; no ergonomics value.,"misfiled: really the launcher receiver/body;special: only choice, old E empty"
+spiderweb_bpr_suppressor_system_srm_6,handling,,,,,,OSS BPR suppressor SRM-6 module,high,Largest add-on module of the OSS BPR suppressor; front-end length and mass cost handling.,"misfiled: muzzle (suppressor module, child of BPR-1425);special: only fits on the BPR-1425 suppressor"
+steyr_aug_350mm_barrel,barrel,,,,,,Steyr AUG A3 14in barrel,high,Short AUG barrel; length rule covers handling.,
+steyr_aug_407mm_barrel,barrel,,,,,,Steyr AUG A3 16in barrel,high,Standard AUG barrel; length baseline.,
+steyr_aug_457mm_barrel,barrel,,,,,,Steyr AUG 18in barrel,high,Longer AUG barrel; length costs handling.,
+steyr_aug_508mm_barrel,barrel,,,,,,Steyr AUG 20in barrel,high,Long AUG rifle barrel; plain length trade.,
+steyr_aug_nato_350mm_barrel,barrel,,,,,,Steyr AUG A3 NATO 14in barrel,high,Short AUG barrel with 1/2x28 thread; length rule.,
+steyr_aug_nato_407mm_barrel,barrel,,,,,,Steyr AUG A3 NATO 16in barrel,high,Standard AUG barrel with NATO thread; length baseline.,
+steyr_aug_nato_457mm_barrel,barrel,,,,,,Steyr AUG NATO 18in barrel,high,Longer AUG barrel; length costs handling.,
+steyr_aug_nato_508mm_barrel,barrel,,,,,,Steyr AUG NATO 20in barrel,high,Long AUG rifle barrel; plain length trade.,
+steyr_aug_para_9x19_325mm_threaded_barrel,barrel,,,,,,Steyr AUG 9mm Para 325mm threaded barrel,high,Shorter threaded 9mm AUG barrel; length rule.,
+steyr_aug_para_9x19_420mm_barrel,barrel,,,,,,Steyr AUG 9mm Para 420mm barrel,high,Standard 9mm AUG barrel; length baseline.,special: default barrel has old E 3 not 0
+suppressors_inc_p226_5inch_threaded_9x19_barrel,barrel,,,,,,aftermarket P226 5in threaded barrel (SilencerCo-style),low,Aftermarket threaded pistol barrel; barrel profile.,special: round-6 treated it as a flash hider (muzzle rule); it is a barrel
+suppressors_inc_qd_asr_mount,handling,,,,,,SilencerCo ASR muzzle mount,high,QD suppressor mount; muzzle hardware with zero value.,misfiled: muzzle device (suppressor mount) filed under barrel; special: only-choice container hosting asr_suppressors
+target_sports_mt026_mount,mount,,,,,,generic tri-rail gas block mount,medium,Generic AR front-sight-base tri-rail mount; mount profile.,"misfiled: rail mount, mount profile"
+theoretical_barrel,zero,,,,,,generic,high,Placeholder barrel for a turret; no effect.,"special: only choice, turret placeholder"
+tt33_116mm_barrel,barrel,,,,,,Tokarev TT-33 116mm barrel,high,Standard pistol barrel; zero baseline.,
+tt33_124mm_threaded_barrel,barrel,,,,,,Tokarev TT-33 threaded barrel,medium,Threaded slightly longer barrel; barrel profile.,
+tt33_barrel_bushing,zero,,,,,,Tokarev TT-33 barrel bushing,high,"Plain factory bushing, no effect; the default alternative to the DTK-TT compensator.",misfiled: competes with a muzzle device; plain default with E 0
+tubewerx_m15x1rh_to_5_8x24_thread_adapter,handling,,,,,,Tubewerx HK91/G3 M15x1 to 5/8x24 thread adapter,medium,G3 thread adapter; muzzle hardware costs handling only.,misfiled: muzzle device (thread adapter) filed under barrel
+uk_vz59_546mm_straight_profile_barrel,barrel,marksman,,,,,Czech UK vz.59 7.62x51 barrel (straight heavy profile),low,"Heavy straight-profile MG-derived barrel, threaded for 7.62x51 devices; precision-build part, marksman.",
+vai_9x19_114mm_kosch_match_grade_fluted_barrel,barrel,,,,,,"Glock 17 match fluted barrel (aftermarket, e.g. ZEV/Faxon)",medium,"Drop-in match pistol barrel; accuracy upgrade, not a role part on a pistol.",
+vai_9x19_127mm_kosch_match_grade_fluted_threaded_barrel,barrel,,,,,,Glock 17 threaded match fluted barrel (aftermarket),medium,"Extended threaded match barrel; length cost, no role on a pistol.",
+val_bor_p229_4.4inch_threaded_9x19_barrel,barrel,,,,,,Bar-Sto match-grade P229 threaded barrel,medium,"Match pistol barrel; accuracy sits in deviation, no role on a pistol.",
+wesson_slug_610mm_cantilever,barrel,marksman,,,,,Remington 870 rifled slug barrel with cantilever scope mount,medium,"Rifled slug barrel built for scoped deliberate shots; tightest deviation, poor CQB choice.",special: hosts picatinny cantilever; only scope-capable 870 barrel
+whitner_defense_edc_x9_102mm_9x19_barrel,barrel,,,,,,Wilson Combat EDC X9 4in barrel,high,Standard EDC X9 pistol barrel; length baseline.,
+whitner_defense_edc_x9_127mm_threaded_9x19_barrel,barrel,,,,,,Wilson Combat EDC X9 threaded 5in barrel,high,Longer threaded pistol barrel; length costs handling.,
+whtnls_a1_m4a1_5.56x45_508mm_govt_r_barrel,barrel,,,,,,M16A1 20in government barrel,medium,"Standard rifle-length service barrel; length cost only, no role.",
+whtnls_m4a1_5.56x45_406mm_govt_m_barrel,barrel,,,,,,16in government mid-length barrel,medium,Standard 16in carbine barrel; length cost.,
+whtnls_m4a1_5.56x45_406mm_socom_c_barrel,barrel,,,,,,16in SOCOM carbine barrel,medium,"Standard 16in carbine barrel, heavier profile; length cost.",
+whtnls_m4a1_5.56x45_508mm_hbar_r_barrel,barrel,marksman,,,,,20in HBAR rifle barrel,high,Heavy 20in barrel for set-up shooting; listed marksman part in the proposal.,

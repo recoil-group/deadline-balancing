@@ -1,0 +1,224 @@
+name,profile,role,role_strength,value,handling,stability,counterpart,confidence,why,flags
+af_far_std_dust_cover,handling,,,,,,FN FAL standard dust cover,high,Plain cover; its only difference vs railed cover is bulk on top; handling,
+aft_mk20_upper_receiver,even,marksman,,,,,FN SCAR Mk20 SSR upper receiver,high,"Sniper Support Rifle upper, built for a DMR set up and shot from; marksman role",special: proposal starter-list marksman part; heaviest upper in set
+aft_mk20_upper_receiver_for_scar47,even,marksman,,,,,FN SCAR 20S / Mk20 SSR upper,high,Precision-rifle receiver for the SSR; built to be shot from a rest; marksman per proposal.,special: heavier upper (0.85 vs 0.6 dw); old +5 E was compensation for weight
+aft_mk_16_lower_receiver,even,,,,,,FN SCAR 16S trigger module (lower),high,"Standard SCAR-L lower, only choice, no value; receiver default even",
+aft_mk_16_upper_receiver,even,,,,,,FN SCAR 16S upper receiver,high,"Standard SCAR-L upper, only choice, no value; receiver default even",
+aft_mk_17_lower_receiver,even,,,,,,FN SCAR 17S trigger module (lower),high,"Standard SCAR-H lower, no value; receiver default even",
+aft_mk_17_upper_receiver,even,,,,,,FN SCAR 17S upper receiver,high,"Standard SCAR-H upper, no value; even",
+aft_mk_17_upper_receiver_for_scar47,even,,,,,,FN SCAR 17S (Mk17) standard upper,high,Default factory upper receiver; baseline.,
+ak12_gen1_dustcover,even,,,,,,Kalashnikov AK-12 (6P70) dust cover,high,"Standard railed AK-12 top cover, no value; even",
+ak12_gen1_lower_receiver,even,,,,,,Kalashnikov AK-12 early (6P70) receiver,high,"Standard AK-12 receiver, no value; even",
+ak12_gen2_lower_receiver,even,,,,,,Kalashnikov AK-12 2018/2020 (6P70M) receiver,high,"Refined production AK-12 receiver, general improvement; nicer at both, even",
+ak308_gen1_lower_receiver,even,,,,,,Kalashnikov AK-308 early receiver,medium,"Base AK-308 receiver, no value; even",
+ak308_gen2_lower_receiver,even,,,,,,Kalashnikov AK-308 later receiver,medium,"Later AK-308 receiver, general improvement; nicer at both, even",
+akademia_bastion_dust_cover,even,,,,,,Akademia Bastion AK dust cover,high,"Railed AK dust cover; receiver part, even",
+ardian_weapons_ar15_model_1_m1curgh_upper_receiver,even,,,,,,Radian Weapons Model 1 complete upper (with handguard),medium,Premium billet AR upper; nicer at both; even,
+ardian_weapons_ax556_adac15_lower_receiver,even,,,,,,Radian Weapons AX556 ambidextrous lower,medium,"Fully ambi lower; controls are child slots here, receiver even.",reload: real lower has integral ambi bolt catch/mag release; reload sits on child slots so no change unless those are locked
+ashguns_p226_elite_drd_cut_9x19_slide,even,,,,,,SIG Sauer P226 Elite slide with aftermarket optic cut,medium,Elite slide milled for an optic; even.,
+axtell_defense_adm4v7_upper_receiver,even,,,,,,Daniel Defense DDM4V7 upper,high,General-purpose carbine upper; even.,
+axtell_defense_m4_carbine_lower_receiver,even,,,,,,Daniel Defense M4 lower receiver,high,Forged mil-spec style lower; even.,
+axtell_defense_m4_carbine_lower_receiver_ar9,even,,,,,,Daniel Defense M4 lower receiver,high,"Quality AR lower, general improvement; nicer at both, even",
+axtell_defense_m4a1_upper_receiver,even,,,,,,Daniel Defense M4A1 upper,high,Standard carbine upper; even.,
+axtell_defense_mk12_upper_receiver,even,marksman,,,,,Daniel Defense MK12 SPR upper,high,MK12 is the 18in SPR marksman upper; already carries velocity and deviation gains.,other: h/v recoil +1/+2 (worse) is odd for a free-floated SPR upper
+axtell_defense_mk18_upper_receiver,even,compact,,,,,Daniel Defense MK18 upper receiver group,high,MK18 is the 10.3in CQB upper; already carries short-barrel deviation and velocity loss.,
+cartesia_productions_scar_h_x17_trigger_module_lower_receiver,even,,,,,,"unidentified (aftermarket SCAR 17 billet trigger module, Handl Defense / Imperial Arms style)",low,"Aftermarket SCAR-H lower that keeps SCAR mags; general upgrade, no role reason; even",
+cmmg_mk9_dust_cover,zero,,,,,,CMMG Mk9 ejection port dust cover,high,Ejection port cover is cosmetic; no effect on either stat.,special: old +1 E has no basis; no set/weapons listed
+cmmg_mk9_lower_receiver,even,,,,,,CMMG MK9 dedicated 9mm lower,high,"Dedicated 9mm AR lower, set default; even",
+cmmg_mk9_upper_receiver,even,,,,,,CMMG Mk9 9mm AR upper,high,Default 9mm AR upper; baseline.,special: no set/weapons listed
+dl_precision_p226_229_drd_filler_plate,zero,,,,,,Aftermarket P226/P229 optic-cut adapter plate,medium,Adapter plate whose value sits on the hosted optic mount.,misfiled: adapter/mount container
+equinox_ex15_lower_receiver,even,,,,,,Aeroknox AX15 billet lower,high,"Lightweight billet lower; weight already pays, no stat favoured.",
+equinox_ex15_lower_receiver_ar9,even,,,,,,unidentified (lightweight AR-15 lower used on 9mm build),none,"AR lower on the MK9; general option, no role evidence; even",
+equinox_ex15_upper_receiver,even,,,,,,Aeroknox AX15 billet upper,high,"Billet upper with integral rail, no dust cover; even.",
+equinox_ex_mp5_modified_trigger_housing,even,,,,,,Aeroknox AX//MP5 lower (G3 fit),medium,"Billet MP5/G3 lower taking AR pistol grips; grip comfort, not form, so even.",
+equinox_ex_mp5_trigger_housing,even,,,,,,Aeroknox AX//MP5 lower,high,"Billet MP5 lower taking AR pistol grips; grip carries comfort, receiver even.",
+ferro_ordnance_mc51_upper_receiver,even,compact,,,,,FR Ordnance MC51 (HK51-type short G3),high,SAS cut-down G3 receiver with MP5 handguard; built as a short CQB gun.,
+ferro_ordnance_mc51k_upper_receiver,even,compact,strong,,,,FR Ordnance MC51-style G3 with MP5K handguard,medium,"Cut-down G3 receiver taking an MP5K handguard: the shortest CQB G3, a poor marksman base.",special: strong because it is the extreme of the set and already carries higher recoil
+ferro_ordnance_mc51sd_upper_receiver,even,,,,,,FR Ordnance MC51SD (integrally suppressed MC51),medium,"Suppressed short G3; its identity is quiet, the can adds length, so no compact role.",
+fireline_pilgrim_aksu_dust_cover,even,,,,,,Legal Arsenal Pilgrim railed AKS-74U dust cover,medium,"Railed AKS-74U dust cover; receiver part, even",
+glock17l_slide,even,,,,,,Glock 17L long slide,high,Long competition slide; longer sight radius but barrel is separate; even.,special: no set/weapons listed
+glock20_std_receiver,even,,,,,,Glock 20 frame,high,Default frame; no values.,special: no set/weapons listed; likely unused row
+glock20_std_slide,even,,,,,,Glock 20 slide,high,Default slide; baseline.,special: no set/weapons listed
+glock20_std_slide_release,reload_only,,,,,,Glock standard slide stop lever,high,Slide stop is a reload control.,misfiled: reload control; special: no set/weapons listed; likely unused row
+hart_m16a2_carry_handle_upper_receiver,even,,,,,,Colt M16A2 carry-handle upper,high,Standard A2 upper; fixed carry handle is a sighting difference not a stability trait; even,
+hart_m4a1_castlenut,zero,,,,,,Colt M4 castle nut,high,"Buffer tube castle nut hardware, no effect; zero",
+hart_m4a1_castlenut_for_all,zero,,,,,,Colt M4 castle nut,high,"Buffer tube castle nut hardware, no effect; zero",
+hart_m4a1_castlenut_hk,zero,,,,,,Colt M4 castle nut,high,"Buffer tube castle nut hardware, no effect; zero",
+hart_m4a1_receiver_endplate,zero,,,,,,Colt M4 receiver end plate,high,Plain end plate hosting castle nut and buffer tube; value sits on stock chain; zero,
+hart_m4a1_std_lower_receiver,even,,,,,,Colt M4A1 lower receiver,high,"Default M4 lower, value 0.",
+hart_m4a1_std_lower_receiver_ar9,even,,,,,,Colt M4A1 lower receiver,high,"Standard AR lower with mag adapter, no value; even",
+hart_m4a1_std_upper_receiver,even,,,,,,Colt M4 flat-top upper receiver,high,"Default upper, value 0.",
+hk_g3_sef_metal_trigger_housing,even,,,,,,HK G3 SEF metal trigger housing,high,"Default G3 SEF housing, value 0.",
+hk_g3_std_upper_receiver,even,,,,,,HK G3 standard receiver,high,"Default G3 receiver, value 0.",
+hk_mp5_hk94_sef_metal_trigger_housing,even,,,,,,HK94/MP5 SEF metal trigger housing,high,Older metal SEF housing; nothing favours a stat.,
+hk_mp5_plastic_4_position_trigger_housing,even,,,,,,HK MP5 4-position (navy/burst) polymer trigger housing,high,"Default MP5 housing, value 0.",
+hk_mp5_sef_polymer_contoured_trigger_housing,even,,,,,,HK MP5 SEF polymer contoured (Navy-style) trigger housing,high,"Ergonomic contoured housing with integral grip; comfort, so even.",
+hk_mp5_std_9x19_front_trunnion,zero,,,,,,HK MP5 front trunnion,high,Only-choice structural part with no value; holds the barrel slot.,
+hk_mp5_std_upper_receiver,even,,,,,,HK MP5 receiver,high,"Default MP5 receiver, value 0.",
+hk_mp5sd_9x19_front_trunnion,zero,,,,,,HK MP5SD front trunnion,high,Only-choice structural part with no value; holds the barrel slot.,
+hk_mp5sd_upper_receiver,even,,,,,,HK MP5SD receiver,high,"Integrally suppressed receiver; penalty is bulk of the shroud, no stat favoured.",
+hk_psg1_metal_trigger_housing,even,marksman,,,,,HK PSG1 trigger group housing,medium,PSG1 precision trigger unit housing built for the sniper rifle; marksman minor.,special: the trigger itself is a child slot here; role rests on the PSG1 housing being the match unit
+hk_psg1_upper_receiver,even,marksman,,,,,HK PSG1 receiver,high,PSG1 sniper receiver with fixed scope mount and quiet-close plunger; clearly marksman.,
+hk_psg1_upper_receiver_modified,even,marksman,,,,,HK PSG1-pattern receiver (modified),medium,PSG1 precision receiver variant with plunger and PSG1 handguard; set-up sniper part.,
+hk_psg1_upper_receiver_reinforcements,even,,,,,,HK PSG1 receiver side rails/reinforcement,medium,Stiffening side plates of the PSG1 receiver; tiny value.,special: only choice under the modified PSG1 receiver; value acts as base
+hk_ump45_upper_receiver,even,,,,,,HK UMP45 upper receiver,high,Default caliber upper; baseline.,
+hk_ump9_upper_receiver,even,,,,,,HK UMP9 upper receiver (9mm),high,Caliber conversion upper; same shape as UMP45; even.,other: old +7 E on a same-size upper looks like balance compensation; 9mm already has lighter recoil and higher fire rate
+hk_ump_012_navy_lower_receiver,even,,,,,,HK UMP lower with Navy 0-1-2 trigger group (safe/semi/2-burst),high,Burst lower; old E compensates for no full auto; even.,special: old +3 E compensates for no full auto rather than ergonomics
+hk_ump_012d_navy_lower_receiver,even,,,,,,HK UMP lower with Navy 0-1-2-D trigger group (safe/semi/burst/auto),high,Full four-position lower; even.,
+hk_ump_01_navy_lower_receiver,even,,,,,,HK UMP lower with Navy 0-1 trigger group (safe/semi),high,Semi-only lower; old E is compensation for losing auto; even.,special: old +4 E compensates for no full auto rather than ergonomics
+hk_ump_01d_navy_lower_receiver,even,,,,,,HK UMP lower with Navy 0-1-D trigger group (safe/semi/auto),high,Default auto lower; baseline.,
+izhevsk_pm_9x18_std_frame,even,,,,,,Makarov PM frame,high,Only-choice frame with no value; even (zero in effect),special: only-choice
+izhevsk_pm_9x18_std_slide,even,,,,,,Makarov PM slide,high,Only-choice slide with no value; even (zero in effect),special: only-choice
+izhevsk_pm_std_slide_stop,reload_only,,,,,,Makarov PM slide stop,high,Slide stop is the pistol bolt catch; any value belongs to reload,special: only-choice with no value
+kalis_scalar_gen1_45acp_lower_receiver,even,,,,,,KRISS Vector Gen I .45 ACP lower,high,Set default lower; even,
+kalis_scalar_gen1_45acp_upper_receiver,even,,,,,,KRISS Vector Gen I .45 ACP upper,high,Only-choice upper with no value; even,special: only-choice
+kalis_scalar_gen2_early_10mm_lower_receiver,even,,,,,,KRISS Vector Gen II (early) 10mm lower,high,Caliber/generation lower variant; even,
+kalis_scalar_gen2_early_10mm_upper_receiver,even,,,,,,KRISS Vector Gen II (early) 10mm upper,high,Generation upper variant with no value; even,
+kalis_scalar_gen2_early_40sv_lower_receiver,even,,,,,,KRISS Vector Gen II (early) .40 S&W lower,high,Caliber/generation lower variant; even,
+kalis_scalar_gen2_early_40sv_upper_receiver,even,,,,,,KRISS Vector Gen II (early) .40 S&W upper,high,Generation upper variant with no value; even,
+kalis_scalar_gen2_early_45acp_lower_receiver,even,,,,,,KRISS Vector Gen II (early) .45 ACP lower,high,Caliber/generation lower variant; even,
+kalis_scalar_gen2_early_45acp_upper_receiver,even,,,,,,KRISS Vector Gen II (early) .45 ACP upper,high,Generation upper variant with no value; even,
+kalis_scalar_gen2_early_9x19_lower_receiver,even,,,,,,KRISS Vector Gen II (early) 9mm lower,high,Caliber/generation lower variant; even,
+kalis_scalar_gen2_early_9x19_upper_receiver,even,,,,,,KRISS Vector Gen II 9mm upper (early),high,Standard receiver variant; no shape difference favouring either stat.,special: no old E; early vs late Gen II differ cosmetically
+kalis_scalar_gen2_late_10mm_lower_receiver,even,,,,,,KRISS Vector Gen II (late) 10mm lower,high,Caliber/generation lower variant; even,
+kalis_scalar_gen2_late_10mm_upper_receiver,even,,,,,,KRISS Vector Gen II (late) 10mm upper,high,Generation upper variant with no value; even,
+kalis_scalar_gen2_late_40sv_lower_receiver,even,,,,,,KRISS Vector Gen II (late) .40 S&W lower,high,Caliber/generation lower variant; even,
+kalis_scalar_gen2_late_40sv_upper_receiver,even,,,,,,KRISS Vector Gen II (late) .40 S&W upper,high,Generation upper variant with no value; even,
+kalis_scalar_gen2_late_45acp_lower_receiver,even,,,,,,KRISS Vector Gen II (late) .45 ACP lower,high,Caliber/generation lower variant; even,
+kalis_scalar_gen2_late_45acp_upper_receiver,even,,,,,,KRISS Vector Gen II (late) .45 ACP upper,high,Generation upper variant with no value; even,
+kalis_scalar_gen2_late_9x19_lower_receiver,even,,,,,,KRISS Vector Gen II (late) 9mm lower,high,Caliber/generation lower variant; even,
+kalis_scalar_gen2_late_9x19_upper_receiver,even,,,,,,KRISS Vector Gen II (late) 9mm upper,high,Generation upper variant with no value; even,
+kalis_scalar_gen3_10mm_lower_receiver,even,,,,,,KRISS Vector Gen III 10mm lower,high,Caliber/generation lower variant; no stat-specific reason; even,
+kalis_scalar_gen3_10mm_upper_receiver,even,,,,,,KRISS Vector Gen III 10mm upper,high,Caliber-specific receiver; only choice for its variant.,special: only-choice part; no old E
+kalis_scalar_gen3_40sv_lower_receiver,even,,,,,,KRISS Vector Gen III .40 S&W lower,high,Caliber/generation lower variant; even,
+kalis_scalar_gen3_40sv_upper_receiver,even,,,,,,KRISS Vector Gen III .40 S&W upper,high,Caliber-specific receiver; only choice for its variant.,special: only-choice part; no old E
+kalis_scalar_gen3_45acp_lower_receiver,even,,,,,,KRISS Vector Gen III .45 ACP lower,high,Caliber/generation lower variant; even,
+kalis_scalar_gen3_45acp_upper_receiver,even,,,,,,KRISS Vector Gen III .45 ACP upper,high,Caliber-specific receiver; only choice for its variant.,special: only-choice part; no old E
+kalis_scalar_gen3_9x19_lower_receiver,even,,,,,,KRISS Vector Gen III 9mm lower,high,Caliber/generation lower variant; even,
+kalis_scalar_gen3_9x19_upper_receiver,even,,,,,,KRISS Vector Gen III 9mm upper,high,Caliber-specific receiver; only choice for its variant.,special: only-choice part; no old E
+kalis_scalar_receiver_metal_frame,even,,,,,,KRISS Vector receiver frame,high,Only-choice frame with no value; even,special: only-choice
+kalis_scalar_std_bolt_carrier_slider,zero,,,,,,KRISS Vector bolt carrier slider,high,Internal part with no effect,special: only-choice
+kalis_scalar_std_front_trunnion,zero,,,,,,KRISS Vector front trunnion,high,Internal part with no effect,special: only-choice
+kazarov_ak100_series_front_trunnion,even,,,,,,Kalashnikov AK-100 series front trunnion,high,"Only-choice internal receiver part, tiny value; even",
+kazarov_ak100_series_lower_receiver,even,,,,,,Kalashnikov AK-100 series receiver,high,"AK-100 receiver, small general improvement; even",
+kazarov_ak100_series_rear_trunnion,even,,,,,,Kalashnikov AK-100 series folding-stock rear trunnion,high,"Internal part enabling side-folding stock, tiny value; even (stock carries the trade)",
+kazarov_ak74_6p1_01_dust_cover,even,,,,,,Kalashnikov AK-74 6P1 Sb.0-1 dust cover,high,"Stock stamped dust cover; receiver part, even",
+kazarov_ak74_front_trunnion,even,,,,,,Kalashnikov AK-74 front trunnion,high,"Only-choice internal receiver part, no value; even",
+kazarov_ak74_lower_receiver,even,,,,,,Kalashnikov AK-74 receiver,high,"Standard AK-74 receiver, no value; even",
+kazarov_ak74_rear_trunnion,even,,,,,,Kalashnikov AK-74 fixed-stock rear trunnion,high,"Only-choice internal part, no value; even",
+kazarov_ak74m_6p34_01_dust_cover,even,,,,,,Kalashnikov AK-74M 6P34 Sb.0-1 dust cover,high,"Stock AK-74M dust cover; receiver part, even",
+kazarov_akm_front_trunnion,even,,,,,,Kalashnikov AKM front trunnion,high,"Only-choice internal receiver part, no value; even",
+kazarov_akm_lower_receiver,even,,,,,,Kalashnikov AKM receiver,high,"Only-choice receiver, no value; even",
+kazarov_akm_rear_trunnion,even,,,,,,Kalashnikov AKM fixed-stock rear trunnion,high,"Only-choice internal part, no value; even",
+kazarov_aks74_front_trunnion,even,,,,,,Kalashnikov AKS-74U front trunnion,high,"Only-choice internal receiver part, tiny value; even",
+kazarov_aks74_rear_trunnion,even,,,,,,Kalashnikov AKS-74 folding-stock rear trunnion,high,"Internal part enabling folding stock, tiny value; even",
+kazarov_aks74u_6p26_sb7_dust_cover,even,,,,,,Kalashnikov AKS-74U 6P26 Sb.7 dust cover,high,Stock hinged AKS-74U cover carrying rear sight; even,
+kazarov_aks74u_lower_receiver,even,,,,,,Kalashnikov AKS-74U receiver,high,"Only-choice receiver, tiny value; even (gun-level compactness lives in base row)",
+kazarov_pp-19-01_vityaz_front_trunnion,even,,,,,,Kalashnikov PP-19-01 Vityaz front trunnion,high,"Only-choice internal receiver part, no value; even",
+kazarov_pp-19-01_vityaz_lower_receiver,even,,,,,,Kalashnikov PP-19-01 Vityaz receiver,high,"Only-choice receiver, no value; even",
+kazarov_pp-19-01_vityaz_sn_picatinny_dust_cover,even,,,,,,Kalashnikov PP-19-01 Vityaz-SN railed dust cover,high,Railed Vityaz-SN dust cover; even,
+kazarov_pp-19-01_vityaz_std_dust_cover,even,,,,,,Kalashnikov PP-19-01 Vityaz dust cover,high,Stock Vityaz dust cover; even,
+kf_416_dust_cover,zero,,,,,,HK416 ejection port dust cover,high,Ejection port cover is cosmetic; no effect on either stat.,special: old +1 E has no basis; no set/weapons listed
+kf_416a5_lower_receiver,even,,,,,,HK416A5 lower receiver,high,Ambi-control lower; nothing favours a stat.,
+kf_416a5_upper_receiver,even,,,,,,HK416A5 upper receiver,high,Standard rifle upper variant; no stat-specific reason; even,
+kf_416c_lower_receiver,even,,,,,,HK416C lower receiver,high,"Compact-model lower, but stock and buffer are child slots; receiver itself even.",
+kf_416d_castlenut,zero,,,,,,HK416D castle nut,high,"Buffer tube castle nut hardware, no effect; zero",
+kf_416d_lower_receiver,even,,,,,,HK416D lower receiver,high,"Default 416 lower, value 0.",
+kf_416d_upper_receiver,even,,,,,,HK416D upper receiver,high,Set default upper; even,
+kf_m27_iar_lower_receiver,even,,,,,,HK M27 IAR lower receiver,high,Same lower as a 416A5 in practice; even.,
+kf_m27_iar_upper_receiver,even,marksman,,,,,HK M27 IAR upper,medium,Automatic-rifle/DMR-role upper built for sustained steady fire; slower to handle; marksman,special: M27 heavy barrel is a separate child; role rests on the IAR/DMR role only
+kf_m38_sdmr_lower_receiver,even,,,,,,HK M38 SDMR lower receiver,high,"M38 differs by optic/barrel, not lower; no marksman role on the receiver.",other: barrel_deviation -0.05 on a lower has no physical basis
+kosch_ambidextrous_slide_catch,reload_only,,,,,,Glock ambidextrous slide stop (Gen5-style),high,Ambi slide release speeds reload; already carries a small reload value.,"misfiled: slide catch is a bolt catch, not a receiver"
+kosch_default_slide_backplate,zero,,,,,,Glock slide cover plate,high,"Cosmetic slide backplate, no effect.",
+kosch_default_slide_catch,reload_only,,,,,,Glock standard slide stop lever,high,Slide stop releases the slide on reload; value is its reload.,"misfiled: slide catch is a bolt catch, not a receiver"
+kosch_default_trigger_housing,zero,,,,,,Glock trigger housing,high,Only-choice internal part with no value.,
+kosch_mk1_flat_top_slide,even,,,,,,Glock-pattern standard slide (earlier gen),medium,Plain pistol slide; nothing favours a stat.,
+kosch_mk1_frame,even,,,,,,Glock-pattern frame (earlier gen),medium,"Default pistol frame, value 0.",
+kosch_mk1_sight_cutout_slide,even,,,,,,Glock MOS slide (earlier gen),medium,"Optic-ready slide with plate system; optic carries handling, slide even.",
+kosch_mk2_flat_top_slide,even,,,,,,Glock-pattern standard slide (later gen),medium,Default plain pistol slide.,
+kosch_mk2_frame,even,,,,,,Glock-pattern frame (later gen),medium,"Pistol frame variant; differences are grip texture/shape, so even.",
+kosch_mk2_sight_cutout_slide,even,,,,,,Glock MOS slide (later gen),medium,"Optic-ready slide with plate system; optic carries handling, slide even.",
+launchtron_psrl_2_trigger_housing,zero,,,,,,AirTronic USA PSRL-2 (RPG-7 clone) trigger housing,medium,Only-choice container for grip/trigger children; value sits on children,special: only-choice
+lingle_industries_ar17_scar_h_lower,even,,,,,,Lingle Industries SCAR AR17 lower,high,"SCAR 17 lower taking AR-10 mags and AR fire control parts; general-purpose, even",
+lockwood_impact_700_trigger_housing,even,,,,,,unidentified (Impact Precision 737R-style action housing),low,Trigger housing with no value; even,
+lone_star_armory_tx15_light_ar15_upper_receiver,even,,,,,,Lone Star Armory TX-15 lightweight billet upper,medium,"Lightened billet upper; its lightness is paid by weight, not CQB-specific, so no compact role.",special: proposal listed it as compact; struck because the lean would be by weight
+lone_star_armory_tx15_regular_ar15_upper_receiver,even,,,,,,Lone Star Armory TX-15 billet upper,medium,"Heavier billet upper; nicer overall, no role.",
+lowenherz_aug_a1_stg77_1_5x_scoped_receiver,even,,,,,,Steyr AUG A1 / StG 77 receiver with integral 1.5x Swarovski scope,high,Classic AUG receiver with integral 1.5x optic housing; receiver even,"special: if the integral 1.5x optic lives in this row rather than the aug_a1_receiver_top_sights child, its optic share could take optic_compact; weight 0.64 vs 0.39 suggests the scope is included here"
+lowenherz_aug_a3_m1_receiver,even,,,,,,Steyr AUG A3 M1 receiver,high,"AUG A3 M1 receiver with rails, set default; even",
+lowenherz_aug_a3_sa_receiver,even,,,,,,Steyr AUG A3 SA receiver,high,Standard AUG A3 receiver; even,
+lowenherz_stg77_receiver,even,,,,,,Steyr StG 77 receiver,high,Austrian service AUG receiver; even,
+m4a1_std_dust_cover,even,,,,,,Colt M4 ejection port cover,high,Standard dust cover; no stat reason.,"special: only choice with V=1, effectively base; could be zeroed into the weapon base"
+mcs_lss_gen2_carbine_chassis,even,,,,,,MDT LSS-XL Gen2 Carbine-interface chassis,high,Lightweight hunting/precision chassis taking separate AR buffer-tube stock; stock carries the trade; even,misfiled: sits in stock slot but stock is a separate child (castle nut); keep even
+mcs_rev21_gen2_r700_lower_receiver,even,,,,,,MDT TAC21 Gen2 chassis lower section (likely),low,Chassis lower in stock slot; real stock attaches separately via the upper adapter; even,misfiled: competes as a stock/chassis in the R700 stock slot but has no integral stock so keep even not stock-typed
+mcs_rev21_gen2_r700_upper_receiver,even,,,,,,MDT TAC21 Gen2 chassis upper section (likely),low,Upper half of two-piece R700 chassis hosting handguard and stock adapter; only choice; even,special: only-choice under the REV21 lower; value pairs with mcs_rev21_gen2_r700_lower_receiver
+monarch_ballistics_cypher_x_standard_scar_h_upper_receiver,even,,,,,,Imperial Arms Cypher X Standard SCAR 17S upper,high,"Aftermarket drop-in SCAR 17 upper, general build base; nicer at both, even",
+monarch_ballistics_cypher_x_standard_scar_h_upper_receiver_for_scar47,even,,,,,,Imperial Arms CypherX Standard SCAR 17S upper,high,Aftermarket billet replacement upper keeping FN barrel hardware; generally nicer so even.,
+mosin_std_receiver,even,,,,,,Mosin-Nagant M91/30 receiver,high,Only-choice receiver with no value; even,special: only-choice
+mp133_std_receiver,even,,,,,,Baikal MP-133 receiver,high,Only-choice receiver with no value; even,special: only-choice
+northeast_industries_alpha_ak_series_railed_top_cover,even,,,,,,Midwest Industries Alpha AK railed top cover,medium,"Railed AK top cover; receiver part, even",
+novacek_gen3_ar15_upper_receiver,even,,,,,,Noveske Gen3 upper receiver,high,Premium general-purpose upper; even.,
+novacek_marked_vyctor_mur1s_ar15_upper_receiver,even,,,,,,Noveske-marked VLTOR MUR upper,high,Same MUR upper with Noveske roll mark; even.,
+novacek_n4_gen3_ar15_lower_receiver,even,,,,,,Noveske Gen3 lower receiver,high,"Premium lower with flared magwell; reload already carried, rest even.",
+novacek_n4_gen3_ar15_lower_receiver_ar9,even,,,,,,Noveske Gen 3 lower receiver,high,"Billet lower with flared magwell; reload already set, rest even",
+precision_intercontinental_at_aics_gen2_frame_keymod_assembly,even,,,,,,Accuracy International AT/AICS 2.0 forend side panel (KeyMod),medium,"Chassis forend accessory cover, tiny value; rail-cover style even",
+precision_intercontinental_at_aics_gen2_frame_rail_assembly,even,,,,,,Accuracy International AT/AICS 2.0 forend Picatinny rail section,medium,"Chassis forend rail section, tiny value; rail-cover style even",
+precision_intercontinental_roosevelt_700_sa_at_aics_gen2_folding_chassis_frame,even,,,,,,Accuracy International AT AICS 2.0 folding chassis,high,"AICS 2.0 chassis body: its buttstocks are separate parts with the precision profile, so the body itself is even like other chassis (lead)",misfiled: really a stock (integral precision buttstock); other: V=25 is very large even for a chassis
+pro_tactical_ak74_pdc_dust_cover,even,,,,,,unidentified (railed AK-74 dust cover),low,"Railed AK dust cover; receiver part, even like the rest of the set",special: railed covers act as optic mounts and have lower V than stock covers; kept even so choosing a rail does not cost stability
+ptr_32_7.62x39_upper_receiver,even,,,,,,PTR-32 (G3-pattern 7.62x39) receiver,high,Caliber-conversion receiver; nothing about it favours handling or stability.,special: V=15 is very large for a receiver; check it is balancing for caliber not ergonomics
+ptr_32_sef_metal_trigger_housing,even,,,,,,PTR-32 SEF metal trigger housing,high,Standard SEF metal G3-pattern housing; no stat favoured.,
+r870_serbu_shorty_receiver,even,compact,,,,,Serbu Super-Shorty 870 receiver,high,Ultra-compact AOW pump conversion built purely for CQB; clearly a poor marksman base; compact,
+r870_std_receiver,even,,,,,,Remington 870 receiver,high,Set default receiver; even,
+roosevelt_870_mod_rmp3_receiver,even,,,,,,unidentified (870 receiver with dovetail top),low,Receiver with integral dovetail optic interface; no stat-specific reason; even,
+roosevelt_model_700_short_action_receiver,even,,,,,,Remington 700 short action,high,Only-choice action with no value; even,special: only-choice
+roosevelt_walker_model_700_trigger_housing,even,,,,,,Remington 700 Walker/X-Mark trigger housing,medium,Set default trigger housing with no value; even,
+rsa_extreme_duty_extended_dust_cover,mount,,,,,,DSA SA58 Extreme Duty extended rail dust cover,high,Railed top cover is the optic mount for the FAL; mount,misfiled: functionally an optic mount
+sanxian_qbz95_handguard_trigger_housing,even,,,,,,Norinco QBZ-95 handguard/trigger housing,high,Set default handguard housing; even,
+sanxian_qbz95_lower_receiver,even,,,,,,Norinco QBZ-95 lower receiver,high,Only-choice receiver with no value; even,special: only-choice
+sanxian_qbz95_upper_receiver,even,,,,,,Norinco QBZ-95 upper receiver,high,Only-choice receiver with no value; even,special: only-choice
+scar47_lower_receiver,even,,,,,,FN SCAR 17S/SCAR-H lower (7.62x39 conversion),medium,Base lower receiver; nothing favours either stat.,special: only-choice part
+sg58_std_lower_receiver,even,,,,,,DSA SA58 lower receiver,high,Only-choice lower with no value; even,special: only-choice
+sg58_type1_upper_receiver,even,,,,,,DSA SA58 Type 1 upper receiver,high,Set default upper; even,
+sg58_type1_upper_receiver_with_carry_handle,even,,,,,,DSA SA58 Type 1 upper with carry handle,high,Receiver variant with no value; even,
+sic_sturmer_m17_optic_slide_cover,zero,,,,,,SIG M17 optic cover plate,high,Cosmetic blanking plate over optic cut; no effect.,special: old +1 E on a cover plate has no basis
+sic_sturmer_p226_drd_sight_plate_cover,zero,,,,,,SIG P226 optic-cut cover plate,medium,Cosmetic cover plate over optic mount; no effect.,special: pretty name swapped with sic_sturmer_p226_flush_drd_sight_plate_cover
+sic_sturmer_p226_elite_9x19_slide,even,,,,,,SIG Sauer P226 Elite slide,high,Elite slide with front serrations; even.,
+sic_sturmer_p226_elite_frame,even,,,,,,SIG Sauer P226 Elite frame (beavertail),high,Beavertail frame for higher grip; comfort only; even.,
+sic_sturmer_p226_flush_drd_sight_plate_cover,zero,,,,,,SIG P226 optic-cut cover plate,medium,Cosmetic cover plate over optic mount; no effect.,special: old 0.25 E has no basis; pretty name swapped with sic_sturmer_p226_drd_sight_plate_cover
+sic_sturmer_p226_flush_sight_plate_cover,zero,,,,,,SIG P226 optic-cut cover plate,medium,Cosmetic cover plate; no effect.,
+sic_sturmer_p226_mk25_9x19_slide,even,,,,,,SIG Sauer P226 MK25 slide,high,Navy standard slide; even.,
+sic_sturmer_p226_mk25_frame,even,,,,,,SIG Sauer P226 MK25 frame,high,Navy railed frame with anti-corrosion finish; even.,
+sic_sturmer_p226_procut_9x19_slide,even,,,,,,SIG Sauer P226 Pro-Cut slide (lightening cuts),medium,Lightened slide with cuts; small comfort gain; even.,
+sic_sturmer_p226_rxp_9x19_slide,even,,,,,,SIG Sauer P226 RXP slide,high,Full-size slide with optic cut; even.,
+sic_sturmer_p226_sight_plate_cover,zero,,,,,,SIG P226 optic-cut cover plate,medium,Cosmetic cover plate; no effect.,special: old 0.25 E has no basis
+sic_sturmer_p226_std_9x19_slide,even,,,,,,SIG Sauer P226 standard slide,high,Default slide; baseline.,
+sic_sturmer_p226_std_frame,even,,,,,,SIG Sauer P226 standard frame,high,Baseline pistol frame; even.,
+sic_sturmer_p226r_frame,even,,,,,,SIG Sauer P226R (railed) frame,high,Frame with accessory rail; no stat lean.,
+sic_sturmer_p229_elite_9x19_slide,even,,,,,,SIG Sauer P229 Elite slide,high,Compact Elite slide with front serrations; even.,
+sic_sturmer_p229_elite_legacy_9x19_slide,even,,,,,,SIG Sauer P229 Elite Legacy slide,medium,Compact Elite slide variant; even.,
+sic_sturmer_p229_flush_sight_plate_cover,zero,,,,,,SIG P229 optic-cut cover plate,medium,Cosmetic cover plate; no effect.,
+sic_sturmer_p229_legacy_9x19_slide,even,,,,,,SIG Sauer P229 Legacy slide,medium,Compact Legacy slide; even.,
+sic_sturmer_p229_rxp_9x19_slide,even,,,,,,SIG Sauer P229 RXP slide (Romeo optic cut),high,Compact slide with optic cut; difference is comfort not form; even.,
+sic_sturmer_p229_std_9x19_slide,even,,,,,,SIG Sauer P229 standard slide,high,Compact standard slide; even.,
+sic_sturmer_p320_optic_slide_cover,zero,,,,,,SIG P320 optic cover plate,high,Cosmetic blanking plate over optic cut; no effect.,special: old +1 E on a cover plate has no basis
+sic_sturmer_p_series_oem_slide_release,reload_only,,,,,,SIG Sauer P-series slide catch lever,high,Slide release is the pistol bolt catch; its function is reload.,misfiled: slide release is a magazine/reload control (bolt catch); special: no old E; only-choice part
+sig_sauer_m17x_9x19_slide,even,,,,,,SIG Sauer M17 / P320 full-size slide,medium,Full-size military slide with optic cut; even.,
+sig_sauer_m18x_9x19_slide,even,,,,,,SIG Sauer M18 / P320 Carry-length slide,medium,Carry-length slide; shorter but barrel length sits in its own slot; even.,special: highest E in P320 set (4); compact lean could be argued but barrel is separate
+sig_sauer_p320_sear_housing,zero,,,,,,SIG P320 fire control unit (sear housing),high,Internal part with no effect,special: only-choice
+sig_sauer_p320_slide_release,reload_only,,,,,,SIG P320 slide release,high,Slide release is the pistol bolt catch; any value belongs to reload,special: only-choice with no value
+sig_sauer_p320_xfull_9x19_slide,even,,,,,,SIG Sauer P320 X-Full slide,high,Default full-size slide; baseline.,
+strikon_scr_rifle_lower_receiver,even,,,,,,Troy SCR (Sporting Configurable Rifle) lower,medium,Featureless sporting lower using shotgun-pattern stocks; the stock child carries the stock trade.,special: replaces pistol grip and endplate slots; check v_recoil +12 is intended
+t97.ca_qbz95_handguard_trigger_housing,even,,,,,,T97.ca aftermarket M-LOK handguard/housing for QBZ-97,medium,Aftermarket handguard housing with M-LOK and AR grip; general upgrade; even,
+thorsden_frs15_gen3_ar15_endplate,stockless,,,,,,Thordsen Customs FRS-15 Gen III (modelled as endplate only),medium,Terminates buffer-tube chain with no stock and adds recoil; the no-stock option,"special: stockless option on AR-buffer guns, set with Hart endplate;other: real FRS-15 Gen III is a full featureless fixed stock (~0.35-0.6 kg) but here weighs 0.07 kg and behaves as stockless; naming mismatch"
+tt33_mod_postwar_slide,even,,,,,,Tokarev TT-33 slide converted for full-auto (fictional/modified),low,Modified full-auto slide; ergonomic difference is minor; even.,special: price 4000 implies full-auto capability is carried elsewhere
+tt33_postwar_slide,even,,,,,,Tokarev TT-33 post-war slide (1949),high,Default slide; baseline.,
+tt33_prewar_slide,even,,,,,,Tokarev TT-33 pre-war slide (1935),high,Earlier slide pattern with fine serrations; small penalty applies to both.,
+tt33_slide_catch,reload_only,,,,,,Tokarev TT-33 slide stop,high,Slide catch is a reload control.,misfiled: reload control; special: no old E; only-choice part
+tt33_std_frame,even,,,,,,Tokarev TT-33 frame,high,Default frame; baseline.,
+tt33_std_frame_with_lanyard_loop,even,,,,,,Tokarev TT-33 frame with lanyard loop,high,Same frame with lanyard loop; tiny value; even (or zero).,special: lanyard loop is near-cosmetic; zero would also be defensible
+veles_b_33_ak_dust_cover,even,,,,,,Zenitco B-33 rail mount / dust cover,medium,"Railed AK top cover/optic base; receiver part, even",
+vyctor_mur1s_ar15_upper_receiver,even,,,,,,VLTOR MUR-1S upper,high,"Reinforced modular upper; general purpose, even.",
+whitner_defense_edc_x9_custom_cut_slide,even,,,,,,Wilson Combat EDC X9 slide with lightening cuts,medium,Optional cut pistol slide; slide family default even,special: negative V on a lightening-cut slide is unexpected; confirm sign versus the standard slide
+whitner_defense_edc_x9_light_rail_receiver,even,,,,,,Wilson Combat EDC X9 frame (light rail),high,"Only-choice pistol frame, no value; even",
+whitner_defense_edc_x9_slide,even,,,,,,Wilson Combat EDC X9 slide,high,"Default pistol slide with value 0; receiver, nothing favours a stat.",
+zvetech_kosch_slide_backplate,zero,,,,,,ZEV Technologies Glock slide back plate,high,"Cosmetic slide backplate, no effect.",
+zvetech_z17_cryo_rmr_cut_kosch_slide,even,,,,,,ZEV Technologies Z17 slide (RMR cut),high,"Aftermarket lightened optic-cut slide; nicer overall, even.",

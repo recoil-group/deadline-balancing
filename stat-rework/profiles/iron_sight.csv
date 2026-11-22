@@ -1,0 +1,176 @@
+name,profile,role,role_strength,value,handling,stability,counterpart,confidence,why,flags
+33mm_enclosed_front_folding_iron_sight,handling,,,,,,HK 416 folding front sight (hooded),high,"Folding front sight for the 416; sight picture only, handling",
+33mm_enclosed_front_folding_iron_sight_folded,handling,,,,,,"HK 416 folding front sight (hooded), stowed",high,Stowed state of the 416 folding front sight; handling,
+33mm_open_front_folding_iron_sight,handling,,,,,,HK 416 folding front sight (open post),high,"Folding front sight for the 416; sight picture only, handling",
+33mm_open_front_folding_iron_sight_folded,handling,,,,,,"HK 416 folding front sight (open post), stowed",high,Stowed state of the 416 folding front sight; handling,
+af_far_long_carry_handle,handling,,,,,,FAL long folding carry handle,medium,"FAL carry handle; clutter on top, no aiming role; handling","misfiled: carry handle is receiver furniture not a sight; handling kept, even also defensible"
+aft_front_sight,handling,,,,,,FN SCAR front sight,high,folding front sight; handling,
+aft_front_sight_base,zero,,,,,,FN SCAR front sight base,high,sight base/rail clamp; value sits on child sight; no effect itself,
+aft_front_sight_folded,handling,,,,,,FN SCAR front sight (folded),high,folded sight; handling,
+aft_rear_sight,handling,,,,,,FN SCAR rear sight,high,folding rear sight; handling,
+aft_rear_sight_base,zero,,,,,,FN SCAR-style rear sight base,medium,sight base/rail clamp; value sits on child sight; no effect itself,
+aft_rear_sight_folded,handling,,,,,,FN SCAR rear sight (folded),high,folded sight; handling,
+aft_rear_sight_rifle_aperture,handling,,,,,,FN SCAR rear sight aperture,medium,aperture; sight picture only,"special: only choice, V=0"
+ak12_gen2_dustcover,even,,,,,,Kalashnikov AK-12 Gen2 railed dust cover,high,receiver cover with top rail; receiver default even,misfiled: receiver (dust cover)
+ak12_std_415mm_barrel,barrel,,,,,,AK-12 standard 415mm barrel,high,standard barrel; barrel profile,misfiled: barrel
+archient_technologies_elysium_addon_module,mount,,,,,,Elysium (2013 film) AK prop top module,medium,"bulky raised top accessory/optic module; its cost is bulk on top, handling only","misfiled: accessory mount module, not iron sight or handguard; special: only choice, hosts tactical module and optic mount"
+axtell_defense_fixed_sight_front_post,handling,,,,,,Daniel Defense fixed front post,high,fixed front post; handling,special: only choice
+axtell_defense_fixed_sight_rear_aperture,handling,,,,,,Daniel Defense fixed rear aperture,high,fixed rear aperture; handling,special: only choice
+axtell_defense_rock_lock_a1.5_fixed_rear_sight,zero,,,,,,Daniel Defense Rock & Lock A1.5 fixed rear,high,rail clamp for fixed aperture child; value on child,
+axtell_defense_rock_lock_rail_mounted_fixed_front_sight,zero,,,,,,Daniel Defense Rock & Lock fixed front sight,high,rail clamp for fixed post child; value on child post,
+cosmotac_vism_carry_handle_front_sight,handling,,,,,,NcStar VISM carry handle sight,medium,carry handle sight; handling,
+cosmotac_vism_carry_handle_front_sight_folded,handling,,,,,,NcStar VISM carry handle sight (folded),medium,folded sight; handling,
+cosmotac_vism_gen2_carry_handle,handling,,,,,,NcStar VISM carry handle,medium,"detachable carry handle with irons and top rail; sight clutter, handling",
+dams_mangonel_front_sight,handling,,,,,,DPMS Mangonel front sight,high,flip-up front sight; handling,
+dams_mangonel_front_sight_base,zero,,,,,,DPMS Mangonel flip-up front base,high,sight base/rail clamp; value sits on child sight; no effect itself,
+dams_mangonel_front_sight_folded,handling,,,,,,DPMS Mangonel front sight (folded),high,folded sight; handling,
+dams_mangonel_rear_sight,handling,,,,,,DPMS Mangonel rear sight,high,flip-up rear sight; handling,
+dams_mangonel_rear_sight_base,zero,,,,,,DPMS Mangonel flip-up rear base,high,sight base/rail clamp; value sits on child sight; no effect itself,
+dams_mangonel_rear_sight_folded,handling,,,,,,DPMS Mangonel rear sight (folded),high,folded sight; handling,
+equinox_ex15_front_sight,handling,,,,,,unidentified,none,flip-up front sight; handling,
+equinox_ex15_front_sight_base,zero,,,,,,unidentified,none,sight base/rail clamp; value sits on child sight; no effect itself,
+equinox_ex15_front_sight_folded,handling,,,,,,unidentified,none,folded sight; handling,
+equinox_ex15_rear_sight,handling,,,,,,unidentified,none,flip-up rear sight; handling,
+equinox_ex15_rear_sight_base,zero,,,,,,unidentified,none,sight base/rail clamp; value sits on child sight; no effect itself,
+equinox_ex15_rear_sight_folded,handling,,,,,,unidentified,none,folded sight; handling,
+fab_tech_usgi_rear_buis_aperture,handling,,,,,,Matech USGI rear BUIS aperture,high,rear aperture; handling,
+fab_tech_usgi_rear_buis_aperture_folded,handling,,,,,,Matech USGI rear BUIS aperture (folded),high,folded aperture; handling,
+fab_tech_usgi_rear_buis_base,zero,,,,,,Matech USGI rear BUIS base,high,sight base/rail clamp; value sits on child sight; no effect itself,
+firm_#40_rear_sight,handling,,,,,,A.R.M.S. #40 flip-up rear sight,medium,flip-up rear sight; handling,
+firm_#40_rear_sight_aperture,handling,,,,,,A.R.M.S. #40 aperture,medium,aperture; handling,special: only choice
+firm_#40_rear_sight_base,zero,,,,,,A.R.M.S. #40 rear sight base,medium,sight base/rail clamp; value sits on child sight; no effect itself,
+firm_#40_rear_sight_folded,handling,,,,,,A.R.M.S. #40 rear sight (folded),medium,folded sight; handling,
+fnb_precision_far_crosshair_front_sight,handling,,,,,,FAL aftermarket crosshair front sight post,low,"FAL front post variant; sight picture only, handling",
+fnb_precision_far_duplex_front_sight,handling,,,,,,FAL aftermarket duplex front sight post,low,"FAL front post variant; sight picture only, handling",
+glock17_gen4_sf_rear_sight,handling,,,,,,Glock 17 Gen4 factory rear sight,high,Factory pistol rear sight; handling,
+harmony_fast_micro_mount,mount,,,,,,Unity Tactical FAST Micro mount,high,raised Aimpoint T-series mount; mount profile,"misfiled: optic mount, not iron sight"
+hart_ca2r,handling,,,,,,Colt-style A2 rail-mount rear sight,low,fixed rail rear sight housing; hosts aperture; handling,
+hart_front_ironsight_post,handling,,,,,,Colt M4 front sight post,high,front post; handling,
+hart_m4a1_carry_handle,handling,,,,,,Colt M4 detachable carry handle,high,carry handle rear sight; handling,other: old E +3 for a tall heavy carry handle exceeds any flip-up BUIS (0-1); likely should be lower or negative
+hart_m4fs_gasblock,handling,,,,,,Colt M4 front sight base (F-marked FSB gas block),high,"Fixed A-frame FSB gas block; its point vs low-profile blocks is the sight, so handling","misfiled: gas block with integral front sight; gas block default would be even, lead may prefer that;special: hosts front post and gas-block mount children"
+hart_rear_ironsight_200m,handling,,,,,,Colt A2 200m rear aperture,high,rear aperture; handling,
+hk_g3_rear_drum_sight,handling,,,,,,HK G3/MP5 rotary drum rear sight,high,rear drum sight; handling,special: only choice
+hk_ump_front_sight,handling,,,,,,HK UMP front sight,high,"Factory front sight, only choice; handling",
+hk_ump_rear_sight,handling,,,,,,HK UMP rear diopter (25m),high,"Factory rear diopter, only choice; handling",
+hk_ump_rear_sight_base,zero,,,,,,HK UMP rear sight base,high,"Base hosting the rear sight, no own value (E 0)",
+holotec_553_hood,zero,,,,,,EOTech 553 hood,high,cosmetic optic hood; no effect,"misfiled: optic accessory, not iron sight; special: only choice"
+holotec_exps2_green_hood,zero,,,,,,EOTech EXPS2 green hood,high,cosmetic optic hood; no effect,"misfiled: optic accessory, not iron sight; special: only choice"
+holotec_exps2_hood,zero,,,,,,EOTech EXPS2 hood,high,cosmetic optic hood; no effect,"misfiled: optic accessory, not iron sight; special: only choice"
+holotec_exps3_hood,zero,,,,,,EOTech EXPS3 hood,high,cosmetic optic hood; no effect,"misfiled: optic accessory, not iron sight; special: only choice"
+hughnitions_company_extra_high_front_sight,handling,,,,,,suppressor-height pistol front sight (maker unidentified),low,suppressor-height front sight; handling,special: old +2 looks like a leftover vs +1 elsewhere; existing override note applies
+hughnitions_company_extra_high_rear_sight,handling,,,,,,aftermarket Glock suppressor-height rear sight,low,Extra-high rear sight for co-witness over can/optic; handling,
+izhevsk_pm_std_rear_sight,handling,,,,,,Izhmekh Makarov PM factory rear sight,high,Factory pistol rear notch; handling,
+kazarov_ak74_6p1_sb2_rear_sight,handling,,,,,,AK-74 6P1 Sb.2 rear sight leaf,high,rear sight leaf; handling,
+kazarov_ak74_front_sight_block,handling,,,,,,AK-74 front sight block,high,front sight block holding post and muzzle; sight family handling,
+kazarov_ak74_rear_sight_block,handling,,,,,,AK-74 rear sight block,high,rear sight block hosting gas tube and leaf; handling,
+kazarov_ak74m_front_sight_block,handling,,,,,,AK-74M front sight block,high,front sight block; near identical to AK-74; handling,other: +1 vs AK-74 block 0 has no real basis; harmless
+kazarov_ak_front_sight_post,handling,,,,,,AK front sight post,high,front post; sight picture only,special: only choice
+kazarov_akm_front_sight_block,handling,,,,,,AKM front sight block,high,front sight block; handling,special: only choice
+kazarov_akm_rear_sight_block,handling,,,,,,AKM rear sight block,high,rear sight block; handling,
+kazarov_aks74u_front_sight_block,handling,,,,,,AKS-74U front sight/gas block,high,front sight block; handling,special: only choice
+kazarov_aks74u_front_sight_post,handling,,,,,,AKS-74U front sight post,high,front post; sight picture only,special: only choice
+kazarov_aks74u_rear_sight,handling,,,,,,AKS-74U flip rear sight,high,rear sight; handling,special: only choice
+kazarov_aks74u_rear_sight_block,handling,,,,,,AKS-74U rear sight block,high,rear sight block; handling,"special: only choice; old_ergonomics blank, treat as 0"
+kazarov_group_ak12_gen1_rear_sight,handling,,,,,,Kalashnikov AK-12 Gen1 rail rear sight,high,rear sight; only effect is sight picture,
+kazarov_group_ak12k_314mm_barrel,barrel,,,,,,Kalashnikov AK-12K 314mm barrel,high,short carbine barrel; length already gives handling via barrel profile,misfiled: barrel
+kazarov_group_std_rpk16_559mm_barrel,barrel,marksman,,,,,Kalashnikov RPK-16 550mm barrel,medium,longer heavier LMG barrel for sustained/longer-range fire; poor on CQB builds,misfiled: barrel
+kazarov_pp-19-01_vityaz_front_sight_block,handling,,,,,,PP-19-01 Vityaz front sight block,high,front sight block; handling,special: only choice
+kazarov_pp-19-01_vityaz_rear_sight,handling,,,,,,PP-19-01 Vityaz rear sight leaf,high,rear sight leaf; handling,
+kazarov_pp-19-01_vityaz_rear_sight_block,handling,,,,,,PP-19-01 Vityaz rear sight block,high,rear sight block; handling,special: only choice
+kf_416_2mm_flip_up_sight,zero,,,,,,HK416 flip-up rear sight base,high,sight base/rail clamp; value sits on child sight; no effect itself,
+kf_416_2mm_flip_up_sight_aperture,handling,,,,,,HK416 rear sight 2mm aperture,high,aperture; handling,
+kf_416_2mm_flip_up_sight_aperture_folded,handling,,,,,,HK416 rear sight 2mm aperture (folded),high,folded aperture; handling,
+kf_pattern_half_front_sight_post,handling,,,,,,HK-pattern half-hood front sight post,medium,"Front post insert; sight picture only, handling",
+kf_pattern_round_front_sight_post,handling,,,,,,HK-pattern round hooded front sight post (G3/MP5),high,"G3/MP5 hooded front post; sight picture only, handling",
+kf_std_picatinny_front_sight_base,zero,,,,,,HK pattern picatinny front sight base,high,sight base/rail clamp; value sits on child sight; no effect itself,
+kf_std_picatinny_rear_diopter_sight,handling,,,,,,HK Picatinny rear diopter sight,high,HK drum diopter rear sight on rail; handling,
+kf_std_picatinny_rear_diopter_sight_base,zero,,,,,,HK pattern picatinny rear diopter base,high,sight base/rail clamp; value sits on child sight; no effect itself,
+kosch_default_front_sight,handling,,,,,,generic,low,"Factory front sight, only choice; handling",
+kosch_default_rear_sight,handling,,,,,,generic,low,"Factory rear sight, only choice; handling",
+launchtron_psrl_front_ironsight,handling,,,,,,Airtronic USA PSRL front sight,high,Launcher folding front sight; handling,
+launchtron_psrl_front_ironsight_folded,handling,,,,,,"Airtronic USA PSRL front sight, folded",high,Stowed launcher front sight; handling,
+launchtron_psrl_rear_ironsight,handling,,,,,,Airtronic USA PSRL rear sight,high,Launcher folding rear sight; handling,
+launchtron_psrl_rear_ironsight_folded,handling,,,,,,"Airtronic USA PSRL rear sight, folded",high,Stowed launcher rear sight; handling,
+magtap_mbus_gen2_base,zero,,,,,,Magpul MBUS Gen2 base,high,sight base/rail clamp; value sits on child sight; no effect itself,
+magtap_mbus_gen2_front_top,handling,,,,,,Magpul MBUS Gen2 front,high,"Polymer flip-up BUIS; sight picture only, handling",
+magtap_mbus_gen2_front_top_folded,handling,,,,,,"Magpul MBUS Gen2 front, folded",high,Stowed flip-up BUIS; handling,
+magtap_mbus_gen2_frontsight_post,zero,,,,,,Magpul MBUS Gen2 front post,high,"Post insert of the MBUS front sight, no effect (E 0)",
+magtap_mbus_gen2_rear_top,handling,,,,,,Magpul MBUS Gen2 rear,high,"Polymer flip-up BUIS; sight picture only, handling",
+magtap_mbus_gen2_rear_top_folded,handling,,,,,,"Magpul MBUS Gen2 rear, folded",high,Stowed flip-up BUIS; handling,
+magtap_rearsight_post200m,zero,,,,,,Magpul MBUS Gen2 rear aperture (small/200m),high,"Rear aperture insert of MBUS, no effect (E 0)",
+magtap_rearsight_post600m,zero,,,,,,Magpul MBUS Gen2 rear aperture (600m),high,"Rear aperture insert of MBUS, no effect (E 0)",
+mosin_front_sight,handling,,,,,,Mosin-Nagant M91/30 hooded front post,high,"Factory front post, only choice; handling",
+mosin_rear_sight,handling,,,,,,Mosin-Nagant M91/30 tangent rear sight,high,Factory tangent rear sight; handling,
+pac_front_sight,handling,,,,,,Knight's Armament (KAC) folding front sight,medium,"Folding BUIS; sight picture only, handling",
+pac_front_sight_base,zero,,,,,,KAC folding front sight base,high,sight base/rail clamp; value sits on child sight; no effect itself,
+pac_front_sight_folded,handling,,,,,,"Knight's Armament (KAC) folding front sight, folded",medium,Stowed folding BUIS; handling,
+pac_micro_front_sight,handling,,,,,,Knight's Armament (KAC) Micro front sight,medium,Low-profile micro BUIS; handling,
+pac_micro_front_sight_base,zero,,,,,,KAC Micro front BUIS base,high,sight base/rail clamp; value sits on child sight; no effect itself,
+pac_micro_front_sight_folded,handling,,,,,,"Knight's Armament (KAC) Micro front sight, folded",medium,Stowed micro BUIS; handling,
+pac_micro_rear_sight,handling,,,,,,Knight's Armament (KAC) Micro rear sight,medium,Low-profile micro BUIS; handling,
+pac_micro_rear_sight_base,zero,,,,,,KAC Micro rear BUIS base,high,sight base/rail clamp; value sits on child sight; no effect itself,
+pac_micro_rear_sight_folded,handling,,,,,,"Knight's Armament (KAC) Micro rear sight, folded",medium,Stowed micro BUIS; handling,
+pac_rear_sight,handling,,,,,,Knight's Armament (KAC) folding rear sight,medium,"Folding BUIS; sight picture only, handling",
+pac_rear_sight_base,zero,,,,,,KAC folding rear sight base,high,sight base/rail clamp; value sits on child sight; no effect itself,
+pac_rear_sight_folded,handling,,,,,,"Knight's Armament (KAC) folding rear sight, folded",medium,Stowed folding BUIS; handling,
+r870_std_front_sight,handling,,,,,,Remington 870 bead front sight,high,"Barrel bead sight, only choice; handling",
+rsa_metric_front_sight_size1,handling,,,,,,"DS Arms metric FAL front sight post, size 1",high,Height-indexed FAL front post; handling,
+rsa_metric_front_sight_size2,handling,,,,,,"DS Arms metric FAL front sight post, size 2",high,Height-indexed FAL front post; handling,
+rsa_metric_front_sight_size3,handling,,,,,,"DS Arms metric FAL front sight post, size 3",high,Height-indexed FAL front post; handling,
+rsa_metric_front_sight_size4,handling,,,,,,"DS Arms metric FAL front sight post, size 4",high,Height-indexed FAL front post; handling,
+rsa_sg58_holland_type_sight,handling,,,,,,DS Arms Holland-type FAL rear sight,high,Aperture rear sight for FAL; handling,
+rsa_sg58_para_rear_sight,handling,,,,,,DS Arms metric Para FAL rear sight,high,Para-style flip rear sight for FAL; handling,
+rtm_pm1_makarov_rear_sight,handling,,,,,,aftermarket adjustable Makarov rear sight,low,Aftermarket Makarov rear sight; handling,
+sanxian_qbz95_carry_handle,even,,,,,,Norinco QBZ-95 carry handle,medium,"Integral top handle/sight housing with grip texture; no clean lean, even","misfiled: carry handle on receiver, treat as receiver/handguard furniture; E 10 is large for a handle;other: recoil -1/-3 on a carry handle looks odd"
+sanxian_qbz95_front_ironsight_post,handling,,,,,,Norinco QBZ-95 front sight post,high,"Factory front post, only choice; handling",
+sanxian_qbz95_rear_aperture,handling,,,,,,Norinco QBZ-95 rear aperture,high,"Factory rear aperture, only choice; handling",
+sanxian_qbz95_rear_ironsight_base,zero,,,,,,Norinco QBZ-95 rear sight base,high,Container for carry handle mount and aperture; no own value,
+sg58_stg58_carry_handle,handling,,,,,,Steyr StG58 FAL carry handle,medium,"FAL carry handle; clutter on top, no aiming role; handling","misfiled: carry handle is receiver furniture not a sight; handling kept, even also defensible"
+sic_sturmer_m17_sicplate_rear_sight,zero,,,,,,SIG Sauer M17 optic-cut rear sight plate,medium,"Rear sight on the optic plate, only choice, no effect (E 0)",
+sic_sturmer_siclite_night_front_sight,handling,,,,,,SIG Sauer SIGLITE night front sight,high,Tritium pistol front sight; handling,
+sic_sturmer_siclite_night_rear_sight,handling,,,,,,SIG Sauer SIGLITE night rear sight,high,Tritium pistol rear sight; handling,
+sic_sturmer_siclite_suppressor_night_front_sight,handling,,,,,,SIG Sauer SIGLITE suppressor-height front sight,high,Suppressor-height pistol front sight; handling,
+sic_sturmer_siclite_suppressor_night_rear_sight,handling,,,,,,SIG Sauer SIGLITE suppressor-height rear sight,high,Suppressor-height pistol rear sight; handling,
+sic_sturmer_von_stavenhagen_contrast_rear_sight,handling,,,,,,SIG Sauer Von Stavenhagen contrast rear sight,high,Contrast pistol rear sight; handling,
+sic_sturmer_xvis3_night_front_sight,handling,,,,,,SIG Sauer X-RAY3 Day/Night front sight,high,High-visibility pistol front sight; handling,
+sic_sturmer_xvis3_night_rear_sight,handling,,,,,,SIG Sauer X-RAY3 Day/Night rear sight,high,High-visibility pistol rear sight; handling,
+sno_vulkan_rpg_7_front_sight,handling,,,,,,Bazalt RPG-7 folding front sight,high,Launcher front sight; handling,
+sno_vulkan_rpg_7_front_sight_folded,handling,,,,,,"Bazalt RPG-7 folding front sight, folded",high,Stowed launcher front sight; handling,
+sno_vulkan_rpg_7_rear_sight,handling,,,,,,Bazalt RPG-7 rear sight,high,"Launcher rear sight, only choice; handling",
+sof_industries_aim_glock_rear_sight,handling,,,,,,aftermarket Glock rear sight,low,Aftermarket pistol rear sight; handling,
+steyr_aug_z_rail_front_sight,handling,,,,,,Steyr AUG Z rail front sight,high,integrated rail BUIS; handling,
+steyr_aug_z_rail_front_sight_folded,handling,,,,,,Steyr AUG Z rail front sight (folded),high,folded BUIS; handling,
+steyr_aug_z_rail_rear_sight,handling,,,,,,Steyr AUG Z rail rear sight,high,integrated rail BUIS; handling,
+steyr_aug_z_rail_rear_sight_folded,handling,,,,,,Steyr AUG Z rail rear sight (folded),high,folded BUIS; handling,
+susat_backup_sights,zero,,,,,,SUSAT L9 top backup iron sight,high,"Integral backup sight on the SUSAT, only choice, no effect (E 0)",
+taclite_urac_top_front_ironsight,handling,,,,,,unidentified,none,Folding front BUIS; handling,
+taclite_urac_top_front_ironsight_folded,handling,,,,,,unidentified,none,Stowed folding front BUIS; handling,
+talvern_battlesight_picatinny_base,zero,,,,,,Troy Battlesight base,high,sight base/rail clamp; value sits on child sight; no effect itself,
+talvern_battlesight_round_aperture,zero,,,,,,Troy BattleSight rear aperture,medium,"Aperture insert of the BattleSight, no effect (E 0)",
+talvern_battlesight_round_aperture_for_folded,zero,,,,,,Troy BattleSight rear aperture,medium,"Aperture insert of the BattleSight, no effect (E 0)",
+talvern_battlesight_std_front_post,zero,,,,,,Troy BattleSight front post,medium,"Post insert of the BattleSight, no effect (E 0)",
+talvern_front_hk_battlesight,handling,,,,,,Troy Folding BattleSight HK-style front,medium,Folding HK-style front BUIS; handling,
+talvern_front_hk_battlesight_folded,handling,,,,,,"Troy Folding BattleSight HK-style front, folded",medium,Stowed folding BUIS; handling,
+talvern_rear_battlesight,handling,,,,,,Troy Folding BattleSight rear,medium,Folding rear BUIS; handling,
+talvern_rear_battlesight_folded,handling,,,,,,"Troy Folding BattleSight rear, folded",medium,Stowed folding BUIS; handling,
+target_sports_front_sight,handling,,,,,,45-degree offset low-profile front BUIS,low,Offset backup sight for use with a scope; handling,
+target_sports_front_sight_folded,handling,,,,,,"45-degree offset low-profile front BUIS, folded",low,Stowed offset backup sight; handling,
+target_sports_low_profile_45_degree_sight_base,zero,,,,,,generic 45-degree offset BUIS base,low,offset sight base; value on child sight,
+target_sports_rear_sight,handling,,,,,,45-degree offset low-profile rear BUIS,low,Offset backup sight for use with a scope; handling,
+target_sports_rear_sight_folded,handling,,,,,,"45-degree offset low-profile rear BUIS, folded",low,Stowed offset backup sight; handling,
+tristar_compact_carry_handle,handling,,,,,,unidentified compact carry handle,low,carry handle sight/mount; handling,other: old E +4 at 0.3 dw is the best value in the set for the bulkiest item; likely should be lower or negative
+truglo_glock_tfx_rs,handling,,,,,,TruGlo TFX Glock rear sight,high,Tritium/fiber pistol rear sight; handling,
+vectorworks_peak01_fixed_front_ironsight,zero,,,,,,unidentified,none,fixed sight clamp; value on child post,
+vectorworks_peak01_fixed_rear_ironsight,zero,,,,,,unidentified,none,fixed sight clamp; value on child aperture,
+vectorworks_peak01_front_post,handling,,,,,,unidentified,none,AR front sight post replacement; handling,special: no set or weapons listed; may be unreachable
+vectorworks_peak01_rear_aperture,handling,,,,,,unidentified,none,Rear aperture insert; handling,
+virticon_ar15_night_fighter_front_sight_post,handling,,,,,,Trijicon AR-15 tritium front post,medium,night-sight front post; handling,
+virticon_ar15_night_fighter_rear_sight_aperture,handling,,,,,,Trijicon AR-15 tritium rear aperture,medium,night-sight rear aperture; handling,
+virticon_glock_supp_height_rear_sights_wh_sf,handling,,,,,,"Trijicon suppressor-height night sights, white outline",high,Suppressor/optic-height night sight; handling,
+vism_pro_fs,handling,,,,,,NcSTAR VISM Pro flip-up front,medium,Flip-up front BUIS; handling,special: no set or weapons listed; may be unreachable
+vism_pro_rear_200m,handling,,,,,,"NcSTAR VISM Pro flip-up rear, 200m aperture",medium,BUIS aperture insert; handling,special: no set or weapons listed; may be unreachable
+vism_pro_rear_600m,handling,,,,,,"NcSTAR VISM Pro flip-up rear, 600m aperture",medium,BUIS aperture insert; handling,special: no set or weapons listed; may be unreachable;other: E 3 vs 1 for the 200m aperture looks inconsistent
+vism_pro_rs,handling,,,,,,NcSTAR VISM Pro flip-up rear,medium,Flip-up rear BUIS; handling,special: no set or weapons listed; may be unreachable
+whitner_defense_1911_tab_rear_battlesight,handling,,,,,,Wilson Combat Tactical Adjustable Battlesight,high,pistol rear sight; handling,special: only choice
+whitner_defense_edc_x9_snagfree_front_sight_green,handling,,,,,,Wilson Combat EDC X9 fiber front sight,high,pistol front sight; handling,
+whitner_defense_edc_x9_snagfree_front_sight_red,handling,,,,,,Wilson Combat EDC X9 fiber front sight,high,pistol front sight; handling,

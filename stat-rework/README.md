@@ -31,9 +31,10 @@ category agents, validated only by build simulation. Nothing here has been playt
   ergonomics. A big gap always has a note.
 - **reload_time** is a fraction of the weapon's base reload time; lower is better. `-0.033` is 3.3%
   less time, which the review sheets also show as `reload_pct`. Part values are the earlier reload
-  points converted (`RULES.md` section 2), so the default magazine of every set is 0. Only
-  magazines, magazine controls and listed reload hardware carry it (`reload_scope.py`, `RULES.md`
-  section 13); the reload share other parts had was moved into their handling and stability.
+  points converted (`RULES.md` section 2), so the default magazine of every set is 0. Reload is
+  re-statted per kind of part (`reload_scope.py`, `RULES.md` section 13): magazines by capacity,
+  magazine controls and reload hardware by kind; every other part holds 0, and the reload share it
+  had was moved into its handling and stability.
 - Inside a competing set, look at the **direction** of each option (handling vs stability vs
   reload), not just the size.
 - Weapon rows hold the platform: a typical build of each weapon lands at its old ergonomics for
@@ -60,8 +61,9 @@ Pipeline:
 1. `data/source_balancing.csv` (main at `ec0e059`) is the input and is never edited.
 2. `rules/__init__.py` holds the pricing and the default split vector of each family.
 3. `rules/<family>.py` refines the split per item from what the part physically is.
-   `reload_scope.py` then keeps reload only on reload parts (others get its value back in handling
-   and stability; one switch) and drops values under 0.5% of time.
+   `reload_scope.py` then sets every part's reload from its kind (magazines by capacity, controls
+   and hardware by type) and gives other parts' old reload share back in handling and stability
+   (one switch).
 4. `lean.py` steepens the handling-versus-stability lean in stocks, handguards and grips (EV kept).
 5. `overrides/<family>.csv` sets hand-tuned values; every row has a note.
 6. `weapon_identity.csv` holds each weapon's anchor and identity offsets; `--calibrate` turns them
@@ -92,5 +94,5 @@ lower-is-better.
 See the end of `review/simulation_report.md` and the balancing report for the current list. In
 short: (1) the stock, handguard and grip handling-versus-stability trades (`lean.py`), which carry
 most of the "builds must choose" effect; (2) weapons whose parts can still reach the ceiling of all
-three stats; (3) magazine reload values against capacity; (4) ammunition (kept, one switch to zero);
+three stats; (3) the reload tables in `reload_scope.py`; (4) ammunition (kept, one switch to zero);
 (5) the EV weights themselves (`rules.W_H/W_R/W_S`) once the team has a feel for a stability point.

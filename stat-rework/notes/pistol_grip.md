@@ -58,4 +58,4 @@ three new stats in any set of 3+.
 
 ## Round 5: reload scope
 
-Pistol grips do not affect reload. The 0.4·E reload share of all 59 grips that had one is moved into handling and stability in their own proportions (EV kept; `reload_scope.py`).
+Pistol grips do not affect reload: reload 0. The 0.4·E reload share of every grip that had one is moved into handling and stability in its own proportions (EV kept; `reload_scope.py`).

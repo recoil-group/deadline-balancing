@@ -44,3 +44,17 @@ their value belongs to the weapon budget either way.
 
 - `mp153_4r_mag_cap` is filed as optic (h +18); it should be 0/0/0 as the zero reference of the
   MP133 tube set (see `notes/magazine.md`).
+
+## Round 5: reload scope
+
+Magazine controls are re-statted by kind (`reload_scope.py`, RULES.md section 13):
+
+- Flared magwells and funnels: −3%. The large Rhino R-23 funnel: −5%.
+- Enhanced, ambidextrous, extended or oversized releases: −3%.
+- Mag assists, loop plates and the SG58 bumper plate: −3%.
+- Large AUG release paddle: −2%.
+- Capacity extensions by total capacity against their base magazine, as magazines.
+- Standard releases, plates and magwells: 0.
+- Sleeves and couplers: 0, with their old share moved into handling.
+
+EV follows: a magwell worth E +1 to +3 is now worth about 3.4 (−3%) or 5.8 (the −5% Rhino). The two KOSCH .40 magex are identical apart from weight (a variant).

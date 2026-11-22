@@ -74,4 +74,4 @@ rate; see `notes/internals.md`).
 
 ## Round 5: reload scope
 
-Only receivers that change the reload action keep reload (`reload_scope.PARTS`): the Novacek N4 Gen3 lowers (flared magwell), the Ardian ADAC-15 (ambidextrous controls), the Lingle AR17 FANG-H lower (AR controls), the six Scalar calibre lowers (the lower is the magazine well), the two R700 chassis (detachable-magazine well) and the KOSCH ambidextrous slide catch. All 13 keep reload. The other 61 (standard AR, HK, UMP and AK-12/AK-308 lowers, slides, frames, trunnions, trigger housings) have their reload share moved into handling and stability, EV kept.
+Only the Novacek N4 Gen3 lowers (flared magwell, −3%) and the KOSCH ambidextrous slide catch (−2%) affect reload (RULES.md section 13). Every other receiver holds 0, with its old reload share moved into handling and stability (EV kept). That covers the ADAC-15, whose release and bolt catch are separate parts, the Scalar calibre lowers, the FANG-H AR lower, the R700 chassis (the R700 always takes detachable magazines), slides, frames, trunnions and trigger housings.

@@ -76,4 +76,4 @@ foregrip: nothing on the front of the gun plausibly changes the reload.
 
 ## Round 5: reload scope
 
-The one foregrip-family part with reload (`hk_mp5k_polymer_handguard`) has it moved into handling and stability (EV kept; `reload_scope.py`).
+No foregrip affects reload. The one part with reload (`hk_mp5k_polymer_handguard`) has it moved into handling and stability (EV kept; `reload_scope.py`).

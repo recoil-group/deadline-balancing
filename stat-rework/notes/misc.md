@@ -61,4 +61,4 @@ EV stays within tolerance. The reload 0.5 follows the stock family's small reloa
 
 ## Round 5: reload scope
 
-The MagEx2, the Nexa P226 extension and the P320 magazine funnel keep reload (they are magazine parts). The CQR spacers, palm shelf, Glock grip sleeves and RPG-7 rear grip have their reload moved into handling and stability, EV kept (`reload_scope.py`).
+The MagEx2 and the Nexa P226 extension are rated as capacity extensions (+8% and +4%), and the P320 magazine funnel as a flared magwell (−3%). The CQR spacers, palm shelf, Glock grip sleeves and RPG-7 rear grip hold 0, with their reload moved into handling and stability (EV kept).

@@ -90,8 +90,11 @@ reload duration = animation length x (1 + weapon row reload_time) x clamp(1 + su
 
 - A **part's** `reload_time` is a fraction of the weapon's base reload time: `-0.05` is 5% less time, `0.10` is 10% more. Part values are summed (same stacking exceptions) and applied once, so a part has the same effect on every gun it fits. The sum is clamped to -40% .. +60%.
 - The **weapon row's** `reload_time` is the weapon's base factor on its native animation length, calibrated so the weapon's typical build reloads as long as it did before the rework. It is not a modifier players see; it defines the weapon's base reload time.
-- Only parts that change the reload action carry it: magazines and capacity extensions, magazine controls (releases, magwells, mag assists, plates), and specific reload hardware (bolt catches and releases, charging handles, flared or ambidextrous magazine wells on lowers, bolt-action bolts and bottom metal). Stocks, grips, handguards, barrels, muzzles, optics and the rest hold `0`.
-- The default magazine of each slot is `0`. Values are written to 0.001 (0.1% of time), and no part holds a nonzero value under `0.005` (0.5%).
+- Only parts that change the reload action carry it, sized by kind:
+  - Magazines and extensions by capacity against the slot's standard magazine: short −8%, reduced −4%, standard 0, extended +4%, long +8%, drums and quads +12% or +16%.
+  - Magwells −3% (large funnels −5%), enhanced releases and pull aids −3%, bolt and slide catches −2%, enhanced charging handles −1.5% to −3.7% by size, Mosin bolt work −2%.
+  - Stocks, grips, handguards, barrels, muzzles, optics, shotgun tube extensions and the rest hold `0`.
+- The default magazine of each slot is `0`. Values are written to 0.001 (0.1% of time).
 - Draw speed (mobility) and the minor animations (handling) are not affected.
 
 Breath-hold drains the arm-stamina bar (60 for everyone) at `4.5/s` at 0 stability, `3.0/s` at 50 and `1.5/s` at 100, multiplied by `1 + 0.2 x seconds held`. Holding breath removes sway entirely and is impossible at an empty bar. Aiming drains the same bar at a rate set by mobility.

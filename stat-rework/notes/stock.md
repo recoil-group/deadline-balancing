@@ -150,4 +150,4 @@ gives s 4.5.
 
 ## Round 5: reload scope
 
-Stocks are not reload parts. The reload share every stock had (0.25·E, and the furniture table's reload, e.g. the AUG Para conversion's 12 points) is moved into handling and stability in the proportions the stock already has, so EV is kept (`reload_scope.py`, RULES.md section 13). 89 stocks moved. The AUG Para conversion arguably changes the magazine well (9x19 mags); it was zeroed with the rest, and its preset now reaches handling 100.5.
+Stocks are not reload parts: reload 0. The reload share every stock had (0.25·E, and the furniture table's reload, e.g. the AUG Para conversion's 12 points) is moved into handling and stability in the proportions the stock already has, so EV is kept (`reload_scope.py`, RULES.md section 13). The AUG Para conversion arguably changes the magazine well (9x19 mags); it was zeroed with the rest, and its preset now reaches handling 100.5.

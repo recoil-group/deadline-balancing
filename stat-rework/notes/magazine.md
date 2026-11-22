@@ -77,4 +77,15 @@ Rules live in `rules/magazine.py` (docstring has the full list). No weight credi
 
 ## Round 5: reload scope
 
-Magazines keep reload, but values under 0.5% of reload time (1 point or less: the ±0.5 material rule on top of a near-default magazine) are dropped to 0 (`reload_scope.py`). Eight magazines dropped; the Springfield M14 modified 20R now ties the AK-308 20R and Saiga .308 20R on every stat and is heavier, so `review/dominations.csv` lists it as a variant.
+Magazine reload is re-statted by capacity against the slot's standard magazine (`reload_scope.py`, RULES.md section 13):
+
+- Short stick (c ≤ 0.4): −8%.
+- Reduced stick (< 0.85): −4%.
+- Standard: 0.
+- Extended (< 1.7): +4%.
+- Long (≥ 1.7): +8%.
+- Drums, quads and caskets: +12%, or +16% at 2.5× capacity and over.
+
+The material rule's ±0.5 is gone: same-capacity magazines drop their old reload difference. Handling (bulk) is unchanged from the rules above, so EV follows the new reload. Short and long magazines keep roughly their old value, while light drums that the old sheet under-charged cost several EV more. The Springfield M14 modified 20R now ties the AK-308 20R and Saiga .308 20R and is heavier (a variant in `review/dominations.csv`).
+
+Shotgun tube caps and extensions have no reload reason (each shell loads the same way; more shells take longer by themselves): reload 0, and their old reload share is moved into handling. The 8-round LSX goes from h −6 / +7% to h −18 / 0, with EV kept.

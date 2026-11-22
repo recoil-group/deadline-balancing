@@ -61,4 +61,11 @@ $200).
 
 ## Round 5: reload scope
 
-Charging handles, bolt catches and releases, the B.A.R. lever, the KOSCH magazine catch, the Mosin bolts and handles and the R700 bottom metal keep reload (`reload_scope.PARTS`). The AFT charging handle and the KOSCH magazine catch hold 1 point (0.4%), under 0.5%, so it is dropped. The AK enhanced safety is not a reload part; its reload is moved into handling, EV kept.
+Reload hardware is re-statted by kind (`reload_scope.py`, RULES.md section 13):
+
+- Bolt catches and releases, and the B.A.R. lever: −2%.
+- KOSCH ambidextrous magazine catch: −3%, like the other enhanced releases.
+- Enhanced charging handles: −(1% + 0.25% per 0.01 dw), so −1.5% for the 0.02 dw extended latches to −3.7% for the 0.11 dw straight-pull side charger. The latch size sets it, and the part's weight measures that size.
+- Resolute bolt and Crazy Ivan knob: −2%.
+- R700 Badger bottom metal: −3%, as a flared well.
+- Standard charging handles (Hart M4, AFT, Scalar, SG58, Aquila AUG), the Mosin default bolt and infantry handle, the AK enhanced safety and triggers hold 0, with their old reload share moved into handling (EV kept).

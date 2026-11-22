@@ -115,4 +115,4 @@ because the brief says to keep assembly totals. Worth a team look.
 
 ## Round 5: reload scope
 
-Optics, mounts and sling hardware are not reload parts. The five that carried reload (two sling mounts, a swivel, the AUG sling mount, the charging-handle mount and the stockless AGR-870 cap override) have it moved into handling and stability (EV kept; `reload_scope.py`).
+Optics, mounts and sling hardware are not reload parts: reload 0. The five that carried reload (two sling mounts, a swivel, the AUG sling mount, the charging-handle mount and the stockless AGR-870 cap override) have it moved into handling and stability (EV kept; `reload_scope.py`).

@@ -43,4 +43,4 @@ Giving lights a weight-based handling cost would only charge weight a second tim
 
 ## Round 5: reload scope
 
-The one tactical device with reload (`pm_laser_ltsu_pm_laser`) has it moved into handling (EV kept; `reload_scope.py`).
+Tactical devices do not affect reload. The one with reload (`pm_laser_ltsu_pm_laser`) has it moved into handling (EV kept; `reload_scope.py`).

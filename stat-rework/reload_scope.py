@@ -197,7 +197,7 @@ def reload_of(item, ctx):
     if n in PARTS:
         return PARTS[n][0], PARTS[n][1]
     if n in CHARGING_HANDLES:
-        return round(CH_BASE + CH_PER_DW * item["weight"], 3) + 0.0, f"{CHARGING_HANDLES[n]}, {item['weight']:g} dw"
+        return _charging_handle(item, ctx), f"{CHARGING_HANDLES[n]}, {item['weight']:g} dw"
     if n in EXT_BASE or (item["family"] in MAG_FAMILIES and not is_tube(item)):
         if is_tube(item):
             return None, "shotgun tube: each shell loads the same way"
@@ -212,6 +212,20 @@ def reload_of(item, ctx):
     if is_tube(item):
         return None, "shotgun tube: each shell loads the same way"
     return None, "not a reload part"
+
+
+def _charging_handle(item, ctx):
+    """Round 8: whole percent, half percent where it separates two handles of one set."""
+    import rounding
+
+    raw = CH_BASE + CH_PER_DW * item["weight"]
+    sib = []
+    if ctx is not None:
+        for g in item["groups"]:
+            for m in ctx.groups[g]["items"]:
+                if m != item["name"] and m in CHARGING_HANDLES and m in ctx.items:
+                    sib.append(CH_BASE + CH_PER_DW * ctx.items[m]["weight"])
+    return round(rounding.round_reload_part(raw, sib), 3) + 0.0
 
 
 def _move(item, vals, dv):

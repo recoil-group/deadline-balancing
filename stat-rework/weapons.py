@@ -32,6 +32,8 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 
+import rounding  # noqa: E402
+
 IDENTITY = os.path.join(HERE, "weapon_identity.csv")
 BASES = os.path.join(HERE, "weapon_bases.csv")
 
@@ -104,7 +106,7 @@ def calibrate():
             notes.append(f"handling anchor {anchor['handling']:.1f} (place ads range {place[2]}-{place[3]} over {place[0]}-{place[1]} converted to the universal range)")
         for s, k in (("handling", "offset_h"), ("stability", "offset_s")):
             a = float(r["anchor_" + s]) if r.get("anchor_" + s, "") != "" else anchor[s]
-            row[s] = rules.round_half(a + float(r.get(k) or 0) - parts[s])
+            row[s] = rounding.round_int(a + float(r.get(k) or 0) - parts[s])  # round 8: whole points
         # reload: per reference build, today's playback times the new parts' time factor; the base
         # factor makes the median of these exactly today's duration (identity offset aside)
         reload_range = ranges.get("reload") or DEFAULT_RELOAD

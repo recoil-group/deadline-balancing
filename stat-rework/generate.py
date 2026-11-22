@@ -27,6 +27,7 @@ sys.path.insert(0, HERE)
 import cycling  # noqa: E402
 import profiles  # noqa: E402
 import reload_scope  # noqa: E402
+import rounding  # noqa: E402
 import rules  # noqa: E402
 from analysis import WEAPON_CLASSES, slot_groups  # noqa: E402
 from families import family  # noqa: E402
@@ -38,7 +39,8 @@ OTHER_COLUMNS = [c for c in NEW_COLUMNS[4:] if c not in NEW_STATS]
 
 
 def rnd(stat, x):
-    """Sheet rounding: handling and stability to 0.5, reload_time to 0.001."""
+    """Sheet precision: handling and stability to 0.5, reload_time to 0.001. Values are already on
+    the round-8 grid (rounding.py) when they get here; this only guards the format."""
     return round(x, 3) + 0.0 if stat == "reload_time" else rules.round_half(x)
 
 
@@ -198,6 +200,9 @@ def generate(ctx=None, families=None):
                 log.append({"name": n, "column": k, "old": raw.get(k, ""), "new": vals[k], "why": note or rule})
         vals["_rule"] = rule
         vals["_note"] = note
+    for n, why in rounding.apply(ctx, out).items():  # round 8: whole numbers, half points only where needed
+        out[n]["_rule"] += "; " + why
+        out[n]["_half"] = why
     return ctx, out, log
 
 
@@ -229,11 +234,28 @@ def write_outputs(ctx, out, log):
     write_review(ctx, out)
     check_reload_scope(ctx, out)
     write_research_flags(ctx)
+    write_half_points(ctx, out)
     with open(os.path.join(HERE, "review", "other_column_changes.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=["name", "column", "old", "new", "why"])
         w.writeheader()
         for r in log:
             w.writerow(r)
+
+
+def write_half_points(ctx, out):
+    """review/half_points.csv: every half point left after round-8 rounding, with its reason."""
+    rows = []
+    for n, v in out.items():
+        it = ctx.items[n]
+        hs = [v.get("handling"), v.get("stability")]
+        if any(x is not None and x % 1 for x in hs):
+            rows.append({"family": it["family"], "name": n, "handling": fmt(hs[0], "handling"),
+                         "stability": fmt(hs[1], "stability"),
+                         "reason": v.get("_half") or ("weapon base row" if it["family"] == "weapon" else "")})
+    with open(os.path.join(HERE, "review", "half_points.csv"), "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=["family", "name", "handling", "stability", "reason"])
+        w.writeheader()
+        w.writerows(sorted(rows, key=lambda r: (r["family"], r["name"])))
 
 
 def strength(ergo_or_ev, it):

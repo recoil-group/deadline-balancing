@@ -75,3 +75,17 @@ The Resolute bolt and the Crazy Ivan knob are cycling parts. Their reload is 0, 
 `fire_rate +0.01` (Mosin 50 → 50.5 RPM), priced at 3 EV and taken out of their handling, so their
 value is unchanged (`cycling.py`, RULES.md section 14). The Mosin default bolt, the infantry bolt
 and the infantry handle are 0. The R700 has no choosable cycling part.
+
+## Round 7: profiles and roles
+
+Handling and stability now come from each part's row in `profiles/internals.csv` (RULES.md section 15); the split rules, weight leans and overrides above are history for these two stats.
+
+Triggers, trigger guards, gas blocks and carriers are `even`; selectors, safeties, standard charging handles and bolt handles are `handling`; enhanced charging handles, bolt catches and releases are `reload_only`. The Talvern BCG's role was struck: a carrier has no handling or stability effect of its own (lead). Flag kept for the team: the standard charging handle's E 1 makes it a little handier than the enhanced ones, which are reload only.
+
+Profiles: zero 102, even 79, handling 33, reload_only 29. Unidentified counterparts: 1.
+
+Role parts:
+
+- `hk_psg1_trigger`: marksman, HK PSG1 precision trigger group
+- `rsa_sg58_pistol_gas_piston`: compact, DSA SA58 pistol-length gas system
+- `vallais_super_fang_trigger`: marksman, Geissele Super SCAR two-stage trigger

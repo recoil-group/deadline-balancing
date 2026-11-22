@@ -151,3 +151,20 @@ gives s 4.5.
 ## Round 5: reload scope
 
 Stocks are not reload parts: reload 0. The reload share every stock had (0.25·E, and the furniture table's reload, e.g. the AUG Para conversion's 12 points) is moved into handling and stability in the proportions the stock already has, so EV is kept (`reload_scope.py`, RULES.md section 13). The AUG Para conversion arguably changes the magazine well (9x19 mags); it was zeroed with the rest, and its preset now reaches handling 100.5.
+
+## Round 7: profiles and roles
+
+Handling and stability now come from each part's row in `profiles/stock.csv` (RULES.md section 15); the split rules, weight leans and overrides above are history for these two stats.
+
+Stocks lean by type: precision h 0.5 V / s 1.49 V, fixed 0.75 / 1.17, adjustable even, compact (minimal, PDW, wire, braces) 1.15 / 0.66; buttpads stability only; cheek risers 0.25 / 1.81. Roles go on top only where the type cannot say it (the Archangel, the SA58 SPR Para, the GLR-17 strong marksman; the AUG Para, the Mosin carbine and the sawn-off full stock compact). The Talvern PDW stock, the SB brace and the AICS thumbhole stock had roles struck: their type already carries the trade (lead). The ACR's value sits on its cheek-pad row, which takes the adjustable-stock profile (lead). The no-stock options (end caps, sling swivels, castle nuts, the sawn-off Mosin) are `stockless`: 2 handling above the handiest stock their weapon can mount, stability between −12 and −4. That fixes the bug where the lean pass's clamp left them less handy than a stocked build. The earlier notes above on the 0.25 E reload share and the brace EV are superseded.
+
+Profiles: zero 65, stock_fixed 30, buttpad 27, stock_adjustable 24, stock_compact 23, even 23, cheek_riser 15, stock_precision 12, stockless 5. Unidentified counterparts: 4.
+
+Role parts:
+
+- `glr_17`: marksman (strong), FAB Defense GLR-17 Glock stock
+- `lowenherz_aug_a3_para_9x19_stock`: compact, Steyr AUG Para 9x19 conversion
+- `mosin_carbine_stock`: compact, Mosin-Nagant M38/M44 carbine stock
+- `mosin_promag_archangel_stock`: marksman, ProMag Archangel OPFOR Mosin-Nagant precision stock
+- `mosin_sawn_off_full_stock`: compact (strong), Cut-down Mosin full stock (shortened furniture)
+- `rsa_sg58_folding_spr_para_stock_body`: marksman, DS Arms SA58 SPR Para adjustable side-folding stock

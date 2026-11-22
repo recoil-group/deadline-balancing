@@ -26,3 +26,11 @@ moved onto them. The assembly stays at −2 old, now EV −1.84.
 ## Dominations
 
 None. The two AKM blades trade weight against recoil.
+
+## Round 7: profiles and roles
+
+Handling and stability now come from each part's row in `profiles/bayonet.csv` (RULES.md section 15); the split rules, weight leans and overrides above are history for these two stats.
+
+Bayonets cost handling (`handling`); containers and blank rows are `zero`.
+
+Profiles: zero 6, handling 5. Unidentified counterparts: 0.

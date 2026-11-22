@@ -108,6 +108,8 @@ EV = 0.60 * handling + 0.40 * reload_points + 0.47 * stability     (in old ergon
 reload_points = (1.1 / (1 + reload_time) - 1.1) / 0.004              (1% of reload time ~ 2.75 points)
 ```
 
+How the rework set the two stats per part: every part has a profile. The default is an even split (a part that is simply nicer is better at both). Stocks lean by type (precision and fixed towards stability, compact and braces towards handling, no stock very handy and clearly unsteady), foregrips by shape (vertical towards stability, angled towards handling), buttpads and cheek risers towards stability, and optics, sights, mounts, barrels, muzzle devices, lasers and lights hold handling only (large scopes also cost a little stability). Parts built for one kind of gun carry a role on top: marksman parts trade handling for stability, compact parts the reverse. Nothing leans by weight, which already pays for mobility. `stat-rework/profiles/` holds each part's profile, role and real-world counterpart.
+
 A sheet that still has an `ergonomics` column and none of the three loads with handling and stability equal to its ergonomics and reloads exactly as it does today.
 
 The stats panel shows the weapon's reload time in seconds for the standard (magazine not empty) reload, with no bar, and a part's reload time as a percentage ("Reload time -5%"), coloured lower-is-better. Multiplying the two gives the right answer.

@@ -67,3 +67,15 @@ Why:
   aperture), old +7 becomes h +7.5 (EV 4.5). The weapon-base calibration absorbs the shift, and
   folding-BUIS builds gain about 1 EV relative to it.
 - Stability stays 0 for every iron sight; there is no physical case for sway from a sight.
+
+## Round 7: profiles and roles
+
+Handling and stability now come from each part's row in `profiles/iron_sight.csv` (RULES.md section 15); the split rules, weight leans and overrides above are history for these two stats.
+
+Sights are `handling` (finding the sight picture); front sight blocks and gas blocks filed here follow what they are. The RPK-16 barrel filed here is a barrel and a marksman part.
+
+Profiles: handling 132, zero 36, barrel 3, even 2, mount 2. Unidentified counterparts: 12.
+
+Role parts:
+
+- `kazarov_group_std_rpk16_559mm_barrel`: marksman, Kalashnikov RPK-16 550mm barrel

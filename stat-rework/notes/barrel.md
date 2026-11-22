@@ -86,3 +86,26 @@ stats and win on velocity, recoil, deviation and damage. I did not invent a coun
   wanted, belongs in `weapon_identity.csv`.
 - `mosin_bramit_7.62x54r_suppressor` has category `Barrel` in Studio. It is a suppressor and is
   restatted as one.
+
+## Round 7: profiles and roles
+
+Handling and stability now come from each part's row in `profiles/barrel.csv` (RULES.md section 15); the split rules, weight leans and overrides above are history for these two stats.
+
+Barrels are `barrel` (h = V, stability neutral): length costs handling, and velocity, recoil and deviation carry the benefit. The heavy, bull and match barrels are marksman parts. Misfiled rows (integral suppressors, sights, gas blocks) take the profile of what they are. Barrels lose the stability the lean pass gave them, so a short barrel is no longer also steadier.
+
+Profiles: barrel 163, handling 23, even 5, zero 4, mount 2, handguard_long 1. Unidentified counterparts: 0.
+
+Role parts:
+
+- `aft_mk20_508mm_barrel`: marksman, FN Mk20 SSR 20in barrel
+- `al_qadissiya_tabuk_sniper_600mm_7.62x39_barrel`: marksman, Al-Qadissiya Tabuk Sniper Rifle 600mm barrel
+- `cmmg_ar_15_5.56x45_610mm_fluted_r_barrel`: marksman, CMMG 24in fluted barrel
+- `ex_call_ar_15_.223wylde_457mm_spiral_6groove_m_barrel`: marksman, X-Caliber 18in .223 Wylde spiral fluted barrel
+- `hk_msg90a1_threaded_600mm_barrel`: marksman, HK MSG90A1 heavy threaded barrel
+- `hk_psg1_bull_650mm_barrel`: marksman, HK PSG1 bull barrel
+- `lowenherz_aug_hbar_620mm_heavy_barrel`: marksman, Steyr AUG HBAR 24.4in heavy barrel
+- `roosevelt_model_700_508mm_.308_heavy_barrel`: marksman, Remington 700 20in heavy .308 (SPS Varmint/Tactical)
+- `roosevelt_model_700_508mm_.308_heavy_threaded_barrel`: marksman, Remington 700 20in heavy threaded .308 (SPS Tactical)
+- `uk_vz59_546mm_straight_profile_barrel`: marksman, Czech UK vz.59 7.62x51 barrel (straight heavy profile)
+- `wesson_slug_610mm_cantilever`: marksman, Remington 870 rifled slug barrel with cantilever scope mount
+- `whtnls_m4a1_5.56x45_508mm_hbar_r_barrel`: marksman, 20in HBAR rifle barrel

@@ -71,3 +71,11 @@ the old sheet, where they were also best in ergo.
   and the QD ASR mount.
 - `sai_jailbrake_handguard_extension` (Muzzle Device, hosts rails) is a handguard-and-brake
   combination. It is treated as a brake.
+
+## Round 7: profiles and roles
+
+Handling and stability now come from each part's row in `profiles/muzzle.csv` (RULES.md section 15); the split rules, weight leans and overrides above are history for these two stats.
+
+Muzzle devices cost handling (`handling`): length and mass at the far end; recoil and loudness carry the benefit.
+
+Profiles: handling 137, zero 4, barrel 1. Unidentified counterparts: 0.

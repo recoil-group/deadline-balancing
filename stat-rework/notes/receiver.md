@@ -75,3 +75,25 @@ rate; see `notes/internals.md`).
 ## Round 5: reload scope
 
 Only the Novacek N4 Gen3 lowers (flared magwell, −3%) and the KOSCH ambidextrous slide catch (−2%) affect reload (RULES.md section 13). Every other receiver holds 0, with its old reload share moved into handling and stability (EV kept). That covers the ADAC-15, whose release and bolt catch are separate parts, the Scalar calibre lowers, the FANG-H AR lower, the R700 chassis (the R700 always takes detachable magazines), slides, frames, trunnions and trigger housings.
+
+## Round 7: profiles and roles
+
+Handling and stability now come from each part's row in `profiles/receiver.csv` (RULES.md section 15); the split rules, weight leans and overrides above are history for these two stats.
+
+Receivers are `even`: nothing about an upper, lower, slide or frame favours one stat. The role uppers (Mk20, MK12, PSG1, M27 IAR marksman; MK18, MC51, MC51K strong, Serbu Shorty compact) carry the swing; the Mk20's old +5 only compensated its weight and now turns into stability. The AICS chassis frame is `even`, since its buttstocks are separate precision-stock parts (lead). The FRS-15 Gen3 end plate is a stockless option.
+
+Profiles: even 189, zero 24, reload_only 7, handling 1, mount 1, stockless 1. Unidentified counterparts: 0.
+
+Role parts:
+
+- `aft_mk20_upper_receiver`: marksman, FN SCAR Mk20 SSR upper receiver
+- `aft_mk20_upper_receiver_for_scar47`: marksman, FN SCAR 20S / Mk20 SSR upper
+- `axtell_defense_mk12_upper_receiver`: marksman, Daniel Defense MK12 SPR upper
+- `axtell_defense_mk18_upper_receiver`: compact, Daniel Defense MK18 upper receiver group
+- `ferro_ordnance_mc51_upper_receiver`: compact, FR Ordnance MC51 (HK51-type short G3)
+- `ferro_ordnance_mc51k_upper_receiver`: compact (strong), FR Ordnance MC51-style G3 with MP5K handguard
+- `hk_psg1_metal_trigger_housing`: marksman, HK PSG1 trigger group housing
+- `hk_psg1_upper_receiver`: marksman, HK PSG1 receiver
+- `hk_psg1_upper_receiver_modified`: marksman, HK PSG1-pattern receiver (modified)
+- `kf_m27_iar_upper_receiver`: marksman, HK M27 IAR upper
+- `r870_serbu_shorty_receiver`: compact, Serbu Super-Shorty 870 receiver

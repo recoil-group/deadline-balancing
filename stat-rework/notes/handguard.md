@@ -134,3 +134,18 @@ value.
   the direction the lead asked for.
 - **Stability per dw is absolute,** not scaled per set. Sets whose weights barely differ (for
   example the AKS-74U lowers) correctly get almost no stability spread.
+
+## Round 7: profiles and roles
+
+Handling and stability now come from each part's row in `profiles/handguard.csv` (RULES.md section 15); the split rules, weight leans and overrides above are history for these two stats.
+
+Handguards are `even`, with the mild lean only on the clearly longest (`handguard_long`, 18 rows) and shortest (`handguard_short`, 6) of a set. The role handguards are `even` plus their role, not a length lean on top (lead). Rail panels and covers are `zero` or `mount`. Spread against old ergonomics fell from 1.79× to 1.00×.
+
+Profiles: even 208, zero 81, mount 20, handguard_long 18, handguard_short 6, handling 5, grip_angled 1, grip_vertical 1. Unidentified counterparts: 4.
+
+Role parts:
+
+- `kf_416_dmr_extra_long_handguard`: marksman, HK417/MR-style extra-long DMR quad rail for 416
+- `kf_416c_handguard`: compact, HK416C handguard
+- `mcs_rev21_gen2_15inch_r700_mlok_handguard`: marksman, MDT TAC21 Gen2 chassis 15in forend
+- `quix_tacticals_ar15_4inch_ultralight_mlok_freefloat_hg`: compact, unidentified 4in ultralight free-float M-LOK AR handguard

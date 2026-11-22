@@ -13,12 +13,16 @@ category agents, validated only by build simulation. Nothing here has been playt
 | File | What it is |
 |---|---|
 | `../balancing.csv` | The full sheet in the new column layout. Every non-split column is byte-identical to the old sheet unless listed in `review/other_column_changes.csv`. |
-| `review/<family>.csv` | One sheet per family. Each item's old ergonomics next to its new three stats, grouped by competing set, with its EV, the team's strength score before and after, the rule that produced it and the note of any hand-tuned value. Start here. |
+| `review/<family>.csv` | One sheet per family. Each item's old ergonomics next to its new three stats, grouped by competing set, with its EV, the team's strength score before and after, the rule that produced it, and its profile, role, real-world counterpart, confidence and one line of why. Start here. |
+| `profiles/<family>.csv` | Round 7's source of truth for handling and stability: each part's profile, role and research (RULES.md section 15). Edit a row here to change how a part splits. |
+| `review/research_flags.csv` | What the round-7 review found outside handling and stability: other-column values that look wrong, reload and cycling questions, misfiled parts. For the team; nothing in it was applied unless the notes say so. |
+| `review/spread.csv` | Per competing set, how far handling and stability spread against how far ergonomics did (`spread.py`). |
 | `review/weapon.csv` | Weapon base rows. |
 | `review/simulation_report.md` | Stock, reference (official setups and presets) and optimised builds for every weapon, plus the validation checks. |
 | `review/other_column_changes.csv` | Every change outside the three new columns, with the reason (the five cycling parts' `fire_rate`, round 6). |
 | `RULES.md` | The rules the rebalance follows: what each stat owns, value accounting, weight, trade-offs, magnitudes, weapon base values, ammunition. |
-| `notes/<family>.md` | Each family's split rules, in a few lines per sub-category, and its open questions. |
+| `notes/<family>.md` | Each family's split rules, in a few lines per sub-category, and its open questions; the round-7 section at the end is how the family splits now. |
+| `AGENT_BRIEF_R7.md` | The brief the round-7 reviewers classified every part from. |
 | `RULES_MINED.md` | What the old sheet and its history imply (the "unwritten rules"). |
 | `data/tree.json` | The attachment tree: classes, items, mount maps, weapons with default builds and presets, official setups. |
 | `data/competing_sets.json` | Every slot group: which items compete for the same place, whether the slot is required and whether it is the only choice. |
@@ -35,6 +39,10 @@ category agents, validated only by build simulation. Nothing here has been playt
   re-statted per kind of part (`reload_scope.py`, `RULES.md` section 13): magazines by capacity,
   magazine controls and reload hardware by kind; every other part holds 0, and the reload share it
   had was moved into its handling and stability.
+- **Handling and stability** come from the part's profile (round 7): even by default, a family
+  lean only where every member shares a reason (stocks by type, foregrips by shape, optics and
+  other front-end parts handling only), and marksman or compact roles on the parts built for one
+  kind of gun. Nothing leans by weight.
 - Inside a competing set, look at the **direction** of each option (handling vs stability vs
   reload), not just the size.
 - Weapon rows hold the platform: a typical build of each weapon lands at its old ergonomics for
@@ -54,6 +62,7 @@ python3 stat-rework/generate.py --preview stock  # print one family, write nothi
 python3 stat-rework/check_family.py stock        # drift, dominations, spreads for one family
 python3 stat-rework/simulate.py --weapon M4A1    # builds for one weapon, printed
 python3 stat-rework/generate.py --calibrate      # recompute weapon_bases.csv (then --write again)
+python3 stat-rework/spread.py                    # handling spread vs ergonomics spread per family
 ```
 
 Pipeline:
@@ -66,13 +75,18 @@ Pipeline:
    (one switch).
    `cycling.py` gives the cycling parts of bolt and pump guns `fire_rate`, paid for out of their
    handling and stability (one switch).
-4. `lean.py` steepens the handling-versus-stability lean in stocks, handguards and grips (EV kept).
-5. `overrides/<family>.csv` sets hand-tuned values; every row has a note.
+4. `profiles.py` then sets every part's handling and stability from its row in
+   `profiles/<family>.csv` (profile, role, optional value or explicit values), and gives the
+   stockless options their values once every stock is known. This replaces the family rules'
+   handling and stability, which survive only as the rule note.
+5. `lean.py` (the ×2 lean pass of earlier rounds) is switched off. `overrides/lead.csv` is empty;
+   the round-6 overrides only compensated the weight leans and were removed.
 6. `weapon_identity.csv` holds each weapon's anchor and identity offsets; `--calibrate` turns them
    into `weapon_bases.csv`, which is what the weapon rows get.
 
-To retune: change a family's rule or add an override row with a note, run `--write`, and check
-`simulate.py`. If parts change a lot, run `--calibrate` and `--write` again so weapon bases follow.
+To retune handling and stability: change a part's row in `profiles/` (or a profile's coefficients,
+the role swing or the stockless margin in `profiles.py`), run `--write`, and check `simulate.py`
+and `spread.py`. If parts change a lot, run `--calibrate` and `--write` again so weapon bases follow.
 
 ### Studio data
 
@@ -94,7 +108,7 @@ lower-is-better.
 ## What to tune first
 
 See the end of `review/simulation_report.md` and the balancing report for the current list. In
-short: (1) the stock, handguard and grip handling-versus-stability trades (`lean.py`), which carry
-most of the "builds must choose" effect; (2) weapons whose parts can still reach the ceiling of all
+short: (1) the profile coefficients and the role list and strength (`profiles.py`, `profiles/`),
+which now carry the "builds must choose" effect; (2) weapons whose parts can still reach the ceiling of all
 three stats; (3) the reload tables in `reload_scope.py`; (4) ammunition (kept, one switch to zero);
 (5) the EV weights themselves (`rules.W_H/W_R/W_S`) once the team has a feel for a stability point.

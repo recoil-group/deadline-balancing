@@ -44,3 +44,11 @@ Giving lights a weight-based handling cost would only charge weight a second tim
 ## Round 5: reload scope
 
 Tactical devices do not affect reload. The one with reload (`pm_laser_ltsu_pm_laser`) has it moved into handling (EV kept; `reload_scope.py`).
+
+## Round 7: profiles and roles
+
+Handling and stability now come from each part's row in `profiles/tactical.csv` (RULES.md section 15); the split rules, weight leans and overrides above are history for these two stats.
+
+Lasers and lights cost handling (`handling`): bulk on the front; their benefit is elsewhere.
+
+Profiles: handling 37, even 1. Unidentified counterparts: 0.

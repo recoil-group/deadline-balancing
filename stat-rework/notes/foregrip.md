@@ -87,3 +87,11 @@ stability, EV kept:
 - R870: SpeedFeed (default) 0; Magtap MOE +3% (h 11 / s 3 → h 5 / s 1.5); P.R.O Tactical PR870
   −2% (h 1 / s 11 → h 4.5 / s 13.5: the steady, slower forend).
 - MP-133: beechwood (default) 0; plastic +2% (h 6.5 / s 4.5 → h 3.5 / s 2.5).
+
+## Round 7: profiles and roles
+
+Handling and stability now come from each part's row in `profiles/foregrip.csv` (RULES.md section 15); the split rules, weight leans and overrides above are history for these two stats.
+
+Foregrips lean by shape: vertical grips and grip-pods towards stability (h 0.5 V, s 1.49 V), angled grips and handstops towards handling (h 1.15 V, s 0.66 V). A vertical grip with a negative value costs handling only. Both replace the weight-in-set lean and the ×2 lean pass, which had made the grip slot the most extreme family (handling spread 2.0× the old ergonomics spread; now 1.17×).
+
+Profiles: grip_vertical 40, grip_angled 23, even 6, zero 4, grip_pod 4, handling 2. Unidentified counterparts: 0.

@@ -58,3 +58,11 @@ Magazine controls are re-statted by kind (`reload_scope.py`, RULES.md section 13
 - Sleeves and couplers: 0, with their old share moved into handling.
 
 EV follows: a magwell worth E +1 to +3 is now worth about 3.4 (−3%) or 5.8 (the −5% Rhino). The two KOSCH .40 magex are identical apart from weight (a variant).
+
+## Round 7: profiles and roles
+
+Handling and stability now come from each part's row in `profiles/mag_control.csv` (RULES.md section 15); the split rules, weight leans and overrides above are history for these two stats.
+
+Magwells, releases and assists are `reload_only`: their value is their reload (section 13). Added in round 7: the P226 two-piece magwell grip has a flared magwell, so it gets −3% reload like the others.
+
+Profiles: reload_only 49, zero 27, magazine 13, even 2. Unidentified counterparts: 0.

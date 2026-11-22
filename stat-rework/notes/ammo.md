@@ -96,3 +96,11 @@ birdshot, dragon's breath against buck) and all have calibers.csv advantages. No
 - `bullet_velocity` 0.02 on `10mm_roosevelt_umc_180gr_fmj`, `10mm_polar_cartridge_220gr_hcfp`,
   `40sv_federal_american_eagle_180gr_fmj`, `40sv_federal_premium_180gr_hst` looks misplaced.
 - Five .45 ACP / 7.62x25 rows have no Studio category (not reachable).
+
+## Round 7: profiles and roles
+
+Handling and stability now come from each part's row in `profiles/ammo.csv` (RULES.md section 15); the split rules, weight leans and overrides above are history for these two stats.
+
+Every load is `even` (h = s = 0.935 E): ammunition is a pure balancing value for soft versus harsh loads, and nothing about it favours one stat. Open question kept with its default: even or zero. To zero ammunition, set its rows to `zero` here; `rules/ammo.py`'s switch no longer decides it.
+
+Profiles: even 134. Unidentified counterparts: 0.

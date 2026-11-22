@@ -4,6 +4,12 @@ These are the rules the rebalance was built on. `RULES_MINED.md` records what th
 history imply; this file records the decisions taken from it. Stat meanings and the worth of one
 point come from the code contract (summarised in `../knowledge/stats.md`).
 
+**Since round 7, handling and stability come from section 15**: every part has a profile and an
+optional role in `profiles/<family>.csv`, and `profiles.py` computes the two stats from it. Reload
+(section 13) and cycling fire rate (section 14) are unchanged. Sections 4, 5, 9, 10, 11 and 12
+describe the earlier split (family rules with weight-in-set leans, then a ×2 lean pass) and are
+kept as history; where they say how handling and stability are split, section 15 now decides.
+
 ## 1. What the three stats own
 
 | Stat | Owns | Physical drivers (better →) |
@@ -76,7 +82,7 @@ So the weight credit is **0 in every family** (`rules.credit_for`, kept as a kno
 strength = EV(handling, reload_time, stability) − 20·weight − 0.8·h_recoil − 0.6·v_recoil − …
 ```
 
-## 4. Trade-offs inside competing sets
+## 4. Trade-offs inside competing sets (history; round 7 replaces the lean, section 15)
 
 The point of the split is that builds must choose. Inside each set of items that compete for the
 same place:
@@ -90,7 +96,7 @@ same place:
 - CAG principle: cooler, more modern or higher-end options may sit slightly above a plain
   equivalent (about +1 to +2 EV), as the old sheet does.
 
-## 5. Magnitudes
+## 5. Magnitudes (history for handling and stability; section 15)
 
 - Per stat, stay roughly within ±1.5×|old ergonomics| of the part, or ±3 for parts that had 0 and
   gain a deliberate trade-off.
@@ -142,7 +148,7 @@ reload_time:          1 + base = (1 + identity offset) / median over reference b
   launchers' handling anchors (RPG-7 9.6, PSRL 4.2) and the turret's (23.7).
 - `python generate.py --calibrate` recomputes `weapon_bases.csv` from the current part rules.
 
-## 9. Ammunition
+## 9. Ammunition (round 7: an even split, h = s = 0.935 E; section 15)
 
 Ammunition rows carried small ergonomics values (−4 to +3, more on shotgun specials) that track soft
 versus harsh shooting: tracers and subsonics positive with less recoil, hot, +P and AP loads
@@ -155,7 +161,7 @@ loads are easier to bring up and hold steady, harsh loads the opposite. `rules/a
 the physically tidier choice argued in `notes/ammo.md` (with the per-round cost of doing so). The
 aim of this pass is the stat split, not an ammunition rebalance, so the team decides that later.
 
-## 10. Split rules per family
+## 10. Split rules per family (history for handling and stability; section 15)
 
 Condensed from `notes/<family>.md`, which give the full tables and reasons. `E` is the old
 ergonomics; EV is kept equal to E unless stated. Reload amounts here and in the notes are in reload
@@ -216,7 +222,7 @@ stability.
   and length make it sway more); grips and slings 0.
 - **Misc**: each item re-statted by the family it really belongs to.
 
-## 11. Lead decisions on cross-family items
+## 11. Lead decisions on cross-family items (history; the round-6 overrides are gone, section 15)
 
 - `agr_870_protection_cap` (filed as optic) is the stockless AGR-870 configuration: same split as
   the stockless shotgun grips.
@@ -225,7 +231,7 @@ stability.
 - Items filed in the wrong family were re-statted by the rules of the family they really belong
   to, inside the owning family's module; `notes/*.md` list them.
 
-## 12. Steepened lean in the choice slots
+## 12. Steepened lean in the choice slots (switched off in round 7)
 
 Typical builds sit at today's feel, but many weapons have enough positive parts that one build can
 sit near the ceiling of all three stats. Effects read handling and stability clamped to 0–100, so
@@ -349,3 +355,64 @@ weapons are untouched.
   PR870) gets it back. The lean pass then runs as usual. The review sheets' EV includes the
   fire-rate value, so the five parts' EV stays at their old ergonomics.
 - `ENABLED = False` switches the step off.
+
+## 15. Handling and stability by profile (round 7)
+
+The split follows `SPLIT_PROPOSAL.md` v3, agreed with the team: **even is the default** (a part
+that is simply nicer is better at both), **a whole family leans only where every member shares a
+strong reason**, and **role parts** get their own profile item by item. Nothing leans by weight
+any more: the weight-in-set leans of the family rules and the ×2 lean pass (`lean.py`, now off)
+are gone, and so are the round-6 hand overrides that compensated for them.
+
+**Data.** `profiles/<family>.csv` has one row per part: `profile`, `role`, `role_strength`, an
+optional `value` (V, when the old ergonomics is a known anomaly), optional explicit `handling` and
+`stability`, and the review: the real-world `counterpart`, `confidence`, one line of `why`, and
+`flags`. 36 reviewers wrote the rows family by family (`AGENT_BRIEF_R7.md`); rows the lead changed
+say "(lead)" in `why`. The review sheets carry these columns, and `review/research_flags.csv`
+collects what the review found outside handling and stability.
+
+**Value.** V is the part's old ergonomics, less what it already carries as reload (reload hardware
+outside the magazine families) or as cycling fire rate. The profile splits it:
+
+| Profile | Handling | Stability | Used for |
+|---|---|---|---|
+| `even` | 0.935 V | 0.935 V | the default: pistol grips, handguards, rail panels, receivers, triggers, gas blocks, pump forends, ammunition, adjustable stocks |
+| `handling`, `optic_compact`, `mount`, `barrel` | V | 0 | sights, mounts, compact optics (3× and under), controls, barrel length, muzzle devices, lasers, lights, bayonets |
+| `optic_scope` | V | 0.2 V | magnified optics above 3× and LPVOs: a small stability tax on magnification |
+| `stock_precision`, `grip_vertical`, `grip_pod` | 0.5 V | 1.49 V | precision stocks, vertical foregrips, bipod grips |
+| `stock_fixed` | 0.75 V | 1.17 V | fixed rifle stocks |
+| `stock_compact`, `grip_angled` | 1.15 V | 0.66 V | minimal, PDW, wire stocks and braces; angled grips and handstops |
+| `handguard_long` / `handguard_short` | 0.8 V / 1.1 V | 1.11 V / 0.72 V | only the clearly longest and shortest handguard of a set |
+| `cheek_riser` | 0.25 V | 1.81 V | cheek risers |
+| `buttpad` | 0 | 2.13 V | pads, butt plates, length-of-pull spacers |
+| `stockless` | handiest stock on its weapons + 2 | what is left of V, between −12 and −4 | the "no stock" options |
+| `magazine` | the magazine rule's handling, never a bonus | 0 | magazines and capacity extensions; shotgun tubes 0.5 per old point |
+| `reload_only`, `zero` | 0 | 0 | magwells, releases, assists, bolt catches, enhanced charging handles; containers and cosmetics |
+
+- Every profile keeps EV, except the handling-only ones: they keep **h = V**, today's ADS effect,
+  rather than the 1.67 V that EV-neutrality would give, since the reload and draw that their old
+  ergonomics also bought were never physical for a sight, a muzzle device or a barrel. Their EV is
+  0.6 V; most are penalties, so they cost a little less EV than before, and builds aim as today.
+- A penalty (V < 0) on a stability-leaning profile goes to handling (a heavy precision stock or a
+  bulky vertical grip is slow to bring up, not unsteady); on a handling-leaning profile it splits
+  evenly.
+- Stocks lean by type; a stock gets a role on top only where its type cannot express it (a
+  precision stock worth E 1, a stock with a negative value).
+
+**Roles** are an EV-neutral swing on top of the profile: **marksman** handling −H, stability
++1.28 H; **compact** the reverse. **H = 3 on major parts** (stocks, barrels, handguards, receivers)
+and **1.5 on the rest**, 1.5× for `strong`. At 4/2 a fully kitted marksman G3 sat 26 handling
+below today; at 3/1.5 it sits 24 below with stability 90, which is the steer the role is meant to
+give. A role part's EV is unchanged by the swing; where its old ergonomics only compensated its
+weight (the Mk20 upper), the role now turns that value into stability.
+
+**Stockless** options are the handiest choice on their weapon and clearly unsteady: handling 2
+above the handiest stock that weapon can mount, stability from what is left of V, kept between
+−12 and −4. This fixes the earlier bug where the lean pass's clamp left them less handy than a
+stocked build.
+
+**Open questions recorded with their defaults** (SPLIT_PROPOSAL): large scopes keep the small
+stability cost; ammunition splits evenly (`rules/ammo.py`'s zero switch no longer applies, set
+ammunition rows to `zero` instead); handguards are even with the mild long/short lean; barrels are
+"length costs handling", with heavy, bull and match barrels as marksman parts.
+

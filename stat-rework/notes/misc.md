@@ -62,3 +62,15 @@ EV stays within tolerance. The reload 0.5 follows the stock family's small reloa
 ## Round 5: reload scope
 
 The MagEx2 and the Nexa P226 extension are rated as capacity extensions (+8% and +4%), and the P320 magazine funnel as a flared magwell (−3%). The CQR spacers, palm shelf, Glock grip sleeves and RPG-7 rear grip hold 0, with their reload moved into handling and stability (EV kept).
+
+## Round 7: profiles and roles
+
+Handling and stability now come from each part's row in `profiles/misc.csv` (RULES.md section 15); the split rules, weight leans and overrides above are history for these two stats.
+
+Most of `misc` is misfiled (73 of 77 rows); each takes the profile of what it really is: length-of-pull spacers `buttpad`, rails and adapters `mount`, sight parts `handling`, containers `zero`. The palm shelf is a marksman part.
+
+Profiles: zero 27, handling 16, mount 14, buttpad 7, even 7, magazine 2, reload_only 2, optic_compact 1, optic_scope 1. Unidentified counterparts: 0.
+
+Role parts:
+
+- `fit_deluxe_suregrip_palm_shelf`: marksman, Ergo Grip Deluxe SureGrip palm shelf

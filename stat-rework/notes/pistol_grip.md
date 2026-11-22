@@ -59,3 +59,19 @@ three new stats in any set of 3+.
 ## Round 5: reload scope
 
 Pistol grips do not affect reload: reload 0. The 0.4·E reload share of every grip that had one is moved into handling and stability in its own proportions (EV kept; `reload_scope.py`).
+
+## Round 7: profiles and roles
+
+Handling and stability now come from each part's row in `profiles/pistol_grip.csv` (RULES.md section 15); the split rules, weight leans and overrides above are history for these two stats.
+
+Pistol grips are `even`: most differ in comfort, not form. Roles: the chopped and skeletonized grips are compact; the PSG1 grip, the AICS thumbhole backstrap and the fully vertical chassis grip (strong) are marksman. The Raptor and MP-133 plastic grips are fitted in place of a stock, so they are stockless options (lead).
+
+Profiles: even 64, stockless 2. Unidentified counterparts: 1.
+
+Role parts:
+
+- `hart_a1_chopped_pistol_grip`: compact, Colt A1 pistol grip, shortened (chopped)
+- `hk_psg1_wooden_grip`: marksman, HK PSG1 precision pistol grip
+- `mcs_premier_avp_grip`: marksman (strong), MDT Vertical Grip Premier (AR compatible)
+- `precision_intercontinental_at_aics_gen2_thumbhole_backstrap`: marksman, Accuracy International AICS 2.0 thumbhole backstrap
+- `tactical_dynamics_anodized_skeletonized_ar15_pistol_grip`: compact, Tactical Dynamics skeletonized aluminium AR-15 grip

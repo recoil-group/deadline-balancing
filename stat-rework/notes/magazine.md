@@ -89,3 +89,11 @@ Magazine reload is re-statted by capacity against the slot's standard magazine (
 The material rule's ±0.5 is gone: same-capacity magazines drop their old reload difference. Handling (bulk) is unchanged from the rules above, so EV follows the new reload. Short and long magazines keep roughly their old value, while light drums that the old sheet under-charged cost several EV more. The Springfield M14 modified 20R now ties the AK-308 20R and Saiga .308 20R and is heavier (a variant in `review/dominations.csv`).
 
 Shotgun tube caps and extensions have no reload reason (each shell loads the same way; more shells take longer by themselves): reload 0, and their old reload share is moved into handling. The 8-round LSX goes from h −6 / +7% to h −18 / 0, with EV kept.
+
+## Round 7: profiles and roles
+
+Handling and stability now come from each part's row in `profiles/magazine.csv` (RULES.md section 15); the split rules, weight leans and overrides above are history for these two stats.
+
+Magazines keep the magazine rule's handling, never as a bonus: large ones cost a little handling and short ones gain none, so magazines average 1.7 EV below their old ergonomics. Shotgun tube extensions cost 0.5 handling per old point against the standard tube. Stability 0. Reload fix in round 7: the TT-33 has no default magazine, so its 8-round magazine is now the standard and the 16-round stick is +8%.
+
+Profiles: magazine 140, zero 1. Unidentified counterparts: 1.

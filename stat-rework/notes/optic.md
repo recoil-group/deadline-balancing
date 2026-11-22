@@ -116,3 +116,11 @@ because the brief says to keep assembly totals. Worth a team look.
 ## Round 5: reload scope
 
 Optics, mounts and sling hardware are not reload parts: reload 0. The five that carried reload (two sling mounts, a swivel, the AUG sling mount, the charging-handle mount and the stockless AGR-870 cap override) have it moved into handling and stability (EV kept; `reload_scope.py`).
+
+## Round 7: profiles and roles
+
+Handling and stability now come from each part's row in `profiles/optic.csv` (RULES.md section 15); the split rules, weight leans and overrides above are history for these two stats.
+
+Compact optics (3× and under, including the 2.8× Kashtan, the 3× Trihawk and the 3× compact ACOGs) are `optic_compact`, handling only. Optics above 3× and LPVOs are `optic_scope`: handling plus a small stability tax of 0.2 V, kept as the default for the open question on magnification. Mounts, rings and risers are `mount`. The 870 protection cap filed here is a stockless option.
+
+Profiles: mount 192, optic_compact 84, optic_scope 42, handling 16, even 13, zero 11, stockless 1, magazine 1. Unidentified counterparts: 15.

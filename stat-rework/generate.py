@@ -24,6 +24,7 @@ from collections import defaultdict
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 
+import cycling  # noqa: E402
 import reload_scope  # noqa: E402
 import rules  # noqa: E402
 from analysis import WEAPON_CLASSES, slot_groups  # noqa: E402
@@ -255,9 +256,9 @@ def review_rows(ctx, out, fam):
                 "required": gi.get("required", ""), "name": it["name"], "pretty_name": it["pretty"],
                 "category": it["category"], "old_ergo": fmt(it["ergonomics"]), "handling": fmt(h),
                 "reload_time": fmt(r, "reload_time"), "reload_pct": f"{r * 100:+.1f}%" if r else "0%",
-                "stability": fmt(s), "ev": round(rules.ev(h, r, s), 1),
+                "stability": fmt(s), "ev": round(rules.ev(h, r, s) + cycling.ev(it["name"]), 1),
                 "old_strength": round(strength(it["ergonomics"], it), 1),
-                "new_strength": round(strength(rules.ev(h, r, s), it), 1),
+                "new_strength": round(strength(rules.ev(h, r, s) + cycling.ev(it["name"]), it), 1),
                 "weight": it["raw"].get("weight", ""), "h_recoil": v["horizontal_recoil"], "v_recoil": v["vertical_recoil"],
                 "price": v["price"], "n_weapons": len(it["weapons"]), "rule": v["_rule"], "note": v["_note"],
             })

@@ -31,13 +31,12 @@ Magazine controls and reload hardware:
     enhanced charging handle: -(1% + 0.25% per 0.01 dw of the part), so the size of the latch,
       which the part's weight measures, sets it: -1.5% for a 0.02 dw extended latch, -2% for a
       0.04 dw ambidextrous one, -3% for the 0.08 dw Raptor, -3.7% for the 0.11 dw side charger (rounded to 0.1%)
-    easier-working Mosin bolt or bolt handle (stripper-clip reloads) -2%
     standard releases, plates, magwells, handles and bolts            0
 
 No reason to change the reload, so 0: shotgun tube extensions and caps (each shell loads the same
 way, more shells just take longer by themselves), magazine sleeves, couplers and adapters,
 receivers other than the flared-magwell lowers and the slide catch (their controls are separate
-parts), R700 chassis (the R700 always takes detachable magazines), and every part of every other
+parts), Mosin bolts and bolt handles (they are cycling parts: fire_rate, cycling.py, round 6), R700 chassis (the R700 always takes detachable magazines), and every part of every other
 family: stocks, grips, foregrips, handguards, barrels, muzzle devices, optics, sights, uppers,
 triggers, tactical devices, ammunition, bayonets, misc.
 
@@ -92,7 +91,6 @@ PULL_AID = -0.03
 LARGE_PADDLE = -0.02
 BOLT_CATCH = -0.02
 CH_BASE, CH_PER_DW = -0.01, -0.25   # enhanced charging handle: base + per dw of the part (latch size)
-MOSIN_BOLT = -0.02
 
 PARTS = {  # name: (reload_time, kind)
     # magazine controls
@@ -133,9 +131,6 @@ PARTS = {  # name: (reload_time, kind)
     "pmm_scar_battery_control_bolt_release": (BOLT_CATCH, "enlarged bolt release"),
     "magtap_ar15_bar_lever": (BOLT_CATCH, "bolt release lever"),
     # charging handles
-    # Mosin
-    "resolute_bolt": (MOSIN_BOLT, "smoother aftermarket Mosin bolt"),
-    "ivan_bolt_handle": (MOSIN_BOLT, "enlarged Mosin bolt knob"),
 }
 
 

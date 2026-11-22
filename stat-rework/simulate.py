@@ -41,7 +41,7 @@ from tree import NEW_STATS, read_sheet, sheet_stats  # noqa: E402
 
 RT_POINTS = 275.0   # points of reload per unit of reload_time (1% of time ~ 2.75 points)
 RT_CLAMP = (-0.4, 0.6)  # count_stats clamps 1 + sum of parts to 0.6..1.6
-KEYS = NEW_STATS + ["weight", "horizontal_recoil", "vertical_recoil", "magazine_capacity", "bullet_velocity", "barrel_deviation"]
+KEYS = NEW_STATS + ["fire_rate", "weight", "horizontal_recoil", "vertical_recoil", "magazine_capacity", "bullet_velocity", "barrel_deviation"]
 
 
 def _obj(h, r, s, recoil, weight):
@@ -96,7 +96,7 @@ def item_score(st, name, obj, weight_only=False):
     v = obj.get("weight", 0.0) * s.get("weight", 0.0)
     if weight_only:
         return v
-    for k in NEW_STATS:
+    for k in NEW_STATS + ["fire_rate"]:
         v += obj.get(k, 0.0) * s.get(k, 0.0)
     v += obj.get("avg_recoil", 0.0) * (s.get("horizontal_recoil", 0.0) + s.get("vertical_recoil", 0.0)) / 2
     return v
@@ -283,6 +283,27 @@ def vs_today(tree, st, weapon, tot, old_ergo):
     return now / today - 1
 
 
+def cycling_report(t, st, weapons=None):
+    """RPM range of the manually cycled weapons (cycling.py): stock, references, fastest, slowest."""
+    import cycling
+
+    lines = ["### Cycling on manually cycled weapons (fire_rate, round 6)", "",
+             "| weapon | base RPM | stock | references | fastest legal build | slowest legal build |", "|---|---|---|---|---|---|"]
+    for w, base in cycling.BASE_RPM.items():
+        if w not in t.weapons or (weapons and w not in weapons):
+            continue
+        _, refs, _ = weapon_builds(t, st, w)
+        rpm = lambda names: base * (1 + t.sum_stats(w, names, st, ["fire_rate"])["fire_rate"])
+        stock = rpm([n for _, n in t.stock_build(w)])
+        ref = sorted({round(rpm(b), 1) for b in refs.values()})
+        ext = []
+        for sign in (1.0, -1.0):
+            names = Optimizer(t, st, w, {"fire_rate": sign}).run()
+            ext.append(f"{rpm(names):.1f}" + (" (illegal)" if t.violations(w, names) else ""))
+        lines.append(f"| {w} | {base} | {stock:.1f} | {', '.join(f'{x:g}' for x in ref) or '-'} | {ext[0]} | {ext[1]} |")
+    return lines + [""]
+
+
 def report(weapons=None, write=True):
     ctx, out, log = generate()
     st = stats_table(ctx, out)
@@ -395,6 +416,7 @@ def report(weapons=None, write=True):
             "ref_old": statistics.median(refs_old),
             "max": mx, "min": mn, "archetype_overlap": max(ov), "choice_margin": best_gap,
         })
+    cycling_lines = cycling_report(t, st, weapons)
     dom = dominance(ctx, st)
     hard = [d for d in dom if d["dominant_cheaper_or_equal"]]
     old3 = {n: dict(v, **{k: v.get("ergonomics", 0.0) * (-1 / RT_POINTS if k == "reload_time" else 1) for k in NEW_STATS})
@@ -430,6 +452,7 @@ def report(weapons=None, write=True):
         head.append(f"### {title}: {len(problems[k])}")
         head += [f"- {p}" for p in problems[k]] or ["- none"]
         head.append("")
+    head += cycling_lines
     n_items = len({d["dominated"] for d in hard})
     n_old = len({d["dominated"] for d in old_hard})
     head.append(f"### Strict dominations inside competing sets: {n_items} items dominated by a not-more-expensive like-for-like alternative (old sheet, with ergonomics in all three: {n_old})")

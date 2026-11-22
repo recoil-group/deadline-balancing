@@ -16,6 +16,7 @@ from collections import defaultdict
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 
+import cycling
 import rules  # noqa: E402
 from generate import generate, stats_table  # noqa: E402
 from simulate import dominance  # noqa: E402
@@ -40,7 +41,7 @@ def main(fams):
         credit = rules.DEFAULT_VECTORS.get(it["family"], rules.DEFAULT_VECTORS["misc"])[3]
         e = rules.adjusted_ergo(it, credit, ctx)
         h, r, s = (st[n][k] for k in NEW_STATS)
-        v = rules.ev(h, r, s)
+        v = rules.ev(h, r, s) + cycling.ev(n)
         if abs(v - e) > max(2.0, 0.25 * abs(e)):
             n_drift += 1
             print(f"  {n[:60]:60s} E{it['ergonomics']:+5.1f} adj{e:+5.1f} -> h{h:+5.1f} rt{r * 100:+5.1f}% s{s:+5.1f} EV{v:+6.1f}  {out[n]['_note'][:50]}")

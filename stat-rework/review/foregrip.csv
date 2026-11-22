@@ -75,6 +75,6 @@ rail:basis:foregrip#56a16f,1,True,False,veles_leader_handstop,"Veles ""Leader"""
 rail:vallais_accesssory_rails:foregrip#4fe0d4,1,True,False,nariakira_vallais_kf_rail_indexer,Nariakira Vallais KF Rail ,Indexer,6,7.5,0,0%,3,5.9,6.8,6.7,0.02,0,-2,250,1,"handstop / index: drives onto target (h 1.25x, s 0.5x)",
 slot:IDK_swivel_mount|#a51ab5,1,True,False,harrison_hbr_base,Harrison HBR,Bipod Base,-4,-6,0,0%,2,-2.7,-6.8,-5.5,0.2,,-2,1000,30,"folded bipod, stacks: front mass (h 1.5x, s -0.5x)",
 slot:aug_hbar_bipod|#109fca,1,True,False,lowenherz_aug_hbar_folding_bipod,Löwenherz AUG HBAR Folding Bipod,Bipod,-3,-4.5,0,0%,1.5,-2.0,-5.6,-4.6,0.16,,-1,1000,1,"folded bipod, stacks: front mass (h 1.5x, s -0.5x)",
-slot:hk_mp5k_handguard|#7e802b,1,True,True,hk_mp5k_polymer_handguard,MP5K Polymer,Handguard,15,13.5,-0.005,-0.5%,12,14.3,20.6,19.9,0.15,-7,-5,1500,1,misfiled handguard (only choice): handguard default 0.9/0.1/0.8,
+slot:hk_mp5k_handguard|#7e802b,1,True,True,hk_mp5k_polymer_handguard,MP5K Polymer,Handguard,15,14,0,0%,12.5,14.3,20.6,19.9,0.15,-7,-5,1500,1,misfiled handguard (only choice): handguard default 0.9/0.1/0.8; reload +1.5 pt moved to handling and stability (not a reload part),
 slot:r870_shorty_bolt|#731078,1,True,True,r870_shorty_std_bolt,Roosevelt Shortened Tampa,Bolt,0,0,0,0%,0,0.0,-2.0,-2.0,0.1,,,0,1,no grip value: 0,
 slot:ump_handstop|#9cdac4,1,True,False,hk_ump_handstop,UMK Handstop,Handstop,6,6,0,0%,2.5,4.8,6.0,4.8,0.04,-1,,500,1,"handstop that stacks with a grip: kept small (h 6, s 2.5)",

@@ -104,8 +104,8 @@ optic,slot:virticon_drd_mount|zvetech_kosch_slide#166caa,zvetech_kosch_slide_cov
 optic,slot:virticon_drd_mount|sic_p_series_slide_226#94f385,sic_sturmer_p226_drd_sight_plate_cover,virticon_drd_dr06_type2_adj_led_reflex,stat difference,True,handling,225.0,1100.0
 optic,slot:virticon_drd_mount|sic_p_series_slide_226#94f385,sic_sturmer_p226_flush_drd_sight_plate_cover,virticon_drd_dr06_type2_adj_led_reflex,stat difference,True,handling,150.0,1100.0
 optic,slot:virticon_drd_mount|zvetech_kosch_slide#166caa,zvetech_kosch_slide_cover,virticon_drd_dr06_type2_adj_led_reflex,stat difference,True,handling,0.0,1100.0
-receiver,slot:ump_lower_receiver|#e0ed5e,hk_ump_012_navy_lower_receiver,hk_ump_012d_navy_lower_receiver,stat difference,True,handling+reload_time+stability+horizontal_recoil+vertical_recoil,1000.0,1500.0
-receiver,slot:ump_lower_receiver|#e0ed5e,hk_ump_01_navy_lower_receiver,hk_ump_012d_navy_lower_receiver,stat difference,True,handling+reload_time+horizontal_recoil+vertical_recoil,500.0,1500.0
+receiver,slot:ump_lower_receiver|#e0ed5e,hk_ump_012_navy_lower_receiver,hk_ump_012d_navy_lower_receiver,stat difference,True,handling+stability+horizontal_recoil+vertical_recoil,1000.0,1500.0
+receiver,slot:ump_lower_receiver|#e0ed5e,hk_ump_01_navy_lower_receiver,hk_ump_012d_navy_lower_receiver,stat difference,True,handling+horizontal_recoil+vertical_recoil,500.0,1500.0
 receiver,slot:ump_lower_receiver|#e0ed5e,hk_ump_01d_navy_lower_receiver,hk_ump_012d_navy_lower_receiver,stat difference,True,horizontal_recoil,0.0,1500.0
 receiver,slot:scalar_lower_receiver|#32cdc6,kalis_scalar_gen2_early_40sv_lower_receiver,kalis_scalar_gen2_early_45acp_lower_receiver,stat difference,True,handling+reload_time+stability+horizontal_recoil+vertical_recoil+bullet_velocity,2000.0,2000.0
 receiver,slot:scalar_lower_receiver|#32cdc6,kalis_scalar_gen2_early_9x19_lower_receiver,kalis_scalar_gen2_early_45acp_lower_receiver,stat difference,True,handling+reload_time+stability+horizontal_recoil+vertical_recoil+bullet_velocity,2000.0,2000.0
@@ -113,7 +113,7 @@ receiver,slot:scalar_lower_receiver|#32cdc6,kalis_scalar_gen2_late_40sv_lower_re
 receiver,slot:scalar_lower_receiver|#32cdc6,kalis_scalar_gen2_late_9x19_lower_receiver,kalis_scalar_gen2_late_45acp_lower_receiver,stat difference,True,handling+reload_time+stability+horizontal_recoil+vertical_recoil+bullet_velocity,2500.0,2500.0
 receiver,slot:scalar_lower_receiver|#32cdc6,kalis_scalar_gen3_40sv_lower_receiver,kalis_scalar_gen3_45acp_lower_receiver,stat difference,True,handling+reload_time+stability+horizontal_recoil+vertical_recoil+bullet_velocity,4000.0,4000.0
 receiver,slot:scalar_lower_receiver|#32cdc6,kalis_scalar_gen3_9x19_lower_receiver,kalis_scalar_gen3_45acp_lower_receiver,stat difference,True,handling+reload_time+stability+horizontal_recoil+vertical_recoil+bullet_velocity,4000.0,4000.0
-receiver,slot:tt33_slide|#82293c,tt33_postwar_slide,tt33_mod_postwar_slide,stat difference,True,handling+reload_time+stability+horizontal_recoil+vertical_recoil+barrel_deviation,0.0,4000.0
+receiver,slot:tt33_slide|#82293c,tt33_postwar_slide,tt33_mod_postwar_slide,stat difference,True,handling+stability+horizontal_recoil+vertical_recoil+barrel_deviation,0.0,4000.0
 tactical,rail:picatinny:tactical#021e84,las_tac_2,cosmotac_blue_lam_module,stat difference,True,handling,750.0,750.0
 handguard,rail:mlok:handguard#31a097,magtap_mlok_1.6_bottom,ddg_qd_3slot_rail_bottom,"variant: identical stats, heavier (length or visual variant)",True,,100.0,300.0
 handguard,rail:mlok:handguard#619033,magtap_mlok_1.6_side,ddg_qd_3slot_rail_side,"variant: identical stats, heavier (length or visual variant)",True,,100.0,300.0
@@ -240,6 +240,8 @@ iron_sight,slot:pf940_rear_sight|#3d14a7,glock17_gen4_sf_rear_sight,truglo_glock
 iron_sight,slot:pf940_rear_sight|#3d14a7,glock20_lf_rear_sight,truglo_glock_tfx_rs,"variant: identical stats, heavier (length or visual variant)",True,,0.0,500.0
 iron_sight,slot:pf940_rear_sight|#3d14a7,glock17_gen4_sf_rear_sight,virticon_glock_supp_height_rear_sights_wh_sf,"variant: identical stats, heavier (length or visual variant)",True,,100.0,300.0
 iron_sight,slot:pf940_rear_sight|#3d14a7,glock20_lf_rear_sight,virticon_glock_supp_height_rear_sights_wh_sf,"variant: identical stats, heavier (length or visual variant)",True,,0.0,300.0
+magazine,slot:magazine_762x51_ak308|#c19026,7.62x51_kazarov_group_ak308_20r_mag,springfield_armory_m14_7.62x51_modified_20r_mag,"variant: identical stats, heavier (length or visual variant)",False,,0.0,750.0
+magazine,slot:magazine_762x51_ak308|#c19026,sgm_tactical_saiga308_20r_mag,springfield_armory_m14_7.62x51_modified_20r_mag,"variant: identical stats, heavier (length or visual variant)",False,,750.0,750.0
 misc,slot:mk10_bottom|#0f5a0b,mk10_bottom_adapter_small,mk10_bottom_adapter_large,"variant: identical stats, heavier (length or visual variant)",True,,0.0,0.0
 misc,slot:mk10_side|#f3cb15,mk10_side_adapter_small,mk10_side_adapter_large,"variant: identical stats, heavier (length or visual variant)",True,,0.0,0.0
 misc,slot:mk10_top|#ed67cd,mk10_top_adapter_small,mk10_top_adapter_large,"variant: identical stats, heavier (length or visual variant)",True,,0.0,0.0

@@ -72,12 +72,14 @@ Total weight is `0.7 body + 5.0 placeholder kit + every carried firearm`, and tr
 
 ### Handling, reload speed, and stability
 
-These three replaced `ergonomics`, which bundled ADS, reload, draw, sprint-out, arm stamina and minor animations into one number. Each is summed over the weapon row and its parts and read clamped to 0 to 100. The same stacking exceptions apply as for every non-weight stat. Each weapon maps them into its own ranges, so the same change can feel different across weapons.
+These three replaced `ergonomics`, which bundled ADS, reload, draw, sprint-out, arm stamina and minor animations into one number. Each is summed over the weapon row and its parts and read clamped to 0 to 100. The same stacking exceptions apply as for every non-weight stat.
+
+ADS time and reload speed use **one range for every weapon**, so a point is worth the same on every gun. Weapons whose old per-weapon range differed (the launchers' slower ADS; reload ranges on the AK-12, AK-308, MK9, KF416, PP-19, Scalar, SG58, Mosin, M700, launchers and turret) carry a converted base value so their typical build behaves as before. Sight switch speed and the minor animations still use each weapon's own range.
 
 | Stat | Owns | One point is worth |
 | --- | --- | --- |
-| `handling` | ADS in and out (typically 0.73 s at 0 to 0.22 s at 100, linear), sight switch speed, fire-mode switch, magazine check and other minor animations | about 5 ms of ADS time |
-| `reload_speed` | all reload animations (tactical, empty, quick, per shell), typically 0.9x at 0 to 1.3x at 100 | about 0.4% reload speed |
+| `handling` | ADS in and out (0.73 s at 0 to 0.22 s at 100, linear, every weapon), sight switch speed, fire-mode switch, magazine check and other minor animations | about 5 ms of ADS time |
+| `reload_speed` | all reload animations (tactical, empty, quick, per shell), 0.9x at 0 to 1.3x at 100 on every weapon | 0.4% of the native reload animation speed; +12.5 points = +0.05x |
 | `stability` | idle (breathing) sway at hip and aimed, sway while moving (walk bob and strafe sway), and the breath-hold cost; `1.4x` sway at 0, `1.0x` at 50, `0.6x` at 100 | 0.8% sway and 1% breath-hold cost |
 
 Breath-hold drains the arm-stamina bar (60 for everyone) at `4.5/s` at 0 stability, `3.0/s` at 50 and `1.5/s` at 100, multiplied by `1 + 0.2 x seconds held`. Holding breath removes sway entirely and is impossible at an empty bar. Aiming drains the same bar at a rate set by mobility.
@@ -91,6 +93,8 @@ EV = 0.60 * handling + 0.40 * reload_speed + 0.47 * stability     (in old ergono
 ```
 
 A sheet that still has an `ergonomics` column and none of the three loads with all three equal to its ergonomics.
+
+The stats panel shows reload as a time in seconds (the reload animation length divided by the reload speed), and an attachment's reload speed delta as a percentage.
 
 ### Recoil
 

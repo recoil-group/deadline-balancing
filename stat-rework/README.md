@@ -31,7 +31,9 @@ category agents, validated only by build simulation. Nothing here has been playt
 - Inside a competing set, look at the **direction** of each option (handling vs stability vs
   reload), not just the size.
 - Weapon rows hold the platform: a typical build of each weapon lands at its old ergonomics for
-  handling and reload, and at 50 stability (today's feel), before identity offsets.
+  handling and reload, and at 50 stability (today's feel), before identity offsets. ADS and reload
+  ranges are universal, so weapons whose old ranges differed (launchers, some rifles) carry
+  converted anchors that keep today's ADS time and reload speed; `weapon_bases.csv` says which.
 
 ## How to regenerate
 

@@ -1316,8 +1316,8 @@ id,class,name,pretty_name,handling,reload_time,stability,weight,horizontal_recoi
 ,,r870_std_bolt,Standard,0,0,0,0.15,,,,,,,,,,0
 ,r870_handguard,,,,,,,,,,,,,,,,
 ,,r870_speedfeed_handguard,Roosevelt SpeedFeed,3,0,4.5,0.14,-5,-5,,,,,,,,0
-,,r870_magtap_moe_handguard,Magtap MOE Rem870,11,0,3,0.17,-2,-2,,,,,,,,750
-,,pro_tactical_pr870_handguard,P.R.O Tactical PR870,1,0,11.5,0.22,-4,-5,,,,,,,,600
+,,r870_magtap_moe_handguard,Magtap MOE Rem870,5,0,1.5,0.17,-2,-2,,,,,,0.03,,750
+,,pro_tactical_pr870_handguard,P.R.O Tactical PR870,4.5,0,13.5,0.22,-4,-5,,,,,,-0.02,,600
 ,r870_receiver,,,,,,,,,,,,,,,,
 ,,r870_std_receiver,Standard Roosevelt Model 870,0,0,0,1.3,0,0,,,,,,,,0
 ,,r870_serbu_shorty_receiver,Roosevelt Tampa Shorty,4,0,3,1.1,2,2,,,,,,,,1000
@@ -1693,7 +1693,7 @@ id,class,name,pretty_name,handling,reload_time,stability,weight,horizontal_recoi
 ,,mp133_153_plastic_pistol_grip,MP-133/153 Plastic,23,0,-3.5,0.07,5,5,,,,,,,,1000
 ,mp133_handguard,,,,,,,,,,,,,,,,
 ,,mp133_beechwood_handguard,MP-133 Beechwood,2,0,6,0.19,-4,-6,,,,,,,,0
-,,mp133_plastic_handguard,MP-133 Plastic,6.5,0,4.5,0.15,-3,-3,,,,,,,,800
+,,mp133_plastic_handguard,MP-133 Plastic,3.5,0,2.5,0.15,-3,-3,,,,,,0.02,,800
 ,mp133_receiver,,,,,,,,,,,,,,,,
 ,,mp133_std_receiver,MP-133 Std.,0,0,0,1.29,0,0,,,,,,,,0
 ,sanxian_qbz95_lower_receiver,,,,,,,,,,,,,,,,
@@ -2438,12 +2438,12 @@ id,class,name,pretty_name,handling,reload_time,stability,weight,horizontal_recoi
 ,mosin_bolt,,,,,,,,,,,,,,,,
 ,,mosin_default_bolt,Mosin Default,3,0,0,0.16,,,,,,,,,,0
 ,,infantry_bolt,Infantry,0,0,0,0.13,,,,,,,,,,0
-,,resolute_bolt,Resolute Industries,4,-0.02,0,0.12,,,,,,,,,,200
+,,resolute_bolt,Resolute Industries,3,0,0,0.12,,,,,,,,0.01,,200
 ,mosin_bolt_assembly,,,,,,,,,,,,,,,,
 ,,mosin_std_bolt_assembly,Infantry,0,0,0,0.24,,,,,,,,,,0
 ,mosin_bolt_handle,,,,,,,,,,,,,,,,
 ,,mosin_infantry_bolt_handle,Mosin Infantry,5,0,0,0.02,,,,,,,,,,0
-,,ivan_bolt_handle,Crazy Ivan,3.5,-0.02,0,0.03,,,,,,,,,,200
+,,ivan_bolt_handle,Crazy Ivan,3,0,0,0.03,,,,,,,,0.01,,200
 ,mosin_front_sight,,,,,,,,,,,,,,,,
 ,,mosin_front_sight,Mosin Nagant Standard,1.5,0,0,0.01,,,,,,,,,,0
 ,mosin_kochetov_mount,,,,,,,,,,,,,,,,
@@ -3303,7 +3303,7 @@ id,class,name,pretty_name,handling,reload_time,stability,weight,horizontal_recoi
 ,,AK_545_Carbine,Kazarov Group AK 5.45 Carbine,15,-0.152,23,0,65,70,0,0.4,1,2300,,,1,30000
 ,,MosinNagant,Mosin Nagant M91/30 PU,67.5,-0.213,40,0,80,90,0,0.2,1,1900,,,1,14000
 ,shotgun,,,,,,,,,,,,,,,,
-,,Remington870,Roosevelt M870 Express,30,-0.13,37.5,0,90,90,1,0.8,1,1000,2,,1,20000
+,,Remington870,Roosevelt M870 Express,33,-0.13,38,0,90,90,1,0.8,1,1000,2,,1,20000
 ,,MP133,Ladoga MP133,44,-0.124,21,0,60,70,1,0.6,1,1000,2,,1,9000
 ,smg,,,,,,,,,,,,,,,,
 ,,MP5,KF MPi-54,40.5,-0.091,41.5,0,45,55,0,1.05,1,1200,,,1,5000

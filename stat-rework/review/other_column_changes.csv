@@ -1,1 +1,6 @@
 name,column,old,new,why
+r870_magtap_moe_handguard,fire_rate,,0.03,"pump forend (slim): h 1.1x, s 0.75x; cycling (pump): fire_rate +3% (contoured, ridged pump forend: a fast, sure stroke), 4.5 EV taken from handling and stability; lean x2 in slot:r870_handguard| (handling share 0.65 -> 0.82, set median 0.48)"
+pro_tactical_pr870_handguard,fire_rate,,-0.02,"pump forend (heavy): h 0.5x, s 1.5x; cycling (pump): fire_rate -2% (railed pump forend: more mass to cycle, slower stroke, steadier), 3.0 EV given back to handling and stability; lean x2 in slot:r870_handguard| (handling share 0.30 -> 0.30, set median 0.48)"
+mp133_plastic_handguard,fire_rate,,0.02,"pump forend (slim): h 1.1x, s 0.75x; cycling (pump): fire_rate +2% (lighter synthetic pump forend: a quicker stroke), 3.0 EV taken from handling and stability"
+resolute_bolt,fire_rate,,0.01,"internals control (0.7, 1.3, 0.0), mass lean to reload_points z-0.50; reload 0 (not a reload part); old +6 pt moved to handling and stability; cycling (bolt): fire_rate +1% (smoother aftermarket bolt: quicker to work), 3.0 EV taken from handling and stability"
+ivan_bolt_handle,fire_rate,,0.01,"internals control (0.7, 1.3, 0.0); reload 0 (not a reload part); old +6.5 pt moved to handling and stability; cycling (bolt): fire_rate +1% (enlarged bolt knob: quicker to work), 3.0 EV taken from handling and stability"

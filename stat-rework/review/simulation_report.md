@@ -27,17 +27,17 @@ the larger, the more a build has to give up one stat to reach another (flagged a
 | KOSCH | 1 | 73 | 0% | 0% | 50 | 73 | 73/0%/54 | 81/-5.0%/68 | 28/+16.0%/33 | 52% | 0.0 |
 | M4A1 | 12 | 62 | -0.9% | -0.1% | 50 | 62 | 72/0%/38 | 132/-21.7%/140 | -32/+16.0%/-10 | 26% | 14.0 |
 | MK9 | 1 | 85 | -0.2% | 0% | 50 | 85 | 66/0%/33 | 76/-7.0%/83 | 22/0%/6 | 37% | 18.7 |
-| MP133 | 1 | 60 | 0% | 0% | 50 | 60 | 60/0%/50 | 91/0%/68 | 36/0%/11 | 60% | 6.0 |
+| MP133 | 1 | 60 | 0% | 0% | 50 | 60 | 60/0%/50 | 88/0%/68 | 36/0%/9 | 60% | 6.0 |
 | MP5 | 2 | 50 | 0% | 0% | 50 | 50 | 60/0%/56 | 110/-1.8%/85 | 22/+12.0%/29 | 58% | 11.5 |
 | Makarov | 1 | 76 | 0% | +0.1% | 50 | 76 | 76/0%/50 | 84/0%/56 | 56/+16.0%/46 | 74% | 3.5 |
-| MosinNagant | 1 | 80 | 0% | -0.1% | 50 | 80 | 67/0%/50 | 104/-2.0%/74 | 31/+8.0%/16 | 32% | 14.5 |
+| MosinNagant | 1 | 80 | 0% | -0.1% | 50 | 80 | 67/0%/50 | 104/0%/74 | 31/+8.0%/16 | 38% | 14.5 |
 | P226 | 1 | 74 | 0% | 0% | 50 | 74 | 69/0%/50 | 79/-3.0%/60 | 40/+4.0%/44 | 43% | 2.5 |
 | P320 | 1 | 77 | 0% | 0% | 50 | 77 | 77/0%/50 | 92/-3.0%/55 | 52/+8.0%/44 | 57% | 11.0 |
 | PSRL | 1 | 4 | 0% | 0% | 50 | 41 | 4/0%/50 | 24/0%/72 | -17/0%/41 | 89% | 13.5 |
 | QBZ95 | 1 | 71 | 0% | +2.2% | 54 | 70 | 62/0%/44 | 111/0%/78 | 46/0%/32 | 79% | 12.0 |
 | RPG7 | 1 | 10 | 0% | 0% | 50 | 51 | 10/0%/50 | 16/0%/56 | -10/0%/46 | 100% | 4.5 |
 | Remington700 | 5 | 69 | 0% | 0% | 53 | 70 | 58/0%/42 | 122/-3.0%/101 | 23/+8.0%/-3 | 68% | 0.0 |
-| Remington870 | 2 | 62 | 0% | 0% | 50 | 62 | 54/0%/65 | 98/0%/98 | -8/0%/20 | 41% | 9.0 |
+| Remington870 | 2 | 62 | 0% | 0% | 50 | 62 | 57/0%/66 | 96/0%/100 | -1/0%/18 | 41% | 10.5 |
 | SA58 | 7 | 48 | 0% | +0.1% | 53 | 50 | 39/0%/47 | 128/-11.0%/106 | -16/+16.0%/8 | 37% | 22.0 |
 | SCALAR | 7 | 45 | +8.0% | 0% | 50 | 45 | 54/0%/64 | 88/0%/102 | 4/+16.0%/26 | 67% | 24.0 |
 | SCAR47 | 1 | 68 | -7.0% | 0% | 50 | 68 | 74/0%/36 | 142/-12.0%/99 | 24/+4.0%/0 | 41% | 13.7 |
@@ -99,7 +99,7 @@ Optimiser builds that break an item-level incompatibility rule: 112 of 288 (mark
 - PSRL: min handling -17.0
 - RPG7: min handling -10.0
 - Remington700: min stability -3.0
-- Remington870: min handling -7.5
+- Remington870: min handling -1.0
 - SA58: min handling -15.5
 - SCARH: min handling -21.0
 - SCARH: min stability -5.0
@@ -109,13 +109,12 @@ Optimiser builds that break an item-level incompatibility rule: 112 of 288 (mark
 - TT33: all_round within 3 points of every per-stat best (h 90.5 / reload 0% / s 59.0)
 - Turret: handling, reload, stability, recoil, all_round within 3 points of every per-stat best (h 27.5 / reload 0% / s 53.5)
 
-### A single legal build within 10 points of every clamped per-stat best (handling and stability: min(max over legal builds, 100); reload: the fastest legal parts sum on that weapon): 9
+### A single legal build within 10 points of every clamped per-stat best (handling and stability: min(max over legal builds, 100); reload: the fastest legal parts sum on that weapon): 8
 - EDC_X9: `handling` is within 0.0 of every clamped per-stat maximum (h 96 / reload 0% / s 55)
-- MP133: `blend 0.666667/1/0.333333` is within 6.0 of every clamped per-stat maximum (h 91 / reload 0% / s 68)
+- MP133: `blend 1/0.333333/0.333333` is within 6.0 of every clamped per-stat maximum (h 88 / reload 0% / s 68)
 - Makarov: `blend 0.333333/1/0.333333` is within 3.5 of every clamped per-stat maximum (h 84 / reload 0% / s 56)
 - P226: `blend 0.333333/1/0.333333` is within 2.5 of every clamped per-stat maximum (h 79 / reload -3.0% / s 60)
 - RPG7: `handling` is within 4.5 of every clamped per-stat maximum (h 16 / reload 0% / s 56)
-- Remington870: `blend 0.333333/1/0.333333` is within 9.0 of every clamped per-stat maximum (h 98 / reload 0% / s 96)
 - TT33: `blend 0.333333/1/0.333333` is within 1.5 of every clamped per-stat maximum (h 90 / reload 0% / s 59)
 - Turret: `handling` is within 0.0 of every clamped per-stat maximum (h 28 / reload 0% / s 54)
 - UMP: `blend 0.333333/1/0.333333` is within 0.0 of every clamped per-stat maximum (h 100 / reload 0% / s 72)
@@ -128,6 +127,15 @@ Optimiser builds that break an item-level incompatibility rule: 112 of 288 (mark
 ### Handling, reload and stability builds nearly identical: 2
 - RPG7: handling/reload/stability builds share 100% of parts
 - Turret: handling/reload/stability builds share 100% of parts
+
+### Cycling on manually cycled weapons (fire_rate, round 6)
+
+| weapon | base RPM | stock | references | fastest legal build | slowest legal build |
+|---|---|---|---|---|---|
+| Remington870 | 128 | 128.0 | 128, 131.8 | 131.8 | 125.4 |
+| MP133 | 156 | 156.0 | - | 159.1 | 156.0 |
+| MosinNagant | 50 | 50.0 | 50 | 50.5 (illegal) | 50.0 (illegal) |
+| Remington700 | 50 | 50.0 | 50 | 50.0 | 50.0 |
 
 ### Strict dominations inside competing sets: 137 items dominated by a not-more-expensive like-for-like alternative (old sheet, with ergonomics in all three: 150)
 
@@ -702,15 +710,15 @@ Base reload factor (weapon row): -12.4%.
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
 | stock | 60.5 | 0% | 0% | 50.0 | 2.66 | 44/51 | 60.5 |
-| opt:handling | 91.0 | 0% | +4.8% | 36.5 | 2.33 | 50/65 | 74.0 |
+| opt:handling | 88.0 | 0% | +4.8% | 34.5 | 2.33 | 50/65 | 74.0 |
 | opt:reload | 73.5 | 0% | +4.6% | 63.0 | 3.06 | 26/38 | 73.5 |
 | opt:stability | 70.5 | 0% | +4.4% | 68.0 | 2.75 | 32/44 | 73.0 |
 | opt:recoil | 63.5 | 0% | +1.6% | 57.5 | 3.20 | 22/34 | 65.0 |
-| opt:all_round | 83.0 | 0% | +7.2% | 65.5 | 2.64 | 33/47 | 81.0 |
+| opt:all_round | 78.5 | 0% | +6.5% | 67.0 | 2.68 | 32/44 | 79.0 |
 | opt:reload_time | 64.0 | 0% | +1.6% | 56.0 | 2.76 | 47/54 | 65.0 |
 | opt:handling_min | 36.5 | 0% | -7.0% | 41.5 | 3.17 | 37/44 | 40.5 |
 | opt:reload_time_min | 64.0 | 0% | +1.6% | 56.0 | 2.76 | 47/54 | 65.0 |
-| opt:stability_min | 61.0 | 0% | -5.7% | 11.0 | 2.62 | 56/66 | 44.0 |
+| opt:stability_min | 58.0 | 0% | -5.7% | 9.0 | 2.62 | 56/66 | 44.0 |
 
 ## MP5
 
@@ -757,11 +765,11 @@ Base reload factor (weapon row): -21.3%.
 | stock | 67.0 | 0% | -3.6% | 49.5 | 3.36 | 77/75 | 73.0 |
 | setup:mosin_nagant | 80.0 | 0% | -0.1% | 50.0 | 2.79 | 81/87 | 80.0 |
 | opt:handling | 104.5 | 0% | +7.1% | 35.5 | 1.89 | 84/97 | 94.0 |
-| opt:reload (breaks 1 incompatibility rule) | 67.0 | -2.0% | -2.4% | 64.0 | 3.25 | 71/44 | 79.2 |
+| opt:reload (breaks 2 incompatibility rules) | 68.0 | 0% | -1.5% | 64.0 | 3.28 | 71/44 | 77.2 |
 | opt:stability (breaks 1 incompatibility rule) | 87.0 | +8.0% | +13.2% | 73.5 | 2.96 | 77/88 | 89.5 |
-| opt:recoil (breaks 1 incompatibility rule) | 66.0 | -2.0% | -3.4% | 61.0 | 3.37 | 71/41 | 77.2 |
-| opt:all_round (breaks 1 incompatibility rule) | 100.0 | -2.0% | +8.0% | 68.5 | 2.77 | 80/91 | 105.5 |
-| opt:reload_time (breaks 1 incompatibility rule) | 61.5 | -2.0% | -15.1% | 19.0 | 2.86 | 84/87 | 54.0 |
+| opt:recoil (breaks 2 incompatibility rules) | 67.0 | 0% | -2.5% | 61.0 | 3.40 | 71/41 | 75.2 |
+| opt:all_round (breaks 2 incompatibility rules) | 101.0 | 0% | +10.2% | 68.5 | 2.80 | 80/91 | 103.5 |
+| opt:reload_time (breaks 1 incompatibility rule) | 61.0 | 0% | -14.9% | 19.0 | 2.86 | 84/87 | 51.0 |
 | opt:handling_min | 31.0 | +8.0% | -13.9% | 48.0 | 4.20 | 72/74 | 40.5 |
 | opt:reload_time_min (breaks 1 incompatibility rule) | 60.0 | +8.0% | -10.3% | 19.0 | 3.00 | 84/87 | 47.0 |
 | opt:stability_min (breaks 1 incompatibility rule) | 44.0 | +8.0% | -17.2% | 15.5 | 3.59 | 81/87 | 34.5 |
@@ -881,18 +889,18 @@ Base reload factor (weapon row): -13.0%.
 
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
-| stock | 54.0 | 0% | +0.4% | 65.0 | 2.65 | 76/77 | 63.5 |
-| preset:magtap_moe_m870 | 62.5 | 0% | +1.8% | 63.0 | 2.68 | 81/79 | 67.5 |
-| preset:roosevelt_tampa_shorty | 62.0 | 0% | -1.9% | 37.5 | 1.76 | 102/101 | 57.0 |
-| opt:handling | 98.5 | 0% | +8.1% | 54.5 | 2.86 | 82/84 | 85.8 |
-| opt:reload | 70.5 | 0% | +7.4% | 89.0 | 3.63 | 59/58 | 83.8 |
-| opt:stability (breaks 2 incompatibility rules) | 60.5 | 0% | +6.0% | 97.5 | 3.39 | 69/69 | 79.5 |
-| opt:recoil | 57.0 | 0% | +3.3% | 81.5 | 3.90 | 55/53 | 71.8 |
-| opt:all_round | 90.0 | 0% | +11.1% | 87.0 | 3.05 | 70/71 | 94.2 |
-| opt:reload_time (breaks 1 incompatibility rule) | 60.5 | 0% | +2.7% | 71.0 | 2.08 | 90/91 | 70.0 |
-| opt:handling_min (breaks 1 incompatibility rule) | -7.5 | 0% | -17.5% | 37.5 | 3.72 | 82/73 | 12.0 |
-| opt:reload_time_min (breaks 1 incompatibility rule) | 60.5 | 0% | +2.7% | 71.0 | 2.08 | 90/91 | 70.0 |
-| opt:stability_min | 22.0 | 0% | -13.9% | 19.5 | 3.45 | 81/76 | 22.5 |
+| stock | 57.0 | 0% | +0.4% | 65.5 | 2.65 | 76/77 | 63.5 |
+| preset:magtap_moe_m870 | 59.5 | 0% | +1.8% | 62.0 | 2.68 | 81/79 | 67.5 |
+| preset:roosevelt_tampa_shorty | 65.0 | 0% | -1.9% | 38.0 | 1.76 | 102/101 | 57.0 |
+| opt:handling | 95.5 | 0% | +8.1% | 53.5 | 2.86 | 82/84 | 85.8 |
+| opt:reload | 77.0 | 0% | +7.4% | 91.5 | 3.63 | 59/58 | 83.8 |
+| opt:stability (breaks 2 incompatibility rules) | 67.0 | 0% | +6.0% | 100.0 | 3.39 | 69/69 | 79.5 |
+| opt:recoil | 63.5 | 0% | +3.3% | 84.0 | 3.90 | 55/53 | 71.8 |
+| opt:all_round | 85.0 | 0% | +10.1% | 98.0 | 3.12 | 68/68 | 91.5 |
+| opt:reload_time (breaks 1 incompatibility rule) | 63.5 | 0% | +2.7% | 71.5 | 2.08 | 90/91 | 70.0 |
+| opt:handling_min (breaks 1 incompatibility rule) | -1.0 | 0% | -17.5% | 40.0 | 3.72 | 82/73 | 12.0 |
+| opt:reload_time_min (breaks 1 incompatibility rule) | 63.5 | 0% | +2.7% | 71.5 | 2.08 | 90/91 | 70.0 |
+| opt:stability_min | 19.0 | 0% | -13.9% | 18.5 | 3.45 | 81/76 | 22.5 |
 
 ## SA58
 

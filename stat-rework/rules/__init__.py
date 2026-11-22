@@ -148,14 +148,17 @@ def restat(item, ctx):
     import reload_scope
 
     out = _restat_points(item, ctx)
+    # Since round 8 the note names only what sets the values: the family rule only for magazines
+    # (whose handling comes from it), the reload kind, the cycling price and the profile.
+    notes = [out.get("_rule") or ""] if item["family"] == "magazine" else []
     note = reload_scope.apply(item, out, ctx)  # round 5: reload re-statted per kind of part (reload_scope.py)
-    if note:
-        out["_rule"] = (out.get("_rule") or "") + "; " + note
+    if note and out.get("reload_time"):
+        notes.append(note)
     note = cycling.apply(item, out)  # round 6: cycling parts of bolt and pump guns carry fire_rate (cycling.py)
     if note:
-        out["_rule"] = (out.get("_rule") or "") + "; " + note
-    note = profiles.apply(item, out, ctx)  # round 7: handling and stability from the part's profile (profiles.py)
-    out["_rule"] = (out.get("_rule") or "") + "; " + note
+        notes.append(note)
+    notes.append(profiles.apply(item, out, ctx))  # round 7: handling and stability from the part's profile
+    out["_rule"] = "; ".join(n for n in notes if n)
     return out
 
 

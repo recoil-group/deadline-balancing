@@ -65,8 +65,8 @@ BULKY = [(2.5, 0.12), (float("inf"), 0.16)]
 EXT_BASE = {
     "allpistolsprings_tt33_+1r_mag_extension": 8,
     "dante_freelance_hart_smg_10r_mag_extension": 32,
-    "dante_freelance_kosch_40sv_10r_carbine_magex": 10,
-    "dante_freelance_kosch_40sv_10r_pistol_magex": 10,
+    "dante_freelance_kosch_40sv_10r_carbine_magex": 15,  # round 8: the .40 slot's standard is the 15R
+    "dante_freelance_kosch_40sv_10r_pistol_magex": 15,
     "equinox_plus_5_pmag_mag_extension": 30,
     "fireline_+2r_ext_pm_mag_plate": 8,
     "fireline_5_rnd_545_223_ak_mag_extension": 30,

@@ -60,12 +60,17 @@ def convert(points, place, universal):
     return lo + (value - a) / (b - a) * (hi - lo)
 
 
-def reference_builds(tree, weapon):
+def reference_builds(tree, weapon, exclude=()):
+    """Official setups and presets of a weapon. `exclude` names setups or presets that turn the gun
+    into another class (a stockless shorty, a marksman conversion, an LMG variant); calibration
+    leaves them out so the median build is one kind of gun (round 8, weapon_identity.csv)."""
     refs = []
     for s in tree.setups:
-        if s["weapon"] == weapon:
+        if s["weapon"] == weapon and s.get("name") not in exclude:
             refs.append([n for _, n in tree.resolve(weapon, s["map"])])
-    for _, pm in sorted(tree.weapons[weapon]["presets"].items()):
+    for pn, pm in sorted(tree.weapons[weapon]["presets"].items()):
+        if pn in exclude:
+            continue
         b = [n for _, n in tree.resolve(weapon, pm)]
         if b not in refs:
             refs.append(b)
@@ -92,7 +97,8 @@ def calibrate():
             row["anchor"] = ""
             rows.append(row)
             continue
-        refs = reference_builds(t, name)
+        excl = {x.strip() for x in (r.get("exclude_refs") or "").split(";") if x.strip()}
+        refs = reference_builds(t, name, excl)
         zero = {k: dict(v) for k, v in st.items()}
         zero[name] = {k: 0.0 for k in zero[name]}
         parts = {s: statistics.median(t.sum_stats(name, b, zero, [s])[s] for b in refs) for s in STATS}

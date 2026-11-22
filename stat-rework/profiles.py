@@ -25,7 +25,8 @@ families) or fire_rate (cycling parts). The profile splits V:
     buttpad                  s = 2.13 V
     reload_only, zero        h = s = 0
     magazine                 the magazine rule's handling, never a bonus (large magazines cost a
-                             little handling, short ones gain none); shotgun tube extensions cost
+                             little handling, short and standard ones none; a drum is no handier
+                             than the least handy stick it competes with); shotgun tube extensions cost
                              0.5 handling per old point against the standard cap (their old
                              reload share is not moved into handling); s = 0
     stockless                handier than every stock on the weapons it reaches (+2 over the
@@ -33,8 +34,11 @@ families) or fire_rate (cycling parts). The profile splits V:
                              kept between -12 and -4; set in finalize()
 
 A penalty (V < 0) on a stability-leaning profile goes to handling (a heavy precision stock, a
-bulky vertical grip, a long handguard are slow to bring up, not unsteady), and a penalty on a
-handling-leaning profile splits evenly.
+bulky vertical grip, a long handguard are slow to bring up, not unsteady), but the part still
+steadies: since round 8 it keeps stability max(2, -V) and handling takes the rest, so its EV is
+0.6 V as for a handling part (grip-pod legs -3 / +2 collapsed, -5 / +3 extended). A penalty on a
+handling-leaning profile splits evenly. optic_scope stability is 0.2 min(V, 0): a scope accessory
+with a positive value does not cancel the magnification tax.
 
 Handling-only parts keep h = V rather than the 1.67 V that EV-neutrality would give: their old
 ergonomics was their ADS effect, and the reload and draw it also bought were never physical for a
@@ -42,7 +46,8 @@ sight, a muzzle device or a barrel.
 
 Roles are an EV-neutral swing on top of the profile, the same size for every part of a class:
 marksman  h - H, s + 1.28 H;  compact  h + H, s - 1.28 H;  H = 3 on major parts (stocks, barrels,
-handguards, receivers), 1.5 on the rest, 1.5x when the row asks for `strong`.
+handguards, receivers, and parts on a barrel, stock or handguard profile filed elsewhere), 1.5 on
+the rest, 1.5x when the row asks for `strong`.
 
 A row may also give explicit `handling` and `stability`, for the few parts no profile fits; its
 `why` says why.
@@ -103,6 +108,7 @@ DEFAULT = {
     "ammo": "even", "misc": "even",
 }
 
+NEG_SUPPORT = 2.0  # round 8: least stability a stability-leaning part keeps when its value is negative
 STOCKLESS_MARGIN = 2.0
 STOCKLESS_STABILITY = (-12.0, -4.0)
 
@@ -165,21 +171,29 @@ def apply(item, vals, ctx=None):
         from rules import magazine as M
         h, s = min(M.tube_split(item, ctx)["handling"], 0.0), 0.0
     elif p == "magazine":
-        h, s = min(vals.get("handling") or 0.0, 0.0), 0.0
+        # round 8: a magazine of the slot's standard capacity (reload 0) has no handling either; the
+        # old same-capacity differences were material noise
+        h, s = (min(vals.get("handling") or 0.0, 0.0) if vals.get("reload_time") else 0.0), 0.0
     elif p == "stockless":
         h, s = 0.0, 0.0  # set in finalize(), once every competing stock is known
     else:
         a_h, a_s = COEF[p]
         if v < 0 and p in STABILITY_LEANING:
-            a_h, a_s = 1.0, 0.0
-        elif v < 0 and p in HANDLING_LEANING:
-            a_h, a_s = EVEN, EVEN
-        h, s = a_h * v, a_s * v
+            # round 8: still steadier, the cost goes to handling (EV 0.6 V, as for a handling part)
+            s = max(NEG_SUPPORT, -v)
+            h = v - s * W_S / W_H
+        else:
+            if v < 0 and p in HANDLING_LEANING:
+                a_h, a_s = EVEN, EVEN
+            h, s = a_h * v, a_s * v
+            if p == "optic_scope":
+                s = a_s * min(v, 0.0)  # round 8: the magnification tax never turns into a bonus
     note = f"profile {p} (V {v:+.2f})"
 
     role = (r.get("role") or "").strip()
     if role in ("marksman", "compact"):
-        hsw = ROLE_SWING["major" if fam in MAJOR_FAMILIES else "minor"]
+        major = fam in MAJOR_FAMILIES or p == "barrel" or p.startswith(("stock_", "handguard_"))  # round 8: misfiled majors
+        hsw = ROLE_SWING["major" if major else "minor"]
         if (r.get("role_strength") or "").strip() == "strong":
             hsw *= STRONG
         sign = -1 if role == "marksman" else 1
@@ -198,8 +212,23 @@ def apply(item, vals, ctx=None):
 
 
 def finalize(ctx, out):
-    """Stockless options: handier than the handiest stock on their weapons, clearly unsteady."""
+    """Stockless options: handier than the handiest stock on their weapons, clearly unsteady.
+    Drums: no handier than the least handy stick they compete with (round 8)."""
     notes = {}
+    from rules import magazine as M
+    import reload_scope
+    for n, it in ctx.items.items():
+        if n not in out or profile_of(it) != "magazine" or not M.capacity(it) or reload_scope.is_tube(it):
+            continue
+        std = M.mag_values(it, ctx)[3]
+        if not M.is_bulky(it, std) or _num((row(n) or {}).get("handling")) is not None:
+            continue
+        sticks = [out[c["name"]]["handling"] for c in ctx.competitors(it)
+                  if c["name"] in out and profile_of(c) == "magazine" and M.capacity(c) and not M.is_bulky(c, std)
+                  and not reload_scope.is_tube(c) and out[c["name"]]["handling"] is not None]
+        if sticks and min(sticks) < out[n]["handling"]:
+            out[n]["handling"] = min(sticks)
+            notes[n] = f"drum: handling no better than the least handy stick ({min(sticks):g})"
     stocks = [(n, set(it["weapons"])) for n, it in ctx.items.items()
               if n in out and profile_of(it).startswith("stock_") and out[n]["handling"] is not None]
     for n, it in ctx.items.items():

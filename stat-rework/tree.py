@@ -154,6 +154,7 @@ class Tree:
                 "rpm": (w.get("firing") or {}).get("rpm"),
                 "magazine_type": (w.get("generalData") or {}).get("magazine_type"),
                 "markers": w.get("markers", []),
+                "place_ranges": self._place_ranges(w.get("markers", [])),
             }
         self.setups = []
         for g in G:
@@ -162,6 +163,17 @@ class Tree:
                 continue
             p = d.get("preset") or {}
             self.setups.append({"name": g["name"], "weapon": d.get("code"), "map": p.get("map", []) if isinstance(p, dict) else []})
+
+    @staticmethod
+    def _place_ranges(markers):
+        """The weapon's own ergonomics ranges for reload speed and ADS in the place:
+        [stat_lo, stat_hi, value_at_lo, value_at_hi] (count_stats maps stat_lo..stat_hi onto them)."""
+        out = {}
+        for m in markers:
+            key = "reload" if m["path"] == ".animations.speed" else ("ads" if m["path"].endswith("final_aim_in") else None)
+            if key and m.get("tied_to") == "ergonomics":
+                out[key] = [m["min_stat"], m["max_stat"], m["min_value"], m["max_value"]]
+        return out
 
     def _from_reduced(self, path):
         d = json.load(open(path))

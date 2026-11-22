@@ -111,6 +111,11 @@ base = anchor + identity offset − median part contribution over the weapon's r
   stability. A typical build therefore feels as it does today.
 - Identity offsets (`weapon_identity.csv`) are small, deliberate and roughly EV-neutral, each
   with a note.
+- Range conversion (contract v4): ADS (0.8 → 0.25) and reload speed (0.9× → 1.3×) use one range
+  on every weapon. Where a weapon's place range differed, its anchor is converted so the typical
+  build keeps today's ADS time or reload playback speed exactly (`weapons.convert`). This is not
+  an identity offset. It moves the launchers' handling anchors (RPG-7 9.6, PSRL 4.2) and the reload
+  anchors of 12 weapons; the place ranges are stored in `data/tree.json`.
 - `python generate.py --calibrate` recomputes `weapon_bases.csv` from the current part rules.
 
 ## 9. Ammunition

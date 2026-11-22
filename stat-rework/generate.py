@@ -24,6 +24,7 @@ from collections import defaultdict
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 
+import reload_scope  # noqa: E402
 import rules  # noqa: E402
 from analysis import WEAPON_CLASSES, slot_groups  # noqa: E402
 from families import family  # noqa: E402
@@ -120,7 +121,8 @@ class Context:
 def generate(ctx=None, families=None):
     """Return (ctx, new_values, log). new_values: name -> dict of NEW_COLUMNS[4:] (floats or raw strings).
 
-    Order: weapon bases and family rules, then the lead's lean pass (lean.py), then overrides.
+    Order: weapon bases and family rules (with the reload scope, reload_scope.py), then the lead's
+    lean pass (lean.py), then overrides (also through the reload scope).
     """
     import lean
 
@@ -177,6 +179,14 @@ def generate(ctx=None, families=None):
             for k, v in o["values"].items():
                 vals[k] = float(v) if k in NEW_STATS else v
             note = o["note"]
+            if vals.get("reload_time"):  # overrides go through the same reload scope as the rules
+                pts = {"handling": vals["handling"] or 0.0, "stability": vals["stability"] or 0.0,
+                       "reload_points": rules.round_half(rules.points_of(vals["reload_time"]))}
+                scope = reload_scope.apply(ctx.items[n], pts)
+                if scope:
+                    vals["handling"], vals["stability"] = pts["handling"], pts["stability"]
+                    vals["reload_time"] = rules.time_of(pts["reload_points"])
+                    note += "; " + scope
             rule = (rule + "; " if rule else "") + f"override ({o['_source']})"
         for k in OTHER_COLUMNS:
             if str(vals[k]) != str(raw.get(k, "")):
@@ -212,7 +222,7 @@ def write_outputs(ctx, out, log):
         for r in rows:
             w.writerow([r.get(c, "") for c in NEW_COLUMNS])
     write_review(ctx, out)
-    write_small_reload(ctx, out)
+    check_reload_scope(ctx, out)
     with open(os.path.join(HERE, "review", "other_column_changes.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=["name", "column", "old", "new", "why"])
         w.writeheader()
@@ -254,25 +264,14 @@ def review_rows(ctx, out, fam):
     return rows
 
 
-SMALL_RELOAD = 0.005  # parts whose reload_time is nonzero but under half a percent of reload time
-
-
-def write_small_reload(ctx, out):
-    """review/reload_time_small.csv: converted reload values too small to be worth showing (flagged, not changed)."""
-    rows = []
+def check_reload_scope(ctx, out):
+    """Warn about any part holding reload outside reload_scope.py, or a nonzero reload under its minimum."""
     for n, v in sorted(out.items()):
-        it = ctx.items[n]
-        rt = v["reload_time"]
-        if it["family"] != "weapon" and rt and abs(rt) < SMALL_RELOAD - 1e-9:
-            rows.append({"family": it["family"], "name": n, "pretty_name": it["pretty"], "category": it["category"],
-                         "old_ergo": fmt(it["ergonomics"]), "reload_points_v4": round(rules.points_of(rt) * 2) / 2,
-                         "reload_time": fmt(rt, "reload_time"), "shown_as": f"{rt * 100:+.1f}%", "rule": v["_rule"]})
-    rows.sort(key=lambda r: (r["family"], r["reload_time"], r["name"]))
-    with open(os.path.join(HERE, "review", "reload_time_small.csv"), "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=["family", "name", "pretty_name", "category", "old_ergo", "reload_points_v4",
-                                          "reload_time", "shown_as", "rule"])
-        w.writeheader()
-        w.writerows(rows)
+        it, rt = ctx.items[n], v["reload_time"]
+        if it["family"] == "weapon" or not rt:
+            continue
+        if not reload_scope.allowed(it) or abs(rt) < reload_scope.MIN_TIME - 1e-9:
+            print(f"warning: {n} holds reload_time {rt:+.3f} outside the reload scope", file=sys.stderr)
 
 
 def write_review(ctx, out):

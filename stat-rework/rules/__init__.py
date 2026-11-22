@@ -144,7 +144,12 @@ def family_module(fam):
 
 def restat(item, ctx):
     """Return {handling, reload_time, stability, _rule, [other columns]} for one item."""
+    import reload_scope
+
     out = _restat_points(item, ctx)
+    note = reload_scope.apply(item, out)  # round 5: only reload parts keep reload (reload_scope.py)
+    if note:
+        out["_rule"] = (out.get("_rule") or "") + "; " + note
     out["reload_time"] = time_of(round_half(out.pop("reload_points")))  # the v4 sheet value, carried over
     return out
 

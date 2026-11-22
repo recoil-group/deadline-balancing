@@ -112,3 +112,7 @@ because the brief says to keep assembly totals. Worth a team look.
 - The Orion NV scope alone is h −12, beyond the usual ±10, but −9 with its cup, which everyone
   fits.
 - Compact sights lose EV (0.6 E) on purpose; the weapon-base calibration absorbs the average.
+
+## Round 5: reload scope
+
+Optics, mounts and sling hardware are not reload parts. The five that carried reload (two sling mounts, a swivel, the AUG sling mount, the charging-handle mount and the stockless AGR-870 cap override) have it moved into handling and stability (EV kept; `reload_scope.py`).

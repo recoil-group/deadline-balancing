@@ -58,3 +58,7 @@ EV stays within tolerance. The reload 0.5 follows the stock family's small reloa
 
 - Misc values depend on the other families' modules, so re-run `check_family.py misc` after they
   settle. A module that raises falls back to that family's default split, with a note in `_rule`.
+
+## Round 5: reload scope
+
+The MagEx2, the Nexa P226 extension and the P320 magazine funnel keep reload (they are magazine parts). The CQR spacers, palm shelf, Glock grip sleeves and RPG-7 rear grip have their reload moved into handling and stability, EV kept (`reload_scope.py`).

@@ -40,3 +40,7 @@ Giving lights a weight-based handling cost would only charge weight a second tim
 - `pm_laser_ltsu_pm_laser` is a pistol grip (handled above).
 - `whitehouse_rush_qe_junction_box_legacy_crane_connector` (in misc) is a RUSH sub-part. It is
   re-statted as tactical: 0.
+
+## Round 5: reload scope
+
+The one tactical device with reload (`pm_laser_ltsu_pm_laser`) has it moved into handling (EV kept; `reload_scope.py`).

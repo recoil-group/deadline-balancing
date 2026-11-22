@@ -74,3 +74,7 @@ Rules live in `rules/magazine.py` (docstring has the full list). No weight credi
   rules (all 0 except the coupler, −0.5/−4.5).
 - `kalis_kosch_*_magex2` capacity cells (17, 18, 23) read as rounds added, not totals (a 9x19
   KOSCH with the 23R MagEx2 would hold 40). Left alone; worth a check against the game.
+
+## Round 5: reload scope
+
+Magazines keep reload, but values under 0.5% of reload time (1 point or less: the ±0.5 material rule on top of a near-default magazine) are dropped to 0 (`reload_scope.py`). Eight magazines dropped; the Springfield M14 modified 20R now ties the AK-308 20R and Saiga .308 20R on every stat and is heavier, so `review/dominations.csv` lists it as a variant.

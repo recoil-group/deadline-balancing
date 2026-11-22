@@ -73,3 +73,7 @@ foregrip: nothing on the front of the gun plausibly changes the reload.
 - Uncertain real-world identities, typed by shape and old stats: Equinox EX M-LOK grip (stubby),
   Veles RK-0/RK-5 (stubby), RK-4 (angled), RK-6 (handstop-like), Timber Creek Enforcer foregrip,
   PTS Validus Shift, TargetDown BGV (full verticals).
+
+## Round 5: reload scope
+
+The one foregrip-family part with reload (`hk_mp5k_polymer_handguard`) has it moved into handling and stability (EV kept; `reload_scope.py`).

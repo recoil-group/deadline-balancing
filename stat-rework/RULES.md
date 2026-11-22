@@ -9,7 +9,7 @@ point come from the code contract (summarised in `../knowledge/stats.md`).
 | Stat | Owns | Physical drivers (better →) |
 |---|---|---|
 | `handling` | ADS in/out time, sight switch, fire-mode switch, mag check and other minor animations | light, short, slim front end; good grip angle; collapsed or short stock; low, small sights; nothing hanging off the front |
-| `reload_time` | reload animations only (tactical, empty, quick, per shell); a fraction of the weapon's base reload time, **lower is better** | magazine design (low capacity, polymer, tapered, no drums), extended/ambi releases, flared magwells, mag pulls and assists, bolt catches and charging handles (empty reloads), receiver features that guide the magazine |
+| `reload_time` | reload animations only (tactical, empty, quick, per shell); a fraction of the weapon's base reload time, **lower is better** | only magazines and capacity extensions, magazine controls (releases, magwells, mag assists, plates), and the listed reload hardware: flared or ambidextrous lowers, magazine-well lowers and chassis, bolt catches and releases, charging handles, the Mosin bolt, R700 bottom metal (section 13). Everything else is 0 |
 | `stability` | idle sway (hip and aimed), sway while moving, breath-hold cost; **50 = today's feel** | mass at the shoulder and hands, a firm stock and cheek weld, front support (foregrips, handstops, bipods); worse with long barrels and front-heavy ends, no stock, braces, folded stocks |
 | weapon weight (not a column) | draw, stow, sprint-out, aimed move speed, aim stamina drain, turn lag (held gun) and travel speed (all carried guns) | already priced by the weight column |
 
@@ -97,9 +97,8 @@ same place:
 - Large single-part values: stocks up to about ±20, drums and very large magazines to +10% reload
   time (−25 reload points), barrels to about ±12 per stat. Everything else rarely beyond ±10
   (about ±4% reload time).
-- Handling and stability are in 0.5 steps; reload_time in 0.001 steps. Nonzero values under 0.5%
-  (1 point or less) are listed in `review/reload_time_small.csv` for the team to decide whether
-  they are worth showing.
+- Handling and stability are in 0.5 steps; reload_time in 0.001 steps. No part holds a nonzero
+  reload_time under 0.5% (section 13).
 
 ## 6. Structure of the tree
 
@@ -161,7 +160,8 @@ aim of this pass is the stat split, not an ammunition rebalance, so the team dec
 Condensed from `notes/<family>.md`, which give the full tables and reasons. `E` is the old
 ergonomics; EV is kept equal to E unless stated. Reload amounts here and in the notes are in reload
 points, which `rules.restat` converts to `reload_time` (section 2): +2.5 points is about −0.9% of
-reload time, −25 points is +10%.
+reload time, −25 points is +10%. Reload shares given here to families outside the reload scope
+(stocks, grips, receivers and so on) are moved into handling and stability by section 13.
 
 - **Magazines**: measured from the set's default magazine (0 on all three; a non-zero default's
   constant moves into the weapon base). Larger than standard: reload 2.125·E, handling 0.25·E;
@@ -244,3 +244,35 @@ Barrels and muzzle devices are not steepened: length moves handling and stabilit
 their trade is recoil and velocity. Factor 2 is where it stops making sense: at 2.5 and 3 the
 check gains one weapon each while the number of parts pushed to the share limit grows from 15 to
 37. Setting the factors to 1 switches the pass off.
+
+## 13. Only reload parts carry reload (round 5)
+
+`reload_scope.py`, applied in `rules.restat` to the rules' reload points and in `generate.py` to
+override values, before the conversion to `reload_time`:
+
+- **Who keeps reload.** Magazines and capacity extensions (`magazine`), magazine controls
+  (`mag_control`), and 47 listed receiver, internals and misc parts that change the reload action
+  itself, each with its reason in `reload_scope.PARTS`:
+  - Lower receivers only where the lower brings a flared magazine well (Novacek N4 Gen3) or
+    ambidextrous or AR-pattern reload controls (Ardian ADAC-15, Lingle AR17 FANG-H). The Scalar
+    calibre lowers are the magazine well itself, and the two R700 chassis add a detachable-magazine
+    well.
+  - The KOSCH ambidextrous slide catch and magazine catch, bolt catches and releases, the B.A.R.
+    lever and charging handles.
+  - The Mosin bolts and bolt handles, and the R700 bottom metal.
+  - Three misc parts that are really magazine parts: the MagEx2, the P226 extension and the P320
+    funnel.
+- **Not reload parts:** every other lower (standard AR, HK, UMP trigger-group and AK-12/AK-308
+  lowers), slides, frames, trunnions, trigger housings, the AK enhanced safety, stocks, pistol
+  grips, foregrips, handguards, barrels, muzzle devices, optics and mounts, sights, uppers,
+  triggers, tactical devices, ammunition, bayonets and other misc. They hold reload 0.
+- **Under 0.5% goes to 0.** A part that keeps reload but would hold less than 0.5% of reload time
+  (1 point or less, e.g. the ±0.5 magazine material rule) is dropped to 0; that value is gone.
+- **The value moves, it is not lost** (`MOVE_VALUE`, one switch). A part that loses a reload share
+  it had as part of its value (stocks 0.25·E, pistol grips 0.4·E, receivers, and so on) gets that
+  value, `0.40·points`, back in handling and stability in the proportions of value it already has
+  there, so its EV stays where it was. A part with no handling or stability value takes its
+  family's default proportions. With `MOVE_VALUE = False` these parts simply lose the share.
+- The lean pass (section 12) runs after this step and keeps EV, so moved value is steepened like
+  the rest.
+

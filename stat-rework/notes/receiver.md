@@ -71,3 +71,7 @@ rate; see `notes/internals.md`).
 - `hk_ump9_upper_receiver` (+7, −25/−23 recoil) is a calibre conversion; lightest, so 10 / 0 / 2.
 - `glock20_*` and `glock17l_slide` are unreachable in the tree; Glock20 is not in `tree.json`, so
   `simulate.py --weapon Glock20` fails.
+
+## Round 5: reload scope
+
+Only receivers that change the reload action keep reload (`reload_scope.PARTS`): the Novacek N4 Gen3 lowers (flared magwell), the Ardian ADAC-15 (ambidextrous controls), the Lingle AR17 FANG-H lower (AR controls), the six Scalar calibre lowers (the lower is the magazine well), the two R700 chassis (detachable-magazine well) and the KOSCH ambidextrous slide catch. All 13 keep reload. The other 61 (standard AR, HK, UMP and AK-12/AK-308 lowers, slides, frames, trunnions, trigger housings) have their reload share moved into handling and stability, EV kept.

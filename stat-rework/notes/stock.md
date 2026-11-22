@@ -147,3 +147,7 @@ gives s 4.5.
 - `hunterstock_lop_0.5_*` (`misc`) are length-of-pull spacers. My cheek/spacer rule would give
   E 0.5 → h 0 / s 1. The misc owner should match this.
 - Castle nuts and end plates filed under `receiver` were left alone, as instructed.
+
+## Round 5: reload scope
+
+Stocks are not reload parts. The reload share every stock had (0.25·E, and the furniture table's reload, e.g. the AUG Para conversion's 12 points) is moved into handling and stability in the proportions the stock already has, so EV is kept (`reload_scope.py`, RULES.md section 13). 89 stocks moved. The AUG Para conversion arguably changes the magazine well (9x19 mags); it was zeroed with the rest, and its preset now reaches handling 100.5.

@@ -58,3 +58,7 @@ $200).
 - `corvus_mounts_m4_trigger_guard` is R700 bottom metal (magwell slot), not a trigger guard.
 - `kosch_*_auto_sear` sit in the slide-backplate slot.
 - `sig_sauer_p320_takedown_lever` is the only P320 lever (default), so it is treated as OEM (zero).
+
+## Round 5: reload scope
+
+Charging handles, bolt catches and releases, the B.A.R. lever, the KOSCH magazine catch, the Mosin bolts and handles and the R700 bottom metal keep reload (`reload_scope.PARTS`). The AFT charging handle and the KOSCH magazine catch hold 1 point (0.4%), under 0.5%, so it is dropped. The AK enhanced safety is not a reload part; its reload is moved into handling, EV kept.

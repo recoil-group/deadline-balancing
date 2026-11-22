@@ -17,7 +17,6 @@ category agents, validated only by build simulation. Nothing here has been playt
 | `review/weapon.csv` | Weapon base rows. |
 | `review/simulation_report.md` | Stock, reference (official setups and presets) and optimised builds for every weapon, plus the validation checks. |
 | `review/other_column_changes.csv` | Every change outside the three new columns, with the reason. |
-| `review/reload_time_small.csv` | Parts whose converted reload time is nonzero but under 0.5%, flagged for the team (not changed). |
 | `RULES.md` | The rules the rebalance follows: what each stat owns, value accounting, weight, trade-offs, magnitudes, weapon base values, ammunition. |
 | `notes/<family>.md` | Each family's split rules, in a few lines per sub-category, and its open questions. |
 | `RULES_MINED.md` | What the old sheet and its history imply (the "unwritten rules"). |
@@ -32,7 +31,9 @@ category agents, validated only by build simulation. Nothing here has been playt
   ergonomics. A big gap always has a note.
 - **reload_time** is a fraction of the weapon's base reload time; lower is better. `-0.033` is 3.3%
   less time, which the review sheets also show as `reload_pct`. Part values are the earlier reload
-  points converted (`RULES.md` section 2), so the default magazine of every set is 0.
+  points converted (`RULES.md` section 2), so the default magazine of every set is 0. Only
+  magazines, magazine controls and listed reload hardware carry it (`reload_scope.py`, `RULES.md`
+  section 13); the reload share other parts had was moved into their handling and stability.
 - Inside a competing set, look at the **direction** of each option (handling vs stability vs
   reload), not just the size.
 - Weapon rows hold the platform: a typical build of each weapon lands at its old ergonomics for
@@ -59,6 +60,8 @@ Pipeline:
 1. `data/source_balancing.csv` (main at `ec0e059`) is the input and is never edited.
 2. `rules/__init__.py` holds the pricing and the default split vector of each family.
 3. `rules/<family>.py` refines the split per item from what the part physically is.
+   `reload_scope.py` then keeps reload only on reload parts (others get its value back in handling
+   and stability; one switch) and drops values under 0.5% of time.
 4. `lean.py` steepens the handling-versus-stability lean in stocks, handguards and grips (EV kept).
 5. `overrides/<family>.csv` sets hand-tuned values; every row has a note.
 6. `weapon_identity.csv` holds each weapon's anchor and identity offsets; `--calibrate` turns them

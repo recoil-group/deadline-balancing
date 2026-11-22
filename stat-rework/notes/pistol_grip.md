@@ -55,3 +55,7 @@ three new stats in any set of 3+.
 - `talon_aug_foregrip_wrap` is filed here (it wraps the AUG foregrip); standard split is fine.
 - Kinds for grips whose real shape I could not confirm (MCS AVP, Equinox Orion, MG-47, Khorovod,
   Gral-S) were chosen from weight and old stats.
+
+## Round 5: reload scope
+
+Pistol grips do not affect reload. The 0.4·E reload share of all 59 grips that had one is moved into handling and stability in their own proportions (EV kept; `reload_scope.py`).

@@ -1,0 +1,294 @@
+kind,family,name,counterpart,flag
+cycling,foregrip,mp133_plastic_handguard,Baikal MP-133 synthetic pump forend,fire_rate +2% already set
+cycling,foregrip,pro_tactical_pr870_handguard,railed tactical forend for Remington 870,fire_rate -2% already set
+cycling,foregrip,r870_magtap_moe_handguard,Magpul MOE M-LOK forend for Remington 870,fire_rate +3% already set
+cycling,muzzle,kazarov_ak105_6p44_020_compensator,Izhmash AK-105 6P44 muzzle brake,"carries fire_rate 0.05 on an automatic rifle, outside the bolt/pump rule"
+cycling,muzzle,kazarov_aks74u_5.45x39_6p26_020_muzzle_brake,Izhmash AKS-74U 6P26 muzzle booster,fire_rate 0.123 on an automatic
+misfiled,barrel,cnc_warrior_m14x1lh_to_5_8x24rh_muzzle_thread_adapter,CNC Warrior M14x1LH to 5/8x24 thread adapter,muzzle device (thread adapter) filed under barrel
+misfiled,barrel,diemaco_tri_ad_i_mount,Diemaco/Colt Canada TRI-AD gas block rail,"rail mount, mount profile"
+misfiled,barrel,egs_orthocone_45_piston,Rugged Suppressors Obsidian 45 piston,muzzle device (suppressor piston) filed under barrel
+misfiled,barrel,fireline_bayonet_thread_adapter_for_ak12,AK-12 bayonet lug / thread adapter,muzzle device (thread adapter) filed under barrel
+misfiled,barrel,gt_24_1/2,Griffin Armament M24x1.5 to 1/2x28 thread adapter,muzzle device (thread adapter) filed under barrel
+misfiled,barrel,hart_m4a1_front_side_sling_swivel,Colt M4 side sling swivel / gas block swivel,"barrel accessory, really a sling mount"
+misfiled,barrel,i_24_14_ta,generic AK-74 24x1.5 to 1/2x28 thread adapter,muzzle device (thread adapter) filed under barrel
+misfiled,barrel,ips_1_2x28_to_5_8x24_knurled_thread_adapter,generic 1/2x28 to 5/8x24 knurled thread adapter,muzzle device (thread adapter) filed under barrel
+misfiled,barrel,ips_5.56x45_1inch_barrel_extension,generic 1in 5.56 barrel extension (pinned extension),muzzle device (barrel extension) filed under barrel
+misfiled,barrel,ips_5.56x45_2inch_barrel_extension,generic 2in 5.56 barrel extension,muzzle device (barrel extension) filed under barrel
+misfiled,barrel,ips_5.56x45_4inch_barrel_extension,generic 4in 5.56 barrel extension,muzzle device (barrel extension) filed under barrel
+misfiled,barrel,ips_7.62x51_1inch_barrel_extension,generic 1in 7.62 barrel extension,muzzle device (barrel extension) filed under barrel
+misfiled,barrel,ips_7.62x51_2inch_barrel_extension,generic 2in 7.62 barrel extension,muzzle device (barrel extension) filed under barrel
+misfiled,barrel,ips_7.62x51_4inch_barrel_extension,generic 4in 7.62 barrel extension,muzzle device (barrel extension) filed under barrel
+misfiled,barrel,kalis_scalar_gen1_barrel_shroud,KRISS Vector CRB Gen I 16in barrel shroud,handguard (barrel shroud is the Vector CRB handguard)
+misfiled,barrel,kalis_scalar_gen2_early_barrel_shroud,KRISS Vector CRB Gen II early 16in barrel shroud,handguard
+misfiled,barrel,kalis_scalar_gen2_late_barrel_shroud,KRISS Vector CRB Gen II late 16in barrel shroud,handguard
+misfiled,barrel,kalis_scalar_gen3_16inch_mlok_barrel_shroud,KRISS Vector Gen III 16in M-LOK shroud,handguard
+misfiled,barrel,kf_416_a5_barrel_nut,HK416 A5 barrel nut,handguard mounting hardware rather than barrel
+misfiled,barrel,kf_416_barrel_nut,HK416 barrel nut,handguard mounting hardware rather than barrel
+misfiled,barrel,rat_worx_aug_5.56x45_supp_adapter,Rate Worx / Ratworx AUG 1/2x28 suppressor adapter,muzzle device (thread adapter) filed under barrel
+misfiled,barrel,rhodesian_halbek_muzzle_device,FAL Halbek muzzle brake / flash hider (Rhodesian reproduction),muzzle device filed under barrel
+misfiled,barrel,sno_vulkan_rpg_7n2_tube,RPG-7 launcher tube,really the launcher receiver/body
+misfiled,barrel,spiderweb_bpr_suppressor_system_srm_6,OSS BPR suppressor SRM-6 module,"muzzle (suppressor module, child of BPR-1425)"
+misfiled,barrel,suppressors_inc_qd_asr_mount,SilencerCo ASR muzzle mount,muzzle device (suppressor mount) filed under barrel
+misfiled,barrel,target_sports_mt026_mount,generic tri-rail gas block mount,"rail mount, mount profile"
+misfiled,barrel,tt33_barrel_bushing,Tokarev TT-33 barrel bushing,competes with a muzzle device
+misfiled,barrel,tubewerx_m15x1rh_to_5_8x24_thread_adapter,Tubewerx HK91/G3 M15x1 to 5/8x24 thread adapter,muzzle device (thread adapter) filed under barrel
+misfiled,foregrip,hk_mp5k_polymer_handguard,HK MP5K lower handguard with integral vertical grip,handguard (integral vertical grip)
+misfiled,foregrip,r870_shorty_std_bolt,Remington 870 bolt assembly,receiver/bolt (not a foregrip)
+misfiled,handguard,addon_hk_upper_receiver_picatinny_rail,generic HK claw-to-Picatinny receiver rail,mount
+misfiled,handguard,aquila_defensio_aug_a3_mlok_top_rail,aftermarket AUG A3 M-LOK top rail,mount
+misfiled,handguard,aquila_defension_m1_aug_receiver_rail,aftermarket AUG A3 M1 receiver rail,mount
+misfiled,handguard,aug_a3_std_side_rail_mount,generic AUG A3 receiver side rail,mount (rail)
+misfiled,handguard,aug_a3sf_left_rail,generic AUG A3 SF scope-rail segment,mount
+misfiled,handguard,aug_a3sf_right_rail_1,generic AUG A3 SF scope-rail segment,mount
+misfiled,handguard,aug_a3sf_right_rail_2,generic AUG A3 SF scope-rail segment,mount
+misfiled,handguard,aug_a3sf_top_rail_1,generic AUG A3 SF scope-rail segment,mount
+misfiled,handguard,fit_m4_forward_picatinny_rail,gas-block forward Picatinny rail for M4,mount
+misfiled,handguard,handguard_flip_up_sight,generic HK416 handguard-mounted flip-up front sight,iron sight
+misfiled,handguard,handguard_flip_up_sight_folded,generic HK416 handguard flip-up front sight (folded),iron sight
+misfiled,handguard,ihs_aug_a3_sa_cqc_left_rail,generic AUG side accessory rail,mount
+misfiled,handguard,ihs_aug_a3_sa_cqc_right_rail,generic AUG side accessory rail,mount
+misfiled,handguard,li_jiahao_acp95_top_rail_for_qbz,aftermarket ACP95 top rail for QBZ-95,optic mount / top rail (sight competitor) not handguard
+misfiled,handguard,magtap_xtm_enhanced_short_handstop_1,Magpul XTM Enhanced Hand Stop piece,"rail panel that is really a handstop (foregrip, grip_angled)"
+misfiled,handguard,mcs_r700_long_rail,long Picatinny scope rail for Remington 700,optic mount (receiver scope base) not handguard
+misfiled,handguard,northeast_industries_ak74_gen1_30mm_topcover,Midwest Industries AK74 top cover with 30mm ring mount,optic mount (mount)
+misfiled,handguard,northeast_industries_ak74_gen1_t1_mount_topcover,Midwest Industries AK74 top cover with Aimpoint T-1 mount,optic mount (mount)
+misfiled,handguard,qingyuan_defense_qbz95_long_bow_mlok_carry_handle,aftermarket QBZ-95/Type 97 extended carry-handle rail (M-LOK),optic mount / top rail (sight competitor) not handguard
+misfiled,handguard,qingyuan_defense_qbz95_long_bow_picatinny_carry_handle,aftermarket QBZ-95/Type 97 extended carry-handle rail (Picatinny),optic mount / top rail (sight competitor) not handguard
+misfiled,handguard,railscales_rsb_vg,RailScales rail scale with integral vertical grip,foregrip (vertical) not handguard
+misfiled,handguard,resolute_ind_mi24c_mount,unidentified Mosin 91/30 rear-sight scout/optic rail (MI-24C extended model),"optic mount (Rail System on mosin_mount), not a handguard"
+misfiled,handguard,sc_irregulars_omm_3_slot_board_front,Irregular Defense OMM board (OMM rail add-on),"mount accessory (rail board), not a handguard"
+misfiled,handguard,sc_irregulars_omm_3_slot_board_rear,Irregular Defense OMM board (OMM rail add-on),"mount accessory (rail board), not a handguard"
+misfiled,handguard,sc_irregulars_omm_4_slot_board_front,Irregular Defense OMM board (OMM rail add-on),"mount accessory (rail board), not a handguard"
+misfiled,handguard,sc_irregulars_omm_4_slot_board_rear,Irregular Defense OMM board (OMM rail add-on),"mount accessory (rail board), not a handguard"
+misfiled,handguard,sc_irregulars_omm_6_slot_board_front,Irregular Defense OMM board (OMM rail add-on),"mount accessory (rail board), not a handguard"
+misfiled,handguard,sc_irregulars_omm_6_slot_board_rear,Irregular Defense OMM board (OMM rail add-on),"mount accessory (rail board), not a handguard"
+misfiled,handguard,sc_irregulars_omm_8_slot_board_front,Irregular Defense OMM board (OMM rail add-on),"mount accessory (rail board), not a handguard"
+misfiled,handguard,sc_irregulars_omm_8_slot_board_rear,Irregular Defense OMM board (OMM rail add-on),"mount accessory (rail board), not a handguard"
+misfiled,handguard,spinner_extended_multislot_rail_base,generic extended Picatinny scope base for Remington 700,optic mount (receiver scope base) not handguard
+misfiled,handguard,steyr_aug_a3_m1_extended_factory_rail,Steyr AUG A3 M1 extended Picatinny rail,mount
+misfiled,handguard,steyr_aug_a3_m1_high_sight_mount,Steyr AUG A3 M1 high Picatinny rail,mount
+misfiled,handguard,steyr_aug_a3_sa_top_rail,Steyr AUG A3 SA standard top rail,mount
+misfiled,handguard,steyr_aug_a3_sa_xs_top_rail,Steyr AUG A3 SA (USA) short top rail,mount
+misfiled,handguard,steyr_aug_z_subcompact_swat_keymod_top_rail,Steyr AUG Z subcompact/SWAT KeyMod top rail,mount
+misfiled,handguard,ultimak_m1_b_gastube,UltiMAK M1-B gas tube optic mount,really a scout optic mount (mount)
+misfiled,internals,corvus_mounts_m4_trigger_guard,Badger Ordnance M5 detachable bottom metal,"really magwell/bottom metal (already in magwell set), not a trigger guard"
+misfiled,internals,resolute_bolt,"unidentified (aftermarket Mosin bolt, likely bent-handle conversion)","really a bolt handle (integrated, no child handle slot)"
+misfiled,iron_sight,af_far_long_carry_handle,FAL long folding carry handle,carry handle is receiver furniture not a sight
+misfiled,iron_sight,ak12_gen2_dustcover,Kalashnikov AK-12 Gen2 railed dust cover,receiver (dust cover)
+misfiled,iron_sight,ak12_std_415mm_barrel,AK-12 standard 415mm barrel,barrel
+misfiled,iron_sight,archient_technologies_elysium_addon_module,Elysium (2013 film) AK prop top module,"accessory mount module, not iron sight or handguard"
+misfiled,iron_sight,harmony_fast_micro_mount,Unity Tactical FAST Micro mount,"optic mount, not iron sight"
+misfiled,iron_sight,hart_m4fs_gasblock,Colt M4 front sight base (F-marked FSB gas block),gas block with integral front sight
+misfiled,iron_sight,holotec_553_hood,EOTech 553 hood,"optic accessory, not iron sight"
+misfiled,iron_sight,holotec_exps2_green_hood,EOTech EXPS2 green hood,"optic accessory, not iron sight"
+misfiled,iron_sight,holotec_exps2_hood,EOTech EXPS2 hood,"optic accessory, not iron sight"
+misfiled,iron_sight,holotec_exps3_hood,EOTech EXPS3 hood,"optic accessory, not iron sight"
+misfiled,iron_sight,kazarov_group_ak12k_314mm_barrel,Kalashnikov AK-12K 314mm barrel,barrel
+misfiled,iron_sight,kazarov_group_std_rpk16_559mm_barrel,Kalashnikov RPK-16 550mm barrel,barrel
+misfiled,iron_sight,sanxian_qbz95_carry_handle,Norinco QBZ-95 carry handle,"carry handle on receiver, treat as receiver/handguard furniture"
+misfiled,iron_sight,sg58_stg58_carry_handle,Steyr StG58 FAL carry handle,carry handle is receiver furniture not a sight
+misfiled,magazine,nbs_ar15_9x19_hart_mag_adapter,unidentified (Colt-pattern 9mm magwell block for AR-15),"magwell adapter (mag_control), not a magazine"
+misfiled,misc,15mm_cqr,HERA Arms CQR 15mm buttstock spacer,stock LOP spacer
+misfiled,misc,30mm_cqr,HERA Arms CQR 30mm buttstock spacer,stock LOP spacer
+misfiled,misc,45mm_cqr,HERA Arms CQR 45mm buttstock spacer,stock LOP spacer
+misfiled,misc,9x19_kriss_magex2_vector,KRISS MagEx2 Gen II +23 Glock 17 mag extension (40 rd),magazine
+misfiled,misc,acog_fs,Trijicon ACOG backup front sight,iron sight
+misfiled,misc,acog_rs,Trijicon ACOG backup rear sight,iron sight
+misfiled,misc,adron_kobra_ekp_8_sunshade,Kobra EKP-8 sunshade,optic accessory
+misfiled,misc,akm_rear_sight_6p1_sb2_1,AKM rear sight leaf 6P1 Sb.2-1,iron sight
+misfiled,misc,azimuth_t2_cordura_fabric_wrap,Aimpoint Micro T-2/H-2 Cordura cover,optic cosmetic
+misfiled,misc,deltapoint_attachment,Leupold DeltaPoint Pro rear cap / cover,optic accessory cover
+misfiled,misc,fit_deluxe_suregrip_palm_shelf,Ergo Grip Deluxe SureGrip palm shelf,pistol grip accessory
+misfiled,misc,glock17l_front_sight,Glock 17L factory front sight,iron sight
+misfiled,misc,glock20_front_sight,Glock 20 factory front sight,iron sight
+misfiled,misc,glock20_std_magazine_release,Glock standard magazine release,magazine control
+misfiled,misc,hart_rear_ironsight_600m,Colt A2 rear sight (600 m drum),iron sight
+misfiled,misc,hk_g3_charging_handle,HK G3 charging handle,control
+misfiled,misc,hk_g3_front_sight_assembly,HK G3 front sight hood,iron sight
+misfiled,misc,hk_g3_rear_sight_assembly_base,HK G3 rear drum sight base,iron sight
+misfiled,misc,hk_g3_rear_sight_assembly_top,HK G3/MP5 rear drum sight,iron sight
+misfiled,misc,hk_mp5_std_front_sight_assembly,HK MP5 front sight hood,iron sight
+misfiled,misc,hk_ump45_bcg,HK UMP45 bolt group,internals
+misfiled,misc,hk_ump9_bcg,HK UMP9 bolt group,internals
+misfiled,misc,hk_ump_top_rail,HK UMP top Picatinny rail,mount
+misfiled,misc,hunterstock_lop_0.5_1,generic Remington 700 hunting-stock LOP spacer,stock LOP spacer
+misfiled,misc,hunterstock_lop_0.5_2,generic Remington 700 hunting-stock LOP spacer,stock LOP spacer
+misfiled,misc,hunterstock_lop_0.5_3,generic Remington 700 hunting-stock LOP spacer,stock LOP spacer
+misfiled,misc,hunterstock_lop_0.5_4,generic Remington 700 hunting-stock LOP spacer,stock LOP spacer
+misfiled,misc,izhevsk_pm_trigger_connect,Makarov PM trigger bar / disconnector,internals (trigger part)
+misfiled,misc,kalis_scalar_gen3_front_cover,KRISS Vector Gen III front cover,receiver cosmetic
+misfiled,misc,kalis_scalar_gen3_mag_release_cover,KRISS Vector Gen III mag release cover,receiver cosmetic
+misfiled,misc,kalis_scalar_std_bolt_carrier_guide_shaft,KRISS Vector bolt carrier guide rod,internals
+misfiled,misc,kalis_scalar_std_charging_handle_support,KRISS Vector charging handle housing,internals container
+misfiled,misc,kalis_scalar_std_front_cover,KRISS Vector front cover (standard),receiver cosmetic
+misfiled,misc,kalis_scalar_std_large_ejection_port,KRISS Vector ejection port (large),receiver cosmetic
+misfiled,misc,kalis_scalar_std_small_ejection_port,KRISS Vector ejection port (small),receiver cosmetic
+misfiled,misc,kazarov_ak_cleaning_rod,Kalashnikov AK-74 cleaning rod,barrel accessory/cosmetic
+misfiled,misc,kazarov_ak_short_cleaning_rod,Kalashnikov AK-105 short cleaning rod,barrel accessory/cosmetic
+misfiled,misc,kosch_default_slide_cover_plate,Glock MOS slide cover plate,optic mount plate
+misfiled,misc,launchtron_psrl_2_tube_shoulder_padding,AirTronic USA PSRL-1/2 launch tube shoulder pad,buttpad on a launcher
+misfiled,misc,maxwell_grip,generic (Maxwell cat meme figurine),cosmetic rail charm not a misc stat part
+misfiled,misc,mcs_lss_nv_hood,MDT LSS chassis night vision hood (forward top rail),"mount (rail bridge), not handguard"
+misfiled,misc,mcs_lss_xl_nv_hood_oversize,MDT LSS-XL Gen2 night vision hood oversized,"mount (rail bridge), not handguard"
+misfiled,misc,mk10_bottom_adapter_large,generic M-LOK Picatinny rail section (long),mount (rail section)
+misfiled,misc,mk10_bottom_adapter_small,generic M-LOK Picatinny rail section (short),mount (rail section)
+misfiled,misc,mk10_side_adapter_large,generic M-LOK Picatinny rail section (long),mount (rail section)
+misfiled,misc,mk10_side_adapter_small,generic M-LOK Picatinny rail section (short),mount (rail section)
+misfiled,misc,mk10_top_adapter_large,generic M-LOK Picatinny rail section (long),mount (rail section)
+misfiled,misc,mk10_top_adapter_small,generic M-LOK Picatinny rail section (short),mount (rail section)
+misfiled,misc,nexa_tactical_p226_4r_mag_extension,P226 +4 magazine base pad (Taran Tactical / Henning style),magazine
+misfiled,misc,pachmayr_rubber_grip_for_g20,Pachmayr Tactical Grip Glove for Glock 20,pistol grip
+misfiled,misc,pachmayr_tactical_glock_grip_glove,Pachmayr Tactical Grip Glove (Glock),pistol grip
+misfiled,misc,paramount_arms_slx_1.53inch_straight_spacer_alt,Primary Arms SLx 1.53in straight riser/spacer,mount
+misfiled,misc,paramount_arms_slx_1x_microprism_acss_g2_scope_alt,Primary Arms SLx 1x MicroPrism ACSS Gen II,optic
+misfiled,misc,precision_intercontinental_roosevelt_700_sa_at_aics_gen2_folding_chassis_external_cover,Accuracy International AT AICS 2.0 folding chassis cover,chassis cosmetic part
+misfiled,misc,scout_scopes_ak_drop_on_rail,AK rear-sight-block drop-in Picatinny rail,optic mount
+misfiled,misc,si_ak_drop_on_rail,AK rear-sight-block drop-in Picatinny rail (Strike Industries style),optic mount
+misfiled,misc,sig_sauer_p320_fcu,SIG Sauer P320 Fire Control Unit,receiver/frame container
+misfiled,misc,sig_sauer_p320_x_mag_funnel,SIG Sauer P320 X-Series magwell,magazine control (magwell)
+misfiled,misc,sno_vulkan_rpg_7_rear_grip,RPG-7V rear pistol grip / trigger group grip,pistol grip
+misfiled,misc,sno_vulkan_rpg_7_rear_sight_zeroing_rail,RPG-7 rear sight (raised),iron sight
+misfiled,misc,sno_vulkan_rpg_7_rear_sight_zeroing_rail_folded,RPG-7 rear sight (folded),iron sight
+misfiled,misc,sno_vulkan_rpg_7_wooden_shoulder_padding,RPG-7 wooden heat shield / shoulder guard,buttpad/furniture
+misfiled,misc,stupid_camera,Fujifilm X-T20 mirrorless camera,joke optic (camera)
+misfiled,misc,truglo_glock_tfx_fs,TruGlo TFX Glock front sight,iron sight
+misfiled,misc,um_3_wilson,UM Tactical UM3 pistol sight mount,"mount, not a compact sight"
+misfiled,misc,veles_dl_2_gen2_sport_handguard_extension,Zenitco DL-2 Gen2 Sport lower handguard extension,handguard part
+misfiled,misc,veles_dl_leader_handguard_extension,Zenitco Leader lower handguard extension,handguard part
+misfiled,misc,veles_leader_insert_rail_handguard_extension,Zenitco Leader upper insert rail,handguard rail panel
+misfiled,misc,veles_pt_1_klassika_adjust_part,Zenit PT-1 Klassika stock adjustable assembly,stock sub-assembly (host for buttpad/cheek riser) not misc
+misfiled,misc,veles_pt_3_base_part,Zenitco PT-3 stock lock / buttstock body,stock container
+misfiled,misc,virticon_glock_supp_height_front_sights_wh_sf,"Trijicon suppressor-height night sights (Glock, white outline)",iron sight
+misfiled,misc,whitehouse_rush_qe_junction_box_legacy_crane_connector,"Wilcox RAID Xe junction box, legacy Crane connector",laser accessory internals
+misfiled,misc,zvetech_kosch_slide_cover,ZEV Technologies optic-cut slide cover plate,optic cut cover plate
+misfiled,muzzle,fd917,Fischer Development FD917 (Glock slide suppressor),"it is a suppressor, not a flash hider (cur_rule says flash_hider)"
+misfiled,muzzle,ips_9x19_1inch_barrel_extension,generic 1in pistol barrel extension,"barrel extension, not a muzzle device"
+misfiled,optic,agr_870_protection_cap,AGR-870 stockless end cap (Remington 870),stock family (stockless option)
+misfiled,optic,aquila_defensio_aug_forward_accessory_rail,Corvus Defensio AUG M-LOK accessory rail,rail adapter/mount rather than foregrip
+misfiled,optic,archient_technologies_ak_gastube_mount_type1,unidentified (AK railed gas tube cover),handguard (railed gas tube)
+misfiled,optic,archient_technologies_ak_gastube_mount_type2,unidentified (AK railed gas tube cover),handguard (railed gas tube)
+misfiled,optic,arid_concepts_charging_handle_mount,unidentified (AUG A3 adjustable charging handle conversion),charging handle
+misfiled,optic,aug_a3_sling_mount,Steyr AUG A3 M1 sling mount,sling/misc
+misfiled,optic,calsport_handguard_long_accessory_rail_bottom,War Sport LVOA long accessory rail,"rail section on the LVOA handguard (rail/handguard accessory, not optic)"
+misfiled,optic,calsport_handguard_long_accessory_rail_side,War Sport LVOA long accessory rail,"rail section on the LVOA handguard (rail/handguard accessory, not optic)"
+misfiled,optic,calsport_handguard_short_accessory_rail_bottom,War Sport LVOA short accessory rail,"rail section on the LVOA handguard (rail/handguard accessory, not optic)"
+misfiled,optic,calsport_handguard_short_accessory_rail_side,War Sport LVOA short accessory rail,"rail section on the LVOA handguard (rail/handguard accessory, not optic)"
+misfiled,optic,centrefire_z68_clicky_tailcap,SureFire Z68 clicky tailcap,really tactical light accessory
+misfiled,optic,cerberus_arms_aug_cantiliver_forend_side_rail,Cerberus Arms AUG cantilever forend side rail,"handguard rail accessory, treated as mount"
+misfiled,optic,cerberus_arms_aug_cantiliver_forend_top_rail,Manticore Arms AUG Cantilever Forend,handguard (top rail with forend)
+misfiled,optic,cosmotac_marsv2_bottom,unidentified (clamp-on picatinny rail for plastic M4 handguard),rail adapter/mount rather than handguard
+misfiled,optic,cosmotac_marsv2_top,unidentified (clamp-on picatinny rail for plastic M4 handguard),rail adapter/mount rather than handguard
+misfiled,optic,holotec_sts_picatinny_mount,EOTech G33.STS switch-to-side mount,category says Magnifier but it is the magnifier mount
+misfiled,optic,ihs_aug_a3_sa_cqc_handguard,Steyr AUG A3 SA CQC rail handguard,really handguard
+misfiled,optic,ihs_aug_a3_sa_cqc_top_rail,unidentified (AUG A3 CQC top rail with forend),handguard (top rail with forend)
+misfiled,optic,kalis_scalar_gen2_late_folding_stock_mount,KRISS Vector Gen II folding stock adapter,stock family (stock host/container)
+misfiled,optic,kalis_scalar_gen3_folding_stock_mount,KRISS Vector Gen III folding stock adapter,stock family (stock host/container)
+misfiled,optic,mp153_4r_mag_cap,MP-153 4-round magazine tube cap,really mag_control
+misfiled,optic,nariakira_inline_scout_mlok_mount,Arisaka Inline Scout Mount M-LOK,"weaponlight mount, not an optic mount (tactical device mount)"
+misfiled,optic,nariakira_inline_scout_picatinny_mount,Arisaka Inline Scout Mount Picatinny,"weaponlight mount, not an optic mount (tactical device mount)"
+misfiled,optic,nariakira_momentary_tailcap,SureFire-style momentary tailcap,really tactical light accessory
+misfiled,optic,pac_mre_railed_front_filler_tube,KAC RAS MRE railed front filler tube (21166-2),really handguard
+misfiled,optic,pac_mre_standard_front_filler_tube,KAC RAS MRE front filler tube,really handguard
+misfiled,optic,pmm_scar_heavy_duty_mlok_bottom_panel,SCAR heavy-duty M-LOK bottom rail section,really handguard (bottom rail mount set with aft_bottom_rail_mount)
+misfiled,optic,pro_tactical_upr_16_4_bottom,unidentified (clamp-on picatinny rail for plastic M4 handguard),rail adapter/mount rather than handguard
+misfiled,optic,pro_tactical_upr_16_4_top,unidentified (clamp-on picatinny rail for plastic M4 handguard),rail adapter/mount rather than handguard
+misfiled,optic,rk_b25_angled_mount,Zenit B-25-style rail base for angled RK grip,really a foregrip mount/adapter (foregrip family)
+misfiled,optic,rk_foregrip_mount,Zenit RK grip rail base,really a foregrip mount/adapter (foregrip family)
+misfiled,optic,rk_short_foregrip_mount,Zenit RK grip rail base,really a foregrip mount/adapter (foregrip family)
+misfiled,optic,sling_mount_ar,generic AR sling mount,misc (sling hardware)
+misfiled,optic,steyr_aug_a3_xs_bottom_accessory_rail,Steyr AUG A3 XS bottom accessory rail,rail adapter/mount rather than foregrip
+misfiled,optic,target_sports_mmh94_mlok_top,unidentified (HK G3/HK94 aftermarket handguard top M-LOK),handguard (rail section)
+misfiled,optic,target_sports_mmh94_picatinny_top,unidentified (HK G3/HK94 aftermarket handguard top Picatinny),handguard (rail section)
+misfiled,optic,veles_b_2l_34mm_rail_grips,Zenitco B-2L 35mm rail section,"rail section on a handguard (rail/handguard accessory, not optic)"
+misfiled,optic,veles_b_2l_34mm_rail_side,Zenitco B-2L 35mm rail section,"rail section on a handguard (rail/handguard accessory, not optic)"
+misfiled,optic,veles_b_2l_34mm_rail_top,Zenitco B-2L 35mm rail section,"rail section on a handguard (rail/handguard accessory, not optic)"
+misfiled,optic,veles_b_2u_75mm_rail_grips,Zenitco B-2U 75mm rail section,"rail section on a handguard (rail/handguard accessory, not optic)"
+misfiled,optic,veles_b_2u_75mm_rail_side,Zenitco B-2U 75mm rail section,"rail section on a handguard (rail/handguard accessory, not optic)"
+misfiled,optic,veles_b_2u_75mm_rail_top,Zenitco B-2U 75mm rail section,"rail section on a handguard (rail/handguard accessory, not optic)"
+misfiled,optic,windsor_armory_sling_swivel,Windham Weaponry sling swivel,misc (sling hardware)
+misfiled,pistol_grip,mp133_153_plastic_pistol_grip,Baikal MP-133/153 pistol grip (no stock),stock (stockless option in mp133_stock slot)
+misfiled,pistol_grip,r870_earthquake_raptor_pistol_grip,Shockwave Raptor birdshead grip,stock (stockless option in r870_stock slot)
+misfiled,pistol_grip,sig_sauer_p320_xcarry_grip_module,SIG Sauer P320 X-Carry grip module,"receiver (frame/grip module), still even"
+misfiled,pistol_grip,sig_sauer_p320_xfull_grip_module,SIG Sauer P320 X-Full grip module,"receiver (frame/grip module), still even"
+misfiled,receiver,dl_precision_p226_229_drd_filler_plate,Aftermarket P226/P229 optic-cut adapter plate,adapter/mount container
+misfiled,receiver,glock20_std_slide_release,Glock standard slide stop lever,reload control
+misfiled,receiver,kosch_ambidextrous_slide_catch,Glock ambidextrous slide stop (Gen5-style),"slide catch is a bolt catch, not a receiver"
+misfiled,receiver,kosch_default_slide_catch,Glock standard slide stop lever,"slide catch is a bolt catch, not a receiver"
+misfiled,receiver,mcs_lss_gen2_carbine_chassis,MDT LSS-XL Gen2 Carbine-interface chassis,sits in stock slot but stock is a separate child (castle nut)
+misfiled,receiver,mcs_rev21_gen2_r700_lower_receiver,MDT TAC21 Gen2 chassis lower section (likely),competes as a stock/chassis in the R700 stock slot but has no integral stock so keep even not stock-typed
+misfiled,receiver,precision_intercontinental_roosevelt_700_sa_at_aics_gen2_folding_chassis_frame,Accuracy International AT AICS 2.0 folding chassis,really a stock (integral precision buttstock)
+misfiled,receiver,rsa_extreme_duty_extended_dust_cover,DSA SA58 Extreme Duty extended rail dust cover,functionally an optic mount
+misfiled,receiver,sic_sturmer_p_series_oem_slide_release,SIG Sauer P-series slide catch lever,slide release is a magazine/reload control (bolt catch)
+misfiled,receiver,tt33_slide_catch,Tokarev TT-33 slide stop,reload control
+misfiled,stock,moe_stock_pad,Magpul MOE stock butt pad,buttpad not stock
+misfiled,tactical,pm_laser_ltsu_pm_laser,PM-Laser LTsU Makarov laser grip,pistol grip (laser grip) not tactical
+other,ammo,10mm_chicago_ammunition_220gr_rnfp,generic 10mm 220gr hardcast RNFP (maker unidentified),recoil -4/-2 looks wrong for a 220gr load
+other,ammo,45acp_munitions_incorporated_230gr_subsonic_tmj,.45 ACP 230gr subsonic TMJ (maker unidentified),loudness empty while every 230gr .45 in the slot has -0.6
+other,ammo,45acp_phoenix_brass_230gr_fmj,CCI Blazer Brass .45 ACP 230gr FMJ,loudness empty while every 230gr .45 in the slot has -0.6
+other,ammo,7.62x54r_tsniitekhmash_7n37_182gr_bs,7.62x54R 7N37 BS tungsten AP,velocity +200 likely high
+other,ammo,7.82x51_hawthorne_308_sub_x_190gr_subsonic,Hornady Subsonic .308 Win 190gr Sub-X,velocity -400 far too small for a subsonic (real ~1050 vs ~2750 fps)
+other,ammo,9x18_bison_caliber_115gr_hcfn,Buffalo Bore 9x18 115gr hardcast FN +P,recoil h 32 / v 65 is wildly out of range (rest of set is -1..2)
+other,ammo,9x18_tsniitekhmash_sp7_gzh_80gr,9x18 SP-7 high-velocity expanding,recoil h 40 / v 55 is wildly out of range (rest of set is -1..2)
+other,barrel,cmmg_mk9_406mm_9x19_m_barrel,CMMG Mk9 16in 9mm barrel (mid-length handguard fit),"same 16in length as _c and _r but E -3/-4/-5, the gap only makes sense if handguard length is implied"
+other,barrel,cnc_warrior_m14x1lh_to_5_8x24rh_muzzle_thread_adapter,CNC Warrior M14x1LH to 5/8x24 thread adapter,velocity -30 and deviation 0.15 are high for a thread adapter
+other,barrel,ips_1_2x28_to_5_8x24_knurled_thread_adapter,generic 1/2x28 to 5/8x24 knurled thread adapter,"bullet_velocity -200, recoil +2/+2 and deviation 0.2 look far too large for a thread adapter"
+other,barrel,mosin_bramit_7.62x54r_suppressor,Bramit (BraMit) Mosin suppressor,"round-6 note classed it as flash_hider, should use suppressor treatment"
+other,barrel,rat_worx_aug_5.56x45_supp_adapter,Rate Worx / Ratworx AUG 1/2x28 suppressor adapter,bullet_velocity +30 on a thread adapter is odd
+other,barrel,roosevelt_model_700_508mm_.308_heavy_barrel,Remington 700 20in heavy .308 (SPS Varmint/Tactical),weight 1.0 lighter than 22in standard 1.1
+other,barrel,roosevelt_model_700_508mm_.308_heavy_threaded_barrel,Remington 700 20in heavy threaded .308 (SPS Tactical),weight 0.99 lighter than 22in standard 1.1
+other,handguard,cgr_abomination,unidentified decorative picatinny rail panel,price 1000 vs 50-300 for functionally identical panels
+other,handguard,tt_c_optic_rail,generic TT-33 optic rail adapter,price 1000 for a zero-effect only-choice rail looks odd
+other,internals,aft_mk20_gas_block,FN SCAR 20S / Mk20 SSR low-profile gas block,bullet_velocity +100 and deviation -0.05 on a gas block look like barrel stats borrowed from the Mk20
+other,internals,hk_psg1_bolt_assembly,HK PSG1 bolt assembly,weight 0 while the G3 bolt is 0.3 dw
+other,internals,kalis_scalar_gen3_trigger,KRISS Vector Gen III trigger,price 300 on an only-choice zero-stat part looks odd
+other,internals,smite_industries_polyflex_ar15_trigger_guard,Strike Industries polymer trigger guard,weight 0.08 dw (about 94 g) looks heavy for a polymer trigger guard
+other,internals,strikon_scr_ar15_frt_trigger,Rare Breed FRT-15 style forced-reset trigger,real FRT raises fire rate
+other,iron_sight,hart_m4a1_carry_handle,Colt M4 detachable carry handle,old E +3 for a tall heavy carry handle exceeds any flip-up BUIS (0-1)
+other,iron_sight,kazarov_ak74m_front_sight_block,AK-74M front sight block,+1 vs AK-74 block 0 has no real basis
+other,iron_sight,sanxian_qbz95_carry_handle,Norinco QBZ-95 carry handle,recoil -1/-3 on a carry handle looks odd
+other,iron_sight,tristar_compact_carry_handle,unidentified compact carry handle,old E +4 at 0.3 dw is the best value in the set for the bulkiest item
+other,iron_sight,vism_pro_rear_600m,"NcSTAR VISM Pro flip-up rear, 600m aperture",E 3 vs 1 for the 200m aperture looks inconsistent
+other,mag_control,mp133_+2r_mag_ex,Baikal MP-133 +2 magazine tube extension,magazine_capacity is blank for tube extensions
+other,mag_control,mp133_+4r_mag_ex,Baikal MP-133 +4 magazine tube extension,magazine_capacity is blank for tube extensions
+other,magazine,7.62x39_rkm_korean_ak_10r_mag,Korean (RKM) AK 7.62x39 10R,pretty name reads ProClip AK-47 Polymer 40R but the item is the Korean RKM 10R (capacity 10)
+other,magazine,9x19_glock_stick_31r_vector,Glock 33R 9mm stick (Vector variant),name says 31R but magazine_capacity is 29
+other,magazine,custom_hart_smg_9x19_50r_extension,Coupled 50R 9mm mag on the Colt SMG coupler (custom),"old E -45 gives handling -11.2, far beyond any drum here, and only 0.57 dw for 50 rounds"
+other,misc,hk_ump9_bcg,HK UMP9 bolt group,price 500 vs 0 for the UMP45 bolt on an only-choice internal
+other,misc,kazarov_ak_cleaning_rod,Kalashnikov AK-74 cleaning rod,v_recoil -1 and deviation +0.02 on a cleaning rod look unjustified
+other,misc,kazarov_ak_short_cleaning_rod,Kalashnikov AK-105 short cleaning rod,v_recoil -1 and deviation +0.01 on a cleaning rod look unjustified
+other,misc,maxwell_grip,generic (Maxwell cat meme figurine),weight 4 dw (4.7 kg) and price 10000 look deliberate joke values - confirm the weight penalty is intended
+other,misc,mcs_lss_xl_nv_hood_oversize,MDT LSS-XL Gen2 night vision hood oversized,"same old E as the small hood despite more weight and an extra M-LOK slot, maybe -2.5"
+other,misc,mk10_bottom_adapter_large,generic M-LOK Picatinny rail section (long),same E as small at 2.5x weight
+other,misc,mk10_bottom_adapter_small,generic M-LOK Picatinny rail section (short),bottom adapters carry +2 h/v recoil while side/top do not
+other,misc,sno_vulkan_rpg_7_rear_sight_zeroing_rail_folded,RPG-7 rear sight (folded),folded sight has same +1 as raised one and hosts no sight
+other,muzzle,alphadog_alpha9_flipped,Alpha Dog Silencers Alpha 9 (inverted),old E -5 vs -6 for the unflipped twin
+other,muzzle,odin_works_tiduro_thread_adapter_module,Odin Works thread adapter,plain adapter carries recoil -9/-9 and velocity -30
+other,muzzle,steyr_aug_a1_tulip_5.56x45_closed_flash_hider,Steyr AUG A1 closed tulip flash hider,price empty while siblings have one
+other,muzzle,tiger_rock_ar10_7.62x51_barrett_style_muzzle_brake_with_jam_nut,Barrett-style 2-chamber AR-10 brake (generic Rock River/DPMS style),velocity -20 and deviation +0.1 odd for a brake
+other,muzzle,tt_pmlaser_dtk_compensator,PM-Laser DTK-TT compensator,velocity -100 large for a compensator
+other,muzzle,watcher_armory_kosch_10mm_comp_weight_compensator,unidentified pistol comp weight,velocity -100 large for a compensator
+other,optic,cosmotac_marsv2_bottom,unidentified (clamp-on picatinny rail for plastic M4 handguard),recoil 1/5 on a rail clamp looks odd
+other,optic,cosmotac_vism_micro_green_dot_red_laser_vdgrlb,NcSTAR VISM micro green dot with red laser,round-6 rule used bulky-sight 1.5x
+other,optic,gunther_mrs_red_dot_sight,Walther MRS reflex sight,old E -6 is heavy for a small budget reflex (Holosun-class are -2)
+other,optic,holotec_owl_lens_caps,laser module lens caps,"+1 ergo on lens caps has no real basis, consider zero"
+other,optic,pac_ras_g3_azimuth_99048_30mm_mount,G3 handguard rail with 30mm Aimpoint ring,"+3 ergo is unusual for a mount, check intent"
+other,optic,pro_tactical_upr_16_4_bottom,unidentified (clamp-on picatinny rail for plastic M4 handguard),recoil 2/2 on a rail clamp looks odd
+other,optic,veles_chelomo_pk06_kobra_sight,ChOMZ PK-06 collimator sight,round-6 rule used bulky-sight 1.5x
+other,receiver,axtell_defense_mk12_upper_receiver,Daniel Defense MK12 SPR upper,h/v recoil +1/+2 (worse) is odd for a free-floated SPR upper
+other,receiver,hk_ump9_upper_receiver,HK UMP9 upper receiver (9mm),old +7 E on a same-size upper looks like balance compensation
+other,receiver,kf_m38_sdmr_lower_receiver,HK M38 SDMR lower receiver,barrel_deviation -0.05 on a lower has no physical basis
+other,receiver,precision_intercontinental_roosevelt_700_sa_at_aics_gen2_folding_chassis_frame,Accuracy International AT AICS 2.0 folding chassis,V=25 is very large even for a chassis
+other,receiver,thorsden_frs15_gen3_ar15_endplate,Thordsen Customs FRS-15 Gen III (modelled as endplate only),real FRS-15 Gen III is a full featureless fixed stock (~0.35-0.6 kg) but here weighs 0.07 kg and behaves as stockless
+other,stock,mosin_promag_archangel_stock,ProMag Archangel OPFOR Mosin-Nagant precision stock,old E 1 so stock_precision gives almost nothing
+other,stock,tsa_g,unidentified,E -15 with worse recoil at 2000 price looks odd for an unknown part
+reload,internals,aquila_defensio_aug_charging_handle,unidentified aftermarket AUG charging handle,if this is an enlarged/extended handle it may deserve a small reload bonus like the Cerberus Raptor
+reload,mag_control,arid_concepts_aug_mag_release_std_paddle,"Arid Defense AUG improved mag release, standard paddle",default paddle with old E0.5 that the current rule moved into handling 1.0
+reload,mag_control,dragoon_systems_l7awm_bottom_plate,Lancer L7AWM floorplate,"standard floorplate with old E1, current rule moved it to handling 1.7"
+reload,mag_control,wfortungsten_3d_printed_aug_nato_magwell,unidentified (3D-printed AUG NATO/STANAG magwell adapter),"reload 0 is correct (conversion, not a flared funnel) but its old E2 sits in handling 3.3"
+reload,magazine,7.62x54_promag_5r,ProMag Archangel Mosin-Nagant AA762R-01 5R,Standard 5R is the stripper-clip fed fixed magazine
+reload,magazine,custom_hart_smg_9x19_50r_extension,Coupled 50R 9mm mag on the Colt SMG coupler (custom),rule read it as a 32+50 long stick (+8%) while 82/32 would be drum-class elsewhere
+reload,magazine,custom_hart_smg_9x19_50r_mag,Colt-pattern 9mm 50R stick (custom/aftermarket),50R 9mm stick got +4% (extended) while 31-33R Glock sticks get +8%
+reload,magazine,custom_hart_smg_mag_coupler,Colt 9mm SMG mag coupler (custom),a coupler exists to make the next reload faster but has reload 0
+reload,magazine,tt33_extended_16r_mag,Custom welded double-length TT-33 16R,got 0 only because the set has no default
+reload,pistol_grip,sic_sturmer_p226_std_two_piece_magwell_grip,SIG Sauer P226 two-piece magwell grips,integrated flared magwell has a real reload reason but reload is 0
+reload,receiver,ardian_weapons_ax556_adac15_lower_receiver,Radian Weapons AX556 ambidextrous lower,real lower has integral ambi bolt catch/mag release

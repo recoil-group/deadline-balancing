@@ -16,6 +16,7 @@ category agents, validated only by build simulation. Nothing here has been playt
 | `review/<family>.csv` | One sheet per family. Each item's old ergonomics next to its new three stats, grouped by competing set, with its EV, the team's strength score before and after, the rule that produced it, and its profile, role, real-world counterpart, confidence and one line of why. Start here. |
 | `profiles/<family>.csv` | Round 7's source of truth for handling and stability: each part's profile, role and research (RULES.md section 15). Edit a row here to change how a part splits. |
 | `review/research_flags.csv` | What the round-7 review found outside handling and stability: other-column values that look wrong, reload and cycling questions, misfiled parts. For the team; nothing in it was applied unless the notes say so. |
+| `review/sense_check.csv` | Every round-8 sense-check finding: what the reviewer found, what was proposed and what happened (applied, applied in the lead's version, left as a judgment call, or flagged for the team). |
 | `review/half_points.csv` | Every half point left after the round-8 whole-number rounding, with the part it is kept apart from (RULES.md section 16). |
 | `review/spread.csv` | Per competing set, how far handling and stability spread against how far ergonomics did (`spread.py`). |
 | `review/weapon.csv` | Weapon base rows. |

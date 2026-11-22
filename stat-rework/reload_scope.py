@@ -77,11 +77,12 @@ EXT_BASE = {
     "9x19_kriss_magex2_vector": 17,
     "custom_hart_smg_9x19_50r_extension": 32,
 }
-# magazines in no competing set (not reachable in the place): the standard they are judged against
+# magazines whose set has no default (or no set at all): the standard they are judged against
 REF_CAP = {
     "9x19_glock_stick_31r": 17, "9x19_glock_stick_31r_vector": 17, "9x19_sgmt_50r_drum": 17,
     "banan_magazine": 30, "glock20_10mm_15r": 15, "hart_32rd": 32, "pf940_gen5_9x19_17r_magazine": 17,
     "custom_hart_smg_9x19_50r_mag": 32, "evermag_hart_ar9_10r_mag": 32, "evermag_hart_ar9_20r_mag": 32,
+    "tt33_std_8rnd": 8, "tt33_extended_16r_mag": 8,  # the TT-33 magazine set has no default
 }
 
 LARGE_FUNNEL = -0.05
@@ -102,6 +103,7 @@ PARTS = {  # name: (reload_time, kind)
     "pmm_scar_17_magwell_type1": (FLARED_MAGWELL, "flared FANG magwell"),
     "pmm_scar_17_magwell_type2": (FLARED_MAGWELL, "flared FANG magwell"),
     "sig_sauer_p320_x_mag_funnel": (FLARED_MAGWELL, "pistol magwell funnel"),
+    "sic_sturmer_p226_std_two_piece_magwell_grip": (FLARED_MAGWELL, "pistol grip with an integral flared magwell (round 7 review)"),
     "corvus_mounts_m4_trigger_guard": (FLARED_MAGWELL, "R700 bottom metal with a flared well and paddle release"),
     "aquila_defensio_aug_enhanced_release_button": (ENHANCED_RELEASE, "enhanced magazine release"),
     "arid_concepts_aug_improved_mag_release": (ENHANCED_RELEASE, "enhanced magazine release"),

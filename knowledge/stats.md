@@ -6,7 +6,7 @@ This document explains the stats relevant to balancing. See [balancing.md](balan
 
 `balancing.csv` contains the base stats for weapons and the general stats for attachments. A completed build starts with the weapon row and adds the stats of its attached parts.
 
-Weight, handling, reload speed, stability, recoil, capacity, deviation, and velocity are additive. Damage and fire rate are fractional modifiers. For example, `0.1` damage adds 10 percent of the weapon's base damage. Muzzle loudness is an additive adjustment to a multiplier that starts at `1`.
+Weight, handling, stability, recoil, capacity, deviation, and velocity are additive. Damage, fire rate and reload time are fractional modifiers. For example, `0.1` damage adds 10 percent of the weapon's base damage. Muzzle loudness is an additive adjustment to a multiplier that starts at `1`.
 
 An empty attachment stat contributes no change. In a change sheet, however, an empty cell can overwrite an existing value when ported.
 
@@ -25,7 +25,7 @@ Some attachment types also have behavior defined outside `balancing.csv`, includ
 | --- | --- | --- |
 | `weight` | lower | Deadline weight units |
 | `handling` | higher | ADS and minor-animation scale, 0 to 100 |
-| `reload_speed` | higher | reload animation scale, 0 to 100 |
+| `reload_time` | lower | fraction of the weapon's base reload time; on the weapon row, the base factor |
 | `stability` | higher | sway scale, 0 to 100, 50 is the old feel |
 | `horizontal_recoil` | lower | recoil scale, normally 0 to 100 |
 | `vertical_recoil` | lower | recoil scale, normally 0 to 100 |
@@ -70,17 +70,28 @@ One dw on the held weapon costs about 15 mobility: roughly 6% draw and stow spee
 
 Total weight is `0.7 body + 5.0 placeholder kit + every carried firearm`, and travel speed is `base / (W / 20 + 1)`.
 
-### Handling, reload speed, and stability
+### Handling, reload time, and stability
 
-These three replaced `ergonomics`, which bundled ADS, reload, draw, sprint-out, arm stamina and minor animations into one number. Each is summed over the weapon row and its parts and read clamped to 0 to 100. The same stacking exceptions apply as for every non-weight stat.
+These three replaced `ergonomics`, which bundled ADS, reload, draw, sprint-out, arm stamina and minor animations into one number. Handling and stability are summed over the weapon row and its parts and read clamped to 0 to 100. Reload time is a time modifier (below). The same stacking exceptions apply as for every non-weight stat.
 
-ADS time and reload speed use **one range for every weapon**, so a point is worth the same on every gun. Weapons whose old per-weapon range differed (the launchers' slower ADS; reload ranges on the AK-12, AK-308, MK9, KF416, PP-19, Scalar, SG58, Mosin, M700, launchers and turret) carry a converted base value so their typical build behaves as before. Sight switch speed and the minor animations still use each weapon's own range.
+ADS time uses **one range for every weapon**, so a handling point is worth the same on every gun. The launchers, whose old ADS range was slower, and the turret carry a converted base handling so their typical build aims as before. Sight switch speed and the minor animations still use each weapon's own range.
 
 | Stat | Owns | One point is worth |
 | --- | --- | --- |
 | `handling` | ADS in and out (0.73 s at 0 to 0.22 s at 100, linear, every weapon), sight switch speed, fire-mode switch, magazine check and other minor animations | about 5 ms of ADS time |
-| `reload_speed` | all reload animations (tactical, empty, quick, per shell), 0.9x at 0 to 1.3x at 100 on every weapon | 0.4% of the native reload animation speed; +12.5 points = +0.05x |
+| `reload_time` | all reload animations (tactical, empty, quick, per shell) and the server reload timers | see below; `-0.01` is 1% less reload time |
 | `stability` | idle (breathing) sway at hip and aimed, sway while moving (walk bob and strafe sway), and the breath-hold cost; `1.4x` sway at 0, `1.0x` at 50, `0.6x` at 100 | 0.8% sway and 1% breath-hold cost |
+
+#### Reload time
+
+```text
+reload duration = animation length x (1 + weapon row reload_time) x clamp(1 + sum of part reload_time, 0.6, 1.6)
+```
+
+- A **part's** `reload_time` is a fraction of the weapon's base reload time: `-0.05` is 5% less time, `0.10` is 10% more. Part values are summed (same stacking exceptions) and applied once, so a part has the same effect on every gun it fits. The sum is clamped to -40% .. +60%.
+- The **weapon row's** `reload_time` is the weapon's base factor on its native animation length, calibrated so the weapon's typical build reloads as long as it did before the rework. It is not a modifier players see; it defines the weapon's base reload time.
+- The default magazine of each slot is `0`. Values are written to 0.001 (0.1% of time).
+- Draw speed (mobility) and the minor animations (handling) are not affected.
 
 Breath-hold drains the arm-stamina bar (60 for everyone) at `4.5/s` at 0 stability, `3.0/s` at 50 and `1.5/s` at 100, multiplied by `1 + 0.2 x seconds held`. Holding breath removes sway entirely and is impossible at an empty bar. Aiming drains the same bar at a rate set by mobility.
 
@@ -89,12 +100,13 @@ Stability replaced the game's hidden barrel-length scaling of moving sway: long 
 For balancing, the rework prices the three against one old ergonomics point (see `stat-rework/RULES.md`):
 
 ```text
-EV = 0.60 * handling + 0.40 * reload_speed + 0.47 * stability     (in old ergonomics points)
+EV = 0.60 * handling + 0.40 * reload_points + 0.47 * stability     (in old ergonomics points)
+reload_points = (1.1 / (1 + reload_time) - 1.1) / 0.004              (1% of reload time ~ 2.75 points)
 ```
 
-A sheet that still has an `ergonomics` column and none of the three loads with all three equal to its ergonomics.
+A sheet that still has an `ergonomics` column and none of the three loads with handling and stability equal to its ergonomics and reloads exactly as it does today.
 
-The stats panel shows reload as a time in seconds (the reload animation length divided by the reload speed), and an attachment's reload speed delta as a percentage.
+The stats panel shows the weapon's reload time in seconds for the standard (magazine not empty) reload, with no bar, and a part's reload time as a percentage ("Reload time -5%"), coloured lower-is-better. Multiplying the two gives the right answer.
 
 ### Recoil
 

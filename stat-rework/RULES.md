@@ -9,7 +9,7 @@ point come from the code contract (summarised in `../knowledge/stats.md`).
 | Stat | Owns | Physical drivers (better →) |
 |---|---|---|
 | `handling` | ADS in/out time, sight switch, fire-mode switch, mag check and other minor animations | light, short, slim front end; good grip angle; collapsed or short stock; low, small sights; nothing hanging off the front |
-| `reload_speed` | reload animations only (tactical, empty, quick, per shell) | magazine design (low capacity, polymer, tapered, no drums), extended/ambi releases, flared magwells, mag pulls and assists, bolt catches and charging handles (empty reloads), receiver features that guide the magazine |
+| `reload_time` | reload animations only (tactical, empty, quick, per shell); a fraction of the weapon's base reload time, **lower is better** | magazine design (low capacity, polymer, tapered, no drums), extended/ambi releases, flared magwells, mag pulls and assists, bolt catches and charging handles (empty reloads), receiver features that guide the magazine |
 | `stability` | idle sway (hip and aimed), sway while moving, breath-hold cost; **50 = today's feel** | mass at the shoulder and hands, a firm stock and cheek weld, front support (foregrips, handstops, bipods); worse with long barrels and front-heavy ends, no stock, braces, folded stocks |
 | weapon weight (not a column) | draw, stow, sprint-out, aimed move speed, aim stamina drain, turn lag (held gun) and travel speed (all carried guns) | already priced by the weight column |
 
@@ -23,8 +23,23 @@ last three now come from weight, so what a part's new stats can carry is the ADS
 of its old value, plus the new stability axis:
 
 ```text
-EV = 0.60 * handling + 0.40 * reload_speed + 0.47 * stability     (in old ergonomics points)
+EV = 0.60 * handling + 0.40 * reload_points + 0.47 * stability     (in old ergonomics points)
+reload_points = (1.1 / (1 + reload_time) - 1.1) / 0.004            (1% of reload time ~ 2.75 points)
 ```
+
+Reload is priced in points of the earlier 0–100 reload stat (contract v4: 0.9× playback at 0 to
+1.3× at 100, so a point was about 0.36% of reload time). The family rules (`rules/<family>.py`)
+still split each item in those points, as `reload_points`; `rules.restat` converts the reload share
+to the sheet's `reload_time` (contract v5):
+
+```text
+reload_time = 1.1 / (1.1 + 0.004 * reload_points) - 1      rounded to 0.001 (0.1% of time)
+```
+
+The conversion is applied to the sheet's half-point value, so every part carries over exactly what
+it had; a shared magazine has one value on every gun it fits. Half a point is at least 0.16% of
+time anywhere in the sheet's range, so rounding to 0.1% keeps every competing set's order.
+Overrides are written directly in `reload_time`.
 
 The weights are the share of an old point's usefulness each new point carries (ADS ≈ 45%,
 reload ≈ 30%, stability priced at ≈ 35%), normalised so that `h = r = E, s = 0` has `EV = E`.
@@ -58,7 +73,7 @@ So the weight credit is **0 in every family** (`rules.credit_for`, kept as a kno
 `DEFAULT_VECTORS`), weight values are unchanged, and the strength formula keeps its weight term:
 
 ```text
-strength = EV(handling, reload_speed, stability) − 20·weight − 0.8·h_recoil − 0.6·v_recoil − …
+strength = EV(handling, reload_time, stability) − 20·weight − 0.8·h_recoil − 0.6·v_recoil − …
 ```
 
 ## 4. Trade-offs inside competing sets
@@ -79,9 +94,12 @@ same place:
 
 - Per stat, stay roughly within ±1.5×|old ergonomics| of the part, or ±3 for parts that had 0 and
   gain a deliberate trade-off.
-- Large single-part values: stocks up to about ±20, drums and very large magazines to −25 reload,
-  barrels to about ±12 per stat. Everything else rarely beyond ±10.
-- Values are in 0.5 steps.
+- Large single-part values: stocks up to about ±20, drums and very large magazines to +10% reload
+  time (−25 reload points), barrels to about ±12 per stat. Everything else rarely beyond ±10
+  (about ±4% reload time).
+- Handling and stability are in 0.5 steps; reload_time in 0.001 steps. Nonzero values under 0.5%
+  (1 point or less) are listed in `review/reload_time_small.csv` for the team to decide whether
+  they are worth showing.
 
 ## 6. Structure of the tree
 
@@ -103,19 +121,26 @@ the note; every such change is listed in `review/other_column_changes.csv`.
 ## 8. Weapon base values
 
 ```text
-base = anchor + identity offset − median part contribution over the weapon's reference builds
+handling, stability:  base = anchor + identity offset − median part contribution over the reference builds
+reload_time:          1 + base = (1 + identity offset) / median over reference builds of
+                                 (today's playback × clamp(1 + part sum, 0.6, 1.6))
 ```
 
 - Anchor: today's median ergonomics of the weapon's reference builds (official gun-game setups
-  and Studio presets, or the stock build when there are none) for handling and reload; 50 for
-  stability. A typical build therefore feels as it does today.
+  and Studio presets, or the stock build when there are none) for handling; 50 for stability. A
+  typical build therefore feels as it does today.
+- Reload (contract v5): the weapon row is the base factor on the weapon's native animation length,
+  `duration = length × (1 + weapon row) × clamp(1 + sum of parts, 0.6, 1.6)`. Today's playback of
+  each reference build comes from its old ergonomics on the place's own reload range (stored in
+  `data/tree.json`), so the median reference build reloads exactly as long as today (to the 0.1%
+  rounding of the base). There are no reload anchors in points any more.
 - Identity offsets (`weapon_identity.csv`) are small, deliberate and roughly EV-neutral, each
-  with a note.
-- Range conversion (contract v4): ADS (0.8 → 0.25) and reload speed (0.9× → 1.3×) use one range
-  on every weapon. Where a weapon's place range differed, its anchor is converted so the typical
-  build keeps today's ADS time or reload playback speed exactly (`weapons.convert`). This is not
-  an identity offset. It moves the launchers' handling anchors (RPG-7 9.6, PSRL 4.2) and the reload
-  anchors of 12 weapons; the place ranges are stored in `data/tree.json`.
+  with a note. `offset_rt` is a fraction of reload time (bullpups +0.022, which is the −6 reload
+  points of before).
+- Range conversion (contract v4): ADS (0.8 → 0.25) uses one range on every weapon. Where a
+  weapon's place range differed, its handling anchor is converted so the typical build keeps
+  today's ADS time exactly (`weapons.convert`). This is not an identity offset. It moves the
+  launchers' handling anchors (RPG-7 9.6, PSRL 4.2) and the turret's (23.7).
 - `python generate.py --calibrate` recomputes `weapon_bases.csv` from the current part rules.
 
 ## 9. Ammunition
@@ -134,7 +159,9 @@ aim of this pass is the stat split, not an ammunition rebalance, so the team dec
 ## 10. Split rules per family
 
 Condensed from `notes/<family>.md`, which give the full tables and reasons. `E` is the old
-ergonomics; EV is kept equal to E unless stated.
+ergonomics; EV is kept equal to E unless stated. Reload amounts here and in the notes are in reload
+points, which `rules.restat` converts to `reload_time` (section 2): +2.5 points is about −0.9% of
+reload time, −25 points is +10%.
 
 - **Magazines**: measured from the set's default magazine (0 on all three; a non-zero default's
   constant moves into the weapon base). Larger than standard: reload 2.125·E, handling 0.25·E;
@@ -200,14 +227,16 @@ ergonomics; EV is kept equal to E unless stated.
 ## 12. Steepened lean in the choice slots
 
 Typical builds sit at today's feel, but many weapons have enough positive parts that one build can
-sit near the 0–100 ceiling of all three stats. Effects read stats clamped to 0–100, so the check
-that builds must choose is judged against `min(max, 100)` (`simulate.py`, "choice margin").
+sit near the ceiling of all three stats. Effects read handling and stability clamped to 0–100, so
+the check that builds must choose is judged against `min(max, 100)` for those two, and for reload
+against the fastest parts sum the weapon's legal builds reach (and the −40% clamp), in points at
+2.75 per 1% of time (`simulate.py`, "choice margin").
 
 `lean.py` steepens, EV-neutrally, the handling-versus-stability lean of stocks, handguards, pistol
 grips and foregrips: inside each item's main competing set, its handling share of value is spread
 away from the set's median share by a factor of 2, clamped so the other stat goes at most a quarter
 of the value negative, and no stat beyond ±25 (stocks, handguards), ±15 (pistol grips) or ±12
-(foregrips) unless the item already was. Reload, zero-value parts, penalty parts, full gun bodies
+(foregrips) unless the item already was. Reload time, zero-value parts, penalty parts, full gun bodies
 and overrides are untouched. Result in the AR stock set: minimal stocks (Viper, MOA SL-K, XM177)
 about h 25 / s 0–3, carbine stocks h 13–15 / s 12–15, the PRS Gen3 h 7.5 / s 25.
 

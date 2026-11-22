@@ -1,6 +1,6 @@
 # Stat rework: tentative full rebalance
 
-This folder turns the old `ergonomics` column into `handling`, `reload_speed` and `stability`
+This folder turns the old `ergonomics` column into `handling`, `reload_time` and `stability`
 for every weapon and attachment, following the stat rework contract
 (`../../deadline/.claude-scratch-stat-rework/CONTRACT.md` on the author's machine; the stat meanings
 are summarised in `../knowledge/stats.md`). The result is `../balancing.csv`.
@@ -17,6 +17,7 @@ category agents, validated only by build simulation. Nothing here has been playt
 | `review/weapon.csv` | Weapon base rows. |
 | `review/simulation_report.md` | Stock, reference (official setups and presets) and optimised builds for every weapon, plus the validation checks. |
 | `review/other_column_changes.csv` | Every change outside the three new columns, with the reason. |
+| `review/reload_time_small.csv` | Parts whose converted reload time is nonzero but under 0.5%, flagged for the team (not changed). |
 | `RULES.md` | The rules the rebalance follows: what each stat owns, value accounting, weight, trade-offs, magnitudes, weapon base values, ammunition. |
 | `notes/<family>.md` | Each family's split rules, in a few lines per sub-category, and its open questions. |
 | `RULES_MINED.md` | What the old sheet and its history imply (the "unwritten rules"). |
@@ -26,14 +27,19 @@ category agents, validated only by build simulation. Nothing here has been playt
 
 ### Reading a value
 
-- **EV** (`0.60·h + 0.40·r + 0.47·s`) is a part's value in old ergonomics points; it should sit near
-  the old ergonomics. A big gap always has a note.
+- **EV** (`0.60·h + 0.40·r + 0.47·s`) is a part's value in old ergonomics points, with `r` the
+  reload points its `reload_time` is worth (1% less time ≈ 2.75 points); it should sit near the old
+  ergonomics. A big gap always has a note.
+- **reload_time** is a fraction of the weapon's base reload time; lower is better. `-0.033` is 3.3%
+  less time, which the review sheets also show as `reload_pct`. Part values are the earlier reload
+  points converted (`RULES.md` section 2), so the default magazine of every set is 0.
 - Inside a competing set, look at the **direction** of each option (handling vs stability vs
   reload), not just the size.
 - Weapon rows hold the platform: a typical build of each weapon lands at its old ergonomics for
-  handling and reload, and at 50 stability (today's feel), before identity offsets. ADS and reload
-  ranges are universal, so weapons whose old ranges differed (launchers, some rifles) carry
-  converted anchors that keep today's ADS time and reload speed; `weapon_bases.csv` says which.
+  handling and at 50 stability (today's feel), before identity offsets. The ADS range is universal,
+  so the launchers and turret carry converted handling anchors that keep today's ADS time. The
+  weapon row's `reload_time` is the base factor on the native reload animation, calibrated so the
+  typical build reloads exactly as long as today; `weapon_bases.csv` shows the working.
 
 ## How to regenerate
 
@@ -74,8 +80,9 @@ at the top of that file, then run `python3 stat-rework/tree.py` to rewrite `data
 
 `port.py` matches columns by name, so an old change sheet that still has `ergonomics` will port
 everything except that column (it warns "Ignored columns: ergonomics"). Rewrite such sheets with the
-three new columns. `diff.py` and `changelog.py` print `Ergonomics x -> Handling a / Reload Speed b /
-Stability c` when comparing an old sheet with a new one.
+three new columns. `diff.py` and `changelog.py` print `Ergonomics x -> Handling a / Reload Time b /
+Stability c` when comparing an old sheet with a new one, and colour `reload_time` changes
+lower-is-better.
 
 ## What to tune first
 

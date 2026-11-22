@@ -8,7 +8,7 @@
 ## Decision: 0 / 0 / 0 on every round (lead's default kept, deliberately)
 
 Rule: a round does not change ADS speed, reload speed or sway, so all ammo gets handling 0,
-reload_speed 0, stability 0. Recoil, deviation, velocity, loudness, weight and price are left
+reload_time 0, stability 0. Recoil, deviation, velocity, loudness, weight and price are left
 exactly as they are; nothing is moved into recoil. Implemented in `rules/ammo.py`; no overrides.
 
 ### What the old ammo ergonomics was

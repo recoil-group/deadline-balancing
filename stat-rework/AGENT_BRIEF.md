@@ -32,8 +32,10 @@ families; you own the values in your families.
 
   ```python
   def restat(item, ctx, base):
-      """Return a dict with handling, reload_speed, stability and _rule (a short reason),
-      or None to keep `base` (the default family split already computed for this item)."""
+      """Return a dict with handling, reload_points, stability and _rule (a short reason),
+      or None to keep `base` (the default family split already computed for this item).
+      reload_points are old ergonomics points of reload; rules.restat converts them to the
+      sheet's reload_time (RULES.md section 2)."""
   ```
 
   `item` fields: `name`, `pretty`, `family`, `category` (Studio display category), `sheet_class`,
@@ -42,13 +44,13 @@ families; you own the values in your families.
   `vertical_recoil`, `magazine_capacity`, `barrel_deviation`, `bullet_damage`, `bullet_velocity`,
   `fire_rate`, `muzzle_loudness`, `price`. `ctx.competitors(item)` gives the items sharing a
   competing set; `ctx.group_items(gid)`, `ctx.groups[gid]`, `ctx.items[name]`, `ctx.tree.att[name]`
-  are also available. Use `rules.ev(h, r, s)` (and, if you need it, `rules.adjusted_ergo(item, rules.credit_for(item), ctx)`) from
+  are also available. Use `rules.ev(h, reload_time, s)` (`rules.time_of(points)` converts reload points) (and, if you need it, `rules.adjusted_ergo(item, rules.credit_for(item), ctx)`) from
   `stat-rework/rules/__init__.py`. Standard library only. Rules should be readable by a balancer:
   small tables and named functions, a docstring at the top stating the family's rules in plain
   words.
   A rule may also return other columns (e.g. `"vertical_recoil": "-3"`) only if the redistribution
   genuinely needs it, with the reason in `_rule`.
-- `stat-rework/overrides/<family>.csv` with header `name,handling,reload_speed,stability,note`
+- `stat-rework/overrides/<family>.csv` with header `name,handling,reload_time,stability,note` (reload_time as a fraction of base reload time)
   (you may add other sheet columns if truly needed). Use it for hand-tuned exceptions the rule does
   not cover; **every row needs a short note**. Empty cell = no override.
 - `stat-rework/notes/<family>.md`: the split rules you applied, a few lines per sub-category, the

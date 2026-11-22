@@ -7,7 +7,7 @@ from pathlib import Path
 STAT_DIRECTIONS = {
     "ergonomics": True,
     "handling": True,
-    "reload_speed": True,
+    "reload_time": False,
     "stability": True,
     "weight": False,
     "horizontal_recoil": False,
@@ -71,9 +71,10 @@ def format_header(header: str) -> str:
     return " ".join(word.capitalize() for word in header.split("_"))
 
 
-# The 0.26 stat rework split ergonomics into these three columns. When an old sheet still has
+# The 0.26 stat rework split ergonomics into these three columns (reload_time is a fraction of the
+# weapon's base reload time, lower is better). When an old sheet still has
 # ergonomics and the new one has only the split, show the split on one line.
-ERGONOMICS_SPLIT = ["handling", "reload_speed", "stability"]
+ERGONOMICS_SPLIT = ["handling", "reload_time", "stability"]
 
 
 def split_change(old_row: dict[str, str], new_row: dict[str, str]) -> str | None:

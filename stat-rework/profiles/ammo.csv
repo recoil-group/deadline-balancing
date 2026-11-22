@@ -1,6 +1,6 @@
 name,profile,role,role_strength,value,handling,stability,counterpart,confidence,why,flags
 10mm_appalachian_silvertip_175gr_jhp,even,,,,,,Winchester Silvertip 10mm 175gr JHP,high,Full-power defensive JHP; ammo default even,
-10mm_chicago_ammunition_220gr_rnfp,even,,,,,,generic 10mm 220gr hardcast RNFP (maker unidentified),low,Heavy hardcast woods load; ammo default even,other: recoil -4/-2 looks wrong for a 220gr load; sister 220gr hardcast (Polar) is +3/+5 and momentum is at or above 180gr FMJ
+10mm_chicago_ammunition_220gr_rnfp,even,,,,,,generic 10mm 220gr hardcast RNFP (maker unidentified),low,Heavy hardcast woods load; ammo default even,"other: recoil -4/-2 looks wrong for a 220gr load; sister 220gr hardcast (Polar) is +3/+5 and momentum is at or above 180gr FMJ; other: (round 8) Recoil -4/-2 is implausible for a 220gr hardcast (sister Polar 220gr is +3/+5), once fixed, its +1 ergo against Polar's -3 inverts too."
 10mm_copperhead_honey_badger_115gr_ehp,even,,,,,,Black Hills HoneyBadger 10mm 115gr,high,Light solid-copper fluted defensive load; ammo default even,
 10mm_federal_fusion_200gr_bsp,even,,,,,,Federal Fusion 10mm 200gr bonded soft point,high,Heavy hunting bonded SP; ammo default even,
 10mm_federal_hst_175gr_jhp,even,,,,,,Federal HST 10mm 200gr JHP (sheet says 175gr),medium,Duty JHP; ammo default even,
@@ -37,7 +37,7 @@ name,profile,role,role_strength,value,handling,stability,counterpart,confidence,
 45acp_lance_lawman_155gr_rht_frangible,even,,,,,,Speer Lawman .45 ACP 155gr RHT frangible,high,Light frangible training load; ammo default even,
 45acp_lance_lawman_230gr_tmj,even,,,,,,Speer Lawman .45 ACP 230gr TMJ,high,Training TMJ; ammo default even,
 45acp_levi_defense_200gr_xtreme_penetrator,even,,,,,,Lehigh Defense .45 ACP 200gr Xtreme Penetrator,high,Fluted monolithic penetrator; ammo default even,
-45acp_munitions_incorporated_230gr_subsonic_tmj,even,,,,,,.45 ACP 230gr subsonic TMJ (maker unidentified),low,Subsonic ball; ammo default even,"other: loudness empty while every 230gr .45 in the slot has -0.6; a subsonic load should too;special: no category, slot or set; likely unused/orphan load, profile moot unless wired up"
+45acp_munitions_incorporated_230gr_subsonic_tmj,even,,,,,,.45 ACP 230gr subsonic TMJ (maker unidentified),low,Subsonic ball; ammo default even,"other: loudness empty while every 230gr .45 in the slot has -0.6; a subsonic load should too;special: no category, slot or set; likely unused/orphan load, profile moot unless wired up; other: (round 8) Loudness empty while every 230gr .45 has -0.6, a subsonic load should be at least that quiet (orphan, moot unless wired up)."
 45acp_phoenix_brass_230gr_fmj,even,,,,,,CCI Blazer Brass .45 ACP 230gr FMJ,high,Range ball; ammo default even,"other: loudness empty while every 230gr .45 in the slot has -0.6;special: no category, slot or set; likely unused/orphan load, profile moot unless wired up"
 45acp_pulsar_225gr_red_tracer,even,,,,,,.45 ACP red tracer (maker unidentified),low,Tracer load; ammo default even,
 45acp_s2_research_162gr_rip,even,,,,,,G2 Research RIP .45 ACP 162gr,high,Fragmenting copper defensive load; ammo default even,
@@ -109,16 +109,16 @@ name,profile,role,role_strength,value,handling,stability,counterpart,confidence,
 7.62x54r_pga_rifle_150gr_spbt,even,,,,,,Prvi Partizan 7.62x54R 150gr SP,high,Commercial soft point; ammo default even,
 7.62x54r_s&b_174gr_hpbt,even,,,,,,Sellier & Bellot 7.62x54R 174gr HPBT match,high,Commercial match load; ammo default even,
 7.62x54r_tsniitekhmash_57_n_323s_148gr_lps,even,,,,,,7.62x54R 57-N-323S LPS ball,high,"Baseline ball, all-zero default; even",
-7.62x54r_tsniitekhmash_7n37_182gr_bs,even,,,,,,7.62x54R 7N37 BS tungsten AP,high,Tungsten-core AP; ammo default even,other: velocity +200 likely high; real 7N37 is roughly LPS speed (about 820 m/s) with a heavier bullet
+7.62x54r_tsniitekhmash_7n37_182gr_bs,even,,,,,,7.62x54R 7N37 BS tungsten AP,high,Tungsten-core AP; ammo default even,"other: velocity +200 likely high; real 7N37 is roughly LPS speed (about 820 m/s) with a heavier bullet; other: (round 8) Velocity +200 looks high, real 7N37 runs about LPS speed with a heavier bullet (round-7 flag, still open)."
 7.62x54r_tsniitekhmash_bramit_148gr_subsonic,even,,,,,,7.62x54R US subsonic (for Bramit suppressor),high,Subsonic for suppressed Mosin; ammo default even,
-7.82x51_hawthorne_308_sub_x_190gr_subsonic,even,,,,,,Hornady Subsonic .308 Win 190gr Sub-X,high,Heavy subsonic for suppressed rifles; ammo default even,other: velocity -400 far too small for a subsonic (real ~1050 vs ~2750 fps); other subsonics here are -1000 to -1200; special: internal name prefix '7.82x51' is a typo for 7.62x51
-7.82x51_laccio_308app_extrema_leadless_168gr_tipped_tsx_bt,even,,,,,,Fiocchi Extrema .308 Win 168gr Barnes TTSX,medium,Lead-free hunting load; ammo default even,special: internal name prefix '7.82x51' is a typo for 7.62x51
-9x18_bison_caliber_115gr_hcfn,even,,,,,,Buffalo Bore 9x18 115gr hardcast FN +P,high,Heavy +P hardcast; ammo default even,"other: recoil h 32 / v 65 is wildly out of range (rest of set is -1..2); likely a typo, maybe 3.2/6.5"
+7.82x51_hawthorne_308_sub_x_190gr_subsonic,even,,,,,,Hornady Subsonic .308 Win 190gr Sub-X,high,Heavy subsonic for suppressed rifles; ammo default even,"other: velocity -400 far too small for a subsonic (real ~1050 vs ~2750 fps); other subsonics here are -1000 to -1200; special: internal name prefix '7.82x51' is a typo for 7.62x51; other: (round 8) Velocity -400 is far too small for a subsonic (other subsonics are -1000 to -1200), internal name prefix 7.82x51 is a typo."
+7.82x51_laccio_308app_extrema_leadless_168gr_tipped_tsx_bt,even,,,,,,Fiocchi Extrema .308 Win 168gr Barnes TTSX,medium,Lead-free hunting load; ammo default even,special: internal name prefix '7.82x51' is a typo for 7.62x51; other: (round 8) Internal name prefix 7.82x51 is a typo for 7.62x51.
+9x18_bison_caliber_115gr_hcfn,even,,,,,,Buffalo Bore 9x18 115gr hardcast FN +P,high,Heavy +P hardcast; ammo default even,"other: recoil h 32 / v 65 is wildly out of range (rest of set is -1..2); likely a typo, maybe 3.2/6.5; other: (round 8) Recoil h 32 / v 65 against -1..2 for the rest of the set, almost certainly a typo (3.2 / 6.5?)."
 9x18_hawthorne_xtp_95gr_jhpfb,even,,,,,,Hornady Custom 9x18 95gr XTP,high,Commercial defensive JHP; ammo default even,
 9x18_kazarov_7n25_pbm_56gr_ap,even,,,,,,9x18 7N25 PBM AP,high,High-velocity steel-core AP; ammo default even,
 9x18_novosibirsk_57_n_181s_92gr_pst,even,,,,,,9x18 57-N-181S PM ball,high,"Baseline ball, all-zero default; even",
 9x18_novosibirsk_57_t_181_56gr_red_tracer,even,,,,,,9x18 tracer,medium,Tracer load; ammo default even,
-9x18_tsniitekhmash_sp7_gzh_80gr,even,,,,,,9x18 SP-7 high-velocity expanding,high,High-velocity expanding load (~420 m/s); ammo default even,"other: recoil h 40 / v 55 is wildly out of range (rest of set is -1..2); likely a typo, maybe 4/5.5"
+9x18_tsniitekhmash_sp7_gzh_80gr,even,,,,,,9x18 SP-7 high-velocity expanding,high,High-velocity expanding load (~420 m/s); ammo default even,"other: recoil h 40 / v 55 is wildly out of range (rest of set is -1..2); likely a typo, maybe 4/5.5; other: (round 8) Recoil h 40 / v 55 against -1..2 for the rest of the set, almost certainly a typo (4 / 5.5?)."
 9x18_underworld_xtreme_penetrator_95gr_sm,even,,,,,,Underwood 9x18 Xtreme Penetrator (Lehigh),high,Fluted monolithic penetrator; ammo default even,
 9x19_appalachian_m1152_115gr_fmjfn,even,,,,,,9x19 M1152 115gr FMJ flat nose,medium,Military flat-nose ball; ammo default even,
 9x19_appalachian_m882_124gr_fmj,even,,,,,,9x19 M882 124gr ball,high,Standard NATO ball; ammo default even,

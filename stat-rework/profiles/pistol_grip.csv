@@ -9,12 +9,12 @@ ecm_gunslinger_mod3_ar15_pistol_grip,even,,,,,,BCM Gunfighter Mod 3 grip,high,"S
 equinox_ex15_orion_pistol_grip,even,,,,,,AeroKnox Orion aluminium AR grip,medium,"Light aluminium designer grip; no clear role, round-6 support typing was by weight.",
 fit_deluxe_ar15_suregrip,even,,,,,,Ergo Deluxe Tactical SureGrip,medium,Rubber palm-swell grip; nicer at both.,"special: hosts the palm shelf child, which carries the supported-hold value"
 gral_s_pistol_grip,even,,,,,,Naroh Arms GRAL-S AR grip,medium,Ordinary aftermarket AR grip.,
-hart_a1_chopped_pistol_grip,even,compact,,,,,"Colt A1 pistol grip, shortened (chopped)",medium,"Cut-down A1 for short carbines/pistols; quick and light, poor hand fill for steady fire.",
+hart_a1_chopped_pistol_grip,even,compact,strong,,,,"Colt A1 pistol grip, shortened (chopped)",medium,"Cut-down A1 for short carbines/pistols; quick and light, poor hand fill for steady fire. Round 8: the compact grip came out less handy than the plain A1 it is cut from; strong compact makes it the handier, less steady choice.",
 hart_a1_pistol_grip,even,,,,,,Colt A1 pistol grip,high,Classic early AR grip; era order kept below A2.,
 hart_a2_pistol_grip,even,,,,,,Colt A2 pistol grip,high,Standard AR grip; set default.,
 hera_arms_cqr_gen2_pistol_grip,even,,,,,,Hera Arms CQR Gen 2 (grip part of the CQR set),medium,Grip half of the CQR Gen2 system; bulky hand fill but no clear gun role.,"special: pairs with the separate CQR Gen2 stock in ar15_endplate; it is a real grip, not the stock-grip"
 hk_g3_plastic_pistol_grip,even,,,,,,HK G3 polymer pistol grip,high,Standard G3/MP5 grip.,
-hk_psg1_grip_palm_rest,even,,,,,,HK PSG1 grip palm shelf,high,Palm shelf of the PSG1 grip; sits only on that grip.,special: only-choice child of hk_psg1_wooden_grip; parent carries the role
+hk_psg1_grip_palm_rest,even,marksman,,,,,HK PSG1 grip palm shelf,high,Palm shelf of the PSG1 grip; sits only on that grip. Round 8: with the rest on even the marksman PSG1 grip came out handier than the plain G3 grip; marksman like the palm shelf.,special: only-choice child of hk_psg1_wooden_grip; parent carries the role
 hk_psg1_wooden_grip,even,marksman,,,,,HK PSG1 precision pistol grip,high,"Sniper grip with adjustable palm shelf for the PSG1; steady but slow, poor on an MP5.","special: hosts the palm rest child; role only on this grip, not the rest"
 izhevsk_pm_bakelite_grip,even,,,,,,Izhmash PM bakelite grip panels,high,"Factory Makarov grip; default, E 0.",
 kalis_scalar_gen3_ar15_pistol_grip,even,,,,,,KRISS Vector Gen 3 beavertail pistol grip,high,Beavertail grip with swappable cores; not a CQB form despite round-6 typing.,special: hosts grip core child (scalar_grip_bottom_plate)
@@ -49,12 +49,12 @@ rsa_sg58_wooden_grip,even,,,,,,DSA SA58 wooden pistol grip,medium,"Wood FAL grip
 scar47_pistol_grip,even,,,,,,FN SCAR standard pistol grip,high,Factory SCAR grip; set default.,
 sg58_std_grip,even,,,,,,DSA SA58 standard pistol grip,high,Factory FAL grip; set default.,
 sic_sturmer_p226_std_two_piece_grip,even,,,,,,SIG Sauer P226 standard two-piece grips,high,"Factory grip panels; default, E 0.",
-sic_sturmer_p226_std_two_piece_magwell_grip,even,,,,,,SIG Sauer P226 two-piece magwell grips,high,Factory panels with flared magwell; its real benefit is reload.,reload: integrated flared magwell has a real reload reason but reload is 0; consider moving its point to reload
+sic_sturmer_p226_std_two_piece_magwell_grip,reload_only,,,,,,SIG Sauer P226 two-piece magwell grips,high,Factory panels with flared magwell; its real benefit is reload. Round 8: its value is its -3% magwell; the P320-X funnel with the same old value and reload is reload only too.,reload: integrated flared magwell has a real reload reason but reload is 0; consider moving its point to reload
 sig_sauer_p320_xcarry_grip_module,even,,,,,,SIG Sauer P320 X-Carry grip module,high,Pistol frame (grip module); receivers are even.,"misfiled: receiver (frame/grip module), still even;special: hosts slide, mag and controls"
 sig_sauer_p320_xfull_grip_module,even,,,,,,SIG Sauer P320 X-Full grip module,high,Full-size pistol frame; receivers even.,"misfiled: receiver (frame/grip module), still even;special: round-6 override leaned it steady-slow; even gives 0/0"
 sno_vulkan_rpg_7_pistol_grip,even,,,,,,RPG-7 pistol grip,medium,Factory launcher grip; only choice.,special: only-choice part
 ss_apex_ak_ar15_adapter,even,,,,,,AK-to-AR15 pistol grip adapter (e.g. Strike Industries / Apex style),low,"Adapter that lets AR grips fit AKs; its -1 is a small fit cost, value sits on the child grip.",special: container for ar15_pistol_grip child; keep the small -1 as a cost on both stats (or zero it)
-tactical_dynamics_anodized_skeletonized_ar15_pistol_grip,even,compact,,,,,Tactical Dynamics skeletonized aluminium AR-15 grip,medium,"Ultralight skeleton grip for lightweight/speed builds; little palm contact, less steady.",
+tactical_dynamics_anodized_skeletonized_ar15_pistol_grip,even,compact,strong,,,,Tactical Dynamics skeletonized aluminium AR-15 grip,medium,"Ultralight skeleton grip for lightweight/speed builds; little palm contact, less steady. Round 8: as the chopped A1.",
 talon_aug_foregrip_wrap,even,,,,,,Talon Grips AUG foregrip wrap,high,Adhesive texture wrap; tiny comfort value.,special: only-choice part
 talon_aug_pistol_grip_wrap,even,,,,,,Talon Grips AUG pistol grip wrap,high,Adhesive texture wrap; tiny comfort value.,special: only-choice part
 timber_creek_enforcer_pistol_grip,even,,,,,,Timber Creek Outdoors Enforcer AR grip,high,"Lightweight aluminium AR grip; comfort/weight, not a role.",

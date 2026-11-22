@@ -22,7 +22,7 @@ archient_technologies_ak_gastube_mount_type1,even,,,,,,unidentified (AK railed g
 archient_technologies_ak_gastube_mount_type2,even,,,,,,unidentified (AK railed gas tube cover),low,Railed upper gas tube handguard; handguard family default even,misfiled: handguard (railed gas tube)
 arid_concepts_charging_handle_mount,handling,,,,,,unidentified (AUG A3 adjustable charging handle conversion),low,Charging handle conversion; operating control so handling only,misfiled: charging handle; special: hosts a child charging handle part so check value is not counted twice
 aug_a1_receiver_top_backup_sights,zero,,,,,,Steyr AUG backup iron sights,medium,Default only-choice placeholder with no weight or value,special: only-choice default with no effect
-aug_a3_sling_mount,even,,,,,,Steyr AUG A3 M1 sling mount,low,Sling mount with no real handling or stability case; even default,misfiled: sling/misc; special: only-choice +3 on a sling mount is effectively part of the AUG base stats
+aug_a3_sling_mount,zero,,,,,,Steyr AUG A3 M1 sling mount,low,Sling mount with no real handling or stability case; even default Round 8: only-choice sling mount at +3/+3 has no physical case; the AUG A3 base absorbs it.,misfiled: sling/misc; special: only-choice +3 on a sling mount is effectively part of the AUG base stats
 aug_a3sf_top_rail_2,zero,,,,,,Steyr AUG scope top rail,medium,Small rail on integral scope with no weight or value,special: weight and ergonomics blank
 azimuth_30mm_low_ring_mount,mount,,,,,,Aimpoint 30mm low ring mount,high,"Single 30mm ring for tube red dots; mount, zero value",
 azimuth_amm_dovetail_11mm_mount,mount,,,,,,Aimpoint Micro 11mm dovetail mount,medium,"Dovetail base for Micro-footprint dots; mount, zero value",
@@ -38,9 +38,9 @@ azimuth_electronic_g2_red_dot,optic_compact,,,,,,Aimpoint tube red dot (Comp-ser
 azimuth_micro_lrp_qd_mount,mount,,,,,,Aimpoint Micro LRP QD mount,high,"Lever QD mount for Aimpoint Micro; mount, zero value",
 azimuth_micro_spacer_high_39mm,mount,,,,,,Aimpoint Micro spacer 39mm,high,Micro mount height spacer; mount handling only,
 azimuth_micro_spacer_low_30mm,mount,,,,,,Aimpoint Micro spacer 30mm,high,Micro mount height spacer; mount handling only,
-azimuth_micro_t1_sight,optic_compact,,,,,,Aimpoint Micro T-1,high,Micro red dot; compact optic handling only,
+azimuth_micro_t1_sight,optic_compact,,,-1,,,Aimpoint Micro T-1,high,Micro red dot; compact optic handling only Round 8: a half point kept it apart from the CompM5 (-1) and so kept an inversion: the Micro is smaller and lighter.,
 azimuth_micro_t2_lens_caps,optic_compact,,,,,,Aimpoint Micro T-2 flip-up lens covers,high,Lens covers on a red dot; take host sight profile,special: only-choice accessory; value effectively belongs to host sight
-azimuth_micro_t2_sight,optic_compact,,,,,,Aimpoint Micro T-2,high,Micro red dot; compact optic handling only,
+azimuth_micro_t2_sight,optic_compact,,,-1,,,Aimpoint Micro T-2,high,Micro red dot; compact optic handling only Round 8: as the Micro T-1.,
 azimuth_qrp1_30mm_mount,mount,,,,,,Aimpoint QRP2 30mm mount,high,Quick-release ring mount for a 30mm red dot; mount family default,
 azimuth_qrp1_30mm_mount_w_spacer,mount,,,,,,Aimpoint QRP2 mount with 39mm spacer,high,Raised 30mm ring mount; mount default,
 azimuth_qrp2_modular_base_mount,mount,,,,,,Aimpoint QRP2 mount,high,"Modular QD base for Aimpoint duty dots; mount, zero value",
@@ -60,9 +60,9 @@ chelomo_cup,optic_scope,,,,,,Belomo PSO-1 eye cup,medium,Eye cup of PSO-1; follo
 chelomo_pk_a_1x20_dovetail_scope,optic_compact,,,,,,Belomo PK-A 1x red dot,high,1x enclosed collimator sight; compact optic handling only,
 corvus_mounts_c1_30mm_12oclock_rmr_mount_for_arc,mount,,,,,,Badger Ordnance Condition One 12 o'clock RMR mount (ARC),medium,Ring-top adapter for an offset dot; mount,"special: only choice, zero value"
 corvus_mounts_c1_30mm_12oclock_t1_optical_half_tube_plate,mount,,,,,,Badger Ordnance C1 30mm 12 o'clock T1 plate,medium,Ring cap with dot plate; mount,
-corvus_mounts_c1_30mm_accessory_arc_ring_cap,mount,,,,,,Badger Ordnance C1 30mm 12 o'clock accessory ARC ring cap,medium,Ring cap with ARC accessory rail; mount,special: pretty name duplicates the T1/T2 plate; should read ARC ring cap
+corvus_mounts_c1_30mm_accessory_arc_ring_cap,mount,,,,,,Badger Ordnance C1 30mm 12 o'clock accessory ARC ring cap,medium,Ring cap with ARC accessory rail; mount,"special: pretty name duplicates the T1/T2 plate; should read ARC ring cap; other: (round 8) pretty_name duplicates the 30mm T1/T2 optical half tube plate, should read Accessory ARC Ring Cap."
 corvus_mounts_c1_34mm_12oclock_t1_optical_half_tube_plate,mount,,,,,,Badger Ordnance C1 34mm 12 o'clock T1 plate,medium,Ring cap with dot plate; mount,
-corvus_mounts_c1_34mm_accessory_arc_ring_cap,mount,,,,,,Badger Ordnance C1 34mm 12 o'clock accessory ARC ring cap,medium,Ring cap with ARC accessory rail; mount,special: pretty name duplicates the T1/T2 plate; should read ARC ring cap
+corvus_mounts_c1_34mm_accessory_arc_ring_cap,mount,,,,,,Badger Ordnance C1 34mm 12 o'clock accessory ARC ring cap,medium,Ring cap with ARC accessory rail; mount,"special: pretty name duplicates the T1/T2 plate; should read ARC ring cap; other: (round 8) pretty_name duplicates the 34mm T1/T2 optical half tube plate, should read Accessory ARC Ring Cap."
 corvus_mounts_comm_30mm_mount_body,mount,,,,,,unidentified,low,"Modular 30mm scope mount body hosting rings and arm; mount, zero value",special: container; rings and J-arm children carry any values
 corvus_mounts_comm_30mm_ring_half,mount,,,,,,Badger Ordnance Condition One 30mm ring cap,medium,Plain ring top half; mount,
 corvus_mounts_comm_34mm_mount_body,mount,,,,,,Badger Ordnance C.O.M.M. 34mm 1.54in mount,high,One-piece 34mm scope mount body; value is clutter/bulk on top of gun,special: hosts ring halves and J-arm children
@@ -166,7 +166,7 @@ monstrum_tactical_s232p_2x32_prism_scope,optic_compact,,,,,,Monstrum Tactical S2
 mosin_rear_sight_mount,mount,,,,,,Mosin rear sight base,high,Rear sight base; mount,special: only choice
 mp153_4r_mag_cap,magazine,,,,,,MP-153 4-round magazine tube cap,medium,"Shotgun tube cap, a magazine control; existing magazine rule",misfiled: really mag_control;special: E=12 is the default baseline (current values all 0)
 nariakira_inline_scout_mlok_mount,mount,,,,,,Arisaka Inline Scout Mount M-LOK,high,"Low-profile M-LOK mount for Scout-style weaponlights; mount, value zero","misfiled: weaponlight mount, not an optic mount (tactical device mount); special: only choice on M-LOK slot"
-nariakira_inline_scout_picatinny_mount,mount,,,,,,Arisaka Inline Scout Mount Picatinny,high,"Low-profile picatinny mount for Scout-style weaponlights; mount, zero value","misfiled: weaponlight mount, not an optic mount (tactical device mount)"
+nariakira_inline_scout_picatinny_mount,mount,,,,,,Arisaka Inline Scout Mount Picatinny,high,"Low-profile picatinny mount for Scout-style weaponlights; mount, zero value","misfiled: weaponlight mount, not an optic mount (tactical device mount); other: (round 8) Weaponlight mount sitting in the optic rail set, slot or category is wrong, values fine at 0"
 nariakira_momentary_tailcap,handling,,,,,,SureFire-style momentary tailcap,medium,"Light tailcap switch; zero value, light accessories cost handling",misfiled: really tactical light accessory
 nightforce_atacr7_35x56_f1,optic_scope,,,,,,Nightforce ATACR 7-35x56 F1,high,Large high-magnification precision scope; scope profile,
 nomz_pilad_p3.5x20c_scope,optic_scope,,,,,,NPZ Pilad P3.5x20C,high,3.5x fixed rifle scope; magnified so it pays the small stability tax.,
@@ -200,7 +200,7 @@ precision_intercontinental_at_aics_gen2_frame_mount,mount,,,,,,Accuracy Internat
 pri_ar15_std_carry_handle_mount,mount,,,,,,PRI flat-top carry handle with rail,medium,Detachable carry handle with irons and top rail; mount handling only,
 priceli_narod_okp_7_dovetail,optic_compact,,,,,,Pilad OKP-7 dovetail reflex sight,high,1x reflex collimator sight; compact optic handling only,
 priceli_narod_okp_7_picatinny,optic_compact,,,,,,Axion OKP-7 reflex (picatinny),high,Compact Russian reflex sight; compact optic,
-pro_tactical_upr_16_4_bottom,mount,,,,,,unidentified (clamp-on picatinny rail for plastic M4 handguard),low,Clamp-on rail adapter for plastic handguard; bulk costs handling only,misfiled: rail adapter/mount rather than handguard; other: recoil 2/2 on a rail clamp looks odd
+pro_tactical_upr_16_4_bottom,mount,,,,,,unidentified (clamp-on picatinny rail for plastic M4 handguard),low,Clamp-on rail adapter for plastic handguard; bulk costs handling only,"misfiled: rail adapter/mount rather than handguard; other: recoil 2/2 on a rail clamp looks odd; other: (round 8) Recoil 2/2 (and CosmoTac MARSV2 bottom 1/5) on a clamp-on rail, while the identical top versions carry none."
 pro_tactical_upr_16_4_top,mount,,,,,,unidentified (clamp-on picatinny rail for plastic M4 handguard),low,Clamp-on rail adapter for plastic handguard; bulk costs handling only,misfiled: rail adapter/mount rather than handguard
 pu_3.5x_scope,optic_scope,,,,,,Soviet PU 3.5x scope,high,Classic 3.5x scope on a side mount; magnified so it pays the small stability tax.,
 pu_scope_mount,mount,,,,,,Mosin PU 3.5x scope side mount,high,Side ring mount for PU scope; mount,
@@ -229,12 +229,12 @@ scipio4t_folded_lens_caps,optic_compact,,,,,,SIG Sauer Romeo4T flip lens caps (o
 scipio4t_lens_caps,optic_compact,,,,,,SIG Sauer Romeo4T lens caps,medium,Cap accessory of a compact red dot; follows its host profile.,special: cosmetic accessory whose value only makes sense alongside the Romeo4T host
 sic_sturmer_i_beam_1.41inch_mount,mount,,,,,,unidentified,low,"Absolute co-witness riser for Micro-footprint dots; mount, zero value",
 sic_sturmer_i_beam_1.93inch_mount,mount,,,,,,unidentified,low,"Lower-third riser for Micro-footprint dots; mount, zero value",
-sic_sturmer_scipio4b_sight,optic_compact,,,,,,Sig Sauer Romeo4B,high,Compact red dot; compact optic handling only,
-sic_sturmer_scipio4t_sight,optic_compact,,,,,,Sig Sauer Romeo4T,high,Compact red dot; compact optic handling only,
-sic_sturmer_scipio5_gen2_elite_sight,optic_compact,,,,,,Sig Sauer Romeo5 Gen II (Elite/XDR),high,Micro red dot; compact optic handling only,
-sic_sturmer_scipio5_gen2_sight,optic_compact,,,,,,Sig Sauer Romeo5 Gen II,high,Micro red dot; compact optic handling only,
+sic_sturmer_scipio4b_sight,optic_compact,,,-1,,,Sig Sauer Romeo4B,high,Compact red dot; compact optic handling only Round 8: compact 1x dot penalised more than the larger CompM5.,
+sic_sturmer_scipio4t_sight,optic_compact,,,-1,,,Sig Sauer Romeo4T,high,Compact red dot; compact optic handling only Round 8: compact 1x dot penalised more than the larger CompM5.,
+sic_sturmer_scipio5_gen2_elite_sight,optic_compact,,,-1,,,Sig Sauer Romeo5 Gen II (Elite/XDR),high,Micro red dot; compact optic handling only Round 8: Romeo5 family: the Romeo5X and CompM5 are -1; the half point only kept an inversion.,
+sic_sturmer_scipio5_gen2_sight,optic_compact,,,-1,,,Sig Sauer Romeo5 Gen II,high,Micro red dot; compact optic handling only Round 8: as the Romeo5 Gen2 Elite.,
 sic_sturmer_scipio5_low_mount,mount,,,,,,Sig Sauer Romeo5 low mount,high,"Low picatinny mount for Micro-footprint dot; mount, zero value",
-sic_sturmer_scipio5_sight,optic_compact,,,,,,Sig Sauer Romeo5,high,Micro red dot; compact optic handling only,
+sic_sturmer_scipio5_sight,optic_compact,,,-1,,,Sig Sauer Romeo5,high,Micro red dot; compact optic handling only Round 8: as the Romeo5 Gen2 Elite.,
 sic_sturmer_scipio5x_gen2_sight,optic_compact,,,,,,Sig Sauer Romeo5X Gen II 1x20,high,Compact tube red dot; compact optic,
 sic_sturmer_scipio5xdr_gen2_sight,optic_compact,,,,,,Sig Sauer Romeo5XDR Gen II 1x20,high,Compact tube red dot; compact optic,
 sig_sauer_bravo4_4x30,optic_scope,,,,,,Sig Sauer Bravo4 4x30,high,Fixed 4x battle sight prism; magnified,
@@ -247,8 +247,8 @@ sig_sauer_romeo4_mount,mount,,,,,,Sig Sauer Romeo4 standard mount,high,"Standard
 sig_sauer_romeo4t_1/3_cowitness_mount,mount,,,,,,Sig Sauer Romeo4T lower 1/3 co-witness mount,high,"Lower-third riser for Romeo4T; mount, zero value",
 sig_sauer_romeo_cowitness_qd_mount,mount,,,,,,Sig Sauer Romeo co-witness QD mount,high,"QD co-witness riser for Romeo dots; mount, zero value",
 sling_mount_ar,even,,,,,,generic AR sling mount,high,Sling attachment point; no in-game function beyond its small value; default even split.,misfiled: misc (sling hardware); special: orphan row with no set; zero also defensible
-squadsight_orion_3x_gen1_plus_nv_scope,optic_scope,,,,,,Armasight Orion 3X Gen 1+ night vision riflescope,high,Bulky 3x NV riflescope; large magnified scope,
-squadsight_orion_eye_cup,optic_scope,,,,,,unidentified (eye cup for a 3x magnified sight),low,Eye cup accessory of a magnified sight; follows its host profile.,special: accessory whose value only makes sense with its host squadsight_orion_3x_gen1_plus; give it the host's profile
+squadsight_orion_3x_gen1_plus_nv_scope,optic_compact,,,,,,Armasight Orion 3X Gen 1+ night vision riflescope,high,"Bulky 3x NV riflescope; large magnified scope Round 8: 3x: the magnification cut makes 3x and under compact (Trihawk, TA50, YMA-95).",
+squadsight_orion_eye_cup,optic_compact,,,,,,unidentified (eye cup for a 3x magnified sight),low,Eye cup accessory of a magnified sight; follows its host profile. Round 8: follows its host.,special: accessory whose value only makes sense with its host squadsight_orion_3x_gen1_plus; give it the host's profile
 standalone_front_sight_mount,mount,,,,,,HK416 standalone front sight base,medium,Folding front sight base; mount,
 stellartac_saturn_4x_green_scope,optic_scope,,,,,,Cosmic Tactical Saturn 4x32 fiber prism,medium,4x fiber-reticle battle sight; 4x magnification pays the small stability tax.,
 stellartac_saturn_4x_red_scope,optic_scope,,,,,,Cosmic Tactical Saturn 4x32 fiber prism,medium,4x fiber-reticle battle sight; 4x magnification pays the small stability tax.,
@@ -271,7 +271,7 @@ taclite_mrac_gen3_mounting_coupler,mount,,,,,,MODTAC M-RAC Gen3 coupler,high,Cou
 taclite_mrac_low_profile_mounting_plates,mount,,,,,,MODTAC M-RAC low-profile plates,high,Rail attach plates for the suppressor-shield system; mount.,
 taclite_mrac_picatinny_rail_mounting_plates,mount,,,,,,MODTAC M-RAC Picatinny plates,high,Rail attach plates with Picatinny; mount.,
 taclite_rac_gen2_6inch_suppressor_shield,handling,,,,,,MODTAC suppressor shield 6in,high,Heat/mirage shield around the suppressor; front-end bulk like a muzzle accessory so handling.,special: value offsets its own weight; only meaningful with a suppressor fitted
-taclite_rac_gen2_7inch_suppressor_shield,handling,,,,,,MODTAC suppressor shield 7in,high,Heat/mirage shield around the suppressor; front-end bulk like a muzzle accessory so handling.,special: value offsets its own weight; only meaningful with a suppressor fitted
+taclite_rac_gen2_7inch_suppressor_shield,handling,,,,,,MODTAC suppressor shield 7in,high,Heat/mirage shield around the suppressor; front-end bulk like a muzzle accessory so handling.,"special: value offsets its own weight; only meaningful with a suppressor fitted; other: (round 8) v_recoil -1 on all four suppressor heat shields, a mirage shield should not reduce recoil."
 taclite_rac_gen3_6inch_suppressor_shield,handling,,,,,,MODTAC suppressor shield 6in,high,Heat/mirage shield around the suppressor; front-end bulk like a muzzle accessory so handling.,special: value offsets its own weight; only meaningful with a suppressor fitted
 taclite_rac_gen3_7inch_suppressor_shield,handling,,,,,,MODTAC suppressor shield 7in,high,Heat/mirage shield around the suppressor; front-end bulk like a muzzle accessory so handling.,special: value offsets its own weight; only meaningful with a suppressor fitted
 taclite_urac_flag_mount,mount,,,,,,MODTAC U-RAC flag mount,medium,Small top piece of the U-RAC coupler; mount.,
@@ -280,7 +280,7 @@ taclite_urac_gen3_mounting_coupler,mount,,,,,,MODTAC U-RAC Gen3 coupler,high,Pic
 taclite_urac_ironsight_mount,mount,,,,,,MODTAC U-RAC Unity sight mount,medium,Top piece that carries a sight on the U-RAC; mount; value 0.,
 taclite_urac_picatinny_coupler_mount,mount,,,,,,MODTAC U-RAC Picatinny coupler,high,Picatinny piece of the U-RAC coupler; mount; value 0.,special: only-choice part
 target_sports_mmh94_mlok_top,even,,,,,,unidentified (HK G3/HK94 aftermarket handguard top M-LOK),low,Top section of a G3 handguard; handguard default even.,misfiled: handguard (rail section)
-target_sports_mmh94_picatinny_top,even,,,,,,unidentified (HK G3/HK94 aftermarket handguard top Picatinny),low,Top section of a G3 handguard; handguard default even; value 0.,misfiled: handguard (rail section)
+target_sports_mmh94_picatinny_top,even,,,,,,unidentified (HK G3/HK94 aftermarket handguard top Picatinny),low,Top section of a G3 handguard; handguard default even; value 0.,misfiled: handguard (rail section); other: (round 8) Recoil -1/-1 on a handguard top rail section while the M-LOK top carries none.
 target_sports_mng_mount,mount,,,,,,Aim Sports Mosin MNG scout mount,high,Rear-sight-replacing Picatinny mount; mount,
 target_sports_mosin_trirail,mount,,,,,,Aim Sports Mosin tri-rail scout mount,high,Bulkier tri-rail scout mount; mount,
 target_sports_mt012h_riser_mount,mount,,,,,,UTG/Leapers 1in picatinny riser,low,"Tall picatinny riser; mount, zero value",
@@ -351,7 +351,7 @@ vortex_optics_sport_cantilever_cm_203_30mm_3inch_offset,mount,,,,,,Vortex Sport 
 whitehouse_duty_30mm_mount,mount,,,,,,unidentified,low,"Single 30mm ring mount for tube dots; mount, zero value",
 whitehouse_rush_qe_front_caps,zero,,,,,,unidentified (front cap for a tactical light/laser),none,Cosmetic cap on a tactical device; no effect; value 0.,
 whitner_defense_true_zero_deltapoint_mount,mount,,,,,,pistol slide optic plate (DeltaPoint footprint),low,Slide optic adapter plate; mount,
-whitner_defense_true_zero_ecro_mount,mount,,,,,,pistol slide optic plate (Aimpoint ACRO footprint),low,Slide optic adapter plate; mount,
+whitner_defense_true_zero_ecro_mount,mount,,,0,,,pistol slide optic plate (Aimpoint ACRO footprint),low,Slide optic adapter plate; mount Round 8: a slide optic plate in a required set gave +1 with no optic on it; the RMR and DeltaPoint plates are 0.,
 whitner_defense_true_zero_rmr_mount,mount,,,,,,pistol slide optic plate (RMR footprint),low,Default slide optic adapter plate; mount,"special: old_ergonomics blank, treat as 0"
 windsor_armory_sling_swivel,even,,,,,,Windham Weaponry sling swivel,low,Sling swivel with no in-game function beyond its small value; default even split.,misfiled: misc (sling hardware); special: zero would also be defensible since slings do nothing in game
 yma95_eye_cup,optic_compact,,,,,,QBZ-95 YMA-95 scope eye cup,medium,Eye cup accessory of the YMA-95; follows its host profile.,special: accessory only meaningful with the YMA-95; keep same profile as host

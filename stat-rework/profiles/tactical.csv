@@ -17,7 +17,7 @@ holotec_eolad_2vi_socom_sighting_system,handling,,,,,,Laser Devices EOLAD-2VI (v
 holotec_owl_tactical_laser_module,handling,,,,,,EOTech OGL (On-Gun Laser),medium,Visible/IR aiming laser module; handling only,
 insight_technology_an_paq_4a_ir_laser,handling,,,,,,Insight AN/PAQ-4A IR aiming laser,high,IR aiming laser; front bulk costs handling,
 insight_technology_an_peq_2a_tpial,handling,,,,,,Insight AN/PEQ-2A TPIAL,high,Boxy IR laser/illuminator; handling only,
-insight_technology_an_peq_5_cvl,handling,,,,,,Insight AN/PEQ-5 Carbine Visible Laser,high,Small carbine visible laser; handling only,
+insight_technology_an_peq_5_cvl,handling,,,-1,,,Insight AN/PEQ-5 Carbine Visible Laser,high,Small carbine visible laser; handling only Round 8: the small carbine laser cost more than the far bulkier PEQ-2A and Lopro (-1).,
 insight_technology_wmx200_fixed_mount_tactical_illuminator,handling,,,,,,Insight WMX200 weapon light,high,Rail weapon light; handling only,
 l3harrison_atpial_an_peq_15,handling,,,,,,L3Harris AN/PEQ-15 ATPIAL,high,IR/visible aiming laser; handling only,
 l3harrison_mipim_an_peq_16b,handling,,,,,,L3Harris AN/PEQ-16B MIPIM,high,Laser plus light combo; handling only,
@@ -36,4 +36,4 @@ veles_klesch_2p_lcu,handling,,,,,,Zenit Klesch-2P flashlight with LCU,high,Weapo
 veles_perst_3_classic_gen4_green,handling,,,,,,Zenit Perst-3 laser module,high,Weapon laser; handling only,
 wepmod_plhv2_light_head,handling,,,,,,Modlite PLHv2 light head,high,Weapon-light head; handling only,
 whitehouse_rush_qe_g14_high_power_laser_aiming_device,handling,,,,,,Wilcox RAID Xe High Power (G14),medium,Laser/illuminator aiming device; bulk on front costs handling,special: hosts caps and junction children; check whether any V sits on them
-whitehouse_rush_qe_g18_high_power_laser_aiming_device,handling,,,,,,Wilcox RAID Xe High Power (G18),medium,Laser/illuminator aiming device; same unit as G14 variant,special: pretty name says G14 but id is G18 - pretty name likely a copy-paste error
+whitehouse_rush_qe_g18_high_power_laser_aiming_device,handling,,,,,,Wilcox RAID Xe High Power (G18),medium,Laser/illuminator aiming device; same unit as G14 variant,"special: pretty name says G14 but id is G18 - pretty name likely a copy-paste error; other: (round 8) pretty_name says G14 on the G18 id, likely copy-paste, should read G18."

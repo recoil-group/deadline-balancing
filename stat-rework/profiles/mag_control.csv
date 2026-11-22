@@ -2,14 +2,14 @@ name,profile,role,role_strength,value,handling,stability,counterpart,confidence,
 adapt2_mod3_mag_bottom_plate,zero,,,,,,Amend2 Mod-3 floorplate,high,"Magazine floorplate, cosmetic; no effect",
 aft_mag_release,reload_only,,,,,,FN SCAR 17 standard mag release,high,"Standard mag release; value is reload only, standard is 0",
 aft_mk_16_std_magplate,zero,,,,,,FN SCAR 16 magazine floorplate,high,"Magazine floorplate, cosmetic; no effect",
-allpistolsprings_tt33_+1r_mag_extension,magazine,,,,,,TT-33 +1 base pad extension,medium,Capacity extension; magazine rule,
+allpistolsprings_tt33_+1r_mag_extension,magazine,,,,0,,TT-33 +1 base pad extension,medium,Capacity extension; magazine rule Round 8: a +1 pad cost more handling than the +2 and +5 pads (both 0); capacity already separates them.,
 aquila_defensio_aug_enhanced_release_button,reload_only,,,,,,Corvus Defensio AUG enhanced mag release button,medium,Enhanced release button speeds mag drop; reload only,
 ardian_weapons_adac15_mag_release,reload_only,,,,,,unidentified (ambidextrous AR-15 mag release for an ADAC15 lower),low,Ambidextrous mag release; reload only,"special: only choice and default on its lower (set adac15), so its -3% reload is a fixed bonus of that lower; fine if intended, otherwise move it to the lower"
 arid_concepts_aug_improved_mag_release,reload_only,,,,,,Arid Defense AUG improved mag release,high,Paddle-style improved release speeds mag drop; reload only,special: hosts the paddle slot; the large paddle adds another -2% on top
 arid_concepts_aug_mag_release_large_paddle,reload_only,,,,,,"Arid Defense AUG improved mag release, large paddle",high,Larger paddle is easier to hit; reload only,
 arid_concepts_aug_mag_release_std_paddle,reload_only,,,,,,"Arid Defense AUG improved mag release, standard paddle",high,"Standard paddle for the improved release; reload only, standard is 0","reload: default paddle with old E0.5 that the current rule moved into handling 1.0; reload_only drops it to 0, which is right for the standard option"
 aug_a3_std_mag_release,reload_only,,,,,,Steyr AUG A3 standard mag release,high,"Standard mag release; reload only, standard is 0",
-cosmotac_blastar_vkarmw_magwell,reload_only,,,,,,VISM Blast AR magwell funnel,medium,Clamp-on AR magwell funnel; reload only,
+cosmotac_blastar_vkarmw_magwell,reload_only,,,,,,VISM Blast AR magwell funnel,medium,Clamp-on AR magwell funnel; reload only,"other: (round 8) Recoil -1/-1 on a plain clamp-on funnel, while the Rhino R-23 (a real magwell grip) has none, FANG magwells also carry -1 to -2 recoil. Check intent."
 dante_freelance_hart_smg_10r_mag_extension,magazine,,,,,,Taylor Freelance Colt 9mm +10 base pad,high,Capacity extension on the Colt 32R; magazine rule,special: no set and no weapons; appears unreachable
 dante_freelance_kosch_40sv_10r_carbine_magex,magazine,,,,,,unidentified (.40 Glock-pattern +10 basepad extension),low,Capacity extension for the .40 mag; magazine rule,
 dante_freelance_kosch_40sv_10r_pistol_magex,magazine,,,,,,unidentified (.40 Glock-pattern +10 basepad extension),low,Capacity extension for the .40 mag; magazine rule,

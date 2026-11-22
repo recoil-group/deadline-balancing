@@ -13,7 +13,7 @@ aft17_7.62x51_3prong_european_flash_hider,handling,,,,,,FN SCAR 17 3-prong flash
 ak12_std_muzzle_device,handling,,,,,,Kalashnikov AK-12 standard muzzle brake,high,"Factory brake; muzzle default, V 0",
 ak308_7.62x51_muzzle_brake,handling,,,,,,Kalashnikov AK-308 factory brake,high,Factory brake; muzzle default,special: only choice on AK308
 alphadog_alpha9,handling,,,,,,Alpha Dog Silencers Alpha 9,high,Pistol suppressor with rail; muzzle default,special: hosts picatinny slot
-alphadog_alpha9_flipped,handling,,,,,,Alpha Dog Silencers Alpha 9 (inverted),high,Same can inverted; muzzle default,other: old E -5 vs -6 for the unflipped twin; probably should match
+alphadog_alpha9_flipped,handling,,,-6,,,Alpha Dog Silencers Alpha 9 (inverted),high,"Same can inverted; muzzle default Round 8: the same suppressor inverted, same weight and recoil as the Alpha 9 (-6); the other flipped twins match.",other: old E -5 vs -6 for the unflipped twin; probably should match
 alr_rifleworks_sr47_dual_port_muzzle_brake,handling,,,,,,unidentified AK dual-port brake,low,AK brake; handling only,
 alr_rifleworks_sr47_single_port_muzzle_brake,handling,,,,,,unidentified AK single-port brake,low,AK brake; handling only,
 annihilator_556,handling,,,,,,Yankee Hill Machine Annihilator flash hider,medium,YHM flash hider/can mount; handling only,
@@ -35,7 +35,7 @@ ewc_5.56x45_blackout_18_tooth_flash_hider,handling,,,,,,AAC Blackout 51T-style 1
 ewc_scar_sd_blackout_51_tooth_flashhider_supp_mount,handling,,,,,,AAC Blackout 51T flash hider (SCAR),medium,Flash hider and suppressor mount; muzzle default,
 fd917,handling,,,,,,Fischer Development FD917 (Glock slide suppressor),medium,Glock integrally mounted suppressor; muzzle default,"misfiled: it is a suppressor, not a flash hider (cur_rule says flash_hider); special: no slot/set"
 felix_defense_rumbler_muzzle_brake,handling,,,,,,unidentified AR brake,none,"AR brake; muzzle device, handling only",
-ferro_ordnance_mc51sd_suppressor,handling,,,,,,HK MC51SD suppressor,medium,Integral-style G3 SD suppressor; muzzle default,special: only choice on G3 SD slot
+ferro_ordnance_mc51sd_suppressor,handling,,,,,,HK MC51SD suppressor,medium,Integral-style G3 SD suppressor; muzzle default,"special: only choice on G3 SD slot; other: (round 8) Price empty, like the AUG A1 tulip, every other suppressor here has a price."
 hallen_engineering_m4_delta_5.56x45_suppressor,handling,,,,,,Allen Engineering M4-Delta,high,Sleeves over carbine barrel; muzzle mass costs handling,
 hart_607_car15_3.5inch_flash_moderator,handling,,,,,,Colt 607 CAR-15 3.5in moderator,high,Vintage CAR-15 moderator; handling only,
 hel_e4a_m16a1_5.56x45_suppressor,handling,,,,,,unidentified M16A1-era suppressor,low,Vintage M16A1 can; muzzle mass costs handling,
@@ -52,7 +52,7 @@ jg_usgi_a2_birdcage_m4a1_flash_hider,handling,,,,,,USGI A2 birdcage,high,"Standa
 jmac_laf_14_1lh_muzzle_brake,handling,,,,,,JMAC Customs LAF 14-1LH,high,Large AK brake; muzzle mass costs handling,
 jt_5.5inch_flashsuppressor,handling,,,,,,unidentified 5.5in flash suppressor,low,Long flash suppressor; handling only,
 kaleva_corvette_556,handling,,,,,,unidentified 5.56 flash hider,low,Flash hider; handling only,
-kazarov_ak105_6p44_020_compensator,handling,,,,,,Izhmash AK-105 6P44 muzzle brake,high,"Factory AK brake; muzzle device, handling only","cycling: carries fire_rate 0.05 on an automatic rifle, outside the bolt/pump rule; confirm intended"
+kazarov_ak105_6p44_020_compensator,handling,,,,,,Izhmash AK-105 6P44 muzzle brake,high,"Factory AK brake; muzzle device, handling only","cycling: carries fire_rate 0.05 on an automatic rifle, outside the bolt/pump rule; confirm intended; other: (round 8) Carries fire_rate 0.05 on an automatic, unlike the 74U booster, the AK-105 brake has no cycling reason. Confirm intent."
 kazarov_ak74_6p20_020_compensator,handling,,,,,,Izhmash AK-74 6P20 muzzle brake,high,"Factory AK-74 brake; handling only, hosts bayonet",
 kazarov_ak74m_6p20_020_compensator,handling,,,,,,Izhmash AK-74M 6P20 muzzle brake,high,"Factory AK-74M brake; handling only, hosts bayonet",
 kazarov_akm_6p1_0_14_compensator,handling,,,,,,Izhmash AKM slant compensator 6P1 0-14,high,"AKM slant comp; handling only, hosts bayonet",
@@ -72,12 +72,12 @@ noxtec_stream_556k_suppressor,handling,,,,,,HUXWRX Flow 556K,medium,"Compact flo
 odin_works_tiduro_.338_modular_3_baffle_suppressor,handling,,,,,,Odin Works Tiduro .338 modular (3 modules),medium,"Modular suppressor, mid length; muzzle default",
 odin_works_tiduro_.338_modular_5_baffle_suppressor,handling,,,,,,Odin Works Tiduro .338 modular (5 modules),medium,Longest modular config; muzzle default,
 odin_works_tiduro_.338_modular_no_baffle_suppressor,handling,,,,,,"Odin Works Tiduro .338 modular (base, no baffle modules)",medium,Modular can base; length up front costs handling,
-odin_works_tiduro_thread_adapter_module,handling,,,,,,Odin Works thread adapter,medium,Thread adapter hosting a device; handling only,other: plain adapter carries recoil -9/-9 and velocity -30; looks copied from a device
+odin_works_tiduro_thread_adapter_module,handling,,,,,,Odin Works thread adapter,medium,Thread adapter hosting a device; handling only,"other: plain adapter carries recoil -9/-9 and velocity -30; looks copied from a device; other: (round 8) Plain thread adapter carries recoil -9/-9 and velocity -30 like a device, it should probably be near zero."
 onyx_1_762,handling,,,,,,Gemtech ONE 7.62,high,Rifle suppressor; muzzle default,
 onyx_adapter,handling,,,,,,unidentified suppressor-mount brake,low,"Brake that hosts a suppressor; V=0, handling only",
 onyx_gmt_halo,handling,,,,,,Gemtech GMT-HALO,high,Rifle suppressor; muzzle default,special: only choice on A2 extension slot
-pac_crs_prt_suppressor_cover,handling,,,,,,KAC suppressor shroud (CRS),medium,"Heat shroud over suppressor; front bulk, handling",
-pac_mcq_prt_suppressor_cover,handling,,,,,,KAC suppressor shroud 4in (MCQ),medium,"Heat shroud over suppressor; front bulk, handling",
+pac_crs_prt_suppressor_cover,handling,,,0,,,KAC suppressor shroud (CRS),medium,"Heat shroud over suppressor; front bulk, handling Round 8: a heat shroud never makes a can handier; weight already pays its mass.",
+pac_mcq_prt_suppressor_cover,handling,,,0,,,KAC suppressor shroud 4in (MCQ),medium,"Heat shroud over suppressor; front bulk, handling Round 8: as the CRS-PRT cover.",
 pac_qdc_3prong_flash_5.56x45_eliminator,handling,,,,,,Knight's Armament QDC 3-prong flash eliminator,high,KAC can mount flash hider; handling only,
 pac_qdc_crs_prt_5.56x45_suppressor,handling,,,,,,KAC QDC/CRS-PRT,high,Full-length suppressor; muzzle default,special: hosts shroud slot
 pac_qdc_m4qd_5.56x56_flash_suppressor,handling,,,,,,Knight's Armament M4QD flash suppressor,high,KAC can mount flash hider; handling only,
@@ -98,7 +98,7 @@ sig_srd9_9x19,handling,,,,,,SIG Sauer SRD9,high,Pistol suppressor; muzzle defaul
 smite_industries_jcomp_gen2_5.56x45_muzzle_brake,handling,,,,,,Strike Industries J-Comp Gen2,high,"Compact comp; muzzle device, handling only",
 smite_industries_jcomp_gen2_7.62x39_muzzle_brake,handling,,,,,,Strike Industries J-Comp Gen2 AK,high,"Compact comp; muzzle device, handling only",
 smite_industries_jcomp_gen2_7.62x51_muzzle_brake,handling,,,,,,Strike Industries JCOMP Gen2 .308,high,"Compact brake/comp; muzzle devices cost handling, recoil carries benefit",special: hosts the Oppressor blast shield slot
-smite_industries_oppressor_blast_shield,handling,,,,,,Strike Industries Oppressor,high,Blast shield over JCOMP; muzzle default,special: only on JCOMP Gen2
+smite_industries_oppressor_blast_shield,handling,,,-1,,,Strike Industries Oppressor,high,Blast shield over JCOMP; muzzle default Round 8: a blast shield adds length and mass at the muzzle; +1 made a shielded brake handier than the bare one.,special: only on JCOMP Gen2
 spiderweb_bpr_suppressor_system_bpr_1425,handling,,,,,,OSS (Operators Suppressor Systems) BPR1425 7.62,medium,Over-barrel flow-through suppressor; muzzle default,special: hosts SRM module child slot
 ss_combo_mount,handling,,,,,,unidentified combo brake / can mount,low,Brake that hosts a suppressor; handling only,
 ss_lrs1_suppressor,handling,,,,,,unidentified 5.56 suppressor,none,Rifle suppressor; muzzle default,
@@ -123,7 +123,7 @@ tb_5,handling,,,,,,Thunder Beast Arms Ultra 5,high,Short suppressor; muzzle defa
 tb_7,handling,,,,,,Thunder Beast Arms Ultra 7,high,Mid suppressor; muzzle default,
 tb_9,handling,,,,,,Thunder Beast Arms Ultra 9,high,Long suppressor; muzzle default,
 tb_mount_223_mb,handling,,,,,,Thunder Beast Arms 223CB brake,high,"Brake/can mount for TBAC Ultra; V=0, handling only",
-tiger_rock_ar10_7.62x51_barrett_style_muzzle_brake_with_jam_nut,handling,,,,,,Barrett-style 2-chamber AR-10 brake (generic Rock River/DPMS style),medium,"Large two-chamber brake; muzzle default, big E cost is its bulk",other: velocity -20 and deviation +0.1 odd for a brake; check intent
+tiger_rock_ar10_7.62x51_barrett_style_muzzle_brake_with_jam_nut,handling,,,,,,Barrett-style 2-chamber AR-10 brake (generic Rock River/DPMS style),medium,"Large two-chamber brake; muzzle default, big E cost is its bulk","other: velocity -20 and deviation +0.1 odd for a brake; check intent; other: (round 8) h_recoil is +8 (every other muzzle device is negative), plus velocity -20 and deviation +0.1, likely a sign or copy error."
 tsniitochmash_pbs_1_7.62x39_suppressor,handling,,,,,,TsNIITochMash PBS-1,high,Military AKM suppressor; muzzle mass costs handling,
 tsniitochmash_pbs_4_5.45x39_suppressor,handling,,,,,,TsNIITochMash PBS-4,high,Military AK-74 suppressor; muzzle mass costs handling,
 tt_pmlaser_dtk_compensator,handling,,,,,,PM-Laser DTK-TT compensator,medium,TT pistol comp; muzzle default,other: velocity -100 large for a compensator

@@ -99,7 +99,7 @@ kalis_scalar_gen3_9x19_upper_receiver,even,,,,,,KRISS Vector Gen III 9mm upper,h
 kalis_scalar_receiver_metal_frame,even,,,,,,KRISS Vector receiver frame,high,Only-choice frame with no value; even,special: only-choice
 kalis_scalar_std_bolt_carrier_slider,zero,,,,,,KRISS Vector bolt carrier slider,high,Internal part with no effect,special: only-choice
 kalis_scalar_std_front_trunnion,zero,,,,,,KRISS Vector front trunnion,high,Internal part with no effect,special: only-choice
-kazarov_ak100_series_front_trunnion,even,,,,,,Kalashnikov AK-100 series front trunnion,high,"Only-choice internal receiver part, tiny value; even",
+kazarov_ak100_series_front_trunnion,zero,,,,,,Kalashnikov AK-100 series front trunnion,high,"Only-choice internal receiver part, tiny value; even Round 8: only-choice internal trunnion; the value only shifted the AK-100 base.",
 kazarov_ak100_series_lower_receiver,even,,,,,,Kalashnikov AK-100 series receiver,high,"AK-100 receiver, small general improvement; even",
 kazarov_ak100_series_rear_trunnion,even,,,,,,Kalashnikov AK-100 series folding-stock rear trunnion,high,"Internal part enabling side-folding stock, tiny value; even (stock carries the trade)",
 kazarov_ak74_6p1_01_dust_cover,even,,,,,,Kalashnikov AK-74 6P1 Sb.0-1 dust cover,high,"Stock stamped dust cover; receiver part, even",
@@ -127,7 +127,7 @@ kf_416d_lower_receiver,even,,,,,,HK416D lower receiver,high,"Default 416 lower, 
 kf_416d_upper_receiver,even,,,,,,HK416D upper receiver,high,Set default upper; even,
 kf_m27_iar_lower_receiver,even,,,,,,HK M27 IAR lower receiver,high,Same lower as a 416A5 in practice; even.,
 kf_m27_iar_upper_receiver,even,marksman,,,,,HK M27 IAR upper,medium,Automatic-rifle/DMR-role upper built for sustained steady fire; slower to handle; marksman,special: M27 heavy barrel is a separate child; role rests on the IAR/DMR role only
-kf_m38_sdmr_lower_receiver,even,,,,,,HK M38 SDMR lower receiver,high,"M38 differs by optic/barrel, not lower; no marksman role on the receiver.",other: barrel_deviation -0.05 on a lower has no physical basis
+kf_m38_sdmr_lower_receiver,even,,,,,,HK M38 SDMR lower receiver,high,"M38 differs by optic/barrel, not lower; no marksman role on the receiver.","other: barrel_deviation -0.05 on a lower has no physical basis; other: (round 8) barrel_deviation -0.05 on a lower receiver has no physical basis, the M38 difference is barrel and optic."
 kosch_ambidextrous_slide_catch,reload_only,,,,,,Glock ambidextrous slide stop (Gen5-style),high,Ambi slide release speeds reload; already carries a small reload value.,"misfiled: slide catch is a bolt catch, not a receiver"
 kosch_default_slide_backplate,zero,,,,,,Glock slide cover plate,high,"Cosmetic slide backplate, no effect.",
 kosch_default_slide_catch,reload_only,,,,,,Glock standard slide stop lever,high,Slide stop releases the slide on reload; value is its reload.,"misfiled: slide catch is a bolt catch, not a receiver"
@@ -147,7 +147,7 @@ lowenherz_aug_a1_stg77_1_5x_scoped_receiver,even,,,,,,Steyr AUG A1 / StG 77 rece
 lowenherz_aug_a3_m1_receiver,even,,,,,,Steyr AUG A3 M1 receiver,high,"AUG A3 M1 receiver with rails, set default; even",
 lowenherz_aug_a3_sa_receiver,even,,,,,,Steyr AUG A3 SA receiver,high,Standard AUG A3 receiver; even,
 lowenherz_stg77_receiver,even,,,,,,Steyr StG 77 receiver,high,Austrian service AUG receiver; even,
-m4a1_std_dust_cover,even,,,,,,Colt M4 ejection port cover,high,Standard dust cover; no stat reason.,"special: only choice with V=1, effectively base; could be zeroed into the weapon base"
+m4a1_std_dust_cover,zero,,,,,,Colt M4 ejection port cover,high,"Standard dust cover; no stat reason. Round 8: the slot is optional, so a stock dust cover beat an empty port by +1/+1.","special: only choice with V=1, effectively base; could be zeroed into the weapon base"
 mcs_lss_gen2_carbine_chassis,even,,,,,,MDT LSS-XL Gen2 Carbine-interface chassis,high,Lightweight hunting/precision chassis taking separate AR buffer-tube stock; stock carries the trade; even,misfiled: sits in stock slot but stock is a separate child (castle nut); keep even
 mcs_rev21_gen2_r700_lower_receiver,even,,,,,,MDT TAC21 Gen2 chassis lower section (likely),low,Chassis lower in stock slot; real stock attaches separately via the upper adapter; even,misfiled: competes as a stock/chassis in the R700 stock slot but has no integral stock so keep even not stock-typed
 mcs_rev21_gen2_r700_upper_receiver,even,,,,,,MDT TAC21 Gen2 chassis upper section (likely),low,Upper half of two-piece R700 chassis hosting handguard and stock adapter; only choice; even,special: only-choice under the REV21 lower; value pairs with mcs_rev21_gen2_r700_lower_receiver
@@ -180,7 +180,7 @@ sg58_std_lower_receiver,even,,,,,,DSA SA58 lower receiver,high,Only-choice lower
 sg58_type1_upper_receiver,even,,,,,,DSA SA58 Type 1 upper receiver,high,Set default upper; even,
 sg58_type1_upper_receiver_with_carry_handle,even,,,,,,DSA SA58 Type 1 upper with carry handle,high,Receiver variant with no value; even,
 sic_sturmer_m17_optic_slide_cover,zero,,,,,,SIG M17 optic cover plate,high,Cosmetic blanking plate over optic cut; no effect.,special: old +1 E on a cover plate has no basis
-sic_sturmer_p226_drd_sight_plate_cover,zero,,,,,,SIG P226 optic-cut cover plate,medium,Cosmetic cover plate over optic mount; no effect.,special: pretty name swapped with sic_sturmer_p226_flush_drd_sight_plate_cover
+sic_sturmer_p226_drd_sight_plate_cover,zero,,,,,,SIG P226 optic-cut cover plate,medium,Cosmetic cover plate over optic mount; no effect.,special: pretty name swapped with sic_sturmer_p226_flush_drd_sight_plate_cover; other: (round 8) pretty_name is swapped with sic_sturmer_p226_flush_drd_sight_plate_cover (Flush vs plain Sight Plate).
 sic_sturmer_p226_elite_9x19_slide,even,,,,,,SIG Sauer P226 Elite slide,high,Elite slide with front serrations; even.,
 sic_sturmer_p226_elite_frame,even,,,,,,SIG Sauer P226 Elite frame (beavertail),high,Beavertail frame for higher grip; comfort only; even.,
 sic_sturmer_p226_flush_drd_sight_plate_cover,zero,,,,,,SIG P226 optic-cut cover plate,medium,Cosmetic cover plate over optic mount; no effect.,special: old 0.25 E has no basis; pretty name swapped with sic_sturmer_p226_drd_sight_plate_cover
@@ -206,7 +206,7 @@ sig_sauer_m18x_9x19_slide,even,,,,,,SIG Sauer M18 / P320 Carry-length slide,medi
 sig_sauer_p320_sear_housing,zero,,,,,,SIG P320 fire control unit (sear housing),high,Internal part with no effect,special: only-choice
 sig_sauer_p320_slide_release,reload_only,,,,,,SIG P320 slide release,high,Slide release is the pistol bolt catch; any value belongs to reload,special: only-choice with no value
 sig_sauer_p320_xfull_9x19_slide,even,,,,,,SIG Sauer P320 X-Full slide,high,Default full-size slide; baseline.,
-strikon_scr_rifle_lower_receiver,even,,,,,,Troy SCR (Sporting Configurable Rifle) lower,medium,Featureless sporting lower using shotgun-pattern stocks; the stock child carries the stock trade.,special: replaces pistol grip and endplate slots; check v_recoil +12 is intended
+strikon_scr_rifle_lower_receiver,even,,,,,,Troy SCR (Sporting Configurable Rifle) lower,medium,Featureless sporting lower using shotgun-pattern stocks; the stock child carries the stock trade.,"special: replaces pistol grip and endplate slots; check v_recoil +12 is intended; other: (round 8) v_recoil +12 on a lower receiver is far out of line with the set (others -3 to 0), check it is intended."
 t97.ca_qbz95_handguard_trigger_housing,even,,,,,,T97.ca aftermarket M-LOK handguard/housing for QBZ-97,medium,Aftermarket handguard housing with M-LOK and AR grip; general upgrade; even,
 thorsden_frs15_gen3_ar15_endplate,stockless,,,,,,Thordsen Customs FRS-15 Gen III (modelled as endplate only),medium,Terminates buffer-tube chain with no stock and adds recoil; the no-stock option,"special: stockless option on AR-buffer guns, set with Hart endplate;other: real FRS-15 Gen III is a full featureless fixed stock (~0.35-0.6 kg) but here weighs 0.07 kg and behaves as stockless; naming mismatch"
 tt33_mod_postwar_slide,even,,,,,,Tokarev TT-33 slide converted for full-auto (fictional/modified),low,Modified full-auto slide; ergonomic difference is minor; even.,special: price 4000 implies full-auto capability is carried elsewhere

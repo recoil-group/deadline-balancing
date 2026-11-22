@@ -3,19 +3,19 @@ alpha_four_tactical_angled_foregrip,grip_angled,,,,,,angled foregrip (unidentifi
 atg_ms_qd_foregrip,grip_vertical,,,,,,QD vertical foregrip (generic),low,Quick-detach vertical grip; stability lean,
 atg_super_slim_vertical_foregrip,grip_vertical,,,,,,slim vertical foregrip (generic),low,Slim vertical rail grip (not a chassis grip); stability lean,
 aug_a3_std_foregrip,grip_vertical,,,,,,Steyr AUG A3 folding vertical foregrip (deployed),high,Factory vertical grip deployed; stability lean,
-aug_a3_std_foregrip_folded,grip_angled,,,,,,Steyr AUG A3 folding vertical foregrip (folded),high,Folded grip gives a bare handguard hold: handier and less steady,special: shares child aug_grip_wrap with deployed state
+aug_a3_std_foregrip_folded,handling,,,,,,Steyr AUG A3 folding vertical foregrip (folded),high,Folded grip gives a bare handguard hold: handier and less steady Round 8: a folded grip steadies nothing; on grip_angled it was steadier than the deployed grip.,special: shares child aug_grip_wrap with deployed state
 axtell_defense_rubber_overmolding_vertical_foregrip,grip_vertical,,,,,,Daniel Defense-style rubber overmolded vertical foregrip (Picatinny),medium,Vertical grip; stability lean,
 dd_enhanced_mvg,grip_vertical,,,,,,Daniel Defense M-LOK Vertical Foregrip,medium,Full vertical grip; stability lean,
 ecm_gunslinger_kag,grip_angled,,,,,,BCM Gunfighter KAG (Kinesthetic Angled Grip) M-LOK,high,Angled grip for a natural extended-arm hold; handling lean,
 ecm_gunslinger_mod3_mlok_foregrip,grip_vertical,,,,,,BCM Gunfighter Vertical Grip Mod 3 M-LOK,high,Full vertical grip; stability lean,
 ecm_gunslinger_mod3_mlok_foregrip_flipped,grip_vertical,,,,,,BCM Gunfighter Vertical Grip Mod 3 M-LOK (flipped),high,Same part reversed; same profile,
-ecm_gunslinger_mod3_mlok_shortened_foregrip,grip_vertical,,,,,,BCM Gunfighter Vertical Grip Mod 3 Short M-LOK,high,Stubby vertical grip; stability lean by shape,
-ecm_gunslinger_mod3_mlok_shortened_foregrip_flipped,grip_vertical,,,,,,BCM Gunfighter Vertical Grip Mod 3 Short M-LOK (flipped),high,Same part reversed; same profile,
+ecm_gunslinger_mod3_mlok_shortened_foregrip,even,,,,,,BCM Gunfighter Vertical Grip Mod 3 Short M-LOK,high,"Stubby vertical grip; stability lean by shape Round 8: stubby vertical, as the Picatinny one.",
+ecm_gunslinger_mod3_mlok_shortened_foregrip_flipped,even,,,,,,BCM Gunfighter Vertical Grip Mod 3 Short M-LOK (flipped),high,"Same part reversed; same profile Round 8: stubby vertical, as the Picatinny one.",
 ecm_gunslinger_mod3_picatinny_foregrip,grip_vertical,,,,,,BCM Gunfighter Vertical Grip Mod 3 Picatinny,high,Full vertical grip; stability lean,
 ecm_gunslinger_mod3_picatinny_foregrip_flipped,grip_vertical,,,,,,BCM Gunfighter Vertical Grip Mod 3 Picatinny (flipped),high,Same part reversed; same profile,
-ecm_gunslinger_mod3_picatinny_shortened_foregrip,grip_vertical,,,,,,BCM Gunfighter Vertical Grip Mod 3 Short Picatinny,high,Stubby vertical; stability lean,
-ecm_gunslinger_mod3_picatinny_shortened_foregrip_flipped,grip_vertical,,,,,,BCM Gunfighter Vertical Grip Mod 3 Short Picatinny (flipped),high,Same part reversed; same profile,
-equinox_ex_mlok_grip,grip_vertical,,,,,,short M-LOK stubby vertical grip,low,Stubby vertical; vertical shape leans stability,
+ecm_gunslinger_mod3_picatinny_shortened_foregrip,even,,,,,,BCM Gunfighter Vertical Grip Mod 3 Short Picatinny,high,"Stubby vertical; stability lean Round 8: stubby vertical: a compromise grip, not a full vertical; on grip_vertical it out-steadied the full Mod 3.",
+ecm_gunslinger_mod3_picatinny_shortened_foregrip_flipped,even,,,,,,BCM Gunfighter Vertical Grip Mod 3 Short Picatinny (flipped),high,"Same part reversed; same profile Round 8: stubby vertical, as the unflipped one.",
+equinox_ex_mlok_grip,even,,,,,,short M-LOK stubby vertical grip,low,Stubby vertical; vertical shape leans stability Round 8: stubby vertical grip.,
 grip_pod_gps_02_body,zero,,,,,,Grip Pod Systems GPS-02 (body),high,Body only; value sits on legs child,special: value on grip_pod_gps_02_legs
 grip_pod_gps_02_legs_col,grip_pod,,,,,,Grip Pod Systems GPS-02 (legs collapsed),high,Grip pod held as a vertical grip; counted grip node,special: V is negative (-1) so grip_pod would invert to a stability loss; lead should value this as a vertical grip plus front mass (handling cost; stability gain)
 grip_pod_gps_02_legs_ext,grip_pod,,,,,,Grip Pod Systems GPS-02 (legs extended),high,Deployed grip pod legs; stability support,special: V negative (-3); same inversion issue; extended should be steadier than collapsed and less handy
@@ -40,10 +40,10 @@ mp133_beechwood_handguard,even,,,,,,Baikal MP-133 beechwood pump forend,high,Sta
 mp133_plastic_handguard,even,,,,,,Baikal MP-133 synthetic pump forend,high,Slim synthetic pump forend; forend shape even,cycling: fire_rate +2% already set
 nariakira_mlok_fingerstop,grip_angled,,,,,,M-LOK finger stop (generic),medium,Finger stop for a forward thumb-over hold; handling lean,
 nariakira_vallais_kf_rail_indexer,grip_angled,,,,,,HK416 accessory-rail index stop,low,Rail index stop; handling lean,special: only choice on KF416 accessory rail
-okb_crazy_romanian_mlok_full_grip,grip_vertical,,,,,,Romanian AK (WASR/PM md.) vertical forward grip,medium,Long full vertical grip; strongest hand contact; stability lean,special: E 1 understates it; keep the existing override intent (steadier than E suggests)
-okb_crazy_romanian_mlok_half_grip,grip_vertical,,,,,,Romanian AK vertical forward grip (cut down),medium,Shortened wooden Romanian vertical grip; stability lean,
-okb_crazy_romanian_picatinny_full_grip,grip_vertical,,,,,,Romanian AK (WASR/PM md.) vertical forward grip,medium,Long full vertical grip; stability lean,special: E 1 understates it; keep the existing override intent
-okb_crazy_romanian_picatinny_half_grip,grip_vertical,,,,,,Romanian AK vertical forward grip (cut down),medium,Shortened vertical grip; stability lean,
+okb_crazy_romanian_mlok_full_grip,grip_vertical,,,,-2,5,Romanian AK (WASR/PM md.) vertical forward grip,medium,Long full vertical grip; strongest hand contact; stability lean Round 8: as the Picatinny full grip.,special: E 1 understates it; keep the existing override intent (steadier than E suggests)
+okb_crazy_romanian_mlok_half_grip,even,,,,,,Romanian AK vertical forward grip (cut down),medium,Shortened wooden Romanian vertical grip; stability lean Round 8: half-length vertical.,
+okb_crazy_romanian_picatinny_full_grip,grip_vertical,,,,-2,5,Romanian AK (WASR/PM md.) vertical forward grip,medium,"Long full vertical grip; stability lean Round 8: the longest vertical sat at stability 2, below its own half grip; restores the round-6 intent (slower and steadier than the half).",special: E 1 understates it; keep the existing override intent
+okb_crazy_romanian_picatinny_half_grip,even,,,,,,Romanian AK vertical forward grip (cut down),medium,Shortened vertical grip; stability lean Round 8: half-length vertical.,
 overlord_halo_mlok_handstop,grip_angled,,,,,,M-LOK handstop (HALO-style),low,Handstop shape; handling lean,
 pac_vpg,grip_vertical,,,,,,vertical polymer grip (generic),low,Full vertical grip; stability lean,
 pro_tactical_pr870_handguard,even,,,,,,railed tactical forend for Remington 870,medium,Railed pump forend; even,cycling: fire_rate -2% already set
@@ -59,12 +59,12 @@ smite_industries_bipod_foregrip_collapsed_legs,grip_pod,,,,,,Strike Industries-s
 smite_industries_bipod_foregrip_extended_legs,grip_pod,,,,,,Strike Industries-style bipod foregrip (legs extended),medium,Deployed bipod legs; stability support,special: V negative (-3); same inversion issue
 smite_industries_cobra_tactical_foregrip,grip_angled,,,,,,Strike Industries Cobra Tactical Fore Grip,high,Short angled hook-style grip; handling lean,
 stark_se_5_express_forward_grip,grip_vertical,,,,,,Stark Equipment SE-5 Express Forward Grip,high,Vertical grip; stability lean,
-targetdown_bgv_mk46k_grip,grip_vertical,,,,,,Tango Down BGV-MK46K stubby vertical,high,Stubby vertical; stability lean,
+targetdown_bgv_mk46k_grip,even,,,,,,Tango Down BGV-MK46K stubby vertical,high,Stubby vertical; stability lean Round 8: stubby vertical grip.,
 timber_creek_enforcer_foregrip,grip_vertical,,,,,,Timber Creek Outdoors Enforcer vertical foregrip,high,Vertical grip; stability lean,
 timber_creek_enforcer_handstop,grip_angled,,,,,,Timber Creek Outdoors Enforcer handstop,high,Handstop; handling lean,
 veles_leader_handstop,grip_angled,,,,,,"Zenitco/Russian AK handstop (""Leader"")",low,Small AK handstop; handstop shape leans handling,special: only choice on its rail
-veles_rk0,grip_vertical,,,,,,Zenitco RK-0,high,Short stubby vertical; stability lean,
-veles_rk0_angled,grip_vertical,,,,,,Zenitco RK-0 on B-25 angled mount,high,Short stubby vertical; stability lean,
+veles_rk0,even,,,,,,Zenitco RK-0,high,Short stubby vertical; stability lean Round 8: stubby vertical grip.,
+veles_rk0_angled,even,,,,,,Zenitco RK-0 on B-25 angled mount,high,Short stubby vertical; stability lean Round 8: stubby vertical grip.,
 veles_rk1,grip_vertical,,,,,,Zenitco RK-1,high,Full vertical grip; stability lean,
 veles_rk1_angled,grip_vertical,,,,,,Zenitco RK-1 on B-25 angled mount,high,Full vertical grip; stability lean,
 veles_rk2,grip_vertical,,,,,,Zenitco RK-2,high,Long vertical grip; stability lean,special: V negative (-1) inverts grip_vertical to a stability loss; a long vertical should still gain stability

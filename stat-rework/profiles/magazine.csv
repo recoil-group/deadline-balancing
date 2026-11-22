@@ -10,11 +10,11 @@ name,profile,role,role_strength,value,handling,stability,counterpart,confidence,
 5.56x45_aft_30r,magazine,,,,,,FN SCAR 16 30rd magazine,high,Standard stick magazine; magazine rule,
 5.56x45_centrefire_mag5100_100r_mag,magazine,,,,,,SureFire MAG5-100 quad-stack,high,"Quad stack: slow reload, very bulky; magazine rule",
 5.56x45_centrefire_mag560_60r_mag,magazine,,,,,,SureFire MAG5-60 quad-stack,high,"Quad stack: slow reload, bulky; magazine rule",
-5.56x45_dragoon_systems_l5awm_gen2_30r_opaque_mag,magazine,,,,,,Lancer L5AWM 30rd opaque,high,Standard stick magazine; magazine rule,special: old E -1.5 (handling -0.6) for a mag that is lighter than the PMAG default looks off; most would rate it equal or better
+5.56x45_dragoon_systems_l5awm_gen2_30r_opaque_mag,magazine,,,,,,Lancer L5AWM 30rd opaque,high,Standard stick magazine; magazine rule,"special: old E -1.5 (handling -0.6) for a mag that is lighter than the PMAG default looks off; most would rate it equal or better; other: (round 8) Weight 0.28 dw equals the PMAG 20R, a real L5AWM 30R weighs about the same as a PMAG 30 (0.41). Translucent twin too."
 5.56x45_dragoon_systems_l5awm_gen2_30r_translucent_mag,magazine,,,,,,Lancer L5AWM 30rd translucent,high,Standard stick magazine; magazine rule,
 5.56x45_hart_ar15_stanag_30r,magazine,,,,,,Colt USGI aluminum 30rd magazine,high,Standard stick magazine; magazine rule,
 5.56x45_hk_polymer_transparent_30r,magazine,,,,,,HK polymer translucent 30rd (G36-style),medium,Standard stick magazine; magazine rule,
-5.56x45_kf_416_gen_3_magazine,magazine,,,,,,HK416 Gen 3 steel 30rd magazine,high,Standard stick magazine; magazine rule,
+5.56x45_kf_416_gen_3_magazine,magazine,,,,,,HK416 Gen 3 steel 30rd magazine,high,Standard stick magazine; magazine rule,"other: (round 8) HK steel 30R weighs 0.41 dw, the same as the polymer PMAG 30, a steel HK mag is clearly heavier in reality."
 5.56x45_magtap_pmag_60r,magazine,,,,,,Magpul PMAG D-60 drum,high,"Drum: slow reload, bulky; magazine rule",
 5.56x45_magtap_pmag_aus_gen_m3_windowed_30r,magazine,,,,,,Magpul PMAG 30 AUS Gen M3 Window,high,Standard stick magazine; magazine rule,
 5.56x45_magtap_pmag_m3_10r,magazine,,,,,,Magpul PMAG 10 Gen M3,high,Short stick; magazine rule,
@@ -35,7 +35,7 @@ name,profile,role,role_strength,value,handling,stability,counterpart,confidence,
 7.62x39_magtap_pmag_akm_30r,magazine,,,,,,Magpul PMAG 30 AK/AKM MOE,high,Standard AK 30R polymer mag,
 7.62x39_promag_ak47_polymer_mag_30r,magazine,,,,,,ProMag AK-47 polymer 30R,high,Standard AK 30R polymer mag,
 7.62x39_promag_ak47_polymer_mag_40r,magazine,,,,,,ProMag AK-47 polymer 40R,high,Extended AK stick,
-7.62x39_rkm_korean_ak_10r_mag,magazine,,,,,,Korean (RKM) AK 7.62x39 10R,medium,Short 10R AK mag; reload short-stick bonus,other: pretty name reads ProClip AK-47 Polymer 40R but the item is the Korean RKM 10R (capacity 10); pretty name copied from the 40R row
+7.62x39_rkm_korean_ak_10r_mag,magazine,,,,,,Korean (RKM) AK 7.62x39 10R,medium,Short 10R AK mag; reload short-stick bonus,other: pretty name reads ProClip AK-47 Polymer 40R but the item is the Korean RKM 10R (capacity 10); pretty name copied from the 40R row; other: (round 8) pretty_name reads ProClip AK-47 Polymer 40R but the item is the Korean RKM 10R (capacity 10).
 7.62x39_rwb_ak47_100r_drum_mag,magazine,,,,,,AK 7.62x39 100R drum,medium,100R drum; magazine rule,
 7.62x39_rwb_ak47_75r_drum_mag,magazine,,,,,,AK 7.62x39 75R drum (RPK-style),medium,75R drum; magazine rule,
 7.62x39_veg_amd65_hungarian_20r_mag,magazine,,,,,,Hungarian AMD-65 20R,high,Reduced 20R steel AK mag,
@@ -44,7 +44,7 @@ name,profile,role,role_strength,value,handling,stability,counterpart,confidence,
 7.62x54_promag_10r,magazine,,,,,,ProMag Archangel Mosin-Nagant AA762R-02 10R,high,Detachable 10R box; capacity for a reload cost,
 7.62x54_promag_5r,magazine,,,,,,ProMag Archangel Mosin-Nagant AA762R-01 5R,high,Detachable 5R box for the Archangel Mosin conversion,"reload: Standard 5R is the stripper-clip fed fixed magazine; if the game animates that differently, the detachable ProMag 5R should be faster to reload, not equal (both 0)"
 9x19_glock_stick_31r,magazine,,,,,,Glock 33R 9mm stick,high,Glock-pattern long stick,special: no set and no weapons; appears unreachable
-9x19_glock_stick_31r_vector,magazine,,,,,,Glock 33R 9mm stick (Vector variant),medium,Glock-pattern long stick,other: name says 31R but magazine_capacity is 29; special: no set and no weapons; appears unreachable
+9x19_glock_stick_31r_vector,magazine,,,,,,Glock 33R 9mm stick (Vector variant),medium,Glock-pattern long stick,"other: name says 31R but magazine_capacity is 29; special: no set and no weapons; appears unreachable; other: (round 8) Name says 31R (counterpart 33R) but magazine_capacity is 29, unreachable item."
 9x19_sgmt_50r_drum,magazine,,,,,,SGM Tactical Glock 9mm 50R drum,high,Glock-pattern drum; magazine rule,special: no set and no weapons; appears unreachable
 aft_mk_17_7.62x51_10r,magazine,,,,,,FN SCAR 17 (Mk17) factory 10R,high,Factory short SCAR-H mag; reload profile as set,
 aft_mk_17_7.62x51_20r,magazine,,,,,,FN SCAR 17 (Mk17) factory 20R,high,Factory standard SCAR-H mag; set default,
@@ -59,8 +59,8 @@ cartesia_productions_x_far_drum_mag_50r,magazine,,,,,,X Products X-FAL 50rd drum
 custom_g3_welded_30r_magazine,magazine,,,,,,Custom welded G3 30rd magazine,medium,Extended stick; magazine rule,
 custom_hart_smg_9x19_50r_extension,magazine,,,,,,Coupled 50R 9mm mag on the Colt SMG coupler (custom),low,"Second, 50R mag carried on the coupler","reload: rule read it as a 32+50 long stick (+8%) while 82/32 would be drum-class elsewhere; settle whether a coupled mag counts as one;other: old E -45 gives handling -11.2, far beyond any drum here, and only 0.57 dw for 50 rounds; special: no set and no weapons; appears unreachable"
 custom_hart_smg_9x19_50r_mag,magazine,,,,,,Colt-pattern 9mm 50R stick (custom/aftermarket),low,Very long 9mm stick,"reload: 50R 9mm stick got +4% (extended) while 31-33R Glock sticks get +8%; a 50R stick is longer, suggest at least +8%; special: no set and no weapons; appears unreachable"
-custom_hart_smg_mag_coupler,magazine,,,,,,Colt 9mm SMG mag coupler (custom),medium,Clamps a second mag; bulk costs handling,"reload: a coupler exists to make the next reload faster but has reload 0; give it a reload bonus if the game models the swap, else confirm 0; special: no set and no weapons; appears unreachable"
-custom_pm_ppsh_9x18_84r_drum_mag,magazine,,,,,,PPSh-41 71R drum converted to 9x18 (custom),low,Novelty PPSh-style drum on a pistol; magazine rule,
+custom_hart_smg_mag_coupler,magazine,,,,-2,,Colt 9mm SMG mag coupler (custom),medium,Clamps a second mag; bulk costs handling Round 8: a bare coupler should not cost more than its old -2; unreachable today.,"reload: a coupler exists to make the next reload faster but has reload 0; give it a reload bonus if the game models the swap, else confirm 0; special: no set and no weapons; appears unreachable"
+custom_pm_ppsh_9x18_84r_drum_mag,magazine,,,,,,PPSh-41 71R drum converted to 9x18 (custom),low,Novelty PPSh-style drum on a pistol; magazine rule,"other: (round 8) Only magazine in the chunk with recoil (h +4, v -1), a heavy drum under a pistol adding horizontal recoil looks unintended"
 dragoon_systems_l7awm_7.62x51_20r,magazine,,,,,,Lancer L7AWM 7.62x51 20R,high,SR-25 pattern standard mag (via SCAR-H conversion magwell),
 dragoon_systems_l7awm_7.62x51_25r,magazine,,,,,,Lancer L7AWM 7.62x51 25R,high,Extended SR-25 pattern stick,
 dragoon_systems_l7awm_translucent_7.62x51_20r,magazine,,,,,,Lancer L7AWM translucent 7.62x51 20R,high,Translucent twin of the L7AWM 20R,
@@ -99,7 +99,7 @@ kosch_9x19_17r_magazine,magazine,,,,,,Glock 17 17R,high,Standard Glock-pattern 9
 kosch_9x19_31r_stick_magazine,magazine,,,,,,Glock 33R 9mm stick,high,Glock-pattern long stick,
 kosch_default_large_mag_plate,magazine,,,,,,KRISS Vector / Glock standard basepad,high,"Default of the capacity-extension slot; standard plate, no effect",
 kosch_default_small_mag_plate,magazine,,,,,,KRISS Vector / Glock standard basepad,high,"Default of the capacity-extension slot; standard plate, no effect",
-kuvalda_rpk_5.45x39_6l18_45r_mag,magazine,,,,,,Molot RPK-74 6L18 45rd magazine,high,Extended stick; magazine rule,
+kuvalda_rpk_5.45x39_6l18_45r_mag,magazine,,,,-2,,Molot RPK-74 6L18 45rd magazine,high,Extended stick; magazine rule Round 8: the same 45R RPK-74 magazine class as the 6L26 (-2); the gap was half a point of old material noise.,
 magazine_5.8x42mm_qbz95,magazine,,,,,,QBZ-95 30rd 5.8x42 magazine,high,Standard stick magazine; magazine rule,"special: only choice; old ergonomics and all current values are blank, lead should fill them as 0"
 magtap_pmag_ac_10r,magazine,,,,,,Magpul PMAG 10 7.62 AC (AICS),high,Longer AICS 10R; capacity for reload cost,
 magtap_pmag_ac_5r,magazine,,,,,,Magpul PMAG 5 7.62 AC (AICS),high,Standard AICS 5R for the bolt rifle,
@@ -107,7 +107,7 @@ magtap_pmag_d50_lr_sr_gen_m3_7.62x51_50r,magazine,,,,,,Magpul PMAG D-50 LR/SR GE
 nbs_ar15_9x19_hart_mag_adapter,zero,,,,,,unidentified (Colt-pattern 9mm magwell block for AR-15),medium,"Magwell block letting the AR take 9mm Colt mags; enabling part, no effect","misfiled: magwell adapter (mag_control), not a magazine; special: only choice on MK9, zero is fine"
 nm_far_polymer_mag_20r,magazine,,,,,,unidentified (polymer metric FAL 20rd magazine),low,Standard stick magazine; magazine rule,
 pf940_gen5_9x19_17r_magazine,magazine,,,,,,Glock 17 Gen5 17R (for Polymer80 PF940),high,Standard Glock-pattern mag,special: no set and no weapons; appears unreachable
-promag_saiga308_sai_a5_polymer_mag_24r,magazine,,,,,,ProMag Saiga .308 SAI-A5 24R,high,Slightly extended Saiga .308 polymer mag,
+promag_saiga308_sai_a5_polymer_mag_24r,magazine,,,,-1,,ProMag Saiga .308 SAI-A5 24R,high,"Slightly extended Saiga .308 polymer mag Round 8: one round under the SGM 25R (-1), same class and weight; the 0 was a rounding outcome.",
 promag_scar17_7.62x51_50r_drum,magazine,,,,,,ProMag FN SCAR 17 .308 50R drum,high,Drum: reload and bulk cost; magazine rule,
 r870_2rnd_extension,magazine,,,,,,Remington 870 +2 magazine tube extension,high,Shotgun tube length; per-shell loading so reload 0 is right; magazine rule,
 r870_4rnd_extension,magazine,,,,,,Remington 870 +4 magazine tube extension,high,Shotgun tube length; per-shell loading so reload 0 is right; magazine rule,

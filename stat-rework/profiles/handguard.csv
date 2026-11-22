@@ -40,7 +40,7 @@ calsport_lvoa_c_16.25inch_handguard,handguard_long,,,,,,War Sport LVOA-C 16.25in
 calsport_lvoa_s_13.5inch_handguard,even,,,,,,War Sport LVOA-S 13.5in,high,Shrouded long rail; long but below the 16-18in group; even,
 centrefire_628lmf_b_mp5_handguard,even,,,,,,SureFire 628LMF-B MP5 weaponlight forend,high,Dedicated MP5 light handguard; no set to compare so even,special: has an integrated weaponlight but no set or weapons listed; lights normally cost handling
 cerberus_arms_aug_cantiliver_forend_handguard,even,,,,,,aftermarket AUG cantilever M-LOK forend,low,"Small add-on AUG forend; no set to compare, even",special: only-choice
-cgr_abomination,even,,,,,,unidentified decorative picatinny rail panel,none,"Decorative picatinny rail panel; same function as plain panels, even.",other: price 1000 vs 50-300 for functionally identical panels; fine if cosmetic premium is intended
+cgr_abomination,even,,,,,,unidentified decorative picatinny rail panel,none,"Decorative picatinny rail panel; same function as plain panels, even.","other: price 1000 vs 50-300 for functionally identical panels; fine if cosmetic premium is intended; other: (round 8) CGR decorative panels (all 14) cost 1000 vs 50-700 for functionally identical plain panels, confirm a cosmetic premium is intended."
 cgr_abomination_flipped,even,,,,,,unidentified decorative picatinny rail panel,none,"Decorative picatinny rail panel; same function as plain panels, even.",
 cgr_ace,even,,,,,,unidentified decorative picatinny rail panel,none,"Decorative picatinny rail panel; same function as plain panels, even.",
 cgr_ace_flipped,even,,,,,,unidentified decorative picatinny rail panel,none,"Decorative picatinny rail panel; same function as plain panels, even.",
@@ -123,7 +123,7 @@ kalis_scalar_gen2_early_upper_receiver_rail,zero,,,,,,KRISS Vector Gen II early 
 kalis_scalar_gen2_late_upper_receiver_rail,zero,,,,,,KRISS Vector Gen II late upper rail,medium,Fixed receiver top rail with zero ergonomics; only-choice and no effect,
 kalis_scalar_gen2_receiver_bottom_rail,zero,,,,,,KRISS Vector Gen II receiver bottom rail,medium,Receiver rail with zero ergonomics; no effect,
 kalis_scalar_gen3_10inch_mlok_handguard,even,,,,,,KRISS Vector Gen III 10in M-LOK handguard,medium,Longer Gen III handguard but third set member unknown; even unless it is the longest,special: third member of the Gen III set is outside this chunk; if it is shorter this one could be handguard_long
-kalis_scalar_gen3_5.5inch_mlok_handguard,handguard_short,,,,,,KRISS Vector Gen III 5.5in M-LOK handguard,medium,Short SBR/SDP-length Gen III handguard; clearly shortest of its set,
+kalis_scalar_gen3_5.5inch_mlok_handguard,handguard_short,,,,2,0,KRISS Vector Gen III 5.5in M-LOK handguard,medium,Short SBR/SDP-length Gen III handguard; clearly shortest of its set Round 8: the 5.5in was less handy than the 10in; 2 / 0 ties it on handling and leaves it the least steady.,
 kalis_scalar_gen3_upper_receiver_rail,zero,,,,,,KRISS Vector Gen III upper rail,medium,Fixed receiver top rail with zero ergonomics; only-choice and no effect,
 kalis_scalar_mk11_handguard,handguard_long,,,,,,KRISS Vector 11in round barrel shroud,low,11in shroud is the longest visible option in its set,special: set has 2 members outside this chunk; confirm Mk11 is clearly the longest before leaning
 kalis_scalar_mk1_handguard,even,,,,,,KRISS Vector modular rail handguard,low,Gen I modular rail; no clear length extreme in a set of 2,
@@ -274,7 +274,7 @@ rsa_sg58_metric_mlok_mid_length_bottom_handguard,even,,,,,,DSA SA58 mid-length M
 rsa_sg58_metric_mlok_mid_length_top_handguard,even,,,,,,DSA SA58 mid-length M-LOK handguard top half,medium,Top half of the mid-length DSA handguard; mid length so even,special: forced by the mid-length lower; profile mirrors the lower
 rsa_sg58_metric_mlok_pistol_length_bottom_handguard,handguard_short,,,,,,DSA SA58 pistol-length M-LOK handguard,medium,Pistol-length FAL handguard; one of the two clearly shortest in the SA58 set,
 rsa_sg58_metric_mlok_pistol_length_top_handguard,handguard_short,,,,,,DSA SA58 pistol-length M-LOK handguard top half,medium,Top half of the pistol-length DSA handguard; matches its short lower half,special: forced by the pistol-length lower (sub-tagged set of 1); profile mirrors the lower so the combined handguard leans consistently
-rsa_sg58_tactical_pistol_v2_handguard,handguard_short,,,,,,DSA SA58 Tactical Pistol handguard,medium,Pistol-length handguard for short-barrel SA58; one of the clearly shortest in set,
+rsa_sg58_tactical_pistol_v2_handguard,handguard_short,,,,16,9,DSA SA58 Tactical Pistol handguard,medium,Pistol-length handguard for short-barrel SA58; one of the clearly shortest in set Round 8: the pistol-length handguard came out steadier than both full-length ones; 16 / 9 keeps its value.,
 rsa_sg58_wood_full_length_handguard,handguard_long,,,,,,FAL/SA58 full-length wood handguard,medium,Full-length wood rifle handguard; in the longest tier of the set,
 russian_tuning_ak12_megatron_handguard,even,,,,,,unidentified (Russian Tuning extended AK-12 rail),low,"Heaviest AK-12 option, probably long; length unverified so default even",special: likely longest of set by weight but unconfirmed; handguard_long candidate
 sai_ar15_qd_10inch_handguard,even,,,,,,Salient Arms QD rail 10in,medium,Quick-detach free-float rail with extension slot; even,
@@ -291,7 +291,7 @@ spinner_extended_multislot_rail_base,mount,,,,,,generic extended Picatinny scope
 steyr_aug_a3_m1_extended_factory_rail,mount,,,,,,Steyr AUG A3 M1 extended Picatinny rail,high,Top rail optic mount; bulk on handling,misfiled: mount
 steyr_aug_a3_m1_high_sight_mount,mount,,,,,,Steyr AUG A3 M1 high Picatinny rail,high,Top rail optic mount; height is a sight-picture cost,misfiled: mount
 steyr_aug_a3_sa_top_rail,mount,,,,,,Steyr AUG A3 SA standard top rail,high,Standard top rail optic mount; handling only,misfiled: mount
-steyr_aug_a3_sa_xs_top_rail,mount,,,,,,Steyr AUG A3 SA (USA) short top rail,medium,Top rail optic mount for the SA receiver; handling only,misfiled: mount
+steyr_aug_a3_sa_xs_top_rail,mount,,,,,,Steyr AUG A3 SA (USA) short top rail,medium,Top rail optic mount for the SA receiver; handling only,"misfiled: mount; other: (round 8) Recoil +1/+2 on a top rail mount while every neighbouring rail reduces or leaves recoil, looks like a sign slip."
 steyr_aug_z_subcompact_swat_keymod_top_rail,mount,,,,,,Steyr AUG Z subcompact/SWAT KeyMod top rail,medium,"Top rail with integral sight slot; mount, handling only",misfiled: mount
 stngr_hwk_15i,even,,,,,,unidentified,none,15in M-LOK free-float rail; family default even,
 stngr_lvnc_10i,even,,,,,,unidentified,none,10in M-LOK free-float rail; family default even,
@@ -307,7 +307,7 @@ tas_rs47_upper_handguard,zero,,,,,,unidentified (two-piece AK rail system upper)
 tdiarms_ak_akm_l_lower_handguard,even,,,,,,TDI Arms AKM-L handguard,high,Standard-length lightweight M-LOK AK lower; set has longer options elsewhere,
 tdiarms_ak_akm_l_lower_handguard_alt,even,,,,,,TDI Arms AKM-L handguard,high,Standard-length lightweight M-LOK AK lower; no length extreme in set,
 tdiarms_ak_x47_rail_system,handguard_long,,,,,,TDI Arms X47 AK rail system,medium,Full-length heavy extended rail system; clearly the longest AK option,
-tt_c_optic_rail,zero,,,,,,generic TT-33 optic rail adapter,low,Mount with zero ergonomics; no effect,other: price 1000 for a zero-effect only-choice rail looks odd
+tt_c_optic_rail,zero,,,,,,generic TT-33 optic rail adapter,low,Mount with zero ergonomics; no effect,other: price 1000 for a zero-effect only-choice rail looks odd; other: (round 8) Price 1000 for a zero-effect only-choice TT-33 rail adapter looks wrong
 ultimak_m1_b_gastube,zero,,,,,,UltiMAK M1-B gas tube optic mount,high,"Gas tube with scout optic rail; value 0, effect sits on mounted optic",misfiled: really a scout optic mount (mount); harmless at V=0
 usgi_m16a1_triangle_handguard,even,,,,,,USGI M16A1 triangular handguard,high,Vintage rifle-length plastic handguard; even,
 vallais_2_hole_grip_compat_rail,zero,,,,,,M-LOK Picatinny rail section (HK416 handguard),medium,"2-slot accessory rail, container with no own value",

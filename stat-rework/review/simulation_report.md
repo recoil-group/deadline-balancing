@@ -14,118 +14,112 @@ the larger, the more a build has to give up one stat to reach another (flagged a
 
 | weapon | refs | ref h | ref reload | ref vs today | ref s | old ergo | stock h/reload/s | best h/reload/s | worst h/reload/s | archetype overlap | choice margin |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| AK12 | 4 | 54 | +8.0% | 0% | 50 | 54 | 65/0%/36 | 107/-9.8%/90 | -8/+16.0%/-2 | 57% | 26.9 |
-| AK308 | 2 | 56 | -0.9% | 0% | 53 | 58 | 60/0%/28 | 106/-9.8%/81 | 0/+4.0%/-1 | 43% | 11.5 |
-| AK_545 | 4 | 56 | -0.9% | 0% | 50 | 56 | 56/0%/52 | 114/-12.8%/126 | -50/+16.0%/8 | 50% | 30.2 |
-| AK_545_Carbine | 4 | 72 | 0% | 0% | 46 | 70 | 87/0%/46 | 134/-12.8%/107 | 6/+16.0%/18 | 59% | 5.0 |
-| AK_762 | 2 | 59 | -3.5% | 0% | 50 | 59 | 55/0%/50 | 109/-12.8%/125 | -54/+16.0%/5 | 56% | 24.2 |
-| AK_9 | 1 | 75 | 0% | 0% | 50 | 75 | 75/0%/50 | 116/-9.8%/106 | -10/+12.0%/22 | 62% | 26.9 |
-| AUG_A3 | 10 | 70 | 0% | +2.2% | 54 | 68 | 68/0%/53 | 133/-18.5%/86 | 12/+16.0%/26 | 42% | 28.5 |
-| EDC_X9 | 1 | 90 | 0% | 0% | 50 | 90 | 90/0%/50 | 96/0%/55 | 68/+8.0%/40 | 71% | 0.0 |
-| G3 | 7 | 63 | 0% | 0% | 53 | 65 | 52/0%/34 | 112/-8.0%/104 | -14/+4.0%/0 | 49% | 10.5 |
-| KF416 | 4 | 65 | -4.5% | 0% | 50 | 65 | 70/-2.0%/57 | 104/-19.7%/98 | -4/+16.0%/6 | 33% | 32.7 |
-| KOSCH | 1 | 73 | 0% | 0% | 50 | 73 | 73/0%/54 | 81/-5.0%/68 | 28/+16.0%/33 | 52% | 0.0 |
-| M4A1 | 12 | 62 | -0.9% | -0.1% | 50 | 62 | 72/0%/38 | 132/-21.7%/140 | -32/+16.0%/-10 | 26% | 14.0 |
-| MK9 | 1 | 85 | -0.2% | 0% | 50 | 85 | 66/0%/33 | 76/-7.0%/83 | 22/0%/6 | 37% | 18.7 |
-| MP133 | 1 | 60 | 0% | 0% | 50 | 60 | 60/0%/50 | 88/0%/68 | 36/0%/9 | 60% | 6.0 |
-| MP5 | 2 | 50 | 0% | 0% | 50 | 50 | 60/0%/56 | 110/-1.8%/85 | 22/+12.0%/29 | 58% | 11.5 |
-| Makarov | 1 | 76 | 0% | +0.1% | 50 | 76 | 76/0%/50 | 84/0%/56 | 56/+16.0%/46 | 74% | 3.5 |
-| MosinNagant | 1 | 80 | 0% | -0.1% | 50 | 80 | 67/0%/50 | 104/0%/74 | 31/+8.0%/16 | 38% | 14.5 |
-| P226 | 1 | 74 | 0% | 0% | 50 | 74 | 69/0%/50 | 79/-3.0%/60 | 40/+4.0%/44 | 43% | 2.5 |
-| P320 | 1 | 77 | 0% | 0% | 50 | 77 | 77/0%/50 | 92/-3.0%/55 | 52/+8.0%/44 | 57% | 11.0 |
-| PSRL | 1 | 4 | 0% | 0% | 50 | 41 | 4/0%/50 | 24/0%/72 | -17/0%/41 | 89% | 13.5 |
-| QBZ95 | 1 | 71 | 0% | +2.2% | 54 | 70 | 62/0%/44 | 111/0%/78 | 46/0%/32 | 79% | 12.0 |
-| RPG7 | 1 | 10 | 0% | 0% | 50 | 51 | 10/0%/50 | 16/0%/56 | -10/0%/46 | 100% | 4.5 |
-| Remington700 | 5 | 69 | 0% | 0% | 53 | 70 | 58/0%/42 | 122/-3.0%/101 | 23/+8.0%/-3 | 68% | 0.0 |
-| Remington870 | 2 | 62 | 0% | 0% | 50 | 62 | 57/0%/66 | 96/0%/100 | -1/0%/18 | 41% | 10.5 |
-| SA58 | 7 | 48 | 0% | +0.1% | 53 | 50 | 39/0%/47 | 128/-11.0%/106 | -16/+16.0%/8 | 37% | 22.0 |
-| SCALAR | 7 | 45 | +8.0% | 0% | 50 | 45 | 54/0%/64 | 88/0%/102 | 4/+16.0%/26 | 67% | 24.0 |
-| SCAR47 | 1 | 68 | -7.0% | 0% | 50 | 68 | 74/0%/36 | 142/-12.0%/99 | 24/+4.0%/0 | 41% | 13.7 |
-| SCARH | 2 | 38 | -5.5% | 0% | 53 | 40 | 40/0%/35 | 121/-16.0%/110 | -21/+16.0%/-5 | 36% | 24.7 |
-| SCARL | 1 | 64 | -10.0% | +0.1% | 50 | 64 | 68/0%/49 | 120/-23.0%/100 | 6/+16.0%/8 | 57% | 14.0 |
-| TT33 | 1 | 77 | 0% | 0% | 50 | 77 | 77/0%/50 | 90/0%/59 | 56/0%/44 | 68% | 1.5 |
+| AK12 | 4 | 54 | +8.0% | 0% | 50 | 54 | 60/0%/42 | 88/-9.8%/78 | 3/+16.0%/20 | 63% | 24.5 |
+| AK308 | 2 | 56 | -0.9% | 0% | 53 | 58 | 51/0%/39 | 76/-9.8%/74 | 9/+4.0%/16 | 71% | 4.0 |
+| AK_545 | 4 | 56 | -0.9% | 0% | 50 | 56 | 54/0%/54 | 98/-12.8%/100 | -22/+16.0%/6 | 51% | 30.0 |
+| AK_545_Carbine | 4 | 72 | 0% | 0% | 46 | 70 | 80/0%/45 | 110/-12.8%/84 | 21/+16.0%/18 | 58% | 13.2 |
+| AK_762 | 2 | 59 | -3.5% | 0% | 50 | 59 | 63/0%/38 | 106/-12.8%/88 | -18/+16.0%/-10 | 45% | 24.2 |
+| AK_9 | 1 | 75 | 0% | 0% | 50 | 75 | 75/0%/50 | 102/-9.8%/79 | 19/+12.0%/11 | 57% | 26.9 |
+| AUG_A3 | 10 | 70 | 0% | +2.2% | 54 | 68 | 66/0%/50 | 124/-18.5%/92 | 16/+16.0%/40 | 60% | 28.9 |
+| EDC_X9 | 1 | 90 | 0% | 0% | 50 | 90 | 90/0%/50 | 97/0%/56 | 70/+8.0%/45 | 59% | 2.5 |
+| G3 | 7 | 63 | 0% | 0% | 53 | 65 | 51/0%/46 | 114/-8.0%/112 | -4/+4.0%/8 | 41% | 14.5 |
+| KF416 | 4 | 65 | -4.5% | 0% | 50 | 65 | 70/-2.0%/52 | 85/-19.7%/82 | 2/+16.0%/19 | 36% | 30.0 |
+| KOSCH | 1 | 73 | 0% | 0% | 50 | 73 | 74/0%/52 | 82/-5.0%/61 | 34/+16.0%/41 | 71% | 8.2 |
+| M4A1 | 12 | 62 | -0.9% | -0.1% | 50 | 62 | 62/0%/48 | 112/-21.7%/123 | -28/+16.0%/-2 | 34% | 3.0 |
+| MK9 | 1 | 85 | -0.2% | 0% | 50 | 85 | 68/0%/36 | 82/-7.0%/72 | 32/0%/-6 | 41% | 8.5 |
+| MP133 | 1 | 60 | 0% | 0% | 50 | 60 | 60/0%/50 | 81/0%/67 | 42/0%/20 | 71% | 2.0 |
+| MP5 | 2 | 50 | 0% | 0% | 50 | 50 | 59/0%/56 | 90/-1.8%/86 | 28/+12.0%/32 | 61% | 9.0 |
+| Makarov | 1 | 76 | 0% | +0.1% | 50 | 76 | 76/0%/50 | 82/0%/58 | 61/+16.0%/48 | 82% | 2.5 |
+| MosinNagant | 1 | 80 | 0% | -0.1% | 50 | 80 | 70/0%/58 | 104/0%/69 | 40/+8.0%/37 | 38% | 15.0 |
+| P226 | 1 | 74 | 0% | 0% | 50 | 74 | 71/0%/49 | 78/-6.0%/57 | 48/+4.0%/43 | 65% | 4.5 |
+| P320 | 1 | 77 | 0% | 0% | 50 | 77 | 77/0%/50 | 87/-3.0%/60 | 58/+8.0%/46 | 57% | 10.5 |
+| PSRL | 1 | 4 | 0% | 0% | 50 | 41 | 4/0%/50 | 18/0%/66 | -10/0%/41 | 88% | 4.0 |
+| QBZ95 | 1 | 71 | 0% | +2.2% | 54 | 70 | 64/0%/48 | 93/0%/73 | 50/0%/36 | 76% | 6.5 |
+| RPG7 | 1 | 10 | 0% | 0% | 50 | 51 | 10/0%/50 | 14/0%/54 | -4/0%/45 | 100% | 2.5 |
+| Remington700 | 5 | 69 | 0% | 0% | 53 | 70 | 69/0%/30 | 118/-3.0%/88 | 34/+8.0%/-7 | 65% | 2.0 |
+| Remington870 | 2 | 62 | 0% | 0% | 50 | 62 | 56/0%/66 | 94/0%/96 | 10/0%/30 | 59% | 8.0 |
+| SA58 | 7 | 48 | 0% | +0.1% | 53 | 50 | 32/0%/51 | 102/-11.0%/95 | -12/+16.0%/16 | 42% | 19.5 |
+| SCALAR | 7 | 45 | +8.0% | 0% | 50 | 45 | 60/0%/55 | 90/0%/105 | 13/+16.0%/24 | 76% | 15.0 |
+| SCAR47 | 1 | 68 | -7.0% | 0% | 50 | 68 | 72/0%/46 | 119/-12.0%/106 | 30/+4.0%/10 | 49% | 13.7 |
+| SCARH | 2 | 38 | -5.5% | 0% | 53 | 40 | 40/0%/35 | 104/-16.0%/102 | -10/+16.0%/0 | 45% | 27.5 |
+| SCARL | 1 | 64 | -10.0% | +0.1% | 50 | 64 | 72/0%/44 | 108/-23.0%/92 | 20/+16.0%/10 | 62% | 20.0 |
+| TT33 | 1 | 77 | 0% | 0% | 50 | 77 | 77/0%/50 | 88/0%/61 | 61/+8.0%/47 | 100% | 0.0 |
 | Turret | 1 | 24 | 0% | 0% | 50 | 29 | 24/0%/50 | 28/0%/54 | 24/0%/50 | 100% | 0.0 |
-| UMP | 1 | 84 | 0% | 0% | 50 | 84 | 75/0%/48 | 114/0%/69 | 42/0%/40 | 67% | 0.0 |
+| UMP | 1 | 84 | 0% | 0% | 50 | 84 | 78/0%/44 | 106/0%/74 | 54/0%/36 | 73% | 0.0 |
 
 ## Checks
 
-Optimiser builds that break an item-level incompatibility rule: 112 of 288 (marked in the weapon tables; the clamped check below uses legal builds only, for its maxima too). Slot-level `incompatible_with_when_mounted` rules are not checked.
+Optimiser builds that break an item-level incompatibility rule: 115 of 288 (marked in the weapon tables; the clamped check below uses legal builds only, for its maxima too). Slot-level `incompatible_with_when_mounted` rules are not checked.
 
-### Realistic builds (stock, references) outside the clamp (handling and stability 0-100, reload parts -40%..+60%): 1
-- AUG_A3 preset:aug_9mm_para_xs: handling 100.5
+### Realistic builds (stock, references) outside the clamp (handling and stability 0-100, reload parts -40%..+60%): 0
+- none
 
-### Per-stat best past the clamp (handling or stability above 100, reload parts below -40%): 29
-- AK12: max handling 107.0
-- AK308: max handling 106.5
-- AK_545: max handling 113.5
-- AK_545: max stability 126.0
-- AK_545_Carbine: max handling 134.0
-- AK_545_Carbine: max stability 107.0
-- AK_762: max handling 109.0
-- AK_762: max stability 125.0
-- AK_9: max handling 115.5
-- AK_9: max stability 105.5
-- AUG_A3: max handling 133.0
-- G3: max handling 111.5
-- G3: max stability 104.0
-- KF416: max handling 103.5
-- M4A1: max handling 132.0
-- M4A1: max stability 139.5
-- MP5: max handling 110.5
-- MosinNagant: max handling 104.5
-- QBZ95: max handling 111.0
-- Remington700: max handling 121.5
-- Remington700: max stability 101.0
-- SA58: max handling 127.5
-- SA58: max stability 106.0
-- SCALAR: max stability 102.5
-- SCAR47: max handling 141.5
-- SCARH: max handling 121.0
-- SCARH: max stability 110.0
-- SCARL: max handling 119.5
-- UMP: max handling 114.5
+### Per-stat best past the clamp (handling or stability above 100, reload parts below -40%): 18
+- AK_545_Carbine: max handling 110.0
+- AK_762: max handling 105.5
+- AK_9: max handling 102.5
+- AUG_A3: max handling 124.5
+- G3: max handling 114.0
+- G3: max stability 112.0
+- M4A1: max handling 112.5
+- M4A1: max stability 123.0
+- MosinNagant: max handling 104.0
+- Remington700: max handling 117.5
+- SA58: max handling 102.5
+- SCALAR: max stability 105.0
+- SCAR47: max handling 119.0
+- SCAR47: max stability 106.0
+- SCARH: max handling 104.5
+- SCARH: max stability 102.0
+- SCARL: max handling 107.5
+- UMP: max handling 106.0
 
-### Per-stat worst past the clamp (handling or stability below 0, reload parts above +60%): 17
-- AK12: min handling -8.5
-- AK12: min stability -2.0
-- AK308: min stability -1.0
-- AK_545: min handling -50.5
-- AK_762: min handling -53.5
-- AK_9: min handling -10.0
-- G3: min handling -14.5
-- KF416: min handling -4.0
-- M4A1: min handling -31.5
-- M4A1: min stability -10.5
-- PSRL: min handling -17.0
-- RPG7: min handling -10.0
-- Remington700: min stability -3.0
-- Remington870: min handling -1.0
-- SA58: min handling -15.5
-- SCARH: min handling -21.0
-- SCARH: min stability -5.0
+### Per-stat worst past the clamp (handling or stability below 0, reload parts above +60%): 12
+- AK_545: min handling -21.5
+- AK_762: min handling -17.5
+- AK_762: min stability -9.5
+- G3: min handling -4.0
+- M4A1: min handling -28.0
+- M4A1: min stability -2.0
+- MK9: min stability -6.5
+- PSRL: min handling -10.0
+- RPG7: min handling -4.0
+- Remington700: min stability -7.0
+- SA58: min handling -12.5
+- SCARH: min handling -10.5
 
-### A single build within 3 points of every per-stat best: 3
-- EDC_X9: handling, all_round within 3 points of every per-stat best (h 96.5 / reload 0% / s 55.0)
-- TT33: all_round within 3 points of every per-stat best (h 90.5 / reload 0% / s 59.0)
-- Turret: handling, reload, stability, recoil, all_round within 3 points of every per-stat best (h 27.5 / reload 0% / s 53.5)
+### A single build within 3 points of every per-stat best: 6
+- EDC_X9: handling, all_round within 3 points of every per-stat best (h 97.0 / reload 0% / s 56.5)
+- KOSCH: all_round within 3 points of every per-stat best (h 81.5 / reload -5.0% / s 61.0)
+- MP133: all_round within 3 points of every per-stat best (h 81.0 / reload 0% / s 67.0)
+- Makarov: handling, all_round within 3 points of every per-stat best (h 82.0 / reload 0% / s 57.5)
+- TT33: handling, stability, all_round within 3 points of every per-stat best (h 88.0 / reload 0% / s 61.0)
+- Turret: handling, reload, stability, recoil, all_round within 3 points of every per-stat best (h 27.5 / reload 0% / s 54.0)
 
-### A single legal build within 10 points of every clamped per-stat best (handling and stability: min(max over legal builds, 100); reload: the fastest legal parts sum on that weapon): 8
-- EDC_X9: `handling` is within 0.0 of every clamped per-stat maximum (h 96 / reload 0% / s 55)
-- MP133: `blend 1/0.333333/0.333333` is within 6.0 of every clamped per-stat maximum (h 88 / reload 0% / s 68)
-- Makarov: `blend 0.333333/1/0.333333` is within 3.5 of every clamped per-stat maximum (h 84 / reload 0% / s 56)
-- P226: `blend 0.333333/1/0.333333` is within 2.5 of every clamped per-stat maximum (h 79 / reload -3.0% / s 60)
-- RPG7: `handling` is within 4.5 of every clamped per-stat maximum (h 16 / reload 0% / s 56)
-- TT33: `blend 0.333333/1/0.333333` is within 1.5 of every clamped per-stat maximum (h 90 / reload 0% / s 59)
+### A single legal build within 10 points of every clamped per-stat best (handling and stability: min(max over legal builds, 100); reload: the fastest legal parts sum on that weapon): 14
+- AK308: `blend 0.333333/0.333333/1` is within 4.0 of every clamped per-stat maximum (h 76 / reload -9.8% / s 74)
+- EDC_X9: `handling` is within 2.5 of every clamped per-stat maximum (h 97 / reload 0% / s 56)
+- KOSCH: `stock` is within 8.2 of every clamped per-stat maximum (h 74 / reload -3.0% / s 52)
+- MP133: `blend 0.333333/0.333333/1` is within 2.0 of every clamped per-stat maximum (h 81 / reload 0% / s 67)
+- MP5: `blend 1/0.333333/0.666667` is within 9.0 of every clamped per-stat maximum (h 90 / reload -1.8% / s 86)
+- Makarov: `handling` is within 2.5 of every clamped per-stat maximum (h 82 / reload 0% / s 58)
+- P226: `blend 1/0.333333/0.333333` is within 4.5 of every clamped per-stat maximum (h 78 / reload -6.0% / s 57)
+- PSRL: `stability` is within 4.0 of every clamped per-stat maximum (h 18 / reload 0% / s 66)
+- QBZ95: `blend 0.333333/0.333333/1` is within 6.5 of every clamped per-stat maximum (h 93 / reload 0% / s 73)
+- RPG7: `blend 0.333333/0.333333/1` is within 2.5 of every clamped per-stat maximum (h 14 / reload 0% / s 54)
+- Remington870: `blend 0.666667/1/0.333333` is within 8.0 of every clamped per-stat maximum (h 94 / reload 0% / s 96)
+- TT33: `handling` is within 0.0 of every clamped per-stat maximum (h 88 / reload 0% / s 61)
 - Turret: `handling` is within 0.0 of every clamped per-stat maximum (h 28 / reload 0% / s 54)
-- UMP: `blend 0.333333/1/0.333333` is within 0.0 of every clamped per-stat maximum (h 100 / reload 0% / s 72)
+- UMP: `blend 0.333333/0.333333/1` is within 0.0 of every clamped per-stat maximum (h 100 / reload 0% / s 74)
 
 ### Inconclusive: near every legal maximum, but the legal maxima fall well short of the optimiser's (illegal) ones: 3
-- AK_545_Carbine: `blend 1/0.333333/0.333333` is within 5.0 of the legal maxima, but the optimiser found no legal build near the stability ceiling (legal h 100 / reload -12.8% / s 59 against h 100 / reload -12.8% / s 100 including illegal builds)
-- KOSCH: `stock` is within 0.0 of the legal maxima, but the optimiser found no legal build near the reload_time, stability ceiling (legal h 73 / reload 0% / s 54 against h 81 / reload -5.0% / s 68 including illegal builds)
-- Remington700: `all_round` is within 0.0 of the legal maxima, but the optimiser found no legal build near the stability ceiling (legal h 100 / reload -3.0% / s 72 against h 100 / reload -3.0% / s 100 including illegal builds)
+- M4A1: `preset:ardian_weapons_pattern_1` is within 3.0 of the legal maxima, but the optimiser found no legal build near the handling, reload_time, stability ceiling (legal h 74 / reload -8.0% / s 64 against h 100 / reload -21.7% / s 100 including illegal builds)
+- MK9: `blend 0.666667/1/0.333333` is within 8.5 of the legal maxima, but the optimiser found no legal build near the stability ceiling (legal h 85 / reload -7.0% / s 50 against h 82 / reload -7.0% / s 72 including illegal builds)
+- Remington700: `all_round` is within 2.0 of the legal maxima, but the optimiser found no legal build near the stability ceiling (legal h 100 / reload -3.0% / s 60 against h 100 / reload -3.0% / s 88 including illegal builds)
 
-### Handling, reload and stability builds nearly identical: 2
+### Handling, reload and stability builds nearly identical: 3
 - RPG7: handling/reload/stability builds share 100% of parts
+- TT33: handling/reload/stability builds share 100% of parts
 - Turret: handling/reload/stability builds share 100% of parts
 
 ### Cycling on manually cycled weapons (fire_rate, round 6)
@@ -137,7 +131,7 @@ Optimiser builds that break an item-level incompatibility rule: 112 of 288 (mark
 | MosinNagant | 50 | 50.0 | 50 | 50.5 (illegal) | 50.0 (illegal) |
 | Remington700 | 50 | 50.0 | 50 | 50.0 | 50.0 |
 
-### Strict dominations inside competing sets: 137 items dominated by a not-more-expensive like-for-like alternative (old sheet, with ergonomics in all three: 150)
+### Strict dominations inside competing sets: 156 items dominated by a not-more-expensive like-for-like alternative (old sheet, with ergonomics in all three: 150)
 
 Compared on handling, reload, stability, capacity, velocity, damage, weight, recoil, deviation and loudness; items hosting different child slots are not compared.
 - `veles_b_2l_34mm_rail_grips` dominates `veles_b_2u_75mm_rail_grips` in rail:basis:optic#354a8e (price 100 vs 400)
@@ -147,6 +141,7 @@ Compared on handling, reload, stability, capacity, velocity, damage, weight, rec
 - `veles_b_2l_34mm_rail_side` dominates `veles_b_2u_75mm_rail_side` in rail:basis:optic#b609fe (price 100 vs 400)
 - `calsport_handguard_short_accessory_rail_side` dominates `calsport_handguard_long_accessory_rail_side` in rail:lvoa_rails:optic#32e7c2 (price 300 vs 700)
 - `calsport_handguard_short_accessory_rail_bottom` dominates `calsport_handguard_long_accessory_rail_bottom` in rail:lvoa_rails:optic#abd662 (price 300 vs 700)
+- `dd_enhanced_mvg` dominates `okb_crazy_romanian_mlok_half_grip` in rail:mlok:foregrip#47333e (price 400 vs 600)
 - `ddg_qd_3slot_rail_bottom` dominates `ddg_qd_7slot_rail_bottom` in rail:mlok:handguard#31a097 (price 300 vs 500)
 - `ddg_qd_3slot_rail_bottom` dominates `generic_11_slot_mlok_rail_bottom` in rail:mlok:handguard#31a097 (price 300 vs 500)
 - `ddg_qd_3slot_rail_bottom` dominates `generic_13_slot_mlok_rail_bottom` in rail:mlok:handguard#31a097 (price 300 vs 600)
@@ -175,6 +170,9 @@ Compared on handling, reload, stability, capacity, velocity, damage, weight, rec
 - `magtap_mlok_1.6_bottom` dominates `generic_7_slot_mlok_rail_bottom` in rail:mlok:handguard#31a097 (price 100 vs 300)
 - `magtap_mlok_1.6_bottom` dominates `generic_9_slot_mlok_rail_bottom` in rail:mlok:handguard#31a097 (price 100 vs 400)
 - `magtap_mlok_1.6_bottom` dominates `pac_mlok_3inch_5_slot_rail_section_bottom` in rail:mlok:handguard#31a097 (price 100 vs 500)
+- `magtap_type_1_1slot_mlok_cover` dominates `ecm_ecmr_3_slot_mlok_rail_panel` in rail:mlok:handguard#31a097 (price 100 vs 400)
+- `magtap_type_1_1slot_mlok_cover` dominates `equinox_ex_mlok_cover` in rail:mlok:handguard#31a097 (price 100 vs 200)
+- `magtap_type_1_1slot_mlok_cover` dominates `equinox_ex_mlok_cover_flipped` in rail:mlok:handguard#31a097 (price 100 vs 200)
 - `pac_mlok_3inch_5_slot_rail_section_bottom` dominates `ddg_qd_7slot_rail_bottom` in rail:mlok:handguard#31a097 (price 500 vs 500)
 - `pac_mlok_3inch_5_slot_rail_section_bottom` dominates `generic_11_slot_mlok_rail_bottom` in rail:mlok:handguard#31a097 (price 500 vs 500)
 - `pac_mlok_3inch_5_slot_rail_section_bottom` dominates `generic_13_slot_mlok_rail_bottom` in rail:mlok:handguard#31a097 (price 500 vs 600)
@@ -240,6 +238,24 @@ Compared on handling, reload, stability, capacity, velocity, damage, weight, rec
 - `pac_mlok_3inch_5_slot_rail_section_side` dominates `ddg_qd_7slot_rail_side` in rail:mlok:handguard#619033 (price 500 vs 500)
 - `pac_mlok_3inch_5_slot_rail_section_side` dominates `generic_11_slot_mlok_rail_side` in rail:mlok:handguard#619033 (price 500 vs 500)
 - `pac_mlok_3inch_5_slot_rail_section_side` dominates `generic_13_slot_mlok_rail_side` in rail:mlok:handguard#619033 (price 500 vs 600)
+- `axtell_defense_rubber_overmolding_vertical_foregrip` dominates `launchtron_psrl_plastic_foregrip` in rail:picatinny:foregrip#9c3fb7 (price 500 vs 800)
+- `ecm_gunslinger_mod3_picatinny_foregrip` dominates `launchtron_psrl_plastic_foregrip` in rail:picatinny:foregrip#9c3fb7 (price 300 vs 800)
+- `ecm_gunslinger_mod3_picatinny_foregrip_flipped` dominates `launchtron_psrl_plastic_foregrip` in rail:picatinny:foregrip#9c3fb7 (price 300 vs 800)
+- `magtap_rcp_mag412_foregrip` dominates `launchtron_psrl_plastic_foregrip` in rail:picatinny:foregrip#9c3fb7 (price 300 vs 800)
+- `mission_first_folding_grip` dominates `launchtron_psrl_plastic_foregrip` in rail:picatinny:foregrip#9c3fb7 (price 400 vs 800)
+- `okb_crazy_romanian_picatinny_half_grip` dominates `launchtron_psrl_plastic_foregrip` in rail:picatinny:foregrip#9c3fb7 (price 600 vs 800)
+- `pts_validus_shift_tactical_grip` dominates `launchtron_psrl_plastic_foregrip` in rail:picatinny:foregrip#9c3fb7 (price 600 vs 800)
+- `rtm_pillau_tactical_grip` dominates `launchtron_psrl_plastic_foregrip` in rail:picatinny:foregrip#9c3fb7 (price 300 vs 800)
+- `stark_se_5_express_forward_grip` dominates `okb_crazy_romanian_picatinny_full_grip` in rail:picatinny:foregrip#9c3fb7 (price 400 vs 800)
+- `targetdown_bgv_mk46k_grip` dominates `launchtron_psrl_plastic_foregrip` in rail:picatinny:foregrip#9c3fb7 (price 600 vs 800)
+- `timber_creek_enforcer_foregrip` dominates `launchtron_psrl_plastic_foregrip` in rail:picatinny:foregrip#9c3fb7 (price 700 vs 800)
+- `viking_tactical_uvg_grip` dominates `launchtron_psrl_plastic_foregrip` in rail:picatinny:foregrip#9c3fb7 (price 800 vs 800)
+- `axtell_defense_3inch_picatinny_rail_panel` dominates `pac_6rib_railpanel` in rail:picatinny:handguard#6da5fd (price 300 vs 400)
+- `axtell_defense_5inch_picatinny_rail_panel` dominates `pac_11rib_railpanel` in rail:picatinny:handguard#6da5fd (price 500 vs 600)
+- `pac_2rib_railpanel` dominates `pac_4rib_railpanel` in rail:picatinny:handguard#6da5fd (price 100 vs 200)
+- `pac_5rib_railpanel` dominates `pac_6rib_railpanel` in rail:picatinny:handguard#6da5fd (price 300 vs 400)
+- `pac_9rib_railpanel` dominates `pac_11rib_railpanel` in rail:picatinny:handguard#6da5fd (price 500 vs 600)
+- `xtm_2_piece` dominates `pac_6rib_railpanel` in rail:picatinny:handguard#6da5fd (price 200 vs 400)
 - `axtell_defense_rock_lock_rail_mounted_fixed_front_sight` dominates `axtell_defense_rock_lock_a1.5_fixed_rear_sight` in rail:picatinny:iron_sight#1ea371 (price 700 vs 700)
 - `rk_short_foregrip_mount` dominates `rk_foregrip_mount` in rail:picatinny:optic#e9ccb9 (price 200 vs 200)
 - `las_tac_2` dominates `centrefire_r300u_b_flashlight` in rail:picatinny:tactical#021e84 (price 750 vs 2000)
@@ -247,6 +263,7 @@ Compared on handling, reload, stability, capacity, velocity, damage, weight, rec
 - `las_tac_2` dominates `veles_klesch_2p_lcu` in rail:picatinny:tactical#021e84 (price 750 vs 1000)
 - `sig_sauer_foxtrot1_flashlight` dominates `centrefire_r300u_b_flashlight` in rail:picatinny:tactical#021e84 (price 900 vs 2000)
 - `sig_sauer_foxtrot1_flashlight` dominates `veles_klesch_2p_lcu` in rail:picatinny:tactical#021e84 (price 900 vs 1000)
+- `insight_technology_an_peq_2a_tpial` dominates `holosun_ls321g` in rail:picatinny:tactical#c7336d (price 750 vs 800)
 - `las_tac_2` dominates `insight_technology_wmx200_fixed_mount_tactical_illuminator` in rail:picatinny:tactical#e5d414 (price 750 vs 1200)
 - `sig_sauer_foxtrot1_flashlight` dominates `insight_technology_wmx200_fixed_mount_tactical_illuminator` in rail:picatinny:tactical#e5d414 (price 900 vs 1200)
 - `rs_regulate_akrk_mini_picatinny_mount` dominates `rs_regulate_akr_1913_railed_0moa_mount` in rail:rs_regulate_rail:optic#64176f (price 200 vs 300)
@@ -267,6 +284,8 @@ Compared on handling, reload, stability, capacity, velocity, damage, weight, rec
 - `rs_regulate_ak_301m_front_biased_lower_mount` dominates `rs_regulate_ak_303m_full_length_lower_mount` in slot:ak_dovetail_mount|74n#d405e5 (price 700 vs 750)
 - `kazarov_74m_p_dovetail_mount` dominates `kazarov_rmp3_dovetail_mount` in slot:ak_dovetails|ak74#672fcd (price 300 vs 300)
 - `kazarov_74m_p_dovetail_mount` dominates `kazarov_rmp5_dovetail_mount` in slot:ak_dovetails|akm#802ad2 (price 300 vs 300)
+- `was_woodworks_lower_ak_handguard_with_handstop_alt` dominates `magtap_ak_zhukov_u_lower_handguard_alt` in slot:ak_handguard_alt|#c79703 (price 1000 vs 1500)
+- `cugir_pm_md63_wooden_sharkfin_mlok_bottom_handguard` dominates `magtap_ak_zhukov_u_lower_handguard` in slot:ak_handguard|#060bfd (price 1500 vs 1500)
 - `kazarov_ak74_rear_sight_block` dominates `kazarov_akm_rear_sight_block` in slot:ak_rear_sight_block|ak74#a04ef8 (price 0 vs 0)
 - `si_ak_drop_on_rail` dominates `scout_scopes_ak_drop_on_rail` in slot:ak_rear_sight|ak74#560f9d (price 1000 vs 1000)
 - `10mm_appalachian_silvertip_175gr_jhp` dominates `10mm_federal_hst_175gr_jhp` in slot:ammo_10mm|#2b9bbe (price 2000 vs 4000)
@@ -333,6 +352,9 @@ Compared on handling, reload, stability, capacity, velocity, damage, weight, rec
 - `hart_m4a1_receiver_endplate` dominates `kf_416a5_sling_eyelet_endplate` in slot:ar15_endplate|#13d665 (price 0 vs 200)
 - `kf_416c_endplate` dominates `kf_416a5_sling_eyelet_endplate` in slot:ar15_endplate|#13d665 (price 100 vs 200)
 - `kf_416d_endplate` dominates `kf_416a5_sling_eyelet_endplate` in slot:ar15_endplate|#13d665 (price 0 vs 200)
+- `pmm_scar_modified_grip_rogue` dominates `hera_arms_cqr_gen2_pistol_grip` in slot:ar15_pistol_grip|lss_gen2#268de3 (price 600 vs 1200)
+- `timber_creek_enforcer_pistol_grip` dominates `hera_arms_cqr_gen2_pistol_grip` in slot:ar15_pistol_grip|m4a1#862d6a (price 900 vs 1200)
+- `kf_416_trigger` dominates `hart_m4a1_std_trigger` in slot:ar15_trigger|#c98cdd (price 0 vs 0)
 - `azimuth_micro_spacer_low_30mm` dominates `azimuth_micro_spacer_high_39mm` in slot:azimuth_t_series|amm#ff81c8 (price 200 vs 200)
 - `sic_sturmer_scipio5_gen2_elite_sight` dominates `sic_sturmer_scipio4b_sight` in slot:azimuth_t_series|amm#ff81c8 (price 1000 vs 1000)
 - `sic_sturmer_scipio5_gen2_sight` dominates `sic_sturmer_scipio4b_sight` in slot:azimuth_t_series|amm#ff81c8 (price 800 vs 1000)
@@ -341,9 +363,9 @@ Compared on handling, reload, stability, capacity, velocity, damage, weight, rec
 - `strauss_mark_4_carry_handle_mount` dominates `pri_ar15_std_carry_handle_mount` in slot:carry_handle_mount|m16a2_upper#655931 (price 300 vs 300)
 - `nariakira_300_series_light_body` dominates `nariakira_18650_series_light_body` in slot:centrefire_light_body|#b2c08a (price 500 vs 750)
 - `nariakira_momentary_tailcap` dominates `centrefire_z68_clicky_tailcap` in slot:centrefire_light_tailcap|#5bd523 (price 100 vs 250)
-- `whitner_defense_edc_x9_snagfree_front_sight_green` dominates `hughnitions_company_extra_high_front_sight` in slot:edc_x9_front_sight|#da29f4 (price 0 vs 200)
-- `whitner_defense_edc_x9_snagfree_front_sight_red` dominates `hughnitions_company_extra_high_front_sight` in slot:edc_x9_front_sight|#da29f4 (price 0 vs 200)
 - `hart_retro_a1_4x21_scope` dominates `ultracross_electro_4x20_bdc_scope` in slot:hart_retro_scope|#08dbf2 (price 0 vs 1000)
+- `hk_mp5_std_curved_30r_9x19_magazine` dominates `hk_mp5_straight_30r_9x19_magazine` in slot:hk_mp5_9x19_magazine|#b201a6 (price 0 vs 500)
+- `addon_hk_upper_receiver_picatinny_rail` dominates `mfi_hk_universal_low_profile_scope_mount_flipped` in slot:hk_upper_receiver_mounts|g3#8a0af3 (price 0 vs 750)
 - `mfi_hk_universal_low_profile_scope_mount` dominates `bt_bt21021_armasuisse_nar_mp5_top_rail` in slot:hk_upper_receiver_mounts|mp5#a10701 (price 750 vs 1000)
 - `holotec_eolad_2_civilian_sighting_system` dominates `holotec_eolad_2vi_socom_sighting_system` in slot:holotec_hood_mount|#cb6934 (price 2500 vs 3250)
 - `kf_416a5_14.5i_barrel` dominates `kf_416d_14.5i_barrel` in slot:kf_416_barrel|#f9e2f7 (price 0 vs 0)
@@ -353,6 +375,7 @@ Compared on handling, reload, stability, capacity, velocity, damage, weight, rec
 - `7.62x51_kazarov_group_ak308_20r_mag` dominates `springfield_armory_m14_7.62x51_modified_20r_mag` in slot:magazine_762x51_ak308|#c19026 (price 0 vs 750)
 - `sgm_tactical_saiga308_20r_mag` dominates `springfield_armory_m14_7.62x51_modified_20r_mag` in slot:magazine_762x51_ak308|#c19026 (price 750 vs 750)
 - `izhevsk_pm_std_rear_sight` dominates `rtm_pm1_makarov_rear_sight` in slot:makarov_rear_sight|#ec2fd9 (price 0 vs 500)
+- `mcs_v5_skeleton_rifle_stock_short` dominates `mcs_v5_skeleton_rifle_stock` in slot:mcs_stock|#eaff3d (price 1200 vs 1200)
 - `mk10_bottom_adapter_small` dominates `mk10_bottom_adapter_large` in slot:mk10_bottom|#0f5a0b (price 0 vs 0)
 - `mk10_side_adapter_small` dominates `mk10_side_adapter_large` in slot:mk10_side|#f3cb15 (price 0 vs 0)
 - `mk10_top_adapter_small` dominates `mk10_top_adapter_large` in slot:mk10_top|#ed67cd (price 0 vs 0)
@@ -385,12 +408,14 @@ Compared on handling, reload, stability, capacity, velocity, damage, weight, rec
 - `leopard_atg_pro_mtu_028sg_mount` dominates `hg_shortrail_ghost_ring_rear_sight` in slot:r870_top_mount|#ed11d4 (price 900 vs 1000)
 - `leopard_atg_pro_mtu_028sg_mount` dominates `optech_asm_1_mount` in slot:r870_top_mount|#ed11d4 (price 900 vs 1200)
 - `scipio4t_folded_lens_caps` dominates `scipio4t_lens_caps` in slot:romeo4t_cap|#838c9b (price 0 vs 0)
+- `kalis_scalar_mk3_handguard` dominates `kalis_scalar_mk5_handguard` in slot:scalar_handguard|scalar_gen1_handguard,scalar_gen2_handguard#cf0a71 (price 1000 vs 2000)
 - `kalis_scalar_gen2_early_40sv_lower_receiver` dominates `kalis_scalar_gen2_early_45acp_lower_receiver` in slot:scalar_lower_receiver|#32cdc6 (price 2000 vs 2000)
 - `kalis_scalar_gen2_early_9x19_lower_receiver` dominates `kalis_scalar_gen2_early_45acp_lower_receiver` in slot:scalar_lower_receiver|#32cdc6 (price 2000 vs 2000)
 - `kalis_scalar_gen2_late_40sv_lower_receiver` dominates `kalis_scalar_gen2_late_45acp_lower_receiver` in slot:scalar_lower_receiver|#32cdc6 (price 2500 vs 2500)
 - `kalis_scalar_gen2_late_9x19_lower_receiver` dominates `kalis_scalar_gen2_late_45acp_lower_receiver` in slot:scalar_lower_receiver|#32cdc6 (price 2500 vs 2500)
 - `kalis_scalar_gen3_40sv_lower_receiver` dominates `kalis_scalar_gen3_45acp_lower_receiver` in slot:scalar_lower_receiver|#32cdc6 (price 4000 vs 4000)
 - `kalis_scalar_gen3_9x19_lower_receiver` dominates `kalis_scalar_gen3_45acp_lower_receiver` in slot:scalar_lower_receiver|#32cdc6 (price 4000 vs 4000)
+- `sic_sturmer_sic_p_series_oem_takedown_lever` dominates `lasevex_sic_p_series_takedown_lever` in slot:sic_p_series_takedown_lever|#2e79de (price 0 vs 200)
 - `strauss_deltapoint_reflex_sight` dominates `holotec_helx_mini_red_dot` in slot:strauss_deltapoint_footprint|m17_slide#fbcb90 (price 800 vs 1100)
 - `sic_sturmer_p320_optic_slide_cover` dominates `holotec_helx_mini_red_dot` in slot:strauss_deltapoint_footprint|p320_slide#d92329 (price 0 vs 1100)
 - `sic_sturmer_p320_optic_slide_cover` dominates `strauss_deltapoint_reflex_sight` in slot:strauss_deltapoint_footprint|p320_slide#d92329 (price 0 vs 800)
@@ -403,8 +428,10 @@ Compared on handling, reload, stability, capacity, velocity, damage, weight, rec
 - `taclite_rac_gen2_6inch_suppressor_shield` dominates `taclite_rac_gen2_7inch_suppressor_shield` in slot:taclite_suppressor_shield|taclite_gen2#acc881 (price 600 vs 700)
 - `taclite_rac_gen3_6inch_suppressor_shield` dominates `taclite_rac_gen3_7inch_suppressor_shield` in slot:taclite_suppressor_shield|taclite_gen3#08f174 (price 800 vs 900)
 - `tt33_postwar_slide` dominates `tt33_mod_postwar_slide` in slot:tt33_slide|#82293c (price 0 vs 4000)
+- `tt33_prewar_slide` dominates `tt33_mod_postwar_slide` in slot:tt33_slide|#82293c (price 0 vs 4000)
 - `hk_ump45_200mm_flanged_barrel` dominates `hdts_ump45_200mm_threaded_barrel` in slot:ump_barrel|ump45#81117a (price 0 vs 750)
 - `hk_ump_012_navy_lower_receiver` dominates `hk_ump_012d_navy_lower_receiver` in slot:ump_lower_receiver|#e0ed5e (price 1000 vs 1500)
+- `hk_ump_01_navy_lower_receiver` dominates `hk_ump_012_navy_lower_receiver` in slot:ump_lower_receiver|#e0ed5e (price 500 vs 1000)
 - `hk_ump_01_navy_lower_receiver` dominates `hk_ump_012d_navy_lower_receiver` in slot:ump_lower_receiver|#e0ed5e (price 500 vs 1500)
 - `hk_ump_01d_navy_lower_receiver` dominates `hk_ump_012d_navy_lower_receiver` in slot:ump_lower_receiver|#e0ed5e (price 0 vs 1500)
 - `sic_sturmer_p226_drd_sight_plate_cover` dominates `holostar_hx508t_gr_x2_reflex` in slot:virticon_drd_mount|sic_p_series_slide_226#94f385 (price 225 vs 500)
@@ -437,20 +464,20 @@ Base reload factor (weapon row): -8.4%.
 
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
-| stock | 65.0 | 0% | -3.3% | 35.5 | 3.17 | 20/30 | 64.0 |
-| setup:rpk16 | 29.0 | +16.0% | -1.4% | 49.5 | 4.46 | 7/4 | 32.0 |
-| preset:kazarov_group_ak12_gen2 | 68.0 | 0% | 0% | 50.5 | 3.18 | 25/33 | 73.0 |
-| preset:kazarov_group_ak12k_gen2 | 77.0 | 0% | +3.0% | 56.0 | 2.96 | 30/37 | 81.0 |
-| preset:kazarov_group_rpk16 | 40.0 | +16.0% | -0.1% | 38.0 | 4.14 | 10/21 | 35.0 |
-| opt:handling (breaks 1 incompatibility rule) | 107.0 | -9.8% | -0.9% | 43.5 | 3.56 | 30/32 | 100.5 |
-| opt:reload (breaks 1 incompatibility rule) | 70.5 | -9.8% | -1.5% | 84.5 | 3.93 | 22/18 | 98.0 |
-| opt:stability (breaks 1 incompatibility rule) | 75.5 | +4.0% | +10.1% | 89.5 | 4.31 | 24/32 | 89.0 |
-| opt:recoil | 32.0 | -9.8% | -13.3% | 62.0 | 4.19 | 1/3 | 62.2 |
-| opt:all_round (breaks 1 incompatibility rule) | 87.5 | -9.8% | -0.9% | 84.5 | 3.87 | 26/32 | 108.5 |
-| opt:reload_time | 56.0 | -9.8% | -12.4% | 31.0 | 2.63 | 50/54 | 65.0 |
-| opt:handling_min | -8.5 | +16.0% | -15.0% | 20.5 | 4.76 | 22/22 | -4.0 |
-| opt:reload_time_min | 47.0 | +16.0% | +0.3% | 31.0 | 3.60 | 50/54 | 36.0 |
-| opt:stability_min | 44.0 | +4.0% | -13.1% | -2.0 | 3.75 | 53/16 | 28.0 |
+| stock | 59.5 | 0% | -3.3% | 42.5 | 3.17 | 20/30 | 64.0 |
+| setup:rpk16 | 37.0 | +16.0% | -1.4% | 47.0 | 4.46 | 7/4 | 32.0 |
+| preset:kazarov_group_ak12_gen2 | 66.5 | 0% | 0% | 53.5 | 3.18 | 25/33 | 73.0 |
+| preset:kazarov_group_ak12k_gen2 | 74.5 | 0% | +3.0% | 53.5 | 2.96 | 30/37 | 81.0 |
+| preset:kazarov_group_rpk16 | 41.5 | +16.0% | -0.1% | 43.5 | 4.14 | 10/21 | 35.0 |
+| opt:handling (breaks 1 incompatibility rule) | 88.5 | -8.0% | +1.1% | 70.5 | 3.84 | 27/31 | 106.5 |
+| opt:reload (breaks 1 incompatibility rule) | 56.5 | -9.8% | -7.3% | 67.0 | 4.40 | 7/10 | 80.5 |
+| opt:stability (breaks 1 incompatibility rule) | 65.0 | +4.0% | +4.6% | 77.5 | 4.63 | 27/39 | 74.5 |
+| opt:recoil | 43.5 | -9.8% | -13.1% | 53.0 | 4.22 | 1/3 | 63.0 |
+| opt:all_round (breaks 1 incompatibility rule) | 88.5 | -9.8% | -0.9% | 70.5 | 3.87 | 27/31 | 108.5 |
+| opt:reload_time | 50.0 | -9.8% | -12.4% | 34.0 | 2.63 | 50/54 | 65.0 |
+| opt:handling_min | 3.0 | +16.0% | -15.0% | 23.0 | 4.65 | 28/27 | -5.0 |
+| opt:reload_time_min | 45.5 | +16.0% | +0.3% | 34.0 | 3.60 | 50/54 | 36.0 |
+| opt:stability_min | 34.0 | +4.0% | -11.6% | 19.5 | 3.69 | 47/48 | 32.0 |
 
 ## AK308
 
@@ -458,18 +485,18 @@ Base reload factor (weapon row): -2.3%.
 
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
-| stock | 59.5 | 0% | -3.1% | 28.5 | 3.90 | 59/80 | 48.0 |
-| setup:ak308 | 50.5 | -1.8% | -0.8% | 60.5 | 4.39 | 58/81 | 58.5 |
-| preset:kazarov_group_ak308_gen2 | 62.5 | 0% | +0.8% | 45.5 | 3.91 | 65/85 | 58.0 |
-| opt:handling | 106.5 | -9.8% | +2.1% | 33.5 | 4.26 | 65/80 | 89.8 |
-| opt:reload | 63.0 | -9.8% | -0.4% | 72.5 | 4.79 | 64/45 | 82.5 |
-| opt:stability | 67.5 | 0% | +8.1% | 81.0 | 5.05 | 60/82 | 76.5 |
-| opt:recoil | 45.5 | -9.8% | -7.1% | 58.0 | 4.37 | 58/38 | 63.5 |
-| opt:all_round | 86.0 | -9.8% | +5.0% | 76.0 | 4.77 | 58/79 | 97.8 |
-| opt:reload_time | 62.0 | -9.8% | -8.0% | 26.5 | 3.15 | 89/106 | 61.0 |
-| opt:handling_min | 0.0 | +4.0% | -17.5% | 23.5 | 4.73 | 63/72 | 3.0 |
-| opt:reload_time_min | 46.0 | +4.0% | -4.9% | 26.5 | 3.96 | 89/106 | 34.0 |
-| opt:stability_min | 51.5 | 0% | -10.5% | -1.0 | 3.99 | 94/64 | 29.0 |
+| stock | 51.0 | 0% | -3.1% | 39.0 | 3.90 | 59/80 | 48.0 |
+| setup:ak308 | 54.0 | -1.8% | -0.8% | 55.5 | 4.39 | 58/81 | 58.5 |
+| preset:kazarov_group_ak308_gen2 | 59.0 | 0% | +0.8% | 51.0 | 3.91 | 65/85 | 58.0 |
+| opt:handling | 76.0 | 0% | +8.5% | 69.0 | 5.04 | 63/81 | 77.8 |
+| opt:reload | 55.5 | -9.8% | -1.0% | 63.5 | 4.93 | 64/42 | 80.8 |
+| opt:stability | 71.0 | 0% | +8.2% | 74.0 | 5.00 | 69/93 | 76.8 |
+| opt:recoil | 43.5 | -9.8% | -6.9% | 47.5 | 4.39 | 58/38 | 64.0 |
+| opt:all_round | 75.0 | -9.8% | +5.0% | 69.0 | 4.77 | 59/78 | 97.8 |
+| opt:reload_time | 43.5 | -9.8% | -8.0% | 31.5 | 3.15 | 89/106 | 61.0 |
+| opt:handling_min | 9.0 | +4.0% | -18.3% | 17.5 | 4.70 | 69/75 | 1.0 |
+| opt:reload_time_min | 42.0 | +4.0% | -4.9% | 31.5 | 3.96 | 89/106 | 34.0 |
+| opt:stability_min | 28.5 | 0% | -12.5% | 16.0 | 4.24 | 85/98 | 24.0 |
 
 ## AK_545
 
@@ -477,20 +504,20 @@ Base reload factor (weapon row): -10.1%.
 
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
-| stock | 56.5 | 0% | +1.0% | 51.5 | 2.94 | 23/17 | 56.0 |
-| setup:veles_ak74m_leader | 42.0 | -1.8% | -4.3% | 48.5 | 3.31 | 23/35 | 46.0 |
-| preset:ak105 | 69.5 | 0% | +4.6% | 56.0 | 2.79 | 28/23 | 66.0 |
-| preset:ak74m | 66.0 | 0% | +3.2% | 51.0 | 2.97 | 24/18 | 62.0 |
-| preset:veles_ak74m_leader | 45.0 | -1.8% | -3.2% | 49.5 | 3.16 | 22/33 | 49.0 |
-| opt:handling (breaks 3 incompatibility rules) | 113.5 | -9.8% | +5.0% | 49.5 | 5.03 | 29/34 | 98.8 |
-| opt:reload (breaks 5 incompatibility rules) | 70.5 | -12.8% | +1.4% | 107.5 | 5.52 | 1/-1 | 98.5 |
-| opt:stability (breaks 7 incompatibility rules) | 36.0 | +4.0% | +9.6% | 126.0 | 6.58 | 11/9 | 68.0 |
-| opt:recoil (breaks 12 incompatibility rules) | 4.5 | -12.8% | -12.4% | 104.5 | 6.07 | -15/-33 | 54.5 |
-| opt:all_round (breaks 5 incompatibility rules) | 81.5 | -12.8% | +1.9% | 113.5 | 5.51 | 12/8 | 108.2 |
-| opt:reload_time | 34.5 | -12.8% | -15.6% | 35.0 | 2.26 | 44/47 | 44.0 |
-| opt:handling_min (breaks 2 incompatibility rules) | -50.5 | +16.0% | -6.1% | 54.5 | 5.50 | 25/16 | -27.5 |
-| opt:reload_time_min | 25.5 | +16.0% | -0.7% | 35.0 | 3.15 | 44/47 | 13.0 |
-| opt:stability_min | 36.0 | +4.0% | -9.9% | 7.5 | 4.00 | 64/28 | 16.0 |
+| stock | 54.5 | 0% | +1.0% | 53.5 | 2.94 | 23/17 | 56.0 |
+| setup:veles_ak74m_leader | 47.5 | -1.8% | -4.3% | 41.5 | 3.31 | 23/35 | 46.0 |
+| preset:ak105 | 64.5 | 0% | +4.6% | 58.5 | 2.79 | 28/23 | 66.0 |
+| preset:ak74m | 60.5 | 0% | +3.2% | 57.5 | 2.97 | 24/18 | 62.0 |
+| preset:veles_ak74m_leader | 50.5 | -1.8% | -3.2% | 42.5 | 3.16 | 22/33 | 49.0 |
+| opt:handling (breaks 4 incompatibility rules) | 98.0 | -8.0% | +0.7% | 39.0 | 5.03 | 39/45 | 79.5 |
+| opt:reload (breaks 5 incompatibility rules) | 63.5 | -12.8% | -2.6% | 87.0 | 6.12 | -7/-13 | 85.8 |
+| opt:stability (breaks 7 incompatibility rules) | 54.5 | +4.0% | +9.2% | 99.5 | 6.49 | 22/24 | 67.0 |
+| opt:recoil (breaks 12 incompatibility rules) | 39.5 | -12.8% | -12.0% | 64.5 | 6.15 | -15/-33 | 55.5 |
+| opt:all_round (breaks 5 incompatibility rules) | 87.0 | -12.8% | +1.9% | 84.5 | 5.59 | 10/1 | 106.2 |
+| opt:reload_time | 34.5 | -12.8% | -15.6% | 28.5 | 2.26 | 44/47 | 44.0 |
+| opt:handling_min (breaks 2 incompatibility rules) | -21.5 | +16.0% | -6.1% | 19.0 | 5.47 | 29/18 | -38.5 |
+| opt:reload_time_min | 30.0 | +16.0% | -0.7% | 28.5 | 3.15 | 44/47 | 13.0 |
+| opt:stability_min | 46.0 | +4.0% | -11.4% | 6.5 | 4.20 | 52/60 | 12.0 |
 
 ## AK_545_Carbine
 
@@ -498,20 +525,20 @@ Base reload factor (weapon row): -15.2%.
 
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
-| stock | 87.0 | 0% | +2.1% | 45.5 | 2.48 | 36/32 | 76.0 |
-| setup:veles_aks74u | 59.0 | 0% | -1.8% | 59.0 | 3.02 | 32/42 | 64.5 |
-| preset:aks74ub | 84.0 | 0% | +1.8% | 46.5 | 2.86 | 29/24 | 75.0 |
-| preset:aks74un | 88.0 | 0% | +2.4% | 45.5 | 2.51 | 36/32 | 77.0 |
-| preset:veles_aks74u_upgrade | 60.0 | 0% | -3.3% | 45.5 | 2.47 | 39/46 | 60.0 |
-| opt:handling | 134.0 | -9.8% | -0.6% | 52.0 | 3.20 | 36/31 | 115.5 |
-| opt:reload (breaks 1 incompatibility rule) | 79.5 | -12.8% | -3.9% | 105.5 | 4.11 | 8/2 | 107.0 |
-| opt:stability (breaks 2 incompatibility rules) | 66.5 | +4.0% | +8.5% | 107.0 | 4.69 | 14/2 | 82.5 |
-| opt:recoil (breaks 1 incompatibility rule) | 69.5 | -12.8% | -3.9% | 103.5 | 4.52 | 8/-2 | 100.0 |
-| opt:all_round (breaks 1 incompatibility rule) | 107.5 | -12.8% | -3.9% | 96.5 | 4.04 | 18/7 | 122.0 |
-| opt:reload_time | 63.0 | -12.8% | -13.9% | 33.5 | 1.94 | 57/61 | 66.0 |
-| opt:handling_min | 6.0 | +16.0% | -9.5% | 33.5 | 4.37 | 43/38 | 5.0 |
-| opt:reload_time_min | 54.0 | +16.0% | +2.3% | 33.5 | 2.83 | 57/61 | 35.0 |
-| opt:stability_min | 41.5 | +4.0% | -10.0% | 17.5 | 3.33 | 70/26 | 30.0 |
+| stock | 80.5 | 0% | +2.1% | 45.0 | 2.48 | 36/32 | 76.0 |
+| setup:veles_aks74u | 64.0 | 0% | -1.8% | 47.0 | 3.02 | 32/42 | 64.5 |
+| preset:aks74ub | 79.5 | 0% | +1.8% | 48.0 | 2.86 | 29/24 | 75.0 |
+| preset:aks74un | 81.5 | 0% | +2.4% | 45.0 | 2.51 | 36/32 | 77.0 |
+| preset:veles_aks74u_upgrade | 62.5 | 0% | -3.3% | 36.0 | 2.47 | 39/46 | 60.0 |
+| opt:handling | 110.0 | -8.0% | +1.4% | 62.0 | 3.20 | 34/31 | 113.5 |
+| opt:reload (breaks 2 incompatibility rules) | 88.5 | -12.8% | -3.9% | 75.5 | 4.05 | 8/2 | 108.0 |
+| opt:stability (breaks 2 incompatibility rules) | 85.0 | +4.0% | +10.9% | 84.5 | 4.19 | 30/23 | 89.5 |
+| opt:recoil (breaks 1 incompatibility rule) | 81.5 | -12.8% | -3.9% | 75.5 | 4.56 | 8/-2 | 101.0 |
+| opt:all_round (breaks 1 incompatibility rule) | 103.5 | -12.8% | -3.9% | 80.5 | 4.04 | 18/7 | 122.0 |
+| opt:reload_time | 56.0 | -12.8% | -13.9% | 28.5 | 1.94 | 57/61 | 66.0 |
+| opt:handling_min | 21.0 | +16.0% | -9.9% | 20.5 | 4.26 | 49/43 | 4.0 |
+| opt:reload_time_min | 51.5 | +16.0% | +2.3% | 28.5 | 2.83 | 57/61 | 35.0 |
+| opt:stability_min | 43.0 | +4.0% | -9.0% | 18.5 | 2.88 | 62/60 | 33.0 |
 
 ## AK_762
 
@@ -519,18 +546,18 @@ Base reload factor (weapon row): -8.7%.
 
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
-| stock | 55.0 | 0% | +2.3% | 50.5 | 3.25 | 29/34 | 55.0 |
-| setup:magtap_akmn | 65.0 | -3.0% | -0.5% | 41.0 | 3.39 | 32/48 | 56.0 |
-| setup:tabuk | 53.0 | -4.0% | +0.4% | 59.5 | 3.90 | 30/42 | 61.5 |
-| opt:handling (breaks 2 incompatibility rules) | 109.0 | -9.8% | +5.7% | 48.5 | 5.24 | 34/52 | 95.8 |
-| opt:reload (breaks 4 incompatibility rules) | 54.0 | -12.8% | +0.5% | 111.5 | 6.12 | 6/6 | 90.5 |
-| opt:stability (breaks 6 incompatibility rules) | 33.5 | 0% | +8.5% | 125.0 | 6.54 | 16/27 | 72.0 |
-| opt:recoil (breaks 12 incompatibility rules) | -2.5 | -12.8% | -13.5% | 96.5 | 6.78 | 2/-41 | 46.5 |
-| opt:all_round (breaks 4 incompatibility rules) | 77.0 | -12.8% | +3.5% | 112.5 | 5.71 | 17/26 | 105.2 |
-| opt:reload_time | 33.5 | -12.8% | -14.7% | 35.0 | 2.54 | 47/61 | 43.0 |
-| opt:handling_min (breaks 2 incompatibility rules) | -53.5 | +16.0% | -4.7% | 54.0 | 6.44 | 27/26 | -27.5 |
-| opt:reload_time_min | 26.5 | +16.0% | +3.4% | 35.0 | 3.58 | 47/61 | 19.0 |
-| opt:stability_min | 34.0 | 0% | -10.9% | 5.0 | 4.27 | 66/36 | 19.0 |
+| stock | 63.0 | 0% | +2.3% | 38.5 | 3.25 | 29/34 | 55.0 |
+| setup:magtap_akmn | 62.0 | -3.0% | -0.5% | 45.0 | 3.39 | 32/48 | 56.0 |
+| setup:tabuk | 56.0 | -4.0% | +0.4% | 55.0 | 3.90 | 30/42 | 61.5 |
+| opt:handling (breaks 3 incompatibility rules) | 105.5 | 0% | +7.0% | 24.0 | 5.48 | 44/63 | 68.0 |
+| opt:reload (breaks 5 incompatibility rules) | 65.5 | -12.8% | -4.9% | 63.5 | 6.52 | 10/-21 | 73.8 |
+| opt:stability (breaks 6 incompatibility rules) | 53.5 | 0% | +5.5% | 87.5 | 7.06 | 21/32 | 64.0 |
+| opt:recoil (breaks 12 incompatibility rules) | 39.0 | -12.8% | -13.2% | 52.5 | 6.86 | 2/-41 | 47.5 |
+| opt:all_round (breaks 4 incompatibility rules) | 89.5 | -12.8% | +3.5% | 78.5 | 5.86 | 16/22 | 104.2 |
+| opt:reload_time | 44.0 | -12.8% | -14.7% | 14.5 | 2.54 | 47/61 | 43.0 |
+| opt:handling_min (breaks 2 incompatibility rules) | -17.5 | +16.0% | -4.7% | 7.0 | 6.49 | 31/26 | -39.5 |
+| opt:reload_time_min | 41.0 | +16.0% | +3.4% | 14.5 | 3.58 | 47/61 | 19.0 |
+| opt:stability_min | 55.0 | 0% | -12.0% | -9.5 | 4.19 | 57/75 | 16.0 |
 
 ## AK_9
 
@@ -539,15 +566,15 @@ Base reload factor (weapon row): -11.1%.
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
 | stock | 75.0 | 0% | 0% | 50.0 | 2.16 | 22/17 | 75.0 |
-| opt:handling (breaks 1 incompatibility rule) | 115.5 | -9.8% | -3.8% | 55.5 | 3.45 | 27/32 | 108.5 |
-| opt:reload (breaks 2 incompatibility rules) | 69.5 | -9.8% | -3.8% | 104.0 | 4.07 | 0/-7 | 103.0 |
-| opt:stability (breaks 2 incompatibility rules) | 37.0 | +12.0% | +9.8% | 105.5 | 5.10 | 1/-14 | 67.5 |
-| opt:recoil (breaks 3 incompatibility rules) | 41.0 | -9.8% | -8.0% | 100.5 | 4.21 | -9/-20 | 82.5 |
-| opt:all_round (breaks 2 incompatibility rules) | 83.5 | -9.8% | -3.8% | 104.0 | 4.24 | 6/1 | 111.8 |
-| opt:reload_time | 45.5 | -9.8% | -13.9% | 37.0 | 1.74 | 39/44 | 58.0 |
-| opt:handling_min | -10.0 | +12.0% | -7.3% | 40.0 | 3.93 | 24/13 | 10.5 |
-| opt:reload_time_min | 39.5 | +12.0% | +1.9% | 37.0 | 2.39 | 39/44 | 41.0 |
-| opt:stability_min | 33.0 | +12.0% | -1.4% | 21.5 | 3.54 | 30/30 | 30.0 |
+| opt:handling (breaks 1 incompatibility rule) | 102.5 | 0% | +5.7% | 55.5 | 3.77 | 27/28 | 96.2 |
+| opt:reload (breaks 2 incompatibility rules) | 78.0 | -9.8% | -4.6% | 74.0 | 4.39 | -7/-10 | 96.8 |
+| opt:stability (breaks 2 incompatibility rules) | 75.5 | +12.0% | +13.4% | 79.0 | 5.13 | 4/0 | 79.5 |
+| opt:recoil (breaks 3 incompatibility rules) | 67.5 | -9.8% | -7.7% | 65.5 | 4.27 | -9/-20 | 83.5 |
+| opt:all_round (breaks 2 incompatibility rules) | 96.0 | -9.8% | -3.8% | 75.0 | 4.24 | 7/0 | 111.8 |
+| opt:reload_time | 51.0 | -9.8% | -13.9% | 22.0 | 1.74 | 39/44 | 58.0 |
+| opt:handling_min | 19.0 | +12.0% | -7.6% | 14.5 | 3.82 | 30/18 | 9.5 |
+| opt:reload_time_min | 49.5 | +12.0% | +1.9% | 22.0 | 2.39 | 39/44 | 41.0 |
+| opt:stability_min | 37.5 | +12.0% | -2.3% | 11.0 | 3.14 | 43/40 | 27.0 |
 
 ## AUG_A3
 
@@ -555,26 +582,26 @@ Base reload factor (weapon row): -12.3%.
 
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
-| stock | 67.5 | 0% | +1.9% | 53.0 | 2.71 | 29/38 | 65.5 |
-| setup:aug_a3_cqc | 69.0 | -8.0% | -3.5% | 61.0 | 3.90 | 20/28 | 74.0 |
-| setup:aug_a3 | 75.5 | -3.0% | +2.1% | 62.0 | 3.29 | 32/37 | 75.0 |
-| setup:stg77a1_mod | 70.5 | 0% | +3.0% | 55.0 | 2.82 | 29/35 | 68.5 |
-| preset:aug_9mm_para_xs | 100.5 | +4.0% | +13.8% | 61.0 | 2.25 | 31/32 | 87.0 |
-| preset:aug_a1_9mm_para | 94.0 | 0% | +10.2% | 66.5 | 2.43 | 23/18 | 89.0 |
+| stock | 66.0 | 0% | +1.9% | 49.5 | 2.71 | 29/38 | 65.5 |
+| setup:aug_a3_cqc | 72.0 | -8.0% | -3.5% | 61.5 | 3.90 | 20/28 | 74.0 |
+| setup:aug_a3 | 72.5 | -3.0% | +2.1% | 55.5 | 3.29 | 32/37 | 75.0 |
+| setup:stg77a1_mod | 69.0 | 0% | +3.0% | 53.5 | 2.82 | 29/35 | 68.5 |
+| preset:aug_9mm_para_xs | 94.5 | +4.0% | +13.8% | 62.0 | 2.25 | 31/32 | 87.0 |
+| preset:aug_a1_9mm_para | 92.5 | 0% | +10.2% | 67.0 | 2.43 | 23/18 | 89.0 |
 | preset:aug_a3_cqc | 65.5 | 0% | +1.7% | 53.5 | 2.96 | 21/32 | 65.0 |
-| preset:aug_a3m1 | 69.0 | 0% | +2.3% | 53.5 | 2.64 | 29/37 | 66.5 |
-| preset:aug_a3sa | 68.0 | 0% | +1.6% | 50.0 | 2.62 | 27/40 | 64.5 |
-| preset:aug_commando_xs | 76.0 | 0% | +3.0% | 48.5 | 2.50 | 35/47 | 68.5 |
-| preset:lowenherz_aug_hbar | 54.0 | +4.0% | -0.4% | 49.0 | 3.41 | 19/27 | 48.0 |
-| opt:handling (breaks 3 incompatibility rules) | 133.0 | -3.0% | +10.6% | 80.0 | 3.64 | 32/22 | 119.2 |
-| opt:reload (breaks 2 incompatibility rules) | 81.5 | -18.5% | -9.8% | 63.5 | 4.38 | 20/12 | 90.5 |
-| opt:stability (breaks 4 incompatibility rules) | 98.0 | 0% | +13.5% | 86.5 | 4.11 | 18/6 | 98.5 |
-| opt:recoil (breaks 4 incompatibility rules) | 88.0 | -7.5% | +3.5% | 83.0 | 3.60 | 4/8 | 94.0 |
-| opt:all_round (breaks 2 incompatibility rules) | 128.0 | -7.5% | +5.5% | 83.0 | 3.72 | 28/16 | 120.2 |
-| opt:reload_time | 71.5 | -18.5% | -13.7% | 46.5 | 2.22 | 48/53 | 77.0 |
-| opt:handling_min (breaks 1 incompatibility rule) | 11.5 | +16.0% | -8.2% | 41.0 | 5.09 | 22/21 | 0.5 |
-| opt:reload_time_min | 60.5 | +16.0% | +6.2% | 46.5 | 3.24 | 48/53 | 36.0 |
-| opt:stability_min | 53.5 | +12.0% | +1.8% | 26.0 | 4.34 | 47/12 | 34.0 |
+| preset:aug_a3m1 | 67.0 | 0% | +2.3% | 51.5 | 2.64 | 29/37 | 66.5 |
+| preset:aug_a3sa | 65.0 | 0% | +1.6% | 47.5 | 2.62 | 27/40 | 64.5 |
+| preset:aug_commando_xs | 70.0 | 0% | +3.0% | 44.5 | 2.50 | 35/47 | 68.5 |
+| preset:lowenherz_aug_hbar | 51.0 | +4.0% | -0.4% | 54.5 | 3.41 | 19/27 | 48.0 |
+| opt:handling (breaks 3 incompatibility rules) | 124.5 | 0% | +14.0% | 88.5 | 3.67 | 33/22 | 119.8 |
+| opt:reload (breaks 1 incompatibility rule) | 68.0 | -18.5% | -11.2% | 72.0 | 4.50 | 15/13 | 85.8 |
+| opt:stability (breaks 4 incompatibility rules) | 107.5 | 0% | +14.0% | 92.0 | 4.15 | 21/12 | 106.8 |
+| opt:recoil (breaks 4 incompatibility rules) | 95.5 | -7.5% | +3.8% | 78.0 | 3.64 | 4/8 | 95.0 |
+| opt:all_round (breaks 2 incompatibility rules) | 121.0 | -7.5% | +5.5% | 88.5 | 3.72 | 28/16 | 120.2 |
+| opt:reload_time | 64.0 | -18.5% | -13.7% | 46.5 | 2.22 | 48/53 | 77.0 |
+| opt:handling_min (breaks 1 incompatibility rule) | 16.0 | +16.0% | -8.4% | 46.5 | 4.94 | 27/26 | -2.5 |
+| opt:reload_time_min | 57.5 | +16.0% | +6.2% | 46.5 | 3.24 | 48/53 | 36.0 |
+| opt:stability_min | 56.0 | +12.0% | +6.5% | 40.5 | 3.48 | 48/53 | 46.0 |
 
 ## EDC_X9
 
@@ -583,15 +610,15 @@ Base reload factor (weapon row): -20.6%.
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
 | stock | 90.0 | 0% | 0% | 50.0 | 0.78 | 25/45 | 90.0 |
-| opt:handling | 96.5 | 0% | +1.9% | 55.0 | 0.93 | 27/47 | 96.0 |
-| opt:reload | 87.0 | 0% | -0.6% | 50.0 | 0.81 | 17/36 | 88.0 |
-| opt:stability | 83.5 | +8.0% | +6.4% | 55.0 | 1.26 | 20/38 | 85.2 |
-| opt:recoil | 79.5 | 0% | -2.2% | 49.0 | 0.97 | 12/35 | 83.0 |
-| opt:all_round | 94.0 | 0% | +1.3% | 54.0 | 0.97 | 22/41 | 94.0 |
-| opt:reload_time | 86.0 | 0% | -0.9% | 49.0 | 0.83 | 27/48 | 87.0 |
-| opt:handling_min | 68.0 | +8.0% | +0.5% | 40.5 | 1.15 | 18/39 | 68.0 |
-| opt:reload_time_min | 85.0 | +8.0% | +6.0% | 49.0 | 0.89 | 27/48 | 84.0 |
-| opt:stability_min | 74.5 | +8.0% | +2.6% | 40.5 | 1.05 | 23/40 | 74.0 |
+| opt:handling | 97.0 | 0% | +2.3% | 54.0 | 0.95 | 27/47 | 97.0 |
+| opt:reload | 84.0 | 0% | -1.9% | 51.0 | 0.99 | 12/35 | 84.0 |
+| opt:stability | 87.5 | +8.0% | +6.5% | 56.5 | 1.27 | 20/38 | 85.5 |
+| opt:recoil | 84.0 | 0% | -1.9% | 51.0 | 0.99 | 12/35 | 84.0 |
+| opt:all_round | 95.0 | 0% | +1.6% | 54.0 | 0.99 | 22/41 | 95.0 |
+| opt:reload_time | 87.0 | 0% | -0.9% | 49.0 | 0.83 | 27/48 | 87.0 |
+| opt:handling_min | 70.0 | +8.0% | +0.5% | 45.0 | 1.15 | 18/39 | 68.0 |
+| opt:reload_time_min | 86.0 | +8.0% | +6.0% | 49.0 | 0.89 | 27/48 | 84.0 |
+| opt:stability_min | 83.0 | +8.0% | +5.0% | 45.0 | 0.81 | 28/47 | 81.0 |
 
 ## G3
 
@@ -599,23 +626,23 @@ Base reload factor (weapon row): -12.9%.
 
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
-| stock | 52.5 | 0% | -4.9% | 34.5 | 3.91 | 29/59 | 48.0 |
-| setup:kg51sd | 67.0 | 0% | +2.1% | 55.0 | 3.46 | 58/82 | 68.0 |
-| setup:kf_skg_31 | 45.5 | -4.0% | -2.0% | 74.5 | 4.69 | 56/81 | 68.0 |
-| setup:kf_kg31 | 38.5 | 0% | -6.6% | 42.0 | 4.18 | 32/50 | 43.0 |
-| preset:ctr_32 | 63.0 | 0% | 0% | 47.0 | 3.90 | 14/22 | 62.0 |
-| preset:ferro_ordnance_group_kg_51c | 66.0 | 0% | +1.0% | 53.0 | 3.10 | 52/79 | 65.0 |
-| preset:ferro_ordnance_group_kg_51sd | 69.5 | 0% | +2.8% | 55.0 | 3.25 | 58/82 | 70.0 |
-| preset:kf_kg_31a4 | 54.5 | 0% | -3.1% | 42.5 | 3.65 | 34/60 | 53.0 |
-| opt:handling | 111.5 | -8.0% | +3.2% | 41.5 | 4.66 | 27/38 | 97.0 |
-| opt:reload | 65.5 | -8.0% | -1.6% | 75.5 | 4.68 | 25/-7 | 82.0 |
-| opt:stability | 74.5 | 0% | +10.8% | 104.0 | 5.16 | 27/35 | 93.0 |
-| opt:recoil | 28.5 | -8.0% | -10.2% | 69.5 | 4.83 | 9/-18 | 55.2 |
-| opt:all_round | 83.5 | -8.0% | +4.2% | 100.0 | 4.98 | 29/35 | 104.0 |
-| opt:reload_time | 65.0 | -8.0% | -6.7% | 40.5 | 3.36 | 26/40 | 66.0 |
-| opt:handling_min (breaks 1 incompatibility rule) | -14.5 | +4.0% | -18.5% | 16.5 | 5.12 | 30/58 | -9.0 |
-| opt:reload_time_min | 42.5 | +4.0% | -5.8% | 32.5 | 4.32 | 45/72 | 35.0 |
-| opt:stability_min | 36.5 | 0% | -13.9% | 0.0 | 4.82 | 71/49 | 22.0 |
+| stock | 51.0 | 0% | -4.9% | 45.5 | 3.91 | 29/59 | 48.0 |
+| setup:kg51sd | 76.0 | 0% | +2.1% | 53.0 | 3.46 | 58/82 | 68.0 |
+| setup:kf_skg_31 | 44.0 | -4.0% | -2.0% | 90.0 | 4.69 | 56/81 | 68.0 |
+| setup:kf_kg31 | 42.5 | 0% | -6.6% | 52.0 | 4.18 | 32/50 | 43.0 |
+| preset:ctr_32 | 63.0 | 0% | 0% | 59.5 | 3.90 | 14/22 | 62.0 |
+| preset:ferro_ordnance_group_kg_51c | 76.0 | 0% | +1.0% | 46.0 | 3.10 | 52/79 | 65.0 |
+| preset:ferro_ordnance_group_kg_51sd | 78.0 | 0% | +2.8% | 53.0 | 3.25 | 58/82 | 70.0 |
+| preset:kf_kg_31a4 | 61.0 | 0% | -3.1% | 43.0 | 3.65 | 34/60 | 53.0 |
+| opt:handling | 114.0 | 0% | +6.4% | 35.0 | 3.33 | 76/105 | 80.5 |
+| opt:reload | 60.0 | -8.0% | -2.7% | 89.0 | 4.92 | 23/-11 | 78.5 |
+| opt:stability | 73.5 | 0% | +10.4% | 112.0 | 5.02 | 42/52 | 92.0 |
+| opt:recoil | 50.0 | -8.0% | -9.8% | 59.0 | 4.86 | 9/-18 | 56.5 |
+| opt:all_round (breaks 1 incompatibility rule) | 82.5 | -8.0% | +4.2% | 105.0 | 5.13 | 28/31 | 103.5 |
+| opt:reload_time | 61.0 | -8.0% | -6.7% | 54.0 | 3.36 | 26/40 | 66.0 |
+| opt:handling_min (breaks 1 incompatibility rule) | -4.0 | +4.0% | -18.5% | 25.5 | 5.10 | 36/62 | -11.0 |
+| opt:reload_time_min | 38.5 | +4.0% | -5.8% | 53.5 | 4.32 | 45/72 | 35.0 |
+| opt:stability_min | 56.5 | 0% | -13.2% | 8.5 | 3.70 | 61/91 | 24.0 |
 
 ## KF416
 
@@ -623,20 +650,20 @@ Base reload factor (weapon row): -3.9%.
 
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
-| stock | 70.0 | -2.0% | +4.0% | 57.0 | 3.15 | 34/34 | 68.0 |
-| setup:kf416a5 | 61.0 | -7.8% | -1.3% | 71.0 | 3.80 | 17/31 | 71.5 |
-| setup:barret_mb2 | 34.5 | +4.5% | -0.6% | 37.0 | 5.17 | 16/14 | 30.0 |
-| preset:kf_416a5 | 73.5 | -7.0% | +0.5% | 62.5 | 3.14 | 35/31 | 75.0 |
-| preset:kf_416c | 69.0 | -2.0% | +1.3% | 37.5 | 2.47 | 46/61 | 58.5 |
-| opt:handling (breaks 1 incompatibility rule) | 103.5 | -10.0% | +0.4% | 41.5 | 3.31 | 41/56 | 86.8 |
-| opt:reload (breaks 1 incompatibility rule) | 62.0 | -19.7% | -9.6% | 90.0 | 4.24 | 19/13 | 90.5 |
-| opt:stability (breaks 3 incompatibility rules) | 36.5 | +7.2% | +10.3% | 98.5 | 5.09 | 15/23 | 57.0 |
-| opt:recoil (breaks 1 incompatibility rule) | 35.0 | -19.7% | -14.9% | 78.5 | 4.43 | 4/3 | 67.5 |
-| opt:all_round (breaks 1 incompatibility rule) | 84.5 | -19.7% | -7.4% | 88.0 | 4.13 | 26/31 | 103.8 |
-| opt:reload_time | 57.5 | -19.7% | -16.7% | 31.0 | 2.33 | 54/58 | 60.0 |
-| opt:handling_min | -4.0 | +14.5% | -1.0% | 31.5 | 4.64 | 18/37 | -13.5 |
-| opt:reload_time_min | 48.0 | +16.0% | +6.3% | 31.0 | 3.32 | 54/58 | 18.0 |
-| opt:stability_min | 54.0 | +7.2% | +1.1% | 6.5 | 4.39 | 57/29 | 27.0 |
+| stock | 70.5 | -2.0% | +4.0% | 52.0 | 3.15 | 34/34 | 68.0 |
+| setup:kf416a5 | 65.5 | -7.8% | -1.3% | 63.5 | 3.80 | 17/31 | 71.5 |
+| setup:barret_mb2 | 37.0 | +4.5% | -0.6% | 46.0 | 5.17 | 16/14 | 30.0 |
+| preset:kf_416a5 | 75.0 | -7.0% | +0.5% | 54.0 | 3.14 | 35/31 | 75.0 |
+| preset:kf_416c | 65.0 | -2.0% | +1.3% | 35.5 | 2.47 | 46/61 | 58.5 |
+| opt:handling (breaks 1 incompatibility rule) | 85.0 | -10.0% | +2.4% | 71.5 | 3.58 | 37/43 | 94.8 |
+| opt:reload (breaks 1 incompatibility rule) | 55.0 | -19.7% | -11.9% | 73.0 | 4.77 | 8/8 | 80.8 |
+| opt:stability (breaks 3 incompatibility rules) | 67.0 | +7.2% | +15.4% | 82.0 | 4.54 | 41/50 | 73.2 |
+| opt:recoil (breaks 1 incompatibility rule) | 44.5 | -19.7% | -14.8% | 63.0 | 4.45 | 4/3 | 68.0 |
+| opt:all_round (breaks 1 incompatibility rule) | 85.5 | -19.7% | -7.4% | 74.5 | 3.89 | 32/30 | 105.2 |
+| opt:reload_time | 45.0 | -19.7% | -16.7% | 34.0 | 2.33 | 54/58 | 60.0 |
+| opt:handling_min | 2.0 | +11.2% | -3.8% | 29.5 | 4.57 | 25/43 | -12.5 |
+| opt:reload_time_min | 40.5 | +16.0% | +6.3% | 34.0 | 3.32 | 54/58 | 18.0 |
+| opt:stability_min (breaks 1 incompatibility rule) | 35.5 | +7.2% | +0.9% | 19.0 | 3.21 | 47/71 | 26.5 |
 
 ## KOSCH
 
@@ -644,17 +671,17 @@ Base reload factor (weapon row): -16.1%.
 
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
-| stock | 73.0 | 0% | +0.7% | 54.5 | 0.81 | 23/32 | 75.0 |
+| stock | 74.5 | 0% | +0.7% | 51.5 | 0.81 | 23/32 | 75.0 |
 | setup:__final | 73.0 | 0% | 0% | 50.0 | 0.84 | 25/39 | 73.0 |
-| opt:handling (breaks 2 incompatibility rules) | 81.0 | -5.0% | -2.0% | 59.5 | 1.13 | 24/35 | 82.5 |
-| opt:reload (breaks 2 incompatibility rules) | 50.5 | -5.0% | -9.3% | 49.0 | 1.28 | 1/1 | 59.5 |
-| opt:stability (breaks 1 incompatibility rule) | 54.5 | -3.0% | -4.3% | 68.0 | 1.55 | 16/17 | 69.0 |
-| opt:recoil (breaks 1 incompatibility rule) | 43.0 | -5.0% | -10.9% | 48.0 | 1.44 | -4/0 | 54.5 |
-| opt:all_round (breaks 3 incompatibility rules) | 76.0 | -5.0% | -2.3% | 63.5 | 1.16 | 18/27 | 81.5 |
-| opt:reload_time (breaks 2 incompatibility rules) | 68.5 | -5.0% | -5.2% | 54.0 | 0.91 | 24/34 | 72.5 |
-| opt:handling_min (breaks 1 incompatibility rule) | 27.5 | +16.0% | -2.7% | 41.5 | 2.03 | 7/15 | 25.0 |
-| opt:reload_time_min | 66.0 | +16.0% | +12.9% | 54.0 | 1.50 | 24/34 | 65.0 |
-| opt:stability_min (breaks 2 incompatibility rules) | 49.0 | -3.0% | -10.3% | 33.0 | 1.33 | 13/25 | 50.5 |
+| opt:handling (breaks 1 incompatibility rule) | 81.5 | -3.0% | +0.1% | 58.0 | 1.15 | 25/34 | 82.5 |
+| opt:reload (breaks 1 incompatibility rule) | 48.5 | -5.0% | -10.9% | 50.5 | 1.44 | -4/0 | 54.5 |
+| opt:stability (breaks 1 incompatibility rule) | 61.5 | -3.0% | -5.1% | 61.0 | 1.71 | 11/12 | 66.5 |
+| opt:recoil (breaks 1 incompatibility rule) | 48.5 | -5.0% | -10.9% | 50.5 | 1.44 | -4/0 | 54.5 |
+| opt:all_round (breaks 3 incompatibility rules) | 79.5 | -5.0% | -2.3% | 58.0 | 1.16 | 18/27 | 81.5 |
+| opt:reload_time (breaks 2 incompatibility rules) | 70.5 | -5.0% | -5.2% | 49.5 | 0.91 | 24/34 | 72.5 |
+| opt:handling_min (breaks 1 incompatibility rule) | 33.5 | +13.0% | -5.4% | 44.0 | 2.03 | 6/14 | 24.5 |
+| opt:reload_time_min | 69.0 | +16.0% | +12.9% | 49.5 | 1.50 | 24/34 | 65.0 |
+| opt:stability_min | 62.0 | -3.0% | -6.4% | 41.0 | 0.96 | 38/65 | 62.5 |
 
 ## M4A1
 
@@ -662,28 +689,28 @@ Base reload factor (weapon row): -11.4%.
 
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
-| stock | 72.5 | 0% | +1.4% | 37.5 | 2.76 | 28/50 | 61.0 |
-| setup:m16a4 | 29.5 | 0% | -3.7% | 63.5 | 3.92 | 13/27 | 46.8 |
-| setup:m4a1_sopmod_block_ii | 43.5 | 0% | -2.5% | 50.5 | 3.77 | 15/23 | 50.0 |
-| setup:mk18_mod_1 | 54.0 | 0% | +1.4% | 63.0 | 3.62 | 18/31 | 61.2 |
-| setup:m4a1_urgi | 53.5 | 0% | -0.9% | 50.0 | 3.31 | 24/35 | 54.5 |
-| setup:equinox_ex15 | 88.0 | -1.8% | +5.6% | 47.0 | 2.59 | 27/45 | 78.5 |
-| preset:ardian_weapons_pattern_1 | 74.0 | -8.0% | -0.2% | 68.0 | 2.97 | 21/41 | 81.0 |
-| preset:c7a2 | 59.0 | -2.0% | -5.0% | 26.0 | 3.43 | 22/28 | 48.5 |
-| preset:equinox_ex_15 | 78.5 | -1.8% | +4.9% | 55.5 | 2.48 | 22/48 | 76.5 |
-| preset:hart_607 | 82.0 | -4.0% | +1.7% | 43.0 | 2.22 | 33/44 | 74.0 |
-| preset:m4a1_urg_i | 51.5 | 0% | -1.8% | 47.0 | 3.17 | 19/39 | 52.0 |
-| preset:m4a1_usgi | 64.5 | 0% | +1.8% | 53.0 | 3.14 | 25/44 | 62.2 |
-| preset:novacek_n4_gen3 | 77.0 | -5.2% | +0.1% | 49.5 | 2.69 | 23/46 | 73.0 |
-| opt:handling (breaks 2 incompatibility rules) | 132.0 | -10.0% | +3.7% | 38.0 | 3.70 | 42/58 | 109.0 |
-| opt:reload (breaks 8 incompatibility rules) | 30.0 | -21.7% | -12.2% | 123.0 | 6.33 | -3/-9 | 91.5 |
-| opt:stability (breaks 6 incompatibility rules) | 21.0 | +4.2% | +8.6% | 139.5 | 6.87 | 10/16 | 69.0 |
-| opt:recoil (breaks 4 incompatibility rules) | 11.0 | -19.7% | -14.5% | 122.0 | 6.68 | -18/-19 | 75.5 |
-| opt:all_round (breaks 5 incompatibility rules) | 102.5 | -19.7% | -7.5% | 106.0 | 4.74 | 22/30 | 127.0 |
-| opt:reload_time (breaks 1 incompatibility rule) | 33.5 | -21.7% | -21.5% | 47.0 | 2.41 | 46/54 | 58.0 |
-| opt:handling_min (breaks 2 incompatibility rules) | -31.5 | +11.5% | -11.1% | 42.0 | 6.07 | 8/24 | -22.0 |
-| opt:reload_time_min (breaks 2 incompatibility rules) | 42.0 | +16.0% | +2.0% | 44.0 | 3.06 | 42/81 | 23.0 |
-| opt:stability_min (breaks 3 incompatibility rules) | 37.0 | +7.2% | -10.5% | -10.5 | 3.86 | 50/41 | 10.5 |
+| stock | 61.5 | 0% | +1.4% | 47.5 | 2.76 | 28/50 | 61.0 |
+| setup:m16a4 | 45.0 | 0% | -3.7% | 50.0 | 3.92 | 13/27 | 46.8 |
+| setup:m4a1_sopmod_block_ii | 50.0 | 0% | -2.5% | 46.0 | 3.77 | 15/23 | 50.0 |
+| setup:mk18_mod_1 | 62.5 | 0% | +1.4% | 51.5 | 3.62 | 18/31 | 61.2 |
+| setup:m4a1_urgi | 54.0 | 0% | -0.9% | 46.0 | 3.31 | 24/35 | 54.5 |
+| setup:equinox_ex15 | 71.0 | -1.8% | +5.6% | 60.5 | 2.59 | 27/45 | 78.5 |
+| preset:ardian_weapons_pattern_1 | 72.0 | -8.0% | -0.2% | 60.5 | 2.97 | 21/41 | 81.0 |
+| preset:c7a2 | 45.5 | -2.0% | -5.0% | 46.5 | 3.43 | 22/28 | 48.5 |
+| preset:equinox_ex_15 | 66.5 | -1.8% | +4.9% | 63.5 | 2.48 | 22/48 | 76.5 |
+| preset:hart_607 | 74.5 | -4.0% | +1.7% | 46.5 | 2.22 | 33/44 | 74.0 |
+| preset:m4a1_urg_i | 51.5 | 0% | -1.8% | 45.0 | 3.17 | 19/39 | 52.0 |
+| preset:m4a1_usgi | 61.5 | 0% | +1.8% | 50.5 | 3.14 | 25/44 | 62.2 |
+| preset:novacek_n4_gen3 | 64.5 | -5.2% | +0.1% | 55.0 | 2.69 | 23/46 | 73.0 |
+| opt:handling (breaks 2 incompatibility rules) | 112.5 | -10.0% | +3.7% | 65.0 | 4.30 | 49/57 | 103.0 |
+| opt:reload (breaks 4 incompatibility rules) | 46.0 | -21.7% | -15.8% | 83.5 | 6.85 | -16/-16 | 78.5 |
+| opt:stability (breaks 3 incompatibility rules) | 50.5 | +7.2% | +13.6% | 123.0 | 6.58 | 28/41 | 74.0 |
+| opt:recoil (breaks 4 incompatibility rules) | 45.5 | -19.7% | -14.2% | 83.0 | 6.75 | -18/-19 | 76.5 |
+| opt:all_round (breaks 3 incompatibility rules) | 105.0 | -21.7% | -9.8% | 91.0 | 4.69 | 26/28 | 128.5 |
+| opt:reload_time (breaks 1 incompatibility rule) | 37.5 | -21.7% | -21.5% | 34.5 | 2.41 | 46/54 | 58.0 |
+| opt:handling_min (breaks 2 incompatibility rules) | -28.0 | +11.2% | -11.3% | 23.5 | 5.83 | 17/29 | -40.5 |
+| opt:reload_time_min (breaks 2 incompatibility rules) | 39.0 | +16.0% | +2.0% | 44.0 | 3.06 | 42/81 | 23.0 |
+| opt:stability_min (breaks 1 incompatibility rule) | 49.0 | +7.2% | -8.3% | -2.0 | 2.77 | 62/87 | 16.5 |
 
 ## MK9
 
@@ -691,17 +718,17 @@ Base reload factor (weapon row): -12.1%.
 
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
-| stock | 66.0 | 0% | -5.8% | 33.0 | 2.38 | 32/43 | 68.0 |
+| stock | 68.5 | 0% | -5.8% | 36.5 | 2.38 | 32/43 | 68.0 |
 | setup:ar9 | 85.0 | -0.2% | 0% | 50.0 | 2.83 | 28/46 | 85.0 |
-| opt:handling | 76.0 | -2.0% | -8.5% | 7.5 | 0.78 | 50/64 | 65.5 |
-| opt:reload (breaks 1 incompatibility rule) | 31.0 | -7.0% | -11.1% | 75.5 | 1.82 | 27/31 | 72.0 |
-| opt:stability (breaks 2 incompatibility rules) | 41.0 | -2.0% | -3.9% | 83.0 | 1.60 | 39/49 | 79.0 |
-| opt:recoil (breaks 1 incompatibility rule) | 29.0 | -5.0% | -10.5% | 73.0 | 1.63 | 25/30 | 68.0 |
-| opt:all_round (breaks 1 incompatibility rule) | 58.0 | -7.0% | -8.1% | 59.5 | 1.48 | 34/42 | 81.0 |
-| opt:reload_time | 32.5 | -7.0% | -17.6% | 35.0 | 1.00 | 42/45 | 52.0 |
-| opt:handling_min | 22.5 | 0% | -18.8% | 11.5 | 0.69 | 46/65 | 31.0 |
-| opt:reload_time_min | 32.0 | 0% | -12.8% | 35.0 | 0.85 | 42/45 | 48.0 |
-| opt:stability_min | 53.5 | -2.0% | -14.7% | 5.5 | 0.49 | 59/74 | 47.5 |
+| opt:handling | 82.0 | -2.0% | -9.9% | 22.0 | 0.98 | 56/69 | 61.5 |
+| opt:reload (breaks 1 incompatibility rule) | 59.5 | -7.0% | -11.1% | 50.0 | 1.82 | 27/31 | 72.0 |
+| opt:stability (breaks 2 incompatibility rules) | 59.5 | -2.0% | -4.0% | 71.5 | 1.59 | 39/49 | 78.5 |
+| opt:recoil (breaks 1 incompatibility rule) | 55.0 | -5.0% | -10.5% | 45.5 | 1.63 | 25/30 | 68.0 |
+| opt:all_round (breaks 1 incompatibility rule) | 73.5 | -7.0% | -8.3% | 50.0 | 1.47 | 34/42 | 80.5 |
+| opt:reload_time | 47.5 | -7.0% | -17.6% | 23.0 | 1.00 | 42/45 | 52.0 |
+| opt:handling_min | 32.5 | -2.0% | -20.4% | 3.5 | 0.69 | 47/66 | 31.0 |
+| opt:reload_time_min | 47.5 | 0% | -12.8% | 23.0 | 0.85 | 42/45 | 48.0 |
+| opt:stability_min | 62.0 | -2.0% | -18.7% | -6.5 | 0.60 | 56/78 | 36.0 |
 
 ## MP133
 
@@ -710,15 +737,15 @@ Base reload factor (weapon row): -12.4%.
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
 | stock | 60.5 | 0% | 0% | 50.0 | 2.66 | 44/51 | 60.5 |
-| opt:handling | 88.0 | 0% | +4.8% | 34.5 | 2.33 | 50/65 | 74.0 |
-| opt:reload | 73.5 | 0% | +4.6% | 63.0 | 3.06 | 26/38 | 73.5 |
-| opt:stability | 70.5 | 0% | +4.4% | 68.0 | 2.75 | 32/44 | 73.0 |
-| opt:recoil | 63.5 | 0% | +1.6% | 57.5 | 3.20 | 22/34 | 65.0 |
-| opt:all_round | 78.5 | 0% | +6.5% | 67.0 | 2.68 | 32/44 | 79.0 |
-| opt:reload_time | 64.0 | 0% | +1.6% | 56.0 | 2.76 | 47/54 | 65.0 |
-| opt:handling_min | 36.5 | 0% | -7.0% | 41.5 | 3.17 | 37/44 | 40.5 |
-| opt:reload_time_min | 64.0 | 0% | +1.6% | 56.0 | 2.76 | 47/54 | 65.0 |
-| opt:stability_min | 58.0 | 0% | -5.7% | 9.0 | 2.62 | 56/66 | 44.0 |
+| opt:handling | 81.0 | 0% | +4.1% | 37.5 | 2.37 | 49/62 | 72.0 |
+| opt:reload | 68.5 | 0% | +3.0% | 66.0 | 3.18 | 23/35 | 69.0 |
+| opt:stability | 73.0 | 0% | +4.2% | 67.0 | 3.00 | 32/44 | 72.5 |
+| opt:recoil | 65.0 | 0% | +1.8% | 66.0 | 3.22 | 22/34 | 65.5 |
+| opt:all_round | 78.5 | 0% | +6.5% | 66.0 | 2.68 | 32/44 | 79.0 |
+| opt:reload_time | 66.0 | 0% | +1.6% | 56.5 | 2.76 | 47/54 | 65.0 |
+| opt:handling_min | 42.5 | 0% | -6.3% | 49.0 | 3.13 | 38/47 | 42.5 |
+| opt:reload_time_min | 66.0 | 0% | +1.6% | 56.5 | 2.76 | 47/54 | 65.0 |
+| opt:stability_min | 61.0 | 0% | -2.8% | 20.5 | 2.42 | 62/72 | 52.5 |
 
 ## MP5
 
@@ -726,18 +753,18 @@ Base reload factor (weapon row): -9.1%.
 
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
-| stock | 60.5 | 0% | +3.3% | 56.0 | 2.28 | 22/26 | 59.0 |
-| setup:kf_mpi54 | 48.5 | 0% | 0% | 51.5 | 2.71 | 25/31 | 50.0 |
+| stock | 59.0 | 0% | +3.3% | 56.0 | 2.28 | 22/26 | 59.0 |
+| setup:kf_mpi54 | 48.5 | 0% | 0% | 52.0 | 2.71 | 25/31 | 50.0 |
 | preset:kf_mpi_54sd6 | 52.0 | 0% | 0% | 48.5 | 2.41 | 23/27 | 50.0 |
-| opt:handling | 110.5 | -1.8% | +11.4% | 46.0 | 3.01 | 47/54 | 87.0 |
-| opt:reload | 55.5 | -1.8% | +3.9% | 81.0 | 3.14 | 9/16 | 66.0 |
-| opt:stability | 58.0 | 0% | +6.5% | 85.0 | 3.35 | 20/25 | 68.0 |
-| opt:recoil | 46.0 | -1.8% | -0.3% | 69.0 | 3.17 | 3/5 | 54.2 |
-| opt:all_round | 88.0 | -1.8% | +10.3% | 73.0 | 3.35 | 21/25 | 84.0 |
-| opt:reload_time | 59.5 | -1.8% | +0.3% | 49.5 | 2.35 | 25/28 | 56.0 |
-| opt:handling_min (breaks 1 incompatibility rule) | 21.5 | +12.0% | +1.4% | 49.5 | 3.35 | 21/23 | 24.0 |
-| opt:reload_time_min | 57.5 | +12.0% | +11.6% | 49.5 | 2.80 | 25/28 | 49.0 |
-| opt:stability_min | 72.0 | 0% | +1.8% | 29.0 | 2.67 | 36/43 | 55.0 |
+| opt:handling | 90.0 | 0% | +12.4% | 61.5 | 2.98 | 47/49 | 84.0 |
+| opt:reload | 55.5 | -1.8% | +1.0% | 67.0 | 3.35 | 5/8 | 58.0 |
+| opt:stability | 72.0 | 0% | +10.9% | 86.0 | 3.13 | 27/30 | 80.0 |
+| opt:recoil | 53.0 | -1.8% | -0.4% | 57.0 | 3.18 | 3/5 | 54.0 |
+| opt:all_round | 83.0 | -1.8% | +9.6% | 74.5 | 3.25 | 21/21 | 82.0 |
+| opt:reload_time | 57.0 | -1.8% | +0.3% | 51.5 | 2.35 | 25/28 | 56.0 |
+| opt:handling_min (breaks 1 incompatibility rule) | 28.0 | +12.0% | +1.0% | 42.5 | 3.13 | 27/37 | 23.0 |
+| opt:reload_time_min | 55.5 | +12.0% | +11.6% | 51.5 | 2.80 | 25/28 | 49.0 |
+| opt:stability_min | 63.0 | 0% | +1.8% | 32.0 | 2.07 | 50/55 | 55.0 |
 
 ## Makarov
 
@@ -746,15 +773,15 @@ Base reload factor (weapon row): -16.9%.
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
 | stock | 76.0 | 0% | +0.1% | 50.0 | 0.72 | 25/25 | 76.0 |
-| opt:handling | 83.5 | 0% | +1.7% | 51.5 | 0.77 | 28/25 | 81.0 |
-| opt:reload | 72.5 | 0% | +0.1% | 54.0 | 0.84 | 18/16 | 76.0 |
-| opt:stability | 70.0 | 0% | -0.2% | 56.5 | 1.10 | 20/16 | 75.2 |
-| opt:recoil | 65.0 | 0% | -2.3% | 49.0 | 1.07 | 12/13 | 69.0 |
-| opt:all_round | 81.0 | 0% | +1.4% | 52.0 | 0.83 | 21/20 | 80.0 |
+| opt:handling | 82.0 | 0% | +2.0% | 55.0 | 0.79 | 28/26 | 82.0 |
+| opt:reload | 71.0 | 0% | -1.6% | 54.0 | 1.00 | 13/15 | 71.0 |
+| opt:stability | 76.5 | 0% | +0.2% | 57.5 | 1.10 | 21/17 | 76.5 |
+| opt:recoil | 69.0 | 0% | -2.3% | 52.0 | 1.07 | 12/13 | 69.0 |
+| opt:all_round | 80.0 | 0% | +1.4% | 55.0 | 0.83 | 21/20 | 80.0 |
 | opt:reload_time | 75.0 | 0% | -0.3% | 49.0 | 0.73 | 27/27 | 75.0 |
-| opt:handling_min | 56.5 | +16.0% | +6.8% | 46.0 | 1.81 | 51/80 | 52.0 |
+| opt:handling_min | 61.0 | +16.0% | +6.8% | 48.0 | 1.81 | 51/80 | 52.0 |
 | opt:reload_time_min | 72.0 | +16.0% | +11.0% | 49.0 | 1.51 | 31/26 | 63.0 |
-| opt:stability_min | 68.0 | 0% | -2.3% | 45.5 | 1.05 | 52/82 | 69.0 |
+| opt:stability_min | 74.0 | 0% | -0.6% | 48.0 | 0.75 | 57/90 | 74.0 |
 
 ## MosinNagant
 
@@ -762,17 +789,17 @@ Base reload factor (weapon row): -21.3%.
 
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
-| stock | 67.0 | 0% | -3.6% | 49.5 | 3.36 | 77/75 | 73.0 |
+| stock | 69.5 | 0% | -3.6% | 57.5 | 3.36 | 77/75 | 73.0 |
 | setup:mosin_nagant | 80.0 | 0% | -0.1% | 50.0 | 2.79 | 81/87 | 80.0 |
-| opt:handling | 104.5 | 0% | +7.1% | 35.5 | 1.89 | 84/97 | 94.0 |
-| opt:reload (breaks 2 incompatibility rules) | 68.0 | 0% | -1.5% | 64.0 | 3.28 | 71/44 | 77.2 |
-| opt:stability (breaks 1 incompatibility rule) | 87.0 | +8.0% | +13.2% | 73.5 | 2.96 | 77/88 | 89.5 |
-| opt:recoil (breaks 2 incompatibility rules) | 67.0 | 0% | -2.5% | 61.0 | 3.40 | 71/41 | 75.2 |
-| opt:all_round (breaks 2 incompatibility rules) | 101.0 | 0% | +10.2% | 68.5 | 2.80 | 80/91 | 103.5 |
-| opt:reload_time (breaks 1 incompatibility rule) | 61.0 | 0% | -14.9% | 19.0 | 2.86 | 84/87 | 51.0 |
-| opt:handling_min | 31.0 | +8.0% | -13.9% | 48.0 | 4.20 | 72/74 | 40.5 |
-| opt:reload_time_min (breaks 1 incompatibility rule) | 60.0 | +8.0% | -10.3% | 19.0 | 3.00 | 84/87 | 47.0 |
-| opt:stability_min (breaks 1 incompatibility rule) | 44.0 | +8.0% | -17.2% | 15.5 | 3.59 | 81/87 | 34.5 |
+| opt:handling | 104.0 | 0% | +4.6% | 42.5 | 1.79 | 87/102 | 89.0 |
+| opt:reload (breaks 2 incompatibility rules) | 66.5 | 0% | -2.4% | 66.5 | 3.41 | 71/41 | 75.5 |
+| opt:stability (breaks 1 incompatibility rule) | 70.0 | +8.0% | +1.6% | 69.0 | 4.06 | 74/72 | 68.5 |
+| opt:recoil (breaks 2 incompatibility rules) | 66.5 | 0% | -2.4% | 66.5 | 3.41 | 71/41 | 75.5 |
+| opt:all_round (breaks 2 incompatibility rules) | 100.0 | 0% | +10.2% | 69.0 | 2.80 | 80/91 | 103.5 |
+| opt:reload_time (breaks 1 incompatibility rule) | 68.0 | 0% | -14.9% | 38.5 | 2.86 | 84/87 | 51.0 |
+| opt:handling_min | 39.5 | +8.0% | -13.9% | 54.5 | 4.20 | 72/74 | 40.5 |
+| opt:reload_time_min (breaks 1 incompatibility rule) | 67.0 | +8.0% | -10.3% | 38.5 | 3.00 | 84/87 | 47.0 |
+| opt:stability_min (breaks 1 incompatibility rule) | 59.5 | +8.0% | -14.4% | 37.0 | 3.33 | 86/92 | 39.5 |
 
 ## P226
 
@@ -780,17 +807,17 @@ Base reload factor (weapon row): -16.4%.
 
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
-| stock | 69.0 | 0% | -1.0% | 49.5 | 0.99 | 19/24 | 71.0 |
+| stock | 71.0 | 0% | -1.0% | 49.0 | 0.99 | 19/24 | 71.0 |
 | preset:P229 | 74.0 | 0% | 0% | 50.0 | 0.95 | 26/29 | 74.0 |
-| opt:handling | 79.0 | 0% | +1.7% | 54.0 | 1.06 | 26/30 | 79.0 |
-| opt:reload (breaks 1 incompatibility rule) | 60.0 | -3.0% | -5.0% | 54.0 | 1.33 | 2/6 | 68.0 |
-| opt:stability | 61.0 | 0% | -1.3% | 60.5 | 1.54 | 14/16 | 70.2 |
-| opt:recoil (breaks 1 incompatibility rule) | 49.5 | -3.0% | -7.6% | 50.5 | 1.50 | -10/-5 | 60.0 |
-| opt:all_round (breaks 1 incompatibility rule) | 70.5 | -3.0% | -2.7% | 55.5 | 1.33 | 11/14 | 75.0 |
-| opt:reload_time | 63.5 | -3.0% | -5.0% | 48.5 | 1.10 | 20/26 | 68.0 |
-| opt:handling_min | 40.0 | +4.0% | -4.7% | 49.0 | 1.48 | 5/11 | 49.0 |
-| opt:reload_time_min | 63.0 | +4.0% | +0.9% | 48.5 | 1.13 | 20/26 | 65.0 |
-| opt:stability_min | 50.0 | 0% | -5.7% | 44.5 | 1.29 | 12/14 | 57.0 |
+| opt:handling | 78.5 | 0% | +1.7% | 54.5 | 1.06 | 26/29 | 79.0 |
+| opt:reload (breaks 1 incompatibility rule) | 58.0 | -6.0% | -9.8% | 46.0 | 1.48 | -10/-2 | 62.0 |
+| opt:stability | 71.0 | 0% | -0.9% | 57.0 | 1.39 | 18/18 | 71.5 |
+| opt:recoil (breaks 1 incompatibility rule) | 59.0 | -3.0% | -7.6% | 47.0 | 1.50 | -10/-5 | 60.0 |
+| opt:all_round (breaks 1 incompatibility rule) | 72.0 | -6.0% | -5.4% | 52.0 | 1.30 | 12/15 | 76.0 |
+| opt:reload_time | 65.0 | -6.0% | -7.6% | 45.0 | 1.12 | 20/27 | 69.0 |
+| opt:handling_min | 48.5 | +1.0% | -7.1% | 43.0 | 1.37 | 7/14 | 50.0 |
+| opt:reload_time_min | 66.5 | +4.0% | +0.9% | 47.0 | 1.13 | 20/26 | 65.0 |
+| opt:stability_min | 63.0 | -3.0% | -5.6% | 43.0 | 1.05 | 20/25 | 66.0 |
 
 ## P320
 
@@ -799,15 +826,15 @@ Base reload factor (weapon row): -17.2%.
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
 | stock | 77.0 | 0% | 0% | 50.0 | 0.94 | 23/32 | 77.0 |
-| opt:handling | 92.5 | +4.0% | +6.8% | 53.0 | 1.04 | 27/38 | 85.0 |
-| opt:reload (breaks 1 incompatibility rule) | 81.0 | -3.0% | -2.3% | 48.5 | 0.88 | 15/25 | 79.0 |
-| opt:stability | 67.5 | 0% | -1.6% | 55.0 | 1.33 | 15/24 | 72.2 |
-| opt:recoil (breaks 1 incompatibility rule) | 61.0 | -3.0% | -6.2% | 49.0 | 1.11 | 7/21 | 67.0 |
-| opt:all_round (breaks 1 incompatibility rule) | 88.0 | -3.0% | -0.4% | 52.5 | 1.04 | 20/30 | 85.0 |
-| opt:reload_time (breaks 1 incompatibility rule) | 71.0 | -3.0% | -3.9% | 51.0 | 1.01 | 22/34 | 74.0 |
-| opt:handling_min | 51.5 | +8.0% | -1.3% | 46.5 | 1.36 | 14/24 | 51.0 |
-| opt:reload_time_min | 69.0 | +8.0% | +3.7% | 51.0 | 1.16 | 22/34 | 65.0 |
-| opt:stability_min | 66.5 | 0% | -3.3% | 44.5 | 1.10 | 22/30 | 67.0 |
+| opt:handling | 87.0 | +4.0% | +6.8% | 57.5 | 1.04 | 27/38 | 85.0 |
+| opt:reload (breaks 1 incompatibility rule) | 73.5 | -3.0% | -3.9% | 53.5 | 1.04 | 10/24 | 74.0 |
+| opt:stability | 76.5 | +8.0% | +5.5% | 60.5 | 1.53 | 19/28 | 70.0 |
+| opt:recoil (breaks 1 incompatibility rule) | 67.0 | -3.0% | -6.2% | 50.0 | 1.11 | 7/21 | 67.0 |
+| opt:all_round (breaks 1 incompatibility rule) | 84.5 | -3.0% | -0.4% | 56.5 | 1.04 | 20/30 | 85.0 |
+| opt:reload_time (breaks 1 incompatibility rule) | 74.0 | -3.0% | -3.9% | 49.0 | 1.01 | 22/34 | 74.0 |
+| opt:handling_min | 58.0 | +8.0% | -1.3% | 46.0 | 1.36 | 14/24 | 51.0 |
+| opt:reload_time_min | 72.0 | +8.0% | +3.7% | 49.0 | 1.16 | 22/34 | 65.0 |
+| opt:stability_min | 71.0 | 0% | -2.3% | 46.0 | 0.91 | 24/32 | 70.0 |
 
 ## PSRL
 
@@ -816,15 +843,15 @@ Base reload factor (weapon row): -7.6%.
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
 | stock | 4.0 | 0% | 0% | 50.0 | 5.38 | 70/90 | 41.0 |
-| opt:handling | 24.0 | 0% | +2.0% | 46.5 | 5.59 | 71/93 | 52.0 |
-| opt:reload | -7.0 | 0% | +0.3% | 72.5 | 5.90 | 67/87 | 43.0 |
-| opt:stability | -7.0 | 0% | +0.3% | 72.5 | 6.04 | 67/87 | 43.0 |
-| opt:recoil | -6.0 | 0% | -0.4% | 63.0 | 5.90 | 64/84 | 39.0 |
-| opt:all_round | 14.5 | 0% | +2.2% | 61.0 | 5.64 | 71/92 | 53.0 |
-| opt:reload_time | -5.0 | 0% | -1.5% | 42.5 | 4.86 | 73/92 | 33.0 |
-| opt:handling_min | -17.0 | 0% | -2.1% | 55.0 | 5.55 | 68/82 | 30.0 |
-| opt:reload_time_min | -5.0 | 0% | -1.5% | 42.5 | 4.86 | 73/92 | 33.0 |
-| opt:stability_min | 4.0 | 0% | -0.6% | 41.0 | 4.92 | 72/93 | 38.0 |
+| opt:handling | 18.5 | 0% | +2.2% | 60.5 | 5.58 | 72/94 | 53.0 |
+| opt:reload | 6.5 | 0% | +0.2% | 54.5 | 5.98 | 66/84 | 42.0 |
+| opt:stability | 14.5 | 0% | +2.2% | 65.5 | 5.60 | 71/93 | 53.0 |
+| opt:recoil | 4.5 | 0% | -0.2% | 52.5 | 5.96 | 64/84 | 40.0 |
+| opt:all_round | 18.5 | 0% | +2.2% | 60.5 | 5.64 | 71/92 | 53.0 |
+| opt:reload_time | -0.5 | 0% | -1.5% | 41.0 | 4.86 | 73/92 | 33.0 |
+| opt:handling_min | -10.0 | 0% | -3.0% | 43.0 | 5.44 | 74/85 | 25.0 |
+| opt:reload_time_min | -0.5 | 0% | -1.5% | 41.0 | 4.86 | 73/92 | 33.0 |
+| opt:stability_min | -0.5 | 0% | -1.5% | 41.0 | 4.86 | 73/92 | 33.0 |
 
 ## QBZ95
 
@@ -832,17 +859,17 @@ Base reload factor (weapon row): -13.4%.
 
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
-| stock | 62.5 | 0% | -0.9% | 44.5 | 2.64 | 54/52 | 61.0 |
+| stock | 64.0 | 0% | -0.9% | 47.5 | 2.64 | 54/52 | 61.0 |
 | setup:qbz_95 | 71.0 | 0% | +2.2% | 54.0 | 3.51 | 33/37 | 70.0 |
-| opt:handling | 111.0 | 0% | +10.0% | 50.0 | 3.24 | 40/44 | 92.5 |
-| opt:reload | 80.5 | 0% | +7.7% | 76.0 | 3.65 | 33/41 | 86.0 |
-| opt:stability | 80.0 | 0% | +7.7% | 77.5 | 3.65 | 35/41 | 86.0 |
-| opt:recoil | 71.5 | 0% | +3.2% | 61.5 | 3.86 | 28/31 | 73.0 |
-| opt:all_round | 88.0 | 0% | +8.8% | 71.5 | 3.67 | 34/44 | 89.0 |
-| opt:reload_time | 61.0 | 0% | -1.3% | 44.5 | 2.63 | 54/52 | 60.0 |
-| opt:handling_min | 46.0 | 0% | -6.1% | 32.5 | 3.30 | 45/44 | 46.0 |
-| opt:reload_time_min | 61.0 | 0% | -1.3% | 44.5 | 2.63 | 54/52 | 60.0 |
-| opt:stability_min | 50.0 | 0% | -5.4% | 32.5 | 3.18 | 45/44 | 48.0 |
+| opt:handling | 93.0 | 0% | +8.8% | 65.0 | 3.68 | 38/40 | 89.0 |
+| opt:reload | 79.0 | 0% | +5.0% | 64.0 | 3.87 | 34/28 | 78.0 |
+| opt:stability | 83.5 | 0% | +7.7% | 73.0 | 3.58 | 44/49 | 86.0 |
+| opt:recoil | 76.5 | 0% | +3.6% | 58.5 | 3.91 | 28/31 | 74.0 |
+| opt:all_round | 93.0 | 0% | +8.8% | 65.0 | 3.67 | 35/43 | 89.0 |
+| opt:reload_time | 63.0 | 0% | -1.3% | 47.5 | 2.63 | 54/52 | 60.0 |
+| opt:handling_min | 49.5 | 0% | -6.1% | 36.0 | 3.30 | 45/44 | 46.0 |
+| opt:reload_time_min | 63.0 | 0% | -1.3% | 47.5 | 2.63 | 54/52 | 60.0 |
+| opt:stability_min | 62.0 | 0% | -1.8% | 35.5 | 2.86 | 55/56 | 58.5 |
 
 ## RPG7
 
@@ -851,15 +878,15 @@ Base reload factor (weapon row): -9.3%.
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
 | stock | 9.5 | 0% | 0% | 50.0 | 5.80 | 76/86 | 51.0 |
-| opt:handling | 15.5 | 0% | +0.7% | 51.0 | 5.91 | 76/85 | 55.0 |
-| opt:reload | 15.5 | 0% | +0.7% | 51.0 | 5.91 | 76/85 | 55.0 |
-| opt:stability | 5.5 | 0% | -0.4% | 55.5 | 5.88 | 76/85 | 49.0 |
+| opt:handling | 13.5 | 0% | +0.7% | 51.0 | 5.91 | 76/85 | 55.0 |
+| opt:reload | 13.5 | 0% | +0.7% | 51.0 | 5.91 | 76/85 | 55.0 |
+| opt:stability | 8.0 | 0% | -0.3% | 54.5 | 5.90 | 76/85 | 49.5 |
 | opt:recoil | 9.5 | 0% | 0% | 50.0 | 5.95 | 76/84 | 51.0 |
-| opt:all_round | 15.5 | 0% | +0.7% | 51.0 | 5.91 | 76/85 | 55.0 |
-| opt:reload_time | 0.5 | 0% | -1.3% | 47.5 | 5.39 | 78/88 | 44.0 |
-| opt:handling_min | -10.0 | 0% | -2.6% | 46.0 | 5.84 | 78/86 | 37.0 |
-| opt:reload_time_min | 0.5 | 0% | -1.3% | 47.5 | 5.39 | 78/88 | 44.0 |
-| opt:stability_min | -10.0 | 0% | -2.6% | 46.0 | 5.84 | 78/86 | 37.0 |
+| opt:all_round | 13.5 | 0% | +0.7% | 51.0 | 5.91 | 76/85 | 55.0 |
+| opt:reload_time | 3.0 | 0% | -1.3% | 46.5 | 5.39 | 78/88 | 44.0 |
+| opt:handling_min | -4.0 | 0% | -2.6% | 45.0 | 5.84 | 78/86 | 37.0 |
+| opt:reload_time_min | 3.0 | 0% | -1.3% | 46.5 | 5.39 | 78/88 | 44.0 |
+| opt:stability_min | -4.0 | 0% | -2.6% | 45.0 | 5.84 | 78/86 | 37.0 |
 
 ## Remington700
 
@@ -867,21 +894,21 @@ Base reload factor (weapon row): -17.1%.
 
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
-| stock | 58.0 | 0% | -7.5% | 41.5 | 2.79 | 78/85 | 64.0 |
-| setup:m700_mcs_lss_xl | 57.0 | +8.0% | -1.0% | 52.5 | 3.61 | 68/77 | 62.5 |
-| preset:magtap_hunter_700 | 52.5 | 0% | -4.3% | 59.5 | 2.87 | 75/84 | 70.0 |
-| preset:mcs_lss_xl_gen2 | 78.0 | 0% | +0.6% | 53.0 | 2.92 | 76/84 | 79.0 |
+| stock | 69.0 | 0% | -7.5% | 30.5 | 2.79 | 78/85 | 64.0 |
+| setup:m700_mcs_lss_xl | 60.5 | +8.0% | -1.0% | 56.0 | 3.61 | 68/77 | 62.5 |
+| preset:magtap_hunter_700 | 62.5 | 0% | -4.3% | 51.5 | 2.87 | 75/84 | 70.0 |
+| preset:mcs_lss_xl_gen2 | 76.5 | 0% | +0.6% | 53.0 | 2.92 | 76/84 | 79.0 |
 | preset:mcs_rev21_gen2 | 69.0 | +5.0% | 0% | 48.5 | 3.27 | 65/72 | 69.0 |
-| preset:pi_at_aics_2 | 78.0 | 0% | +4.1% | 67.5 | 3.26 | 72/82 | 85.5 |
-| opt:handling | 121.5 | -3.0% | +6.9% | 25.5 | 3.66 | 54/62 | 96.8 |
-| opt:reload (breaks 1 incompatibility rule) | 63.0 | -3.0% | +2.5% | 89.0 | 4.21 | 46/10 | 88.5 |
-| opt:stability (breaks 1 incompatibility rule) | 84.0 | -3.0% | +8.6% | 101.0 | 4.03 | 50/53 | 106.5 |
-| opt:recoil (breaks 1 incompatibility rule) | 57.0 | -3.0% | -2.2% | 79.0 | 4.77 | 39/4 | 79.5 |
-| opt:all_round | 102.0 | -3.0% | +8.6% | 72.5 | 3.92 | 43/44 | 103.8 |
-| opt:reload_time | 55.5 | -3.0% | -18.1% | 13.5 | 2.63 | 71/72 | 49.0 |
-| opt:handling_min (breaks 1 incompatibility rule) | 23.0 | +8.0% | -21.6% | 22.5 | 4.05 | 54/57 | 27.0 |
-| opt:reload_time_min | 75.0 | +8.0% | +9.2% | 68.0 | 3.31 | 75/84 | 80.0 |
-| opt:stability_min | 72.0 | -3.0% | -17.1% | -3.0 | 3.72 | 80/44 | 51.0 |
+| preset:pi_at_aics_2 | 83.5 | 0% | +4.1% | 57.5 | 3.26 | 72/82 | 85.5 |
+| opt:handling (breaks 1 incompatibility rule) | 117.5 | 0% | +1.3% | 20.0 | 3.55 | 73/80 | 80.2 |
+| opt:reload (breaks 1 incompatibility rule) | 80.0 | -3.0% | +0.6% | 64.0 | 4.55 | 44/5 | 84.8 |
+| opt:stability (breaks 1 incompatibility rule) | 88.5 | -3.0% | +8.6% | 88.0 | 4.19 | 58/63 | 103.8 |
+| opt:recoil (breaks 1 incompatibility rule) | 79.5 | -3.0% | -2.0% | 55.5 | 4.79 | 39/4 | 79.8 |
+| opt:all_round | 110.5 | -3.0% | +8.6% | 57.5 | 3.92 | 44/43 | 103.8 |
+| opt:reload_time | 54.5 | -3.0% | -18.1% | 14.5 | 2.63 | 71/72 | 49.0 |
+| opt:handling_min | 34.5 | +5.0% | -24.9% | 7.0 | 3.76 | 47/56 | 25.0 |
+| opt:reload_time_min | 79.0 | +8.0% | +9.2% | 59.5 | 3.31 | 75/84 | 80.0 |
+| opt:stability_min | 81.5 | -3.0% | -18.6% | -7.0 | 2.94 | 75/89 | 48.0 |
 
 ## Remington870
 
@@ -889,18 +916,18 @@ Base reload factor (weapon row): -13.0%.
 
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
-| stock | 57.0 | 0% | +0.4% | 65.5 | 2.65 | 76/77 | 63.5 |
-| preset:magtap_moe_m870 | 59.5 | 0% | +1.8% | 62.0 | 2.68 | 81/79 | 67.5 |
-| preset:roosevelt_tampa_shorty | 65.0 | 0% | -1.9% | 38.0 | 1.76 | 102/101 | 57.0 |
-| opt:handling | 95.5 | 0% | +8.1% | 53.5 | 2.86 | 82/84 | 85.8 |
-| opt:reload | 77.0 | 0% | +7.4% | 91.5 | 3.63 | 59/58 | 83.8 |
-| opt:stability (breaks 2 incompatibility rules) | 67.0 | 0% | +6.0% | 100.0 | 3.39 | 69/69 | 79.5 |
-| opt:recoil | 63.5 | 0% | +3.3% | 84.0 | 3.90 | 55/53 | 71.8 |
-| opt:all_round | 85.0 | 0% | +10.1% | 98.0 | 3.12 | 68/68 | 91.5 |
-| opt:reload_time (breaks 1 incompatibility rule) | 63.5 | 0% | +2.7% | 71.5 | 2.08 | 90/91 | 70.0 |
-| opt:handling_min (breaks 1 incompatibility rule) | -1.0 | 0% | -17.5% | 40.0 | 3.72 | 82/73 | 12.0 |
-| opt:reload_time_min (breaks 1 incompatibility rule) | 63.5 | 0% | +2.7% | 71.5 | 2.08 | 90/91 | 70.0 |
-| opt:stability_min | 19.0 | 0% | -13.9% | 18.5 | 3.45 | 81/76 | 22.5 |
+| stock | 56.5 | 0% | +0.4% | 66.0 | 2.65 | 76/77 | 63.5 |
+| preset:magtap_moe_m870 | 56.5 | 0% | +1.8% | 66.0 | 2.68 | 81/79 | 67.5 |
+| preset:roosevelt_tampa_shorty | 68.5 | 0% | -1.9% | 34.0 | 1.76 | 102/101 | 57.0 |
+| opt:handling | 94.0 | 0% | +7.2% | 62.0 | 2.88 | 80/81 | 83.0 |
+| opt:reload | 73.0 | 0% | +6.0% | 91.0 | 3.68 | 57/57 | 79.5 |
+| opt:stability (breaks 2 incompatibility rules) | 67.0 | 0% | +4.2% | 96.0 | 3.61 | 62/63 | 74.5 |
+| opt:recoil | 69.0 | 0% | +3.5% | 84.0 | 3.93 | 55/53 | 72.5 |
+| opt:all_round | 85.5 | 0% | +10.0% | 93.0 | 3.49 | 64/64 | 91.0 |
+| opt:reload_time (breaks 1 incompatibility rule) | 66.5 | 0% | +2.7% | 69.0 | 2.08 | 90/91 | 70.0 |
+| opt:handling_min (breaks 1 incompatibility rule) | 10.5 | 0% | -17.3% | 36.0 | 3.48 | 84/76 | 12.5 |
+| opt:reload_time_min (breaks 1 incompatibility rule) | 66.5 | 0% | +2.7% | 69.0 | 2.08 | 90/91 | 70.0 |
+| opt:stability_min | 28.0 | 0% | -11.1% | 30.0 | 2.79 | 89/84 | 30.5 |
 
 ## SA58
 
@@ -908,23 +935,23 @@ Base reload factor (weapon row): -2.0%.
 
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
-| stock | 39.0 | 0% | -4.4% | 47.0 | 3.95 | 35/50 | 35.0 |
-| setup:sg58_para | 48.0 | -3.0% | +0.1% | 67.0 | 4.78 | 42/54 | 50.5 |
-| setup:sg58_osw | 69.0 | +4.0% | +5.7% | 47.5 | 4.62 | 46/66 | 47.5 |
-| preset:far_50_00 | 33.5 | 0% | -4.4% | 53.0 | 4.23 | 29/48 | 35.0 |
-| preset:far_50_63_para | 45.5 | 0% | -2.5% | 48.0 | 3.83 | 36/51 | 39.0 |
-| preset:sg58_osw | 67.5 | 0% | +5.4% | 54.0 | 3.53 | 52/65 | 55.0 |
-| preset:sg58_pistol | 84.5 | 0% | +7.3% | 38.0 | 2.76 | 77/93 | 59.0 |
-| preset:sg58_spr | 43.5 | -4.0% | -1.2% | 62.0 | 3.74 | 36/58 | 50.0 |
-| opt:handling | 127.5 | -11.0% | +13.4% | 47.5 | 3.49 | 66/88 | 102.2 |
-| opt:reload (breaks 1 incompatibility rule) | 64.5 | -11.0% | +2.3% | 83.5 | 3.83 | 48/33 | 74.5 |
-| opt:stability (breaks 1 incompatibility rule) | 67.5 | -7.0% | +12.3% | 106.0 | 4.05 | 52/75 | 86.5 |
-| opt:recoil | 18.0 | -11.0% | -12.6% | 69.5 | 4.53 | 28/9 | 40.5 |
-| opt:all_round (breaks 3 incompatibility rules) | 102.5 | -11.0% | +13.4% | 82.5 | 3.89 | 49/72 | 100.2 |
-| opt:reload_time (breaks 1 incompatibility rule) | 35.0 | -11.0% | -9.7% | 59.0 | 2.93 | 62/74 | 47.0 |
-| opt:handling_min | -15.5 | +16.0% | -9.1% | 26.5 | 5.12 | 36/58 | -21.0 |
-| opt:reload_time_min (breaks 1 incompatibility rule) | 27.0 | +16.0% | +2.9% | 59.0 | 4.24 | 62/74 | 21.0 |
-| opt:stability_min (breaks 1 incompatibility rule) | 40.5 | -7.0% | -16.6% | 8.0 | 3.73 | 81/55 | 23.0 |
+| stock | 32.0 | 0% | -4.4% | 51.0 | 3.95 | 35/50 | 35.0 |
+| setup:sg58_para | 48.0 | -3.0% | +0.1% | 57.5 | 4.78 | 42/54 | 50.5 |
+| setup:sg58_osw | 54.5 | +4.0% | +5.7% | 53.5 | 4.62 | 46/66 | 47.5 |
+| preset:far_50_00 | 31.0 | 0% | -4.4% | 53.0 | 4.23 | 29/48 | 35.0 |
+| preset:far_50_63_para | 40.5 | 0% | -2.5% | 48.0 | 3.83 | 36/51 | 39.0 |
+| preset:sg58_osw | 57.5 | 0% | +5.4% | 49.5 | 3.53 | 52/65 | 55.0 |
+| preset:sg58_pistol | 80.5 | 0% | +7.3% | 28.5 | 2.76 | 77/93 | 59.0 |
+| preset:sg58_spr | 38.5 | -4.0% | -1.2% | 59.5 | 3.74 | 36/58 | 50.0 |
+| opt:handling (breaks 1 incompatibility rule) | 102.5 | -7.0% | +10.4% | 41.5 | 3.66 | 76/96 | 82.2 |
+| opt:reload (breaks 2 incompatibility rules) | 38.5 | -11.0% | -8.6% | 62.0 | 4.69 | 32/12 | 49.5 |
+| opt:stability | 61.0 | -7.0% | +11.2% | 95.0 | 4.19 | 63/87 | 84.0 |
+| opt:recoil | 25.5 | -11.0% | -12.3% | 57.0 | 4.55 | 28/9 | 41.0 |
+| opt:all_round (breaks 3 incompatibility rules) | 82.5 | -11.0% | +11.8% | 78.0 | 3.79 | 60/52 | 96.2 |
+| opt:reload_time (breaks 1 incompatibility rule) | 33.0 | -11.0% | -9.7% | 45.0 | 2.93 | 62/74 | 47.0 |
+| opt:handling_min | -12.5 | +16.0% | -9.1% | 26.0 | 5.09 | 41/60 | -23.0 |
+| opt:reload_time_min (breaks 1 incompatibility rule) | 29.5 | +16.0% | +2.9% | 45.0 | 4.24 | 62/74 | 21.0 |
+| opt:stability_min (breaks 1 incompatibility rule) | 46.5 | -7.0% | -13.4% | 16.0 | 3.06 | 77/102 | 30.0 |
 
 ## SCALAR
 
@@ -932,23 +959,23 @@ Base reload factor (weapon row): -10.5%.
 
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
-| stock | 54.0 | 0% | -1.6% | 64.5 | 2.40 | 53/51 | 66.5 |
-| preset:kalis_scalar_crb_gen1 | 44.5 | +12.0% | +5.3% | 58.5 | 3.08 | 44/40 | 50.0 |
-| preset:kalis_scalar_crb_gen2 | 51.5 | +8.0% | +1.5% | 52.5 | 3.08 | 30/26 | 50.0 |
-| preset:kalis_scalar_crb_gen3 | 37.5 | +8.0% | -2.6% | 38.0 | 2.91 | 50/54 | 36.0 |
-| preset:kalis_scalar_sbr_enhanced_gen2 | 33.0 | +8.0% | -1.7% | 50.0 | 2.67 | 63/60 | 39.0 |
-| preset:kalis_scalar_sbr_gen3 | 45.0 | +12.0% | +3.4% | 45.0 | 2.45 | 57/62 | 44.0 |
-| preset:kalis_scalar_sdp_gen2 | 47.0 | +4.0% | -1.1% | 49.0 | 2.10 | 56/59 | 54.0 |
-| preset:kalis_scalar_sdp_gen3 | 45.5 | +8.0% | 0% | 50.0 | 2.32 | 47/52 | 45.0 |
-| opt:handling (breaks 1 incompatibility rule) | 88.5 | 0% | +3.7% | 59.5 | 3.55 | 43/41 | 86.2 |
-| opt:reload (breaks 1 incompatibility rule) | 31.0 | 0% | -2.9% | 90.5 | 3.90 | 19/8 | 61.5 |
-| opt:stability (breaks 2 incompatibility rules) | 41.0 | 0% | +0.2% | 102.5 | 4.30 | 34/29 | 73.0 |
-| opt:recoil | 25.5 | 0% | -4.1% | 88.5 | 3.77 | 11/5 | 57.0 |
-| opt:all_round (breaks 1 incompatibility rule) | 78.5 | 0% | +3.2% | 75.0 | 3.53 | 34/28 | 84.2 |
-| opt:reload_time | 47.5 | 0% | -2.9% | 62.0 | 2.24 | 52/50 | 61.5 |
-| opt:handling_min (breaks 1 incompatibility rule) | 4.0 | +12.0% | -4.1% | 46.5 | 3.95 | 42/36 | 19.0 |
-| opt:reload_time_min | 42.0 | +16.0% | +9.0% | 58.5 | 3.12 | 38/37 | 50.0 |
-| opt:stability_min | 55.0 | 0% | -6.7% | 25.5 | 2.62 | 65/73 | 47.5 |
+| stock | 60.5 | 0% | -1.6% | 55.0 | 2.40 | 53/51 | 66.5 |
+| preset:kalis_scalar_crb_gen1 | 51.0 | +12.0% | +5.3% | 58.0 | 3.08 | 44/40 | 50.0 |
+| preset:kalis_scalar_crb_gen2 | 52.0 | +8.0% | +1.5% | 61.0 | 3.08 | 30/26 | 50.0 |
+| preset:kalis_scalar_crb_gen3 | 34.0 | +8.0% | -2.6% | 50.5 | 2.91 | 50/54 | 36.0 |
+| preset:kalis_scalar_sbr_enhanced_gen2 | 38.0 | +8.0% | -1.7% | 44.0 | 2.67 | 63/60 | 39.0 |
+| preset:kalis_scalar_sbr_gen3 | 42.0 | +12.0% | +3.4% | 47.0 | 2.45 | 57/62 | 44.0 |
+| preset:kalis_scalar_sdp_gen2 | 69.0 | +4.0% | -1.1% | 33.0 | 2.10 | 56/59 | 54.0 |
+| preset:kalis_scalar_sdp_gen3 | 45.0 | +8.0% | 0% | 50.0 | 2.32 | 47/52 | 45.0 |
+| opt:handling (breaks 1 incompatibility rule) | 89.5 | 0% | -0.3% | 51.0 | 3.35 | 55/53 | 71.2 |
+| opt:reload (breaks 2 incompatibility rules) | 50.5 | 0% | -3.1% | 72.0 | 4.22 | 17/6 | 60.8 |
+| opt:stability (breaks 1 incompatibility rule) | 61.0 | 0% | +2.9% | 105.0 | 4.03 | 36/33 | 83.2 |
+| opt:recoil | 47.5 | 0% | -4.0% | 70.0 | 3.79 | 11/5 | 57.5 |
+| opt:all_round (breaks 2 incompatibility rules) | 65.0 | 0% | +2.9% | 100.0 | 4.01 | 35/30 | 83.2 |
+| opt:reload_time | 55.5 | 0% | -2.9% | 54.0 | 2.24 | 52/50 | 61.5 |
+| opt:handling_min (breaks 1 incompatibility rule) | 13.0 | +12.0% | -5.6% | 37.5 | 3.84 | 48/39 | 14.0 |
+| opt:reload_time_min | 50.0 | +16.0% | +9.0% | 57.0 | 3.12 | 38/37 | 50.0 |
+| opt:stability_min | 56.0 | +4.0% | -5.5% | 23.5 | 2.13 | 62/72 | 38.5 |
 
 ## SCAR47
 
@@ -956,17 +983,17 @@ Base reload factor (weapon row): -8.1%.
 
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
-| stock | 74.0 | 0% | +5.7% | 36.0 | 3.39 | 47/54 | 62.5 |
+| stock | 71.5 | 0% | +5.7% | 45.5 | 3.39 | 47/54 | 62.5 |
 | setup:mk76 | 67.5 | -7.0% | 0% | 50.0 | 4.02 | 39/48 | 67.5 |
-| opt:handling (breaks 4 incompatibility rules) | 141.5 | -8.0% | +9.9% | 41.5 | 5.31 | 41/48 | 112.5 |
-| opt:reload (breaks 3 incompatibility rules) | 65.5 | -12.0% | +0.4% | 80.0 | 6.06 | 27/-1 | 85.5 |
-| opt:stability (breaks 4 incompatibility rules) | 77.5 | 0% | +16.2% | 99.0 | 6.13 | 39/48 | 91.0 |
-| opt:recoil (breaks 1 incompatibility rule) | 60.0 | -12.0% | -2.3% | 69.0 | 5.42 | 26/-8 | 77.0 |
-| opt:all_round (breaks 5 incompatibility rules) | 112.0 | -12.0% | +5.1% | 83.0 | 5.92 | 38/46 | 116.5 |
-| opt:reload_time | 62.5 | -12.0% | -8.0% | 23.5 | 2.81 | 55/63 | 59.5 |
-| opt:handling_min | 23.5 | +4.0% | -6.1% | 26.0 | 4.62 | 32/33 | 20.5 |
-| opt:reload_time_min | 56.0 | +4.0% | +1.5% | 23.5 | 3.15 | 55/63 | 40.5 |
-| opt:stability_min | 77.0 | 0% | -0.2% | 0.0 | 4.06 | 69/34 | 46.5 |
+| opt:handling (breaks 3 incompatibility rules) | 119.0 | 0% | +14.0% | 48.5 | 5.44 | 52/58 | 85.2 |
+| opt:reload (breaks 3 incompatibility rules) | 81.5 | -12.0% | +0.8% | 66.5 | 5.85 | 30/-2 | 86.8 |
+| opt:stability (breaks 4 incompatibility rules) | 90.0 | 0% | +19.5% | 106.0 | 5.91 | 54/65 | 100.0 |
+| opt:recoil (breaks 1 incompatibility rule) | 72.0 | -12.0% | -2.0% | 63.5 | 5.49 | 26/-8 | 78.0 |
+| opt:all_round (breaks 5 incompatibility rules) | 100.5 | -12.0% | +5.1% | 97.5 | 5.92 | 38/46 | 116.5 |
+| opt:reload_time | 57.5 | -12.0% | -8.0% | 32.0 | 2.81 | 55/63 | 59.5 |
+| opt:handling_min (breaks 1 incompatibility rule) | 30.0 | +4.0% | -8.2% | 24.0 | 5.19 | 36/36 | 15.0 |
+| opt:reload_time_min | 55.5 | +4.0% | +1.5% | 32.0 | 3.15 | 55/63 | 40.5 |
+| opt:stability_min | 77.0 | 0% | -2.4% | 9.5 | 3.94 | 61/72 | 40.5 |
 
 ## SCARH
 
@@ -974,18 +1001,18 @@ Base reload factor (weapon row): -0.2%.
 
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
-| stock | 40.5 | 0% | +1.2% | 35.0 | 3.51 | 51/52 | 28.5 |
-| setup:aft_mk17 | 37.5 | -7.0% | -2.4% | 49.5 | 4.21 | 49/54 | 38.0 |
-| preset:aft_mk20_ssr | 39.0 | -4.0% | +2.3% | 56.5 | 4.22 | 67/71 | 42.0 |
-| opt:handling (breaks 4 incompatibility rules) | 121.0 | 0% | +23.8% | 48.5 | 5.47 | 61/63 | 85.0 |
-| opt:reload (breaks 3 incompatibility rules) | 40.0 | -16.0% | -4.1% | 83.0 | 5.99 | 45/13 | 61.0 |
-| opt:stability (breaks 4 incompatibility rules) | 53.5 | +16.0% | +31.5% | 110.0 | 7.00 | 59/63 | 59.0 |
-| opt:recoil (breaks 1 incompatibility rule) | 19.5 | -16.0% | -11.6% | 62.5 | 5.60 | 38/-2 | 38.5 |
-| opt:all_round (breaks 7 incompatibility rules) | 90.0 | -16.0% | +8.0% | 88.0 | 5.89 | 58/60 | 97.0 |
-| opt:reload_time | 40.0 | -16.0% | -12.3% | 29.0 | 2.88 | 79/80 | 36.5 |
-| opt:handling_min | -21.0 | +13.0% | +1.5% | 21.0 | 5.58 | 43/41 | -28.5 |
-| opt:reload_time_min | 34.0 | +16.0% | +10.4% | 32.0 | 3.77 | 79/82 | 13.5 |
-| opt:stability_min | 34.0 | +11.0% | -0.3% | -5.0 | 5.28 | 80/42 | -4.5 |
+| stock | 40.0 | 0% | +1.2% | 35.0 | 3.51 | 51/52 | 28.5 |
+| setup:aft_mk17 | 44.0 | -7.0% | -2.4% | 39.5 | 4.21 | 49/54 | 38.0 |
+| preset:aft_mk20_ssr | 32.0 | -4.0% | +2.3% | 67.0 | 4.22 | 67/71 | 42.0 |
+| opt:handling (breaks 3 incompatibility rules) | 104.5 | 0% | +16.7% | 40.5 | 5.35 | 72/74 | 67.2 |
+| opt:reload (breaks 3 incompatibility rules) | 46.0 | -16.0% | -7.4% | 58.0 | 6.05 | 42/5 | 51.2 |
+| opt:stability (breaks 4 incompatibility rules) | 53.5 | +16.0% | +28.0% | 102.0 | 7.18 | 69/75 | 51.5 |
+| opt:recoil (breaks 1 incompatibility rule) | 33.5 | -16.0% | -11.3% | 52.0 | 5.67 | 38/-2 | 39.5 |
+| opt:all_round (breaks 7 incompatibility rules) | 81.0 | -16.0% | +8.0% | 88.0 | 5.89 | 58/60 | 97.0 |
+| opt:reload_time | 39.0 | -16.0% | -12.3% | 23.5 | 2.88 | 79/80 | 36.5 |
+| opt:handling_min (breaks 1 incompatibility rule) | -10.5 | +11.0% | -0.3% | 14.5 | 6.18 | 47/44 | -32.0 |
+| opt:reload_time_min | 39.0 | +16.0% | +10.4% | 23.5 | 3.77 | 79/82 | 13.5 |
+| opt:stability_min | 54.0 | +11.0% | +2.6% | 0.0 | 4.79 | 83/89 | 6.5 |
 
 ## SCARL
 
@@ -993,17 +1020,17 @@ Base reload factor (weapon row): -4.0%.
 
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
-| stock | 67.5 | 0% | +10.0% | 49.0 | 2.79 | 38/40 | 61.5 |
+| stock | 72.0 | 0% | +10.0% | 44.5 | 2.79 | 38/40 | 61.5 |
 | setup:aft_mk16 | 64.5 | -10.0% | +0.1% | 50.0 | 3.57 | 39/43 | 64.5 |
-| opt:handling (breaks 5 incompatibility rules) | 119.5 | -13.0% | +8.6% | 44.0 | 4.68 | 31/34 | 100.0 |
-| opt:reload (breaks 5 incompatibility rules) | 57.5 | -23.0% | -7.2% | 92.5 | 5.26 | 21/14 | 89.0 |
-| opt:stability (breaks 4 incompatibility rules) | 54.5 | +7.0% | +20.2% | 100.0 | 6.12 | 32/36 | 67.5 |
-| opt:recoil (breaks 1 incompatibility rule) | 45.0 | -23.0% | -11.6% | 76.5 | 4.88 | 10/6 | 74.0 |
-| opt:all_round (breaks 5 incompatibility rules) | 99.0 | -23.0% | -3.9% | 85.5 | 5.00 | 34/38 | 113.0 |
-| opt:reload_time | 57.5 | -23.0% | -14.1% | 36.0 | 2.13 | 58/61 | 65.5 |
-| opt:handling_min | 6.5 | +13.0% | -2.4% | 32.0 | 5.05 | 32/30 | -5.5 |
-| opt:reload_time_min | 44.5 | +16.0% | +8.9% | 36.0 | 3.04 | 59/61 | 19.5 |
-| opt:stability_min | 63.0 | +7.0% | +5.8% | 8.0 | 4.47 | 69/33 | 32.5 |
+| opt:handling (breaks 5 incompatibility rules) | 107.5 | -13.0% | +3.6% | 41.5 | 4.77 | 48/50 | 85.0 |
+| opt:reload (breaks 4 incompatibility rules) | 72.0 | -23.0% | -8.9% | 60.5 | 5.31 | 14/12 | 83.0 |
+| opt:stability (breaks 3 incompatibility rules) | 82.5 | +7.0% | +26.3% | 92.5 | 5.53 | 56/60 | 82.5 |
+| opt:recoil (breaks 1 incompatibility rule) | 62.5 | -23.0% | -11.3% | 57.5 | 4.95 | 10/6 | 75.0 |
+| opt:all_round (breaks 3 incompatibility rules) | 96.5 | -23.0% | -3.9% | 84.0 | 4.77 | 39/38 | 115.0 |
+| opt:reload_time | 57.0 | -23.0% | -14.1% | 30.0 | 2.13 | 58/61 | 65.5 |
+| opt:handling_min (breaks 1 incompatibility rule) | 20.0 | +11.0% | -4.1% | 25.0 | 5.57 | 36/35 | -8.0 |
+| opt:reload_time_min | 50.5 | +16.0% | +8.9% | 30.0 | 3.04 | 59/61 | 19.5 |
+| opt:stability_min | 77.0 | +7.0% | +6.6% | 10.5 | 4.03 | 64/70 | 34.5 |
 
 ## TT33
 
@@ -1012,15 +1039,15 @@ Base reload factor (weapon row): -17.2%.
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
 | stock | 77.0 | 0% | 0% | 50.0 | 0.92 | 35/36 | 77.0 |
-| opt:handling | 90.5 | 0% | +3.5% | 55.0 | 1.08 | 36/36 | 87.5 |
-| opt:reload (breaks 1 incompatibility rule) | 84.5 | 0% | +2.4% | 55.5 | 1.20 | 29/18 | 84.2 |
-| opt:stability | 85.5 | 0% | +3.1% | 59.0 | 1.09 | 35/36 | 86.2 |
-| opt:recoil (breaks 1 incompatibility rule) | 67.5 | 0% | -1.6% | 52.0 | 1.27 | 23/15 | 72.2 |
-| opt:all_round (breaks 1 incompatibility rule) | 89.0 | 0% | +3.5% | 56.5 | 1.21 | 31/22 | 87.5 |
+| opt:handling | 88.0 | 0% | +3.8% | 61.0 | 1.12 | 36/36 | 88.5 |
+| opt:reload (breaks 1 incompatibility rule) | 79.0 | 0% | +0.9% | 61.0 | 1.37 | 24/18 | 79.5 |
+| opt:stability | 88.0 | 0% | +3.8% | 61.0 | 1.12 | 36/36 | 88.5 |
+| opt:recoil (breaks 1 incompatibility rule) | 72.5 | 0% | -1.5% | 54.5 | 1.28 | 23/15 | 72.5 |
+| opt:all_round (breaks 1 incompatibility rule) | 87.0 | 0% | +3.5% | 61.0 | 1.21 | 31/22 | 87.5 |
 | opt:reload_time | 77.0 | 0% | 0% | 50.0 | 0.75 | 35/36 | 77.0 |
-| opt:handling_min (breaks 1 incompatibility rule) | 56.0 | 0% | -6.9% | 44.5 | 1.24 | 30/30 | 56.0 |
-| opt:reload_time_min | 77.0 | 0% | 0% | 50.0 | 0.75 | 35/36 | 77.0 |
-| opt:stability_min (breaks 1 incompatibility rule) | 61.5 | 0% | -4.0% | 44.0 | 1.10 | 23/20 | 65.0 |
+| opt:handling_min (breaks 1 incompatibility rule) | 61.0 | +8.0% | +0.5% | 47.0 | 1.23 | 23/20 | 56.0 |
+| opt:reload_time_min | 75.0 | +8.0% | +5.5% | 50.0 | 0.94 | 35/36 | 70.0 |
+| opt:stability_min | 74.0 | 0% | -1.0% | 47.0 | 0.85 | 35/39 | 74.0 |
 
 ## Turret
 
@@ -1029,11 +1056,11 @@ Base reload factor (weapon row): +0.5%.
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
 | stock | 23.5 | 0% | 0% | 50.0 | 2.94 | 62/43 | 29.0 |
-| opt:handling | 27.5 | 0% | +2.0% | 53.5 | 3.10 | 57/37 | 33.0 |
-| opt:reload | 27.5 | 0% | +2.0% | 53.5 | 3.10 | 57/37 | 33.0 |
-| opt:stability | 27.5 | 0% | +2.0% | 53.5 | 3.10 | 57/37 | 33.0 |
-| opt:recoil | 27.5 | 0% | +2.0% | 53.5 | 3.10 | 57/37 | 33.0 |
-| opt:all_round | 27.5 | 0% | +2.0% | 53.5 | 3.10 | 57/37 | 33.0 |
+| opt:handling | 27.5 | 0% | +2.0% | 54.0 | 3.10 | 57/37 | 33.0 |
+| opt:reload | 27.5 | 0% | +2.0% | 54.0 | 3.10 | 57/37 | 33.0 |
+| opt:stability | 27.5 | 0% | +2.0% | 54.0 | 3.10 | 57/37 | 33.0 |
+| opt:recoil | 27.5 | 0% | +2.0% | 54.0 | 3.10 | 57/37 | 33.0 |
+| opt:all_round | 27.5 | 0% | +2.0% | 54.0 | 3.10 | 57/37 | 33.0 |
 | opt:reload_time | 23.5 | 0% | 0% | 50.0 | 3.03 | 62/41 | 29.0 |
 | opt:handling_min | 23.5 | 0% | 0% | 50.0 | 3.03 | 62/41 | 29.0 |
 | opt:reload_time_min | 23.5 | 0% | 0% | 50.0 | 3.03 | 62/41 | 29.0 |
@@ -1045,15 +1072,15 @@ Base reload factor (weapon row): -19.0%.
 
 | build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |
 |---|---|---|---|---|---|---|---|
-| stock | 75.0 | 0% | -2.0% | 48.0 | 2.32 | 68/77 | 77.5 |
+| stock | 78.0 | 0% | -2.0% | 43.5 | 2.32 | 68/77 | 77.5 |
 | preset:kf_umk_9 | 83.5 | 0% | 0% | 50.0 | 2.21 | 44/55 | 83.5 |
-| opt:handling | 114.5 | 0% | +5.3% | 58.0 | 2.65 | 41/53 | 105.5 |
-| opt:reload | 83.5 | 0% | +1.3% | 64.0 | 2.74 | 27/39 | 87.8 |
-| opt:stability | 81.5 | 0% | +1.7% | 69.0 | 2.94 | 38/47 | 88.8 |
-| opt:recoil | 75.0 | 0% | -0.6% | 62.5 | 2.90 | 23/35 | 81.8 |
-| opt:all_round | 114.5 | 0% | +5.3% | 58.0 | 2.71 | 40/51 | 105.5 |
-| opt:reload_time | 76.5 | 0% | -1.8% | 48.5 | 2.02 | 47/57 | 78.0 |
-| opt:handling_min | 42.5 | 0% | -9.4% | 47.0 | 2.62 | 58/59 | 54.5 |
-| opt:reload_time_min | 76.5 | 0% | -1.8% | 48.5 | 2.02 | 47/57 | 78.0 |
-| opt:stability_min | 52.0 | 0% | -8.0% | 40.0 | 2.17 | 64/66 | 59.0 |
+| opt:handling | 106.0 | 0% | +5.3% | 68.5 | 2.65 | 41/53 | 105.5 |
+| opt:reload | 82.0 | 0% | -0.4% | 59.5 | 2.92 | 23/35 | 82.5 |
+| opt:stability | 98.0 | 0% | +5.3% | 73.5 | 2.61 | 42/53 | 101.5 |
+| opt:recoil | 82.0 | 0% | -0.4% | 59.5 | 2.93 | 23/35 | 82.5 |
+| opt:all_round | 103.0 | 0% | +5.3% | 68.5 | 2.77 | 34/46 | 102.5 |
+| opt:reload_time | 77.0 | 0% | -1.8% | 48.0 | 2.02 | 47/57 | 78.0 |
+| opt:handling_min | 53.5 | 0% | -9.8% | 36.0 | 2.51 | 64/64 | 53.5 |
+| opt:reload_time_min | 77.0 | 0% | -1.8% | 48.0 | 2.02 | 47/57 | 78.0 |
+| opt:stability_min | 66.0 | 0% | -5.7% | 36.0 | 1.97 | 71/76 | 66.0 |
 

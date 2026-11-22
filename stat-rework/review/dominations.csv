@@ -62,9 +62,28 @@ ammo,slot:ammo_9x18|#be18e8,9x18_kazarov_7n25_pbm_56gr_ap,9x18_tsniitekhmash_sp7
 barrel,slot:ak308_barrel|#16e150,ak308_std_415mm_barrel,custom_ak308_7.62x51_415mm_threaded_barrel,stat difference,True,handling+horizontal_recoil+vertical_recoil+barrel_deviation,0.0,1000.0
 barrel,slot:ump_barrel|ump45#81117a,hk_ump45_200mm_flanged_barrel,hdts_ump45_200mm_threaded_barrel,stat difference,True,handling+horizontal_recoil+vertical_recoil+bullet_velocity+barrel_deviation,0.0,750.0
 barrel,slot:kf_416_barrel|#f9e2f7,kf_416a5_14.5i_barrel,kf_416d_14.5i_barrel,stat difference,True,barrel_deviation,0.0,0.0
+foregrip,rail:picatinny:foregrip#9c3fb7,axtell_defense_rubber_overmolding_vertical_foregrip,launchtron_psrl_plastic_foregrip,stat difference,True,handling+stability+horizontal_recoil+vertical_recoil,500.0,800.0
+foregrip,rail:picatinny:foregrip#9c3fb7,ecm_gunslinger_mod3_picatinny_foregrip,launchtron_psrl_plastic_foregrip,stat difference,True,handling+stability+horizontal_recoil,300.0,800.0
+foregrip,rail:picatinny:foregrip#9c3fb7,ecm_gunslinger_mod3_picatinny_foregrip_flipped,launchtron_psrl_plastic_foregrip,stat difference,True,handling+stability+horizontal_recoil,300.0,800.0
+foregrip,rail:picatinny:foregrip#9c3fb7,magtap_rcp_mag412_foregrip,launchtron_psrl_plastic_foregrip,stat difference,True,handling+stability+vertical_recoil,300.0,800.0
+foregrip,rail:picatinny:foregrip#9c3fb7,mission_first_folding_grip,launchtron_psrl_plastic_foregrip,stat difference,True,horizontal_recoil,400.0,800.0
+foregrip,rail:picatinny:foregrip#9c3fb7,okb_crazy_romanian_picatinny_half_grip,launchtron_psrl_plastic_foregrip,stat difference,True,handling+stability+vertical_recoil,600.0,800.0
+foregrip,rail:picatinny:foregrip#9c3fb7,pts_validus_shift_tactical_grip,launchtron_psrl_plastic_foregrip,stat difference,True,horizontal_recoil+vertical_recoil,600.0,800.0
+foregrip,rail:picatinny:foregrip#9c3fb7,rtm_pillau_tactical_grip,launchtron_psrl_plastic_foregrip,stat difference,True,handling+stability+horizontal_recoil+vertical_recoil,300.0,800.0
+foregrip,rail:picatinny:foregrip#9c3fb7,targetdown_bgv_mk46k_grip,launchtron_psrl_plastic_foregrip,stat difference,True,horizontal_recoil+vertical_recoil,600.0,800.0
+foregrip,rail:picatinny:foregrip#9c3fb7,timber_creek_enforcer_foregrip,launchtron_psrl_plastic_foregrip,stat difference,True,horizontal_recoil+vertical_recoil,700.0,800.0
+foregrip,rail:picatinny:foregrip#9c3fb7,viking_tactical_uvg_grip,launchtron_psrl_plastic_foregrip,stat difference,True,handling+stability+vertical_recoil,800.0,800.0
+foregrip,rail:mlok:foregrip#47333e,dd_enhanced_mvg,okb_crazy_romanian_mlok_half_grip,stat difference,True,vertical_recoil,400.0,600.0
+foregrip,rail:picatinny:foregrip#9c3fb7,stark_se_5_express_forward_grip,okb_crazy_romanian_picatinny_full_grip,stat difference,True,handling+stability+vertical_recoil,400.0,800.0
+handguard,"slot:scalar_handguard|scalar_gen1_handguard,scalar_gen2_handguard#cf0a71",kalis_scalar_mk3_handguard,kalis_scalar_mk5_handguard,stat difference,True,handling+stability+horizontal_recoil,1000.0,2000.0
+handguard,slot:ak_handguard|#060bfd,cugir_pm_md63_wooden_sharkfin_mlok_bottom_handguard,magtap_ak_zhukov_u_lower_handguard,stat difference,True,handling+stability+horizontal_recoil+vertical_recoil,1500.0,1500.0
+handguard,slot:ak_handguard_alt|#c79703,was_woodworks_lower_ak_handguard_with_handstop_alt,magtap_ak_zhukov_u_lower_handguard_alt,stat difference,True,horizontal_recoil+vertical_recoil,1000.0,1500.0
 handguard,slot:mosin_mount|#05cef7,resolute_ind_mount,resolute_ind_mi24c_mount,stat difference,True,handling,600.0,800.0
-muzzle,slot:9x19_muzzle_device|#34ba03,alphadog_alpha9_flipped,alphadog_alpha9,stat difference,True,handling+stability,1000.0,1000.0
+internals,slot:ar15_trigger|#c98cdd,kf_416_trigger,hart_m4a1_std_trigger,stat difference,True,handling+stability,0.0,0.0
+internals,slot:sic_p_series_takedown_lever|#2e79de,sic_sturmer_sic_p_series_oem_takedown_lever,lasevex_sic_p_series_takedown_lever,stat difference,True,handling,0.0,200.0
+muzzle,slot:9x19_muzzle_device|#34ba03,alphadog_alpha9_flipped,alphadog_alpha9,stat difference,True,handling,1000.0,1000.0
 muzzle,slot:5.56x45_muzzle_device|#25ceba,ewc_5.56x45_blackout_18_tooth_flash_hider,hart_607_car15_3.5inch_flash_moderator,stat difference,True,vertical_recoil,500.0,500.0
+optic,slot:carry_handle_mount|m16a2_upper#655931,alistair_ar332_prism_3x_sight_carry_handle,alistair_ar536_prism_5x_sight_carry_handle,stat difference,True,stability,1300.0,2700.0
 optic,slot:r870_top_mount|#ed11d4,leopard_atg_pro_mtu_028sg_mount,hg_shortrail_ghost_ring_rear_sight,stat difference,True,handling,900.0,1000.0
 optic,slot:aero_covers|aero_front#daedc8,holostar_aero_front_cover_folded,holostar_aero_front_cover,stat difference,True,handling,100.0,100.0
 optic,slot:aero_covers|aero_rear#a2675e,holostar_aero_rear_cover_folded,holostar_aero_rear_cover,stat difference,True,handling,100.0,100.0
@@ -78,6 +97,7 @@ optic,slot:strauss_deltapoint_footprint|sic_p_series_slide_226#4f1b62,sic_sturme
 optic,slot:strauss_deltapoint_footprint|sic_p_series_slide_226#4f1b62,sic_sturmer_p226_sight_plate_cover,holotec_helx_mini_red_dot,stat difference,True,handling,150.0,1100.0
 optic,slot:strauss_deltapoint_footprint|sic_p_series_slide_229#a27126,sic_sturmer_p229_flush_sight_plate_cover,holotec_helx_mini_red_dot,stat difference,True,handling,150.0,1100.0
 optic,slot:strauss_deltapoint_footprint|p320_slide#d92329,sic_sturmer_p320_optic_slide_cover,holotec_helx_mini_red_dot,stat difference,True,handling,0.0,1100.0
+optic,slot:hk_upper_receiver_mounts|g3#8a0af3,addon_hk_upper_receiver_picatinny_rail,mfi_hk_universal_low_profile_scope_mount_flipped,stat difference,True,handling,0.0,750.0
 optic,slot:r870_top_mount|#ed11d4,hg_shortrail_ghost_ring_rear_sight,optech_asm_1_mount,stat difference,True,handling,1000.0,1200.0
 optic,slot:r870_top_mount|#ed11d4,leopard_atg_pro_mtu_028sg_mount,optech_asm_1_mount,stat difference,True,handling,900.0,1200.0
 optic,slot:carry_handle_mount|m16a2_upper#655931,strauss_mark_4_carry_handle_mount,pri_ar15_std_carry_handle_mount,stat difference,True,handling,300.0,300.0
@@ -91,7 +111,7 @@ optic,slot:virticon_drd_mount|sic_p_series_slide_226#94f385,sic_sturmer_p226_drd
 optic,slot:virticon_drd_mount|sic_p_series_slide_226#94f385,sic_sturmer_p226_flush_drd_sight_plate_cover,swampfox_kingslayer_micro_reflex_sight,stat difference,True,handling,150.0,800.0
 optic,slot:virticon_drd_mount|zvetech_kosch_slide#166caa,zvetech_kosch_slide_cover,swampfox_kingslayer_micro_reflex_sight,stat difference,True,handling,0.0,800.0
 optic,slot:mosin_rear_sight|220mm#32d9f5,target_sports_mng_mount,target_sports_mosin_trirail,stat difference,True,handling,500.0,800.0
-optic,"slot:acog_compact_mount|pa_mount,ta_compact_mount#d18334",paramount_arms_slx_1x_microprism_acss_g2_scope,virticon_compact_arcs_3x24_ta50c_green,stat difference,True,handling+stability,1300.0,1500.0
+optic,"slot:acog_compact_mount|pa_mount,ta_compact_mount#d18334",paramount_arms_slx_1x_microprism_acss_g2_scope,virticon_compact_arcs_3x24_ta50c_green,stat difference,True,handling,1300.0,1500.0
 optic,slot:virticon_drd_mount|sic_p_series_slide_226#94f385,sic_sturmer_p226_drd_sight_plate_cover,virticon_cro_reflex_sight,stat difference,True,handling,225.0,800.0
 optic,slot:virticon_drd_mount|sic_p_series_slide_226#94f385,sic_sturmer_p226_flush_drd_sight_plate_cover,virticon_cro_reflex_sight,stat difference,True,handling,150.0,800.0
 optic,slot:virticon_drd_mount|zvetech_kosch_slide#166caa,zvetech_kosch_slide_cover,virticon_cro_reflex_sight,stat difference,True,handling,0.0,800.0
@@ -104,8 +124,11 @@ optic,slot:virticon_drd_mount|zvetech_kosch_slide#166caa,zvetech_kosch_slide_cov
 optic,slot:virticon_drd_mount|sic_p_series_slide_226#94f385,sic_sturmer_p226_drd_sight_plate_cover,virticon_drd_dr06_type2_adj_led_reflex,stat difference,True,handling,225.0,1100.0
 optic,slot:virticon_drd_mount|sic_p_series_slide_226#94f385,sic_sturmer_p226_flush_drd_sight_plate_cover,virticon_drd_dr06_type2_adj_led_reflex,stat difference,True,handling,150.0,1100.0
 optic,slot:virticon_drd_mount|zvetech_kosch_slide#166caa,zvetech_kosch_slide_cover,virticon_drd_dr06_type2_adj_led_reflex,stat difference,True,handling,0.0,1100.0
+pistol_grip,slot:ar15_pistol_grip|lss_gen2#268de3,pmm_scar_modified_grip_rogue,hera_arms_cqr_gen2_pistol_grip,stat difference,True,handling+stability+horizontal_recoil,600.0,1200.0
+pistol_grip,slot:ar15_pistol_grip|m4a1#862d6a,timber_creek_enforcer_pistol_grip,hera_arms_cqr_gen2_pistol_grip,stat difference,True,handling+stability+vertical_recoil,900.0,1200.0
+receiver,slot:ump_lower_receiver|#e0ed5e,hk_ump_01_navy_lower_receiver,hk_ump_012_navy_lower_receiver,stat difference,True,handling+stability,500.0,1000.0
 receiver,slot:ump_lower_receiver|#e0ed5e,hk_ump_012_navy_lower_receiver,hk_ump_012d_navy_lower_receiver,stat difference,True,handling+stability+horizontal_recoil+vertical_recoil,1000.0,1500.0
-receiver,slot:ump_lower_receiver|#e0ed5e,hk_ump_01_navy_lower_receiver,hk_ump_012d_navy_lower_receiver,stat difference,True,handling+horizontal_recoil+vertical_recoil,500.0,1500.0
+receiver,slot:ump_lower_receiver|#e0ed5e,hk_ump_01_navy_lower_receiver,hk_ump_012d_navy_lower_receiver,stat difference,True,handling+stability+horizontal_recoil+vertical_recoil,500.0,1500.0
 receiver,slot:ump_lower_receiver|#e0ed5e,hk_ump_01d_navy_lower_receiver,hk_ump_012d_navy_lower_receiver,stat difference,True,horizontal_recoil,0.0,1500.0
 receiver,slot:scalar_lower_receiver|#32cdc6,kalis_scalar_gen2_early_40sv_lower_receiver,kalis_scalar_gen2_early_45acp_lower_receiver,stat difference,True,handling+stability+horizontal_recoil+vertical_recoil+bullet_velocity,2000.0,2000.0
 receiver,slot:scalar_lower_receiver|#32cdc6,kalis_scalar_gen2_early_9x19_lower_receiver,kalis_scalar_gen2_early_45acp_lower_receiver,stat difference,True,handling+stability+horizontal_recoil+vertical_recoil+bullet_velocity,2000.0,2000.0
@@ -114,6 +137,7 @@ receiver,slot:scalar_lower_receiver|#32cdc6,kalis_scalar_gen2_late_9x19_lower_re
 receiver,slot:scalar_lower_receiver|#32cdc6,kalis_scalar_gen3_40sv_lower_receiver,kalis_scalar_gen3_45acp_lower_receiver,stat difference,True,handling+stability+horizontal_recoil+vertical_recoil+bullet_velocity,4000.0,4000.0
 receiver,slot:scalar_lower_receiver|#32cdc6,kalis_scalar_gen3_9x19_lower_receiver,kalis_scalar_gen3_45acp_lower_receiver,stat difference,True,handling+stability+horizontal_recoil+vertical_recoil+bullet_velocity,4000.0,4000.0
 receiver,slot:tt33_slide|#82293c,tt33_postwar_slide,tt33_mod_postwar_slide,stat difference,True,handling+stability+horizontal_recoil+vertical_recoil+barrel_deviation,0.0,4000.0
+receiver,slot:tt33_slide|#82293c,tt33_prewar_slide,tt33_mod_postwar_slide,stat difference,True,horizontal_recoil+vertical_recoil+barrel_deviation,0.0,4000.0
 tactical,rail:picatinny:tactical#021e84,las_tac_2,cosmotac_blue_lam_module,stat difference,True,handling,750.0,750.0
 handguard,rail:mlok:handguard#31a097,magtap_mlok_1.6_bottom,ddg_qd_3slot_rail_bottom,"variant: identical stats, heavier (length or visual variant)",True,,100.0,300.0
 handguard,rail:mlok:handguard#619033,magtap_mlok_1.6_side,ddg_qd_3slot_rail_side,"variant: identical stats, heavier (length or visual variant)",True,,100.0,300.0
@@ -133,6 +157,9 @@ handguard,rail:mlok:handguard#41b253,generic_5_slot_mlok_rail_top,ddg_qd_7slot_r
 handguard,rail:mlok:handguard#41b253,generic_7_slot_mlok_rail_top,ddg_qd_7slot_rail_top,"variant: identical stats, heavier (length or visual variant)",True,,300.0,500.0
 handguard,rail:mlok:handguard#41b253,magtap_mlok_1.6_top,ddg_qd_7slot_rail_top,"variant: identical stats, heavier (length or visual variant)",True,,100.0,500.0
 handguard,rail:mlok:handguard#41b253,pac_mlok_3inch_5_slot_rail_section_top,ddg_qd_7slot_rail_top,"variant: identical stats, heavier (length or visual variant)",True,,500.0,500.0
+handguard,rail:mlok:handguard#31a097,magtap_type_1_1slot_mlok_cover,ecm_ecmr_3_slot_mlok_rail_panel,"variant: identical stats, heavier (length or visual variant)",False,,100.0,400.0
+handguard,rail:mlok:handguard#31a097,magtap_type_1_1slot_mlok_cover,equinox_ex_mlok_cover,"variant: identical stats, heavier (length or visual variant)",False,,100.0,200.0
+handguard,rail:mlok:handguard#31a097,magtap_type_1_1slot_mlok_cover,equinox_ex_mlok_cover_flipped,"variant: identical stats, heavier (length or visual variant)",False,,100.0,200.0
 handguard,rail:mlok:handguard#31a097,ddg_qd_3slot_rail_bottom,generic_11_slot_mlok_rail_bottom,"variant: identical stats, heavier (length or visual variant)",True,,300.0,500.0
 handguard,rail:mlok:handguard#31a097,ddg_qd_7slot_rail_bottom,generic_11_slot_mlok_rail_bottom,"variant: identical stats, heavier (length or visual variant)",True,,500.0,500.0
 handguard,rail:mlok:handguard#31a097,generic_5_slot_mlok_rail_bottom,generic_11_slot_mlok_rail_bottom,"variant: identical stats, heavier (length or visual variant)",True,,200.0,500.0
@@ -204,6 +231,12 @@ handguard,rail:mlok:handguard#41b253,generic_7_slot_mlok_rail_top,generic_9_slot
 handguard,rail:mlok:handguard#41b253,magtap_mlok_1.6_top,generic_9_slot_mlok_rail_top,"variant: identical stats, heavier (length or visual variant)",True,,100.0,400.0
 handguard,rail:scalar_side_rails:handguard#3e3d8b,kalis_scalar_7_slot_left_side_rail,kalis_scalar_9_slot_left_side_rail,"variant: identical stats, heavier (length or visual variant)",True,,0.0,200.0
 handguard,rail:scalar_side_rails:handguard#453581,kalis_scalar_7_slot_misc_rail,kalis_scalar_9_slot_misc_rail,"variant: identical stats, heavier (length or visual variant)",True,,0.0,200.0
+handguard,rail:picatinny:handguard#6da5fd,axtell_defense_5inch_picatinny_rail_panel,pac_11rib_railpanel,"variant: identical stats, heavier (length or visual variant)",False,,500.0,600.0
+handguard,rail:picatinny:handguard#6da5fd,pac_9rib_railpanel,pac_11rib_railpanel,"variant: identical stats, heavier (length or visual variant)",False,,500.0,600.0
+handguard,rail:picatinny:handguard#6da5fd,pac_2rib_railpanel,pac_4rib_railpanel,"variant: identical stats, heavier (length or visual variant)",False,,100.0,200.0
+handguard,rail:picatinny:handguard#6da5fd,axtell_defense_3inch_picatinny_rail_panel,pac_6rib_railpanel,"variant: identical stats, heavier (length or visual variant)",False,,300.0,400.0
+handguard,rail:picatinny:handguard#6da5fd,pac_5rib_railpanel,pac_6rib_railpanel,"variant: identical stats, heavier (length or visual variant)",False,,300.0,400.0
+handguard,rail:picatinny:handguard#6da5fd,xtm_2_piece,pac_6rib_railpanel,"variant: identical stats, heavier (length or visual variant)",False,,200.0,400.0
 handguard,rail:mlok:handguard#31a097,ddg_qd_3slot_rail_bottom,pac_mlok_3inch_5_slot_rail_section_bottom,"variant: identical stats, heavier (length or visual variant)",True,,300.0,500.0
 handguard,rail:mlok:handguard#31a097,magtap_mlok_1.6_bottom,pac_mlok_3inch_5_slot_rail_section_bottom,"variant: identical stats, heavier (length or visual variant)",True,,100.0,500.0
 handguard,rail:mlok:handguard#619033,ddg_qd_3slot_rail_side,pac_mlok_3inch_5_slot_rail_section_side,"variant: identical stats, heavier (length or visual variant)",True,,300.0,500.0
@@ -225,8 +258,6 @@ handguard,slot:omm_board|rear#0be807,sc_irregulars_omm_6_slot_board_rear,sc_irre
 handguard,rail:vallais_accesssory_rails:handguard#36c8c7,vallais_2_hole_grip_compat_rail,vallais_3_hole_grip_compat_rail,"variant: identical stats, heavier (length or visual variant)",True,,100.0,150.0
 handguard,rail:vallais_accesssory_rails:handguard#7b21c3,vallais_2_hole_misc_rail,vallais_3_hole_misc_rail,"variant: identical stats, heavier (length or visual variant)",True,,100.0,150.0
 iron_sight,rail:picatinny:iron_sight#1ea371,axtell_defense_rock_lock_rail_mounted_fixed_front_sight,axtell_defense_rock_lock_a1.5_fixed_rear_sight,"variant: identical stats, heavier (length or visual variant)",True,,700.0,700.0
-iron_sight,slot:edc_x9_front_sight|#da29f4,whitner_defense_edc_x9_snagfree_front_sight_green,hughnitions_company_extra_high_front_sight,"variant: identical stats, heavier (length or visual variant)",False,,0.0,200.0
-iron_sight,slot:edc_x9_front_sight|#da29f4,whitner_defense_edc_x9_snagfree_front_sight_red,hughnitions_company_extra_high_front_sight,"variant: identical stats, heavier (length or visual variant)",False,,0.0,200.0
 iron_sight,slot:pf940_rear_sight|#3d14a7,glock17_gen4_sf_rear_sight,hughnitions_company_extra_high_rear_sight,"variant: identical stats, heavier (length or visual variant)",True,,100.0,500.0
 iron_sight,slot:pf940_rear_sight|#3d14a7,glock20_lf_rear_sight,hughnitions_company_extra_high_rear_sight,"variant: identical stats, heavier (length or visual variant)",True,,0.0,500.0
 iron_sight,slot:ak_rear_sight_block|ak74#a04ef8,kazarov_ak74_rear_sight_block,kazarov_akm_rear_sight_block,"variant: identical stats, heavier (length or visual variant)",True,,0.0,0.0
@@ -241,6 +272,7 @@ iron_sight,slot:pf940_rear_sight|#3d14a7,glock20_lf_rear_sight,truglo_glock_tfx_
 iron_sight,slot:pf940_rear_sight|#3d14a7,glock17_gen4_sf_rear_sight,virticon_glock_supp_height_rear_sights_wh_sf,"variant: identical stats, heavier (length or visual variant)",True,,100.0,300.0
 iron_sight,slot:pf940_rear_sight|#3d14a7,glock20_lf_rear_sight,virticon_glock_supp_height_rear_sights_wh_sf,"variant: identical stats, heavier (length or visual variant)",True,,0.0,300.0
 mag_control,slot:kosch_small_mag_plate|40sv#21edf9,dante_freelance_kosch_40sv_10r_pistol_magex,dante_freelance_kosch_40sv_10r_carbine_magex,"variant: identical stats, heavier (length or visual variant)",False,,800.0,800.0
+magazine,slot:hk_mp5_9x19_magazine|#b201a6,hk_mp5_std_curved_30r_9x19_magazine,hk_mp5_straight_30r_9x19_magazine,"variant: identical stats, heavier (length or visual variant)",False,,0.0,500.0
 magazine,slot:magazine_762x51_ak308|#c19026,7.62x51_kazarov_group_ak308_20r_mag,springfield_armory_m14_7.62x51_modified_20r_mag,"variant: identical stats, heavier (length or visual variant)",False,,0.0,750.0
 magazine,slot:magazine_762x51_ak308|#c19026,sgm_tactical_saiga308_20r_mag,springfield_armory_m14_7.62x51_modified_20r_mag,"variant: identical stats, heavier (length or visual variant)",False,,750.0,750.0
 misc,slot:mk10_bottom|#0f5a0b,mk10_bottom_adapter_small,mk10_bottom_adapter_large,"variant: identical stats, heavier (length or visual variant)",True,,0.0,0.0
@@ -248,7 +280,6 @@ misc,slot:mk10_side|#f3cb15,mk10_side_adapter_small,mk10_side_adapter_large,"var
 misc,slot:mk10_top|#ed67cd,mk10_top_adapter_small,mk10_top_adapter_large,"variant: identical stats, heavier (length or visual variant)",True,,0.0,0.0
 misc,slot:ak_rear_sight|ak74#560f9d,si_ak_drop_on_rail,scout_scopes_ak_drop_on_rail,"variant: identical stats, heavier (length or visual variant)",True,,1000.0,1000.0
 muzzle,slot:5.45x39_ak74_muzzle_devices|#07792e,v762_vr05t_mb,v762_vr05_mb,"variant: identical stats, heavier (length or visual variant)",True,,750.0,750.0
-optic,slot:carry_handle_mount|m16a2_upper#655931,alistair_ar332_prism_3x_sight_carry_handle,alistair_ar536_prism_5x_sight_carry_handle,"variant: identical stats, heavier (length or visual variant)",True,,1300.0,2700.0
 optic,slot:azimuth_t_series|amm#ff81c8,azimuth_micro_spacer_low_30mm,azimuth_micro_spacer_high_39mm,"variant: identical stats, heavier (length or visual variant)",True,,200.0,200.0
 optic,slot:hk_upper_receiver_mounts|mp5#a10701,mfi_hk_universal_low_profile_scope_mount,bt_bt21021_armasuisse_nar_mp5_top_rail,"variant: identical stats, heavier (length or visual variant)",True,,750.0,1000.0
 optic,rail:lvoa_rails:optic#abd662,calsport_handguard_short_accessory_rail_bottom,calsport_handguard_long_accessory_rail_bottom,"variant: identical stats, heavier (length or visual variant)",True,,300.0,700.0
@@ -279,8 +310,10 @@ stock,slot:ar15_endplate|#13d665,equinox_ex15_endplate,kf_416a5_sling_eyelet_end
 stock,slot:ar15_endplate|#13d665,hart_m4a1_receiver_endplate,kf_416a5_sling_eyelet_endplate,"variant: identical stats, heavier (length or visual variant)",True,,0.0,200.0
 stock,slot:ar15_endplate|#13d665,kf_416c_endplate,kf_416a5_sling_eyelet_endplate,"variant: identical stats, heavier (length or visual variant)",True,,100.0,200.0
 stock,slot:ar15_endplate|#13d665,kf_416d_endplate,kf_416a5_sling_eyelet_endplate,"variant: identical stats, heavier (length or visual variant)",True,,0.0,200.0
+stock,slot:mcs_stock|#eaff3d,mcs_v5_skeleton_rifle_stock_short,mcs_v5_skeleton_rifle_stock,"variant: identical stats, heavier (length or visual variant)",True,,1200.0,1200.0
 tactical,rail:picatinny:tactical#021e84,las_tac_2,centrefire_r300u_b_flashlight,"variant: identical stats, heavier (length or visual variant)",True,,750.0,2000.0
 tactical,rail:picatinny:tactical#021e84,sig_sauer_foxtrot1_flashlight,centrefire_r300u_b_flashlight,"variant: identical stats, heavier (length or visual variant)",True,,900.0,2000.0
+tactical,rail:picatinny:tactical#c7336d,insight_technology_an_peq_2a_tpial,holosun_ls321g,"variant: identical stats, heavier (length or visual variant)",True,,750.0,800.0
 tactical,slot:holotec_hood_mount|#cb6934,holotec_eolad_2_civilian_sighting_system,holotec_eolad_2vi_socom_sighting_system,"variant: identical stats, heavier (length or visual variant)",True,,2500.0,3250.0
 tactical,rail:picatinny:tactical#e5d414,las_tac_2,insight_technology_wmx200_fixed_mount_tactical_illuminator,"variant: identical stats, heavier (length or visual variant)",True,,750.0,1200.0
 tactical,rail:picatinny:tactical#e5d414,sig_sauer_foxtrot1_flashlight,insight_technology_wmx200_fixed_mount_tactical_illuminator,"variant: identical stats, heavier (length or visual variant)",True,,900.0,1200.0

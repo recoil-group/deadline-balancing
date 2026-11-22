@@ -22,6 +22,11 @@ from simulate import dominance  # noqa: E402
 from tree import NEW_STATS  # noqa: E402
 
 
+def pts(st, n, k):
+    """Higher is better on every stat: reload_time in points (1% of time = 2.75)."""
+    return -275.0 * st[n][k] if k == "reload_time" else st[n][k]
+
+
 def main(fams):
     ctx, out, _ = generate()
     st = stats_table(ctx, out)
@@ -38,7 +43,7 @@ def main(fams):
         v = rules.ev(h, r, s)
         if abs(v - e) > max(2.0, 0.25 * abs(e)):
             n_drift += 1
-            print(f"  {n[:60]:60s} E{it['ergonomics']:+5.1f} adj{e:+5.1f} -> h{h:+5.1f} r{r:+5.1f} s{s:+5.1f} EV{v:+6.1f}  {out[n]['_note'][:50]}")
+            print(f"  {n[:60]:60s} E{it['ergonomics']:+5.1f} adj{e:+5.1f} -> h{h:+5.1f} rt{r * 100:+5.1f}% s{s:+5.1f} EV{v:+6.1f}  {out[n]['_note'][:50]}")
     print(f"  {n_drift} items\n")
 
     print("== strict dominations (dominant not more expensive), by pair")
@@ -49,7 +54,7 @@ def main(fams):
     for (a, b), g in sorted(pairs.items()):
         sa, sb = st[a], st[b]
         print(f"  {a[:42]:42s} > {b[:42]:42s} [{g[:40]}]  "
-              f"h{sa['handling']:+.1f}/{sb['handling']:+.1f} r{sa['reload_speed']:+.1f}/{sb['reload_speed']:+.1f} "
+              f"h{sa['handling']:+.1f}/{sb['handling']:+.1f} rt{sa['reload_time'] * 100:+.1f}%/{sb['reload_time'] * 100:+.1f}% "
               f"s{sa['stability']:+.1f}/{sb['stability']:+.1f} w{sa['weight']:.2f}/{sb['weight']:.2f}")
     print(f"  {len(pairs)} pairs, {len({b for a, b in pairs})} dominated items\n")
 
@@ -58,10 +63,10 @@ def main(fams):
         items = [n for n in g["items"] if n in st and n in mine]
         if len(items) < 3:
             continue
-        best = {k: max(st[n][k] for n in items) for k in NEW_STATS}
-        spread = {k: best[k] - min(st[n][k] for n in items) for k in NEW_STATS}
+        best = {k: max(pts(st, n, k) for n in items) for k in NEW_STATS}
+        spread = {k: best[k] - min(pts(st, n, k) for n in items) for k in NEW_STATS}
         for n in items:
-            if all(st[n][k] >= best[k] for k in NEW_STATS) and sum(spread.values()) > 0:
+            if all(pts(st, n, k) >= best[k] for k in NEW_STATS) and sum(spread.values()) > 0:
                 print(f"  {n} in {gid} ({len(items)} items)")
     print()
 
@@ -71,7 +76,9 @@ def main(fams):
         if len(items) < 3:
             continue
         rng = {k: (min(st[n][k] for n in items), max(st[n][k] for n in items)) for k in NEW_STATS}
-        print(f"  {gid[:60]:60s} n{len(items):3d}  " + "  ".join(f"{k[:1]} {lo:+.1f}..{hi:+.1f}" for k, (lo, hi) in rng.items()))
+        print(f"  {gid[:60]:60s} n{len(items):3d}  " + "  ".join(
+            f"rt {lo * 100:+.1f}%..{hi * 100:+.1f}%" if k == "reload_time" else f"{k[:1]} {lo:+.1f}..{hi:+.1f}"
+            for k, (lo, hi) in rng.items()))
 
 
 if __name__ == "__main__":

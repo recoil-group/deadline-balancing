@@ -8,7 +8,14 @@ Builds per weapon:
     stock       the weapon's `defaults` build in Studio
     reference   official gun-game setups and the weapon's Studio presets
     archetypes  optimiser builds for handling, reload, stability, recoil and all-round play
-    pure max    each of handling, reload_speed, stability maximised alone (clamping check)
+    pure max    each of handling, reload_time, stability at its best alone (clamping check)
+
+Reload (contract v5) is reported as the parts' sum of reload_time, the percent of the weapon's base
+reload time the parts add (lower is better), clamped in game to -40%..+60%. The weapon row's own
+reload_time is the base factor; `vs today` compares a build's reload duration with today's
+duration of the same build (today's playback from its old ergonomics on the place reload range).
+Nothing is in seconds: animation lengths are not in the data. In objectives and gaps, 1% of reload
+time counts as 2.75 points (RT_POINTS per unit of reload_time).
 
 The optimiser is a dynamic programme over the attachment tree. It does not respect incompatibility
 rules while searching (each finished build is checked against the item-level rules afterwards and
@@ -32,17 +39,42 @@ from generate import Context, generate, stats_table  # noqa: E402
 from families import family  # noqa: E402
 from tree import NEW_STATS, read_sheet, sheet_stats  # noqa: E402
 
+RT_POINTS = 275.0   # points of reload per unit of reload_time (1% of time ~ 2.75 points)
+RT_CLAMP = (-0.4, 0.6)  # count_stats clamps 1 + sum of parts to 0.6..1.6
 KEYS = NEW_STATS + ["weight", "horizontal_recoil", "vertical_recoil", "magazine_capacity", "bullet_velocity", "barrel_deviation"]
 
+
+def _obj(h, r, s, recoil, weight):
+    """Objective with reload weighted in points (r) and applied to reload_time (lower is better)."""
+    return {"handling": h, "reload_time": -RT_POINTS * r, "stability": s, "avg_recoil": recoil, "weight": weight}
+
+
 ARCHETYPES = {
-    "handling": {"handling": 1.0, "reload_speed": 0.2, "stability": 0.2, "avg_recoil": -0.5, "weight": -2.0},
-    "reload": {"handling": 0.2, "reload_speed": 1.0, "stability": 0.2, "avg_recoil": -0.5, "weight": -2.0},
-    "stability": {"handling": 0.2, "reload_speed": 0.2, "stability": 1.0, "avg_recoil": -0.5, "weight": -2.0},
-    "recoil": {"handling": 0.1, "reload_speed": 0.1, "stability": 0.1, "avg_recoil": -2.0, "weight": -1.0},
-    "all_round": {"handling": rules.W_H, "reload_speed": rules.W_R, "stability": rules.W_S, "avg_recoil": -0.5, "weight": -3.0},
+    "handling": _obj(1.0, 0.2, 0.2, -0.5, -2.0),
+    "reload": _obj(0.2, 1.0, 0.2, -0.5, -2.0),
+    "stability": _obj(0.2, 0.2, 1.0, -0.5, -2.0),
+    "recoil": _obj(0.1, 0.1, 0.1, -2.0, -1.0),
+    "all_round": _obj(rules.W_H, rules.W_R, rules.W_S, -0.5, -3.0),
 }
-PURE = {s: {s: 1.0} for s in NEW_STATS}
-PURE_MIN = {s + "_min": {s: -1.0} for s in NEW_STATS}
+SIGN = {"handling": 1.0, "reload_time": -1.0, "stability": 1.0}   # +1: higher is better
+PURE = {s: {s: SIGN[s]} for s in NEW_STATS}          # each stat at its best
+PURE_MIN = {s + "_min": {s: -SIGN[s]} for s in NEW_STATS}  # each stat at its worst
+
+
+def points(stat, x):
+    """A stat total on the 0-100 points scale used by the gaps: reload_time sum -> points."""
+    return -RT_POINTS * x if stat == "reload_time" else x
+
+
+def clamp_pts(stat, x):
+    """Game clamp in points: 0-100 for handling and stability, -40%..+60% of time for reload."""
+    if stat == "reload_time":
+        return points(stat, min(max(x, RT_CLAMP[0]), RT_CLAMP[1]))
+    return min(max(x, 0.0), 100.0)
+
+
+def pct(x):
+    return f"{x * 100:+.1f}%" if abs(x) >= 0.0005 else "0%"
 
 
 CLAMPED_MARGIN = 10.0
@@ -54,7 +86,7 @@ def blend_builds(tree, st, weapon):
     """Builds maximising blends of the three stats, to search for one build near every ceiling."""
     out = []
     for a, b, c in BLEND_WEIGHTS:
-        obj = {"handling": a, "reload_speed": b, "stability": c}
+        obj = _obj(a, b, c, 0.0, 0.0)
         out.append(((a, b, c), Optimizer(tree, st, weapon, obj).run()))
     return out
 
@@ -142,6 +174,7 @@ class Optimizer:
 
 def evaluate(tree, st, weapon, names):
     tot = tree.sum_stats(weapon, names, st, KEYS)
+    tot["reload_time"] -= st.get(weapon, {}).get("reload_time", 0.0)  # the weapon row is the base factor, not a part
     tot["avg_recoil"] = (tot["horizontal_recoil"] + tot["vertical_recoil"]) / 2
     return tot
 
@@ -170,8 +203,8 @@ def dominance(ctx, st):
     adapter that enables a different stock is not a worse version of a plain end plate.
     """
     found = []
-    better_high = NEW_STATS + ["magazine_capacity", "bullet_velocity", "bullet_damage", "fire_rate"]
-    better_low = ["weight", "horizontal_recoil", "vertical_recoil", "barrel_deviation", "muzzle_loudness"]
+    better_high = ["handling", "stability", "magazine_capacity", "bullet_velocity", "bullet_damage", "fire_rate"]
+    better_low = ["reload_time", "weight", "horizontal_recoil", "vertical_recoil", "barrel_deviation", "muzzle_loudness"]
     for gid, g in ctx.groups.items():
         items = [n for n in g["items"] if n in st]
         if len(items) < 2:
@@ -231,13 +264,23 @@ def write_dominations(ctx, st, hard, old_hard, write):
 
 
 def fmt_build(tot):
-    return (f"h{tot['handling']:6.1f} r{tot['reload_speed']:6.1f} s{tot['stability']:6.1f} "
+    return (f"h{tot['handling']:6.1f} rt{pct(tot['reload_time']):>7s} s{tot['stability']:6.1f} "
             f"w{tot['weight']:5.2f} rec{tot['horizontal_recoil']:5.0f}/{tot['vertical_recoil']:<4.0f}")
 
 
 def old_ergo_table():
     meta, header, rows = read_sheet(os.path.join(HERE, "data", "source_balancing.csv"))
     return sheet_stats(rows)
+
+
+def vs_today(tree, st, weapon, tot, old_ergo):
+    """This build's reload duration against today's duration of the same build, in percent."""
+    lo, hi, a, b = tree.weapons[weapon].get("place_ranges", {}).get("reload") or [0, 100, 0.9, 1.3]
+    t = min(1.0, max(0.0, (old_ergo - lo) / (hi - lo)))
+    today = 1 / (a + (b - a) * t)
+    rt = min(max(tot["reload_time"], RT_CLAMP[0]), RT_CLAMP[1])
+    now = (1 + st[weapon].get("reload_time", 0.0)) * (1 + rt)
+    return now / today - 1
 
 
 def report(weapons=None, write=True):
@@ -247,7 +290,9 @@ def report(weapons=None, write=True):
     t = ctx.tree
     lines = ["# Build simulation report", "",
              "Generated by `simulate.py` from the current rules and overrides. Stats are summed with the",
-             "game's stacking rules. `old` is today's ergonomics of the same build.", ""]
+             "game's stacking rules. `old` is today's ergonomics of the same build. Reload is the parts'",
+             "reload_time sum (percent of the weapon's base reload time, lower is better); `vs today` is the",
+             "build's reload duration against today's duration of the same build.", ""]
     problems = defaultdict(list)
     summary = []
     illegal_counts = {"opt": 0, "illegal": 0}
@@ -255,15 +300,21 @@ def report(weapons=None, write=True):
         if w not in st:
             continue
         builds, refs, opt = weapon_builds(t, st, w)
-        lines += [f"## {w}", "", "| build | handling | reload | stability | weight | recoil h/v | old ergo |", "|---|---|---|---|---|---|---|"]
+        lines += [f"## {w}", "", f"Base reload factor (weapon row): {pct(st[w]['reload_time'])}.", "",
+                  "| build | handling | reload (parts) | reload vs today | stability | weight | recoil h/v | old ergo |",
+                  "|---|---|---|---|---|---|---|---|"]
         real = {}
         for name, names in list(builds.items()) + list(refs.items()):
             tot = evaluate(t, st, w, names)
             o = t.sum_stats(w, names, old, ["ergonomics"])["ergonomics"]
             real[name] = (tot, o)
-            lines.append(f"| {name} | {tot['handling']:.1f} | {tot['reload_speed']:.1f} | {tot['stability']:.1f} | {tot['weight']:.2f} | {tot['horizontal_recoil']:.0f}/{tot['vertical_recoil']:.0f} | {o:.1f} |")
+            tot["vs_today"] = vs_today(t, st, w, tot, o)
+            lines.append(f"| {name} | {tot['handling']:.1f} | {pct(tot['reload_time'])} | {pct(tot['vs_today'])} | {tot['stability']:.1f} | {tot['weight']:.2f} | {tot['horizontal_recoil']:.0f}/{tot['vertical_recoil']:.0f} | {o:.1f} |")
             for s in NEW_STATS:
-                if tot[s] < 0 or tot[s] > 100:
+                if s == "reload_time":
+                    if not RT_CLAMP[0] <= tot[s] <= RT_CLAMP[1]:
+                        problems["clamp_realistic"].append(f"{w} {name}: reload parts {pct(tot[s])}")
+                elif tot[s] < 0 or tot[s] > 100:
                     problems["clamp_realistic"].append(f"{w} {name}: {s} {tot[s]:.1f}")
         opt_tot = {}
         for name, names in opt.items():
@@ -275,46 +326,56 @@ def report(weapons=None, write=True):
             if bad:
                 illegal_counts["illegal"] += 1
             tag = f" (breaks {len(bad)} incompatibility rule{'s' if len(bad) > 1 else ''})" if bad else ""
-            lines.append(f"| opt:{name}{tag} | {tot['handling']:.1f} | {tot['reload_speed']:.1f} | {tot['stability']:.1f} | {tot['weight']:.2f} | {tot['horizontal_recoil']:.0f}/{tot['vertical_recoil']:.0f} | {o:.1f} |")
+            tot["vs_today"] = vs_today(t, st, w, tot, o)
+            lines.append(f"| opt:{name}{tag} | {tot['handling']:.1f} | {pct(tot['reload_time'])} | {pct(tot['vs_today'])} | {tot['stability']:.1f} | {tot['weight']:.2f} | {tot['horizontal_recoil']:.0f}/{tot['vertical_recoil']:.0f} | {o:.1f} |")
         lines.append("")
-        # checks
+        # checks; best and worst per stat (for reload_time, best is the lowest)
         mx = {s: opt_tot[s][0][s] for s in NEW_STATS}
         mn = {s: opt_tot[s + "_min"][0][s] for s in NEW_STATS}
-        for s in NEW_STATS:
+        for s in ("handling", "stability"):
             if mx[s] > 100:
                 problems["clamp_max"].append(f"{w}: max {s} {mx[s]:.1f}")
             if mn[s] < 0:
                 problems["clamp_min"].append(f"{w}: min {s} {mn[s]:.1f}")
+        if mx["reload_time"] < RT_CLAMP[0]:
+            problems["clamp_max"].append(f"{w}: fastest reload parts {pct(mx['reload_time'])}")
+        if mn["reload_time"] > RT_CLAMP[1]:
+            problems["clamp_min"].append(f"{w}: slowest reload parts {pct(mn['reload_time'])}")
         tri = []
         for name, (tot, _) in list(opt_tot.items()) + [(k, (v[0], None)) for k, v in real.items()]:
-            if all(tot[s] >= mx[s] - 3 for s in NEW_STATS):
+            if all(points(s, tot[s]) >= points(s, mx[s]) - 3 for s in NEW_STATS):
                 tri.append(name)
         if tri:
-            problems["maxes_all_three"].append(f"{w}: {', '.join(tri)} within 3 of every per-stat maximum ({mx})")
-        # clamp-aware: effects read stats clamped to 0-100, so judge against min(max, 100)
+            problems["maxes_all_three"].append(
+                f"{w}: {', '.join(tri)} within 3 points of every per-stat best "
+                f"(h {mx['handling']:.1f} / reload {pct(mx['reload_time'])} / s {mx['stability']:.1f})")
+        # clamp-aware: effects read clamped stats, so judge against the clamped best. Handling and
+        # stability are 0-100 stats; reload is judged against the best its parts reach on this weapon
+        # (and the -40% clamp), in points (1% of time = 2.75).
         candidates = list(opt_tot.items()) + [(k, (v[0], None)) for k, v in real.items()]
         candidates += [(f"blend {a:g}/{b:g}/{c:g}", (evaluate(t, st, w, names_), names_))
                        for (a, b, c), names_ in blend_builds(t, st, w)]
         # only legal builds count, for the maxima as well as for the build judged against them
         candidates = [(n_, v_) for n_, v_ in candidates if v_[1] is None or not t.violations(w, v_[1])]
-        cmx = {k: min(max(v_[0][k] for _, v_ in candidates), 100.0) for k in NEW_STATS}
+        cmx = {k: max(clamp_pts(k, v_[0][k]) for _, v_ in candidates) for k in NEW_STATS}
         best_name, best_gap = None, 1e9
         for name, (tot, names_) in candidates:
-            gap = max(cmx[k] - min(tot[k], 100.0) for k in NEW_STATS)
+            gap = max(cmx[k] - clamp_pts(k, tot[k]) for k in NEW_STATS)
             if gap < best_gap:
                 best_name, best_gap = name, gap
-        all_cmx = {k: min(mx[k], 100.0) for k in NEW_STATS}
+        all_cmx = {k: clamp_pts(k, mx[k]) for k in NEW_STATS}
         short = [k for k in NEW_STATS if cmx[k] < all_cmx[k] - CLAMPED_MARGIN]
+
+        def ceil(c):
+            return f"h {c['handling']:.0f} / reload {pct(-c['reload_time'] / RT_POINTS)} / s {c['stability']:.0f}"
         if best_gap <= CLAMPED_MARGIN and short:
             problems["maxes_all_three_inconclusive"].append(
                 f"{w}: `{best_name}` is within {best_gap:.1f} of the legal maxima, but the optimiser found no legal "
-                f"build near the {', '.join(short)} ceiling (legal h {cmx['handling']:.0f} / r {cmx['reload_speed']:.0f} / "
-                f"s {cmx['stability']:.0f} against h {all_cmx['handling']:.0f} / r {all_cmx['reload_speed']:.0f} / "
-                f"s {all_cmx['stability']:.0f} including illegal builds)")
+                f"build near the {', '.join(short)} ceiling (legal {ceil(cmx)} against {ceil(all_cmx)} including illegal builds)")
         elif best_gap <= CLAMPED_MARGIN:
             problems["maxes_all_three_clamped"].append(
                 f"{w}: `{best_name}` is within {best_gap:.1f} of every clamped per-stat maximum "
-                f"(h {cmx['handling']:.0f} / r {cmx['reload_speed']:.0f} / s {cmx['stability']:.0f})")
+                f"({ceil(cmx)})")
         arche = [k for k in ARCHETYPES]
         sets = {k: set(opt_tot[k][1]) for k in arche}
         ov = []
@@ -330,36 +391,39 @@ def report(weapons=None, write=True):
         summary.append({
             "weapon": w, "n_ref": len(refs_tot),
             "stock": real["stock"][0],
-            "ref_med": {s: statistics.median(x[s] for x in refs_tot) for s in NEW_STATS},
+            "ref_med": {s: statistics.median(x[s] for x in refs_tot) for s in NEW_STATS + ["vs_today"]},
             "ref_old": statistics.median(refs_old),
             "max": mx, "min": mn, "archetype_overlap": max(ov), "choice_margin": best_gap,
         })
     dom = dominance(ctx, st)
     hard = [d for d in dom if d["dominant_cheaper_or_equal"]]
-    old3 = {n: dict(v, **{k: v.get("ergonomics", 0.0) for k in NEW_STATS}) for n, v in old.items()}
+    old3 = {n: dict(v, **{k: v.get("ergonomics", 0.0) * (-1 / RT_POINTS if k == "reload_time" else 1) for k in NEW_STATS})
+            for n, v in old.items()}
     old_hard = [d for d in dominance(ctx, old3) if d["dominant_cheaper_or_equal"]]
     head = ["## Summary", "",
             "Median of reference builds (official setups + presets; stock if none) against today's ergonomics",
-            "of the same builds, the stock build, and the per-stat range the optimiser finds. Choice margin:",
-            "over every build tried, the smallest worst-stat gap to the clamped per-stat maxima; the larger,",
-            "the more a build has to give up one stat to reach another (flagged at 10 or less).", "",
-            "| weapon | refs | ref h | ref r | ref s | old ergo | stock h/r/s | max h/r/s | min h/r/s | archetype overlap | choice margin |",
-            "|---|---|---|---|---|---|---|---|---|---|---|"]
+            "of the same builds, the stock build, and the per-stat range the optimiser finds (best and worst;",
+            "reload as the parts' percent of base reload time, lower is better). `ref vs today`: the median",
+            "reference build's reload duration against today's. Choice margin: over every build tried, the",
+            "smallest worst-stat gap to the clamped per-stat bests, in points (reload: 1% of time = 2.75);",
+            "the larger, the more a build has to give up one stat to reach another (flagged at 10 or less).", "",
+            "| weapon | refs | ref h | ref reload | ref vs today | ref s | old ergo | stock h/reload/s | best h/reload/s | worst h/reload/s | archetype overlap | choice margin |",
+            "|---|---|---|---|---|---|---|---|---|---|---|---|"]
     for s in summary:
         r = s["ref_med"]
-        head.append(f"| {s['weapon']} | {s['n_ref']} | {r['handling']:.0f} | {r['reload_speed']:.0f} | {r['stability']:.0f} | {s['ref_old']:.0f} | "
-                    f"{s['stock']['handling']:.0f}/{s['stock']['reload_speed']:.0f}/{s['stock']['stability']:.0f} | "
-                    f"{s['max']['handling']:.0f}/{s['max']['reload_speed']:.0f}/{s['max']['stability']:.0f} | "
-                    f"{s['min']['handling']:.0f}/{s['min']['reload_speed']:.0f}/{s['min']['stability']:.0f} | {s['archetype_overlap']:.0%} | {s['choice_margin']:.1f} |")
+        head.append(f"| {s['weapon']} | {s['n_ref']} | {r['handling']:.0f} | {pct(r['reload_time'])} | {pct(r['vs_today'])} | {r['stability']:.0f} | {s['ref_old']:.0f} | "
+                    f"{s['stock']['handling']:.0f}/{pct(s['stock']['reload_time'])}/{s['stock']['stability']:.0f} | "
+                    f"{s['max']['handling']:.0f}/{pct(s['max']['reload_time'])}/{s['max']['stability']:.0f} | "
+                    f"{s['min']['handling']:.0f}/{pct(s['min']['reload_time'])}/{s['min']['stability']:.0f} | {s['archetype_overlap']:.0%} | {s['choice_margin']:.1f} |")
     head += ["", "## Checks", "",
              f"Optimiser builds that break an item-level incompatibility rule: {illegal_counts['illegal']} of "
              f"{illegal_counts['opt']} (marked in the weapon tables; the clamped check below uses legal builds "
              "only, for its maxima too). Slot-level `incompatible_with_when_mounted` rules are not checked.", ""]
-    names = {"clamp_realistic": "Realistic builds (stock, references) outside 0-100",
-             "clamp_max": "Per-stat maximum above 100 (clamped in game)",
-             "clamp_min": "Per-stat minimum below 0 (clamped in game)",
-             "maxes_all_three": "A single build within 3 points of every per-stat maximum",
-             "maxes_all_three_clamped": "A single legal build within 10 points of every clamped per-stat maximum (min(max over legal builds, 100))",
+    names = {"clamp_realistic": "Realistic builds (stock, references) outside the clamp (handling and stability 0-100, reload parts -40%..+60%)",
+             "clamp_max": "Per-stat best past the clamp (handling or stability above 100, reload parts below -40%)",
+             "clamp_min": "Per-stat worst past the clamp (handling or stability below 0, reload parts above +60%)",
+             "maxes_all_three": "A single build within 3 points of every per-stat best",
+             "maxes_all_three_clamped": "A single legal build within 10 points of every clamped per-stat best (handling and stability: min(max over legal builds, 100); reload: the fastest legal parts sum on that weapon)",
              "maxes_all_three_inconclusive": "Inconclusive: near every legal maximum, but the legal maxima fall well short of the optimiser's (illegal) ones",
              "archetypes_same": "Handling, reload and stability builds nearly identical"}
     for k, title in names.items():

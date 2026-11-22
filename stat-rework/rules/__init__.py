@@ -5,13 +5,12 @@ Pricing currency (see ../RULES.md, "Value accounting"):
     EV = 0.60 * handling + 0.40 * reload_points + 0.47 * stability
 
 Family rules split an item's value in old ergonomics points, reload included (`reload_points`, the
-v4 0-100 reload stat). `restat` then converts the reload share to the sheet's `reload_time`, a
-fraction of the weapon's base reload time (contract v5):
+v4 0-100 reload stat). `restat` then hands the item to reload_scope.py (round 5), which sets the
+sheet's `reload_time` (a fraction of the weapon's base reload time, contract v5) from its table of
+reload parts, and gives a non-reload part's reload points back in handling and stability.
 
-    reload_time = 1.1 / (1.1 + 0.004 * reload_points) - 1,   rounded to 0.001 (0.1% of time)
-
-so 1% of reload time is worth about 2.75 points of reload. `ev` takes reload_time and prices it
-through the exact inverse, `points_of`.
+`time_of` converts points to reload_time (1.1 / (1.1 + 0.004 p) - 1, so 1% of reload time is about
+2.75 points); `ev` takes reload_time and prices it through the exact inverse, `points_of`.
 
 EV is measured in old ergonomics points. One old ergonomics point bought ADS, reload, draw/stow,
 sprint-out and aim stamina. Draw/stow, sprint-out and aim stamina now belong to weapon weight, so
@@ -147,10 +146,9 @@ def restat(item, ctx):
     import reload_scope
 
     out = _restat_points(item, ctx)
-    note = reload_scope.apply(item, out)  # round 5: only reload parts keep reload (reload_scope.py)
+    note = reload_scope.apply(item, out, ctx)  # round 5: reload re-statted per kind of part (reload_scope.py)
     if note:
         out["_rule"] = (out.get("_rule") or "") + "; " + note
-    out["reload_time"] = time_of(round_half(out.pop("reload_points")))  # the v4 sheet value, carried over
     return out
 
 

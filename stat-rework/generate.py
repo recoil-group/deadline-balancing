@@ -182,10 +182,10 @@ def generate(ctx=None, families=None):
             if vals.get("reload_time"):  # overrides go through the same reload scope as the rules
                 pts = {"handling": vals["handling"] or 0.0, "stability": vals["stability"] or 0.0,
                        "reload_points": rules.round_half(rules.points_of(vals["reload_time"]))}
-                scope = reload_scope.apply(ctx.items[n], pts)
+                scope = reload_scope.apply(ctx.items[n], pts, ctx)
+                vals["handling"], vals["stability"] = pts["handling"], pts["stability"]
+                vals["reload_time"] = pts["reload_time"]
                 if scope:
-                    vals["handling"], vals["stability"] = pts["handling"], pts["stability"]
-                    vals["reload_time"] = rules.time_of(pts["reload_points"])
                     note += "; " + scope
             rule = (rule + "; " if rule else "") + f"override ({o['_source']})"
         for k in OTHER_COLUMNS:
@@ -265,13 +265,14 @@ def review_rows(ctx, out, fam):
 
 
 def check_reload_scope(ctx, out):
-    """Warn about any part holding reload outside reload_scope.py, or a nonzero reload under its minimum."""
+    """Warn about any part whose reload_time is not the value reload_scope.py gives its kind."""
     for n, v in sorted(out.items()):
-        it, rt = ctx.items[n], v["reload_time"]
-        if it["family"] == "weapon" or not rt:
+        it, rt = ctx.items[n], v["reload_time"] or 0.0
+        if it["family"] == "weapon":
             continue
-        if not reload_scope.allowed(it) or abs(rt) < reload_scope.MIN_TIME - 1e-9:
-            print(f"warning: {n} holds reload_time {rt:+.3f} outside the reload scope", file=sys.stderr)
+        want = reload_scope.reload_of(it, ctx)[0] or 0.0
+        if abs(rt - want) > 1e-9:
+            print(f"warning: {n} holds reload_time {rt:+.3f}, its kind gives {want:+.3f}", file=sys.stderr)
 
 
 def write_review(ctx, out):

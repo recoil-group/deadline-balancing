@@ -75,5 +75,5 @@ def restat(item, ctx, base):
     e = item["ergonomics"] or 0.0
     kind = KIND.get(item["name"], "standard")
     a_h, a_r, a_s = SPLITS[kind]
-    return {"handling": a_h * e, "reload_speed": a_r * e, "stability": a_s * e,
+    return {"handling": a_h * e, "reload_points": a_r * e, "stability": a_s * e,
             "_rule": f"{kind} grip ({a_h}/{a_r}/{a_s})"}

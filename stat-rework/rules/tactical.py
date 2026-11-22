@@ -24,7 +24,7 @@ def restat(item, ctx, base):
     e = item["ergonomics"]
     if item["name"] in AS_PISTOL_GRIP:
         a_h, a_r, a_s = PISTOL_GRIP_SPLIT
-        return {"handling": a_h * e, "reload_speed": a_r * e, "stability": a_s * e,
+        return {"handling": a_h * e, "reload_points": a_r * e, "stability": a_s * e,
                 "_rule": "tactical: laser grip replaces the pistol grip, pistol-grip split 1.0/0.4/0.5"}
-    return {"handling": HANDLING_PER_E * e, "reload_speed": 0.0, "stability": 0.0,
+    return {"handling": HANDLING_PER_E * e, "reload_points": 0.0, "stability": 0.0,
             "_rule": f"tactical: front-end bulk, handling = {HANDLING_PER_E} * E"}

@@ -1,4 +1,4 @@
-name,handling,reload_speed,stability,note
+name,handling,reload_time,stability,note
 hk_mp5_endcap_sling_swivel,21,0,-5,"stockless MP5: the no-stock rule clamps to EV 8 against an old 12; handling 21 and stability -5 keep EV 10 and stay handier than every MP5 stock"
-hk_psg1_stock_base,7,5,29.5,"heaviest precision stock in the G3 set: rule tied the standard fixed stock on handling (9); slower to shoulder than it, steadier, same EV"
-rsa_sg58_metric_para_folding_stock,13,3.5,8,"side-folding tube stock: rule put it level with the SPR Para body on handling; folding stock leans handier than the adjustable SPR with its cheek riser"
+hk_psg1_stock_base,7,-0.018,29.5,"heaviest precision stock in the G3 set: rule tied the standard fixed stock on handling (9); slower to shoulder than it, steadier, same EV"
+rsa_sg58_metric_para_folding_stock,13,-0.013,8,"side-folding tube stock: rule put it level with the SPR Para body on handling; folding stock leans handier than the adjustable SPR with its cheek riser"

@@ -127,5 +127,5 @@ def restat(item, ctx, base):
     if abs(h) > lim:
         h = lim if h > 0 else -lim
         why += f", handling limited to {lim:g}"
-    return {"handling": round_half(h), "reload_speed": 0.0, "stability": s,
+    return {"handling": round_half(h), "reload_points": 0.0, "stability": s,
             "_rule": f"barrel length rule ({why}); handling keeps old value"}

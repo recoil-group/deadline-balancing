@@ -29,7 +29,7 @@ Rules, in plain words:
 
 from rules import W_H, W_R, W_S
 
-# kind -> (handling, reload_speed, stability) as fractions of the old ergonomics, and the mass
+# kind -> (handling, reload_points, stability) as fractions of the old ergonomics, and the mass
 # lean strength (fraction of the value moved from handling toward stability for the heaviest part).
 KIND_SPLIT = {
     "upper": ((0.9, 0.0, 0.9), 0.5),
@@ -96,7 +96,7 @@ def mass_z(item, ctx):
 
 def split(e, vec, lean, z, axis="stability"):
     """Split old ergonomics `e` by `vec`, moving a share `lean * z` of it from handling to `axis`
-    (stability or reload_speed) without changing EV. Negative values lean the other way."""
+    (stability or reload_points) without changing EV. Negative values lean the other way."""
     a_h, a_r, a_s = vec
     t = lean * z if e >= 0 else -lean * z
     if axis == "stability":
@@ -105,21 +105,21 @@ def split(e, vec, lean, z, axis="stability"):
     else:
         t = max(-a_r * W_R / W_H, min(a_h, t))
         a_h, a_r = a_h - t, a_r + t * W_H / W_R
-    return {"handling": e * a_h, "reload_speed": e * a_r, "stability": e * a_s}
+    return {"handling": e * a_h, "reload_points": e * a_r, "stability": e * a_s}
 
 
 def restat(item, ctx, base):
     e = item["ergonomics"]
     kind = kind_of(item)
     if e == 0:
-        return {"handling": 0.0, "reload_speed": 0.0, "stability": 0.0, "_rule": f"receiver {kind}: no old value"}
+        return {"handling": 0.0, "reload_points": 0.0, "stability": 0.0, "_rule": f"receiver {kind}: no old value"}
     if kind == "plate":
-        return {"handling": 0.0, "reload_speed": 0.0, "stability": 0.0, "_rule": "optic plate cover: zero"}
+        return {"handling": 0.0, "reload_points": 0.0, "stability": 0.0, "_rule": "optic plate cover: zero"}
     if kind == "stock_system":
         if item["name"] in STOCKLESS_ENDPLATES:
-            return {"handling": 1.5, "reload_speed": 0.0, "stability": 0.0,
+            return {"handling": 1.5, "reload_points": 0.0, "stability": 0.0,
                     "_rule": "stock-system part, stockless endplate: small handling; losing the stock already costs stability"}
-        return {"handling": 0.0, "reload_speed": 0.0, "stability": 0.0, "_rule": "stock-system part: near zero"}
+        return {"handling": 0.0, "reload_points": 0.0, "stability": 0.0, "_rule": "stock-system part: near zero"}
     vec, lean = KIND_SPLIT[kind]
     z = mass_z(item, ctx) if lean else 0.0
     out = split(e, vec, lean, z)

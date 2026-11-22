@@ -1,2 +1,2 @@
-name,handling,reload_speed,stability,note
+name,handling,reload_time,stability,note
 hughnitions_company_extra_high_front_sight,1.5,0,0,"old +2 looks like a leftover from before the 0.25.2 irons cut (every other sight is +1); suppressor-height sights get the normal +1 sight value"

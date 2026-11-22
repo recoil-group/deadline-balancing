@@ -1,8 +1,17 @@
-"""Split rules: how an item's old `ergonomics` becomes handling, reload_speed and stability.
+"""Split rules: how an item's old `ergonomics` becomes handling, reload_time and stability.
 
 Pricing currency (see ../RULES.md, "Value accounting"):
 
-    EV = 0.60 * handling + 0.40 * reload_speed + 0.47 * stability
+    EV = 0.60 * handling + 0.40 * reload_points + 0.47 * stability
+
+Family rules split an item's value in old ergonomics points, reload included (`reload_points`, the
+v4 0-100 reload stat). `restat` then converts the reload share to the sheet's `reload_time`, a
+fraction of the weapon's base reload time (contract v5):
+
+    reload_time = 1.1 / (1.1 + 0.004 * reload_points) - 1,   rounded to 0.001 (0.1% of time)
+
+so 1% of reload time is worth about 2.75 points of reload. `ev` takes reload_time and prices it
+through the exact inverse, `points_of`.
 
 EV is measured in old ergonomics points. One old ergonomics point bought ADS, reload, draw/stow,
 sprint-out and aim stamina. Draw/stow, sprint-out and aim stamina now belong to weapon weight, so
@@ -42,8 +51,24 @@ DEFAULT_VECTORS = {
 }
 
 
-def ev(h, r, s):
-    return W_H * h + W_R * r + W_S * s
+RELOAD_STEP = 0.001  # reload_time rounding: 0.1% of time, finer than half a reload point anywhere
+
+
+def time_of(points):
+    """Reload points (v4) -> reload_time fraction (v5), rounded to RELOAD_STEP."""
+    t = 1.1 / (1.1 + 0.004 * points) - 1
+    t = round(t / RELOAD_STEP) * RELOAD_STEP
+    return round(t, 3) + 0.0
+
+
+def points_of(rt):
+    """reload_time fraction -> the reload points it is worth (exact inverse of time_of, unrounded)."""
+    return (1.1 / (1 + rt) - 1.1) / 0.004
+
+
+def ev(h, rt, s):
+    """Value in old ergonomics points; rt is reload_time (lower is better)."""
+    return W_H * h + W_R * points_of(rt) + W_S * s
 
 
 def round_half(x):
@@ -90,7 +115,7 @@ def default_split(item, ctx=None):
     note = f"default {item['family']} split ({a_h}/{a_r}/{a_s})"
     if abs(e - item["ergonomics"]) > 1e-9:
         note += f", weight credit {item['ergonomics']:+g}->{e:+.2f}"
-    return {"handling": e * a_h, "reload_speed": e * a_r, "stability": e * a_s, "_rule": note}
+    return {"handling": e * a_h, "reload_points": e * a_r, "stability": e * a_s, "_rule": note}
 
 
 _modules = {}
@@ -118,7 +143,13 @@ def family_module(fam):
 
 
 def restat(item, ctx):
-    """Return {handling, reload_speed, stability, _rule, [other columns]} for one item."""
+    """Return {handling, reload_time, stability, _rule, [other columns]} for one item."""
+    out = _restat_points(item, ctx)
+    out["reload_time"] = time_of(round_half(out.pop("reload_points")))  # the v4 sheet value, carried over
+    return out
+
+
+def _restat_points(item, ctx):
     base = default_split(item, ctx)
     mod = family_module(item["family"])
     if mod is not None and hasattr(mod, "restat"):
@@ -128,7 +159,7 @@ def restat(item, ctx):
             _warn(item["family"] + ":run", f"rules/{item['family']}.py raised {e!r} on {item['name']}; using the default split")
             out = None
         if out is not None:
-            for k in ("handling", "reload_speed", "stability"):
+            for k in ("handling", "reload_points", "stability"):
                 out.setdefault(k, base[k])
             out.setdefault("_rule", f"rules/{item['family']}.py")
             return out

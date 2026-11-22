@@ -1,2 +1,2 @@
-name,handling,reload_speed,stability,note
-agr_870_protection_cap,20.5,5,-4,"lead: the stockless AGR-870 configuration (cap instead of buffer tube and stock); same split as the other stockless shotgun grips (r870_earthquake_raptor_pistol_grip, mp133_153_plastic_pistol_grip, same old +14): fast without a stock, sways like one with none"
+name,handling,reload_time,stability,note
+agr_870_protection_cap,20.5,-0.018,-4,"lead: the stockless AGR-870 configuration (cap instead of buffer tube and stock); same split as the other stockless shotgun grips (r870_earthquake_raptor_pistol_grip, mp133_153_plastic_pistol_grip, same old +14): fast without a stock, sways like one with none"

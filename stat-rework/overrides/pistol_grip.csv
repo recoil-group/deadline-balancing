@@ -1,5 +1,5 @@
-name,handling,reload_speed,stability,note
-hera_arms_cqr_gen2_pistol_grip,1,1,4.5,"heaviest AR grip (0.14), large hand-filling CQR shape: steadiness over speed; otherwise dominated by the FANG Rogue"
+name,handling,reload_time,stability,note
+hera_arms_cqr_gen2_pistol_grip,1,-0.004,4.5,"heaviest AR grip (0.14), large hand-filling CQR shape: steadiness over speed; otherwise dominated by the FANG Rogue"
 rsa_sg58_wooden_grip,-1,0,2,"heavy wooden grip (E 0): solid hand fill steadies, slower to point; keeps the SAW-style grip from being best on all three"
 sig_sauer_p320_xfull_grip_module,-1,0,1.5,"full-size frame (E 0): more hand on the gun steadies it, slower than the XCARRY compact"
 rogue_p226_smooth_hardwood_grip,-0.5,0,1,"smooth hardwood (E 0, heavier than the standard panels): slicker to point, more mass in the hand; keeps the magwell grip from being best on all three"

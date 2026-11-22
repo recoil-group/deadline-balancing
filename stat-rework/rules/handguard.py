@@ -81,19 +81,19 @@ def from_stability(e, s, rule):
     if e >= 0:
         s = min(max(s, 0.0), e / W_S)
     h = (e - W_S * s) / W_H
-    return {"handling": h, "reload_speed": 0.0, "stability": s, "_rule": rule}
+    return {"handling": h, "reload_points": 0.0, "stability": s, "_rule": rule}
 
 
 def split(e, vec, rule):
     a_h, a_r, a_s = vec
-    return {"handling": e * a_h, "reload_speed": e * a_r, "stability": e * a_s, "_rule": rule}
+    return {"handling": e * a_h, "reload_points": e * a_r, "stability": e * a_s, "_rule": rule}
 
 
 def grip_texture(e, rule):
     """Panels and covers: stability first on the 0.5 grid, handling the rest, so value rises with size."""
     s = round_half(e)
     h = round_half((e - W_S * s) / W_H)
-    return {"handling": h, "reload_speed": 0.0, "stability": s, "_rule": rule}
+    return {"handling": h, "reload_points": 0.0, "stability": s, "_rule": rule}
 
 
 def is_reach_part(c):
@@ -140,10 +140,10 @@ def restat(item, ctx, base):
     name = item["name"]
     k = kind(item)
     if name in ZEROED:
-        return {"handling": 0.0, "reload_speed": 0.0, "stability": 0.0, "_rule": ZEROED[name]}
+        return {"handling": 0.0, "reload_points": 0.0, "stability": 0.0, "_rule": ZEROED[name]}
     if k == "main":
         if item["weight"] <= 0 and e == 0:  # containers whose stats live on a sub-part (XM177)
-            return {"handling": 0.0, "reload_speed": 0.0, "stability": 0.0, "_rule": "container, stats on its sub-part"}
+            return {"handling": 0.0, "reload_points": 0.0, "stability": 0.0, "_rule": "container, stats on its sub-part"}
         return main_handguard(item, ctx)
     if k == "upper_piece":
         return split(e, UPPER_PIECE, "upper handguard half: length and mass over the barrel")
@@ -155,7 +155,7 @@ def restat(item, ctx, base):
         mounts = set(item["studio"].get("mountable_types") or []) | {
             m.get("class") for m in item["studio"].get("map", []) if isinstance(m, dict)}
         if "cheese_grater" in name:
-            return {"handling": 0.0, "reload_speed": 0.0, "stability": -1.5,
+            return {"handling": 0.0, "reload_points": 0.0, "stability": -1.5,
                     "_rule": "vented cover, light but uncomfortable: worse stability"}
         if any(m and ("sight_mount" in m or "azimuth" in m) for m in mounts):
             return split(e, SIGHT_HEIGHT, "sight-mount top cover: sight height (handling, cheek weld)")
@@ -171,7 +171,7 @@ def restat(item, ctx, base):
     if k == "panel":
         return grip_texture(e, "rail panel / cover: grip texture")
     if k == "rail_section":
-        return {"handling": -0.5, "reload_speed": 0.0, "stability": -0.5,
+        return {"handling": -0.5, "reload_points": 0.0, "stability": -0.5,
                 "_rule": "bare rail section: sharp edge and bulk"}
     # plain rails, mounts, gas tubes
     if e == 0:

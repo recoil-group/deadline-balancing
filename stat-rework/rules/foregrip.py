@@ -6,7 +6,7 @@ with foregrips at a flat +6 old ergonomics); only `hk_ump_handstop` is not, and 
 Recoil columns are left as they are: they already make the grip choice a recoil trade, so the
 new stats only decide how the rest of the value is spent.
 
-Rules, in plain words (E = old ergonomics, no weight credit, reload_speed 0 throughout):
+Rules, in plain words (E = old ergonomics, no weight credit, reload_points 0 throughout):
 
 1. Handstops, finger stops, index panels, indexers, the minimal RK-6: a hand reference, not a grip. They drive the
    gun onto target: handling 1.25 * E, stability 0.5 * E (E = 6 gives h 7.5, s 3).
@@ -91,7 +91,7 @@ def vertical(e):
 
 
 def out(h, s, why, r=0.0):
-    return {"handling": h, "reload_speed": r, "stability": s, "_rule": why}
+    return {"handling": h, "reload_points": r, "stability": s, "_rule": why}
 
 
 def restat(item, ctx, base):

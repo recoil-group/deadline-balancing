@@ -10,7 +10,7 @@ Inputs (all in stat-rework/):
     rules/__init__.py           pricing and default family splits
     rules/<family>.py           per-family rules
     overrides/<family>.csv      hand-tuned values, one note per row
-    weapon_bases.csv            base handling / reload_speed / stability for weapon rows
+    weapon_bases.csv            base handling / reload_time / stability for weapon rows
 """
 
 import argparse
@@ -34,12 +34,19 @@ OUTPUT = os.path.join(REPO, "balancing.csv")
 OTHER_COLUMNS = [c for c in NEW_COLUMNS[4:] if c not in NEW_STATS]
 
 
-def fmt(x):
+def rnd(stat, x):
+    """Sheet rounding: handling and stability to 0.5, reload_time to 0.001."""
+    return round(x, 3) + 0.0 if stat == "reload_time" else rules.round_half(x)
+
+
+def fmt(x, stat=None):
     if x is None:
         return ""
-    x = rules.round_half(x) if isinstance(x, float) else x
-    if isinstance(x, float) and x.is_integer():
-        return str(int(x))
+    if isinstance(x, float):
+        x = rnd(stat, x)
+        if x.is_integer():
+            return str(int(x))
+        return f"{x:.3f}".rstrip("0") if stat == "reload_time" else str(x)
     return str(x)
 
 
@@ -137,8 +144,8 @@ def generate(ctx=None, families=None):
             else:
                 e = raw.get("ergonomics", "")
                 for s in NEW_STATS:
-                    vals[s] = num(e) if e != "" else None
-                rule = "weapon base: copied from ergonomics (no weapon_bases.csv row)"
+                    vals[s] = None if e == "" else (0.0 if s == "reload_time" else num(e))
+                rule = "weapon base: copied from ergonomics, reload_time 0 (no weapon_bases.csv row)"
         else:
             res = rules.restat(it, ctx)
             rule = res.pop("_rule", "")
@@ -184,7 +191,7 @@ def stats_table(ctx, out):
     st = {}
     for n, v in out.items():
         st[n] = {c: (num(v[c]) if not isinstance(v[c], float) else v[c]) if v[c] is not None else 0.0 for c in NEW_COLUMNS[4:]}
-        st[n] = {c: rules.round_half(x) if c in NEW_STATS else x for c, x in st[n].items()}
+        st[n] = {c: rnd(c, x) if c in NEW_STATS else x for c, x in st[n].items()}
     return st
 
 
@@ -195,7 +202,7 @@ def write_outputs(ctx, out, log):
         if not d["_is_class_row"] and d.get("name"):
             v = out[d["name"]]
             for c in NEW_COLUMNS[4:]:
-                r[c] = fmt(v[c]) if c in NEW_STATS else v[c]
+                r[c] = fmt(v[c], c) if c in NEW_STATS else v[c]
         rows.append(r)
     with open(OUTPUT, "w", encoding="utf-8-sig", newline="") as f:
         w = csv.writer(f, lineterminator="\n")
@@ -205,6 +212,7 @@ def write_outputs(ctx, out, log):
         for r in rows:
             w.writerow([r.get(c, "") for c in NEW_COLUMNS])
     write_review(ctx, out)
+    write_small_reload(ctx, out)
     with open(os.path.join(HERE, "review", "other_column_changes.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=["name", "column", "old", "new", "why"])
         w.writeheader()
@@ -231,18 +239,40 @@ def review_rows(ctx, out, fam):
         gi = ctx.groups.get(g, {})
         for it in sorted(by_group[g], key=lambda x: (x["weight"], x["name"])):
             v = out[it["name"]]
-            h, r, s = (rules.round_half(v[k]) if v[k] is not None else 0.0 for k in NEW_STATS)
+            h, r, s = (rnd(k, v[k]) if v[k] is not None else 0.0 for k in NEW_STATS)
             rows.append({
                 "set": g, "set_size": len(gi.get("items", [])), "only_choice": gi.get("only_choice", ""),
                 "required": gi.get("required", ""), "name": it["name"], "pretty_name": it["pretty"],
                 "category": it["category"], "old_ergo": fmt(it["ergonomics"]), "handling": fmt(h),
-                "reload_speed": fmt(r), "stability": fmt(s), "ev": round(rules.ev(h, r, s), 1),
+                "reload_time": fmt(r, "reload_time"), "reload_pct": f"{r * 100:+.1f}%" if r else "0%",
+                "stability": fmt(s), "ev": round(rules.ev(h, r, s), 1),
                 "old_strength": round(strength(it["ergonomics"], it), 1),
                 "new_strength": round(strength(rules.ev(h, r, s), it), 1),
                 "weight": it["raw"].get("weight", ""), "h_recoil": v["horizontal_recoil"], "v_recoil": v["vertical_recoil"],
                 "price": v["price"], "n_weapons": len(it["weapons"]), "rule": v["_rule"], "note": v["_note"],
             })
     return rows
+
+
+SMALL_RELOAD = 0.005  # parts whose reload_time is nonzero but under half a percent of reload time
+
+
+def write_small_reload(ctx, out):
+    """review/reload_time_small.csv: converted reload values too small to be worth showing (flagged, not changed)."""
+    rows = []
+    for n, v in sorted(out.items()):
+        it = ctx.items[n]
+        rt = v["reload_time"]
+        if it["family"] != "weapon" and rt and abs(rt) < SMALL_RELOAD - 1e-9:
+            rows.append({"family": it["family"], "name": n, "pretty_name": it["pretty"], "category": it["category"],
+                         "old_ergo": fmt(it["ergonomics"]), "reload_points_v4": round(rules.points_of(rt) * 2) / 2,
+                         "reload_time": fmt(rt, "reload_time"), "shown_as": f"{rt * 100:+.1f}%", "rule": v["_rule"]})
+    rows.sort(key=lambda r: (r["family"], r["reload_time"], r["name"]))
+    with open(os.path.join(HERE, "review", "reload_time_small.csv"), "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=["family", "name", "pretty_name", "category", "old_ergo", "reload_points_v4",
+                                          "reload_time", "shown_as", "rule"])
+        w.writeheader()
+        w.writerows(rows)
 
 
 def write_review(ctx, out):
@@ -275,7 +305,7 @@ def main():
                 if r["set"] != cur:
                     cur = r["set"]
                     print(f"\n== {cur}  (size {r['set_size']}, required {r['required']}, only {r['only_choice']})")
-                print(f"  {r['name'][:58]:58s} E{r['old_ergo']:>5s} -> h{r['handling']:>5s} r{r['reload_speed']:>5s} s{r['stability']:>5s} ev{r['ev']:6.1f} w{r['weight']:>5s} rec {r['h_recoil'] or 0}/{r['v_recoil'] or 0}  {r['note'][:60]}")
+                print(f"  {r['name'][:58]:58s} E{r['old_ergo']:>5s} -> h{r['handling']:>5s} rt{r['reload_pct']:>6s} s{r['stability']:>5s} ev{r['ev']:6.1f} w{r['weight']:>5s} rec {r['h_recoil'] or 0}/{r['v_recoil'] or 0}  {r['note'][:60]}")
         return
     if not a.write:
         print("nothing written; pass --write to write ../balancing.csv and review/, or --preview FAMILY")

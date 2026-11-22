@@ -31,7 +31,7 @@ KEEP_HANDLING, KEEP_STABILITY = 1.0, 0.85
 def restat(item, ctx, base):
     e = item["ergonomics"]
     if MODE == "zero":
-        return {"handling": 0.0, "reload_speed": 0.0, "stability": 0.0,
+        return {"handling": 0.0, "reload_points": 0.0, "stability": 0.0,
                 "_rule": f"ammo (zero mode): old ergo {e:+g} dropped"}
-    return {"handling": KEEP_HANDLING * e, "reload_speed": 0.0, "stability": KEEP_STABILITY * e,
+    return {"handling": KEEP_HANDLING * e, "reload_points": 0.0, "stability": KEEP_STABILITY * e,
             "_rule": f"ammo (keep mode): handling 1.0 x E, stability 0.85 x E, EV kept (soft loads come up and hold steadier)"}

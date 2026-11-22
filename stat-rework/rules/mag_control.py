@@ -30,10 +30,10 @@ def restat(item, ctx, base):
         d = set_default(item, ctx)
         e_rel = e - (d["ergonomics"] if d and d["name"] != item["name"] else 0.0)
         h, r = box_split(e_rel)
-        return {"handling": h, "reload_speed": r, "stability": 0.0,
+        return {"handling": h, "reload_points": r, "stability": 0.0,
                 "_rule": f"capacity extension: E{e_rel:+g}, like a longer mag (r 2.125x, h 0.25x)"}
     if "sleeve" in cat:
-        return {"handling": SLEEVE_HANDLING_PER_E * e, "reload_speed": SLEEVE_RELOAD_PER_E * e, "stability": 0.0,
+        return {"handling": SLEEVE_HANDLING_PER_E * e, "reload_points": SLEEVE_RELOAD_PER_E * e, "stability": 0.0,
                 "_rule": "grip sleeve: half handling (full grip), half reload (guides the insert)"}
-    return {"handling": 0.0, "reload_speed": QOL_RELOAD_PER_E * e, "stability": 0.0,
+    return {"handling": 0.0, "reload_points": QOL_RELOAD_PER_E * e, "stability": 0.0,
             "_rule": "reload part: all value in reload (2.5x)" if e else "standard part: 0"}

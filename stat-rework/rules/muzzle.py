@@ -87,11 +87,11 @@ def split(item):
         inches = extension_inches(item)
         s = -inches if e < 0 else 0.0
         h, s = keep_value(e, s)
-        return {"handling": h, "reload_speed": 0.0, "stability": s,
+        return {"handling": h, "reload_points": 0.0, "stability": s,
                 "_rule": f"muzzle: barrel extension {inches:g}in, -1 stability/in, handling keeps old value"}
     share = STABILITY_SHARE[k]
     h, s = keep_value(e, share * e)
-    return {"handling": h, "reload_speed": 0.0, "stability": s,
+    return {"handling": h, "reload_points": 0.0, "stability": s,
             "_rule": f"muzzle: {k}, stability {share:g} of old value, handling the rest (EV kept)"}
 
 

@@ -94,7 +94,7 @@ TYPES = {
     "kazarov_group_ak12_gen3_stock_cheekpad": "cheek", "kazarov_group_ak12_gen3_stock_cheekpad_extended": "cheek",
 }
 
-# Whole gun bodies: (handling, reload_speed, stability, reason)
+# Whole gun bodies: (handling, reload_points, stability, reason)
 FURNITURE = {
     "mosin_standard_stock": (1, 0, 9.5, "full-length sniper stock: the steady reference"),
     "mosin_carbine_stock": (3, 0, 3, "shorter carbine stock: handier, less steady"),
@@ -159,7 +159,7 @@ def weight_lean(item, ctx):
 
 
 def finish(h, r, s, why):
-    return {"handling": round_half(h), "reload_speed": round_half(r), "stability": round_half(s), "_rule": why}
+    return {"handling": round_half(h), "reload_points": round_half(r), "stability": round_half(s), "_rule": why}
 
 
 def lean_split(item, ctx, t_type, k):

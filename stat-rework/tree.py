@@ -16,14 +16,14 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 RAW = os.path.join(HERE, "data", "raw")
 REPO = os.path.dirname(HERE)
 
-NEW_STATS = ["handling", "reload_speed", "stability"]
+NEW_STATS = ["handling", "reload_time", "stability"]
 OLD_COLUMNS = [
     "id", "class", "name", "pretty_name", "ergonomics", "weight", "horizontal_recoil",
     "vertical_recoil", "magazine_capacity", "barrel_deviation", "bullet_damage", "bullet_velocity",
     "buck_barrel_deviation", "fire_rate", "muzzle_loudness", "price",
 ]
 NEW_COLUMNS = [
-    "id", "class", "name", "pretty_name", "handling", "reload_speed", "stability", "weight",
+    "id", "class", "name", "pretty_name", "handling", "reload_time", "stability", "weight",
     "horizontal_recoil", "vertical_recoil", "magazine_capacity", "barrel_deviation", "bullet_damage",
     "bullet_velocity", "buck_barrel_deviation", "fire_rate", "muzzle_loudness", "price",
 ]

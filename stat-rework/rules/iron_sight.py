@@ -54,7 +54,7 @@ MISFILED = {
 
 def delegate(item, fam, ctx, why):
     """Re-stat an item with another family's rules (its real physics)."""
-    out = rules.restat(dict(item, family=fam), ctx)
+    out = rules._restat_points(dict(item, family=fam), ctx)
     out["_rule"] = f"{why}; {fam} rules: {out.get('_rule', '')}"
     return out
 
@@ -65,7 +65,7 @@ def iron(item, factor=None):
     if factor is None:
         factor = FIXED_FACTOR if (item["name"] in FIXED_TALL or item["name"] in CARRY_HANDLES) else FOLDING_FACTOR
     kind = "fixed tall" if factor == FIXED_FACTOR else "iron sight"
-    return {"handling": factor * e, "reload_speed": 0.0, "stability": 0.0,
+    return {"handling": factor * e, "reload_points": 0.0, "stability": 0.0,
             "_rule": f"{kind}: handling {factor:g} x old ergo"}
 
 

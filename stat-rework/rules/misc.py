@@ -125,7 +125,7 @@ def as_family(item, fam, ctx):
             out = None
             base["_rule"] += f" ({fam} rules raised {e!r})"
     out = dict(out or base)
-    for k in ("handling", "reload_speed", "stability"):
+    for k in ("handling", "reload_points", "stability"):
         out.setdefault(k, base[k])
     out["_rule"] = f"misc, re-statted as {fam}: " + str(out.get("_rule") or base["_rule"])
     return out
@@ -135,7 +135,7 @@ def restat(item, ctx, base):
     n = item["name"]
     if n in CQR_SPACERS:
         h, r, s = CQR_SPACERS[n]
-        return {"handling": h, "reload_speed": r, "stability": s,
+        return {"handling": h, "reload_points": r, "stability": s,
                 "_rule": "misc, CQR spacer (stock part): longer = steadier, slightly slower to shoulder"}
     fam = REAL_FAMILY.get(n)
     if fam:

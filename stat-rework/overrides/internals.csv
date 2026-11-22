@@ -1,5 +1,5 @@
-name,handling,reload_speed,stability,note
+name,handling,reload_time,stability,note
 kf_416_trigger,1,0,2,"mil-spec single-stage trigger like hart_m4a1_std_trigger; equalised to remove a free domination over it"
 aft_mk20_gas_block,4,0,0.5,"low-profile gas block without a front sight base: slim front end leans to handling"
-corvus_mounts_m4_trigger_guard,3.5,9.5,0,"R700 bottom metal (internal box) filed as a trigger guard; reload control, trimmed to keep reload under 10"
-hera_arms_straight_pull_charging_handle,2,9,0,"non-reciprocating side charger: quickest to work on empty reloads; separates it from the lighter Raptor"
+corvus_mounts_m4_trigger_guard,3.5,-0.033,0,"R700 bottom metal (internal box) filed as a trigger guard; reload control, trimmed to keep reload under 10 points (3.6% of time)"
+hera_arms_straight_pull_charging_handle,2,-0.032,0,"non-reciprocating side charger: quickest to work on empty reloads; separates it from the lighter Raptor"

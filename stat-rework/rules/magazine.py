@@ -1,4 +1,4 @@
-"""Magazines: reload_speed carries most of the value, capacity is the trade.
+"""Magazines: reload_points carries most of the value, capacity is the trade.
 
 Rules, in plain words (E = old ergonomics, no weight credit):
 
@@ -99,7 +99,7 @@ def box_split(e_rel):
 def tube_split(item, ctx):
     d = set_default(item, ctx)
     e_rel = item["ergonomics"] - (d["ergonomics"] if d else 0.0)
-    return {"handling": TUBE_HANDLING_PER_E * e_rel, "reload_speed": TUBE_RELOAD_PER_E * e_rel, "stability": 0.0,
+    return {"handling": TUBE_HANDLING_PER_E * e_rel, "reload_points": TUBE_RELOAD_PER_E * e_rel, "stability": 0.0,
             "_rule": f"shotgun tube: E{e_rel:+g} vs default cap, reload 1.5x / handling 0.5x (per-shell loader)"}
 
 
@@ -137,4 +137,4 @@ def restat(item, ctx, base):
             why += ", drum/quad: no faster than the slowest stick"
     if material(item):
         why += f", material {material(item):+g}"
-    return {"handling": h, "reload_speed": r, "stability": 0.0, "_rule": why}
+    return {"handling": h, "reload_points": r, "stability": 0.0, "_rule": why}

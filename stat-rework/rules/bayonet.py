@@ -31,12 +31,12 @@ def assembly_ergo(item, ctx):
 def restat(item, ctx, base):
     cat = item["category"]
     if cat in SUB_PART_CATEGORIES:
-        return {"handling": 0.0, "reload_speed": 0.0, "stability": 0.0,
+        return {"handling": 0.0, "reload_points": 0.0, "stability": 0.0,
                 "_rule": f"bayonet sub-part: weight only, its {item['ergonomics']:+g} moved to the blade"}
     if cat == "Bayonet Lug":
-        return {"handling": item["ergonomics"], "reload_speed": 0.0, "stability": 0.0,
+        return {"handling": item["ergonomics"], "reload_points": 0.0, "stability": 0.0,
                 "_rule": "bayonet lug: small muzzle clamp, handling = E"}
     e = assembly_ergo(item, ctx)
-    return {"handling": SPLIT_H * e, "reload_speed": 0.0, "stability": SPLIT_S * e,
+    return {"handling": SPLIT_H * e, "reload_points": 0.0, "stability": SPLIT_S * e,
             "_rule": f"bayonet blade: assembly ergo {item['ergonomics']:+g} -> {e:+g} incl. sub-parts, "
                      f"split {SPLIT_H}/0/{SPLIT_S} (front mass and length)"}

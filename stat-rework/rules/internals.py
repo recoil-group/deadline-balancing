@@ -33,7 +33,7 @@ KIND_SPLIT = {
     # kind: ((handling, reload, stability) fractions of old ergonomics, lean strength, lean axis)
     "selector": ((1.6, 0.0, 0.0), 0.0, "stability"),
     "enhanced_safety": ((0.8, 1.2, 0.0), 0.0, "stability"),
-    "control": ((0.7, 1.3, 0.0), 0.2, "reload_speed"),
+    "control": ((0.7, 1.3, 0.0), 0.2, "reload_points"),
     "trigger": ((0.5, 0.0, 1.0), 0.4, "stability"),
     "trigger_guard": ((0.8, 0.0, 0.5), 0.4, "stability"),
     "case_deflector": ((0.8, 0.0, 0.9), 0.5, "stability"),
@@ -99,12 +99,12 @@ def restat(item, ctx, base):
     e = item["ergonomics"]
     kind = kind_of(item, ctx)
     if kind == "thumb_rest":
-        return {"handling": e, "reload_speed": 0.0, "stability": 1.0,
+        return {"handling": e, "reload_points": 0.0, "stability": 1.0,
                 "_rule": "takedown lever as thumb rest: +1 stability, old value as handling"}
     if kind == "hidden" and e != 0:
         return None  # not expected; keep the default family split
     if e == 0:
-        return {"handling": 0.0, "reload_speed": 0.0, "stability": 0.0,
+        return {"handling": 0.0, "reload_points": 0.0, "stability": 0.0,
                 "_rule": f"internals {kind}: no effect on handling, reload or sway"}
     vec, lean, axis = KIND_SPLIT[kind]
     z = mass_z(item, ctx) if lean else 0.0

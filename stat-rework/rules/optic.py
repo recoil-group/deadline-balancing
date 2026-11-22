@@ -82,7 +82,7 @@ MISFILED = {
 
 def split(e, vec, why):
     a_h, a_r, a_s = vec
-    return {"handling": a_h * e, "reload_speed": a_r * e, "stability": a_s * e, "_rule": why}
+    return {"handling": a_h * e, "reload_points": a_r * e, "stability": a_s * e, "_rule": why}
 
 
 def sight_vector(e):
@@ -126,7 +126,7 @@ def restat(item, ctx, base):
     if n in IRON_IN_OPTIC:
         return iron_sight.iron(item)
     if n in HEAT_SHIELDS:
-        return {"handling": e / rules.W_H, "reload_speed": 0.0, "stability": 0.0,
+        return {"handling": e / rules.W_H, "reload_points": 0.0, "stability": 0.0,
                 "_rule": "suppressor heat shield: old value as handling (offsets its own weight; cosmetic)"}
     if item["category"] in ACCESSORY_CATEGORIES or n in ACCESSORY_NAMES:
         return accessory(item, ctx)

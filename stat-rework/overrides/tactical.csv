@@ -1,2 +1,2 @@
-name,handling,reload_speed,stability,note
+name,handling,reload_time,stability,note
 holosun_ls321g,-1,,,"compact modern combo (LS321 is smaller than the boxy PEQ-2A it otherwise ties); -1 instead of -1.5 so the heavier, pricier unit is not strictly worse"

@@ -16,6 +16,7 @@ category agents, validated only by build simulation. Nothing here has been playt
 | `review/<family>.csv` | One sheet per family. Each item's old ergonomics next to its new three stats, grouped by competing set, with its EV, the team's strength score before and after, the rule that produced it, and its profile, role, real-world counterpart, confidence and one line of why. Start here. |
 | `profiles/<family>.csv` | Round 7's source of truth for handling and stability: each part's profile, role and research (RULES.md section 15). Edit a row here to change how a part splits. |
 | `review/research_flags.csv` | What the round-7 review found outside handling and stability: other-column values that look wrong, reload and cycling questions, misfiled parts. For the team; nothing in it was applied unless the notes say so. |
+| `review/half_points.csv` | Every half point left after the round-8 whole-number rounding, with the part it is kept apart from (RULES.md section 16). |
 | `review/spread.csv` | Per competing set, how far handling and stability spread against how far ergonomics did (`spread.py`). |
 | `review/weapon.csv` | Weapon base rows. |
 | `review/simulation_report.md` | Stock, reference (official setups and presets) and optimised builds for every weapon, plus the validation checks. |
@@ -33,7 +34,7 @@ category agents, validated only by build simulation. Nothing here has been playt
 - **EV** (`0.60·h + 0.40·r + 0.47·s`) is a part's value in old ergonomics points, with `r` the
   reload points its `reload_time` is worth (1% less time ≈ 2.75 points); it should sit near the old
   ergonomics. A big gap always has a note.
-- **reload_time** is a fraction of the weapon's base reload time; lower is better. `-0.033` is 3.3%
+- **reload_time** is a fraction of the weapon's base reload time; lower is better. `-0.03` is 3%
   less time, which the review sheets also show as `reload_pct`. Part values are the earlier reload
   points converted (`RULES.md` section 2), so the default magazine of every set is 0. Reload is
   re-statted per kind of part (`reload_scope.py`, `RULES.md` section 13): magazines by capacity,
@@ -78,10 +79,13 @@ Pipeline:
 4. `profiles.py` then sets every part's handling and stability from its row in
    `profiles/<family>.csv` (profile, role, optional value or explicit values), and gives the
    stockless options their values once every stock is known. This replaces the family rules'
-   handling and stability, which survive only as the rule note.
+   handling and stability (the magazine rule still supplies a magazine's handling).
 5. `lean.py` (the ×2 lean pass of earlier rounds) is switched off. `overrides/lead.csv` is empty;
    the round-6 overrides only compensated the weight leans and were removed.
-6. `weapon_identity.csv` holds each weapon's anchor and identity offsets; `--calibrate` turns them
+6. `rounding.py` rounds every part's handling and stability to whole numbers, keeping a half point
+   only where it keeps an order or a distinction inside a set (round 8).
+7. `weapon_identity.csv` holds each weapon's anchor, identity offsets and the reference builds left
+   out of calibration (`exclude_refs`); `--calibrate` turns them
    into `weapon_bases.csv`, which is what the weapon rows get.
 
 To retune handling and stability: change a part's row in `profiles/` (or a profile's coefficients,

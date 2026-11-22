@@ -34,3 +34,10 @@ Handling and stability now come from each part's row in `profiles/bayonet.csv` (
 Bayonets cost handling (`handling`); containers and blank rows are `zero`.
 
 Profiles: zero 6, handling 5. Unidentified counterparts: 0.
+
+## Round 8
+
+The blades now carry their assembly's old net, since the grips and slings are zero: both AKM blades
+and the M9 −2, the M11 −3 (handling only, stability 0; the front-mass damping already sits in
+their vertical recoil). The split described at the top of this file (h 0.8·A, s 1.0·A) is history.
+

@@ -103,7 +103,8 @@ same place:
 - Large single-part values: stocks up to about ±20, barrels to about ±12 per stat. Everything else
   rarely beyond ±10. Reload: −8% (short magazines) to +16% (large drums), hardware −1.5% to −5%
   (section 13).
-- Handling and stability are in 0.5 steps; reload_time comes from the section 13 tables.
+- Handling and stability are whole numbers since round 8, with a half point only where it keeps an
+  order or a distinction inside a set (section 16); reload_time comes from the section 13 tables.
 
 ## 6. Structure of the tree
 
@@ -219,7 +220,8 @@ stability.
 - **Ammunition**: handling E, stability 0.85·E, reload 0 (section 9; one switch to zero).
 - **Tactical devices**: handling 1.6·E only.
 - **Bayonets**: handling 0.8·A and stability 1.0·A of the whole assembly's value A (front mass
-  and length make it sway more); grips and slings 0.
+  and length make it sway more); grips and slings 0. (History: since round 7 a bayonet is
+  handling only, h = A, the assembly's old net on the blade; round 8 restored that net.)
 - **Misc**: each item re-statted by the family it really belongs to.
 
 ## 11. Lead decisions on cross-family items (history; the round-6 overrides are gone, section 15)
@@ -288,7 +290,7 @@ same-capacity magazines drop their old reload difference.
 | magazine pull or seating aid (mag assists, loop and bumper bottom plates) | −3% |
 | large add-on release paddle | −2% |
 | enhanced bolt catch, bolt release or slide catch (empty reloads) | −2% |
-| enhanced charging handle | −(1% + 0.25% per 0.01 dw), rounded to 0.1%: −1.5% (0.02 dw) to −3.7% (0.11 dw side charger) |
+| enhanced charging handle | −(1% + 0.25% per 0.01 dw), to the whole percent, or the half percent where two handles of one set at least 0.5% apart would round alike (round 8): −1.5% (0.02 dw) to −4% (0.11 dw side charger) |
 | standard releases, plates, magwells, charging handles and bolts | 0 |
 
 A charging handle's latch size is what changes how fast it is grabbed, and the part's weight
@@ -378,7 +380,7 @@ outside the magazine families) or as cycling fire rate. The profile splits it:
 |---|---|---|---|
 | `even` | 0.935 V | 0.935 V | the default: pistol grips, handguards, rail panels, receivers, triggers, gas blocks, pump forends, ammunition, adjustable stocks |
 | `handling`, `optic_compact`, `mount`, `barrel` | V | 0 | sights, mounts, compact optics (3× and under), controls, barrel length, muzzle devices, lasers, lights, bayonets |
-| `optic_scope` | V | 0.2 V | magnified optics above 3× and LPVOs: a small stability tax on magnification |
+| `optic_scope` | V | 0.2 min(V, 0) | magnified optics above 3× and LPVOs: a small stability tax on magnification, never a bonus (round 8) |
 | `stock_precision`, `grip_vertical`, `grip_pod` | 0.5 V | 1.49 V | precision stocks, vertical foregrips, bipod grips |
 | `stock_fixed` | 0.75 V | 1.17 V | fixed rifle stocks |
 | `stock_compact`, `grip_angled` | 1.15 V | 0.66 V | minimal, PDW, wire stocks and braces; angled grips and handstops |
@@ -386,7 +388,7 @@ outside the magazine families) or as cycling fire rate. The profile splits it:
 | `cheek_riser` | 0.25 V | 1.81 V | cheek risers |
 | `buttpad` | 0 | 2.13 V | pads, butt plates, length-of-pull spacers |
 | `stockless` | handiest stock on its weapons + 2 | what is left of V, between −12 and −4 | the "no stock" options |
-| `magazine` | the magazine rule's handling, never a bonus | 0 | magazines and capacity extensions; shotgun tubes 0.5 per old point |
+| `magazine` | the magazine rule's handling, never a bonus; 0 at the standard capacity; a drum no handier than the least handy stick (round 8) | 0 | magazines and capacity extensions; shotgun tubes 0.5 per old point |
 | `reload_only`, `zero` | 0 | 0 | magwells, releases, assists, bolt catches, enhanced charging handles; containers and cosmetics |
 
 - Every profile keeps EV, except the handling-only ones: they keep **h = V**, today's ADS effect,
@@ -394,13 +396,14 @@ outside the magazine families) or as cycling fire rate. The profile splits it:
   ergonomics also bought were never physical for a sight, a muzzle device or a barrel. Their EV is
   0.6 V; most are penalties, so they cost a little less EV than before, and builds aim as today.
 - A penalty (V < 0) on a stability-leaning profile goes to handling (a heavy precision stock or a
-  bulky vertical grip is slow to bring up, not unsteady); on a handling-leaning profile it splits
-  evenly.
+  bulky vertical grip is slow to bring up, not unsteady), but since round 8 the part still steadies:
+  stability max(2, −V), handling the rest, EV 0.6 V. On a handling-leaning profile it splits evenly.
 - Stocks lean by type; a stock gets a role on top only where its type cannot express it (a
   precision stock worth E 1, a stock with a negative value).
 
 **Roles** are an EV-neutral swing on top of the profile: **marksman** handling −H, stability
-+1.28 H; **compact** the reverse. **H = 3 on major parts** (stocks, barrels, handguards, receivers)
++1.28 H; **compact** the reverse. **H = 3 on major parts** (stocks, barrels, handguards, receivers,
+and since round 8 any part on a barrel, stock or handguard profile filed in another family)
 and **1.5 on the rest**, 1.5× for `strong`. At 4/2 a fully kitted marksman G3 sat 26 handling
 below today; at 3/1.5 it sits 24 below with stability 90, which is the steer the role is meant to
 give. A role part's EV is unchanged by the swing; where its old ergonomics only compensated its
@@ -415,4 +418,49 @@ stocked build.
 stability cost; ammunition splits evenly (`rules/ammo.py`'s zero switch no longer applies, set
 ammunition rows to `zero` instead); handguards are even with the mild long/short lean; barrels are
 "length costs handling", with heavy, bull and match barrels as marksman parts.
+
+## 16. Whole numbers and the sense check (round 8)
+
+**Whole numbers** (`rounding.py`, the last step of the generator). Every part's handling and
+stability are rounded to whole points: of the whole pairs around the part's two values, the one
+with the lowest cost wins, where cost is how far the part's value moves (EV) plus 0.5 EV per point
+the furthest-moved stat travels. The value stays close without pushing one stat far from its own
+number, and nothing is always rounded up or down. An even part gets the same integer for both.
+
+A half point stays only where whole numbers would misstate a competing set. Among like-for-like
+parts of a set (the same hosted child slots, as in the domination check; on a rail also the same
+family and profile):
+
+- no reversal: a part ahead of another on a stat before rounding is not behind it after;
+- no new difference: parts equal on a stat stay equal on it;
+- no new tie: parts that differed at half points do not become identical in all three stats.
+
+A part in conflict first tries its other whole pair if that keeps its value within 0.55 EV; else it
+keeps the nearest half-point pair that resolves the conflict. `review/half_points.csv` lists every
+remaining half value and the part it is kept apart from; the rule column says the same.
+
+- **Weapon base rows** are whole numbers (`weapons.py`); they compete with nothing.
+- **Part reload_time** comes from the section 13 tables, which are whole percents except the
+  enhanced charging handles: those are rounded to the whole percent, or to the half percent where
+  two handles of one set at least 0.5% apart would round alike. Weapon base factors stay at 0.1%.
+
+**Calibration** (`weapon_identity.csv`, `exclude_refs`): a reference build that turns the gun into
+another class is left out of the median that sets the weapon base, so the base lands on one kind of
+gun: the Remington 870's stockless Tampa shorty, the SCAR-H's Mk20 SSR and the AK-12's two RPK-16
+builds. The simulation still reports them.
+
+**Sense check.** 35 reviewers asked of every part and every set whether a balancer who knows the
+parts would say the number makes sense. The fixes are in `profiles/<family>.csv`, each with
+"Round 8:" and its reason in `why`; the class-wide ones are rules:
+
+- stability-leaning parts with a negative value still steady (section 15);
+- `optic_scope` stability never positive;
+- standard-capacity magazines have handling 0, like their reload (the old differences were
+  material noise); a drum is no handier than the least handy stick it competes with;
+- misfiled barrels, stocks and handguards take the major role swing;
+- the review note (`rule`) names only what sets the values: the reload kind, the cycling price, the
+  profile, the rounding; the earlier family-rule notes are gone;
+- the two KOSCH .40 +10 extensions count against the slot's standard 15-round magazine (+4%, not +8%).
+
+Judgment calls were left as they are and are listed in the balancing report.
 

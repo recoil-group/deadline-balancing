@@ -94,7 +94,7 @@ reload duration = animation length x (1 + weapon row reload_time) x clamp(1 + su
   - Magazines and extensions by capacity against the slot's standard magazine: short −8%, reduced −4%, standard 0, extended +4%, long +8%, drums and quads +12% or +16%.
   - Magwells −3% (large funnels −5%), enhanced releases and pull aids −3%, bolt and slide catches −2%, enhanced charging handles −1.5% to −3.7% by size.
   - Stocks, grips, handguards, barrels, muzzles, optics, shotgun tube extensions and the rest hold `0`.
-- The default magazine of each slot is `0`. Values are written to 0.001 (0.1% of time).
+- The default magazine of each slot is `0`. Part values are whole percents (a few charging handles take a half percent); weapon base factors are written to 0.001 (0.1% of time).
 - Draw speed (mobility) and the minor animations (handling) are not affected.
 
 Breath-hold drains the arm-stamina bar (60 for everyone) at `4.5/s` at 0 stability, `3.0/s` at 50 and `1.5/s` at 100, multiplied by `1 + 0.2 x seconds held`. Holding breath removes sway entirely and is impossible at an empty bar. Aiming drains the same bar at a rate set by mobility.
@@ -108,7 +108,7 @@ EV = 0.60 * handling + 0.40 * reload_points + 0.47 * stability     (in old ergon
 reload_points = (1.1 / (1 + reload_time) - 1.1) / 0.004              (1% of reload time ~ 2.75 points)
 ```
 
-How the rework set the two stats per part: every part has a profile. The default is an even split (a part that is simply nicer is better at both). Stocks lean by type (precision and fixed towards stability, compact and braces towards handling, no stock very handy and clearly unsteady), foregrips by shape (vertical towards stability, angled towards handling), buttpads and cheek risers towards stability, and optics, sights, mounts, barrels, muzzle devices, lasers and lights hold handling only (large scopes also cost a little stability). Parts built for one kind of gun carry a role on top: marksman parts trade handling for stability, compact parts the reverse. Nothing leans by weight, which already pays for mobility. `stat-rework/profiles/` holds each part's profile, role and real-world counterpart.
+How the rework set the two stats per part: every part has a profile. The default is an even split (a part that is simply nicer is better at both). Stocks lean by type (precision and fixed towards stability, compact and braces towards handling, no stock very handy and clearly unsteady), foregrips by shape (vertical towards stability, angled towards handling), buttpads and cheek risers towards stability, and optics, sights, mounts, barrels, muzzle devices, lasers and lights hold handling only (large scopes also cost a little stability). Parts built for one kind of gun carry a role on top: marksman parts trade handling for stability, compact parts the reverse. Values are whole numbers; a half point appears only where it keeps two parts of one slot in the right order or apart. Nothing leans by weight, which already pays for mobility. `stat-rework/profiles/` holds each part's profile, role and real-world counterpart.
 
 A sheet that still has an `ergonomics` column and none of the three loads with handling and stability equal to its ergonomics and reloads exactly as it does today.
 

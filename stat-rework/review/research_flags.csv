@@ -223,64 +223,111 @@ misfiled,receiver,tt33_slide_catch,Tokarev TT-33 slide stop,reload control
 misfiled,stock,moe_stock_pad,Magpul MOE stock butt pad,buttpad not stock
 misfiled,tactical,pm_laser_ltsu_pm_laser,PM-Laser LTsU Makarov laser grip,pistol grip (laser grip) not tactical
 other,ammo,10mm_chicago_ammunition_220gr_rnfp,generic 10mm 220gr hardcast RNFP (maker unidentified),recoil -4/-2 looks wrong for a 220gr load
+other,ammo,10mm_chicago_ammunition_220gr_rnfp,generic 10mm 220gr hardcast RNFP (maker unidentified),"(round 8) Recoil -4/-2 is implausible for a 220gr hardcast (sister Polar 220gr is +3/+5), once fixed, its +1 ergo against Polar's -3 inverts too."
 other,ammo,45acp_munitions_incorporated_230gr_subsonic_tmj,.45 ACP 230gr subsonic TMJ (maker unidentified),loudness empty while every 230gr .45 in the slot has -0.6
+other,ammo,45acp_munitions_incorporated_230gr_subsonic_tmj,.45 ACP 230gr subsonic TMJ (maker unidentified),"(round 8) Loudness empty while every 230gr .45 has -0.6, a subsonic load should be at least that quiet (orphan, moot unless wired up)."
 other,ammo,45acp_phoenix_brass_230gr_fmj,CCI Blazer Brass .45 ACP 230gr FMJ,loudness empty while every 230gr .45 in the slot has -0.6
 other,ammo,7.62x54r_tsniitekhmash_7n37_182gr_bs,7.62x54R 7N37 BS tungsten AP,velocity +200 likely high
+other,ammo,7.62x54r_tsniitekhmash_7n37_182gr_bs,7.62x54R 7N37 BS tungsten AP,"(round 8) Velocity +200 looks high, real 7N37 runs about LPS speed with a heavier bullet (round-7 flag, still open)."
 other,ammo,7.82x51_hawthorne_308_sub_x_190gr_subsonic,Hornady Subsonic .308 Win 190gr Sub-X,velocity -400 far too small for a subsonic (real ~1050 vs ~2750 fps)
+other,ammo,7.82x51_hawthorne_308_sub_x_190gr_subsonic,Hornady Subsonic .308 Win 190gr Sub-X,"(round 8) Velocity -400 is far too small for a subsonic (other subsonics are -1000 to -1200), internal name prefix 7.82x51 is a typo."
+other,ammo,7.82x51_laccio_308app_extrema_leadless_168gr_tipped_tsx_bt,Fiocchi Extrema .308 Win 168gr Barnes TTSX,(round 8) Internal name prefix 7.82x51 is a typo for 7.62x51.
 other,ammo,9x18_bison_caliber_115gr_hcfn,Buffalo Bore 9x18 115gr hardcast FN +P,recoil h 32 / v 65 is wildly out of range (rest of set is -1..2)
+other,ammo,9x18_bison_caliber_115gr_hcfn,Buffalo Bore 9x18 115gr hardcast FN +P,"(round 8) Recoil h 32 / v 65 against -1..2 for the rest of the set, almost certainly a typo (3.2 / 6.5?)."
 other,ammo,9x18_tsniitekhmash_sp7_gzh_80gr,9x18 SP-7 high-velocity expanding,recoil h 40 / v 55 is wildly out of range (rest of set is -1..2)
+other,ammo,9x18_tsniitekhmash_sp7_gzh_80gr,9x18 SP-7 high-velocity expanding,"(round 8) Recoil h 40 / v 55 against -1..2 for the rest of the set, almost certainly a typo (4 / 5.5?)."
 other,barrel,cmmg_mk9_406mm_9x19_m_barrel,CMMG Mk9 16in 9mm barrel (mid-length handguard fit),"same 16in length as _c and _r but E -3/-4/-5, the gap only makes sense if handguard length is implied"
 other,barrel,cnc_warrior_m14x1lh_to_5_8x24rh_muzzle_thread_adapter,CNC Warrior M14x1LH to 5/8x24 thread adapter,velocity -30 and deviation 0.15 are high for a thread adapter
+other,barrel,cnc_warrior_m14x1lh_to_5_8x24rh_muzzle_thread_adapter,CNC Warrior M14x1LH to 5/8x24 thread adapter,"(round 8) Thread adapter with velocity -30, deviation 0.15 and recoil +2/+2 is heavy for a thread adapter."
 other,barrel,ips_1_2x28_to_5_8x24_knurled_thread_adapter,generic 1/2x28 to 5/8x24 knurled thread adapter,"bullet_velocity -200, recoil +2/+2 and deviation 0.2 look far too large for a thread adapter"
+other,barrel,ips_1_2x28_to_5_8x24_knurled_thread_adapter,generic 1/2x28 to 5/8x24 knurled thread adapter,"(round 8) Thread adapter with bullet_velocity -200, recoil +2/+2 and deviation 0.2 is far too large for pitch-adapter hardware."
 other,barrel,mosin_bramit_7.62x54r_suppressor,Bramit (BraMit) Mosin suppressor,"round-6 note classed it as flash_hider, should use suppressor treatment"
 other,barrel,rat_worx_aug_5.56x45_supp_adapter,Rate Worx / Ratworx AUG 1/2x28 suppressor adapter,bullet_velocity +30 on a thread adapter is odd
+other,barrel,rat_worx_aug_5.56x45_supp_adapter,Rate Worx / Ratworx AUG 1/2x28 suppressor adapter,"(round 8) Thread adapter carries bullet_velocity +30, an adapter should not add velocity."
 other,barrel,roosevelt_model_700_508mm_.308_heavy_barrel,Remington 700 20in heavy .308 (SPS Varmint/Tactical),weight 1.0 lighter than 22in standard 1.1
+other,barrel,roosevelt_model_700_508mm_.308_heavy_barrel,Remington 700 20in heavy .308 (SPS Varmint/Tactical),"(round 8) Heavy 20in weighs 1.0 (threaded 0.99), lighter than the 22in sporter at 1.1, a heavy contour should weigh at least as much."
 other,barrel,roosevelt_model_700_508mm_.308_heavy_threaded_barrel,Remington 700 20in heavy threaded .308 (SPS Tactical),weight 0.99 lighter than 22in standard 1.1
 other,handguard,cgr_abomination,unidentified decorative picatinny rail panel,price 1000 vs 50-300 for functionally identical panels
+other,handguard,cgr_abomination,unidentified decorative picatinny rail panel,"(round 8) CGR decorative panels (all 14) cost 1000 vs 50-700 for functionally identical plain panels, confirm a cosmetic premium is intended."
+other,handguard,steyr_aug_a3_sa_xs_top_rail,Steyr AUG A3 SA (USA) short top rail,"(round 8) Recoil +1/+2 on a top rail mount while every neighbouring rail reduces or leaves recoil, looks like a sign slip."
 other,handguard,tt_c_optic_rail,generic TT-33 optic rail adapter,price 1000 for a zero-effect only-choice rail looks odd
+other,handguard,tt_c_optic_rail,generic TT-33 optic rail adapter,(round 8) Price 1000 for a zero-effect only-choice TT-33 rail adapter looks wrong
 other,internals,aft_mk20_gas_block,FN SCAR 20S / Mk20 SSR low-profile gas block,bullet_velocity +100 and deviation -0.05 on a gas block look like barrel stats borrowed from the Mk20
+other,internals,corvus_mounts_m4_trigger_guard,Badger Ordnance M5 detachable bottom metal,"(round 8) Category says Trigger Guard but it is Badger M5 detachable bottom metal competing in the R700 magwell set, reload -3% from old E 7 itself reads right."
+other,internals,fireline_pm_straight_trigger,unidentified (aftermarket Makarov straight trigger),"(round 8) Aftermarket flat trigger carries v_recoil +1, a trigger shoe has no reason to add vertical recoil."
 other,internals,hk_psg1_bolt_assembly,HK PSG1 bolt assembly,weight 0 while the G3 bolt is 0.3 dw
+other,internals,hk_psg1_bolt_assembly,HK PSG1 bolt assembly,"(round 8) Weight 0 while the G3 bolt is 0.3 dw, the PSG1 bolt should weigh about the same (round-7 flag)."
 other,internals,kalis_scalar_gen3_trigger,KRISS Vector Gen III trigger,price 300 on an only-choice zero-stat part looks odd
+other,internals,kalis_scalar_gen3_trigger,KRISS Vector Gen III trigger,"(round 8) Price 300 on an only-choice factory trigger with zero stats looks like a leftover, every other Vector trigger is 0."
 other,internals,smite_industries_polyflex_ar15_trigger_guard,Strike Industries polymer trigger guard,weight 0.08 dw (about 94 g) looks heavy for a polymer trigger guard
 other,internals,strikon_scr_ar15_frt_trigger,Rare Breed FRT-15 style forced-reset trigger,real FRT raises fire rate
+other,internals,strikon_scr_ar15_trigger,unidentified (AR-15 mil-spec trigger),"(round 8) Unidentified mil-spec default trigger has recoil -2/-2 while the 2250 FRT has 0/0, a plain trigger reducing recoil looks wrong."
 other,iron_sight,hart_m4a1_carry_handle,Colt M4 detachable carry handle,old E +3 for a tall heavy carry handle exceeds any flip-up BUIS (0-1)
 other,iron_sight,kazarov_ak74m_front_sight_block,AK-74M front sight block,+1 vs AK-74 block 0 has no real basis
+other,iron_sight,r870_std_front_sight,Remington 870 bead front sight,(round 8) weight 0.1 dw (about 118 g) looks heavy for an 870 bead front sight.
 other,iron_sight,sanxian_qbz95_carry_handle,Norinco QBZ-95 carry handle,recoil -1/-3 on a carry handle looks odd
 other,iron_sight,tristar_compact_carry_handle,unidentified compact carry handle,old E +4 at 0.3 dw is the best value in the set for the bulkiest item
 other,iron_sight,vism_pro_rear_600m,"NcSTAR VISM Pro flip-up rear, 600m aperture",E 3 vs 1 for the 200m aperture looks inconsistent
+other,mag_control,cosmotac_blastar_vkarmw_magwell,VISM Blast AR magwell funnel,"(round 8) Recoil -1/-1 on a plain clamp-on funnel, while the Rhino R-23 (a real magwell grip) has none, FANG magwells also carry -1 to -2 recoil. Check intent."
 other,mag_control,mp133_+2r_mag_ex,Baikal MP-133 +2 magazine tube extension,magazine_capacity is blank for tube extensions
 other,mag_control,mp133_+4r_mag_ex,Baikal MP-133 +4 magazine tube extension,magazine_capacity is blank for tube extensions
+other,magazine,5.56x45_dragoon_systems_l5awm_gen2_30r_opaque_mag,Lancer L5AWM 30rd opaque,"(round 8) Weight 0.28 dw equals the PMAG 20R, a real L5AWM 30R weighs about the same as a PMAG 30 (0.41). Translucent twin too."
+other,magazine,5.56x45_kf_416_gen_3_magazine,HK416 Gen 3 steel 30rd magazine,"(round 8) HK steel 30R weighs 0.41 dw, the same as the polymer PMAG 30, a steel HK mag is clearly heavier in reality."
 other,magazine,7.62x39_rkm_korean_ak_10r_mag,Korean (RKM) AK 7.62x39 10R,pretty name reads ProClip AK-47 Polymer 40R but the item is the Korean RKM 10R (capacity 10)
+other,magazine,7.62x39_rkm_korean_ak_10r_mag,Korean (RKM) AK 7.62x39 10R,(round 8) pretty_name reads ProClip AK-47 Polymer 40R but the item is the Korean RKM 10R (capacity 10).
 other,magazine,9x19_glock_stick_31r_vector,Glock 33R 9mm stick (Vector variant),name says 31R but magazine_capacity is 29
+other,magazine,9x19_glock_stick_31r_vector,Glock 33R 9mm stick (Vector variant),"(round 8) Name says 31R (counterpart 33R) but magazine_capacity is 29, unreachable item."
 other,magazine,custom_hart_smg_9x19_50r_extension,Coupled 50R 9mm mag on the Colt SMG coupler (custom),"old E -45 gives handling -11.2, far beyond any drum here, and only 0.57 dw for 50 rounds"
+other,magazine,custom_pm_ppsh_9x18_84r_drum_mag,PPSh-41 71R drum converted to 9x18 (custom),"(round 8) Only magazine in the chunk with recoil (h +4, v -1), a heavy drum under a pistol adding horizontal recoil looks unintended"
+other,misc,45mm_cqr,HERA Arms CQR 45mm buttstock spacer,"(round 8) AR CQR spacers carry recoil (30mm h -1, 45mm h -2 v -1) while the identical AK CQR spacers carry none."
 other,misc,hk_ump9_bcg,HK UMP9 bolt group,price 500 vs 0 for the UMP45 bolt on an only-choice internal
+other,misc,hk_ump9_bcg,HK UMP9 bolt group,"(round 8) UMP9 bolt group priced 500 against 0 for the UMP45 bolt, both are only-choice internals."
 other,misc,kazarov_ak_cleaning_rod,Kalashnikov AK-74 cleaning rod,v_recoil -1 and deviation +0.02 on a cleaning rod look unjustified
+other,misc,kazarov_ak_cleaning_rod,Kalashnikov AK-74 cleaning rod,"(round 8) Both AK-74 and AK-105 cleaning rods carry v_recoil -1 and deviation, a cleaning rod should have no ballistic effect."
 other,misc,kazarov_ak_short_cleaning_rod,Kalashnikov AK-105 short cleaning rod,v_recoil -1 and deviation +0.01 on a cleaning rod look unjustified
 other,misc,maxwell_grip,generic (Maxwell cat meme figurine),weight 4 dw (4.7 kg) and price 10000 look deliberate joke values - confirm the weight penalty is intended
 other,misc,mcs_lss_xl_nv_hood_oversize,MDT LSS-XL Gen2 night vision hood oversized,"same old E as the small hood despite more weight and an extra M-LOK slot, maybe -2.5"
 other,misc,mk10_bottom_adapter_large,generic M-LOK Picatinny rail section (long),same E as small at 2.5x weight
 other,misc,mk10_bottom_adapter_small,generic M-LOK Picatinny rail section (short),bottom adapters carry +2 h/v recoil while side/top do not
+other,misc,mk10_bottom_adapter_small,generic M-LOK Picatinny rail section (short),"(round 8) Both MK10 bottom adapters (small and large) carry +2 h/v recoil while identical side and top adapters carry none, check intent."
 other,misc,sno_vulkan_rpg_7_rear_sight_zeroing_rail_folded,RPG-7 rear sight (folded),folded sight has same +1 as raised one and hosts no sight
 other,muzzle,alphadog_alpha9_flipped,Alpha Dog Silencers Alpha 9 (inverted),old E -5 vs -6 for the unflipped twin
+other,muzzle,ferro_ordnance_mc51sd_suppressor,HK MC51SD suppressor,"(round 8) Price empty, like the AUG A1 tulip, every other suppressor here has a price."
+other,muzzle,kazarov_ak105_6p44_020_compensator,Izhmash AK-105 6P44 muzzle brake,"(round 8) Carries fire_rate 0.05 on an automatic, unlike the 74U booster, the AK-105 brake has no cycling reason. Confirm intent."
 other,muzzle,odin_works_tiduro_thread_adapter_module,Odin Works thread adapter,plain adapter carries recoil -9/-9 and velocity -30
+other,muzzle,odin_works_tiduro_thread_adapter_module,Odin Works thread adapter,"(round 8) Plain thread adapter carries recoil -9/-9 and velocity -30 like a device, it should probably be near zero."
 other,muzzle,steyr_aug_a1_tulip_5.56x45_closed_flash_hider,Steyr AUG A1 closed tulip flash hider,price empty while siblings have one
 other,muzzle,tiger_rock_ar10_7.62x51_barrett_style_muzzle_brake_with_jam_nut,Barrett-style 2-chamber AR-10 brake (generic Rock River/DPMS style),velocity -20 and deviation +0.1 odd for a brake
+other,muzzle,tiger_rock_ar10_7.62x51_barrett_style_muzzle_brake_with_jam_nut,Barrett-style 2-chamber AR-10 brake (generic Rock River/DPMS style),"(round 8) h_recoil is +8 (every other muzzle device is negative), plus velocity -20 and deviation +0.1, likely a sign or copy error."
 other,muzzle,tt_pmlaser_dtk_compensator,PM-Laser DTK-TT compensator,velocity -100 large for a compensator
 other,muzzle,watcher_armory_kosch_10mm_comp_weight_compensator,unidentified pistol comp weight,velocity -100 large for a compensator
+other,optic,corvus_mounts_c1_30mm_accessory_arc_ring_cap,Badger Ordnance C1 30mm 12 o'clock accessory ARC ring cap,"(round 8) pretty_name duplicates the 30mm T1/T2 optical half tube plate, should read Accessory ARC Ring Cap."
+other,optic,corvus_mounts_c1_34mm_accessory_arc_ring_cap,Badger Ordnance C1 34mm 12 o'clock accessory ARC ring cap,"(round 8) pretty_name duplicates the 34mm T1/T2 optical half tube plate, should read Accessory ARC Ring Cap."
 other,optic,cosmotac_marsv2_bottom,unidentified (clamp-on picatinny rail for plastic M4 handguard),recoil 1/5 on a rail clamp looks odd
 other,optic,cosmotac_vism_micro_green_dot_red_laser_vdgrlb,NcSTAR VISM micro green dot with red laser,round-6 rule used bulky-sight 1.5x
 other,optic,gunther_mrs_red_dot_sight,Walther MRS reflex sight,old E -6 is heavy for a small budget reflex (Holosun-class are -2)
 other,optic,holotec_owl_lens_caps,laser module lens caps,"+1 ergo on lens caps has no real basis, consider zero"
+other,optic,nariakira_inline_scout_picatinny_mount,Arisaka Inline Scout Mount Picatinny,"(round 8) Weaponlight mount sitting in the optic rail set, slot or category is wrong, values fine at 0"
 other,optic,pac_ras_g3_azimuth_99048_30mm_mount,G3 handguard rail with 30mm Aimpoint ring,"+3 ergo is unusual for a mount, check intent"
 other,optic,pro_tactical_upr_16_4_bottom,unidentified (clamp-on picatinny rail for plastic M4 handguard),recoil 2/2 on a rail clamp looks odd
+other,optic,pro_tactical_upr_16_4_bottom,unidentified (clamp-on picatinny rail for plastic M4 handguard),"(round 8) Recoil 2/2 (and CosmoTac MARSV2 bottom 1/5) on a clamp-on rail, while the identical top versions carry none."
+other,optic,taclite_rac_gen2_7inch_suppressor_shield,MODTAC suppressor shield 7in,"(round 8) v_recoil -1 on all four suppressor heat shields, a mirage shield should not reduce recoil."
+other,optic,target_sports_mmh94_picatinny_top,unidentified (HK G3/HK94 aftermarket handguard top Picatinny),(round 8) Recoil -1/-1 on a handguard top rail section while the M-LOK top carries none.
 other,optic,veles_chelomo_pk06_kobra_sight,ChOMZ PK-06 collimator sight,round-6 rule used bulky-sight 1.5x
 other,receiver,axtell_defense_mk12_upper_receiver,Daniel Defense MK12 SPR upper,h/v recoil +1/+2 (worse) is odd for a free-floated SPR upper
 other,receiver,hk_ump9_upper_receiver,HK UMP9 upper receiver (9mm),old +7 E on a same-size upper looks like balance compensation
 other,receiver,kf_m38_sdmr_lower_receiver,HK M38 SDMR lower receiver,barrel_deviation -0.05 on a lower has no physical basis
+other,receiver,kf_m38_sdmr_lower_receiver,HK M38 SDMR lower receiver,"(round 8) barrel_deviation -0.05 on a lower receiver has no physical basis, the M38 difference is barrel and optic."
 other,receiver,precision_intercontinental_roosevelt_700_sa_at_aics_gen2_folding_chassis_frame,Accuracy International AT AICS 2.0 folding chassis,V=25 is very large even for a chassis
+other,receiver,sic_sturmer_p226_drd_sight_plate_cover,SIG P226 optic-cut cover plate,(round 8) pretty_name is swapped with sic_sturmer_p226_flush_drd_sight_plate_cover (Flush vs plain Sight Plate).
+other,receiver,strikon_scr_rifle_lower_receiver,Troy SCR (Sporting Configurable Rifle) lower,"(round 8) v_recoil +12 on a lower receiver is far out of line with the set (others -3 to 0), check it is intended."
 other,receiver,thorsden_frs15_gen3_ar15_endplate,Thordsen Customs FRS-15 Gen III (modelled as endplate only),real FRS-15 Gen III is a full featureless fixed stock (~0.35-0.6 kg) but here weighs 0.07 kg and behaves as stockless
+other,stock,kazarov_group_ak12_gen3_stock_cheekpad_extended,Kalashnikov AK-12 (2020) stock extended/raised cheek pad,"(round 8) Recoil 1/2 on the taller cheek pad while the standard pad has none, no physical reason a taller pad adds recoil."
 other,stock,mosin_promag_archangel_stock,ProMag Archangel OPFOR Mosin-Nagant precision stock,old E 1 so stock_precision gives almost nothing
+other,stock,rpl_20_cheek_pad_high,Kalashnikov RPL-20 / AK-12 stock cheek pad (high),"(round 8) Recoil 1/2 on the high cheek pad while the low pad has none, same oddity as the AK-12 Gen 3 extended pad."
+other,stock,strikon_scr_rubber_buttpad,unidentified (870 stock rubber recoil pad),"(round 8) Rubber recoil pad worth E 2 has blank recoil, while the E 1 AR pads all give -1/-1."
 other,stock,tsa_g,unidentified,E -15 with worse recoil at 2000 price looks odd for an unknown part
+other,tactical,whitehouse_rush_qe_g18_high_power_laser_aiming_device,Wilcox RAID Xe High Power (G18),"(round 8) pretty_name says G14 on the G18 id, likely copy-paste, should read G18."
 reload,internals,aquila_defensio_aug_charging_handle,unidentified aftermarket AUG charging handle,if this is an enlarged/extended handle it may deserve a small reload bonus like the Cerberus Raptor
 reload,mag_control,arid_concepts_aug_mag_release_std_paddle,"Arid Defense AUG improved mag release, standard paddle",default paddle with old E0.5 that the current rule moved into handling 1.0
 reload,mag_control,dragoon_systems_l7awm_bottom_plate,Lancer L7AWM floorplate,"standard floorplate with old E1, current rule moved it to handling 1.7"

@@ -67,21 +67,16 @@ foregrip,rail:picatinny:foregrip#9c3fb7,ecm_gunslinger_mod3_picatinny_foregrip,l
 foregrip,rail:picatinny:foregrip#9c3fb7,ecm_gunslinger_mod3_picatinny_foregrip_flipped,launchtron_psrl_plastic_foregrip,stat difference,True,handling+stability+horizontal_recoil,300.0,800.0
 foregrip,rail:picatinny:foregrip#9c3fb7,magtap_rcp_mag412_foregrip,launchtron_psrl_plastic_foregrip,stat difference,True,handling+stability+vertical_recoil,300.0,800.0
 foregrip,rail:picatinny:foregrip#9c3fb7,mission_first_folding_grip,launchtron_psrl_plastic_foregrip,stat difference,True,horizontal_recoil,400.0,800.0
-foregrip,rail:picatinny:foregrip#9c3fb7,okb_crazy_romanian_picatinny_half_grip,launchtron_psrl_plastic_foregrip,stat difference,True,handling+stability+vertical_recoil,600.0,800.0
 foregrip,rail:picatinny:foregrip#9c3fb7,pts_validus_shift_tactical_grip,launchtron_psrl_plastic_foregrip,stat difference,True,horizontal_recoil+vertical_recoil,600.0,800.0
 foregrip,rail:picatinny:foregrip#9c3fb7,rtm_pillau_tactical_grip,launchtron_psrl_plastic_foregrip,stat difference,True,handling+stability+horizontal_recoil+vertical_recoil,300.0,800.0
-foregrip,rail:picatinny:foregrip#9c3fb7,targetdown_bgv_mk46k_grip,launchtron_psrl_plastic_foregrip,stat difference,True,horizontal_recoil+vertical_recoil,600.0,800.0
 foregrip,rail:picatinny:foregrip#9c3fb7,timber_creek_enforcer_foregrip,launchtron_psrl_plastic_foregrip,stat difference,True,horizontal_recoil+vertical_recoil,700.0,800.0
 foregrip,rail:picatinny:foregrip#9c3fb7,viking_tactical_uvg_grip,launchtron_psrl_plastic_foregrip,stat difference,True,handling+stability+vertical_recoil,800.0,800.0
-foregrip,rail:mlok:foregrip#47333e,dd_enhanced_mvg,okb_crazy_romanian_mlok_half_grip,stat difference,True,vertical_recoil,400.0,600.0
-foregrip,rail:picatinny:foregrip#9c3fb7,stark_se_5_express_forward_grip,okb_crazy_romanian_picatinny_full_grip,stat difference,True,handling+stability+vertical_recoil,400.0,800.0
 handguard,"slot:scalar_handguard|scalar_gen1_handguard,scalar_gen2_handguard#cf0a71",kalis_scalar_mk3_handguard,kalis_scalar_mk5_handguard,stat difference,True,handling+stability+horizontal_recoil,1000.0,2000.0
 handguard,slot:ak_handguard|#060bfd,cugir_pm_md63_wooden_sharkfin_mlok_bottom_handguard,magtap_ak_zhukov_u_lower_handguard,stat difference,True,handling+stability+horizontal_recoil+vertical_recoil,1500.0,1500.0
 handguard,slot:ak_handguard_alt|#c79703,was_woodworks_lower_ak_handguard_with_handstop_alt,magtap_ak_zhukov_u_lower_handguard_alt,stat difference,True,horizontal_recoil+vertical_recoil,1000.0,1500.0
 handguard,slot:mosin_mount|#05cef7,resolute_ind_mount,resolute_ind_mi24c_mount,stat difference,True,handling,600.0,800.0
 internals,slot:ar15_trigger|#c98cdd,kf_416_trigger,hart_m4a1_std_trigger,stat difference,True,handling+stability,0.0,0.0
 internals,slot:sic_p_series_takedown_lever|#2e79de,sic_sturmer_sic_p_series_oem_takedown_lever,lasevex_sic_p_series_takedown_lever,stat difference,True,handling,0.0,200.0
-muzzle,slot:9x19_muzzle_device|#34ba03,alphadog_alpha9_flipped,alphadog_alpha9,stat difference,True,handling,1000.0,1000.0
 muzzle,slot:5.56x45_muzzle_device|#25ceba,ewc_5.56x45_blackout_18_tooth_flash_hider,hart_607_car15_3.5inch_flash_moderator,stat difference,True,vertical_recoil,500.0,500.0
 optic,slot:carry_handle_mount|m16a2_upper#655931,alistair_ar332_prism_3x_sight_carry_handle,alistair_ar536_prism_5x_sight_carry_handle,stat difference,True,stability,1300.0,2700.0
 optic,slot:r870_top_mount|#ed11d4,leopard_atg_pro_mtu_028sg_mount,hg_shortrail_ghost_ring_rear_sight,stat difference,True,handling,900.0,1000.0
@@ -233,7 +228,6 @@ handguard,rail:scalar_side_rails:handguard#3e3d8b,kalis_scalar_7_slot_left_side_
 handguard,rail:scalar_side_rails:handguard#453581,kalis_scalar_7_slot_misc_rail,kalis_scalar_9_slot_misc_rail,"variant: identical stats, heavier (length or visual variant)",True,,0.0,200.0
 handguard,rail:picatinny:handguard#6da5fd,axtell_defense_5inch_picatinny_rail_panel,pac_11rib_railpanel,"variant: identical stats, heavier (length or visual variant)",False,,500.0,600.0
 handguard,rail:picatinny:handguard#6da5fd,pac_9rib_railpanel,pac_11rib_railpanel,"variant: identical stats, heavier (length or visual variant)",False,,500.0,600.0
-handguard,rail:picatinny:handguard#6da5fd,pac_2rib_railpanel,pac_4rib_railpanel,"variant: identical stats, heavier (length or visual variant)",False,,100.0,200.0
 handguard,rail:picatinny:handguard#6da5fd,axtell_defense_3inch_picatinny_rail_panel,pac_6rib_railpanel,"variant: identical stats, heavier (length or visual variant)",False,,300.0,400.0
 handguard,rail:picatinny:handguard#6da5fd,pac_5rib_railpanel,pac_6rib_railpanel,"variant: identical stats, heavier (length or visual variant)",False,,300.0,400.0
 handguard,rail:picatinny:handguard#6da5fd,xtm_2_piece,pac_6rib_railpanel,"variant: identical stats, heavier (length or visual variant)",False,,200.0,400.0
@@ -257,9 +251,18 @@ handguard,slot:omm_board|rear#0be807,sc_irregulars_omm_4_slot_board_rear,sc_irre
 handguard,slot:omm_board|rear#0be807,sc_irregulars_omm_6_slot_board_rear,sc_irregulars_omm_8_slot_board_rear,"variant: identical stats, heavier (length or visual variant)",True,,400.0,500.0
 handguard,rail:vallais_accesssory_rails:handguard#36c8c7,vallais_2_hole_grip_compat_rail,vallais_3_hole_grip_compat_rail,"variant: identical stats, heavier (length or visual variant)",True,,100.0,150.0
 handguard,rail:vallais_accesssory_rails:handguard#7b21c3,vallais_2_hole_misc_rail,vallais_3_hole_misc_rail,"variant: identical stats, heavier (length or visual variant)",True,,100.0,150.0
+internals,slot:ar15_charging_handle|#e2458d,combat_arms_rack_charging_handle,ardian_weapons_raptor_ambi_ar15_charging_handle,"variant: identical stats, heavier (length or visual variant)",False,,600.0,750.0
+internals,slot:ar15_charging_handle|#e2458d,tc_enforcer_small_charging_handle,diemaco_c7_ambi_charging_handle,"variant: identical stats, heavier (length or visual variant)",True,,300.0,400.0
+internals,slot:aft_charging_handle|#b28f1e,apex_bolt_handle_for_scar,dynamic_development_group_ambi_scarging_handle,"variant: identical stats, heavier (length or visual variant)",False,,500.0,500.0
+internals,slot:ar15_charging_handle|#e2458d,tc_enforcer_small_charging_handle,kf_416_e1_ambi_charging_handle,"variant: identical stats, heavier (length or visual variant)",True,,300.0,500.0
+internals,slot:ar15_charging_handle|#e2458d,tc_enforcer_charging_handle,tactispec_victory_charging_handle,"variant: identical stats, heavier (length or visual variant)",False,,300.0,500.0
+internals,slot:ak_bolt_charging_handle|#37a0f5,tss_custom_ak_bolt_on_oversize_gen3_charging_handle,veles_rp1_ak_charging_handle,"variant: identical stats, heavier (length or visual variant)",False,,600.0,750.0
 iron_sight,rail:picatinny:iron_sight#1ea371,axtell_defense_rock_lock_rail_mounted_fixed_front_sight,axtell_defense_rock_lock_a1.5_fixed_rear_sight,"variant: identical stats, heavier (length or visual variant)",True,,700.0,700.0
+iron_sight,slot:edc_x9_front_sight|#da29f4,whitner_defense_edc_x9_snagfree_front_sight_green,hughnitions_company_extra_high_front_sight,"variant: identical stats, heavier (length or visual variant)",False,,0.0,200.0
+iron_sight,slot:edc_x9_front_sight|#da29f4,whitner_defense_edc_x9_snagfree_front_sight_red,hughnitions_company_extra_high_front_sight,"variant: identical stats, heavier (length or visual variant)",False,,0.0,200.0
 iron_sight,slot:pf940_rear_sight|#3d14a7,glock17_gen4_sf_rear_sight,hughnitions_company_extra_high_rear_sight,"variant: identical stats, heavier (length or visual variant)",True,,100.0,500.0
 iron_sight,slot:pf940_rear_sight|#3d14a7,glock20_lf_rear_sight,hughnitions_company_extra_high_rear_sight,"variant: identical stats, heavier (length or visual variant)",True,,0.0,500.0
+iron_sight,slot:ak_front_sight_block|ak74#fc01ec,kazarov_ak74_front_sight_block,kazarov_ak74m_front_sight_block,"variant: identical stats, heavier (length or visual variant)",False,,0.0,500.0
 iron_sight,slot:ak_rear_sight_block|ak74#a04ef8,kazarov_ak74_rear_sight_block,kazarov_akm_rear_sight_block,"variant: identical stats, heavier (length or visual variant)",True,,0.0,0.0
 iron_sight,slot:makarov_rear_sight|#ec2fd9,izhevsk_pm_std_rear_sight,rtm_pm1_makarov_rear_sight,"variant: identical stats, heavier (length or visual variant)",True,,0.0,500.0
 iron_sight,slot:pf940_rear_sight|#3d14a7,glock17_gen4_sf_rear_sight,sof_industries_aim_glock_rear_sight,"variant: identical stats, heavier (length or visual variant)",True,,100.0,600.0
@@ -272,7 +275,11 @@ iron_sight,slot:pf940_rear_sight|#3d14a7,glock20_lf_rear_sight,truglo_glock_tfx_
 iron_sight,slot:pf940_rear_sight|#3d14a7,glock17_gen4_sf_rear_sight,virticon_glock_supp_height_rear_sights_wh_sf,"variant: identical stats, heavier (length or visual variant)",True,,100.0,300.0
 iron_sight,slot:pf940_rear_sight|#3d14a7,glock20_lf_rear_sight,virticon_glock_supp_height_rear_sights_wh_sf,"variant: identical stats, heavier (length or visual variant)",True,,0.0,300.0
 mag_control,slot:kosch_small_mag_plate|40sv#21edf9,dante_freelance_kosch_40sv_10r_pistol_magex,dante_freelance_kosch_40sv_10r_carbine_magex,"variant: identical stats, heavier (length or visual variant)",False,,800.0,800.0
+magazine,slot:magazine_762x39_akm|#9482f3,7.62x39_akms_aluminium_30r_mag,7.62x39_kazarov_akm_6l10_30r_mag,"variant: identical stats, heavier (length or visual variant)",False,,750.0,800.0
+magazine,slot:magazine_762x39_akm|#9482f3,7.62x39_akms_aluminium_30r_mag,7.62x39_promag_ak47_polymer_mag_30r,"variant: identical stats, heavier (length or visual variant)",False,,750.0,1000.0
 magazine,slot:hk_mp5_9x19_magazine|#b201a6,hk_mp5_std_curved_30r_9x19_magazine,hk_mp5_straight_30r_9x19_magazine,"variant: identical stats, heavier (length or visual variant)",False,,0.0,500.0
+magazine,slot:magazine_5.45x39|#994229,5.45x39_6l26,kuvalda_rpk_5.45x39_6l18_45r_mag,"variant: identical stats, heavier (length or visual variant)",False,,1600.0,1600.0
+magazine,slot:magazine_7.62x51_fn_fal|#c0437e,rsa_sg58_far_metric_polymer_magazine_20r,nm_far_polymer_mag_20r,"variant: identical stats, heavier (length or visual variant)",False,,1000.0,1500.0
 magazine,slot:magazine_762x51_ak308|#c19026,7.62x51_kazarov_group_ak308_20r_mag,springfield_armory_m14_7.62x51_modified_20r_mag,"variant: identical stats, heavier (length or visual variant)",False,,0.0,750.0
 magazine,slot:magazine_762x51_ak308|#c19026,sgm_tactical_saiga308_20r_mag,springfield_armory_m14_7.62x51_modified_20r_mag,"variant: identical stats, heavier (length or visual variant)",False,,750.0,750.0
 misc,slot:mk10_bottom|#0f5a0b,mk10_bottom_adapter_small,mk10_bottom_adapter_large,"variant: identical stats, heavier (length or visual variant)",True,,0.0,0.0
@@ -318,5 +325,6 @@ tactical,slot:holotec_hood_mount|#cb6934,holotec_eolad_2_civilian_sighting_syste
 tactical,rail:picatinny:tactical#e5d414,las_tac_2,insight_technology_wmx200_fixed_mount_tactical_illuminator,"variant: identical stats, heavier (length or visual variant)",True,,750.0,1200.0
 tactical,rail:picatinny:tactical#e5d414,sig_sauer_foxtrot1_flashlight,insight_technology_wmx200_fixed_mount_tactical_illuminator,"variant: identical stats, heavier (length or visual variant)",True,,900.0,1200.0
 tactical,slot:centrefire_light_body|#b2c08a,nariakira_300_series_light_body,nariakira_18650_series_light_body,"variant: identical stats, heavier (length or visual variant)",True,,500.0,750.0
+tactical,rail:picatinny:tactical#021e84,insight_technology_an_peq_5_cvl,sightmark_lopro_mini_combo,"variant: identical stats, heavier (length or visual variant)",False,,600.0,600.0
 tactical,rail:picatinny:tactical#021e84,las_tac_2,veles_klesch_2p_lcu,"variant: identical stats, heavier (length or visual variant)",True,,750.0,1000.0
 tactical,rail:picatinny:tactical#021e84,sig_sauer_foxtrot1_flashlight,veles_klesch_2p_lcu,"variant: identical stats, heavier (length or visual variant)",True,,900.0,1000.0

@@ -77,3 +77,13 @@ foregrip: nothing on the front of the gun plausibly changes the reload.
 ## Round 5: reload scope
 
 No foregrip affects reload. The one part with reload (`hk_mp5k_polymer_handguard`) has it moved into handling and stability (EV kept; `reload_scope.py`).
+
+## Round 6: pump forends
+
+The pump forends are the shotguns' cycling interface and carry `fire_rate` (`cycling.py`, RULES.md
+section 14), priced at 1.5 EV per 1% and taken out of (or given back to) their handling and
+stability, EV kept:
+
+- R870: SpeedFeed (default) 0; Magtap MOE +3% (h 11 / s 3 → h 5 / s 1.5); P.R.O Tactical PR870
+  −2% (h 1 / s 11 → h 4.5 / s 13.5: the steady, slower forend).
+- MP-133: beechwood (default) 0; plastic +2% (h 6.5 / s 4.5 → h 3.5 / s 2.5).

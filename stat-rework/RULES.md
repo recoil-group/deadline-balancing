@@ -13,8 +13,8 @@ point come from the code contract (summarised in `../knowledge/stats.md`).
 | `stability` | idle sway (hip and aimed), sway while moving, breath-hold cost; **50 = today's feel** | mass at the shoulder and hands, a firm stock and cheek weld, front support (foregrips, handstops, bipods); worse with long barrels and front-heavy ends, no stock, braces, folded stocks |
 | weapon weight (not a column) | draw, stow, sprint-out, aimed move speed, aim stamina drain, turn lag (held gun) and travel speed (all carried guns) | already priced by the weight column |
 
-Fire rate also drives bolt and pump cycling now. `fire_rate` on parts of manually cycled weapons is
-left as it was; nothing new was added.
+Fire rate also drives bolt and pump cycling now. On the manually cycled weapons, the parts that are
+the cycling interface carry `fire_rate` (section 14); nothing else on them does.
 
 ## 2. Value accounting
 
@@ -114,7 +114,8 @@ same place:
 
 Recoil, deviation, velocity, damage, loudness, capacity, fire rate and price are left alone. A rule
 or override may change one only where the redistribution genuinely needs it, with the reason in
-the note; every such change is listed in `review/other_column_changes.csv`.
+the note; every such change is listed in `review/other_column_changes.csv`. The only ones are the
+five cycling parts' `fire_rate` (section 14).
 
 ## 8. Weapon base values
 
@@ -282,7 +283,6 @@ same-capacity magazines drop their old reload difference.
 | large add-on release paddle | −2% |
 | enhanced bolt catch, bolt release or slide catch (empty reloads) | −2% |
 | enhanced charging handle | −(1% + 0.25% per 0.01 dw), rounded to 0.1%: −1.5% (0.02 dw) to −3.7% (0.11 dw side charger) |
-| easier-working Mosin bolt or bolt handle (Resolute bolt, Crazy Ivan knob) | −2% |
 | standard releases, plates, magwells, charging handles and bolts | 0 |
 
 A charging handle's latch size is what changes how fast it is grabbed, and the part's weight
@@ -312,3 +312,40 @@ a lighter one.
   were too small to matter (most were under 1%), and this step sizes them on purpose: magwells and
   releases gain about 1–4 EV, and light drums that the old sheet under-charged lose several.
 - The lean pass (section 12) runs after this step and keeps EV.
+
+## 14. Cycling parts carry fire rate (round 6)
+
+`cycling.py`, applied in `rules.restat` after the reload step. Bolt and pump cycling follows the
+completed fire rate, so on the manually cycled weapons the parts that are the cycling interface
+carry `fire_rate` (a fraction of base RPM), and nothing else does. Semi-automatic and automatic
+weapons are untouched.
+
+| Weapon (base RPM) | Part | fire_rate | Reason |
+|---|---|---|---|
+| Remington 870 (128) | SpeedFeed forend (default) | 0 | |
+| | Magtap MOE forend | +3% | contoured, ridged forend: a fast, sure stroke |
+| | P.R.O Tactical PR870 forend | −2% | railed forend: more mass to cycle; it is the steady option |
+| MP-133 (156) | beechwood forend (default) | 0 | |
+| | plastic forend | +2% | lighter synthetic forend: a quicker stroke |
+| Mosin (50) | Mosin Default bolt (default), infantry bolt and handle | 0 | |
+| | Resolute bolt | +1% | smoother aftermarket bolt |
+| | Crazy Ivan bolt knob (on the infantry bolt) | +1% | enlarged knob |
+| R700 (50) | — | — | bolt face, plug and firing pin are single-choice parts |
+
+- **Ranges.** Pumps: a few percent either way (R870 125–132 RPM, MP-133 156–159). Bolts: at most
+  +1% (Mosin 50–50.5 RPM), because a faster bolt raises the shot cadence, which ergonomics never
+  did, so it is new power. Receivers, stocks, grips, barrels, optics and the rest get nothing.
+  The R870 Tampa Shorty receiver changes the tube, not the pump stroke.
+- **Moved from reload.** The Resolute bolt and Crazy Ivan knob carried reload in round 5. Their
+  reason is really cycling, so their reload is 0 and their value is redirected (below).
+- **Price, in old ergonomics points per 1% of fire rate:**
+  - Pumps 1.5. Before the rework one ergonomics point moved a pump by about 0.66% of its RPM
+    (the R870 spanned 79–164 RPM over 0–100 ergonomics), so 1% of pump RPM is what 1.5 points
+    bought in cycling.
+  - Bolts 3.0, twice the pump price. On a bolt rifle the time to the next shot is the weapon's
+    main limit, and no part could move it before.
+- **Redirected, not added.** The EV a part carries as fire_rate (`PRICE × percent`) is taken out
+  of its handling and stability, in the proportions of value it has there; a slower part (the
+  PR870) gets it back. The lean pass then runs as usual. The review sheets' EV includes the
+  fire-rate value, so the five parts' EV stays at their old ergonomics.
+- `ENABLED = False` switches the step off.

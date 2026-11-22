@@ -16,7 +16,7 @@ category agents, validated only by build simulation. Nothing here has been playt
 | `review/<family>.csv` | One sheet per family. Each item's old ergonomics next to its new three stats, grouped by competing set, with its EV, the team's strength score before and after, the rule that produced it and the note of any hand-tuned value. Start here. |
 | `review/weapon.csv` | Weapon base rows. |
 | `review/simulation_report.md` | Stock, reference (official setups and presets) and optimised builds for every weapon, plus the validation checks. |
-| `review/other_column_changes.csv` | Every change outside the three new columns, with the reason. |
+| `review/other_column_changes.csv` | Every change outside the three new columns, with the reason (the five cycling parts' `fire_rate`, round 6). |
 | `RULES.md` | The rules the rebalance follows: what each stat owns, value accounting, weight, trade-offs, magnitudes, weapon base values, ammunition. |
 | `notes/<family>.md` | Each family's split rules, in a few lines per sub-category, and its open questions. |
 | `RULES_MINED.md` | What the old sheet and its history imply (the "unwritten rules"). |
@@ -64,6 +64,8 @@ Pipeline:
    `reload_scope.py` then sets every part's reload from its kind (magazines by capacity, controls
    and hardware by type) and gives other parts' old reload share back in handling and stability
    (one switch).
+   `cycling.py` gives the cycling parts of bolt and pump guns `fire_rate`, paid for out of their
+   handling and stability (one switch).
 4. `lean.py` steepens the handling-versus-stability lean in stocks, handguards and grips (EV kept).
 5. `overrides/<family>.csv` sets hand-tuned values; every row has a note.
 6. `weapon_identity.csv` holds each weapon's anchor and identity offsets; `--calibrate` turns them

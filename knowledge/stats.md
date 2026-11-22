@@ -92,7 +92,7 @@ reload duration = animation length x (1 + weapon row reload_time) x clamp(1 + su
 - The **weapon row's** `reload_time` is the weapon's base factor on its native animation length, calibrated so the weapon's typical build reloads as long as it did before the rework. It is not a modifier players see; it defines the weapon's base reload time.
 - Only parts that change the reload action carry it, sized by kind:
   - Magazines and extensions by capacity against the slot's standard magazine: short −8%, reduced −4%, standard 0, extended +4%, long +8%, drums and quads +12% or +16%.
-  - Magwells −3% (large funnels −5%), enhanced releases and pull aids −3%, bolt and slide catches −2%, enhanced charging handles −1.5% to −3.7% by size, Mosin bolt work −2%.
+  - Magwells −3% (large funnels −5%), enhanced releases and pull aids −3%, bolt and slide catches −2%, enhanced charging handles −1.5% to −3.7% by size.
   - Stocks, grips, handguards, barrels, muzzles, optics, shotgun tube extensions and the rest hold `0`.
 - The default magazine of each slot is `0`. Values are written to 0.001 (0.1% of time).
 - Draw speed (mobility) and the minor animations (handling) are not affected.
@@ -164,7 +164,14 @@ completed RPM = base RPM * (1 + fire_rate)
 
 For example, `0.05` increases RPM by 5 percent and `-0.05` reduces it by 5 percent. Property patches can replace RPM or fire modes instead of modifying them.
 
-Completed RPM also sets bolt and pump cycling speed on manually cycled weapons, so a `fire_rate` value on a part of a bolt-action rifle or pump shotgun speeds up or slows down its cycling. Pump shotguns use code-supplied base RPMs chosen to match their old cycle speed.
+Completed RPM also sets bolt and pump cycling speed on manually cycled weapons, so a `fire_rate` value on a part of a bolt-action rifle or pump shotgun speeds up or slows down its cycling. Pump shotguns use code-supplied base RPMs chosen to match their old cycle speed (Remington 870 128, MP-133 156); bolt rifles run at 50.
+
+Only the cycling interface carries `fire_rate` on these weapons, with the default part at 0:
+
+- Pump forends: Remington 870 Magtap MOE `+0.03`, P.R.O Tactical PR870 `-0.02`; MP-133 plastic `+0.02`.
+- Mosin: Resolute bolt and Crazy Ivan knob `+0.01`.
+
+Pumps move a few percent either way; bolts at most 1%, because a faster bolt raises the shot cadence, which is new power on a bolt rifle. For balancing, 1% of fire rate on these weapons is priced at 1.5 old ergonomics points on pumps and 3 on bolt rifles (`stat-rework/RULES.md` section 14).
 
 ### Muzzle loudness
 

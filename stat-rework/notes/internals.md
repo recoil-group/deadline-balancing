@@ -1,8 +1,8 @@
 # Internals family: re-stat notes
 
 Rules live in `rules/internals.py` (it reuses `mass_z` and `split` from `rules/receiver.py`); 4 hand
-overrides in `overrides/internals.csv`. Weight credit 0. No `fire_rate` added or changed anywhere
-(existing trigger and auto-sear fire rates untouched; none reach a bolt or pump gun).
+overrides in `overrides/internals.csv`. Weight credit 0. Existing trigger and auto-sear fire rates are
+untouched; since round 6 the Mosin bolt and knob carry `fire_rate` (below).
 
 ## Split rules (fractions of old ergonomics: handling / reload / stability)
 
@@ -66,6 +66,12 @@ Reload hardware is re-statted by kind (`reload_scope.py`, RULES.md section 13):
 - Bolt catches and releases, and the B.A.R. lever: −2%.
 - KOSCH ambidextrous magazine catch: −3%, like the other enhanced releases.
 - Enhanced charging handles: −(1% + 0.25% per 0.01 dw), so −1.5% for the 0.02 dw extended latches to −3.7% for the 0.11 dw straight-pull side charger. The latch size sets it, and the part's weight measures that size.
-- Resolute bolt and Crazy Ivan knob: −2%.
 - R700 Badger bottom metal: −3%, as a flared well.
 - Standard charging handles (Hart M4, AFT, Scalar, SG58, Aquila AUG), the Mosin default bolt and infantry handle, the AK enhanced safety and triggers hold 0, with their old reload share moved into handling (EV kept).
+
+## Round 6: cycling
+
+The Resolute bolt and the Crazy Ivan knob are cycling parts. Their reload is 0, and each carries
+`fire_rate +0.01` (Mosin 50 → 50.5 RPM), priced at 3 EV and taken out of their handling, so their
+value is unchanged (`cycling.py`, RULES.md section 14). The Mosin default bolt, the infantry bolt
+and the infantry handle are 0. The R700 has no choosable cycling part.

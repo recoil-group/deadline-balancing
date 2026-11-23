@@ -1184,7 +1184,7 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,custom_pm_ppsh_9x18_84r_drum_mag,Custom PM/PPSH 9x18 84R Drum,-12,0.88,4,-1,84,,,,,,,5000
 ,,izhevsk_pm_9x18_8r_magazine,Izhevsk PM 9x18 8R,0,0.09,,,8,,,,,,,0
 ,magazine_9x19_edc_x9,,,,,,,,,,,,,,
-,,whitner_defense_edc_x9_18r_magazine,Whitner Defense EDC X9 Std. 18r,-3,0.22,,,18,,,,,,,1000
+,,whitner_defense_edc_x9_18r_magazine,Whitner Defense EDC X9 Std. 18r,-3,0.24,,,18,,,,,,,1000
 ,,whitner_defense_edc_x9_15r_magazine,Whitner Defense EDC X9 Std. 15r,-2,0.19,,,15,,,,,,,500
 ,,whitner_defense_edc_x9_10r_magazine,Whitner Defense EDC X9 Std. 10r,0,0.14,,,10,,,,,,,0
 ,magazine_9x19_kosch,,,,,,,,,,,,,,

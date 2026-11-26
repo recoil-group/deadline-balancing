@@ -2058,6 +2058,12 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,12g_phoenix_hellfire_300_dragons_breath,12G Phoenix Rising Hellfire 3” Dragon's Breath,,,,,,,,0,,,,4000
 ,,12g_federal_game_load_275_4shot_152x,"12G Federal Game Load 2.75"" 4-Shot (152 Pellets)",5,,,,,,,,0,,,1000
 ,,12g_foxhill_275_mean_bean_bag,"12G Fox Hill 2.75"" Mean Bean Bag",10,,-15,-10,,0.4,,-400,,,,100
+,ammo_357_mag,,,,,,,,,,,,,,
+,,test_357mag,,0,0.01,0,-1,,,,-100,,,,0
+,ammo_44_mag,,,,,,,,,,,,,,
+,,test_44mag,,0,0.03,0,1,,-0.05,,0,,,,0
+,ammo_50_action_express,,,,,,,,,,,,,,
+,,test_50ae,,0,0.05,1,1,,0.05,,100,,,,0
 ,ump_upper_receiver,,,,,,,,,,,,,,
 ,,hk_ump45_upper_receiver,UMK-45 .45 ACP,0,0.39,,,,,,,,,,
 ,,hk_ump9_upper_receiver,UMK-9 9x19,7,0.37,-25,-23,,,,300,,0.25,,4000
@@ -3269,6 +3275,10 @@ id,class,name,pretty_name,ergonomics,weight,horizontal_recoil,vertical_recoil,ma
 ,,sic_sturmer_p226_oem_4.4inch_9x19_barrel,"Sic Stürmer P226 OEM 4.4"" 9x19",0,0.09,0,0,,0.02,,-50,,,,0
 ,,sic_sturmer_p226_oem_5inch_threaded_9x19_barrel,"Sic Stürmer P226 OEM 5"" 9x19",-2,0.12,-1,-1,,0.06,0.01,-20,,,,1200
 ,,suppressors_inc_p226_5inch_threaded_9x19_barrel,"Suppressors Inc. P226 5"" Threaded 9x19",-2,0.13,-1,-1,,0.02,0.01,-20,,,,1800
+,desert_eagle_magazine,,,,,,,,,,,,,,
+,,iwrm_vulcan_paragon_357mag_9r_mag,Vulcan Paragon .357 Magnum 9R,0,0.21,,,9,,,,,,,500
+,,iwrm_vulcan_paragon_44mag_8r_mag,Vulcan Paragon .44 Magnum 8R,0,0.024,,,8,,,,,,,750
+,,iwrm_vulcan_paragon_50ae_7r_mag,Vulcan Paragon .50 Action Express 8R,0,0.28,,,7,,,,,,,0
 ,throwable,,,,,,,,,,,,,,
 ,,F1,F1 Grenade,,0.2,,,,,,,,,,10000
 ,,M67,M67 Grenade,,0.2,,,,,,,,,,0
